@@ -1,154 +1,95 @@
 import { t } from '@/i18n';
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import ActiveFilters from '@/components/catalog/ActiveFilters';
 import CatalogCard from '@/components/catalog/CatalogCard';
 import CatalogEmpty from '@/components/catalog/CatalogEmpty';
 import CatalogToolbar from '@/components/catalog/CatalogToolbar';
+import CatalogPagination from '@/components/catalog/CatalogPagination';
+import CategoryNavigation from '@/components/catalog/CategoryNavigation';
 import FilterPanel from '@/components/catalog/FilterPanel';
 import MobileFilterDrawer from '@/components/catalog/MobileFilterDrawer';
 import AppLink from '@/components/ui/AppLink';
-import { CATEGORIES } from '@/data/categories';
-import { GUITARS } from '@/data/guitars';
+import { CloseIcon, SearchIcon } from '@/components/ui/Icons';
 import useCatalogFilters from '@/hooks/useCatalogFilters';
 
 const PAGE_SIZE = 9;
-const BRAND_TOTAL = new Set(GUITARS.map((g) => g.brand)).size;
 
 export default function CatalogPage() {
   const c = useCatalogFilters();
   const { filters } = c;
   const [drawerOpen, setDrawerOpen] = useState(false);
-  const [limit, setLimit] = useState(PAGE_SIZE);
+  const closeDrawer = useCallback(() => setDrawerOpen(false), []);
+  const resultsRef = useRef(null);
+  const pageCount = Math.max(1, Math.ceil(c.results.length / PAGE_SIZE));
+  const page = Math.min(filters.page, pageCount);
+  const visible = c.results.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 
-  // เปลี่ยน filter/sort/search → กลับไปแสดงหน้าแรกของผลลัพธ์
-  const filterKey = JSON.stringify([filters.q, filters.types, filters.brands, filters.min, filters.max, filters.sort]);
-  useEffect(() => setLimit(PAGE_SIZE), [filterKey]);
-
+  useEffect(() => { document.title = t('catalog.docTitle'); }, []);
   useEffect(() => {
-    document.title = t('catalog.docTitle');
-  }, []);
-
-  const visible = c.results.slice(0, limit);
-  const heading =
-    filters.types.length === 1
-      ? t('catalog.typeGuitars', { name: CATEGORIES.find((x) => x.id === filters.types[0])?.name ?? '' })
-      : t('catalog.allGuitars');
-
+    if (filters.page !== page) c.setPage(page, true);
+  }, [filters.page, page, c.setPage]);
   const panelProps = {
-    filters,
-    typeCounts: c.typeCounts,
-    brandCounts: c.brandCounts,
-    onToggleType: c.toggleType,
-    onToggleBrand: c.toggleBrand,
-    onPrice: c.setPrice,
+    filters, typeCounts: c.typeCounts, brandCounts: c.brandCounts,
+    onToggleType: c.toggleType, onToggleBrand: c.toggleBrand, onPrice: c.setPrice,
+  };
+  const changePage = (next) => {
+    c.setPage(next);
+    resultsRef.current?.focus({ preventScroll: true });
+    resultsRef.current?.scrollIntoView({ block: 'start', behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+  };
+  const submitSearch = (event) => {
+    event.preventDefault();
+    resultsRef.current?.focus({ preventScroll: true });
+    resultsRef.current?.scrollIntoView({ block: 'start', behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
   };
 
   return (
-    <>
-      {/* Header */}
-      <header className="relative isolate border-b border-line pb-12 pt-28 md:pb-16 md:pt-36">
-        <div
-          aria-hidden="true"
-          className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(50%_80%_at_80%_0%,#262626_0%,#0A0A0A_70%)]"
-        />
-        <div className="container-x">
-          <nav aria-label={t('common.breadcrumb')} className="mb-6 flex items-center gap-2 text-sm text-mute">
-            <AppLink href="/" className="transition-colors hover:text-bone">{t('nav.home')}</AppLink>
-            <span aria-hidden="true">/</span>
-            <span className="text-bone/80">{t('nav.guitars')}</span>
-          </nav>
-          <h1 className="font-sans text-4xl font-medium leading-[1.1] tracking-tight md:text-6xl">{heading}</h1>
-          <p className="mt-5 max-w-lg text-base leading-relaxed text-mute md:text-lg">
-            {t('catalog.intro', { n: GUITARS.length, b: BRAND_TOTAL })}
-          </p>
-        </div>
+    <div className="catalog-page discovery-page">
+      <header className="catalog-heading container-x">
+        <nav aria-label={t('common.breadcrumb')} className="discovery-breadcrumb">
+          <AppLink href="/">{t('nav.home')}</AppLink><span aria-hidden="true">›</span><span>{t('nav.guitars')}</span>
+        </nav>
+        <p className="discovery-kicker">FRETLINE / GUITAR DISCOVERY</p>
+        <h1 className="font-serif text-5xl md:text-6xl">Catalog</h1>
+        <p className="mt-1 text-sm text-gold">{t('catalog.tagline')}</p>
+        <form role="search" className="catalog-search" onSubmit={submitSearch}>
+          <SearchIcon size={19} className="shrink-0 text-gold" />
+          <label htmlFor="catalog-search" className="sr-only">{t('toolbar.searchLabel')}</label>
+          <input id="catalog-search" type="search" autoComplete="off" value={filters.q}
+            placeholder={t('toolbar.placeholder')} onChange={(e) => c.setQuery(e.target.value)} />
+          {filters.q && <button type="button" aria-label={t('toolbar.clear')} onClick={() => c.setQuery('')}><CloseIcon size={17} /></button>}
+          <button type="submit" aria-label={t('search.button')} className="catalog-search-submit rounded-md bg-gold"><SearchIcon size={17} /></button>
+        </form>
+        <CategoryNavigation types={filters.types} onSelect={(id) => id === 'all' ? c.setTypes([]) : c.toggleType(id)} />
       </header>
 
-      <CatalogToolbar
-        query={filters.q}
-        onQuery={c.setQuery}
-        sort={filters.sort}
-        onSort={c.setSort}
-        count={c.results.length}
-        activeCount={c.activeCount}
-        onOpenFilters={() => setDrawerOpen(true)}
-      />
-
-      <div className="container-x pb-24 pt-8 lg:grid lg:grid-cols-[272px_minmax(0,1fr)] lg:gap-12 lg:pt-10">
-        {/* Sidebar (Desktop) */}
-        <aside className="hidden lg:block">
-          <div className="sticky top-[168px] max-h-[calc(100svh-190px)] overflow-y-auto pr-2 [scrollbar-width:thin]">
-            <div className="mb-5 flex items-center justify-between">
-              <h2 className="font-sans text-2xl font-medium">{t('filters.title')}</h2>
-              {c.activeCount > 0 && (
-                <button type="button" onClick={c.clearFilters} className="text-sm text-gold transition-colors hover:text-gold-soft">
-                  {t('filters.clearAll')}
-                </button>
-              )}
+      <div className="catalog-body container-x">
+        <aside aria-label={t('filters.title')} className="catalog-sidebar">
+          <div className="sticky top-24 max-h-[calc(100svh-112px)] overflow-y-auto pr-3 [scrollbar-width:thin]">
+            <div className="mb-4 flex items-center justify-between gap-2">
+              <h2 className="text-sm font-medium">{t('filters.title')}</h2>
+              {c.activeCount > 0 && <button type="button" onClick={c.clearFilters} className="min-h-11 text-xs text-gold">{t('filters.clearAll')}</button>}
             </div>
             <FilterPanel {...panelProps} />
           </div>
         </aside>
-
-        {/* Results */}
-        <section aria-label={t('catalog.resultsAria')} className="min-w-0">
-          <p className="mb-5 font-mono text-sm text-mute lg:hidden" aria-live="polite">
-            {t('unit.guitars', { n: c.results.length })}
-          </p>
-
-          <ActiveFilters
-            filters={filters}
-            priceActive={c.priceActive}
-            onRemoveType={c.toggleType}
-            onRemoveBrand={c.toggleBrand}
-            onResetPrice={c.resetPrice}
-            onClearQuery={() => c.setQuery('')}
-            onClearAll={c.clearFilters}
-          />
-
-          {c.results.length === 0 ? (
-            <CatalogEmpty onClear={c.clearFilters} />
-          ) : (
+        <section ref={resultsRef} tabIndex={-1} aria-label={t('catalog.resultsAria')} className="catalog-results min-w-0 scroll-mt-24 focus:outline-none">
+          <CatalogToolbar sort={filters.sort} onSort={c.setSort} count={c.results.length} activeCount={c.activeCount} onOpenFilters={() => setDrawerOpen(true)} />
+          <ActiveFilters filters={filters} priceActive={c.priceActive} onRemoveType={c.toggleType}
+            onRemoveBrand={c.toggleBrand} onResetPrice={c.resetPrice} onClearQuery={() => c.setQuery('')} onClearAll={c.clearFilters} />
+          <p className="catalog-data-note">{t('catalog.dataNote')}</p>
+          {c.results.length === 0 ? <CatalogEmpty onClear={c.clearFilters} /> : (
             <>
-              <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-3 xl:gap-6">
-                {visible.map((guitar, i) => (
-                  <CatalogCard key={guitar.id} guitar={guitar} index={i} />
-                ))}
+              <div className="catalog-grid">
+                {visible.map((guitar, index) => <CatalogCard key={guitar.id} guitar={guitar} index={index} compact />)}
               </div>
-
-              <div className="mt-14 flex flex-col items-center gap-4">
-                <p className="font-mono text-sm text-mute">
-                  {t('catalog.showing', { a: visible.length, b: c.results.length })}
-                </p>
-                <div aria-hidden="true" className="h-px w-48 bg-line">
-                  <div
-                    className="h-px bg-gold transition-[width] duration-500 ease-premium"
-                    style={{ width: `${(visible.length / c.results.length) * 100}%` }}
-                  />
-                </div>
-                {visible.length < c.results.length && (
-                  <button
-                    type="button"
-                    onClick={() => setLimit(limit + PAGE_SIZE)}
-                    className="mt-2 inline-flex h-12 items-center rounded-full border border-white/20 px-8 text-sm text-bone transition duration-300 hover:border-gold hover:text-gold active:scale-[0.98]"
-                  >
-                    {t('catalog.loadMore')}
-                  </button>
-                )}
-              </div>
+              <CatalogPagination page={page} pageCount={pageCount} total={c.results.length} pageSize={PAGE_SIZE} onPage={changePage} />
             </>
           )}
         </section>
       </div>
-
-      <MobileFilterDrawer
-        open={drawerOpen}
-        onClose={() => setDrawerOpen(false)}
-        resultCount={c.results.length}
-        activeCount={c.activeCount}
-        onClear={c.clearFilters}
-        {...panelProps}
-      />
-    </>
+      <MobileFilterDrawer open={drawerOpen} onClose={closeDrawer} resultCount={c.results.length}
+        activeCount={c.activeCount} onClear={c.clearFilters} {...panelProps} />
+    </div>
   );
 }

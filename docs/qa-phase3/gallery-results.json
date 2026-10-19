@@ -1,0 +1,59 @@
+{
+  "checks": [
+    {
+      "name": "Gallery exposes actual supplied thumbnail count",
+      "passed": true
+    },
+    {
+      "name": "Thumbnail changes main image",
+      "passed": true
+    },
+    {
+      "name": "Only active full-size image mounted",
+      "passed": true
+    },
+    {
+      "name": "Lightbox opens",
+      "passed": true
+    },
+    {
+      "name": "Lightbox keyboard next",
+      "passed": true
+    },
+    {
+      "name": "Lightbox keyboard previous",
+      "passed": true
+    },
+    {
+      "name": "Lightbox traps Tab",
+      "passed": true
+    },
+    {
+      "name": "Escape restores gallery opener",
+      "passed": true
+    },
+    {
+      "name": "Mobile swipe advances image",
+      "passed": true
+    },
+    {
+      "name": "Mobile thumbnail navigation retained",
+      "passed": true
+    },
+    {
+      "name": "Broken photo falls back to labelled placeholder",
+      "passed": true
+    },
+    {
+      "name": "Valid image recovers after a broken source",
+      "passed": true
+    },
+    {
+      "name": "Gallery fixture has no runtime errors",
+      "passed": true
+    }
+  ],
+  "fixture_note": "Only runtime in-memory SVG test patterns; no product images or catalog records added to source.",
+  "page_errors": [],
+  "passed": true
+}

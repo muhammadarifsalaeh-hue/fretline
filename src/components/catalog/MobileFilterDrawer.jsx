@@ -1,21 +1,14 @@
 import { t } from '@/i18n';
-import { useEffect } from 'react';
+import { useRef } from 'react';
+import useDialogFocus from '@/hooks/useDialogFocus';
 import { cn } from '@/utils/cn';
 import { CloseIcon } from '@/components/ui/Icons';
 import FilterPanel from './FilterPanel';
 
 /** Bottom sheet สำหรับ filter บนมือถือ/แท็บเล็ต */
 export default function MobileFilterDrawer({ open, onClose, resultCount, activeCount, onClear, ...panelProps }) {
-  useEffect(() => {
-    if (!open) return undefined;
-    document.body.style.overflow = 'hidden';
-    const onKey = (e) => e.key === 'Escape' && onClose();
-    window.addEventListener('keydown', onKey);
-    return () => {
-      document.body.style.overflow = '';
-      window.removeEventListener('keydown', onKey);
-    };
-  }, [open, onClose]);
+  const dialogRef = useRef(null);
+  useDialogFocus(dialogRef, open, onClose);
 
   return (
     <div
@@ -27,6 +20,8 @@ export default function MobileFilterDrawer({ open, onClose, resultCount, activeC
         className={cn('absolute inset-0 bg-black/70 transition-opacity duration-500', open ? 'opacity-100' : 'opacity-0')}
       />
       <div
+        ref={dialogRef}
+        id="catalog-filter-dialog"
         role="dialog"
         aria-modal="true"
         aria-label={t('filters.title')}

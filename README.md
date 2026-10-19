@@ -1,3 +1,5 @@
+> Latest delivery: [Phase 3 — Catalog & Guitar Detail](docs/PHASE_3_REPORT.md). Includes current test evidence and remaining content gaps.
+
 > Latest delivery: [Phase 1–2 report](docs/PHASE_1_2_REPORT.md). See that report for current verification, screenshots, content limitations, and next steps.
 
 # Fretline — Homepage

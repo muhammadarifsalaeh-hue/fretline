@@ -11,9 +11,12 @@ const BRANDS_COLLAPSED = 6;
 /** เนื้อหา filter ทั้งหมด — ใช้ทั้งใน sidebar (Desktop) และ drawer (Mobile) */
 export default function FilterPanel({ filters, typeCounts, brandCounts, onToggleType, onToggleBrand, onPrice }) {
   const [showAll, setShowAll] = useState(false);
+  const [brandQuery, setBrandQuery] = useState('');
 
   // ตอนพับ: แสดงแบรนด์ยอดนิยม + แบรนด์ที่ถูกเลือกไว้เสมอ
-  const brands = showAll
+  const brands = brandQuery.trim()
+    ? ALL_BRANDS.filter((brand) => brand.toLowerCase().includes(brandQuery.trim().toLowerCase()))
+    : showAll
     ? ALL_BRANDS
     : ALL_BRANDS.filter((b, i) => i < BRANDS_COLLAPSED || filters.brands.includes(b));
   const hiddenCount = ALL_BRANDS.length - brands.length;
@@ -33,6 +36,12 @@ export default function FilterPanel({ filters, typeCounts, brandCounts, onToggle
       </FilterGroup>
 
       <FilterGroup title={t('filter.brand')}>
+        <label className="mb-3 block">
+          <span className="sr-only">{t('filter.searchBrands')}</span>
+          <input type="search" value={brandQuery} onChange={(e) => setBrandQuery(e.target.value)}
+            placeholder={t('filter.searchBrands')}
+            className="h-10 w-full rounded-lg border border-line bg-surface px-3 text-xs text-bone placeholder:text-mute focus:border-gold" />
+        </label>
         {brands.map((b) => (
           <FilterCheckbox
             key={b}
@@ -42,7 +51,8 @@ export default function FilterPanel({ filters, typeCounts, brandCounts, onToggle
             onChange={() => onToggleBrand(b)}
           />
         ))}
-        {(hiddenCount > 0 || showAll) && (
+        {brands.length === 0 && <p className="py-2 text-xs text-mute">{t('filter.noBrands')}</p>}
+        {!brandQuery.trim() && (hiddenCount > 0 || showAll) && (
           <button
             type="button"
             onClick={() => setShowAll(!showAll)}

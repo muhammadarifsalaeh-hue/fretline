@@ -1,0 +1,65 @@
+Catalog initially displays 9 models True
+Five real category controls True
+Pagination updates URL and visible models True
+Pagination survives reload True
+Browser Back restores first page True
+Search filters real catalog True
+Changing query resets pagination True
+Search form Enter focuses results True
+Search button focuses results True
+Category navigation filters acoustic guitars True
+All categories clears only the type filter True
+Brand search narrows sidebar choices True
+Brand checkbox filters models True
+Brand search has an empty state True
+Price filter excludes unknown and over-budget models True
+Ascending price sort True
+Descending price sort True
+Name sorting updates URL True
+Minimum price slider keyboard interaction True
+Maximum price slider keyboard interaction True
+Zero-price URL is handled without inventing results True
+Invalid numeric URL values fall back safely True
+Out-of-range page clamps and normalizes True
+Catalog empty state True
+Clear filters restores results True
+Catalog wishlist and compare actions True
+Wishlist and compare persist True
+Sample detail price clearly labelled True
+Unverified rating is not presented True
+Review tab uses honest empty state True
+Specifications tab exposes semantic table True
+Detail tabs support Arrow keys True
+Detail tabs support Home key True
+Similar recommendations exclude current guitar True
+Detail removes existing comparison True
+Detail wishlist toggles shared storage True
+Unknown price stays unknown True
+Partial source is linked True
+Missing real photos use labelled placeholder True
+No fake gallery angles True
+Unknown specs remain explicitly unknown True
+Unknown model preserves 404 True
+catalog has no horizontal overflow at 1440px True
+detail has no horizontal overflow at 1440px True
+catalog has no horizontal overflow at 768px True
+detail has no horizontal overflow at 768px True
+catalog has no horizontal overflow at 1024px True
+detail has no horizontal overflow at 1024px True
+catalog has no horizontal overflow at 390px True
+detail has no horizontal overflow at 390px True
+catalog has no horizontal overflow at 320px True
+detail has no horizontal overflow at 320px True
+Mobile filter dialog opens True
+Mobile filter uses same URL state True
+Mobile filter dialog traps focus True
+Mobile filter Escape restores focus True
+Reduced motion catalog visible True
+Homepage headline retained True
+No runtime errors during normal interactions True
+No console errors during normal interactions True
+No failed requests during normal interactions True
+Real lazy loading shows skeleton True
+Failed route chunk shows recoverable error state True
+Retry reloads route successfully True
+TOTAL 64 / 64

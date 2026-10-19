@@ -57,8 +57,13 @@ export default function useCatalogFilters() {
   const [params, setParams] = useSearchParams();
 
   const filters = useMemo(() => {
-    const max = params.get('max') ? clampPrice(Number(params.get('max')) || PRICE_MAX) : PRICE_MAX;
-    const min = clampPrice(Number(params.get('min')) || PRICE_MIN);
+    const readPrice = (key, fallback) => {
+      const value = params.get(key);
+      return value !== null && value.trim() !== '' && Number.isFinite(Number(value)) ? clampPrice(Number(value)) : fallback;
+    };
+    const max = readPrice('max', PRICE_MAX);
+    const min = readPrice('min', PRICE_MIN);
+    const rawPage = Number(params.get('page'));
     const sort = params.get('sort');
     return {
       q: params.get('q') ?? '',
@@ -67,12 +72,13 @@ export default function useCatalogFilters() {
       min: Math.min(min, max),
       max,
       sort: SORTERS[sort] ? sort : 'featured',
+      page: Number.isFinite(rawPage) ? Math.max(1, Math.floor(rawPage)) : 1,
     };
   }, [params]);
 
   const update = useCallback(
-    (patch) => {
-      const next = { ...filters, ...patch };
+    (patch, { pagination = false, replace = false } = {}) => {
+      const next = { ...filters, page: 1, ...patch };
       const p = new URLSearchParams();
       if (next.q.trim()) p.set('q', next.q);
       if (next.types.length) p.set('type', next.types.join(','));
@@ -80,7 +86,8 @@ export default function useCatalogFilters() {
       if (next.min > PRICE_MIN) p.set('min', String(next.min));
       if (next.max < PRICE_MAX) p.set('max', String(next.max));
       if (next.sort !== 'featured') p.set('sort', next.sort);
-      setParams(p, { replace: true });
+      if (next.page > 1) p.set('page', String(next.page));
+      setParams(p, { replace: replace || !pagination });
     },
     [filters, setParams],
   );
@@ -100,7 +107,9 @@ export default function useCatalogFilters() {
     priceActive,
     activeCount,
     setQuery: (q) => update({ q }),
+    setTypes: (types) => update({ types }),
     setSort: (sort) => update({ sort }),
+    setPage: (page, replace = false) => update({ page }, { pagination: true, replace }),
     setPrice: (min, max) => update({ min, max }),
     resetPrice: () => update({ min: PRICE_MIN, max: PRICE_MAX }),
     toggleType: (id) => update({ types: toggle(filters.types, id) }),

@@ -1,0 +1,27 @@
+{
+  "checks": [
+    {
+      "name": "Existing #specs deep link opens specifications",
+      "passed": true
+    },
+    {
+      "name": "Specifications anchor scrolls under navigation",
+      "passed": true
+    },
+    {
+      "name": "Tabs remain interactive after a deep link",
+      "passed": true
+    },
+    {
+      "name": "Specs deep link survives reload",
+      "passed": true
+    },
+    {
+      "name": "Final build has no page or console errors",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "passed": true
+}

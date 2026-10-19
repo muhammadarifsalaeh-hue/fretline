@@ -1,3 +1,4 @@
+import useDialogFocus from '@/hooks/useDialogFocus';
 import { t } from '@/i18n';
 import { useEffect, useRef } from 'react';
 import { cn } from '@/utils/cn';
@@ -6,22 +7,14 @@ import GuitarImage from '@/components/guitar/GuitarImage';
 
 /** ดูรูปเต็มจอ: ปุ่มลูกศร / คีย์บอร์ด ← → / Esc ปิด */
 export default function ImageLightbox({ images, index, onIndex, onClose, name, guitar }) {
-  const closeRef = useRef(null);
+  const dialogRef = useRef(null);
+  useDialogFocus(dialogRef, true, onClose);
   const count = images.length;
   const next = () => onIndex((index + 1) % count);
   const prev = () => onIndex((index - 1 + count) % count);
 
   useEffect(() => {
-    document.body.style.overflow = 'hidden';
-    closeRef.current?.focus();
-    return () => {
-      document.body.style.overflow = '';
-    };
-  }, []);
-
-  useEffect(() => {
     const onKey = (e) => {
-      if (e.key === 'Escape') onClose();
       if (e.key === 'ArrowRight') onIndex((index + 1) % count);
       if (e.key === 'ArrowLeft') onIndex((index - 1 + count) % count);
     };
@@ -32,14 +25,13 @@ export default function ImageLightbox({ images, index, onIndex, onClose, name, g
   const current = images[index];
 
   return (
-    <div role="dialog" aria-modal="true" aria-label={t('gallery.dialogAria', { name })} className="fixed inset-0 z-[80] flex animate-fade-in flex-col bg-ink/95 backdrop-blur-md">
+    <div ref={dialogRef} role="dialog" aria-modal="true" aria-label={t('gallery.dialogAria', { name })} className="fixed inset-0 z-[80] flex animate-fade-in flex-col bg-ink/95 backdrop-blur-md">
       <div className="flex items-center justify-between px-5 py-4 md:px-8">
         <p className="font-mono text-sm text-mute">
           {index + 1} / {count}
           <span className="ml-3 hidden text-bone/70 sm:inline">{current.label}</span>
         </p>
         <button
-          ref={closeRef}
           type="button"
           onClick={onClose}
           aria-label={t('gallery.close')}
@@ -74,9 +66,9 @@ export default function ImageLightbox({ images, index, onIndex, onClose, name, g
 
       {current.credit && <p className="px-4 pb-2 text-center text-xs text-mute">{current.credit}</p>}
 
-      <ul className="flex justify-center gap-3 px-4 py-5">
+      <ul className="flex shrink-0 gap-3 overflow-x-auto px-4 py-5 sm:justify-center">
         {images.map((img, i) => (
-          <li key={img.src}>
+          <li key={img.src} className="shrink-0">
             <button
               type="button"
               onClick={() => onIndex(i)}

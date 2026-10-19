@@ -1,16 +1,18 @@
-import { useState } from 'react';
+import { useId, useState } from 'react';
 import { cn } from '@/utils/cn';
 import { ChevronDownIcon } from '@/components/ui/Icons';
 
 /** กลุ่ม filter ที่พับ/ขยายได้ (animation เลื่อนความสูงแบบ grid-rows) */
 export default function FilterGroup({ title, defaultOpen = true, children }) {
   const [open, setOpen] = useState(defaultOpen);
+  const id = useId();
   return (
     <section className="border-b border-line py-5 first:pt-0 last:border-b-0">
       <h3>
         <button
           type="button"
           aria-expanded={open}
+          aria-controls={id}
           onClick={() => setOpen(!open)}
           className="flex min-h-[40px] w-full items-center justify-between text-left text-sm font-medium text-bone"
         >
@@ -19,6 +21,8 @@ export default function FilterGroup({ title, defaultOpen = true, children }) {
         </button>
       </h3>
       <div
+        id={id}
+        inert={!open ? '' : undefined}
         className={cn(
           'grid transition-[grid-template-rows,opacity] duration-500 ease-premium',
           open ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0',

@@ -1,0 +1,16 @@
+
+> fretline@0.1.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 142 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                             0.73 kB │ gzip:  0.50 kB
+dist/assets/index-CrQ2enu2.css             72.01 kB │ gzip: 13.22 kB
+dist/assets/useDialogFocus-DgGfxvRs.js      1.00 kB │ gzip:  0.52 kB
+dist/assets/GuitarDetailPage-OC3HtQcI.js   16.48 kB │ gzip:  5.45 kB
+dist/assets/CatalogPage-BGDZ6ipA.js        17.02 kB │ gzip:  5.70 kB
+dist/assets/index-CCkxhBDE.js             334.54 kB │ gzip: 99.32 kB
+✓ built in 8.76s

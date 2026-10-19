@@ -1,3 +1,5 @@
+import { lazy } from 'react';
+import DiscoveryRoute from '@/components/ui/DiscoveryRoute';
 import { Route, Routes } from 'react-router-dom';
 import { ShopProvider } from '@/context/ShopContext';
 import BottomBar from '@/components/layout/BottomBar';
@@ -9,12 +11,13 @@ import Toast from '@/components/layout/Toast';
 import ComparePage from '@/pages/ComparePage';
 import BrandDetailPage from '@/pages/BrandDetailPage';
 import BrandsPage from '@/pages/BrandsPage';
-import CatalogPage from '@/pages/CatalogPage';
-import GuitarDetailPage from '@/pages/GuitarDetailPage';
 import FindMyGuitarPage from '@/pages/FindMyGuitarPage';
 import HomePage from '@/pages/HomePage';
 import NotFoundPage from '@/pages/NotFoundPage';
 import WishlistPage from '@/pages/WishlistPage';
+
+const CatalogPage = lazy(() => import('@/pages/CatalogPage'));
+const GuitarDetailPage = lazy(() => import('@/pages/GuitarDetailPage'));
 
 export default function App() {
   return (
@@ -26,13 +29,13 @@ export default function App() {
         <main>
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/guitars" element={<CatalogPage />} />
+            <Route path="/guitars" element={<DiscoveryRoute><CatalogPage /></DiscoveryRoute>} />
             <Route path="/brands" element={<BrandsPage />} />
             <Route path="/brands/:id" element={<BrandDetailPage />} />
             <Route path="/wishlist" element={<WishlistPage />} />
             <Route path="/compare" element={<ComparePage />} />
             <Route path="/find-my-guitar" element={<FindMyGuitarPage />} />
-            <Route path="/guitars/:slug" element={<GuitarDetailPage />} />
+            <Route path="/guitars/:slug" element={<DiscoveryRoute><GuitarDetailPage /></DiscoveryRoute>} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </main>

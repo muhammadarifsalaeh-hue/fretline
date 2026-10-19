@@ -1,0 +1,266 @@
+{
+  "base_url": "http://127.0.0.1:4173",
+  "checks": [
+    {
+      "name": "Catalog initially displays 9 models",
+      "passed": true
+    },
+    {
+      "name": "Five real category controls",
+      "passed": true
+    },
+    {
+      "name": "Pagination updates URL and visible models",
+      "passed": true
+    },
+    {
+      "name": "Pagination survives reload",
+      "passed": true
+    },
+    {
+      "name": "Browser Back restores first page",
+      "passed": true
+    },
+    {
+      "name": "Search filters real catalog",
+      "passed": true
+    },
+    {
+      "name": "Changing query resets pagination",
+      "passed": true
+    },
+    {
+      "name": "Search form Enter focuses results",
+      "passed": true
+    },
+    {
+      "name": "Search button focuses results",
+      "passed": true
+    },
+    {
+      "name": "Category navigation filters acoustic guitars",
+      "passed": true
+    },
+    {
+      "name": "All categories clears only the type filter",
+      "passed": true
+    },
+    {
+      "name": "Brand search narrows sidebar choices",
+      "passed": true
+    },
+    {
+      "name": "Brand checkbox filters models",
+      "passed": true
+    },
+    {
+      "name": "Brand search has an empty state",
+      "passed": true
+    },
+    {
+      "name": "Price filter excludes unknown and over-budget models",
+      "passed": true
+    },
+    {
+      "name": "Ascending price sort",
+      "passed": true
+    },
+    {
+      "name": "Descending price sort",
+      "passed": true
+    },
+    {
+      "name": "Name sorting updates URL",
+      "passed": true
+    },
+    {
+      "name": "Minimum price slider keyboard interaction",
+      "passed": true
+    },
+    {
+      "name": "Maximum price slider keyboard interaction",
+      "passed": true
+    },
+    {
+      "name": "Zero-price URL is handled without inventing results",
+      "passed": true
+    },
+    {
+      "name": "Invalid numeric URL values fall back safely",
+      "passed": true
+    },
+    {
+      "name": "Out-of-range page clamps and normalizes",
+      "passed": true
+    },
+    {
+      "name": "Catalog empty state",
+      "passed": true
+    },
+    {
+      "name": "Clear filters restores results",
+      "passed": true
+    },
+    {
+      "name": "Catalog wishlist and compare actions",
+      "passed": true
+    },
+    {
+      "name": "Wishlist and compare persist",
+      "passed": true
+    },
+    {
+      "name": "Sample detail price clearly labelled",
+      "passed": true
+    },
+    {
+      "name": "Unverified rating is not presented",
+      "passed": true
+    },
+    {
+      "name": "Review tab uses honest empty state",
+      "passed": true
+    },
+    {
+      "name": "Specifications tab exposes semantic table",
+      "passed": true
+    },
+    {
+      "name": "Detail tabs support Arrow keys",
+      "passed": true
+    },
+    {
+      "name": "Detail tabs support Home key",
+      "passed": true
+    },
+    {
+      "name": "Similar recommendations exclude current guitar",
+      "passed": true
+    },
+    {
+      "name": "Detail removes existing comparison",
+      "passed": true
+    },
+    {
+      "name": "Detail wishlist toggles shared storage",
+      "passed": true
+    },
+    {
+      "name": "Unknown price stays unknown",
+      "passed": true
+    },
+    {
+      "name": "Partial source is linked",
+      "passed": true
+    },
+    {
+      "name": "Missing real photos use labelled placeholder",
+      "passed": true
+    },
+    {
+      "name": "No fake gallery angles",
+      "passed": true
+    },
+    {
+      "name": "Unknown specs remain explicitly unknown",
+      "passed": true
+    },
+    {
+      "name": "Unknown model preserves 404",
+      "passed": true
+    },
+    {
+      "name": "catalog has no horizontal overflow at 1440px",
+      "passed": true
+    },
+    {
+      "name": "detail has no horizontal overflow at 1440px",
+      "passed": true
+    },
+    {
+      "name": "catalog has no horizontal overflow at 768px",
+      "passed": true
+    },
+    {
+      "name": "detail has no horizontal overflow at 768px",
+      "passed": true
+    },
+    {
+      "name": "catalog has no horizontal overflow at 1024px",
+      "passed": true
+    },
+    {
+      "name": "detail has no horizontal overflow at 1024px",
+      "passed": true
+    },
+    {
+      "name": "catalog has no horizontal overflow at 390px",
+      "passed": true
+    },
+    {
+      "name": "detail has no horizontal overflow at 390px",
+      "passed": true
+    },
+    {
+      "name": "catalog has no horizontal overflow at 320px",
+      "passed": true
+    },
+    {
+      "name": "detail has no horizontal overflow at 320px",
+      "passed": true
+    },
+    {
+      "name": "Mobile filter dialog opens",
+      "passed": true
+    },
+    {
+      "name": "Mobile filter uses same URL state",
+      "passed": true
+    },
+    {
+      "name": "Mobile filter dialog traps focus",
+      "passed": true
+    },
+    {
+      "name": "Mobile filter Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion catalog visible",
+      "passed": true
+    },
+    {
+      "name": "Homepage headline retained",
+      "passed": true
+    },
+    {
+      "name": "No runtime errors during normal interactions",
+      "passed": true
+    },
+    {
+      "name": "No console errors during normal interactions",
+      "passed": true
+    },
+    {
+      "name": "No failed requests during normal interactions",
+      "passed": true
+    },
+    {
+      "name": "Real lazy loading shows skeleton",
+      "passed": true
+    },
+    {
+      "name": "Failed route chunk shows recoverable error state",
+      "passed": true
+    },
+    {
+      "name": "Retry reloads route successfully",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "failed_requests": [],
+  "expected_faults": [],
+  "passed": true
+}

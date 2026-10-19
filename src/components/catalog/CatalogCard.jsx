@@ -14,7 +14,7 @@ const CATEGORY_LABEL = { electric: t('category.electric'), acoustic: t('category
  * การ์ดกีตาร์สำหรับหน้า Catalog: รูปใหญ่ + ข้อมูลครบ + ปุ่ม View details / Compare แสดงตลอด
  * (รูปใช้ srcSet เพื่อให้คมชัดตามขนาดหน้าจอ)
  */
-export default function CatalogCard({ guitar, index = 0, onRemove }) {
+export default function CatalogCard({ guitar, index = 0, onRemove, compact = false }) {
   const { compare, wishlist, toggleCompare, toggleWishlist } = useShop();
   const inCompare = compare.includes(guitar.id);
   const inWishlist = wishlist.includes(guitar.id);
@@ -22,14 +22,15 @@ export default function CatalogCard({ guitar, index = 0, onRemove }) {
 
   return (
     <article
+      data-guitar-id={guitar.id}
       style={{ animationDelay: `${(index % 9) * 60}ms` }}
-      className="group flex h-full animate-fade-up flex-col overflow-hidden rounded-2xl bg-surface ring-1 ring-white/5 transition duration-500 ease-premium hover:-translate-y-1 hover:ring-white/15 hover:shadow-[0_30px_60px_-24px_rgba(0,0,0,0.7)]"
+      className={cn('group flex h-full animate-fade-up flex-col overflow-hidden rounded-2xl bg-surface ring-1 ring-white/5 transition duration-500 ease-premium hover:-translate-y-1 hover:ring-white/15 hover:shadow-[0_30px_60px_-24px_rgba(0,0,0,0.7)]', compact && 'catalog-product-card')}
     >
-      <div className="relative aspect-[4/5] overflow-hidden bg-gradient-to-b from-[#2b2b2b] to-[#171717]">
+      <div className="catalog-card-image relative aspect-[4/5] overflow-hidden bg-gradient-to-b from-[#2b2b2b] to-[#171717]">
         <AppLink href={href} tabIndex={-1} aria-hidden="true" className="absolute inset-0 block">
           <GuitarImage
             guitar={guitar}
-            sizes="(min-width: 1280px) 30vw, (min-width: 640px) 45vw, 92vw"
+            sizes={compact ? '(min-width: 1024px) 25vw, (min-width: 380px) 46vw, 90vw' : '(min-width: 1280px) 30vw, (min-width: 640px) 45vw, 92vw'}
             className="absolute inset-0"
             imgClassName="group-hover:scale-[1.05]"
           />
@@ -67,7 +68,7 @@ export default function CatalogCard({ guitar, index = 0, onRemove }) {
         )}
       </div>
 
-      <div className="flex flex-1 flex-col p-5 sm:p-6">
+      <div className="catalog-card-copy flex flex-1 flex-col p-5 sm:p-6">
         <div className="flex items-center justify-between gap-3 text-xs">
           <p className="uppercase tracking-[0.14em] text-mute">{guitar.brand}</p>
           <p className="text-mute">{CATEGORY_LABEL[guitar.category]}</p>
@@ -79,7 +80,8 @@ export default function CatalogCard({ guitar, index = 0, onRemove }) {
           </AppLink>
         </h3>
 
-        <ul className="mt-4 flex flex-wrap gap-1.5">
+        <p className="mt-2 text-[11px] text-gold">{t(`status.${guitar.dataStatus ?? 'sample'}`)}</p>
+        <ul className="catalog-card-tags mt-4 flex flex-wrap gap-1.5">
           {guitar.tags.map((tag) => (
             <li key={tag} className="rounded-full border border-line px-2.5 py-1 font-mono text-[11px] text-bone/70">
               {tag}
@@ -87,12 +89,12 @@ export default function CatalogCard({ guitar, index = 0, onRemove }) {
           ))}
         </ul>
 
-        <p className="mt-auto flex items-baseline gap-3 pt-5">
+        <p className="catalog-card-price mt-auto flex flex-wrap items-baseline gap-3 pt-5">
           <span className="font-mono text-xl text-gold">{formatPrice(guitar.price)}</span>
           {guitar.oldPrice && <span className="font-mono text-sm text-mute line-through">{formatPrice(guitar.oldPrice)}</span>}
         </p>
 
-        <div className="mt-4 flex gap-2">
+        <div className="catalog-card-actions mt-4 flex gap-2">
           <AppLink
             href={href}
             className="inline-flex h-12 flex-1 items-center justify-center gap-2 rounded-full bg-bone text-sm font-medium text-ink transition duration-300 hover:bg-white active:scale-[0.98]"

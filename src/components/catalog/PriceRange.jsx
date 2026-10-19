@@ -32,7 +32,7 @@ export default function PriceRange({ min, max, onChange }) {
           value={min}
           // ถ้าสองหัวชนด้านขวา ต้องยกหัว min ขึ้นมาให้ลากได้
           style={{ zIndex: min > PRICE_MAX - PRICE_STEP * 5 ? 5 : 3 }}
-          onChange={(e) => onChange(Math.min(Number(e.target.value), max - PRICE_STEP), max)}
+          onChange={(e) => onChange(Math.max(PRICE_MIN, Math.min(Number(e.target.value), max)), max)}
         />
         <input
           type="range"
@@ -42,7 +42,7 @@ export default function PriceRange({ min, max, onChange }) {
           step={PRICE_STEP}
           value={max}
           style={{ zIndex: 4 }}
-          onChange={(e) => onChange(min, Math.max(Number(e.target.value), min + PRICE_STEP))}
+          onChange={(e) => onChange(min, Math.min(PRICE_MAX, Math.max(Number(e.target.value), min)))}
         />
       </div>
 
@@ -68,7 +68,7 @@ export default function PriceRange({ min, max, onChange }) {
                 onClick={() => onChange(p.min, p.max)}
                 className={cn(
                   'min-h-[36px] rounded-full border px-3.5 text-[13px] transition duration-300',
-                  active ? 'border-gold bg-gold/10 text-gold' : 'border-white/12 text-bone/75 hover:border-gold hover:text-gold',
+                  active ? 'border-gold bg-gold/10 text-gold' : 'border-white/[0.12] text-bone/75 hover:border-gold hover:text-gold',
                 )}
               >
                 {p.label}

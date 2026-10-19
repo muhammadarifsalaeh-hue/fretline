@@ -54,20 +54,19 @@ const GROUPS = [
 /** ตารางสเปกแบ่งกลุ่ม: หัวข้อซ้าย / รายการขวา */
 export default function SpecTable({ guitar }) {
   return (
-    <div className="divide-y divide-line border-y border-line">
+    <table className="spec-table w-full text-left">
+      <caption className="sr-only">{t('detail.specs')} — {guitar.brand} {guitar.name}</caption>
       {GROUPS.map((group) => (
-        <div key={group.title} className="grid gap-4 py-10 lg:grid-cols-12 lg:gap-10">
-          <h3 className="font-serif text-3xl leading-tight lg:col-span-4">{group.title}</h3>
-          <dl className="lg:col-span-8">
-            {group.rows.map(([label, get]) => (
-              <div key={label} className="grid grid-cols-[120px_1fr] gap-4 border-b border-line/60 py-4 text-sm last:border-b-0 sm:grid-cols-[180px_1fr]">
-                <dt className="text-mute">{label}</dt>
-                <dd className="font-mono text-[13px] leading-relaxed text-bone/90">{get(guitar)}</dd>
-              </div>
-            ))}
-          </dl>
-        </div>
+        <tbody key={group.title}>
+          <tr><th colSpan={2} scope="colgroup" className="spec-group">{group.title}</th></tr>
+          {group.rows.map(([label, get]) => (
+            <tr key={label}>
+              <th scope="row">{label}</th>
+              <td>{get(guitar)}</td>
+            </tr>
+          ))}
+        </tbody>
       ))}
-    </div>
+    </table>
   );
 }
