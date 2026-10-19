@@ -1,0 +1,17 @@
+
+> fretline@0.1.0 catalog:check
+> node scripts/validate-catalog.mjs
+
+
+=== Catalog report ===
+Total models        : 36 / 200   (164 to go)
+  built-in samples  : 18   (unverified sample data)
+  imported          : 18   (verified: 0, partial: 18, sample: 0)
+Fully verified      : 0
+Partially verified  : 18   (source-backed, some fields unknown)
+Price on request    : 18
+Real photos         : 0 models
+Placeholder (no photo): 36 models
+
+No data problems found.
+

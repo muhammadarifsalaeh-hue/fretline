@@ -1,3 +1,5 @@
+import { t } from '@/i18n';
+import { trustedPrice, trustedWeight, verifiedRating } from '@/utils/dataTrust';
 import { formatPrice } from '@/utils/format';
 import { guitarUrl } from '@/utils/routes';
 import AppLink from '@/components/ui/AppLink';
@@ -12,14 +14,14 @@ export default function CompareVerdicts({ guitars }) {
     return guitars.find((g) => getter(g) === target);
   };
 
-  const cheapest = pick((g) => g.price, 'min');
-  const lightest = pick((g) => g.specs.weightKg, 'min');
-  const topRated = pick((g) => g.rating?.score ?? null, 'max');
+  const cheapest = pick(trustedPrice, 'min');
+  const lightest = pick(trustedWeight, 'min');
+  const topRated = pick((g) => verifiedRating(g)?.score ?? null, 'max');
 
   const items = [
-    cheapest && { label: 'Lowest price', guitar: cheapest, value: formatPrice(cheapest.price) },
-    lightest && { label: 'Lightest', guitar: lightest, value: `${lightest.specs.weightKg} kg` },
-    topRated && { label: 'Top rated', guitar: topRated, value: `★ ${topRated.rating.score.toFixed(1)}` },
+    cheapest && { label: t('p4.compare.lowest'), guitar: cheapest, value: formatPrice(cheapest.price) },
+    lightest && { label: t('p4.compare.lightest'), guitar: lightest, value: `${lightest.specs.weightKg} kg` },
+    topRated && { label: t('p4.compare.topRated'), guitar: topRated, value: `★ ${topRated.rating.score.toFixed(1)}` },
   ].filter(Boolean);
 
   if (!items.length) return null;

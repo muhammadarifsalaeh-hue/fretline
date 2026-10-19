@@ -1,3 +1,4 @@
+import { isSourceBacked, verifiedRating } from '@/utils/dataTrust';
 import { t } from '@/i18n';
 import { NOT_SPECIFIED, formatInch, formatKg, formatPrice } from '@/utils/format';
 
@@ -10,9 +11,12 @@ import { NOT_SPECIFIED, formatInch, formatKg, formatPrice } from '@/utils/format
  *  note        : ข้อความเล็กใต้ค่า เช่น ส่วนต่างจากรุ่นที่ถูกที่สุด
  *  hideIfEmpty : ซ่อนทั้งแถวถ้าไม่มีข้อมูลเลย (เช่น ยังไม่มีรีวิว)
  */
-const known = (list) => list.filter((v) => typeof v === 'number');
+const known = (list) => list.filter((value) => typeof value === 'number' && Number.isFinite(value));
 
 export const COMPARE_ROWS = [
+  { key: 'brand', group: t('group.overview'), label: t('p4.compare.brand'), raw: (g) => g.brand, identity: true },
+  { key: 'model', group: t('group.overview'), label: t('cmp.model'), raw: (g) => g.name, identity: true },
+  { key: 'type', group: t('group.overview'), label: t('filter.type'), raw: (g) => g.category, display: (g) => t(`category.${g.category}`), identity: true },
   {
     key: 'price',
     group: t('group.overview'),
@@ -32,8 +36,8 @@ export const COMPARE_ROWS = [
     key: 'rating',
     group: t('group.overview'),
     label: t('row.rating'),
-    raw: (g) => g.rating?.score ?? null,
-    display: (g) => (g.rating ? `★ ${g.rating.score.toFixed(1)} (${g.rating.count})` : t('rating.none')),
+    raw: (g) => verifiedRating(g)?.score ?? null,
+    display: (g) => (verifiedRating(g) ? `★ ${verifiedRating(g).score.toFixed(1)} (${verifiedRating(g).count})` : t('rating.none')),
     best: 'max',
     hideIfEmpty: true,
   },
@@ -70,16 +74,19 @@ export { NOT_SPECIFIED };
  *  diff  = ค่าต่างกัน (ไฮไลต์) | same = เหมือนกันทุกรุ่น | empty = ไม่ทราบทุกรุ่น (ไม่ใช่ "เหมือนกัน")
  *  best  = ค่าที่ดีที่สุด (ถ้ามี)
  */
-export function analyseRows(guitars) {
-  return COMPARE_ROWS.map((row) => {
-    const values = guitars.map((g) => row.raw(g));
+export function analyseRows(guitars, { includeSamples = true, includeIdentity = true } = {}) {
+  return COMPARE_ROWS.filter((row) => includeIdentity || !row.identity).map((row) => {
+    const allowed = (g) => row.identity || row.key === 'rating' || includeSamples || isSourceBacked(g);
+    const valueOf = (g) => allowed(g) ? row.raw(g) : null;
+    const displayOf = (g) => !allowed(g) ? t('data.unverified') : row.display ? row.display(g) : (valueOf(g) ?? NOT_SPECIFIED);
+    const values = guitars.map(valueOf);
     const empty = values.every((v) => v == null);
     const same = !empty && values.every((v) => v === values[0]);
     const diff = !empty && !same;
     const nums = known(values);
     let best = null;
     if (row.best && diff && nums.length >= 2) best = row.best === 'min' ? Math.min(...nums) : Math.max(...nums);
-    return { row, same, empty, diff, best };
+    return { row, same, empty, diff, best, valueOf, displayOf, allowed };
   }).filter((r) => !(r.row.hideIfEmpty && r.empty));
 }
 

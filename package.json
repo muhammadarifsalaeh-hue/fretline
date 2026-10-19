@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "images:check": "node scripts/check-images.mjs",
     "catalog:check": "node scripts/validate-catalog.mjs",
-    "catalog:import": "node scripts/import-csv.mjs"
+    "catalog:import": "node scripts/import-csv.mjs",
+    "phase4:check": "node scripts/check-phase4.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

@@ -1,49 +1,29 @@
-import { formatPrice } from '@/utils/format';
+import { t } from '@/i18n';
+import { publicPrice } from '@/utils/dataTrust';
 import { guitarUrl } from '@/utils/routes';
 import AppLink from '@/components/ui/AppLink';
 import { CheckIcon } from '@/components/ui/Icons';
 import GuitarImage from '@/components/guitar/GuitarImage';
 import MatchButtons from './MatchButtons';
 
-/** การ์ดอันดับ 2–3: รูป + เปอร์เซ็นต์ความเหมาะสม + เหตุผลสั้น ๆ */
-export default function MatchCard({ match, rank, index = 0 }) {
+export default function MatchCard({ match, rank, featured = false }) {
   const { guitar, score, reasons, caveats } = match;
   return (
-    <article
-      style={{ animationDelay: `${index * 120}ms` }}
-      className="flex animate-fade-up flex-col overflow-hidden rounded-2xl bg-surface ring-1 ring-white/5 transition duration-500 ease-premium hover:-translate-y-1 hover:ring-white/15"
-    >
-      <AppLink href={guitarUrl(guitar.slug)} className="relative block aspect-[4/3] overflow-hidden bg-gradient-to-b from-[#2b2b2b] to-[#171717]" aria-label={`View ${guitar.name}`}>
-        <GuitarImage
-          guitar={guitar}
-          sizes="(min-width: 640px) 45vw, 92vw"
-          className="absolute inset-0"
-          imgClassName="hover:scale-[1.04]"
-        />
-        <span className="absolute left-4 top-4 rounded-full bg-ink/80 px-3 py-1 font-mono text-xs text-bone backdrop-blur">#{rank}</span>
-        <span className="absolute right-4 top-4 rounded-full bg-gold px-3 py-1 font-mono text-xs font-medium text-ink">{score}% match</span>
+    <article className={`match-card ${featured ? 'match-card-featured' : ''}`} data-guitar-id={guitar.id}>
+      <AppLink href={guitarUrl(guitar.slug)} className="match-image" aria-label={t('cmp.viewAria', { name: `${guitar.brand} ${guitar.name}` })}>
+        <GuitarImage guitar={guitar} sizes={featured ? '(min-width: 768px) 40vw, 90vw' : '(min-width: 768px) 40vw, 90vw'} priority={featured} className="absolute inset-0" />
+        <span className="match-rank">#{rank} {featured && t('p4.quiz.topMatch')}</span>
       </AppLink>
-
-      <div className="flex flex-1 flex-col p-5 sm:p-6">
-        <p className="text-xs uppercase tracking-[0.14em] text-mute">{guitar.brand}</p>
-        <h3 className="mt-2 font-serif text-[1.75rem] leading-[1.08]">
-          <AppLink href={guitarUrl(guitar.slug)} className="transition-colors hover:text-gold">{guitar.name}</AppLink>
-        </h3>
-        <p className="mt-2 font-mono text-xl text-gold">{formatPrice(guitar.price)}</p>
-
-        <ul className="mt-5 space-y-2.5">
-          {reasons.slice(0, 3).map((r) => (
-            <li key={r} className="flex items-start gap-3 text-sm text-bone/80">
-              <CheckIcon size={16} className="mt-0.5 shrink-0 text-gold" />
-              {r}
-            </li>
-          ))}
-        </ul>
-        {caveats[0] && <p className="mt-3 text-xs text-mute">{caveats[0]}</p>}
-
-        <div className="mt-auto pt-6">
-          <MatchButtons guitar={guitar} />
-        </div>
+      <div className="match-copy">
+        <div className="flex flex-wrap items-center justify-between gap-3"><span className="discovery-kicker">{guitar.brand}</span><span className="match-score">{score}% <span>{t('p4.quiz.alignment')}</span></span></div>
+        {featured ? <h2><AppLink href={guitarUrl(guitar.slug)}>{guitar.name}</AppLink></h2> : <h3><AppLink href={guitarUrl(guitar.slug)}>{guitar.name}</AppLink></h3>}
+        <p className="mt-3 text-xs text-gold">{t(`status.${guitar.dataStatus ?? 'sample'}`)}</p>
+        <p className="mt-2 font-mono text-lg text-bone">{publicPrice(guitar)}</p>
+        <h4 className="mb-3 mt-6 text-xs font-medium text-gold">{t('p4.quiz.why')}</h4>
+        <ul className="space-y-2.5">{reasons.map((reason) => <li key={reason} className="flex items-start gap-2 text-sm leading-6 text-bone/80"><CheckIcon size={15} className="mt-1 shrink-0 text-gold" />{reason}</li>)}</ul>
+        <details className="match-caveats"><summary>{t('p4.quiz.dataCaveats')}</summary><ul>{caveats.map((caveat) => <li key={caveat}>{caveat}</li>)}</ul></details>
+        <p className="mt-3 text-[11px] leading-6 text-mute">{t('p4.quiz.profileNote')}</p>
+        <div className="mt-auto pt-5"><MatchButtons guitar={guitar} /></div>
       </div>
     </article>
   );

@@ -1,8 +1,9 @@
+import { t } from '@/i18n';
 /**
  * ข้อมูลทั้งหมดของ Quiz "Find My Guitar" — แก้คำถาม/ตัวเลือก/โปรไฟล์กีตาร์ที่ไฟล์นี้ไฟล์เดียว
  * (เพิ่มคำถามใหม่ได้โดยเพิ่ม step แล้วเพิ่มกติกาใน utils/quizScoring.js)
  */
-export const QUIZ_STEPS = [
+const BASE_STEPS = [
   {
     id: 'type',
     title: 'What would you like to play?',
@@ -61,6 +62,18 @@ export const QUIZ_STEPS = [
     ],
   },
 ];
+
+// Keep ids/values and all five original questions; localize presentation only.
+export const QUIZ_STEPS = BASE_STEPS.map((step) => ({
+  ...step,
+  title: t(`quiz.${step.id}.title`),
+  hint: t(`quiz.${step.id}.hint`),
+  options: step.options.map((option) => ({
+    ...option,
+    label: t(`quiz.${step.id}.${option.value}.label`),
+    desc: t(`quiz.${step.id}.${option.value}.desc`),
+  })),
+}));
 
 /** ช่วงราคาของแต่ละตัวเลือก budget (max ไม่จำกัด = Infinity) */
 export const BUDGETS = {

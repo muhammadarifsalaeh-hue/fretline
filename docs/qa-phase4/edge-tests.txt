@@ -1,0 +1,7 @@
+Results render genuine empty state without assuming a top model True
+Empty results can edit prior answers True
+Reload restores real catalog; fixture is not persisted True
+Quiz share fallback contains complete validated answers True
+Picker search empty state True
+Single selected guitar can be removed True
+Edge cases have no runtime errors True

@@ -1,0 +1,352 @@
+{
+  "checks": [
+    {
+      "name": "Comparison empty state and canonical empty URL",
+      "passed": true
+    },
+    {
+      "name": "Empty comparison cannot share an empty list",
+      "passed": true
+    },
+    {
+      "name": "Picker opens",
+      "passed": true
+    },
+    {
+      "name": "One guitar state retained with guidance",
+      "passed": true
+    },
+    {
+      "name": "Shared comparison deduplicates ids and rejects unknown models",
+      "passed": true
+    },
+    {
+      "name": "Add from catalog creates a two-column comparison",
+      "passed": true
+    },
+    {
+      "name": "Source-backed construction differences are visible",
+      "passed": true
+    },
+    {
+      "name": "Unverified review stars are absent",
+      "passed": true
+    },
+    {
+      "name": "Differences filter hides equal and empty sourced rows",
+      "passed": true
+    },
+    {
+      "name": "Guitar Detail shares compare and wishlist state",
+      "passed": true
+    },
+    {
+      "name": "Browser Back restores comparison URL snapshot",
+      "passed": true
+    },
+    {
+      "name": "Browser Forward restores detail route",
+      "passed": true
+    },
+    {
+      "name": "Picker clearly indicates four-guitar limit",
+      "passed": true
+    },
+    {
+      "name": "Fifth model is disabled in picker",
+      "passed": true
+    },
+    {
+      "name": "Full selection status on comparison page",
+      "passed": true
+    },
+    {
+      "name": "Catalog cannot add a fifth guitar",
+      "passed": true
+    },
+    {
+      "name": "Sample prices hidden by default",
+      "passed": true
+    },
+    {
+      "name": "Sample display requires explicit toggle",
+      "passed": true
+    },
+    {
+      "name": "Sample mode has explicit data warning",
+      "passed": true
+    },
+    {
+      "name": "Differences filter state is accessible with four models",
+      "passed": true
+    },
+    {
+      "name": "Remove changes comparison and URL",
+      "passed": true
+    },
+    {
+      "name": "Back restores removed model",
+      "passed": true
+    },
+    {
+      "name": "Forward restores removal",
+      "passed": true
+    },
+    {
+      "name": "Clear cancellation preserves models",
+      "passed": true
+    },
+    {
+      "name": "Confirmed clear removes comparison only",
+      "passed": true
+    },
+    {
+      "name": "Clear returns focus to Add Guitar",
+      "passed": true
+    },
+    {
+      "name": "Back after clear restores previous selection",
+      "passed": true
+    },
+    {
+      "name": "Shared comparison URL carries selected ids",
+      "passed": true
+    },
+    {
+      "name": "Clipboard denial exposes selectable share URL",
+      "passed": true
+    },
+    {
+      "name": "Comparison persists after reload",
+      "passed": true
+    },
+    {
+      "name": "Quiz welcome screen",
+      "passed": true
+    },
+    {
+      "name": "Quiz cannot advance without an answer",
+      "passed": true
+    },
+    {
+      "name": "Native radio keyboard arrows select answers",
+      "passed": true
+    },
+    {
+      "name": "Answer selection stays on current step",
+      "passed": true
+    },
+    {
+      "name": "Previous preserves selected experience",
+      "passed": true
+    },
+    {
+      "name": "Returning forward preserves later answer",
+      "passed": true
+    },
+    {
+      "name": "Browser Back restores quiz step",
+      "passed": true
+    },
+    {
+      "name": "Browser Forward restores quiz step",
+      "passed": true
+    },
+    {
+      "name": "All five steps reach ranked results",
+      "passed": true
+    },
+    {
+      "name": "Result models and data states shown",
+      "passed": true
+    },
+    {
+      "name": "Results do not publish sample prices",
+      "passed": true
+    },
+    {
+      "name": "All recommendation caveats are accessible",
+      "passed": true
+    },
+    {
+      "name": "Result comparison button removes an existing selection",
+      "passed": true
+    },
+    {
+      "name": "Result comparison button adds it back",
+      "passed": true
+    },
+    {
+      "name": "Result wishlist integrates with saved list",
+      "passed": true
+    },
+    {
+      "name": "Result wishlist can save again",
+      "passed": true
+    },
+    {
+      "name": "Result opens guitar detail",
+      "passed": true
+    },
+    {
+      "name": "Back from detail restores results URL",
+      "passed": true
+    },
+    {
+      "name": "Shared results survive reload",
+      "passed": true
+    },
+    {
+      "name": "Edit opens existing answers without reset",
+      "passed": true
+    },
+    {
+      "name": "Compare recommendations transfers exact ids",
+      "passed": true
+    },
+    {
+      "name": "Retake clears answers and returns welcome",
+      "passed": true
+    },
+    {
+      "name": "Invalid quiz URL has safe welcome state",
+      "passed": true
+    },
+    {
+      "name": "compare no horizontal document overflow at 1440px",
+      "passed": true
+    },
+    {
+      "name": "quiz-welcome no horizontal document overflow at 1440px",
+      "passed": true
+    },
+    {
+      "name": "quiz-question no horizontal document overflow at 1440px",
+      "passed": true
+    },
+    {
+      "name": "quiz-results no horizontal document overflow at 1440px",
+      "passed": true
+    },
+    {
+      "name": "compare no horizontal document overflow at 768px",
+      "passed": true
+    },
+    {
+      "name": "quiz-welcome no horizontal document overflow at 768px",
+      "passed": true
+    },
+    {
+      "name": "quiz-question no horizontal document overflow at 768px",
+      "passed": true
+    },
+    {
+      "name": "quiz-results no horizontal document overflow at 768px",
+      "passed": true
+    },
+    {
+      "name": "compare no horizontal document overflow at 1024px",
+      "passed": true
+    },
+    {
+      "name": "quiz-welcome no horizontal document overflow at 1024px",
+      "passed": true
+    },
+    {
+      "name": "quiz-question no horizontal document overflow at 1024px",
+      "passed": true
+    },
+    {
+      "name": "quiz-results no horizontal document overflow at 1024px",
+      "passed": true
+    },
+    {
+      "name": "compare no horizontal document overflow at 390px",
+      "passed": true
+    },
+    {
+      "name": "quiz-welcome no horizontal document overflow at 390px",
+      "passed": true
+    },
+    {
+      "name": "quiz-question no horizontal document overflow at 390px",
+      "passed": true
+    },
+    {
+      "name": "quiz-results no horizontal document overflow at 390px",
+      "passed": true
+    },
+    {
+      "name": "compare no horizontal document overflow at 320px",
+      "passed": true
+    },
+    {
+      "name": "quiz-welcome no horizontal document overflow at 320px",
+      "passed": true
+    },
+    {
+      "name": "quiz-question no horizontal document overflow at 320px",
+      "passed": true
+    },
+    {
+      "name": "quiz-results no horizontal document overflow at 320px",
+      "passed": true
+    },
+    {
+      "name": "Comparison region scrolls horizontally by keyboard",
+      "passed": true
+    },
+    {
+      "name": "Picker contains keyboard focus",
+      "passed": true
+    },
+    {
+      "name": "Picker Escape restores opener",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion quiz remains visible",
+      "passed": true
+    },
+    {
+      "name": "Retained route renders /",
+      "passed": true
+    },
+    {
+      "name": "Retained route renders /guitars",
+      "passed": true
+    },
+    {
+      "name": "Retained route renders /guitars/yamaha-fg830",
+      "passed": true
+    },
+    {
+      "name": "Retained route renders /wishlist",
+      "passed": true
+    },
+    {
+      "name": "Retained route renders /brands",
+      "passed": true
+    },
+    {
+      "name": "No normal runtime errors",
+      "passed": true
+    },
+    {
+      "name": "No normal console errors",
+      "passed": true
+    },
+    {
+      "name": "No failed normal requests",
+      "passed": true
+    },
+    {
+      "name": "Persisted duplicate/unknown/over-limit entries normalize safely",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "failed_requests": [],
+  "passed": true
+}

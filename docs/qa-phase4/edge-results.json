@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "name": "Results render genuine empty state without assuming a top model",
+      "passed": true
+    },
+    {
+      "name": "Empty results can edit prior answers",
+      "passed": true
+    },
+    {
+      "name": "Reload restores real catalog; fixture is not persisted",
+      "passed": true
+    },
+    {
+      "name": "Quiz share fallback contains complete validated answers",
+      "passed": true
+    },
+    {
+      "name": "Picker search empty state",
+      "passed": true
+    },
+    {
+      "name": "Single selected guitar can be removed",
+      "passed": true
+    },
+    {
+      "name": "Edge cases have no runtime errors",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "fixture_note": "Empty catalog is simulated only in this isolated browser memory; source files and production data are unchanged.",
+  "passed": true
+}

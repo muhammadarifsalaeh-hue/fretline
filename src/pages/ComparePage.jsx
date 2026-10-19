@@ -1,111 +1,90 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import { t } from '@/i18n';
 import CompareEmpty from '@/components/compare/CompareEmpty';
 import CompareTable from '@/components/compare/CompareTable';
 import CompareVerdicts from '@/components/compare/CompareVerdicts';
 import { analyseRows } from '@/components/compare/compareRows';
 import GuitarPicker from '@/components/compare/GuitarPicker';
 import AppLink from '@/components/ui/AppLink';
+import ConfirmDialog from '@/components/ui/ConfirmDialog';
+import ShareLink from '@/components/ui/ShareLink';
 import { PlusIcon } from '@/components/ui/Icons';
 import Switch from '@/components/ui/Switch';
 import { GUITARS_BY_ID } from '@/data/guitars';
 import { MAX_COMPARE, useShop } from '@/context/ShopContext';
+import { normalizeGuitarIds } from '@/utils/selection';
 
 export default function ComparePage() {
-  const { compare, removeCompare, clearCompare, setCompareIds, notify } = useShop();
+  const { compare, setCompareIds } = useShop();
   const [params, setParams] = useSearchParams();
   const [diffOnly, setDiffOnly] = useState(false);
+  const [includeSamples, setIncludeSamples] = useState(false);
   const [pickerOpen, setPickerOpen] = useState(false);
+  const addRef = useRef(null);
+  const [confirmOpen, setConfirmOpen] = useState(false);
+  const closePicker = useCallback(() => setPickerOpen(false), []);
+  const closeConfirm = useCallback(() => setConfirmOpen(false), []);
 
+  useEffect(() => { document.title = t('p4.compare.docTitle'); }, []);
+  const lastReadUrl = useRef(null);
+  const selectionKey = compare.join(',');
   useEffect(() => {
-    document.title = 'Compare guitars — Fretline';
-  }, []);
+    const signature = params.toString();
+    const incoming = lastReadUrl.current !== signature;
+    const shared = params.has('ids') ? normalizeGuitarIds(params.get('ids').split(','), MAX_COMPARE) : null;
+    // Read browser history first. Changes from the global tray then update the current URL.
+    if (incoming && shared && shared.join(',') !== selectionKey) {
+      setCompareIds(shared);
+      return;
+    }
+    // Mark as read only after context has caught up. Strict Mode may replay this effect.
+    lastReadUrl.current = signature;
+    const canonical = new URLSearchParams({ ids: selectionKey });
+    if (signature !== canonical.toString()) setParams(canonical, { replace: true });
+  }, [params, selectionKey, setCompareIds, setParams]);
 
-  // เปิดลิงก์แชร์ /compare?ids=a,b,c → โหลดรายการเข้า compare แล้วเอา param ออกจาก URL
-  useEffect(() => {
-    const ids = params.get('ids');
-    if (ids === null) return;
-    const valid = ids.split(',').filter((id) => GUITARS_BY_ID[id]);
-    if (valid.length) setCompareIds(valid);
-    setParams({}, { replace: true });
-  }, [params, setParams, setCompareIds]);
-
+  const changeSelection = (ids) => {
+    const valid = normalizeGuitarIds(ids, MAX_COMPARE);
+    setCompareIds(valid);
+    setParams({ ids: valid.join(',') });
+  };
   const selected = useMemo(() => compare.map((id) => GUITARS_BY_ID[id]).filter(Boolean), [compare]);
   const ready = selected.length >= 2;
-  const diffCount = useMemo(() => (ready ? analyseRows(selected).filter((r) => r.diff).length : 0), [ready, selected]);
-  const totalRows = useMemo(() => (ready ? analyseRows(selected).length : 0), [ready, selected]);
-
-  const share = async () => {
-    const url = `${window.location.origin}/compare?ids=${selected.map((g) => g.id).join(',')}`;
-    try {
-      await navigator.clipboard.writeText(url);
-      notify('Comparison link copied');
-    } catch {
-      notify('Could not copy the link');
-    }
-  };
+  const rows = useMemo(() => analyseRows(selected, { includeSamples }), [selected, includeSamples]);
+  const diffCount = rows.filter((row) => row.diff).length;
+  const shareUrl = `${window.location.origin}/compare?ids=${compare.join(',')}`;
 
   return (
-    <>
-      <header className="relative isolate border-b border-line pb-12 pt-28 md:pb-16 md:pt-36">
-        <div aria-hidden="true" className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(50%_80%_at_80%_0%,#262626_0%,#0A0A0A_70%)]" />
-        <div className="container-x">
-          <nav aria-label="Breadcrumb" className="mb-6 flex items-center gap-2 text-sm text-mute">
-            <AppLink href="/" className="transition-colors hover:text-bone">Home</AppLink>
-            <span aria-hidden="true">/</span>
-            <span className="text-bone/80">Compare</span>
-          </nav>
-          <h1 className="font-serif text-5xl leading-[0.98] tracking-tight md:text-7xl">Compare guitars</h1>
-          <p className="mt-5 max-w-lg text-base leading-relaxed text-mute md:text-lg">
-            Put two to four guitars side by side. Rows that differ are highlighted, and the best value in each row is marked.
-          </p>
+    <div className="comparison-page phase4-page">
+      <header className="container-x phase4-heading">
+        <nav aria-label={t('common.breadcrumb')} className="discovery-breadcrumb"><AppLink href="/">{t('nav.home')}</AppLink><span aria-hidden="true">›</span><span>{t('nav.compare')}</span></nav>
+        <p className="discovery-kicker">FRETLINE / SIDE BY SIDE</p>
+        <div className="phase4-title-row"><div><h1>{t('p4.compare.title')}</h1><p>{t('p4.compare.intro')}</p></div>
+          <span className="compare-count" role="status">{t('p4.compare.count', { n: selected.length, max: MAX_COMPARE })}</span>
         </div>
       </header>
-
-      <section className="container-x pb-24 pt-8 md:pt-10">
-        {!ready ? (
-          <CompareEmpty selected={selected} onAdd={() => setPickerOpen(true)} />
-        ) : (
-          <>
-            {/* แถบเครื่องมือ */}
-            <div className="mb-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-              <p className="text-sm text-mute" aria-live="polite">
-                <span className="font-mono text-bone">{selected.length}</span> guitars selected.{' '}
-                <span className="font-mono text-bone">{diffCount}</span> of {totalRows} specs differ.
-              </p>
-              <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
-                <Switch checked={diffOnly} onChange={setDiffOnly} label="Show differences only" />
-                <button
-                  type="button"
-                  onClick={() => setPickerOpen(true)}
-                  disabled={selected.length >= MAX_COMPARE}
-                  className="inline-flex h-11 items-center gap-2 rounded-full border border-white/20 px-5 text-sm transition hover:border-gold hover:text-gold disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:border-white/20 disabled:hover:text-bone"
-                >
-                  <PlusIcon size={16} />
-                  {selected.length >= MAX_COMPARE ? 'Maximum 4' : 'Add guitar'}
-                </button>
-                <button type="button" onClick={share} className="min-h-[44px] px-2 text-sm text-bone/80 transition-colors hover:text-gold">
-                  Copy link
-                </button>
-                <button type="button" onClick={clearCompare} className="min-h-[44px] px-2 text-sm text-bone/80 transition-colors hover:text-gold">
-                  Clear all
-                </button>
-              </div>
-            </div>
-
-            <CompareVerdicts guitars={selected} />
-
-            <CompareTable guitars={selected} diffOnly={diffOnly} onRemove={removeCompare} grouped stickyNames />
-
-            <p className="mt-8 text-xs text-mute">
-              <span className="mr-2 inline-block h-1.5 w-1.5 -translate-y-px rounded-full bg-gold align-middle" />
-              marks the best value in a row. Highlighted rows differ between the guitars you picked. Ratings are sample data.
-            </p>
-          </>
-        )}
+      <section className="container-x pb-16">
+        <div className="compare-toolbar">
+          <div className="flex flex-wrap items-center gap-3">
+            <button type="button" ref={addRef} onClick={() => setPickerOpen(true)} disabled={compare.length >= MAX_COMPARE} className="phase4-button is-gold"><PlusIcon size={16} />{t(compare.length >= MAX_COMPARE ? 'p4.compare.full' : 'p4.compare.add')}</button>
+            <ShareLink url={shareUrl} disabled={!selected.length} />
+            <button type="button" disabled={!selected.length} onClick={() => setConfirmOpen(true)} className="phase4-button">{t('p4.compare.clear')}</button>
+          </div>
+          {ready && <div className="flex flex-wrap gap-5"><Switch checked={diffOnly} onChange={setDiffOnly} label={t('cmp.diffOnly')} /><Switch checked={includeSamples} onChange={setIncludeSamples} label={t('p4.compare.showSamples')} /></div>}
+        </div>
+        <p className="phase4-data-note">{t(includeSamples ? 'p4.compare.sampleNote' : 'p4.compare.verifiedNote')}</p>
+        {!ready ? <CompareEmpty selected={selected} onAdd={() => setPickerOpen(true)} onSelect={changeSelection} onRemove={(id) => changeSelection(compare.filter((value) => value !== id))} /> : <>
+          <p className="mb-4 text-xs text-mute" aria-live="polite">{t('p4.compare.differences', { n: diffCount, total: rows.length })}</p>
+          <CompareVerdicts guitars={selected} />
+          <CompareTable guitars={selected} diffOnly={diffOnly} onRemove={(id) => changeSelection(compare.filter((value) => value !== id))} grouped stickyNames includeSamples={includeSamples} editorial />
+          {diffOnly && !diffCount && <p className="phase4-empty-note" role="status">{t('p4.compare.noDifferences')}</p>}
+          <p className="mt-5 text-xs leading-6 text-mute">{t('p4.compare.scrollHint')}</p>
+        </>}
       </section>
-
-      <GuitarPicker open={pickerOpen} onClose={() => setPickerOpen(false)} />
-    </>
+      <GuitarPicker open={pickerOpen} onClose={closePicker} onSelectionChange={changeSelection} />
+      <ConfirmDialog open={confirmOpen} onClose={closeConfirm} title={t('p4.compare.clearTitle')} description={t('p4.compare.clearText')}
+        onConfirm={() => { changeSelection([]); closeConfirm(); window.setTimeout(() => addRef.current?.focus(), 0); }} />
+    </div>
   );
 }

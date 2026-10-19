@@ -8,14 +8,14 @@ import Footer from '@/components/layout/Footer';
 import Navbar from '@/components/layout/Navbar';
 import ScrollManager from '@/components/layout/ScrollManager';
 import Toast from '@/components/layout/Toast';
-import ComparePage from '@/pages/ComparePage';
 import BrandDetailPage from '@/pages/BrandDetailPage';
 import BrandsPage from '@/pages/BrandsPage';
-import FindMyGuitarPage from '@/pages/FindMyGuitarPage';
 import HomePage from '@/pages/HomePage';
 import NotFoundPage from '@/pages/NotFoundPage';
 import WishlistPage from '@/pages/WishlistPage';
 
+const ComparePage = lazy(() => import('@/pages/ComparePage'));
+const FindMyGuitarPage = lazy(() => import('@/pages/FindMyGuitarPage'));
 const CatalogPage = lazy(() => import('@/pages/CatalogPage'));
 const GuitarDetailPage = lazy(() => import('@/pages/GuitarDetailPage'));
 
@@ -33,8 +33,8 @@ export default function App() {
             <Route path="/brands" element={<BrandsPage />} />
             <Route path="/brands/:id" element={<BrandDetailPage />} />
             <Route path="/wishlist" element={<WishlistPage />} />
-            <Route path="/compare" element={<ComparePage />} />
-            <Route path="/find-my-guitar" element={<FindMyGuitarPage />} />
+            <Route path="/compare" element={<DiscoveryRoute><ComparePage /></DiscoveryRoute>} />
+            <Route path="/find-my-guitar" element={<DiscoveryRoute><FindMyGuitarPage /></DiscoveryRoute>} />
             <Route path="/guitars/:slug" element={<DiscoveryRoute><GuitarDetailPage /></DiscoveryRoute>} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>

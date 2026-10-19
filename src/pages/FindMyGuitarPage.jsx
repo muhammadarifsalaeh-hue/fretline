@@ -1,23 +1,29 @@
 import { useEffect, useMemo } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
+import { t } from '@/i18n';
+import { QUIZ_STEPS } from '@/data/quiz';
 import QuizFlow from '@/components/quiz/QuizFlow';
 import QuizResults from '@/components/quiz/QuizResults';
-import { readAnswers } from '@/utils/quizScoring';
+import { readAnswers, readPartialAnswers } from '@/utils/quizScoring';
 
-/**
- * /find-my-guitar            → Quiz (intro + คำถามทีละข้อ)
- * /find-my-guitar?type=...   → ผลลัพธ์ (คำตอบอยู่ใน URL จึงแชร์/กด Back ได้)
- */
 export default function FindMyGuitarPage() {
   const [params] = useSearchParams();
   const navigate = useNavigate();
   const key = params.toString();
-  const answers = useMemo(() => readAnswers(new URLSearchParams(key)), [key]);
+  const answers = useMemo(() => readPartialAnswers(new URLSearchParams(key)), [key]);
+  const complete = useMemo(() => readAnswers(new URLSearchParams(key)), [key]);
+  const step = params.get('step');
+  const editing = step !== null;
+  const index = /^\d+$/.test(step ?? '') && Number(step) >= 1 && Number(step) <= QUIZ_STEPS.length ? Number(step) - 1 : -1;
+  const showResults = complete && !editing;
+  useEffect(() => { document.title = t(showResults ? 'p4.quiz.resultDocTitle' : 'p4.quiz.docTitle'); }, [showResults]);
 
-  useEffect(() => {
-    document.title = answers ? 'Your guitar matches — Fretline' : 'Find my guitar — Fretline';
-  }, [answers]);
-
-  if (answers) return <QuizResults answers={answers} onRetake={() => navigate('/find-my-guitar')} />;
-  return <QuizFlow onFinish={(a) => navigate(`/find-my-guitar?${new URLSearchParams(a).toString()}`)} />;
+  const onNavigate = (nextAnswers, nextIndex, { replace = false } = {}) => {
+    const next = new URLSearchParams(nextAnswers);
+    next.set('step', nextIndex < 0 ? 'welcome' : String(nextIndex + 1));
+    navigate(`/find-my-guitar?${next}`, { replace });
+  };
+  return showResults
+    ? <QuizResults answers={complete} onEdit={() => onNavigate(complete, 0)} onRetake={() => navigate('/find-my-guitar')} />
+    : <QuizFlow answers={answers} index={index} onNavigate={onNavigate} onFinish={(next) => navigate(`/find-my-guitar?${new URLSearchParams(next)}`)} />;
 }

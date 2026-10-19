@@ -1,3 +1,4 @@
+import { useLocation } from 'react-router-dom';
 import { GUITARS_BY_ID } from '@/data/guitars';
 import { MAX_COMPARE, useShop } from '@/context/ShopContext';
 import { t } from '@/i18n';
@@ -9,6 +10,8 @@ import GuitarImage from '@/components/guitar/GuitarImage';
 /** แถบเปรียบเทียบลอยด้านล่าง — โผล่เมื่อเลือกกีตาร์อย่างน้อย 1 ตัว */
 export default function CompareBar() {
   const { compare, removeCompare } = useShop();
+  const { pathname } = useLocation();
+  if (pathname === '/compare' || pathname === '/find-my-guitar') return null;
   const items = compare.map((id) => GUITARS_BY_ID[id]).filter(Boolean);
   const visible = items.length > 0;
   const ready = items.length >= 2;

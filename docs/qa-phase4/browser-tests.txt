@@ -1,0 +1,87 @@
+Comparison empty state and canonical empty URL True
+Empty comparison cannot share an empty list True
+Picker opens True
+One guitar state retained with guidance True
+Shared comparison deduplicates ids and rejects unknown models True
+Add from catalog creates a two-column comparison True
+Source-backed construction differences are visible True
+Unverified review stars are absent True
+Differences filter hides equal and empty sourced rows True
+Guitar Detail shares compare and wishlist state True
+Browser Back restores comparison URL snapshot True
+Browser Forward restores detail route True
+Picker clearly indicates four-guitar limit True
+Fifth model is disabled in picker True
+Full selection status on comparison page True
+Catalog cannot add a fifth guitar True
+Sample prices hidden by default True
+Sample display requires explicit toggle True
+Sample mode has explicit data warning True
+Differences filter state is accessible with four models True
+Remove changes comparison and URL True
+Back restores removed model True
+Forward restores removal True
+Clear cancellation preserves models True
+Confirmed clear removes comparison only True
+Clear returns focus to Add Guitar True
+Back after clear restores previous selection True
+Shared comparison URL carries selected ids True
+Clipboard denial exposes selectable share URL True
+Comparison persists after reload True
+Quiz welcome screen True
+Quiz cannot advance without an answer True
+Native radio keyboard arrows select answers True
+Answer selection stays on current step True
+Previous preserves selected experience True
+Returning forward preserves later answer True
+Browser Back restores quiz step True
+Browser Forward restores quiz step True
+All five steps reach ranked results True
+Result models and data states shown True
+Results do not publish sample prices True
+All recommendation caveats are accessible True
+Result comparison button removes an existing selection True
+Result comparison button adds it back True
+Result wishlist integrates with saved list True
+Result wishlist can save again True
+Result opens guitar detail True
+Back from detail restores results URL True
+Shared results survive reload True
+Edit opens existing answers without reset True
+Compare recommendations transfers exact ids True
+Retake clears answers and returns welcome True
+Invalid quiz URL has safe welcome state True
+compare no horizontal document overflow at 1440px True
+quiz-welcome no horizontal document overflow at 1440px True
+quiz-question no horizontal document overflow at 1440px True
+quiz-results no horizontal document overflow at 1440px True
+compare no horizontal document overflow at 768px True
+quiz-welcome no horizontal document overflow at 768px True
+quiz-question no horizontal document overflow at 768px True
+quiz-results no horizontal document overflow at 768px True
+compare no horizontal document overflow at 1024px True
+quiz-welcome no horizontal document overflow at 1024px True
+quiz-question no horizontal document overflow at 1024px True
+quiz-results no horizontal document overflow at 1024px True
+compare no horizontal document overflow at 390px True
+quiz-welcome no horizontal document overflow at 390px True
+quiz-question no horizontal document overflow at 390px True
+quiz-results no horizontal document overflow at 390px True
+compare no horizontal document overflow at 320px True
+quiz-welcome no horizontal document overflow at 320px True
+quiz-question no horizontal document overflow at 320px True
+quiz-results no horizontal document overflow at 320px True
+Comparison region scrolls horizontally by keyboard True
+Picker contains keyboard focus True
+Picker Escape restores opener True
+Reduced motion quiz remains visible True
+Retained route renders / True
+Retained route renders /guitars True
+Retained route renders /guitars/yamaha-fg830 True
+Retained route renders /wishlist True
+Retained route renders /brands True
+No normal runtime errors True
+No normal console errors True
+No failed normal requests True
+Persisted duplicate/unknown/over-limit entries normalize safely True
+TOTAL 86 / 86

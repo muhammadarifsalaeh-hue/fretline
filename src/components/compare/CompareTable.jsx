@@ -1,3 +1,4 @@
+import { publicPrice } from '@/utils/dataTrust';
 import { cn } from '@/utils/cn';
 import { formatPrice } from '@/utils/format';
 import { guitarUrl } from '@/utils/routes';
@@ -5,7 +6,6 @@ import GuitarImage from '@/components/guitar/GuitarImage';
 import AppLink from '@/components/ui/AppLink';
 import { CloseIcon } from '@/components/ui/Icons';
 import { t } from '@/i18n';
-import { NOT_SPECIFIED } from '@/utils/format';
 import { analyseRows, groupRows } from './compareRows';
 
 /** แถว/กลุ่มที่หุบหายด้วย animation (ใช้กับ "Show differences only") */
@@ -30,13 +30,13 @@ function Collapse({ hide, children }) {
  *  - Mobile: เลื่อนแนวนอน คอลัมน์ป้ายชื่อ sticky | Desktop (lg+): แถวชื่อรุ่น sticky ใต้ Navbar
  *  - grouped: แสดงหัวข้อกลุ่ม | stickyNames: ให้แถวชื่อรุ่นติดด้านบนตอนเลื่อน
  */
-export default function CompareTable({ guitars, diffOnly = false, onRemove, bg = 'bg-ink', grouped = false, stickyNames = false }) {
+export default function CompareTable({ guitars, diffOnly = false, onRemove, bg = 'bg-ink', grouped = false, stickyNames = false, includeSamples = true, editorial = false }) {
   const n = guitars.length;
   const columns = `var(--label-w) repeat(${n}, minmax(var(--col-min), 1fr))`;
-  const groups = groupRows(analyseRows(guitars));
+  const groups = groupRows(analyseRows(guitars, { includeSamples, includeIdentity: editorial }));
 
   return (
-    <div className="compare-table-scroll overflow-x-auto [--col-min:150px] [--label-w:88px] [scrollbar-width:thin] md:[--col-min:190px] md:[--label-w:120px] lg:overflow-visible">
+    <div role="region" aria-label={t('p4.compare.tableRegion')} tabIndex={0} className="compare-table-scroll overflow-x-auto [--col-min:150px] [--label-w:88px] [scrollbar-width:thin] md:[--col-min:190px] md:[--label-w:120px] lg:overflow-visible">
       <div style={{ minWidth: `calc(var(--label-w) + ${n} * (var(--col-min) + 1rem))` }}>
         {/* รูป + แบรนด์ */}
         <div className="grid items-end gap-4 pb-5" style={{ gridTemplateColumns: columns }}>
@@ -61,21 +61,24 @@ export default function CompareTable({ guitars, diffOnly = false, onRemove, bg =
           ))}
         </div>
 
+        <div role="table" aria-label={t('p4.compare.table')}>
         {/* ชื่อรุ่น + ราคา (sticky บน Desktop) */}
         <div
+          role="row"
           className={cn(
             'grid items-start gap-4 border-y border-line py-4',
             stickyNames && 'lg:sticky lg:top-20 lg:z-20 lg:bg-ink/95 lg:backdrop-blur-xl',
           )}
           style={{ gridTemplateColumns: columns }}
         >
-          <div className={cn('sticky left-0 z-10 text-sm text-mute lg:bg-transparent', bg)}>{t('cmp.model')}</div>
+          <div role="columnheader" className={cn('sticky left-0 z-10 text-sm text-mute lg:bg-transparent', bg)}>{t('cmp.model')}</div>
           {guitars.map((g) => (
-            <div key={g.id} className="min-w-0">
+            <div key={g.id} role="columnheader" className="min-w-0">
               <AppLink href={guitarUrl(g.slug)} className="line-clamp-2 font-serif text-xl leading-tight transition-colors hover:text-gold">
                 {g.name}
               </AppLink>
-              <p className="mt-1 font-mono text-sm text-gold">{formatPrice(g.price)}</p>
+              <p className="mt-1 font-mono text-sm text-gold">{editorial && !includeSamples ? publicPrice(g) : formatPrice(g.price)}</p>
+              {editorial && <><p className="compare-model-status">{t(`status.${g.dataStatus ?? 'sample'}`)}</p><AppLink href={guitarUrl(g.slug)} className="compare-detail-link">{t('card.view')}</AppLink></>}
             </div>
           ))}
         </div>
@@ -84,35 +87,36 @@ export default function CompareTable({ guitars, diffOnly = false, onRemove, bg =
         {groups.map((group) => {
           const groupHidden = diffOnly && group.rows.every((r) => !r.diff);
           return (
-            <div key={group.title}>
+            <div key={group.title} role="rowgroup">
               {grouped && (
                 <Collapse hide={groupHidden}>
-                  <h3 className="sticky left-0 w-max pb-3 pt-10 font-serif text-2xl text-bone">{group.title}</h3>
+                  <div role="row"><h3 role="columnheader" aria-colspan={n + 1} className="sticky left-0 w-max pb-3 pt-10 font-serif text-2xl text-bone">{group.title}</h3></div>
                 </Collapse>
               )}
-              {group.rows.map(({ row, same, diff, best }) => (
+              {group.rows.map(({ row, same, diff, best, valueOf, displayOf, allowed }) => (
                 <Collapse key={row.key} hide={diffOnly && !diff}>
                   <div
+                    role="row"
                     className={cn('grid items-start gap-4 border-t border-line py-4 text-sm', diff && 'bg-white/[0.03]')}
                     style={{ gridTemplateColumns: columns }}
                   >
-                    <div className={cn('sticky left-0 z-10 pr-2', diff ? 'bg-[#101010] text-bone/80' : `${bg} text-mute`)}>
+                    <div role="rowheader" className={cn('sticky left-0 z-10 pr-2', diff ? 'bg-[#101010] text-bone/80' : `${bg} text-mute`)}>
                       {row.label}
                       {same && <span className="mt-0.5 block text-[11px] text-mute/60">{t('cmp.same')}</span>}
                     </div>
                     {guitars.map((g) => {
-                      const value = row.raw(g);
+                      const value = valueOf(g);
                       const isBest = best !== null && value === best;
-                      const note = diff && row.note ? row.note(g, guitars) : null;
+                      const note = diff && row.note && allowed(g) ? row.note(g, guitars.filter(allowed)) : null;
                       return (
-                        <div key={g.id} className={cn('min-w-0 break-words font-mono text-[13px] leading-snug', diff ? 'text-bone' : 'text-bone/45')}>
+                        <div key={g.id} role="cell" className={cn('min-w-0 break-words font-mono text-[13px] leading-snug', diff ? 'text-bone' : 'text-bone/45')}>
                           {isBest && (
                             <span
                               title={t('cmp.bestTitle')}
                               className="mr-2 inline-block h-1.5 w-1.5 -translate-y-px rounded-full bg-gold align-middle"
                             />
                           )}
-                          {row.display ? row.display(g) : (value ?? NOT_SPECIFIED)}
+                          {displayOf(g)}
                           {note && <span className="mt-1 block text-[11px] text-mute">{note}</span>}
                         </div>
                       );
@@ -123,6 +127,7 @@ export default function CompareTable({ guitars, diffOnly = false, onRemove, bg =
             </div>
           );
         })}
+        </div>
       </div>
     </div>
   );

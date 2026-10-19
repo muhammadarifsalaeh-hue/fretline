@@ -1,34 +1,22 @@
-import { useShop } from '@/context/ShopContext';
+import { t } from '@/i18n';
+import { MAX_COMPARE, useShop } from '@/context/ShopContext';
 import { cn } from '@/utils/cn';
 import { guitarUrl } from '@/utils/routes';
 import AppLink from '@/components/ui/AppLink';
-import { ArrowUpRightIcon, CheckIcon, PlusIcon } from '@/components/ui/Icons';
+import { ArrowUpRightIcon, CheckIcon, HeartIcon, PlusIcon } from '@/components/ui/Icons';
 
-/** ปุ่ม View details + Compare ที่ใช้ซ้ำในผลลัพธ์ทุกใบ */
 export default function MatchButtons({ guitar }) {
-  const { compare, toggleCompare } = useShop();
+  const { compare, wishlist, toggleCompare, toggleWishlist } = useShop();
   const inCompare = compare.includes(guitar.id);
+  const saved = wishlist.includes(guitar.id);
   return (
-    <div className="flex gap-2">
-      <AppLink
-        href={guitarUrl(guitar.slug)}
-        className="inline-flex h-12 flex-1 items-center justify-center gap-2 rounded-full bg-bone text-sm font-medium text-ink transition duration-300 hover:bg-white active:scale-[0.98]"
-      >
-        View details <ArrowUpRightIcon size={16} />
-      </AppLink>
-      <button
-        type="button"
-        aria-pressed={inCompare}
-        aria-label={inCompare ? `Remove ${guitar.name} from compare` : `Add ${guitar.name} to compare`}
-        onClick={() => toggleCompare(guitar)}
-        className={cn(
-          'inline-flex h-12 items-center gap-2 rounded-full border px-5 text-sm transition duration-300 active:scale-[0.98]',
-          inCompare ? 'border-gold bg-gold/10 text-gold' : 'border-white/20 text-bone hover:border-gold hover:text-gold',
-        )}
-      >
-        {inCompare ? <CheckIcon size={16} /> : <PlusIcon size={16} />}
-        {inCompare ? 'Added' : 'Compare'}
+    <div className="match-actions">
+      <AppLink href={guitarUrl(guitar.slug)} className="phase4-button is-gold">{t('card.view')}<ArrowUpRightIcon size={15} /></AppLink>
+      <button type="button" disabled={!inCompare && compare.length >= MAX_COMPARE} aria-pressed={inCompare}
+        aria-label={t(inCompare ? 'cmp.removeAria' : 'cmp.addAria', { name: guitar.name })} onClick={() => toggleCompare(guitar)} className={cn('phase4-button', inCompare && 'is-active')}>
+        {inCompare ? <CheckIcon size={15} /> : <PlusIcon size={15} />}{t(inCompare ? 'cmp.added' : 'cmp.btn')}
       </button>
+      <button type="button" aria-pressed={saved} aria-label={t(saved ? 'wl.removeAria' : 'wl.saveAria', { name: guitar.name })} onClick={() => toggleWishlist(guitar)} className={cn('phase4-button', saved && 'is-active')}><HeartIcon size={16} fill={saved ? 'currentColor' : 'none'} /></button>
     </div>
   );
 }
