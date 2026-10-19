@@ -1,0 +1,32 @@
+import { cn } from '@/utils/cn';
+import AppLink from './AppLink';
+
+const VARIANTS = {
+  primary: 'bg-gold text-ink hover:bg-gold-soft',
+  ghost: 'border border-white/20 text-bone hover:border-gold hover:text-gold',
+  dark: 'bg-ink text-bone hover:bg-surface-2',
+  light: 'bg-bone text-ink hover:bg-white',
+};
+const SIZES = {
+  md: 'h-12 px-7 text-sm',
+  lg: 'h-14 px-9 text-[15px]',
+};
+
+/** ปุ่ม pill — ถ้าใส่ href จะเป็น <a>, ไม่ใส่จะเป็น <button> */
+export default function Button({ href, variant = 'primary', size = 'md', className = '', children, ...props }) {
+  const Comp = href ? AppLink : 'button';
+  return (
+    <Comp
+      href={href}
+      className={cn(
+        'inline-flex items-center justify-center gap-2 rounded-full font-medium transition duration-300 ease-premium active:scale-[0.98]',
+        VARIANTS[variant],
+        SIZES[size],
+        className,
+      )}
+      {...props}
+    >
+      {children}
+    </Comp>
+  );
+}
