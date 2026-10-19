@@ -1,0 +1,51 @@
+{
+  "checks": [
+    {
+      "name": "Development Strict Mode normalizes duplicate persisted wishlist IDs",
+      "passed": true
+    },
+    {
+      "name": "Wishlist-to-Compare URL survives Strict Mode effect replay",
+      "passed": true
+    },
+    {
+      "name": "Shared comparison reload preserves all wishlist-selected IDs",
+      "passed": true
+    },
+    {
+      "name": "Wishlist removal persists under development Strict Mode",
+      "passed": true
+    },
+    {
+      "name": "English fallback remains usable: /brands",
+      "passed": true
+    },
+    {
+      "name": "English fallback remains usable: /brands/fender",
+      "passed": true
+    },
+    {
+      "name": "English fallback remains usable: /wishlist",
+      "passed": true
+    },
+    {
+      "name": "Blocked Local Storage retains in-memory wishlist across client navigation",
+      "passed": true
+    },
+    {
+      "name": "Blocked Local Storage can still remove saved guitars",
+      "passed": true
+    },
+    {
+      "name": "No development page or runtime errors",
+      "passed": true
+    },
+    {
+      "name": "No development console errors",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "passed": true
+}

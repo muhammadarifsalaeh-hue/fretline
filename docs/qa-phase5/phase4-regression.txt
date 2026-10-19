@@ -1,0 +1,30 @@
+
+> fretline@0.1.0 phase4:check
+> node scripts/check-phase4.mjs
+
+PASS original weights and maximum are preserved
+PASS full main criteria without review bonus: 100 / 105 = 95%
+PASS unverified review cannot affect score or recommendation order
+PASS verified review bonus keeps five-point cap and 99% maximum
+PASS invalid or missing review provenance cannot qualify
+PASS sample price uses existing unknown-budget six-point rule
+PASS unknown price and weight award no invented priority points
+PASS sample weight is never a verified lightweight recommendation
+PASS budget boundaries, flexibility and 20% over-budget tolerance
+PASS adjacent experience level retains eight-point rule
+PASS type mismatch retains 0.35 penalty and cannot be forced into results
+PASS empty catalog yields empty results and results respect limit
+PASS shared quiz answers round-trip; invalid and incomplete links rejected
+PASS catalog URL uses existing type and budget boundaries
+PASS stored/shared ids deduplicate, reject unknowns and cap four
+PASS all-null specs are empty, not equal or different
+PASS sample specs stay hidden unless explicitly enabled
+PASS sample reviews are absent from comparison; sourced reviews can appear
+PASS all real catalog recommendations have finite scores and no review bonus
+
+19/19 checks passed
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

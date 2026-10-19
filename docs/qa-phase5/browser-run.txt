@@ -1,0 +1,80 @@
+All brands are displayed with catalog-derived model counts True
+Unlicensed logos and unsourced brand biographies are absent from cards True
+Brand search trims whitespace and ignores case True
+Type filter updates URL and narrows the brand grid True
+Brand name sorting works True
+Brand browser Back restores previous sort while retaining filter True
+Brand browser Forward restores the selected sort True
+Existing country filter works and explicitly warns that its metadata is unverified True
+Brand search empty state appears True
+Clear filters restores the brand grid True
+Invalid brand filters fall back safely True
+Price sorting explains the absence of source-backed prices True
+Brand detail lists exactly that brand catalog count True
+Every displayed brand-detail card belongs to Yamaha True
+Brand detail does not assert an unsourced history or a sample price True
+Model sources have recorded dates and safe external links True
+Save from Brand Detail updates the shared wishlist True
+Brand Detail uses the existing compare context True
+Brand Detail opens Guitar Detail True
+Back restores the Brand Detail page True
+Filtered brand collection has a recoverable empty state True
+Brand Detail clear filter restores its actual models True
+Unknown brand has a useful recovery link True
+Inherited-object brand IDs cannot crash the route True
+Wishlist receives saves from Brand Detail across navigation True
+Wishlist uses public price labels without totals True
+Catalog and Guitar Detail share the same wishlist True
+Recently saved sorting shows the newest guitar first True
+Wishlist survives a page reload True
+Wishlist sort is reflected in the URL True
+Wishlist browser Back restores recently-saved order True
+Wishlist browser Forward restores name sort True
+Wishlist price sort explains missing and unverified prices True
+Individual saved guitar adds to Compare True
+Individual comparison toggle removes its guitar True
+Bulk compare asks before replacing the existing selection True
+Replace dialog traps keyboard focus True
+Escape cancels replacement and preserves the comparison True
+Confirmed bulk compare opens the shared comparison URL True
+Bulk compare preserves saved favourites True
+Saved guitar opens its detail page True
+Keyboard removes a saved guitar True
+Removing a row restores focus to a remaining guitar True
+Wishlist removal updates the heart on Guitar Detail True
+Cancel clear keeps all saved guitars True
+Confirmed clear shows empty state and restores useful focus True
+Empty wishlist links to the existing quiz True
+Homepage save integration remains functional True
+Quiz result saves into the same wishlist True
+Stored duplicates and deleted IDs are cleaned without losing valid saves True
+Bulk compare enforces four-guitar limit and displayed order True
+Full comparison disables only unselcted add controls True
+Removing a selected guitar frees a comparison slot True
+Invalid stored JSON recovers to an empty wishlist True
+brands desktop has no document overflow True
+brand-detail desktop has no document overflow True
+wishlist desktop has no document overflow True
+Wishlist removal works at desktop width True
+brands tablet has no document overflow True
+brand-detail tablet has no document overflow True
+wishlist tablet has no document overflow True
+Wishlist removal works at tablet width True
+brands mobile has no document overflow True
+brand-detail mobile has no document overflow True
+wishlist mobile has no document overflow True
+Wishlist removal works at mobile width True
+No document overflow at 320px: /brands True
+No document overflow at 320px: /brands/fender True
+No document overflow at 320px: /wishlist True
+No document overflow at 1024px: /brands True
+No document overflow at 1024px: /brands/fender True
+No document overflow at 1024px: /wishlist True
+Phase 1–4 route smoke: / True
+Phase 1–4 route smoke: /guitars True
+Phase 1–4 route smoke: /guitars/yamaha-fg830 True
+Phase 1–4 route smoke: /compare?ids=yamaha-fg830,yamaha-fg820 True
+Phase 1–4 route smoke: /find-my-guitar True
+No browser page or runtime errors True
+No browser console errors True
+No failed page requests True

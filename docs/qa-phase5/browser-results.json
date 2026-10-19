@@ -1,0 +1,340 @@
+{
+  "checks": [
+    {
+      "name": "All brands are displayed with catalog-derived model counts",
+      "passed": true
+    },
+    {
+      "name": "Unlicensed logos and unsourced brand biographies are absent from cards",
+      "passed": true
+    },
+    {
+      "name": "Brand search trims whitespace and ignores case",
+      "passed": true
+    },
+    {
+      "name": "Type filter updates URL and narrows the brand grid",
+      "passed": true
+    },
+    {
+      "name": "Brand name sorting works",
+      "passed": true
+    },
+    {
+      "name": "Brand browser Back restores previous sort while retaining filter",
+      "passed": true
+    },
+    {
+      "name": "Brand browser Forward restores the selected sort",
+      "passed": true
+    },
+    {
+      "name": "Existing country filter works and explicitly warns that its metadata is unverified",
+      "passed": true
+    },
+    {
+      "name": "Brand search empty state appears",
+      "passed": true
+    },
+    {
+      "name": "Clear filters restores the brand grid",
+      "passed": true
+    },
+    {
+      "name": "Invalid brand filters fall back safely",
+      "passed": true
+    },
+    {
+      "name": "Price sorting explains the absence of source-backed prices",
+      "passed": true
+    },
+    {
+      "name": "Brand detail lists exactly that brand catalog count",
+      "passed": true
+    },
+    {
+      "name": "Every displayed brand-detail card belongs to Yamaha",
+      "passed": true
+    },
+    {
+      "name": "Brand detail does not assert an unsourced history or a sample price",
+      "passed": true
+    },
+    {
+      "name": "Model sources have recorded dates and safe external links",
+      "passed": true
+    },
+    {
+      "name": "Save from Brand Detail updates the shared wishlist",
+      "passed": true
+    },
+    {
+      "name": "Brand Detail uses the existing compare context",
+      "passed": true
+    },
+    {
+      "name": "Brand Detail opens Guitar Detail",
+      "passed": true
+    },
+    {
+      "name": "Back restores the Brand Detail page",
+      "passed": true
+    },
+    {
+      "name": "Filtered brand collection has a recoverable empty state",
+      "passed": true
+    },
+    {
+      "name": "Brand Detail clear filter restores its actual models",
+      "passed": true
+    },
+    {
+      "name": "Unknown brand has a useful recovery link",
+      "passed": true
+    },
+    {
+      "name": "Inherited-object brand IDs cannot crash the route",
+      "passed": true
+    },
+    {
+      "name": "Wishlist receives saves from Brand Detail across navigation",
+      "passed": true
+    },
+    {
+      "name": "Wishlist uses public price labels without totals",
+      "passed": true
+    },
+    {
+      "name": "Catalog and Guitar Detail share the same wishlist",
+      "passed": true
+    },
+    {
+      "name": "Recently saved sorting shows the newest guitar first",
+      "passed": true
+    },
+    {
+      "name": "Wishlist survives a page reload",
+      "passed": true
+    },
+    {
+      "name": "Wishlist sort is reflected in the URL",
+      "passed": true
+    },
+    {
+      "name": "Wishlist browser Back restores recently-saved order",
+      "passed": true
+    },
+    {
+      "name": "Wishlist browser Forward restores name sort",
+      "passed": true
+    },
+    {
+      "name": "Wishlist price sort explains missing and unverified prices",
+      "passed": true
+    },
+    {
+      "name": "Individual saved guitar adds to Compare",
+      "passed": true
+    },
+    {
+      "name": "Individual comparison toggle removes its guitar",
+      "passed": true
+    },
+    {
+      "name": "Bulk compare asks before replacing the existing selection",
+      "passed": true
+    },
+    {
+      "name": "Replace dialog traps keyboard focus",
+      "passed": true
+    },
+    {
+      "name": "Escape cancels replacement and preserves the comparison",
+      "passed": true
+    },
+    {
+      "name": "Confirmed bulk compare opens the shared comparison URL",
+      "passed": true
+    },
+    {
+      "name": "Bulk compare preserves saved favourites",
+      "passed": true
+    },
+    {
+      "name": "Saved guitar opens its detail page",
+      "passed": true
+    },
+    {
+      "name": "Keyboard removes a saved guitar",
+      "passed": true
+    },
+    {
+      "name": "Removing a row restores focus to a remaining guitar",
+      "passed": true
+    },
+    {
+      "name": "Wishlist removal updates the heart on Guitar Detail",
+      "passed": true
+    },
+    {
+      "name": "Cancel clear keeps all saved guitars",
+      "passed": true
+    },
+    {
+      "name": "Confirmed clear shows empty state and restores useful focus",
+      "passed": true
+    },
+    {
+      "name": "Empty wishlist links to the existing quiz",
+      "passed": true
+    },
+    {
+      "name": "Homepage save integration remains functional",
+      "passed": true
+    },
+    {
+      "name": "Quiz result saves into the same wishlist",
+      "passed": true
+    },
+    {
+      "name": "Stored duplicates and deleted IDs are cleaned without losing valid saves",
+      "passed": true
+    },
+    {
+      "name": "Bulk compare enforces four-guitar limit and displayed order",
+      "passed": true
+    },
+    {
+      "name": "Full comparison disables only unselcted add controls",
+      "passed": true
+    },
+    {
+      "name": "Removing a selected guitar frees a comparison slot",
+      "passed": true
+    },
+    {
+      "name": "Invalid stored JSON recovers to an empty wishlist",
+      "passed": true
+    },
+    {
+      "name": "brands desktop has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "brand-detail desktop has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "wishlist desktop has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "Wishlist removal works at desktop width",
+      "passed": true
+    },
+    {
+      "name": "brands tablet has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "brand-detail tablet has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "wishlist tablet has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "Wishlist removal works at tablet width",
+      "passed": true
+    },
+    {
+      "name": "brands mobile has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "brand-detail mobile has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "wishlist mobile has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "Wishlist removal works at mobile width",
+      "passed": true
+    },
+    {
+      "name": "No document overflow at 320px: /brands",
+      "passed": true
+    },
+    {
+      "name": "No document overflow at 320px: /brands/fender",
+      "passed": true
+    },
+    {
+      "name": "No document overflow at 320px: /wishlist",
+      "passed": true
+    },
+    {
+      "name": "No document overflow at 1024px: /brands",
+      "passed": true
+    },
+    {
+      "name": "No document overflow at 1024px: /brands/fender",
+      "passed": true
+    },
+    {
+      "name": "No document overflow at 1024px: /wishlist",
+      "passed": true
+    },
+    {
+      "name": "Phase 1–4 route smoke: /",
+      "passed": true
+    },
+    {
+      "name": "Phase 1–4 route smoke: /guitars",
+      "passed": true
+    },
+    {
+      "name": "Phase 1–4 route smoke: /guitars/yamaha-fg830",
+      "passed": true
+    },
+    {
+      "name": "Phase 1–4 route smoke: /compare?ids=yamaha-fg830,yamaha-fg820",
+      "passed": true
+    },
+    {
+      "name": "Phase 1–4 route smoke: /find-my-guitar",
+      "passed": true
+    },
+    {
+      "name": "No browser page or runtime errors",
+      "passed": true
+    },
+    {
+      "name": "No browser console errors",
+      "passed": true
+    },
+    {
+      "name": "No failed page requests",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "failed_requests": [],
+  "screenshots": [
+    "brands-desktop.png",
+    "brand-detail-desktop.png",
+    "wishlist-desktop.png",
+    "brands-tablet.png",
+    "brand-detail-tablet.png",
+    "wishlist-tablet.png",
+    "brands-mobile.png",
+    "brand-detail-mobile.png",
+    "wishlist-mobile.png",
+    "wishlist-empty-mobile.png"
+  ],
+  "passed": true
+}

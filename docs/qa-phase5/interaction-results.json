@@ -1,0 +1,75 @@
+{
+  "checks": [
+    {
+      "name": "Search and keyboard brand navigation: desktop",
+      "passed": true
+    },
+    {
+      "name": "Brand Detail type filtering: desktop",
+      "passed": true
+    },
+    {
+      "name": "Brand Detail model name sorting: desktop",
+      "passed": true
+    },
+    {
+      "name": "Brand-specific Catalog navigation: desktop",
+      "passed": true
+    },
+    {
+      "name": "Back from catalog retains Brand Detail sort: desktop",
+      "passed": true
+    },
+    {
+      "name": "Search and keyboard brand navigation: tablet",
+      "passed": true
+    },
+    {
+      "name": "Brand Detail type filtering: tablet",
+      "passed": true
+    },
+    {
+      "name": "Brand Detail model name sorting: tablet",
+      "passed": true
+    },
+    {
+      "name": "Brand-specific Catalog navigation: tablet",
+      "passed": true
+    },
+    {
+      "name": "Back from catalog retains Brand Detail sort: tablet",
+      "passed": true
+    },
+    {
+      "name": "Search and keyboard brand navigation: mobile",
+      "passed": true
+    },
+    {
+      "name": "Brand Detail type filtering: mobile",
+      "passed": true
+    },
+    {
+      "name": "Brand Detail model name sorting: mobile",
+      "passed": true
+    },
+    {
+      "name": "Brand-specific Catalog navigation: mobile",
+      "passed": true
+    },
+    {
+      "name": "Back from catalog retains Brand Detail sort: mobile",
+      "passed": true
+    },
+    {
+      "name": "No page or runtime errors in responsive interactions",
+      "passed": true
+    },
+    {
+      "name": "No console errors in responsive interactions",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "passed": true
+}

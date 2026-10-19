@@ -1,7 +1,9 @@
+import { t } from '@/i18n';
+
 export const BRAND_SORTS = [
-  { id: 'models', label: 'Most models' },
-  { id: 'name', label: 'Name: A to Z' },
-  { id: 'price', label: 'Lowest starting price' },
+  { id: 'models', label: t('p5.sort.models') },
+  { id: 'name', label: t('p5.sort.name') },
+  { id: 'price', label: t('p5.sort.price') },
 ];
 
 const SORTERS = {

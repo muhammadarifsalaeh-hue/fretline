@@ -2,6 +2,7 @@ import { t } from '@/i18n';
 import { useShop } from '@/context/ShopContext';
 import { cn } from '@/utils/cn';
 import { formatPrice } from '@/utils/format';
+import { isSourceBacked, publicPrice } from '@/utils/dataTrust';
 import { guitarUrl } from '@/utils/routes';
 import GuitarImage from '@/components/guitar/GuitarImage';
 import AppLink from '@/components/ui/AppLink';
@@ -14,7 +15,7 @@ const CATEGORY_LABEL = { electric: t('category.electric'), acoustic: t('category
  * การ์ดกีตาร์สำหรับหน้า Catalog: รูปใหญ่ + ข้อมูลครบ + ปุ่ม View details / Compare แสดงตลอด
  * (รูปใช้ srcSet เพื่อให้คมชัดตามขนาดหน้าจอ)
  */
-export default function CatalogCard({ guitar, index = 0, onRemove, compact = false }) {
+export default function CatalogCard({ guitar, index = 0, onRemove, compact = false, verifiedOnly = false }) {
   const { compare, wishlist, toggleCompare, toggleWishlist } = useShop();
   const inCompare = compare.includes(guitar.id);
   const inWishlist = wishlist.includes(guitar.id);
@@ -37,7 +38,7 @@ export default function CatalogCard({ guitar, index = 0, onRemove, compact = fal
         </AppLink>
         <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-t from-surface/40 via-transparent to-transparent" />
 
-        {guitar.badge && (
+        {guitar.badge && !verifiedOnly && (
           <div className="absolute left-4 top-4">
             <Badge type={guitar.badge} />
           </div>
@@ -81,17 +82,17 @@ export default function CatalogCard({ guitar, index = 0, onRemove, compact = fal
         </h3>
 
         <p className="mt-2 text-[11px] text-gold">{t(`status.${guitar.dataStatus ?? 'sample'}`)}</p>
-        <ul className="catalog-card-tags mt-4 flex flex-wrap gap-1.5">
+        {(!verifiedOnly || isSourceBacked(guitar)) && <ul className="catalog-card-tags mt-4 flex flex-wrap gap-1.5">
           {guitar.tags.map((tag) => (
             <li key={tag} className="rounded-full border border-line px-2.5 py-1 font-mono text-[11px] text-bone/70">
               {tag}
             </li>
           ))}
-        </ul>
+        </ul>}
 
         <p className="catalog-card-price mt-auto flex flex-wrap items-baseline gap-3 pt-5">
-          <span className="font-mono text-xl text-gold">{formatPrice(guitar.price)}</span>
-          {guitar.oldPrice && <span className="font-mono text-sm text-mute line-through">{formatPrice(guitar.oldPrice)}</span>}
+          <span className="font-mono text-xl text-gold">{verifiedOnly ? publicPrice(guitar) : formatPrice(guitar.price)}</span>
+          {guitar.oldPrice && !verifiedOnly && <span className="font-mono text-sm text-mute line-through">{formatPrice(guitar.oldPrice)}</span>}
         </p>
 
         <div className="catalog-card-actions mt-4 flex gap-2">

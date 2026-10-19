@@ -1,105 +1,106 @@
-import { useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useEffect, useMemo } from 'react';
+import { useParams, useSearchParams } from 'react-router-dom';
+import { t } from '@/i18n';
 import CatalogCard from '@/components/catalog/CatalogCard';
+import CatalogEmpty from '@/components/catalog/CatalogEmpty';
 import AppLink from '@/components/ui/AppLink';
-import Button from '@/components/ui/Button';
-import { BRANDS, BRANDS_BY_ID, getBrandGuitars } from '@/data/brands';
+import DiscoveryHeading from '@/components/ui/DiscoveryHeading';
+import SortSelect from '@/components/ui/SortSelect';
+import { ArrowRightIcon, ArrowUpRightIcon } from '@/components/ui/Icons';
+import { BRANDS, getBrandById, getBrandGuitars } from '@/data/brands';
 import { CATEGORIES } from '@/data/categories';
-import { formatPrice } from '@/utils/format';
+import { isSourceBacked } from '@/utils/dataTrust';
+import { sortGuitars, WISHLIST_SORTS } from '@/utils/guitarSort';
 import { brandCatalogUrl, brandUrl } from '@/utils/routes';
-import NotFoundPage from './NotFoundPage';
 
-const typeName = (id) => CATEGORIES.find((c) => c.id === id)?.name ?? id;
+const SORTS = [{ id: 'catalog', label: t('p5.detail.models') }, ...WISHLIST_SORTS.filter((item) => item.id !== 'saved')];
 
-/** /brands/:id — กีตาร์ทั้งหมดของแบรนด์นั้น (ใช้ CatalogCard ตัวเดียวกับ Catalog) */
 function BrandContent({ brand }) {
-  const guitars = getBrandGuitars(brand.name);
-  const others = BRANDS.filter((b) => b.id !== brand.id);
-  const meta = [brand.country, brand.founded && `Est. ${brand.founded}`].filter(Boolean).join(', ');
-
-  useEffect(() => {
-    document.title = `${brand.name} guitars — Fretline`;
-  }, [brand]);
-
-  const stats = [
-    ['Models', brand.models],
-    ['Price range', brand.priceMin == null ? formatPrice(null) : brand.priceMin === brand.priceMax ? formatPrice(brand.priceMin) : `${formatPrice(brand.priceMin)} – ${formatPrice(brand.priceMax)} (listed prices)`],
-    ['Types', brand.categories.map(typeName).join(', ')],
-  ];
+  const [params, setParams] = useSearchParams();
+  const guitars = useMemo(() => getBrandGuitars(brand.name), [brand.name]);
+  const type = CATEGORIES.some((item) => item.id === params.get('type')) ? params.get('type') : '';
+  const sort = SORTS.some((item) => item.id === params.get('sort')) ? params.get('sort') : 'catalog';
+  const results = useMemo(() => {
+    const filtered = guitars.filter((guitar) => !type || guitar.category === type);
+    return sort === 'catalog' ? filtered : sortGuitars(filtered, sort, { verifiedOnly: true });
+  }, [guitars, type, sort]);
+  const sources = useMemo(() => [...new Map(guitars.filter(isSourceBacked).map((guitar) => [guitar.source.url, guitar.source])).values()], [guitars]);
+  const others = BRANDS.filter((item) => item.id !== brand.id);
+  useEffect(() => { document.title = t('p5.detail.docTitle', { brand: brand.name }); }, [brand.name]);
+  const update = (patch) => {
+    const next = { type, sort, ...patch };
+    const search = new URLSearchParams();
+    if (next.type) search.set('type', next.type);
+    if (next.sort !== 'catalog') search.set('sort', next.sort);
+    setParams(search);
+  };
 
   return (
-    <>
-      <header className="relative isolate border-b border-line pb-12 pt-28 md:pb-16 md:pt-36">
-        <div aria-hidden="true" className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(50%_80%_at_80%_0%,#262626_0%,#0A0A0A_70%)]" />
-        <div className="container-x">
-          <nav aria-label="Breadcrumb" className="mb-6 flex flex-wrap items-center gap-2 text-sm text-mute">
-            <AppLink href="/" className="transition-colors hover:text-bone">Home</AppLink>
-            <span aria-hidden="true">/</span>
-            <AppLink href="/brands" className="transition-colors hover:text-bone">Brands</AppLink>
-            <span aria-hidden="true">/</span>
-            <span className="text-bone/80">{brand.name}</span>
-          </nav>
-
-          {brand.logo ? (
-            <img src={brand.logo} alt={brand.name} className="h-14 max-w-[70%] object-contain object-left md:h-20" />
-          ) : (
-            <h1 className="font-serif text-5xl leading-[0.98] tracking-tight md:text-7xl">{brand.name}</h1>
-          )}
-          {meta && <p className="mt-4 text-base text-mute md:text-lg">{meta}</p>}
-
-          <dl className="mt-8 grid gap-px overflow-hidden rounded-2xl border border-line bg-line sm:grid-cols-3">
-            {stats.map(([label, value]) => (
-              <div key={label} className="bg-ink px-5 py-4">
-                <dt className="text-xs text-mute">{label}</dt>
-                <dd className="mt-1 font-mono text-sm text-bone">{value}</dd>
-              </div>
-            ))}
-          </dl>
-        </div>
-      </header>
-
-      <section className="container-x pb-16 pt-10 md:pb-24 md:pt-14">
-        <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-          <h2 className="font-serif text-3xl md:text-4xl">
-            {guitars.length} {guitars.length === 1 ? 'guitar' : 'guitars'} by {brand.name}
-          </h2>
-          <Button href={brandCatalogUrl(brand.name)} variant="ghost">
-            Filter in catalog
-          </Button>
-        </div>
-
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
-          {guitars.map((g, i) => (
-            <CatalogCard key={g.id} guitar={g} index={i} />
-          ))}
-        </div>
-      </section>
-
-      <section className="border-t border-line py-14 md:py-20">
-        <div className="container-x">
-          <h2 className="mb-6 font-serif text-3xl md:text-4xl">More brands</h2>
-          <ul className="flex flex-wrap gap-2">
-            {others.map((b) => (
-              <li key={b.id}>
-                <AppLink
-                  href={brandUrl(b.name)}
-                  className="inline-flex min-h-[44px] items-center gap-2 rounded-full border border-white/15 px-5 text-sm text-bone/85 transition duration-300 hover:border-gold hover:text-gold"
-                >
-                  {b.name}
-                  <span className="font-mono text-xs text-mute">{b.models}</span>
-                </AppLink>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-    </>
+    <div className="phase5-page brand-detail-page">
+      <DiscoveryHeading eyebrow="THE BRAND COLLECTION" title={brand.name} serif
+        description={t('p5.detail.intro', { n: guitars.length, brand: brand.name })}
+        breadcrumbs={[{ label: t('nav.brands'), href: '/brands' }, { label: brand.name }]}
+        aside={<AppLink href={brandCatalogUrl(brand.name)} className="phase4-button is-gold">{t('p5.detail.catalog')}<ArrowRightIcon size={16} /></AppLink>}>
+        {brand.logo && <img className="brand-detail-logo" src={brand.logo} alt={brand.name} width="180" height="64" />}
+      </DiscoveryHeading>
+      <div className="container-x phase5-body">
+        <dl className="brand-detail-stats">
+          <div><dt>{t('p5.detail.models')}</dt><dd>{guitars.length}</dd></div>
+          <div><dt>{t('p5.detail.types')}</dt><dd className="is-text">{brand.categories.map((id) => CATEGORIES.find((item) => item.id === id)?.name ?? id).join(' · ')}</dd></div>
+          <div><dt>{t('p5.detail.sourceCount')}</dt><dd>{brand.sourceModels}<span> / {guitars.length}</span></dd></div>
+        </dl>
+        <p className="brand-detail-bio">{t('p5.detail.noBio')}</p>
+        {sources.length > 0 && <details className="brand-sources">
+          <summary>{t('p5.detail.source')} ({sources.length})</summary>
+          <p>{t('p5.detail.sourceCaveat')}</p>
+          <ul>{sources.map((source) => <li key={source.url}>
+            <a href={source.url} target="_blank" rel="noopener noreferrer">{new URL(source.url).hostname}<ArrowUpRightIcon size={14} /></a>
+            <span>{t('p5.detail.checked', { date: source.verifiedOn })}</span>
+            {source.note && <p>{source.note}</p>}
+          </li>)}</ul>
+        </details>}
+        <section aria-labelledby="brand-models-title" className="brand-models-section">
+          <div className="brand-models-heading">
+            <h2 id="brand-models-title">{t('p5.detail.heading', { brand: brand.name })}</h2>
+            <SortSelect value={sort} onChange={(value) => update({ sort: value })} options={SORTS} />
+          </div>
+          <div className="brands-filter-row" role="group" aria-label={t('p5.type')}>
+            <button className={`phase5-chip ${!type ? 'is-active' : ''}`} type="button" aria-pressed={!type} onClick={() => update({ type: '' })}>{t('p5.all')}</button>
+            {brand.categories.map((id) => <button key={id} type="button" className={`phase5-chip ${type === id ? 'is-active' : ''}`}
+              aria-pressed={type === id} onClick={() => update({ type: type === id ? '' : id })}>
+              {CATEGORIES.find((item) => item.id === id)?.name ?? id}
+            </button>)}
+            {type && !brand.categories.includes(type) && <button className="phase5-chip is-active" type="button" aria-pressed="true" onClick={() => update({ type: '' })}>{CATEGORIES.find((item) => item.id === type)?.name}</button>}
+          </div>
+          <p className="phase5-note">{t('p5.detail.dataNote')}</p>
+          <p className="brand-model-count" aria-live="polite">{t('p5.detail.count', { n: results.length, total: guitars.length })}</p>
+          {results.length ? <div className="brand-model-grid">
+            {results.map((guitar, index) => <CatalogCard key={guitar.id} guitar={guitar} index={index} compact verifiedOnly />)}
+          </div> : <CatalogEmpty title={t('p5.detail.empty')} text={t('p5.detail.emptyText')} onClear={() => update({ type: '' })} />}
+        </section>
+        <section className="brand-more" aria-labelledby="more-brands-title">
+          <h2 id="more-brands-title">{t('p5.detail.more')}</h2>
+          <ul>{others.map((item) => <li key={item.id}><AppLink href={brandUrl(item.name)}>{item.name}<span>{item.models}</span><ArrowUpRightIcon size={14} /></AppLink></li>)}</ul>
+        </section>
+      </div>
+    </div>
   );
+}
+
+function MissingBrand() {
+  useEffect(() => { document.title = `${t('p5.detail.notFound')} — Fretline`; }, []);
+  return <div className="phase5-page">
+    <DiscoveryHeading eyebrow="404 / BRAND NOT FOUND" title={t('p5.detail.notFound')} breadcrumbs={[{ label: t('nav.brands'), href: '/brands' }, { label: '404' }]} />
+    <section className="container-x phase5-body">
+      <CatalogEmpty title={t('p5.detail.notFound')} text={t('p5.detail.notFoundText')}>
+        <AppLink href="/brands" className="phase4-button is-gold mt-6">{t('p5.detail.back')}<ArrowRightIcon size={16} /></AppLink>
+      </CatalogEmpty>
+    </section>
+  </div>;
 }
 
 export default function BrandDetailPage() {
   const { id } = useParams();
-  const brand = BRANDS_BY_ID[(id ?? '').toLowerCase()];
-  if (!brand) return <NotFoundPage />;
-  return <BrandContent key={brand.id} brand={brand} />;
+  const brand = getBrandById(id);
+  return brand ? <BrandContent key={brand.id} brand={brand} /> : <MissingBrand />;
 }

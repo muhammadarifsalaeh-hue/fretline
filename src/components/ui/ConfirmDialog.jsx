@@ -2,7 +2,7 @@ import { useId, useRef } from 'react';
 import { t } from '@/i18n';
 import useDialogFocus from '@/hooks/useDialogFocus';
 
-export default function ConfirmDialog({ open, onClose, onConfirm, title, description }) {
+export default function ConfirmDialog({ open, onClose, onConfirm, title, description, confirmLabel = t('p4.confirmClear') }) {
   const ref = useRef(null);
   const id = useId();
   useDialogFocus(ref, open, onClose);
@@ -15,7 +15,7 @@ export default function ConfirmDialog({ open, onClose, onConfirm, title, descrip
         <p id={`${id}-text`} className="mt-3 text-sm leading-7 text-mute">{description}</p>
         <div className="mt-6 flex flex-wrap justify-end gap-3">
           <button type="button" onClick={onClose} className="phase4-button">{t('p4.cancel')}</button>
-          <button type="button" onClick={onConfirm} className="phase4-button is-gold">{t('p4.confirmClear')}</button>
+          <button type="button" onClick={onConfirm} className="phase4-button is-gold">{confirmLabel}</button>
         </div>
       </div>
     </div>

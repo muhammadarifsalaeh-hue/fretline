@@ -1,0 +1,32 @@
+
+> fretline@0.1.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 149 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                             0.73 kB │ gzip:  0.51 kB
+dist/assets/index-Bw1u-ZEB.css             87.33 kB │ gzip: 16.36 kB
+dist/assets/CatalogEmpty-Cul8-v--.js        0.67 kB │ gzip:  0.39 kB
+dist/assets/guitarSort-BN_vCfzS.js          0.73 kB │ gzip:  0.41 kB
+dist/assets/ShareLink-BdtnLek4.js           0.80 kB │ gzip:  0.51 kB
+dist/assets/useDialogFocus-KsjEvxSA.js      1.00 kB │ gzip:  0.52 kB
+dist/assets/ConfirmDialog-BSQY2CzS.js       1.03 kB │ gzip:  0.57 kB
+dist/assets/DiscoveryHeading-DpezISYC.js    1.40 kB │ gzip:  0.69 kB
+dist/assets/CatalogCard-BZLlaiNk.js         4.20 kB │ gzip:  1.67 kB
+dist/assets/BrandDetailPage-Dx0xkQcZ.js     5.06 kB │ gzip:  1.85 kB
+dist/assets/WishlistPage-8fIEmO2y.js        5.37 kB │ gzip:  2.06 kB
+dist/assets/BrandsPage-Co9SCU9u.js          5.38 kB │ gzip:  2.12 kB
+dist/assets/ComparePage-GlxorvIU.js        10.65 kB │ gzip:  3.71 kB
+dist/assets/GuitarDetailPage-dz-XDyjC.js   16.52 kB │ gzip:  5.47 kB
+dist/assets/CatalogPage-BOjdSq3p.js        17.14 kB │ gzip:  5.75 kB
+dist/assets/FindMyGuitarPage-B-3Zd3-m.js   18.74 kB │ gzip:  6.09 kB
+dist/assets/index-C5xjCMgb.js             311.31 kB │ gzip: 96.80 kB
+✓ built in 31.44s
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

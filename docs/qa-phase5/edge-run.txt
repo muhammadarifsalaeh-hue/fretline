@@ -1,0 +1,11 @@
+Development Strict Mode normalizes duplicate persisted wishlist IDs True
+Wishlist-to-Compare URL survives Strict Mode effect replay True
+Shared comparison reload preserves all wishlist-selected IDs True
+Wishlist removal persists under development Strict Mode True
+English fallback remains usable: /brands True
+English fallback remains usable: /brands/fender True
+English fallback remains usable: /wishlist True
+Blocked Local Storage retains in-memory wishlist across client navigation True
+Blocked Local Storage can still remove saved guitars True
+No development page or runtime errors True
+No development console errors True

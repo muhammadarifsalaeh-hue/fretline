@@ -1,3 +1,5 @@
+> Latest delivery: [Phase 5 — Brands & Wishlist](docs/PHASE_5_REPORT.md). Includes catalog-derived brands, persistent wishlist integration, browser evidence, and Codespaces instructions.
+
 > Latest delivery: [Phase 4 — Compare & Find My Guitar](docs/PHASE_4_REPORT.md). Includes scoring rationale, browser evidence, and Codespaces update instructions.
 
 > Latest delivery: [Phase 3 — Catalog & Guitar Detail](docs/PHASE_3_REPORT.md). Includes current test evidence and remaining content gaps.

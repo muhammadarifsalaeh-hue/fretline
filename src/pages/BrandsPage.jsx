@@ -1,96 +1,54 @@
 import { useEffect, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import { t } from '@/i18n';
 import BrandCard from '@/components/brands/BrandCard';
 import BrandsToolbar from '@/components/brands/BrandsToolbar';
 import CatalogEmpty from '@/components/catalog/CatalogEmpty';
-import AppLink from '@/components/ui/AppLink';
+import DiscoveryHeading from '@/components/ui/DiscoveryHeading';
 import { BRANDS } from '@/data/brands';
 import { CATEGORIES } from '@/data/categories';
 import { GUITARS } from '@/data/guitars';
 import { filterBrands, isBrandSort } from '@/utils/brandFilters';
 
-const COUNTRIES = [...new Set(BRANDS.map((b) => b.country).filter(Boolean))].sort();
-// แสดงเฉพาะประเภทที่มีแบรนด์ผลิตจริง
-const TYPES = CATEGORIES.filter((c) => BRANDS.some((b) => b.categories.includes(c.id)));
+const COUNTRIES = [...new Set(BRANDS.map((brand) => brand.country).filter(Boolean))].sort();
+const TYPES = CATEGORIES.filter((category) => BRANDS.some((brand) => brand.categories.includes(category.id)));
 
-/**
- * /brands — ทุกแบรนด์ที่มีใน Catalog (ข้อมูลชุดเดียวกัน)
- * ตัวกรองเก็บใน URL: ?q=&type=&country=&sort=
- */
 export default function BrandsPage() {
   const [params, setParams] = useSearchParams();
   const q = params.get('q') ?? '';
-  const type = TYPES.some((t) => t.id === params.get('type')) ? params.get('type') : '';
+  const type = TYPES.some((item) => item.id === params.get('type')) ? params.get('type') : '';
   const country = COUNTRIES.includes(params.get('country')) ? params.get('country') : '';
   const sort = isBrandSort(params.get('sort')) ? params.get('sort') : 'models';
+  useEffect(() => { document.title = t('p5.brands.docTitle'); }, []);
 
-  useEffect(() => {
-    document.title = 'Brands — Fretline';
-  }, []);
-
-  const update = (patch) => {
+  const update = (patch, replace = false) => {
     const next = { q, type, country, sort, ...patch };
-    const p = new URLSearchParams();
-    if (next.q.trim()) p.set('q', next.q);
-    if (next.type) p.set('type', next.type);
-    if (next.country) p.set('country', next.country);
-    if (next.sort !== 'models') p.set('sort', next.sort);
-    setParams(p, { replace: true });
+    const search = new URLSearchParams();
+    if (next.q.trim()) search.set('q', next.q);
+    if (next.type) search.set('type', next.type);
+    if (next.country) search.set('country', next.country);
+    if (next.sort !== 'models') search.set('sort', next.sort);
+    setParams(search, { replace });
   };
-
   const results = useMemo(() => filterBrands(BRANDS, { q, type, country, sort }), [q, type, country, sort]);
   const hasFilters = Boolean(q.trim() || type || country);
+  const clear = () => update({ q: '', type: '', country: '' });
 
   return (
-    <>
-      <header className="relative isolate border-b border-line pb-12 pt-28 md:pb-16 md:pt-36">
-        <div aria-hidden="true" className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(50%_80%_at_80%_0%,#262626_0%,#0A0A0A_70%)]" />
-        <div className="container-x">
-          <nav aria-label="Breadcrumb" className="mb-6 flex items-center gap-2 text-sm text-mute">
-            <AppLink href="/" className="transition-colors hover:text-bone">Home</AppLink>
-            <span aria-hidden="true">/</span>
-            <span className="text-bone/80">Brands</span>
-          </nav>
-          <h1 className="font-serif text-5xl leading-[0.98] tracking-tight md:text-7xl">Brands</h1>
-          <p className="mt-5 max-w-lg text-base leading-relaxed text-mute md:text-lg">
-            {BRANDS.length} makers and {GUITARS.length} guitars in the catalog. Pick a brand to see its instruments.
-          </p>
-        </div>
-      </header>
-
-      <section className="container-x pb-24 pt-8 md:pt-10">
-        <BrandsToolbar
-          query={q}
-          onQuery={(v) => update({ q: v })}
-          sort={sort}
-          onSort={(v) => update({ sort: v })}
-          type={type}
-          onType={(v) => update({ type: v })}
-          country={country}
-          onCountry={(v) => update({ country: v })}
-          types={TYPES}
-          countries={COUNTRIES}
-          count={results.length}
-          hasFilters={hasFilters}
-          onClear={() => update({ q: '', type: '', country: '' })}
-        />
-
-        <div className="mt-8">
-          {results.length === 0 ? (
-            <CatalogEmpty
-              title="No brands match"
-              text="Try a different name or remove a filter."
-              onClear={() => update({ q: '', type: '', country: '' })}
-            />
-          ) : (
-            <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
-              {results.map((brand, i) => (
-                <BrandCard key={brand.id} brand={brand} index={i} />
-              ))}
-            </div>
-          )}
-        </div>
+    <div className="phase5-page brands-page">
+      <DiscoveryHeading eyebrow="BRAND DIRECTORY" title={t('p5.brands.title')} description={t('p5.brands.intro')}
+        breadcrumbs={[{ label: t('nav.brands') }]}
+        aside={<p className="phase5-heading-meta">{t('p5.brands.summary', { brands: BRANDS.length, n: GUITARS.length })}</p>} />
+      <section className="container-x phase5-body" aria-label={t('p5.brands.title')}>
+        <BrandsToolbar query={q} onQuery={(value) => update({ q: value }, true)} sort={sort} onSort={(value) => update({ sort: value })}
+          type={type} onType={(value) => update({ type: value })} country={country} onCountry={(value) => update({ country: value })}
+          types={TYPES} countries={COUNTRIES} count={results.length} hasFilters={hasFilters} onClear={clear} />
+        {sort === 'price' && BRANDS.every((brand) => brand.priceMin == null) && <p className="phase5-note">{t('p5.brands.noPrices')}</p>}
+        {results.length ? <div className="brand-directory-grid">
+          {results.map((brand, index) => <BrandCard key={brand.id} brand={brand} index={index} />)}
+        </div> : <CatalogEmpty title={t('p5.brands.empty')} text={t('p5.brands.emptyText')} onClear={clear} />}
+        <p className="phase5-note brands-catalog-note">{t('p5.brands.note')}</p>
       </section>
-    </>
+    </div>
   );
 }
