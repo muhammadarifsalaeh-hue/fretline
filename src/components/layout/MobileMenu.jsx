@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { NAV_LINKS } from '@/data/navigation';
 import { t } from '@/i18n';
 import { cn } from '@/utils/cn';
@@ -9,18 +9,40 @@ import Logo from './Logo';
 
 /** เมนูเต็มจอสำหรับ Mobile/Tablet — ลิงก์เข้ามาแบบ stagger */
 export default function MobileMenu({ open, onClose }) {
+  const dialogRef = useRef(null);
   useEffect(() => {
-    document.body.style.overflow = open ? 'hidden' : '';
-    const onKey = (e) => e.key === 'Escape' && onClose();
+    if (!open) return undefined;
+    const previousFocus = document.activeElement;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    const dialog = dialogRef.current;
+    const focusable = () => [...dialog.querySelectorAll('a[href], button:not([disabled])')]
+      .filter((el) => el.tabIndex >= 0);
+    focusable()[0]?.focus();
+    const onKey = (e) => {
+      if (e.key === 'Escape') onClose();
+      if (e.key !== 'Tab') return;
+      const elements = focusable();
+      const first = elements[0];
+      const last = elements[elements.length - 1];
+      if (e.shiftKey && (document.activeElement === first || !dialog.contains(document.activeElement))) {
+        e.preventDefault(); last?.focus();
+      } else if (!e.shiftKey && (document.activeElement === last || !dialog.contains(document.activeElement))) {
+        e.preventDefault(); first?.focus();
+      }
+    };
     window.addEventListener('keydown', onKey);
     return () => {
-      document.body.style.overflow = '';
+      document.body.style.overflow = previousOverflow;
       window.removeEventListener('keydown', onKey);
+      previousFocus?.focus({ preventScroll: true });
     };
   }, [open, onClose]);
 
   return (
     <div
+      ref={dialogRef}
+      id="mobile-navigation"
       role="dialog"
       aria-modal="true"
       aria-label={t('nav.menu')}

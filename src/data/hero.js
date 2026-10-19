@@ -11,7 +11,7 @@ import { IMAGES } from './images';
 export const HERO = {
   image: IMAGES.hero,
   imageAlt: t('hero.imageAlt'),
-  showHotspots: true,
+  showHotspots: false,
   hotspots: [
     { id: 'neck', x: 34, y: 36, art: [95, 96], title: t('hotspot.neck'), detail: t('hotspot.neckDetail') },
     { id: 'pickups', x: 56, y: 52, art: [95, 201], title: t('hotspot.pickups'), detail: t('hotspot.pickupsDetail') },

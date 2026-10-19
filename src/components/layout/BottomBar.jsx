@@ -1,16 +1,17 @@
 import { useShop } from '@/context/ShopContext';
 import { t } from '@/i18n';
-import { focusSearch } from '@/utils/dom';
+import useSearchNavigation from '@/hooks/useSearchNavigation';
 import AppLink from '@/components/ui/AppLink';
 import { CompareIcon, HeartIcon, HomeIcon, SearchIcon } from '@/components/ui/Icons';
 
 /** แถบเมนูล่างสำหรับมือถือ/แท็บเล็ต: Home / Search / Compare / Wishlist */
 export default function BottomBar() {
+  const handleSearch = useSearchNavigation();
   const { compare, wishlist } = useShop();
 
   const items = [
     { label: t('nav.home'), icon: <HomeIcon />, href: '/', onClick: () => window.scrollTo({ top: 0, behavior: 'smooth' }) },
-    { label: t('nav.search'), icon: <SearchIcon />, onClick: focusSearch },
+    { label: t('nav.search'), icon: <SearchIcon />, onClick: handleSearch },
     { label: t('nav.compare'), icon: <CompareIcon />, href: '/compare', count: compare.length },
     { label: t('nav.wishlist'), icon: <HeartIcon />, href: '/wishlist', count: wishlist.length },
   ];

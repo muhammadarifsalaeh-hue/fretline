@@ -75,13 +75,13 @@ export default function FeaturedGuitars() {
   };
 
   return (
-    <section id="featured" className="section-y border-t border-line bg-ink">
+    <section id="featured" className="featured-section border-t border-line bg-ink py-8 md:py-10">
       <div className="container-x">
         <Reveal>
-          <SectionHeading title={t('feat.title')} className="md:mb-10" action={{ label: t('feat.viewAll'), href: '/guitars' }} />
+          <SectionHeading title={t('feat.title')} className="mb-5 md:mb-5" action={{ label: t('feat.viewAll'), href: '/guitars' }} />
         </Reveal>
 
-        <Reveal delay={100} className="mb-8 flex flex-col gap-6 md:mb-10 md:flex-row md:items-end md:justify-between">
+        <Reveal delay={100} className="mb-4 flex flex-col gap-4 md:mb-5 md:flex-row md:items-end md:justify-between">
           <Tabs tabs={TABS} value={tab} onChange={setTab} />
           <div className="hidden gap-3 md:flex">
             <ArrowButton direction="prev" disabled={scroll.atStart} onClick={() => scrollByPage(-1)} />
@@ -91,12 +91,12 @@ export default function FeaturedGuitars() {
 
         <div
           ref={trackRef}
-          className="-mx-5 flex snap-x snap-mandatory gap-4 overflow-x-auto px-5 pb-10 pt-3 [scrollbar-width:none] sm:-mx-8 sm:gap-5 sm:px-8 lg:-mx-10 lg:gap-6 lg:px-10 [&::-webkit-scrollbar]:hidden"
+          className="-mx-5 flex snap-x snap-mandatory gap-4 overflow-x-auto px-5 pb-6 pt-3 [scrollbar-width:none] sm:-mx-8 sm:gap-5 sm:px-8 lg:mx-0 lg:gap-3 lg:px-0 [&::-webkit-scrollbar]:hidden"
         >
           {items.map((guitar) => (
             <div
               key={guitar.id}
-              className="w-[82%] shrink-0 snap-start sm:w-[calc(50%-10px)] lg:w-[calc(25%-18px)]"
+              className="w-[82%] shrink-0 snap-start sm:w-[calc(50%-10px)] lg:w-[calc(16.666667%-10px)]"
             >
               <GuitarCard guitar={guitar} />
             </div>

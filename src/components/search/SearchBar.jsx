@@ -77,10 +77,11 @@ export default function SearchBar() {
       setActive((i) => (flat.length ? (i <= 0 ? flat.length - 1 : i - 1) : -1));
     } else if (e.key === 'Enter') {
       e.preventDefault();
-      if (active >= 0 && flat[active]) select(flat[active]);
+      if (showList && active >= 0 && flat[active]) select(flat[active]);
       else submit();
     } else if (e.key === 'Escape') {
       setOpen(false);
+      setActive(-1);
     }
   };
 
@@ -88,7 +89,7 @@ export default function SearchBar() {
 
   return (
     <div ref={wrapRef} id="search" className="relative w-full max-w-[560px]">
-      <div className="flex h-14 items-center gap-3 rounded-full border border-white/15 bg-white/[0.06] pl-5 pr-2 backdrop-blur-md transition duration-300 focus-within:border-gold focus-within:shadow-[0_0_0_4px_rgba(200,161,90,0.14)]">
+      <div className="flex h-14 items-center gap-3 rounded-xl border border-white/15 bg-white/[0.06] pl-5 pr-2 backdrop-blur-md transition duration-300 focus-within:border-gold focus-within:shadow-[0_0_0_4px_rgba(200,161,90,0.14)]">
         <SearchIcon className="shrink-0 text-mute" />
         <input
           id="hero-search"
@@ -97,6 +98,7 @@ export default function SearchBar() {
           aria-expanded={showList}
           aria-controls="search-results"
           aria-autocomplete="list"
+          aria-activedescendant={showList && active >= 0 && flat[active] ? `search-option-${active}` : undefined}
           aria-label={t('search.aria')}
           autoComplete="off"
           value={query}
@@ -113,7 +115,7 @@ export default function SearchBar() {
         <button
           type="button"
           onClick={submit}
-          className="hidden h-10 shrink-0 rounded-full bg-bone px-5 text-sm font-medium text-ink transition hover:bg-white sm:block"
+          className="h-10 shrink-0 rounded-lg bg-gold px-4 text-sm font-medium text-ink transition hover:bg-gold-soft"
         >
           {t('search.button')}
         </button>
@@ -125,7 +127,7 @@ export default function SearchBar() {
           <li key={chip.label}>
             <AppLink
               href={chip.href}
-              className="inline-flex min-h-[36px] items-center rounded-full border border-white/12 px-4 text-[13px] text-bone/75 transition duration-300 hover:border-gold hover:text-gold"
+              className="inline-flex min-h-[36px] items-center rounded-full border border-white/[0.12] px-4 text-[13px] text-bone/75 transition duration-300 hover:border-gold hover:text-gold"
             >
               {chip.label}
             </AppLink>
@@ -154,6 +156,7 @@ export default function SearchBar() {
                   return (
                     <button
                       key={item.key}
+                      id={`search-option-${index}`}
                       type="button"
                       role="option"
                       aria-selected={isActive}

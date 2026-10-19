@@ -63,7 +63,7 @@
     @apply scale-x-100;
   }
   .nav-link[aria-current='page'] {
-    @apply text-bone;
+    @apply text-gold;
   }
   /* Scroll reveal (ใช้ผ่าน <Reveal />) */
   .reveal {
@@ -146,3 +146,35 @@
   outline: 2px solid #c8a15a;
   outline-offset: 3px;
 }
+
+/* Phase 2: reference-led homepage. Keep catalog/detail styles independent. */
+.home-hero { min-height: 640px; }
+.home-hero .hero-visual { background: #0a0a0a; }
+.featured-section .guitar-card .card-copy { padding: 14px; gap: 8px; }
+.featured-section .guitar-card h3 { font-size: 18px; }
+.featured-section .guitar-card .card-copy > ul { display: none; }
+.featured-section .guitar-card .card-copy > p:last-child { padding-top: 5px; }
+.featured-section .guitar-card .card-copy > p:last-child > span { font-size: 15px; }
+@media (min-width: 1024px) {
+  .home-hero .hero-content { min-height: 640px; }
+  .home-hero .hero-visual img { object-position: 62% center; }
+  .home-hero .hero-content > div { max-width: min(48%, 550px); }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .home-hero dl { right: 24px; width: 130px; }
+  .home-hero dl > div { padding: 12px; gap: 8px; }
+}
+@media (max-width: 1023px) {
+  .home-hero .hero-visual img { object-position: 82% center; }
+  .home-hero .hero-content { margin-top: -38px; }
+  .hero-art-note { bottom: auto; top: 345px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up, .animate-hero-guitar { animation: none !important; }
+}
+
+.featured-section h2 { font-size: clamp(1.35rem, 2.3vw, 1.9rem); }
+.featured-section .guitar-card:hover { box-shadow: 0 12px 36px #0008; }
+
+/* Keep the home comparison inside its narrower editorial column. */
+#compare .compare-table-scroll { overflow-x: auto; }

@@ -36,7 +36,7 @@ export default function CompareTable({ guitars, diffOnly = false, onRemove, bg =
   const groups = groupRows(analyseRows(guitars));
 
   return (
-    <div className="overflow-x-auto [--col-min:150px] [--label-w:88px] [scrollbar-width:thin] md:[--col-min:190px] md:[--label-w:120px] lg:overflow-visible">
+    <div className="compare-table-scroll overflow-x-auto [--col-min:150px] [--label-w:88px] [scrollbar-width:thin] md:[--col-min:190px] md:[--label-w:120px] lg:overflow-visible">
       <div style={{ minWidth: `calc(var(--label-w) + ${n} * (var(--col-min) + 1rem))` }}>
         {/* รูป + แบรนด์ */}
         <div className="grid items-end gap-4 pb-5" style={{ gridTemplateColumns: columns }}>

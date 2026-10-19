@@ -32,9 +32,9 @@ export default function GuitarCard({ guitar }) {
   const inWishlist = wishlist.includes(guitar.id);
 
   return (
-    <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl bg-surface text-bone ring-1 ring-white/5 transition duration-500 ease-premium hover:-translate-y-2 hover:shadow-[0_30px_60px_-20px_rgba(0,0,0,0.6)]">
+    <article className="guitar-card group relative flex h-full flex-col overflow-hidden rounded-lg border border-white/[0.07] bg-surface text-bone ring-1 ring-white/5 transition duration-500 ease-premium hover:-translate-y-1 hover:border-gold/40 hover:shadow-[0_30px_60px_-20px_rgba(0,0,0,0.6)]">
       {/* พื้นที่รูป 4:5 */}
-      <div className="relative aspect-[4/5] overflow-hidden bg-gradient-to-b from-[#2b2b2b] to-[#171717]">
+      <div className="relative aspect-[4/5] overflow-hidden bg-gradient-to-b from-[#191919] to-[#101010]">
         <GuitarImage
           guitar={guitar}
           sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 82vw"
@@ -83,7 +83,8 @@ export default function GuitarCard({ guitar }) {
         </AppLink>
       </div>
 
-      <div className="flex flex-1 flex-col gap-3 p-5">
+      <div className="card-copy flex flex-1 flex-col gap-3 p-5">
+        {guitar.dataStatus === 'sample' && <p className="text-[11px] text-gold">{t('data.sampleShort')}</p>}
         <p className="text-xs uppercase tracking-[0.14em] text-mute">{guitar.brand}</p>
         <h3 className="font-serif text-2xl leading-[1.15]">
           <AppLink href={guitarUrl(guitar.slug)} className="after:absolute after:inset-x-0 after:top-0 after:bottom-0 after:content-[''] after:z-0 hover:text-gold transition-colors">

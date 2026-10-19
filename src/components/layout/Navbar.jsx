@@ -1,11 +1,11 @@
-import { useState } from 'react';
+import { useCallback, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { NAV_LINKS } from '@/data/navigation';
 import { useShop } from '@/context/ShopContext';
 import useScrolled from '@/hooks/useScrolled';
 import { t } from '@/i18n';
 import { cn } from '@/utils/cn';
-import { focusSearch } from '@/utils/dom';
+import useSearchNavigation from '@/hooks/useSearchNavigation';
 import { CompareIcon, HeartIcon, MenuIcon, SearchIcon } from '@/components/ui/Icons';
 import AppLink from '@/components/ui/AppLink';
 import IconButton from './IconButton';
@@ -15,12 +15,14 @@ import MobileMenu from './MobileMenu';
 
 /** โปร่งใสบน Hero → พื้นดำ blur เมื่อ scroll | เมนูของหน้าปัจจุบันมีเส้นใต้สีทอง */
 export default function Navbar() {
+  const handleSearch = useSearchNavigation();
   const scrolled = useScrolled(24);
   const { wishlist, compare } = useShop();
   const { pathname } = useLocation();
   const [mega, setMega] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const solid = scrolled || mega;
+  const closeMobile = useCallback(() => setMobileOpen(false), []);
+  const solid = scrolled || mega || pathname !== '/';
   const isActive = (link) => (link.exact ? pathname === link.href : pathname === link.href || pathname.startsWith(`${link.href}/`));
 
   return (
@@ -35,7 +37,7 @@ export default function Navbar() {
         <div className="container-x flex h-16 items-center justify-between lg:h-20">
           <Logo />
 
-          <nav aria-label={t('nav.main')} className="hidden items-center gap-9 lg:flex">
+          <nav aria-label={t('nav.main')} className="hidden items-center gap-7 lg:flex">
             {NAV_LINKS.map((link) => (
               <AppLink
                 key={link.href}
@@ -51,7 +53,7 @@ export default function Navbar() {
           </nav>
 
           <div className="flex items-center gap-1">
-            <IconButton label={t('nav.search')} onClick={focusSearch} className="hidden lg:inline-flex">
+            <IconButton label={t('nav.search')} onClick={handleSearch} className="hidden lg:inline-flex">
               <SearchIcon />
             </IconButton>
             <IconButton label={t('nav.wishlistAria', { n: wishlist.length })} href="/wishlist" badge={wishlist.length}>
@@ -60,7 +62,7 @@ export default function Navbar() {
             <IconButton label={t('nav.compareAria', { n: compare.length })} href="/compare" badge={compare.length} className="hidden sm:inline-flex">
               <CompareIcon />
             </IconButton>
-            <IconButton label={t('nav.openMenu')} onClick={() => setMobileOpen(true)} className="lg:hidden">
+            <IconButton aria-expanded={mobileOpen} aria-controls="mobile-navigation" label={t('nav.openMenu')} onClick={() => setMobileOpen(true)} className="lg:hidden">
               <MenuIcon />
             </IconButton>
           </div>
@@ -69,7 +71,7 @@ export default function Navbar() {
         <MegaMenu open={mega} onClose={() => setMega(false)} />
       </header>
 
-      <MobileMenu open={mobileOpen} onClose={() => setMobileOpen(false)} />
+      <MobileMenu open={mobileOpen} onClose={closeMobile} />
     </>
   );
 }

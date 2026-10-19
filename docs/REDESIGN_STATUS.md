@@ -1,3 +1,5 @@
+> Historical notes from the supplied ZIP. For the current Phase 1–2 audit, changes, and independently executed checks, see [PHASE_1_2_REPORT.md](PHASE_1_2_REPORT.md). Earlier test counts below were supplied with the project and are not results of this session.
+
 # Redesign status (Reference-based Thai UI)
 
 Rule set: keep dark/grey + gold, Thai first with Anuphan, no fake data, no dead buttons, keep every working feature.

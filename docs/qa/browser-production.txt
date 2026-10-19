@@ -1,0 +1,182 @@
+Thai hero and page title True
+Local Thai font loaded True
+Home no horizontal overflow at 1440px True
+Home no horizontal overflow at 1024px True
+Home no horizontal overflow at 768px True
+Home no horizontal overflow at 390px True
+Home no horizontal overflow at 320px True
+Featured category tab changes cards True
+Featured carousel next scrolls True
+Autocomplete options and active descendant True
+Escape clears active descendant True
+Search submits query after Escape True
+Budget quick filter True
+Wishlist saved True
+Wishlist and compare survive reload True
+Comparison table rendered for 2 guitars True
+Highlight differences toggle True
+Wishlist displays saved guitar True
+Route renders /guitars True
+Route renders /brands True
+Route renders /brands/yamaha True
+Route renders /find-my-guitar True
+Route renders /guitars/yamaha-fg830 True
+Route renders /not-a-page True
+Five-step quiz reaches results True
+Navbar search from another page focuses hero True
+Mobile menu opens True
+Mobile focus loops forward True
+Mobile focus loops backward True
+Escape closes menu and restores focus True
+Mobile bottom search navigates and focuses True
+Reduced motion hero remains visible True
+No JavaScript page errors True
+No console errors True
+No failed requests True
+{
+  "checks": [
+    {
+      "name": "Thai hero and page title",
+      "passed": true
+    },
+    {
+      "name": "Local Thai font loaded",
+      "passed": true
+    },
+    {
+      "name": "Home no horizontal overflow at 1440px",
+      "passed": true
+    },
+    {
+      "name": "Home no horizontal overflow at 1024px",
+      "passed": true
+    },
+    {
+      "name": "Home no horizontal overflow at 768px",
+      "passed": true
+    },
+    {
+      "name": "Home no horizontal overflow at 390px",
+      "passed": true
+    },
+    {
+      "name": "Home no horizontal overflow at 320px",
+      "passed": true
+    },
+    {
+      "name": "Featured category tab changes cards",
+      "passed": true
+    },
+    {
+      "name": "Featured carousel next scrolls",
+      "passed": true
+    },
+    {
+      "name": "Autocomplete options and active descendant",
+      "passed": true
+    },
+    {
+      "name": "Escape clears active descendant",
+      "passed": true
+    },
+    {
+      "name": "Search submits query after Escape",
+      "passed": true
+    },
+    {
+      "name": "Budget quick filter",
+      "passed": true
+    },
+    {
+      "name": "Wishlist saved",
+      "passed": true
+    },
+    {
+      "name": "Wishlist and compare survive reload",
+      "passed": true
+    },
+    {
+      "name": "Comparison table rendered for 2 guitars",
+      "passed": true
+    },
+    {
+      "name": "Highlight differences toggle",
+      "passed": true
+    },
+    {
+      "name": "Wishlist displays saved guitar",
+      "passed": true
+    },
+    {
+      "name": "Route renders /guitars",
+      "passed": true
+    },
+    {
+      "name": "Route renders /brands",
+      "passed": true
+    },
+    {
+      "name": "Route renders /brands/yamaha",
+      "passed": true
+    },
+    {
+      "name": "Route renders /find-my-guitar",
+      "passed": true
+    },
+    {
+      "name": "Route renders /guitars/yamaha-fg830",
+      "passed": true
+    },
+    {
+      "name": "Route renders /not-a-page",
+      "passed": true
+    },
+    {
+      "name": "Five-step quiz reaches results",
+      "passed": true
+    },
+    {
+      "name": "Navbar search from another page focuses hero",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu opens",
+      "passed": true
+    },
+    {
+      "name": "Mobile focus loops forward",
+      "passed": true
+    },
+    {
+      "name": "Mobile focus loops backward",
+      "passed": true
+    },
+    {
+      "name": "Escape closes menu and restores focus",
+      "passed": true
+    },
+    {
+      "name": "Mobile bottom search navigates and focuses",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion hero remains visible",
+      "passed": true
+    },
+    {
+      "name": "No JavaScript page errors",
+      "passed": true
+    },
+    {
+      "name": "No console errors",
+      "passed": true
+    },
+    {
+      "name": "No failed requests",
+      "passed": true
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "failed_requests": []
+}

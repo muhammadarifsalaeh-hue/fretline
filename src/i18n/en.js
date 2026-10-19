@@ -1,5 +1,8 @@
 /** English strings (ใช้เป็นค่าสำรองและในการทดสอบ) */
 export const en = {
+  "hero.artNote": "AI-generated atmosphere, not a model photograph",
+  "data.sampleShort": "Sample data · price and specs unverified",
+  "home.docTitle": "Fretline | Discover your sound",
   "angle.angle": "Three-quarter view",
   "angle.back": "Back view",
   "angle.body": "Body",
@@ -117,7 +120,7 @@ export const en = {
   "group.overview": "Overview",
   "hero.explore": "Explore guitars",
   "hero.eyebrow": "The guitar destination",
-  "hero.imageAlt": "Electric guitar under a spotlight",
+  "hero.imageAlt": "Atmospheric acoustic guitar illustration in golden light, not a specific model",
   "hero.quizLink": "Find my guitar",
   "hero.scroll": "Scroll",
   "hero.sub": "Browse, compare and shortlist electric, acoustic, classical and bass guitars from leading makers.",

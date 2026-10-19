@@ -1,0 +1,46 @@
+
+> fretline@0.1.0 images:check
+> node scripts/check-images.mjs --write
+
+
+Guitar photos: 0/36 models have images
+
+  ✗ Fender American Professional II Stratocaster     src/assets/guitars/fender-american-professional-ii-stratocaster/
+  ✗ Gibson Les Paul Standard 60s                     src/assets/guitars/gibson-les-paul-standard-60s/
+  ✗ Ibanez RG550 Genesis                             src/assets/guitars/ibanez-rg550-genesis/
+  ✗ Yamaha Pacifica 612VIIFM                         src/assets/guitars/yamaha-pacifica-612viifm/
+  ✗ PRS SE Custom 24                                 src/assets/guitars/prs-se-custom-24/
+  ✗ Epiphone Casino Hollowbody                       src/assets/guitars/epiphone-casino/
+  ✗ Taylor 214ce Grand Auditorium                    src/assets/guitars/taylor-214ce/
+  ✗ Martin D-18 Dreadnought                          src/assets/guitars/martin-d-18/
+  ✗ Yamaha FG800 Dreadnought                         src/assets/guitars/yamaha-fg800/
+  ✗ Córdoba C5 Classical                             src/assets/guitars/cordoba-c5/
+  ✗ Fender Player II Jazz Bass                       src/assets/guitars/fender-player-ii-jazz-bass/
+  ✗ Ibanez SR300E Bass                               src/assets/guitars/ibanez-sr300e/
+  ✗ Squier Classic Vibe '60s Stratocaster            src/assets/guitars/squier-classic-vibe-60s-stratocaster/
+  ✗ Gretsch G2420 Streamliner Hollow Body            src/assets/guitars/gretsch-g2420-streamliner/
+  ✗ Epiphone Les Paul Standard 50s                   src/assets/guitars/epiphone-les-paul-standard-50s/
+  ✗ Taylor GS Mini Mahogany                          src/assets/guitars/taylor-gs-mini/
+  ✗ Yamaha C40 Classical                             src/assets/guitars/yamaha-c40/
+  ✗ Fender Player II Precision Bass                  src/assets/guitars/fender-player-precision-bass/
+  ✗ Yamaha FG850                                     src/assets/guitars/yamaha-fg850/
+  ✗ Yamaha FG840                                     src/assets/guitars/yamaha-fg840/
+  ✗ Yamaha FG830                                     src/assets/guitars/yamaha-fg830/
+  ✗ Yamaha FG820                                     src/assets/guitars/yamaha-fg820/
+  ✗ Yamaha FG820-12                                  src/assets/guitars/yamaha-fg820-12/
+  ✗ Yamaha FG820L                                    src/assets/guitars/yamaha-fg820l/
+  ✗ Yamaha FG800J                                    src/assets/guitars/yamaha-fg800j/
+  ✗ Yamaha FG800M                                    src/assets/guitars/yamaha-fg800m/
+  ✗ Yamaha FS850                                     src/assets/guitars/yamaha-fs850/
+  ✗ Yamaha FS830                                     src/assets/guitars/yamaha-fs830/
+  ✗ Yamaha FS820                                     src/assets/guitars/yamaha-fs820/
+  ✗ Yamaha FS800                                     src/assets/guitars/yamaha-fs800/
+  ✗ Yamaha FGX830C                                   src/assets/guitars/yamaha-fgx830c/
+  ✗ Yamaha FGX820C                                   src/assets/guitars/yamaha-fgx820c/
+  ✗ Yamaha FGX800C                                   src/assets/guitars/yamaha-fgx800c/
+  ✗ Yamaha FSX830C                                   src/assets/guitars/yamaha-fsx830c/
+  ✗ Yamaha FSX820C                                   src/assets/guitars/yamaha-fsx820c/
+  ✗ Yamaha FSX800C                                   src/assets/guitars/yamaha-fsx800c/
+
+Wrote MISSING_IMAGES.md
+
