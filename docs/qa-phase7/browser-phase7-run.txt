@@ -1,0 +1,83 @@
+Brands directory has exactly ten brands with twenty models each True
+Gretsch is absent from active brand cards True
+Catalog brand filter has twenty models: Yamaha True
+Brand pagination ends at two models on page three: Yamaha True
+Catalog brand filter has twenty models: Fender True
+Brand pagination ends at two models on page three: Fender True
+Catalog brand filter has twenty models: Epiphone True
+Brand pagination ends at two models on page three: Epiphone True
+Catalog brand filter has twenty models: Ibanez True
+Brand pagination ends at two models on page three: Ibanez True
+Catalog brand filter has twenty models: Taylor True
+Brand pagination ends at two models on page three: Taylor True
+Catalog brand filter has twenty models: Córdoba True
+Brand pagination ends at two models on page three: Córdoba True
+Catalog brand filter has twenty models: Gibson True
+Brand pagination ends at two models on page three: Gibson True
+Catalog brand filter has twenty models: Martin True
+Brand pagination ends at two models on page three: Martin True
+Catalog brand filter has twenty models: PRS True
+Brand pagination ends at two models on page three: PRS True
+Catalog brand filter has twenty models: Squier True
+Brand pagination ends at two models on page three: Squier True
+200 models produce 23 functional nine-item pages True
+Final catalog page has exactly the final two real records True
+Catalog Back and Forward retain the enlarged pagination True
+Archived model is absent from catalog search: C40 True
+Archived model is absent from catalog search: G2420 True
+New real model renders sourced facts and unknown price: Fender True
+Source limitations are disclosed: Fender True
+New real model renders sourced facts and unknown price: Epiphone True
+Source limitations are disclosed: Epiphone True
+New real model renders sourced facts and unknown price: Ibanez True
+Source limitations are disclosed: Ibanez True
+New real model renders sourced facts and unknown price: Taylor True
+Source limitations are disclosed: Taylor True
+New real model renders sourced facts and unknown price: Córdoba True
+Source limitations are disclosed: Córdoba True
+New real model renders sourced facts and unknown price: Gibson True
+Source limitations are disclosed: Gibson True
+New real model renders sourced facts and unknown price: Martin True
+Source limitations are disclosed: Martin True
+New real model renders sourced facts and unknown price: PRS True
+Source limitations are disclosed: PRS True
+New real model renders sourced facts and unknown price: Squier True
+Source limitations are disclosed: Squier True
+PRS PDF year and page are explicit, not represented as all-year specs True
+Old saved archive IDs remain intact, with duplicates removed True
+Wishlist explicitly labels both archived rows True
+Old saved detail link remains accessible and marked archived: yamaha-c40 True
+Old saved detail link remains accessible and marked archived: gretsch-g2420-streamliner True
+Reload never silently deletes the two archived favourites True
+Legacy shared comparison URL preserves archive IDs and deduplicates True
+Comparison and shared tray render archive labels and all three names True
+User can remove an archived comparison without losing favourites True
+Compare Browser Back restores archived shared selection True
+Compare Browser Forward restores removal True
+Old Gretsch brand link explains archival instead of a broken route True
+Only an explicit user action removes an archived favourite True
+Quiz recommends active records and excludes archived C40 True
+catalog-200 tablet has no document overflow True
+brands-200 tablet has no document overflow True
+new-detail tablet has no document overflow True
+archive-detail tablet has no document overflow True
+archive-brand tablet has no document overflow True
+compare-archive tablet has no document overflow True
+wishlist-archive tablet has no document overflow True
+catalog-200 mobile has no document overflow True
+brands-200 mobile has no document overflow True
+new-detail mobile has no document overflow True
+archive-detail mobile has no document overflow True
+archive-brand mobile has no document overflow True
+compare-archive mobile has no document overflow True
+Mobile comparison table scrolls horizontally with the keyboard True
+wishlist-archive mobile has no document overflow True
+320px archive/new route has no overflow: /guitars/yamaha-c40 True
+320px archive/new route has no overflow: /brands/gretsch True
+320px archive/new route has no overflow: /wishlist True
+320px archive/new route has no overflow: /guitars/epiphone-es-335-figured-with-rosewood-fretboard True
+Dev Strict Mode retains old shared archive IDs True
+Dev Strict Mode reload does not drop or reorder archive IDs True
+No runtime or page errors True
+No console errors True
+No failed normal-flow requests True

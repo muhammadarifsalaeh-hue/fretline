@@ -3,14 +3,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { createServer } from 'vite';
-import { readCatalog, readImageRights, validateGuitar, findDuplicates, ROOT } from './lib/catalog.mjs';
+import { readCatalog, readPolicy, readImageRights, validateGuitar, findDuplicates, ROOT } from './lib/catalog.mjs';
 import { hasImageRights } from '../src/utils/imageRights.js';
 
 let count = 0;
 const check = (name, fn) => { fn(); count++; console.log(`PASS ${name}`); };
 const server = await createServer({ server: { middlewareMode: true, hmr: false }, appType: 'custom', logLevel: 'error' });
 try {
-  const { GUITARS, GUITARS_BY_ID } = await server.ssrLoadModule('/src/data/guitars.js');
+  const { GUITARS, GUITARS_BY_ID, SAVED_GUITARS_BY_ID, ARCHIVED_GUITARS } = await server.ssrLoadModule('/src/data/guitars.js');
   const { BRANDS } = await server.ssrLoadModule('/src/data/brands.js');
   const trust = await server.ssrLoadModule('/src/utils/dataTrust.js');
   const { PRICE_MAX, HAS_CATALOG_PRICES, applyFilters } = await server.ssrLoadModule('/src/hooks/useCatalogFilters.js');
@@ -20,9 +20,12 @@ try {
   const { normalizeGuitarIds } = await server.ssrLoadModule('/src/utils/selection.js');
   const before = JSON.parse(fs.readFileSync(path.join(ROOT, 'docs/qa-phase6/audit-before.json'), 'utf8'));
   const records = readCatalog();
-  check('all original IDs, categories, brands, slugs and order are preserved', () => {
-    assert.equal(GUITARS.length, 36);
-    assert.deepEqual(GUITARS.map((g) => [g.id, g.brand, g.category, g.slug]), before.map((g) => [g.id, g.brand, g.category, g.id]));
+  const policy = readPolicy();
+  check('all original IDs remain resolvable; retained catalog order survives approved archival', () => {
+    assert.equal(GUITARS.length, policy.target);
+    for (const g of before) assert.deepEqual([SAVED_GUITARS_BY_ID[g.id]?.brand, SAVED_GUITARS_BY_ID[g.id]?.category, SAVED_GUITARS_BY_ID[g.id]?.slug], [g.brand, g.category, g.id]);
+    const retained = before.filter((g) => !policy.archivedIds.includes(g.id));
+    assert.deepEqual(GUITARS.slice(0, retained.length).map((g) => g.id), retained.map((g) => g.id));
   });
   check('no duplicate IDs or normalized brand/model pairs', () => assert.deepEqual(findDuplicates(records), []));
   check('every effective record passes catalog validation', () => { for (const record of records) assert.deepEqual(validateGuitar(record), [], record.id); });
@@ -38,7 +41,7 @@ try {
     }
   });
   check('limited search-index evidence remains visibly marked with edition caveats', () => {
-    const limited = GUITARS.filter((g) => g.source.method === 'search-index');
+    const limited = [...GUITARS, ...ARCHIVED_GUITARS].filter((g) => g.source.method === 'search-index');
     assert.deepEqual(limited.map((g) => g.id), ['gretsch-g2420-streamliner', 'yamaha-c40']);
     assert.ok(limited.every((g) => g.source.editionNote.includes('403') && g.dataStatus === 'partial'));
   });
@@ -66,7 +69,7 @@ try {
   check('catalog has a finite price bound when every amount is unknown', () => { assert.equal(HAS_CATALOG_PRICES, false); assert.ok(Number.isFinite(PRICE_MAX) && PRICE_MAX > 0); });
   check('default filters retain unknown-price models; a budget does not assert them affordable', () => {
     const filters = { q: '', brands: [], types: [], min: 0, max: PRICE_MAX };
-    assert.equal(applyFilters(GUITARS, filters).length, 36);
+    assert.equal(applyFilters(GUITARS, filters).length, GUITARS.length);
     assert.equal(applyFilters(GUITARS, { ...filters, max: 20000 }).length, 0);
     assert.equal(applyFilters(GUITARS, { ...filters, q: 'RG550' })[0]?.id, 'ibanez-rg550-genesis');
   });
@@ -78,8 +81,8 @@ try {
     assert.ok(!GUITARS_BY_ID['fender-american-professional-ii-stratocaster'].keywords.includes('left-handed'));
   });
   check('every brand count still partitions the same catalog', () => {
-    assert.equal(BRANDS.length, 11); assert.equal(BRANDS.reduce((sum, b) => sum + b.models, 0), 36);
-    assert.equal(BRANDS.reduce((sum, b) => sum + b.sourceModels, 0), 36);
+    assert.equal(BRANDS.length, policy.brands.length); assert.equal(BRANDS.reduce((sum, b) => sum + b.models, 0), GUITARS.length);
+    assert.equal(BRANDS.reduce((sum, b) => sum + b.sourceModels, 0), GUITARS.length);
   });
   check('wishlist and comparison IDs survive migration; inherited property names do not qualify', () => {
     const ids = before.map((g) => g.id);

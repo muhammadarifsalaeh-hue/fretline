@@ -18,6 +18,7 @@ export default function WishlistRow({ guitar, onRemove }) {
       <div className="wishlist-copy">
         <AppLink href={brandUrl(guitar.brand)} className="wishlist-brand">{guitar.brand}</AppLink>
         <h2><AppLink href={guitarUrl(guitar.slug)} data-wishlist-detail>{guitar.name}</AppLink></h2>
+        {guitar.archived && <p className="archive-label">{t('p7.archive.label')}</p>}
         <p className="wishlist-meta">{t(`category.${guitar.category}`)}<span aria-hidden="true">·</span><span>{t(`status.${guitar.dataStatus ?? 'sample'}`)}</span></p>
         <p className="wishlist-price">{publicPrice(guitar)}</p>
       </div>

@@ -8,4 +8,15 @@ export default defineConfig({
     // ใช้ '@/...' แทน '../../...' เพื่อให้ import อ่านง่าย
     alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) },
   },
+  build: {
+    rollupOptions: {
+      output: {
+        // Cache catalog facts separately from the UI and framework as data grows.
+        manualChunks(id) {
+          if (id.includes('/node_modules/')) return 'vendor';
+          if (id.includes('/src/data/catalog/') && id.endsWith('.json')) return 'guitar-catalog';
+        },
+      },
+    },
+  },
 });

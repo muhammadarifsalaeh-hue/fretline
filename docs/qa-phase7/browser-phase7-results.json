@@ -1,0 +1,360 @@
+{
+  "checks": [
+    {
+      "name": "Brands directory has exactly ten brands with twenty models each",
+      "passed": true
+    },
+    {
+      "name": "Gretsch is absent from active brand cards",
+      "passed": true
+    },
+    {
+      "name": "Catalog brand filter has twenty models: Yamaha",
+      "passed": true
+    },
+    {
+      "name": "Brand pagination ends at two models on page three: Yamaha",
+      "passed": true
+    },
+    {
+      "name": "Catalog brand filter has twenty models: Fender",
+      "passed": true
+    },
+    {
+      "name": "Brand pagination ends at two models on page three: Fender",
+      "passed": true
+    },
+    {
+      "name": "Catalog brand filter has twenty models: Epiphone",
+      "passed": true
+    },
+    {
+      "name": "Brand pagination ends at two models on page three: Epiphone",
+      "passed": true
+    },
+    {
+      "name": "Catalog brand filter has twenty models: Ibanez",
+      "passed": true
+    },
+    {
+      "name": "Brand pagination ends at two models on page three: Ibanez",
+      "passed": true
+    },
+    {
+      "name": "Catalog brand filter has twenty models: Taylor",
+      "passed": true
+    },
+    {
+      "name": "Brand pagination ends at two models on page three: Taylor",
+      "passed": true
+    },
+    {
+      "name": "Catalog brand filter has twenty models: Córdoba",
+      "passed": true
+    },
+    {
+      "name": "Brand pagination ends at two models on page three: Córdoba",
+      "passed": true
+    },
+    {
+      "name": "Catalog brand filter has twenty models: Gibson",
+      "passed": true
+    },
+    {
+      "name": "Brand pagination ends at two models on page three: Gibson",
+      "passed": true
+    },
+    {
+      "name": "Catalog brand filter has twenty models: Martin",
+      "passed": true
+    },
+    {
+      "name": "Brand pagination ends at two models on page three: Martin",
+      "passed": true
+    },
+    {
+      "name": "Catalog brand filter has twenty models: PRS",
+      "passed": true
+    },
+    {
+      "name": "Brand pagination ends at two models on page three: PRS",
+      "passed": true
+    },
+    {
+      "name": "Catalog brand filter has twenty models: Squier",
+      "passed": true
+    },
+    {
+      "name": "Brand pagination ends at two models on page three: Squier",
+      "passed": true
+    },
+    {
+      "name": "200 models produce 23 functional nine-item pages",
+      "passed": true
+    },
+    {
+      "name": "Final catalog page has exactly the final two real records",
+      "passed": true
+    },
+    {
+      "name": "Catalog Back and Forward retain the enlarged pagination",
+      "passed": true
+    },
+    {
+      "name": "Archived model is absent from catalog search: C40",
+      "passed": true
+    },
+    {
+      "name": "Archived model is absent from catalog search: G2420",
+      "passed": true
+    },
+    {
+      "name": "New real model renders sourced facts and unknown price: Fender",
+      "passed": true
+    },
+    {
+      "name": "Source limitations are disclosed: Fender",
+      "passed": true
+    },
+    {
+      "name": "New real model renders sourced facts and unknown price: Epiphone",
+      "passed": true
+    },
+    {
+      "name": "Source limitations are disclosed: Epiphone",
+      "passed": true
+    },
+    {
+      "name": "New real model renders sourced facts and unknown price: Ibanez",
+      "passed": true
+    },
+    {
+      "name": "Source limitations are disclosed: Ibanez",
+      "passed": true
+    },
+    {
+      "name": "New real model renders sourced facts and unknown price: Taylor",
+      "passed": true
+    },
+    {
+      "name": "Source limitations are disclosed: Taylor",
+      "passed": true
+    },
+    {
+      "name": "New real model renders sourced facts and unknown price: Córdoba",
+      "passed": true
+    },
+    {
+      "name": "Source limitations are disclosed: Córdoba",
+      "passed": true
+    },
+    {
+      "name": "New real model renders sourced facts and unknown price: Gibson",
+      "passed": true
+    },
+    {
+      "name": "Source limitations are disclosed: Gibson",
+      "passed": true
+    },
+    {
+      "name": "New real model renders sourced facts and unknown price: Martin",
+      "passed": true
+    },
+    {
+      "name": "Source limitations are disclosed: Martin",
+      "passed": true
+    },
+    {
+      "name": "New real model renders sourced facts and unknown price: PRS",
+      "passed": true
+    },
+    {
+      "name": "Source limitations are disclosed: PRS",
+      "passed": true
+    },
+    {
+      "name": "New real model renders sourced facts and unknown price: Squier",
+      "passed": true
+    },
+    {
+      "name": "Source limitations are disclosed: Squier",
+      "passed": true
+    },
+    {
+      "name": "PRS PDF year and page are explicit, not represented as all-year specs",
+      "passed": true
+    },
+    {
+      "name": "Old saved archive IDs remain intact, with duplicates removed",
+      "passed": true
+    },
+    {
+      "name": "Wishlist explicitly labels both archived rows",
+      "passed": true
+    },
+    {
+      "name": "Old saved detail link remains accessible and marked archived: yamaha-c40",
+      "passed": true
+    },
+    {
+      "name": "Old saved detail link remains accessible and marked archived: gretsch-g2420-streamliner",
+      "passed": true
+    },
+    {
+      "name": "Reload never silently deletes the two archived favourites",
+      "passed": true
+    },
+    {
+      "name": "Legacy shared comparison URL preserves archive IDs and deduplicates",
+      "passed": true
+    },
+    {
+      "name": "Comparison and shared tray render archive labels and all three names",
+      "passed": true
+    },
+    {
+      "name": "User can remove an archived comparison without losing favourites",
+      "passed": true
+    },
+    {
+      "name": "Compare Browser Back restores archived shared selection",
+      "passed": true
+    },
+    {
+      "name": "Compare Browser Forward restores removal",
+      "passed": true
+    },
+    {
+      "name": "Old Gretsch brand link explains archival instead of a broken route",
+      "passed": true
+    },
+    {
+      "name": "Only an explicit user action removes an archived favourite",
+      "passed": true
+    },
+    {
+      "name": "Quiz recommends active records and excludes archived C40",
+      "passed": true
+    },
+    {
+      "name": "catalog-200 tablet has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "brands-200 tablet has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "new-detail tablet has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "archive-detail tablet has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "archive-brand tablet has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "compare-archive tablet has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "wishlist-archive tablet has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "catalog-200 mobile has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "brands-200 mobile has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "new-detail mobile has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "archive-detail mobile has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "archive-brand mobile has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "compare-archive mobile has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "Mobile comparison table scrolls horizontally with the keyboard",
+      "passed": true
+    },
+    {
+      "name": "wishlist-archive mobile has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "320px archive/new route has no overflow: /guitars/yamaha-c40",
+      "passed": true
+    },
+    {
+      "name": "320px archive/new route has no overflow: /brands/gretsch",
+      "passed": true
+    },
+    {
+      "name": "320px archive/new route has no overflow: /wishlist",
+      "passed": true
+    },
+    {
+      "name": "320px archive/new route has no overflow: /guitars/epiphone-es-335-figured-with-rosewood-fretboard",
+      "passed": true
+    },
+    {
+      "name": "Dev Strict Mode retains old shared archive IDs",
+      "passed": true
+    },
+    {
+      "name": "Dev Strict Mode reload does not drop or reorder archive IDs",
+      "passed": true
+    },
+    {
+      "name": "No runtime or page errors",
+      "passed": true
+    },
+    {
+      "name": "No console errors",
+      "passed": true
+    },
+    {
+      "name": "No failed normal-flow requests",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "failed_requests": [],
+  "screenshots": [
+    "brands-200-desktop.png",
+    "catalog-200-desktop.png",
+    "wishlist-archive-desktop.png",
+    "compare-archive-desktop.png",
+    "catalog-200-tablet.png",
+    "brands-200-tablet.png",
+    "new-detail-tablet.png",
+    "archive-detail-tablet.png",
+    "archive-brand-tablet.png",
+    "compare-archive-tablet.png",
+    "wishlist-archive-tablet.png",
+    "catalog-200-mobile.png",
+    "brands-200-mobile.png",
+    "new-detail-mobile.png",
+    "archive-detail-mobile.png",
+    "archive-brand-mobile.png",
+    "compare-archive-mobile.png",
+    "wishlist-archive-mobile.png"
+  ],
+  "passed": true
+}

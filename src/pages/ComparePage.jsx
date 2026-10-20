@@ -11,7 +11,7 @@ import ConfirmDialog from '@/components/ui/ConfirmDialog';
 import ShareLink from '@/components/ui/ShareLink';
 import { PlusIcon } from '@/components/ui/Icons';
 import Switch from '@/components/ui/Switch';
-import { GUITARS_BY_ID } from '@/data/guitars';
+import { SAVED_GUITARS_BY_ID } from '@/data/guitars';
 import { MAX_COMPARE, useShop } from '@/context/ShopContext';
 import { normalizeGuitarIds } from '@/utils/selection';
 
@@ -49,7 +49,7 @@ export default function ComparePage() {
     setCompareIds(valid);
     setParams({ ids: valid.join(',') });
   };
-  const selected = useMemo(() => compare.map((id) => GUITARS_BY_ID[id]).filter(Boolean), [compare]);
+  const selected = useMemo(() => compare.map((id) => SAVED_GUITARS_BY_ID[id]).filter(Boolean), [compare]);
   const ready = selected.length >= 2;
   const rows = useMemo(() => analyseRows(selected, { includeSamples }), [selected, includeSamples]);
   const diffCount = rows.filter((row) => row.diff).length;
@@ -74,6 +74,7 @@ export default function ComparePage() {
           {ready && <div className="flex flex-wrap gap-5"><Switch checked={diffOnly} onChange={setDiffOnly} label={t('cmp.diffOnly')} /><Switch checked={includeSamples} onChange={setIncludeSamples} label={t('p4.compare.showSamples')} /></div>}
         </div>
         <p className="phase4-data-note">{t(includeSamples ? 'p4.compare.sampleNote' : 'p4.compare.verifiedNote')}</p>
+        {selected.some((guitar) => guitar.archived) && <p className="archive-notice" role="note">{t('p7.archive.saved')}</p>}
         {!ready ? <CompareEmpty selected={selected} onAdd={() => setPickerOpen(true)} onSelect={changeSelection} onRemove={(id) => changeSelection(compare.filter((value) => value !== id))} /> : <>
           <p className="mb-4 text-xs text-mute" aria-live="polite">{t('p4.compare.differences', { n: diffCount, total: rows.length })}</p>
           <CompareVerdicts guitars={selected} />

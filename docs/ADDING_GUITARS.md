@@ -1,6 +1,6 @@
 # เพิ่มกีตาร์ให้ครบ 200 รุ่น (ข้อมูลจริง ไม่ซ้ำ ตรวจสอบได้)
 
-เป้าหมายเดิมของชุดนำเข้า: **200 รุ่นที่แตกต่างกัน** ปัจจุบันมี 36 รุ่นที่ตรวจข้อมูลบางส่วน (`partial`) ไม่มีรุ่นที่ตรวจครบ (`verified`) ดูความคืบหน้าได้ทุกเมื่อ:
+Phase 7 มี **200 รุ่นพอดี จาก 10 แบรนด์ แบรนด์ละ 20 รุ่น** ทั้งหมดตรวจบางส่วน (`partial`) ไม่มีรุ่นที่ตรวจครบ (`verified`) ดูความคืบหน้าได้ทุกเมื่อ:
 
 ```bash
 npm run catalog:check           # รายงาน: จำนวนรุ่น / verified / รูปจริง / ภาพสำรอง / รายการซ้ำ
@@ -41,3 +41,16 @@ Run `npm run catalog:check` to validate the effective catalog, including the rev
 For photos, a file alone is insufficient. First check its exact model/variant and reuse rights, then add `src/data/catalog/imageRights.json` metadata: guitar ID, author, source URL, license and license URL, check date, model-match note, changes, dimensions and SHA-256. Add primary files directly in the model folder and responsive sizes in its `responsive/` subfolder. Responsive versions are not separate gallery angles. All delivered derivatives must retain the applicable license and credit chain. Unregistered files are not published; `npm run images:check` reports them.
 
 The only current accepted image is a CC BY-SA 4.0 owner photograph of Yamaha FG820-12; it shows six strings fitted to a twelve-string model, as noted by its author. Other models retain the existing placeholders.
+
+## Phase 7: exact quotas and archived records
+
+- `catalogPolicy.json` records the approved brands, exact 200-model target and 20-per-brand quota. Changing the target is a product decision; do not change it merely to make a failed check pass.
+- `phase7Guitars.json` contains 166 new source-scoped records. The 34 retained originals continue to use their previous IDs and reviewed overrides.
+- `archivedGuitars.json` is the complete backup of Gretsch G2420 and Yamaha C40, including the previous published snapshot, legacy source text and original source metadata. Do not delete or silently substitute these IDs.
+- `GUITARS` and `GUITARS_BY_ID` contain active models only. Brand totals, catalog filters and quiz recommendations use that same collection.
+- `SAVED_GUITARS_BY_ID` also resolves the two archived records for old Detail URLs, Wishlist and shared Compare links. The UI explicitly marks these records as archived. They never increase the 200-model catalog total.
+- The CSV importer checks duplicates across active and archived IDs, rejects unapproved brands and rejects imports above either quota. At 200 models, adding another model requires an approved replacement plan; do not append records silently.
+- `npm run catalog:check` enforces exact totals, not just a minimum. `npm run phase7:check` additionally checks archived sources, old saved IDs, actual manufacturer retrieval metadata and source scopes. Existing Phase 4–6 checks remain available.
+- Do not create quiz experience/style profiles just to boost new models' scores. Missing profiles remain explicitly unknown under the original scoring rules.
+
+See [the 200-model source register](PHASE_7_CATALOG.md) and [Phase 7 report](PHASE_7_REPORT.md).

@@ -1,0 +1,341 @@
+{
+  "checks": [
+    {
+      "name": "Homepage retains its hero and design",
+      "passed": true
+    },
+    {
+      "name": "Homepage does not advertise legacy demo price amounts",
+      "passed": true
+    },
+    {
+      "name": "Homepage brand cards no longer claim unsourced founding dates",
+      "passed": true
+    },
+    {
+      "name": "Existing left-handed quick search finds only the sourced lefty model",
+      "passed": true
+    },
+    {
+      "name": "Beginner quick search retains manufacturer-positioned models",
+      "passed": true
+    },
+    {
+      "name": "Unknown prices do not empty the default catalog",
+      "passed": true
+    },
+    {
+      "name": "No sample status, discounts or review scores appear on catalog cards",
+      "passed": true
+    },
+    {
+      "name": "Price controls disclose missing data instead of rendering Infinity",
+      "passed": true
+    },
+    {
+      "name": "Pagination works with the revised catalog",
+      "passed": true
+    },
+    {
+      "name": "Catalog Back restores the first page",
+      "passed": true
+    },
+    {
+      "name": "Brand and type URL filters intersect correctly",
+      "passed": true
+    },
+    {
+      "name": "Catalog name sorting remains functional",
+      "passed": true
+    },
+    {
+      "name": "Malformed sort values fall back safely",
+      "passed": true
+    },
+    {
+      "name": "Budget links explain why no price match can be confirmed",
+      "passed": true
+    },
+    {
+      "name": "Clear budget restores the catalog",
+      "passed": true
+    },
+    {
+      "name": "Real model photo loads on catalog card",
+      "passed": true
+    },
+    {
+      "name": "Catalog photo has responsive candidates and intrinsic dimensions",
+      "passed": true
+    },
+    {
+      "name": "Original photo-model route and ID are retained",
+      "passed": true
+    },
+    {
+      "name": "Detail photo is eager and responsive",
+      "passed": true
+    },
+    {
+      "name": "Responsive derivatives are not counted as extra gallery angles",
+      "passed": true
+    },
+    {
+      "name": "Owner-photo caption discloses six fitted strings on a twelve-string guitar",
+      "passed": true
+    },
+    {
+      "name": "Visible credit links identify author, original source and license",
+      "passed": true
+    },
+    {
+      "name": "Source scope and the supplemental twelve-string evidence are accessible",
+      "passed": true
+    },
+    {
+      "name": "Real specs retain manufacturer mm and twelve-string count",
+      "passed": true
+    },
+    {
+      "name": "Missing frets and weight are not guessed",
+      "passed": true
+    },
+    {
+      "name": "Reviews remain an honest empty state",
+      "passed": true
+    },
+    {
+      "name": "Lightbox retains visible source and license links",
+      "passed": true
+    },
+    {
+      "name": "Transformation disclosure is keyboard accessible in lightbox",
+      "passed": true
+    },
+    {
+      "name": "Lightbox Escape restores gallery focus",
+      "passed": true
+    },
+    {
+      "name": "SR300E details use current referenced Okoume/Jatoba/PowerSpan specifications",
+      "passed": true
+    },
+    {
+      "name": "Comparison preserves IDs and new factual values across routes",
+      "passed": true
+    },
+    {
+      "name": "Comparison has no invented weight or price verdict",
+      "passed": true
+    },
+    {
+      "name": "GS Mini Mahogany no longer inherits a spruce-top demo specification",
+      "passed": true
+    },
+    {
+      "name": "Archived C40 evidence is clearly dated and limited, not conflated with C40II",
+      "passed": true
+    },
+    {
+      "name": "Brand counts still sum to the actual 200-model catalog",
+      "passed": true
+    },
+    {
+      "name": "Brand Detail derives all Yamaha source-backed counts correctly",
+      "passed": true
+    },
+    {
+      "name": "Brand Detail uses the same real photo",
+      "passed": true
+    },
+    {
+      "name": "Wishlist retains the same saved ID, photo and unknown price",
+      "passed": true
+    },
+    {
+      "name": "Saved IDs survive reload after data migration",
+      "passed": true
+    },
+    {
+      "name": "Removing a wishlist item still works after data migration",
+      "passed": true
+    },
+    {
+      "name": "Quiz prevents advancing with no answer",
+      "passed": true
+    },
+    {
+      "name": "Quiz Previous retains an answer",
+      "passed": true
+    },
+    {
+      "name": "All five quiz steps still return catalog models",
+      "passed": true
+    },
+    {
+      "name": "Quiz results show partial data and unknown prices rather than demo amounts",
+      "passed": true
+    },
+    {
+      "name": "Quiz caveats explain estimated profiles and unknown budgets",
+      "passed": true
+    },
+    {
+      "name": "Quiz results still share wishlist state",
+      "passed": true
+    },
+    {
+      "name": "Quiz-to-Detail navigation and Browser Back preserve result URLs",
+      "passed": true
+    },
+    {
+      "name": "Credit page records one genuine licensed image",
+      "passed": true
+    },
+    {
+      "name": "Every route exposes the global image-credit link",
+      "passed": true
+    },
+    {
+      "name": "catalog desktop has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "detail desktop has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "compare desktop has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "quiz desktop has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "brands desktop has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "wishlist desktop has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "credits desktop has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "Real photo renders at desktop width",
+      "passed": true
+    },
+    {
+      "name": "catalog tablet has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "detail tablet has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "compare tablet has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "quiz tablet has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "brands tablet has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "wishlist tablet has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "credits tablet has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "Real photo renders at tablet width",
+      "passed": true
+    },
+    {
+      "name": "catalog mobile has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "detail mobile has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "compare mobile has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "quiz mobile has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "brands mobile has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "wishlist mobile has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "credits mobile has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "Real photo renders at mobile width",
+      "passed": true
+    },
+    {
+      "name": "320px no overflow: /guitars/yamaha-fg820-12",
+      "passed": true
+    },
+    {
+      "name": "320px no overflow: /wishlist",
+      "passed": true
+    },
+    {
+      "name": "320px no overflow: /image-credits",
+      "passed": true
+    },
+    {
+      "name": "No normal-flow page or runtime errors",
+      "passed": true
+    },
+    {
+      "name": "No normal-flow console errors",
+      "passed": true
+    },
+    {
+      "name": "No normal-flow failed requests",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "failed_requests": [],
+  "screenshots": [
+    "catalog-desktop.png",
+    "detail-desktop.png",
+    "compare-desktop.png",
+    "wishlist-desktop.png",
+    "credits-desktop.png",
+    "catalog-tablet.png",
+    "detail-tablet.png",
+    "compare-tablet.png",
+    "wishlist-tablet.png",
+    "credits-tablet.png",
+    "catalog-mobile.png",
+    "detail-mobile.png",
+    "compare-mobile.png",
+    "wishlist-mobile.png",
+    "credits-mobile.png"
+  ],
+  "passed": true
+}

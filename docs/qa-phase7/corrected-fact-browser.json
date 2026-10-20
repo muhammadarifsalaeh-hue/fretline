@@ -1,0 +1,15 @@
+{
+  "route": "/guitars/ibanez-rg652ahm#specs",
+  "checks": [
+    {
+      "name": "RG652AHM renders six strings matching the numbered manufacturer tuning",
+      "passed": true
+    },
+    {
+      "name": "No console or runtime errors after the corrected fact was rebuilt",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

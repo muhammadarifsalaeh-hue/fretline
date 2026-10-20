@@ -8,7 +8,7 @@ import DiscoveryHeading from '@/components/ui/DiscoveryHeading';
 import SortSelect from '@/components/ui/SortSelect';
 import WishlistRow from '@/components/wishlist/WishlistRow';
 import { ArrowRightIcon, HeartIcon } from '@/components/ui/Icons';
-import { GUITARS_BY_ID } from '@/data/guitars';
+import { SAVED_GUITARS_BY_ID } from '@/data/guitars';
 import { MAX_COMPARE, useShop } from '@/context/ShopContext';
 import { WISHLIST_SORTS, sortGuitars } from '@/utils/guitarSort';
 
@@ -22,7 +22,7 @@ export default function WishlistPage() {
   const closeDialog = useCallback(() => setDialog(null), []);
   const listRef = useRef(null);
   const countRef = useRef(null);
-  const items = useMemo(() => wishlist.map((id) => GUITARS_BY_ID[id]).filter(Boolean), [wishlist]);
+  const items = useMemo(() => wishlist.map((id) => SAVED_GUITARS_BY_ID[id]).filter(Boolean), [wishlist]);
   const sorted = useMemo(() => sortGuitars(items, sort, { verifiedOnly: true }), [items, sort]);
   const candidateIds = sorted.slice(0, MAX_COMPARE).map((guitar) => guitar.id);
   useEffect(() => { document.title = t('p5.wish.docTitle'); }, []);
@@ -78,6 +78,7 @@ export default function WishlistPage() {
             </div>
           </div>
           <p className="phase5-note">{t('p5.wish.dataNote')}{sort.startsWith('price') && <> {t('p5.wish.priceSortNote')}</>}</p>
+          {items.some((guitar) => guitar.archived) && <p className="archive-notice" role="note">{t('p7.archive.saved')}</p>}
           <ul className="wishlist-list" aria-label={t('p5.wish.list')} ref={listRef}>
             {sorted.map((guitar, index) => <WishlistRow key={guitar.id} guitar={guitar} onRemove={() => onRemove(guitar, index)} />)}
           </ul>

@@ -1,0 +1,27 @@
+
+> fretline@0.1.0 phase7:check
+> node scripts/check-phase7.mjs
+
+PASS exactly 200 active guitars in the CLI and browser data
+PASS exactly the ten approved brands with 20 models each
+PASS 166 new IDs and 34 retained originals, not colors or duplicate inserts
+PASS retained original facts, source scopes and identities remain unchanged
+PASS both archive backups contain exact original published records and sources
+PASS archive records are resolvable but excluded from catalog and brand totals
+PASS all 36 old saved IDs survive migration without a silent archive deletion
+PASS shared archived comparison links retain order, deduplicate and cap four
+PASS all 166 models have successful manufacturer retrieval and scoped factual evidence
+PASS PRS 2025 facts are explicitly dated and scoped to actual catalog pages
+PASS Ibanez string counts match every explicitly numbered tuning, including comma spacing
+PASS all public facts remain partial; no manufactured prices, ratings or weights
+PASS the licensed photo remains one model, with 199 honest placeholders
+PASS search and brand/type filters see all 200 active records without the archive
+PASS old quiz weights and shareable answers survive; archive is never recommended
+PASS Thai and English archival labels have matching interpolation fields
+
+16/16 checks passed
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

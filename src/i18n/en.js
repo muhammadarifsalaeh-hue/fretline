@@ -1,5 +1,11 @@
 /** English strings (ใช้เป็นค่าสำรองและในการทดสอบ) */
 export const en = {
+  "p7.archive.label": "Archived from main catalog",
+  "p7.archive.detail": "This model is archived from the main catalog. Its original data and sources remain available for existing links and saved selections. It is excluded from the 200-model total.",
+  "p7.archive.saved": "This selection contains archived models. Their original IDs and data remain available for you to review or remove. Archived models are excluded from the main 200-model catalog.",
+  "p7.archive.browse": "Browse the current catalog",
+  "p7.archive.brand": "This brand is archived from the main catalog",
+  "p7.archive.brandText": "Original model links remain available. This brand and its archived models are excluded from the 10-brand, 200-model catalog.",
   "p6.price.empty": "A budget match cannot yet be confirmed",
   "p6.price.noData": "No source-backed Thai-baht prices are available, so a price range cannot currently identify matching models.",
   "p6.sources.details": "Source scope and limitations",

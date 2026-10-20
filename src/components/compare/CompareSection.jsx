@@ -1,6 +1,6 @@
 import { t } from '@/i18n';
 import { useState } from 'react';
-import { GUITARS_BY_ID } from '@/data/guitars';
+import { GUITARS_BY_ID, SAVED_GUITARS_BY_ID } from '@/data/guitars';
 import { useShop } from '@/context/ShopContext';
 import Button from '@/components/ui/Button';
 import { CheckIcon } from '@/components/ui/Icons';
@@ -21,7 +21,7 @@ export default function CompareSection() {
   const { compare, removeCompare } = useShop();
   const [diffOnly, setDiffOnly] = useState(true);
 
-  const selected = compare.map((id) => GUITARS_BY_ID[id]).filter(Boolean);
+  const selected = compare.map((id) => SAVED_GUITARS_BY_ID[id]).filter(Boolean);
   const usingSelection = selected.length >= 2;
   const guitars = usingSelection ? selected : SAMPLE_IDS.map((id) => GUITARS_BY_ID[id]);
 

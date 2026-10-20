@@ -8,7 +8,7 @@
  * - ถ้ามีแถวผิดรูปแบบหรือซ้ำกับรุ่นที่มีอยู่ จะไม่นำเข้าอะไรเลย (all-or-nothing) และบอกว่าแถวไหนผิดเพราะอะไร
  */
 import fs from 'node:fs';
-import { EXTRA_PATH, findDuplicates, readExtras, readSampleGuitars, slugify, validateGuitar } from './lib/catalog.mjs';
+import { EXTRA_PATH, findDuplicates, readExtras, readCatalog, readArchive, readPolicy, slugify, validateGuitar } from './lib/catalog.mjs';
 
 const file = process.argv.slice(2).find((a) => !a.startsWith('--'));
 const dry = process.argv.includes('--dry-run');
@@ -103,8 +103,18 @@ for (const { line, obj } of records) {
   }
   incoming.push(g);
 }
-const dups = findDuplicates([...readSampleGuitars(), ...existing, ...incoming]);
+const active = readCatalog();
+const policy = readPolicy();
+const dups = findDuplicates([...active, ...readArchive(), ...incoming]);
 dups.forEach((m) => { problems++; console.log(`✗ ${m}`); });
+for (const guitar of incoming) {
+  if (!policy.brands.includes(guitar.brand)) { problems++; console.log(`✗ Brand is outside the approved catalog: ${guitar.brand}`); }
+}
+if (active.length + incoming.length > policy.target) { problems++; console.log(`✗ Import would exceed exactly ${policy.target} active models`); }
+for (const brand of policy.brands) {
+  const total = [...active, ...incoming].filter((guitar) => guitar.brand === brand).length;
+  if (total > policy.modelsPerBrand) { problems++; console.log(`✗ ${brand} would exceed ${policy.modelsPerBrand} models`); }
+}
 
 if (problems) {
   console.log(`\nImport cancelled: ${problems} problem(s). Nothing was written.\n`);

@@ -31,10 +31,16 @@ export function readSampleGuitars() {
 export const readExtras = () => JSON.parse(fs.readFileSync(EXTRA_PATH, 'utf8'));
 export const readReviewed = () => JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data/catalog/reviewedGuitars.json'), 'utf8'));
 export const readImageRights = () => JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data/catalog/imageRights.json'), 'utf8'));
+export const readPhase7 = () => JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data/catalog/phase7Guitars.json'), 'utf8'));
+export const readArchive = () => JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data/catalog/archivedGuitars.json'), 'utf8'));
+export const readPolicy = () => JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data/catalog/catalogPolicy.json'), 'utf8'));
 /** Validate the same reviewed records that the application publishes. */
 export const readCatalog = () => {
   const reviewed = readReviewed();
-  return [...readSampleGuitars(), ...readExtras()].map((guitar) => ({ ...guitar, ...reviewed[guitar.id], id: guitar.id }));
+  const archived = new Set(readPolicy().archivedIds);
+  return [...readSampleGuitars(), ...readExtras(), ...readPhase7()]
+    .filter((guitar) => !archived.has(guitar.id))
+    .map((guitar) => ({ ...guitar, ...reviewed[guitar.id], id: guitar.id }));
 };
 
 const nonEmpty = (v) => typeof v === 'string' && v.trim().length > 0;

@@ -1,4 +1,6 @@
-> Latest delivery: [Phase 6 — Real Guitar Data & Images](docs/PHASE_6_REPORT.md). Source scope, licensing, content gaps, test evidence and Codespaces instructions.
+> Latest delivery: [Phase 7 — 200 real guitar models](docs/PHASE_7_REPORT.md). Ten approved brands with twenty models each, preserved archives, manufacturer sources and browser evidence.
+
+> Previous delivery: [Phase 6 — Real Guitar Data & Images](docs/PHASE_6_REPORT.md).
 
 > Previous delivery: [Phase 5 — Brands & Wishlist](docs/PHASE_5_REPORT.md).
 
@@ -21,6 +23,7 @@ npm run build
 npm run catalog:check
 npm run images:check
 npm run phase6:check
+npm run phase7:check
 ```
 
 ## รูปภาพ
@@ -35,6 +38,9 @@ npm run phase6:check
 | ต้องการแก้ | ไฟล์ |
 |---|---|
 | ข้อมูลที่ตรวจสอบแล้ว พร้อมขอบเขตและแหล่งอ้างอิง | `src/data/catalog/reviewedGuitars.json` |
+| 166 รุ่นใหม่พร้อมหลักฐานรายฟิลด์ | `src/data/catalog/phase7Guitars.json` |
+| ข้อกำหนด 200 รุ่น / 10 แบรนด์ / แบรนด์ละ 20 | `src/data/catalog/catalogPolicy.json` |
+| สำรองสองรุ่นที่พัก พร้อม ID และแหล่งอ้างอิงเดิม | `src/data/catalog/archivedGuitars.json` |
 | ID/ลำดับเดิม และการประกอบข้อมูลเผยแพร่ | `src/data/guitars.js` |
 | หมวดหมู่ / แบรนด์ | `src/data/categories.js`, `src/data/brands.js` |
 | ข้อความ/สถิติ/hotspot ใน Hero | `src/data/hero.js` |
@@ -57,7 +63,7 @@ npm run phase6:check
 
 ## Guitar Detail
 
-ข้อมูลเผยแพร่ใช้ `reviewedGuitars.json` และแสดงเฉพาะฟิลด์ใน `source.fields` พร้อมวันที่ วิธีตรวจ และข้อจำกัดรุ่น/ปีผลิต ช่องที่ยังไม่ทราบเป็น `null` รูปแต่ละมุมต้องมีไฟล์จริงและทะเบียนสิทธิ์ ขนาดย่อยใน `responsive/` ไม่นับเป็นมุมภาพเพิ่ม
+ข้อมูลเผยแพร่ใช้ `reviewedGuitars.json` และ `phase7Guitars.json` แสดงเฉพาะฟิลด์ใน `source.fields` พร้อมวันที่ วิธีตรวจ และข้อจำกัดรุ่น/ปีผลิต ช่องที่ยังไม่ทราบเป็น `null` รูปแต่ละมุมต้องมีไฟล์จริงและทะเบียนสิทธิ์ ขนาดย่อยใน `responsive/` ไม่นับเป็นมุมภาพเพิ่ม
 
 `guitarDetails.js` และค่าดิบเดิมคงไว้เพื่อรักษางานเก่า แต่ราคา รีวิว และสเปกตัวอย่างไม่ได้ถูกนำไปเผยแพร่ผ่าน Catalog ปัจจุบัน
 
@@ -67,13 +73,14 @@ npm run phase6:check
 - แชร์ลิงก์ได้: `/compare?ids=<id1>,<id2>`
 - แถวและกลุ่มของตารางแก้ที่ `src/components/compare/compareRows.js`
 - ไม่มีคะแนนรีวิวเผยแพร่ในชุดปัจจุบัน รีวิวต้องมีหลักฐานตรวจสอบแยกจากสเปก
+- ลิงก์และรายการเดิมที่มี Gretsch G2420 หรือ Yamaha C40 ยังเปิดได้ พร้อมป้ายพักจาก Catalog และไม่รวมในยอด 200 รุ่น
 
 ## Find My Guitar (`/find-my-guitar`)
 
 - คำถาม/ตัวเลือก/โปรไฟล์กีตาร์ทุกรุ่น: `src/data/quiz.js`
 - กติกาให้คะแนน (ประเภท 30, ระดับ 20, แนวเพลง 20, งบ 20, ความสำคัญ 10, รีวิว 5): `src/utils/quizScoring.js`
 - คำตอบอยู่ใน URL เช่น `/find-my-guitar?type=electric&level=beginner&style=rock&budget=mid&priority=value` จึงแชร์ผลได้
-- เพิ่มกีตาร์ใหม่ในแคตตาล็อก → อย่าลืมเพิ่มโปรไฟล์ใน `GUITAR_PROFILES` ด้วย (ไม่มีโปรไฟล์ = ไม่ได้คะแนนระดับ/แนวเพลง)
+- รุ่นที่ยังไม่มีโปรไฟล์ไม่ถูกเดาความเหมาะสมด้านระดับ/แนวเพลง จะแสดงข้อจำกัดและไม่ได้คะแนนส่วนนั้น รุ่นใหม่ 166 รุ่นยังไม่ได้เพิ่มโปรไฟล์เชิงประเมิน สูตรและเกณฑ์เดิมคงอยู่ และไม่แนะนำรุ่นที่พัก
 
 ## Brands และ Wishlist
 
@@ -85,9 +92,11 @@ npm run phase6:check
 
 ## ข้อมูลกีตาร์ 200 รุ่น และรูปภาพ
 
-- ปัจจุบันมี 36 รุ่น / 11 แบรนด์: `partial` 36 รุ่น, `verified` 0 รุ่น ราคาเงินบาทและรีวิวยังไม่มีหลักฐานที่เพียงพอ จึงไม่แสดงตัวเลขสมมติ
-- มีภาพจริงที่บันทึกสิทธิ์แล้ว 1 ภาพของ Yamaha FG820-12 (CC BY-SA 4.0) อีก 35 รุ่นยังใช้ Placeholder ภาพนี้ใส่สายไว้ 6 เส้นตามข้อมูลผู้ถ่าย จึงระบุคำอธิบายไว้ชัดเจน
-- เพิ่มรุ่นใหม่จาก CSV: `npm run catalog:import -- file.csv` (ดู `docs/ADDING_GUITARS.md`)
+- Catalog หลักมี **200 รุ่นพอดี / 10 แบรนด์ / แบรนด์ละ 20 รุ่น**: `partial` 200, `verified` 0 ราคาเงินบาทและรีวิวยังไม่มีหลักฐานที่เพียงพอ จึงไม่แสดงตัวเลขสมมติ
+- แบรนด์: Yamaha, Fender, Epiphone, Ibanez, Taylor, Córdoba, Gibson, Martin, PRS และ Squier
+- ใช้ 34 รุ่นเดิม + เพิ่ม 166 รุ่นจากแหล่งผู้ผลิต เก็บ Gretsch G2420 และ Yamaha C40 ใน Archive แยกจาก Catalog หลัก ลิงก์เก่าและ ID ใน Wishlist/Compare ยังอยู่
+- มีภาพจริงที่บันทึกสิทธิ์แล้ว 1 ภาพของ Yamaha FG820-12 (CC BY-SA 4.0) อีก **199 รุ่น** ใช้ Placeholder ภาพนี้ใส่สายไว้ 6 เส้นตามข้อมูลผู้ถ่าย จึงระบุคำอธิบายไว้ชัดเจน ไม่มีการคัดลอกภาพผู้ผลิตเพิ่มใน Phase 7
+- เครื่องมือ CSV เดิมยังอยู่ แต่จะปฏิเสธรายการซ้ำ แบรนด์นอกแผน หรือการนำเข้าที่เกินโควตา 200/20 (ดู `docs/ADDING_GUITARS.md`)
 - ตรวจความคืบหน้า/รายการซ้ำ/ข้อมูลไม่ครบ: `npm run catalog:check`
 - ตรวจรูปที่ขาด: `npm run images:check` (เขียนรายการลง `MISSING_IMAGES.md` ด้วย `-- --write`)
 - เครดิต/เงื่อนไขภาพ: `src/data/catalog/imageRights.json` แสดงใน Detail, Lightbox และ `/image-credits` โดยมีลิงก์จาก Footer ทุกหน้า
@@ -98,4 +107,5 @@ npm run phase6:check
 - ราคาที่ยืนยันไม่ได้ = เว้นว่าง แสดง **Price on request** (ไม่เดา ไม่แปลงสกุลเงิน) รุ่นนี้ถูกซ่อนเมื่อกรองตามช่วงราคา และเรียงอยู่ท้ายสุดเสมอ
 - ราคายังไม่มีหลักฐานทั้งชุด: ช่องช่วงราคาจะอธิบายข้อจำกัด ลิงก์ที่ระบุช่วงราคาจะเข้าสู่ Empty State ที่ล้างตัวกรองได้
 - หลักฐาน Phase 6: [Audit ก่อนแก้](docs/PHASE_6_AUDIT_BEFORE.md), [ข้อมูลหลังแก้และแหล่งอ้างอิง](docs/PHASE_6_SOURCES.md), [ผลทดสอบและข้อจำกัด](docs/PHASE_6_REPORT.md)
+- หลักฐาน Phase 7: [รายชื่อ 200 รุ่นพร้อมแหล่งอ้างอิง](docs/PHASE_7_CATALOG.md), [ผลทดสอบและการรักษารายการเดิม](docs/PHASE_7_REPORT.md)
 - ไฟล์ CSV และ Sourcing Log รุ่นเก่าคงไว้เป็นประวัติการนำเข้า `reviewedGuitars.json` เป็นค่าที่ผ่านการตรวจล่าสุดและมีลำดับความสำคัญสูงกว่า

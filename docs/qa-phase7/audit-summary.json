@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-20",
+  "baseline": "4fa60f6a5ee885c839324a2a5dc6adc651ad117a",
+  "active": 200,
+  "added": 166,
+  "retained": 34,
+  "archived": 2,
+  "brands": [
+    {
+      "brand": "Yamaha",
+      "before": 21,
+      "retained": 20,
+      "added": 0,
+      "active": 20,
+      "archived": 1
+    },
+    {
+      "brand": "Fender",
+      "before": 3,
+      "retained": 3,
+      "added": 17,
+      "active": 20,
+      "archived": 0
+    },
+    {
+      "brand": "Epiphone",
+      "before": 2,
+      "retained": 2,
+      "added": 18,
+      "active": 20,
+      "archived": 0
+    },
+    {
+      "brand": "Ibanez",
+      "before": 2,
+      "retained": 2,
+      "added": 18,
+      "active": 20,
+      "archived": 0
+    },
+    {
+      "brand": "Taylor",
+      "before": 2,
+      "retained": 2,
+      "added": 18,
+      "active": 20,
+      "archived": 0
+    },
+    {
+      "brand": "Córdoba",
+      "before": 1,
+      "retained": 1,
+      "added": 19,
+      "active": 20,
+      "archived": 0
+    },
+    {
+      "brand": "Gibson",
+      "before": 1,
+      "retained": 1,
+      "added": 19,
+      "active": 20,
+      "archived": 0
+    },
+    {
+      "brand": "Martin",
+      "before": 1,
+      "retained": 1,
+      "added": 19,
+      "active": 20,
+      "archived": 0
+    },
+    {
+      "brand": "PRS",
+      "before": 1,
+      "retained": 1,
+      "added": 19,
+      "active": 20,
+      "archived": 0
+    },
+    {
+      "brand": "Squier",
+      "before": 1,
+      "retained": 1,
+      "added": 19,
+      "active": 20,
+      "archived": 0
+    }
+  ],
+  "statuses": {
+    "partial": 200
+  },
+  "categories": {
+    "electric": 90,
+    "acoustic": 73,
+    "classical": 20,
+    "bass": 17
+  },
+  "sourceMethods": {
+    "http": 199,
+    "web-page": 1
+  },
+  "newManufacturerRetrievals": 148,
+  "unknownPrices": 200,
+  "verifiedReviews": 0,
+  "licensedPhotoModels": 1,
+  "placeholderModels": 199,
+  "missingSpecCounts": {
+    "body": 0,
+    "neck": 2,
+    "fretboard": 0,
+    "pickups": 2,
+    "bridge": 1,
+    "controls": 80,
+    "scale": 0,
+    "frets": 41,
+    "strings": 150,
+    "weightKg": 200
+  }
+}

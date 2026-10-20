@@ -78,6 +78,7 @@ export default function CompareTable({ guitars, diffOnly = false, onRemove, bg =
                 {g.name}
               </AppLink>
               <p className="mt-1 font-mono text-sm text-gold">{editorial && !includeSamples ? publicPrice(g) : formatPrice(g.price)}</p>
+              {g.archived && <p className="archive-label">{t('p7.archive.label')}</p>}
               {editorial && <><p className="compare-model-status">{t(`status.${g.dataStatus ?? 'sample'}`)}</p><AppLink href={guitarUrl(g.slug)} className="compare-detail-link">{t('card.view')}</AppLink></>}
             </div>
           ))}

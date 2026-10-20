@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router-dom';
-import { GUITARS_BY_ID } from '@/data/guitars';
+import { SAVED_GUITARS_BY_ID } from '@/data/guitars';
 import { MAX_COMPARE, useShop } from '@/context/ShopContext';
 import { t } from '@/i18n';
 import { cn } from '@/utils/cn';
@@ -12,7 +12,7 @@ export default function CompareBar() {
   const { compare, removeCompare } = useShop();
   const { pathname } = useLocation();
   if (pathname === '/compare' || pathname === '/find-my-guitar') return null;
-  const items = compare.map((id) => GUITARS_BY_ID[id]).filter(Boolean);
+  const items = compare.map((id) => SAVED_GUITARS_BY_ID[id]).filter(Boolean);
   const visible = items.length > 0;
   const ready = items.length >= 2;
   const slots = Array.from({ length: MAX_COMPARE }, (_, i) => items[i] ?? null);

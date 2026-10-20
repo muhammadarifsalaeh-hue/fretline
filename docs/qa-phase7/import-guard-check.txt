@@ -1,0 +1,10 @@
+
+> fretline@0.1.0 catalog:import
+> node scripts/import-csv.mjs /tmp/fretline-phase7-research/duplicate-import.csv --dry-run
+
+✗ id ซ้ำ: fender-player-ii-telecaster
+✗ รุ่นซ้ำ: "Fender Player II Telecaster" ซ้ำกับ "Fender Player II Telecaster"
+✗ Import would exceed exactly 200 active models
+✗ Fender would exceed 20 models
+
+Import cancelled: 4 problem(s). Nothing was written.

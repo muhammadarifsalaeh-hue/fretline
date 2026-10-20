@@ -1,5 +1,7 @@
 import EXTRA_GUITARS from './catalog/extraGuitars.json';
 import REVIEWED_GUITARS from './catalog/reviewedGuitars.json';
+import PHASE7_GUITARS from './catalog/phase7Guitars.json';
+import CATALOG_POLICY from './catalog/catalogPolicy.json';
 import { getGuitarImages } from './guitarImages';
 import { trustedPrice } from '@/utils/dataTrust';
 
@@ -251,7 +253,7 @@ const withImages = (g) => {
     description: sourceFields.has('description') ? record.description ?? '' : '',
     keywords: [g.id, g.brand, g.name, record.name, sourceFields.has('keywords') ? record.keywords : ''].filter(Boolean).join(' '),
     specs, source: record.source ?? null,
-    dataStatus: record.source?.fields?.length ? record.status ?? 'partial' : 'sample',
+    dataStatus: record.source?.fields?.length ? record.status ?? record.dataStatus ?? 'partial' : 'sample',
   };
   const gallery = getGuitarImages(g.id).gallery;
   // รูปหลัก: null = ยังไม่มีรูปจริงของรุ่นนี้ (UI จะแสดงภาพประกอบ ไม่ใช้รูปรุ่นอื่นแทน)
@@ -282,6 +284,15 @@ const extraGuitars = EXTRA_GUITARS.map((e) =>
   }),
 );
 
-export const GUITARS = [...sampleGuitars, ...extraGuitars];
+const archivedIds = new Set(CATALOG_POLICY.archivedIds);
+const originalGuitars = [...sampleGuitars, ...extraGuitars];
+// Only this collection feeds catalog, brand totals, search and quiz recommendations.
+export const GUITARS = [...originalGuitars, ...PHASE7_GUITARS.map(withImages)].filter((guitar) => !archivedIds.has(guitar.id));
 
 export const GUITARS_BY_ID = Object.assign(Object.create(null), Object.fromEntries(GUITARS.map((g) => [g.id, g])));
+
+// Old detail URLs and user-owned selections resolve archive records without
+// adding them back to the main catalog or changing saved IDs silently.
+// Full backups (including audit snapshots) stay outside the browser bundle.
+export const ARCHIVED_GUITARS = originalGuitars.filter((guitar) => archivedIds.has(guitar.id)).map((guitar) => ({ ...guitar, featured: false, archived: true }));
+export const SAVED_GUITARS_BY_ID = Object.assign(Object.create(null), GUITARS_BY_ID, Object.fromEntries(ARCHIVED_GUITARS.map((guitar) => [guitar.id, guitar])));

@@ -8,6 +8,8 @@ import DiscoveryHeading from '@/components/ui/DiscoveryHeading';
 import SortSelect from '@/components/ui/SortSelect';
 import { ArrowRightIcon, ArrowUpRightIcon } from '@/components/ui/Icons';
 import { BRANDS, getBrandById, getBrandGuitars } from '@/data/brands';
+import { ARCHIVED_GUITARS } from '@/data/guitars';
+import { slugify } from '@/utils/slug';
 import { CATEGORIES } from '@/data/categories';
 import { isSourceBacked } from '@/utils/dataTrust';
 import { sortGuitars, WISHLIST_SORTS } from '@/utils/guitarSort';
@@ -99,8 +101,26 @@ function MissingBrand() {
   </div>;
 }
 
+function ArchivedBrand({ guitars }) {
+  const name = guitars[0].brand;
+  useEffect(() => { document.title = `${name} — ${t('p7.archive.label')} — Fretline`; }, [name]);
+  return <div className="phase5-page">
+    <DiscoveryHeading eyebrow="ARCHIVED BRAND" title={name} serif description={t('p7.archive.brand')}
+      breadcrumbs={[{ label: t('nav.brands'), href: '/brands' }, { label: name }]} />
+    <section className="container-x phase5-body">
+      <p className="archive-notice" role="note">{t('p7.archive.brandText')}</p>
+      <ul className="mb-8 space-y-3">{guitars.map((guitar) => <li key={guitar.id}>
+        <AppLink href={`/guitars/${guitar.slug}`} className="phase4-button">{guitar.brand} {guitar.name}<ArrowRightIcon size={16} /></AppLink>
+      </li>)}</ul>
+      <AppLink href="/brands" className="phase4-button is-gold">{t('p5.detail.back')}</AppLink>
+    </section>
+  </div>;
+}
+
 export default function BrandDetailPage() {
   const { id } = useParams();
   const brand = getBrandById(id);
-  return brand ? <BrandContent key={brand.id} brand={brand} /> : <MissingBrand />;
+  if (brand) return <BrandContent key={brand.id} brand={brand} />;
+  const archived = ARCHIVED_GUITARS.filter((guitar) => slugify(guitar.brand) === id.toLowerCase());
+  return archived.length ? <ArchivedBrand guitars={archived} /> : <MissingBrand />;
 }

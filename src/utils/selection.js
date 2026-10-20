@@ -1,7 +1,7 @@
-import { GUITARS_BY_ID } from '@/data/guitars';
+import { SAVED_GUITARS_BY_ID } from '@/data/guitars';
 
-/** Stored/shared selections must be known, unique ids in their original order. */
+/** Preserve known active/archive IDs in saved/shared lists; reject unknown IDs. */
 export function normalizeGuitarIds(value, limit = Infinity) {
   if (!Array.isArray(value)) return [];
-  return [...new Set(value.filter((id) => typeof id === 'string' && GUITARS_BY_ID[id]))].slice(0, limit);
+  return [...new Set(value.filter((id) => typeof id === 'string' && SAVED_GUITARS_BY_ID[id]))].slice(0, limit);
 }

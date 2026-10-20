@@ -10,7 +10,7 @@ import StickyGuitarBar from '@/components/detail/StickyGuitarBar';
 import AppLink from '@/components/ui/AppLink';
 import { CheckIcon, CompareIcon, HeartIcon } from '@/components/ui/Icons';
 import { CATEGORIES } from '@/data/categories';
-import { GUITARS_BY_ID } from '@/data/guitars';
+import { SAVED_GUITARS_BY_ID } from '@/data/guitars';
 import { useShop } from '@/context/ShopContext';
 import { cn } from '@/utils/cn';
 import { NOT_SPECIFIED, formatKg, formatPrice } from '@/utils/format';
@@ -45,6 +45,7 @@ function DetailContent({ guitar }) {
 
   return (
     <div className="detail-page discovery-page">
+      {guitar.archived && <div className="container-x pt-6"><p className="archive-notice" role="note">{t('p7.archive.detail')} <AppLink href="/guitars" className="text-gold underline">{t('p7.archive.browse')}</AppLink></p></div>}
       <StickyGuitarBar guitar={guitar} visible={stuck} inCompare={inCompare} onToggleCompare={() => toggleCompare(guitar)} />
       <section className="detail-hero container-x">
         <nav aria-label={t('common.breadcrumb')} className="discovery-breadcrumb">
@@ -98,6 +99,6 @@ function DetailContent({ guitar }) {
 
 export default function GuitarDetailPage() {
   const { slug } = useParams();
-  const guitar = GUITARS_BY_ID[slug];
+  const guitar = SAVED_GUITARS_BY_ID[slug];
   return guitar ? <DetailContent key={guitar.id} guitar={guitar} /> : <NotFoundPage />;
 }

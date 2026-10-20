@@ -12,7 +12,8 @@
     "catalog:import": "node scripts/import-csv.mjs",
     "phase4:check": "node scripts/check-phase4.mjs",
     "phase5:check": "node scripts/check-phase5.mjs",
-    "phase6:check": "node scripts/check-phase6.mjs"
+    "phase6:check": "node scripts/check-phase6.mjs",
+    "phase7:check": "node scripts/check-phase7.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
