@@ -82,7 +82,7 @@ export default function FeaturedGuitars() {
         </Reveal>
 
         <Reveal delay={100} className="mb-4 flex flex-col gap-4 md:mb-5 md:flex-row md:items-end md:justify-between">
-          <Tabs tabs={TABS} value={tab} onChange={setTab} />
+          <Tabs tabs={TABS} value={tab} onChange={setTab} label={t('feat.title')} idPrefix="featured-tab" panelId="featured-models" />
           <div className="hidden gap-3 md:flex">
             <ArrowButton direction="prev" disabled={scroll.atStart} onClick={() => scrollByPage(-1)} />
             <ArrowButton direction="next" disabled={scroll.atEnd} onClick={() => scrollByPage(1)} />
@@ -90,6 +90,10 @@ export default function FeaturedGuitars() {
         </Reveal>
 
         <div
+          id="featured-models"
+          role="tabpanel"
+          aria-labelledby={`featured-tab-${tab}`}
+          tabIndex={0}
           ref={trackRef}
           className="-mx-5 flex snap-x snap-mandatory gap-4 overflow-x-auto px-5 pb-6 pt-3 [scrollbar-width:none] sm:-mx-8 sm:gap-5 sm:px-8 lg:mx-0 lg:gap-3 lg:px-0 [&::-webkit-scrollbar]:hidden"
         >

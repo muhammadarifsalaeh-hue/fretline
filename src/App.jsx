@@ -10,6 +10,7 @@ import ScrollManager from '@/components/layout/ScrollManager';
 import Toast from '@/components/layout/Toast';
 import HomePage from '@/pages/HomePage';
 import NotFoundPage from '@/pages/NotFoundPage';
+import { t } from '@/i18n';
 
 const BrandsPage = lazy(() => import('@/pages/BrandsPage'));
 const BrandDetailPage = lazy(() => import('@/pages/BrandDetailPage'));
@@ -24,13 +25,14 @@ const GuitarDetailPage = lazy(() => import('@/pages/GuitarDetailPage'));
 export default function App() {
   return (
     <ShopProvider>
+      <a href="#main-content" className="skip-link">{t('a11y.skip')}</a>
       <ScrollManager />
       <Navbar />
       {/* pb ด้านล่างเว้นที่ให้ BottomBar บนมือถือ */}
-      <div className="pb-[64px] lg:pb-0">
-        <main>
+      <div className="app-content">
+        <main id="main-content" tabIndex={-1}>
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/" element={<DiscoveryRoute><HomePage /></DiscoveryRoute>} />
             <Route path="/guitars" element={<DiscoveryRoute><CatalogPage /></DiscoveryRoute>} />
             <Route path="/brands" element={<DiscoveryRoute><BrandsPage /></DiscoveryRoute>} />
             <Route path="/brands/:id" element={<DiscoveryRoute><BrandDetailPage /></DiscoveryRoute>} />

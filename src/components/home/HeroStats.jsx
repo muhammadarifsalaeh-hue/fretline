@@ -23,12 +23,9 @@ export default function HeroStats({ style }) {
       className="mt-10 grid animate-fade-up grid-cols-2 gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10 lg:absolute lg:right-10 lg:top-1/2 lg:mt-0 lg:w-[150px] lg:-translate-y-1/2 lg:animate-none lg:grid-cols-1 lg:bg-transparent lg:backdrop-blur-xl"
     >
       {items.map((item) => (
-        <div key={item.label} className="flex items-center gap-3 bg-ink/80 px-4 py-4 lg:border-b lg:border-white/10 lg:bg-ink/60 lg:last:border-b-0">
-          <span className="text-gold">{item.icon}</span>
-          <div className="flex flex-col">
-            <dt className="order-2 text-xs text-mute">{item.label}</dt>
-            <dd className="order-1 font-mono text-lg leading-tight text-bone">{item.value}</dd>
-          </div>
+        <div key={item.label} className="relative flex flex-col bg-ink/80 py-4 pl-12 pr-4 lg:border-b lg:border-white/10 lg:bg-ink/60 lg:last:border-b-0">
+          <dt className="order-2 text-xs text-mute"><span aria-hidden="true" className="absolute left-4 top-1/2 -translate-y-1/2 text-gold">{item.icon}</span>{item.label}</dt>
+          <dd className="order-1 font-mono text-lg leading-tight text-bone">{item.value}</dd>
         </div>
       ))}
     </dl>

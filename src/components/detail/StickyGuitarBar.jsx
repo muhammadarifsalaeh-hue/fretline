@@ -5,7 +5,7 @@ import { CheckIcon, PlusIcon } from '@/components/ui/Icons';
 import GuitarImage from '@/components/guitar/GuitarImage';
 
 /** แถบสรุปที่เลื่อนลงมาใต้ Navbar เมื่อปุ่มหลักหลุดจอ */
-export default function StickyGuitarBar({ guitar, visible, inCompare, onToggleCompare }) {
+export default function StickyGuitarBar({ guitar, visible, inCompare, full = false, onToggleCompare }) {
   return (
     <div
       aria-hidden={!visible}
@@ -23,11 +23,13 @@ export default function StickyGuitarBar({ guitar, visible, inCompare, onToggleCo
         <p className="hidden font-mono text-lg text-gold sm:block">{formatPrice(guitar.price)}</p>
         <button
           type="button"
+          disabled={full}
+          title={full ? t('p4.compare.fullNote') : undefined}
           tabIndex={visible ? 0 : -1}
           onClick={onToggleCompare}
           aria-pressed={inCompare}
           className={cn(
-            'inline-flex h-11 shrink-0 items-center gap-2 rounded-full px-5 text-sm font-medium transition duration-300',
+            'inline-flex min-h-11 shrink-0 items-center gap-2 rounded-full px-5 text-sm font-medium transition duration-300 disabled:cursor-not-allowed disabled:opacity-50',
             inCompare ? 'border border-gold bg-gold/10 text-gold' : 'bg-gold text-ink hover:bg-gold-soft',
           )}
         >

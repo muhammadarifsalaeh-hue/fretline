@@ -7,7 +7,7 @@ export default function FilterCheckbox({ label, count, checked, onChange }) {
   return (
     <label
       className={cn(
-        'group flex min-h-[40px] cursor-pointer items-center gap-3 text-sm transition-opacity',
+        'group flex min-h-11 cursor-pointer items-center gap-3 text-sm transition-opacity',
         empty && 'opacity-40',
       )}
     >

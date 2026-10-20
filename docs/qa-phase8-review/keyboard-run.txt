@@ -1,0 +1,12 @@
+Drawer autofocus enters the newly visible dialog: reduce True
+Drawer wraps forward and backward Tab inside the dialog: reduce True
+Escape returns focus and releases body scroll: reduce True
+Switching to desktop closes drawer and releases scroll: reduce True
+Mobile menu Escape restores the opener: reduce True
+Home featured tabs support arrow-key selection: reduce True
+Drawer autofocus enters the newly visible dialog: no-preference True
+Drawer wraps forward and backward Tab inside the dialog: no-preference True
+Escape returns focus and releases body scroll: no-preference True
+Switching to desktop closes drawer and releases scroll: no-preference True
+Mobile menu Escape restores the opener: no-preference True
+Home featured tabs support arrow-key selection: no-preference True

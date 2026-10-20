@@ -1,0 +1,11 @@
+Clicking Bass changes the actual URL and results True
+Sidebar brand and category controls intersect True
+Browser Back removes brand selection while retaining category True
+Browser Forward restores the combined filter state True
+Typing accentless brand displays the actual twenty models True
+Editing search resolves an exact model without punctuation True
+Changing sort updates its URL True
+Back restores the previous sort without losing the query True
+A search typing session occupies one history entry True
+Visible rows are sorted by actual brand/model names True
+Reload preserves selected sort from URL True

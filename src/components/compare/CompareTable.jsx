@@ -12,13 +12,14 @@ import { analyseRows, groupRows } from './compareRows';
 function Collapse({ hide, children }) {
   return (
     <div
-      aria-hidden={hide}
+      role="presentation"
+      aria-hidden={hide ? true : undefined}
       className={cn(
         'grid transition-[grid-template-rows,opacity] duration-500 ease-premium',
         hide ? 'grid-rows-[0fr] opacity-0' : 'grid-rows-[1fr] opacity-100',
       )}
     >
-      <div className="min-h-0 overflow-y-clip">{children}</div>
+      <div role="presentation" className="min-h-0 overflow-y-clip">{children}</div>
     </div>
   );
 }
@@ -49,9 +50,10 @@ export default function CompareTable({ guitars, diffOnly = false, onRemove, bg =
               {onRemove && (
                 <button
                   type="button"
+                  data-compare-remove={g.id}
                   onClick={() => onRemove(g.id)}
                   aria-label={t('cmp.removeAria', { name: g.name })}
-                  className="absolute right-2 top-2 grid h-10 w-10 place-items-center rounded-full bg-ink/75 text-bone backdrop-blur transition hover:bg-ink"
+                  className="absolute right-2 top-2 grid h-11 w-11 place-items-center rounded-full bg-ink/75 text-bone backdrop-blur transition hover:bg-ink"
                 >
                   <CloseIcon size={16} />
                 </button>
@@ -88,7 +90,7 @@ export default function CompareTable({ guitars, diffOnly = false, onRemove, bg =
         {groups.map((group) => {
           const groupHidden = diffOnly && group.rows.every((r) => !r.diff);
           return (
-            <div key={group.title} role="rowgroup">
+            <div key={group.title} role="rowgroup" aria-hidden={groupHidden ? true : undefined}>
               {grouped && (
                 <Collapse hide={groupHidden}>
                   <div role="row"><h3 role="columnheader" aria-colspan={n + 1} className="sticky left-0 w-max pb-3 pt-10 font-serif text-2xl text-bone">{group.title}</h3></div>

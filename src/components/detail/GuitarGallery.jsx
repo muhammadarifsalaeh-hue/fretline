@@ -34,7 +34,7 @@ export default function GuitarGallery({ guitar }) {
 
   return (
     <div className="guitar-gallery">
-      <div className="gallery-layout">
+      <div className={cn('gallery-layout', !count && 'is-placeholder')}>
         <div className="gallery-main group" onMouseMove={onMove} onMouseLeave={() => setZoom(null)}
           onTouchStart={(event) => { touchX.current = event.touches[0].clientX; }} onTouchEnd={onTouchEnd}>
           {current ? (
@@ -56,16 +56,16 @@ export default function GuitarGallery({ guitar }) {
           ) : <ImagePlaceholder guitar={guitar} />}
           {guitar.badge && <div className="pointer-events-none absolute left-4 top-4 z-[2]"><Badge type={guitar.badge} /></div>}
         </div>
-        <ul className="gallery-thumbnails" aria-label={t('gallery.thumbnails')}>
-          {count ? images.map((image, value) => (
+        {count > 0 && <ul className="gallery-thumbnails" aria-label={t('gallery.thumbnails')}>
+          {images.map((image, value) => (
             <li key={image.src}>
               <button type="button" aria-label={t('gallery.show', { label: image.label })} aria-current={value === index ? 'true' : undefined}
                 onClick={() => { setIndex(value); setZoom(null); }} className={cn('gallery-thumbnail', value === index && 'is-active')}>
                 <GuitarImage guitar={guitar} src={image.src} alt="" size="sm" className="h-full w-full" />
               </button>
             </li>
-          )) : <li><div className="gallery-thumbnail relative" aria-label={t('gallery.soon')}><ImagePlaceholder guitar={guitar} compact /></div></li>}
-        </ul>
+          ))}
+        </ul>}
       </div>
       {!count && <p className="mt-3 text-xs leading-relaxed text-mute">{t('gallery.soon')}</p>}
       <ImageAttribution image={current} />

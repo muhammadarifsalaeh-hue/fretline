@@ -1,0 +1,1234 @@
+{
+  "engine": "axe-core 4.10.3",
+  "browser": "Chromium on Linux; not Safari",
+  "routes": [
+    {
+      "route": "/",
+      "name": "home",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/aria-required-children?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "div[role=\"table\"]"
+              ],
+              "html": "<div role=\"table\" aria-label=\"ตารางเปรียบเทียบสเปกกีตาร์\">",
+              "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: div[aria-hidden]"
+            },
+            {
+              "target": [
+                "div[role=\"rowgroup\"]:nth-child(3)"
+              ],
+              "html": "<div role=\"rowgroup\">",
+              "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: div[aria-hidden]"
+            },
+            {
+              "target": [
+                "div[role=\"rowgroup\"]:nth-child(4)"
+              ],
+              "html": "<div role=\"rowgroup\">",
+              "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: div[aria-hidden]"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".text-mute\\/80"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".text-center"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 237.6pt (316.8px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        },
+        {
+          "id": "definition-list",
+          "impact": "serious",
+          "description": "Ensure <dl> elements are structured correctly",
+          "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/definition-list?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "dl"
+              ],
+              "html": "<dl class=\"mt-10 grid animate-fade-up grid-cols-2 gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10 lg:absolute lg:right-10 lg:top-1/2 lg:mt-0 lg:w-[150px] lg:-translate-y-1/2 lg:animate-none lg:grid-cols-1 lg:bg-transparent lg:backdrop-blur-xl\" style=\"animation-delay: 680ms;\">",
+              "failureSummary": "Fix all of the following:\n  dl element has direct children that are not allowed: div > span, div > div"
+            }
+          ]
+        },
+        {
+          "id": "dlitem",
+          "impact": "serious",
+          "description": "Ensure <dt> and <dd> elements are contained by a <dl>",
+          "help": "<dt> and <dd> elements must be contained by a <dl>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/dlitem?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".bg-ink\\/80.lg\\:border-b.lg\\:border-white\\/10:nth-child(1) > .flex-col.flex > dt"
+              ],
+              "html": "<dt class=\"order-2 text-xs text-mute\">รุ่นกีตาร์</dt>",
+              "failureSummary": "Fix any of the following:\n  Description list item does not have a <dl> parent element"
+            },
+            {
+              "target": [
+                ".bg-ink\\/80.lg\\:border-b.lg\\:border-white\\/10:nth-child(1) > .flex-col.flex > dd"
+              ],
+              "html": "<dd class=\"order-1 font-mono text-lg leading-tight text-bone\">200</dd>",
+              "failureSummary": "Fix any of the following:\n  Description list item does not have a <dl> parent element"
+            },
+            {
+              "target": [
+                ".bg-ink\\/80.lg\\:border-b.lg\\:border-white\\/10:nth-child(2) > .flex-col.flex > dt"
+              ],
+              "html": "<dt class=\"order-2 text-xs text-mute\">แบรนด์</dt>",
+              "failureSummary": "Fix any of the following:\n  Description list item does not have a <dl> parent element"
+            },
+            {
+              "target": [
+                ".bg-ink\\/80.lg\\:border-b.lg\\:border-white\\/10:nth-child(2) > .flex-col.flex > dd"
+              ],
+              "html": "<dd class=\"order-1 font-mono text-lg leading-tight text-bone\">10</dd>",
+              "failureSummary": "Fix any of the following:\n  Description list item does not have a <dl> parent element"
+            },
+            {
+              "target": [
+                ".bg-ink\\/80.lg\\:border-b.lg\\:border-white\\/10:nth-child(3) > .flex-col.flex > dt"
+              ],
+              "html": "<dt class=\"order-2 text-xs text-mute\">ประเภท</dt>",
+              "failureSummary": "Fix any of the following:\n  Description list item does not have a <dl> parent element"
+            },
+            {
+              "target": [
+                ".bg-ink\\/80.lg\\:border-b.lg\\:border-white\\/10:nth-child(3) > .flex-col.flex > dd"
+              ],
+              "html": "<dd class=\"order-1 font-mono text-lg leading-tight text-bone\">4</dd>",
+              "failureSummary": "Fix any of the following:\n  Description list item does not have a <dl> parent element"
+            },
+            {
+              "target": [
+                ".bg-ink\\/80.lg\\:border-b.lg\\:border-white\\/10:nth-child(4) > .flex-col.flex > dt"
+              ],
+              "html": "<dt class=\"order-2 text-xs text-mute\">เปรียบเทียบพร้อมกัน</dt>",
+              "failureSummary": "Fix any of the following:\n  Description list item does not have a <dl> parent element"
+            },
+            {
+              "target": [
+                ".bg-ink\\/80.lg\\:border-b.lg\\:border-white\\/10:nth-child(4) > .flex-col.flex > dd"
+              ],
+              "html": "<dd class=\"order-1 font-mono text-lg leading-tight text-bone\">4</dd>",
+              "failureSummary": "Fix any of the following:\n  Description list item does not have a <dl> parent element"
+            }
+          ]
+        }
+      ],
+      "passes": 32,
+      "incomplete": [
+        {
+          "id": "aria-required-children",
+          "nodes": 2
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 68
+        }
+      ]
+    },
+    {
+      "route": "/guitars",
+      "name": "catalog",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".text-mute\\/80"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 237.6pt (316.8px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 29,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 174
+        }
+      ]
+    },
+    {
+      "route": "/guitars/fender-player-ii-telecaster",
+      "name": "detail",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".text-mute\\/80"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 237.6pt (316.8px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 29,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 57
+        },
+        {
+          "id": "link-in-text-block",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/guitars/yamaha-fg820-12",
+      "name": "photo-detail",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".text-mute\\/80"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 237.6pt (316.8px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 31,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 59
+        },
+        {
+          "id": "link-in-text-block",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/compare?ids=yamaha-fg820-12,fender-player-ii-telecaster",
+      "name": "compare",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/aria-required-children?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "div[role=\"table\"]"
+              ],
+              "html": "<div role=\"table\" aria-label=\"ตารางเปรียบเทียบสเปกกีตาร์\">",
+              "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: div[aria-hidden]"
+            },
+            {
+              "target": [
+                "div[role=\"rowgroup\"]:nth-child(2)"
+              ],
+              "html": "<div role=\"rowgroup\">",
+              "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: div[aria-hidden]"
+            },
+            {
+              "target": [
+                "div[role=\"rowgroup\"]:nth-child(3)"
+              ],
+              "html": "<div role=\"rowgroup\">",
+              "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: div[aria-hidden]"
+            },
+            {
+              "target": [
+                "div[role=\"rowgroup\"]:nth-child(4)"
+              ],
+              "html": "<div role=\"rowgroup\">",
+              "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: div[aria-hidden]"
+            },
+            {
+              "target": [
+                "div[role=\"rowgroup\"]:nth-child(5)"
+              ],
+              "html": "<div role=\"rowgroup\">",
+              "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: div[aria-hidden]"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".mt-4"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 237.6pt (316.8px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 29,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 62
+        }
+      ]
+    },
+    {
+      "route": "/find-my-guitar",
+      "name": "quiz-welcome",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".text-mute\\/80"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 237.6pt (316.8px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 22,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 21
+        }
+      ]
+    },
+    {
+      "route": "/find-my-guitar?type=acoustic&step=1",
+      "name": "quiz-step",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".mt-4"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 237.6pt (316.8px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 27,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 25
+        }
+      ]
+    },
+    {
+      "route": "/find-my-guitar?type=acoustic&level=intermediate&style=folk&budget=mid&priority=versatile",
+      "name": "quiz-results",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".mt-4"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 237.6pt (316.8px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 25,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 42
+        }
+      ]
+    },
+    {
+      "route": "/brands",
+      "name": "brands",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".mt-4"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 237.6pt (316.8px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 32,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 53
+        }
+      ]
+    },
+    {
+      "route": "/brands/yamaha",
+      "name": "brand-detail",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".text-mute\\/80"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 237.6pt (316.8px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 32,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 279
+        }
+      ]
+    },
+    {
+      "route": "/wishlist",
+      "name": "wishlist",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".mt-4"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 237.6pt (316.8px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 28,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 47
+        }
+      ]
+    },
+    {
+      "route": "/image-credits",
+      "name": "image-credits",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".mt-4"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 237.6pt (316.8px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 27,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 13
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "name": "home",
+      "width": 390,
+      "violations": [
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/aria-required-children?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "div[role=\"table\"]"
+              ],
+              "html": "<div role=\"table\" aria-label=\"ตารางเปรียบเทียบสเปกกีตาร์\">",
+              "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: div[aria-hidden]"
+            },
+            {
+              "target": [
+                "div[role=\"rowgroup\"]:nth-child(3)"
+              ],
+              "html": "<div role=\"rowgroup\">",
+              "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: div[aria-hidden]"
+            },
+            {
+              "target": [
+                "div[role=\"rowgroup\"]:nth-child(4)"
+              ],
+              "html": "<div role=\"rowgroup\">",
+              "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: div[aria-hidden]"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".text-mute\\/80"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".text-center"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 79.0pt (105.3px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        },
+        {
+          "id": "definition-list",
+          "impact": "serious",
+          "description": "Ensure <dl> elements are structured correctly",
+          "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script>, <template> or <div> elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/definition-list?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "dl"
+              ],
+              "html": "<dl class=\"mt-10 grid animate-fade-up grid-cols-2 gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10 lg:absolute lg:right-10 lg:top-1/2 lg:mt-0 lg:w-[150px] lg:-translate-y-1/2 lg:animate-none lg:grid-cols-1 lg:bg-transparent lg:backdrop-blur-xl\" style=\"animation-delay: 680ms;\">",
+              "failureSummary": "Fix all of the following:\n  dl element has direct children that are not allowed: div > span, div > div"
+            }
+          ]
+        },
+        {
+          "id": "dlitem",
+          "impact": "serious",
+          "description": "Ensure <dt> and <dd> elements are contained by a <dl>",
+          "help": "<dt> and <dd> elements must be contained by a <dl>",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/dlitem?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".bg-ink\\/80.lg\\:border-b.lg\\:border-white\\/10:nth-child(1) > .flex-col.flex > dt"
+              ],
+              "html": "<dt class=\"order-2 text-xs text-mute\">รุ่นกีตาร์</dt>",
+              "failureSummary": "Fix any of the following:\n  Description list item does not have a <dl> parent element"
+            },
+            {
+              "target": [
+                ".bg-ink\\/80.lg\\:border-b.lg\\:border-white\\/10:nth-child(1) > .flex-col.flex > dd"
+              ],
+              "html": "<dd class=\"order-1 font-mono text-lg leading-tight text-bone\">200</dd>",
+              "failureSummary": "Fix any of the following:\n  Description list item does not have a <dl> parent element"
+            },
+            {
+              "target": [
+                ".bg-ink\\/80.lg\\:border-b.lg\\:border-white\\/10:nth-child(2) > .flex-col.flex > dt"
+              ],
+              "html": "<dt class=\"order-2 text-xs text-mute\">แบรนด์</dt>",
+              "failureSummary": "Fix any of the following:\n  Description list item does not have a <dl> parent element"
+            },
+            {
+              "target": [
+                ".bg-ink\\/80.lg\\:border-b.lg\\:border-white\\/10:nth-child(2) > .flex-col.flex > dd"
+              ],
+              "html": "<dd class=\"order-1 font-mono text-lg leading-tight text-bone\">10</dd>",
+              "failureSummary": "Fix any of the following:\n  Description list item does not have a <dl> parent element"
+            },
+            {
+              "target": [
+                ".bg-ink\\/80.lg\\:border-b.lg\\:border-white\\/10:nth-child(3) > .flex-col.flex > dt"
+              ],
+              "html": "<dt class=\"order-2 text-xs text-mute\">ประเภท</dt>",
+              "failureSummary": "Fix any of the following:\n  Description list item does not have a <dl> parent element"
+            },
+            {
+              "target": [
+                ".bg-ink\\/80.lg\\:border-b.lg\\:border-white\\/10:nth-child(3) > .flex-col.flex > dd"
+              ],
+              "html": "<dd class=\"order-1 font-mono text-lg leading-tight text-bone\">4</dd>",
+              "failureSummary": "Fix any of the following:\n  Description list item does not have a <dl> parent element"
+            },
+            {
+              "target": [
+                ".bg-ink\\/80.lg\\:border-b.lg\\:border-white\\/10:nth-child(4) > .flex-col.flex > dt"
+              ],
+              "html": "<dt class=\"order-2 text-xs text-mute\">เปรียบเทียบพร้อมกัน</dt>",
+              "failureSummary": "Fix any of the following:\n  Description list item does not have a <dl> parent element"
+            },
+            {
+              "target": [
+                ".bg-ink\\/80.lg\\:border-b.lg\\:border-white\\/10:nth-child(4) > .flex-col.flex > dd"
+              ],
+              "html": "<dd class=\"order-1 font-mono text-lg leading-tight text-bone\">4</dd>",
+              "failureSummary": "Fix any of the following:\n  Description list item does not have a <dl> parent element"
+            }
+          ]
+        }
+      ],
+      "passes": 32,
+      "incomplete": [
+        {
+          "id": "aria-required-children",
+          "nodes": 2
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 84
+        }
+      ]
+    },
+    {
+      "route": "/guitars",
+      "name": "catalog",
+      "width": 390,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".text-mute\\/80"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 79.0pt (105.3px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 30,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 104
+        }
+      ]
+    },
+    {
+      "route": "/guitars/fender-player-ii-telecaster",
+      "name": "detail",
+      "width": 390,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".text-mute\\/80"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 79.0pt (105.3px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 30,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 57
+        },
+        {
+          "id": "link-in-text-block",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/guitars/yamaha-fg820-12",
+      "name": "photo-detail",
+      "width": 390,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".text-mute\\/80"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 79.0pt (105.3px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 31,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 59
+        },
+        {
+          "id": "link-in-text-block",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/compare?ids=yamaha-fg820-12,fender-player-ii-telecaster",
+      "name": "compare",
+      "width": 390,
+      "violations": [
+        {
+          "id": "aria-required-children",
+          "impact": "critical",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "help": "Certain ARIA roles must contain particular children",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/aria-required-children?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                "div[role=\"table\"]"
+              ],
+              "html": "<div role=\"table\" aria-label=\"ตารางเปรียบเทียบสเปกกีตาร์\">",
+              "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: div[aria-hidden]"
+            },
+            {
+              "target": [
+                "div[role=\"rowgroup\"]:nth-child(2)"
+              ],
+              "html": "<div role=\"rowgroup\">",
+              "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: div[aria-hidden]"
+            },
+            {
+              "target": [
+                "div[role=\"rowgroup\"]:nth-child(3)"
+              ],
+              "html": "<div role=\"rowgroup\">",
+              "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: div[aria-hidden]"
+            },
+            {
+              "target": [
+                "div[role=\"rowgroup\"]:nth-child(4)"
+              ],
+              "html": "<div role=\"rowgroup\">",
+              "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: div[aria-hidden]"
+            },
+            {
+              "target": [
+                "div[role=\"rowgroup\"]:nth-child(5)"
+              ],
+              "html": "<div role=\"rowgroup\">",
+              "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: div[aria-hidden]"
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".mt-4"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 79.0pt (105.3px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 29,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 60
+        }
+      ]
+    },
+    {
+      "route": "/find-my-guitar",
+      "name": "quiz-welcome",
+      "width": 390,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".text-mute\\/80"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 79.0pt (105.3px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 22,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 20
+        }
+      ]
+    },
+    {
+      "route": "/find-my-guitar?type=acoustic&step=1",
+      "name": "quiz-step",
+      "width": 390,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".mt-4"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 79.0pt (105.3px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 27,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 24
+        }
+      ]
+    },
+    {
+      "route": "/find-my-guitar?type=acoustic&level=intermediate&style=folk&budget=mid&priority=versatile",
+      "name": "quiz-results",
+      "width": 390,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".mt-4"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 79.0pt (105.3px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 25,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 37
+        }
+      ]
+    },
+    {
+      "route": "/brands",
+      "name": "brands",
+      "width": 390,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".mt-4"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 79.0pt (105.3px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 32,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 51
+        }
+      ]
+    },
+    {
+      "route": "/brands/yamaha",
+      "name": "brand-detail",
+      "width": 390,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".text-mute\\/80"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 79.0pt (105.3px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 32,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 217
+        }
+      ]
+    },
+    {
+      "route": "/wishlist",
+      "name": "wishlist",
+      "width": 390,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".mt-4"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 79.0pt (105.3px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 28,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 42
+        }
+      ]
+    },
+    {
+      "route": "/image-credits",
+      "name": "image-credits",
+      "width": 390,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+          "nodes": [
+            {
+              "target": [
+                ".mt-4"
+              ],
+              "html": "<p class=\"mt-4 max-w-sm text-xs leading-relaxed text-mute/80\">ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน</p>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.03 (foreground color: #6f6f6b, background color: #050505, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".select-none"
+              ],
+              "html": "<div aria-hidden=\"true\" class=\"select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]\">Fretline</div>",
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #141414, background color: #050505, font size: 79.0pt (105.3px), font weight: normal). Expected contrast ratio of 3:1"
+            }
+          ]
+        }
+      ],
+      "passes": 27,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 8
+        }
+      ]
+    }
+  ],
+  "violations": 32,
+  "passed": false
+}

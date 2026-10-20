@@ -25,18 +25,42 @@ const ALIASES = {
   สายไนลอน: 'nylon',
 };
 
+// Fold Latin accents without stripping Thai vowels or tone marks. This also
+// makes manufacturer punctuation variants (D–18 / D-18) searchable consistently.
+export const normalizeSearchText = (value) => String(value ?? '')
+  .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  .toLowerCase().replace(/[\u2010-\u2015\u2212]/g, '-');
+
+const searchFields = new WeakMap();
+function fieldsFor(guitar) {
+  let fields = searchFields.get(guitar);
+  if (!fields) {
+    const haystack = normalizeSearchText([guitar.brand, guitar.name, guitar.category, guitar.keywords, ...(guitar.tags ?? [])].join(' '));
+    fields = {
+      haystack,
+      words: new Set(haystack.split(/[^a-z0-9฿-]+/).filter(Boolean)),
+      model: normalizeSearchText(`${guitar.brand} ${guitar.name}`).replace(/[^a-z0-9]/g, ''),
+    };
+    searchFields.set(guitar, fields);
+  }
+  return fields;
+}
+
 /** กีตาร์ตรงกับคำค้นไหม — ทุกคำที่พิมพ์ต้องเจอใน แบรนด์/ชื่อ/ประเภท/แท็ก/คีย์เวิร์ด */
 export function matchesQuery(guitar, query) {
-  const q = query.trim().toLowerCase();
+  const q = normalizeSearchText(query).trim();
   if (!q) return true;
-  const haystack = [guitar.brand, guitar.name, guitar.category, guitar.keywords, ...guitar.tags].join(' ').toLowerCase();
-  const hayWords = haystack.split(/[^a-z0-9฿-]+/).filter(Boolean);
+  const { haystack, words, model } = fieldsFor(guitar);
   return q.split(/\s+/).every((word) => {
     // คำไทยที่แปลงเป็นศัพท์ (เช่น เบส → bass) ต้องตรงทั้งคำ ไม่ใช่จับกลางคำ (กัน "Basswood" โผล่เมื่อค้นหาเบส)
     const alias = ALIASES[word];
-    if (alias) return hayWords.includes(alias);
+    if (alias) return words.has(alias);
     // คำที่พิมพ์เอง: จับบางส่วนได้ (เช่น fg8 → FG800)
-    return haystack.includes(word);
+    if (haystack.includes(word)) return true;
+    // Model punctuation is optional, while arbitrary metadata still uses the
+    // literal query. Do not turn a punctuation-only query into a match-all.
+    const compact = word.replace(/[^a-z0-9]/g, '');
+    return compact.length > 0 && /^[a-z0-9-]+$/.test(word) && model.includes(compact);
   });
 }
 
@@ -45,10 +69,10 @@ export function matchesQuery(guitar, query) {
  * ตอนมี backend ให้เปลี่ยนเป็นเรียก API แทน แต่คง shape ผลลัพธ์ไว้
  */
 export function searchCatalog(query) {
-  const q = query.trim().toLowerCase();
+  const q = normalizeSearchText(query).trim();
   if (!q) return [];
   const qa = ALIASES[q] ?? q; // เช่น พิมพ์ "เบส" → ค้นหา bass ด้วย
-  const has = (text) => text.toLowerCase().includes(q) || text.toLowerCase().includes(qa);
+  const has = (text) => normalizeSearchText(text).includes(q) || normalizeSearchText(text).includes(qa);
 
   const guitars = GUITARS.filter((g) => matchesQuery(g, query))
     .slice(0, 4)

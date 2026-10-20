@@ -1,5 +1,5 @@
 import { t } from '@/i18n';
-import { useShop } from '@/context/ShopContext';
+import { MAX_COMPARE, useShop } from '@/context/ShopContext';
 import { cn } from '@/utils/cn';
 import { formatPrice } from '@/utils/format';
 import { isSourceBacked, publicPrice } from '@/utils/dataTrust';
@@ -18,6 +18,7 @@ const CATEGORY_LABEL = { electric: t('category.electric'), acoustic: t('category
 export default function CatalogCard({ guitar, index = 0, onRemove, compact = false, verifiedOnly = false }) {
   const { compare, wishlist, toggleCompare, toggleWishlist } = useShop();
   const inCompare = compare.includes(guitar.id);
+  const compareFull = !inCompare && compare.length >= MAX_COMPARE;
   const inWishlist = wishlist.includes(guitar.id);
   const href = guitarUrl(guitar.slug);
 
@@ -105,15 +106,17 @@ export default function CatalogCard({ guitar, index = 0, onRemove, compact = fal
           <button
             type="button"
             aria-pressed={inCompare}
-            aria-label={inCompare ? t('cmp.removeAria', { name: guitar.name }) : t('cmp.addAria', { name: guitar.name })}
+            disabled={compareFull}
+            title={compareFull ? t('p4.compare.fullNote') : undefined}
+            aria-label={compareFull ? t('p4.compare.fullNote') : inCompare ? t('cmp.removeAria', { name: guitar.name }) : t('cmp.addAria', { name: guitar.name })}
             onClick={() => toggleCompare(guitar)}
             className={cn(
-              'inline-flex h-12 items-center gap-2 rounded-full border px-5 text-sm transition duration-300 active:scale-[0.98]',
+              'inline-flex h-12 items-center gap-2 rounded-full border px-5 text-sm transition duration-300 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-50',
               inCompare ? 'border-gold bg-gold/10 text-gold' : 'border-white/20 text-bone hover:border-gold hover:text-gold',
             )}
           >
             {inCompare ? <CheckIcon size={16} /> : <PlusIcon size={16} />}
-            {inCompare ? t('cmp.added') : t('cmp.btn')}
+            {compareFull ? t('p4.compare.full') : inCompare ? t('cmp.added') : t('cmp.btn')}
           </button>
         </div>
       </div>

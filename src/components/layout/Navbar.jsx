@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { NAV_LINKS } from '@/data/navigation';
 import { useShop } from '@/context/ShopContext';
@@ -25,10 +25,20 @@ export default function Navbar() {
   const solid = scrolled || mega || pathname !== '/';
   const isActive = (link) => (link.exact ? pathname === link.href : pathname === link.href || pathname.startsWith(`${link.href}/`));
 
+  useEffect(() => { setMega(false); setMobileOpen(false); }, [pathname]);
+  useEffect(() => {
+    const desktop = window.matchMedia('(min-width: 1024px)');
+    const closeOnDesktop = () => { if (desktop.matches) setMobileOpen(false); };
+    desktop.addEventListener('change', closeOnDesktop);
+    return () => desktop.removeEventListener('change', closeOnDesktop);
+  }, []);
+
   return (
     <>
       <header
         onMouseLeave={() => setMega(false)}
+        onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) setMega(false); }}
+        onKeyDown={(event) => { if (event.key === 'Escape') setMega(false); }}
         className={cn(
           'fixed inset-x-0 top-0 z-50 border-b transition-[background-color,border-color,backdrop-filter] duration-500 ease-premium',
           solid ? 'border-line bg-ink/80 backdrop-blur-xl' : 'border-transparent bg-transparent',
@@ -43,6 +53,8 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 className="nav-link"
+                aria-expanded={link.mega ? mega : undefined}
+                aria-controls={link.mega ? 'guitar-navigation' : undefined}
                 aria-current={isActive(link) ? 'page' : undefined}
                 onMouseEnter={() => setMega(Boolean(link.mega))}
                 onFocus={() => setMega(Boolean(link.mega))}

@@ -1,5 +1,6 @@
 /** English strings (ใช้เป็นค่าสำรองและในการทดสอบ) */
 export const en = {
+  "a11y.skip": "Skip to main content",
   "p7.archive.label": "Archived from main catalog",
   "p7.archive.detail": "This model is archived from the main catalog. Its original data and sources remain available for existing links and saved selections. It is excluded from the 200-model total.",
   "p7.archive.saved": "This selection contains archived models. Their original IDs and data remain available for you to review or remove. Archived models are excluded from the main 200-model catalog.",

@@ -14,7 +14,7 @@ export default function FilterGroup({ title, defaultOpen = true, children }) {
           aria-expanded={open}
           aria-controls={id}
           onClick={() => setOpen(!open)}
-          className="flex min-h-[40px] w-full items-center justify-between text-left text-sm font-medium text-bone"
+          className="flex min-h-11 w-full items-center justify-between text-left text-sm font-medium text-bone"
         >
           {title}
           <ChevronDownIcon size={18} className={cn('text-mute transition-transform duration-300', open && 'rotate-180')} />

@@ -1,0 +1,46 @@
+"""Exercise actual filter/search/sort controls, including browser history."""
+from pathlib import Path
+from playwright.sync_api import sync_playwright,expect
+import json,os,re
+OUT=Path(__file__).parent;BASE=os.environ.get('FRETLINE_QA_URL','http://127.0.0.1:4188')
+r={'checks':[],'console_errors':[],'page_errors':[]}
+def check(name,condition=True):
+ r['checks'].append({'name':name,'passed':bool(condition)});print(name,bool(condition),flush=True);assert condition,name
+with sync_playwright() as p:
+ b=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
+ pg=b.new_page(viewport={'width':1440,'height':1000},reduced_motion='reduce')
+ pg.on('pageerror',lambda e:r['page_errors'].append(str(e)));pg.on('console',lambda m:r['console_errors'].append(m.text) if m.type=='error' else None)
+ pg.goto(BASE+'/guitars',wait_until='networkidle')
+ pg.locator('.catalog-categories').get_by_role('button',name='เบส',exact=True).click()
+ expect(pg.locator('.catalog-result-count')).to_contain_text('17')
+ check('Clicking Bass changes the actual URL and results','type=bass' in pg.url)
+ pg.locator('.catalog-sidebar label').filter(has_text='Ibanez').click()
+ expect(pg.locator('.catalog-grid article')).to_have_count(1)
+ check('Sidebar brand and category controls intersect','brand=Ibanez' in pg.url and pg.locator('.catalog-grid article').get_attribute('data-guitar-id')=='ibanez-sr300e')
+ pg.go_back(wait_until='networkidle')
+ expect(pg.locator('.catalog-grid article')).to_have_count(9)
+ check('Browser Back removes brand selection while retaining category','type=bass' in pg.url and 'brand=' not in pg.url)
+ pg.go_forward(wait_until='networkidle')
+ expect(pg.locator('.catalog-grid article')).to_have_count(1)
+ check('Browser Forward restores the combined filter state','brand=Ibanez' in pg.url)
+ pg.goto(BASE+'/guitars',wait_until='networkidle')
+ search=pg.locator('#catalog-search')
+ search.fill('Cordoba');expect(pg.locator('.catalog-result-count')).to_contain_text('20')
+ check('Typing accentless brand displays the actual twenty models')
+ search.fill('Martin D18');expect(pg.locator('.catalog-grid article')).to_have_count(1)
+ check('Editing search resolves an exact model without punctuation','D-18' in pg.locator('.catalog-grid article h3').inner_text())
+ pg.locator('.catalog-toolbar select').select_option('name')
+ check('Changing sort updates its URL','sort=name' in pg.url)
+ pg.go_back(wait_until='networkidle')
+ expect(search).to_have_value('Martin D18');expect(pg.locator('.catalog-toolbar select')).to_have_value('featured')
+ check('Back restores the previous sort without losing the query')
+ pg.go_back(wait_until='networkidle')
+ expect(search).to_have_value('');expect(pg.locator('.catalog-result-count')).to_contain_text('200')
+ check('A search typing session occupies one history entry')
+ pg.goto(BASE+'/guitars',wait_until='networkidle');pg.locator('.catalog-toolbar select').select_option('name')
+ expect(pg.locator('.catalog-grid article')).to_have_count(9)
+ check('Visible rows are sorted by actual brand/model names',pg.locator('.catalog-grid article').evaluate_all('''els=>{const names=els.map(e=>e.querySelector('.catalog-card-copy > div p').textContent+' '+e.querySelector('h3').textContent);return names.every((n,i)=>!i||names[i-1].localeCompare(n,undefined,{numeric:true,sensitivity:'base'})<=0)}'''))
+ pg.reload(wait_until='networkidle');expect(pg.locator('.catalog-toolbar select')).to_have_value('name')
+ check('Reload preserves selected sort from URL')
+ r['passed']=all(c['passed'] for c in r['checks']) and not r['console_errors'] and not r['page_errors'];b.close()
+(OUT/'catalog-history-results.json').write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n')

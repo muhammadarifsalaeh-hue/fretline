@@ -26,6 +26,13 @@ export default function CatalogPage() {
 
   useEffect(() => { document.title = t('catalog.docTitle'); }, []);
   useEffect(() => {
+    if (!drawerOpen) return undefined;
+    const desktop = window.matchMedia('(min-width: 1024px)');
+    const onResize = () => { if (desktop.matches) closeDrawer(); };
+    desktop.addEventListener('change', onResize);
+    return () => desktop.removeEventListener('change', onResize);
+  }, [drawerOpen, closeDrawer]);
+  useEffect(() => {
     if (filters.page !== page) c.setPage(page, true);
   }, [filters.page, page, c.setPage]);
   const panelProps = {
@@ -55,7 +62,7 @@ export default function CatalogPage() {
         <form role="search" className="catalog-search" onSubmit={submitSearch}>
           <SearchIcon size={19} className="shrink-0 text-gold" />
           <label htmlFor="catalog-search" className="sr-only">{t('toolbar.searchLabel')}</label>
-          <input id="catalog-search" type="search" autoComplete="off" value={filters.q}
+          <input id="catalog-search" type="search" autoComplete="off" enterKeyHint="search" spellCheck="false" aria-controls="catalog-results" value={filters.q}
             placeholder={t('toolbar.placeholder')} onChange={(e) => c.setQuery(e.target.value)} />
           {filters.q && <button type="button" aria-label={t('toolbar.clear')} onClick={() => c.setQuery('')}><CloseIcon size={17} /></button>}
           <button type="submit" aria-label={t('search.button')} className="catalog-search-submit rounded-md bg-gold"><SearchIcon size={17} /></button>
@@ -73,8 +80,9 @@ export default function CatalogPage() {
             <FilterPanel {...panelProps} />
           </div>
         </aside>
-        <section ref={resultsRef} tabIndex={-1} aria-label={t('catalog.resultsAria')} className="catalog-results min-w-0 scroll-mt-24 focus:outline-none">
-          <CatalogToolbar sort={filters.sort} onSort={c.setSort} count={c.results.length} activeCount={c.activeCount} onOpenFilters={() => setDrawerOpen(true)} />
+        <section id="catalog-results" ref={resultsRef} tabIndex={-1} aria-label={t('catalog.resultsAria')} className="catalog-results min-w-0 scroll-mt-24 rounded-lg">
+          <CatalogToolbar sort={filters.sort} onSort={c.setSort} count={c.results.length} page={page} pageSize={PAGE_SIZE}
+            drawerOpen={drawerOpen} activeCount={c.activeCount} onOpenFilters={() => setDrawerOpen(true)} />
           <ActiveFilters filters={filters} priceActive={c.priceActive} onRemoveType={c.toggleType}
             onRemoveBrand={c.toggleBrand} onResetPrice={c.resetPrice} onClearQuery={() => c.setQuery('')} onClearAll={c.clearFilters} />
           <p className="catalog-data-note">{t('catalog.dataNote')}</p>

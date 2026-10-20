@@ -5,6 +5,18 @@ import { cn } from '@/utils/cn';
 export default function ColorSwatches({ colors, value, onChange }) {
   if (!colors.length) return null;
   const selected = colors[value] ?? colors[0];
+  const selectedIndex = Math.max(0, colors.indexOf(selected));
+  const onKey = (event, index) => {
+    let next;
+    if (event.key === 'ArrowRight' || event.key === 'ArrowDown') next = (index + 1) % colors.length;
+    if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') next = (index - 1 + colors.length) % colors.length;
+    if (event.key === 'Home') next = 0;
+    if (event.key === 'End') next = colors.length - 1;
+    if (next === undefined) return;
+    event.preventDefault();
+    onChange(next);
+    event.currentTarget.parentElement.querySelectorAll('[role="radio"]')[next]?.focus();
+  };
   return (
     <div>
       <p className="mb-3 text-sm text-mute">
@@ -16,13 +28,15 @@ export default function ColorSwatches({ colors, value, onChange }) {
             key={c.name}
             type="button"
             role="radio"
-            aria-checked={i === value}
+            aria-checked={i === selectedIndex}
+            tabIndex={i === selectedIndex ? 0 : -1}
             aria-label={c.name}
             title={c.name}
             onClick={() => onChange(i)}
+            onKeyDown={(event) => onKey(event, i)}
             className={cn(
               'grid h-11 w-11 place-items-center rounded-full border transition duration-300',
-              i === value ? 'border-gold' : 'border-white/15 hover:border-white/40',
+              i === selectedIndex ? 'border-gold' : 'border-white/15 hover:border-white/40',
             )}
           >
             <span

@@ -1,0 +1,51 @@
+{
+  "checks": [
+    {
+      "name": "Clicking Bass changes the actual URL and results",
+      "passed": true
+    },
+    {
+      "name": "Sidebar brand and category controls intersect",
+      "passed": true
+    },
+    {
+      "name": "Browser Back removes brand selection while retaining category",
+      "passed": true
+    },
+    {
+      "name": "Browser Forward restores the combined filter state",
+      "passed": true
+    },
+    {
+      "name": "Typing accentless brand displays the actual twenty models",
+      "passed": true
+    },
+    {
+      "name": "Editing search resolves an exact model without punctuation",
+      "passed": true
+    },
+    {
+      "name": "Changing sort updates its URL",
+      "passed": true
+    },
+    {
+      "name": "Back restores the previous sort without losing the query",
+      "passed": true
+    },
+    {
+      "name": "A search typing session occupies one history entry",
+      "passed": true
+    },
+    {
+      "name": "Visible rows are sorted by actual brand/model names",
+      "passed": true
+    },
+    {
+      "name": "Reload preserves selected sort from URL",
+      "passed": true
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "passed": true
+}

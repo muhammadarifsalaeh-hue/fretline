@@ -13,6 +13,7 @@ export default function MobileFilterDrawer({ open, onClose, resultCount, activeC
   return (
     <div
       aria-hidden={!open}
+      inert={!open ? '' : undefined}
       className={cn('fixed inset-0 z-[65] transition-[visibility] lg:hidden', open ? 'visible' : 'invisible delay-500')}
     >
       <div
@@ -24,14 +25,14 @@ export default function MobileFilterDrawer({ open, onClose, resultCount, activeC
         id="catalog-filter-dialog"
         role="dialog"
         aria-modal="true"
-        aria-label={t('filters.title')}
+        aria-labelledby="catalog-filter-title"
         className={cn(
           'absolute inset-x-0 bottom-0 flex max-h-[88svh] flex-col rounded-t-3xl border-t border-line bg-surface transition-transform duration-500 ease-premium',
           open ? 'translate-y-0' : 'translate-y-full',
         )}
       >
         <div className="flex items-center justify-between px-5 pb-2 pt-5">
-          <h2 className="font-sans text-2xl font-medium">{t('filters.title')}</h2>
+          <h2 id="catalog-filter-title" className="font-sans text-2xl font-medium">{t('filters.title')}</h2>
           <button
             type="button"
             aria-label={t('filters.close')}

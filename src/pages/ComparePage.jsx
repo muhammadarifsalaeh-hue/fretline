@@ -22,6 +22,7 @@ export default function ComparePage() {
   const [includeSamples, setIncludeSamples] = useState(false);
   const [pickerOpen, setPickerOpen] = useState(false);
   const addRef = useRef(null);
+  const contentRef = useRef(null);
   const [confirmOpen, setConfirmOpen] = useState(false);
   const closePicker = useCallback(() => setPickerOpen(false), []);
   const closeConfirm = useCallback(() => setConfirmOpen(false), []);
@@ -49,6 +50,16 @@ export default function ComparePage() {
     setCompareIds(valid);
     setParams({ ids: valid.join(',') });
   };
+  const removeGuitar = (id) => {
+    const index = compare.indexOf(id);
+    changeSelection(compare.filter((value) => value !== id));
+    // A removed column also removes its focused button. Keep keyboard users in
+    // the comparison, or return to Add Guitar when fewer than two remain.
+    requestAnimationFrame(() => {
+      const buttons = contentRef.current?.querySelectorAll('[data-compare-remove]');
+      (buttons?.[Math.min(index, buttons.length - 1)] ?? addRef.current)?.focus({ preventScroll: true });
+    });
+  };
   const selected = useMemo(() => compare.map((id) => SAVED_GUITARS_BY_ID[id]).filter(Boolean), [compare]);
   const ready = selected.length >= 2;
   const rows = useMemo(() => analyseRows(selected, { includeSamples }), [selected, includeSamples]);
@@ -61,10 +72,10 @@ export default function ComparePage() {
         <nav aria-label={t('common.breadcrumb')} className="discovery-breadcrumb"><AppLink href="/">{t('nav.home')}</AppLink><span aria-hidden="true">›</span><span>{t('nav.compare')}</span></nav>
         <p className="discovery-kicker">FRETLINE / SIDE BY SIDE</p>
         <div className="phase4-title-row"><div><h1>{t('p4.compare.title')}</h1><p>{t('p4.compare.intro')}</p></div>
-          <span className="compare-count" role="status">{t('p4.compare.count', { n: selected.length, max: MAX_COMPARE })}</span>
+          <span className="compare-count" role="status" aria-atomic="true">{t('p4.compare.count', { n: selected.length, max: MAX_COMPARE })}</span>
         </div>
       </header>
-      <section className="container-x pb-16">
+      <section ref={contentRef} className="container-x pb-16" aria-label={t('p4.compare.title')}>
         <div className="compare-toolbar">
           <div className="flex flex-wrap items-center gap-3">
             <button type="button" ref={addRef} onClick={() => setPickerOpen(true)} disabled={compare.length >= MAX_COMPARE} className="phase4-button is-gold"><PlusIcon size={16} />{t(compare.length >= MAX_COMPARE ? 'p4.compare.full' : 'p4.compare.add')}</button>
@@ -75,10 +86,10 @@ export default function ComparePage() {
         </div>
         <p className="phase4-data-note">{t(includeSamples ? 'p4.compare.sampleNote' : 'p4.compare.verifiedNote')}</p>
         {selected.some((guitar) => guitar.archived) && <p className="archive-notice" role="note">{t('p7.archive.saved')}</p>}
-        {!ready ? <CompareEmpty selected={selected} onAdd={() => setPickerOpen(true)} onSelect={changeSelection} onRemove={(id) => changeSelection(compare.filter((value) => value !== id))} /> : <>
+        {!ready ? <CompareEmpty selected={selected} onAdd={() => setPickerOpen(true)} onSelect={changeSelection} onRemove={removeGuitar} /> : <>
           <p className="mb-4 text-xs text-mute" aria-live="polite">{t('p4.compare.differences', { n: diffCount, total: rows.length })}</p>
           <CompareVerdicts guitars={selected} />
-          <CompareTable guitars={selected} diffOnly={diffOnly} onRemove={(id) => changeSelection(compare.filter((value) => value !== id))} grouped stickyNames includeSamples={includeSamples} editorial />
+          <CompareTable guitars={selected} diffOnly={diffOnly} onRemove={removeGuitar} grouped stickyNames includeSamples={includeSamples} editorial />
           {diffOnly && !diffCount && <p className="phase4-empty-note" role="status">{t('p4.compare.noDifferences')}</p>}
           <p className="mt-5 text-xs leading-6 text-mute">{t('p4.compare.scrollHint')}</p>
         </>}

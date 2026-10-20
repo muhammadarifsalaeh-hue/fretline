@@ -1,0 +1,111 @@
+{
+  "baseline": "79025fe4c80f1bbb43a072bbfa6f79871da2fdbd",
+  "files": [
+    {
+      "path": "src/assets/guitars/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/README.md",
+      "sha256": "a1d142a6c22bb73104a13836d6c22840eb33101296da617fff46ffd1552c808b",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-fg820-12/01-front.webp",
+      "sha256": "89d2d9b4d055fdf2a5d3be8d4457ffac55e58a26ab041e641d598029c89d8ee8",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-fg820-12/LICENSE.md",
+      "sha256": "7b255969f7b9bd076a7be330c537ab2cea7176ce3e31dc9f609eed3a6ec58bf3",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-fg820-12/responsive/01-front-480.webp",
+      "sha256": "8635ac4ad707af1f447079d74e8c5e71825cf293a94c17b5af827feb2e42cedb",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-fg820-12/responsive/01-front-960.webp",
+      "sha256": "6f627bfa217f10a37dabef351cc902a67aa356bf9824c878ae0e22b417f6f9da",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/brands.js",
+      "sha256": "9b0c9ea2c30f70f21ae89e8c3dffb28d15cf7e07ec71ea6ed7178aef1ea3e7e7",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/archivedGuitars.json",
+      "sha256": "e60ebcaebd2f04e74268f288bc80176821e0b4d75326b7c68f0a5317934aaf56",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/catalogPolicy.json",
+      "sha256": "43d48c003fa1b50379c6f6432fa5eeb740c397e64642797e983613663ffe71de",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/extraGuitars.json",
+      "sha256": "21af8fbaf6c3c163ddd041451d13a988f3ec31d4653b750b620d64aef920dd4f",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/imageRights.json",
+      "sha256": "8a8fd14b80b3b1eee2bc15996f91ffc7ad0275865823c0371672680f6ada1425",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/phase7Guitars.json",
+      "sha256": "ed8e16264d499c6a7c3bf3823e98a16cc28a4dd9a82d0024a3106f16cebeb433",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/reviewedGuitars.json",
+      "sha256": "d9c645d7db04b76556fe72817adc1fee929399240168f388fda4b85b1df543dd",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/categories.js",
+      "sha256": "b6b8c32ea9bfb6d47d6b28f27836bb8cce36264a8ff1241e589b8f54c92df55f",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/guitarDetails.js",
+      "sha256": "fb20434c0471b0697613107c01e1cfe18af6792d4cf64e25682cb560d174c749",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/guitarImages.js",
+      "sha256": "6ad3c3b5704f91e8e8bba3dc5b6d2f3e417c2f091d86da015e7b4529714dc3fd",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/guitars.js",
+      "sha256": "4927b775252f6a22c464fc6daf6d37ae90bc7baeea242ef4d5d310c7c646c1bb",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/hero.js",
+      "sha256": "7a8ad3f893bb2cebc02cf05c7886f8a410c2dff16abde2eabe58c6d48c5576fc",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/images.js",
+      "sha256": "dc6827f45a3776b825626ca053c6e145ef51bbca926e6b861fbdd4c95d620ae9",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/navigation.js",
+      "sha256": "269ddda8eb9c5d34cf53ea32d9da0a670d373db5184d70e241ceb0688655fbe5",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/quiz.js",
+      "sha256": "a4eaefaef0b971dcc4f761dac255ddea23001873bfb43fdd012f3f3ea3f45222",
+      "unchanged": true
+    }
+  ],
+  "unchanged": true
+}

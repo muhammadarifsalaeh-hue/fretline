@@ -47,8 +47,8 @@ export default function SearchBar() {
     const onDown = (e) => {
       if (wrapRef.current && !wrapRef.current.contains(e.target)) setOpen(false);
     };
-    document.addEventListener('mousedown', onDown);
-    return () => document.removeEventListener('mousedown', onDown);
+    document.addEventListener('pointerdown', onDown);
+    return () => document.removeEventListener('pointerdown', onDown);
   }, []);
 
   const go = (href) => {
@@ -88,7 +88,7 @@ export default function SearchBar() {
   let index = -1;
 
   return (
-    <div ref={wrapRef} id="search" className="relative w-full max-w-[560px]">
+    <div ref={wrapRef} id="search" onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false); }} className="relative w-full max-w-[560px]">
       <div className="flex h-14 items-center gap-3 rounded-xl border border-white/15 bg-white/[0.06] pl-5 pr-2 backdrop-blur-md transition duration-300 focus-within:border-gold focus-within:shadow-[0_0_0_4px_rgba(200,161,90,0.14)]">
         <SearchIcon className="shrink-0 text-mute" />
         <input
@@ -96,7 +96,7 @@ export default function SearchBar() {
           type="text"
           role="combobox"
           aria-expanded={showList}
-          aria-controls="search-results"
+          aria-controls={showList ? 'search-results' : undefined}
           aria-autocomplete="list"
           aria-activedescendant={showList && active >= 0 && flat[active] ? `search-option-${active}` : undefined}
           aria-label={t('search.aria')}
@@ -115,7 +115,7 @@ export default function SearchBar() {
         <button
           type="button"
           onClick={submit}
-          className="h-10 shrink-0 rounded-lg bg-gold px-4 text-sm font-medium text-ink transition hover:bg-gold-soft"
+          className="h-11 shrink-0 rounded-lg bg-gold px-4 text-sm font-medium text-ink transition hover:bg-gold-soft"
         >
           {t('search.button')}
         </button>
@@ -127,7 +127,7 @@ export default function SearchBar() {
           <li key={chip.label}>
             <AppLink
               href={chip.href}
-              className="inline-flex min-h-[36px] items-center rounded-full border border-white/[0.12] px-4 text-[13px] text-bone/75 transition duration-300 hover:border-gold hover:text-gold"
+              className="inline-flex min-h-[44px] items-center rounded-full border border-white/[0.12] px-4 text-[13px] text-bone/75 transition duration-300 hover:border-gold hover:text-gold"
             >
               {chip.label}
             </AppLink>
@@ -140,6 +140,7 @@ export default function SearchBar() {
         <div
           id="search-results"
           role="listbox"
+          aria-label={t('search.aria')}
           className="absolute left-0 right-0 top-[60px] z-30 max-h-[50vh] overflow-y-auto rounded-3xl border border-line bg-surface/95 p-2 shadow-[0_30px_80px_-20px_rgba(0,0,0,0.9)] backdrop-blur-xl"
         >
           {groups.length === 0 ? (
@@ -158,6 +159,7 @@ export default function SearchBar() {
                       key={item.key}
                       id={`search-option-${index}`}
                       type="button"
+                      tabIndex={-1}
                       role="option"
                       aria-selected={isActive}
                       onMouseDown={(e) => e.preventDefault()}

@@ -14,6 +14,7 @@ export default function MegaMenu({ open, onClose }) {
 
   return (
     <div
+      id="guitar-navigation"
       aria-hidden={!open}
       className={cn(
         'absolute inset-x-0 top-full hidden border-b border-line bg-ink/95 backdrop-blur-xl transition-[opacity,transform,visibility] duration-500 ease-premium lg:block',

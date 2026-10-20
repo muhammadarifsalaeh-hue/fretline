@@ -1,0 +1,44 @@
+[
+  {
+    "command": "npm run catalog:check",
+    "exitCode": 0,
+    "seconds": 0.47,
+    "log": "catalog-check-final.txt"
+  },
+  {
+    "command": "npm run images:check",
+    "exitCode": 0,
+    "seconds": 0.8,
+    "log": "images-check-final.txt"
+  },
+  {
+    "command": "npm run phase4:check",
+    "exitCode": 0,
+    "seconds": 1.68,
+    "log": "phase4-check-final.txt"
+  },
+  {
+    "command": "npm run phase5:check",
+    "exitCode": 0,
+    "seconds": 1.9,
+    "log": "phase5-check-final.txt"
+  },
+  {
+    "command": "npm run phase6:check",
+    "exitCode": 0,
+    "seconds": 1.55,
+    "log": "phase6-check-final.txt"
+  },
+  {
+    "command": "npm run phase7:check",
+    "exitCode": 0,
+    "seconds": 1.44,
+    "log": "phase7-check-final.txt"
+  },
+  {
+    "command": "npm run phase8:check",
+    "exitCode": 0,
+    "seconds": 1.53,
+    "log": "phase8-check-final.txt"
+  }
+]

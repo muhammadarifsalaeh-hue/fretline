@@ -25,13 +25,13 @@ export default function CompareBar() {
         visible ? 'translate-y-0 opacity-100' : 'pointer-events-none translate-y-[140%] opacity-0',
       )}
     >
-      <div className="mx-auto flex max-w-3xl items-center gap-3 rounded-3xl border border-white/10 bg-ink/85 p-2.5 pl-4 shadow-[0_20px_60px_-10px_rgba(0,0,0,0.8)] backdrop-blur-xl">
+      <div className="compare-tray mx-auto flex max-w-3xl items-center gap-3 rounded-3xl border border-white/10 bg-ink/85 p-2.5 pl-4 shadow-[0_20px_60px_-10px_rgba(0,0,0,0.8)] backdrop-blur-xl">
         <p className="hidden text-sm text-mute sm:block">{t('cmpbar.title')}</p>
 
-        <ul className="flex flex-1 items-center gap-2">
+        <ul aria-label={t('cmpbar.title')} className="flex min-w-0 flex-1 items-center gap-2 overflow-x-auto">
           {slots.map((g, i) =>
             g ? (
-              <li key={g.id} className="group relative h-12 w-12 overflow-hidden rounded-xl ring-1 ring-white/15">
+              <li key={g.id} className="group relative h-12 w-12 shrink-0 overflow-hidden rounded-xl ring-1 ring-white/15">
                 <GuitarImage guitar={g} size="sm" className="h-full w-full" />
                 <button
                   type="button"
@@ -44,7 +44,7 @@ export default function CompareBar() {
                 </button>
               </li>
             ) : (
-              <li key={`empty-${i}`} className="grid h-12 w-12 place-items-center rounded-xl border border-dashed border-white/20 text-mute">
+              <li key={`empty-${i}`} className="grid h-12 w-12 shrink-0 place-items-center rounded-xl border border-dashed border-white/20 text-mute">
                 <PlusIcon size={16} />
               </li>
             ),
@@ -53,10 +53,11 @@ export default function CompareBar() {
 
         <AppLink
           href="/compare"
-          tabIndex={visible ? 0 : -1}
+          tabIndex={visible && ready ? 0 : -1}
           aria-disabled={!ready}
+          onClick={(event) => { if (!ready) event.preventDefault(); }}
           className={cn(
-            'inline-flex h-12 items-center rounded-full bg-gold px-6 text-sm font-medium text-ink transition duration-300 hover:bg-gold-soft',
+            'inline-flex h-12 shrink-0 items-center rounded-full bg-gold px-6 text-sm font-medium text-ink transition duration-300 hover:bg-gold-soft',
             !ready && 'pointer-events-none opacity-40',
           )}
         >

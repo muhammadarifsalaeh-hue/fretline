@@ -10,7 +10,7 @@ function Chip({ label, onRemove }) {
         type="button"
         onClick={onRemove}
         aria-label={t('filters.removeAria', { label })}
-        className="group inline-flex min-h-[36px] items-center gap-2 rounded-full border border-line bg-surface pl-4 pr-3 text-[13px] text-bone transition hover:border-gold"
+        className="group inline-flex min-h-11 items-center gap-2 rounded-full border border-line bg-surface pl-4 pr-3 text-[13px] text-bone transition hover:border-gold"
       >
         {label}
         <CloseIcon size={14} className="text-mute transition-colors group-hover:text-gold" />
@@ -36,7 +36,7 @@ export default function ActiveFilters({ filters, priceActive, onRemoveType, onRe
       ))}
       {priceActive && <Chip label={`${formatPrice(filters.min)} – ${formatPrice(filters.max)}`} onRemove={onResetPrice} />}
       <li>
-        <button type="button" onClick={onClearAll} className="min-h-[36px] px-2 text-[13px] text-gold transition-colors hover:text-gold-soft">
+        <button type="button" onClick={onClearAll} className="min-h-11 px-2 text-[13px] text-gold transition-colors hover:text-gold-soft">
           {t('filters.clearAll')}
         </button>
       </li>

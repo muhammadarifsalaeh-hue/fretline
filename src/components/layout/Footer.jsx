@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="md:col-span-6">
             <Logo />
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-mute">{t('footer.tagline')}</p>
-            <p className="mt-4 max-w-sm text-xs leading-relaxed text-mute/80">{t('footer.dataNote')}</p>
+            <p className="mt-4 max-w-sm text-xs leading-relaxed text-mute">{t('footer.dataNote')}</p>
             <AppLink href="/image-credits" className="mt-3 inline-flex min-h-11 items-center text-xs text-gold hover:underline">{t('p6.images.indexLink')}</AppLink>
           </div>
           <div className="grid grid-cols-2 gap-8 md:col-span-6 md:gap-10">
@@ -37,8 +37,10 @@ export default function Footer() {
       </div>
 
       {/* ตัวอักษรขนาดมหึมาเป็นลายเซ็นท้ายเว็บ */}
-      <div aria-hidden="true" className="select-none text-center font-serif text-[27vw] leading-[0.78] tracking-tighter text-[#141414] md:text-[22vw]">
-        Fretline
+      <div aria-hidden="true" className="footer-watermark mx-auto max-w-[1100px] select-none px-5 text-[#141414]">
+        <svg viewBox="0 0 1000 235" aria-hidden="true" focusable="false" className="w-full overflow-visible">
+          <text x="500" y="215" textAnchor="middle" fill="currentColor" fontFamily="Instrument Serif, serif" fontSize="290" textLength="960" lengthAdjust="spacingAndGlyphs">Fretline</text>
+        </svg>
       </div>
     </footer>
   );

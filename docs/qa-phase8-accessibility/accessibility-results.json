@@ -1,0 +1,418 @@
+{
+  "engine": "axe-core 4.10.3",
+  "browser": "Chromium on Linux; not Safari",
+  "routes": [
+    {
+      "route": "/",
+      "name": "home",
+      "width": 1440,
+      "violations": [],
+      "passes": 34,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 70
+        }
+      ]
+    },
+    {
+      "route": "/guitars",
+      "name": "catalog",
+      "width": 1440,
+      "violations": [],
+      "passes": 29,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 176
+        }
+      ]
+    },
+    {
+      "route": "/guitars/fender-player-ii-telecaster",
+      "name": "detail",
+      "width": 1440,
+      "violations": [],
+      "passes": 29,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 59
+        },
+        {
+          "id": "link-in-text-block",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/guitars/yamaha-fg820-12",
+      "name": "photo-detail",
+      "width": 1440,
+      "violations": [],
+      "passes": 31,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 61
+        },
+        {
+          "id": "link-in-text-block",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/compare?ids=yamaha-fg820-12,fender-player-ii-telecaster",
+      "name": "compare",
+      "width": 1440,
+      "violations": [],
+      "passes": 29,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 64
+        }
+      ]
+    },
+    {
+      "route": "/find-my-guitar",
+      "name": "quiz-welcome",
+      "width": 1440,
+      "violations": [],
+      "passes": 22,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 23
+        }
+      ]
+    },
+    {
+      "route": "/find-my-guitar?type=acoustic&step=1",
+      "name": "quiz-step",
+      "width": 1440,
+      "violations": [],
+      "passes": 27,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 27
+        }
+      ]
+    },
+    {
+      "route": "/find-my-guitar?type=acoustic&level=intermediate&style=folk&budget=mid&priority=versatile",
+      "name": "quiz-results",
+      "width": 1440,
+      "violations": [],
+      "passes": 25,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 44
+        }
+      ]
+    },
+    {
+      "route": "/brands",
+      "name": "brands",
+      "width": 1440,
+      "violations": [],
+      "passes": 32,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 55
+        }
+      ]
+    },
+    {
+      "route": "/brands/yamaha",
+      "name": "brand-detail",
+      "width": 1440,
+      "violations": [],
+      "passes": 32,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 281
+        }
+      ]
+    },
+    {
+      "route": "/wishlist",
+      "name": "wishlist",
+      "width": 1440,
+      "violations": [],
+      "passes": 28,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 49
+        }
+      ]
+    },
+    {
+      "route": "/image-credits",
+      "name": "image-credits",
+      "width": 1440,
+      "violations": [],
+      "passes": 27,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 15
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "name": "home",
+      "width": 390,
+      "violations": [],
+      "passes": 34,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 85
+        }
+      ]
+    },
+    {
+      "route": "/guitars",
+      "name": "catalog",
+      "width": 390,
+      "violations": [],
+      "passes": 30,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 105
+        }
+      ]
+    },
+    {
+      "route": "/guitars/fender-player-ii-telecaster",
+      "name": "detail",
+      "width": 390,
+      "violations": [],
+      "passes": 30,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 58
+        },
+        {
+          "id": "link-in-text-block",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/guitars/yamaha-fg820-12",
+      "name": "photo-detail",
+      "width": 390,
+      "violations": [],
+      "passes": 31,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 60
+        },
+        {
+          "id": "link-in-text-block",
+          "nodes": 2
+        }
+      ]
+    },
+    {
+      "route": "/compare?ids=yamaha-fg820-12,fender-player-ii-telecaster",
+      "name": "compare",
+      "width": 390,
+      "violations": [],
+      "passes": 29,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 61
+        }
+      ]
+    },
+    {
+      "route": "/find-my-guitar",
+      "name": "quiz-welcome",
+      "width": 390,
+      "violations": [],
+      "passes": 22,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 21
+        }
+      ]
+    },
+    {
+      "route": "/find-my-guitar?type=acoustic&step=1",
+      "name": "quiz-step",
+      "width": 390,
+      "violations": [],
+      "passes": 27,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 25
+        }
+      ]
+    },
+    {
+      "route": "/find-my-guitar?type=acoustic&level=intermediate&style=folk&budget=mid&priority=versatile",
+      "name": "quiz-results",
+      "width": 390,
+      "violations": [],
+      "passes": 25,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 38
+        }
+      ]
+    },
+    {
+      "route": "/brands",
+      "name": "brands",
+      "width": 390,
+      "violations": [],
+      "passes": 32,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 52
+        }
+      ]
+    },
+    {
+      "route": "/brands/yamaha",
+      "name": "brand-detail",
+      "width": 390,
+      "violations": [],
+      "passes": 32,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 218
+        }
+      ]
+    },
+    {
+      "route": "/wishlist",
+      "name": "wishlist",
+      "width": 390,
+      "violations": [],
+      "passes": 28,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 43
+        }
+      ]
+    },
+    {
+      "route": "/image-credits",
+      "name": "image-credits",
+      "width": 390,
+      "violations": [],
+      "passes": 27,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 9
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "name": "mobile-navigation",
+      "state": "dialog open",
+      "width": 390,
+      "violations": [],
+      "passes": 34,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 54
+        }
+      ]
+    },
+    {
+      "route": "/guitars",
+      "name": "mobile-filters",
+      "state": "dialog open",
+      "width": 390,
+      "violations": [],
+      "passes": 31,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 116
+        }
+      ]
+    },
+    {
+      "route": "/compare?ids=yamaha-fg820-12,fender-player-ii-telecaster",
+      "name": "compare-picker",
+      "state": "dialog open",
+      "width": 390,
+      "violations": [],
+      "passes": 32,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 62
+        }
+      ]
+    },
+    {
+      "route": "/compare?ids=yamaha-fg820-12,fender-player-ii-telecaster",
+      "name": "clear-confirmation",
+      "state": "dialog open",
+      "width": 390,
+      "violations": [],
+      "passes": 29,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 62
+        }
+      ]
+    },
+    {
+      "route": "/guitars/yamaha-fg820-12",
+      "name": "photo-lightbox",
+      "state": "dialog open",
+      "width": 390,
+      "violations": [],
+      "passes": 31,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 66
+        },
+        {
+          "id": "link-in-text-block",
+          "nodes": 2
+        }
+      ]
+    }
+  ],
+  "violations": 0,
+  "passed": true
+}

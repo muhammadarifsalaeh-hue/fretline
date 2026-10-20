@@ -1,0 +1,31 @@
+
+> fretline@0.1.0 phase8:check
+> node scripts/check-phase8.mjs && node scripts/check-phase8-catalog.mjs
+
+PASS Phase 7 remains an ancestor of the current history
+PASS the approved catalog remains exactly 200 models and 10 brands
+PASS every approved brand has exactly 20 models
+PASS active and archived records have no duplicate IDs or normalized models
+PASS all 200 records still pass the existing data schema
+PASS unknown prices and reviews remain unknown; partial is not promoted
+PASS the two approved archives retain their original snapshots and sources
+PASS all source-data and licensed-image files remain byte-identical to Phase 7
+
+8/8 checks passed
+PASS Accentless Córdoba search finds all twenty actual models
+PASS Common model punctuation variants find the real D-18
+PASS Latin accent folding preserves Thai vowels and tone marks
+PASS Thai bass alias matches the category without a Basswood false positive
+PASS Every published model remains searchable by its exact manufacturer name
+PASS Duplicate URL facets are trimmed and deduplicated
+PASS Malformed URL numbers and sort values use safe defaults
+PASS Brand, type and model query intersect rather than overriding each other
+PASS Unknown prices remain excluded when an actual price URL filter is active
+PASS Quota and archived-model rules are unchanged
+
+10/10 checks passed
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

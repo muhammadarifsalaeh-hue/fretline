@@ -1,0 +1,475 @@
+{
+  "browser": "Chromium on Linux; CSS viewports, not physical Safari/iPad",
+  "checks": [
+    {
+      "name": "home",
+      "route": "/",
+      "width": 1440,
+      "height": 1000,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "catalog",
+      "route": "/guitars",
+      "width": 1440,
+      "height": 1000,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "detail",
+      "route": "/guitars/fender-player-ii-telecaster",
+      "width": 1440,
+      "height": 1000,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "photo-detail",
+      "route": "/guitars/yamaha-fg820-12",
+      "width": 1440,
+      "height": 1000,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "compare",
+      "route": "/compare?ids=yamaha-fg820-12,fender-player-ii-telecaster,ibanez-sr300e,taylor-gs-mini",
+      "width": 1440,
+      "height": 1000,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true,
+      "tableScrollContained": true,
+      "modelCount": 4
+    },
+    {
+      "name": "quiz",
+      "route": "/find-my-guitar?type=acoustic&step=1",
+      "width": 1440,
+      "height": 1000,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "quiz-results",
+      "route": "/find-my-guitar?type=acoustic&level=intermediate&style=folk&budget=mid&priority=versatile",
+      "width": 1440,
+      "height": 1000,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "brands",
+      "route": "/brands",
+      "width": 1440,
+      "height": 1000,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "brand-detail",
+      "route": "/brands/yamaha",
+      "width": 1440,
+      "height": 1000,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "wishlist",
+      "route": "/wishlist",
+      "width": 1440,
+      "height": 1000,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "width": 1024,
+      "height": 768,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "catalog",
+      "route": "/guitars",
+      "width": 1024,
+      "height": 768,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "detail",
+      "route": "/guitars/fender-player-ii-telecaster",
+      "width": 1024,
+      "height": 768,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "photo-detail",
+      "route": "/guitars/yamaha-fg820-12",
+      "width": 1024,
+      "height": 768,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "compare",
+      "route": "/compare?ids=yamaha-fg820-12,fender-player-ii-telecaster,ibanez-sr300e,taylor-gs-mini",
+      "width": 1024,
+      "height": 768,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true,
+      "tableScrollContained": true,
+      "modelCount": 4
+    },
+    {
+      "name": "quiz",
+      "route": "/find-my-guitar?type=acoustic&step=1",
+      "width": 1024,
+      "height": 768,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "quiz-results",
+      "route": "/find-my-guitar?type=acoustic&level=intermediate&style=folk&budget=mid&priority=versatile",
+      "width": 1024,
+      "height": 768,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "brands",
+      "route": "/brands",
+      "width": 1024,
+      "height": 768,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "brand-detail",
+      "route": "/brands/yamaha",
+      "width": 1024,
+      "height": 768,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "wishlist",
+      "route": "/wishlist",
+      "width": 1024,
+      "height": 768,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "width": 768,
+      "height": 1024,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "catalog",
+      "route": "/guitars",
+      "width": 768,
+      "height": 1024,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "detail",
+      "route": "/guitars/fender-player-ii-telecaster",
+      "width": 768,
+      "height": 1024,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "photo-detail",
+      "route": "/guitars/yamaha-fg820-12",
+      "width": 768,
+      "height": 1024,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "compare",
+      "route": "/compare?ids=yamaha-fg820-12,fender-player-ii-telecaster,ibanez-sr300e,taylor-gs-mini",
+      "width": 768,
+      "height": 1024,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true,
+      "tableScrollContained": true,
+      "modelCount": 4
+    },
+    {
+      "name": "quiz",
+      "route": "/find-my-guitar?type=acoustic&step=1",
+      "width": 768,
+      "height": 1024,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "quiz-results",
+      "route": "/find-my-guitar?type=acoustic&level=intermediate&style=folk&budget=mid&priority=versatile",
+      "width": 768,
+      "height": 1024,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "brands",
+      "route": "/brands",
+      "width": 768,
+      "height": 1024,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "brand-detail",
+      "route": "/brands/yamaha",
+      "width": 768,
+      "height": 1024,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "wishlist",
+      "route": "/wishlist",
+      "width": 768,
+      "height": 1024,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "width": 390,
+      "height": 844,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "catalog",
+      "route": "/guitars",
+      "width": 390,
+      "height": 844,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "detail",
+      "route": "/guitars/fender-player-ii-telecaster",
+      "width": 390,
+      "height": 844,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "photo-detail",
+      "route": "/guitars/yamaha-fg820-12",
+      "width": 390,
+      "height": 844,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "compare",
+      "route": "/compare?ids=yamaha-fg820-12,fender-player-ii-telecaster,ibanez-sr300e,taylor-gs-mini",
+      "width": 390,
+      "height": 844,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true,
+      "tableScrollContained": true,
+      "modelCount": 4
+    },
+    {
+      "name": "quiz",
+      "route": "/find-my-guitar?type=acoustic&step=1",
+      "width": 390,
+      "height": 844,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "quiz-results",
+      "route": "/find-my-guitar?type=acoustic&level=intermediate&style=folk&budget=mid&priority=versatile",
+      "width": 390,
+      "height": 844,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "brands",
+      "route": "/brands",
+      "width": 390,
+      "height": 844,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "brand-detail",
+      "route": "/brands/yamaha",
+      "width": 390,
+      "height": 844,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "wishlist",
+      "route": "/wishlist",
+      "width": 390,
+      "height": 844,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "width": 320,
+      "height": 800,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "catalog",
+      "route": "/guitars",
+      "width": 320,
+      "height": 800,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "detail",
+      "route": "/guitars/fender-player-ii-telecaster",
+      "width": 320,
+      "height": 800,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "photo-detail",
+      "route": "/guitars/yamaha-fg820-12",
+      "width": 320,
+      "height": 800,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "compare",
+      "route": "/compare?ids=yamaha-fg820-12,fender-player-ii-telecaster,ibanez-sr300e,taylor-gs-mini",
+      "width": 320,
+      "height": 800,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true,
+      "tableScrollContained": true,
+      "modelCount": 4
+    },
+    {
+      "name": "quiz",
+      "route": "/find-my-guitar?type=acoustic&step=1",
+      "width": 320,
+      "height": 800,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "quiz-results",
+      "route": "/find-my-guitar?type=acoustic&level=intermediate&style=folk&budget=mid&priority=versatile",
+      "width": 320,
+      "height": 800,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "brands",
+      "route": "/brands",
+      "width": 320,
+      "height": 800,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "brand-detail",
+      "route": "/brands/yamaha",
+      "width": 320,
+      "height": 800,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    },
+    {
+      "name": "wishlist",
+      "route": "/wishlist",
+      "width": 320,
+      "height": 800,
+      "noDocumentOverflow": true,
+      "noBrokenImages": true
+    }
+  ],
+  "screenshots": [
+    "home-1440.png",
+    "catalog-1440.png",
+    "detail-1440.png",
+    "photo-detail-1440.png",
+    "compare-1440.png",
+    "quiz-1440.png",
+    "quiz-results-1440.png",
+    "brands-1440.png",
+    "brand-detail-1440.png",
+    "wishlist-1440.png",
+    "home-1024.png",
+    "catalog-1024.png",
+    "detail-1024.png",
+    "photo-detail-1024.png",
+    "compare-1024.png",
+    "quiz-1024.png",
+    "quiz-results-1024.png",
+    "brands-1024.png",
+    "brand-detail-1024.png",
+    "wishlist-1024.png",
+    "home-768.png",
+    "catalog-768.png",
+    "detail-768.png",
+    "photo-detail-768.png",
+    "compare-768.png",
+    "quiz-768.png",
+    "quiz-results-768.png",
+    "brands-768.png",
+    "brand-detail-768.png",
+    "wishlist-768.png",
+    "home-390.png",
+    "catalog-390.png",
+    "detail-390.png",
+    "photo-detail-390.png",
+    "compare-390.png",
+    "quiz-390.png",
+    "quiz-results-390.png",
+    "brands-390.png",
+    "brand-detail-390.png",
+    "wishlist-390.png",
+    "home-320.png",
+    "catalog-320.png",
+    "detail-320.png",
+    "photo-detail-320.png",
+    "compare-320.png",
+    "quiz-320.png",
+    "quiz-results-320.png",
+    "brands-320.png",
+    "brand-detail-320.png",
+    "wishlist-320.png",
+    "catalog-1440-full.png",
+    "catalog-390-full.png",
+    "compare-390-full.png"
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "failed_requests": [],
+  "broken_images": [],
+  "passed": true
+}

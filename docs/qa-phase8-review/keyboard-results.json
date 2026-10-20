@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "name": "Drawer autofocus enters the newly visible dialog: reduce",
+      "passed": true
+    },
+    {
+      "name": "Drawer wraps forward and backward Tab inside the dialog: reduce",
+      "passed": true
+    },
+    {
+      "name": "Escape returns focus and releases body scroll: reduce",
+      "passed": true
+    },
+    {
+      "name": "Switching to desktop closes drawer and releases scroll: reduce",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu Escape restores the opener: reduce",
+      "passed": true
+    },
+    {
+      "name": "Home featured tabs support arrow-key selection: reduce",
+      "passed": true
+    },
+    {
+      "name": "Drawer autofocus enters the newly visible dialog: no-preference",
+      "passed": true
+    },
+    {
+      "name": "Drawer wraps forward and backward Tab inside the dialog: no-preference",
+      "passed": true
+    },
+    {
+      "name": "Escape returns focus and releases body scroll: no-preference",
+      "passed": true
+    },
+    {
+      "name": "Switching to desktop closes drawer and releases scroll: no-preference",
+      "passed": true
+    },
+    {
+      "name": "Mobile menu Escape restores the opener: no-preference",
+      "passed": true
+    },
+    {
+      "name": "Home featured tabs support arrow-key selection: no-preference",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "passed": true
+}

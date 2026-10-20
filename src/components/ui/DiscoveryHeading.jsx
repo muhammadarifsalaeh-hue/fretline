@@ -5,7 +5,7 @@ import AppLink from './AppLink';
 export default function DiscoveryHeading({ eyebrow, title, description, breadcrumbs = [], children, aside, serif = false }) {
   return (
     <header className="container-x phase5-heading">
-      <nav aria-label="Breadcrumb" className="discovery-breadcrumb">
+      <nav aria-label={t('common.breadcrumb')} className="discovery-breadcrumb">
         <AppLink href="/">{t('nav.home')}</AppLink>
         {breadcrumbs.map(({ label, href }, index) => (
           <span key={`${label}-${index}`} className="inline-flex items-center gap-2">

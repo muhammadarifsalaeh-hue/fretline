@@ -13,7 +13,8 @@
     "phase4:check": "node scripts/check-phase4.mjs",
     "phase5:check": "node scripts/check-phase5.mjs",
     "phase6:check": "node scripts/check-phase6.mjs",
-    "phase7:check": "node scripts/check-phase7.mjs"
+    "phase7:check": "node scripts/check-phase7.mjs",
+    "phase8:check": "node scripts/check-phase8.mjs && node scripts/check-phase8-catalog.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

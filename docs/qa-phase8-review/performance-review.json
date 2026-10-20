@@ -1,0 +1,15 @@
+{
+  "dependenciesUnchanged": true,
+  "packageLockUnchanged": true,
+  "largestJavascriptRawBytes": 429598,
+  "measurement": "Filesystem byte counts and gzip estimates; no Lighthouse or external-network speed score",
+  "optimizations": [
+    "Cached normalized search metadata in a WeakMap",
+    "Deferred 200-model picker search",
+    "Preserved route-level lazy imports and split vendor/catalog chunks",
+    "Preserved local fonts with font-display:swap",
+    "Model photo lazy loading, responsive sizes and explicit image dimensions",
+    "Eager/high priority hero/detail images",
+    "No network photo requests for 199 illustration placeholders"
+  ]
+}

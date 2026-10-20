@@ -1,5 +1,5 @@
 import { t } from '@/i18n';
-import { useShop } from '@/context/ShopContext';
+import { MAX_COMPARE, useShop } from '@/context/ShopContext';
 import { cn } from '@/utils/cn';
 import { formatPrice } from '@/utils/format';
 import { guitarUrl } from '@/utils/routes';
@@ -9,12 +9,13 @@ import GuitarImage from './GuitarImage';
 import AppLink from '@/components/ui/AppLink';
 
 /** ปุ่มกลมมุมขวาบนของการ์ด (Wishlist / Compare) */
-function CardAction({ label, active, onClick, children }) {
+function CardAction({ label, active, disabled = false, onClick, children }) {
   return (
     <button
       type="button"
       aria-label={label}
       aria-pressed={active}
+      disabled={disabled}
       onClick={onClick}
       className={cn(
         'grid h-11 w-11 place-items-center rounded-full backdrop-blur-md transition duration-300 ease-premium hover:scale-105 active:scale-95',
@@ -30,9 +31,10 @@ export default function GuitarCard({ guitar }) {
   const { compare, wishlist, toggleCompare, toggleWishlist } = useShop();
   const inCompare = compare.includes(guitar.id);
   const inWishlist = wishlist.includes(guitar.id);
+  const compareFull = !inCompare && compare.length >= MAX_COMPARE;
 
   return (
-    <article className="guitar-card group relative flex h-full flex-col overflow-hidden rounded-lg border border-white/[0.07] bg-surface text-bone ring-1 ring-white/5 transition duration-500 ease-premium hover:-translate-y-1 hover:border-gold/40 hover:shadow-[0_30px_60px_-20px_rgba(0,0,0,0.6)]">
+    <article data-guitar-id={guitar.id} className="guitar-card group relative flex h-full flex-col overflow-hidden rounded-lg border border-white/[0.07] bg-surface text-bone ring-1 ring-white/5 transition duration-500 ease-premium hover:-translate-y-1 hover:border-gold/40 hover:shadow-[0_30px_60px_-20px_rgba(0,0,0,0.6)]">
       {/* พื้นที่รูป 4:5 */}
       <div className="relative aspect-[4/5] overflow-hidden bg-gradient-to-b from-[#191919] to-[#101010]">
         <GuitarImage
@@ -66,8 +68,9 @@ export default function GuitarCard({ guitar }) {
             <HeartIcon size={18} fill={inWishlist ? 'currentColor' : 'none'} />
           </CardAction>
           <CardAction
-            label={inCompare ? t('cmp.removeAria', { name: guitar.name }) : t('cmp.addAria', { name: guitar.name })}
+            label={compareFull ? t('p4.compare.fullNote') : inCompare ? t('cmp.removeAria', { name: guitar.name }) : t('cmp.addAria', { name: guitar.name })}
             active={inCompare}
+            disabled={compareFull}
             onClick={() => toggleCompare(guitar)}
           >
             {inCompare ? <CheckIcon size={18} /> : <PlusIcon size={18} />}
@@ -84,7 +87,7 @@ export default function GuitarCard({ guitar }) {
       </div>
 
       <div className="card-copy flex flex-1 flex-col gap-3 p-5">
-        {guitar.dataStatus === 'sample' && <p className="text-[11px] text-gold">{t('data.sampleShort')}</p>}
+        <p className="text-[11px] text-gold">{t(`status.${guitar.dataStatus ?? 'sample'}`)}</p>
         <p className="text-xs uppercase tracking-[0.14em] text-mute">{guitar.brand}</p>
         <h3 className="font-serif text-2xl leading-[1.15]">
           <AppLink href={guitarUrl(guitar.slug)} className="after:absolute after:inset-x-0 after:top-0 after:bottom-0 after:content-[''] after:z-0 hover:text-gold transition-colors">

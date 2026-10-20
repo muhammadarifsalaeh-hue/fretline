@@ -1,0 +1,90 @@
+{
+  "core": {
+    "passed": true,
+    "evidence": "docs/qa-phase8/browser-phase8-results.json",
+    "count": 54
+  },
+  "catalogHistory": {
+    "passed": true,
+    "evidence": "docs/qa-phase8-review/catalog-history-results.json",
+    "count": 11
+  },
+  "keyboard": {
+    "passed": true,
+    "evidence": "docs/qa-phase8-review/keyboard-results.json",
+    "count": 12
+  },
+  "faultStates": {
+    "passed": true,
+    "evidence": "docs/qa-phase8-review/states-results.json",
+    "count": 6
+  },
+  "allDetails": {
+    "passed": true,
+    "evidence": "docs/qa-phase8-review/detail-route-results.json",
+    "count": 200
+  },
+  "responsive": {
+    "passed": true,
+    "evidence": "docs/qa-phase8-review/responsive-results.json",
+    "count": 50
+  },
+  "brandLinks": {
+    "passed": true,
+    "evidence": "docs/qa-phase8-review/brand-links-results.json",
+    "count": 10
+  },
+  "accessibility": {
+    "passed": true,
+    "evidence": "docs/qa-phase8-accessibility/accessibility-results.json",
+    "count": 29
+  },
+  "nodeAssertions": 89,
+  "responsiveScreenshots": 53,
+  "safariOnPhysicalIpadTested": false,
+  "sourceDataFilesChanged": false,
+  "nodeCommands": [
+    {
+      "command": "npm run catalog:check",
+      "exitCode": 0,
+      "seconds": 0.47,
+      "log": "catalog-check-final.txt"
+    },
+    {
+      "command": "npm run images:check",
+      "exitCode": 0,
+      "seconds": 0.8,
+      "log": "images-check-final.txt"
+    },
+    {
+      "command": "npm run phase4:check",
+      "exitCode": 0,
+      "seconds": 1.68,
+      "log": "phase4-check-final.txt"
+    },
+    {
+      "command": "npm run phase5:check",
+      "exitCode": 0,
+      "seconds": 1.9,
+      "log": "phase5-check-final.txt"
+    },
+    {
+      "command": "npm run phase6:check",
+      "exitCode": 0,
+      "seconds": 1.55,
+      "log": "phase6-check-final.txt"
+    },
+    {
+      "command": "npm run phase7:check",
+      "exitCode": 0,
+      "seconds": 1.44,
+      "log": "phase7-check-final.txt"
+    },
+    {
+      "command": "npm run phase8:check",
+      "exitCode": 0,
+      "seconds": 1.53,
+      "log": "phase8-check-final.txt"
+    }
+  ]
+}

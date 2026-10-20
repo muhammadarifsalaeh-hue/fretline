@@ -1,0 +1,75 @@
+{
+  "runAt": "2026-10-20T07:46:07.682108+00:00",
+  "results": [
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "summary": [
+        "dist/assets/index-PUsw36q7.js             128.00 kB │ gzip: 42.30 kB",
+        "dist/assets/vendor-DMuMWS1U.js            163.33 kB │ gzip: 53.22 kB",
+        "dist/assets/guitar-catalog-BwC8Fhw5.js    315.76 kB │ gzip: 31.52 kB",
+        "✓ built in 8.37s"
+      ]
+    },
+    {
+      "command": "npm run catalog:check",
+      "exitCode": 0,
+      "summary": [
+        "Licensed photo models: 1",
+        "Placeholder models  : 199",
+        "",
+        "No data problems found. Unknown fields remain unknown."
+      ]
+    },
+    {
+      "command": "npm run images:check",
+      "exitCode": 0,
+      "summary": [
+        "- Missing: PRS SE Mark Holcomb (prs-se-mark-holcomb)",
+        "- Missing: PRS SE Paul's Guitar (prs-se-paul-s-guitar)",
+        "- Missing: PRS SE DGT (prs-se-dgt)",
+        "Rights records and file integrity checks passed."
+      ]
+    },
+    {
+      "command": "npm run phase4:check",
+      "exitCode": 0,
+      "summary": [
+        "PASS sample reviews are absent from comparison; sourced reviews can appear",
+        "PASS all real catalog recommendations have finite scores and no review bonus",
+        "",
+        "19/19 checks passed"
+      ]
+    },
+    {
+      "command": "npm run phase5:check",
+      "exitCode": 0,
+      "summary": [
+        "PASS public wishlist prices cannot expose legacy sample amounts",
+        "PASS Thai and English Phase 5 text keys and interpolation fields match",
+        "",
+        "15/15 checks passed"
+      ]
+    },
+    {
+      "command": "npm run phase6:check",
+      "exitCode": 0,
+      "summary": [
+        "PASS every delivered image file has intact attribution, dimensions and SHA-256",
+        "PASS missing rights, mismatched models, fake license URLs and impossible dates are rejected",
+        "",
+        "21/21 checks passed"
+      ]
+    },
+    {
+      "command": "npm run phase7:check",
+      "exitCode": 0,
+      "summary": [
+        "PASS old quiz weights and shareable answers survive; archive is never recommended",
+        "PASS Thai and English archival labels have matching interpolation fields",
+        "",
+        "16/16 checks passed"
+      ]
+    }
+  ]
+}

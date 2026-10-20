@@ -1,5 +1,5 @@
 import { t } from '@/i18n';
-import { useCallback, useMemo } from 'react';
+import { useCallback, useEffect, useMemo, useRef } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { GUITARS } from '@/data/guitars';
 import { priceCmp } from '@/utils/guitarSort';
@@ -28,7 +28,7 @@ const SORTERS = {
   featured: (a, b) => Number(b.featured) - Number(a.featured), // sort เสถียร: คงลำดับเดิมในกลุ่มเดียวกัน
   'price-asc': priceCmp(1),
   'price-desc': priceCmp(-1),
-  name: (a, b) => `${a.brand} ${a.name}`.localeCompare(`${b.brand} ${b.name}`),
+  name: (a, b) => `${a.brand} ${a.name}`.localeCompare(`${b.brand} ${b.name}`, undefined, { numeric: true, sensitivity: 'base' }),
 };
 
 // แบรนด์ทั้งหมดในแคตตาล็อก เรียงตามจำนวนรุ่น
@@ -38,7 +38,7 @@ export const ALL_BRANDS = Object.entries(
   .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
   .map(([name]) => name);
 
-const toList = (value) => (value ? value.split(',').filter(Boolean) : []);
+const toList = (value) => [...new Set((value ?? '').split(',').map((item) => item.trim()).filter(Boolean))];
 const clampPrice = (n) => Math.min(PRICE_MAX, Math.max(PRICE_MIN, n));
 const toggle = (list, value) => (list.includes(value) ? list.filter((x) => x !== value) : [...list, value]);
 
@@ -57,31 +57,41 @@ export function applyFilters(items, f, omit) {
 
 const countBy = (items, key) => items.reduce((acc, g) => ({ ...acc, [g[key]]: (acc[g[key]] || 0) + 1 }), {});
 
+export function readCatalogFilters(params) {
+  const readPrice = (key, fallback) => {
+    const value = params.get(key);
+    return value !== null && value.trim() !== '' && Number.isFinite(Number(value)) ? clampPrice(Number(value)) : fallback;
+  };
+  const max = readPrice('max', PRICE_MAX);
+  const min = readPrice('min', PRICE_MIN);
+  const rawPage = Number(params.get('page'));
+  const sort = params.get('sort');
+  return {
+    q: params.get('q') ?? '',
+    types: toList(params.get('type')),
+    brands: toList(params.get('brand')),
+    min: Math.min(min, max),
+    max,
+    sort: Object.prototype.hasOwnProperty.call(SORTERS, sort) ? sort : 'featured',
+    page: Number.isFinite(rawPage) ? Math.max(1, Math.floor(rawPage)) : 1,
+  };
+}
+
 export default function useCatalogFilters() {
   const [params, setParams] = useSearchParams();
+  const filters = useMemo(() => readCatalogFilters(params), [params]);
+  const querySession = useRef(null);
 
-  const filters = useMemo(() => {
-    const readPrice = (key, fallback) => {
-      const value = params.get(key);
-      return value !== null && value.trim() !== '' && Number.isFinite(Number(value)) ? clampPrice(Number(value)) : fallback;
-    };
-    const max = readPrice('max', PRICE_MAX);
-    const min = readPrice('min', PRICE_MIN);
-    const rawPage = Number(params.get('page'));
-    const sort = params.get('sort');
-    return {
-      q: params.get('q') ?? '',
-      types: toList(params.get('type')),
-      brands: toList(params.get('brand')),
-      min: Math.min(min, max),
-      max,
-      sort: Object.prototype.hasOwnProperty.call(SORTERS, sort) ? sort : 'featured',
-      page: Number.isFinite(rawPage) ? Math.max(1, Math.floor(rawPage)) : 1,
-    };
-  }, [params]);
+  // A typing session uses one history entry. Returning with browser navigation
+  // starts a new session instead of overwriting the entry the user returned to.
+  useEffect(() => {
+    const resetQuerySession = () => { querySession.current = null; };
+    window.addEventListener('popstate', resetQuerySession);
+    return () => window.removeEventListener('popstate', resetQuerySession);
+  }, []);
 
   const update = useCallback(
-    (patch, { pagination = false, replace = false } = {}) => {
+    (patch, { replace = false, typing = false } = {}) => {
       const next = { ...filters, page: 1, ...patch };
       const p = new URLSearchParams();
       if (next.q.trim()) p.set('q', next.q);
@@ -91,9 +101,11 @@ export default function useCatalogFilters() {
       if (next.max < PRICE_MAX) p.set('max', String(next.max));
       if (next.sort !== 'featured') p.set('sort', next.sort);
       if (next.page > 1) p.set('page', String(next.page));
-      setParams(p, { replace: replace || !pagination });
+      const serialized = p.toString();
+      if (serialized !== params.toString()) setParams(p, { replace });
+      querySession.current = typing ? serialized : null;
     },
-    [filters, setParams],
+    [filters, params, setParams],
   );
 
   const results = useMemo(() => applyFilters(GUITARS, filters).sort(SORTERS[filters.sort]), [filters]);
@@ -110,10 +122,10 @@ export default function useCatalogFilters() {
     brandCounts,
     priceActive,
     activeCount,
-    setQuery: (q) => update({ q }),
+    setQuery: (q) => update({ q }, { typing: true, replace: querySession.current === params.toString() }),
     setTypes: (types) => update({ types }),
     setSort: (sort) => update({ sort }),
-    setPage: (page, replace = false) => update({ page }, { pagination: true, replace }),
+    setPage: (page, replace = false) => update({ page }, { replace }),
     setPrice: (min, max) => update({ min, max }),
     resetPrice: () => update({ min: PRICE_MIN, max: PRICE_MAX }),
     toggleType: (id) => update({ types: toggle(filters.types, id) }),

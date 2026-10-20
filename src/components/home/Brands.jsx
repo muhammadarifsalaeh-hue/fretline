@@ -73,7 +73,7 @@ export default function Brands() {
       {/* Marquee: เลื่อนช้า ๆ และหยุดเมื่อ hover (ซ้ำรายการ 2 ชุดเพื่อให้วนต่อเนื่อง) */}
       <Reveal delay={100}>
         <div className="mb-16 border-y border-line py-8 [mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)] md:mb-20">
-          <div className="flex w-max animate-marquee hover:[animation-play-state:paused]">
+          <div className="flex w-max animate-marquee hover:[animation-play-state:paused] focus-within:[animation-play-state:paused]">
             {[...BRANDS, ...BRANDS].map((brand, i) => (
               <div key={`${brand.id}-${i}`} aria-hidden={i >= BRANDS.length}>
                 <BrandMark brand={brand} decorative={i >= BRANDS.length} />

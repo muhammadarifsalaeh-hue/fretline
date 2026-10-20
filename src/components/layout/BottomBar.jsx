@@ -1,4 +1,5 @@
 import { useShop } from '@/context/ShopContext';
+import { useLocation } from 'react-router-dom';
 import { t } from '@/i18n';
 import useSearchNavigation from '@/hooks/useSearchNavigation';
 import AppLink from '@/components/ui/AppLink';
@@ -8,6 +9,7 @@ import { CompareIcon, HeartIcon, HomeIcon, SearchIcon } from '@/components/ui/Ic
 export default function BottomBar() {
   const handleSearch = useSearchNavigation();
   const { compare, wishlist } = useShop();
+  const { pathname } = useLocation();
 
   const items = [
     { label: t('nav.home'), icon: <HomeIcon />, href: '/', onClick: () => window.scrollTo({ top: 0, behavior: 'smooth' }) },
@@ -27,8 +29,9 @@ export default function BottomBar() {
           <Comp
             key={item.label}
             href={item.href}
+            aria-current={item.href && (item.href === '/' ? pathname === '/' : pathname.startsWith(item.href)) ? 'page' : undefined}
             onClick={item.onClick}
-            className="relative flex min-h-[60px] flex-col items-center justify-center gap-1 text-[11px] text-bone/70 transition-colors active:text-gold"
+            className="quick-nav-item relative flex min-h-[60px] flex-col items-center justify-center gap-1 text-[11px] text-bone/70 transition-colors active:text-gold"
           >
             <span className="relative">
               {item.icon}

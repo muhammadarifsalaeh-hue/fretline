@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "name": "Lazy Catalog exposes a labelled loading state",
+      "passed": true
+    },
+    {
+      "name": "Failed route chunk displays the recoverable error boundary",
+      "passed": true
+    },
+    {
+      "name": "Retry reload recovers after the chunk becomes available",
+      "passed": true
+    },
+    {
+      "name": "An unmatched query has an honest empty state",
+      "passed": true
+    },
+    {
+      "name": "Failed licensed photo falls back to this model’s labelled illustration",
+      "passed": true
+    },
+    {
+      "name": "Unknown brand link exposes the existing recovery page",
+      "passed": true
+    }
+  ],
+  "expected_fault_console": [
+    "Failed to load resource: net::ERR_FAILED",
+    "TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:4188/assets/CatalogPage-Htzet4Xy.js",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED"
+  ],
+  "expected_fault_page_errors": [],
+  "passed": true
+}

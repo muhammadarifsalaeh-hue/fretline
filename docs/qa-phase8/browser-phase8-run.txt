@@ -1,0 +1,54 @@
+Ten active brands each display exactly twenty real catalog models True
+Brand filter returns twenty models: Yamaha True
+Brand filter returns twenty models: Fender True
+Brand filter returns twenty models: Epiphone True
+Brand filter returns twenty models: Ibanez True
+Brand filter returns twenty models: Taylor True
+Brand filter returns twenty models: Córdoba True
+Brand filter returns twenty models: Gibson True
+Brand filter returns twenty models: Martin True
+Brand filter returns twenty models: PRS True
+Brand filter returns twenty models: Squier True
+Catalog announces 200 actual results True
+Pagination pushes page two into URL history True
+Browser Back restores page one True
+Browser Forward restores page two True
+Final page contains exactly two models True
+Brand and guitar type filters intersect True
+Accent-insensitive search finds Córdoba models True
+Space query matches punctuation in FG820-12 model True
+Name sorting resolves to a populated catalog True
+Malformed sort and oversized page parameters resolve safely True
+Unmatched query renders an honest empty state True
+Clear filters restores catalog True
+Catalog details use original ID True
+Licensed real photo retains eager loading and intrinsic dimensions True
+Review tab has no invented reviews True
+Lightbox Escape restores opening button focus True
+Wishlist persists while navigating pages True
+Wishlist persists after reload True
+Wishlist explicit remove works True
+Comparison URL deduplicates IDs True
+Guitar picker opens with search input focused True
+Picker can add to four unique models True
+Four-model limit is visible and prevents a fifth selection True
+Detail comparison control disables when four other guitars are selected True
+Removing a comparison retains useful keyboard focus True
+Compare Browser Back and Forward restore selection state True
+Quiz prevents unanswered progress True
+Quiz Previous preserves earlier choices True
+Five-step quiz produces real catalog results and shareable answers True
+Quiz result heading receives keyboard focus True
+Recommendations clearly show partial data and unknown prices True
+Quiz result detail navigation and Browser Back retain answers True
+Legacy archived favourites remain saved and deduplicated True
+Wishlist labels both archived models explicitly True
+Archived detail preserves ID and explains exclusion: yamaha-c40 True
+Archived detail preserves ID and explains exclusion: gretsch-g2420-streamliner True
+Legacy shared comparison retains and labels archived models True
+Legacy archived brand link is handled True
+Mobile filter drawer traps active focus inside dialog True
+Mobile drawer Escape restores trigger focus True
+No runtime errors in normal flows True
+No console errors in normal flows True
+No failed requests in normal flows True

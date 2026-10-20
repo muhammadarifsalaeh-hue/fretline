@@ -11,9 +11,9 @@ import AppLink from '@/components/ui/AppLink';
 import { CheckIcon, CompareIcon, HeartIcon } from '@/components/ui/Icons';
 import { CATEGORIES } from '@/data/categories';
 import { SAVED_GUITARS_BY_ID } from '@/data/guitars';
-import { useShop } from '@/context/ShopContext';
+import { MAX_COMPARE, useShop } from '@/context/ShopContext';
 import { cn } from '@/utils/cn';
-import { NOT_SPECIFIED, formatKg, formatPrice } from '@/utils/format';
+import { NOT_SPECIFIED, formatKg, formatPrice, formatScale } from '@/utils/format';
 import { brandUrl, categoryUrl } from '@/utils/routes';
 import NotFoundPage from './NotFoundPage';
 
@@ -25,6 +25,7 @@ function DetailContent({ guitar }) {
   const [stuck, setStuck] = useState(false);
   const ctaRef = useRef(null);
   const inCompare = compare.includes(guitar.id);
+  const compareFull = !inCompare && compare.length >= MAX_COMPARE;
   const inWishlist = wishlist.includes(guitar.id);
   const categoryName = CATEGORIES.find((category) => category.id === guitar.category)?.name;
   const sample = guitar.dataStatus === 'sample';
@@ -39,14 +40,14 @@ function DetailContent({ guitar }) {
 
   const keyFeatures = [
     { label: t('detail.tone'), value: guitar.specs.pickups ?? NOT_SPECIFIED },
-    { label: t('detail.feel'), value: [guitar.specs.scale != null && t('detail.scaleTxt', { n: guitar.specs.scale }), guitar.specs.frets != null && t('detail.fretsTxt', { n: guitar.specs.frets })].filter(Boolean).join(', ') || NOT_SPECIFIED },
+    { label: t('detail.feel'), value: [(guitar.specs.scale != null || guitar.specs.scaleMm != null) && `${t('row.scale')} ${formatScale(guitar.specs)}`, guitar.specs.frets != null && t('detail.fretsTxt', { n: guitar.specs.frets })].filter(Boolean).join(', ') || NOT_SPECIFIED },
     { label: t('detail.build'), value: guitar.specs.body ?? NOT_SPECIFIED },
   ];
 
   return (
     <div className="detail-page discovery-page">
       {guitar.archived && <div className="container-x pt-6"><p className="archive-notice" role="note">{t('p7.archive.detail')} <AppLink href="/guitars" className="text-gold underline">{t('p7.archive.browse')}</AppLink></p></div>}
-      <StickyGuitarBar guitar={guitar} visible={stuck} inCompare={inCompare} onToggleCompare={() => toggleCompare(guitar)} />
+      <StickyGuitarBar guitar={guitar} visible={stuck} inCompare={inCompare} full={compareFull} onToggleCompare={() => toggleCompare(guitar)} />
       <section className="detail-hero container-x">
         <nav aria-label={t('common.breadcrumb')} className="discovery-breadcrumb">
           <AppLink href="/">{t('nav.home')}</AppLink><span aria-hidden="true">›</span>
@@ -74,13 +75,14 @@ function DetailContent({ guitar }) {
             <p className="mt-4 text-sm leading-7 text-bone/75">{firstSentence(guitar.description)}</p>
             <div className="detail-source-note mt-4"><DataStatusNote guitar={guitar} /></div>
             <div ref={ctaRef} className="detail-actions">
-              <button type="button" onClick={() => toggleCompare(guitar)} aria-pressed={inCompare} className={cn('detail-action', inCompare && 'is-active')}>
+              <button type="button" onClick={() => toggleCompare(guitar)} disabled={compareFull} title={compareFull ? t('p4.compare.fullNote') : undefined} aria-pressed={inCompare} className={cn('detail-action disabled:cursor-not-allowed disabled:opacity-50', inCompare && 'is-active')}>
                 {inCompare ? <CheckIcon size={18} /> : <CompareIcon size={18} />}{inCompare ? t('detail.added') : t('detail.add')}
               </button>
               <button type="button" onClick={() => toggleWishlist(guitar)} aria-pressed={inWishlist} className={cn('detail-action', inWishlist && 'is-active')}>
                 <HeartIcon size={18} fill={inWishlist ? 'currentColor' : 'none'} />{inWishlist ? t('detail.saved') : t('detail.saveBtn')}
               </button>
             </div>
+            {compareFull && <p className="mt-3 text-xs leading-6 text-gold" role="status">{t('p4.compare.fullNote')} <AppLink href="/compare" className="inline-flex min-h-11 items-center underline underline-offset-4">{t('detail.viewComparison', { n: compare.length })}</AppLink></p>}
             {inCompare && <AppLink href="/compare" className="mt-3 inline-flex min-h-11 items-center text-xs text-gold">{t('detail.viewComparison', { n: compare.length })}</AppLink>}
             <dl className="detail-facts">
               {[[t('filter.type'), categoryName], [t('row.strings'), guitar.specs.strings ?? NOT_SPECIFIED], [t('row.weight'), formatKg(guitar.specs.weightKg)]].map(([label, value]) => (

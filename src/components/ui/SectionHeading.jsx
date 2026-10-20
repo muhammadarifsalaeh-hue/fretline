@@ -14,7 +14,7 @@ export default function SectionHeading({ title, action, tone = 'dark', className
         <AppLink
           href={action.href}
           className={cn(
-            'group inline-flex items-center gap-2 text-sm transition-colors',
+            'group inline-flex min-h-11 items-center gap-2 text-sm transition-colors',
             tone === 'light' ? 'text-ink/70 hover:text-ink' : 'text-bone/70 hover:text-gold',
           )}
         >

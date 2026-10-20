@@ -1,4 +1,6 @@
-> Latest delivery: [Phase 7 — 200 real guitar models](docs/PHASE_7_REPORT.md). Ten approved brands with twenty models each, preserved archives, manufacturer sources and browser evidence.
+> Latest delivery: [Phase 8 — UI/UX Polish & Quality Assurance](docs/PHASE_8_REPORT.md). Shared black-and-gold styling, labelled placeholders, accessible controls, URL history and responsive browser evidence.
+
+> Previous delivery: [Phase 7 — 200 real guitar models](docs/PHASE_7_REPORT.md). Ten approved brands with twenty models each, preserved archives, manufacturer sources and browser evidence.
 
 > Previous delivery: [Phase 6 — Real Guitar Data & Images](docs/PHASE_6_REPORT.md).
 
@@ -24,7 +26,10 @@ npm run catalog:check
 npm run images:check
 npm run phase6:check
 npm run phase7:check
+npm run phase8:check
 ```
+
+Phase 8 browser scripts and reproducible checks are documented in [the QA report](docs/PHASE_8_REPORT.md). They use Python Playwright and a separately installed Chromium; these tools are not runtime dependencies of the website.
 
 ## รูปภาพ
 
@@ -46,6 +51,7 @@ npm run phase7:check
 | ข้อความ/สถิติ/hotspot ใน Hero | `src/data/hero.js` |
 | เมนู / Footer | `src/data/navigation.js` |
 | สีและฟอนต์ | `tailwind.config.js` |
+| UI polish และ responsive rules ที่ใช้ร่วมกัน | `src/styles/polish.css` |
 | แถวในตารางเปรียบเทียบ | `src/components/compare/compareRows.js` |
 
 ## Routes

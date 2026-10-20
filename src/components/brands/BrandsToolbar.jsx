@@ -1,4 +1,5 @@
 import { t } from '@/i18n';
+import { useRef } from 'react';
 import { BRAND_SORTS } from '@/utils/brandFilters';
 import { cn } from '@/utils/cn';
 import SortSelect from '@/components/ui/SortSelect';
@@ -11,15 +12,18 @@ function Chip({ active, onClick, children }) {
 
 /** All filters remain URL-driven, including the explicitly unverified legacy country filter. */
 export default function BrandsToolbar({ query, onQuery, sort, onSort, type, onType, country, onCountry, types, countries, count, hasFilters, onClear }) {
+  const searchRef = useRef(null);
+  const clearQuery = () => { onQuery(''); searchRef.current?.focus(); };
+  const clearFilters = () => { onClear(); searchRef.current?.focus(); };
   return (
     <div className="brands-toolbar">
       <div className="brands-search-row">
         <div role="search" className="catalog-search brands-search">
           <SearchIcon size={18} className="shrink-0 text-gold" />
           <label htmlFor="brands-search" className="sr-only">{t('p5.brands.search')}</label>
-          <input id="brands-search" type="search" inputMode="search" autoComplete="off"
+          <input ref={searchRef} id="brands-search" type="search" inputMode="search" autoComplete="off"
             value={query} onChange={(event) => onQuery(event.target.value)} placeholder={t('p5.brands.placeholder')} />
-          {query && <button type="button" aria-label={t('p5.clearSearch')} onClick={() => onQuery('')}><CloseIcon size={17} /></button>}
+          {query && <button type="button" aria-label={t('p5.clearSearch')} onClick={clearQuery}><CloseIcon size={17} /></button>}
         </div>
         <SortSelect value={sort} onChange={onSort} options={BRAND_SORTS} />
       </div>
@@ -40,7 +44,7 @@ export default function BrandsToolbar({ query, onQuery, sort, onSort, type, onTy
       )}
       <div className="brands-result-bar">
         <p aria-live="polite" aria-atomic="true">{t('p5.brands.count', { n: count })}</p>
-        {hasFilters && <button type="button" onClick={onClear}>{t('p5.clearFilters')}</button>}
+        {hasFilters && <button type="button" onClick={clearFilters}>{t('p5.clearFilters')}</button>}
       </div>
     </div>
   );
