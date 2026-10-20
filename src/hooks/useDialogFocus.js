@@ -7,7 +7,7 @@ export default function useDialogFocus(ref, open, onClose) {
     const previous = document.activeElement;
     const overflow = document.body.style.overflow;
     const dialog = ref.current;
-    const focusable = () => [...dialog.querySelectorAll('a[href],button:not([disabled]),input:not([disabled]),select:not([disabled]),[tabindex="0"]')]
+    const focusable = () => [...dialog.querySelectorAll('a[href],button:not([disabled]),input:not([disabled]),select:not([disabled]),summary,[tabindex="0"]')]
       .filter((element) => element.getClientRects().length > 0 && !element.closest('[inert]'));
     document.body.style.overflow = 'hidden';
     focusable()[0]?.focus({ preventScroll: true });

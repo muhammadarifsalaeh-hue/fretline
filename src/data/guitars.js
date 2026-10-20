@@ -1,10 +1,12 @@
-import { DETAILS, RATINGS } from './guitarDetails';
 import EXTRA_GUITARS from './catalog/extraGuitars.json';
+import REVIEWED_GUITARS from './catalog/reviewedGuitars.json';
 import { getGuitarImages } from './guitarImages';
+import { trustedPrice } from '@/utils/dataTrust';
 
 /**
- * ข้อมูลกีตาร์ตัวอย่าง (ราคาเป็นบาท, เป็นข้อมูลสมมติเพื่อการสาธิต)
- * ภายหลังเปลี่ยนเป็นข้อมูลจาก API / Database ได้ โดยคง shape เดิมไว้
+ * Legacy demo records are retained for their stable IDs and editorial order.
+ * Their prices, reviews, colors and specifications are NOT public catalog data.
+ * Reviewed manufacturer records below replace them before any page receives data.
  */
 const raw = [
   {
@@ -235,24 +237,28 @@ const raw = [
  *             'verified' = ตรวจครบกับแหล่งทางการ และมี source.url / source.verifiedOn
  */
 const withImages = (g) => {
-  const gallery = g.gallery ?? getGuitarImages(g.id).gallery;
+  const reviewed = REVIEWED_GUITARS[g.id];
+  const record = reviewed ?? g;
+  const sourceFields = new Set(record.source?.fields ?? []);
+  const specs = Object.fromEntries(['body', 'neck', 'fretboard', 'pickups', 'bridge', 'controls', 'scale', 'scaleMm', 'frets', 'strings', 'weightKg']
+    .map((key) => [key, sourceFields.has(`specs.${key}`) ? record.specs?.[key] ?? null : null]));
+  const publicRecord = {
+    ...g, ...reviewed, id: g.id,
+    price: sourceFields.has('price') ? trustedPrice({ ...record, dataStatus: record.status ?? record.dataStatus }) : null,
+    oldPrice: null, rating: null, badge: null,
+    colors: sourceFields.has('colors') ? record.colors ?? [] : [],
+    tags: sourceFields.has('tags') ? record.tags ?? [] : [],
+    description: sourceFields.has('description') ? record.description ?? '' : '',
+    keywords: [g.id, g.brand, g.name, record.name, sourceFields.has('keywords') ? record.keywords : ''].filter(Boolean).join(' '),
+    specs, source: record.source ?? null,
+    dataStatus: record.source?.fields?.length ? record.status ?? 'partial' : 'sample',
+  };
+  const gallery = getGuitarImages(g.id).gallery;
   // รูปหลัก: null = ยังไม่มีรูปจริงของรุ่นนี้ (UI จะแสดงภาพประกอบ ไม่ใช้รูปรุ่นอื่นแทน)
-  return { ...g, slug: g.id, image: gallery[0]?.src ?? null, gallery, hasPhotos: gallery.length > 0 };
+  return { ...publicRecord, slug: g.id, image: gallery[0]?.src ?? null, gallery, hasPhotos: gallery.length > 0 };
 };
 
-const sampleGuitars = raw.map((g) => {
-  const d = DETAILS[g.id] ?? {};
-  return withImages({
-    ...g,
-    gallery: d.gallery,
-    description: d.description ?? '',
-    colors: d.colors ?? [],
-    rating: RATINGS[g.id] ?? null,
-    specs: { ...g.specs, bridge: d.bridge ?? '-', controls: d.controls ?? '-' },
-    source: null,
-    dataStatus: 'sample',
-  });
-});
+const sampleGuitars = raw.map(withImages);
 
 const extraGuitars = EXTRA_GUITARS.map((e) =>
   withImages({
@@ -278,4 +284,4 @@ const extraGuitars = EXTRA_GUITARS.map((e) =>
 
 export const GUITARS = [...sampleGuitars, ...extraGuitars];
 
-export const GUITARS_BY_ID = Object.fromEntries(GUITARS.map((g) => [g.id, g]));
+export const GUITARS_BY_ID = Object.assign(Object.create(null), Object.fromEntries(GUITARS.map((g) => [g.id, g])));

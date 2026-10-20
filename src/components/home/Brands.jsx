@@ -49,7 +49,7 @@ function FeaturedBrandCard({ feature }) {
       )}
       <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-ink via-ink/50 to-ink/10" />
       <div className="absolute inset-x-7 bottom-7">
-        <p className="font-mono text-xs text-bone/70">{[brand.country, brand.founded && `est. ${brand.founded}`].filter(Boolean).join(', ')}</p>
+        <p className="font-mono text-xs text-bone/70">{t('p6.brand.sources', { n: brand.sourceModels })}</p>
         <h3 className="mt-2 font-serif text-5xl leading-none tracking-tight">{brand.name}</h3>
         <p className="mt-3 text-sm text-bone/70">{t('unit.models', { n: brand.models })}</p>
         <span className="mt-5 inline-flex items-center gap-2 text-sm text-gold">

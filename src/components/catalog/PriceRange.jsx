@@ -1,5 +1,5 @@
 import { t } from '@/i18n';
-import { PRICE_MAX, PRICE_MIN, PRICE_STEP } from '@/hooks/useCatalogFilters';
+import { HAS_CATALOG_PRICES, PRICE_MAX, PRICE_MIN, PRICE_STEP } from '@/hooks/useCatalogFilters';
 import { cn } from '@/utils/cn';
 import { formatPrice } from '@/utils/format';
 
@@ -14,6 +14,7 @@ const THUMB = 22; // px — ต้องตรงกับ CSS ใน index.css
 
 /** Slider ราคา 2 หัว + กล่องแสดงค่า + ปุ่มช่วงราคาสำเร็จรูป */
 export default function PriceRange({ min, max, onChange }) {
+  if (!HAS_CATALOG_PRICES) return <p className="text-xs leading-7 text-mute">{t('p6.price.noData')}</p>;
   const ratio = (v) => (v - PRICE_MIN) / (PRICE_MAX - PRICE_MIN);
   const left = `calc(${THUMB / 2}px + (100% - ${THUMB}px) * ${ratio(min)})`;
   const right = `calc(${THUMB / 2}px + (100% - ${THUMB}px) * ${1 - ratio(max)})`;

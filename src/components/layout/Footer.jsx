@@ -13,6 +13,7 @@ export default function Footer() {
             <Logo />
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-mute">{t('footer.tagline')}</p>
             <p className="mt-4 max-w-sm text-xs leading-relaxed text-mute/80">{t('footer.dataNote')}</p>
+            <AppLink href="/image-credits" className="mt-3 inline-flex min-h-11 items-center text-xs text-gold hover:underline">{t('p6.images.indexLink')}</AppLink>
           </div>
           <div className="grid grid-cols-2 gap-8 md:col-span-6 md:gap-10">
             {FOOTER_COLUMNS.map((col) => (

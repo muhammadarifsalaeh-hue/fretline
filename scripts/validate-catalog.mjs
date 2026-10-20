@@ -1,48 +1,35 @@
-/**
- * ตรวจข้อมูลกีตาร์ทั้งหมด (18 รุ่นตัวอย่าง + extraGuitars.json) และรายงานความคืบหน้าสู่เป้าหมาย
- *   npm run catalog:check                 # เป้าหมายเริ่มต้น 200 รุ่น
- *   npm run catalog:check -- --target=200 --strict   # --strict: ไม่ถึงเป้าหมายถือว่าไม่ผ่าน
- * ออกด้วยรหัส 1 เมื่อมีข้อมูลผิดรูปแบบหรือรุ่นซ้ำ
- */
-import { TARGET_DEFAULT, findDuplicates, photoStats, readExtras, readSampleGuitars, validateGuitar } from './lib/catalog.mjs';
+/** Validate the effective catalog, including reviewed overrides for legacy IDs. */
+import { TARGET_DEFAULT, findDuplicates, photoStats, readCatalog, readExtras, readReviewed, readSampleGuitars, validateGuitar } from './lib/catalog.mjs';
 
-const arg = (name) => process.argv.find((a) => a.startsWith(`--${name}=`))?.split('=')[1];
+const arg = (name) => process.argv.find((value) => value.startsWith(`--${name}=`))?.split('=')[1];
 const target = Number(arg('target') ?? TARGET_DEFAULT);
 const strict = process.argv.includes('--strict');
-
-const samples = readSampleGuitars();
+const legacy = readSampleGuitars();
 const extras = readExtras();
-const all = [...samples, ...extras];
-
+const reviewed = readReviewed();
+const all = readCatalog();
 let errors = 0;
-extras.forEach((g, i) => {
-  const errs = validateGuitar(g);
-  if (errs.length) {
-    errors += errs.length;
-    console.log(`✗ extraGuitars.json #${i + 1} (${g.id ?? 'no id'})`);
-    errs.forEach((m) => console.log(`    - ${m}`));
-  }
-});
-findDuplicates(all).forEach((m) => {
-  errors++;
-  console.log(`✗ ${m}`);
-});
-
-const verified = extras.filter((g) => g.status === 'verified').length;
-const partial = extras.filter((g) => g.status === 'partial').length;
-const noPrice = extras.filter((g) => g.price == null).length;
-const photos = photoStats(all.map((g) => g.id));
+for (const guitar of all) {
+  const problems = validateGuitar(guitar);
+  for (const problem of problems) { errors++; console.log(`✗ ${guitar.id}: ${problem}`); }
+}
+for (const message of findDuplicates(all)) { errors++; console.log(`✗ ${message}`); }
+for (const id of Object.keys(reviewed)) if (!all.some((guitar) => guitar.id === id)) { errors++; console.log(`✗ Reviewed record has no catalog ID: ${id}`); }
+const verified = all.filter((guitar) => guitar.status === 'verified').length;
+const partial = all.filter((guitar) => guitar.status === 'partial').length;
+const photos = photoStats(all.map((guitar) => guitar.id));
 const gap = Math.max(0, target - all.length);
-
-console.log('\n=== Catalog report ===');
-console.log(`Total models        : ${all.length} / ${target}   (${gap} to go)`);
-console.log(`  built-in samples  : ${samples.length}   (unverified sample data)`);
-console.log(`  imported          : ${extras.length}   (verified: ${verified}, partial: ${partial}, sample: ${extras.length - verified - partial})`);
+console.log('\n=== Effective catalog report ===');
+console.log(`Total models        : ${all.length} / ${target} (${gap} to go)`);
+console.log(`Brands              : ${new Set(all.map((guitar) => guitar.brand)).size}`);
+console.log(`Legacy stable IDs   : ${legacy.length} (${legacy.filter((guitar) => reviewed[guitar.id]).length} reviewed overrides)`);
+console.log(`Imported stable IDs : ${extras.length}`);
+console.log(`Sample              : ${all.length - verified - partial}`);
 console.log(`Fully verified      : ${verified}`);
-console.log(`Partially verified  : ${partial}   (source-backed, some fields unknown)`);
-console.log(`Price on request    : ${noPrice}`);
-console.log(`Real photos         : ${photos.withPhotos} models`);
-console.log(`Placeholder (no photo): ${photos.placeholders} models`);
-console.log(errors ? `\n${errors} problem(s) found.\n` : '\nNo data problems found.\n');
-
+console.log(`Partially verified  : ${partial}`);
+console.log(`Price on request    : ${all.filter((guitar) => guitar.price == null).length}`);
+console.log(`Verified reviews    : ${all.filter((guitar) => guitar.rating?.verified).length}`);
+console.log(`Licensed photo models: ${photos.withPhotos}`);
+console.log(`Placeholder models  : ${photos.placeholders}`);
+console.log(errors ? `\n${errors} problem(s) found.` : '\nNo data problems found. Unknown fields remain unknown.');
 process.exit(errors || (strict && gap > 0) ? 1 : 0);

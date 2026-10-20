@@ -1,6 +1,6 @@
 import { isSourceBacked, verifiedRating } from '@/utils/dataTrust';
 import { t } from '@/i18n';
-import { NOT_SPECIFIED, formatInch, formatKg, formatPrice } from '@/utils/format';
+import { NOT_SPECIFIED, formatScale, scaleInMillimetres, formatKg, formatPrice } from '@/utils/format';
 
 /**
  * นิยามแถวของตารางเปรียบเทียบ — เพิ่ม/ลบ/เรียงแถวที่นี่ที่เดียว (แถวกลุ่มเดียวกันต้องอยู่ติดกัน)
@@ -44,7 +44,7 @@ export const COMPARE_ROWS = [
   { key: 'body', group: t('group.construction'), label: t('row.body'), raw: (g) => g.specs.body ?? null },
   { key: 'neck', group: t('group.construction'), label: t('row.neck'), raw: (g) => g.specs.neck ?? null },
   { key: 'fretboard', group: t('group.construction'), label: t('row.fingerboard'), raw: (g) => g.specs.fretboard ?? null },
-  { key: 'scale', group: t('group.construction'), label: t('row.scale'), raw: (g) => g.specs.scale ?? null, display: (g) => formatInch(g.specs.scale) },
+  { key: 'scale', group: t('group.construction'), label: t('row.scale'), raw: (g) => scaleInMillimetres(g.specs), display: (g) => formatScale(g.specs) },
   { key: 'frets', group: t('group.construction'), label: t('row.frets'), raw: (g) => g.specs.frets ?? null },
   { key: 'strings', group: t('group.construction'), label: t('row.strings'), raw: (g) => g.specs.strings ?? null },
   { key: 'pickups', group: t('group.electronics'), label: t('row.pickups'), raw: (g) => g.specs.pickups ?? null },

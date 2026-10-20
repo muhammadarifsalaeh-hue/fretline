@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-20",
+  "baseline": "13f20de4cdf7ec836d764c0842a741ce5da64907",
+  "total": 36,
+  "brands": 11,
+  "statuses": {
+    "partial": 36
+  },
+  "methods": {
+    "http": 33,
+    "web-page": 1,
+    "search-index": 2
+  },
+  "sourceUrls": 19,
+  "unknownPrices": 36,
+  "verifiedReviews": 0,
+  "photoModels": 1,
+  "placeholderModels": 35,
+  "missingSpecifications": {
+    "body": 0,
+    "neck": 0,
+    "fretboard": 0,
+    "pickups": 2,
+    "bridge": 2,
+    "controls": 6,
+    "scale": 0,
+    "frets": 22,
+    "strings": 23,
+    "weightKg": 36
+  }
+}

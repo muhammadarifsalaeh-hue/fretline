@@ -11,7 +11,11 @@ import { matchesQuery } from '@/utils/search';
  */
 export const PRICE_STEP = 1000;
 export const PRICE_MIN = 0;
-export const PRICE_MAX = Math.ceil(Math.max(...GUITARS.map((g) => g.price).filter((p) => p != null)) / PRICE_STEP) * PRICE_STEP;
+const knownPrices = GUITARS.map((g) => g.price).filter((price) => Number.isFinite(price) && price > 0);
+export const HAS_CATALOG_PRICES = knownPrices.length > 0;
+// The fallback is only a URL parsing bound; the price control is hidden when
+// there are no source-backed prices. It is never shown as a catalog price range.
+export const PRICE_MAX = HAS_CATALOG_PRICES ? Math.ceil(Math.max(...knownPrices) / PRICE_STEP) * PRICE_STEP : 200000;
 
 export const SORT_OPTIONS = [
   { id: 'featured', label: t('sort.featured') },
@@ -71,7 +75,7 @@ export default function useCatalogFilters() {
       brands: toList(params.get('brand')),
       min: Math.min(min, max),
       max,
-      sort: SORTERS[sort] ? sort : 'featured',
+      sort: Object.prototype.hasOwnProperty.call(SORTERS, sort) ? sort : 'featured',
       page: Number.isFinite(rawPage) ? Math.max(1, Math.floor(rawPage)) : 1,
     };
   }, [params]);

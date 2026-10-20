@@ -1,0 +1,956 @@
+[
+  {
+    "id": "fender-american-professional-ii-stratocaster",
+    "brand": "Fender",
+    "name": "American Professional II Stratocaster",
+    "category": "electric",
+    "status": "sample",
+    "price": 69900,
+    "rating": {
+      "score": 4.8,
+      "count": 214
+    },
+    "source": null,
+    "hasPhotos": false,
+    "specs": {
+      "body": "Alder",
+      "neck": "Maple",
+      "fretboard": "Rosewood",
+      "pickups": "3 × V-Mod II single-coil",
+      "scale": 25.5,
+      "frets": 22,
+      "weightKg": 3.6,
+      "strings": 6,
+      "bridge": "2-point synchronized tremolo, bent steel saddles",
+      "controls": "Master volume, 2 tone, 5-way switch"
+    }
+  },
+  {
+    "id": "gibson-les-paul-standard-60s",
+    "brand": "Gibson",
+    "name": "Les Paul Standard 60s",
+    "category": "electric",
+    "status": "sample",
+    "price": 115000,
+    "rating": {
+      "score": 4.7,
+      "count": 168
+    },
+    "source": null,
+    "hasPhotos": false,
+    "specs": {
+      "body": "Mahogany, maple cap",
+      "neck": "Mahogany",
+      "fretboard": "Rosewood",
+      "pickups": "2 × Burstbucker humbucker",
+      "scale": 24.75,
+      "frets": 22,
+      "weightKg": 4.1,
+      "strings": 6,
+      "bridge": "ABR-1 tune-o-matic, aluminum stop bar tailpiece",
+      "controls": "2 volume, 2 tone, 3-way toggle"
+    }
+  },
+  {
+    "id": "ibanez-rg550-genesis",
+    "brand": "Ibanez",
+    "name": "RG550 Genesis",
+    "category": "electric",
+    "status": "sample",
+    "price": 38900,
+    "rating": {
+      "score": 4.6,
+      "count": 92
+    },
+    "source": null,
+    "hasPhotos": false,
+    "specs": {
+      "body": "Basswood",
+      "neck": "Maple",
+      "fretboard": "Maple",
+      "pickups": "Humbucker + single + humbucker",
+      "scale": 25.5,
+      "frets": 24,
+      "weightKg": 3.3,
+      "strings": 6,
+      "bridge": "Edge double-locking tremolo",
+      "controls": "Volume, tone, 5-way switch"
+    }
+  },
+  {
+    "id": "yamaha-pacifica-612viifm",
+    "brand": "Yamaha",
+    "name": "Pacifica 612VIIFM",
+    "category": "electric",
+    "status": "sample",
+    "price": 17900,
+    "rating": {
+      "score": 4.6,
+      "count": 341
+    },
+    "source": null,
+    "hasPhotos": false,
+    "specs": {
+      "body": "Alder, flame maple top",
+      "neck": "Maple",
+      "fretboard": "Rosewood",
+      "pickups": "Humbucker + 2 single-coil",
+      "scale": 25.5,
+      "frets": 22,
+      "weightKg": 3.5,
+      "strings": 6,
+      "bridge": "Vintage-style tremolo",
+      "controls": "Master volume, tone, 5-way switch with coil split"
+    }
+  },
+  {
+    "id": "prs-se-custom-24",
+    "brand": "PRS",
+    "name": "SE Custom 24",
+    "category": "electric",
+    "status": "sample",
+    "price": 32900,
+    "rating": {
+      "score": 4.7,
+      "count": 127
+    },
+    "source": null,
+    "hasPhotos": false,
+    "specs": {
+      "body": "Mahogany, maple top",
+      "neck": "Maple",
+      "fretboard": "Rosewood",
+      "pickups": "2 × PRS 85/15 humbucker",
+      "scale": 25,
+      "frets": 24,
+      "weightKg": 3.4,
+      "strings": 6,
+      "bridge": "PRS patented tremolo",
+      "controls": "Volume, tone, 3-way toggle, coil tap"
+    }
+  },
+  {
+    "id": "epiphone-casino",
+    "brand": "Epiphone",
+    "name": "Casino Hollowbody",
+    "category": "electric",
+    "status": "sample",
+    "price": 24900,
+    "rating": {
+      "score": 4.5,
+      "count": 76
+    },
+    "source": null,
+    "hasPhotos": false,
+    "specs": {
+      "body": "Laminated maple",
+      "neck": "Mahogany",
+      "fretboard": "Laurel",
+      "pickups": "2 × P-90 single-coil",
+      "scale": 24.75,
+      "frets": 22,
+      "weightKg": 3.5,
+      "strings": 6,
+      "bridge": "Tune-o-matic, trapeze tailpiece",
+      "controls": "2 volume, 2 tone, 3-way toggle"
+    }
+  },
+  {
+    "id": "taylor-214ce",
+    "brand": "Taylor",
+    "name": "214ce Grand Auditorium",
+    "category": "acoustic",
+    "status": "sample",
+    "price": 48900,
+    "rating": {
+      "score": 4.8,
+      "count": 189
+    },
+    "source": null,
+    "hasPhotos": false,
+    "specs": {
+      "body": "Layered rosewood, spruce top",
+      "neck": "Sapele",
+      "fretboard": "Ebony",
+      "pickups": "Taylor ES2 pickup",
+      "scale": 25.5,
+      "frets": 20,
+      "weightKg": 1.9,
+      "strings": 6,
+      "bridge": "Ebony bridge, compensated saddle",
+      "controls": "ES2 volume and tone (upper bout)"
+    }
+  },
+  {
+    "id": "martin-d-18",
+    "brand": "Martin",
+    "name": "D-18 Dreadnought",
+    "category": "acoustic",
+    "status": "sample",
+    "price": 118000,
+    "rating": {
+      "score": 4.9,
+      "count": 143
+    },
+    "source": null,
+    "hasPhotos": false,
+    "specs": {
+      "body": "Solid mahogany, spruce top",
+      "neck": "Select hardwood",
+      "fretboard": "Ebony",
+      "pickups": "None (acoustic)",
+      "scale": 25.4,
+      "frets": 20,
+      "weightKg": 2,
+      "strings": 6,
+      "bridge": "Ebony bridge, compensated bone saddle",
+      "controls": "None (acoustic)"
+    }
+  },
+  {
+    "id": "yamaha-fg800",
+    "brand": "Yamaha",
+    "name": "FG800 Dreadnought",
+    "category": "acoustic",
+    "status": "sample",
+    "price": 8900,
+    "rating": {
+      "score": 4.6,
+      "count": 402
+    },
+    "source": null,
+    "hasPhotos": false,
+    "specs": {
+      "body": "Nato, solid spruce top",
+      "neck": "Nato",
+      "fretboard": "Rosewood",
+      "pickups": "None (acoustic)",
+      "scale": 25.6,
+      "frets": 20,
+      "weightKg": 2,
+      "strings": 6,
+      "bridge": "Rosewood bridge",
+      "controls": "None (acoustic)"
+    }
+  },
+  {
+    "id": "cordoba-c5",
+    "brand": "Córdoba",
+    "name": "C5 Classical",
+    "category": "classical",
+    "status": "sample",
+    "price": 9900,
+    "rating": {
+      "score": 4.5,
+      "count": 118
+    },
+    "source": null,
+    "hasPhotos": false,
+    "specs": {
+      "body": "Mahogany, cedar top",
+      "neck": "Mahogany",
+      "fretboard": "Rosewood",
+      "pickups": "None (acoustic)",
+      "scale": 25.6,
+      "frets": 19,
+      "weightKg": 1.4,
+      "strings": 6,
+      "bridge": "Rosewood tie-block bridge",
+      "controls": "None (acoustic)"
+    }
+  },
+  {
+    "id": "fender-player-ii-jazz-bass",
+    "brand": "Fender",
+    "name": "Player II Jazz Bass",
+    "category": "bass",
+    "status": "sample",
+    "price": 31900,
+    "rating": {
+      "score": 4.7,
+      "count": 156
+    },
+    "source": null,
+    "hasPhotos": false,
+    "specs": {
+      "body": "Alder",
+      "neck": "Maple",
+      "fretboard": "Maple",
+      "pickups": "2 × split-coil single",
+      "scale": 34,
+      "frets": 20,
+      "weightKg": 4.2,
+      "strings": 4,
+      "bridge": "Standard 4-saddle bass bridge",
+      "controls": "Volume, volume, tone"
+    }
+  },
+  {
+    "id": "ibanez-sr300e",
+    "brand": "Ibanez",
+    "name": "SR300E Bass",
+    "category": "bass",
+    "status": "sample",
+    "price": 15900,
+    "rating": {
+      "score": 4.5,
+      "count": 64
+    },
+    "source": null,
+    "hasPhotos": false,
+    "specs": {
+      "body": "Mahogany",
+      "neck": "Jatoba",
+      "fretboard": "Purpleheart",
+      "pickups": "Precision + Jazz",
+      "scale": 34,
+      "frets": 24,
+      "weightKg": 3.9,
+      "strings": 4,
+      "bridge": "Accu-cast B120 bridge",
+      "controls": "Volume, balance, 3-band EQ"
+    }
+  },
+  {
+    "id": "squier-classic-vibe-60s-stratocaster",
+    "brand": "Squier",
+    "name": "Classic Vibe '60s Stratocaster",
+    "category": "electric",
+    "status": "sample",
+    "price": 18900,
+    "rating": {
+      "score": 4.7,
+      "count": 233
+    },
+    "source": null,
+    "hasPhotos": false,
+    "specs": {
+      "body": "Poplar",
+      "neck": "Maple",
+      "fretboard": "Laurel",
+      "pickups": "3 × Alnico single-coil",
+      "scale": 25.5,
+      "frets": 21,
+      "weightKg": 3.5,
+      "strings": 6,
+      "bridge": "Vintage-style synchronized tremolo",
+      "controls": "Master volume, 2 tone, 5-way switch"
+    }
+  },
+  {
+    "id": "gretsch-g2420-streamliner",
+    "brand": "Gretsch",
+    "name": "G2420 Streamliner Hollow Body",
+    "category": "electric",
+    "status": "sample",
+    "price": 27900,
+    "rating": {
+      "score": 4.6,
+      "count": 88
+    },
+    "source": null,
+    "hasPhotos": false,
+    "specs": {
+      "body": "Laminated maple",
+      "neck": "Nato",
+      "fretboard": "Laurel",
+      "pickups": "2 × Broad'Tron humbucker",
+      "scale": 25.5,
+      "frets": 22,
+      "weightKg": 3.3,
+      "strings": 6,
+      "bridge": "Adjusto-Matic bridge, stop bar tailpiece",
+      "controls": "Volume per pickup, master tone, 3-way toggle"
+    }
+  },
+  {
+    "id": "epiphone-les-paul-standard-50s",
+    "brand": "Epiphone",
+    "name": "Les Paul Standard 50s",
+    "category": "electric",
+    "status": "sample",
+    "price": 22900,
+    "rating": {
+      "score": 4.6,
+      "count": 271
+    },
+    "source": null,
+    "hasPhotos": false,
+    "specs": {
+      "body": "Mahogany, maple top",
+      "neck": "Mahogany",
+      "fretboard": "Laurel",
+      "pickups": "2 × ProBucker humbucker",
+      "scale": 24.75,
+      "frets": 22,
+      "weightKg": 4,
+      "strings": 6,
+      "bridge": "LockTone tune-o-matic, stop bar tailpiece",
+      "controls": "2 volume, 2 tone, 3-way toggle"
+    }
+  },
+  {
+    "id": "taylor-gs-mini",
+    "brand": "Taylor",
+    "name": "GS Mini Mahogany",
+    "category": "acoustic",
+    "status": "sample",
+    "price": 28900,
+    "rating": {
+      "score": 4.7,
+      "count": 205
+    },
+    "source": null,
+    "hasPhotos": false,
+    "specs": {
+      "body": "Layered sapele, spruce top",
+      "neck": "Sapele",
+      "fretboard": "Ebony",
+      "pickups": "None (acoustic)",
+      "scale": 23.5,
+      "frets": 20,
+      "weightKg": 1.5,
+      "strings": 6,
+      "bridge": "Ebony bridge",
+      "controls": "None (acoustic)"
+    }
+  },
+  {
+    "id": "yamaha-c40",
+    "brand": "Yamaha",
+    "name": "C40 Classical",
+    "category": "classical",
+    "status": "sample",
+    "price": 5900,
+    "rating": {
+      "score": 4.4,
+      "count": 310
+    },
+    "source": null,
+    "hasPhotos": false,
+    "specs": {
+      "body": "Meranti, spruce top",
+      "neck": "Nato",
+      "fretboard": "Rosewood",
+      "pickups": "None (acoustic)",
+      "scale": 25.6,
+      "frets": 18,
+      "weightKg": 1.3,
+      "strings": 6,
+      "bridge": "Rosewood bridge",
+      "controls": "None (acoustic)"
+    }
+  },
+  {
+    "id": "fender-player-precision-bass",
+    "brand": "Fender",
+    "name": "Player II Precision Bass",
+    "category": "bass",
+    "status": "sample",
+    "price": 33900,
+    "rating": {
+      "score": 4.8,
+      "count": 177
+    },
+    "source": null,
+    "hasPhotos": false,
+    "specs": {
+      "body": "Alder",
+      "neck": "Maple",
+      "fretboard": "Maple",
+      "pickups": "Split-coil Precision",
+      "scale": 34,
+      "frets": 20,
+      "weightKg": 4.3,
+      "strings": 4,
+      "bridge": "Standard 4-saddle bass bridge",
+      "controls": "Volume, tone"
+    }
+  },
+  {
+    "id": "yamaha-fg850",
+    "brand": "Yamaha",
+    "name": "FG850",
+    "category": "acoustic",
+    "status": "partial",
+    "price": null,
+    "rating": null,
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "note": "Yamaha Malaysia, FG/FS800 Series lineup (manufacturer page). Model names also listed on Yamaha Thailand FG/FS800 specs page",
+      "verifiedOn": "2026-10-11"
+    },
+    "hasPhotos": false,
+    "specs": {
+      "body": "Dreadnought, solid mahogany top, mahogany back and sides",
+      "neck": null,
+      "fretboard": null,
+      "pickups": "None (acoustic model)",
+      "bridge": null,
+      "controls": "None (acoustic model)",
+      "scale": null,
+      "frets": null,
+      "strings": null,
+      "weightKg": null
+    }
+  },
+  {
+    "id": "yamaha-fg840",
+    "brand": "Yamaha",
+    "name": "FG840",
+    "category": "acoustic",
+    "status": "partial",
+    "price": null,
+    "rating": null,
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "note": "Yamaha Malaysia, FG/FS800 Series lineup (manufacturer page). Model names also listed on Yamaha Thailand FG/FS800 specs page",
+      "verifiedOn": "2026-10-11"
+    },
+    "hasPhotos": false,
+    "specs": {
+      "body": "Dreadnought, solid spruce top, flamed maple back and sides",
+      "neck": null,
+      "fretboard": null,
+      "pickups": "None (acoustic model)",
+      "bridge": null,
+      "controls": "None (acoustic model)",
+      "scale": null,
+      "frets": null,
+      "strings": null,
+      "weightKg": null
+    }
+  },
+  {
+    "id": "yamaha-fg830",
+    "brand": "Yamaha",
+    "name": "FG830",
+    "category": "acoustic",
+    "status": "partial",
+    "price": null,
+    "rating": null,
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "note": "Yamaha Malaysia, FG/FS800 Series lineup (manufacturer page). Model names also listed on Yamaha Thailand FG/FS800 specs page",
+      "verifiedOn": "2026-10-11"
+    },
+    "hasPhotos": false,
+    "specs": {
+      "body": "Dreadnought, solid spruce top, rosewood back and sides",
+      "neck": null,
+      "fretboard": null,
+      "pickups": "None (acoustic model)",
+      "bridge": null,
+      "controls": "None (acoustic model)",
+      "scale": null,
+      "frets": null,
+      "strings": null,
+      "weightKg": null
+    }
+  },
+  {
+    "id": "yamaha-fg820",
+    "brand": "Yamaha",
+    "name": "FG820",
+    "category": "acoustic",
+    "status": "partial",
+    "price": null,
+    "rating": null,
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "note": "Yamaha Malaysia, FG/FS800 Series lineup (manufacturer page). Model names also listed on Yamaha Thailand FG/FS800 specs page",
+      "verifiedOn": "2026-10-11"
+    },
+    "hasPhotos": false,
+    "specs": {
+      "body": "Dreadnought, solid spruce top, mahogany back and sides",
+      "neck": null,
+      "fretboard": null,
+      "pickups": "None (acoustic model)",
+      "bridge": null,
+      "controls": "None (acoustic model)",
+      "scale": null,
+      "frets": null,
+      "strings": null,
+      "weightKg": null
+    }
+  },
+  {
+    "id": "yamaha-fg820-12",
+    "brand": "Yamaha",
+    "name": "FG820-12",
+    "category": "acoustic",
+    "status": "partial",
+    "price": null,
+    "rating": null,
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "note": "Yamaha Malaysia, FG/FS800 Series lineup (manufacturer page). Model names also listed on Yamaha Thailand FG/FS800 specs page",
+      "verifiedOn": "2026-10-11"
+    },
+    "hasPhotos": false,
+    "specs": {
+      "body": "Dreadnought, solid spruce top, mahogany back and sides",
+      "neck": null,
+      "fretboard": null,
+      "pickups": "None (acoustic model)",
+      "bridge": null,
+      "controls": "None (acoustic model)",
+      "scale": null,
+      "frets": null,
+      "strings": 12,
+      "weightKg": null
+    }
+  },
+  {
+    "id": "yamaha-fg820l",
+    "brand": "Yamaha",
+    "name": "FG820L",
+    "category": "acoustic",
+    "status": "partial",
+    "price": null,
+    "rating": null,
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "note": "Yamaha Malaysia, FG/FS800 Series lineup (manufacturer page). Model names also listed on Yamaha Thailand FG/FS800 specs page",
+      "verifiedOn": "2026-10-11"
+    },
+    "hasPhotos": false,
+    "specs": {
+      "body": "Dreadnought, solid spruce top, mahogany back and sides",
+      "neck": null,
+      "fretboard": null,
+      "pickups": "None (acoustic model)",
+      "bridge": null,
+      "controls": "None (acoustic model)",
+      "scale": null,
+      "frets": null,
+      "strings": null,
+      "weightKg": null
+    }
+  },
+  {
+    "id": "yamaha-fg800j",
+    "brand": "Yamaha",
+    "name": "FG800J",
+    "category": "acoustic",
+    "status": "partial",
+    "price": null,
+    "rating": null,
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "note": "Yamaha Malaysia, FG/FS800 Series lineup (manufacturer page). Model names also listed on Yamaha Thailand FG/FS800 specs page",
+      "verifiedOn": "2026-10-11"
+    },
+    "hasPhotos": false,
+    "specs": {
+      "body": "Dreadnought, solid spruce top, nato and mahogany back and sides",
+      "neck": null,
+      "fretboard": "Rosewood",
+      "pickups": "None (acoustic model)",
+      "bridge": "Rosewood",
+      "controls": "None (acoustic model)",
+      "scale": null,
+      "frets": null,
+      "strings": null,
+      "weightKg": null
+    }
+  },
+  {
+    "id": "yamaha-fg800m",
+    "brand": "Yamaha",
+    "name": "FG800M",
+    "category": "acoustic",
+    "status": "partial",
+    "price": null,
+    "rating": null,
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "note": "Yamaha Malaysia, FG/FS800 Series lineup (manufacturer page). Model names also listed on Yamaha Thailand FG/FS800 specs page",
+      "verifiedOn": "2026-10-11"
+    },
+    "hasPhotos": false,
+    "specs": {
+      "body": "Dreadnought, solid spruce top, nato and okume back and sides",
+      "neck": null,
+      "fretboard": null,
+      "pickups": "None (acoustic model)",
+      "bridge": null,
+      "controls": "None (acoustic model)",
+      "scale": null,
+      "frets": null,
+      "strings": null,
+      "weightKg": null
+    }
+  },
+  {
+    "id": "yamaha-fs850",
+    "brand": "Yamaha",
+    "name": "FS850",
+    "category": "acoustic",
+    "status": "partial",
+    "price": null,
+    "rating": null,
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "note": "Yamaha Malaysia, FG/FS800 Series lineup (manufacturer page). Model names also listed on Yamaha Thailand FG/FS800 specs page",
+      "verifiedOn": "2026-10-11"
+    },
+    "hasPhotos": false,
+    "specs": {
+      "body": "Concert, solid mahogany top, mahogany back and sides",
+      "neck": null,
+      "fretboard": null,
+      "pickups": "None (acoustic model)",
+      "bridge": null,
+      "controls": "None (acoustic model)",
+      "scale": null,
+      "frets": null,
+      "strings": null,
+      "weightKg": null
+    }
+  },
+  {
+    "id": "yamaha-fs830",
+    "brand": "Yamaha",
+    "name": "FS830",
+    "category": "acoustic",
+    "status": "partial",
+    "price": null,
+    "rating": null,
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "note": "Yamaha Malaysia, FG/FS800 Series lineup (manufacturer page). Model names also listed on Yamaha Thailand FG/FS800 specs page",
+      "verifiedOn": "2026-10-11"
+    },
+    "hasPhotos": false,
+    "specs": {
+      "body": "Concert, solid spruce top, rosewood back and sides",
+      "neck": null,
+      "fretboard": null,
+      "pickups": "None (acoustic model)",
+      "bridge": null,
+      "controls": "None (acoustic model)",
+      "scale": null,
+      "frets": null,
+      "strings": null,
+      "weightKg": null
+    }
+  },
+  {
+    "id": "yamaha-fs820",
+    "brand": "Yamaha",
+    "name": "FS820",
+    "category": "acoustic",
+    "status": "partial",
+    "price": null,
+    "rating": null,
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "note": "Yamaha Malaysia, FG/FS800 Series lineup (manufacturer page). Model names also listed on Yamaha Thailand FG/FS800 specs page",
+      "verifiedOn": "2026-10-11"
+    },
+    "hasPhotos": false,
+    "specs": {
+      "body": "Concert, solid spruce top, mahogany back and sides",
+      "neck": null,
+      "fretboard": null,
+      "pickups": "None (acoustic model)",
+      "bridge": null,
+      "controls": "None (acoustic model)",
+      "scale": null,
+      "frets": null,
+      "strings": null,
+      "weightKg": null
+    }
+  },
+  {
+    "id": "yamaha-fs800",
+    "brand": "Yamaha",
+    "name": "FS800",
+    "category": "acoustic",
+    "status": "partial",
+    "price": null,
+    "rating": null,
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "note": "Yamaha Malaysia, FG/FS800 Series lineup (manufacturer page). Model names also listed on Yamaha Thailand FG/FS800 specs page",
+      "verifiedOn": "2026-10-11"
+    },
+    "hasPhotos": false,
+    "specs": {
+      "body": "Concert, solid spruce top, nato and okume back and sides",
+      "neck": null,
+      "fretboard": null,
+      "pickups": "None (acoustic model)",
+      "bridge": null,
+      "controls": "None (acoustic model)",
+      "scale": null,
+      "frets": null,
+      "strings": null,
+      "weightKg": null
+    }
+  },
+  {
+    "id": "yamaha-fgx830c",
+    "brand": "Yamaha",
+    "name": "FGX830C",
+    "category": "acoustic",
+    "status": "partial",
+    "price": null,
+    "rating": null,
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "note": "Yamaha Malaysia, FG/FS800 Series lineup (manufacturer page). Model names also listed on Yamaha Thailand FG/FS800 specs page",
+      "verifiedOn": "2026-10-11"
+    },
+    "hasPhotos": false,
+    "specs": {
+      "body": "Dreadnought cutaway, solid spruce top, rosewood back and sides",
+      "neck": null,
+      "fretboard": null,
+      "pickups": "Yamaha under-saddle piezo pickup with System66 analog preamp",
+      "bridge": null,
+      "controls": null,
+      "scale": null,
+      "frets": null,
+      "strings": null,
+      "weightKg": null
+    }
+  },
+  {
+    "id": "yamaha-fgx820c",
+    "brand": "Yamaha",
+    "name": "FGX820C",
+    "category": "acoustic",
+    "status": "partial",
+    "price": null,
+    "rating": null,
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "note": "Yamaha Malaysia, FG/FS800 Series lineup (manufacturer page). Model names also listed on Yamaha Thailand FG/FS800 specs page",
+      "verifiedOn": "2026-10-11"
+    },
+    "hasPhotos": false,
+    "specs": {
+      "body": "Dreadnought cutaway, solid spruce top, mahogany back and sides",
+      "neck": null,
+      "fretboard": null,
+      "pickups": "Yamaha under-saddle piezo pickup with System66 analog preamp",
+      "bridge": null,
+      "controls": null,
+      "scale": null,
+      "frets": null,
+      "strings": null,
+      "weightKg": null
+    }
+  },
+  {
+    "id": "yamaha-fgx800c",
+    "brand": "Yamaha",
+    "name": "FGX800C",
+    "category": "acoustic",
+    "status": "partial",
+    "price": null,
+    "rating": null,
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "note": "Yamaha Malaysia, FG/FS800 Series lineup (manufacturer page). Model names also listed on Yamaha Thailand FG/FS800 specs page",
+      "verifiedOn": "2026-10-11"
+    },
+    "hasPhotos": false,
+    "specs": {
+      "body": "Dreadnought cutaway, solid spruce top, nato and okume back and sides",
+      "neck": null,
+      "fretboard": null,
+      "pickups": "Yamaha under-saddle piezo pickup with System66 analog preamp",
+      "bridge": null,
+      "controls": null,
+      "scale": null,
+      "frets": null,
+      "strings": null,
+      "weightKg": null
+    }
+  },
+  {
+    "id": "yamaha-fsx830c",
+    "brand": "Yamaha",
+    "name": "FSX830C",
+    "category": "acoustic",
+    "status": "partial",
+    "price": null,
+    "rating": null,
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "note": "Yamaha Malaysia, FG/FS800 Series lineup (manufacturer page). Model names also listed on Yamaha Thailand FG/FS800 specs page",
+      "verifiedOn": "2026-10-11"
+    },
+    "hasPhotos": false,
+    "specs": {
+      "body": "Concert cutaway, solid spruce top, rosewood back and sides",
+      "neck": null,
+      "fretboard": null,
+      "pickups": "Yamaha under-saddle piezo pickup with System66 analog preamp",
+      "bridge": null,
+      "controls": null,
+      "scale": null,
+      "frets": null,
+      "strings": null,
+      "weightKg": null
+    }
+  },
+  {
+    "id": "yamaha-fsx820c",
+    "brand": "Yamaha",
+    "name": "FSX820C",
+    "category": "acoustic",
+    "status": "partial",
+    "price": null,
+    "rating": null,
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "note": "Yamaha Malaysia, FG/FS800 Series lineup (manufacturer page). Model names also listed on Yamaha Thailand FG/FS800 specs page",
+      "verifiedOn": "2026-10-11"
+    },
+    "hasPhotos": false,
+    "specs": {
+      "body": "Concert cutaway, solid spruce top, mahogany back and sides",
+      "neck": null,
+      "fretboard": null,
+      "pickups": "Yamaha under-saddle piezo pickup with System66 analog preamp",
+      "bridge": null,
+      "controls": null,
+      "scale": null,
+      "frets": null,
+      "strings": null,
+      "weightKg": null
+    }
+  },
+  {
+    "id": "yamaha-fsx800c",
+    "brand": "Yamaha",
+    "name": "FSX800C",
+    "category": "acoustic",
+    "status": "partial",
+    "price": null,
+    "rating": null,
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "note": "Yamaha Malaysia, FG/FS800 Series lineup (manufacturer page). Model names also listed on Yamaha Thailand FG/FS800 specs page",
+      "verifiedOn": "2026-10-11"
+    },
+    "hasPhotos": false,
+    "specs": {
+      "body": "Concert cutaway, solid spruce top, nato and okume back and sides",
+      "neck": null,
+      "fretboard": null,
+      "pickups": "Yamaha under-saddle piezo pickup with System66 analog preamp",
+      "bridge": null,
+      "controls": null,
+      "scale": null,
+      "frets": null,
+      "strings": null,
+      "weightKg": null
+    }
+  }
+]

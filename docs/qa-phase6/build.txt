@@ -1,0 +1,38 @@
+
+> fretline@0.1.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 156 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                             0.73 kB │ gzip:   0.51 kB
+dist/assets/01-front-480-DvNXnlmI.webp     38.72 kB
+dist/assets/01-front-960-Bhe6OkYl.webp    115.42 kB
+dist/assets/01-front-D2ver0On.webp        168.65 kB
+dist/assets/index-CeI4wkAO.css             88.02 kB │ gzip:  16.50 kB
+dist/assets/SortSelect-DHlSwkPY.js          0.57 kB │ gzip:   0.36 kB
+dist/assets/CatalogEmpty-QOHg_iQ4.js        0.67 kB │ gzip:   0.39 kB
+dist/assets/ImageAttribution-BtnHPEAg.js    0.71 kB │ gzip:   0.37 kB
+dist/assets/guitarSort-B2Zvguga.js          0.73 kB │ gzip:   0.41 kB
+dist/assets/ShareLink-OM1cFawR.js           0.80 kB │ gzip:   0.51 kB
+dist/assets/DiscoveryHeading-JPoazFnu.js    0.88 kB │ gzip:   0.47 kB
+dist/assets/useDialogFocus-CJAbSNTe.js      1.01 kB │ gzip:   0.52 kB
+dist/assets/ConfirmDialog-Cua41nzW.js       1.03 kB │ gzip:   0.57 kB
+dist/assets/ImageCreditsPage-DzcVWnu-.js    1.66 kB │ gzip:   0.84 kB
+dist/assets/CatalogCard-Cs3WXi8C.js         4.20 kB │ gzip:   1.67 kB
+dist/assets/BrandDetailPage-CGAAXZGx.js     5.10 kB │ gzip:   1.87 kB
+dist/assets/WishlistPage-D6rSI80_.js        5.41 kB │ gzip:   2.07 kB
+dist/assets/BrandsPage-DbTeuXwN.js          5.42 kB │ gzip:   2.15 kB
+dist/assets/ComparePage-CcNzXU7m.js        10.65 kB │ gzip:   3.71 kB
+dist/assets/CatalogPage-CQsVPBWu.js        17.41 kB │ gzip:   5.87 kB
+dist/assets/GuitarDetailPage-CSY_-phR.js   17.63 kB │ gzip:   5.85 kB
+dist/assets/FindMyGuitarPage-DZAjFfPJ.js   18.74 kB │ gzip:   6.09 kB
+dist/assets/index-DFdj4GtJ.js             357.05 kB │ gzip: 103.42 kB
+✓ built in 4.43s
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

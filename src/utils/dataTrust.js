@@ -9,8 +9,11 @@ const hasSource = (source) => {
 };
 
 export const isSourceBacked = (guitar) => ['partial', 'verified'].includes(guitar.dataStatus) && hasSource(guitar.source);
-export const trustedPrice = (guitar) => isSourceBacked(guitar) && Number.isFinite(guitar.price) && guitar.price > 0 ? guitar.price : null;
-export const trustedWeight = (guitar) => isSourceBacked(guitar) && Number.isFinite(guitar.specs?.weightKg) && guitar.specs.weightKg > 0 ? guitar.specs.weightKg : null;
+const supports = (guitar, field) => !Array.isArray(guitar.source?.fields) || guitar.source.fields.includes(field);
+export const trustedPrice = (guitar) => isSourceBacked(guitar) && supports(guitar, 'price')
+  && (!Array.isArray(guitar.source?.fields) || (guitar.priceSource?.currency === 'THB' && hasSource(guitar.priceSource)))
+  && Number.isFinite(guitar.price) && guitar.price > 0 ? guitar.price : null;
+export const trustedWeight = (guitar) => isSourceBacked(guitar) && supports(guitar, 'specs.weightKg') && Number.isFinite(guitar.specs?.weightKg) && guitar.specs.weightKg > 0 ? guitar.specs.weightKg : null;
 
 /** Reviews need their own verification; a verified guitar is not a verified review. */
 export function verifiedRating(guitar) {

@@ -14,6 +14,7 @@ import NotFoundPage from '@/pages/NotFoundPage';
 const BrandsPage = lazy(() => import('@/pages/BrandsPage'));
 const BrandDetailPage = lazy(() => import('@/pages/BrandDetailPage'));
 const WishlistPage = lazy(() => import('@/pages/WishlistPage'));
+const ImageCreditsPage = lazy(() => import('@/pages/ImageCreditsPage'));
 
 const ComparePage = lazy(() => import('@/pages/ComparePage'));
 const FindMyGuitarPage = lazy(() => import('@/pages/FindMyGuitarPage'));
@@ -34,6 +35,7 @@ export default function App() {
             <Route path="/brands" element={<DiscoveryRoute><BrandsPage /></DiscoveryRoute>} />
             <Route path="/brands/:id" element={<DiscoveryRoute><BrandDetailPage /></DiscoveryRoute>} />
             <Route path="/wishlist" element={<DiscoveryRoute><WishlistPage /></DiscoveryRoute>} />
+            <Route path="/image-credits" element={<DiscoveryRoute><ImageCreditsPage /></DiscoveryRoute>} />
             <Route path="/compare" element={<DiscoveryRoute><ComparePage /></DiscoveryRoute>} />
             <Route path="/find-my-guitar" element={<DiscoveryRoute><FindMyGuitarPage /></DiscoveryRoute>} />
             <Route path="/guitars/:slug" element={<DiscoveryRoute><GuitarDetailPage /></DiscoveryRoute>} />

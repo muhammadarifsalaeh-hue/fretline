@@ -1,0 +1,20 @@
+Existing saved IDs migrate without duplicates or inherited-object IDs True
+Strict Mode shared Compare URL reconciles with stored state True
+Picker adds a third source-backed model True
+Picker adds a fourth model without replacing saved IDs True
+Fifth model is disabled and the maximum is explained True
+Compare header exposes the four-model limit True
+Remove frees a comparison slot and preserves favourites True
+Browser Back restores the four-model shared URL True
+Browser Forward restores the removal True
+Development Vite route renders the licensed model photo True
+Inherited guitar route recovers without a crash True
+Development Strict Mode has no runtime or console errors True
+A failed real-photo request falls back to the existing labelled placeholder True
+Intentional image failures do not cause runtime errors True
+mobile selects a real responsive photo candidate True
+Mobile at DPR 1 uses the 480px derivative True
+tablet selects a real responsive photo candidate True
+desktop selects a real responsive photo candidate True
+English fallback keeps unknown prices and source disclosure True
+English credit page retains the actual license True

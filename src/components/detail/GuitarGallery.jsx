@@ -6,6 +6,7 @@ import ImagePlaceholder from '@/components/guitar/ImagePlaceholder';
 import Badge from '@/components/ui/Badge';
 import { ChevronLeftIcon, ChevronRightIcon, ExpandIcon } from '@/components/ui/Icons';
 import ImageLightbox from './ImageLightbox';
+import ImageAttribution from './ImageAttribution';
 
 /** Genuine model photos only. Desktop thumbnail rail; mobile swipe and lightbox. */
 export default function GuitarGallery({ guitar }) {
@@ -67,7 +68,7 @@ export default function GuitarGallery({ guitar }) {
         </ul>
       </div>
       {!count && <p className="mt-3 text-xs leading-relaxed text-mute">{t('gallery.soon')}</p>}
-      {current?.credit && <p className="mt-3 text-xs text-mute">{current.credit}</p>}
+      <ImageAttribution image={current} />
       {lightbox && <ImageLightbox images={images} index={index} onIndex={setIndex} onClose={closeLightbox} name={name} guitar={guitar} />}
     </div>
   );

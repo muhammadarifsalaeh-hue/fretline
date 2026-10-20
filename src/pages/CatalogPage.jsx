@@ -10,7 +10,7 @@ import FilterPanel from '@/components/catalog/FilterPanel';
 import MobileFilterDrawer from '@/components/catalog/MobileFilterDrawer';
 import AppLink from '@/components/ui/AppLink';
 import { CloseIcon, SearchIcon } from '@/components/ui/Icons';
-import useCatalogFilters from '@/hooks/useCatalogFilters';
+import useCatalogFilters, { HAS_CATALOG_PRICES } from '@/hooks/useCatalogFilters';
 
 const PAGE_SIZE = 9;
 
@@ -78,7 +78,9 @@ export default function CatalogPage() {
           <ActiveFilters filters={filters} priceActive={c.priceActive} onRemoveType={c.toggleType}
             onRemoveBrand={c.toggleBrand} onResetPrice={c.resetPrice} onClearQuery={() => c.setQuery('')} onClearAll={c.clearFilters} />
           <p className="catalog-data-note">{t('catalog.dataNote')}</p>
-          {c.results.length === 0 ? <CatalogEmpty onClear={c.clearFilters} /> : (
+          {c.results.length === 0 ? <CatalogEmpty onClear={c.clearFilters}
+            title={c.priceActive && !HAS_CATALOG_PRICES ? t('p6.price.empty') : undefined}
+            text={c.priceActive && !HAS_CATALOG_PRICES ? t('p6.price.noData') : undefined} /> : (
             <>
               <div className="catalog-grid">
                 {visible.map((guitar, index) => <CatalogCard key={guitar.id} guitar={guitar} index={index} compact />)}

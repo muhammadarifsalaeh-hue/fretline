@@ -1,5 +1,5 @@
 import { t } from '@/i18n';
-import { NOT_SPECIFIED, formatInch, formatKg, formatPrice } from '@/utils/format';
+import { NOT_SPECIFIED, formatScale, formatKg, formatPrice } from '@/utils/format';
 
 const val = (v) => v ?? NOT_SPECIFIED;
 
@@ -10,7 +10,7 @@ const GROUPS = [
       [t('row.body'), (g) => val(g.specs.body)],
       [t('row.neck'), (g) => val(g.specs.neck)],
       [t('row.fingerboard'), (g) => val(g.specs.fretboard)],
-      [t('row.scale'), (g) => formatInch(g.specs.scale)],
+      [t('row.scale'), (g) => formatScale(g.specs)],
       [t('row.frets'), (g) => val(g.specs.frets)],
       [t('row.strings'), (g) => val(g.specs.strings)],
     ],

@@ -1,6 +1,6 @@
 # เพิ่มกีตาร์ให้ครบ 200 รุ่น (ข้อมูลจริง ไม่ซ้ำ ตรวจสอบได้)
 
-เป้าหมายตามข้อกำหนด: อย่างน้อย **200 รุ่นที่แตกต่างกัน** ตอนนี้มี 18 รุ่นตัวอย่าง (ยังไม่ได้ตรวจสอบ) ดูความคืบหน้าได้ทุกเมื่อ:
+เป้าหมายเดิมของชุดนำเข้า: **200 รุ่นที่แตกต่างกัน** ปัจจุบันมี 36 รุ่นที่ตรวจข้อมูลบางส่วน (`partial`) ไม่มีรุ่นที่ตรวจครบ (`verified`) ดูความคืบหน้าได้ทุกเมื่อ:
 
 ```bash
 npm run catalog:check           # รายงาน: จำนวนรุ่น / verified / รูปจริง / ภาพสำรอง / รายการซ้ำ
@@ -26,7 +26,18 @@ npm run catalog:check           # รายงาน: จำนวนรุ่�
    npm run catalog:import -- รุ่นใหม่.csv             # นำเข้าจริง
    ```
    ถ้ามีแถวผิดรูปแบบหรือซ้ำ ระบบจะ **ไม่นำเข้าอะไรเลย** และบอกว่าแถวไหนผิดเพราะอะไร
-4. ใส่รูป (ถ้ามี) ที่ `src/assets/guitars/<id>/01-front.webp` (+ มุมอื่น) แล้ว `npm run images:check`
-5. `npm run catalog:check` แล้วเปิดเว็บดู
+4. บันทึกข้อมูลที่อ่านยืนยันได้พร้อม `source.fields` ใน `reviewedGuitars.json` ตามส่วน Phase 6 ด้านล่าง การนำเข้า CSV เพียงอย่างเดียวยังไม่ยืนยันข้อเท็จจริง
+5. ใส่รูป (ถ้ามี) ที่ `src/assets/guitars/<id>/01-front.webp` (+ มุมอื่น) พร้อมทะเบียนสิทธิ์ใน `imageRights.json` แล้ว `npm run images:check`
+6. `npm run catalog:check` แล้วเปิดเว็บดู
 
-ข้อมูลที่นำเข้าจะถูกเก็บใน `src/data/catalog/extraGuitars.json` และไหลเข้า Catalog, Brands, Compare, Wishlist, Quiz และการค้นหาเองโดยไม่ต้องแก้โค้ด
+ข้อมูลที่นำเข้าจะถูกเก็บใน `src/data/catalog/extraGuitars.json` โดยคงระบบ ID เดิมไว้ เมื่อบันทึกหลักฐานรายฟิลด์แล้ว ข้อมูลที่เผยแพร่จะใช้ร่วมกันใน Catalog, Brands, Compare, Wishlist, Quiz และการค้นหา
+
+## Phase 6: reviewed records and image rights
+
+Legacy demo entries remain in source for their stable IDs. The live catalog reads reviewed overrides from `src/data/catalog/reviewedGuitars.json`. Add an entry keyed by the existing guitar ID, record the manufacturer model/edition, source URL, check date, retrieval method and `source.fields`. Non-null specs must appear in that field list. Unknown values stay `null`; price, reviews and weight are never copied from demo records. Do not promote a record to `verified` because a URL or model photo exists.
+
+Run `npm run catalog:check` to validate the effective catalog, including the reviewed built-in entries, then `npm run phase6:check` for cross-page data invariants. A newly imported model without a reviewed record remains visible with unknown factual fields until its evidence is recorded.
+
+For photos, a file alone is insufficient. First check its exact model/variant and reuse rights, then add `src/data/catalog/imageRights.json` metadata: guitar ID, author, source URL, license and license URL, check date, model-match note, changes, dimensions and SHA-256. Add primary files directly in the model folder and responsive sizes in its `responsive/` subfolder. Responsive versions are not separate gallery angles. All delivered derivatives must retain the applicable license and credit chain. Unregistered files are not published; `npm run images:check` reports them.
+
+The only current accepted image is a CC BY-SA 4.0 owner photograph of Yamaha FG820-12; it shows six strings fitted to a twelve-string model, as noted by its author. Other models retain the existing placeholders.

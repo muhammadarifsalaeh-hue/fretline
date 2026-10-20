@@ -1,0 +1,119 @@
+{
+  "checks": [
+    {
+      "name": "Existing saved IDs migrate without duplicates or inherited-object IDs",
+      "passed": true
+    },
+    {
+      "name": "Strict Mode shared Compare URL reconciles with stored state",
+      "passed": true
+    },
+    {
+      "name": "Picker adds a third source-backed model",
+      "passed": true
+    },
+    {
+      "name": "Picker adds a fourth model without replacing saved IDs",
+      "passed": true
+    },
+    {
+      "name": "Fifth model is disabled and the maximum is explained",
+      "passed": true
+    },
+    {
+      "name": "Compare header exposes the four-model limit",
+      "passed": true
+    },
+    {
+      "name": "Remove frees a comparison slot and preserves favourites",
+      "passed": true
+    },
+    {
+      "name": "Browser Back restores the four-model shared URL",
+      "passed": true
+    },
+    {
+      "name": "Browser Forward restores the removal",
+      "passed": true
+    },
+    {
+      "name": "Development Vite route renders the licensed model photo",
+      "passed": true
+    },
+    {
+      "name": "Inherited guitar route recovers without a crash",
+      "passed": true
+    },
+    {
+      "name": "Development Strict Mode has no runtime or console errors",
+      "passed": true
+    },
+    {
+      "name": "A failed real-photo request falls back to the existing labelled placeholder",
+      "passed": true
+    },
+    {
+      "name": "Intentional image failures do not cause runtime errors",
+      "passed": true
+    },
+    {
+      "name": "mobile selects a real responsive photo candidate",
+      "passed": true
+    },
+    {
+      "name": "Mobile at DPR 1 uses the 480px derivative",
+      "passed": true
+    },
+    {
+      "name": "tablet selects a real responsive photo candidate",
+      "passed": true
+    },
+    {
+      "name": "desktop selects a real responsive photo candidate",
+      "passed": true
+    },
+    {
+      "name": "English fallback keeps unknown prices and source disclosure",
+      "passed": true
+    },
+    {
+      "name": "English credit page retains the actual license",
+      "passed": true
+    }
+  ],
+  "normal_errors": [],
+  "expected_image_failures": [
+    {
+      "url": "http://127.0.0.1:4186/assets/01-front-480-DvNXnlmI.webp",
+      "failure": "net::ERR_FAILED"
+    },
+    {
+      "url": "http://127.0.0.1:4186/assets/01-front-480-DvNXnlmI.webp",
+      "failure": "net::ERR_FAILED"
+    }
+  ],
+  "photo_candidates": [
+    {
+      "src": "http://127.0.0.1:4186/assets/01-front-480-DvNXnlmI.webp",
+      "sizes": "(min-width: 1024px) 40vw, (min-width: 768px) 45vw, 90vw",
+      "width": 299,
+      "naturalWidth": 351,
+      "viewport": 390
+    },
+    {
+      "src": "http://127.0.0.1:4186/assets/01-front-480-DvNXnlmI.webp",
+      "sizes": "(min-width: 1024px) 40vw, (min-width: 768px) 45vw, 90vw",
+      "width": 241,
+      "naturalWidth": 345,
+      "viewport": 768
+    },
+    {
+      "src": "http://127.0.0.1:4186/assets/01-front-960-Bhe6OkYl.webp",
+      "sizes": "(min-width: 1024px) 40vw, (min-width: 768px) 45vw, 90vw",
+      "width": 462,
+      "naturalWidth": 576,
+      "viewport": 1440
+    }
+  ],
+  "passed": true
+}

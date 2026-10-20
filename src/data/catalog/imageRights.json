@@ -1,0 +1,39 @@
+{
+  "yamaha-fg820-12": [
+    {
+      "guitarId": "yamaha-fg820-12",
+      "file": "01-front.webp",
+      "width": 1200,
+      "height": 1600,
+      "sha256": "89d2d9b4d055fdf2a5d3be8d4457ffac55e58a26ab041e641d598029c89d8ee8",
+      "variants": [
+        {
+          "file": "responsive/01-front-480.webp",
+          "width": 480,
+          "height": 640,
+          "sha256": "8635ac4ad707af1f447079d74e8c5e71825cf293a94c17b5af827feb2e42cedb",
+          "bytes": 38716
+        },
+        {
+          "file": "responsive/01-front-960.webp",
+          "width": 960,
+          "height": 1280,
+          "sha256": "6f627bfa217f10a37dabef351cc902a67aa356bf9824c878ae0e22b417f6f9da",
+          "bytes": 115424
+        }
+      ],
+      "author": "Peternick2468",
+      "license": "CC-BY-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:12_string_Yamaha_acoustic_guitar.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/12_string_Yamaha_acoustic_guitar.jpg",
+      "originalSha256": "61f546388fcd647b0a97ccfbc86c3af5284b3854fd9d55b76e26624e5c77d8e3",
+      "checkedOn": "2026-10-20",
+      "changes": "EXIF orientation applied; resized and encoded as WebP. No crop, retouch, background removal, or AI alteration.",
+      "modelMatchNote": "The author identifies the instrument as a Yamaha FG820 12-string. The model label and 12 tuning machines are visible. The author states that only six strings are fitted in this photograph.",
+      "caption": "ภาพ FG820-12 ของผู้ใช้ ซึ่งใส่สายไว้ 6 เส้นตามข้อมูลผู้ถ่าย ไม่ใช่ภาพสต็อกจากผู้ผลิต",
+      "label": "Front view — owner photograph",
+      "alt": "Yamaha FG820-12 with twelve tuning machines and six strings fitted, photographed by Peternick2468"
+    }
+  ]
+}

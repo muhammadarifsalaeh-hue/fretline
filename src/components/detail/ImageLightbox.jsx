@@ -4,6 +4,7 @@ import { useEffect, useRef } from 'react';
 import { cn } from '@/utils/cn';
 import { ChevronLeftIcon, ChevronRightIcon, CloseIcon } from '@/components/ui/Icons';
 import GuitarImage from '@/components/guitar/GuitarImage';
+import ImageAttribution from './ImageAttribution';
 
 /** ดูรูปเต็มจอ: ปุ่มลูกศร / คีย์บอร์ด ← → / Esc ปิด */
 export default function ImageLightbox({ images, index, onIndex, onClose, name, guitar }) {
@@ -64,7 +65,7 @@ export default function ImageLightbox({ images, index, onIndex, onClose, name, g
         )}
       </div>
 
-      {current.credit && <p className="px-4 pb-2 text-center text-xs text-mute">{current.credit}</p>}
+      <div className="max-h-[30svh] overflow-y-auto px-5 pb-3 text-center"><ImageAttribution image={current} /></div>
 
       <ul className="flex shrink-0 gap-3 overflow-x-auto px-4 py-5 sm:justify-center">
         {images.map((img, i) => (

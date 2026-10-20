@@ -2,6 +2,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
+import { hasImageRights } from '../../src/utils/imageRights.js';
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 export const EXTRA_PATH = path.join(ROOT, 'src/data/catalog/extraGuitars.json');
@@ -27,6 +29,13 @@ export function readSampleGuitars() {
 }
 
 export const readExtras = () => JSON.parse(fs.readFileSync(EXTRA_PATH, 'utf8'));
+export const readReviewed = () => JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data/catalog/reviewedGuitars.json'), 'utf8'));
+export const readImageRights = () => JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data/catalog/imageRights.json'), 'utf8'));
+/** Validate the same reviewed records that the application publishes. */
+export const readCatalog = () => {
+  const reviewed = readReviewed();
+  return [...readSampleGuitars(), ...readExtras()].map((guitar) => ({ ...guitar, ...reviewed[guitar.id], id: guitar.id }));
+};
 
 const nonEmpty = (v) => typeof v === 'string' && v.trim().length > 0;
 const positive = (v) => typeof v === 'number' && Number.isFinite(v) && v > 0;
@@ -72,6 +81,16 @@ export function validateGuitar(g) {
     if (!/^https:\/\//.test(g.source?.url ?? '')) e.push(`${g.status} ต้องมี source.url (https://…) ที่เป็นแหล่งทางการ`);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(g.source?.verifiedOn ?? '')) e.push(`${g.status} ต้องมี source.verifiedOn รูปแบบ YYYY-MM-DD`);
   }
+  if (Array.isArray(g.source?.fields)) {
+    const fields = new Set(g.source.fields);
+    if (!['http', 'web-page', 'search-index'].includes(g.source.method)) e.push('source.method ไม่รองรับ');
+    if (!nonEmpty(g.source.manufacturerModel)) e.push('ไม่มีชื่อรุ่นผู้ผลิตที่ใช้อ้างอิง');
+    for (const key of ['brand', 'name', 'category']) if (!fields.has(key)) e.push(`ไม่มีหลักฐานสำหรับ ${key}`);
+    for (const [key, value] of Object.entries(s)) if (value != null && !fields.has(`specs.${key}`)) e.push(`specs.${key} มีค่าแต่ไม่อยู่ในขอบเขต source.fields`);
+    if (g.price != null && (!fields.has('price') || g.priceSource?.currency !== 'THB' || !/^https:\/\//.test(g.priceSource?.url ?? '') || !/^\d{4}-\d{2}-\d{2}$/.test(g.priceSource?.verifiedOn ?? ''))) e.push('ราคาต้องมีหลักฐานเงินบาทและวันที่ตรวจแยกจากสเปก');
+    if (g.rating != null) e.push('reviewed catalog ห้ามใช้คะแนนรีวิวที่ไม่มีหลักฐานแยก');
+    if (g.source.method === 'search-index' && g.status === 'verified') e.push('ข้อมูลจากดัชนีค้นหาอย่างเดียวไม่ใช่ verified');
+  }
   return e;
 }
 
@@ -92,7 +111,11 @@ export function findDuplicates(all) {
 
 export function photoStats(ids) {
   const dir = path.join(ROOT, 'src/assets/guitars');
-  const has = (id) => fs.existsSync(path.join(dir, id)) && fs.readdirSync(path.join(dir, id)).some((f) => /\.(webp|jpe?g|png|avif)$/i.test(f));
+  const rights = readImageRights();
+  const has = (id) => (rights[id] ?? []).some((image) => {
+    const file = path.join(dir, id, image.file);
+    return hasImageRights(image, id) && fs.existsSync(file) && createHash('sha256').update(fs.readFileSync(file)).digest('hex') === image.sha256;
+  });
   const withPhotos = ids.filter(has);
   return { withPhotos: withPhotos.length, placeholders: ids.length - withPhotos.length };
 }

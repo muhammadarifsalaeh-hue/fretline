@@ -1,0 +1,894 @@
+{
+  "checkedOn": "2026-10-20",
+  "records": [
+    {
+      "url": "https://eu.fender.com/products/american-professional-ii-stratocaster",
+      "method": "http",
+      "checkedOn": "2026-10-20",
+      "models": [
+        {
+          "id": "fender-american-professional-ii-stratocaster",
+          "manufacturerModel": "American Professional II Stratocaster",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.pickups",
+            "specs.bridge",
+            "specs.controls",
+            "specs.scale",
+            "specs.frets",
+            "specs.strings"
+          ],
+          "editionNote": "หน้าผู้ผลิตมีหลายสีและฟิงเกอร์บอร์ด วัสดุลำตัว Alder/Roasted Pine และฟิงเกอร์บอร์ด Maple/Rosewood ขึ้นกับตัวเลือก ไม่เหมารวมว่าเป็นสเปกของทุกสี"
+        }
+      ]
+    },
+    {
+      "url": "https://www.gibson.com/products/gibson-les-paul-standard-60s-figured-top-bourbon-burst",
+      "method": "http",
+      "checkedOn": "2026-10-20",
+      "models": [
+        {
+          "id": "gibson-les-paul-standard-60s",
+          "manufacturerModel": "Les Paul Standard 60s, Bourbon Burst",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.pickups",
+            "specs.bridge",
+            "specs.controls",
+            "specs.scale",
+            "specs.frets",
+            "specs.strings"
+          ],
+          "editionNote": "อ้างอิง Standard 60s Figured Top สี Bourbon Burst ไม่รวมรุ่น Faded, Plain Top หรือรุ่นสั่งทำ"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ibanez.com/usa/products/detail/rg550_00_04.html",
+      "method": "http",
+      "checkedOn": "2026-10-20",
+      "models": [
+        {
+          "id": "ibanez-rg550-genesis",
+          "manufacturerModel": "RG550 — Genesis Collection",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.pickups",
+            "specs.bridge",
+            "specs.controls",
+            "specs.scale",
+            "specs.frets",
+            "specs.strings"
+          ],
+          "editionNote": "อ้างอิง RG550 Genesis Collection ปัจจุบัน ไม่ใช้สเปก RG550 รุ่นดั้งเดิมหรือรุ่นปีอื่น"
+        }
+      ]
+    },
+    {
+      "url": "https://ph.yamaha.com/en/musical-instruments/guitars-basses-amps/products/electric-guitars/pacifica/specs.html",
+      "method": "http",
+      "checkedOn": "2026-10-20",
+      "models": [
+        {
+          "id": "yamaha-pacifica-612viifm",
+          "manufacturerModel": "PAC612VIIFM",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.pickups",
+            "specs.bridge",
+            "specs.controls",
+            "specs.scale",
+            "specs.frets"
+          ],
+          "editionNote": "อ้างอิงคอลัมน์ PAC612VIIFM เท่านั้น ไม่ใช้ PAC612VIIFMX/PAC612VII และคง ID Pacifica เดิม"
+        }
+      ]
+    },
+    {
+      "url": "https://prsguitars.com/electrics/model/se_custom_24",
+      "method": "web-page",
+      "checkedOn": "2026-10-20",
+      "models": [
+        {
+          "id": "prs-se-custom-24",
+          "manufacturerModel": "SE Custom 24 — 2026 page",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.pickups",
+            "specs.bridge",
+            "specs.controls",
+            "specs.scale",
+            "specs.frets",
+            "specs.strings"
+          ],
+          "editionNote": "ตรวจอ่านหน้าผู้ผลิตผ่าน Web tool; การดาวน์โหลดโดยตรงได้ HTTP 403 ไม่ใช้สเปกรุ่น Core Custom 24 หรือรุ่น Floyd"
+        }
+      ]
+    },
+    {
+      "url": "https://www.gibson.com/products/epiphone-casino-natural",
+      "method": "http",
+      "checkedOn": "2026-10-20",
+      "models": [
+        {
+          "id": "epiphone-casino",
+          "manufacturerModel": "Casino, Natural",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.pickups",
+            "specs.bridge",
+            "specs.controls",
+            "specs.scale",
+            "specs.frets",
+            "specs.strings"
+          ],
+          "editionNote": "อ้างอิง Casino Natural รุ่นมาตรฐาน ไม่รวม USA Casino, Casino Coupe, รุ่น Vibrato หรือรุ่น Rosewood ใหม่ที่เป็นคนละหน้าสินค้า"
+        }
+      ]
+    },
+    {
+      "url": "https://www.taylorguitars.com/guitars/acoustic/214ce",
+      "method": "http",
+      "checkedOn": "2026-10-20",
+      "models": [
+        {
+          "id": "taylor-214ce",
+          "manufacturerModel": "214ce — current C-Class model",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.pickups",
+            "specs.bridge",
+            "specs.scale",
+            "specs.strings"
+          ],
+          "editionNote": "อ้างอิง 214ce ปัจจุบันที่ใช้ C-Class Bracing ไม่ใช้ Layered Rosewood/Sapele จากตัวอย่างรุ่นเก่า และไม่เดาจำนวนเฟรต"
+        }
+      ]
+    },
+    {
+      "url": "https://www.martinguitar.com/guitars/all-guitars/D-18.html",
+      "method": "http",
+      "checkedOn": "2026-10-20",
+      "models": [
+        {
+          "id": "martin-d-18",
+          "manufacturerModel": "D-18 Standard — current GE specifications",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.pickups",
+            "specs.bridge",
+            "specs.scale",
+            "specs.frets"
+          ],
+          "editionNote": "อ้างอิง D-18 Standard รุ่นปรับปรุงปัจจุบัน ไม่ใช้รุ่น Custom Shop, Authentic หรือรุ่นสั่งทำ"
+        }
+      ]
+    },
+    {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+      "method": "http",
+      "checkedOn": "2026-10-20",
+      "models": [
+        {
+          "id": "yamaha-fg800",
+          "manufacturerModel": "FG800",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm",
+            "keywords"
+          ],
+          "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ คำค้น beginner อ้างอิงการจัดวางรุ่นโดยผู้ผลิตในหน้า Lineup ไม่ใช่ผลรีวิว"
+        },
+        {
+          "id": "yamaha-fg850",
+          "manufacturerModel": "FG850",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm"
+          ],
+          "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ"
+        },
+        {
+          "id": "yamaha-fg840",
+          "manufacturerModel": "FG840",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm"
+          ],
+          "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ"
+        },
+        {
+          "id": "yamaha-fg830",
+          "manufacturerModel": "FG830",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm"
+          ],
+          "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ"
+        },
+        {
+          "id": "yamaha-fg820",
+          "manufacturerModel": "FG820",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm"
+          ],
+          "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ"
+        },
+        {
+          "id": "yamaha-fg820-12",
+          "manufacturerModel": "FG820-12",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm",
+            "specs.strings"
+          ],
+          "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ"
+        },
+        {
+          "id": "yamaha-fg820l",
+          "manufacturerModel": "FG820L",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm",
+            "keywords"
+          ],
+          "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ หน้า Lineup ระบุ Lefty Model จึงใช้คำค้น left-handed; ไม่ใช้ข้อความเปรียบว่าเป็น FG800 แทนสเปกคอลัมน์ FG820L"
+        },
+        {
+          "id": "yamaha-fg800j",
+          "manufacturerModel": "FG800J",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm",
+            "keywords"
+          ],
+          "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ คำค้น beginner อ้างอิงการจัดวางรุ่นโดยผู้ผลิตในหน้า Lineup ไม่ใช่ผลรีวิว"
+        },
+        {
+          "id": "yamaha-fg800m",
+          "manufacturerModel": "FG800M",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm"
+          ],
+          "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ"
+        },
+        {
+          "id": "yamaha-fs850",
+          "manufacturerModel": "FS850",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm"
+          ],
+          "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ"
+        },
+        {
+          "id": "yamaha-fs830",
+          "manufacturerModel": "FS830",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm"
+          ],
+          "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ"
+        },
+        {
+          "id": "yamaha-fs820",
+          "manufacturerModel": "FS820",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm"
+          ],
+          "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ"
+        },
+        {
+          "id": "yamaha-fs800",
+          "manufacturerModel": "FS800",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm"
+          ],
+          "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ"
+        },
+        {
+          "id": "yamaha-fgx830c",
+          "manufacturerModel": "FGX830C",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm"
+          ],
+          "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ"
+        },
+        {
+          "id": "yamaha-fgx820c",
+          "manufacturerModel": "FGX820C",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm"
+          ],
+          "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ"
+        },
+        {
+          "id": "yamaha-fgx800c",
+          "manufacturerModel": "FGX800C",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm"
+          ],
+          "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ"
+        },
+        {
+          "id": "yamaha-fsx830c",
+          "manufacturerModel": "FSX830C",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm"
+          ],
+          "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ"
+        },
+        {
+          "id": "yamaha-fsx820c",
+          "manufacturerModel": "FSX820C",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm"
+          ],
+          "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ"
+        },
+        {
+          "id": "yamaha-fsx800c",
+          "manufacturerModel": "FSX800C",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm"
+          ],
+          "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ"
+        }
+      ]
+    },
+    {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "method": "web-page",
+      "checkedOn": "2026-10-20",
+      "models": [
+        {
+          "id": "yamaha-fg800",
+          "supportedFields": [
+            "keywords"
+          ],
+          "note": "Yamaha FG/FS800 Lineup — FG800"
+        },
+        {
+          "id": "yamaha-fg820-12",
+          "supportedFields": [
+            "specs.strings"
+          ],
+          "note": "Yamaha FG820-12 — 12-string model"
+        },
+        {
+          "id": "yamaha-fg820l",
+          "supportedFields": [
+            "keywords"
+          ],
+          "note": "Yamaha FG/FS800 Lineup — FG820L"
+        },
+        {
+          "id": "yamaha-fg800j",
+          "supportedFields": [
+            "keywords"
+          ],
+          "note": "Yamaha FG/FS800 Lineup — FG800J"
+        }
+      ],
+      "note": "Yamaha FG/FS800 Lineup — FG800"
+    },
+    {
+      "url": "https://cordobaguitars.com/iberia/c5",
+      "method": "http",
+      "checkedOn": "2026-10-20",
+      "models": [
+        {
+          "id": "cordoba-c5",
+          "manufacturerModel": "C5 — Cedar",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.controls",
+            "specs.scale",
+            "specs.scaleMm",
+            "specs.frets",
+            "specs.strings",
+            "keywords"
+          ],
+          "editionNote": "อ้างอิง C5 Cedar ไม่ใช้ C5 SP, C5-CE หรือรุ่น Limited ช่อง Bridge/Pickups ที่ยังไม่ได้ตรวจข้อความชัดเจนเว้นว่าง คำค้น nylon/beginner มาจากคำอธิบายรุ่นสำหรับผู้เริ่มเล่นของผู้ผลิต ไม่ใช่คะแนนรีวิว"
+        }
+      ]
+    },
+    {
+      "url": "https://www.fender.com/products/player-ii-jazz-bass",
+      "method": "http",
+      "checkedOn": "2026-10-20",
+      "models": [
+        {
+          "id": "fender-player-ii-jazz-bass",
+          "manufacturerModel": "Player II Jazz Bass",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.pickups",
+            "specs.bridge",
+            "specs.scale",
+            "specs.frets",
+            "specs.strings"
+          ],
+          "editionNote": "ฟิงเกอร์บอร์ด Maple หรือ Slab Rosewood ตามรุ่นย่อย; คง ID เดิมแม้ ID ของ Precision Bass ไม่ได้มีคำว่า II"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ibanez.com/asia/products/detail/sr300e_1p_05.html",
+      "method": "http",
+      "checkedOn": "2026-10-20",
+      "models": [
+        {
+          "id": "ibanez-sr300e",
+          "manufacturerModel": "SR300E (Asia product page)",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.pickups",
+            "specs.bridge",
+            "specs.controls",
+            "specs.scale",
+            "specs.frets",
+            "specs.strings"
+          ],
+          "editionNote": "อ้างอิงหน้ารุ่น sr300e_1p_05 สำหรับภูมิภาค Asia วัสดุของรุ่นปีเก่าอาจต่างกัน ไม่ใช้ข้อมูล PJ/Mahogany/Jatoba neck จากตัวอย่างเดิม"
+        }
+      ]
+    },
+    {
+      "url": "https://www.fender.com/products/classic-vibe-60s-stratocaster",
+      "method": "http",
+      "checkedOn": "2026-10-20",
+      "models": [
+        {
+          "id": "squier-classic-vibe-60s-stratocaster",
+          "manufacturerModel": "Classic Vibe '60s Stratocaster",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.pickups",
+            "specs.bridge",
+            "specs.controls",
+            "specs.scale",
+            "specs.frets",
+            "specs.strings"
+          ],
+          "editionNote": "อ้างอิงหน้า Classic Vibe ’60s Stratocaster ปัจจุบันของ Fender; ไม่ใช้ Poplar จากข้อมูลตัวอย่างเดิม"
+        }
+      ]
+    },
+    {
+      "url": "https://www.gretschguitars.com/gear/build/hollow-body/g2420-streamliner-hollow-body-with-chromatic-ii-tailpiece/2817000520",
+      "method": "search-index",
+      "checkedOn": "2026-10-20",
+      "models": [
+        {
+          "id": "gretsch-g2420-streamliner",
+          "manufacturerModel": "G2420 Streamliner with Chromatic II, Village Amber — 2817000520",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.pickups",
+            "specs.controls",
+            "specs.scale",
+            "specs.frets"
+          ],
+          "editionNote": "ตรวจจากข้อความหน้า Gretsch ที่ระบบค้นหาดัชนีไว้ หน้าโดยตรงตอบ 403 ใช้เฉพาะฟิลด์ที่อ่านได้ ไม่ยืนยันสเปก Bridge หรือจำนวนสายจากข้อมูลเดิม"
+        }
+      ]
+    },
+    {
+      "url": "https://www.gibson.com/products/epiphone-les-paul-standard-50s-bourbon-burst",
+      "method": "http",
+      "checkedOn": "2026-10-20",
+      "models": [
+        {
+          "id": "epiphone-les-paul-standard-50s",
+          "manufacturerModel": "Les Paul Standard 50s, Bourbon Burst — Laurel",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.pickups",
+            "specs.bridge",
+            "specs.controls",
+            "specs.scale",
+            "specs.frets",
+            "specs.strings"
+          ],
+          "editionNote": "ใช้ตารางรายละเอียดของหน้า Bourbon Burst รุ่น Laurel ซึ่งระบุไม้ลำตัว Okoume หรือ Sapelli ไม่ใช้สเปกรุ่น Rosewood ที่ชื่อใกล้กัน"
+        }
+      ]
+    },
+    {
+      "url": "https://www.taylorguitars.com/guitars/acoustic/gs-mini-mahogany",
+      "method": "http",
+      "checkedOn": "2026-10-20",
+      "models": [
+        {
+          "id": "taylor-gs-mini",
+          "manufacturerModel": "GS Mini Mahogany (no electronics)",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.pickups",
+            "specs.bridge",
+            "specs.scale"
+          ],
+          "editionNote": "อ้างอิง GS Mini Mahogany แบบไม่มี e ไม่ใช้ GS Mini Spruce หรือ GS Mini-e จำนวนเฟรต/สายที่ไม่ระบุในตารางยังเว้นว่าง"
+        }
+      ]
+    },
+    {
+      "url": "https://at.yamaha.com/files/download/brochure/6/330666/YamahaPMDcatalog1314.pdf",
+      "method": "search-index",
+      "checkedOn": "2026-10-20",
+      "models": [
+        {
+          "id": "yamaha-c40",
+          "manufacturerModel": "C40 — Yamaha Europe 2013–2014 catalog",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.bridge",
+            "specs.scale",
+            "specs.scaleMm"
+          ],
+          "editionNote": "อ้างอิงแคตตาล็อกย้อนหลัง 2013–2014 ที่ระบบค้นหาดัชนีไว้เท่านั้น ดาวน์โหลด PDF โดยตรงได้ 403 ไม่ใช้ตาราง C40II/CX40 ปัจจุบันแทนรุ่น C40 และไม่อ้างว่ายังวางจำหน่าย"
+        }
+      ]
+    },
+    {
+      "url": "https://www.fender.com/products/player-ii-precision-bass",
+      "method": "http",
+      "checkedOn": "2026-10-20",
+      "models": [
+        {
+          "id": "fender-player-precision-bass",
+          "manufacturerModel": "Player II Precision Bass",
+          "supportedFields": [
+            "brand",
+            "name",
+            "category",
+            "description",
+            "tags",
+            "specs.body",
+            "specs.neck",
+            "specs.fretboard",
+            "specs.pickups",
+            "specs.bridge",
+            "specs.scale",
+            "specs.frets",
+            "specs.strings"
+          ],
+          "editionNote": "ฟิงเกอร์บอร์ด Maple หรือ Slab Rosewood ตามรุ่นย่อย; คง ID เดิมแม้ ID ของ Precision Bass ไม่ได้มีคำว่า II"
+        }
+      ]
+    }
+  ],
+  "limits": "A source supports only its recorded fields/edition. HTTP access or a source link alone does not verify all fields. Two records rely on search-index excerpts, not a full page."
+}

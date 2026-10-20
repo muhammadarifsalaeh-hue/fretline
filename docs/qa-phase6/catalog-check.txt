@@ -1,0 +1,19 @@
+
+> fretline@0.1.0 catalog:check
+> node scripts/validate-catalog.mjs
+
+
+=== Effective catalog report ===
+Total models        : 36 / 200 (164 to go)
+Brands              : 11
+Legacy stable IDs   : 18 (18 reviewed overrides)
+Imported stable IDs : 18
+Sample              : 0
+Fully verified      : 0
+Partially verified  : 36
+Price on request    : 36
+Verified reviews    : 0
+Licensed photo models: 1
+Placeholder models  : 35
+
+No data problems found. Unknown fields remain unknown.
