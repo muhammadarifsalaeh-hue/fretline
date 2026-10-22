@@ -1,0 +1,21 @@
+{
+  "note": "Proposal only; tokens are not imported into the application.",
+  "views": [
+    {
+      "viewport": 1440,
+      "overflow": false,
+      "screenshot": "design-system-desktop.png"
+    },
+    {
+      "viewport": 768,
+      "overflow": false,
+      "screenshot": "design-system-tablet.png"
+    },
+    {
+      "viewport": 390,
+      "overflow": false,
+      "screenshot": "design-system-mobile.png"
+    }
+  ],
+  "errors": []
+}

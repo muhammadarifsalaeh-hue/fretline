@@ -1,0 +1,149 @@
+{
+  "baseline": "82fbe9bdae7cbb9b0d32f356172a37fc7646362a",
+  "css": [
+    {
+      "file": "src/index.css",
+      "lines": 588,
+      "hexOccurrences": 238,
+      "distinctHexValues": 71
+    },
+    {
+      "file": "src/styles/polish.css",
+      "lines": 129,
+      "hexOccurrences": 25,
+      "distinctHexValues": 16
+    }
+  ],
+  "fonts": [
+    {
+      "file": "instrument-serif-400-italic.woff",
+      "bytes": 33416
+    },
+    {
+      "file": "instrument-serif-400-normal.woff",
+      "bytes": 32144
+    },
+    {
+      "file": "anuphan-400-normal.woff",
+      "bytes": 49052
+    },
+    {
+      "file": "anuphan-500-normal.woff",
+      "bytes": 54784
+    },
+    {
+      "file": "anuphan-600-normal.woff",
+      "bytes": 54420
+    },
+    {
+      "file": "anuphan-700-normal.woff",
+      "bytes": 50180
+    },
+    {
+      "file": "anuphan-300-normal.woff",
+      "bytes": 54364
+    }
+  ],
+  "bundles": [
+    {
+      "file": "BrandDetailPage-DQ2Fm8TB.js",
+      "bytes": 6060,
+      "gzipBytes": 2116
+    },
+    {
+      "file": "BrandsPage-BlTLwif2.js",
+      "bytes": 5611,
+      "gzipBytes": 2241
+    },
+    {
+      "file": "CatalogCard-Dib2uoda.js",
+      "bytes": 5164,
+      "gzipBytes": 2039
+    },
+    {
+      "file": "CatalogEmpty-CCEcU-X_.js",
+      "bytes": 699,
+      "gzipBytes": 406
+    },
+    {
+      "file": "CatalogPage-B0dmqZ21.js",
+      "bytes": 18468,
+      "gzipBytes": 6206
+    },
+    {
+      "file": "ComparePage-pbvLvEg4.js",
+      "bytes": 11500,
+      "gzipBytes": 4036
+    },
+    {
+      "file": "ConfirmDialog-Za8Qlrv7.js",
+      "bytes": 1028,
+      "gzipBytes": 571
+    },
+    {
+      "file": "DiscoveryHeading-CFTUWnHl.js",
+      "bytes": 929,
+      "gzipBytes": 492
+    },
+    {
+      "file": "FindMyGuitarPage-E_y1J468.js",
+      "bytes": 19141,
+      "gzipBytes": 6217
+    },
+    {
+      "file": "GuitarDetailPage-CTxW2jPH.js",
+      "bytes": 23419,
+      "gzipBytes": 7875
+    },
+    {
+      "file": "ImageAttribution-UMAhpi_K.js",
+      "bytes": 747,
+      "gzipBytes": 392
+    },
+    {
+      "file": "ImageCreditsPage-DNeCBH37.js",
+      "bytes": 2612,
+      "gzipBytes": 1039
+    },
+    {
+      "file": "ShareLink-CNE_qIeZ.js",
+      "bytes": 824,
+      "gzipBytes": 531
+    },
+    {
+      "file": "SortSelect-Bq2zB141.js",
+      "bytes": 605,
+      "gzipBytes": 379
+    },
+    {
+      "file": "WishlistPage-CqZToQiy.js",
+      "bytes": 5657,
+      "gzipBytes": 2149
+    },
+    {
+      "file": "guitar-catalog-fsERoDj-.js",
+      "bytes": 456867,
+      "gzipBytes": 36916
+    },
+    {
+      "file": "guitarSort-FWMMLgr5.js",
+      "bytes": 733,
+      "gzipBytes": 414
+    },
+    {
+      "file": "index-B7UYpM5b.css",
+      "bytes": 94792,
+      "gzipBytes": 17992
+    },
+    {
+      "file": "index-CvRRhhQX.js",
+      "bytes": 166287,
+      "gzipBytes": 45903
+    },
+    {
+      "file": "vendor-DMuMWS1U.js",
+      "bytes": 163325,
+      "gzipBytes": 53132
+    }
+  ]
+}

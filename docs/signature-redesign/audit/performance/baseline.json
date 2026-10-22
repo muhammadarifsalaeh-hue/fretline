@@ -1,0 +1,2225 @@
+{
+  "baseline": "82fbe9b",
+  "browser": "Chromium / Linux, local unthrottled production server",
+  "limitations": "Single cold browser-context sample per route/viewport, observed for 2.8s after load; not field Core Web Vitals, Lighthouse, a pass score, physical iPad or Safari.",
+  "measurements": [
+    {
+      "vitals": {
+        "lcp": [
+          {
+            "time": 804,
+            "size": 3960,
+            "element": "SPAN"
+          },
+          {
+            "time": 1608,
+            "size": 22336,
+            "element": "IMG"
+          }
+        ],
+        "shifts": [
+          {
+            "time": 786.1000000014901,
+            "value": 0.00012820457175925925
+          }
+        ],
+        "longTasks": [
+          {
+            "time": 208.10000000149012,
+            "duration": 94
+          },
+          {
+            "time": 307.30000000074506,
+            "duration": 411
+          }
+        ]
+      },
+      "navigation": [
+        {
+          "domContentLoaded": 300.9000000022352,
+          "load": 301.69999999925494,
+          "transferSize": 873
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "type": "link",
+          "bytes": 516,
+          "encoded": 216,
+          "duration": 75.10000000149012
+        },
+        {
+          "name": "/assets/index-CvRRhhQX.js",
+          "type": "script",
+          "bytes": 46512,
+          "encoded": 46212,
+          "duration": 95.10000000149012
+        },
+        {
+          "name": "/assets/vendor-DMuMWS1U.js",
+          "type": "other",
+          "bytes": 53520,
+          "encoded": 53220,
+          "duration": 95.20000000298023
+        },
+        {
+          "name": "/assets/guitar-catalog-fsERoDj-.js",
+          "type": "other",
+          "bytes": 37418,
+          "encoded": 37118,
+          "duration": 132.10000000149012
+        },
+        {
+          "name": "/assets/index-B7UYpM5b.css",
+          "type": "link",
+          "bytes": 18384,
+          "encoded": 18084,
+          "duration": 80.89999999850988
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "type": "css",
+          "bytes": 49352,
+          "encoded": 49052,
+          "duration": 244.89999999850988
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "type": "css",
+          "bytes": 55084,
+          "encoded": 54784,
+          "duration": 249.19999999925494
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "type": "css",
+          "bytes": 32444,
+          "encoded": 32144,
+          "duration": 250.69999999925494
+        },
+        {
+          "name": "/images/hero/acoustic-studio.webp",
+          "type": "img",
+          "bytes": 149572,
+          "encoded": 149272,
+          "duration": 15.300000000745058
+        },
+        {
+          "name": "/assets/01-black-4e0ibs0x.jpg",
+          "type": "img",
+          "bytes": 187144,
+          "encoded": 186844,
+          "duration": 6.399999998509884
+        },
+        {
+          "name": "/favicon.svg",
+          "type": "other",
+          "bytes": 539,
+          "encoded": 239,
+          "duration": 6.900000002235174
+        }
+      ],
+      "title": "Fretline | ค้นพบเสียงที่เป็นคุณ",
+      "description": "ค้นหา เปรียบเทียบ และเลือกกีตาร์ไฟฟ้า กีตาร์โปร่ง กีตาร์คลาสสิก และเบส จากแบรนด์ชั้นนำ",
+      "canonical": null,
+      "ogTitle": null,
+      "h1": [
+        "ค้นพบเสียงที่เป็นคุณ"
+      ],
+      "brokenImages": [],
+      "overflow": false,
+      "route": "home",
+      "width": 1440,
+      "path": "/",
+      "observedCLS": 0.00013,
+      "observedLCPms": 1608
+    },
+    {
+      "vitals": {
+        "lcp": [
+          {
+            "time": 660,
+            "size": 15582,
+            "element": "P"
+          }
+        ],
+        "shifts": [
+          {
+            "time": 662.1999999992549,
+            "value": 0.00010646898811246143
+          },
+          {
+            "time": 781.5,
+            "value": 0.236
+          }
+        ],
+        "longTasks": [
+          {
+            "time": 196.59999999776483,
+            "duration": 105
+          },
+          {
+            "time": 304.0999999977648,
+            "duration": 89
+          }
+        ]
+      },
+      "navigation": [
+        {
+          "domContentLoaded": 300.0999999977648,
+          "load": 301.5999999977648,
+          "transferSize": 873
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "type": "link",
+          "bytes": 516,
+          "encoded": 216,
+          "duration": 70.09999999776483
+        },
+        {
+          "name": "/assets/index-CvRRhhQX.js",
+          "type": "script",
+          "bytes": 46512,
+          "encoded": 46212,
+          "duration": 100.20000000298023
+        },
+        {
+          "name": "/assets/vendor-DMuMWS1U.js",
+          "type": "other",
+          "bytes": 53520,
+          "encoded": 53220,
+          "duration": 102.39999999850988
+        },
+        {
+          "name": "/assets/guitar-catalog-fsERoDj-.js",
+          "type": "other",
+          "bytes": 37418,
+          "encoded": 37118,
+          "duration": 104.89999999850988
+        },
+        {
+          "name": "/assets/index-B7UYpM5b.css",
+          "type": "link",
+          "bytes": 18384,
+          "encoded": 18084,
+          "duration": 60.69999999925494
+        },
+        {
+          "name": "/assets/CatalogPage-B0dmqZ21.js",
+          "type": "script",
+          "bytes": 6512,
+          "encoded": 6212,
+          "duration": 11.699999999254942
+        },
+        {
+          "name": "/assets/CatalogCard-Dib2uoda.js",
+          "type": "script",
+          "bytes": 2335,
+          "encoded": 2035,
+          "duration": 19.699999999254942
+        },
+        {
+          "name": "/assets/CatalogEmpty-CCEcU-X_.js",
+          "type": "script",
+          "bytes": 999,
+          "encoded": 699,
+          "duration": 11.800000000745058
+        },
+        {
+          "name": "/assets/guitarSort-FWMMLgr5.js",
+          "type": "script",
+          "bytes": 1033,
+          "encoded": 733,
+          "duration": 10.900000002235174
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "type": "css",
+          "bytes": 49352,
+          "encoded": 49052,
+          "duration": 188.90000000223517
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "type": "css",
+          "bytes": 55084,
+          "encoded": 54784,
+          "duration": 191.80000000074506
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "type": "css",
+          "bytes": 32444,
+          "encoded": 32144,
+          "duration": 191.5
+        },
+        {
+          "name": "/favicon.svg",
+          "type": "other",
+          "bytes": 539,
+          "encoded": 239,
+          "duration": 11.699999999254942
+        },
+        {
+          "name": "/assets/01-black-4e0ibs0x.jpg",
+          "type": "img",
+          "bytes": 187144,
+          "encoded": 186844,
+          "duration": 8.700000002980232
+        }
+      ],
+      "title": "กีตาร์ทั้งหมด | Fretline",
+      "description": "ค้นหา เปรียบเทียบ และเลือกกีตาร์ไฟฟ้า กีตาร์โปร่ง กีตาร์คลาสสิก และเบส จากแบรนด์ชั้นนำ",
+      "canonical": null,
+      "ogTitle": null,
+      "h1": [
+        "Catalog"
+      ],
+      "brokenImages": [],
+      "overflow": false,
+      "route": "catalog",
+      "width": 1440,
+      "path": "/guitars",
+      "observedCLS": 0.23611,
+      "observedLCPms": 660
+    },
+    {
+      "vitals": {
+        "lcp": [
+          {
+            "time": 528,
+            "size": 15582,
+            "element": "P"
+          },
+          {
+            "time": 724,
+            "size": 23690,
+            "element": "P"
+          },
+          {
+            "time": 1444,
+            "size": 249426,
+            "element": "IMG"
+          }
+        ],
+        "shifts": [
+          {
+            "time": 537.5999999977648,
+            "value": 0.00010646898811246143
+          },
+          {
+            "time": 663.8000000007451,
+            "value": 0.236
+          }
+        ],
+        "longTasks": [
+          {
+            "time": 172.69999999925494,
+            "duration": 58
+          },
+          {
+            "time": 235.5,
+            "duration": 67
+          }
+        ]
+      },
+      "navigation": [
+        {
+          "domContentLoaded": 230.19999999925494,
+          "load": 231,
+          "transferSize": 873
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "type": "link",
+          "bytes": 516,
+          "encoded": 216,
+          "duration": 62.30000000074506
+        },
+        {
+          "name": "/assets/index-CvRRhhQX.js",
+          "type": "script",
+          "bytes": 46512,
+          "encoded": 46212,
+          "duration": 91.5
+        },
+        {
+          "name": "/assets/vendor-DMuMWS1U.js",
+          "type": "other",
+          "bytes": 53520,
+          "encoded": 53220,
+          "duration": 93.89999999850988
+        },
+        {
+          "name": "/assets/index-B7UYpM5b.css",
+          "type": "link",
+          "bytes": 18384,
+          "encoded": 18084,
+          "duration": 73.19999999925494
+        },
+        {
+          "name": "/assets/guitar-catalog-fsERoDj-.js",
+          "type": "other",
+          "bytes": 37418,
+          "encoded": 37118,
+          "duration": 130.69999999925494
+        },
+        {
+          "name": "/assets/GuitarDetailPage-CTxW2jPH.js",
+          "type": "script",
+          "bytes": 8189,
+          "encoded": 7889,
+          "duration": 22.900000002235174
+        },
+        {
+          "name": "/assets/ImageAttribution-UMAhpi_K.js",
+          "type": "script",
+          "bytes": 1047,
+          "encoded": 747,
+          "duration": 18.300000000745058
+        },
+        {
+          "name": "/assets/guitarSort-FWMMLgr5.js",
+          "type": "script",
+          "bytes": 1033,
+          "encoded": 733,
+          "duration": 18.100000001490116
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "type": "css",
+          "bytes": 49352,
+          "encoded": 49052,
+          "duration": 190.30000000074506
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "type": "css",
+          "bytes": 55084,
+          "encoded": 54784,
+          "duration": 190.20000000298023
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "type": "css",
+          "bytes": 32444,
+          "encoded": 32144,
+          "duration": 190.30000000074506
+        },
+        {
+          "name": "/favicon.svg",
+          "type": "other",
+          "bytes": 539,
+          "encoded": 239,
+          "duration": 13.699999999254942
+        },
+        {
+          "name": "/assets/01-black-4e0ibs0x.jpg",
+          "type": "img",
+          "bytes": 187144,
+          "encoded": 186844,
+          "duration": 5.699999999254942
+        },
+        {
+          "name": "/assets/02-red-5wy1XNF8.jpg",
+          "type": "img",
+          "bytes": 192356,
+          "encoded": 192056,
+          "duration": 7
+        },
+        {
+          "name": "/assets/03-blue-teal-DGai0Mw0.jpg",
+          "type": "img",
+          "bytes": 192084,
+          "encoded": 191784,
+          "duration": 14
+        },
+        {
+          "name": "/assets/04-all-colors-Dh6UTa0U.jpg",
+          "type": "img",
+          "bytes": 233809,
+          "encoded": 233509,
+          "duration": 14.400000002235174
+        }
+      ],
+      "title": "Yamaha Pacifica 612VIIFM — Fretline",
+      "description": "ค้นหา เปรียบเทียบ และเลือกกีตาร์ไฟฟ้า กีตาร์โปร่ง กีตาร์คลาสสิก และเบส จากแบรนด์ชั้นนำ",
+      "canonical": null,
+      "ogTitle": null,
+      "h1": [
+        "Pacifica 612VIIFM"
+      ],
+      "brokenImages": [],
+      "overflow": false,
+      "route": "detail",
+      "width": 1440,
+      "path": "/guitars/yamaha-pacifica-612viifm",
+      "observedCLS": 0.23611,
+      "observedLCPms": 1444
+    },
+    {
+      "vitals": {
+        "lcp": [
+          {
+            "time": 532,
+            "size": 15582,
+            "element": "P"
+          }
+        ],
+        "shifts": [
+          {
+            "time": 531.6999999992549,
+            "value": 0.00010653395664544753
+          },
+          {
+            "time": 597.8000000007451,
+            "value": 0.14576124131944443
+          }
+        ],
+        "longTasks": [
+          {
+            "time": 208.30000000074506,
+            "duration": 98
+          },
+          {
+            "time": 310.1000000014901,
+            "duration": 89
+          }
+        ]
+      },
+      "navigation": [
+        {
+          "domContentLoaded": 304.3999999985099,
+          "load": 305.80000000074506,
+          "transferSize": 873
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "type": "link",
+          "bytes": 516,
+          "encoded": 216,
+          "duration": 71.80000000074506
+        },
+        {
+          "name": "/assets/index-CvRRhhQX.js",
+          "type": "script",
+          "bytes": 46512,
+          "encoded": 46212,
+          "duration": 90.39999999850988
+        },
+        {
+          "name": "/assets/vendor-DMuMWS1U.js",
+          "type": "other",
+          "bytes": 53520,
+          "encoded": 53220,
+          "duration": 103.10000000149012
+        },
+        {
+          "name": "/assets/guitar-catalog-fsERoDj-.js",
+          "type": "other",
+          "bytes": 37418,
+          "encoded": 37118,
+          "duration": 95.89999999850988
+        },
+        {
+          "name": "/assets/index-B7UYpM5b.css",
+          "type": "link",
+          "bytes": 18384,
+          "encoded": 18084,
+          "duration": 73.89999999850988
+        },
+        {
+          "name": "/assets/BrandsPage-BlTLwif2.js",
+          "type": "script",
+          "bytes": 2538,
+          "encoded": 2238,
+          "duration": 16.800000000745058
+        },
+        {
+          "name": "/assets/SortSelect-Bq2zB141.js",
+          "type": "script",
+          "bytes": 905,
+          "encoded": 605,
+          "duration": 9.900000002235174
+        },
+        {
+          "name": "/assets/CatalogEmpty-CCEcU-X_.js",
+          "type": "script",
+          "bytes": 999,
+          "encoded": 699,
+          "duration": 9.5
+        },
+        {
+          "name": "/assets/DiscoveryHeading-CFTUWnHl.js",
+          "type": "script",
+          "bytes": 1229,
+          "encoded": 929,
+          "duration": 9
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "type": "css",
+          "bytes": 49352,
+          "encoded": 49052,
+          "duration": 94.59999999776483
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "type": "css",
+          "bytes": 32444,
+          "encoded": 32144,
+          "duration": 95.30000000074506
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "type": "css",
+          "bytes": 55084,
+          "encoded": 54784,
+          "duration": 95.19999999925494
+        },
+        {
+          "name": "/favicon.svg",
+          "type": "other",
+          "bytes": 539,
+          "encoded": 239,
+          "duration": 5
+        }
+      ],
+      "title": "แบรนด์กีตาร์ — Fretline",
+      "description": "ค้นหา เปรียบเทียบ และเลือกกีตาร์ไฟฟ้า กีตาร์โปร่ง กีตาร์คลาสสิก และเบส จากแบรนด์ชั้นนำ",
+      "canonical": null,
+      "ogTitle": null,
+      "h1": [
+        "แบรนด์ทั้งหมด"
+      ],
+      "brokenImages": [],
+      "overflow": false,
+      "route": "brands",
+      "width": 1440,
+      "path": "/brands",
+      "observedCLS": 0.14587,
+      "observedLCPms": 532
+    },
+    {
+      "vitals": {
+        "lcp": [
+          {
+            "time": 532,
+            "size": 15582,
+            "element": "P"
+          },
+          {
+            "time": 700,
+            "size": 15714,
+            "element": "H1"
+          },
+          {
+            "time": 1432,
+            "size": 158242,
+            "element": "IMG"
+          }
+        ],
+        "shifts": [
+          {
+            "time": 523.4000000022352,
+            "value": 0.047333775484061535
+          }
+        ],
+        "longTasks": [
+          {
+            "time": 193.30000000074506,
+            "duration": 69
+          },
+          {
+            "time": 264.4000000022352,
+            "duration": 74
+          },
+          {
+            "time": 568.8000000007451,
+            "duration": 56
+          }
+        ]
+      },
+      "navigation": [
+        {
+          "domContentLoaded": 261.9000000022352,
+          "load": 262.4000000022352,
+          "transferSize": 873
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "type": "link",
+          "bytes": 516,
+          "encoded": 216,
+          "duration": 54.5
+        },
+        {
+          "name": "/assets/index-CvRRhhQX.js",
+          "type": "script",
+          "bytes": 46512,
+          "encoded": 46212,
+          "duration": 91.5
+        },
+        {
+          "name": "/assets/vendor-DMuMWS1U.js",
+          "type": "other",
+          "bytes": 53520,
+          "encoded": 53220,
+          "duration": 91.19999999925494
+        },
+        {
+          "name": "/assets/guitar-catalog-fsERoDj-.js",
+          "type": "other",
+          "bytes": 37418,
+          "encoded": 37118,
+          "duration": 92
+        },
+        {
+          "name": "/assets/index-B7UYpM5b.css",
+          "type": "link",
+          "bytes": 18384,
+          "encoded": 18084,
+          "duration": 79.80000000074506
+        },
+        {
+          "name": "/assets/ComparePage-pbvLvEg4.js",
+          "type": "script",
+          "bytes": 4335,
+          "encoded": 4035,
+          "duration": 19
+        },
+        {
+          "name": "/assets/guitarSort-FWMMLgr5.js",
+          "type": "script",
+          "bytes": 1033,
+          "encoded": 733,
+          "duration": 15.600000001490116
+        },
+        {
+          "name": "/assets/ConfirmDialog-Za8Qlrv7.js",
+          "type": "script",
+          "bytes": 869,
+          "encoded": 569,
+          "duration": 16.399999998509884
+        },
+        {
+          "name": "/assets/ShareLink-CNE_qIeZ.js",
+          "type": "script",
+          "bytes": 1124,
+          "encoded": 824,
+          "duration": 15.600000001490116
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "type": "css",
+          "bytes": 49352,
+          "encoded": 49052,
+          "duration": 109
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "type": "css",
+          "bytes": 32444,
+          "encoded": 32144,
+          "duration": 109.09999999776483
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "type": "css",
+          "bytes": 55084,
+          "encoded": 54784,
+          "duration": 111
+        },
+        {
+          "name": "/favicon.svg",
+          "type": "other",
+          "bytes": 539,
+          "encoded": 239,
+          "duration": 11.5
+        },
+        {
+          "name": "/assets/01-black-4e0ibs0x.jpg",
+          "type": "img",
+          "bytes": 187144,
+          "encoded": 186844,
+          "duration": 7.200000002980232
+        }
+      ],
+      "title": "เปรียบเทียบกีตาร์ — Fretline",
+      "description": "ค้นหา เปรียบเทียบ และเลือกกีตาร์ไฟฟ้า กีตาร์โปร่ง กีตาร์คลาสสิก และเบส จากแบรนด์ชั้นนำ",
+      "canonical": null,
+      "ogTitle": null,
+      "h1": [
+        "เปรียบเทียบกีตาร์"
+      ],
+      "brokenImages": [],
+      "overflow": false,
+      "route": "compare",
+      "width": 1440,
+      "path": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg800",
+      "observedCLS": 0.04733,
+      "observedLCPms": 1432
+    },
+    {
+      "vitals": {
+        "lcp": [
+          {
+            "time": 492,
+            "size": 15582,
+            "element": "P"
+          },
+          {
+            "time": 584,
+            "size": 27063,
+            "element": "H2"
+          }
+        ],
+        "shifts": [
+          {
+            "time": 493.80000000074506,
+            "value": 0.024492745165412805
+          }
+        ],
+        "longTasks": [
+          {
+            "time": 169.80000000074506,
+            "duration": 53
+          },
+          {
+            "time": 224.5,
+            "duration": 70
+          }
+        ]
+      },
+      "navigation": [
+        {
+          "domContentLoaded": 221.70000000298023,
+          "load": 222.70000000298023,
+          "transferSize": 873
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "type": "link",
+          "bytes": 516,
+          "encoded": 216,
+          "duration": 54.80000000074506
+        },
+        {
+          "name": "/assets/index-CvRRhhQX.js",
+          "type": "script",
+          "bytes": 46512,
+          "encoded": 46212,
+          "duration": 84.80000000074506
+        },
+        {
+          "name": "/assets/vendor-DMuMWS1U.js",
+          "type": "other",
+          "bytes": 53520,
+          "encoded": 53220,
+          "duration": 83.39999999850988
+        },
+        {
+          "name": "/assets/guitar-catalog-fsERoDj-.js",
+          "type": "other",
+          "bytes": 37418,
+          "encoded": 37118,
+          "duration": 95.29999999701977
+        },
+        {
+          "name": "/assets/index-B7UYpM5b.css",
+          "type": "link",
+          "bytes": 18384,
+          "encoded": 18084,
+          "duration": 66.19999999925494
+        },
+        {
+          "name": "/assets/FindMyGuitarPage-E_y1J468.js",
+          "type": "script",
+          "bytes": 6515,
+          "encoded": 6215,
+          "duration": 8.600000001490116
+        },
+        {
+          "name": "/assets/ShareLink-CNE_qIeZ.js",
+          "type": "script",
+          "bytes": 1124,
+          "encoded": 824,
+          "duration": 4
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "type": "css",
+          "bytes": 49352,
+          "encoded": 49052,
+          "duration": 123.10000000149012
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "type": "css",
+          "bytes": 32444,
+          "encoded": 32144,
+          "duration": 123.69999999925494
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "type": "css",
+          "bytes": 55084,
+          "encoded": 54784,
+          "duration": 123.10000000149012
+        },
+        {
+          "name": "/favicon.svg",
+          "type": "other",
+          "bytes": 539,
+          "encoded": 239,
+          "duration": 5.899999998509884
+        }
+      ],
+      "title": "ค้นหากีตาร์ที่ใช่ — Fretline",
+      "description": "ค้นหา เปรียบเทียบ และเลือกกีตาร์ไฟฟ้า กีตาร์โปร่ง กีตาร์คลาสสิก และเบส จากแบรนด์ชั้นนำ",
+      "canonical": null,
+      "ogTitle": null,
+      "h1": [
+        "Find My Guitar Quiz"
+      ],
+      "brokenImages": [],
+      "overflow": false,
+      "route": "quiz",
+      "width": 1440,
+      "path": "/find-my-guitar",
+      "observedCLS": 0.02449,
+      "observedLCPms": 584
+    },
+    {
+      "vitals": {
+        "lcp": [
+          {
+            "time": 608,
+            "size": 15582,
+            "element": "P"
+          },
+          {
+            "time": 672,
+            "size": 17056,
+            "element": "H1"
+          }
+        ],
+        "shifts": [
+          {
+            "time": 586.8999999985099,
+            "value": 0.023814050232687112
+          }
+        ],
+        "longTasks": [
+          {
+            "time": 176.80000000074506,
+            "duration": 105
+          },
+          {
+            "time": 287.5,
+            "duration": 99
+          }
+        ]
+      },
+      "navigation": [
+        {
+          "domContentLoaded": 281.0999999977648,
+          "load": 282.0999999977648,
+          "transferSize": 873
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "type": "link",
+          "bytes": 516,
+          "encoded": 216,
+          "duration": 84.19999999925494
+        },
+        {
+          "name": "/assets/index-CvRRhhQX.js",
+          "type": "script",
+          "bytes": 46512,
+          "encoded": 46212,
+          "duration": 133.5
+        },
+        {
+          "name": "/assets/vendor-DMuMWS1U.js",
+          "type": "other",
+          "bytes": 53520,
+          "encoded": 53220,
+          "duration": 102.30000000074506
+        },
+        {
+          "name": "/assets/guitar-catalog-fsERoDj-.js",
+          "type": "other",
+          "bytes": 37418,
+          "encoded": 37118,
+          "duration": 139.60000000149012
+        },
+        {
+          "name": "/assets/index-B7UYpM5b.css",
+          "type": "link",
+          "bytes": 18384,
+          "encoded": 18084,
+          "duration": 70
+        },
+        {
+          "name": "/assets/WishlistPage-CqZToQiy.js",
+          "type": "script",
+          "bytes": 2448,
+          "encoded": 2148,
+          "duration": 10.5
+        },
+        {
+          "name": "/assets/CatalogEmpty-CCEcU-X_.js",
+          "type": "script",
+          "bytes": 999,
+          "encoded": 699,
+          "duration": 9.900000002235174
+        },
+        {
+          "name": "/assets/ConfirmDialog-Za8Qlrv7.js",
+          "type": "script",
+          "bytes": 869,
+          "encoded": 569,
+          "duration": 12.5
+        },
+        {
+          "name": "/assets/DiscoveryHeading-CFTUWnHl.js",
+          "type": "script",
+          "bytes": 1229,
+          "encoded": 929,
+          "duration": 12.199999999254942
+        },
+        {
+          "name": "/assets/SortSelect-Bq2zB141.js",
+          "type": "script",
+          "bytes": 905,
+          "encoded": 605,
+          "duration": 11.800000000745058
+        },
+        {
+          "name": "/assets/guitarSort-FWMMLgr5.js",
+          "type": "script",
+          "bytes": 1033,
+          "encoded": 733,
+          "duration": 11.899999998509884
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "type": "css",
+          "bytes": 49352,
+          "encoded": 49052,
+          "duration": 164.90000000223517
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "type": "css",
+          "bytes": 55084,
+          "encoded": 54784,
+          "duration": 164.79999999701977
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "type": "css",
+          "bytes": 32444,
+          "encoded": 32144,
+          "duration": 164.40000000223517
+        },
+        {
+          "name": "/favicon.svg",
+          "type": "other",
+          "bytes": 539,
+          "encoded": 239,
+          "duration": 14.100000001490116
+        }
+      ],
+      "title": "รายการโปรดของฉัน — Fretline",
+      "description": "ค้นหา เปรียบเทียบ และเลือกกีตาร์ไฟฟ้า กีตาร์โปร่ง กีตาร์คลาสสิก และเบส จากแบรนด์ชั้นนำ",
+      "canonical": null,
+      "ogTitle": null,
+      "h1": [
+        "รายการโปรดของฉัน"
+      ],
+      "brokenImages": [],
+      "overflow": false,
+      "route": "wishlist",
+      "width": 1440,
+      "path": "/wishlist",
+      "observedCLS": 0.02381,
+      "observedLCPms": 672
+    },
+    {
+      "vitals": {
+        "lcp": [
+          {
+            "time": 688,
+            "size": 2702,
+            "element": "P"
+          }
+        ],
+        "shifts": [
+          {
+            "time": 699,
+            "value": 0.0002051251499940391
+          }
+        ],
+        "longTasks": [
+          {
+            "time": 177.80000000074506,
+            "duration": 89
+          },
+          {
+            "time": 274.80000000074506,
+            "duration": 343
+          }
+        ]
+      },
+      "navigation": [
+        {
+          "domContentLoaded": 265.5,
+          "load": 267.20000000298023,
+          "transferSize": 873
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "type": "link",
+          "bytes": 516,
+          "encoded": 216,
+          "duration": 31.600000001490116
+        },
+        {
+          "name": "/assets/index-CvRRhhQX.js",
+          "type": "script",
+          "bytes": 46512,
+          "encoded": 46212,
+          "duration": 61.80000000074506
+        },
+        {
+          "name": "/assets/vendor-DMuMWS1U.js",
+          "type": "other",
+          "bytes": 53520,
+          "encoded": 53220,
+          "duration": 61.899999998509884
+        },
+        {
+          "name": "/assets/guitar-catalog-fsERoDj-.js",
+          "type": "other",
+          "bytes": 37418,
+          "encoded": 37118,
+          "duration": 58.19999999925494
+        },
+        {
+          "name": "/assets/index-B7UYpM5b.css",
+          "type": "link",
+          "bytes": 18384,
+          "encoded": 18084,
+          "duration": 45.30000000074506
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "type": "css",
+          "bytes": 49352,
+          "encoded": 49052,
+          "duration": 188.69999999925494
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "type": "css",
+          "bytes": 55084,
+          "encoded": 54784,
+          "duration": 188.39999999850988
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "type": "css",
+          "bytes": 32444,
+          "encoded": 32144,
+          "duration": 187.30000000074506
+        },
+        {
+          "name": "/images/hero/acoustic-studio-mobile.webp",
+          "type": "img",
+          "bytes": 43540,
+          "encoded": 43240,
+          "duration": 34.19999999925494
+        },
+        {
+          "name": "/assets/01-black-4e0ibs0x.jpg",
+          "type": "img",
+          "bytes": 187144,
+          "encoded": 186844,
+          "duration": 12.199999999254942
+        },
+        {
+          "name": "/favicon.svg",
+          "type": "other",
+          "bytes": 539,
+          "encoded": 239,
+          "duration": 7.699999999254942
+        }
+      ],
+      "title": "Fretline | ค้นพบเสียงที่เป็นคุณ",
+      "description": "ค้นหา เปรียบเทียบ และเลือกกีตาร์ไฟฟ้า กีตาร์โปร่ง กีตาร์คลาสสิก และเบส จากแบรนด์ชั้นนำ",
+      "canonical": null,
+      "ogTitle": null,
+      "h1": [
+        "ค้นพบเสียงที่เป็นคุณ"
+      ],
+      "brokenImages": [],
+      "overflow": false,
+      "route": "home",
+      "width": 390,
+      "path": "/",
+      "observedCLS": 0.00021,
+      "observedLCPms": 688
+    },
+    {
+      "vitals": {
+        "lcp": [
+          {
+            "time": 488,
+            "size": 2542,
+            "element": "A"
+          },
+          {
+            "time": 632,
+            "size": 11445,
+            "element": "P"
+          }
+        ],
+        "shifts": [
+          {
+            "time": 509.5,
+            "value": 2.192958656358653e-05
+          }
+        ],
+        "longTasks": [
+          {
+            "time": 193.89999999850988,
+            "duration": 114
+          },
+          {
+            "time": 312.3999999985099,
+            "duration": 72
+          }
+        ]
+      },
+      "navigation": [
+        {
+          "domContentLoaded": 307.80000000074506,
+          "load": 308.3999999985099,
+          "transferSize": 873
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "type": "link",
+          "bytes": 516,
+          "encoded": 216,
+          "duration": 61.80000000074506
+        },
+        {
+          "name": "/assets/index-CvRRhhQX.js",
+          "type": "script",
+          "bytes": 46512,
+          "encoded": 46212,
+          "duration": 89.20000000298023
+        },
+        {
+          "name": "/assets/vendor-DMuMWS1U.js",
+          "type": "other",
+          "bytes": 53520,
+          "encoded": 53220,
+          "duration": 129.5
+        },
+        {
+          "name": "/assets/guitar-catalog-fsERoDj-.js",
+          "type": "other",
+          "bytes": 37418,
+          "encoded": 37118,
+          "duration": 128.59999999776483
+        },
+        {
+          "name": "/assets/index-B7UYpM5b.css",
+          "type": "link",
+          "bytes": 18384,
+          "encoded": 18084,
+          "duration": 74.19999999925494
+        },
+        {
+          "name": "/assets/CatalogPage-B0dmqZ21.js",
+          "type": "script",
+          "bytes": 6512,
+          "encoded": 6212,
+          "duration": 7.5
+        },
+        {
+          "name": "/assets/CatalogCard-Dib2uoda.js",
+          "type": "script",
+          "bytes": 2335,
+          "encoded": 2035,
+          "duration": 7.199999999254942
+        },
+        {
+          "name": "/assets/CatalogEmpty-CCEcU-X_.js",
+          "type": "script",
+          "bytes": 999,
+          "encoded": 699,
+          "duration": 7.800000000745058
+        },
+        {
+          "name": "/assets/guitarSort-FWMMLgr5.js",
+          "type": "script",
+          "bytes": 1033,
+          "encoded": 733,
+          "duration": 9.100000001490116
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "type": "css",
+          "bytes": 49352,
+          "encoded": 49052,
+          "duration": 84.59999999776483
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "type": "css",
+          "bytes": 55084,
+          "encoded": 54784,
+          "duration": 86.90000000223517
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "type": "css",
+          "bytes": 32444,
+          "encoded": 32144,
+          "duration": 86.69999999925494
+        },
+        {
+          "name": "/favicon.svg",
+          "type": "other",
+          "bytes": 539,
+          "encoded": 239,
+          "duration": 7.199999999254942
+        },
+        {
+          "name": "/assets/01-black-4e0ibs0x.jpg",
+          "type": "img",
+          "bytes": 187144,
+          "encoded": 186844,
+          "duration": 5
+        }
+      ],
+      "title": "กีตาร์ทั้งหมด | Fretline",
+      "description": "ค้นหา เปรียบเทียบ และเลือกกีตาร์ไฟฟ้า กีตาร์โปร่ง กีตาร์คลาสสิก และเบส จากแบรนด์ชั้นนำ",
+      "canonical": null,
+      "ogTitle": null,
+      "h1": [
+        "Catalog"
+      ],
+      "brokenImages": [],
+      "overflow": false,
+      "route": "catalog",
+      "width": 390,
+      "path": "/guitars",
+      "observedCLS": 2e-05,
+      "observedLCPms": 632
+    },
+    {
+      "vitals": {
+        "lcp": [
+          {
+            "time": 460,
+            "size": 2542,
+            "element": "A"
+          },
+          {
+            "time": 624,
+            "size": 151380,
+            "element": "IMG"
+          }
+        ],
+        "shifts": [
+          {
+            "time": 471.5999999977648,
+            "value": 2.192958656358653e-05
+          }
+        ],
+        "longTasks": [
+          {
+            "time": 149.79999999701977,
+            "duration": 84
+          },
+          {
+            "time": 236.79999999701977,
+            "duration": 74
+          }
+        ]
+      },
+      "navigation": [
+        {
+          "domContentLoaded": 233.29999999701977,
+          "load": 233.89999999850988,
+          "transferSize": 873
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "type": "link",
+          "bytes": 516,
+          "encoded": 216,
+          "duration": 68.19999999925494
+        },
+        {
+          "name": "/assets/index-CvRRhhQX.js",
+          "type": "script",
+          "bytes": 46512,
+          "encoded": 46212,
+          "duration": 85.39999999850988
+        },
+        {
+          "name": "/assets/guitar-catalog-fsERoDj-.js",
+          "type": "other",
+          "bytes": 37418,
+          "encoded": 37118,
+          "duration": 87.59999999776483
+        },
+        {
+          "name": "/assets/vendor-DMuMWS1U.js",
+          "type": "other",
+          "bytes": 53520,
+          "encoded": 53220,
+          "duration": 86
+        },
+        {
+          "name": "/assets/index-B7UYpM5b.css",
+          "type": "link",
+          "bytes": 18384,
+          "encoded": 18084,
+          "duration": 72.89999999850988
+        },
+        {
+          "name": "/assets/GuitarDetailPage-CTxW2jPH.js",
+          "type": "script",
+          "bytes": 8189,
+          "encoded": 7889,
+          "duration": 30.899999998509884
+        },
+        {
+          "name": "/assets/ImageAttribution-UMAhpi_K.js",
+          "type": "script",
+          "bytes": 1047,
+          "encoded": 747,
+          "duration": 28.699999999254942
+        },
+        {
+          "name": "/assets/guitarSort-FWMMLgr5.js",
+          "type": "script",
+          "bytes": 1033,
+          "encoded": 733,
+          "duration": 29.800000000745058
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "type": "css",
+          "bytes": 49352,
+          "encoded": 49052,
+          "duration": 110.30000000074506
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "type": "css",
+          "bytes": 55084,
+          "encoded": 54784,
+          "duration": 110.30000000074506
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "type": "css",
+          "bytes": 32444,
+          "encoded": 32144,
+          "duration": 121.39999999850988
+        },
+        {
+          "name": "/favicon.svg",
+          "type": "other",
+          "bytes": 539,
+          "encoded": 239,
+          "duration": 26.5
+        },
+        {
+          "name": "/assets/01-black-4e0ibs0x.jpg",
+          "type": "img",
+          "bytes": 187144,
+          "encoded": 186844,
+          "duration": 12.799999997019768
+        },
+        {
+          "name": "/assets/02-red-5wy1XNF8.jpg",
+          "type": "img",
+          "bytes": 192356,
+          "encoded": 192056,
+          "duration": 26.400000002235174
+        },
+        {
+          "name": "/assets/03-blue-teal-DGai0Mw0.jpg",
+          "type": "img",
+          "bytes": 192084,
+          "encoded": 191784,
+          "duration": 25.800000000745058
+        },
+        {
+          "name": "/assets/04-all-colors-Dh6UTa0U.jpg",
+          "type": "img",
+          "bytes": 233809,
+          "encoded": 233509,
+          "duration": 26.199999999254942
+        }
+      ],
+      "title": "Yamaha Pacifica 612VIIFM — Fretline",
+      "description": "ค้นหา เปรียบเทียบ และเลือกกีตาร์ไฟฟ้า กีตาร์โปร่ง กีตาร์คลาสสิก และเบส จากแบรนด์ชั้นนำ",
+      "canonical": null,
+      "ogTitle": null,
+      "h1": [
+        "Pacifica 612VIIFM"
+      ],
+      "brokenImages": [],
+      "overflow": false,
+      "route": "detail",
+      "width": 390,
+      "path": "/guitars/yamaha-pacifica-612viifm",
+      "observedCLS": 2e-05,
+      "observedLCPms": 624
+    },
+    {
+      "vitals": {
+        "lcp": [
+          {
+            "time": 472,
+            "size": 2542,
+            "element": "A"
+          },
+          {
+            "time": 568,
+            "size": 5600,
+            "element": "H1"
+          }
+        ],
+        "shifts": [
+          {
+            "time": 506.5,
+            "value": 2.192958656358653e-05
+          }
+        ],
+        "longTasks": [
+          {
+            "time": 121.80000000074506,
+            "duration": 86
+          },
+          {
+            "time": 209.90000000223517,
+            "duration": 70
+          }
+        ]
+      },
+      "navigation": [
+        {
+          "domContentLoaded": 208,
+          "load": 208.19999999925494,
+          "transferSize": 873
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "type": "link",
+          "bytes": 516,
+          "encoded": 216,
+          "duration": 45.19999999925494
+        },
+        {
+          "name": "/assets/index-CvRRhhQX.js",
+          "type": "script",
+          "bytes": 46512,
+          "encoded": 46212,
+          "duration": 67.39999999850988
+        },
+        {
+          "name": "/assets/vendor-DMuMWS1U.js",
+          "type": "other",
+          "bytes": 53520,
+          "encoded": 53220,
+          "duration": 75.39999999850988
+        },
+        {
+          "name": "/assets/index-B7UYpM5b.css",
+          "type": "link",
+          "bytes": 18384,
+          "encoded": 18084,
+          "duration": 59.70000000298023
+        },
+        {
+          "name": "/assets/guitar-catalog-fsERoDj-.js",
+          "type": "other",
+          "bytes": 37418,
+          "encoded": 37118,
+          "duration": 77.5
+        },
+        {
+          "name": "/assets/BrandsPage-BlTLwif2.js",
+          "type": "script",
+          "bytes": 2538,
+          "encoded": 2238,
+          "duration": 6.200000002980232
+        },
+        {
+          "name": "/assets/SortSelect-Bq2zB141.js",
+          "type": "script",
+          "bytes": 905,
+          "encoded": 605,
+          "duration": 9.900000002235174
+        },
+        {
+          "name": "/assets/CatalogEmpty-CCEcU-X_.js",
+          "type": "script",
+          "bytes": 999,
+          "encoded": 699,
+          "duration": 13.600000001490116
+        },
+        {
+          "name": "/assets/DiscoveryHeading-CFTUWnHl.js",
+          "type": "script",
+          "bytes": 1229,
+          "encoded": 929,
+          "duration": 13.399999998509884
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "type": "css",
+          "bytes": 49352,
+          "encoded": 49052,
+          "duration": 127.90000000223517
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "type": "css",
+          "bytes": 55084,
+          "encoded": 54784,
+          "duration": 127.30000000074506
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "type": "css",
+          "bytes": 32444,
+          "encoded": 32144,
+          "duration": 130.80000000074506
+        },
+        {
+          "name": "/favicon.svg",
+          "type": "other",
+          "bytes": 539,
+          "encoded": 239,
+          "duration": 16.099999997764826
+        }
+      ],
+      "title": "แบรนด์กีตาร์ — Fretline",
+      "description": "ค้นหา เปรียบเทียบ และเลือกกีตาร์ไฟฟ้า กีตาร์โปร่ง กีตาร์คลาสสิก และเบส จากแบรนด์ชั้นนำ",
+      "canonical": null,
+      "ogTitle": null,
+      "h1": [
+        "แบรนด์ทั้งหมด"
+      ],
+      "brokenImages": [],
+      "overflow": false,
+      "route": "brands",
+      "width": 390,
+      "path": "/brands",
+      "observedCLS": 2e-05,
+      "observedLCPms": 568
+    },
+    {
+      "vitals": {
+        "lcp": [
+          {
+            "time": 580,
+            "size": 2542,
+            "element": "A"
+          },
+          {
+            "time": 652,
+            "size": 12616,
+            "element": "P"
+          },
+          {
+            "time": 1448,
+            "size": 13099,
+            "element": "IMG"
+          }
+        ],
+        "shifts": [
+          {
+            "time": 601.8000000007451,
+            "value": 2.192958656358653e-05
+          },
+          {
+            "time": 681.3000000007451,
+            "value": 0.014059916409369476
+          }
+        ],
+        "longTasks": [
+          {
+            "time": 185.59999999776483,
+            "duration": 162
+          },
+          {
+            "time": 351.3999999985099,
+            "duration": 102
+          },
+          {
+            "time": 604.5,
+            "duration": 50
+          }
+        ]
+      },
+      "navigation": [
+        {
+          "domContentLoaded": 318.5999999977648,
+          "load": 347.3999999985099,
+          "transferSize": 873
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "type": "link",
+          "bytes": 516,
+          "encoded": 216,
+          "duration": 39.19999999925494
+        },
+        {
+          "name": "/assets/index-CvRRhhQX.js",
+          "type": "script",
+          "bytes": 46512,
+          "encoded": 46212,
+          "duration": 95.90000000223517
+        },
+        {
+          "name": "/assets/guitar-catalog-fsERoDj-.js",
+          "type": "other",
+          "bytes": 37418,
+          "encoded": 37118,
+          "duration": 110.89999999850988
+        },
+        {
+          "name": "/assets/vendor-DMuMWS1U.js",
+          "type": "other",
+          "bytes": 53520,
+          "encoded": 53220,
+          "duration": 107.19999999925494
+        },
+        {
+          "name": "/assets/index-B7UYpM5b.css",
+          "type": "link",
+          "bytes": 18384,
+          "encoded": 18084,
+          "duration": 94
+        },
+        {
+          "name": "/assets/ComparePage-pbvLvEg4.js",
+          "type": "script",
+          "bytes": 4335,
+          "encoded": 4035,
+          "duration": 57
+        },
+        {
+          "name": "/assets/guitarSort-FWMMLgr5.js",
+          "type": "script",
+          "bytes": 1033,
+          "encoded": 733,
+          "duration": 46.19999999925494
+        },
+        {
+          "name": "/assets/ConfirmDialog-Za8Qlrv7.js",
+          "type": "script",
+          "bytes": 869,
+          "encoded": 569,
+          "duration": 53.5
+        },
+        {
+          "name": "/assets/ShareLink-CNE_qIeZ.js",
+          "type": "script",
+          "bytes": 1124,
+          "encoded": 824,
+          "duration": 46
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "type": "css",
+          "bytes": 49352,
+          "encoded": 49052,
+          "duration": 103.80000000074506
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "type": "css",
+          "bytes": 32444,
+          "encoded": 32144,
+          "duration": 108.80000000074506
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "type": "css",
+          "bytes": 55084,
+          "encoded": 54784,
+          "duration": 109
+        },
+        {
+          "name": "/favicon.svg",
+          "type": "other",
+          "bytes": 539,
+          "encoded": 239,
+          "duration": 5.599999997764826
+        },
+        {
+          "name": "/assets/01-black-4e0ibs0x.jpg",
+          "type": "img",
+          "bytes": 187144,
+          "encoded": 186844,
+          "duration": 14.199999999254942
+        }
+      ],
+      "title": "เปรียบเทียบกีตาร์ — Fretline",
+      "description": "ค้นหา เปรียบเทียบ และเลือกกีตาร์ไฟฟ้า กีตาร์โปร่ง กีตาร์คลาสสิก และเบส จากแบรนด์ชั้นนำ",
+      "canonical": null,
+      "ogTitle": null,
+      "h1": [
+        "เปรียบเทียบกีตาร์"
+      ],
+      "brokenImages": [],
+      "overflow": false,
+      "route": "compare",
+      "width": 390,
+      "path": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg800",
+      "observedCLS": 0.01408,
+      "observedLCPms": 1448
+    },
+    {
+      "vitals": {
+        "lcp": [
+          {
+            "time": 496,
+            "size": 2542,
+            "element": "A"
+          },
+          {
+            "time": 576,
+            "size": 23534,
+            "element": "P"
+          }
+        ],
+        "shifts": [
+          {
+            "time": 546.8000000007451,
+            "value": 2.192958656358653e-05
+          }
+        ],
+        "longTasks": [
+          {
+            "time": 175.39999999850988,
+            "duration": 103
+          },
+          {
+            "time": 281.19999999925494,
+            "duration": 66
+          },
+          {
+            "time": 349.19999999925494,
+            "duration": 113
+          }
+        ]
+      },
+      "navigation": [
+        {
+          "domContentLoaded": 277.5,
+          "load": 278.3999999985099,
+          "transferSize": 873
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "type": "link",
+          "bytes": 516,
+          "encoded": 216,
+          "duration": 40.5
+        },
+        {
+          "name": "/assets/index-CvRRhhQX.js",
+          "type": "script",
+          "bytes": 46512,
+          "encoded": 46212,
+          "duration": 60.100000001490116
+        },
+        {
+          "name": "/assets/vendor-DMuMWS1U.js",
+          "type": "other",
+          "bytes": 53520,
+          "encoded": 53220,
+          "duration": 100.69999999925494
+        },
+        {
+          "name": "/assets/index-B7UYpM5b.css",
+          "type": "link",
+          "bytes": 18384,
+          "encoded": 18084,
+          "duration": 42.900000002235174
+        },
+        {
+          "name": "/assets/guitar-catalog-fsERoDj-.js",
+          "type": "other",
+          "bytes": 37418,
+          "encoded": 37118,
+          "duration": 98.60000000149012
+        },
+        {
+          "name": "/assets/FindMyGuitarPage-E_y1J468.js",
+          "type": "script",
+          "bytes": 6515,
+          "encoded": 6215,
+          "duration": 34.400000002235174
+        },
+        {
+          "name": "/assets/ShareLink-CNE_qIeZ.js",
+          "type": "script",
+          "bytes": 1124,
+          "encoded": 824,
+          "duration": 31.400000002235174
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "type": "css",
+          "bytes": 49352,
+          "encoded": 49052,
+          "duration": 115.5
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "type": "css",
+          "bytes": 32444,
+          "encoded": 32144,
+          "duration": 115
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "type": "css",
+          "bytes": 55084,
+          "encoded": 54784,
+          "duration": 114.59999999776483
+        },
+        {
+          "name": "/favicon.svg",
+          "type": "other",
+          "bytes": 539,
+          "encoded": 239,
+          "duration": 9.300000000745058
+        }
+      ],
+      "title": "ค้นหากีตาร์ที่ใช่ — Fretline",
+      "description": "ค้นหา เปรียบเทียบ และเลือกกีตาร์ไฟฟ้า กีตาร์โปร่ง กีตาร์คลาสสิก และเบส จากแบรนด์ชั้นนำ",
+      "canonical": null,
+      "ogTitle": null,
+      "h1": [
+        "Find My Guitar Quiz"
+      ],
+      "brokenImages": [],
+      "overflow": false,
+      "route": "quiz",
+      "width": 390,
+      "path": "/find-my-guitar",
+      "observedCLS": 2e-05,
+      "observedLCPms": 576
+    },
+    {
+      "vitals": {
+        "lcp": [
+          {
+            "time": 476,
+            "size": 2542,
+            "element": "A"
+          },
+          {
+            "time": 548,
+            "size": 13572,
+            "element": "H2"
+          }
+        ],
+        "shifts": [
+          {
+            "time": 495.1000000014901,
+            "value": 2.192958656358653e-05
+          }
+        ],
+        "longTasks": [
+          {
+            "time": 191.10000000149012,
+            "duration": 91
+          },
+          {
+            "time": 289.20000000298023,
+            "duration": 81
+          }
+        ]
+      },
+      "navigation": [
+        {
+          "domContentLoaded": 281.6000000014901,
+          "load": 282.1000000014901,
+          "transferSize": 873
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "type": "link",
+          "bytes": 516,
+          "encoded": 216,
+          "duration": 21.399999998509884
+        },
+        {
+          "name": "/assets/index-CvRRhhQX.js",
+          "type": "script",
+          "bytes": 46512,
+          "encoded": 46212,
+          "duration": 73.19999999925494
+        },
+        {
+          "name": "/assets/guitar-catalog-fsERoDj-.js",
+          "type": "other",
+          "bytes": 37418,
+          "encoded": 37118,
+          "duration": 87
+        },
+        {
+          "name": "/assets/vendor-DMuMWS1U.js",
+          "type": "other",
+          "bytes": 53520,
+          "encoded": 53220,
+          "duration": 82.69999999925494
+        },
+        {
+          "name": "/assets/index-B7UYpM5b.css",
+          "type": "link",
+          "bytes": 18384,
+          "encoded": 18084,
+          "duration": 36.19999999925494
+        },
+        {
+          "name": "/assets/WishlistPage-CqZToQiy.js",
+          "type": "script",
+          "bytes": 2448,
+          "encoded": 2148,
+          "duration": 30.100000001490116
+        },
+        {
+          "name": "/assets/CatalogEmpty-CCEcU-X_.js",
+          "type": "script",
+          "bytes": 999,
+          "encoded": 699,
+          "duration": 14.400000002235174
+        },
+        {
+          "name": "/assets/ConfirmDialog-Za8Qlrv7.js",
+          "type": "script",
+          "bytes": 869,
+          "encoded": 569,
+          "duration": 29.900000002235174
+        },
+        {
+          "name": "/assets/DiscoveryHeading-CFTUWnHl.js",
+          "type": "script",
+          "bytes": 1229,
+          "encoded": 929,
+          "duration": 17.099999997764826
+        },
+        {
+          "name": "/assets/SortSelect-Bq2zB141.js",
+          "type": "script",
+          "bytes": 905,
+          "encoded": 605,
+          "duration": 17
+        },
+        {
+          "name": "/assets/guitarSort-FWMMLgr5.js",
+          "type": "script",
+          "bytes": 1033,
+          "encoded": 733,
+          "duration": 17
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "type": "css",
+          "bytes": 49352,
+          "encoded": 49052,
+          "duration": 83.89999999850988
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "type": "css",
+          "bytes": 55084,
+          "encoded": 54784,
+          "duration": 84.09999999776483
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "type": "css",
+          "bytes": 32444,
+          "encoded": 32144,
+          "duration": 84.10000000149012
+        },
+        {
+          "name": "/favicon.svg",
+          "type": "other",
+          "bytes": 539,
+          "encoded": 239,
+          "duration": 8.399999998509884
+        }
+      ],
+      "title": "รายการโปรดของฉัน — Fretline",
+      "description": "ค้นหา เปรียบเทียบ และเลือกกีตาร์ไฟฟ้า กีตาร์โปร่ง กีตาร์คลาสสิก และเบส จากแบรนด์ชั้นนำ",
+      "canonical": null,
+      "ogTitle": null,
+      "h1": [
+        "รายการโปรดของฉัน"
+      ],
+      "brokenImages": [],
+      "overflow": false,
+      "route": "wishlist",
+      "width": 390,
+      "path": "/wishlist",
+      "observedCLS": 2e-05,
+      "observedLCPms": 548
+    }
+  ],
+  "bundles": [
+    {
+      "file": "BrandDetailPage-DQ2Fm8TB.js",
+      "bytes": 6060,
+      "gzipBytes": 2116
+    },
+    {
+      "file": "BrandsPage-BlTLwif2.js",
+      "bytes": 5611,
+      "gzipBytes": 2241
+    },
+    {
+      "file": "CatalogCard-Dib2uoda.js",
+      "bytes": 5164,
+      "gzipBytes": 2039
+    },
+    {
+      "file": "CatalogEmpty-CCEcU-X_.js",
+      "bytes": 699,
+      "gzipBytes": 406
+    },
+    {
+      "file": "CatalogPage-B0dmqZ21.js",
+      "bytes": 18468,
+      "gzipBytes": 6206
+    },
+    {
+      "file": "ComparePage-pbvLvEg4.js",
+      "bytes": 11500,
+      "gzipBytes": 4036
+    },
+    {
+      "file": "ConfirmDialog-Za8Qlrv7.js",
+      "bytes": 1028,
+      "gzipBytes": 571
+    },
+    {
+      "file": "DiscoveryHeading-CFTUWnHl.js",
+      "bytes": 929,
+      "gzipBytes": 492
+    },
+    {
+      "file": "FindMyGuitarPage-E_y1J468.js",
+      "bytes": 19141,
+      "gzipBytes": 6217
+    },
+    {
+      "file": "GuitarDetailPage-CTxW2jPH.js",
+      "bytes": 23419,
+      "gzipBytes": 7875
+    },
+    {
+      "file": "ImageAttribution-UMAhpi_K.js",
+      "bytes": 747,
+      "gzipBytes": 392
+    },
+    {
+      "file": "ImageCreditsPage-DNeCBH37.js",
+      "bytes": 2612,
+      "gzipBytes": 1039
+    },
+    {
+      "file": "ShareLink-CNE_qIeZ.js",
+      "bytes": 824,
+      "gzipBytes": 531
+    },
+    {
+      "file": "SortSelect-Bq2zB141.js",
+      "bytes": 605,
+      "gzipBytes": 379
+    },
+    {
+      "file": "WishlistPage-CqZToQiy.js",
+      "bytes": 5657,
+      "gzipBytes": 2149
+    },
+    {
+      "file": "guitar-catalog-fsERoDj-.js",
+      "bytes": 456867,
+      "gzipBytes": 36916
+    },
+    {
+      "file": "guitarSort-FWMMLgr5.js",
+      "bytes": 733,
+      "gzipBytes": 414
+    },
+    {
+      "file": "index-B7UYpM5b.css",
+      "bytes": 94792,
+      "gzipBytes": 17992
+    },
+    {
+      "file": "index-CvRRhhQX.js",
+      "bytes": 166287,
+      "gzipBytes": 45903
+    },
+    {
+      "file": "vendor-DMuMWS1U.js",
+      "bytes": 163325,
+      "gzipBytes": 53132
+    }
+  ],
+  "errors": [],
+  "completed": true
+}

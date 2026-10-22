@@ -1,0 +1,27 @@
+{
+  "browser": "Chromium emulation, not Safari",
+  "checks": [
+    {
+      "width": 390,
+      "case": "Filter opens, Escape closes and restores trigger focus",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "case": "Menu opens, Escape hides it and restores trigger focus",
+      "passed": true
+    },
+    {
+      "width": 768,
+      "case": "Filter opens, Escape closes and restores trigger focus",
+      "passed": true
+    },
+    {
+      "width": 768,
+      "case": "Menu opens, Escape hides it and restores trigger focus",
+      "passed": true
+    }
+  ],
+  "testCorrection": "Initial probe wrongly assumed the mobile menu is unmounted on close. The persistent menu closes through visibility and aria-hidden; the corrected checks validate those user-facing states and focus restoration.",
+  "passed": true
+}

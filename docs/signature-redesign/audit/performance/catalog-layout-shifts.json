@@ -1,0 +1,309 @@
+{
+  "scope": "Two extra local cold-context Catalog samples to inspect a >0.1 observed CLS baseline finding; not field measurements.",
+  "samples": [
+    {
+      "run": 1,
+      "shifts": [
+        {
+          "value": 0.00010646898811246143,
+          "time": 562.2999999970198,
+          "sources": [
+            {
+              "node": {
+                "tag": "NAV",
+                "className": "hidden items-center gap-7 lg:flex",
+                "text": "หน้าหลักกีตาร์แบรนด์เปรียบเทียบค้นหากีตาร์ที่ใช่"
+              },
+              "previous": {
+                "x": 507.046875,
+                "y": 22,
+                "width": 375.734375,
+                "height": 36,
+                "top": 22,
+                "right": 882.78125,
+                "bottom": 58,
+                "left": 507.046875
+              },
+              "current": {
+                "x": 496.84375,
+                "y": 22,
+                "width": 380.109375,
+                "height": 36,
+                "top": 22,
+                "right": 876.953125,
+                "bottom": 58,
+                "left": 496.84375
+              }
+            },
+            {
+              "node": {
+                "tag": null,
+                "className": null,
+                "text": "."
+              },
+              "previous": {
+                "x": 203.5,
+                "y": 24,
+                "width": 6.3125,
+                "height": 37,
+                "top": 24,
+                "right": 209.8125,
+                "bottom": 61,
+                "left": 203.5
+              },
+              "current": {
+                "x": 188.53125,
+                "y": 21,
+                "width": 5.265625,
+                "height": 37,
+                "top": 21,
+                "right": 193.796875,
+                "bottom": 58,
+                "left": 188.53125
+              }
+            },
+            {
+              "node": {
+                "tag": null,
+                "className": null,
+                "text": "."
+              },
+              "previous": {
+                "x": 203.5,
+                "y": 843,
+                "width": 6.3125,
+                "height": 37,
+                "top": 843,
+                "right": 209.8125,
+                "bottom": 880,
+                "left": 203.5
+              },
+              "current": {
+                "x": 188.53125,
+                "y": 840,
+                "width": 5.265625,
+                "height": 37,
+                "top": 840,
+                "right": 193.796875,
+                "bottom": 877,
+                "left": 188.53125
+              }
+            },
+            {
+              "node": {
+                "tag": "::after",
+                "className": "",
+                "text": ""
+              },
+              "previous": {
+                "x": 582.15625,
+                "y": 59,
+                "width": 29.828125,
+                "height": 1,
+                "top": 59,
+                "right": 611.984375,
+                "bottom": 60,
+                "left": 582.15625
+              },
+              "current": {
+                "x": 573.078125,
+                "y": 59,
+                "width": 30.6875,
+                "height": 1,
+                "top": 59,
+                "right": 603.765625,
+                "bottom": 60,
+                "left": 573.078125
+              }
+            }
+          ]
+        },
+        {
+          "value": 0.236,
+          "time": 699.1999999992549,
+          "sources": [
+            {
+              "node": {
+                "tag": "FOOTER",
+                "className": "overflow-hidden border-t border-line bg-[#050505]",
+                "text": "Fretline.แคตตาล็อกกีตาร์สำหรับค้นหา เปรียบเทียบ และเลือกกีตาร์ที่เหมาะกับสไตล์กา"
+              },
+              "previous": {
+                "x": 0,
+                "y": 764,
+                "width": 1440,
+                "height": 236,
+                "top": 764,
+                "right": 1440,
+                "bottom": 1000,
+                "left": 0
+              },
+              "current": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "shifts": [
+        {
+          "value": 0.00010646898811246143,
+          "time": 518.3000000007451,
+          "sources": [
+            {
+              "node": {
+                "tag": "NAV",
+                "className": "hidden items-center gap-7 lg:flex",
+                "text": "หน้าหลักกีตาร์แบรนด์เปรียบเทียบค้นหากีตาร์ที่ใช่"
+              },
+              "previous": {
+                "x": 507.046875,
+                "y": 22,
+                "width": 375.734375,
+                "height": 36,
+                "top": 22,
+                "right": 882.78125,
+                "bottom": 58,
+                "left": 507.046875
+              },
+              "current": {
+                "x": 496.84375,
+                "y": 22,
+                "width": 380.109375,
+                "height": 36,
+                "top": 22,
+                "right": 876.953125,
+                "bottom": 58,
+                "left": 496.84375
+              }
+            },
+            {
+              "node": {
+                "tag": null,
+                "className": null,
+                "text": "."
+              },
+              "previous": {
+                "x": 203.5,
+                "y": 24,
+                "width": 6.3125,
+                "height": 37,
+                "top": 24,
+                "right": 209.8125,
+                "bottom": 61,
+                "left": 203.5
+              },
+              "current": {
+                "x": 188.53125,
+                "y": 21,
+                "width": 5.265625,
+                "height": 37,
+                "top": 21,
+                "right": 193.796875,
+                "bottom": 58,
+                "left": 188.53125
+              }
+            },
+            {
+              "node": {
+                "tag": null,
+                "className": null,
+                "text": "."
+              },
+              "previous": {
+                "x": 203.5,
+                "y": 843,
+                "width": 6.3125,
+                "height": 37,
+                "top": 843,
+                "right": 209.8125,
+                "bottom": 880,
+                "left": 203.5
+              },
+              "current": {
+                "x": 188.53125,
+                "y": 840,
+                "width": 5.265625,
+                "height": 37,
+                "top": 840,
+                "right": 193.796875,
+                "bottom": 877,
+                "left": 188.53125
+              }
+            },
+            {
+              "node": {
+                "tag": "::after",
+                "className": "",
+                "text": ""
+              },
+              "previous": {
+                "x": 582.15625,
+                "y": 59,
+                "width": 29.828125,
+                "height": 1,
+                "top": 59,
+                "right": 611.984375,
+                "bottom": 60,
+                "left": 582.15625
+              },
+              "current": {
+                "x": 573.078125,
+                "y": 59,
+                "width": 30.6875,
+                "height": 1,
+                "top": 59,
+                "right": 603.765625,
+                "bottom": 60,
+                "left": 573.078125
+              }
+            }
+          ]
+        },
+        {
+          "value": 0.236,
+          "time": 676.3000000007451,
+          "sources": [
+            {
+              "node": {
+                "tag": "FOOTER",
+                "className": "overflow-hidden border-t border-line bg-[#050505]",
+                "text": "Fretline.แคตตาล็อกกีตาร์สำหรับค้นหา เปรียบเทียบ และเลือกกีตาร์ที่เหมาะกับสไตล์กา"
+              },
+              "previous": {
+                "x": 0,
+                "y": 764,
+                "width": 1440,
+                "height": 236,
+                "top": 764,
+                "right": 1440,
+                "bottom": 1000,
+                "left": 0
+              },
+              "current": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0,
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

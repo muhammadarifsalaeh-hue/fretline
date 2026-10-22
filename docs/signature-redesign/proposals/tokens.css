@@ -1,0 +1,62 @@
+/* REVIEW PROPOSAL ONLY. This file is not imported into the Fretline application. */
+:root {
+  color-scheme: dark;
+  --fl-canvas: #0A0A0A;
+  --fl-surface: #141414;
+  --fl-surface-raised: #1C1C1C;
+  --fl-text: #F5F5F2;
+  --fl-text-secondary: #B3B3AA;
+  --fl-text-muted: #96968E;
+  --fl-accent: #C8A15A;
+  --fl-accent-soft: #E0C58C;
+  --fl-border: #2A2A2A;
+  --fl-border-strong: #46463E;
+  --fl-focus: #E0C58C;
+  --fl-font-body: Anuphan, system-ui, sans-serif;
+  --fl-font-display: 'Instrument Serif', Anuphan, serif;
+  --fl-type-display: clamp(2.75rem, 5vw, 4.5rem);
+  --fl-type-page: clamp(2.125rem, 3vw, 3rem);
+  --fl-type-section: clamp(1.75rem, 2.4vw, 2.5rem);
+  --fl-type-product: clamp(1.25rem, 1.6vw, 1.5rem);
+  --fl-type-body: 1rem;
+  --fl-type-small: .875rem;
+  --fl-type-caption: .8125rem;
+  --fl-leading-body: 1.8;
+  --fl-leading-heading-th: 1.4;
+  --fl-leading-heading-en: 1.08;
+  --fl-space-1: 4px;
+  --fl-space-2: 8px;
+  --fl-space-3: 12px;
+  --fl-space-4: 16px;
+  --fl-space-6: 24px;
+  --fl-space-8: 32px;
+  --fl-space-12: 48px;
+  --fl-space-16: 64px;
+  --fl-space-24: 96px;
+  --fl-radius-control: 8px;
+  --fl-radius-card: 12px;
+  --fl-radius-dialog: 20px;
+  --fl-radius-pill: 999px;
+  --fl-shadow-card: 0 12px 30px #00000026;
+  --fl-shadow-dialog: 0 24px 80px #00000066;
+  --fl-content-width: 1280px;
+  --fl-control-height: 48px;
+  --fl-touch-target: 44px;
+  --fl-header-mobile: 64px;
+  --fl-header-desktop: 80px;
+  --fl-bottom-navigation: 64px;
+  --fl-layer-tray: 40;
+  --fl-layer-navigation: 50;
+  --fl-layer-drawer: 60;
+  --fl-layer-lightbox: 80;
+  --fl-layer-toast: 90;
+  --fl-layer-skip-link: 100;
+  --fl-duration-feedback: 160ms;
+  --fl-duration-transition: 240ms;
+  --fl-duration-editorial: 420ms;
+  --fl-ease: cubic-bezier(.22, 1, .36, 1);
+}
+/* Proposed breakpoints: 360 / 640 / 768 / 1024 / 1280px.
+   Gutters: 20px mobile, 32px tablet, 40px desktop, plus safe-area insets.
+   Thai headings retain natural tracking; English display tracking is opt-in.
+   Motion helpers, JS scrolling and CSS must all respect reduced motion. */

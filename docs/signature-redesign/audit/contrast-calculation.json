@@ -1,0 +1,29 @@
+{
+  "method": "WCAG sRGB contrast formula; current opacity cases computed on assumed #0A0A0A canvas, not an exhaustive live contrast audit.",
+  "current": [
+    {
+      "pair": "bone/45 on canvas",
+      "ratio": 4.21,
+      "normalTextTarget": 4.5
+    },
+    {
+      "pair": "mute/60 on canvas",
+      "ratio": 2.72,
+      "normalTextTarget": 4.5
+    }
+  ],
+  "proposed": [
+    {
+      "pair": "secondary on surface",
+      "ratio": 8.72
+    },
+    {
+      "pair": "muted on surface",
+      "ratio": 6.18
+    },
+    {
+      "pair": "ink on champagne CTA",
+      "ratio": 11.82
+    }
+  ]
+}

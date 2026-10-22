@@ -1,0 +1,315 @@
+{
+  "baseline": "82fbe9b",
+  "findings": {
+    "hover": {
+      "before": {
+        "rect": {
+          "x": 352,
+          "y": 435.796875,
+          "width": 311.65625,
+          "height": 259.703125,
+          "top": 435.796875,
+          "right": 663.65625,
+          "bottom": 695.5,
+          "left": 352
+        },
+        "transform": "none",
+        "fit": "contain"
+      },
+      "hovered": {
+        "transform": "matrix(1.05, 0, 0, 1.05, 0, 0)",
+        "scale": 1.05,
+        "fit": "contain",
+        "frame": {
+          "x": 352,
+          "y": 431.796875,
+          "width": 311.65625,
+          "height": 259.703125,
+          "top": 431.796875,
+          "right": 663.65625,
+          "bottom": 691.5,
+          "left": 352
+        },
+        "painted": {
+          "top": 425.3043212890625,
+          "left": 398.75283203125,
+          "width": 218.1505859375,
+          "height": 272.688232421875
+        },
+        "clippedTop": 6.4925537109375,
+        "clippedBottom": 6.4925537109375,
+        "clippedLeft": 0,
+        "clippedRight": 0
+      },
+      "edgeClippingReproduced": true,
+      "scope": "Rendered image boundaries clip at the frame; this is not an assertion that every model headstock is cut."
+    },
+    "over70k": {
+      "requestedPreset": "มากกว่า ฿70k",
+      "url": "http://127.0.0.1:5192/guitars?min=70000",
+      "modelCount": 1,
+      "resultText": "YAMAHA\n\nกีตาร์ไฟฟ้า\n\nPacifica 612VIIFM\nBlack\nRed\nBlue / Teal\n3 สี\n\nตรวจสอบบางส่วน\n\nHSS\nSeymour Duncan\n22 frets\n\n฿34,000\n\nราคาขายปลีกแนะนำโดย Yamaha ประเทศไทย\n\nดูรายละเอียด\nเปรียบเทียบ",
+      "wrongPriceReproduced": true,
+      "expected": "No verified-price guitar above70000 exists; do not return34000 as matching the requested threshold."
+    },
+    "compareText": [
+      {
+        "text": "เหมือนกัน",
+        "color": "rgba(138, 138, 133, 0.6)",
+        "fontSize": "11px",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Yamaha",
+        "color": "rgba(245, 245, 242, 0.45)",
+        "fontSize": "12px",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "Yamaha",
+        "color": "rgba(245, 245, 242, 0.45)",
+        "fontSize": "12px",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "ไม่ระบุ",
+        "color": "rgba(245, 245, 242, 0.45)",
+        "fontSize": "12px",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "ไม่ระบุ",
+        "color": "rgba(245, 245, 242, 0.45)",
+        "fontSize": "12px",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "ไม่ระบุ",
+        "color": "rgba(245, 245, 242, 0.45)",
+        "fontSize": "12px",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "text": "ไม่ระบุ",
+        "color": "rgba(245, 245, 242, 0.45)",
+        "fontSize": "12px",
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "runtimeData": {
+      "models": 200,
+      "brands": {
+        "Fender": 20,
+        "Gibson": 20,
+        "Ibanez": 20,
+        "Yamaha": 20,
+        "PRS": 20,
+        "Epiphone": 20,
+        "Taylor": 20,
+        "Martin": 20,
+        "Córdoba": 20,
+        "Squier": 20
+      },
+      "uniqueIds": 200,
+      "everyDetailResolves": true,
+      "pacificaGallery": 4,
+      "pacificaPrice": 34000,
+      "pacificaStoredColors": 0
+    },
+    "fixedLayers": [
+      {
+        "width": 390,
+        "height": 844,
+        "areas": [
+          {
+            "tag": "HEADER",
+            "className": "fixed inset-x-0 top-0 z-50 border-b transition-[background-color,border-color,backdrop-filter] duration-500 ease-premium border-line bg-ink/80 backdrop-blur-xl",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 390,
+              "height": 65,
+              "top": 0,
+              "right": 390,
+              "bottom": 65,
+              "left": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "className": "fixed inset-x-0 top-16 z-40 border-b border-line bg-ink/90 backdrop-blur-xl transition duration-500 ease-premium lg:top-20 translate-y-0 opacity-100",
+            "rect": {
+              "x": 0,
+              "y": 64,
+              "width": 390,
+              "height": 73,
+              "top": 64,
+              "right": 390,
+              "bottom": 137,
+              "left": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "className": "fixed inset-x-0 bottom-[calc(68px+env(safe-area-inset-bottom))] z-40 px-3 transition duration-500 ease-premium lg:bottom-6 translate-y-0 opacity-100",
+            "rect": {
+              "x": 0,
+              "y": 710,
+              "width": 390,
+              "height": 66,
+              "top": 710,
+              "right": 390,
+              "bottom": 776,
+              "left": 0
+            }
+          },
+          {
+            "tag": "NAV",
+            "className": "fixed inset-x-0 bottom-0 z-40 grid grid-cols-4 border-t border-line bg-ink/90 pb-[env(safe-area-inset-bottom)] backdrop-blur-xl lg:hidden",
+            "rect": {
+              "x": 0,
+              "y": 783,
+              "width": 390,
+              "height": 61,
+              "top": 783,
+              "right": 390,
+              "bottom": 844,
+              "left": 0
+            }
+          }
+        ]
+      },
+      {
+        "width": 768,
+        "height": 1024,
+        "areas": [
+          {
+            "tag": "HEADER",
+            "className": "fixed inset-x-0 top-0 z-50 border-b transition-[background-color,border-color,backdrop-filter] duration-500 ease-premium border-line bg-ink/80 backdrop-blur-xl",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 768,
+              "height": 65,
+              "top": 0,
+              "right": 768,
+              "bottom": 65,
+              "left": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "className": "fixed inset-x-0 top-16 z-40 border-b border-line bg-ink/90 backdrop-blur-xl transition duration-500 ease-premium lg:top-20 translate-y-0 opacity-100",
+            "rect": {
+              "x": 0,
+              "y": 64,
+              "width": 768,
+              "height": 81,
+              "top": 64,
+              "right": 768,
+              "bottom": 145,
+              "left": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "className": "fixed inset-x-0 bottom-[calc(68px+env(safe-area-inset-bottom))] z-40 px-3 transition duration-500 ease-premium lg:bottom-6 translate-y-0 opacity-100",
+            "rect": {
+              "x": 0,
+              "y": 882,
+              "width": 768,
+              "height": 74,
+              "top": 882,
+              "right": 768,
+              "bottom": 956,
+              "left": 0
+            }
+          },
+          {
+            "tag": "NAV",
+            "className": "fixed inset-x-0 bottom-0 z-40 grid grid-cols-4 border-t border-line bg-ink/90 pb-[env(safe-area-inset-bottom)] backdrop-blur-xl lg:hidden",
+            "rect": {
+              "x": 0,
+              "y": 963,
+              "width": 768,
+              "height": 61,
+              "top": 963,
+              "right": 768,
+              "bottom": 1024,
+              "left": 0
+            }
+          }
+        ]
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "areas": [
+          {
+            "tag": "HEADER",
+            "className": "fixed inset-x-0 top-0 z-50 border-b transition-[background-color,border-color,backdrop-filter] duration-500 ease-premium border-line bg-ink/80 backdrop-blur-xl",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 320,
+              "height": 65,
+              "top": 0,
+              "right": 320,
+              "bottom": 65,
+              "left": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "className": "fixed inset-x-0 top-16 z-40 border-b border-line bg-ink/90 backdrop-blur-xl transition duration-500 ease-premium lg:top-20 translate-y-0 opacity-100",
+            "rect": {
+              "x": 0,
+              "y": 64,
+              "width": 320,
+              "height": 73,
+              "top": 64,
+              "right": 320,
+              "bottom": 137,
+              "left": 0
+            }
+          },
+          {
+            "tag": "DIV",
+            "className": "fixed inset-x-0 bottom-[calc(68px+env(safe-area-inset-bottom))] z-40 px-3 transition duration-500 ease-premium lg:bottom-6 translate-y-0 opacity-100",
+            "rect": {
+              "x": 0,
+              "y": 606,
+              "width": 320,
+              "height": 66,
+              "top": 606,
+              "right": 320,
+              "bottom": 672,
+              "left": 0
+            }
+          },
+          {
+            "tag": "NAV",
+            "className": "fixed inset-x-0 bottom-0 z-40 grid grid-cols-4 border-t border-line bg-ink/90 pb-[env(safe-area-inset-bottom)] backdrop-blur-xl lg:hidden",
+            "rect": {
+              "x": 0,
+              "y": 679,
+              "width": 320,
+              "height": 61,
+              "top": 679,
+              "right": 320,
+              "bottom": 740,
+              "left": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "screenshots": [
+    "catalog-image-before-hover.png",
+    "catalog-image-hover.png",
+    "catalog-over70k-wrong-result.png"
+  ],
+  "errors": [],
+  "completed": true
+}

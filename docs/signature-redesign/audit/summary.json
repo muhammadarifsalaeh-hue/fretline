@@ -1,0 +1,71 @@
+{
+  "baseline": "82fbe9bdae7cbb9b0d32f356172a37fc7646362a",
+  "stage": "Phase A complete; Design System proposal awaiting review; no application implementation changes",
+  "applicationChanged": false,
+  "checks": {
+    "build": {
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exitCode": 0,
+      "seconds": 4.171
+    },
+    "catalog": {
+      "command": [
+        "npm",
+        "run",
+        "catalog:check"
+      ],
+      "exitCode": 0,
+      "seconds": 0.724
+    },
+    "images": {
+      "command": [
+        "npm",
+        "run",
+        "images:check"
+      ],
+      "exitCode": 0,
+      "seconds": 0.79
+    }
+  },
+  "beforeViews": 53,
+  "beforeScreenshots": 36,
+  "pageOverflows": 0,
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "existingRegressionChecksPassed": 79,
+  "dialogChecksPassed": 4,
+  "data": {
+    "models": 200,
+    "brands": {
+      "Fender": 20,
+      "Gibson": 20,
+      "Ibanez": 20,
+      "Yamaha": 20,
+      "PRS": 20,
+      "Epiphone": 20,
+      "Taylor": 20,
+      "Martin": 20,
+      "Córdoba": 20,
+      "Squier": 20
+    },
+    "uniqueIds": 200,
+    "everyDetailResolves": true,
+    "pacificaGallery": 4,
+    "pacificaPrice": 34000,
+    "pacificaStoredColors": 0
+  },
+  "performanceSamples": 14,
+  "maximumObservedCLS": 0.23611,
+  "knownDefectsUnfixed": [
+    "over70k preset returns34000 model",
+    "hover clips original image edges",
+    "loading/footer layout shift on desktop",
+    "low comparison text contrast"
+  ],
+  "physicalSafariTested": false
+}
