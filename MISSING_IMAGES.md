@@ -1,15 +1,22 @@
-# Missing guitar photos
+# Missing guitar images
 
-198 of 200 models still require rights-documented, matching photos. Existing placeholders remain in use.
+197 of 200 models still use placeholders. 2 licensed photographs and 4 user-supplied project illustrations are registered.
 
-## Accepted images
+## Licensed photographs
 
 - yamaha-fg820-12: Peternick2468 — [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source](https://commons.wikimedia.org/wiki/File:12_string_Yamaha_acoustic_guitar.jpg). EXIF orientation applied; resized and encoded as WebP. No crop, retouch, background removal, or AI alteration.
 - martin-d-28: IchiroNakagawa — [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source](https://commons.wikimedia.org/wiki/File:Martin_D-28.jpg). EXIF orientation applied; metadata including GPS removed; resized without cropping and encoded as WebP. No retouch, background removal, or AI alteration. Derivatives distributed under CC BY-SA 4.0.
 
-## Add a photo
+## User-supplied project artwork
 
-Use a photo of the correct model/variant with established reuse rights. Record author, source, license URL, check date, model-match note, transformations, file dimensions and SHA-256 in `src/data/catalog/imageRights.json`. Place responsive versions in the model’s `responsive/` folder so they do not become duplicate gallery angles. Run `npm run images:check`; unregistered files remain unpublished.
+- yamaha-pacifica-612viifm/01-black.jpg: Black. Supplied by the user for this project; AI editing retained in metadata, not represented as a verified product photograph or a verified license.
+- yamaha-pacifica-612viifm/02-red.jpg: Red. Supplied by the user for this project; AI editing retained in metadata, not represented as a verified product photograph or a verified license.
+- yamaha-pacifica-612viifm/03-blue-teal.jpg: Blue / Teal. Supplied by the user for this project; AI editing retained in metadata, not represented as a verified product photograph or a verified license.
+- yamaha-pacifica-612viifm/04-all-colors.jpg: ภาพรวม 3 สี. Supplied by the user for this project; AI editing retained in metadata, not represented as a verified product photograph or a verified license.
+
+## Add an image
+
+Licensed photographs use `src/data/catalog/imageRights.json`. User-supplied artwork requested for the project uses `src/data/catalog/projectArtwork.json`, with its original source, editing history, dimensions and SHA-256. The two records are separate; project use is not license verification. Place responsive versions in the model’s `responsive/` folder so they do not become duplicate gallery angles. Run `npm run images:check`; unregistered files remain unpublished.
 
 ## Models still missing photos
 
@@ -18,7 +25,6 @@ Use a photo of the correct model/variant with established reuse rights. Record a
 | Fender American Professional II Stratocaster | fender-american-professional-ii-stratocaster |
 | Gibson Les Paul Standard 60s | gibson-les-paul-standard-60s |
 | Ibanez RG550 Genesis | ibanez-rg550-genesis |
-| Yamaha Pacifica 612VIIFM | yamaha-pacifica-612viifm |
 | PRS SE Custom 24 | prs-se-custom-24 |
 | Epiphone Casino Hollowbody | epiphone-casino |
 | Taylor 214ce Grand Auditorium | taylor-214ce |

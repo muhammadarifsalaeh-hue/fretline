@@ -1,0 +1,30 @@
+{
+  "baseline": "23b7faa6650d18533ae0ffad92f528c0244de2ca",
+  "guitarId": "yamaha-pacifica-612viifm",
+  "sourceImagesAdded": 4,
+  "sourceImageBytes": 804193,
+  "catalogModels": 200,
+  "brands": 10,
+  "modelsPerBrand": 20,
+  "catalogFactsAndLicensedImageRecordsUnchanged": true,
+  "build": "passed",
+  "catalogCheck": "passed",
+  "imagesCheck": "passed",
+  "browser": {
+    "production": {
+      "passed": true,
+      "checks": 79,
+      "consoleErrors": [],
+      "runtimeErrors": [],
+      "failedRequests": []
+    },
+    "development": {
+      "passed": true,
+      "checks": 79,
+      "consoleErrors": [],
+      "runtimeErrors": [],
+      "failedRequests": []
+    }
+  },
+  "physicalSafariOrIPadTested": false
+}

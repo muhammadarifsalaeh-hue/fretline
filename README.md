@@ -1,4 +1,4 @@
-> Latest update: [Pacifica color gallery — เปิดใน Codespaces บน iPad](docs/PACIFICA_PREVIEW_CODESPACES.md). โค้ด Gallery และราคาแนะนำ Yamaha ประเทศไทย; ภาพที่ยังไม่ยืนยันสิทธิ์อยู่เฉพาะ Preview เลือก JPEG จากอุปกรณ์ได้โดยไม่อัปโหลดเข้า GitHub
+> Latest update: [Pacifica color gallery — เปิดใน Codespaces บน iPad](docs/PACIFICA_PREVIEW_CODESPACES.md). ใส่ภาพที่ผู้ใช้จัดหาครบ 4 ภาพแล้ว เปิดด้วย `npm run dev` ได้ทันที พร้อมเลือกสีดำ แดง ฟ้าอมเขียว และดูภาพรวม ราคาแนะนำ Yamaha ประเทศไทย 34,000 บาท
 
 > Previous delivery: [Phase 9 — first 20-model evidence review](docs/qa-phase9/README.md). Two models per brand rechecked against manufacturer specifications, field-level evidence and one additional licensed owner photograph. All 200 records remain partial.
 
@@ -28,10 +28,9 @@ npm run dev      # http://localhost:5173
 npm run build
 npm run catalog:check
 npm run images:check
-node scripts/check-pacifica-preview.mjs
 ```
 
-Historical phase4–phase9 checks retain their original data snapshots; they are not current catalog acceptance checks after the authorized Pacifica price/specification update.
+Historical phase4–phase9 and private-preview checks retain their original data snapshots; they are not current catalog acceptance checks after the authorized Pacifica price/specification and project-artwork updates. Current gallery browser checks are in `docs/qa-pacifica-project/browser-gallery.py`.
 
 Phase 8 browser scripts and reproducible checks are documented in [the QA report](docs/PHASE_8_REPORT.md). They use Python Playwright and a separately installed Chromium; these tools are not runtime dependencies of the website.
 
@@ -39,7 +38,7 @@ Phase 9 results, the 20-model specification tables, dated manufacturer links and
 
 ## รูปภาพ
 
-**รูปกีตาร์รายรุ่น:** วางไฟล์ที่ `src/assets/guitars/<guitar-id>/01-front.webp` และบันทึกสิทธิ์/แหล่งที่มา/ผู้ถ่าย/หลักฐานตรงรุ่นใน `src/data/catalog/imageRights.json` รูปที่ไม่มีข้อมูลสิทธิ์ครบถ้วนจะไม่ถูกเผยแพร่ ดู [คู่มือเพิ่มข้อมูล](docs/ADDING_GUITARS.md)
+**รูปกีตาร์รายรุ่น:** วางไฟล์ที่ `src/assets/guitars/<guitar-id>/01-front.webp` ภาพถ่ายที่มีใบอนุญาตใช้ทะเบียน `src/data/catalog/imageRights.json` ส่วนภาพประกอบที่ผู้ใช้ขอให้นำมาใช้ในโครงงานใช้ `src/data/catalog/projectArtwork.json` โดยเก็บที่มาและการตกแต่งไว้แยกกัน ดู [คู่มือเพิ่มข้อมูล](docs/ADDING_GUITARS.md)
 รุ่นที่ยังไม่มีรูปจะแสดง "Photo coming soon" ไม่ใช้รูปรุ่นอื่นแทน — ดูรายการที่ขาดใน `MISSING_IMAGES.md` หรือรัน `npm run images:check`
 
 **รูปบรรยากาศ** (Hero, หมวดหมู่, แบรนด์, แถบ Quiz): ตั้งที่ `src/data/images.js` (ตอนนี้เป็น `null` = ใช้ภาพเส้นร่าง)
@@ -75,7 +74,7 @@ Phase 9 results, the 20-model specification tables, dated manufacturer links and
 
 ## Guitar Detail
 
-ข้อมูลเผยแพร่ใช้ `reviewedGuitars.json` และ `phase7Guitars.json` แสดงเฉพาะฟิลด์ใน `source.fields` พร้อมวันที่ วิธีตรวจ และข้อจำกัดรุ่น/ปีผลิต ช่องที่ยังไม่ทราบเป็น `null` รูปแต่ละมุมต้องมีไฟล์จริงและทะเบียนสิทธิ์ ขนาดย่อยใน `responsive/` ไม่นับเป็นมุมภาพเพิ่ม
+ข้อมูลเผยแพร่ใช้ `reviewedGuitars.json` และ `phase7Guitars.json` แสดงเฉพาะฟิลด์ใน `source.fields` พร้อมวันที่ วิธีตรวจ และข้อจำกัดรุ่น/ปีผลิต ช่องที่ยังไม่ทราบเป็น `null` รูปแต่ละมุมต้องมีไฟล์จริงและทะเบียนที่มา ขนาดย่อยใน `responsive/` ไม่นับเป็นมุมภาพเพิ่ม
 
 `guitarDetails.js` และค่าดิบเดิมคงไว้เพื่อรักษางานเก่า แต่ราคา รีวิว และสเปกตัวอย่างไม่ได้ถูกนำไปเผยแพร่ผ่าน Catalog ปัจจุบัน
 

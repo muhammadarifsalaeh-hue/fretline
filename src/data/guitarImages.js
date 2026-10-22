@@ -1,5 +1,6 @@
 import { t } from '@/i18n';
 import IMAGE_RIGHTS from './catalog/imageRights.json';
+import PROJECT_ARTWORK from './catalog/projectArtwork.json';
 import { hasImageRights } from '@/utils/imageRights';
 /**
  * รูปกีตาร์รายรุ่น — ระบบนี้ "ไม่มีรูปสุ่ม" ถ้ารุ่นไหนยังไม่มีรูปจริงจะแสดงภาพ "Photo coming soon"
@@ -12,7 +13,8 @@ import { hasImageRights } from '@/utils/imageRights';
  *   - ไฟล์ที่เลขนำหน้าน้อยที่สุด (01-...) = รูปหลักที่ใช้ในการ์ดทุกหน้า
  *   - ชื่อมุมที่รู้จัก: front back side angle headstock body neck pickups bridge detail
  *   - ลงทะเบียนแหล่งที่มา สิทธิ์ ผู้ถ่าย และหลักฐานตรงรุ่นใน data/catalog/imageRights.json
- *   - รูปที่ไม่มีข้อมูลสิทธิ์ครบถ้วนจะไม่ถูกเผยแพร่ ดู docs/ADDING_GUITARS.md
+ *   - ภาพผู้ใช้ที่ขอให้นำมาใช้ในโครงงานลงทะเบียนแยกใน projectArtwork.json
+ *     โดยเก็บที่มาไว้และไม่อ้างว่าเป็นภาพที่ตรวจสอบสิทธิ์หรือภาพผู้ผลิต
  *   - ตรวจว่ารุ่นไหนยังขาด:  npm run images:check
  *
  * ทางเลือก: ใช้ URL ภายนอกผ่าน IMAGE_OVERRIDES ด้านล่าง (เฉพาะรูปที่ตรวจแล้วว่าตรงรุ่นและมีสิทธิ์ใช้)
@@ -63,6 +65,9 @@ export const IMAGE_CREDITS = Object.fromEntries(Object.entries(IMAGE_RIGHTS).map
 /** คืน { primary, gallery, hasPhotos } ของกีตาร์ id นั้น — ไม่มีรูป = primary เป็น null และ gallery ว่าง */
 export function getGuitarImages(id) {
   const fromFiles = (found[id] ?? []).flatMap(({ file, src }) => {
+    const artwork = PROJECT_ARTWORK[id];
+    const illustration = artwork?.images.find((entry) => entry.file === file);
+    if (illustration) return [{ ...illustration, src, provenance: artwork }];
     const rights = IMAGE_RIGHTS[id]?.find((entry) => entry.file === file);
     if (!hasImageRights(rights, id)) return [];
     const variants = (rights.variants ?? []).flatMap((entry) => {

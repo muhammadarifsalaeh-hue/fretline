@@ -32,6 +32,7 @@ export function readSampleGuitars() {
 export const readExtras = () => JSON.parse(fs.readFileSync(EXTRA_PATH, 'utf8'));
 export const readReviewed = () => JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data/catalog/reviewedGuitars.json'), 'utf8'));
 export const readImageRights = () => JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data/catalog/imageRights.json'), 'utf8'));
+export const readProjectArtwork = () => JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data/catalog/projectArtwork.json'), 'utf8'));
 export const readPhase7 = () => JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data/catalog/phase7Guitars.json'), 'utf8'));
 export const readArchive = () => JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data/catalog/archivedGuitars.json'), 'utf8'));
 export const readPolicy = () => JSON.parse(fs.readFileSync(path.join(ROOT, 'src/data/catalog/catalogPolicy.json'), 'utf8'));
@@ -122,9 +123,11 @@ export function findDuplicates(all) {
 export function photoStats(ids) {
   const dir = path.join(ROOT, 'src/assets/guitars');
   const rights = readImageRights();
-  const has = (id) => (rights[id] ?? []).some((image) => {
+  const artwork = readProjectArtwork();
+  const has = (id) => [...(rights[id] ?? []), ...(artwork[id]?.images ?? [])].some((image) => {
     const file = path.join(dir, id, image.file);
-    return hasImageRights(image, id) && fs.existsSync(file) && createHash('sha256').update(fs.readFileSync(file)).digest('hex') === image.sha256;
+    const registered = hasImageRights(image, id) || artwork[id]?.images.includes(image);
+    return registered && fs.existsSync(file) && createHash('sha256').update(fs.readFileSync(file)).digest('hex') === image.sha256;
   });
   const withPhotos = ids.filter(has);
   return { withPhotos: withPhotos.length, placeholders: ids.length - withPhotos.length };

@@ -32,8 +32,8 @@ export default function GuitarImage({ guitar, src, alt, size = 'md', priority = 
       fit="contain"
       priority={priority}
       fallback={fallback}
-      className={cn(!className.includes('absolute') && 'relative', 'bg-gradient-to-b from-[#2b2b2b] to-[#171717]', className)}
-      imgClassName={cn(compact ? 'p-[6%]' : 'p-[7%]', imgClassName)}
+      className={cn(!className.includes('absolute') && 'relative', photo?.kind === 'illustration' ? 'bg-[#080807]' : 'bg-gradient-to-b from-[#2b2b2b] to-[#171717]', className)}
+      imgClassName={cn(photo?.kind === 'illustration' ? 'p-0' : compact ? 'p-[6%]' : 'p-[7%]', imgClassName)}
     />
   );
 }

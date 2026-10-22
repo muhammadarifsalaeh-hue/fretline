@@ -30,13 +30,17 @@ function DetailContent({ guitar }) {
   const { compare, wishlist, toggleCompare, toggleWishlist } = useShop();
   const [selectionIndex, setSelectionIndex] = useState(0);
   const developmentPreview = useDevelopmentImagePreview(guitar);
-  const colors = developmentPreview?.colors ?? guitar.colors;
-  const colorIndex = developmentPreview
-    ? colors.findIndex((color) => color.imageId === developmentPreview.images[selectionIndex]?.id)
+  const galleryImages = developmentPreview?.images ?? guitar.gallery;
+  const imageColors = developmentPreview?.colors ?? guitar.gallery.flatMap((image) => image.color ? [{ ...image.color, imageId: image.id }] : []);
+  const hasImageColors = imageColors.length > 0;
+  const colors = hasImageColors ? imageColors : guitar.colors;
+  const colorIndex = hasImageColors
+    ? colors.findIndex((color) => color.imageId === galleryImages[selectionIndex]?.id)
     : selectionIndex;
-  const selectColor = (index) => setSelectionIndex(developmentPreview
-    ? developmentPreview.images.findIndex((image) => image.id === colors[index].imageId)
+  const selectColor = (index) => setSelectionIndex(hasImageColors
+    ? galleryImages.findIndex((image) => image.id === colors[index].imageId)
     : index);
+  const gallery = <GuitarGallery guitar={guitar} activeIndex={hasImageColors ? selectionIndex : undefined} onIndexChange={hasImageColors ? setSelectionIndex : undefined} />;
   const [stuck, setStuck] = useState(false);
   const ctaRef = useRef(null);
   const inCompare = compare.includes(guitar.id);
@@ -72,9 +76,9 @@ function DetailContent({ guitar }) {
         </nav>
         <div className="detail-main-grid">
           {developmentPreview ? <div>
-            <GuitarGallery guitar={guitar} activeIndex={developmentPreview ? selectionIndex : undefined} onIndexChange={developmentPreview ? setSelectionIndex : undefined} />
+            {gallery}
             <LocalPreviewImagePicker guitar={guitar} onApply={() => setSelectionIndex(0)} />
-          </div> : <GuitarGallery guitar={guitar} />}
+          </div> : gallery}
           <div className="detail-summary">
             <AppLink href={brandUrl(guitar.brand)} className="discovery-kicker hover:text-gold">{guitar.brand}</AppLink>
             <h1 className="mt-2 font-serif text-[clamp(2rem,3.7vw,3.5rem)]">{guitar.name}</h1>
@@ -91,10 +95,10 @@ function DetailContent({ guitar }) {
               {hasManufacturerRrp(guitar) ? <PriceSourceNote guitar={guitar} full /> : <p className="mt-2 text-xs leading-6 text-mute">{guitar.price == null ? t('detail.noPrice') : t('detail.priceNote')}</p>}
             </div>
             <p className="mt-4 text-sm leading-7 text-bone/75">{firstSentence(guitar.description)}</p>
-            {developmentPreview?.images.length > 0 && <div className="preview-color-selector mt-6 border-t border-line pt-5">
+            {hasImageColors && galleryImages.length > 0 && <div className="gallery-color-selector preview-color-selector mt-6 border-t border-line pt-5">
               <ColorSwatches colors={colors} value={colorIndex} onChange={selectColor} allowNone
-                emptyLabel={t('imagePreview.allColors')} label={t('imagePreview.color')} ariaLabel={t('imagePreview.chooseColor')} />
-              <p className="mt-3 text-[11px] leading-5 text-mute">{t('imagePreview.colorNote')}</p>
+                emptyLabel={t('imagePreview.allColors')} label={t('artwork.color')} ariaLabel={t('artwork.chooseColor')} />
+              {developmentPreview && <p className="mt-3 text-[11px] leading-5 text-mute">{t('imagePreview.colorNote')}</p>}
             </div>}
             <div className="detail-source-note mt-4"><DataStatusNote guitar={guitar} /></div>
             <div ref={ctaRef} className="detail-actions">
@@ -112,7 +116,7 @@ function DetailContent({ guitar }) {
                 <div key={label}><dt>{label}</dt><dd>{value}</dd></div>
               ))}
             </dl>
-            {!developmentPreview && <ColorSwatches colors={colors} value={colorIndex} onChange={selectColor} />}
+            {!hasImageColors && <ColorSwatches colors={colors} value={colorIndex} onChange={selectColor} />}
           </div>
         </div>
       </section>

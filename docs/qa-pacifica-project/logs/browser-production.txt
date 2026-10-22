@@ -1,0 +1,79 @@
+PASS .catalog-card-image displays black uncropped
+PASS Catalog contains one original model and three color dots
+PASS Catalog shows no AI badge
+PASS Catalog image is lazy loaded
+PASS Catalog desktop has no page horizontal overflow
+PASS .gallery-main displays black uncropped
+PASS Detail defaults to the same black image as Catalog
+PASS Normal website needs no local file picker
+PASS Main gallery has no AI badge
+PASS .gallery-main displays red uncropped
+PASS .gallery-main displays blue-teal uncropped
+PASS .gallery-main displays black uncropped
+PASS Color changes do not reload
+PASS Each color has its own asset
+PASS .gallery-main displays red uncropped
+PASS .gallery-main displays all-colors uncropped
+PASS Overview is a fourth gallery entry, not a fourth color/model
+PASS [role="dialog"] > div:nth-child(2) displays all-colors uncropped
+PASS [role="dialog"] > div:nth-child(2) displays black uncropped
+PASS [role="dialog"] > div:nth-child(2) displays red uncropped
+PASS .gallery-main displays blue-teal uncropped
+PASS .gallery-main displays black uncropped
+PASS Keyboard, thumbnail and lightbox selections share one state
+PASS black ships the unchanged original JPEG
+PASS red ships the unchanged original JPEG
+PASS blue-teal ships the unchanged original JPEG
+PASS all-colors ships the unchanged original JPEG
+PASS Existing detailed specifications remain available
+PASS .wishlist-image displays black uncropped
+PASS Wishlist stores exactly the original ID
+PASS Compare resolves the black asset
+PASS Homepage reuses the same model image
+PASS Yamaha still has exactly twenty cards
+PASS Quiz results reuse the same Pacifica asset
+PASS .gallery-main displays black uncropped
+PASS Detail tablet-landscape has no page horizontal overflow
+PASS .gallery-main displays red uncropped
+PASS .gallery-main displays blue-teal uncropped
+PASS .gallery-main displays black uncropped
+PASS .gallery-main displays all-colors uncropped
+PASS Overview tablet-landscape has no page horizontal overflow
+PASS .catalog-card-image displays black uncropped
+PASS Catalog tablet-landscape has no page horizontal overflow
+PASS .gallery-main displays black uncropped
+PASS Detail tablet has no page horizontal overflow
+PASS .gallery-main displays red uncropped
+PASS .gallery-main displays blue-teal uncropped
+PASS .gallery-main displays black uncropped
+PASS .gallery-main displays all-colors uncropped
+PASS Overview tablet has no page horizontal overflow
+PASS .catalog-card-image displays black uncropped
+PASS Catalog tablet has no page horizontal overflow
+PASS .gallery-main displays black uncropped
+PASS Detail mobile has no page horizontal overflow
+PASS .gallery-main displays red uncropped
+PASS .gallery-main displays blue-teal uncropped
+PASS .gallery-main displays black uncropped
+PASS .gallery-main displays all-colors uncropped
+PASS Overview mobile has no page horizontal overflow
+PASS .catalog-card-image displays black uncropped
+PASS Catalog mobile has no page horizontal overflow
+PASS .gallery-main displays black uncropped
+PASS Detail small-mobile has no page horizontal overflow
+PASS .gallery-main displays red uncropped
+PASS .gallery-main displays blue-teal uncropped
+PASS .gallery-main displays black uncropped
+PASS .gallery-main displays all-colors uncropped
+PASS Overview small-mobile has no page horizontal overflow
+PASS .catalog-card-image displays black uncropped
+PASS Catalog small-mobile has no page horizontal overflow
+PASS .gallery-main displays black uncropped
+PASS .gallery-main displays black uncropped
+PASS Refresh and Browser Back/Forward retain working gallery routes
+PASS Existing licensed gallery is unchanged
+PASS A model without images keeps its placeholder
+PASS .gallery-main displays red uncropped
+PASS .gallery-main displays blue-teal uncropped
+PASS Touch tap and swipe synchronize color
+PASS No console errors, runtime errors or failed requests

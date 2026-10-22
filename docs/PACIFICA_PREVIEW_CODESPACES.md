@@ -1,61 +1,43 @@
-# เปิด Fretline และ Gallery PAC612VIIFM ใน Codespaces บน iPad
+# Pacifica 612VIIFM — เปิดใน Codespaces บน iPad
 
-ใช้ Repository เดิม `muhammadarifsalaeh-hue/fretline`, branch `master` ไม่ต้องลง patch หรือสร้างโปรเจกต์ใหม่ ภาพต้นฉบับที่ยังไม่ได้ยืนยันสิทธิ์ไม่ถูกนำขึ้น GitHub
+ภาพที่ผู้ใช้จัดหาครบ 4 ภาพรวมอยู่ในโปรเจกต์แล้ว ไม่ต้องเลือกไฟล์จาก iPad ซ้ำ ใช้คำสั่ง Vite ปกติได้ทั้ง Development และ Production Build
 
-## คำสั่งเปิดเว็บ
+## เปิดเว็บ
 
-เปิด Codespace เดิมจาก https://github.com/codespaces แล้วเปิด Terminal ที่ root ของ Fretline:
+เปิด Codespace เดิมจาก https://github.com/codespaces แล้วเปิด Terminal ที่โฟลเดอร์ Fretline หากมี Vite เดิมทำงานอยู่ กด Ctrl+C ก่อน
 
 ```bash
 git pull --ff-only origin master
 npm install
-npm run dev:pacifica-preview -- --host 0.0.0.0 --port 5173 --strictPort
+npm run dev -- --host 0.0.0.0 --port 5173 --strictPort
 ```
 
-หาก git pull แจ้งว่ามีงานแก้ค้าง ให้สำรองและตรวจ diff ก่อน ห้าม reset หรือ force ทับงาน หาก Vite ตัวเก่าใช้ port 5173 อยู่ ให้กด Ctrl+C ที่ Terminal ตัวเก่าก่อนรันคำสั่ง dev ใหม่
+หาก Git แจ้งว่าไฟล์ที่แก้ไว้ขัดกับการอัปเดต ให้สำรองการแก้ไขก่อน แล้วค่อย pull อีกครั้ง:
 
-เลือกแท็บ **Ports → 5173 → Private → Open in Browser** แล้วเข้า path:
+```bash
+git stash push -u -m "backup-before-pacifica-gallery"
+git pull --ff-only origin master
+```
+
+การแก้ไขเดิมอยู่ใน `git stash list` ห้ามใช้ reset หรือ force push เพื่อแก้ปัญหานี้
+
+เลือก **Ports → 5173 → Visibility: Private → Open in Browser** จากนั้นเปิด:
 
 ```text
 /guitars/yamaha-pacifica-612viifm
 ```
 
-localhost ของเครื่องพัฒนาไม่ใช่ลิงก์เข้าเว็บจาก iPad โดยตรง ต้องเปิด URL ของ port ที่ Codespaces forward ให้ คง Terminal ที่รัน Vite ไว้ระหว่างดูเว็บ
+ข้อความ `/guitars/...` เป็นเส้นทางใน Safari ไม่ใช่คำสั่ง Terminal
 
-## ดูภาพทั้ง 4 จาก iPad โดยไม่อัปโหลดเข้า GitHub
+## ภาพและรายละเอียด
 
-เมื่อไม่มีไฟล์ภาพส่วนตัวอยู่ใน Codespace หน้า Pacifica จะแสดงช่อง **เลือกภาพจากอุปกรณ์เพื่อดู Gallery**:
+- Catalog แสดงภาพสีดำเป็นค่าเริ่มต้นและมีการ์ดเพียงใบเดียว
+- Detail มีภาพดำ แดง ฟ้าอมเขียว และภาพรวม 3 สี พร้อม Thumbnail, ปุ่มเลือกสี และ Lightbox
+- ราคา 34,000 บาทเป็นราคาขายปลีกแนะนำโดย Yamaha ประเทศไทย ใช้รายละเอียดและสเปกชุดเดียวกับ Catalog, Compare และ Wishlist
+- ไฟล์ JPEG เดิมไม่ถูกครอป สร้างใหม่ หรือเปลี่ยนสี
+- ผู้ใช้ขอให้นำไฟล์ภาพไปใช้ในโครงงานแทนเงื่อนไข Preview-only เดิม ข้อมูลที่มาและประวัติ AI editing เก็บใน `src/data/catalog/projectArtwork.json` ไม่แสดงเป็นป้ายบนการ์ดหรือภาพหลัก และไม่เปลี่ยนสถานะ license/model/color verification ให้เป็นจริง
+- ฐานข้อมูลยังมี 200 รุ่น / 10 แบรนด์ / แบรนด์ละ 20 รุ่น
 
-1. เลือก JPEG สีดำในช่อง Black
-2. เลือก JPEG สีแดงในช่อง Red
-3. เลือก JPEG สีฟ้าอมเขียวในช่อง Blue / Teal
-4. เลือก JPEG ภาพรวมสามสีในช่องภาพรวม 3 สี
-5. กด **แสดงภาพทั้ง 4**
+## การตรวจครั้งนี้
 
-เลือกไฟล์ให้ตรงรุ่นและช่องสี: โค้ดไม่ยืนยันความตรงรุ่นหรือสิทธิ์แทนผู้ใช้ ภาพใช้ผ่าน `blob:` URL ในหน่วยความจำเบราว์เซอร์ ไม่มี POST/upload, backend หรือการบันทึก bytes ภาพใน localStorage/GitHub เมื่อเปลี่ยนหน้าภายในเว็บไซต์ ภาพยังใช้กับ Catalog, Compare และ Wishlist ได้ เมื่อ refresh/ปิดแท็บให้เลือกภาพใหม่ ใช้ปุ่มล้างเพื่อลบภาพจาก Preview และคืน Placeholder
-
-ไฟล์ต้องเป็น JPEG ที่เปิดอ่านได้ ไม่เกิน 8 MB ต่อภาพ รุ่นนี้ยังมีเพียง Guitar ID `yamaha-pacifica-612viifm` ภาพสามสีไม่ใช่กีตาร์สามรุ่นแยกกัน
-
-หากมี JPEG ทั้งสี่ใน `.local-preview/yamaha-pacifica-612viifm/` อยู่แล้ว โหมด Preview ใช้ภาพเดิมจากโฟลเดอร์ที่ Git ignore ไม่แสดงช่องเลือกไฟล์เพิ่ม ดูชื่อไฟล์ใน [รายงาน Multi-color](qa-pacifica-multicolor/README.md)
-
-## สิทธิ์ภาพและสถานะข้อมูล
-
-- ป้าย AI ไม่แสดงบนการ์ดหรือบริเวณภาพหลัก เก็บการแก้ไขและข้อจำกัดไว้ใน metadata / ส่วนแหล่งข้อมูล
-- ยังไม่มีหลักฐานสิทธิ์ภาพต้นฉบับ ไม่ยืนยันสีหรือฮาร์ดแวร์จากภาพตกแต่ง ชื่อ Black/Red/Blue / Teal ใช้แยกภาพ ไม่ใช่ชื่อสีทางการ
-- ไม่เพิ่มภาพเหล่านี้ใน licensed image registry และไม่ใส่ใน Production Build ทั้ง dev ปกติและ Production ยังแสดง Placeholder สำหรับ PAC612VIIFM
-- ห้าม git add -f ภาพใน `.local-preview/` หรือเผยแพร่ port เป็น Public จนจัดการสิทธิ์ครบถ้วน
-- Catalog 200 รุ่น / 10 แบรนด์ / แบรนด์ละ 20 รุ่น ไม่มี ID ใหม่ตามสี
-- ข้อมูล PAC612VIIFM ยังคง partial ราคา ฿34,000 คือราคาขายปลีกแนะนำจาก Yamaha ประเทศไทย ไม่รับประกันราคาขายร้านค้า แหล่งอ้างอิงและวันที่อยู่ใน Detail
-
-## ตรวจโค้ด
-
-```bash
-npm run build
-npm run catalog:check
-npm run images:check
-node scripts/check-pacifica-preview.mjs
-```
-
-ชุดตรวจจะระบุ SKIP การตรวจ bytes รูปส่วนตัวเมื่อไม่ได้วางไฟล์เหล่านั้นใน Codespace แยกจากผลข้อมูล/Build/สิทธิ์ที่ตรวจได้จาก repository
-
-Browser QA ใช้ Chromium บน Linux; ยังไม่ได้ทดสอบ Safari/iPad จริง ดูผลใน `docs/qa-pacifica-github/`
+ดูผลทดสอบและภาพหน้าจอชุดปัจจุบันใน `docs/qa-pacifica-project/` รายงาน private-preview เดิมเก็บไว้เป็นประวัติและไม่ใช่สถานะการแสดงภาพปัจจุบัน

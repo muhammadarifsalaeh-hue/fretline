@@ -9,7 +9,7 @@ import ImageLightbox from './ImageLightbox';
 import ImageAttribution from './ImageAttribution';
 import { getDevelopmentImagePreview } from '@/utils/developmentImagePreview';
 
-/** Licensed gallery or an explicitly enabled, separate development gallery. */
+/** Shared gallery for registered photos, project artwork and local previews. */
 export default function GuitarGallery({ guitar, activeIndex, onIndexChange }) {
   const developmentPreview = getDevelopmentImagePreview(guitar);
   const images = developmentPreview?.images ?? guitar.gallery ?? [];
@@ -29,7 +29,7 @@ export default function GuitarGallery({ guitar, activeIndex, onIndexChange }) {
   const current = images[index];
   const go = (direction) => { if (count > 1) setIndex((index + direction + count) % count); };
   const onMove = (event) => {
-    if (developmentPreview || !count || !window.matchMedia('(hover: hover)').matches || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    if (developmentPreview || current?.kind === 'illustration' || !count || !window.matchMedia('(hover: hover)').matches || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     const rect = event.currentTarget.getBoundingClientRect();
     setZoom({ x: ((event.clientX - rect.left) / rect.width) * 100, y: ((event.clientY - rect.top) / rect.height) * 100 });
   };
@@ -75,7 +75,7 @@ export default function GuitarGallery({ guitar, activeIndex, onIndexChange }) {
           ))}
         </ul>}
       </div>
-      {developmentPreview && current && <p className="mt-3 text-center text-xs tracking-wide text-gold" aria-live="polite" data-preview-selection>{current.label}</p>}
+      {(developmentPreview || current?.kind === 'illustration') && current && <p className="mt-3 text-center text-xs tracking-wide text-gold" aria-live="polite" data-preview-selection={developmentPreview ? true : undefined} data-gallery-selection>{current.label}</p>}
       {!count && !developmentPreview && <p className="mt-3 text-xs leading-relaxed text-mute">{t('gallery.soon')}</p>}
       <ImageAttribution image={current} />
       {lightbox && <ImageLightbox images={images} index={index} onIndex={setIndex} onClose={closeLightbox} name={name} guitar={guitar} />}

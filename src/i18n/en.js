@@ -1,5 +1,12 @@
 /** English strings (ใช้เป็นค่าสำรองและในการทดสอบ) */
 export const en = {
+  "artwork.color": "Color:",
+  "artwork.chooseColor": "Choose guitar image color",
+  "artwork.colorList": "Gallery colors",
+  "artwork.colorCount": "{n} colors",
+  "artwork.title": "User-supplied artwork",
+  "artwork.details": "Artwork information",
+  "artwork.provenance": "Images supplied by the user for this project, with AI editing. Color labels identify the illustrations and are not manufacturer finish names.",
   "imagePreview.pickerTitle": "Choose local images to preview the gallery",
   "imagePreview.pickerNote": "Choose the matching JPEG for all four slots, then apply. Files remain in this browser and are never uploaded or saved to GitHub. Select them again after a refresh. Color labels describe illustrations; original rights remain unverified.",
   "imagePreview.pickerApply": "Preview all four images",

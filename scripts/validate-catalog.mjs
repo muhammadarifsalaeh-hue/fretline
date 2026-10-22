@@ -42,7 +42,7 @@ console.log(`Fully verified      : ${verified}`);
 console.log(`Partially verified  : ${partial}`);
 console.log(`Price on request    : ${all.filter((guitar) => guitar.price == null).length}`);
 console.log(`Verified reviews    : ${all.filter((guitar) => guitar.rating?.verified).length}`);
-console.log(`Licensed photo models: ${photos.withPhotos}`);
+console.log(`Models with images  : ${photos.withPhotos}`);
 console.log(`Placeholder models  : ${photos.placeholders}`);
 console.log(errors ? `\n${errors} problem(s) found.` : '\nNo data problems found. Unknown fields remain unknown.');
 process.exit(errors || (strict && gap > 0) ? 1 : 0);
