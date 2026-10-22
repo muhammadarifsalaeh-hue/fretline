@@ -4,6 +4,8 @@ import { cn } from '@/utils/cn';
 import GuitarArt from '@/components/ui/GuitarArt';
 import { GridIcon } from '@/components/ui/Icons';
 
+const THAI_GUITAR_PREFIX = 'กีตาร์';
+
 export default function CategoryNavigation({ types, onSelect }) {
   const categories = [{ id: 'all', name: t('common.all') }, ...CATEGORIES];
   return (
@@ -15,7 +17,14 @@ export default function CategoryNavigation({ types, onSelect }) {
             onClick={() => onSelect(category.id)}
             className={cn('category-navigation-item', active && 'is-active')}>
             {category.id === 'all' ? <GridIcon size={24} /> : <GuitarArt type={category.id} className="h-8 w-7 -rotate-12" />}
-            <span>{category.name}</span>
+            <span className="category-navigation-label">
+              {category.name.startsWith(THAI_GUITAR_PREFIX) ? (
+                <>
+                  <span className="inline-block whitespace-nowrap">{THAI_GUITAR_PREFIX}</span><wbr />
+                  <span className="inline-block whitespace-nowrap">{category.name.slice(THAI_GUITAR_PREFIX.length)}</span>
+                </>
+              ) : category.name}
+            </span>
           </button>
         );
       })}

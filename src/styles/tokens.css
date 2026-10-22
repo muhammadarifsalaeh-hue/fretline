@@ -1,0 +1,72 @@
+/* Fretline Signature — approved shared design system. RGB channels support
+   Tailwind opacity utilities without duplicating the source palette. */
+:root {
+  color-scheme: dark;
+  --fl-color-canvas: 10 10 10;
+  --fl-color-surface: 20 20 20;
+  --fl-color-raised: 28 28 28;
+  --fl-color-text: 245 245 242;
+  --fl-color-secondary: 179 179 170;
+  --fl-color-muted: 150 150 142;
+  --fl-color-accent: 200 161 90;
+  --fl-color-champagne: 224 197 140;
+  --fl-color-border: 42 42 42;
+  --fl-color-border-strong: 70 70 62;
+  --fl-color-paper: 244 242 238;
+  --fl-canvas: rgb(var(--fl-color-canvas));
+  --fl-surface: rgb(var(--fl-color-surface));
+  --fl-surface-raised: rgb(var(--fl-color-raised));
+  --fl-text: rgb(var(--fl-color-text));
+  --fl-text-secondary: rgb(var(--fl-color-secondary));
+  --fl-text-muted: rgb(var(--fl-color-muted));
+  --fl-accent: rgb(var(--fl-color-accent));
+  --fl-accent-soft: rgb(var(--fl-color-champagne));
+  --fl-border: rgb(var(--fl-color-border));
+  --fl-border-strong: rgb(var(--fl-color-border-strong));
+  --fl-focus: var(--fl-accent-soft);
+  --fl-font-body: Anuphan, system-ui, sans-serif;
+  --fl-font-display: 'Instrument Serif', Anuphan, serif;
+  --fl-type-display: clamp(2.75rem, 5vw, 4.5rem);
+  --fl-type-page: clamp(2.125rem, 3vw, 3rem);
+  --fl-type-section: clamp(1.75rem, 2.4vw, 2.5rem);
+  --fl-type-product: clamp(1.25rem, 1.6vw, 1.5rem);
+  --fl-type-body: 1rem;
+  --fl-type-small: .875rem;
+  --fl-type-caption: .8125rem;
+  --fl-leading-body: 1.8;
+  --fl-leading-heading-th: 1.4;
+  --fl-leading-heading-en: 1.12;
+  --fl-space-1: 4px;
+  --fl-space-2: 8px;
+  --fl-space-3: 12px;
+  --fl-space-4: 16px;
+  --fl-space-6: 24px;
+  --fl-space-8: 32px;
+  --fl-space-12: 48px;
+  --fl-space-16: 64px;
+  --fl-space-24: 96px;
+  --fl-radius-control: 8px;
+  --fl-radius-card: 12px;
+  --fl-radius-dialog: 20px;
+  --fl-radius-pill: 999px;
+  --fl-shadow-card: 0 12px 30px #00000026;
+  --fl-shadow-dialog: 0 24px 80px #00000066;
+  --fl-content-width: 1280px;
+  --fl-control-height: 48px;
+  --fl-touch-target: 44px;
+  --fl-header-height: 64px;
+  --fl-bottom-navigation-height: 64px;
+  --fl-layer-tray: 40;
+  --fl-layer-navigation: 50;
+  --fl-layer-drawer: 60;
+  --fl-layer-lightbox: 80;
+  --fl-layer-toast: 90;
+  --fl-layer-skip-link: 100;
+  --fl-duration-feedback: 160ms;
+  --fl-duration-transition: 240ms;
+  --fl-duration-editorial: 420ms;
+  --fl-ease: cubic-bezier(.22, 1, .36, 1);
+}
+@media (min-width: 1024px) {
+  :root { --fl-header-height: 80px; }
+}

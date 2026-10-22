@@ -1,0 +1,950 @@
+{
+  "browser": "Chromium / Linux; physical iPad and Safari not tested",
+  "baseURL": "http://127.0.0.1:5201",
+  "checks": [
+    {
+      "case": "price-1440",
+      "passed": true,
+      "details": {
+        "semantics": "Unknown prices excluded; bounds remain inclusive and >70k stays above the sole verified 34k price."
+      }
+    },
+    {
+      "case": "filters-1440",
+      "passed": true,
+      "details": {
+        "brandModels": 20,
+        "pageSize": 9,
+        "combination": "type + brand + search; sort and pagination preserve URL history"
+      }
+    },
+    {
+      "case": "hover-1440",
+      "passed": true,
+      "details": [
+        {
+          "route": "/",
+          "before": {
+            "fit": "contain",
+            "transform": "none",
+            "painted": {
+              "left": 727,
+              "top": 540.59375,
+              "width": 188,
+              "height": 235
+            },
+            "clipped": [
+              {
+                "tag": "DIV",
+                "className": "overflow-hidden bg-[#1a1a1a] bg-[#080807] absolute inset-0",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              {
+                "tag": "DIV",
+                "className": "relative aspect-[4/5] overflow-hidden bg-gradient-to-b from-[#191919] to-[#101010]",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              {
+                "tag": "ARTICLE",
+                "className": "guitar-card discovery-card group relative flex h-full flex-col overflow-hidden bg-surface text-bone",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              }
+            ],
+            "naturalWidth": 1024
+          },
+          "hover": {
+            "fit": "contain",
+            "transform": "none",
+            "painted": {
+              "left": 727,
+              "top": 540.59375,
+              "width": 188,
+              "height": 235
+            },
+            "clipped": [
+              {
+                "tag": "DIV",
+                "className": "overflow-hidden bg-[#1a1a1a] bg-[#080807] absolute inset-0",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              {
+                "tag": "DIV",
+                "className": "relative aspect-[4/5] overflow-hidden bg-gradient-to-b from-[#191919] to-[#101010]",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              {
+                "tag": "ARTICLE",
+                "className": "guitar-card discovery-card group relative flex h-full flex-col overflow-hidden bg-surface text-bone",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              }
+            ],
+            "naturalWidth": 1024
+          }
+        },
+        {
+          "route": "/guitars?q=612VIIFM",
+          "before": {
+            "fit": "contain",
+            "transform": "none",
+            "painted": {
+              "left": 352.003125,
+              "top": 289.265625,
+              "width": 311.65,
+              "height": 389.5625
+            },
+            "clipped": [
+              {
+                "tag": "DIV",
+                "className": "overflow-hidden bg-[#1a1a1a] bg-[#080807] absolute inset-0",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              {
+                "tag": "DIV",
+                "className": "catalog-card-image relative aspect-[4/5] overflow-hidden bg-gradient-to-b from-[#2b2b2b] to-[#171717]",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              {
+                "tag": "ARTICLE",
+                "className": "discovery-card group flex h-full flex-col overflow-hidden bg-surface catalog-product-card",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              }
+            ],
+            "naturalWidth": 1024
+          },
+          "hover": {
+            "fit": "contain",
+            "transform": "none",
+            "painted": {
+              "left": 352.003125,
+              "top": 289.265625,
+              "width": 311.65,
+              "height": 389.5625
+            },
+            "clipped": [
+              {
+                "tag": "DIV",
+                "className": "overflow-hidden bg-[#1a1a1a] bg-[#080807] absolute inset-0",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              {
+                "tag": "DIV",
+                "className": "catalog-card-image relative aspect-[4/5] overflow-hidden bg-gradient-to-b from-[#2b2b2b] to-[#171717]",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              {
+                "tag": "ARTICLE",
+                "className": "discovery-card group flex h-full flex-col overflow-hidden bg-surface catalog-product-card",
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              }
+            ],
+            "naturalWidth": 1024
+          }
+        }
+      ]
+    },
+    {
+      "case": "contrast-1440",
+      "passed": true,
+      "details": [
+        {
+          "text": "เหมือนกัน",
+          "color": "rgb(150, 150, 142)",
+          "background": [
+            10,
+            10,
+            10,
+            1
+          ],
+          "opacity": 1,
+          "fontSize": "13px",
+          "contrast": 6.646466994485083
+        },
+        {
+          "text": "Yamaha",
+          "color": "rgb(150, 150, 142)",
+          "background": [
+            10,
+            10,
+            10,
+            1
+          ],
+          "opacity": 1,
+          "fontSize": "12px",
+          "contrast": 6.646466994485083
+        },
+        {
+          "text": "Yamaha",
+          "color": "rgb(181, 167, 137)",
+          "background": [
+            18,
+            18,
+            18,
+            1
+          ],
+          "opacity": 1,
+          "fontSize": "11px",
+          "contrast": 7.8979936861130025
+        },
+        {
+          "text": "Yamaha",
+          "color": "rgb(150, 150, 142)",
+          "background": [
+            10,
+            10,
+            10,
+            1
+          ],
+          "opacity": 1,
+          "fontSize": "12px",
+          "contrast": 6.646466994485083
+        },
+        {
+          "text": "Yamaha",
+          "color": "rgb(245, 245, 242)",
+          "background": [
+            10,
+            10,
+            10,
+            1
+          ],
+          "opacity": 1,
+          "fontSize": "14px",
+          "contrast": 18.125315120048175
+        },
+        {
+          "text": "Yamaha",
+          "color": "rgb(245, 245, 242)",
+          "background": [
+            10,
+            10,
+            10,
+            1
+          ],
+          "opacity": 1,
+          "fontSize": "14px",
+          "contrast": 18.125315120048175
+        }
+      ]
+    },
+    {
+      "case": "navigation-1440",
+      "passed": true,
+      "details": {
+        "desktopDisclosure": "Enter opens, Escape closes and restores focus",
+        "touch1024": false
+      }
+    },
+    {
+      "case": "navigation-1024",
+      "passed": true,
+      "details": {
+        "desktopDisclosure": "Enter opens, Escape closes and restores focus",
+        "touch1024": true
+      }
+    },
+    {
+      "case": "navigation-390",
+      "passed": false,
+      "failure": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/signature-redesign/phase-b/tests/acceptance.py\", line 407, in <module>\n    result = mobile_navigation(page) if name == 'navigation' and width < 1024 else test(page)\n             ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/signature-redesign/phase-b/tests/acceptance.py\", line 246, in mobile_navigation\n    expect(page).to_have_url(BASE + '/brands')\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py\", line 21822, in to_have_url\n    self._sync(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_assertions.py\", line 198, in to_have_url\n    await self._expect_impl(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_assertions.py\", line 128, in _expect_impl\n    _record_soft_or_raise(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_assertions.py\", line 60, in _record_soft_or_raise\n    raise error\nAssertionError: Page URL expected to be 'http://127.0.0.1:5201/brands'\nActual value: http://127.0.0.1:5201/guitars \nCall log:\n  - Expect \"to_have_url\" with timeout 5000ms\n    14 × locator resolved to <html lang=\"th\">…</html>\n       - unexpected value \"http://127.0.0.1:5201/guitars\"\n\nAria snapshot:\n- link \"ข้ามไปยังเนื้อหาหลัก\":\n  - /url: \"#main-content\"\n- banner:\n  - link \"Fretline หน้าหลัก\":\n    - /url: /\n    - text: Fretline\n  - link \"รายการโปรด 0 รุ่น\":\n    - /url: /wishlist\n  - button \"เปิดเมนู\" [expanded]\n- dialog \"เมนู\":\n  - link \"Fretline หน้าหลัก\":\n    - /url: /\n    - text: Fretline\n  - button \"ปิดเมนู\"\n  - navigation \"เมนูหลัก\":\n    - link \"หน้าหลัก\":\n      - /url: /\n    - link \"กีตาร์\":\n      - /url: /guitars\n    - link \"แบรนด์\":\n      - /url: /brands\n    - link \"เปรียบเทียบ\":\n      - /url: /compare\n    - link \"ค้นหากีตาร์ที่ใช่\":\n      - /url: /find-my-guitar\n  - paragraph: ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน\n- main:\n  - navigation \"เส้นทางหน้า\":\n    - link \"หน้าหลัก\":\n      - /url: /\n    - text: กีตาร์\n  - paragraph: FRETLINE / GUITAR DISCOVERY\n  - heading \"Catalog\" [level=1]\n  - paragraph: ค้นหากีตาร์ตัวโปรดในสไตล์ที่เป็นคุณ\n  - search:\n    - text: ค้นหากีตาร์\n    - searchbox \"ค้นหากีตาร์\"\n    - button \"ค้นหา\"\n  - navigation \"หมวดหมู่กีตาร์\":\n    - button \"ทั้งหมด\" [pressed]\n    - button \"กีตาร์ไฟฟ้า\"\n    - button \"กีตาร์โปร่ง\"\n    - button \"กีตาร์คลาสสิก\"\n    - button \"เบส\"\n  - region \"ผลลัพธ์กีตาร์\":\n    - status:\n      - paragraph: 200 รุ่น\n      - paragraph: แสดง 1–9 จาก 200 รุ่น\n    - button \"ตัวกรอง\"\n    - combobox \"เรียงตาม\":\n      - option \"แนะนำ\" [selected]\n      - 'option \"ราคา: ต่ำไปสูง\"'\n      - 'option \"ราคา: สูงไปต่ำ\"'\n      - 'option \"ชื่อ: A ถึง Z\"'\n    - paragraph: ข้อมูลระบุแหล่งอ้างอิงและขอบเขตการตรวจไว้ในหน้ารายละเอียด ช่องที่ยังไม่ทราบใช้ “ไม่ระบุ” และราคาไม่ยืนยันใช้ “ยังไม่มีข้อมูลราคา”\n    - article:\n      - button \"บันทึก American Professional II Stratocaster ในรายการโปรด\"\n      - paragraph: Fender\n      - paragraph: กีตาร์ไฟฟ้า\n      - heading \"American Professional II Stratocaster\" [level=3]:\n        - link \"American Professional II Stratocaster\":\n          - /url: /guitars/fender-american-professional-ii-stratocaster\n      - paragraph: ตรวจสอบบางส่วน\n      - paragraph: ยังไม่มีข้อมูลราคา\n      - link \"ดูรายละเอียด\":\n        - /url: /guitars/fender-american-professional-ii-stratocaster\n      - button \"เพิ่ม American Professional II Stratocaster ในการเปรียบเทียบ\": เปรียบเทียบ\n    - article:\n      - button \"บันทึก Les Paul Standard 60s ในรายการโปรด\"\n      - paragraph: Gibson\n      - paragraph: กีตาร์ไฟฟ้า\n      - heading \"Les Paul Standard 60s\" [level=3]:\n        - link \"Les Paul Standard 60s\":\n          - /url: /guitars/gibson-les-paul-standard-60s\n      - paragraph: ตรวจสอบบางส่วน\n      - paragraph: ยังไม่มีข้อมูลราคา\n      - link \"ดูรายละเอียด\":\n        - /url: /guitars/gibson-les-paul-standard-60s\n      - button \"เพิ่ม Les Paul Standard 60s ในการเปรียบเทียบ\": เปรียบเทียบ\n    - article:\n      - button \"บันทึก RG550 Genesis ในรายการโปรด\"\n      - paragraph: Ibanez\n      - paragraph: กีตาร์ไฟฟ้า\n      - heading \"RG550 Genesis\" [level=3]:\n        - link \"RG550 Genesis\":\n          - /url: /guitars/ibanez-rg550-genesis\n      - paragraph: ตรวจสอบบางส่วน\n      - paragraph: ยังไม่มีข้อมูลราคา\n      - link \"ดูรายละเอียด\":\n        - /url: /guitars/ibanez-rg550-genesis\n      - button \"เพิ่ม RG550 Genesis ในการเปรียบเทียบ\": เปรียบเทียบ\n    - article:\n      - button \"บันทึก Pacifica 612VIIFM ในรายการโปรด\"\n      - paragraph: Yamaha\n      - paragraph: กีตาร์ไฟฟ้า\n      - heading \"Pacifica 612VIIFM\" [level=3]:\n        - link \"Pacifica 612VIIFM\":\n          - /url: /guitars/yamaha-pacifica-612viifm\n      - list \"สีในแกลเลอรี\":\n        - listitem \"Black\"\n        - listitem \"Red\"\n        - listitem \"Blue / Teal\"\n      - text: 3 สี\n      - paragraph: ตรวจสอบบางส่วน\n      - paragraph: ฿34,000\n      - paragraph:\n        - link \"ราคาขายปลีกแนะนำโดย Yamaha ประเทศไทย\":\n          - /url: https://th.yamaha.com/th/musical-instruments/guitars-basses-amps/products/electric-guitars/pacifica/lineup.html\n      - link \"ดูรายละเอียด\":\n        - /url: /guitars/yamaha-pacifica-612viifm\n      - button \"เพิ่ม Pacifica 612VIIFM ในการเปรียบเทียบ\": เปรียบเทียบ\n    - article:\n      - button \"บันทึก 214ce Grand Auditorium ในรายการโปรด\"\n      - paragraph: Taylor\n      - paragraph: กีตาร์โปร่ง\n      - heading \"214ce Grand Auditorium\" [level=3]:\n        - link \"214ce Grand Auditorium\":\n          - /url: /guitars/taylor-214ce\n      - paragraph: ตรวจสอบบางส่วน\n      - paragraph: ยังไม่มีข้อมูลราคา\n      - link \"ดูรายละเอียด\":\n        - /url: /guitars/taylor-214ce\n      - button \"เพิ่ม 214ce Grand Auditorium ในการเปรียบเทียบ\": เปรียบเทียบ\n    - article:\n      - button \"บันทึก D-18 Dreadnought ในรายการโปรด\"\n      - paragraph: Martin\n      - paragraph: กีตาร์โปร่ง\n      - heading \"D-18 Dreadnought\" [level=3]:\n        - link \"D-18 Dreadnought\":\n          - /url: /guitars/martin-d-18\n      - paragraph: ตรวจสอบบางส่วน\n      - paragraph: ยังไม่มีข้อมูลราคา\n      - link \"ดูรายละเอียด\":\n        - /url: /guitars/martin-d-18\n      - button \"เพิ่ม D-18 Dreadnought ในการเปรียบเทียบ\": เปรียบเทียบ\n    - article:\n      - button \"บันทึก FG800 Dreadnought ในรายการโปรด\"\n      - paragraph: Yamaha\n      - paragraph: กีตาร์โปร่ง\n      - heading \"FG800 Dreadnought\" [level=3]:\n        - link \"FG800 Dreadnought\":\n          - /url: /guitars/yamaha-fg800\n      - paragraph: ตรวจสอบบางส่วน\n      - paragraph: ยังไม่มีข้อมูลราคา\n      - link \"ดูรายละเอียด\":\n        - /url: /guitars/yamaha-fg800\n      - button \"เพิ่ม FG800 Dreadnought ในการเปรียบเทียบ\": เปรียบเทียบ\n    - article:\n      - button \"บันทึก C5 Classical ในรายการโปรด\"\n      - paragraph: Córdoba\n      - paragraph: กีตาร์คลาสสิก\n      - heading \"C5 Classical\" [level=3]:\n        - link \"C5 Classical\":\n          - /url: /guitars/cordoba-c5\n      - paragraph: ตรวจสอบบางส่วน\n      - paragraph: ยังไม่มีข้อมูลราคา\n      - link \"ดูรายละเอียด\":\n        - /url: /guitars/cordoba-c5\n      - button \"เพิ่ม C5 Classical ในการเปรียบเทียบ\": เปรียบเทียบ\n    - article:\n      - button \"บันทึก Player II Jazz Bass ในรายการโปรด\"\n      - paragraph: Fender\n      - paragraph: เบส\n      - heading \"Player II Jazz Bass\" [level=3]:\n        - link \"Player II Jazz Bass\":\n          - /url: /guitars/fender-player-ii-jazz-bass\n      - paragraph: ตรวจสอบบางส่วน\n      - paragraph: ยังไม่มีข้อมูลราคา\n      - link \"ดูรายละเอียด\":\n        - /url: /guitars/fender-player-ii-jazz-bass\n      - button \"เพิ่ม Player II Jazz Bass ในการเปรียบเทียบ\": เปรียบเทียบ\n    - paragraph: แสดง 1–9 จาก 200 รุ่น\n    - navigation \"หน้าผลการค้นหากีตาร์\":\n      - button \"หน้าก่อนหน้า\" [disabled]\n      - button \"หน้า 1\": \"1\"\n      - button \"หน้า 2\": \"2\"\n      - button \"หน้า 23\": \"23\"\n      - button \"หน้าถัดไป\"\n- contentinfo:\n  - link \"Fretline หน้าหลัก\":\n    - /url: /\n    - text: Fretline\n  - paragraph: แคตตาล็อกกีตาร์สำหรับค้นหา เปรียบเทียบ และเลือกกีตาร์ที่เหมาะกับสไตล์การเล่นของคุณ\n  - paragraph: ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน\n  - link \"เครดิตและสิทธิ์ภาพกีตาร์\":\n    - /url: /image-credits\n  - navigation \"เลือกดูตามประเภท\":\n    - heading \"เลือกดูตามประเภท\" [level=2]\n    - list:\n      - listitem:\n        - link \"กีตาร์ไฟฟ้า\":\n          - /url: /guitars?type=electric\n      - listitem:\n        - link \"กีตาร์โปร่ง\":\n          - /url: /guitars?type=acoustic\n      - listitem:\n        - link \"กีตาร์คลาสสิก\":\n          - /url: /guitars?type=classical\n      - listitem:\n        - link \"เบส\":\n          - /url: /guitars?type=bass\n  - navigation \"สำรวจ\":\n    - heading \"สำรวจ\" [level=2]\n    - list:\n      - listitem:\n        - link \"แบรนด์\":\n          - /url: /brands\n      - listitem:\n        - link \"เปรียบเทียบ\":\n          - /url: /compare\n      - listitem:\n        - link \"รายการโปรด\":\n          - /url: /wishlist\n      - listitem:\n        - link \"ค้นหากีตาร์ที่ใช่\":\n          - /url: /find-my-guitar\n  - paragraph: © 2026 Fretline · เว็บไซต์ข้อมูลและเปรียบเทียบกีตาร์\n- navigation \"เมนูลัด\":\n  - link \"หน้าหลัก\":\n    - /url: /\n  - button \"ค้นหา\"\n  - link \"เปรียบเทียบ\":\n    - /url: /compare\n  - link \"รายการโปรด\":\n    - /url: /wishlist\n",
+      "url": "http://127.0.0.1:5201/guitars",
+      "screenshot": "failures/navigation-390.png"
+    },
+    {
+      "case": "focus-1440",
+      "passed": true,
+      "details": {
+        "headerSearchFromDetailAndCatalog": true,
+        "queryRetainsInputFocus": true,
+        "specsAnchorSelectsTab": true
+      }
+    },
+    {
+      "case": "gallery-1440",
+      "passed": true,
+      "details": {
+        "colors": [
+          "Black",
+          "Red",
+          "Blue / Teal"
+        ],
+        "overview": true,
+        "lightboxEscape": true
+      }
+    },
+    {
+      "case": "gallery-390",
+      "passed": true,
+      "details": {
+        "colors": [
+          "Black",
+          "Red",
+          "Blue / Teal"
+        ],
+        "overview": true,
+        "lightboxEscape": true
+      }
+    },
+    {
+      "case": "wishlist-1440",
+      "passed": true,
+      "details": {
+        "crossPagePersistence": true,
+        "reloadPersistence": true,
+        "remove": true
+      }
+    },
+    {
+      "case": "compare-1440",
+      "passed": true,
+      "details": {
+        "duplicateURLNormalized": true,
+        "twoToFour": true,
+        "fifthRejected": true,
+        "removeAndAdd": true,
+        "clearConfirmed": true
+      }
+    },
+    {
+      "case": "quiz-1440",
+      "passed": true,
+      "details": {
+        "fiveSteps": true,
+        "previousPreservesAnswer": true,
+        "editedAnswerInResultsURL": true,
+        "resultDetailAndHistory": true
+      }
+    },
+    {
+      "case": "responsive-1440",
+      "passed": true,
+      "details": [
+        {
+          "path": "/",
+          "viewport": 1440,
+          "scrollWidth": 1440,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/guitars",
+          "viewport": 1440,
+          "scrollWidth": 1440,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/guitars/yamaha-pacifica-612viifm",
+          "viewport": 1440,
+          "scrollWidth": 1440,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/brands",
+          "viewport": 1440,
+          "scrollWidth": 1440,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/brands/yamaha",
+          "viewport": 1440,
+          "scrollWidth": 1440,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg800,fender-american-professional-ii-stratocaster,gibson-les-paul-standard-60s",
+          "viewport": 1440,
+          "scrollWidth": 1440,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/find-my-guitar",
+          "viewport": 1440,
+          "scrollWidth": 1440,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/wishlist",
+          "viewport": 1440,
+          "scrollWidth": 1440,
+          "h1": 1,
+          "brokenImages": []
+        }
+      ]
+    },
+    {
+      "case": "responsive-1024",
+      "passed": true,
+      "details": [
+        {
+          "path": "/",
+          "viewport": 1024,
+          "scrollWidth": 1024,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/guitars",
+          "viewport": 1024,
+          "scrollWidth": 1024,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/guitars/yamaha-pacifica-612viifm",
+          "viewport": 1024,
+          "scrollWidth": 1024,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/brands",
+          "viewport": 1024,
+          "scrollWidth": 1024,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/brands/yamaha",
+          "viewport": 1024,
+          "scrollWidth": 1024,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg800,fender-american-professional-ii-stratocaster,gibson-les-paul-standard-60s",
+          "viewport": 1024,
+          "scrollWidth": 1024,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/find-my-guitar",
+          "viewport": 1024,
+          "scrollWidth": 1024,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/wishlist",
+          "viewport": 1024,
+          "scrollWidth": 1024,
+          "h1": 1,
+          "brokenImages": []
+        }
+      ]
+    },
+    {
+      "case": "responsive-768",
+      "passed": true,
+      "details": [
+        {
+          "path": "/",
+          "viewport": 768,
+          "scrollWidth": 768,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/guitars",
+          "viewport": 768,
+          "scrollWidth": 768,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/guitars/yamaha-pacifica-612viifm",
+          "viewport": 768,
+          "scrollWidth": 768,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/brands",
+          "viewport": 768,
+          "scrollWidth": 768,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/brands/yamaha",
+          "viewport": 768,
+          "scrollWidth": 768,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg800,fender-american-professional-ii-stratocaster,gibson-les-paul-standard-60s",
+          "viewport": 768,
+          "scrollWidth": 768,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/find-my-guitar",
+          "viewport": 768,
+          "scrollWidth": 768,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/wishlist",
+          "viewport": 768,
+          "scrollWidth": 768,
+          "h1": 1,
+          "brokenImages": []
+        }
+      ]
+    },
+    {
+      "case": "responsive-390",
+      "passed": true,
+      "details": [
+        {
+          "path": "/",
+          "viewport": 390,
+          "scrollWidth": 390,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/guitars",
+          "viewport": 390,
+          "scrollWidth": 390,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/guitars/yamaha-pacifica-612viifm",
+          "viewport": 390,
+          "scrollWidth": 390,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/brands",
+          "viewport": 390,
+          "scrollWidth": 390,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/brands/yamaha",
+          "viewport": 390,
+          "scrollWidth": 390,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg800,fender-american-professional-ii-stratocaster,gibson-les-paul-standard-60s",
+          "viewport": 390,
+          "scrollWidth": 390,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/find-my-guitar",
+          "viewport": 390,
+          "scrollWidth": 390,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/wishlist",
+          "viewport": 390,
+          "scrollWidth": 390,
+          "h1": 1,
+          "brokenImages": []
+        }
+      ]
+    },
+    {
+      "case": "responsive-320",
+      "passed": true,
+      "details": [
+        {
+          "path": "/",
+          "viewport": 320,
+          "scrollWidth": 320,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/guitars",
+          "viewport": 320,
+          "scrollWidth": 320,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/guitars/yamaha-pacifica-612viifm",
+          "viewport": 320,
+          "scrollWidth": 320,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/brands",
+          "viewport": 320,
+          "scrollWidth": 320,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/brands/yamaha",
+          "viewport": 320,
+          "scrollWidth": 320,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg800,fender-american-professional-ii-stratocaster,gibson-les-paul-standard-60s",
+          "viewport": 320,
+          "scrollWidth": 320,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/find-my-guitar",
+          "viewport": 320,
+          "scrollWidth": 320,
+          "h1": 1,
+          "brokenImages": []
+        },
+        {
+          "path": "/wishlist",
+          "viewport": 320,
+          "scrollWidth": 320,
+          "h1": 1,
+          "brokenImages": []
+        }
+      ]
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "responsive": [
+    {
+      "path": "/",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/guitars",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/guitars/yamaha-pacifica-612viifm",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/brands",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/brands/yamaha",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg800,fender-american-professional-ii-stratocaster,gibson-les-paul-standard-60s",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/find-my-guitar",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/wishlist",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/guitars",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/guitars/yamaha-pacifica-612viifm",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/brands",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/brands/yamaha",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg800,fender-american-professional-ii-stratocaster,gibson-les-paul-standard-60s",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/find-my-guitar",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/wishlist",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/guitars",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/guitars/yamaha-pacifica-612viifm",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/brands",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/brands/yamaha",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg800,fender-american-professional-ii-stratocaster,gibson-les-paul-standard-60s",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/find-my-guitar",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/wishlist",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/guitars",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/guitars/yamaha-pacifica-612viifm",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/brands",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/brands/yamaha",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg800,fender-american-professional-ii-stratocaster,gibson-les-paul-standard-60s",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/find-my-guitar",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/wishlist",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/guitars",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/guitars/yamaha-pacifica-612viifm",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/brands",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/brands/yamaha",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg800,fender-american-professional-ii-stratocaster,gibson-les-paul-standard-60s",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/find-my-guitar",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "h1": 1,
+      "brokenImages": []
+    },
+    {
+      "path": "/wishlist",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "h1": 1,
+      "brokenImages": []
+    }
+  ],
+  "passed": false
+}

@@ -28,7 +28,7 @@ export default function CatalogCard({ guitar, index = 0, onRemove, compact = fal
     <article
       data-guitar-id={guitar.id}
       style={{ animationDelay: `${(index % 9) * 60}ms` }}
-      className={cn('group flex h-full animate-fade-up flex-col overflow-hidden rounded-2xl bg-surface ring-1 ring-white/5 transition duration-500 ease-premium hover:-translate-y-1 hover:ring-white/15 hover:shadow-[0_30px_60px_-24px_rgba(0,0,0,0.7)]', compact && 'catalog-product-card')}
+      className={cn('discovery-card group flex h-full flex-col overflow-hidden bg-surface', compact && 'catalog-product-card')}
     >
       <div className="catalog-card-image relative aspect-[4/5] overflow-hidden bg-gradient-to-b from-[#2b2b2b] to-[#171717]">
         <AppLink href={href} tabIndex={-1} aria-hidden="true" className="absolute inset-0 block">
@@ -36,7 +36,6 @@ export default function CatalogCard({ guitar, index = 0, onRemove, compact = fal
             guitar={guitar}
             sizes={compact ? '(min-width: 1024px) 25vw, (min-width: 380px) 46vw, 90vw' : '(min-width: 1280px) 30vw, (min-width: 640px) 45vw, 92vw'}
             className="absolute inset-0"
-            imgClassName="group-hover:scale-[1.05]"
           />
         </AppLink>
         <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-t from-surface/40 via-transparent to-transparent" />
@@ -63,7 +62,7 @@ export default function CatalogCard({ guitar, index = 0, onRemove, compact = fal
             aria-label={inWishlist ? t('wl.removeAria', { name: guitar.name }) : t('wl.saveAria', { name: guitar.name })}
             onClick={() => toggleWishlist(guitar)}
             className={cn(
-              'absolute right-3 top-3 grid h-11 w-11 place-items-center rounded-full backdrop-blur-md transition duration-300 ease-premium hover:scale-105 active:scale-95',
+              'absolute right-3 top-3 grid h-11 w-11 place-items-center rounded-full backdrop-blur-md transition duration-300 ease-premium hover:text-gold',
               inWishlist ? 'bg-gold text-ink' : 'bg-ink/70 text-bone hover:bg-ink',
             )}
           >
@@ -86,10 +85,10 @@ export default function CatalogCard({ guitar, index = 0, onRemove, compact = fal
 
         <PreviewColorIndicators guitar={guitar} />
 
-        <p className="mt-2 text-[11px] text-gold">{t(`status.${guitar.dataStatus ?? 'sample'}`)}</p>
+        <p className="mt-2 text-[13px] text-gold">{t(`status.${guitar.dataStatus ?? 'sample'}`)}</p>
         {(!verifiedOnly || isSourceBacked(guitar)) && <ul className="catalog-card-tags mt-4 flex flex-wrap gap-1.5">
           {guitar.tags.map((tag) => (
-            <li key={tag} className="rounded-full border border-line px-2.5 py-1 font-mono text-[11px] text-bone/70">
+            <li key={tag} className="rounded-full border border-line px-2.5 py-1 font-mono text-[13px] text-bone/70">
               {tag}
             </li>
           ))}

@@ -9,7 +9,7 @@ import AppLink from '@/components/ui/AppLink';
 import IconButton from './IconButton';
 import Logo from './Logo';
 
-/** เมนูเต็มจอสำหรับ Mobile/Tablet — ลิงก์เข้ามาแบบ stagger */
+/** เมนูเต็มจอสำหรับ Mobile/Tablet พร้อม focus management */
 export default function MobileMenu({ open, onClose }) {
   const dialogRef = useRef(null);
   const { pathname } = useLocation();
@@ -23,30 +23,31 @@ export default function MobileMenu({ open, onClose }) {
       aria-modal="true"
       aria-label={t('nav.menu')}
       aria-hidden={!open}
+      inert={!open ? '' : undefined}
+      style={{ zIndex: 'var(--fl-layer-drawer, 60)' }}
       className={cn(
-        'mobile-navigation fixed inset-0 z-[60] flex flex-col bg-ink transition-[opacity,visibility] duration-500 ease-premium lg:hidden',
+        'mobile-navigation fixed inset-0 flex flex-col bg-ink transition-[opacity,visibility] duration-[240ms] ease-premium motion-reduce:transition-none lg:hidden',
         open ? 'visible opacity-100' : 'invisible opacity-0',
       )}
     >
-      <div className="container-x flex h-16 items-center justify-between">
-        <Logo />
+      <div className="mobile-navigation-header container-x flex h-16 shrink-0 items-center justify-between" style={{ height: 'var(--fl-header-height, 64px)' }}>
+        <Logo onClick={onClose} />
         <IconButton label={t('nav.closeMenu')} onClick={onClose}>
-          <CloseIcon />
+          <CloseIcon size={20} />
         </IconButton>
       </div>
 
       <nav aria-label={t('nav.main')} className="container-x flex min-h-0 flex-1 flex-col justify-center gap-1 overflow-y-auto">
-        {NAV_LINKS.map((link, i) => (
+        {NAV_LINKS.map((link) => (
           <AppLink
             key={link.label}
             href={link.href}
             aria-current={(link.exact ? pathname === link.href : pathname === link.href || pathname.startsWith(`${link.href}/`)) ? 'page' : undefined}
             onClick={onClose}
             tabIndex={open ? 0 : -1}
-            style={{ transitionDelay: open ? `${120 + i * 70}ms` : '0ms' }}
             className={cn(
-              'py-2 font-sans text-4xl font-medium transition duration-700 ease-premium hover:text-gold',
-              open ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0',
+              'mobile-navigation-link flex min-h-14 items-center py-2 font-sans text-[2rem] font-medium leading-normal transition-[color,opacity,transform] duration-[240ms] ease-premium hover:text-gold motion-reduce:transform-none motion-reduce:transition-none',
+              open ? 'translate-y-0 opacity-100' : 'translate-y-2 opacity-0',
             )}
           >
             {link.label}
@@ -54,7 +55,7 @@ export default function MobileMenu({ open, onClose }) {
         ))}
       </nav>
 
-      <p className="container-x pb-10 text-sm text-mute">{t('footer.dataNote')}</p>
+      <p className="mobile-navigation-footer container-x shrink-0 pb-8 pt-5 text-sm leading-7 text-mute">{t('footer.dataNote')}</p>
     </div>
   );
 }

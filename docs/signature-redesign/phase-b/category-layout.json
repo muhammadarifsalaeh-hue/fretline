@@ -1,0 +1,437 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "passed": true,
+      "buttons": [
+        {
+          "name": "ทั้งหมด",
+          "width": 233.59375,
+          "height": 84,
+          "iconCenterY": 404.28125,
+          "words": []
+        },
+        {
+          "name": "กีตาร์ไฟฟ้า",
+          "width": 233.59375,
+          "height": 84,
+          "iconCenterY": 404.28125,
+          "words": [
+            {
+              "text": "กีตาร์",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 450.21875,
+              "right": 478.703125
+            },
+            {
+              "text": "ไฟฟ้า",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 478.703125,
+              "right": 506.5625
+            }
+          ]
+        },
+        {
+          "name": "กีตาร์โปร่ง",
+          "width": 233.609375,
+          "height": 84,
+          "iconCenterY": 404.28125,
+          "words": [
+            {
+              "text": "กีตาร์",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 693.015625,
+              "right": 721.5
+            },
+            {
+              "text": "โปร่ง",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 721.5,
+              "right": 746.953125
+            }
+          ]
+        },
+        {
+          "name": "กีตาร์คลาสสิก",
+          "width": 233.59375,
+          "height": 84,
+          "iconCenterY": 404.28125,
+          "words": [
+            {
+              "text": "กีตาร์",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 924.859375,
+              "right": 953.34375
+            },
+            {
+              "text": "คลาสสิก",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 953.34375,
+              "right": 998.328125
+            }
+          ]
+        },
+        {
+          "name": "เบส",
+          "width": 233.609375,
+          "height": 84,
+          "iconCenterY": 404.28125,
+          "words": []
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "passed": true,
+      "buttons": [
+        {
+          "name": "ทั้งหมด",
+          "width": 182.390625,
+          "height": 84,
+          "iconCenterY": 391.390625,
+          "words": []
+        },
+        {
+          "name": "กีตาร์ไฟฟ้า",
+          "width": 182.40625,
+          "height": 84,
+          "iconCenterY": 391.390625,
+          "words": [
+            {
+              "text": "กีตาร์",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 293.421875,
+              "right": 321.90625
+            },
+            {
+              "text": "ไฟฟ้า",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 321.90625,
+              "right": 349.765625
+            }
+          ]
+        },
+        {
+          "name": "กีตาร์โปร่ง",
+          "width": 182.390625,
+          "height": 84,
+          "iconCenterY": 391.390625,
+          "words": [
+            {
+              "text": "กีตาร์",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 485.015625,
+              "right": 513.5
+            },
+            {
+              "text": "โปร่ง",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 513.5,
+              "right": 538.953125
+            }
+          ]
+        },
+        {
+          "name": "กีตาร์คลาสสิก",
+          "width": 182.40625,
+          "height": 84,
+          "iconCenterY": 391.390625,
+          "words": [
+            {
+              "text": "กีตาร์",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 665.65625,
+              "right": 694.140625
+            },
+            {
+              "text": "คลาสสิก",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 694.140625,
+              "right": 739.125
+            }
+          ]
+        },
+        {
+          "name": "เบส",
+          "width": 182.390625,
+          "height": 84,
+          "iconCenterY": 391.390625,
+          "words": []
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "passed": true,
+      "buttons": [
+        {
+          "name": "ทั้งหมด",
+          "width": 134.390625,
+          "height": 84,
+          "iconCenterY": 391.390625,
+          "words": []
+        },
+        {
+          "name": "กีตาร์ไฟฟ้า",
+          "width": 134.40625,
+          "height": 84,
+          "iconCenterY": 391.390625,
+          "words": [
+            {
+              "text": "กีตาร์",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 213.421875,
+              "right": 241.90625
+            },
+            {
+              "text": "ไฟฟ้า",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 241.90625,
+              "right": 269.765625
+            }
+          ]
+        },
+        {
+          "name": "กีตาร์โปร่ง",
+          "width": 134.390625,
+          "height": 84,
+          "iconCenterY": 391.390625,
+          "words": [
+            {
+              "text": "กีตาร์",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 357.015625,
+              "right": 385.5
+            },
+            {
+              "text": "โปร่ง",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 385.5,
+              "right": 410.953125
+            }
+          ]
+        },
+        {
+          "name": "กีตาร์คลาสสิก",
+          "width": 134.40625,
+          "height": 84,
+          "iconCenterY": 391.390625,
+          "words": [
+            {
+              "text": "กีตาร์",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 489.65625,
+              "right": 518.140625
+            },
+            {
+              "text": "คลาสสิก",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 518.140625,
+              "right": 563.125
+            }
+          ]
+        },
+        {
+          "name": "เบส",
+          "width": 134.390625,
+          "height": 84,
+          "iconCenterY": 391.390625,
+          "words": []
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "passed": true,
+      "buttons": [
+        {
+          "name": "ทั้งหมด",
+          "width": 66,
+          "height": 101.390625,
+          "iconCenterY": 352.984375,
+          "words": []
+        },
+        {
+          "name": "กีตาร์ไฟฟ้า",
+          "width": 66,
+          "height": 101.390625,
+          "iconCenterY": 352.984375,
+          "words": [
+            {
+              "text": "กีตาร์",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 95.828125,
+              "right": 124.3125
+            },
+            {
+              "text": "ไฟฟ้า",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 124.3125,
+              "right": 152.171875
+            }
+          ]
+        },
+        {
+          "name": "กีตาร์โปร่ง",
+          "width": 66,
+          "height": 101.390625,
+          "iconCenterY": 352.984375,
+          "words": [
+            {
+              "text": "กีตาร์",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 168.03125,
+              "right": 196.515625
+            },
+            {
+              "text": "โปร่ง",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 196.515625,
+              "right": 221.96875
+            }
+          ]
+        },
+        {
+          "name": "กีตาร์คลาสสิก",
+          "width": 66,
+          "height": 101.390625,
+          "iconCenterY": 352.984375,
+          "words": [
+            {
+              "text": "กีตาร์",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 251.75,
+              "right": 280.234375
+            },
+            {
+              "text": "คลาสสิก",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 243.5,
+              "right": 288.484375
+            }
+          ]
+        },
+        {
+          "name": "เบส",
+          "width": 66,
+          "height": 101.390625,
+          "iconCenterY": 352.984375,
+          "words": []
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "passed": true,
+      "buttons": [
+        {
+          "name": "ทั้งหมด",
+          "width": 52,
+          "height": 101.390625,
+          "iconCenterY": 352.984375,
+          "words": []
+        },
+        {
+          "name": "กีตาร์ไฟฟ้า",
+          "width": 52,
+          "height": 101.390625,
+          "iconCenterY": 352.984375,
+          "words": [
+            {
+              "text": "กีตาร์",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 88.75,
+              "right": 117.234375
+            },
+            {
+              "text": "ไฟฟ้า",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 89.0625,
+              "right": 116.921875
+            }
+          ]
+        },
+        {
+          "name": "กีตาร์โปร่ง",
+          "width": 52,
+          "height": 101.390625,
+          "iconCenterY": 352.984375,
+          "words": [
+            {
+              "text": "กีตาร์",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 145.75,
+              "right": 174.234375
+            },
+            {
+              "text": "โปร่ง",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 147.265625,
+              "right": 172.71875
+            }
+          ]
+        },
+        {
+          "name": "กีตาร์คลาสสิก",
+          "width": 52,
+          "height": 101.390625,
+          "iconCenterY": 352.984375,
+          "words": [
+            {
+              "text": "กีตาร์",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 202.75,
+              "right": 231.234375
+            },
+            {
+              "text": "คลาสสิก",
+              "height": 18.1875,
+              "lineHeight": 18.2,
+              "left": 194.5,
+              "right": 239.484375
+            }
+          ]
+        },
+        {
+          "name": "เบส",
+          "width": 52,
+          "height": 101.390625,
+          "iconCenterY": 352.984375,
+          "words": []
+        }
+      ]
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "passed": true
+}

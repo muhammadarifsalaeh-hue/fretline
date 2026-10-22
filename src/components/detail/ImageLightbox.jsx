@@ -26,8 +26,8 @@ export default function ImageLightbox({ images, index, onIndex, onClose, name, g
   const current = images[index];
 
   return (
-    <div ref={dialogRef} role="dialog" aria-modal="true" aria-label={t('gallery.dialogAria', { name })} className="fixed inset-0 z-[80] flex animate-fade-in flex-col bg-ink/95 backdrop-blur-md">
-      <div className="flex items-center justify-between px-5 py-4 md:px-8">
+    <div ref={dialogRef} role="dialog" aria-modal="true" aria-label={t('gallery.dialogAria', { name })} style={{ zIndex: 'var(--fl-layer-lightbox)' }} className="product-lightbox fixed inset-0 flex animate-fade-in flex-col bg-ink/95 backdrop-blur-md">
+      <div className="lightbox-toolbar flex items-center justify-between px-5 py-4 md:px-8">
         <p className="font-mono text-sm text-mute">
           {index + 1} / {count}
           <span className="ml-3 hidden text-bone/70 sm:inline">{current.label}</span>
@@ -67,7 +67,7 @@ export default function ImageLightbox({ images, index, onIndex, onClose, name, g
 
       <div className="max-h-[30svh] overflow-y-auto px-5 pb-3 text-center"><ImageAttribution image={current} /></div>
 
-      <ul className="flex shrink-0 gap-3 overflow-x-auto px-4 py-5 sm:justify-center">
+      <ul className="lightbox-thumbnails flex shrink-0 gap-3 overflow-x-auto px-4 py-5 sm:justify-center">
         {images.map((img, i) => (
           <li key={img.src} className="shrink-0">
             <button

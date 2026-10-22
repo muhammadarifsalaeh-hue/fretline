@@ -1,6 +1,8 @@
 # Signature Design System — ข้อเสนอสำหรับตรวจรอบแรก
 
-สถานะ: **Proposal ยังไม่ได้นำเข้าเว็บไซต์จริง** `tokens.css` อยู่ในโฟลเดอร์เอกสารและไม่มีการ import จาก `src/main.jsx` หรือ Tailwind config ภาพ Styleboard ไม่ใช่ภาพ After ของ Homepage/Catalog
+สถานะปัจจุบัน: **ได้รับอนุมัติและนำไปใช้ใน Phase B** ดู [ระบบ tokens ที่ใช้งานจริง](../../../src/styles/tokens.css) และ [รายงาน Phase B](../phase-b/README.md)
+
+บันทึกตอนเสนอ Phase A: **Proposal ยังไม่ได้นำเข้าเว็บไซต์จริง** `tokens.css` อยู่ในโฟลเดอร์เอกสารและไม่มีการ import จาก `src/main.jsx` หรือ Tailwind config ภาพ Styleboard ไม่ใช่ภาพ After ของ Homepage/Catalog
 
 ## ทิศทาง
 

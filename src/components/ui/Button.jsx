@@ -20,7 +20,7 @@ export default function Button({ href, variant = 'primary', size = 'md', classNa
       href={href}
       type={href ? undefined : 'button'}
       className={cn(
-        'inline-flex items-center justify-center gap-2 rounded-full font-medium transition duration-300 ease-premium active:scale-[0.98]',
+        'fl-button inline-flex items-center justify-center gap-2 font-medium disabled:cursor-not-allowed disabled:opacity-50',
         VARIANTS[variant],
         SIZES[size],
         className,

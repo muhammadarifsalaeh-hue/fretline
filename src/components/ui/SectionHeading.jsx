@@ -7,7 +7,7 @@ export default function SectionHeading({ title, action, tone = 'dark', className
   return (
     <div className={cn('mb-10 flex flex-col gap-6 md:mb-14 md:flex-row md:items-end md:justify-between', className)}>
       <div className="max-w-2xl">
-        <h2 className="font-sans text-3xl font-medium leading-[1.1] tracking-tight md:text-4xl lg:text-5xl">{title}</h2>
+        <h2 className="section-title font-sans font-medium">{title}</h2>
         {children}
       </div>
       {action && (

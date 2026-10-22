@@ -46,7 +46,7 @@ export default function CompareTable({ guitars, diffOnly = false, onRemove, bg =
           {guitars.map((g) => (
             <div key={g.id} className="relative min-w-0">
               <AppLink href={guitarUrl(g.slug)} className="block" aria-label={t('cmp.viewAria', { name: `${g.brand} ${g.name}` })}>
-                <GuitarImage guitar={g} sizes="(min-width: 768px) 190px, 150px" className="aspect-[4/5] rounded-2xl" imgClassName="hover:scale-[1.04]" />
+                <GuitarImage guitar={g} sizes="(min-width: 768px) 190px, 150px" className="aspect-[4/5] rounded-2xl" />
               </AppLink>
               {onRemove && (
                 <button
@@ -105,16 +105,16 @@ export default function CompareTable({ guitars, diffOnly = false, onRemove, bg =
                     className={cn('grid items-start gap-4 border-t border-line py-4 text-sm', diff && 'bg-white/[0.03]')}
                     style={{ gridTemplateColumns: columns }}
                   >
-                    <div role="rowheader" className={cn('sticky left-0 z-10 pr-2', diff ? 'bg-[#101010] text-bone/80' : `${bg} text-mute`)}>
+                    <div role="rowheader" className={cn('comparison-row-label sticky left-0 z-10 pr-2', diff ? 'bg-[#101010] text-bone' : `${bg} text-secondary`)}>
                       {row.label}
-                      {same && <span className="mt-0.5 block text-[11px] text-mute/60">{t('cmp.same')}</span>}
+                      {same && <span className="comparison-same-note mt-1 block text-[13px] leading-relaxed text-mute">{t('cmp.same')}</span>}
                     </div>
                     {guitars.map((g) => {
                       const value = valueOf(g);
                       const isBest = best !== null && value === best;
                       const note = diff && row.note && allowed(g) ? row.note(g, guitars.filter(allowed)) : null;
                       return (
-                        <div key={g.id} role="cell" className={cn('min-w-0 break-words font-mono text-[13px] leading-snug', diff ? 'text-bone' : 'text-bone/45')}>
+                        <div key={g.id} role="cell" className={cn('comparison-value min-w-0 break-words font-mono text-[13px] leading-relaxed', diff ? 'text-bone' : 'text-secondary')}>
                           {isBest && (
                             <span
                               title={t('cmp.bestTitle')}
@@ -122,7 +122,7 @@ export default function CompareTable({ guitars, diffOnly = false, onRemove, bg =
                             />
                           )}
                           {displayOf(g)}
-                          {note && <span className="mt-1 block text-[11px] text-mute">{note}</span>}
+                          {note && <span className="comparison-value-note mt-1 block text-[13px] leading-relaxed text-mute">{note}</span>}
                         </div>
                       );
                     })}

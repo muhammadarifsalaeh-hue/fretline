@@ -20,18 +20,20 @@ export default function CompareBar() {
   return (
     <div
       aria-hidden={!visible}
+      inert={!visible ? '' : undefined}
+      style={{ zIndex: 'var(--fl-layer-tray, 40)' }}
       className={cn(
-        'fixed inset-x-0 bottom-[calc(68px+env(safe-area-inset-bottom))] z-40 px-3 transition duration-500 ease-premium lg:bottom-6',
+        'compare-tray-positioner fixed inset-x-0 bottom-[calc(68px+env(safe-area-inset-bottom))] px-3 transition-[opacity,transform] duration-[240ms] ease-premium motion-reduce:transition-none lg:bottom-6',
         visible ? 'translate-y-0 opacity-100' : 'pointer-events-none translate-y-[140%] opacity-0',
       )}
     >
-      <div className="compare-tray mx-auto flex max-w-3xl items-center gap-3 rounded-3xl border border-white/10 bg-ink/85 p-2.5 pl-4 shadow-[0_20px_60px_-10px_rgba(0,0,0,0.8)] backdrop-blur-xl">
+      <div className="compare-tray mx-auto flex max-w-3xl items-center gap-3 rounded-xl border border-line bg-ink/95 p-2.5 pl-4 shadow-[0_12px_32px_rgba(0,0,0,0.28)] backdrop-blur-xl">
         <p className="hidden text-sm text-mute sm:block">{t('cmpbar.title')}</p>
 
         <ul aria-label={t('cmpbar.title')} className="flex min-w-0 flex-1 items-center gap-2 overflow-x-auto">
           {slots.map((g, i) =>
             g ? (
-              <li key={g.id} className="group relative h-12 w-12 shrink-0 overflow-hidden rounded-xl ring-1 ring-white/15">
+              <li key={g.id} className="group relative h-12 w-12 shrink-0 overflow-hidden rounded-lg ring-1 ring-line">
                 <GuitarImage guitar={g} size="sm" className="h-full w-full" />
                 <button
                   type="button"
@@ -44,7 +46,7 @@ export default function CompareBar() {
                 </button>
               </li>
             ) : (
-              <li key={`empty-${i}`} className="grid h-12 w-12 shrink-0 place-items-center rounded-xl border border-dashed border-white/20 text-mute">
+              <li key={`empty-${i}`} className="grid h-12 w-12 shrink-0 place-items-center rounded-lg border border-dashed border-line text-mute">
                 <PlusIcon size={16} />
               </li>
             ),
@@ -57,7 +59,7 @@ export default function CompareBar() {
           aria-disabled={!ready}
           onClick={(event) => { if (!ready) event.preventDefault(); }}
           className={cn(
-            'inline-flex h-12 shrink-0 items-center rounded-full bg-gold px-6 text-sm font-medium text-ink transition duration-300 hover:bg-gold-soft',
+            'site-tray-action inline-flex h-12 shrink-0 items-center justify-center rounded-lg bg-gold px-5 text-sm font-medium leading-normal text-ink transition-colors duration-200 hover:bg-gold-soft motion-reduce:transition-none',
             !ready && 'pointer-events-none opacity-40',
           )}
         >

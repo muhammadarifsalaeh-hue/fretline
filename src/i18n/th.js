@@ -467,6 +467,7 @@ export const th = {
   "preset.30to70": "฿30k – 70k",
   "preset.over70": "มากกว่า ฿70k",
   "preset.under10": "ต่ำกว่า ฿10k",
+  "price.unbounded": "ไม่จำกัด",
   "price.max": "สูงสุด",
   "price.maxAria": "ราคาสูงสุด",
   "price.min": "ต่ำสุด",

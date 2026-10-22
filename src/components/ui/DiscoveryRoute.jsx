@@ -5,7 +5,7 @@ import AppLink from './AppLink';
 
 function LoadingState() {
   return (
-    <section className="container-x min-h-[70svh] pb-16 pt-32" role="status" aria-busy="true" aria-label={t('discovery.loading')}>
+    <section className="route-loading container-x min-h-screen pb-16 pt-32" role="status" aria-busy="true" aria-label={t('discovery.loading')}>
       <p className="mb-6 text-sm text-gold">{t('discovery.loading')}</p>
       <div aria-hidden="true" className="grid grid-cols-2 gap-4 md:grid-cols-3">
         {Array.from({ length: 6 }, (_, i) => <div key={i} className="h-64 animate-pulse rounded-xl border border-line bg-surface motion-reduce:animate-none" />)}

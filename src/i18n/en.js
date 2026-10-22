@@ -468,6 +468,7 @@ export const en = {
   "preset.30to70": "฿30k – 70k",
   "preset.over70": "Over ฿70k",
   "preset.under10": "Under ฿10k",
+  "price.unbounded": "No upper limit",
   "price.max": "Max",
   "price.maxAria": "Maximum price",
   "price.min": "Min",

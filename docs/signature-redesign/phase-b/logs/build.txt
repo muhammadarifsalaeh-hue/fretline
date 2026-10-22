@@ -1,0 +1,41 @@
+
+> fretline@0.1.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 176 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                             0.91 kB │ gzip:  0.57 kB
+dist/assets/01-front-480-cu5pQ3DA.webp     20.11 kB
+dist/assets/01-front-480-DvNXnlmI.webp     38.72 kB
+dist/assets/01-front-960-RP14YaR8.webp     83.14 kB
+dist/assets/01-front-960-Bhe6OkYl.webp    115.42 kB
+dist/assets/01-front-CpQ6r9La.webp        131.46 kB
+dist/assets/01-front-D2ver0On.webp        168.65 kB
+dist/assets/01-black-4e0ibs0x.jpg         186.84 kB
+dist/assets/03-blue-teal-DGai0Mw0.jpg     191.78 kB
+dist/assets/02-red-5wy1XNF8.jpg           192.06 kB
+dist/assets/04-all-colors-Dh6UTa0U.jpg    233.51 kB
+dist/assets/index-Dm9__Pj8.css            104.14 kB │ gzip: 19.66 kB
+dist/assets/SortSelect-DLvvKsCD.js          0.61 kB │ gzip:  0.38 kB
+dist/assets/CatalogEmpty-p900HNRz.js        0.70 kB │ gzip:  0.41 kB
+dist/assets/guitarSort-DQeg1wrb.js          0.73 kB │ gzip:  0.41 kB
+dist/assets/ImageAttribution-Cxoujciv.js    0.75 kB │ gzip:  0.39 kB
+dist/assets/ShareLink-tOkTGT9H.js           0.82 kB │ gzip:  0.53 kB
+dist/assets/DiscoveryHeading-DSrn8kPL.js    0.93 kB │ gzip:  0.49 kB
+dist/assets/ConfirmDialog-1W0I62FZ.js       1.03 kB │ gzip:  0.57 kB
+dist/assets/ImageCreditsPage-DzZDdCdF.js    2.61 kB │ gzip:  1.03 kB
+dist/assets/CatalogCard-DspZ9d7U.js         4.95 kB │ gzip:  1.95 kB
+dist/assets/BrandsPage-DZG0cgLq.js          5.61 kB │ gzip:  2.24 kB
+dist/assets/WishlistPage-Dxhvslde.js        5.66 kB │ gzip:  2.15 kB
+dist/assets/BrandDetailPage-D8TkSb4t.js     6.05 kB │ gzip:  2.10 kB
+dist/assets/ComparePage-CCe0z7Y2.js        11.50 kB │ gzip:  4.03 kB
+dist/assets/FindMyGuitarPage-DioihxPl.js   19.12 kB │ gzip:  6.22 kB
+dist/assets/CatalogPage-DE_CWnjd.js        19.28 kB │ gzip:  6.53 kB
+dist/assets/GuitarDetailPage-M_fXNtFX.js   23.74 kB │ gzip:  8.01 kB
+dist/assets/index-CNCVpitX.js             143.16 kB │ gzip: 47.24 kB
+dist/assets/vendor-DU_bXo7n.js            163.33 kB │ gzip: 53.23 kB
+dist/assets/guitar-catalog-fsERoDj-.js    338.29 kB │ gzip: 37.12 kB
+✓ built in 5.29s

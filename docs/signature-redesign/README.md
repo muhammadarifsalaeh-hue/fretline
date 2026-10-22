@@ -1,6 +1,6 @@
-# Fretline Signature Redesign — จุดตรวจ Audit
+# Fretline Signature Redesign — จุดตรวจ Phase B
 
-สถานะ: **Phase A เสร็จ พร้อมข้อเสนอ Design System สำหรับตรวจ** ยังไม่ได้นำ tokens ไปใช้กับเว็บจริง และยังไม่เริ่ม Redesign Homepage/Catalog/Detail ตามข้อกำหนดให้ตรวจงานก่อนขึ้นขั้นต่อไป
+สถานะ: **Styleboard ได้รับอนุมัติ และนำ Design System / Shared Components ไปใช้ใน Phase B แล้ว** ดู [รายงานและภาพ Before/After](phase-b/README.md) และ [หน้ารวมภาพเปรียบเทียบ](phase-b/review.html) ก่อนอนุมัติ Phase C: Homepage Redesign
 
 Audit ใช้โปรเจกต์เดิม branch `master`, baseline `82fbe9bdae7cbb9b0d32f356172a37fc7646362a` ตรวจ Remote แล้วตรงกันระหว่างรอบนี้ ไม่ได้สร้าง Vite project ใหม่
 
@@ -12,13 +12,13 @@ Audit ใช้โปรเจกต์เดิม branch `master`, baseline `8
 - [รายละเอียด tokens และแผนนำไปใช้](proposals/DESIGN_SYSTEM.md)
 - [Audit ทุกหน้าและผลทดสอบ](audit/AUDIT.md)
 
-**Styleboard เป็นข้อเสนอ ไม่ใช่ภาพ After ของเว็บไซต์จริง** ภาพ Before ทั้ง36ภาพอยู่ใน `audit/before/` พร้อมหลักฐานปัญหาใน `audit/focused/` รอบนี้ยังไม่มีภาพ After ของเว็บจริงเพราะเป็นจุดตรวจ Audit ก่อนแก้ implementation
+**Styleboard คือภาพแนวทางที่อนุมัติ** ภาพเว็บไซต์จริง Before อยู่ใน `audit/before/` และ After อยู่ใน `phase-b/after/` จำนวน36ภาพต่อชุด พร้อมผลตรวจ Responsive 53 มุมมอง
 
 ## ขอบเขตที่คงเดิม
 
 ข้อมูล200รุ่น / 10แบรนด์ / แบรนด์ละ20รุ่น, IDs, manufacturer source fields, ราคา, สเปก, รีวิว, รูปทั้งหมดและ image metadata, Router, ShopContext, Compare/Wishlist storage และสูตร Quiz
 
-มีเฉพาะเอกสาร ข้อเสนอ tokens และเครื่องมือ/ผล Audit ใต้ `docs/signature-redesign/` ไม่มีการเปลี่ยนไฟล์ `src/`, `public/`, package/dependency หรือ image registries
+Phase A เก็บหลักฐานเดิมไว้ ส่วน Phase B ปรับ `src/` และ Tailwind สำหรับระบบดีไซน์ร่วม ไม่มีการเปลี่ยน package/dependency, catalog data หรือ image registries; ค่า SHA-256 ของไฟล์ข้อมูล/ภาพที่ตรวจ25ไฟล์ยังตรงกับ baseline
 
 ## ลำดับงานและจุดตรวจถัดไป
 

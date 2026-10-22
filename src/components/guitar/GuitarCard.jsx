@@ -19,7 +19,7 @@ function CardAction({ label, active, disabled = false, onClick, children }) {
       disabled={disabled}
       onClick={onClick}
       className={cn(
-        'grid h-11 w-11 place-items-center rounded-full backdrop-blur-md transition duration-300 ease-premium hover:scale-105 active:scale-95',
+        'grid h-11 w-11 place-items-center rounded-full backdrop-blur-md transition duration-300 ease-premium hover:text-gold',
         active ? 'bg-gold text-ink' : 'bg-ink/70 text-bone hover:bg-ink',
       )}
     >
@@ -35,14 +35,13 @@ export default function GuitarCard({ guitar }) {
   const compareFull = !inCompare && compare.length >= MAX_COMPARE;
 
   return (
-    <article data-guitar-id={guitar.id} className="guitar-card group relative flex h-full flex-col overflow-hidden rounded-lg border border-white/[0.07] bg-surface text-bone ring-1 ring-white/5 transition duration-500 ease-premium hover:-translate-y-1 hover:border-gold/40 hover:shadow-[0_30px_60px_-20px_rgba(0,0,0,0.6)]">
+    <article data-guitar-id={guitar.id} className="guitar-card discovery-card group relative flex h-full flex-col overflow-hidden bg-surface text-bone">
       {/* พื้นที่รูป 4:5 */}
       <div className="relative aspect-[4/5] overflow-hidden bg-gradient-to-b from-[#191919] to-[#101010]">
         <GuitarImage
           guitar={guitar}
           sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 82vw"
           className="absolute inset-0"
-          imgClassName="group-hover:scale-[1.05]"
         />
         <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-t from-surface/50 via-transparent to-transparent" />
 
@@ -88,7 +87,7 @@ export default function GuitarCard({ guitar }) {
       </div>
 
       <div className="card-copy flex flex-1 flex-col gap-3 p-5">
-        <p className="text-[11px] text-gold">{t(`status.${guitar.dataStatus ?? 'sample'}`)}</p>
+        <p className="text-[13px] text-gold">{t(`status.${guitar.dataStatus ?? 'sample'}`)}</p>
         <p className="text-xs uppercase tracking-[0.14em] text-mute">{guitar.brand}</p>
         <h3 className="font-serif text-2xl leading-[1.15]">
           <AppLink href={guitarUrl(guitar.slug)} className="after:absolute after:inset-x-0 after:top-0 after:bottom-0 after:content-[''] after:z-0 hover:text-gold transition-colors">
@@ -99,7 +98,7 @@ export default function GuitarCard({ guitar }) {
 
         <ul className="flex flex-wrap gap-1.5">
           {guitar.tags.map((tag) => (
-            <li key={tag} className="rounded-full border border-line px-2.5 py-1 font-mono text-[11px] text-bone/70">
+            <li key={tag} className="rounded-full border border-line px-2.5 py-1 font-mono text-[13px] text-bone/70">
               {tag}
             </li>
           ))}

@@ -7,16 +7,17 @@ export default function IconButton({ label, href, badge = 0, className = '', chi
   return (
     <Comp
       href={href}
+      type={href ? undefined : 'button'}
       aria-label={label}
       className={cn(
-        'relative inline-flex h-11 w-11 items-center justify-center rounded-full text-bone/85 transition duration-300 hover:bg-white/10 hover:text-bone',
+        'site-icon-button relative inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-lg text-bone/85 transition-colors duration-200 hover:bg-white/5 hover:text-bone motion-reduce:transition-none',
         className,
       )}
       {...props}
     >
       {children}
       {badge > 0 && (
-        <span className="absolute right-1 top-1 grid h-4 min-w-4 place-items-center rounded-full bg-gold px-1 font-mono text-[10px] font-medium text-ink">
+        <span className="site-icon-badge absolute right-0.5 top-0.5 grid h-[18px] min-w-[18px] place-items-center rounded-full bg-gold px-1 text-[11px] font-medium leading-none text-ink">
           {badge}
         </span>
       )}

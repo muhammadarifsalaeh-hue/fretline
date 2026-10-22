@@ -1,4 +1,5 @@
 import { useCallback } from 'react';
+import { flushSync } from 'react-dom';
 import { useNavigate } from 'react-router-dom';
 import { focusSearch } from '@/utils/dom';
 
@@ -6,7 +7,10 @@ import { focusSearch } from '@/utils/dom';
 export default function useSearchNavigation() {
   const navigate = useNavigate();
   return useCallback(() => {
-    if (document.querySelector('#catalog-search, #brands-search, #hero-search')) focusSearch();
-    else navigate('/#search');
+    if (focusSearch()) return;
+    // HomePage is eager-loaded. Commit its search input before the original
+    // touch gesture ends rather than attempting focus from a delayed timer.
+    flushSync(() => navigate('/#search'));
+    focusSearch();
   }, [navigate]);
 }

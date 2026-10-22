@@ -34,7 +34,7 @@ export default function ActiveFilters({ filters, priceActive, onRemoveType, onRe
       {filters.brands.map((b) => (
         <Chip key={b} label={b} onRemove={() => onRemoveBrand(b)} />
       ))}
-      {priceActive && <Chip label={`${formatPrice(filters.min)} – ${formatPrice(filters.max)}`} onRemove={onResetPrice} />}
+      {priceActive && <Chip label={`${formatPrice(filters.min)} – ${Number.isFinite(filters.max) ? formatPrice(filters.max) : t('price.unbounded')}`} onRemove={onResetPrice} />}
       <li>
         <button type="button" onClick={onClearAll} className="min-h-11 px-2 text-[13px] text-gold transition-colors hover:text-gold-soft">
           {t('filters.clearAll')}

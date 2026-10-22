@@ -1,0 +1,26 @@
+PASS price-1440
+PASS filters-1440
+PASS hover-1440
+PASS contrast-1440
+PASS navigation-1440
+PASS navigation-1024
+PASS navigation-390
+PASS focus-1440
+PASS gallery-1440
+PASS gallery-390
+PASS wishlist-1440
+PASS compare-1440
+PASS quiz-1440
+PASS responsive-1440
+PASS responsive-1024
+PASS responsive-768
+PASS responsive-390
+FAIL responsive-320
+Traceback (most recent call last):
+  File "/workspace/fretline/docs/signature-redesign/phase-b/tests/acceptance.py", line 406, in <module>
+    result = mobile_navigation(page) if name == 'navigation' and width < 1024 else test(page)
+                                                                                   ^^^^^^^^^^
+  File "/workspace/fretline/docs/signature-redesign/phase-b/tests/acceptance.py", line 370, in responsive
+    assert metrics['h1'] == 1, {'route': route, **metrics}
+           ^^^^^^^^^^^^^^^^^^
+AssertionError: {'route': '/guitars', 'viewport': 320, 'scrollWidth': 320, 'h1': 0, 'brokenImages': []}

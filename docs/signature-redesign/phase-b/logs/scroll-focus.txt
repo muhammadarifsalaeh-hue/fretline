@@ -1,0 +1,14 @@
+✔ scroll-to-top defaults to both origins and permits caller options (2.18945ms)
+✔ reduced motion removes smooth movement without changing coordinates (0.443166ms)
+✔ element scrolling preserves placement and handles an absent target (2.002331ms)
+✔ search focuses synchronously before scrolling and uses the current page field (0.569678ms)
+✔ search reports an absent field without moving focus or scrolling (0.511644ms)
+✔ helpers tolerate a browser without matchMedia and server-side scrolling (1.069412ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 14.793231

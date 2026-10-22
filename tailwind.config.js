@@ -4,14 +4,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        ink: '#0A0A0A',
-        surface: '#141414',
-        'surface-2': '#1C1C1C',
-        line: '#2A2A2A',
-        bone: '#F5F5F2',
-        mute: '#8A8A85',
-        paper: '#F4F2EE',
-        gold: { DEFAULT: '#C8A15A', soft: '#E0C58C' },
+        ink: 'rgb(var(--fl-color-canvas) / <alpha-value>)',
+        surface: 'rgb(var(--fl-color-surface) / <alpha-value>)',
+        'surface-2': 'rgb(var(--fl-color-raised) / <alpha-value>)',
+        line: 'rgb(var(--fl-color-border) / <alpha-value>)',
+        'line-strong': 'rgb(var(--fl-color-border-strong) / <alpha-value>)',
+        bone: 'rgb(var(--fl-color-text) / <alpha-value>)',
+        secondary: 'rgb(var(--fl-color-secondary) / <alpha-value>)',
+        mute: 'rgb(var(--fl-color-muted) / <alpha-value>)',
+        paper: 'rgb(var(--fl-color-paper) / <alpha-value>)',
+        gold: { DEFAULT: 'rgb(var(--fl-color-accent) / <alpha-value>)', soft: 'rgb(var(--fl-color-champagne) / <alpha-value>)' },
       },
       fontFamily: {
         // Anuphan = ฟอนต์หลักของภาษาไทย (และตัวอักษรละตินในข้อความทั่วไป)
@@ -51,8 +53,8 @@ export default {
         },
       },
       animation: {
-        'fade-up': 'fadeUp 900ms cubic-bezier(0.22,1,0.36,1) both',
-        'fade-in': 'fadeIn 400ms ease both',
+        'fade-up': 'fadeUp var(--fl-duration-editorial) var(--fl-ease) both',
+        'fade-in': 'fadeIn var(--fl-duration-transition) ease both',
         'hero-guitar': 'heroGuitar 1600ms cubic-bezier(0.22,1,0.36,1) both',
         marquee: 'marquee 40s linear infinite',
         'ping-soft': 'pingSoft 2.4s cubic-bezier(0,0,0.2,1) infinite',

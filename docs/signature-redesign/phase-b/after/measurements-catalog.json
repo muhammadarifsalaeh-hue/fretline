@@ -1,0 +1,1520 @@
+{
+  "stage": "Phase B after; compare with audit/before, app baseline 82fbe9b",
+  "browser": "Chromium on Linux; physical Safari/iPad not tested",
+  "measurements": [
+    {
+      "overflow": false,
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "h1": [
+        {
+          "text": "Catalog",
+          "width": 1200,
+          "height": 60.5,
+          "font": "43.2px",
+          "lineHeight": "60.48px",
+          "tag": "H1"
+        }
+      ],
+      "smallVisibleControls": [
+        {
+          "text": "กีตาร์",
+          "width": 30.7,
+          "height": 44,
+          "font": "14px",
+          "lineHeight": "21px",
+          "tag": "A"
+        },
+        {
+          "text": "แบรนด์",
+          "width": 40.1,
+          "height": 44,
+          "font": "14px",
+          "lineHeight": "21px",
+          "tag": "A"
+        },
+        {
+          "text": "หน้าหลัก",
+          "width": 44.8,
+          "height": 32,
+          "font": "13px",
+          "lineHeight": "23.4px",
+          "tag": "A"
+        },
+        {
+          "text": "",
+          "width": 1090,
+          "height": 40,
+          "font": "14px",
+          "lineHeight": "25.2px",
+          "tag": "INPUT"
+        },
+        {
+          "text": "",
+          "width": 1,
+          "height": 1,
+          "font": "14px",
+          "lineHeight": "20px",
+          "tag": "INPUT"
+        },
+        {
+          "text": "",
+          "width": 1,
+          "height": 1,
+          "font": "14px",
+          "lineHeight": "20px",
+          "tag": "INPUT"
+        },
+        {
+          "text": "",
+          "width": 1,
+          "height": 1,
+          "font": "14px",
+          "lineHeight": "20px",
+          "tag": "INPUT"
+        },
+        {
+          "text": "",
+          "width": 1,
+          "height": 1,
+          "font": "14px",
+          "lineHeight": "20px",
+          "tag": "INPUT"
+        },
+        {
+          "text": "",
+          "width": 1,
+          "height": 1,
+          "font": "14px",
+          "lineHeight": "20px",
+          "tag": "INPUT"
+        },
+        {
+          "text": "",
+          "width": 1,
+          "height": 1,
+          "font": "14px",
+          "lineHeight": "20px",
+          "tag": "INPUT"
+        }
+      ],
+      "smallText": [
+        {
+          "text": "แสดง 1–9 จาก 200 รุ่น",
+          "width": 753.7,
+          "height": 19.8,
+          "font": "11px",
+          "lineHeight": "19.8px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 295.7,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 295.7,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 295.7,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 295.7,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 295.7,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 295.7,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 295.7,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 295.7,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        }
+      ],
+      "brokenVisibleImages": [],
+      "cards": [
+        {
+          "text": "FenderAmerican Professional II Stratocasterยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าFenderกีตาร์ไฟฟ้า",
+          "width": 313.7,
+          "height": 683.7,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "GibsonLes Paul Standard 60sยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าGibsonกีตาร์ไฟฟ้าLes Paul Standar",
+          "width": 313.7,
+          "height": 683.7,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "IbanezRG550 Genesisยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าIbanezกีตาร์ไฟฟ้าRG550 Genesisตรวจสอบบางส",
+          "width": 313.7,
+          "height": 683.7,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "Yamahaกีตาร์ไฟฟ้าPacifica 612VIIFMBlackRedBlue / Teal3 สีตรวจสอบบางส่วนHSSSeymour Duncan22 frets฿34,",
+          "width": 313.7,
+          "height": 712.8,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "Taylor214ce Grand Auditoriumยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าTaylorกีตาร์โปร่ง214ce Grand Aud",
+          "width": 313.7,
+          "height": 712.8,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "MartinD-18 Dreadnoughtยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าMartinกีตาร์โปร่งD-18 Dreadnoughtตรวจส",
+          "width": 313.7,
+          "height": 712.8,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "YamahaFG800 Dreadnoughtยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าYamahaกีตาร์โปร่งFG800 Dreadnoughtตรว",
+          "width": 313.7,
+          "height": 651.4,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "CórdobaC5 Classicalยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าCórdobaกีตาร์คลาสสิกC5 Classicalตรวจสอบบา",
+          "width": 313.7,
+          "height": 651.4,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "FenderPlayer II Jazz Bassยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าFenderเบสPlayer II Jazz Bassตรวจสอบ",
+          "width": 313.7,
+          "height": 651.4,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        }
+      ],
+      "internalLinks": [
+        "/",
+        "/guitars",
+        "/brands",
+        "/compare",
+        "/find-my-guitar",
+        "/wishlist",
+        "/guitars?type=electric",
+        "/guitars?type=acoustic",
+        "/guitars?type=classical",
+        "/guitars?type=bass",
+        "/guitars/fender-american-professional-ii-stratocaster",
+        "/guitars/gibson-les-paul-standard-60s",
+        "/guitars?max=10000",
+        "/guitars?min=10000&max=30000",
+        "/guitars?min=30000&max=70000",
+        "/guitars?min=70000",
+        "/guitars/ibanez-rg550-genesis",
+        "/guitars/yamaha-pacifica-612viifm",
+        "/guitars/taylor-214ce",
+        "/guitars/martin-d-18",
+        "/guitars/yamaha-fg800",
+        "/guitars/cordoba-c5",
+        "/guitars/fender-player-ii-jazz-bass",
+        "/image-credits"
+      ],
+      "route": "catalog",
+      "path": "/guitars",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "overflow": false,
+      "scrollWidth": 768,
+      "viewport": 768,
+      "h1": [
+        {
+          "text": "Catalog",
+          "width": 704,
+          "height": 47.6,
+          "font": "34px",
+          "lineHeight": "47.6px",
+          "tag": "H1"
+        }
+      ],
+      "smallVisibleControls": [
+        {
+          "text": "หน้าหลัก",
+          "width": 44.8,
+          "height": 32,
+          "font": "13px",
+          "lineHeight": "23.4px",
+          "tag": "A"
+        },
+        {
+          "text": "",
+          "width": 594,
+          "height": 40,
+          "font": "14px",
+          "lineHeight": "25.2px",
+          "tag": "INPUT"
+        },
+        {
+          "text": "Les Paul Standard 60s",
+          "width": 149,
+          "height": 26,
+          "font": "20px",
+          "lineHeight": "28px",
+          "tag": "A"
+        },
+        {
+          "text": "RG550 Genesis",
+          "width": 98.9,
+          "height": 26,
+          "font": "20px",
+          "lineHeight": "28px",
+          "tag": "A"
+        }
+      ],
+      "smallText": [
+        {
+          "text": "แสดง 1–9 จาก 200 รุ่น",
+          "width": 407.3,
+          "height": 19.8,
+          "font": "11px",
+          "lineHeight": "19.8px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 207.3,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 207.3,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 207.3,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 207.3,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 207.3,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 207.3,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 207.3,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 207.3,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 207.3,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 207.3,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 207.3,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 207.3,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 207.3,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 207.3,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 207.3,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 207.3,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        }
+      ],
+      "brokenVisibleImages": [],
+      "cards": [
+        {
+          "text": "FenderAmerican Professional II Stratocasterยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าFenderกีตาร์ไฟฟ้า",
+          "width": 225.3,
+          "height": 576.1,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "GibsonLes Paul Standard 60sยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าGibsonกีตาร์ไฟฟ้าLes Paul Standar",
+          "width": 225.3,
+          "height": 576.1,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "IbanezRG550 Genesisยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าIbanezกีตาร์ไฟฟ้าRG550 Genesisตรวจสอบบางส",
+          "width": 225.3,
+          "height": 576.1,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "Yamahaกีตาร์ไฟฟ้าPacifica 612VIIFMBlackRedBlue / Teal3 สีตรวจสอบบางส่วนHSSSeymour Duncan22 frets฿34,",
+          "width": 225.3,
+          "height": 660.9,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "Taylor214ce Grand Auditoriumยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าTaylorกีตาร์โปร่ง214ce Grand Aud",
+          "width": 225.3,
+          "height": 660.9,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "MartinD-18 Dreadnoughtยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าMartinกีตาร์โปร่งD-18 Dreadnoughtตรวจส",
+          "width": 225.3,
+          "height": 660.9,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "YamahaFG800 Dreadnoughtยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าYamahaกีตาร์โปร่งFG800 Dreadnoughtตรว",
+          "width": 225.3,
+          "height": 576.1,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "CórdobaC5 Classicalยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าCórdobaกีตาร์คลาสสิกC5 Classicalตรวจสอบบา",
+          "width": 225.3,
+          "height": 576.1,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "FenderPlayer II Jazz Bassยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าFenderเบสPlayer II Jazz Bassตรวจสอบ",
+          "width": 225.3,
+          "height": 576.1,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        }
+      ],
+      "internalLinks": [
+        "/",
+        "/guitars",
+        "/brands",
+        "/compare",
+        "/find-my-guitar",
+        "/wishlist",
+        "/guitars?type=electric",
+        "/guitars?type=acoustic",
+        "/guitars?type=classical",
+        "/guitars?type=bass",
+        "/guitars/fender-american-professional-ii-stratocaster",
+        "/guitars/gibson-les-paul-standard-60s",
+        "/guitars?max=10000",
+        "/guitars?min=10000&max=30000",
+        "/guitars?min=30000&max=70000",
+        "/guitars?min=70000",
+        "/guitars/ibanez-rg550-genesis",
+        "/guitars/yamaha-pacifica-612viifm",
+        "/guitars/taylor-214ce",
+        "/guitars/martin-d-18",
+        "/guitars/yamaha-fg800",
+        "/guitars/cordoba-c5",
+        "/guitars/fender-player-ii-jazz-bass",
+        "/image-credits"
+      ],
+      "route": "catalog",
+      "path": "/guitars",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "overflow": false,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "h1": [
+        {
+          "text": "Catalog",
+          "width": 350,
+          "height": 47.6,
+          "font": "34px",
+          "lineHeight": "47.6px",
+          "tag": "H1"
+        }
+      ],
+      "smallVisibleControls": [
+        {
+          "text": "หน้าหลัก",
+          "width": 44.8,
+          "height": 32,
+          "font": "13px",
+          "lineHeight": "23.4px",
+          "tag": "A"
+        },
+        {
+          "text": "",
+          "width": 240,
+          "height": 40,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "INPUT"
+        }
+      ],
+      "smallText": [
+        {
+          "text": "แสดง 1–9 จาก 200 รุ่น",
+          "width": 126.6,
+          "height": 19.8,
+          "font": "11px",
+          "lineHeight": "19.8px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 150,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 150,
+          "height": 15.3,
+          "font": "9px",
+          "lineHeight": "15.3px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 150,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 150,
+          "height": 15.3,
+          "font": "9px",
+          "lineHeight": "15.3px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 150,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 150,
+          "height": 15.3,
+          "font": "9px",
+          "lineHeight": "15.3px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 150,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 150,
+          "height": 15.3,
+          "font": "9px",
+          "lineHeight": "15.3px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 150,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 150,
+          "height": 15.3,
+          "font": "9px",
+          "lineHeight": "15.3px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 150,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 150,
+          "height": 15.3,
+          "font": "9px",
+          "lineHeight": "15.3px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 150,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 150,
+          "height": 15.3,
+          "font": "9px",
+          "lineHeight": "15.3px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 150,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 150,
+          "height": 15.3,
+          "font": "9px",
+          "lineHeight": "15.3px",
+          "tag": "P"
+        }
+      ],
+      "brokenVisibleImages": [],
+      "cards": [
+        {
+          "text": "FenderAmerican Professional II Stratocasterยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าFenderกีตาร์ไฟฟ้า",
+          "width": 168,
+          "height": 529.8,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "GibsonLes Paul Standard 60sยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าGibsonกีตาร์ไฟฟ้าLes Paul Standar",
+          "width": 168,
+          "height": 529.8,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "IbanezRG550 Genesisยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าIbanezกีตาร์ไฟฟ้าRG550 Genesisตรวจสอบบางส",
+          "width": 168,
+          "height": 555.8,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "Yamahaกีตาร์ไฟฟ้าPacifica 612VIIFMBlackRedBlue / Teal3 สีตรวจสอบบางส่วนHSSSeymour Duncan22 frets฿34,",
+          "width": 168,
+          "height": 555.8,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "Taylor214ce Grand Auditoriumยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าTaylorกีตาร์โปร่ง214ce Grand Aud",
+          "width": 168,
+          "height": 500.5,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "MartinD-18 Dreadnoughtยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าMartinกีตาร์โปร่งD-18 Dreadnoughtตรวจส",
+          "width": 168,
+          "height": 500.5,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "YamahaFG800 Dreadnoughtยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าYamahaกีตาร์โปร่งFG800 Dreadnoughtตรว",
+          "width": 168,
+          "height": 500.5,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "CórdobaC5 Classicalยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าCórdobaกีตาร์คลาสสิกC5 Classicalตรวจสอบบา",
+          "width": 168,
+          "height": 500.5,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "FenderPlayer II Jazz Bassยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าFenderเบสPlayer II Jazz Bassตรวจสอบ",
+          "width": 168,
+          "height": 471.1,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        }
+      ],
+      "internalLinks": [
+        "/",
+        "/guitars",
+        "/brands",
+        "/compare",
+        "/find-my-guitar",
+        "/wishlist",
+        "/guitars?type=electric",
+        "/guitars?type=acoustic",
+        "/guitars?type=classical",
+        "/guitars?type=bass",
+        "/guitars/fender-american-professional-ii-stratocaster",
+        "/guitars/gibson-les-paul-standard-60s",
+        "/guitars?max=10000",
+        "/guitars?min=10000&max=30000",
+        "/guitars?min=30000&max=70000",
+        "/guitars?min=70000",
+        "/guitars/ibanez-rg550-genesis",
+        "/guitars/yamaha-pacifica-612viifm",
+        "/guitars/taylor-214ce",
+        "/guitars/martin-d-18",
+        "/guitars/yamaha-fg800",
+        "/guitars/cordoba-c5",
+        "/guitars/fender-player-ii-jazz-bass",
+        "/image-credits"
+      ],
+      "route": "catalog",
+      "path": "/guitars",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "overflow": false,
+      "scrollWidth": 1024,
+      "viewport": 1024,
+      "h1": [
+        {
+          "text": "Catalog",
+          "width": 944,
+          "height": 47.6,
+          "font": "34px",
+          "lineHeight": "47.6px",
+          "tag": "H1"
+        }
+      ],
+      "smallVisibleControls": [
+        {
+          "text": "กีตาร์",
+          "width": 30.7,
+          "height": 44,
+          "font": "14px",
+          "lineHeight": "21px",
+          "tag": "A"
+        },
+        {
+          "text": "แบรนด์",
+          "width": 40.1,
+          "height": 44,
+          "font": "14px",
+          "lineHeight": "21px",
+          "tag": "A"
+        },
+        {
+          "text": "หน้าหลัก",
+          "width": 44.8,
+          "height": 32,
+          "font": "13px",
+          "lineHeight": "23.4px",
+          "tag": "A"
+        },
+        {
+          "text": "",
+          "width": 834,
+          "height": 40,
+          "font": "14px",
+          "lineHeight": "25.2px",
+          "tag": "INPUT"
+        },
+        {
+          "text": "",
+          "width": 1,
+          "height": 1,
+          "font": "14px",
+          "lineHeight": "20px",
+          "tag": "INPUT"
+        },
+        {
+          "text": "",
+          "width": 1,
+          "height": 1,
+          "font": "14px",
+          "lineHeight": "20px",
+          "tag": "INPUT"
+        },
+        {
+          "text": "",
+          "width": 1,
+          "height": 1,
+          "font": "14px",
+          "lineHeight": "20px",
+          "tag": "INPUT"
+        },
+        {
+          "text": "",
+          "width": 1,
+          "height": 1,
+          "font": "14px",
+          "lineHeight": "20px",
+          "tag": "INPUT"
+        }
+      ],
+      "smallText": [
+        {
+          "text": "แสดง 1–9 จาก 200 รุ่น",
+          "width": 497.7,
+          "height": 19.8,
+          "font": "11px",
+          "lineHeight": "19.8px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 210.3,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 210.3,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 210.3,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 210.3,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 210.3,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 210.3,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 210.3,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 210.3,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 210.3,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 210.3,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 210.3,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 210.3,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 210.3,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 210.3,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 210.3,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 210.3,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        }
+      ],
+      "brokenVisibleImages": [],
+      "cards": [
+        {
+          "text": "FenderAmerican Professional II Stratocasterยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าFenderกีตาร์ไฟฟ้า",
+          "width": 228.3,
+          "height": 625.9,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "GibsonLes Paul Standard 60sยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าGibsonกีตาร์ไฟฟ้าLes Paul Standar",
+          "width": 228.3,
+          "height": 625.9,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "IbanezRG550 Genesisยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าIbanezกีตาร์ไฟฟ้าRG550 Genesisตรวจสอบบางส",
+          "width": 228.3,
+          "height": 625.9,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "Yamahaกีตาร์ไฟฟ้าPacifica 612VIIFMBlackRedBlue / Teal3 สีตรวจสอบบางส่วนHSSSeymour Duncan22 frets฿34,",
+          "width": 228.3,
+          "height": 710.6,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "Taylor214ce Grand Auditoriumยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าTaylorกีตาร์โปร่ง214ce Grand Aud",
+          "width": 228.3,
+          "height": 710.6,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "MartinD-18 Dreadnoughtยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าMartinกีตาร์โปร่งD-18 Dreadnoughtตรวจส",
+          "width": 228.3,
+          "height": 710.6,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "YamahaFG800 Dreadnoughtยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าYamahaกีตาร์โปร่งFG800 Dreadnoughtตรว",
+          "width": 228.3,
+          "height": 625.9,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "CórdobaC5 Classicalยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าCórdobaกีตาร์คลาสสิกC5 Classicalตรวจสอบบา",
+          "width": 228.3,
+          "height": 625.9,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "FenderPlayer II Jazz Bassยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าFenderเบสPlayer II Jazz Bassตรวจสอบ",
+          "width": 228.3,
+          "height": 625.9,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        }
+      ],
+      "internalLinks": [
+        "/",
+        "/guitars",
+        "/brands",
+        "/compare",
+        "/find-my-guitar",
+        "/wishlist",
+        "/guitars?type=electric",
+        "/guitars?type=acoustic",
+        "/guitars?type=classical",
+        "/guitars?type=bass",
+        "/guitars/fender-american-professional-ii-stratocaster",
+        "/guitars/gibson-les-paul-standard-60s",
+        "/guitars?max=10000",
+        "/guitars?min=10000&max=30000",
+        "/guitars?min=30000&max=70000",
+        "/guitars?min=70000",
+        "/guitars/ibanez-rg550-genesis",
+        "/guitars/yamaha-pacifica-612viifm",
+        "/guitars/taylor-214ce",
+        "/guitars/martin-d-18",
+        "/guitars/yamaha-fg800",
+        "/guitars/cordoba-c5",
+        "/guitars/fender-player-ii-jazz-bass",
+        "/image-credits"
+      ],
+      "route": "catalog",
+      "path": "/guitars",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "overflow": false,
+      "scrollWidth": 320,
+      "viewport": 320,
+      "h1": [
+        {
+          "text": "Catalog",
+          "width": 280,
+          "height": 47.6,
+          "font": "34px",
+          "lineHeight": "47.6px",
+          "tag": "H1"
+        }
+      ],
+      "smallVisibleControls": [
+        {
+          "text": "หน้าหลัก",
+          "width": 44.8,
+          "height": 32,
+          "font": "13px",
+          "lineHeight": "23.4px",
+          "tag": "A"
+        },
+        {
+          "text": "",
+          "width": 170,
+          "height": 40,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "INPUT"
+        }
+      ],
+      "smallText": [
+        {
+          "text": "แสดง 1–9 จาก 200 รุ่น",
+          "width": 280,
+          "height": 19.8,
+          "font": "11px",
+          "lineHeight": "19.8px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 262,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 262,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 262,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 262,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 262,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 262,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 262,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 262,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 262,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 262,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 262,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 262,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 262,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 262,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        },
+        {
+          "text": "ยังไม่มีรูปถ่าย",
+          "width": 262,
+          "height": 18.7,
+          "font": "11px",
+          "lineHeight": "18.7px",
+          "tag": "P"
+        },
+        {
+          "text": "ภาพประกอบ ไม่ใช่ตัวสินค้า",
+          "width": 262,
+          "height": 17,
+          "font": "10px",
+          "lineHeight": "17px",
+          "tag": "P"
+        }
+      ],
+      "brokenVisibleImages": [],
+      "cards": [
+        {
+          "text": "FenderAmerican Professional II Stratocasterยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าFenderกีตาร์ไฟฟ้า",
+          "width": 280,
+          "height": 590.5,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "GibsonLes Paul Standard 60sยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าGibsonกีตาร์ไฟฟ้าLes Paul Standar",
+          "width": 280,
+          "height": 561.1,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "IbanezRG550 Genesisยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าIbanezกีตาร์ไฟฟ้าRG550 Genesisตรวจสอบบางส",
+          "width": 280,
+          "height": 561.1,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "Yamahaกีตาร์ไฟฟ้าPacifica 612VIIFMBlackRedBlue / Teal3 สีตรวจสอบบางส่วนHSSSeymour Duncan22 frets฿34,",
+          "width": 280,
+          "height": 622.5,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "Taylor214ce Grand Auditoriumยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าTaylorกีตาร์โปร่ง214ce Grand Aud",
+          "width": 280,
+          "height": 561.1,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "MartinD-18 Dreadnoughtยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าMartinกีตาร์โปร่งD-18 Dreadnoughtตรวจส",
+          "width": 280,
+          "height": 561.1,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "YamahaFG800 Dreadnoughtยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าYamahaกีตาร์โปร่งFG800 Dreadnoughtตรว",
+          "width": 280,
+          "height": 561.1,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "CórdobaC5 Classicalยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าCórdobaกีตาร์คลาสสิกC5 Classicalตรวจสอบบา",
+          "width": 280,
+          "height": 561.1,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        },
+        {
+          "text": "FenderPlayer II Jazz Bassยังไม่มีรูปถ่ายภาพประกอบ ไม่ใช่ตัวสินค้าFenderเบสPlayer II Jazz Bassตรวจสอบ",
+          "width": 280,
+          "height": 561.1,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "ARTICLE"
+        }
+      ],
+      "internalLinks": [
+        "/",
+        "/guitars",
+        "/brands",
+        "/compare",
+        "/find-my-guitar",
+        "/wishlist",
+        "/guitars?type=electric",
+        "/guitars?type=acoustic",
+        "/guitars?type=classical",
+        "/guitars?type=bass",
+        "/guitars/fender-american-professional-ii-stratocaster",
+        "/guitars/gibson-les-paul-standard-60s",
+        "/guitars?max=10000",
+        "/guitars?min=10000&max=30000",
+        "/guitars?min=30000&max=70000",
+        "/guitars?min=70000",
+        "/guitars/ibanez-rg550-genesis",
+        "/guitars/yamaha-pacifica-612viifm",
+        "/guitars/taylor-214ce",
+        "/guitars/martin-d-18",
+        "/guitars/yamaha-fg800",
+        "/guitars/cordoba-c5",
+        "/guitars/fender-player-ii-jazz-bass",
+        "/image-credits"
+      ],
+      "route": "catalog",
+      "path": "/guitars",
+      "width": 320,
+      "height": 740
+    },
+    {
+      "overflow": false,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "h1": [
+        {
+          "text": "Catalog",
+          "width": 350,
+          "height": 47.6,
+          "font": "34px",
+          "lineHeight": "47.6px",
+          "tag": "H1"
+        }
+      ],
+      "smallVisibleControls": [
+        {
+          "text": "หน้าหลัก",
+          "width": 44.8,
+          "height": 32,
+          "font": "13px",
+          "lineHeight": "23.4px",
+          "tag": "A"
+        },
+        {
+          "text": "",
+          "width": 184,
+          "height": 40,
+          "font": "16px",
+          "lineHeight": "28.8px",
+          "tag": "INPUT"
+        }
+      ],
+      "smallText": [],
+      "brokenVisibleImages": [],
+      "cards": [],
+      "internalLinks": [
+        "/",
+        "/guitars",
+        "/brands",
+        "/compare",
+        "/find-my-guitar",
+        "/wishlist",
+        "/guitars?type=electric",
+        "/guitars?type=acoustic",
+        "/guitars?type=classical",
+        "/guitars?type=bass",
+        "/guitars/fender-american-professional-ii-stratocaster",
+        "/guitars/gibson-les-paul-standard-60s",
+        "/guitars?max=10000",
+        "/guitars?min=10000&max=30000",
+        "/guitars?min=30000&max=70000",
+        "/guitars?min=70000",
+        "/image-credits"
+      ],
+      "route": "catalog-empty",
+      "path": "/guitars?q=unmatched-audit-query-947",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "screenshots": [
+    "catalog-desktop.png",
+    "catalog-desktop-full.png",
+    "catalog-tablet.png",
+    "catalog-mobile.png",
+    "catalog-empty-mobile.png"
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "completed": true
+}
