@@ -1,0 +1,84 @@
+{
+  "executedAt": "2026-10-20T19:03:36.884831+00:00",
+  "build": {
+    "passed": true,
+    "tool": "Vite 5.4.21 production build"
+  },
+  "catalogCheck": {
+    "passed": true,
+    "models": 200,
+    "brands": 10,
+    "perBrand": 20,
+    "duplicates": 0
+  },
+  "imagesCheck": {
+    "passed": true,
+    "licensedModelPhotos": 2,
+    "newLicensedModelPhotos": 1,
+    "placeholders": 198
+  },
+  "automatedChecks": {
+    "phase4": {
+      "passed": true,
+      "assertions": 19
+    },
+    "phase5": {
+      "passed": true,
+      "assertions": 15
+    },
+    "phase6": {
+      "passed": true,
+      "assertions": 21
+    },
+    "phase7": {
+      "passed": true,
+      "assertions": 16
+    },
+    "phase8": {
+      "passed": true,
+      "assertions": 18
+    },
+    "phase9": {
+      "passed": true,
+      "assertions": 14
+    }
+  },
+  "totalAssertions": 103,
+  "browserRegression": {
+    "passed": true,
+    "checks": 54
+  },
+  "browserBatch": {
+    "passed": true,
+    "detailRoutes": 200,
+    "reviewedSpecTables": 20,
+    "checks": 12,
+    "deliberateFailedImageRequests": 3
+  },
+  "responsive": {
+    "passed": true,
+    "checks": 50,
+    "screenshots": 53,
+    "widths": [
+      1440,
+      1024,
+      768,
+      390,
+      320
+    ]
+  },
+  "normalFlowErrors": {
+    "page_errors": 0,
+    "console_errors": 0,
+    "failed_requests": 0
+  },
+  "actualSafariIPadTested": false,
+  "notes": [
+    "Restricted sandbox initially blocked Git child processes and local port listening (EPERM); checks passed with required environment network permission.",
+    "Corrected two selectors in the new browser test (ambiguous status note and image outside the specification table); final complete run passes.",
+    "Deliberate image failures are recorded separately from normal flows.",
+    "No app JSX/CSS or dependencies changed.",
+    "Final local Git reads use ignored stdin, avoiding the sandbox pipe restriction without network permission. Final build/catalog/images and Phase 6–9 checks passed again."
+  ],
+  "finalRecheckedAt": "2026-10-21T01:26:48.907604+00:00"
+}

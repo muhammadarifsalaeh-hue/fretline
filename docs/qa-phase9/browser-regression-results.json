@@ -1,0 +1,226 @@
+{
+  "checks": [
+    {
+      "name": "Ten active brands each display exactly twenty real catalog models",
+      "passed": true
+    },
+    {
+      "name": "Brand filter returns twenty models: Yamaha",
+      "passed": true
+    },
+    {
+      "name": "Brand filter returns twenty models: Fender",
+      "passed": true
+    },
+    {
+      "name": "Brand filter returns twenty models: Epiphone",
+      "passed": true
+    },
+    {
+      "name": "Brand filter returns twenty models: Ibanez",
+      "passed": true
+    },
+    {
+      "name": "Brand filter returns twenty models: Taylor",
+      "passed": true
+    },
+    {
+      "name": "Brand filter returns twenty models: Córdoba",
+      "passed": true
+    },
+    {
+      "name": "Brand filter returns twenty models: Gibson",
+      "passed": true
+    },
+    {
+      "name": "Brand filter returns twenty models: Martin",
+      "passed": true
+    },
+    {
+      "name": "Brand filter returns twenty models: PRS",
+      "passed": true
+    },
+    {
+      "name": "Brand filter returns twenty models: Squier",
+      "passed": true
+    },
+    {
+      "name": "Catalog announces 200 actual results",
+      "passed": true
+    },
+    {
+      "name": "Pagination pushes page two into URL history",
+      "passed": true
+    },
+    {
+      "name": "Browser Back restores page one",
+      "passed": true
+    },
+    {
+      "name": "Browser Forward restores page two",
+      "passed": true
+    },
+    {
+      "name": "Final page contains exactly two models",
+      "passed": true
+    },
+    {
+      "name": "Brand and guitar type filters intersect",
+      "passed": true
+    },
+    {
+      "name": "Accent-insensitive search finds Córdoba models",
+      "passed": true
+    },
+    {
+      "name": "Space query matches punctuation in FG820-12 model",
+      "passed": true
+    },
+    {
+      "name": "Name sorting resolves to a populated catalog",
+      "passed": true
+    },
+    {
+      "name": "Malformed sort and oversized page parameters resolve safely",
+      "passed": true
+    },
+    {
+      "name": "Unmatched query renders an honest empty state",
+      "passed": true
+    },
+    {
+      "name": "Clear filters restores catalog",
+      "passed": true
+    },
+    {
+      "name": "Catalog details use original ID",
+      "passed": true
+    },
+    {
+      "name": "Licensed real photo retains eager loading and intrinsic dimensions",
+      "passed": true
+    },
+    {
+      "name": "Review tab has no invented reviews",
+      "passed": true
+    },
+    {
+      "name": "Lightbox Escape restores opening button focus",
+      "passed": true
+    },
+    {
+      "name": "Wishlist persists while navigating pages",
+      "passed": true
+    },
+    {
+      "name": "Wishlist persists after reload",
+      "passed": true
+    },
+    {
+      "name": "Wishlist explicit remove works",
+      "passed": true
+    },
+    {
+      "name": "Comparison URL deduplicates IDs",
+      "passed": true
+    },
+    {
+      "name": "Guitar picker opens with search input focused",
+      "passed": true
+    },
+    {
+      "name": "Picker can add to four unique models",
+      "passed": true
+    },
+    {
+      "name": "Four-model limit is visible and prevents a fifth selection",
+      "passed": true
+    },
+    {
+      "name": "Detail comparison control disables when four other guitars are selected",
+      "passed": true
+    },
+    {
+      "name": "Removing a comparison retains useful keyboard focus",
+      "passed": true
+    },
+    {
+      "name": "Compare Browser Back and Forward restore selection state",
+      "passed": true
+    },
+    {
+      "name": "Quiz prevents unanswered progress",
+      "passed": true
+    },
+    {
+      "name": "Quiz Previous preserves earlier choices",
+      "passed": true
+    },
+    {
+      "name": "Five-step quiz produces real catalog results and shareable answers",
+      "passed": true
+    },
+    {
+      "name": "Quiz result heading receives keyboard focus",
+      "passed": true
+    },
+    {
+      "name": "Recommendations clearly show partial data and unknown prices",
+      "passed": true
+    },
+    {
+      "name": "Quiz result detail navigation and Browser Back retain answers",
+      "passed": true
+    },
+    {
+      "name": "Legacy archived favourites remain saved and deduplicated",
+      "passed": true
+    },
+    {
+      "name": "Wishlist labels both archived models explicitly",
+      "passed": true
+    },
+    {
+      "name": "Archived detail preserves ID and explains exclusion: yamaha-c40",
+      "passed": true
+    },
+    {
+      "name": "Archived detail preserves ID and explains exclusion: gretsch-g2420-streamliner",
+      "passed": true
+    },
+    {
+      "name": "Legacy shared comparison retains and labels archived models",
+      "passed": true
+    },
+    {
+      "name": "Legacy archived brand link is handled",
+      "passed": true
+    },
+    {
+      "name": "Mobile filter drawer traps active focus inside dialog",
+      "passed": true
+    },
+    {
+      "name": "Mobile drawer Escape restores trigger focus",
+      "passed": true
+    },
+    {
+      "name": "No runtime errors in normal flows",
+      "passed": true
+    },
+    {
+      "name": "No console errors in normal flows",
+      "passed": true
+    },
+    {
+      "name": "No failed requests in normal flows",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "failed_requests": [],
+  "base_url": "http://127.0.0.1:4199",
+  "browser": "Chromium; not physical Safari/iPad",
+  "passed": true
+}

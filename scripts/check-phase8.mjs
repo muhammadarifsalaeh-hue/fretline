@@ -4,15 +4,16 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { readCatalog, readArchive, readPolicy, findDuplicates, validateGuitar, ROOT } from './lib/catalog.mjs';
+import { assertPhase9DataBoundary } from './lib/phase9.mjs';
 
-// Phase 8 is a presentation pass. Protect the approved Phase 7 facts and assets.
+// Preserve the Phase 8 presentation boundary, allowing only the scoped Phase 9 review.
 // This audit reads files only; browser behavior is checked by browser-phase8.py.
 const BASELINE = '79025fe4c80f1bbb43a072bbfa6f79871da2fdbd';
 const APPROVED_BRANDS = ['Yamaha', 'Fender', 'Epiphone', 'Ibanez', 'Taylor', 'Córdoba', 'Gibson', 'Martin', 'PRS', 'Squier'];
 const records = readCatalog();
 const archive = readArchive();
 const policy = readPolicy();
-const git = (...args) => execFileSync('git', args, { cwd: ROOT });
+const git = (...args) => execFileSync('git', args, { cwd: ROOT, stdio: ['ignore', 'pipe', 'pipe'] });
 let passed = 0;
 const check = (name, fn) => { fn(); passed++; console.log(`PASS ${name}`); };
 
@@ -52,9 +53,12 @@ check('the two approved archives retain their original snapshots and sources', (
     assert.deepEqual(guitar.source, guitar.previousPublishedSnapshot.source);
   }
 });
-check('all source-data and licensed-image files remain byte-identical to Phase 7', () => {
+check('data/assets retain their Phase 7 bytes except the documented Phase 9 review and rights registry', () => {
+  assertPhase9DataBoundary();
+  const reviewedFiles = new Set(['src/data/catalog/reviewedGuitars.json', 'src/data/catalog/imageRights.json']);
   const files = git('ls-tree', '-r', '--name-only', BASELINE, '--', 'src/data', 'src/assets/guitars').toString().trim().split('\n');
   for (const file of files) {
+    if (reviewedFiles.has(file)) continue; // Record-level assertions above still protect the other 180 models.
     const before = git('show', `${BASELINE}:${file}`);
     const after = fs.readFileSync(path.join(ROOT, file));
     assert.equal(createHash('sha256').update(after).digest('hex'), createHash('sha256').update(before).digest('hex'), file);

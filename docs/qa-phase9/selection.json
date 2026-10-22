@@ -1,0 +1,654 @@
+[
+  {
+    "id": "yamaha-fg800",
+    "brand": "Yamaha",
+    "name": "FG800 Dreadnought",
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+      "verifiedOn": "2026-10-20",
+      "note": "Yamaha — FG800",
+      "method": "http",
+      "manufacturerModel": "FG800",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.bridge",
+        "specs.pickups",
+        "specs.controls",
+        "specs.scale",
+        "specs.scaleMm",
+        "keywords"
+      ],
+      "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ คำค้น beginner อ้างอิงการจัดวางรุ่นโดยผู้ผลิตในหน้า Lineup ไม่ใช่ผลรีวิว",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน",
+      "additionalSources": [
+        {
+          "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+          "verifiedOn": "2026-10-20",
+          "method": "web-page",
+          "note": "Yamaha FG/FS800 Lineup — FG800",
+          "fields": [
+            "keywords"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "yamaha-fg830",
+    "brand": "Yamaha",
+    "name": "FG830",
+    "source": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+      "verifiedOn": "2026-10-20",
+      "note": "Yamaha — FG830",
+      "method": "http",
+      "manufacturerModel": "FG830",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.bridge",
+        "specs.pickups",
+        "specs.controls",
+        "specs.scale",
+        "specs.scaleMm"
+      ],
+      "editionNote": "อ้างอิงตาราง FG/FS800 ของ Yamaha Malaysia วัสดุที่ระบุ “or” อาจต่างกันตามช่วงผลิต ไม่เดาจำนวนเฟรต น้ำหนัก หรือราคาที่ไม่มีในตาราง ค่า scale นิ้วคำนวณจาก mm ที่ผู้ผลิตระบุ",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน"
+    }
+  },
+  {
+    "id": "fender-american-professional-ii-stratocaster",
+    "brand": "Fender",
+    "name": "American Professional II Stratocaster",
+    "source": {
+      "url": "https://eu.fender.com/products/american-professional-ii-stratocaster",
+      "verifiedOn": "2026-10-20",
+      "note": "Fender — American Professional II Stratocaster",
+      "method": "http",
+      "manufacturerModel": "American Professional II Stratocaster",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.pickups",
+        "specs.bridge",
+        "specs.controls",
+        "specs.scale",
+        "specs.frets",
+        "specs.strings"
+      ],
+      "editionNote": "หน้าผู้ผลิตมีหลายสีและฟิงเกอร์บอร์ด วัสดุลำตัว Alder/Roasted Pine และฟิงเกอร์บอร์ด Maple/Rosewood ขึ้นกับตัวเลือก ไม่เหมารวมว่าเป็นสเปกของทุกสี",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน"
+    }
+  },
+  {
+    "id": "fender-player-ii-telecaster",
+    "brand": "Fender",
+    "name": "Player II Telecaster",
+    "source": {
+      "url": "https://www.fender.com/products/player-ii-telecaster",
+      "verifiedOn": "2026-10-20",
+      "note": "Fender — Player II Telecaster®",
+      "method": "http",
+      "manufacturerModel": "Player II Telecaster®",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.pickups",
+        "specs.bridge",
+        "specs.controls",
+        "specs.scale",
+        "specs.scaleMm",
+        "specs.frets"
+      ],
+      "editionNote": "อ้างอิง Player II Telecaster®; หน้าสินค้าอาจรวมหลายตัวเลือก วัสดุที่คั่นด้วย / คือทางเลือกตามข้อมูลในหน้า ไม่ยืนยันว่าเป็นสเปกเดียวกันทุกสี ไม่นับสีเป็นรุ่นเพิ่ม",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน",
+      "evidence": {
+        "retrievedUrl": "https://www.fender.com/products/player-ii-telecaster",
+        "sha256": "be928d1eaa66ec59b47116ed067684590c7214d7ae6bca9cc90b97f15c4312c3",
+        "httpStatus": 200
+      }
+    }
+  },
+  {
+    "id": "squier-classic-vibe-60s-stratocaster",
+    "brand": "Squier",
+    "name": "Classic Vibe '60s Stratocaster",
+    "source": {
+      "url": "https://www.fender.com/products/classic-vibe-60s-stratocaster",
+      "verifiedOn": "2026-10-20",
+      "note": "Squier — Classic Vibe '60s Stratocaster",
+      "method": "http",
+      "manufacturerModel": "Classic Vibe '60s Stratocaster",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.pickups",
+        "specs.bridge",
+        "specs.controls",
+        "specs.scale",
+        "specs.frets",
+        "specs.strings"
+      ],
+      "editionNote": "อ้างอิงหน้า Classic Vibe ’60s Stratocaster ปัจจุบันของ Fender; ไม่ใช้ Poplar จากข้อมูลตัวอย่างเดิม",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน"
+    }
+  },
+  {
+    "id": "squier-affinity-series-telecaster",
+    "brand": "Squier",
+    "name": "Affinity Series Telecaster",
+    "source": {
+      "url": "https://www.fender.com/products/affinity-series-telecaster",
+      "verifiedOn": "2026-10-20",
+      "note": "Squier — Affinity Series® Telecaster®",
+      "method": "http",
+      "manufacturerModel": "Affinity Series® Telecaster®",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.pickups",
+        "specs.bridge",
+        "specs.controls",
+        "specs.scale",
+        "specs.scaleMm",
+        "specs.frets"
+      ],
+      "editionNote": "อ้างอิง Affinity Series® Telecaster®; หน้าสินค้าอาจรวมหลายตัวเลือก วัสดุที่คั่นด้วย / คือทางเลือกตามข้อมูลในหน้า ไม่ยืนยันว่าเป็นสเปกเดียวกันทุกสี ไม่นับสีเป็นรุ่นเพิ่ม",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน",
+      "evidence": {
+        "retrievedUrl": "https://www.fender.com/products/affinity-series-telecaster",
+        "sha256": "51b79bd2d12503d7ca7523829094495662c324050ba9ae5c45877892fdad32a9",
+        "httpStatus": 200
+      }
+    }
+  },
+  {
+    "id": "gibson-les-paul-standard-60s",
+    "brand": "Gibson",
+    "name": "Les Paul Standard 60s",
+    "source": {
+      "url": "https://www.gibson.com/products/gibson-les-paul-standard-60s-figured-top-bourbon-burst",
+      "verifiedOn": "2026-10-20",
+      "note": "Gibson — Les Paul Standard 60s, Bourbon Burst",
+      "method": "http",
+      "manufacturerModel": "Les Paul Standard 60s, Bourbon Burst",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.pickups",
+        "specs.bridge",
+        "specs.controls",
+        "specs.scale",
+        "specs.frets",
+        "specs.strings"
+      ],
+      "editionNote": "อ้างอิง Standard 60s Figured Top สี Bourbon Burst ไม่รวมรุ่น Faded, Plain Top หรือรุ่นสั่งทำ",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน"
+    }
+  },
+  {
+    "id": "gibson-j-45-standard",
+    "brand": "Gibson",
+    "name": "J-45 Standard",
+    "source": {
+      "url": "https://www.gibson.com/products/gibson-j-45-standard-vintage-sunburst-rs45vsn19",
+      "verifiedOn": "2026-10-20",
+      "note": "Gibson — Gibson J-45 Standard, Vintage Sunburst",
+      "method": "http",
+      "manufacturerModel": "Gibson J-45 Standard, Vintage Sunburst",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.pickups",
+        "specs.bridge",
+        "specs.controls",
+        "specs.scale",
+        "specs.scaleMm",
+        "specs.frets"
+      ],
+      "editionNote": "อ้างอิง Gibson J-45 Standard, Vintage Sunburst; หน้าสินค้าอาจรวมหลายตัวเลือก วัสดุที่คั่นด้วย / คือทางเลือกตามข้อมูลในหน้า ไม่ยืนยันว่าเป็นสเปกเดียวกันทุกสี ไม่นับสีเป็นรุ่นเพิ่ม",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน",
+      "evidence": {
+        "retrievedUrl": "https://www.gibson.com/products/gibson-j-45-standard-vintage-sunburst-rs45vsn19",
+        "sha256": "86617ae7d43d049ad8acd4e4e72ac99e8c312b29d75ee68c310d37f71448bc1f",
+        "httpStatus": 200
+      }
+    }
+  },
+  {
+    "id": "epiphone-casino",
+    "brand": "Epiphone",
+    "name": "Casino Hollowbody",
+    "source": {
+      "url": "https://www.gibson.com/products/epiphone-casino-natural",
+      "verifiedOn": "2026-10-20",
+      "note": "Epiphone — Casino, Natural",
+      "method": "http",
+      "manufacturerModel": "Casino, Natural",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.pickups",
+        "specs.bridge",
+        "specs.controls",
+        "specs.scale",
+        "specs.frets",
+        "specs.strings"
+      ],
+      "editionNote": "อ้างอิง Casino Natural รุ่นมาตรฐาน ไม่รวม USA Casino, Casino Coupe, รุ่น Vibrato หรือรุ่น Rosewood ใหม่ที่เป็นคนละหน้าสินค้า",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน"
+    }
+  },
+  {
+    "id": "epiphone-les-paul-standard-50s",
+    "brand": "Epiphone",
+    "name": "Les Paul Standard 50s",
+    "source": {
+      "url": "https://www.gibson.com/products/epiphone-les-paul-standard-50s-bourbon-burst",
+      "verifiedOn": "2026-10-20",
+      "note": "Epiphone — Les Paul Standard 50s, Bourbon Burst — Laurel",
+      "method": "http",
+      "manufacturerModel": "Les Paul Standard 50s, Bourbon Burst — Laurel",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.pickups",
+        "specs.bridge",
+        "specs.controls",
+        "specs.scale",
+        "specs.frets",
+        "specs.strings"
+      ],
+      "editionNote": "ใช้ตารางรายละเอียดของหน้า Bourbon Burst รุ่น Laurel ซึ่งระบุไม้ลำตัว Okoume หรือ Sapelli ไม่ใช้สเปกรุ่น Rosewood ที่ชื่อใกล้กัน",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน"
+    }
+  },
+  {
+    "id": "ibanez-rg550-genesis",
+    "brand": "Ibanez",
+    "name": "RG550 Genesis",
+    "source": {
+      "url": "https://www.ibanez.com/usa/products/detail/rg550_00_04.html",
+      "verifiedOn": "2026-10-20",
+      "note": "Ibanez — RG550 — Genesis Collection",
+      "method": "http",
+      "manufacturerModel": "RG550 — Genesis Collection",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.pickups",
+        "specs.bridge",
+        "specs.controls",
+        "specs.scale",
+        "specs.frets",
+        "specs.strings"
+      ],
+      "editionNote": "อ้างอิง RG550 Genesis Collection ปัจจุบัน ไม่ใช้สเปก RG550 รุ่นดั้งเดิมหรือรุ่นปีอื่น",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน"
+    }
+  },
+  {
+    "id": "ibanez-sr300e",
+    "brand": "Ibanez",
+    "name": "SR300E Bass",
+    "source": {
+      "url": "https://www.ibanez.com/asia/products/detail/sr300e_1p_05.html",
+      "verifiedOn": "2026-10-20",
+      "note": "Ibanez — SR300E (Asia product page)",
+      "method": "http",
+      "manufacturerModel": "SR300E (Asia product page)",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.pickups",
+        "specs.bridge",
+        "specs.controls",
+        "specs.scale",
+        "specs.frets",
+        "specs.strings"
+      ],
+      "editionNote": "อ้างอิงหน้ารุ่น sr300e_1p_05 สำหรับภูมิภาค Asia วัสดุของรุ่นปีเก่าอาจต่างกัน ไม่ใช้ข้อมูล PJ/Mahogany/Jatoba neck จากตัวอย่างเดิม",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน"
+    }
+  },
+  {
+    "id": "taylor-214ce",
+    "brand": "Taylor",
+    "name": "214ce Grand Auditorium",
+    "source": {
+      "url": "https://www.taylorguitars.com/guitars/acoustic/214ce",
+      "verifiedOn": "2026-10-20",
+      "note": "Taylor — 214ce — current C-Class model",
+      "method": "http",
+      "manufacturerModel": "214ce — current C-Class model",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.pickups",
+        "specs.bridge",
+        "specs.scale",
+        "specs.strings"
+      ],
+      "editionNote": "อ้างอิง 214ce ปัจจุบันที่ใช้ C-Class Bracing ไม่ใช้ Layered Rosewood/Sapele จากตัวอย่างรุ่นเก่า และไม่เดาจำนวนเฟรต",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน"
+    }
+  },
+  {
+    "id": "taylor-gs-mini",
+    "brand": "Taylor",
+    "name": "GS Mini Mahogany",
+    "source": {
+      "url": "https://www.taylorguitars.com/guitars/acoustic/gs-mini-mahogany",
+      "verifiedOn": "2026-10-20",
+      "note": "Taylor — GS Mini Mahogany (no electronics)",
+      "method": "http",
+      "manufacturerModel": "GS Mini Mahogany (no electronics)",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.pickups",
+        "specs.bridge",
+        "specs.scale"
+      ],
+      "editionNote": "อ้างอิง GS Mini Mahogany แบบไม่มี e ไม่ใช้ GS Mini Spruce หรือ GS Mini-e จำนวนเฟรต/สายที่ไม่ระบุในตารางยังเว้นว่าง",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน"
+    }
+  },
+  {
+    "id": "martin-d-18",
+    "brand": "Martin",
+    "name": "D-18 Dreadnought",
+    "source": {
+      "url": "https://www.martinguitar.com/guitars/all-guitars/D-18.html",
+      "verifiedOn": "2026-10-20",
+      "note": "Martin — D-18 Standard — current GE specifications",
+      "method": "http",
+      "manufacturerModel": "D-18 Standard — current GE specifications",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.pickups",
+        "specs.bridge",
+        "specs.scale",
+        "specs.frets"
+      ],
+      "editionNote": "อ้างอิง D-18 Standard รุ่นปรับปรุงปัจจุบัน ไม่ใช้รุ่น Custom Shop, Authentic หรือรุ่นสั่งทำ",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน"
+    }
+  },
+  {
+    "id": "martin-d-28",
+    "brand": "Martin",
+    "name": "D-28",
+    "source": {
+      "url": "https://www.martinguitar.com/guitars/standard-series/D-28.html",
+      "verifiedOn": "2026-10-20",
+      "note": "Martin — D-28",
+      "method": "http",
+      "manufacturerModel": "D-28",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.pickups",
+        "specs.bridge",
+        "specs.scale",
+        "specs.frets"
+      ],
+      "editionNote": "อ้างอิง Standard Series หน้าผู้ผลิตปัจจุบันที่ระบุรุ่นชัดเจน สเปกปีผลิตเก่าและตัวเลือก Finish/Electronics อาจต่างกัน ไม่ใช้คะแนนรีวิวจากหน้าเว็บ",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน",
+      "evidence": {
+        "retrievedUrl": "https://www.martinguitar.com/guitars/standard-series/D-28.html",
+        "sha256": "b74d4e46c44fb05b4636d9949a1bca0eb8887e9fa1fdc505ee3a754619677d4f",
+        "httpStatus": 200
+      }
+    }
+  },
+  {
+    "id": "prs-se-custom-24",
+    "brand": "PRS",
+    "name": "SE Custom 24",
+    "source": {
+      "url": "https://prsguitars.com/electrics/model/se_custom_24",
+      "verifiedOn": "2026-10-20",
+      "note": "PRS — SE Custom 24 — 2026 page",
+      "method": "web-page",
+      "manufacturerModel": "SE Custom 24 — 2026 page",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.pickups",
+        "specs.bridge",
+        "specs.controls",
+        "specs.scale",
+        "specs.frets",
+        "specs.strings"
+      ],
+      "editionNote": "ตรวจอ่านหน้าผู้ผลิตผ่าน Web tool; การดาวน์โหลดโดยตรงได้ HTTP 403 ไม่ใช้สเปกรุ่น Core Custom 24 หรือรุ่น Floyd",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน"
+    }
+  },
+  {
+    "id": "prs-se-mccarty-594-singlecut",
+    "brand": "PRS",
+    "name": "SE McCarty 594 Singlecut",
+    "source": {
+      "url": "https://support.prsguitars.com/hc/en-us/article_attachments/34374903847067",
+      "verifiedOn": "2026-10-20",
+      "note": "PRS — SE MCCARTY 594 SINGLECUT — 2025 catalog",
+      "method": "http",
+      "manufacturerModel": "SE MCCARTY 594 SINGLECUT — 2025 catalog",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.pickups",
+        "specs.bridge",
+        "specs.scale",
+        "specs.frets"
+      ],
+      "editionNote": "อ้างอิงแคตตาล็อกผู้ผลิตปี 2025 หน้า 3 มีผล 14 มกราคม 2025 ไม่อ้างเป็นสเปกทุกปีหรือยืนยันการวางจำหน่ายปัจจุบัน ไม่ใช้สเปกรุ่น Core แทน SE",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน",
+      "evidence": {
+        "retrievedUrl": "https://support.prsguitars.com/hc/en-us/article_attachments/34374903847067",
+        "sha256": "ff8e30f42b158affe7da6de3034f30a240505572f7753aac45bd3668e12efbea",
+        "httpStatus": 200
+      },
+      "documentPage": 3,
+      "documentYear": 2025
+    }
+  },
+  {
+    "id": "cordoba-c5",
+    "brand": "Córdoba",
+    "name": "C5 Classical",
+    "source": {
+      "url": "https://cordobaguitars.com/iberia/c5",
+      "verifiedOn": "2026-10-20",
+      "note": "Córdoba — C5 — Cedar",
+      "method": "http",
+      "manufacturerModel": "C5 — Cedar",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.controls",
+        "specs.scale",
+        "specs.scaleMm",
+        "specs.frets",
+        "specs.strings",
+        "keywords"
+      ],
+      "editionNote": "อ้างอิง C5 Cedar ไม่ใช้ C5 SP, C5-CE หรือรุ่น Limited ช่อง Bridge/Pickups ที่ยังไม่ได้ตรวจข้อความชัดเจนเว้นว่าง คำค้น nylon/beginner มาจากคำอธิบายรุ่นสำหรับผู้เริ่มเล่นของผู้ผลิต ไม่ใช่คะแนนรีวิว",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน"
+    }
+  },
+  {
+    "id": "cordoba-c7-cd",
+    "brand": "Córdoba",
+    "name": "C7 CD",
+    "source": {
+      "url": "https://cordobaguitars.com/iberia/c7-cd",
+      "verifiedOn": "2026-10-20",
+      "note": "Córdoba — C7 CD",
+      "method": "http",
+      "manufacturerModel": "C7 CD",
+      "fields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.pickups",
+        "specs.bridge",
+        "specs.controls",
+        "specs.scale",
+        "specs.scaleMm",
+        "specs.frets",
+        "specs.strings"
+      ],
+      "editionNote": "อ้างอิงรุ่น C7 CD ที่ URL นี้เท่านั้น ไม่ใช้สเปกของรุ่น Cedar/Spruce, CE หรือขนาดอื่นแทน และไม่ยืนยันราคา/น้ำหนัก",
+      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน",
+      "evidence": {
+        "retrievedUrl": "https://cordobaguitars.com/iberia/c7-cd",
+        "sha256": "21c426cc1a7a0db43830e9138e0bca8d53fddc0c8830c29a2990a6064fe68994",
+        "httpStatus": 200
+      }
+    }
+  }
+]

@@ -1,0 +1,277 @@
+{
+  "baseline": "0f00def4f524de10f3f59f711bd43f2d0a50bc8c",
+  "auditedOn": "2026-10-20",
+  "total": 200,
+  "brands": {
+    "Fender": 20,
+    "Gibson": 20,
+    "Ibanez": 20,
+    "Yamaha": 20,
+    "PRS": 20,
+    "Epiphone": 20,
+    "Taylor": 20,
+    "Martin": 20,
+    "Córdoba": 20,
+    "Squier": 20
+  },
+  "locallyAudited": 200,
+  "freshManufacturerReviewed": 20,
+  "unchangedOutOfBatch": 180,
+  "fullyVerified": 0,
+  "partial": 200,
+  "sample": 0,
+  "withPhotos": 2,
+  "placeholders": 198,
+  "newLicensedModelPhotos": 1,
+  "batchPlaceholders": 19,
+  "batchUnknownPrices": 20,
+  "batchUnknownRatings": 20,
+  "batchUnknownSpecs": {
+    "body": 0,
+    "neck": 0,
+    "fretboard": 0,
+    "pickups": 0,
+    "bridge": 0,
+    "controls": 4,
+    "scale": 0,
+    "frets": 4,
+    "strings": 8,
+    "weightKg": 20
+  },
+  "batchModelsWithUnknownSpecs": 20,
+  "changedSpecFields": 33,
+  "filledSpecFields": 11,
+  "differences": [
+    {
+      "id": "fender-american-professional-ii-stratocaster",
+      "field": "specs.bridge",
+      "before": "2-point synchronized tremolo; bent-steel saddles",
+      "after": "2-point synchronized tremolo; bent-steel saddles; pop-in arm",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "fender-american-professional-ii-stratocaster",
+      "field": "specs.controls",
+      "before": "Master volume, 2 tone controls, 5-way selector",
+      "after": "Master volume, 2 tone controls, 5-way blade selector",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "fender-american-professional-ii-stratocaster",
+      "field": "specs.scaleMm",
+      "before": null,
+      "after": 648,
+      "kind": "filled"
+    },
+    {
+      "id": "gibson-les-paul-standard-60s",
+      "field": "specs.scaleMm",
+      "before": null,
+      "after": 628.65,
+      "kind": "filled"
+    },
+    {
+      "id": "ibanez-rg550-genesis",
+      "field": "specs.scaleMm",
+      "before": null,
+      "after": 648,
+      "kind": "filled"
+    },
+    {
+      "id": "prs-se-custom-24",
+      "field": "specs.neck",
+      "before": "Multi-ply maple; Wide Thin profile",
+      "after": "Maple; Wide Thin profile",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "epiphone-casino",
+      "field": "specs.scaleMm",
+      "before": null,
+      "after": 628.65,
+      "kind": "filled"
+    },
+    {
+      "id": "martin-d-18",
+      "field": "specs.body",
+      "before": "Solid spruce top; solid mahogany back and sides",
+      "after": "Spruce top; Mahogany back and sides",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "martin-d-18",
+      "field": "specs.neck",
+      "before": "Select hardwood; GE Modified Low Oval",
+      "after": "Select hardwood; GE Modified Low Oval; High Performance Taper",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "martin-d-18",
+      "field": "specs.bridge",
+      "before": "Ebony; Golden Era Modern Belly",
+      "after": "Ebony; Golden Era Modern Belly; drop-in saddle",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "cordoba-c5",
+      "field": "specs.pickups",
+      "before": null,
+      "after": "None (manufacturer N/A)",
+      "kind": "filled"
+    },
+    {
+      "id": "cordoba-c5",
+      "field": "specs.bridge",
+      "before": null,
+      "after": "Rosewood",
+      "kind": "filled"
+    },
+    {
+      "id": "cordoba-c5",
+      "field": "specs.controls",
+      "before": "None",
+      "after": "None (manufacturer N/A)",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "ibanez-sr300e",
+      "field": "specs.scaleMm",
+      "before": null,
+      "after": 864,
+      "kind": "filled"
+    },
+    {
+      "id": "squier-classic-vibe-60s-stratocaster",
+      "field": "specs.controls",
+      "before": "Master volume, 2 tone controls, 5-way selector",
+      "after": "Master volume, 2 tone controls, 5-way blade selector",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "squier-classic-vibe-60s-stratocaster",
+      "field": "specs.scaleMm",
+      "before": null,
+      "after": 648,
+      "kind": "filled"
+    },
+    {
+      "id": "epiphone-les-paul-standard-50s",
+      "field": "specs.body",
+      "before": "Okoume (Gaboon mahogany) or Sapelli; maple cap with figured veneer",
+      "after": "Okoume (Gaboon mahogany) or Sapelli; maple cap with AAA flame maple veneer",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "epiphone-les-paul-standard-50s",
+      "field": "specs.controls",
+      "before": "2 volume, 2 tone; CTS pots and 50s wiring",
+      "after": "2 volume, 2 tone; CTS pots, 50s wiring, 3-way toggle",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "epiphone-les-paul-standard-50s",
+      "field": "specs.scaleMm",
+      "before": null,
+      "after": 628.65,
+      "kind": "filled"
+    },
+    {
+      "id": "fender-player-ii-telecaster",
+      "field": "specs.pickups",
+      "before": "Neck Pickup: Player Series Alnico 5 Tele Single-Coil; Bridge Pickup: Player Series Alnico 5 Tele Single-Coil",
+      "after": "Neck: Player Series Alnico 5 Tele Single-Coil; Bridge: Player Series Alnico 5 Tele Single-Coil",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "fender-player-ii-telecaster",
+      "field": "specs.controls",
+      "before": "Master Volume, Master Tone",
+      "after": "Master volume, master tone, 3-way blade selector",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "squier-affinity-series-telecaster",
+      "field": "specs.pickups",
+      "before": "Neck Pickup: Ceramic Single-Coil; Bridge Pickup: Ceramic Single-Coil",
+      "after": "Neck: Ceramic Single-Coil; Bridge: Ceramic Single-Coil",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "squier-affinity-series-telecaster",
+      "field": "specs.controls",
+      "before": "Master Volume, Master Tone",
+      "after": "Master volume, master tone, 3-way blade selector",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "gibson-j-45-standard",
+      "field": "specs.neck",
+      "before": "Mahogany",
+      "after": "Mahogany; SlimTaper profile",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "gibson-j-45-standard",
+      "field": "specs.controls",
+      "before": "Soundhole-mounted Volume and Tone",
+      "after": "Soundhole-mounted volume and tone",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "gibson-j-45-standard",
+      "field": "specs.strings",
+      "before": null,
+      "after": 6,
+      "kind": "filled"
+    },
+    {
+      "id": "cordoba-c7-cd",
+      "field": "specs.body",
+      "before": "Top: Solid Western Red Cedar; Back/sides: Rosewood",
+      "after": "Solid western red cedar top; rosewood back and sides",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "martin-d-28",
+      "field": "specs.body",
+      "before": "Top: Spruce; Back: East Indian Rosewood; Sides: East Indian Rosewood",
+      "after": "Spruce top; East Indian Rosewood back and sides",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "martin-d-28",
+      "field": "specs.neck",
+      "before": "Select Hardwood",
+      "after": "Select hardwood; GE Modified Low Oval; High Performance Taper",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "martin-d-28",
+      "field": "specs.pickups",
+      "before": "None",
+      "after": "No electronics",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "martin-d-28",
+      "field": "specs.bridge",
+      "before": "Ebony",
+      "after": "Ebony; Golden Era Modern Belly; drop-in saddle",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "prs-se-mccarty-594-singlecut",
+      "field": "specs.neck",
+      "before": "Mahogany",
+      "after": "Mahogany; Pattern Vintage profile",
+      "kind": "refined_or_corrected"
+    },
+    {
+      "id": "prs-se-mccarty-594-singlecut",
+      "field": "specs.controls",
+      "before": null,
+      "after": "2 volume, 2 push/pull tone controls, 3-way toggle on upper bout",
+      "kind": "filled"
+    }
+  ]
+}

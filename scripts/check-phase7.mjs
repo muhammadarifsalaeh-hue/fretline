@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { createServer } from 'vite';
 import { readCatalog, readArchive, readPhase7, readPolicy, findDuplicates, validateGuitar, ROOT } from './lib/catalog.mjs';
+import { batchIds, assertPhase9DataBoundary } from './lib/phase9.mjs';
 
 const server = await createServer({ server: { middlewareMode: true, hmr: false }, appType: 'custom', logLevel: 'error' });
 let count = 0;
@@ -33,10 +34,13 @@ try {
     assert.equal(GUITARS.filter((guitar) => before.some((old) => old.id === guitar.id)).length, 34);
     assert.deepEqual(findDuplicates([...records, ...archive]), []);
   });
-  check('retained original facts, source scopes and identities remain unchanged', () => {
+  check('retained identities remain unchanged and only the documented Phase 9 batch may revise facts', () => {
+    assertPhase9DataBoundary();
+    const rechecked = batchIds();
     for (const old of before.filter((guitar) => !policy.archivedIds.includes(guitar.id))) {
       const guitar = GUITARS_BY_ID[old.id];
-      for (const key of ['id', 'slug', 'brand', 'name', 'category', 'source', 'specs']) assert.deepEqual(guitar[key], old[key], `${old.id}/${key}`);
+      const keys = rechecked.has(old.id) ? ['id', 'slug', 'brand', 'name', 'category'] : ['id', 'slug', 'brand', 'name', 'category', 'source', 'specs'];
+      for (const key of keys) assert.deepEqual(guitar[key], old[key], `${old.id}/${key}`);
     }
   });
   check('both archive backups contain exact original published records and sources', () => {
@@ -103,11 +107,12 @@ try {
       for (const [key, value] of Object.entries(guitar.specs)) if (value != null) assert.ok(guitar.source.fields.includes(`specs.${key}`));
     }
   });
-  check('the licensed photo remains one model, with 199 honest placeholders', () => {
-    assert.equal(GUITARS.filter((guitar) => guitar.hasPhotos).length, 1);
-    assert.equal(GUITARS.filter((guitar) => !guitar.hasPhotos).length, 199);
+  check('two licensed model photos leave 198 honest placeholders after the Phase 9 review', () => {
+    assert.equal(GUITARS.filter((guitar) => guitar.hasPhotos).length, 2);
+    assert.equal(GUITARS.filter((guitar) => !guitar.hasPhotos).length, 198);
     assert.equal(GUITARS_BY_ID['yamaha-fg820-12'].gallery[0].attribution.license, 'CC-BY-SA-4.0');
-    assert.ok(added.every((guitar) => !GUITARS_BY_ID[guitar.id].hasPhotos));
+    assert.equal(GUITARS_BY_ID['martin-d-28'].gallery[0].attribution.license, 'CC-BY-SA-4.0');
+    assert.ok(added.filter((guitar) => guitar.id !== 'martin-d-28').every((guitar) => !GUITARS_BY_ID[guitar.id].hasPhotos));
   });
   check('search and brand/type filters see all 200 active records without the archive', () => {
     const filters = { q: '', types: [], brands: [], min: 0, max: PRICE_MAX };

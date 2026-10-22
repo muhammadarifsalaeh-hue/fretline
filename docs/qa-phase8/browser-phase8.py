@@ -7,7 +7,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright, expect
 import json, os, re, traceback
 
-OUT = Path(__file__).resolve().parent
+OUT = Path(os.environ.get('FRETLINE_QA_OUTPUT', Path(__file__).resolve().parent))
 BASE = os.environ.get('FRETLINE_QA_URL', 'http://127.0.0.1:4188')
 PHOTO = 'yamaha-fg820-12'
 A = 'yamaha-fg830'
@@ -229,6 +229,6 @@ except Exception:
     print(report['failure'], flush=True)
 finally:
     OUT.mkdir(parents=True, exist_ok=True)
-    (OUT / 'browser-phase8-results.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
+    (OUT / os.environ.get('FRETLINE_QA_REPORT', 'browser-phase8-results.json')).write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
 if not report['passed']:
     raise SystemExit(1)

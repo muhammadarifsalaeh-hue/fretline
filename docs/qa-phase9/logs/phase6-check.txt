@@ -1,0 +1,38 @@
+
+> fretline@0.1.0 phase6:check
+> node scripts/check-phase6.mjs
+
+WebSocket server error:
+Error: listen EPERM: operation not permitted 0.0.0.0:24678
+    at Server.setupListenHandle [as _listen2] (node:net:2145:21)
+    at listenInCluster (node:net:2224:12)
+    at Server.listen (node:net:2344:7)
+    at Object.listen (file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:59516:21)
+    at file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64101:45
+    at Array.forEach (<anonymous>)
+    at Object.listen (file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64101:16)
+    at _createServer (file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:63423:11)
+    at async file:///workspace/fretline/scripts/check-phase6.mjs:12:16
+PASS all original IDs remain resolvable; retained catalog order survives approved archival
+PASS no duplicate IDs or normalized brand/model pairs
+PASS every effective record passes catalog validation
+PASS all records remain partial; none silently becomes verified
+PASS all public prices, old prices, reviews, weights and promotional badges are unknown
+PASS every published factual spec has an explicit source field and real check date
+PASS limited search-index evidence remains visibly marked with edition caveats
+PASS incorrect SR300E demo materials and pickups are replaced by the actual referenced variant
+PASS GS Mini Mahogany and current 214ce wood variants are not conflated
+PASS every Yamaha table column stays mapped to its correct model
+PASS equal millimetre scales are equal despite rounded inch labels
+PASS catalog has a finite price bound when every amount is unknown
+PASS default filters retain unknown-price models; a budget does not assert them affordable
+PASS quick searches retain only source-backed beginner, nylon and left-handed labels
+PASS every brand count still partitions the same catalog
+PASS wishlist and comparison IDs survive migration; inherited property names do not qualify
+PASS quiz retains the original weights and cannot use unknown prices, weights or reviews
+PASS general specification sources cannot validate a THB price
+PASS the original licensed photo survives the documented Phase 9 addition; derivatives are not gallery angles
+PASS every delivered image file has intact attribution, dimensions and SHA-256
+PASS missing rights, mismatched models, fake license URLs and impossible dates are rejected
+
+21/21 checks passed

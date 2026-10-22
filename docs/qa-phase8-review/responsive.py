@@ -2,9 +2,10 @@
 from pathlib import Path
 from playwright.sync_api import sync_playwright, expect
 import json,os
-OUT=Path(__file__).parent
+OUT=Path(os.environ.get('FRETLINE_QA_OUTPUT',Path(__file__).parent))
 BASE=os.environ.get('FRETLINE_QA_URL','http://127.0.0.1:4188')
-paths=[('home','/'),('catalog','/guitars'),('detail','/guitars/fender-player-ii-telecaster'),('photo-detail','/guitars/yamaha-fg820-12'),('compare','/compare?ids=yamaha-fg820-12,fender-player-ii-telecaster,ibanez-sr300e,taylor-gs-mini'),('quiz','/find-my-guitar?type=acoustic&step=1'),('quiz-results','/find-my-guitar?type=acoustic&level=intermediate&style=folk&budget=mid&priority=versatile'),('brands','/brands'),('brand-detail','/brands/yamaha'),('wishlist','/wishlist')]
+PHOTO=os.environ.get('FRETLINE_QA_PHOTO','yamaha-fg820-12')
+paths=[('home','/'),('catalog','/guitars'),('detail','/guitars/fender-player-ii-telecaster'),('photo-detail','/guitars/'+PHOTO),('compare','/compare?ids='+PHOTO+',fender-player-ii-telecaster,ibanez-sr300e,taylor-gs-mini'),('quiz','/find-my-guitar?type=acoustic&step=1'),('quiz-results','/find-my-guitar?type=acoustic&level=intermediate&style=folk&budget=mid&priority=versatile'),('brands','/brands'),('brand-detail','/brands/yamaha'),('wishlist','/wishlist')]
 report={'browser':'Chromium on Linux; CSS viewports, not physical Safari/iPad', 'checks':[], 'screenshots':[], 'console_errors':[], 'page_errors':[], 'failed_requests':[], 'broken_images':[]}
 with sync_playwright() as p:
  browser=p.chromium.launch(executable_path=os.environ.get('CHROMIUM_BIN','/usr/bin/chromium'),args=['--no-sandbox'])
@@ -14,7 +15,7 @@ with sync_playwright() as p:
  page.on('pageerror',lambda e:report['page_errors'].append(str(e)))
  page.on('requestfailed',lambda r:report['failed_requests'].append({'url':r.url,'error':r.failure}))
  page.goto(BASE,wait_until='networkidle')
- page.evaluate('localStorage.setItem("fretline:wishlist",JSON.stringify(["yamaha-fg820-12","fender-player-ii-telecaster","yamaha-c40"]))')
+ page.evaluate('(photo)=>localStorage.setItem("fretline:wishlist",JSON.stringify([photo,"fender-player-ii-telecaster","yamaha-c40"]))',PHOTO)
  for width,height in [(1440,1000),(1024,768),(768,1024),(390,844),(320,800)]:
   page.set_viewport_size({'width':width,'height':height})
   for name,path in paths:

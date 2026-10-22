@@ -1,10 +1,11 @@
 # Missing guitar photos
 
-199 of 200 models still require rights-documented, matching photos. Existing placeholders remain in use.
+198 of 200 models still require rights-documented, matching photos. Existing placeholders remain in use.
 
 ## Accepted images
 
 - yamaha-fg820-12: Peternick2468 — [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source](https://commons.wikimedia.org/wiki/File:12_string_Yamaha_acoustic_guitar.jpg). EXIF orientation applied; resized and encoded as WebP. No crop, retouch, background removal, or AI alteration.
+- martin-d-28: IchiroNakagawa — [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/), [source](https://commons.wikimedia.org/wiki/File:Martin_D-28.jpg). EXIF orientation applied; metadata including GPS removed; resized without cropping and encoded as WebP. No retouch, background removal, or AI alteration. Derivatives distributed under CC BY-SA 4.0.
 
 ## Add a photo
 
@@ -157,7 +158,6 @@ Use a photo of the correct model/variant with established reuse rights. Record a
 | Taylor Next Generation 454ce | taylor-next-generation-454ce |
 | Taylor Gold Label 510e | taylor-gold-label-510e |
 | Taylor 612ce | taylor-612ce |
-| Martin D-28 | martin-d-28 |
 | Martin HD-28 | martin-hd-28 |
 | Martin HD-35 | martin-hd-35 |
 | Martin D-35 | martin-d-35 |

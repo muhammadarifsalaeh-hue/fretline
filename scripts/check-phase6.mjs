@@ -5,6 +5,7 @@ import { createHash } from 'node:crypto';
 import { createServer } from 'vite';
 import { readCatalog, readPolicy, readImageRights, validateGuitar, findDuplicates, ROOT } from './lib/catalog.mjs';
 import { hasImageRights } from '../src/utils/imageRights.js';
+import { assertPhase9DataBoundary } from './lib/phase9.mjs';
 
 let count = 0;
 const check = (name, fn) => { fn(); count++; console.log(`PASS ${name}`); };
@@ -102,8 +103,9 @@ try {
     assert.equal(trust.trustedPrice({ ...g, price: 20000, source: { ...g.source, fields: [...g.source.fields, 'price'] } }), null);
   });
   const rights = readImageRights();
-  check('one matching licensed photo is published; derivatives are not gallery angles', () => {
-    assert.equal(GUITARS.filter((g) => g.hasPhotos).length, 1);
+  check('the original licensed photo survives the documented Phase 9 addition; derivatives are not gallery angles', () => {
+    assertPhase9DataBoundary();
+    assert.equal(GUITARS.filter((g) => g.hasPhotos).length, 2);
     const photo = GUITARS_BY_ID['yamaha-fg820-12'].gallery[0];
     assert.equal(GUITARS_BY_ID['yamaha-fg820-12'].gallery.length, 1);
     assert.ok(photo.srcSet.includes('480w') && photo.srcSet.includes('960w') && photo.srcSet.includes('1200w'));

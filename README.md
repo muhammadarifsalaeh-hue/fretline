@@ -1,4 +1,6 @@
-> Latest delivery: [Phase 8 — UI/UX Polish & Quality Assurance](docs/PHASE_8_REPORT.md). Shared black-and-gold styling, labelled placeholders, accessible controls, URL history and responsive browser evidence.
+> Latest delivery: [Phase 9 — first 20-model evidence review](docs/qa-phase9/README.md). Two models per brand rechecked against manufacturer specifications, field-level evidence and one additional licensed owner photograph. All 200 records remain partial.
+
+> Previous delivery: [Phase 8 — UI/UX Polish & Quality Assurance](docs/PHASE_8_REPORT.md). Shared black-and-gold styling, labelled placeholders, accessible controls, URL history and responsive browser evidence.
 
 > Previous delivery: [Phase 7 — 200 real guitar models](docs/PHASE_7_REPORT.md). Ten approved brands with twenty models each, preserved archives, manufacturer sources and browser evidence.
 
@@ -27,9 +29,12 @@ npm run images:check
 npm run phase6:check
 npm run phase7:check
 npm run phase8:check
+npm run phase9:check
 ```
 
 Phase 8 browser scripts and reproducible checks are documented in [the QA report](docs/PHASE_8_REPORT.md). They use Python Playwright and a separately installed Chromium; these tools are not runtime dependencies of the website.
+
+Phase 9 results, the 20-model specification tables, dated manufacturer links and reusable browser commands are in [the batch report](docs/qa-phase9/README.md). The remaining 180 records were not rechecked against live sources in this batch.
 
 ## รูปภาพ
 
@@ -101,7 +106,7 @@ Phase 8 browser scripts and reproducible checks are documented in [the QA report
 - Catalog หลักมี **200 รุ่นพอดี / 10 แบรนด์ / แบรนด์ละ 20 รุ่น**: `partial` 200, `verified` 0 ราคาเงินบาทและรีวิวยังไม่มีหลักฐานที่เพียงพอ จึงไม่แสดงตัวเลขสมมติ
 - แบรนด์: Yamaha, Fender, Epiphone, Ibanez, Taylor, Córdoba, Gibson, Martin, PRS และ Squier
 - ใช้ 34 รุ่นเดิม + เพิ่ม 166 รุ่นจากแหล่งผู้ผลิต เก็บ Gretsch G2420 และ Yamaha C40 ใน Archive แยกจาก Catalog หลัก ลิงก์เก่าและ ID ใน Wishlist/Compare ยังอยู่
-- มีภาพจริงที่บันทึกสิทธิ์แล้ว 1 ภาพของ Yamaha FG820-12 (CC BY-SA 4.0) อีก **199 รุ่น** ใช้ Placeholder ภาพนี้ใส่สายไว้ 6 เส้นตามข้อมูลผู้ถ่าย จึงระบุคำอธิบายไว้ชัดเจน ไม่มีการคัดลอกภาพผู้ผลิตเพิ่มใน Phase 7
+- มีภาพจริงที่บันทึกสิทธิ์แล้ว **2 ภาพ / 2 รุ่น** (CC BY-SA 4.0) อีก **198 รุ่น** ใช้ Placeholder: Yamaha FG820-12 ใส่สายไว้ 6 เส้นตามข้อมูลผู้ถ่าย; Martin D-28 เป็นภาพเจ้าของปี 2018 ไม่ทราบปีผลิต และไม่ใช่ภาพรุ่นสเปก Golden Era ปัจจุบัน มีคำอธิบาย/เครดิตกำกับ ไม่มีการคัดลอกภาพผู้ผลิตโดยไม่มีสิทธิ์
 - เครื่องมือ CSV เดิมยังอยู่ แต่จะปฏิเสธรายการซ้ำ แบรนด์นอกแผน หรือการนำเข้าที่เกินโควตา 200/20 (ดู `docs/ADDING_GUITARS.md`)
 - ตรวจความคืบหน้า/รายการซ้ำ/ข้อมูลไม่ครบ: `npm run catalog:check`
 - ตรวจรูปที่ขาด: `npm run images:check` (เขียนรายการลง `MISSING_IMAGES.md` ด้วย `-- --write`)
@@ -114,4 +119,5 @@ Phase 8 browser scripts and reproducible checks are documented in [the QA report
 - ราคายังไม่มีหลักฐานทั้งชุด: ช่องช่วงราคาจะอธิบายข้อจำกัด ลิงก์ที่ระบุช่วงราคาจะเข้าสู่ Empty State ที่ล้างตัวกรองได้
 - หลักฐาน Phase 6: [Audit ก่อนแก้](docs/PHASE_6_AUDIT_BEFORE.md), [ข้อมูลหลังแก้และแหล่งอ้างอิง](docs/PHASE_6_SOURCES.md), [ผลทดสอบและข้อจำกัด](docs/PHASE_6_REPORT.md)
 - หลักฐาน Phase 7: [รายชื่อ 200 รุ่นพร้อมแหล่งอ้างอิง](docs/PHASE_7_CATALOG.md), [ผลทดสอบและการรักษารายการเดิม](docs/PHASE_7_REPORT.md)
+- หลักฐาน Phase 9: [สเปก 20 รุ่น แหล่งอ้างอิง สิทธิ์ภาพ และผลทดสอบ](docs/qa-phase9/README.md)
 - ไฟล์ CSV และ Sourcing Log รุ่นเก่าคงไว้เป็นประวัติการนำเข้า `reviewedGuitars.json` เป็นค่าที่ผ่านการตรวจล่าสุดและมีลำดับความสำคัญสูงกว่า

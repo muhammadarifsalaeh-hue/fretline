@@ -1,0 +1,1392 @@
+[
+  {
+    "id": "yamaha-fg800",
+    "brand": "Yamaha",
+    "name": "FG800 Dreadnought",
+    "category": "acoustic",
+    "manufacturerModel": "FG800",
+    "modelIdentifier": null,
+    "sourceUrl": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "24f232ed17e0462b44aa271d970585172d7054e82aff8225c7ade8393327bb7d",
+    "sourceLocation": "Manufacturer model specification table / variant specification rows",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "อ่านคอลัมน์ FG800 และ FG830 แยกกันในตาราง FG/FS800 ของ Yamaha Malaysia; คงตัวเลือกไม้ “or” ตามผู้ผลิต ไม่อนุมานจำนวนเฟรตหรือสายจากรูปภาพ",
+    "fields": {
+      "specs.body": {
+        "value": "Dreadnought Style; Solid Spruce top; Nato/Okume back; Nato/Okume sides",
+        "review": "checked",
+        "observed": "Body Shape: Traditional Western / Dreadnought Style; Top: Solid Spruce; Back/Sides: Nato/Okume"
+      },
+      "specs.neck": {
+        "value": "Nato",
+        "review": "checked",
+        "observed": "Neck Material: Nato"
+      },
+      "specs.fretboard": {
+        "value": "Rosewood or Walnut",
+        "review": "checked",
+        "observed": "Fingerboard Material: Rosewood or Walnut"
+      },
+      "specs.pickups": {
+        "value": "None",
+        "review": "checked",
+        "observed": "Electronics: -"
+      },
+      "specs.bridge": {
+        "value": "Rosewood or Walnut",
+        "review": "checked",
+        "observed": "Bridge Material: Rosewood or Walnut"
+      },
+      "specs.controls": {
+        "value": "None",
+        "review": "checked",
+        "observed": "Controls: -"
+      },
+      "specs.scale": {
+        "value": 25.59,
+        "review": "checked",
+        "observed": "Scale Length: 650 mm; inch value rounded from mm"
+      },
+      "specs.frets": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.strings": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.scaleMm": {
+        "value": 650,
+        "review": "checked",
+        "observed": "Scale Length: 650 mm"
+      }
+    }
+  },
+  {
+    "id": "yamaha-fg830",
+    "brand": "Yamaha",
+    "name": "FG830",
+    "category": "acoustic",
+    "manufacturerModel": "FG830",
+    "modelIdentifier": null,
+    "sourceUrl": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "24f232ed17e0462b44aa271d970585172d7054e82aff8225c7ade8393327bb7d",
+    "sourceLocation": "Manufacturer model specification table / variant specification rows",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "อ่านคอลัมน์ FG800 และ FG830 แยกกันในตาราง FG/FS800 ของ Yamaha Malaysia; คงตัวเลือกไม้ “or” ตามผู้ผลิต ไม่อนุมานจำนวนเฟรตหรือสายจากรูปภาพ",
+    "fields": {
+      "specs.body": {
+        "value": "Dreadnought Style; Solid Spruce top; Rosewood back; Rosewood sides",
+        "review": "checked",
+        "observed": "Body Shape: Traditional Western / Dreadnought Style; Top: Solid Spruce; Back/Sides: Rosewood"
+      },
+      "specs.neck": {
+        "value": "Nato",
+        "review": "checked",
+        "observed": "Neck Material: Nato"
+      },
+      "specs.fretboard": {
+        "value": "Rosewood",
+        "review": "checked",
+        "observed": "Fingerboard Material: Rosewood"
+      },
+      "specs.pickups": {
+        "value": "None",
+        "review": "checked",
+        "observed": "Electronics: -"
+      },
+      "specs.bridge": {
+        "value": "Rosewood",
+        "review": "checked",
+        "observed": "Bridge Material: Rosewood"
+      },
+      "specs.controls": {
+        "value": "None",
+        "review": "checked",
+        "observed": "Controls: -"
+      },
+      "specs.scale": {
+        "value": 25.59,
+        "review": "checked",
+        "observed": "Scale Length: 650 mm; inch value rounded from mm"
+      },
+      "specs.frets": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.strings": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.scaleMm": {
+        "value": 650,
+        "review": "checked",
+        "observed": "Scale Length: 650 mm"
+      }
+    }
+  },
+  {
+    "id": "fender-american-professional-ii-stratocaster",
+    "brand": "Fender",
+    "name": "American Professional II Stratocaster",
+    "category": "electric",
+    "manufacturerModel": "American Professional II Stratocaster",
+    "modelIdentifier": null,
+    "sourceUrl": "https://eu.fender.com/products/american-professional-ii-stratocaster",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "cca3b604427b557fb753e9db420b9e869717167b81a78ebe48df4644608f45f3",
+    "sourceLocation": "Manufacturer model specification table / variant specification rows",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "หน้า Fender รวมหลายสีและฟิงเกอร์บอร์ด จึงเก็บตัวเลือกตามรุ่นย่อย ไม่อ้างว่าไม้ทุกตัวเลือกอยู่ในกีตาร์ตัวเดียว; จำนวนสายคงหลักฐานรอบเดิม ไม่อนุมานจากช่วงเบอร์สาย",
+    "fields": {
+      "specs.body": {
+        "value": "Alder or roasted pine (varies by finish)",
+        "review": "checked",
+        "observed": "Body Material: Alder / Roasted Pine (different variants)"
+      },
+      "specs.neck": {
+        "value": "Maple",
+        "review": "checked",
+        "observed": "Neck Material: Maple"
+      },
+      "specs.fretboard": {
+        "value": "Maple or rosewood (varies by version)",
+        "review": "checked",
+        "observed": "Fingerboard Material: Maple / Rosewood (different variants)"
+      },
+      "specs.pickups": {
+        "value": "3 × V-Mod II single-coil Stratocaster",
+        "review": "checked",
+        "observed": "Bridge/Middle/Neck Pickup: V-Mod II Single-Coil Strat"
+      },
+      "specs.bridge": {
+        "value": "2-point synchronized tremolo; bent-steel saddles; pop-in arm",
+        "review": "checked",
+        "observed": "Bridge: 2-Point Synchronized Tremolo with Bent Steel Saddles, Pop-In Tremolo Arm and Cold-Rolled Steel Block"
+      },
+      "specs.controls": {
+        "value": "Master volume, 2 tone controls, 5-way blade selector",
+        "review": "checked",
+        "observed": "Controls: Master Volume, Tone 1 (neck/middle), Tone 2 (bridge); Pickup Switching: 5-Position Blade"
+      },
+      "specs.scale": {
+        "value": 25.5,
+        "review": "checked",
+        "observed": "Scale Length: 25.5 inch (648 mm)"
+      },
+      "specs.frets": {
+        "value": 22,
+        "review": "checked",
+        "observed": "Number of Frets: 22"
+      },
+      "specs.strings": {
+        "value": 6,
+        "review": "retained",
+        "sourceUrl": "https://eu.fender.com/products/american-professional-ii-stratocaster",
+        "verifiedOn": "2026-10-20",
+        "note": "Prior scoped source retained; not claimed freshly checked in this batch."
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.scaleMm": {
+        "value": 648,
+        "review": "checked",
+        "observed": "Scale Length: 25.5 inch (648 mm)"
+      }
+    }
+  },
+  {
+    "id": "fender-player-ii-telecaster",
+    "brand": "Fender",
+    "name": "Player II Telecaster",
+    "category": "electric",
+    "manufacturerModel": "Player II Telecaster®",
+    "modelIdentifier": null,
+    "sourceUrl": "https://www.fender.com/products/player-ii-telecaster",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "ae9770f57f879a9dd1c81c2f6b82ffcfd9074354708bb418aafcc52856747044",
+    "sourceLocation": "Manufacturer model specification table / variant specification rows",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "ตารางสเปกรวมหลายสี/วัสดุ เก็บตัวเลือกตามผู้ผลิต ไม่เลือก SKU หรือวัสดุเพียงค่าเดียวแทนทุกรุ่นย่อย; ไม่อนุมานจำนวนสายจากช่วงเบอร์สาย",
+    "fields": {
+      "specs.body": {
+        "value": "Chambered Ash / Alder / Chambered Mahogany",
+        "review": "checked",
+        "observed": "Body Material: Chambered Ash / Alder / Chambered Mahogany"
+      },
+      "specs.neck": {
+        "value": "Maple",
+        "review": "checked",
+        "observed": "Neck Material: Maple"
+      },
+      "specs.fretboard": {
+        "value": "Maple / Slab Rosewood",
+        "review": "checked",
+        "observed": "Fingerboard Material: Maple / Slab Rosewood"
+      },
+      "specs.pickups": {
+        "value": "Neck: Player Series Alnico 5 Tele Single-Coil; Bridge: Player Series Alnico 5 Tele Single-Coil",
+        "review": "checked",
+        "observed": "Neck/Bridge Pickup: Player Series Alnico 5 Tele Single-Coil"
+      },
+      "specs.bridge": {
+        "value": "6-Saddle String-Through-Body Tele with Block Steel Saddles",
+        "review": "checked",
+        "observed": "Bridge: 6-Saddle String-Through-Body Tele with Block Steel Saddles"
+      },
+      "specs.controls": {
+        "value": "Master volume, master tone, 3-way blade selector",
+        "review": "checked",
+        "observed": "Controls: Master Volume, Master Tone; Pickup Switching: 3-Position Blade"
+      },
+      "specs.scale": {
+        "value": 25.5,
+        "review": "checked",
+        "observed": "Scale Length: 25.5 inch (648 mm)"
+      },
+      "specs.scaleMm": {
+        "value": 648,
+        "review": "checked",
+        "observed": "Scale Length: 25.5 inch (648 mm)"
+      },
+      "specs.frets": {
+        "value": 22,
+        "review": "checked",
+        "observed": "Number of Frets: 22"
+      },
+      "specs.strings": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      }
+    }
+  },
+  {
+    "id": "squier-classic-vibe-60s-stratocaster",
+    "brand": "Squier",
+    "name": "Classic Vibe '60s Stratocaster",
+    "category": "electric",
+    "manufacturerModel": "Classic Vibe '60s Stratocaster",
+    "modelIdentifier": null,
+    "sourceUrl": "https://www.fender.com/products/classic-vibe-60s-stratocaster",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "78af887176e0849add0db290034699124bded19f458ad0f7daff93fd91f722ac",
+    "sourceLocation": "Manufacturer model specification table / variant specification rows",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "อ้างอิง Classic Vibe 60s Stratocaster รุ่น Nyatoh/Indian Laurel; ไม่ปะปน Classic Vibe Precision Bass; จำนวนสายคงหลักฐานรอบเดิม",
+    "fields": {
+      "specs.body": {
+        "value": "Nyatoh",
+        "review": "checked",
+        "observed": "Body Material: Nyatoh"
+      },
+      "specs.neck": {
+        "value": "Maple",
+        "review": "checked",
+        "observed": "Neck Material: Maple"
+      },
+      "specs.fretboard": {
+        "value": "Indian laurel",
+        "review": "checked",
+        "observed": "Fingerboard Material: Indian Laurel"
+      },
+      "specs.pickups": {
+        "value": "3 × Fender-Designed Alnico single-coil",
+        "review": "checked",
+        "observed": "Bridge/Middle/Neck Pickup: Fender-Designed Alnico Single-Coil"
+      },
+      "specs.bridge": {
+        "value": "6-saddle vintage-style synchronized tremolo",
+        "review": "checked",
+        "observed": "Bridge: 6-Saddle Vintage-Style Synchronized Tremolo"
+      },
+      "specs.controls": {
+        "value": "Master volume, 2 tone controls, 5-way blade selector",
+        "review": "checked",
+        "observed": "Controls: Master Volume, Tone 1, Tone 2; Pickup Switching: 5-Position Blade"
+      },
+      "specs.scale": {
+        "value": 25.5,
+        "review": "checked",
+        "observed": "Scale Length: 25.5 inch (648 mm)"
+      },
+      "specs.frets": {
+        "value": 21,
+        "review": "checked",
+        "observed": "Number of Frets: 21"
+      },
+      "specs.strings": {
+        "value": 6,
+        "review": "retained",
+        "sourceUrl": "https://www.fender.com/products/classic-vibe-60s-stratocaster",
+        "verifiedOn": "2026-10-20",
+        "note": "Prior scoped source retained; not claimed freshly checked in this batch."
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.scaleMm": {
+        "value": 648,
+        "review": "checked",
+        "observed": "Scale Length: 25.5 inch (648 mm)"
+      }
+    }
+  },
+  {
+    "id": "squier-affinity-series-telecaster",
+    "brand": "Squier",
+    "name": "Affinity Series Telecaster",
+    "category": "electric",
+    "manufacturerModel": "Affinity Series® Telecaster®",
+    "modelIdentifier": null,
+    "sourceUrl": "https://www.fender.com/products/affinity-series-telecaster",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "d1f3d9896fca475f97a16f45d1803770f3121e10f5c80b33cf61ad66e2cca030",
+    "sourceLocation": "Manufacturer model specification table / variant specification rows",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "ตารางสเปกรวมหลายสี/วัสดุ เก็บตัวเลือกตามผู้ผลิต ไม่เลือก SKU หรือวัสดุเพียงค่าเดียวแทนทุกรุ่นย่อย; ไม่อนุมานจำนวนสายจากช่วงเบอร์สาย",
+    "fields": {
+      "specs.body": {
+        "value": "Poplar",
+        "review": "checked",
+        "observed": "Body Material: Poplar"
+      },
+      "specs.neck": {
+        "value": "Maple",
+        "review": "checked",
+        "observed": "Neck Material: Maple"
+      },
+      "specs.fretboard": {
+        "value": "Maple / Indian Laurel",
+        "review": "checked",
+        "observed": "Fingerboard Material: Maple / Indian Laurel"
+      },
+      "specs.pickups": {
+        "value": "Neck: Ceramic Single-Coil; Bridge: Ceramic Single-Coil",
+        "review": "checked",
+        "observed": "Neck/Bridge Pickup: Ceramic Single-Coil"
+      },
+      "specs.bridge": {
+        "value": "6-Saddle Strings-Through-Body Tele",
+        "review": "checked",
+        "observed": "Bridge: 6-Saddle Strings-Through-Body Tele"
+      },
+      "specs.controls": {
+        "value": "Master volume, master tone, 3-way blade selector",
+        "review": "checked",
+        "observed": "Controls: Master Volume, Master Tone; Pickup Switching: 3-Position Blade"
+      },
+      "specs.scale": {
+        "value": 25.5,
+        "review": "checked",
+        "observed": "Scale Length: 25.5 inch (648 mm)"
+      },
+      "specs.scaleMm": {
+        "value": 648,
+        "review": "checked",
+        "observed": "Scale Length: 25.5 inch (648 mm)"
+      },
+      "specs.frets": {
+        "value": 21,
+        "review": "checked",
+        "observed": "Number of Frets: 21"
+      },
+      "specs.strings": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      }
+    }
+  },
+  {
+    "id": "gibson-les-paul-standard-60s",
+    "brand": "Gibson",
+    "name": "Les Paul Standard 60s",
+    "category": "electric",
+    "manufacturerModel": "Les Paul Standard 60s, Bourbon Burst",
+    "modelIdentifier": "LPS600B8NH1",
+    "sourceUrl": "https://www.gibson.com/products/gibson-les-paul-standard-60s-figured-top-bourbon-burst",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "adf1a4b2de9cd3af8095765e0293003c32308b94ba3ea27aab0c1c2b24b5d9e3",
+    "sourceLocation": "Manufacturer model specification table / variant specification rows",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "อ้างอิง Les Paul Standard 60s Figured Top สี Bourbon Burst ตามหน้าและรหัส LPS600B8NH1; ไม่นำราคาต่างประเทศมาแปลงเป็นราคาไทย",
+    "fields": {
+      "specs.body": {
+        "value": "Mahogany with AA figured maple top",
+        "review": "checked",
+        "observed": "Body Material: Mahogany; Top: AA Figured Maple"
+      },
+      "specs.neck": {
+        "value": "Mahogany; SlimTaper profile",
+        "review": "checked",
+        "observed": "Neck Material: Mahogany; Profile: SlimTaper"
+      },
+      "specs.fretboard": {
+        "value": "Rosewood",
+        "review": "checked",
+        "observed": "Fingerboard Material: Rosewood"
+      },
+      "specs.pickups": {
+        "value": "2 × 60s Burstbucker humbuckers",
+        "review": "checked",
+        "observed": "Neck/Bridge Pickup: 60s Burstbucker"
+      },
+      "specs.bridge": {
+        "value": "ABR-1 Tune-O-Matic",
+        "review": "checked",
+        "observed": "Bridge: ABR-1 Tune-O-Matic"
+      },
+      "specs.controls": {
+        "value": "2 volume, 2 tone, 3-way selector",
+        "review": "checked",
+        "observed": "Controls: 2 Volume, 2 Tone; Pickup Selector: 3-way toggle"
+      },
+      "specs.scale": {
+        "value": 24.75,
+        "review": "checked",
+        "observed": "Scale Length: 628.65 mm / 24.75 in"
+      },
+      "specs.frets": {
+        "value": 22,
+        "review": "checked",
+        "observed": "Fingerboard Fret Count: 22"
+      },
+      "specs.strings": {
+        "value": 6,
+        "review": "checked",
+        "observed": "String Gauges: .010, .013, .017, .026, .036, .046 (six explicitly listed gauges)"
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.scaleMm": {
+        "value": 628.65,
+        "review": "checked",
+        "observed": "Scale Length: 628.65 mm / 24.75 in"
+      }
+    }
+  },
+  {
+    "id": "gibson-j-45-standard",
+    "brand": "Gibson",
+    "name": "J-45 Standard",
+    "category": "acoustic",
+    "manufacturerModel": "Gibson J-45 Standard, Vintage Sunburst",
+    "modelIdentifier": "RS45VSN19",
+    "sourceUrl": "https://www.gibson.com/products/gibson-j-45-standard-vintage-sunburst-rs45vsn19",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "6770fe0adbac863709c910f9b53449f54e0b00d7cb09bdd035a2023debb75ee3",
+    "sourceLocation": "Manufacturer model specification table / variant specification rows",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "หน้า RS45VSN19 ระบุว่าสินค้ารุ่นอ้างอิงนี้ไม่จำหน่ายแล้วและเก็บไว้เพื่ออ้างอิง สเปกนี้จึงไม่ใช่การยืนยัน J-45 Standard รุ่นผลิตล่าสุด",
+    "fields": {
+      "specs.body": {
+        "value": "Top: Sitka Spruce; Back: Mahogany; Sides: Mahogany",
+        "review": "checked",
+        "observed": "Top: Sitka Spruce; Back: Mahogany; Side: Mahogany"
+      },
+      "specs.neck": {
+        "value": "Mahogany; SlimTaper profile",
+        "review": "checked",
+        "observed": "Neck Material: Mahogany; Profile: SlimTaper"
+      },
+      "specs.fretboard": {
+        "value": "Rosewood",
+        "review": "checked",
+        "observed": "Fingerboard Material: Rosewood"
+      },
+      "specs.pickups": {
+        "value": "Under Saddle Pickup: Baggs VTC",
+        "review": "checked",
+        "observed": "Under Saddle Pickup: Baggs VTC"
+      },
+      "specs.bridge": {
+        "value": "Traditional Belly Up",
+        "review": "checked",
+        "observed": "Bridge: Traditional Belly Up"
+      },
+      "specs.controls": {
+        "value": "Soundhole-mounted volume and tone",
+        "review": "checked",
+        "observed": "Controls: Soundhole-mounted Volume and Tone"
+      },
+      "specs.scale": {
+        "value": 24.75,
+        "review": "checked",
+        "observed": "Scale Length: 628.65 mm / 24.75 in"
+      },
+      "specs.scaleMm": {
+        "value": 628.65,
+        "review": "checked",
+        "observed": "Scale Length: 628.65 mm / 24.75 in"
+      },
+      "specs.frets": {
+        "value": 20,
+        "review": "checked",
+        "observed": "Fingerboard Fret Count: 20"
+      },
+      "specs.strings": {
+        "value": 6,
+        "review": "checked",
+        "observed": "String Gauges: .012, .016, .024, .032, .042, .053 (six explicitly listed gauges)"
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      }
+    }
+  },
+  {
+    "id": "epiphone-casino",
+    "brand": "Epiphone",
+    "name": "Casino Hollowbody",
+    "category": "electric",
+    "manufacturerModel": "Casino, Natural",
+    "modelIdentifier": "EOCANANH1",
+    "sourceUrl": "https://www.gibson.com/products/epiphone-casino-natural",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "2cd05a7b13bd6eb7f5981139a323dd2215cd380d163f6c7b6ba621b7200faead",
+    "sourceLocation": "Manufacturer model specification table / variant specification rows",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "อ้างอิง Casino Natural รหัส EOCANANH1 ฟิงเกอร์บอร์ด Laurel ไม่ปะปนกับ Casino USA หรือรุ่นย่อยอื่น",
+    "fields": {
+      "specs.body": {
+        "value": "Layered maple; hollowbody",
+        "review": "checked",
+        "observed": "Body Material: Layered Maple; Body Style: Archtop"
+      },
+      "specs.neck": {
+        "value": "Mahogany; SlimTaper 60s C",
+        "review": "checked",
+        "observed": "Neck Material: Mahogany; Profile: SlimTaper 60s C"
+      },
+      "specs.fretboard": {
+        "value": "Laurel",
+        "review": "checked",
+        "observed": "Fingerboard Material: Laurel"
+      },
+      "specs.pickups": {
+        "value": "2 × Epiphone P-90 PRO",
+        "review": "checked",
+        "observed": "Neck: Epiphone P-90 PRO; Bridge: Epiphone PRO P-90"
+      },
+      "specs.bridge": {
+        "value": "LockTone Tune-O-Matic",
+        "review": "checked",
+        "observed": "Bridge: LockTone Tune-O-Matic"
+      },
+      "specs.controls": {
+        "value": "2 volume, 2 tone, 3-way toggle",
+        "review": "checked",
+        "observed": "Controls: 2 Volume, 2 Tone; Pickup Selector: 3-way toggle"
+      },
+      "specs.scale": {
+        "value": 24.75,
+        "review": "checked",
+        "observed": "Scale Length: 628.65 mm / 24.75 in"
+      },
+      "specs.frets": {
+        "value": 22,
+        "review": "checked",
+        "observed": "Fingerboard Fret Count: 22"
+      },
+      "specs.strings": {
+        "value": 6,
+        "review": "checked",
+        "observed": "String Gauges: .010, .013, .017, .026, .036, .046 (six explicitly listed gauges)"
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.scaleMm": {
+        "value": 628.65,
+        "review": "checked",
+        "observed": "Scale Length: 628.65 mm / 24.75 in"
+      }
+    }
+  },
+  {
+    "id": "epiphone-les-paul-standard-50s",
+    "brand": "Epiphone",
+    "name": "Les Paul Standard 50s",
+    "category": "electric",
+    "manufacturerModel": "Les Paul Standard 50s, Bourbon Burst — Laurel",
+    "modelIdentifier": "EIGLP5BONH1",
+    "sourceUrl": "https://www.gibson.com/products/epiphone-les-paul-standard-50s-bourbon-burst",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "1a6a5ba9fd4ff215e945cabb6f33aaddd4ea43c299bd574a59a63c77ca998388",
+    "sourceLocation": "Manufacturer model specification table / variant specification rows",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "หน้า EIGLP5BONH1 ระบุว่าไม่จำหน่ายแล้วและเก็บไว้เพื่ออ้างอิง เป็นรุ่น Laurel ไม่แทนด้วยรุ่นใหม่ Rosewood; ตาราง Body Material ระบุ Okoume หรือ Sapelli แม้คำบรรยายใช้คำรวม Mahogany",
+    "fields": {
+      "specs.body": {
+        "value": "Okoume (Gaboon mahogany) or Sapelli; maple cap with AAA flame maple veneer",
+        "review": "checked",
+        "observed": "Body Material: Okoume (Gaboon Mahogany) or Sapelli (Sapelli Mahogany); Top: Maple Cap with AAA Flame Maple Veneer"
+      },
+      "specs.neck": {
+        "value": "Mahogany; 1959 Rounded Medium C",
+        "review": "checked",
+        "observed": "Neck Material: Mahogany; Profile: 1959 Rounded Medium C"
+      },
+      "specs.fretboard": {
+        "value": "Laurel",
+        "review": "checked",
+        "observed": "Fingerboard Material: Laurel"
+      },
+      "specs.pickups": {
+        "value": "ProBucker 1 (neck), ProBucker 2 (bridge)",
+        "review": "checked",
+        "observed": "Neck: ProBucker 1; Bridge: ProBucker 2"
+      },
+      "specs.bridge": {
+        "value": "Epiphone LockTone Tune-O-Matic",
+        "review": "checked",
+        "observed": "Bridge: Epiphone LockTone Tune-O-Matic"
+      },
+      "specs.controls": {
+        "value": "2 volume, 2 tone; CTS pots, 50s wiring, 3-way toggle",
+        "review": "checked",
+        "observed": "Controls: 2 Volume, 2 Tone, CTS potentiometers, 50s wiring; Pickup Selector: 3-way toggle"
+      },
+      "specs.scale": {
+        "value": 24.75,
+        "review": "checked",
+        "observed": "Scale Length: 628.65 mm / 24.75 in"
+      },
+      "specs.frets": {
+        "value": 22,
+        "review": "checked",
+        "observed": "Fingerboard Fret Count: 22"
+      },
+      "specs.strings": {
+        "value": 6,
+        "review": "checked",
+        "observed": "String Gauges: .010, .013, .017, .026, .036, .046 (six explicitly listed gauges)"
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.scaleMm": {
+        "value": 628.65,
+        "review": "checked",
+        "observed": "Scale Length: 628.65 mm / 24.75 in"
+      }
+    }
+  },
+  {
+    "id": "ibanez-rg550-genesis",
+    "brand": "Ibanez",
+    "name": "RG550 Genesis",
+    "category": "electric",
+    "manufacturerModel": "RG550 — Genesis Collection",
+    "modelIdentifier": null,
+    "sourceUrl": "https://www.ibanez.com/usa/products/detail/rg550_00_04.html",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "b5a9538766344c41597b37aca00e92804e06f4c3110db936ecf0528c8b1fd059",
+    "sourceLocation": "Manufacturer model specification table / variant specification rows",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "อ้างอิง RG550 Genesis ในเว็บไซต์ Ibanez ปัจจุบัน ไม่ใช้ภาพ RG550 ปีเก่าก่อน Genesis; ปุ่มควบคุมคงหลักฐานรอบเดิมเพราะรอบนี้อ่านตารางและการตั้งสาย ไม่ถอดความแผนผังรูป",
+    "fields": {
+      "specs.body": {
+        "value": "Basswood",
+        "review": "checked",
+        "observed": "top/back/body: Basswood body"
+      },
+      "specs.neck": {
+        "value": "Super Wizard; 5-piece maple/walnut",
+        "review": "checked",
+        "observed": "neck type: Super Wizard 5pc Maple/Walnut neck"
+      },
+      "specs.fretboard": {
+        "value": "Maple",
+        "review": "checked",
+        "observed": "fretboard: Maple fretboard / Black dot inlay"
+      },
+      "specs.pickups": {
+        "value": "V7 (neck H), S1 (middle S), V8 (bridge H)",
+        "review": "checked",
+        "observed": "neck pickup: V7 (H); middle: S1 (S); bridge: V8 (H)"
+      },
+      "specs.bridge": {
+        "value": "Edge locking tremolo",
+        "review": "checked",
+        "observed": "bridge: Edge tremolo bridge"
+      },
+      "specs.controls": {
+        "value": "Volume, tone, 5-way selector",
+        "review": "retained",
+        "sourceUrl": "https://www.ibanez.com/usa/products/detail/rg550_00_04.html",
+        "verifiedOn": "2026-10-20",
+        "note": "Prior scoped source retained; not claimed freshly checked in this batch."
+      },
+      "specs.scale": {
+        "value": 25.5,
+        "review": "checked",
+        "observed": "Scale: 648 mm / 25.5 inch"
+      },
+      "specs.frets": {
+        "value": 24,
+        "review": "checked",
+        "observed": "number of frets: 24"
+      },
+      "specs.strings": {
+        "value": 6,
+        "review": "checked",
+        "observed": "factory tuning: 1E, 2B, 3G, 4D, 5A, 6E"
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.scaleMm": {
+        "value": 648,
+        "review": "checked",
+        "observed": "Scale: 648 mm / 25.5 inch"
+      }
+    }
+  },
+  {
+    "id": "ibanez-sr300e",
+    "brand": "Ibanez",
+    "name": "SR300E Bass",
+    "category": "bass",
+    "manufacturerModel": "SR300E (Asia product page)",
+    "modelIdentifier": null,
+    "sourceUrl": "https://www.ibanez.com/asia/products/detail/sr300e_1p_05.html",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "c5a004a61eee4c46e9fea0437cfa0f542f769733ad48cabade69fc92eb53c053",
+    "sourceLocation": "Manufacturer model specification table / variant specification rows",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "อ้างอิง SR300E รุ่น Okoume/Jatoba/PowerSpan จากหน้า Asia ของ Ibanez; จำนวนสายคำนวณจากการตั้งสายที่ระบุหมายเลข 1–4",
+    "fields": {
+      "specs.body": {
+        "value": "Okoume",
+        "review": "checked",
+        "observed": "top/back/body: Okoume body"
+      },
+      "specs.neck": {
+        "value": "SR4; 5-piece maple/walnut",
+        "review": "checked",
+        "observed": "neck type: SR4 5pc Maple/Walnut neck"
+      },
+      "specs.fretboard": {
+        "value": "Jatoba",
+        "review": "checked",
+        "observed": "fretboard: Jatoba"
+      },
+      "specs.pickups": {
+        "value": "2 × PowerSpan Dual Coil",
+        "review": "checked",
+        "observed": "neck/bridge pickup: PowerSpan Dual Coil (Passive)"
+      },
+      "specs.bridge": {
+        "value": "Accu-cast B120",
+        "review": "checked",
+        "observed": "bridge: Accu-cast B120 bridge (19 mm string spacing)"
+      },
+      "specs.controls": {
+        "value": "Volume, pickup balance, 3-band EQ, 3-way Power Tap",
+        "review": "checked",
+        "observed": "equaliser: Ibanez Custom Electronics 3-band EQ with 3-way Power Tap switch; controls: volume, balancer"
+      },
+      "specs.scale": {
+        "value": 34,
+        "review": "checked",
+        "observed": "Scale: 864 mm / 34 inch"
+      },
+      "specs.frets": {
+        "value": 24,
+        "review": "checked",
+        "observed": "number of frets: 24"
+      },
+      "specs.strings": {
+        "value": 4,
+        "review": "checked",
+        "observed": "factory tuning: 1G, 2D, 3A, 4E"
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.scaleMm": {
+        "value": 864,
+        "review": "checked",
+        "observed": "Scale: 864 mm / 34 inch"
+      }
+    }
+  },
+  {
+    "id": "taylor-214ce",
+    "brand": "Taylor",
+    "name": "214ce Grand Auditorium",
+    "category": "acoustic",
+    "manufacturerModel": "214ce — current C-Class model",
+    "modelIdentifier": null,
+    "sourceUrl": "https://www.taylorguitars.com/guitars/acoustic/214ce",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "c4d750f043f26c0806d08aff72ece2c9ee8e4a94a381d93fe3a4ccf3f9db43bb",
+    "sourceLocation": "Manufacturer model specification table / variant specification rows",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "อ้างอิง 214ce Torrefied Spruce/Layered Walnut ตามหน้าปัจจุบัน ไม่ใช้สเปก Rosewood รุ่นเก่า; จำนวนเฟรตและปุ่มควบคุมยังไม่พบในตารางที่อ่าน",
+    "fields": {
+      "specs.body": {
+        "value": "Torrefied spruce top; layered walnut back and sides; Grand Auditorium",
+        "review": "checked",
+        "observed": "Top Wood: Torrefied Spruce; Back/Side Wood: Layered Walnut; Body Shape: Grand Auditorium"
+      },
+      "specs.neck": {
+        "value": "Neo-tropical mahogany",
+        "review": "checked",
+        "observed": "Neck Wood: Neo-Tropical Mahogany"
+      },
+      "specs.fretboard": {
+        "value": "West African Crelicam ebony",
+        "review": "checked",
+        "observed": "Fretboard Wood: West African Crelicam Ebony"
+      },
+      "specs.pickups": {
+        "value": "Expression System 2",
+        "review": "checked",
+        "observed": "Electronics: Expression System 2"
+      },
+      "specs.bridge": {
+        "value": "West African Crelicam ebony",
+        "review": "checked",
+        "observed": "Bridge: West African Crelicam Ebony"
+      },
+      "specs.controls": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.scale": {
+        "value": 25.5,
+        "review": "checked",
+        "observed": "Scale Length: 25-1/2 inch"
+      },
+      "specs.frets": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.strings": {
+        "value": 6,
+        "review": "checked",
+        "observed": "Number of Strings: 6"
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      }
+    }
+  },
+  {
+    "id": "taylor-gs-mini",
+    "brand": "Taylor",
+    "name": "GS Mini Mahogany",
+    "category": "acoustic",
+    "manufacturerModel": "GS Mini Mahogany (no electronics)",
+    "modelIdentifier": null,
+    "sourceUrl": "https://www.taylorguitars.com/guitars/acoustic/gs-mini-mahogany",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "40d43e8a6586667b382fa0bc2a7ce28983e3b77b39812428eaa9d7775631a746",
+    "sourceLocation": "Manufacturer model specification table / variant specification rows",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "อ้างอิง GS Mini Mahogany เท่านั้น ไม่ปะปน GS Mini Spruce หรือรุ่น -e; ไม่ใช้รีวิวหรือคำถามจากผู้ใช้เป็นสเปก จำนวนเฟรต/สายและปุ่มควบคุมยังไม่ยืนยัน",
+    "fields": {
+      "specs.body": {
+        "value": "Solid mahogany top; layered sapele back and sides",
+        "review": "checked",
+        "observed": "Top Wood: Mahogany; Back/Side Wood: Layered Sapele"
+      },
+      "specs.neck": {
+        "value": "Mahogany",
+        "review": "checked",
+        "observed": "Neck Wood: Mahogany"
+      },
+      "specs.fretboard": {
+        "value": "West African Crelicam ebony",
+        "review": "checked",
+        "observed": "Fretboard Wood: West African Crelicam Ebony"
+      },
+      "specs.pickups": {
+        "value": "No electronics",
+        "review": "checked",
+        "observed": "Electronics: No Electronics"
+      },
+      "specs.bridge": {
+        "value": "West African Crelicam ebony",
+        "review": "checked",
+        "observed": "Bridge: West African Crelicam Ebony"
+      },
+      "specs.controls": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.scale": {
+        "value": 23.5,
+        "review": "checked",
+        "observed": "Scale Length: 23-1/2 inch"
+      },
+      "specs.frets": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.strings": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      }
+    }
+  },
+  {
+    "id": "martin-d-18",
+    "brand": "Martin",
+    "name": "D-18 Dreadnought",
+    "category": "acoustic",
+    "manufacturerModel": "D-18 Standard — current GE specifications",
+    "modelIdentifier": null,
+    "sourceUrl": "https://www.martinguitar.com/guitars/standard-series/D-18.html",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "7ee63ba0fa17b6edcd3b7733a35f54705ac4c12f0a2a0cc631a2765c85a3daab",
+    "sourceLocation": "Manufacturer model specification table / variant specification rows",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "อ้างอิงสเปก Golden Era ของหน้าปัจจุบัน ระบุ Spruce ตามผู้ผลิตโดยไม่เดาชนิดย่อย; จำนวนเฟรตรวม 20 ไม่ใช่ตำแหน่งต่อคอ 14; ไม่อนุมานจำนวนสายจากภาพ",
+    "fields": {
+      "specs.body": {
+        "value": "Spruce top; Mahogany back and sides",
+        "review": "checked",
+        "observed": "Top Material: Spruce; Back Material: Mahogany; Side Material: Mahogany; Body Size: D-14 Fret"
+      },
+      "specs.neck": {
+        "value": "Select hardwood; GE Modified Low Oval; High Performance Taper",
+        "review": "checked",
+        "observed": "Neck Material: Select Hardwood; Neck Shape: GE Modified Low Oval; Neck Taper: High Performance Taper"
+      },
+      "specs.fretboard": {
+        "value": "Ebony",
+        "review": "checked",
+        "observed": "Fingerboard Material: Ebony"
+      },
+      "specs.pickups": {
+        "value": "No electronics",
+        "review": "checked",
+        "observed": "Electronics: None"
+      },
+      "specs.bridge": {
+        "value": "Ebony; Golden Era Modern Belly; drop-in saddle",
+        "review": "checked",
+        "observed": "Bridge Material: Ebony; Bridge Style: Golden Era Modern Belly - Drop in Saddle"
+      },
+      "specs.controls": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.scale": {
+        "value": 25.4,
+        "review": "checked",
+        "observed": "Scale Length: 25.4 inch"
+      },
+      "specs.frets": {
+        "value": 20,
+        "review": "checked",
+        "observed": "Number of Frets Total: 20 (not the D-14 body designation)"
+      },
+      "specs.strings": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      }
+    }
+  },
+  {
+    "id": "martin-d-28",
+    "brand": "Martin",
+    "name": "D-28",
+    "category": "acoustic",
+    "manufacturerModel": "D-28",
+    "modelIdentifier": null,
+    "sourceUrl": "https://www.martinguitar.com/guitars/standard-series/D-28.html",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "323df011b36db6a8cbea15e312b590180c3ee67feacda07944175db828cca0d6",
+    "sourceLocation": "Manufacturer model specification table / variant specification rows",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "อ้างอิงสเปก Golden Era ของหน้าปัจจุบัน ระบุ Spruce ตามผู้ผลิตโดยไม่เดาชนิดย่อย; จำนวนเฟรตรวม 20 ไม่ใช่ตำแหน่งต่อคอ 14; ไม่อนุมานจำนวนสายจากภาพ; ภาพเจ้าของ D-28 ปี 2018 แสดงรุ่น D-28 แต่ไม่ใช่ภาพรุ่นสเปก GE ปัจจุบันและไม่ใช้ยืนยันสเปก",
+    "fields": {
+      "specs.body": {
+        "value": "Spruce top; East Indian Rosewood back and sides",
+        "review": "checked",
+        "observed": "Top Material: Spruce; Back Material: East Indian Rosewood; Side Material: East Indian Rosewood; Body Size: D-14 Fret"
+      },
+      "specs.neck": {
+        "value": "Select hardwood; GE Modified Low Oval; High Performance Taper",
+        "review": "checked",
+        "observed": "Neck Material: Select Hardwood; Neck Shape: GE Modified Low Oval; Neck Taper: High Performance Taper"
+      },
+      "specs.fretboard": {
+        "value": "Ebony",
+        "review": "checked",
+        "observed": "Fingerboard Material: Ebony"
+      },
+      "specs.pickups": {
+        "value": "No electronics",
+        "review": "checked",
+        "observed": "Electronics: None"
+      },
+      "specs.bridge": {
+        "value": "Ebony; Golden Era Modern Belly; drop-in saddle",
+        "review": "checked",
+        "observed": "Bridge Material: Ebony; Bridge Style: Golden Era Modern Belly - Drop in Saddle"
+      },
+      "specs.controls": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.scale": {
+        "value": 25.4,
+        "review": "checked",
+        "observed": "Scale Length: 25.4 inch"
+      },
+      "specs.scaleMm": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.frets": {
+        "value": 20,
+        "review": "checked",
+        "observed": "Number of Frets Total: 20 (not the D-14 body designation)"
+      },
+      "specs.strings": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      }
+    }
+  },
+  {
+    "id": "prs-se-custom-24",
+    "brand": "PRS",
+    "name": "SE Custom 24",
+    "category": "electric",
+    "manufacturerModel": "SE Custom 24 — 2025 catalog",
+    "modelIdentifier": null,
+    "sourceUrl": "https://support.prsguitars.com/hc/en-us/article_attachments/34374903847067#page=4",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "ff8e30f42b158affe7da6de3034f30a240505572f7753aac45bd3668e12efbea",
+    "sourceLocation": "PRS 2025 PDF page 4",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "หน้าเว็บรุ่น SE Custom 24 ตอบ HTTP 403 จึงใช้เอกสารผู้ผลิต PRS ปี 2025 หน้า 4 หัวข้อ SE Custom 24 โดยตรง ไม่ปะปน Floyd/24-08/Quilt; เอกสารไม่ยืนยันคำว่า Multi-ply จึงเหลือ Maple; จำนวนสายคงหลักฐานรอบเดิม",
+    "fields": {
+      "specs.body": {
+        "value": "Mahogany back; maple top with flame maple veneer",
+        "review": "checked",
+        "observed": "Maple top with Flame Maple veneer; Mahogany back"
+      },
+      "specs.neck": {
+        "value": "Maple; Wide Thin profile",
+        "review": "checked",
+        "observed": "Maple neck, Wide Thin neck shape"
+      },
+      "specs.fretboard": {
+        "value": "Rosewood",
+        "review": "checked",
+        "observed": "Rosewood fretboard"
+      },
+      "specs.pickups": {
+        "value": "2 × PRS 85/15 S humbuckers",
+        "review": "checked",
+        "observed": "85/15 S treble and bass pickups"
+      },
+      "specs.bridge": {
+        "value": "PRS Patented Tremolo",
+        "review": "checked",
+        "observed": "PRS patented tremolo"
+      },
+      "specs.controls": {
+        "value": "Volume, push/pull tone, 3-way blade selector",
+        "review": "checked",
+        "observed": "Volume and Push/Pull Tone Control with 3-Way Blade Pickup Switch"
+      },
+      "specs.scale": {
+        "value": 25,
+        "review": "checked",
+        "observed": "25 inch scale length"
+      },
+      "specs.frets": {
+        "value": 24,
+        "review": "checked",
+        "observed": "24 frets"
+      },
+      "specs.strings": {
+        "value": 6,
+        "review": "retained",
+        "sourceUrl": "https://prsguitars.com/electrics/model/se_custom_24",
+        "verifiedOn": "2026-10-20",
+        "note": "Prior scoped source retained; not claimed freshly checked in this batch."
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      }
+    }
+  },
+  {
+    "id": "prs-se-mccarty-594-singlecut",
+    "brand": "PRS",
+    "name": "SE McCarty 594 Singlecut",
+    "category": "electric",
+    "manufacturerModel": "SE MCCARTY 594 SINGLECUT — 2025 catalog",
+    "modelIdentifier": null,
+    "sourceUrl": "https://support.prsguitars.com/hc/en-us/article_attachments/34374903847067#page=3",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "ff8e30f42b158affe7da6de3034f30a240505572f7753aac45bd3668e12efbea",
+    "sourceLocation": "PRS 2025 PDF page 3",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "เอกสารผู้ผลิต PRS ปี 2025 หน้า 3 หัวข้อ SE McCarty 594 Singlecut; เป็นสเปกฉบับ 2025 ไม่อ้างว่าเป็นฉบับปี 2026; จำนวนสาย/น้ำหนักและราคาเงินบาทยังไม่ทราบ",
+    "fields": {
+      "specs.body": {
+        "value": "Maple top with flame maple veneer; mahogany back",
+        "review": "checked",
+        "observed": "Maple top with Flame Maple veneer; Mahogany back"
+      },
+      "specs.neck": {
+        "value": "Mahogany; Pattern Vintage profile",
+        "review": "checked",
+        "observed": "Mahogany neck, Pattern Vintage neck shape"
+      },
+      "specs.fretboard": {
+        "value": "Rosewood",
+        "review": "checked",
+        "observed": "Rosewood fretboard"
+      },
+      "specs.pickups": {
+        "value": "58/15 LT S neck and bridge",
+        "review": "checked",
+        "observed": "58/15 LT S treble and bass pickups"
+      },
+      "specs.bridge": {
+        "value": "PRS two-piece bridge",
+        "review": "checked",
+        "observed": "PRS two-piece bridge"
+      },
+      "specs.controls": {
+        "value": "2 volume, 2 push/pull tone controls, 3-way toggle on upper bout",
+        "review": "checked",
+        "observed": "Volume and Push/Pull Tone Controls for Each Pickup with 3-Way Toggle Pickup Switch on Upper Bout"
+      },
+      "specs.scale": {
+        "value": 24.594,
+        "review": "checked",
+        "observed": "24.594 inch scale length"
+      },
+      "specs.scaleMm": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.frets": {
+        "value": 22,
+        "review": "checked",
+        "observed": "22 frets"
+      },
+      "specs.strings": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      }
+    }
+  },
+  {
+    "id": "cordoba-c5",
+    "brand": "Córdoba",
+    "name": "C5 Classical",
+    "category": "classical",
+    "manufacturerModel": "C5 — Cedar",
+    "modelIdentifier": null,
+    "sourceUrl": "https://cordobaguitars.com/iberia/c5",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "93c83cf075c27a6054aef1c727d72c11b35a3139eb9f84aff02e7cf2b26152d6",
+    "sourceLocation": "Manufacturer model specification table / variant specification rows",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "อ้างอิงตาราง Córdoba โดยตรง แยก C5/Mahogany กับ C7 CD/Rosewood; เฟรตรวม 19 ไม่ใช่ Frets to Body 12; N/A ของ Electronics/Controls เป็นข้อมูลที่ผู้ผลิตระบุ ไม่ใช่การเดาจากช่องว่าง",
+    "fields": {
+      "specs.body": {
+        "value": "Solid western red cedar top; mahogany back and sides",
+        "review": "checked",
+        "observed": "Body Top: Solid Western Red Cedar; Back and Sides Wood: Mahogany; Style: Classical"
+      },
+      "specs.neck": {
+        "value": "Mahogany",
+        "review": "checked",
+        "observed": "Neck Material: Mahogany"
+      },
+      "specs.fretboard": {
+        "value": "Rosewood",
+        "review": "checked",
+        "observed": "Fingerboard Material: Rosewood"
+      },
+      "specs.pickups": {
+        "value": "None (manufacturer N/A)",
+        "review": "checked",
+        "observed": "Electronics: N/A; Pickup Type: N/A"
+      },
+      "specs.bridge": {
+        "value": "Rosewood",
+        "review": "checked",
+        "observed": "Bridge Material: Rosewood"
+      },
+      "specs.controls": {
+        "value": "None (manufacturer N/A)",
+        "review": "checked",
+        "observed": "Controls: N/A"
+      },
+      "specs.scale": {
+        "value": 25.6,
+        "review": "checked",
+        "observed": "Scale Length: 650 mm (25.6 inch)"
+      },
+      "specs.frets": {
+        "value": 19,
+        "review": "checked",
+        "observed": "Frets Total: 19 (Frets to Body: 12)"
+      },
+      "specs.strings": {
+        "value": 6,
+        "review": "checked",
+        "observed": "Number of Strings: 6"
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      },
+      "specs.scaleMm": {
+        "value": 650,
+        "review": "checked",
+        "observed": "Scale Length: 650 mm (25.6 inch)"
+      }
+    }
+  },
+  {
+    "id": "cordoba-c7-cd",
+    "brand": "Córdoba",
+    "name": "C7 CD",
+    "category": "classical",
+    "manufacturerModel": "C7 CD",
+    "modelIdentifier": null,
+    "sourceUrl": "https://cordobaguitars.com/iberia/c7-cd",
+    "verifiedOn": "2026-10-20",
+    "retrievedSha256": "dd392d3e88363c27e6f3db7d9015f2e578e8bccafd8f34674d6595ea3d2dd88d",
+    "sourceLocation": "Manufacturer model specification table / variant specification rows",
+    "identityEvidence": "Manufacturer title/model heading and product family/type navigation; display names and original IDs retained.",
+    "status": "partial",
+    "editionNote": "อ้างอิงตาราง Córdoba โดยตรง แยก C5/Mahogany กับ C7 CD/Rosewood; เฟรตรวม 19 ไม่ใช่ Frets to Body 12; N/A ของ Electronics/Controls เป็นข้อมูลที่ผู้ผลิตระบุ ไม่ใช่การเดาจากช่องว่าง",
+    "fields": {
+      "specs.body": {
+        "value": "Solid western red cedar top; rosewood back and sides",
+        "review": "checked",
+        "observed": "Body Top: Solid Western Red Cedar; Back and Sides Wood: Rosewood; Style: Classical"
+      },
+      "specs.neck": {
+        "value": "Mahogany",
+        "review": "checked",
+        "observed": "Neck Material: Mahogany"
+      },
+      "specs.fretboard": {
+        "value": "Rosewood",
+        "review": "checked",
+        "observed": "Fingerboard Material: Rosewood"
+      },
+      "specs.pickups": {
+        "value": "None (manufacturer N/A)",
+        "review": "checked",
+        "observed": "Electronics: N/A; Pickup Type: N/A"
+      },
+      "specs.bridge": {
+        "value": "Rosewood",
+        "review": "checked",
+        "observed": "Bridge Material: Rosewood"
+      },
+      "specs.controls": {
+        "value": "None (manufacturer N/A)",
+        "review": "checked",
+        "observed": "Controls: N/A"
+      },
+      "specs.scale": {
+        "value": 25.6,
+        "review": "checked",
+        "observed": "Scale Length: 650 mm (25.6 inch)"
+      },
+      "specs.scaleMm": {
+        "value": 650,
+        "review": "checked",
+        "observed": "Scale Length: 650 mm (25.6 inch)"
+      },
+      "specs.frets": {
+        "value": 19,
+        "review": "checked",
+        "observed": "Frets Total: 19 (Frets to Body: 12)"
+      },
+      "specs.strings": {
+        "value": 6,
+        "review": "checked",
+        "observed": "Number of Strings: 6"
+      },
+      "specs.weightKg": {
+        "value": null,
+        "review": "unknown"
+      }
+    }
+  }
+]

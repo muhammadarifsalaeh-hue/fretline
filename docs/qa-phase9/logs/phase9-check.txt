@@ -1,0 +1,31 @@
+
+> fretline@0.1.0 phase9:check
+> node scripts/check-phase9.mjs
+
+PASS the audit snapshot equals the effective Phase 8 Git baseline
+PASS the first batch is exactly two existing models per approved brand
+PASS all 200 identities and the other 180 complete records are unchanged
+PASS exactly 200 models, ten brands, twenty per brand, with no duplicate IDs or models
+PASS all records pass the unchanged catalog criteria
+PASS each selected model has freshly retrieved successful manufacturer evidence, date and hash
+PASS checked facts and retained facts are distinguished; no unknown field is silently filled
+PASS no selected record is called fully verified without price, weight and complete evidence
+PASS known omissions and edition limitations are preserved instead of guessed
+PASS newly filled specifications have explicit manufacturer evidence and correct unit semantics
+PASS one authorized new model photo leaves 198 placeholders; the existing photo is retained
+WebSocket server error:
+Error: listen EPERM: operation not permitted 0.0.0.0:24678
+    at Server.setupListenHandle [as _listen2] (node:net:2145:21)
+    at listenInCluster (node:net:2224:12)
+    at Server.listen (node:net:2344:7)
+    at Object.listen (file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:59516:21)
+    at file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64101:45
+    at Array.forEach (<anonymous>)
+    at Object.listen (file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64101:16)
+    at _createServer (file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:63423:11)
+    at async file:///workspace/fretline/scripts/check-phase9.mjs:126:16
+PASS browser and CLI agree on all scoped facts and all 200 models remain searchable
+PASS the new licensed photo has one real gallery view and responsive sources
+PASS quiz weights and unknown-price/rating treatment survive the data review
+
+14/14 checks passed

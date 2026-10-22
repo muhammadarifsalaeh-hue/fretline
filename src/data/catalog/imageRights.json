@@ -35,5 +35,43 @@
       "label": "Front view — owner photograph",
       "alt": "Yamaha FG820-12 with twelve tuning machines and six strings fitted, photographed by Peternick2468"
     }
+  ],
+  "martin-d-28": [
+    {
+      "file": "01-front.webp",
+      "width": 1200,
+      "height": 1594,
+      "sha256": "4292f985d53aac48eeef7511d131299c62a619bbdac4812073d1a71e5689a412",
+      "bytes": 131458,
+      "variants": [
+        {
+          "file": "responsive/01-front-480.webp",
+          "width": 480,
+          "height": 638,
+          "sha256": "b6f469ff2d395a5a79a307e12672c5f11c6f12ee38f9ef494f730e6415a33f09",
+          "bytes": 20114
+        },
+        {
+          "file": "responsive/01-front-960.webp",
+          "width": 960,
+          "height": 1275,
+          "sha256": "afed4acf5db4f2c58ce4a14deae22dc5bbd013857f8130ea72f6eac1cb293c6e",
+          "bytes": 83140
+        }
+      ],
+      "guitarId": "martin-d-28",
+      "author": "IchiroNakagawa",
+      "license": "CC-BY-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Martin_D-28.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Martin_D-28.jpg",
+      "originalSha256": "984c32f442116db6acd93b9289d53bd448d7d6928892522b053ad0d58f61094f",
+      "checkedOn": "2026-10-20",
+      "changes": "EXIF orientation applied; metadata including GPS removed; resized without cropping and encoded as WebP. No retouch, background removal, or AI alteration. Derivatives distributed under CC BY-SA 4.0.",
+      "modelMatchNote": "Author identifies Martin D-28 in the file caption. The photograph was taken on 2018-12-11; instrument production year is unknown. It illustrates the D-28 model, not the current Golden Era specification edition. No specifications are inferred from this photograph.",
+      "caption": "ภาพ Martin D-28 ของผู้ใช้ ถ่ายปี 2018 ไม่ทราบปีผลิต ภาพนี้ไม่ได้แสดงรุ่นสเปก Golden Era ปัจจุบัน",
+      "label": "Front view — owner photograph (2018)",
+      "alt": "Martin D-28 photographed by IchiroNakagawa in 2018; production year unknown"
+    }
   ]
 }

@@ -1,0 +1,33 @@
+
+> fretline@0.1.0 phase7:check
+> node scripts/check-phase7.mjs
+
+WebSocket server error:
+Error: listen EPERM: operation not permitted 0.0.0.0:24678
+    at Server.setupListenHandle [as _listen2] (node:net:2145:21)
+    at listenInCluster (node:net:2224:12)
+    at Server.listen (node:net:2344:7)
+    at Object.listen (file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:59516:21)
+    at file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64101:45
+    at Array.forEach (<anonymous>)
+    at Object.listen (file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64101:16)
+    at _createServer (file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:63423:11)
+    at async file:///workspace/fretline/scripts/check-phase7.mjs:8:16
+PASS exactly 200 active guitars in the CLI and browser data
+PASS exactly the ten approved brands with 20 models each
+PASS 166 new IDs and 34 retained originals, not colors or duplicate inserts
+PASS retained identities remain unchanged and only the documented Phase 9 batch may revise facts
+PASS both archive backups contain exact original published records and sources
+PASS archive records are resolvable but excluded from catalog and brand totals
+PASS all 36 old saved IDs survive migration without a silent archive deletion
+PASS shared archived comparison links retain order, deduplicate and cap four
+PASS all 166 models have successful manufacturer retrieval and scoped factual evidence
+PASS PRS 2025 facts are explicitly dated and scoped to actual catalog pages
+PASS Ibanez string counts match every explicitly numbered tuning, including comma spacing
+PASS all public facts remain partial; no manufactured prices, ratings or weights
+PASS two licensed model photos leave 198 honest placeholders after the Phase 9 review
+PASS search and brand/type filters see all 200 active records without the archive
+PASS old quiz weights and shareable answers survive; archive is never recommended
+PASS Thai and English archival labels have matching interpolation fields
+
+16/16 checks passed

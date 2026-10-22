@@ -40,7 +40,7 @@ Run `npm run catalog:check` to validate the effective catalog, including the rev
 
 For photos, a file alone is insufficient. First check its exact model/variant and reuse rights, then add `src/data/catalog/imageRights.json` metadata: guitar ID, author, source URL, license and license URL, check date, model-match note, changes, dimensions and SHA-256. Add primary files directly in the model folder and responsive sizes in its `responsive/` subfolder. Responsive versions are not separate gallery angles. All delivered derivatives must retain the applicable license and credit chain. Unregistered files are not published; `npm run images:check` reports them.
 
-The only current accepted image is a CC BY-SA 4.0 owner photograph of Yamaha FG820-12; it shows six strings fitted to a twelve-string model, as noted by its author. Other models retain the existing placeholders.
+The accepted images are CC BY-SA 4.0 owner photographs of Yamaha FG820-12 and Martin D-28. The Yamaha photo shows six strings fitted to a twelve-string model, as noted by its author. The D-28 photo dates from 2018, its production year is unknown, and it does not illustrate the current Golden Era specification edition. Keep those caveats visible and do not infer specifications from either photograph. Other models retain the existing placeholders.
 
 ## Phase 7: exact quotas and archived records
 
@@ -54,3 +54,9 @@ The only current accepted image is a CC BY-SA 4.0 owner photograph of Yamaha FG8
 - Do not create quiz experience/style profiles just to boost new models' scores. Missing profiles remain explicitly unknown under the original scoring rules.
 
 See [the 200-model source register](PHASE_7_CATALOG.md) and [Phase 7 report](PHASE_7_REPORT.md).
+
+## Phase 9: field-level rechecks without changing identities
+
+The first batch reviews only 20 existing models, two per brand. Use reviewed overrides even for Phase 7 additions; do not edit the historical import or replace IDs. Record successful retrieval metadata, model/edition limitations, `source.recheckedFields` and any `source.retainedFields`. Detailed evidence in `docs/qa-phase9/field-evidence.json` distinguishes freshly checked, retained and unknown fields. A retained field is not a fresh verification claim.
+
+Run `npm run phase9:check` in addition to the existing checks. The check reconstructs the Phase 8 catalog from Git and protects all 180 models outside the approved batch. Its explicit boundary must be reviewed for any separately authorized future batch. Keep the existing fully verified criteria; missing prices, weights or other required evidence mean a record stays partial. See the [batch report and source tables](qa-phase9/README.md).
