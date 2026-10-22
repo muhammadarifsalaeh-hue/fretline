@@ -4,6 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { hasImageRights } from '../../src/utils/imageRights.js';
+import { ADDITIONAL_SPECIFICATIONS } from '../../src/data/additionalSpecifications.js';
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 export const EXTRA_PATH = path.join(ROOT, 'src/data/catalog/extraGuitars.json');
@@ -67,6 +68,9 @@ export function validateGuitar(g) {
   if (!nonEmpty(g.description)) e.push('ไม่มี description');
 
   const s = g.specs ?? {};
+  for (const field of ADDITIONAL_SPECIFICATIONS) {
+    if (s[field.key] != null && !(field.type === 'number' ? positive(s[field.key]) : nonEmpty(s[field.key]))) e.push(`specs.${field.key} ไม่ถูกต้อง`);
+  }
   if (partial) {
     // partial: ช่องที่ไม่ทราบเว้นว่างได้ แต่ถ้าใส่ต้องถูกรูปแบบ และต้องมี body อย่างน้อย
     if (!nonEmpty(s.body)) e.push('specs.body ว่าง (partial ต้องมี body อย่างน้อย)');

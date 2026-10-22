@@ -1,0 +1,14 @@
+PASS /workspace/fretline/dist excludes all four original JPEGs and their endpoint
+PASS /tmp/fretline-pacifica-mode-build excludes all four original JPEGs and their endpoint
+PASS Production /guitars?q=612VIIFM keeps its placeholder and excludes the unverified color UI
+PASS Production /guitars/yamaha-pacifica-612viifm keeps its placeholder and excludes the unverified color UI
+PASS Production does not pretend to have a four-photo licensed gallery
+PASS Production cannot retrieve /.local-preview/yamaha-pacifica-612viifm/01-black.jpg
+PASS Production cannot retrieve /__fretline_development_preview__/yamaha-pacifica-612viifm/black/5c42dbdb9acf570228a1.jpg
+PASS Production cannot retrieve /.local-preview/yamaha-pacifica-612viifm/02-red.jpg
+PASS Production cannot retrieve /__fretline_development_preview__/yamaha-pacifica-612viifm/red/908dbf93d9d17bc62524.jpg
+PASS Production cannot retrieve /.local-preview/yamaha-pacifica-612viifm/03-blue-teal.jpg
+PASS Production cannot retrieve /__fretline_development_preview__/yamaha-pacifica-612viifm/blue-teal/769726a7e450f2944031.jpg
+PASS Production cannot retrieve /.local-preview/yamaha-pacifica-612viifm/04-all-colors.jpg
+PASS Production cannot retrieve /__fretline_development_preview__/yamaha-pacifica-612viifm/all-colors/1ec22d2536ba23d5b6c5.jpg
+PASS Production has no runtime or console errors

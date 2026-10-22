@@ -1,0 +1,7 @@
+PASS Homepage keeps one existing Pacifica card with the black image
+PASS Yamaha Brand Detail retains exactly twenty cards
+PASS Brand catalog retains one Pacifica ID and its black image
+PASS Quiz results still resolve the existing Pacifica model and black image
+PASS Mobile lightbox next button displays red and preserves contain sizing
+PASS Mobile lightbox returns to the same red selector state
+PASS Shared-page smoke checks have no console/runtime errors

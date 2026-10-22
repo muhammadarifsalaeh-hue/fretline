@@ -247,33 +247,45 @@
     "brand": "Yamaha",
     "category": "electric",
     "status": "partial",
-    "price": null,
+    "price": 34000,
     "oldPrice": null,
     "badge": null,
     "rating": null,
     "colors": [],
-    "description": "PAC612VIIFM ใช้ปิกอัพ Seymour Duncan แบบ HSS ฟิงเกอร์บอร์ด Rosewood และบริดจ์ Wilkinson VS50-6",
+    "description": "Yamaha Pacifica 612VIIFM ผสานบอดี้ Alder กับท็อป Flamed Maple Veneer คอ Maple และฟิงเกอร์บอร์ด Rosewood\n\nปิ๊กอัพ Seymour Duncan แบบ HSS พร้อม Push/Pull Coil Split และสวิตช์ 5 ตำแหน่ง เปิดทางให้ปรับโทนเสียงได้หลากหลาย\n\nครบด้วยบริดจ์ Wilkinson VS50-6 Vibrato และลูกบิด Grover Locking สำหรับผู้เล่นที่ต้องการความยืดหยุ่นในกีตาร์ตัวเดียว",
     "tags": [
       "HSS",
       "Seymour Duncan",
       "22 frets"
     ],
     "specs": {
-      "body": "Alder / flamed maple laminate",
+      "body": "Alder with Flamed Maple Veneer",
       "neck": "Maple",
       "fretboard": "Rosewood",
-      "pickups": "Seymour Duncan SSL-1 (neck), SSL-1 RwRp (middle), TB-14 (bridge)",
-      "bridge": "Wilkinson VS50-6",
-      "controls": "Master volume, push/pull tone coil split, 5-way selector",
+      "pickups": "Seymour Duncan SSL-1 (neck), SSL-1 RwRp (middle), Custom 5 TB-14 (bridge)",
+      "bridge": "Wilkinson VS50-6 Vibrato",
+      "controls": "Master Volume, Master Tone with Push/Pull Coil Split",
       "scale": 25.5,
       "frets": 22,
       "strings": null,
-      "weightKg": null
+      "weightKg": null,
+      "scaleMm": 648,
+      "series": "Pacifica",
+      "bodyShape": null,
+      "neckFinish": "Gloss Polyurethane",
+      "fingerboardRadiusMm": 350,
+      "nut": "Graph Tech TUSQ",
+      "pickupConfiguration": "HSS",
+      "bridgePickup": "Seymour Duncan Custom 5 TB-14 Humbucker",
+      "middlePickup": "Seymour Duncan SSL-1 RwRp",
+      "neckPickup": "Seymour Duncan SSL-1",
+      "pickupSelector": "5-Position Lever Switch",
+      "tuners": "Grover Locking Tuners"
     },
     "source": {
-      "url": "https://ph.yamaha.com/en/musical-instruments/guitars-basses-amps/products/electric-guitars/pacifica/specs.html",
-      "verifiedOn": "2026-10-20",
-      "note": "Yamaha — PAC612VIIFM",
+      "url": "https://th.yamaha.com/th/musical-instruments/guitars-basses-amps/products/electric-guitars/pacifica/specs.html",
+      "verifiedOn": "2026-10-22",
+      "note": "Yamaha ประเทศไทย — Pacifica specifications: PAC612VIIFM",
       "method": "http",
       "manufacturerModel": "PAC612VIIFM",
       "fields": [
@@ -282,6 +294,7 @@
         "category",
         "description",
         "tags",
+        "price",
         "specs.body",
         "specs.neck",
         "specs.fretboard",
@@ -289,11 +302,91 @@
         "specs.bridge",
         "specs.controls",
         "specs.scale",
-        "specs.frets"
+        "specs.frets",
+        "specs.scaleMm",
+        "specs.series",
+        "specs.neckFinish",
+        "specs.fingerboardRadiusMm",
+        "specs.nut",
+        "specs.pickupConfiguration",
+        "specs.bridgePickup",
+        "specs.middlePickup",
+        "specs.neckPickup",
+        "specs.pickupSelector",
+        "specs.tuners"
       ],
-      "editionNote": "อ้างอิงคอลัมน์ PAC612VIIFM เท่านั้น ไม่ใช้ PAC612VIIFMX/PAC612VII และคง ID Pacifica เดิม",
-      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
-      "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน"
+      "editionNote": "ตรวจเฉพาะคอลัมน์ PAC612VIIFM ไม่รวม PAC611, PAC612VIIFMX หรือ PAC612VII; คอเคลือบ Gloss Polyurethane; สีและรายละเอียดของภาพ AI ยังไม่ยืนยัน",
+      "recheckedFields": [
+        "brand",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "price",
+        "specs.body",
+        "specs.neck",
+        "specs.fretboard",
+        "specs.pickups",
+        "specs.bridge",
+        "specs.controls",
+        "specs.scale",
+        "specs.frets",
+        "specs.scaleMm",
+        "specs.series",
+        "specs.neckFinish",
+        "specs.fingerboardRadiusMm",
+        "specs.nut",
+        "specs.pickupConfiguration",
+        "specs.bridgePickup",
+        "specs.middlePickup",
+        "specs.neckPickup",
+        "specs.pickupSelector",
+        "specs.tuners"
+      ],
+      "retainedFields": [],
+      "evidence": {
+        "httpStatus": 200,
+        "sha256": "3db4c7a0225f221ceb6d7cce93e9ce5c2d55bd22057199f5929f3a56538ab622",
+        "accessedAt": "2026-10-22T18:25:05.769891+00:00"
+      },
+      "additionalSources": [
+        {
+          "url": "https://th.yamaha.com/th/musical-instruments/guitars-basses-amps/products/electric-guitars/pacifica/lineup.html",
+          "verifiedOn": "2026-10-22",
+          "note": "Yamaha ประเทศไทย — ราคาแนะนำ ฿34,000, HSS และ Flamed Maple Veneer",
+          "method": "http",
+          "evidence": {
+            "httpStatus": 200,
+            "sha256": "9c1b2b7e86c5a1c5596118cc0711f0768498a6df82fda7e2df54b3f70e00c756",
+            "accessedAt": "2026-10-22T18:25:05.767567+00:00"
+          }
+        },
+        {
+          "url": "https://usa.yamaha.com/products/musical_instruments/guitars_basses/el_guitars/pacifica/specs.html",
+          "verifiedOn": "2026-10-22",
+          "note": "Yamaha USA — เทียบสเปกคอลัมน์ PAC612VIIFM",
+          "method": "http",
+          "evidence": {
+            "httpStatus": 200,
+            "sha256": "ef3dc4177626936c845143059a4ae8a10fb3c46fe398dc57848dd668624e078a",
+            "accessedAt": "2026-10-22T18:25:05.770864+00:00"
+          }
+        }
+      ],
+      "priceNote": "ราคาขายปลีกที่ Yamaha ประเทศไทยแนะนำ ไม่ใช่การรับประกันราคาขายของร้านค้า ไม่รวมยอดผ่อนชำระ",
+      "reviewNote": "ไม่มีคะแนนรีวิวที่ผ่านการยืนยัน"
+    },
+    "priceSource": {
+      "kind": "manufacturer-recommended-retail",
+      "currency": "THB",
+      "url": "https://th.yamaha.com/th/musical-instruments/guitars-basses-amps/products/electric-guitars/pacifica/lineup.html",
+      "verifiedOn": "2026-10-22",
+      "note": "ราคาขายปลีกที่ Yamaha ประเทศไทยแนะนำ ไม่ใช่การรับประกันราคาขายของร้านค้า ไม่รวมยอดผ่อนชำระ",
+      "evidence": {
+        "httpStatus": 200,
+        "sha256": "9c1b2b7e86c5a1c5596118cc0711f0768498a6df82fda7e2df54b3f70e00c756",
+        "accessedAt": "2026-10-22T18:25:05.767567+00:00"
+      }
     }
   },
   "prs-se-custom-24": {

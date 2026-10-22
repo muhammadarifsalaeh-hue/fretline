@@ -1,4 +1,5 @@
-import { isSourceBacked, verifiedRating } from '@/utils/dataTrust';
+import { isSourceBacked, verifiedRating, hasManufacturerRrp } from '@/utils/dataTrust';
+import { ADDITIONAL_SPECIFICATIONS } from '@/data/additionalSpecifications';
 import { t } from '@/i18n';
 import { NOT_SPECIFIED, formatScale, scaleInMillimetres, formatKg, formatPrice } from '@/utils/format';
 
@@ -12,6 +13,10 @@ import { NOT_SPECIFIED, formatScale, scaleInMillimetres, formatKg, formatPrice }
  *  hideIfEmpty : ซ่อนทั้งแถวถ้าไม่มีข้อมูลเลย (เช่น ยังไม่มีรีวิว)
  */
 const known = (list) => list.filter((value) => typeof value === 'number' && Number.isFinite(value));
+const optionalRows = (group) => ADDITIONAL_SPECIFICATIONS.filter((field) => field.group === group).map((field) => ({
+  key: field.key, group: t(`group.${group}`), label: t(field.label), raw: (g) => g.specs[field.key] ?? null,
+  display: (g) => g.specs[field.key] == null ? NOT_SPECIFIED : `${g.specs[field.key]}${field.unit ?? ''}`, hideIfEmpty: true,
+}));
 
 export const COMPARE_ROWS = [
   { key: 'brand', group: t('group.overview'), label: t('p4.compare.brand'), raw: (g) => g.brand, identity: true },
@@ -22,7 +27,7 @@ export const COMPARE_ROWS = [
     group: t('group.overview'),
     label: t('row.price'),
     raw: (g) => g.price ?? null,
-    display: (g) => formatPrice(g.price),
+    display: (g) => `${formatPrice(g.price)}${hasManufacturerRrp(g) ? ` · ${t('pricing.rrpShort')}` : ''}`,
     best: 'min',
     note: (g, all) => {
       if (g.price == null) return null;
@@ -47,9 +52,11 @@ export const COMPARE_ROWS = [
   { key: 'scale', group: t('group.construction'), label: t('row.scale'), raw: (g) => scaleInMillimetres(g.specs), display: (g) => formatScale(g.specs) },
   { key: 'frets', group: t('group.construction'), label: t('row.frets'), raw: (g) => g.specs.frets ?? null },
   { key: 'strings', group: t('group.construction'), label: t('row.strings'), raw: (g) => g.specs.strings ?? null },
+  ...optionalRows('construction'),
   { key: 'pickups', group: t('group.electronics'), label: t('row.pickups'), raw: (g) => g.specs.pickups ?? null },
   { key: 'bridge', group: t('group.electronics'), label: t('row.bridge'), raw: (g) => g.specs.bridge ?? null },
   { key: 'controls', group: t('group.electronics'), label: t('row.controls'), raw: (g) => g.specs.controls ?? null },
+  ...optionalRows('electronics'),
   {
     key: 'weight',
     group: t('group.details'),
@@ -65,6 +72,7 @@ export const COMPARE_ROWS = [
       return diff > 0.001 ? `+${diff.toFixed(1)} kg` : t('note.lightest');
     },
   },
+  ...optionalRows('details'),
 ];
 
 export { NOT_SPECIFIED };

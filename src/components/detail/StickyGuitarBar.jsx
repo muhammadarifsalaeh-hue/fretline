@@ -3,6 +3,7 @@ import { cn } from '@/utils/cn';
 import { formatPrice } from '@/utils/format';
 import { CheckIcon, PlusIcon } from '@/components/ui/Icons';
 import GuitarImage from '@/components/guitar/GuitarImage';
+import PriceSourceNote from '@/components/guitar/PriceSourceNote';
 
 /** แถบสรุปที่เลื่อนลงมาใต้ Navbar เมื่อปุ่มหลักหลุดจอ */
 export default function StickyGuitarBar({ guitar, visible, inCompare, full = false, onToggleCompare }) {
@@ -20,7 +21,7 @@ export default function StickyGuitarBar({ guitar, visible, inCompare, full = fal
           <p className="truncate text-xs text-mute">{guitar.brand}</p>
           <p className="truncate font-serif text-xl leading-tight">{guitar.name}</p>
         </div>
-        <p className="hidden font-mono text-lg text-gold sm:block">{formatPrice(guitar.price)}</p>
+        <div className="hidden sm:block"><p className="font-mono text-lg text-gold">{formatPrice(guitar.price)}</p><PriceSourceNote guitar={guitar} linkTabIndex={visible ? undefined : -1} /></div>
         <button
           type="button"
           disabled={full}

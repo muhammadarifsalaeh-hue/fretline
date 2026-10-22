@@ -1,0 +1,71 @@
+{
+  "guitarId": "yamaha-pacifica-612viifm",
+  "baselineCommit": "1229c669425f79505f9a9064cc5f28978984a793",
+  "scope": "Uncommitted development test only; no push or deployment",
+  "catalog": {
+    "models": 200,
+    "brands": 10,
+    "modelsPerBrand": 20,
+    "otherModelsChanged": 0,
+    "duplicateIds": 0,
+    "duplicateModels": 0
+  },
+  "price": {
+    "amount": 34000,
+    "currency": "THB",
+    "kind": "Yamaha Thailand recommended retail",
+    "verifiedOn": "2026-10-22"
+  },
+  "dataStatus": "partial",
+  "sourceBackedNonNullSpecificationFields": 19,
+  "licensedImagesAdded": 0,
+  "licensedImageModelsUnchanged": 2,
+  "licensedImagePlaceholderModelsUnchanged": 198,
+  "developmentIllustrationsAdded": 1,
+  "imageBytesUnchanged": true,
+  "underlyingImagePermissionVerified": false,
+  "depictedModelOrColorVerified": false,
+  "checks": {
+    "build": "passed",
+    "catalog:check": "passed",
+    "images:check": "passed; unlicensed illustration excluded",
+    "targetedDataAndPreviewChecks": 13,
+    "browserChecks": 76,
+    "productionExclusionChecks": 7
+  },
+  "browserPassed": true,
+  "productionPassed": true,
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "viewportWidths": [
+    1440,
+    1024,
+    768,
+    390,
+    320
+  ],
+  "physicalSafariTested": false,
+  "screenshotsDirectory": ".local-preview/screenshots/",
+  "screenshots": [
+    "catalog-desktop.png",
+    "catalog-desktop-viewport.png",
+    "detail-desktop.png",
+    "detail-desktop-viewport.png",
+    "specs-desktop.png",
+    "compare-desktop.png",
+    "catalog-tablet-landscape.png",
+    "detail-tablet-landscape.png",
+    "catalog-tablet-portrait.png",
+    "detail-tablet-portrait.png",
+    "catalog-mobile.png",
+    "catalog-mobile-viewport.png",
+    "detail-mobile.png",
+    "detail-mobile-viewport.png",
+    "specs-mobile.png",
+    "compare-mobile.png",
+    "catalog-small-mobile.png",
+    "detail-small-mobile.png"
+  ],
+  "imageRightsRegistryChanged": false,
+  "dependenciesAdded": 0
+}

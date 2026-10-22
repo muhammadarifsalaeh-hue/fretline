@@ -1,6 +1,9 @@
 import { cn } from '@/utils/cn';
 import SmartImage from '@/components/ui/SmartImage';
 import ImagePlaceholder from './ImagePlaceholder';
+import DevelopmentImagePreview from './DevelopmentImagePreview';
+import { getDevelopmentPreviewImage } from '@/utils/developmentImagePreview';
+import useDevelopmentImagePreview from '@/hooks/useDevelopmentImagePreview';
 
 /**
  * รูปสินค้ากีตาร์ (ใช้ทุกที่ที่แสดงรูปรุ่นใดรุ่นหนึ่ง)
@@ -9,10 +12,13 @@ import ImagePlaceholder from './ImagePlaceholder';
  *  props: guitar, src (ไม่ใส่ = ใช้รูปหลักของ guitar), alt, size ('md' | 'sm'), className, imgClassName
  */
 export default function GuitarImage({ guitar, src, alt, size = 'md', priority = false, sizes, srcSet, className = '', imgClassName = '' }) {
+  useDevelopmentImagePreview(guitar);
   const url = src === undefined ? guitar?.image : src;
   const compact = size === 'sm';
   const fallback = <ImagePlaceholder guitar={guitar} compact={compact} />;
   const photo = guitar?.gallery?.find((entry) => entry.src === url);
+
+  if (getDevelopmentPreviewImage(guitar, src)) return <DevelopmentImagePreview guitar={guitar} src={src} alt={alt} compact={compact} priority={priority} className={className} />;
 
   return (
     <SmartImage

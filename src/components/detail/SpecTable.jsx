@@ -1,10 +1,13 @@
 import { t } from '@/i18n';
 import { NOT_SPECIFIED, formatScale, formatKg, formatPrice } from '@/utils/format';
+import { ADDITIONAL_SPECIFICATIONS } from '@/data/additionalSpecifications';
+import PriceSourceNote from '@/components/guitar/PriceSourceNote';
 
 const val = (v) => v ?? NOT_SPECIFIED;
 
 const GROUPS = [
   {
+    id: 'construction',
     title: t('group.construction'),
     rows: [
       [t('row.body'), (g) => val(g.specs.body)],
@@ -16,6 +19,7 @@ const GROUPS = [
     ],
   },
   {
+    id: 'electronics',
     title: t('group.electronics'),
     rows: [
       [t('row.pickups'), (g) => val(g.specs.pickups)],
@@ -24,6 +28,7 @@ const GROUPS = [
     ],
   },
   {
+    id: 'details',
     title: t('group.details'),
     rows: [
       [t('row.weight'), (g) => formatKg(g.specs.weightKg)],
@@ -46,7 +51,7 @@ const GROUPS = [
           </ul>
         ),
       ],
-      [t('row.price'), (g) => formatPrice(g.price)],
+      [t('row.price'), (g) => <>{formatPrice(g.price)}<PriceSourceNote guitar={g} /></>],
     ],
   },
 ];
@@ -59,7 +64,8 @@ export default function SpecTable({ guitar }) {
       {GROUPS.map((group) => (
         <tbody key={group.title}>
           <tr><th colSpan={2} scope="colgroup" className="spec-group">{group.title}</th></tr>
-          {group.rows.map(([label, get]) => (
+          {[...group.rows, ...ADDITIONAL_SPECIFICATIONS.filter((field) => field.group === group.id && Object.hasOwn(guitar.specs, field.key))
+            .map((field) => [t(field.label), (g) => g.specs[field.key] == null ? NOT_SPECIFIED : `${g.specs[field.key]}${field.unit ?? ''}`])].map(([label, get]) => (
             <tr key={label}>
               <th scope="row">{label}</th>
               <td>{get(guitar)}</td>

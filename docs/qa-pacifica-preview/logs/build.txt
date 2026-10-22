@@ -1,0 +1,37 @@
+
+> fretline@0.1.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 166 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                             0.91 kB │ gzip:  0.57 kB
+dist/assets/01-front-480-cu5pQ3DA.webp     20.11 kB
+dist/assets/01-front-480-DvNXnlmI.webp     38.72 kB
+dist/assets/01-front-960-RP14YaR8.webp     83.14 kB
+dist/assets/01-front-960-Bhe6OkYl.webp    115.42 kB
+dist/assets/01-front-CpQ6r9La.webp        131.46 kB
+dist/assets/01-front-D2ver0On.webp        168.65 kB
+dist/assets/index-j7RWAyM-.css             94.81 kB │ gzip: 18.10 kB
+dist/assets/SortSelect-Bc_O40DK.js          0.61 kB │ gzip:  0.38 kB
+dist/assets/CatalogEmpty-SO5I3kZt.js        0.70 kB │ gzip:  0.41 kB
+dist/assets/guitarSort-H0ZsxaY2.js          0.73 kB │ gzip:  0.41 kB
+dist/assets/ImageAttribution-DmiTJ8cc.js    0.75 kB │ gzip:  0.39 kB
+dist/assets/ShareLink-xvKjH-5I.js           0.82 kB │ gzip:  0.53 kB
+dist/assets/DiscoveryHeading-DYuKuD2O.js    0.93 kB │ gzip:  0.49 kB
+dist/assets/ConfirmDialog-neFtQ54r.js       1.03 kB │ gzip:  0.57 kB
+dist/assets/ImageCreditsPage-C6oy0qyR.js    1.74 kB │ gzip:  0.88 kB
+dist/assets/CatalogCard-C3oT2_hs.js         4.44 kB │ gzip:  1.78 kB
+dist/assets/BrandsPage-Db0gmyuI.js          5.61 kB │ gzip:  2.24 kB
+dist/assets/WishlistPage-ghncQGVi.js        5.66 kB │ gzip:  2.15 kB
+dist/assets/BrandDetailPage-C1kS-uIi.js     6.05 kB │ gzip:  2.11 kB
+dist/assets/ComparePage-DV1hojme.js        11.50 kB │ gzip:  4.04 kB
+dist/assets/CatalogPage-DSn3TcqE.js        18.46 kB │ gzip:  6.21 kB
+dist/assets/FindMyGuitarPage-CMSgPiJW.js   19.12 kB │ gzip:  6.21 kB
+dist/assets/GuitarDetailPage-DaWhwd3a.js   19.24 kB │ gzip:  6.40 kB
+dist/assets/index-DWrJFUnF.js             134.71 kB │ gzip: 44.59 kB
+dist/assets/vendor-DMuMWS1U.js            163.33 kB │ gzip: 53.22 kB
+dist/assets/guitar-catalog-1zuhScDi.js    336.54 kB │ gzip: 36.41 kB
+✓ built in 6.39s

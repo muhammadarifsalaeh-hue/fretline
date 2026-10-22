@@ -1,0 +1,7 @@
+PASS /workspace/fretline/dist contains no original PNG or image endpoint
+PASS /tmp/fretline-pacifica-mode-build contains no original PNG or image endpoint
+PASS Production /guitars?q=612VIIFM retains the original model placeholder
+PASS Production /guitars/yamaha-pacifica-612viifm retains the original model placeholder
+PASS Production cannot retrieve illustration bytes: /.local-preview/yamaha-pacifica-612viifm-preview.png
+PASS Production cannot retrieve illustration bytes: /__fretline_development_preview__/yamaha-pacifica-612viifm/3af6ba415bd42469b84b.png
+PASS Production has no console or runtime errors

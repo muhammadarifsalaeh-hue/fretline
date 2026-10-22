@@ -1,0 +1,53 @@
+{
+  "guitarId": "yamaha-pacifica-612viifm",
+  "baselineCommit": "1229c669425f79505f9a9064cc5f28978984a793",
+  "branch": "master",
+  "committed": false,
+  "pushed": false,
+  "catalogModels": 200,
+  "brands": 10,
+  "modelsPerBrand": 20,
+  "catalogDataChangedThisUpdate": false,
+  "imageRightsRegistryChanged": false,
+  "duplicateModelsOrIds": 0,
+  "developmentImages": 4,
+  "licensedImagesAdded": 0,
+  "licensedModelsUnchanged": 2,
+  "productionPlaceholdersUnchanged": 198,
+  "defaultImage": "black",
+  "descriptiveColors": [
+    "Black",
+    "Red",
+    "Blue / Teal"
+  ],
+  "officialColorNamesVerified": false,
+  "allColorsIsSeparateImage": true,
+  "aiProvenanceInMetadata": true,
+  "aiBadgesOnCardsOrMainImage": false,
+  "originalImageRightsVerified": false,
+  "originalJpegBytesUnchanged": true,
+  "totalSourceImageBytes": 804193,
+  "dependenciesAdded": 0,
+  "checks": {
+    "build": "passed",
+    "catalog:check": "passed",
+    "images:check": "passed (4 pending-permission images excluded)",
+    "targetedDataAndPreview": 14,
+    "gallery": 117,
+    "production": 14,
+    "integrations": 7
+  },
+  "runtimeErrors": [],
+  "consoleErrors": [],
+  "responsiveWidths": [
+    1440,
+    1024,
+    768,
+    390,
+    320
+  ],
+  "physicalSafariOrIpadTested": false,
+  "touch": "Chromium emulation: tap and swipe",
+  "screenshots": "Git-ignored .local-preview/multicolor/screenshots/",
+  "mobileScreenshotFraming": "Long 390px review frames, captured at taller viewport to keep fixed navigation out of the model information; interaction tests ran at 390×844 and 320×740."
+}

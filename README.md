@@ -1,4 +1,6 @@
-> Latest delivery: [Phase 9 — first 20-model evidence review](docs/qa-phase9/README.md). Two models per brand rechecked against manufacturer specifications, field-level evidence and one additional licensed owner photograph. All 200 records remain partial.
+> Latest update: [Pacifica color gallery — เปิดใน Codespaces บน iPad](docs/PACIFICA_PREVIEW_CODESPACES.md). โค้ด Gallery และราคาแนะนำ Yamaha ประเทศไทย; ภาพที่ยังไม่ยืนยันสิทธิ์อยู่เฉพาะ Preview เลือก JPEG จากอุปกรณ์ได้โดยไม่อัปโหลดเข้า GitHub
+
+> Previous delivery: [Phase 9 — first 20-model evidence review](docs/qa-phase9/README.md). Two models per brand rechecked against manufacturer specifications, field-level evidence and one additional licensed owner photograph. All 200 records remain partial.
 
 > Previous delivery: [Phase 8 — UI/UX Polish & Quality Assurance](docs/PHASE_8_REPORT.md). Shared black-and-gold styling, labelled placeholders, accessible controls, URL history and responsive browser evidence.
 
@@ -26,11 +28,10 @@ npm run dev      # http://localhost:5173
 npm run build
 npm run catalog:check
 npm run images:check
-npm run phase6:check
-npm run phase7:check
-npm run phase8:check
-npm run phase9:check
+node scripts/check-pacifica-preview.mjs
 ```
+
+Historical phase4–phase9 checks retain their original data snapshots; they are not current catalog acceptance checks after the authorized Pacifica price/specification update.
 
 Phase 8 browser scripts and reproducible checks are documented in [the QA report](docs/PHASE_8_REPORT.md). They use Python Playwright and a separately installed Chromium; these tools are not runtime dependencies of the website.
 
@@ -103,7 +104,7 @@ Phase 9 results, the 20-model specification tables, dated manufacturer links and
 
 ## ข้อมูลกีตาร์ 200 รุ่น และรูปภาพ
 
-- Catalog หลักมี **200 รุ่นพอดี / 10 แบรนด์ / แบรนด์ละ 20 รุ่น**: `partial` 200, `verified` 0 ราคาเงินบาทและรีวิวยังไม่มีหลักฐานที่เพียงพอ จึงไม่แสดงตัวเลขสมมติ
+- Catalog หลักมี **200 รุ่นพอดี / 10 แบรนด์ / แบรนด์ละ 20 รุ่น**: `partial` 200, `verified` 0 PAC612VIIFM มีราคาแนะนำ Yamaha ประเทศไทย ฿34,000 พร้อมหลักฐาน ส่วนอีก 199 รุ่นยังสอบถามราคา และไม่แสดงคะแนนรีวิวที่ไม่มีหลักฐาน
 - แบรนด์: Yamaha, Fender, Epiphone, Ibanez, Taylor, Córdoba, Gibson, Martin, PRS และ Squier
 - ใช้ 34 รุ่นเดิม + เพิ่ม 166 รุ่นจากแหล่งผู้ผลิต เก็บ Gretsch G2420 และ Yamaha C40 ใน Archive แยกจาก Catalog หลัก ลิงก์เก่าและ ID ใน Wishlist/Compare ยังอยู่
 - มีภาพจริงที่บันทึกสิทธิ์แล้ว **2 ภาพ / 2 รุ่น** (CC BY-SA 4.0) อีก **198 รุ่น** ใช้ Placeholder: Yamaha FG820-12 ใส่สายไว้ 6 เส้นตามข้อมูลผู้ถ่าย; Martin D-28 เป็นภาพเจ้าของปี 2018 ไม่ทราบปีผลิต และไม่ใช่ภาพรุ่นสเปก Golden Era ปัจจุบัน มีคำอธิบาย/เครดิตกำกับ ไม่มีการคัดลอกภาพผู้ผลิตโดยไม่มีสิทธิ์

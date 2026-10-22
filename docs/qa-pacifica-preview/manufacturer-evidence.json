@@ -1,0 +1,81 @@
+{
+  "guitarId": "yamaha-pacifica-612viifm",
+  "manufacturerModel": "PAC612VIIFM",
+  "verifiedOn": "2026-10-22",
+  "retrievals": [
+    {
+      "key": "th-lineup",
+      "url": "https://th.yamaha.com/th/musical-instruments/guitars-basses-amps/products/electric-guitars/pacifica/lineup.html",
+      "accessedAt": "2026-10-22T18:25:05.767567+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://th.yamaha.com/th/musical-instruments/guitars-basses-amps/products/electric-guitars/pacifica/lineup.html",
+      "sha256": "9c1b2b7e86c5a1c5596118cc0711f0768498a6df82fda7e2df54b3f70e00c756",
+      "bytes": 1015841
+    },
+    {
+      "key": "th-specs",
+      "url": "https://th.yamaha.com/th/musical-instruments/guitars-basses-amps/products/electric-guitars/pacifica/specs.html",
+      "accessedAt": "2026-10-22T18:25:05.769891+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://th.yamaha.com/th/musical-instruments/guitars-basses-amps/products/electric-guitars/pacifica/specs.html",
+      "sha256": "3db4c7a0225f221ceb6d7cce93e9ce5c2d55bd22057199f5929f3a56538ab622",
+      "bytes": 134991
+    },
+    {
+      "key": "us-specs",
+      "url": "https://usa.yamaha.com/products/musical_instruments/guitars_basses/el_guitars/pacifica/specs.html",
+      "accessedAt": "2026-10-22T18:25:05.770864+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://usa.yamaha.com/products/musical_instruments/guitars_basses/el_guitars/pacifica/specs.html",
+      "sha256": "ef3dc4177626936c845143059a4ae8a10fb3c46fe398dc57848dd668624e078a",
+      "bytes": 109805
+    }
+  ],
+  "specificationTable": {
+    "columnName": "PAC612VIIFM",
+    "zeroBasedModelIndex": 4,
+    "rows": {
+      "Construction": "Bolt-on",
+      "Scale Length": "25-1/2\" (648.0mm)",
+      "Body Materials": "Alder / Flamed Maple Laminated",
+      "Body Finish": "Gloss Polyurethane",
+      "Neck Materials": "Maple",
+      "Neck Finish": "Gloss Polyurethane",
+      "Fingerboard Materials": "Rosewood",
+      "Fingerboard Radius": "13-3/4\" (350mm)",
+      "Fret wire": "Medium",
+      "Number of frets": "22",
+      "Nut materials": "Graph Tech TUSQ",
+      "Neck Width @ 0 Fret / 12th Fret": "41.0 / 51.4 mm",
+      "Thickness @1st Fret / 12th Fret": "20.9 / 22.9 mm",
+      "Neck Pickup": "Seymour Duncan SSL-1",
+      "Middle Pickup": "Seymour Duncan SSL-1 RwRp",
+      "Bridge Pickup": "Seymour Duncan TB-14",
+      "Controls": "Master Volume, Master Tone(Push-Pull Coil Split)",
+      "Pickup Switch": "5-Position Lever Switch",
+      "Bridge": "Wilkinson VS50 6",
+      "Tremolo Arm": "Φ5.2(Slot-in)",
+      "String spacing": "10.8mm",
+      "Tailpiece": "-",
+      "Tuning Machines": "Grover Locking Tuners",
+      "Pickguard": "3-Ply Black",
+      "String gauge": "D'Addario EXL120 / 0.009-0.042",
+      "Case": "-",
+      "Special Features": "-"
+    }
+  },
+  "lineupBlock": "PAC612VIIFM ปิด ปิด ปิด ปิด ปิด สี ราคาขายปลีกที่แนะนำ: ราคา:  ฿ 34,000.00 (แบ่งชำระแบบผ่อน 10  เดือน ราคา: ฿ 40,800.00) Seymour Duncan Custom 5 TB-14 and SSL-1 pickups Graph Tech TUSQ nut and string trees Grover locking tuners Wilkinson VS50 vibrato bridge Alder body with flamed maple veneer top Maple neck with rosewood fingerboard H/S/S pickup configuration with 5-position selector Push-pull coil-split switch for additional tonal options ลงทะเบียนสินค้า ",
+  "priceObservation": {
+    "amount": 34000,
+    "currency": "THB",
+    "kind": "manufacturer-recommended-retail",
+    "installmentTotalExcluded": 40800
+  },
+  "unknowns": [
+    "Body shape not explicitly confirmed in the checked text",
+    "Color of the supplied AI illustration",
+    "Product weight",
+    "String count not explicitly stated in the checked model column",
+    "Underlying photo copyright/permission and exact depicted hardware"
+  ]
+}

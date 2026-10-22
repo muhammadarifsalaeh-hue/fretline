@@ -1,0 +1,65 @@
+{
+  "guitarId": "yamaha-pacifica-612viifm",
+  "source": "User-supplied attachments",
+  "use": "Development preview only; no public distribution, commit or push",
+  "underlyingCopyrightPermission": "Not supplied / not verified",
+  "editHistory": "User-supplied decorative images; AI editing provenance retained from the previous request. Originals unchanged.",
+  "images": [
+    {
+      "id": "black",
+      "label": "Black",
+      "file": "01-black.jpg",
+      "originalFilename": "2-รูปภาพ-2.jpg",
+      "width": 1024,
+      "height": 1280,
+      "bytes": 186844,
+      "sha256": "5c42dbdb9acf570228a14faad8c55dc80a80249a0835fde24f2648077bc73238",
+      "aiEdited": true,
+      "permissionVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNameVerified": false
+    },
+    {
+      "id": "red",
+      "label": "Red",
+      "file": "02-red.jpg",
+      "originalFilename": "3-รูปภาพ-3.jpg",
+      "width": 1024,
+      "height": 1280,
+      "bytes": 192056,
+      "sha256": "908dbf93d9d17bc625240f3a4580760e31c778751cc6ca5aee9446d23f694219",
+      "aiEdited": true,
+      "permissionVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNameVerified": false
+    },
+    {
+      "id": "blue-teal",
+      "label": "Blue / Teal",
+      "file": "03-blue-teal.jpg",
+      "originalFilename": "4-รูปภาพ-4.jpg",
+      "width": 1024,
+      "height": 1280,
+      "bytes": 191784,
+      "sha256": "769726a7e450f2944031ec8a35a9293c4662be39dd9cd9a86138ab3a4f2d65ef",
+      "aiEdited": true,
+      "permissionVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNameVerified": false
+    },
+    {
+      "id": "all-colors",
+      "label": "All colors",
+      "file": "04-all-colors.jpg",
+      "originalFilename": "1-รูปภาพ-1.jpg",
+      "width": 1280,
+      "height": 853,
+      "bytes": 233509,
+      "sha256": "1ec22d2536ba23d5b6c5c5766a203e6c1888be36641bb48d568a22da325ce3fa",
+      "aiEdited": true,
+      "permissionVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNameVerified": false
+    }
+  ]
+}

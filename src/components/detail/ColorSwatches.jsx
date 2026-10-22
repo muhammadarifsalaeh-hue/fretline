@@ -2,10 +2,10 @@ import { t } from '@/i18n';
 import { cn } from '@/utils/cn';
 
 /** เลือกสี (radio group) — แสดงชื่อสีที่เลือกอยู่ */
-export default function ColorSwatches({ colors, value, onChange }) {
+export default function ColorSwatches({ colors, value, onChange, allowNone = false, emptyLabel = '', label = t('detail.color'), ariaLabel = t('detail.colors') }) {
   if (!colors.length) return null;
-  const selected = colors[value] ?? colors[0];
-  const selectedIndex = Math.max(0, colors.indexOf(selected));
+  const selected = colors[value] ?? (allowNone ? null : colors[0]);
+  const selectedIndex = selected ? colors.indexOf(selected) : -1;
   const onKey = (event, index) => {
     let next;
     if (event.key === 'ArrowRight' || event.key === 'ArrowDown') next = (index + 1) % colors.length;
@@ -20,16 +20,16 @@ export default function ColorSwatches({ colors, value, onChange }) {
   return (
     <div>
       <p className="mb-3 text-sm text-mute">
-        {t('detail.color')} <span className="ml-1 text-bone">{selected.name}</span>
+        {label} <span className="ml-1 text-bone" data-color-name>{selected?.name ?? emptyLabel}</span>
       </p>
-      <div role="radiogroup" aria-label={t('detail.colors')} className="flex flex-wrap gap-3">
+      <div role="radiogroup" aria-label={ariaLabel} className="flex flex-wrap gap-3">
         {colors.map((c, i) => (
           <button
             key={c.name}
             type="button"
             role="radio"
             aria-checked={i === selectedIndex}
-            tabIndex={i === selectedIndex ? 0 : -1}
+            tabIndex={i === (selectedIndex < 0 ? 0 : selectedIndex) ? 0 : -1}
             aria-label={c.name}
             title={c.name}
             onClick={() => onChange(i)}

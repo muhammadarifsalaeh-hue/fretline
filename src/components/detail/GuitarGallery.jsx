@@ -7,21 +7,29 @@ import Badge from '@/components/ui/Badge';
 import { ChevronLeftIcon, ChevronRightIcon, ExpandIcon } from '@/components/ui/Icons';
 import ImageLightbox from './ImageLightbox';
 import ImageAttribution from './ImageAttribution';
+import { getDevelopmentImagePreview } from '@/utils/developmentImagePreview';
 
-/** Genuine model photos only. Desktop thumbnail rail; mobile swipe and lightbox. */
-export default function GuitarGallery({ guitar }) {
-  const images = guitar.gallery ?? [];
+/** Licensed gallery or an explicitly enabled, separate development gallery. */
+export default function GuitarGallery({ guitar, activeIndex, onIndexChange }) {
+  const developmentPreview = getDevelopmentImagePreview(guitar);
+  const images = developmentPreview?.images ?? guitar.gallery ?? [];
   const name = `${guitar.brand} ${guitar.name}`;
-  const [index, setIndex] = useState(0);
+  const [localIndex, setLocalIndex] = useState(0);
+  const index = activeIndex ?? localIndex;
   const [zoom, setZoom] = useState(null);
   const [lightbox, setLightbox] = useState(false);
+  const setIndex = useCallback((value) => {
+    if (onIndexChange) onIndexChange(value);
+    else setLocalIndex(value);
+    setZoom(null);
+  }, [onIndexChange]);
   const closeLightbox = useCallback(() => setLightbox(false), []);
   const touchX = useRef(null);
   const count = images.length;
   const current = images[index];
-  const go = (direction) => { if (count > 1) setIndex((value) => (value + direction + count) % count); };
+  const go = (direction) => { if (count > 1) setIndex((index + direction + count) % count); };
   const onMove = (event) => {
-    if (!count || !window.matchMedia('(hover: hover)').matches || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    if (developmentPreview || !count || !window.matchMedia('(hover: hover)').matches || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     const rect = event.currentTarget.getBoundingClientRect();
     setZoom({ x: ((event.clientX - rect.left) / rect.width) * 100, y: ((event.clientY - rect.top) / rect.height) * 100 });
   };
@@ -67,7 +75,8 @@ export default function GuitarGallery({ guitar }) {
           ))}
         </ul>}
       </div>
-      {!count && <p className="mt-3 text-xs leading-relaxed text-mute">{t('gallery.soon')}</p>}
+      {developmentPreview && current && <p className="mt-3 text-center text-xs tracking-wide text-gold" aria-live="polite" data-preview-selection>{current.label}</p>}
+      {!count && !developmentPreview && <p className="mt-3 text-xs leading-relaxed text-mute">{t('gallery.soon')}</p>}
       <ImageAttribution image={current} />
       {lightbox && <ImageLightbox images={images} index={index} onIndex={setIndex} onClose={closeLightbox} name={name} guitar={guitar} />}
     </div>

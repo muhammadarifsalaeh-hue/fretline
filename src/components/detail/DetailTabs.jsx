@@ -49,7 +49,7 @@ export default function DetailTabs({ guitar, keyFeatures }) {
               <div>
                 <h2 className="mb-4 text-lg font-medium">{t('detail.about')} {guitar.name}</h2>
                 <DataStatusNote guitar={guitar} />
-                <p className="text-sm leading-8 text-bone/75">{guitar.description || NOT_SPECIFIED}</p>
+                <p className="whitespace-pre-line text-sm leading-8 text-bone/75">{guitar.description || NOT_SPECIFIED}</p>
               </div>
               <dl className="detail-key-features">
                 {keyFeatures.map((feature) => <div key={feature.label}><dt>{feature.label}</dt><dd>{feature.value}</dd></div>)}

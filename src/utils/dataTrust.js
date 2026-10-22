@@ -25,3 +25,6 @@ export function verifiedRating(guitar) {
 
 export const publicPrice = (guitar) => guitar.price != null && trustedPrice(guitar) == null
   ? t('data.priceUnverified') : formatPrice(guitar.price);
+
+export const hasManufacturerRrp = (guitar) => trustedPrice(guitar) != null
+  && guitar.priceSource?.kind === 'manufacturer-recommended-retail';

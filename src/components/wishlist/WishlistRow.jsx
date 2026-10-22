@@ -3,6 +3,7 @@ import { MAX_COMPARE, useShop } from '@/context/ShopContext';
 import { publicPrice } from '@/utils/dataTrust';
 import { guitarUrl, brandUrl } from '@/utils/routes';
 import GuitarImage from '@/components/guitar/GuitarImage';
+import PriceSourceNote from '@/components/guitar/PriceSourceNote';
 import AppLink from '@/components/ui/AppLink';
 import { ArrowUpRightIcon, CheckIcon, HeartIcon, PlusIcon } from '@/components/ui/Icons';
 
@@ -21,6 +22,7 @@ export default function WishlistRow({ guitar, onRemove }) {
         {guitar.archived && <p className="archive-label">{t('p7.archive.label')}</p>}
         <p className="wishlist-meta">{t(`category.${guitar.category}`)}<span aria-hidden="true">·</span><span>{t(`status.${guitar.dataStatus ?? 'sample'}`)}</span></p>
         <p className="wishlist-price">{publicPrice(guitar)}</p>
+        <PriceSourceNote guitar={guitar} />
       </div>
       <div className="wishlist-row-actions">
         <button type="button" onClick={onRemove} className="wishlist-heart" aria-label={t('wl.removeAria', { name: guitar.name })}>

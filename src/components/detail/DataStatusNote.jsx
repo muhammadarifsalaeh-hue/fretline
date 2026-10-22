@@ -1,6 +1,9 @@
 import { t } from '@/i18n';
+import { ADDITIONAL_SPECIFICATIONS } from '@/data/additionalSpecifications';
+import { getDevelopmentImagePreview } from '@/utils/developmentImagePreview';
 
 const FIELD_LABELS = {
+  ...Object.fromEntries(ADDITIONAL_SPECIFICATIONS.map(({ key, label }) => [`specs.${key}`, label])),
   'specs.body': 'row.body', 'specs.neck': 'row.neck', 'specs.fretboard': 'row.fingerboard',
   'specs.pickups': 'row.pickups', 'specs.bridge': 'row.bridge', 'specs.controls': 'row.controls',
   'specs.scale': 'row.scale', 'specs.scaleMm': 'row.scale', 'specs.frets': 'row.frets',
@@ -25,6 +28,7 @@ export default function DataStatusNote({ guitar }) {
       <p>{t('p6.sources.scope')}: {t('p6.sources.identity')}{fields.length ? ` · ${fields.join(' · ')}` : ''}</p>
       {source.additionalSources?.map((extra) => <p key={extra.url}><a href={extra.url} target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">{extra.note}</a>{' · '}{extra.verifiedOn}</p>)}
       <p>{t('p6.sources.partial')}</p>
+      {getDevelopmentImagePreview(guitar) && <p className="mt-3 border-t border-line pt-3">{t('imagePreview.provenance')}</p>}
     </details>}
   </div>;
 }

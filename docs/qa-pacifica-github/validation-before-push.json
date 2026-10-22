@@ -1,0 +1,30 @@
+{
+  "state": "Validated before Git commit/push; consult Git history for publication status",
+  "baseline": "1229c669425f79505f9a9064cc5f28978984a793",
+  "repository": "https://github.com/muhammadarifsalaeh-hue/fretline",
+  "branch": "master",
+  "models": 200,
+  "brands": 10,
+  "modelsPerBrand": 20,
+  "photosIncludedInCommit": 0,
+  "licensedPhotosUnchanged": 2,
+  "runtimeErrors": [],
+  "consoleErrors": [],
+  "checks": {
+    "build": "passed",
+    "catalog": "passed",
+    "images": "passed",
+    "dataAndPreview": 15,
+    "gallery": 117,
+    "localIntake": 10,
+    "production": 14
+  },
+  "browserFileUploads": [],
+  "browserImages": "Blob URLs in memory; no server upload, Git blob or localStorage image storage",
+  "physicalSafariOrIpadTested": false,
+  "notes": [
+    "The empty-private-images server represents a fresh Codespace; all four selected JPEGs remain in the browser.",
+    "A direct color-border CSS probe initially ran before the transition settled. The test now waits for the final computed color and passes.",
+    "A first gallery retry found no server at port 5173; after starting Vite the entire gallery suite passed."
+  ]
+}

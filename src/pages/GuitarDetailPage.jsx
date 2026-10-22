@@ -16,12 +16,27 @@ import { cn } from '@/utils/cn';
 import { NOT_SPECIFIED, formatKg, formatPrice, formatScale } from '@/utils/format';
 import { brandUrl, categoryUrl } from '@/utils/routes';
 import NotFoundPage from './NotFoundPage';
+import PriceSourceNote from '@/components/guitar/PriceSourceNote';
+import { hasManufacturerRrp } from '@/utils/dataTrust';
+import useDevelopmentImagePreview from '@/hooks/useDevelopmentImagePreview';
+import LocalPreviewImagePicker from '@/components/guitar/LocalPreviewImagePicker';
 
-const firstSentence = (text = '') => text.includes('. ') ? `${text.split('. ')[0]}.` : text;
+const firstSentence = (text = '') => {
+  const paragraph = text.split('\n\n')[0];
+  return paragraph.includes('. ') ? `${paragraph.split('. ')[0]}.` : paragraph;
+};
 
 function DetailContent({ guitar }) {
   const { compare, wishlist, toggleCompare, toggleWishlist } = useShop();
-  const [colorIndex, setColorIndex] = useState(0);
+  const [selectionIndex, setSelectionIndex] = useState(0);
+  const developmentPreview = useDevelopmentImagePreview(guitar);
+  const colors = developmentPreview?.colors ?? guitar.colors;
+  const colorIndex = developmentPreview
+    ? colors.findIndex((color) => color.imageId === developmentPreview.images[selectionIndex]?.id)
+    : selectionIndex;
+  const selectColor = (index) => setSelectionIndex(developmentPreview
+    ? developmentPreview.images.findIndex((image) => image.id === colors[index].imageId)
+    : index);
   const [stuck, setStuck] = useState(false);
   const ctaRef = useRef(null);
   const inCompare = compare.includes(guitar.id);
@@ -56,7 +71,10 @@ function DetailContent({ guitar }) {
           <span className="text-bone/80">{guitar.brand} {guitar.name}</span>
         </nav>
         <div className="detail-main-grid">
-          <GuitarGallery guitar={guitar} />
+          {developmentPreview ? <div>
+            <GuitarGallery guitar={guitar} activeIndex={developmentPreview ? selectionIndex : undefined} onIndexChange={developmentPreview ? setSelectionIndex : undefined} />
+            <LocalPreviewImagePicker guitar={guitar} onApply={() => setSelectionIndex(0)} />
+          </div> : <GuitarGallery guitar={guitar} />}
           <div className="detail-summary">
             <AppLink href={brandUrl(guitar.brand)} className="discovery-kicker hover:text-gold">{guitar.brand}</AppLink>
             <h1 className="mt-2 font-serif text-[clamp(2rem,3.7vw,3.5rem)]">{guitar.name}</h1>
@@ -70,9 +88,14 @@ function DetailContent({ guitar }) {
                 <span className="font-mono text-3xl text-bone">{formatPrice(guitar.price)}</span>
                 {guitar.oldPrice && <span className="font-mono text-sm text-mute line-through">{formatPrice(guitar.oldPrice)}</span>}
               </p>
-              <p className="mt-2 text-xs leading-6 text-mute">{guitar.price == null ? t('detail.noPrice') : t('detail.priceNote')}</p>
+              {hasManufacturerRrp(guitar) ? <PriceSourceNote guitar={guitar} full /> : <p className="mt-2 text-xs leading-6 text-mute">{guitar.price == null ? t('detail.noPrice') : t('detail.priceNote')}</p>}
             </div>
             <p className="mt-4 text-sm leading-7 text-bone/75">{firstSentence(guitar.description)}</p>
+            {developmentPreview?.images.length > 0 && <div className="preview-color-selector mt-6 border-t border-line pt-5">
+              <ColorSwatches colors={colors} value={colorIndex} onChange={selectColor} allowNone
+                emptyLabel={t('imagePreview.allColors')} label={t('imagePreview.color')} ariaLabel={t('imagePreview.chooseColor')} />
+              <p className="mt-3 text-[11px] leading-5 text-mute">{t('imagePreview.colorNote')}</p>
+            </div>}
             <div className="detail-source-note mt-4"><DataStatusNote guitar={guitar} /></div>
             <div ref={ctaRef} className="detail-actions">
               <button type="button" onClick={() => toggleCompare(guitar)} disabled={compareFull} title={compareFull ? t('p4.compare.fullNote') : undefined} aria-pressed={inCompare} className={cn('detail-action disabled:cursor-not-allowed disabled:opacity-50', inCompare && 'is-active')}>
@@ -89,7 +112,7 @@ function DetailContent({ guitar }) {
                 <div key={label}><dt>{label}</dt><dd>{value}</dd></div>
               ))}
             </dl>
-            <ColorSwatches colors={guitar.colors} value={colorIndex} onChange={setColorIndex} />
+            {!developmentPreview && <ColorSwatches colors={colors} value={colorIndex} onChange={selectColor} />}
           </div>
         </div>
       </section>

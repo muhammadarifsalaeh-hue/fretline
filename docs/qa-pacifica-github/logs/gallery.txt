@@ -1,0 +1,117 @@
+PASS .catalog-card-image shows black at its original aspect ratio without cropping
+PASS .catalog-card-image has no image badge or text overlay
+PASS Catalog has three descriptive dots and one guitar card
+PASS Catalog has no visible AI label
+PASS Catalog image keeps lazy loading
+PASS Catalog desktop has no page-level horizontal overflow
+PASS .gallery-main shows black at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS Initial Detail image is the same black image as Catalog
+PASS No visible AI decoration in the main image
+PASS Detail desktop has no page-level horizontal overflow
+PASS Red uses the gold selected border
+PASS .gallery-main shows red at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS Blue / Teal uses the gold selected border
+PASS .gallery-main shows blue-teal at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS Black uses the gold selected border
+PASS .gallery-main shows black at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS Color changes do not reload or navigate the page
+PASS Each single color has a different file
+PASS .gallery-main shows red at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS .gallery-main shows all-colors at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS Overview is separate from the three color choices
+PASS [role="dialog"] > div:nth-child(2) shows all-colors at its original aspect ratio without cropping
+PASS [role="dialog"] > div:nth-child(2) has no image badge or text overlay
+PASS [role="dialog"] > div:nth-child(2) shows black at its original aspect ratio without cropping
+PASS [role="dialog"] > div:nth-child(2) has no image badge or text overlay
+PASS [role="dialog"] > div:nth-child(2) shows red at its original aspect ratio without cropping
+PASS [role="dialog"] > div:nth-child(2) has no image badge or text overlay
+PASS Lightbox selection updates the thumbnail and color
+PASS .gallery-main shows blue-teal at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS .gallery-main shows black at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS Keyboard radio navigation stays in sync with the main image
+PASS black is the unchanged original JPEG with no-store/noindex
+PASS red is the unchanged original JPEG with no-store/noindex
+PASS blue-teal is the unchanged original JPEG with no-store/noindex
+PASS all-colors is the unchanged original JPEG with no-store/noindex
+PASS Private asset directory is not directly readable
+PASS Another guitar cannot claim this image endpoint
+PASS .wishlist-image shows black at its original aspect ratio without cropping
+PASS .wishlist-image has no image badge or text overlay
+PASS Wishlist stores one original guitar ID, not color variants
+PASS Compare retains model data and the black presentation image
+PASS .gallery-main shows black at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS Detail tablet-landscape has no page-level horizontal overflow
+PASS .gallery-main shows red at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS .gallery-main shows blue-teal at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS .gallery-main shows black at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS .gallery-main shows all-colors at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS Overview tablet-landscape has no page-level horizontal overflow
+PASS .catalog-card-image shows black at its original aspect ratio without cropping
+PASS .catalog-card-image has no image badge or text overlay
+PASS Catalog tablet-landscape has no page-level horizontal overflow
+PASS .gallery-main shows black at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS Detail tablet-portrait has no page-level horizontal overflow
+PASS .gallery-main shows red at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS .gallery-main shows blue-teal at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS .gallery-main shows black at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS .gallery-main shows all-colors at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS Overview tablet-portrait has no page-level horizontal overflow
+PASS .catalog-card-image shows black at its original aspect ratio without cropping
+PASS .catalog-card-image has no image badge or text overlay
+PASS Catalog tablet-portrait has no page-level horizontal overflow
+PASS .gallery-main shows black at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS Detail mobile has no page-level horizontal overflow
+PASS .gallery-main shows red at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS .gallery-main shows blue-teal at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS .gallery-main shows black at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS .gallery-main shows all-colors at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS Overview mobile has no page-level horizontal overflow
+PASS .catalog-card-image shows black at its original aspect ratio without cropping
+PASS .catalog-card-image has no image badge or text overlay
+PASS Catalog mobile has no page-level horizontal overflow
+PASS .gallery-main shows black at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS Detail small-mobile has no page-level horizontal overflow
+PASS .gallery-main shows red at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS .gallery-main shows blue-teal at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS .gallery-main shows black at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS .gallery-main shows all-colors at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS Overview small-mobile has no page-level horizontal overflow
+PASS .catalog-card-image shows black at its original aspect ratio without cropping
+PASS .catalog-card-image has no image badge or text overlay
+PASS Catalog small-mobile has no page-level horizontal overflow
+PASS .gallery-main shows red at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS .gallery-main shows blue-teal at its original aspect ratio without cropping
+PASS .gallery-main has no image badge or text overlay
+PASS Touch tap and gallery swipe synchronize the selected color
+PASS Existing licensed Yamaha photo and its gallery remain unchanged
+PASS Existing licensed-photo lightbox still opens and closes
+PASS No console/runtime or failed-request errors in normal flows

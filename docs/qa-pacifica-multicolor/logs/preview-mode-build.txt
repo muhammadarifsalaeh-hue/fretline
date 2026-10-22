@@ -1,0 +1,41 @@
+
+> fretline@0.1.0 build
+> vite build --mode pacifica-preview --outDir /tmp/fretline-pacifica-mode-build
+
+vite v5.4.21 building for pacifica-preview...
+
+(!) outDir /tmp/fretline-pacifica-mode-build is not inside project root and will not be emptied.
+Use --emptyOutDir to override.
+
+transforming...
+✓ 168 modules transformed.
+rendering chunks...
+computing gzip size...
+../../tmp/fretline-pacifica-mode-build/index.html                             0.91 kB │ gzip:  0.57 kB
+../../tmp/fretline-pacifica-mode-build/assets/01-front-480-cu5pQ3DA.webp     20.11 kB
+../../tmp/fretline-pacifica-mode-build/assets/01-front-480-DvNXnlmI.webp     38.72 kB
+../../tmp/fretline-pacifica-mode-build/assets/01-front-960-RP14YaR8.webp     83.14 kB
+../../tmp/fretline-pacifica-mode-build/assets/01-front-960-Bhe6OkYl.webp    115.42 kB
+../../tmp/fretline-pacifica-mode-build/assets/01-front-CpQ6r9La.webp        131.46 kB
+../../tmp/fretline-pacifica-mode-build/assets/01-front-D2ver0On.webp        168.65 kB
+../../tmp/fretline-pacifica-mode-build/assets/index-vAURMHEQ.css             94.64 kB │ gzip: 18.06 kB
+../../tmp/fretline-pacifica-mode-build/assets/SortSelect-DDC5jbOK.js          0.61 kB │ gzip:  0.38 kB
+../../tmp/fretline-pacifica-mode-build/assets/CatalogEmpty-DyxTjfyv.js        0.70 kB │ gzip:  0.41 kB
+../../tmp/fretline-pacifica-mode-build/assets/guitarSort-CPGJJa4g.js          0.73 kB │ gzip:  0.41 kB
+../../tmp/fretline-pacifica-mode-build/assets/ImageAttribution-BA4wRdcz.js    0.75 kB │ gzip:  0.39 kB
+../../tmp/fretline-pacifica-mode-build/assets/ShareLink-DHnrIl7q.js           0.82 kB │ gzip:  0.53 kB
+../../tmp/fretline-pacifica-mode-build/assets/DiscoveryHeading-DOoeKN8_.js    0.93 kB │ gzip:  0.49 kB
+../../tmp/fretline-pacifica-mode-build/assets/ConfirmDialog-Dln6iAxe.js       1.03 kB │ gzip:  0.57 kB
+../../tmp/fretline-pacifica-mode-build/assets/ImageCreditsPage-Dvtr7VZi.js    1.74 kB │ gzip:  0.87 kB
+../../tmp/fretline-pacifica-mode-build/assets/CatalogCard-CGXb_uZy.js         5.07 kB │ gzip:  1.99 kB
+../../tmp/fretline-pacifica-mode-build/assets/BrandsPage-DJTdAP2U.js          5.61 kB │ gzip:  2.24 kB
+../../tmp/fretline-pacifica-mode-build/assets/WishlistPage-CwYOWNSr.js        5.66 kB │ gzip:  2.15 kB
+../../tmp/fretline-pacifica-mode-build/assets/BrandDetailPage-BlGQeiOa.js     6.05 kB │ gzip:  2.11 kB
+../../tmp/fretline-pacifica-mode-build/assets/ComparePage-CzKCMED4.js        11.50 kB │ gzip:  4.03 kB
+../../tmp/fretline-pacifica-mode-build/assets/CatalogPage-CXJUvJCF.js        18.46 kB │ gzip:  6.21 kB
+../../tmp/fretline-pacifica-mode-build/assets/FindMyGuitarPage-DEjAPfFQ.js   19.12 kB │ gzip:  6.22 kB
+../../tmp/fretline-pacifica-mode-build/assets/GuitarDetailPage-BzIgbou1.js   20.33 kB │ gzip:  6.81 kB
+../../tmp/fretline-pacifica-mode-build/assets/index-UsRXKfi_.js             136.82 kB │ gzip: 45.24 kB
+../../tmp/fretline-pacifica-mode-build/assets/vendor-DMuMWS1U.js            163.33 kB │ gzip: 53.22 kB
+../../tmp/fretline-pacifica-mode-build/assets/guitar-catalog-1zuhScDi.js    336.54 kB │ gzip: 36.41 kB
+✓ built in 2.78s

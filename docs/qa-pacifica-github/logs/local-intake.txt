@@ -1,0 +1,10 @@
+PASS Fresh Codespace displays the private image picker without failing to start
+PASS Picker fits 390px without horizontal overflow
+PASS Original JPEGs become browser-local blob URLs
+PASS All three browser-local colors remain interactive
+PASS Browser images work across Catalog navigation without adding a variant
+PASS Wishlist uses the same browser-local image and original ID
+PASS Clear revokes browser images and resets all four file inputs
+PASS Invalid images show an error while the placeholder remains
+PASS Refreshing does not persist private image data
+PASS No image uploads, console or runtime errors occurred

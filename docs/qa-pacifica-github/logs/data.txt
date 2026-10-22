@@ -1,0 +1,16 @@
+PASS 200 models, ten brands, twenty per brand; no duplicate or changed identity
+PASS only the authorized reviewed model changed; all other 199 records and archives are intact
+PASS all records satisfy catalog validation without claiming full verification
+PASS fresh manufacturer receipts and the exact PAC612VIIFM table column support the changes
+PASS AI illustration is excluded from licensed photos and the ignore rule protects local files
+PASS normal development module contains no illustration
+PASS a fresh Codespace starts the preview without private image files
+PASS opt-in gallery keeps one model, three descriptive colors and original hashes when files are supplied
+PASS multi-color update does not change any catalog record, rights registry or identity
+PASS preview middleware limits all four routes to the fixed model with no-store/noindex headers
+PASS build mode production always resolves an empty preview module
+PASS build mode pacifica-preview always resolves an empty preview module
+PASS all pages receive the same trusted price and source-gated specifications
+PASS Compare receives optional sourced rows and the manufacturer RRP qualifier
+PASS quiz ranking still uses real catalog IDs with finite scores
+15 Pacifica data / preview checks passed.

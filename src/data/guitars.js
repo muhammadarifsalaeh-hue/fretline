@@ -4,6 +4,7 @@ import PHASE7_GUITARS from './catalog/phase7Guitars.json';
 import CATALOG_POLICY from './catalog/catalogPolicy.json';
 import { getGuitarImages } from './guitarImages';
 import { trustedPrice } from '@/utils/dataTrust';
+import { ADDITIONAL_SPECIFICATIONS } from './additionalSpecifications';
 
 /**
  * Legacy demo records are retained for their stable IDs and editorial order.
@@ -242,7 +243,9 @@ const withImages = (g) => {
   const reviewed = REVIEWED_GUITARS[g.id];
   const record = reviewed ?? g;
   const sourceFields = new Set(record.source?.fields ?? []);
-  const specs = Object.fromEntries(['body', 'neck', 'fretboard', 'pickups', 'bridge', 'controls', 'scale', 'scaleMm', 'frets', 'strings', 'weightKg']
+  const specKeys = ['body', 'neck', 'fretboard', 'pickups', 'bridge', 'controls', 'scale', 'scaleMm', 'frets', 'strings', 'weightKg',
+    ...ADDITIONAL_SPECIFICATIONS.filter(({ key }) => Object.hasOwn(record.specs ?? {}, key)).map(({ key }) => key)];
+  const specs = Object.fromEntries(specKeys
     .map((key) => [key, sourceFields.has(`specs.${key}`) ? record.specs?.[key] ?? null : null]));
   const publicRecord = {
     ...g, ...reviewed, id: g.id,

@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:pacifica-preview": "vite --mode pacifica-preview",
     "build": "vite build",
     "preview": "vite preview",
     "images:check": "node scripts/check-images.mjs",

@@ -1,0 +1,76 @@
+PASS .catalog-card-image preserves original 1254×1254 PNG with contain sizing
+PASS .catalog-card-image exposes AI/unverified text
+PASS Catalog image is lazy-loaded
+PASS Preview endpoint serves unchanged bytes with no-store and noindex
+PASS Direct private-file path is denied: /.local-preview/yamaha-pacifica-612viifm-preview.png
+PASS Direct private-file path is denied: /@fs/workspace/fretline/.local-preview/yamaha-pacifica-612viifm-preview.png
+PASS Another model cannot use the image endpoint
+PASS Catalog actions save the existing ID once
+PASS .gallery-main preserves original 1254×1254 PNG with contain sizing
+PASS .gallery-main exposes AI/unverified text
+PASS Detail and Catalog share the exact development image
+PASS Illustration is not presented as a licensed gallery or zoomable product photo
+PASS Specification rows show the manufacturer facts and leave unknown shape unspecified
+PASS .wishlist-image preserves original 1254×1254 PNG with contain sizing
+PASS .wishlist-image exposes AI/unverified text
+PASS Wishlist keeps the same model and image
+PASS Wishlist survives reload without duplicates
+PASS Compare shows only the authorized model illustration
+PASS .catalog-card-image preserves original 1254×1254 PNG with contain sizing
+PASS .catalog-card-image exposes AI/unverified text
+PASS Catalog desktop has no page-level horizontal overflow
+PASS .gallery-main preserves original 1254×1254 PNG with contain sizing
+PASS .gallery-main exposes AI/unverified text
+PASS Detail desktop has no page-level horizontal overflow
+PASS Specs desktop has no page-level horizontal overflow
+PASS Wishlist desktop has no page-level horizontal overflow
+PASS .wishlist-image preserves original 1254×1254 PNG with contain sizing
+PASS .wishlist-image exposes AI/unverified text
+PASS Compare desktop has no page-level horizontal overflow
+PASS .catalog-card-image preserves original 1254×1254 PNG with contain sizing
+PASS .catalog-card-image exposes AI/unverified text
+PASS Catalog tablet-landscape has no page-level horizontal overflow
+PASS .gallery-main preserves original 1254×1254 PNG with contain sizing
+PASS .gallery-main exposes AI/unverified text
+PASS Detail tablet-landscape has no page-level horizontal overflow
+PASS Specs tablet-landscape has no page-level horizontal overflow
+PASS Wishlist tablet-landscape has no page-level horizontal overflow
+PASS .wishlist-image preserves original 1254×1254 PNG with contain sizing
+PASS .wishlist-image exposes AI/unverified text
+PASS Compare tablet-landscape has no page-level horizontal overflow
+PASS .catalog-card-image preserves original 1254×1254 PNG with contain sizing
+PASS .catalog-card-image exposes AI/unverified text
+PASS Catalog tablet-portrait has no page-level horizontal overflow
+PASS .gallery-main preserves original 1254×1254 PNG with contain sizing
+PASS .gallery-main exposes AI/unverified text
+PASS Detail tablet-portrait has no page-level horizontal overflow
+PASS Specs tablet-portrait has no page-level horizontal overflow
+PASS Wishlist tablet-portrait has no page-level horizontal overflow
+PASS .wishlist-image preserves original 1254×1254 PNG with contain sizing
+PASS .wishlist-image exposes AI/unverified text
+PASS Compare tablet-portrait has no page-level horizontal overflow
+PASS .catalog-card-image preserves original 1254×1254 PNG with contain sizing
+PASS .catalog-card-image exposes AI/unverified text
+PASS Catalog mobile has no page-level horizontal overflow
+PASS .gallery-main preserves original 1254×1254 PNG with contain sizing
+PASS .gallery-main exposes AI/unverified text
+PASS Detail mobile has no page-level horizontal overflow
+PASS Specs mobile has no page-level horizontal overflow
+PASS Wishlist mobile has no page-level horizontal overflow
+PASS .wishlist-image preserves original 1254×1254 PNG with contain sizing
+PASS .wishlist-image exposes AI/unverified text
+PASS Compare mobile has no page-level horizontal overflow
+PASS .catalog-card-image preserves original 1254×1254 PNG with contain sizing
+PASS .catalog-card-image exposes AI/unverified text
+PASS Catalog small-mobile has no page-level horizontal overflow
+PASS .gallery-main preserves original 1254×1254 PNG with contain sizing
+PASS .gallery-main exposes AI/unverified text
+PASS Detail small-mobile has no page-level horizontal overflow
+PASS Specs small-mobile has no page-level horizontal overflow
+PASS Wishlist small-mobile has no page-level horizontal overflow
+PASS .wishlist-image preserves original 1254×1254 PNG with contain sizing
+PASS .wishlist-image exposes AI/unverified text
+PASS Compare small-mobile has no page-level horizontal overflow
+PASS A different Yamaha retains its placeholder
+PASS Wishlist removal still works
+PASS No JavaScript, console or request failures in normal flows

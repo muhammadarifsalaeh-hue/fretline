@@ -6,6 +6,7 @@ import { guitarUrl } from '@/utils/routes';
 import Badge from '@/components/ui/Badge';
 import { ArrowUpRightIcon, CheckIcon, HeartIcon, PlusIcon } from '@/components/ui/Icons';
 import GuitarImage from './GuitarImage';
+import PriceSourceNote from './PriceSourceNote';
 import AppLink from '@/components/ui/AppLink';
 
 /** ปุ่มกลมมุมขวาบนของการ์ด (Wishlist / Compare) */
@@ -108,6 +109,7 @@ export default function GuitarCard({ guitar }) {
           <span className="font-mono text-xl text-gold">{formatPrice(guitar.price)}</span>
           {guitar.oldPrice && <span className="font-mono text-sm text-mute line-through">{formatPrice(guitar.oldPrice)}</span>}
         </p>
+        <PriceSourceNote guitar={guitar} />
       </div>
     </article>
   );

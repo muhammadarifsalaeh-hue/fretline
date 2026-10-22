@@ -5,6 +5,8 @@ import { formatPrice } from '@/utils/format';
 import { isSourceBacked, publicPrice } from '@/utils/dataTrust';
 import { guitarUrl } from '@/utils/routes';
 import GuitarImage from '@/components/guitar/GuitarImage';
+import PriceSourceNote from '@/components/guitar/PriceSourceNote';
+import PreviewColorIndicators from '@/components/guitar/PreviewColorIndicators';
 import AppLink from '@/components/ui/AppLink';
 import Badge from '@/components/ui/Badge';
 import { ArrowUpRightIcon, CheckIcon, CloseIcon, HeartIcon, PlusIcon } from '@/components/ui/Icons';
@@ -82,6 +84,8 @@ export default function CatalogCard({ guitar, index = 0, onRemove, compact = fal
           </AppLink>
         </h3>
 
+        <PreviewColorIndicators guitar={guitar} />
+
         <p className="mt-2 text-[11px] text-gold">{t(`status.${guitar.dataStatus ?? 'sample'}`)}</p>
         {(!verifiedOnly || isSourceBacked(guitar)) && <ul className="catalog-card-tags mt-4 flex flex-wrap gap-1.5">
           {guitar.tags.map((tag) => (
@@ -96,6 +100,7 @@ export default function CatalogCard({ guitar, index = 0, onRemove, compact = fal
           {guitar.oldPrice && !verifiedOnly && <span className="font-mono text-sm text-mute line-through">{formatPrice(guitar.oldPrice)}</span>}
         </p>
 
+        <PriceSourceNote guitar={guitar} />
         <div className="catalog-card-actions mt-4 flex gap-2">
           <AppLink
             href={href}
