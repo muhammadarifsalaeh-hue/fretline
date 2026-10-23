@@ -49,7 +49,7 @@
   line-height: var(--fl-leading-body);
   text-wrap: pretty;
 }
-.signature-home .home-experience-cta { margin-top: 30px; }
+.signature-home .home-experience-cta { margin-top: var(--fl-space-8); }
 .signature-home .home-experience-cta > svg { flex-shrink: 0; }
 .signature-home .home-experience-icon-link {
   display: inline-grid;
@@ -66,9 +66,9 @@
 .signature-home .home-find-panel {
   min-width: 0;
   padding: var(--fl-space-8);
-  border: 1px solid var(--fl-border-strong);
-  border-radius: var(--fl-radius-dialog);
-  background: radial-gradient(ellipse at 90% 0, rgb(var(--fl-color-accent) / .07), transparent 65%), var(--fl-surface);
+  border: 1px solid var(--fl-border);
+  border-radius: var(--fl-radius-card);
+  background: radial-gradient(ellipse at 90% 0, rgb(var(--fl-color-accent) / .035), transparent 65%), var(--fl-surface);
 }
 .signature-home .home-find-caption {
   display: flex;
@@ -102,7 +102,7 @@
   min-width: 0;
   min-height: 76px;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   padding: 10px 12px;
   border: 1px solid var(--fl-border);
   border-radius: var(--fl-radius-control);
@@ -125,7 +125,7 @@
   align-items: center;
   justify-content: space-between;
   gap: var(--fl-space-4);
-  margin-top: 26px;
+  margin-top: var(--fl-space-6);
   color: var(--fl-text-muted);
   font-size: var(--fl-type-caption);
   line-height: 1.7;
@@ -133,7 +133,7 @@
 
 .signature-home .home-compare-preview {
   min-width: 0;
-  padding: 26px;
+  padding: var(--fl-space-8);
   border: 1px solid var(--fl-border);
   border-radius: var(--fl-radius-card);
   background: var(--fl-surface);
@@ -158,11 +158,11 @@
   table-layout: fixed;
   border-collapse: collapse;
   text-align: left;
-  font-size: var(--fl-type-caption);
+  font-size: var(--fl-type-small);
   line-height: 1.7;
 }
 .signature-home .home-compare-preview-table th,
-.signature-home .home-compare-preview-table td { vertical-align: top; padding: 14px 8px; overflow-wrap: anywhere; font-weight: 400; }
+.signature-home .home-compare-preview-table td { vertical-align: top; padding: 16px 8px; overflow-wrap: anywhere; font-weight: 400; }
 .signature-home .home-compare-preview-table th:first-child { width: 64px; padding-left: 0; }
 .signature-home .home-compare-preview-table th:last-child,
 .signature-home .home-compare-preview-table td:last-child { padding-right: 0; }
@@ -260,7 +260,7 @@
 }
 @media (min-width: 640px) and (max-width: 1023px) {
   .signature-home .home-find-layout,
-  .signature-home .home-compare-layout { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px; }
+  .signature-home .home-compare-layout { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--fl-space-8); }
   .signature-home .home-find-panel,
   .signature-home .home-compare-preview { padding: var(--fl-space-6); }
   .signature-home .home-find-choices { grid-template-columns: minmax(0, 1fr); }
@@ -272,7 +272,7 @@
   .signature-home .home-compare-layout { grid-template-columns: minmax(0, 1fr); gap: 36px; }
   .signature-home .home-experience-copy h2 { margin-top: 18px; font-size: 2rem; }
   .signature-home .home-experience-description { margin-top: 18px; font-size: 15px; }
-  .signature-home .home-experience-cta { margin-top: 26px; }
+  .signature-home .home-experience-cta { margin-top: var(--fl-space-6); }
   .signature-home .home-find-panel,
   .signature-home .home-compare-preview { padding: var(--fl-space-6); }
   .signature-home .home-find-panel h3 { margin-top: 26px; font-size: 20px; }

@@ -1,0 +1,72 @@
+{
+  "baseline": "acdcf09ac1d5e2f6574e7977c36195beaf996ce6",
+  "branch": "master",
+  "scope": "Phase C final polish only; await visual approval before Phase D",
+  "reference": {
+    "dimensions": [
+      1280,
+      853
+    ],
+    "availability": "Conversation image and earlier measured/hash evidence; original attachment file unavailable in current runtime",
+    "method": "Manual visual review and measured app geometry; no pixel-diff score"
+  },
+  "referenceWidthLayout": {
+    "viewport": 1280,
+    "columns": 5,
+    "rows": 2,
+    "cardCount": 10,
+    "firstCardLeft": 24,
+    "firstCardTopWithinSection": 284.265625,
+    "cardWidth": 238.390625,
+    "cardHeight": 248.3125,
+    "gap": 10
+  },
+  "snapshots": {
+    "before": "http://127.0.0.1:5210",
+    "finalAfter": "http://127.0.0.1:5213",
+    "functionalRegression": "http://127.0.0.1:5211"
+  },
+  "tests": {
+    "capture-before.json": {
+      "passed": true,
+      "checks": 6
+    },
+    "capture-after.json": {
+      "passed": true,
+      "checks": 6
+    },
+    "visual-acceptance.json": {
+      "passed": true,
+      "checks": 13
+    },
+    "home-acceptance.json": {
+      "passed": true,
+      "checks": 20
+    },
+    "shared-regression.json": {
+      "passed": true,
+      "checks": 18
+    },
+    "regression/browser-phase-c-final.json": {
+      "passed": true,
+      "checks": 79
+    },
+    "assets-check.json": {
+      "passed": true,
+      "checks": 140
+    }
+  },
+  "data": {
+    "models": 200,
+    "brands": 10,
+    "modelsPerBrand": 20,
+    "productFilesUnchanged": true
+  },
+  "limitations": [
+    "Chromium/Linux viewport and touch emulation only; no physical iPad Safari or WebKit",
+    "Licensed photography differs from reference",
+    "Squier genuine oval variant differs; Córdoba temporary typography",
+    "197 existing product placeholders; no new product images",
+    "No new Lighthouse or field performance measurement"
+  ]
+}

@@ -127,7 +127,7 @@ def assets():
               https_url(row.get('sourcePage'), 'commons.wikimedia.org') and row.get('copyrightBasis')
               and row.get('trademarkNotice') is True for row in selected_logos.values()))
     cordoba = [row for row in logo_evidence['logos'] if row.get('brandId') == 'cordoba']
-    check('Córdoba wordmark is explicitly photographic; no standalone logo permission is claimed',
+    check('Córdoba photographed-wordmark evidence remains historical; no standalone logo permission is claimed',
           len(cordoba) == 1 and cordoba[0].get('status') == 'photographic-wordmark'
           and cordoba[0].get('notStandaloneLogo') is True
           and canonical_url(cordoba[0].get('sourcePage')) == canonical_url(CORDOBA_SOURCE)
@@ -209,7 +209,7 @@ def assets():
                     evidence = [candidate for candidate in photo_evidence['photographs']
                                 if candidate.get('brandId') == 'cordoba'
                                 and canonical_url(candidate.get('sourcePage')) == canonical_url(CORDOBA_SOURCE)]
-                    check('Córdoba uses the licensed NAMM photo for both background and authentic photographed wordmark',
+                    check('Córdoba keeps its licensed background and historical wordmark evidence while using temporary typography',
                           row.get('logoKind') == 'photographic'
                           and canonical_url(row['source']) == canonical_url(CORDOBA_SOURCE)
                           and row['license'] == 'CC BY 2.0'
@@ -217,6 +217,8 @@ def assets():
                           and row.get('wordmarkUse', {}).get('kind') == 'photographic'
                           and row.get('wordmarkUse', {}).get('sameSourceImage') is True
                           and row.get('wordmarkUse', {}).get('standaloneOfficialVectorPermissionClaimed') is False
+                          and row.get('wordmarkUse', {}).get('activeInUi') is False
+                          and row.get('uiBrandNamePresentation') == 'temporary typography'
                           and len(evidence) == 1 and bool(evidence[0].get('licenseEvidence'))
                           and evidence[0].get('license') == 'CC BY 2.0'
                           and 'photograph' in row.get('usage', '').lower(),
@@ -229,8 +231,8 @@ def assets():
             REPORT['assets'].append(item)
     # Source evidence is recorded, not promoted into product verification.
     REPORT['assetSummary'] = {'standaloneLogoFiles': len(logos), 'brandPhotos': len(photos),
-                              'visibleBrandMarks': 10, 'photographedWordmarks': 1,
-                              'newProductPhotos': 0, 'cordoba': 'Same licensed brand photograph provides a cropped authentic photographed wordmark; no standalone vector/logo permission claimed',
+                              'visibleImageMarks': 9, 'typographicBrandNames': 1, 'photographedWordmarks': 0,
+                              'newProductPhotos': 0, 'cordoba': 'Licensed photograph remains the background; the user-approved temporary name is typography, not an official logo. Historical photographed-wordmark evidence is retained but inactive in the UI.',
                               'trademarkNotice': 'Brand marks identify their owners; no endorsement is claimed.'}
 
 

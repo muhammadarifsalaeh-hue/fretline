@@ -1,0 +1,24 @@
+PASS An absent budget retains the full catalog, including unknown prices
+PASS The real public price remains 34000 and never becomes a budget ceiling
+PASS High bookmarked bounds preserve the requested numbers exactly
+PASS An explicit high maximum excludes unknowns without clamping its URL
+PASS Price limits are inclusive and preserve exact one-baht boundaries
+PASS An explicit zero maximum is a real filter rather than the default
+PASS Explicit min=0 means known prices only and survives URL round trips
+PASS Invalid, blank and unsafe numeric URL inputs use inactive safe defaults
+PASS Negative URL prices normalize to zero and remain explicit
+PASS Reversed finite bounds retain the existing min-to-max normalization
+PASS An unknown-price-only collection cannot satisfy an explicit budget
+PASS Search, brand, category and budget continue to intersect
+PASS Skipping the price facet preserves unknowns and the other filters
+PASS Search, facets, sorting and pagination updates retain high budget URLs
+PASS Reset removes price parameters and preserves the other selected facets
+PASS Clearing all filters serializes an empty URL and restores all 200 models
+PASS Malformed sorting, duplicate facets and page bounds retain safe behavior
+PASS Slider domains remain finite, nonzero and contain high bookmarked bounds
+PASS The over-70000 preset sends an open maximum and cannot select Pacifica
+PASS Moving the maximum slider to its finite endpoint opens the upper bound
+PASS A high finite bookmark leaves a native range step to the unbounded endpoint
+PASS All 200 IDs, ten brand quotas and archived-model separation are intact
+
+22/22 catalog price checks passed

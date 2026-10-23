@@ -20,7 +20,12 @@
 /* The picture owns its crop; the hero itself stays open for search suggestions. */
 .signature-home .signature-hero { min-height: 0; overflow: visible; }
 .signature-home .signature-hero-visual { position: absolute; inset: 0; overflow: hidden; }
-.signature-home .signature-hero-visual img { object-position: 66% 51%; }
+.signature-home .signature-hero-visual img {
+  object-position: 66% 51%;
+  /* A restrained grade keeps the existing wood texture and studio lighting
+     natural without adding another image or an animated filter layer. */
+  filter: saturate(.82) sepia(.04) contrast(.98) brightness(.93);
+}
 .signature-home .signature-hero-shade {
   position: absolute;
   inset: 0;
@@ -56,7 +61,9 @@
 .signature-home .signature-hero-actions { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; margin-top: 28px; }
 .signature-home .signature-hero-primary { padding-inline: 22px; color: var(--fl-canvas); background: var(--fl-accent-soft); }
 .signature-home .signature-hero-primary:hover { background: var(--fl-accent); }
-.signature-home .signature-hero-quiz { display: inline-flex; align-items: center; gap: 10px; min-height: var(--fl-touch-target); color: var(--fl-text-secondary); font-size: 14px; transition: color var(--fl-duration-feedback); }
+.signature-home .signature-hero-quiz { display: inline-flex; align-items: center; gap: 10px; min-height: var(--fl-control-height); color: var(--fl-text-secondary); font-size: 14px; transition: color var(--fl-duration-feedback); }
+.signature-home .signature-hero-primary > svg,
+.signature-home .signature-hero-quiz > svg { flex-shrink: 0; }
 .signature-home .signature-hero-quiz:hover { color: var(--fl-accent-soft); }
 .signature-home .signature-hero-search { max-width: 540px; margin-top: 36px; }
 .signature-home .signature-hero-search #search > div:first-child { border-radius: var(--fl-radius-control); border-color: var(--fl-border-strong); background: rgb(var(--fl-color-surface) / .9); backdrop-filter: none; }
@@ -72,7 +79,7 @@
 .signature-home .signature-stats-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 94px; padding-block: 20px; }
 .signature-home .signature-stats-list { display: flex; gap: 36px; }
 .signature-home .signature-stats-list > div { display: flex; align-items: baseline; gap: 10px; }
-.signature-home .signature-stats-list dt { order: 2; color: var(--fl-text-muted); font-size: 13px; }
+.signature-home .signature-stats-list dt { order: 2; color: var(--fl-text-muted); font-size: 13px; text-wrap: balance; }
 .signature-home .signature-stats-list dd { order: 1; color: var(--fl-text); font: 400 32px/1.2 var(--fl-font-display); font-variant-numeric: tabular-nums; }
 .signature-home .signature-stats-note { max-width: 360px; color: var(--fl-text-muted); font-size: 13px; text-align: right; }
 
@@ -161,7 +168,7 @@
   .signature-home .signature-stats-list { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); width: 100%; gap: 10px; flex: auto; }
   .signature-home .signature-stats-list > div { flex-direction: column; align-items: flex-start; gap: 6px; }
   .signature-home .signature-stats-list dd { font-size: 28px; }
-  .signature-home .signature-stats-list dt { font-size: 11px; line-height: 1.7; }
+  .signature-home .signature-stats-list dt { max-inline-size: 100%; font-size: 12px; line-height: 1.7; }
   .signature-home .signature-stats-note { font-size: 11px; }
   .signature-home .signature-collection { padding-top: var(--fl-space-16); }
   .signature-home .signature-collection-title { margin-top: 14px; margin-bottom: 24px; gap: 10px; align-items: flex-start; }

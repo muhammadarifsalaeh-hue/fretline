@@ -239,15 +239,17 @@
     "author": "Justin Higuchi",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "usage": "Córdoba brand-level editorial photograph only; not assigned to a catalog model. CSS separately frames left-wall classical guitars and the genuine photographed wordmark.",
-    "changes": "EXIF orientation; resize to1920px; WebP; metadata removed. CSS static crops exclude the Guild instruments/performer, with warm/dark grading. The wordmark preserves the original photographed ink and wood, with a warm grayscale/sepia grade; no tracing, color-key erasure or generated letters.",
+    "usage": "Córdoba brand-level editorial photograph only; not assigned to a catalog model. CSS frames the left-wall classical guitar. The photographed-wordmark provenance is retained but the current card uses a temporary typographic name.",
+    "changes": "EXIF orientation; resize to1920px; WebP; metadata removed. CSS static crop excludes Guild instruments/performer and applies warm/dark grading. Original file remains unchanged from Córdoba update; photographed-wordmark extraction is not used in current UI.",
     "subject": "Córdoba classical guitars displayed at the2020NAMMShow; exactmodels not identified.",
     "wordmarkUse": {
       "kind": "photographic",
       "sameSourceImage": true,
       "standaloneOfficialVectorPermissionClaimed": false,
-      "description": "Authentic printed Córdoba wordmark photographed on the left booth wall; source photograph CC BY2.0, original letterforms retained."
+      "description": "Authentic printed Córdoba wordmark photographed on the left booth wall; source photograph CC BY2.0, original letterforms retained.",
+      "activeInUi": false
     },
-    "logoKind": "photographic"
+    "logoKind": "photographic",
+    "uiBrandNamePresentation": "temporary typography"
   }
 ]

@@ -26,14 +26,15 @@ const logoFiles = {
 export const HOME_BRAND_ORDER = ['yamaha', 'fender', 'gibson', 'taylor', 'ibanez', 'prs', 'epiphone', 'martin', 'squier', 'cordoba'];
 export const HOME_BRAND_ASSETS = Object.fromEntries(HOME_BRAND_ORDER.map((id) => {
   const credit = photoCredits[id];
-  // The Córdoba wordmark is a framed detail of this licensed booth photograph,
-  // not a synthesized mark or a separately licensed manufacturer vector file.
-  const photographic = id === 'cordoba';
+  // Use an honest typographic name until a suitable standalone Córdoba mark is
+  // available. Preserve the licensed photograph and its wordmark provenance.
+  const typographic = id === 'cordoba';
   return [id, {
-    logo: photographic ? file('photos', id, 'webp') : file('logos', id, id === 'squier' ? 'png' : 'svg'),
-    logoKind: photographic ? 'photographic' : 'mark',
+    logo: typographic ? null : file('logos', id, id === 'squier' ? 'png' : 'svg'),
+    logoKind: typographic ? 'typographic' : 'mark',
     photo: file('photos', id, 'webp'),
-    logoSource: logoFiles[id] ? commons(logoFiles[id]) : photographic ? commons(credit[0]) : null,
+    logoSource: logoFiles[id] ? commons(logoFiles[id]) : null,
+    photographedWordmarkSource: typographic ? commons(credit[0]) : null,
     photoSource: credit ? commons(credit[0]) : null,
     author: credit?.[1], license: credit?.[2],
     licenseUrl: credit ? `https://creativecommons.org/licenses/${credit[3]}/` : null,

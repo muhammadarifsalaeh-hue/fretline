@@ -33,7 +33,7 @@
   height: 100%;
   object-fit: cover;
   object-position: 54% 46%;
-  filter: sepia(.5) saturate(.68) brightness(.6);
+  filter: sepia(.6) saturate(.65) contrast(1.08) brightness(.68);
   transform: rotate(-25deg) scale(1.48);
 }
 .signature-home .signature-brand-header-art::after {
@@ -117,7 +117,7 @@
   min-width: 0;
   aspect-ratio: .96;
   overflow: hidden;
-  border: 1px solid rgb(var(--fl-color-accent) / .38);
+  border: 1px solid rgb(var(--fl-color-accent) / .46);
   border-radius: 6px;
   background: #0b0a08;
   color: var(--fl-text);
@@ -132,29 +132,41 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
-  filter: sepia(.36) saturate(.65) brightness(.65);
+  filter: sepia(.55) saturate(.62) contrast(1.1) brightness(.76);
 }
-.signature-home .signature-brand-card--yamaha .signature-brand-photo { object-position: 46% 20%; }
+.signature-home .signature-brand-card--yamaha .signature-brand-photo {
+  object-position: 46% 100%;
+  transform: rotate(-14deg) scale(1.35);
+  transform-origin: 72% 35%;
+}
 .signature-home .signature-brand-card--fender .signature-brand-photo { object-position: 48% 47%; }
 .signature-home .signature-brand-card--gibson .signature-brand-photo {
   object-position: 52% 76%;
-  transform: scale(1.7);
+  transform: scale(2.25);
   transform-origin: 52% 100%;
 }
 .signature-home .signature-brand-card--taylor .signature-brand-photo {
   object-position: 70% 72%;
-  transform: scale(1.45);
-  transform-origin: 70% 100%;
+  transform: scale(2.4);
+  transform-origin: 79% 75%;
 }
 .signature-home .signature-brand-card--ibanez .signature-brand-photo {
   object-position: 45% 45%;
-  transform: scale(1.15);
-  transform-origin: 45% 72%;
+  transform: scale(2);
+  transform-origin: 50% 69%;
 }
 .signature-home .signature-brand-card--prs .signature-brand-photo { object-position: 51% 45%; }
-.signature-home .signature-brand-card--epiphone .signature-brand-photo { object-position: 42% 31%; }
+.signature-home .signature-brand-card--epiphone .signature-brand-photo {
+  object-position: 42% 31%;
+  transform: scale(1.85);
+  transform-origin: 32% 44%;
+}
 .signature-home .signature-brand-card--martin .signature-brand-photo { object-position: 48% 40%; }
-.signature-home .signature-brand-card--squier .signature-brand-photo { object-position: 50% 35%; }
+.signature-home .signature-brand-card--squier .signature-brand-photo {
+  object-position: 50% 35%;
+  transform: scale(2.15);
+  transform-origin: 79% 51%;
+}
 .signature-home .signature-brand-card--cordoba .signature-brand-photo {
   /* Only the classical guitar under the Córdoba sign on the left booth wall.
      The performer and Guild instruments on the right stay outside this frame. */
@@ -178,8 +190,10 @@
   z-index: 1;
   inset: 0;
   pointer-events: none;
-  background: linear-gradient(0deg, #000 0%, #000e 18%, #0006 54%, #0001 100%),
-    linear-gradient(90deg, #0003, transparent 60%, #0004);
+  background: linear-gradient(0deg, #000 0%, #000e 19%, #0007 49%, #0001 100%),
+    linear-gradient(90deg, #0005, transparent 44%, #0006),
+    radial-gradient(ellipse at 50% 32%, transparent 25%, #0004 100%),
+    radial-gradient(ellipse at 90% 0, #c8a15a12, transparent 58%);
 }
 .signature-home .signature-brand-card::after {
   position: absolute;
@@ -189,34 +203,43 @@
   pointer-events: none;
   border-radius: inherit;
   background: radial-gradient(ellipse at 100% 0, rgb(var(--fl-color-accent) / .15), transparent 48%);
-  opacity: 0;
+  opacity: .25;
   transition: opacity var(--fl-duration-transition);
 }
 .signature-home .signature-brand-mark {
   position: absolute;
   z-index: 2;
-  top: 32%;
-  right: 10%;
-  left: 10%;
+  top: 35%;
+  right: 9%;
+  left: 9%;
   display: grid;
-  height: 34%;
+  height: 40%;
   place-items: center;
 }
 .signature-home .signature-brand-mark > img {
   display: block;
   width: 100%;
   height: 100%;
-  max-width: 190px;
+  max-width: 208px;
   object-fit: contain;
   /* Inspected files have transparent counters, not opaque white knockouts.
      A monochrome filter preserves those alpha contours and real letterforms. */
   filter: brightness(0) invert(1);
   opacity: .97;
 }
-.signature-home .signature-brand-card--gibson .signature-brand-mark { top: 26%; height: 45%; right: 7%; left: 7%; }
-.signature-home .signature-brand-card--taylor .signature-brand-mark { top: 26%; height: 43%; right: 16%; left: 16%; }
+.signature-home .signature-brand-card--gibson .signature-brand-mark { top: 32.5%; height: 42%; right: 9%; left: 9%; }
+.signature-home .signature-brand-card--taylor .signature-brand-mark { top: 32%; height: 42%; right: 18%; left: 18%; }
 .signature-home .signature-brand-card--prs .signature-brand-mark { right: 13%; left: 13%; }
 .signature-home .signature-brand-card--martin .signature-brand-mark { right: 8%; left: 8%; }
+.signature-home .signature-brand-card--squier .signature-brand-mark { mix-blend-mode: screen; }
+.signature-home .signature-brand-card--cordoba .signature-brand-mark [data-brand-fallback] {
+  font-family: var(--fl-font-display);
+  font-size: clamp(56px, 5.5vw, 64px);
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -.02em;
+  white-space: nowrap;
+}
 .signature-home .signature-brand-mark [data-brand-fallback] {
   max-width: 100%;
   color: var(--fl-text);
@@ -387,10 +410,11 @@
   .signature-home .signature-brand-view-all { margin-left: auto; font-size: 13px; }
   .signature-home .signature-brand-grid { gap: 10px; }
   .signature-home .signature-brand-card { aspect-ratio: .83; }
-  .signature-home .signature-brand-mark { top: 24%; right: 9%; left: 9%; height: 31%; }
-  .signature-home .signature-brand-card--gibson .signature-brand-mark { top: 22%; height: 35%; }
-  .signature-home .signature-brand-card--taylor .signature-brand-mark { top: 22%; height: 33%; right: 15%; left: 15%; }
+  .signature-home .signature-brand-mark { top: 27%; right: 9%; left: 9%; height: 32%; }
+  .signature-home .signature-brand-card--gibson .signature-brand-mark { top: 25%; height: 36%; }
+  .signature-home .signature-brand-card--taylor .signature-brand-mark { top: 26%; height: 32%; right: 16%; left: 16%; }
   .signature-home .signature-brand-mark [data-brand-fallback] { font-size: clamp(21px, 6vw, 30px); }
+  .signature-home .signature-brand-card--cordoba .signature-brand-mark [data-brand-fallback] { font-size: clamp(34px, 11.4vw, 48px); }
   .signature-home .signature-brand-count { right: 47px; bottom: 14px; left: 12px; font-size: 12px; line-height: 1.7; }
   .signature-home .signature-brand-count > span { width: 18px; margin-bottom: 8px; }
   .signature-home .signature-brand-arrow { right: 2px; bottom: 8px; }

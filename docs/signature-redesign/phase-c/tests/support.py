@@ -205,23 +205,21 @@ def assert_brands(metrics, width):
         assert card['href'] == '/brands/' + card['id'], card
         assert card['countText'] and re.search(r'\b20\b', card['countText']), card
         assert card['arrow'] and min(card['arrow']['width'], card['arrow']['height']) >= 43.5, card
-        assert len(card['logo']) == 1 and not card['fallback'], card
         assert len(card['photos']) == 1, card
         for photo in card['photos']:
             assert photo['complete'] and photo['naturalWidth'] > 0 and photo['naturalHeight'] > 0, card
             assert re.search(r'/' + re.escape(card['id']) + r'(?:[-.])', photo['src']), card
-        logo = card['logo'][0]
-        assert logo['complete'] and logo['naturalWidth'] > 0 and logo['naturalHeight'] > 0, card
         if card['id'] == 'cordoba':
-            assert logo['kind'] == 'photographic' and logo['src'] == card['photos'][0]['src'], card
-            assert logo['frame'] and min(logo['frame']['width'], logo['frame']['height']) > 0, card
-            assert 'hidden' in logo['frameOverflow'] or 'clip' in logo['frameOverflow'], card
-            # This is a real photographed wordmark crop. The deliberately large
-            # child image is clipped inside its explicit visible frame; measure
-            # that frame instead of falsely treating the hidden child as overflow.
-            assert logo['rect']['width'] > logo['frame']['width'], card
-            visible_mark = logo['frame']
+            # Final polish uses the user-approved temporary typography. Keep the
+            # licensed photograph as the background, never pose text as an
+            # officially supplied logo or reuse its photographed sign as a mark.
+            assert not card['logo'] and len(card['fallback']) == 1, card
+            assert card['fallback'][0]['text'] == 'Córdoba', card
+            visible_mark = card['fallback'][0]['rect']
         else:
+            assert len(card['logo']) == 1 and not card['fallback'], card
+            logo = card['logo'][0]
+            assert logo['complete'] and logo['naturalWidth'] > 0 and logo['naturalHeight'] > 0, card
             assert logo['kind'] != 'photographic' and logo['fit'] == 'contain', card
             visible_mark = logo['rect']
         assert visible_mark['left'] >= card['rect']['left'] - 1, card

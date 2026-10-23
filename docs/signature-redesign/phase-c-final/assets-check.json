@@ -1,0 +1,1533 @@
+{
+  "method": "Offline file/hash/recorded-evidence audit; no live source retrieval in this test.",
+  "checks": [
+    {
+      "name": "Exactly nineteen unique registered files: nine logo files and ten photos",
+      "passed": true,
+      "details": {
+        "rows": 19,
+        "kinds": {
+          "logo": 9,
+          "photo": 10
+        }
+      }
+    },
+    {
+      "name": "Nine standalone logo files and ten brand photographs are registered",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Every local Homepage asset is covered by the download/hash manifest",
+      "passed": true,
+      "details": {
+        "unregistered": []
+      }
+    },
+    {
+      "name": "Nine logo source pages and recorded copyright bases exist in research JSON",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Córdoba photographed-wordmark evidence remains historical; no standalone logo permission is claimed",
+      "passed": true,
+      "details": [
+        {
+          "brandId": "cordoba",
+          "brandName": "Córdoba",
+          "status": "photographic-wordmark",
+          "copyrightBasis": [],
+          "notes": "Photographic detail of genuine Córdoba booth lettering. No separate official vector-logo license or manufacturer endorsement claimed; no mark retraced or generated.",
+          "sourcePage": "https://commons.wikimedia.org/wiki/File:2020_NAMM_Show_(50783452413).jpg",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "licenseEvidence": "The original Justin Higuchi Flickr50783452413 photograph links CC BY2.0; Commons image metadata agrees. Genuine printed wordmark is CSS-framed from the upper-left wall.",
+          "notStandaloneLogo": true
+        }
+      ]
+    },
+    {
+      "name": "Source-credit registry covers ten photos and nine standalone logo sources",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "All nine pre-existing standalone logo hashes remain unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:yamaha matches exact registered SHA-256 and byte count",
+      "passed": true,
+      "details": {
+        "kind": "logo",
+        "brand": "yamaha",
+        "file": "src/assets/home-brands/logos/yamaha.svg",
+        "actualSha256": "9b4ec1af94004151e77a70b6786c0421e4e9adf7a688ccfa4f15b5cad9575e5b",
+        "actualBytes": 6550,
+        "svg": {
+          "xmlParsed": true,
+          "scriptForeignObjectExternalHref": 0,
+          "geometryElements": {
+            "path": 5,
+            "polygon": 3
+          },
+          "viewBox": "0 0 282.108 61.424"
+        },
+        "cleanup": {
+          "originalSha256": "46c0c78f8a6e6a08221b193c6d8a1119616806e2dd2a2c6f507d3400c08ce714",
+          "changes": "Removed unsupported Adobe foreignObject containing pgfRef; serialized XML namespaces; visible logo paths and geometry unchanged.",
+          "note": "Safety/content structure checked locally; original geometry comparison is not performed by this offline test."
+        }
+      }
+    },
+    {
+      "name": "logo:yamaha records HTTPS original URL, original digest and access date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:yamaha download and credit source match researched logo identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:yamaha parses as SVG without script, foreignObject or external href",
+      "passed": true,
+      "details": {
+        "xmlParsed": true,
+        "scriptForeignObjectExternalHref": 0,
+        "geometryElements": {
+          "path": 5,
+          "polygon": 3
+        },
+        "viewBox": "0 0 282.108 61.424"
+      }
+    },
+    {
+      "name": "logo:yamaha any file transformation has an explicit manifest note",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Yamaha unsupported Adobe foreignObject removal is explicitly recorded",
+      "passed": true,
+      "details": {
+        "changes": "Removed unsupported Adobe foreignObject containing pgfRef; serialized XML namespaces; visible logo paths and geometry unchanged."
+      }
+    },
+    {
+      "name": "logo:fender matches exact registered SHA-256 and byte count",
+      "passed": true,
+      "details": {
+        "kind": "logo",
+        "brand": "fender",
+        "file": "src/assets/home-brands/logos/fender.svg",
+        "actualSha256": "a1283030c0d3580d69f6d68c93edde7edb963a4feccf8915592a3f8d97dd5800",
+        "actualBytes": 10332,
+        "svg": {
+          "xmlParsed": true,
+          "scriptForeignObjectExternalHref": 0,
+          "geometryElements": {
+            "path": 1
+          },
+          "viewBox": "-0.95250012 -0.95250012 88.83206324 33.65500424"
+        }
+      }
+    },
+    {
+      "name": "logo:fender records HTTPS original URL, original digest and access date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:fender download and credit source match researched logo identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:fender parses as SVG without script, foreignObject or external href",
+      "passed": true,
+      "details": {
+        "xmlParsed": true,
+        "scriptForeignObjectExternalHref": 0,
+        "geometryElements": {
+          "path": 1
+        },
+        "viewBox": "-0.95250012 -0.95250012 88.83206324 33.65500424"
+      }
+    },
+    {
+      "name": "logo:fender any file transformation has an explicit manifest note",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:gibson matches exact registered SHA-256 and byte count",
+      "passed": true,
+      "details": {
+        "kind": "logo",
+        "brand": "gibson",
+        "file": "src/assets/home-brands/logos/gibson.svg",
+        "actualSha256": "d5243025ca8cad4ed58ae0b285ebe0508c9a8e8853f72a932afa1ec40d577fdc",
+        "actualBytes": 4442,
+        "svg": {
+          "xmlParsed": true,
+          "scriptForeignObjectExternalHref": 0,
+          "geometryElements": {
+            "path": 3
+          },
+          "viewBox": "0 0 300 190"
+        }
+      }
+    },
+    {
+      "name": "logo:gibson records HTTPS original URL, original digest and access date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:gibson download and credit source match researched logo identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:gibson parses as SVG without script, foreignObject or external href",
+      "passed": true,
+      "details": {
+        "xmlParsed": true,
+        "scriptForeignObjectExternalHref": 0,
+        "geometryElements": {
+          "path": 3
+        },
+        "viewBox": "0 0 300 190"
+      }
+    },
+    {
+      "name": "logo:gibson any file transformation has an explicit manifest note",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:taylor matches exact registered SHA-256 and byte count",
+      "passed": true,
+      "details": {
+        "kind": "logo",
+        "brand": "taylor",
+        "file": "src/assets/home-brands/logos/taylor.svg",
+        "actualSha256": "7c1ec122a4fe9b7fa8a7ec248d79f8f2ff98c480af08867f415260591262f3fe",
+        "actualBytes": 19563,
+        "svg": {
+          "xmlParsed": true,
+          "scriptForeignObjectExternalHref": 0,
+          "geometryElements": {
+            "path": 16
+          },
+          "viewBox": "0 0 244.405 188.626"
+        }
+      }
+    },
+    {
+      "name": "logo:taylor records HTTPS original URL, original digest and access date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:taylor download and credit source match researched logo identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:taylor parses as SVG without script, foreignObject or external href",
+      "passed": true,
+      "details": {
+        "xmlParsed": true,
+        "scriptForeignObjectExternalHref": 0,
+        "geometryElements": {
+          "path": 16
+        },
+        "viewBox": "0 0 244.405 188.626"
+      }
+    },
+    {
+      "name": "logo:taylor any file transformation has an explicit manifest note",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:ibanez matches exact registered SHA-256 and byte count",
+      "passed": true,
+      "details": {
+        "kind": "logo",
+        "brand": "ibanez",
+        "file": "src/assets/home-brands/logos/ibanez.svg",
+        "actualSha256": "e75dd4e2e4a49852873a8cec131ed0f45d347f8897502ec479c0c942e4cbbd68",
+        "actualBytes": 15717,
+        "svg": {
+          "xmlParsed": true,
+          "scriptForeignObjectExternalHref": 0,
+          "geometryElements": {
+            "path": 1
+          },
+          "viewBox": null
+        }
+      }
+    },
+    {
+      "name": "logo:ibanez records HTTPS original URL, original digest and access date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:ibanez download and credit source match researched logo identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:ibanez parses as SVG without script, foreignObject or external href",
+      "passed": true,
+      "details": {
+        "xmlParsed": true,
+        "scriptForeignObjectExternalHref": 0,
+        "geometryElements": {
+          "path": 1
+        },
+        "viewBox": null
+      }
+    },
+    {
+      "name": "logo:ibanez any file transformation has an explicit manifest note",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:prs matches exact registered SHA-256 and byte count",
+      "passed": true,
+      "details": {
+        "kind": "logo",
+        "brand": "prs",
+        "file": "src/assets/home-brands/logos/prs.svg",
+        "actualSha256": "8ee914aa413107a13fbeb675bc536339c22a10d11b925b3c20a492d584782bbb",
+        "actualBytes": 9564,
+        "svg": {
+          "xmlParsed": true,
+          "scriptForeignObjectExternalHref": 0,
+          "geometryElements": {
+            "path": 10
+          },
+          "viewBox": "196.07 36.25 219.62 89.17"
+        }
+      }
+    },
+    {
+      "name": "logo:prs records HTTPS original URL, original digest and access date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:prs download and credit source match researched logo identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:prs parses as SVG without script, foreignObject or external href",
+      "passed": true,
+      "details": {
+        "xmlParsed": true,
+        "scriptForeignObjectExternalHref": 0,
+        "geometryElements": {
+          "path": 10
+        },
+        "viewBox": "196.07 36.25 219.62 89.17"
+      }
+    },
+    {
+      "name": "logo:prs any file transformation has an explicit manifest note",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:epiphone matches exact registered SHA-256 and byte count",
+      "passed": true,
+      "details": {
+        "kind": "logo",
+        "brand": "epiphone",
+        "file": "src/assets/home-brands/logos/epiphone.svg",
+        "actualSha256": "fc58dfe38f0db9f22324009cb9a40b2b2f49321cd35c31273053b47855f6135d",
+        "actualBytes": 11489,
+        "svg": {
+          "xmlParsed": true,
+          "scriptForeignObjectExternalHref": 0,
+          "geometryElements": {
+            "path": 2
+          },
+          "viewBox": "0 0 973 324"
+        }
+      }
+    },
+    {
+      "name": "logo:epiphone records HTTPS original URL, original digest and access date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:epiphone download and credit source match researched logo identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:epiphone parses as SVG without script, foreignObject or external href",
+      "passed": true,
+      "details": {
+        "xmlParsed": true,
+        "scriptForeignObjectExternalHref": 0,
+        "geometryElements": {
+          "path": 2
+        },
+        "viewBox": "0 0 973 324"
+      }
+    },
+    {
+      "name": "logo:epiphone any file transformation has an explicit manifest note",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:martin matches exact registered SHA-256 and byte count",
+      "passed": true,
+      "details": {
+        "kind": "logo",
+        "brand": "martin",
+        "file": "src/assets/home-brands/logos/martin.svg",
+        "actualSha256": "a375bd6d7e9bab0947bee1416d1305eee1012b0a20e8d3fdb8d15abafefe7fb3",
+        "actualBytes": 14244,
+        "svg": {
+          "xmlParsed": true,
+          "scriptForeignObjectExternalHref": 0,
+          "geometryElements": {
+            "path": 1
+          },
+          "viewBox": "131.65 131.65 360 131.09"
+        }
+      }
+    },
+    {
+      "name": "logo:martin records HTTPS original URL, original digest and access date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:martin download and credit source match researched logo identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:martin parses as SVG without script, foreignObject or external href",
+      "passed": true,
+      "details": {
+        "xmlParsed": true,
+        "scriptForeignObjectExternalHref": 0,
+        "geometryElements": {
+          "path": 1
+        },
+        "viewBox": "131.65 131.65 360 131.09"
+      }
+    },
+    {
+      "name": "logo:martin any file transformation has an explicit manifest note",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:squier matches exact registered SHA-256 and byte count",
+      "passed": true,
+      "details": {
+        "kind": "logo",
+        "brand": "squier",
+        "file": "src/assets/home-brands/logos/squier.png",
+        "actualSha256": "03e1dfbf8913ed109b7e78c2e8fb33ef5854489009e56764a91a1bb61b3d1199",
+        "actualBytes": 137905
+      }
+    },
+    {
+      "name": "logo:squier records HTTPS original URL, original digest and access date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:squier download and credit source match researched logo identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:squier is the selected transparent PNG, without silent SVG substitution",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "logo:squier any file transformation has an explicit manifest note",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:fender matches exact registered SHA-256 and byte count",
+      "passed": true,
+      "details": {
+        "kind": "photo",
+        "brand": "fender",
+        "file": "src/assets/home-brands/photos/fender.webp",
+        "actualSha256": "17043a4f1fc869704a4d7da2519f5463539e242e65dedbe432be57cb91d388b9",
+        "actualBytes": 56928,
+        "evidenceFormat": "research JSON"
+      }
+    },
+    {
+      "name": "photo:fender records HTTPS original URL, original digest and access date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:fender has explicit source/author/license/transform/use records",
+      "passed": true,
+      "details": {
+        "source": "https://commons.wikimedia.org/wiki/File:1979_Fender_Stratocaster_headstock_(2010-03-18_01.49.11_by_John_Tuggle).jpg",
+        "author": "John Tuggle",
+        "license": "CC BY 2.0",
+        "changes": "EXIF orientation; resize; WebP; metadata removed. CSS cover crop, sepia/warm tone and dark gradients in Homepage. Photo derivatives retain source license.",
+        "usage": "Brand-level ambient photo only; not assigned to a catalog model"
+      }
+    },
+    {
+      "name": "photo:fender credit registry matches selected source and license",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:fender exact selected source has recorded research evidence",
+      "passed": true,
+      "details": {
+        "evidence": "research JSON"
+      }
+    },
+    {
+      "name": "photo:fender is a local optimized WebP derivative",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:gibson matches exact registered SHA-256 and byte count",
+      "passed": true,
+      "details": {
+        "kind": "photo",
+        "brand": "gibson",
+        "file": "src/assets/home-brands/photos/gibson.webp",
+        "actualSha256": "acdf1dd15897bde475a15baca5c7a37b75b2fe39aac2dc5f4893d29faaa15180",
+        "actualBytes": 55588,
+        "evidenceFormat": "accessed photo-research README"
+      }
+    },
+    {
+      "name": "photo:gibson records HTTPS original URL, original digest and access date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:gibson has explicit source/author/license/transform/use records",
+      "passed": true,
+      "details": {
+        "source": "https://commons.wikimedia.org/wiki/File:Gibson_Logo_and_Guitar.jpg",
+        "author": "Glenn Francis / PacificProDigital.com (Toglenn)",
+        "license": "CC BY-SA 4.0",
+        "changes": "EXIF orientation; resize; WebP; metadata removed. CSS cover crop, sepia/warm tone and dark gradients in Homepage. Photo derivatives retain source license.",
+        "usage": "Brand-level ambient photo only; not assigned to a catalog model"
+      }
+    },
+    {
+      "name": "photo:gibson credit registry matches selected source and license",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:gibson exact selected source has recorded research evidence",
+      "passed": true,
+      "details": {
+        "evidence": "accessed photo-research README"
+      }
+    },
+    {
+      "name": "photo:gibson is a local optimized WebP derivative",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:ibanez matches exact registered SHA-256 and byte count",
+      "passed": true,
+      "details": {
+        "kind": "photo",
+        "brand": "ibanez",
+        "file": "src/assets/home-brands/photos/ibanez.webp",
+        "actualSha256": "392903e799da12023cd3b7a849f92f006c5e5af88531ddd768f2b8fb637948e3",
+        "actualBytes": 147516,
+        "evidenceFormat": "accessed photo-research README"
+      }
+    },
+    {
+      "name": "photo:ibanez records HTTPS original URL, original digest and access date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:ibanez has explicit source/author/license/transform/use records",
+      "passed": true,
+      "details": {
+        "source": "https://commons.wikimedia.org/wiki/File:Ibanez_electric_guitar_ICX120_body.jpg",
+        "author": "Elmschrat",
+        "license": "CC BY-SA 4.0",
+        "changes": "EXIF orientation; resize; WebP; metadata removed. CSS cover crop, sepia/warm tone and dark gradients in Homepage. Photo derivatives retain source license.",
+        "usage": "Brand-level ambient photo only; not assigned to a catalog model"
+      }
+    },
+    {
+      "name": "photo:ibanez credit registry matches selected source and license",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:ibanez exact selected source has recorded research evidence",
+      "passed": true,
+      "details": {
+        "evidence": "accessed photo-research README"
+      }
+    },
+    {
+      "name": "photo:ibanez is a local optimized WebP derivative",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:taylor matches exact registered SHA-256 and byte count",
+      "passed": true,
+      "details": {
+        "kind": "photo",
+        "brand": "taylor",
+        "file": "src/assets/home-brands/photos/taylor.webp",
+        "actualSha256": "9c96ccd5dabb6495c4de977c47c49c31f237e5275647ef820d98f125a0cc11d4",
+        "actualBytes": 104982,
+        "evidenceFormat": "research JSON"
+      }
+    },
+    {
+      "name": "photo:taylor records HTTPS original URL, original digest and access date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:taylor has explicit source/author/license/transform/use records",
+      "passed": true,
+      "details": {
+        "source": "https://commons.wikimedia.org/wiki/File:Taylor_Guitar_leaned_on_stool.jpg",
+        "author": "Lisa Hall-Wilson",
+        "license": "CC BY 2.0",
+        "changes": "EXIF orientation; resize; WebP; metadata removed. CSS cover crop, sepia/warm tone and dark gradients in Homepage. Photo derivatives retain source license.",
+        "usage": "Brand-level ambient photo only; not assigned to a catalog model"
+      }
+    },
+    {
+      "name": "photo:taylor credit registry matches selected source and license",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:taylor exact selected source has recorded research evidence",
+      "passed": true,
+      "details": {
+        "evidence": "research JSON"
+      }
+    },
+    {
+      "name": "photo:taylor is a local optimized WebP derivative",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:yamaha matches exact registered SHA-256 and byte count",
+      "passed": true,
+      "details": {
+        "kind": "photo",
+        "brand": "yamaha",
+        "file": "src/assets/home-brands/photos/yamaha.webp",
+        "actualSha256": "a122fb9902e344c24f2ec6b4ae985754ad83f77831b1199695ad8e136370f607",
+        "actualBytes": 181692,
+        "evidenceFormat": "accessed photo-research README"
+      }
+    },
+    {
+      "name": "photo:yamaha records HTTPS original URL, original digest and access date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:yamaha has explicit source/author/license/transform/use records",
+      "passed": true,
+      "details": {
+        "source": "https://commons.wikimedia.org/wiki/File:Yamaha_FGX04_Acoustic_headstock_(2011-11-19_12.06.24_by_Loco_Steve).jpg",
+        "author": "Loco Steve",
+        "license": "CC BY 2.0",
+        "changes": "EXIF orientation; resize; WebP; metadata removed. CSS cover crop, sepia/warm tone and dark gradients in Homepage. Photo derivatives retain source license.",
+        "usage": "Brand-level ambient photo only; not assigned to a catalog model"
+      }
+    },
+    {
+      "name": "photo:yamaha credit registry matches selected source and license",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:yamaha exact selected source has recorded research evidence",
+      "passed": true,
+      "details": {
+        "evidence": "accessed photo-research README"
+      }
+    },
+    {
+      "name": "photo:yamaha is a local optimized WebP derivative",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:prs matches exact registered SHA-256 and byte count",
+      "passed": true,
+      "details": {
+        "kind": "photo",
+        "brand": "prs",
+        "file": "src/assets/home-brands/photos/prs.webp",
+        "actualSha256": "5f0d39c4f4667c498fb2c272c7917c5b857cc814c7874f9306ca53dd56c0cf8d",
+        "actualBytes": 119902,
+        "evidenceFormat": "accessed photo-research README"
+      }
+    },
+    {
+      "name": "photo:prs records HTTPS original URL, original digest and access date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:prs has explicit source/author/license/transform/use records",
+      "passed": true,
+      "details": {
+        "source": "https://commons.wikimedia.org/wiki/File:PRS_Headstock_Close-up.jpg",
+        "author": "Freebird (Freebird_71)",
+        "license": "CC BY-SA 2.0",
+        "changes": "EXIF orientation; resize; WebP; metadata removed. CSS cover crop, sepia/warm tone and dark gradients in Homepage. Photo derivatives retain source license.",
+        "usage": "Brand-level ambient photo only; not assigned to a catalog model"
+      }
+    },
+    {
+      "name": "photo:prs credit registry matches selected source and license",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:prs exact selected source has recorded research evidence",
+      "passed": true,
+      "details": {
+        "evidence": "accessed photo-research README"
+      }
+    },
+    {
+      "name": "photo:prs is a local optimized WebP derivative",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:epiphone matches exact registered SHA-256 and byte count",
+      "passed": true,
+      "details": {
+        "kind": "photo",
+        "brand": "epiphone",
+        "file": "src/assets/home-brands/photos/epiphone.webp",
+        "actualSha256": "ab7a532f49fa9f2d9208674fd5eb87a08c68f94d302699f5ebde9173bf99cb4f",
+        "actualBytes": 133634,
+        "evidenceFormat": "research JSON"
+      }
+    },
+    {
+      "name": "photo:epiphone records HTTPS original URL, original digest and access date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:epiphone has explicit source/author/license/transform/use records",
+      "passed": true,
+      "details": {
+        "source": "https://commons.wikimedia.org/wiki/File:Epiphone_Les_Paul_Special_II_headstock.jpg",
+        "author": "Elmschrat",
+        "license": "CC BY-SA 4.0",
+        "changes": "EXIF orientation; resize; WebP; metadata removed. CSS cover crop, sepia/warm tone and dark gradients in Homepage. Photo derivatives retain source license.",
+        "usage": "Brand-level ambient photo only; not assigned to a catalog model"
+      }
+    },
+    {
+      "name": "photo:epiphone credit registry matches selected source and license",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:epiphone exact selected source has recorded research evidence",
+      "passed": true,
+      "details": {
+        "evidence": "research JSON"
+      }
+    },
+    {
+      "name": "photo:epiphone is a local optimized WebP derivative",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:martin matches exact registered SHA-256 and byte count",
+      "passed": true,
+      "details": {
+        "kind": "photo",
+        "brand": "martin",
+        "file": "src/assets/home-brands/photos/martin.webp",
+        "actualSha256": "14156fec656f94e637fe92672ec36f4154a5f1bc35a4ed543a7ca42f30f17139",
+        "actualBytes": 148948,
+        "evidenceFormat": "accessed photo-research README"
+      }
+    },
+    {
+      "name": "photo:martin records HTTPS original URL, original digest and access date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:martin has explicit source/author/license/transform/use records",
+      "passed": true,
+      "details": {
+        "source": "https://commons.wikimedia.org/wiki/File:Martin_JC-16ME_Aura_soundhole.jpg",
+        "author": "Elías Gómez",
+        "license": "CC BY-SA 2.0",
+        "changes": "EXIF orientation; resize; WebP; metadata removed. CSS cover crop, sepia/warm tone and dark gradients in Homepage. Photo derivatives retain source license.",
+        "usage": "Brand-level ambient photo only; not assigned to a catalog model"
+      }
+    },
+    {
+      "name": "photo:martin credit registry matches selected source and license",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:martin exact selected source has recorded research evidence",
+      "passed": true,
+      "details": {
+        "evidence": "accessed photo-research README"
+      }
+    },
+    {
+      "name": "photo:martin is a local optimized WebP derivative",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:squier matches exact registered SHA-256 and byte count",
+      "passed": true,
+      "details": {
+        "kind": "photo",
+        "brand": "squier",
+        "file": "src/assets/home-brands/photos/squier.webp",
+        "actualSha256": "a12f71e4ae97626a4863923ca1020c54d2a3212b610c8291d0487cdfec54076d",
+        "actualBytes": 56194,
+        "evidenceFormat": "research JSON"
+      }
+    },
+    {
+      "name": "photo:squier records HTTPS original URL, original digest and access date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:squier has explicit source/author/license/transform/use records",
+      "passed": true,
+      "details": {
+        "source": "https://commons.wikimedia.org/wiki/File:Squier_on_guitar_head.jpg",
+        "author": "Tharish",
+        "license": "CC BY-SA 3.0",
+        "changes": "EXIF orientation; resize; WebP; metadata removed. CSS cover crop, sepia/warm tone and dark gradients in Homepage. Photo derivatives retain source license.",
+        "usage": "Brand-level ambient photo only; not assigned to a catalog model"
+      }
+    },
+    {
+      "name": "photo:squier credit registry matches selected source and license",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:squier exact selected source has recorded research evidence",
+      "passed": true,
+      "details": {
+        "evidence": "research JSON"
+      }
+    },
+    {
+      "name": "photo:squier is a local optimized WebP derivative",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:cordoba matches exact registered SHA-256 and byte count",
+      "passed": true,
+      "details": {
+        "kind": "photo",
+        "brand": "cordoba",
+        "file": "src/assets/home-brands/photos/cordoba.webp",
+        "actualSha256": "0690c814e5dfb72d21d4e55181b7ce7cc64122c80084e1ae065da6d67d95c0e7",
+        "actualBytes": 248512,
+        "evidenceFormat": "research JSON"
+      }
+    },
+    {
+      "name": "photo:cordoba records HTTPS original URL, original digest and access date",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:cordoba has explicit source/author/license/transform/use records",
+      "passed": true,
+      "details": {
+        "source": "https://commons.wikimedia.org/wiki/File:2020_NAMM_Show_(50783452413).jpg",
+        "author": "Justin Higuchi",
+        "license": "CC BY 2.0",
+        "changes": "EXIF orientation; resize to1920px; WebP; metadata removed. CSS static crop excludes Guild instruments/performer and applies warm/dark grading. Original file remains unchanged from Córdoba update; photographed-wordmark extraction is not used in current UI.",
+        "usage": "Córdoba brand-level editorial photograph only; not assigned to a catalog model. CSS frames the left-wall classical guitar. The photographed-wordmark provenance is retained but the current card uses a temporary typographic name."
+      }
+    },
+    {
+      "name": "photo:cordoba credit registry matches selected source and license",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "photo:cordoba exact selected source has recorded research evidence",
+      "passed": true,
+      "details": {
+        "evidence": "research JSON"
+      }
+    },
+    {
+      "name": "photo:cordoba is a local optimized WebP derivative",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Córdoba keeps its licensed background and historical wordmark evidence while using temporary typography",
+      "passed": true,
+      "details": {
+        "manifest": {
+          "kind": "photo",
+          "brand": "cordoba",
+          "downloadURL": "https://upload.wikimedia.org/wikipedia/commons/4/4d/2020_NAMM_Show_%2850783452413%29.jpg",
+          "accessedOn": "2026-10-23",
+          "file": "src/assets/home-brands/photos/cordoba.webp",
+          "originalSha256": "f4dd1280d3d6c8ef58707a5ffcf3424b65e14874977b24d2c6ec569d433e1925",
+          "sha256": "0690c814e5dfb72d21d4e55181b7ce7cc64122c80084e1ae065da6d67d95c0e7",
+          "bytes": 248512,
+          "source": "https://commons.wikimedia.org/wiki/File:2020_NAMM_Show_(50783452413).jpg",
+          "originalSource": "https://www.flickr.com/photos/jus10h/50783452413/",
+          "author": "Justin Higuchi",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "usage": "Córdoba brand-level editorial photograph only; not assigned to a catalog model. CSS frames the left-wall classical guitar. The photographed-wordmark provenance is retained but the current card uses a temporary typographic name.",
+          "changes": "EXIF orientation; resize to1920px; WebP; metadata removed. CSS static crop excludes Guild instruments/performer and applies warm/dark grading. Original file remains unchanged from Córdoba update; photographed-wordmark extraction is not used in current UI.",
+          "subject": "Córdoba classical guitars displayed at the2020NAMMShow; exactmodels not identified.",
+          "wordmarkUse": {
+            "kind": "photographic",
+            "sameSourceImage": true,
+            "standaloneOfficialVectorPermissionClaimed": false,
+            "description": "Authentic printed Córdoba wordmark photographed on the left booth wall; source photograph CC BY2.0, original letterforms retained.",
+            "activeInUi": false
+          },
+          "logoKind": "photographic",
+          "uiBrandNamePresentation": "temporary typography"
+        },
+        "evidence": [
+          {
+            "brandId": "cordoba",
+            "subject": "Córdoba nylon-string classical guitars on the left booth wall at2020NAMM; exactmodels notidentified",
+            "sourcePage": "https://commons.wikimedia.org/wiki/File:2020_NAMM_Show_(50783452413).jpg",
+            "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/2020_NAMM_Show_%2850783452413%29.jpg",
+            "author": "Justin Higuchi",
+            "originalSource": "https://www.flickr.com/photos/jus10h/50783452413/",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+            "licenseEvidence": "Opened original photographer Flickr page and followed Some rights reserved to CC BY2.0. Commons extmetadata confirms identical author/license. Viewed source photo: authentic Córdoba wordmark and classical instruments on left wall; exclude Guild/performer onright.",
+            "useRestriction": "Brand atmosphere and photographed-wordmark framing only, never assigned to a catalog model or exact finish."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Phase B product-data/image baseline contains twenty-five unique files",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/data/catalog/phase7Guitars.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/data/catalog/archivedGuitars.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/data/catalog/projectArtwork.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/data/catalog/reviewedGuitars.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/data/catalog/catalogPolicy.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/data/catalog/imageRights.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/data/catalog/extraGuitars.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/assets/guitars/README.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/assets/guitars/.gitkeep",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/assets/guitars/martin-d-28/01-front.webp",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/assets/guitars/martin-d-28/LICENSE.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/assets/guitars/yamaha-fg820-12/01-front.webp",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/assets/guitars/yamaha-fg820-12/LICENSE.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/assets/guitars/yamaha-pacifica-612viifm/02-red.jpg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/assets/guitars/yamaha-pacifica-612viifm/01-black.jpg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/assets/guitars/yamaha-pacifica-612viifm/04-all-colors.jpg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/assets/guitars/yamaha-pacifica-612viifm/03-blue-teal.jpg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/assets/guitars/martin-d-28/responsive/01-front-960.webp",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/assets/guitars/martin-d-28/responsive/01-front-480.webp",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/assets/guitars/yamaha-fg820-12/responsive/01-front-960.webp",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: src/assets/guitars/yamaha-fg820-12/responsive/01-front-480.webp",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: public/images/hero/acoustic-studio.webp",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: public/images/hero/acoustic-studio-mobile.webp",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: public/images/hero/README.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Existing product data/image unchanged: public/images/hero/.gitkeep",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "assets": [
+    {
+      "kind": "logo",
+      "brand": "yamaha",
+      "file": "src/assets/home-brands/logos/yamaha.svg",
+      "actualSha256": "9b4ec1af94004151e77a70b6786c0421e4e9adf7a688ccfa4f15b5cad9575e5b",
+      "actualBytes": 6550,
+      "svg": {
+        "xmlParsed": true,
+        "scriptForeignObjectExternalHref": 0,
+        "geometryElements": {
+          "path": 5,
+          "polygon": 3
+        },
+        "viewBox": "0 0 282.108 61.424"
+      },
+      "cleanup": {
+        "originalSha256": "46c0c78f8a6e6a08221b193c6d8a1119616806e2dd2a2c6f507d3400c08ce714",
+        "changes": "Removed unsupported Adobe foreignObject containing pgfRef; serialized XML namespaces; visible logo paths and geometry unchanged.",
+        "note": "Safety/content structure checked locally; original geometry comparison is not performed by this offline test."
+      }
+    },
+    {
+      "kind": "logo",
+      "brand": "fender",
+      "file": "src/assets/home-brands/logos/fender.svg",
+      "actualSha256": "a1283030c0d3580d69f6d68c93edde7edb963a4feccf8915592a3f8d97dd5800",
+      "actualBytes": 10332,
+      "svg": {
+        "xmlParsed": true,
+        "scriptForeignObjectExternalHref": 0,
+        "geometryElements": {
+          "path": 1
+        },
+        "viewBox": "-0.95250012 -0.95250012 88.83206324 33.65500424"
+      }
+    },
+    {
+      "kind": "logo",
+      "brand": "gibson",
+      "file": "src/assets/home-brands/logos/gibson.svg",
+      "actualSha256": "d5243025ca8cad4ed58ae0b285ebe0508c9a8e8853f72a932afa1ec40d577fdc",
+      "actualBytes": 4442,
+      "svg": {
+        "xmlParsed": true,
+        "scriptForeignObjectExternalHref": 0,
+        "geometryElements": {
+          "path": 3
+        },
+        "viewBox": "0 0 300 190"
+      }
+    },
+    {
+      "kind": "logo",
+      "brand": "taylor",
+      "file": "src/assets/home-brands/logos/taylor.svg",
+      "actualSha256": "7c1ec122a4fe9b7fa8a7ec248d79f8f2ff98c480af08867f415260591262f3fe",
+      "actualBytes": 19563,
+      "svg": {
+        "xmlParsed": true,
+        "scriptForeignObjectExternalHref": 0,
+        "geometryElements": {
+          "path": 16
+        },
+        "viewBox": "0 0 244.405 188.626"
+      }
+    },
+    {
+      "kind": "logo",
+      "brand": "ibanez",
+      "file": "src/assets/home-brands/logos/ibanez.svg",
+      "actualSha256": "e75dd4e2e4a49852873a8cec131ed0f45d347f8897502ec479c0c942e4cbbd68",
+      "actualBytes": 15717,
+      "svg": {
+        "xmlParsed": true,
+        "scriptForeignObjectExternalHref": 0,
+        "geometryElements": {
+          "path": 1
+        },
+        "viewBox": null
+      }
+    },
+    {
+      "kind": "logo",
+      "brand": "prs",
+      "file": "src/assets/home-brands/logos/prs.svg",
+      "actualSha256": "8ee914aa413107a13fbeb675bc536339c22a10d11b925b3c20a492d584782bbb",
+      "actualBytes": 9564,
+      "svg": {
+        "xmlParsed": true,
+        "scriptForeignObjectExternalHref": 0,
+        "geometryElements": {
+          "path": 10
+        },
+        "viewBox": "196.07 36.25 219.62 89.17"
+      }
+    },
+    {
+      "kind": "logo",
+      "brand": "epiphone",
+      "file": "src/assets/home-brands/logos/epiphone.svg",
+      "actualSha256": "fc58dfe38f0db9f22324009cb9a40b2b2f49321cd35c31273053b47855f6135d",
+      "actualBytes": 11489,
+      "svg": {
+        "xmlParsed": true,
+        "scriptForeignObjectExternalHref": 0,
+        "geometryElements": {
+          "path": 2
+        },
+        "viewBox": "0 0 973 324"
+      }
+    },
+    {
+      "kind": "logo",
+      "brand": "martin",
+      "file": "src/assets/home-brands/logos/martin.svg",
+      "actualSha256": "a375bd6d7e9bab0947bee1416d1305eee1012b0a20e8d3fdb8d15abafefe7fb3",
+      "actualBytes": 14244,
+      "svg": {
+        "xmlParsed": true,
+        "scriptForeignObjectExternalHref": 0,
+        "geometryElements": {
+          "path": 1
+        },
+        "viewBox": "131.65 131.65 360 131.09"
+      }
+    },
+    {
+      "kind": "logo",
+      "brand": "squier",
+      "file": "src/assets/home-brands/logos/squier.png",
+      "actualSha256": "03e1dfbf8913ed109b7e78c2e8fb33ef5854489009e56764a91a1bb61b3d1199",
+      "actualBytes": 137905
+    },
+    {
+      "kind": "photo",
+      "brand": "fender",
+      "file": "src/assets/home-brands/photos/fender.webp",
+      "actualSha256": "17043a4f1fc869704a4d7da2519f5463539e242e65dedbe432be57cb91d388b9",
+      "actualBytes": 56928,
+      "evidenceFormat": "research JSON"
+    },
+    {
+      "kind": "photo",
+      "brand": "gibson",
+      "file": "src/assets/home-brands/photos/gibson.webp",
+      "actualSha256": "acdf1dd15897bde475a15baca5c7a37b75b2fe39aac2dc5f4893d29faaa15180",
+      "actualBytes": 55588,
+      "evidenceFormat": "accessed photo-research README"
+    },
+    {
+      "kind": "photo",
+      "brand": "ibanez",
+      "file": "src/assets/home-brands/photos/ibanez.webp",
+      "actualSha256": "392903e799da12023cd3b7a849f92f006c5e5af88531ddd768f2b8fb637948e3",
+      "actualBytes": 147516,
+      "evidenceFormat": "accessed photo-research README"
+    },
+    {
+      "kind": "photo",
+      "brand": "taylor",
+      "file": "src/assets/home-brands/photos/taylor.webp",
+      "actualSha256": "9c96ccd5dabb6495c4de977c47c49c31f237e5275647ef820d98f125a0cc11d4",
+      "actualBytes": 104982,
+      "evidenceFormat": "research JSON"
+    },
+    {
+      "kind": "photo",
+      "brand": "yamaha",
+      "file": "src/assets/home-brands/photos/yamaha.webp",
+      "actualSha256": "a122fb9902e344c24f2ec6b4ae985754ad83f77831b1199695ad8e136370f607",
+      "actualBytes": 181692,
+      "evidenceFormat": "accessed photo-research README"
+    },
+    {
+      "kind": "photo",
+      "brand": "prs",
+      "file": "src/assets/home-brands/photos/prs.webp",
+      "actualSha256": "5f0d39c4f4667c498fb2c272c7917c5b857cc814c7874f9306ca53dd56c0cf8d",
+      "actualBytes": 119902,
+      "evidenceFormat": "accessed photo-research README"
+    },
+    {
+      "kind": "photo",
+      "brand": "epiphone",
+      "file": "src/assets/home-brands/photos/epiphone.webp",
+      "actualSha256": "ab7a532f49fa9f2d9208674fd5eb87a08c68f94d302699f5ebde9173bf99cb4f",
+      "actualBytes": 133634,
+      "evidenceFormat": "research JSON"
+    },
+    {
+      "kind": "photo",
+      "brand": "martin",
+      "file": "src/assets/home-brands/photos/martin.webp",
+      "actualSha256": "14156fec656f94e637fe92672ec36f4154a5f1bc35a4ed543a7ca42f30f17139",
+      "actualBytes": 148948,
+      "evidenceFormat": "accessed photo-research README"
+    },
+    {
+      "kind": "photo",
+      "brand": "squier",
+      "file": "src/assets/home-brands/photos/squier.webp",
+      "actualSha256": "a12f71e4ae97626a4863923ca1020c54d2a3212b610c8291d0487cdfec54076d",
+      "actualBytes": 56194,
+      "evidenceFormat": "research JSON"
+    },
+    {
+      "kind": "photo",
+      "brand": "cordoba",
+      "file": "src/assets/home-brands/photos/cordoba.webp",
+      "actualSha256": "0690c814e5dfb72d21d4e55181b7ce7cc64122c80084e1ae065da6d67d95c0e7",
+      "actualBytes": 248512,
+      "evidenceFormat": "research JSON"
+    }
+  ],
+  "productFiles": [
+    {
+      "path": "src/data/catalog/phase7Guitars.json",
+      "sha256": "ed8e16264d499c6a7c3bf3823e98a16cc28a4dd9a82d0024a3106f16cebeb433",
+      "bytes": 433834,
+      "afterSha256": "ed8e16264d499c6a7c3bf3823e98a16cc28a4dd9a82d0024a3106f16cebeb433",
+      "afterBytes": 433834,
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/archivedGuitars.json",
+      "sha256": "e60ebcaebd2f04e74268f288bc80176821e0b4d75326b7c68f0a5317934aaf56",
+      "bytes": 11121,
+      "afterSha256": "e60ebcaebd2f04e74268f288bc80176821e0b4d75326b7c68f0a5317934aaf56",
+      "afterBytes": 11121,
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/projectArtwork.json",
+      "sha256": "3cc8c62bd499ebd1fc2f2103a7318cccffb35f1f77c8e678a7918a2e5431b4f1",
+      "bytes": 2656,
+      "afterSha256": "3cc8c62bd499ebd1fc2f2103a7318cccffb35f1f77c8e678a7918a2e5431b4f1",
+      "afterBytes": 2656,
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/reviewedGuitars.json",
+      "sha256": "29cbf16c64d99d6392c5aed79d77920a8c95993a9483566fd08bba567f145502",
+      "bytes": 113147,
+      "afterSha256": "29cbf16c64d99d6392c5aed79d77920a8c95993a9483566fd08bba567f145502",
+      "afterBytes": 113147,
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/catalogPolicy.json",
+      "sha256": "43d48c003fa1b50379c6f6432fa5eeb740c397e64642797e983613663ffe71de",
+      "bytes": 221,
+      "afterSha256": "43d48c003fa1b50379c6f6432fa5eeb740c397e64642797e983613663ffe71de",
+      "afterBytes": 221,
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/imageRights.json",
+      "sha256": "51d845ec65ee92c3406cdd2d60a94480a83aed20c0416e9f734715a2ef90f2a7",
+      "bytes": 4039,
+      "afterSha256": "51d845ec65ee92c3406cdd2d60a94480a83aed20c0416e9f734715a2ef90f2a7",
+      "afterBytes": 4039,
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/extraGuitars.json",
+      "sha256": "21af8fbaf6c3c163ddd041451d13a988f3ec31d4653b750b620d64aef920dd4f",
+      "bytes": 26455,
+      "afterSha256": "21af8fbaf6c3c163ddd041451d13a988f3ec31d4653b750b620d64aef920dd4f",
+      "afterBytes": 26455,
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/README.md",
+      "sha256": "a1d142a6c22bb73104a13836d6c22840eb33101296da617fff46ffd1552c808b",
+      "bytes": 402,
+      "afterSha256": "a1d142a6c22bb73104a13836d6c22840eb33101296da617fff46ffd1552c808b",
+      "afterBytes": 402,
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "afterSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "afterBytes": 0,
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/martin-d-28/01-front.webp",
+      "sha256": "4292f985d53aac48eeef7511d131299c62a619bbdac4812073d1a71e5689a412",
+      "bytes": 131458,
+      "afterSha256": "4292f985d53aac48eeef7511d131299c62a619bbdac4812073d1a71e5689a412",
+      "afterBytes": 131458,
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/martin-d-28/LICENSE.md",
+      "sha256": "b5364110b6d9a655399447795bf7b0864bee2b1b7184cf0d58303d94b61a5977",
+      "bytes": 1261,
+      "afterSha256": "b5364110b6d9a655399447795bf7b0864bee2b1b7184cf0d58303d94b61a5977",
+      "afterBytes": 1261,
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-fg820-12/01-front.webp",
+      "sha256": "89d2d9b4d055fdf2a5d3be8d4457ffac55e58a26ab041e641d598029c89d8ee8",
+      "bytes": 168650,
+      "afterSha256": "89d2d9b4d055fdf2a5d3be8d4457ffac55e58a26ab041e641d598029c89d8ee8",
+      "afterBytes": 168650,
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-fg820-12/LICENSE.md",
+      "sha256": "7b255969f7b9bd076a7be330c537ab2cea7176ce3e31dc9f609eed3a6ec58bf3",
+      "bytes": 1337,
+      "afterSha256": "7b255969f7b9bd076a7be330c537ab2cea7176ce3e31dc9f609eed3a6ec58bf3",
+      "afterBytes": 1337,
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-pacifica-612viifm/02-red.jpg",
+      "sha256": "908dbf93d9d17bc625240f3a4580760e31c778751cc6ca5aee9446d23f694219",
+      "bytes": 192056,
+      "afterSha256": "908dbf93d9d17bc625240f3a4580760e31c778751cc6ca5aee9446d23f694219",
+      "afterBytes": 192056,
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-pacifica-612viifm/01-black.jpg",
+      "sha256": "5c42dbdb9acf570228a14faad8c55dc80a80249a0835fde24f2648077bc73238",
+      "bytes": 186844,
+      "afterSha256": "5c42dbdb9acf570228a14faad8c55dc80a80249a0835fde24f2648077bc73238",
+      "afterBytes": 186844,
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-pacifica-612viifm/04-all-colors.jpg",
+      "sha256": "1ec22d2536ba23d5b6c5c5766a203e6c1888be36641bb48d568a22da325ce3fa",
+      "bytes": 233509,
+      "afterSha256": "1ec22d2536ba23d5b6c5c5766a203e6c1888be36641bb48d568a22da325ce3fa",
+      "afterBytes": 233509,
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-pacifica-612viifm/03-blue-teal.jpg",
+      "sha256": "769726a7e450f2944031ec8a35a9293c4662be39dd9cd9a86138ab3a4f2d65ef",
+      "bytes": 191784,
+      "afterSha256": "769726a7e450f2944031ec8a35a9293c4662be39dd9cd9a86138ab3a4f2d65ef",
+      "afterBytes": 191784,
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/martin-d-28/responsive/01-front-960.webp",
+      "sha256": "afed4acf5db4f2c58ce4a14deae22dc5bbd013857f8130ea72f6eac1cb293c6e",
+      "bytes": 83140,
+      "afterSha256": "afed4acf5db4f2c58ce4a14deae22dc5bbd013857f8130ea72f6eac1cb293c6e",
+      "afterBytes": 83140,
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/martin-d-28/responsive/01-front-480.webp",
+      "sha256": "b6f469ff2d395a5a79a307e12672c5f11c6f12ee38f9ef494f730e6415a33f09",
+      "bytes": 20114,
+      "afterSha256": "b6f469ff2d395a5a79a307e12672c5f11c6f12ee38f9ef494f730e6415a33f09",
+      "afterBytes": 20114,
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-fg820-12/responsive/01-front-960.webp",
+      "sha256": "6f627bfa217f10a37dabef351cc902a67aa356bf9824c878ae0e22b417f6f9da",
+      "bytes": 115424,
+      "afterSha256": "6f627bfa217f10a37dabef351cc902a67aa356bf9824c878ae0e22b417f6f9da",
+      "afterBytes": 115424,
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-fg820-12/responsive/01-front-480.webp",
+      "sha256": "8635ac4ad707af1f447079d74e8c5e71825cf293a94c17b5af827feb2e42cedb",
+      "bytes": 38716,
+      "afterSha256": "8635ac4ad707af1f447079d74e8c5e71825cf293a94c17b5af827feb2e42cedb",
+      "afterBytes": 38716,
+      "unchanged": true
+    },
+    {
+      "path": "public/images/hero/acoustic-studio.webp",
+      "sha256": "0c72bc305b842fdeaff14a66ed3b7a8ed70e54c0d9b8923e040a18471ccc1c35",
+      "bytes": 149272,
+      "afterSha256": "0c72bc305b842fdeaff14a66ed3b7a8ed70e54c0d9b8923e040a18471ccc1c35",
+      "afterBytes": 149272,
+      "unchanged": true
+    },
+    {
+      "path": "public/images/hero/acoustic-studio-mobile.webp",
+      "sha256": "57532c351f51c21ba34ed91d5f819a42e44171fc7337a550e84fbe94c20f62d3",
+      "bytes": 43240,
+      "afterSha256": "57532c351f51c21ba34ed91d5f819a42e44171fc7337a550e84fbe94c20f62d3",
+      "afterBytes": 43240,
+      "unchanged": true
+    },
+    {
+      "path": "public/images/hero/README.md",
+      "sha256": "b0d7d3f297477b0d2de363783892f1fb4f7942b1d902b5ed01b13ce7ea651c7b",
+      "bytes": 549,
+      "afterSha256": "b0d7d3f297477b0d2de363783892f1fb4f7942b1d902b5ed01b13ce7ea651c7b",
+      "afterBytes": 549,
+      "unchanged": true
+    },
+    {
+      "path": "public/images/hero/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "afterSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "afterBytes": 0,
+      "unchanged": true
+    }
+  ],
+  "limitations": [
+    "Recorded copyright/reuse evidence is not a manufacturer endorsement or trademark license.",
+    "This test checks stored evidence consistency, not current availability or legal correctness of external pages."
+  ],
+  "assetSummary": {
+    "standaloneLogoFiles": 9,
+    "brandPhotos": 10,
+    "visibleImageMarks": 9,
+    "typographicBrandNames": 1,
+    "photographedWordmarks": 0,
+    "newProductPhotos": 0,
+    "cordoba": "Licensed photograph remains the background; the user-approved temporary name is typography, not an official logo. Historical photographed-wordmark evidence is retained but inactive in the UI.",
+    "trademarkNotice": "Brand marks identify their owners; no endorsement is claimed."
+  },
+  "passed": true
+}

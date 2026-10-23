@@ -52,7 +52,7 @@ function BrandCredits() {
             return <li key={brand.id}>
               <strong>{brand.name}</strong>{' — '}
               {asset?.photoSource && <><a href={asset.photoSource} target="_blank" rel="noreferrer">{asset.author}</a>{' · '}<a href={asset.licenseUrl} target="_blank" rel="noreferrer">{asset.license}</a>{'. '}</>}
-              {asset?.logoSource ? <a href={asset.logoSource} target="_blank" rel="noreferrer">{t(asset.logoKind === 'photographic' ? 'signature.brand.photoMarkCredit' : 'signature.brand.logoCredit')}</a> : t('signature.brand.pending')}
+              {asset?.logoSource ? <a href={asset.logoSource} target="_blank" rel="noreferrer">{t(asset.logoKind === 'photographic' ? 'signature.brand.photoMarkCredit' : 'signature.brand.logoCredit')}</a> : t(asset?.logoKind === 'typographic' ? 'signature.brand.typeCredit' : 'signature.brand.pending')}
             </li>;
           })}
         </ul>
