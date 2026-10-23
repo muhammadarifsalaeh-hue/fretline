@@ -7,6 +7,7 @@ import './index.css';
 import './styles/polish.css';
 import './styles/home-discovery.css';
 import './styles/home-brands.css';
+import './styles/brand-directory.css';
 import './styles/home-experiences.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -13,9 +13,9 @@ export default function HomePage() {
   return (
     <div className="signature-home">
       <Hero />
+      <Brands />
       <FeaturedGuitars />
       <Categories />
-      <Brands />
       <FindMyGuitar />
       <CompareSection />
     </div>

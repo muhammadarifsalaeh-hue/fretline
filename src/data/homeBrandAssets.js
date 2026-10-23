@@ -1,4 +1,4 @@
-// Homepage editorial assets only, never catalog model or finish evidence.
+// Shared brand-level editorial assets, never catalog model or finish evidence.
 // Provenance, license evidence and hashes: docs/signature-redesign/phase-c/.
 const files = import.meta.glob('/src/assets/home-brands/**/*.{svg,png,webp}', {
   eager: true, query: '?url', import: 'default',

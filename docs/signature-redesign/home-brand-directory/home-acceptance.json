@@ -1,0 +1,260 @@
+{
+  "baseURL": "http://127.0.0.1:5301",
+  "browser": "Chromium on Linux; physical Safari/iPad not tested",
+  "checks": [
+    {
+      "case": "identity-desktop",
+      "passed": true,
+      "details": {
+        "models": 200,
+        "uniqueIDs": 200,
+        "brands": {
+          "Fender": 20,
+          "Gibson": 20,
+          "Ibanez": 20,
+          "Yamaha": 20,
+          "PRS": 20,
+          "Epiphone": 20,
+          "Taylor": 20,
+          "Martin": 20,
+          "Córdoba": 20,
+          "Squier": 20
+        },
+        "categories": {
+          "electric": 90,
+          "acoustic": 73,
+          "classical": 20,
+          "bass": 17
+        }
+      }
+    },
+    {
+      "case": "search-desktop",
+      "passed": true,
+      "details": {
+        "keyboardAutocomplete": "Down/Up, active descendant, Enter, Escape",
+        "trimmedSearchSubmit": true,
+        "quickFilterQueries": [
+          {
+            "max": [
+              "20000"
+            ]
+          },
+          {
+            "q": [
+              "ผู้เริ่มต้น"
+            ]
+          },
+          {
+            "q": [
+              "มือซ้าย"
+            ]
+          },
+          {
+            "type": [
+              "acoustic"
+            ]
+          },
+          {
+            "type": [
+              "electric"
+            ]
+          }
+        ],
+        "detailHistory": "Back and Forward"
+      }
+    },
+    {
+      "case": "search-mobile",
+      "passed": true,
+      "details": {
+        "keyboardAutocomplete": "Down/Up, active descendant, Enter, Escape",
+        "trimmedSearchSubmit": true,
+        "quickFilterQueries": [
+          {
+            "max": [
+              "20000"
+            ]
+          },
+          {
+            "q": [
+              "ผู้เริ่มต้น"
+            ]
+          },
+          {
+            "q": [
+              "มือซ้าย"
+            ]
+          },
+          {
+            "type": [
+              "acoustic"
+            ]
+          },
+          {
+            "type": [
+              "electric"
+            ]
+          }
+        ],
+        "detailHistory": "Back and Forward"
+      }
+    },
+    {
+      "case": "featured-desktop",
+      "passed": true,
+      "details": {
+        "originalFeaturedPreserved": 9,
+        "allRailIDs": [
+          "yamaha-pacifica-612viifm",
+          "martin-d-28",
+          "yamaha-fg820-12",
+          "fender-american-professional-ii-stratocaster",
+          "gibson-les-paul-standard-60s",
+          "ibanez-rg550-genesis",
+          "taylor-214ce",
+          "martin-d-18",
+          "yamaha-fg800",
+          "cordoba-c5",
+          "fender-player-ii-jazz-bass"
+        ],
+        "tabsExactCategorySets": true,
+        "keyboardTabs": true,
+        "carousel": true,
+        "wishlistCrossPageReloadRemove": true,
+        "compareFourLimitRemove": true
+      }
+    },
+    {
+      "case": "featured-mobile",
+      "passed": true,
+      "details": {
+        "originalFeaturedPreserved": 9,
+        "allRailIDs": [
+          "yamaha-pacifica-612viifm",
+          "martin-d-28",
+          "yamaha-fg820-12",
+          "fender-american-professional-ii-stratocaster",
+          "gibson-les-paul-standard-60s",
+          "ibanez-rg550-genesis",
+          "taylor-214ce",
+          "martin-d-18",
+          "yamaha-fg800",
+          "cordoba-c5",
+          "fender-player-ii-jazz-bass"
+        ],
+        "tabsExactCategorySets": true,
+        "keyboardTabs": true,
+        "carousel": true,
+        "wishlistCrossPageReloadRemove": true,
+        "compareFourLimitRemove": true
+      }
+    },
+    {
+      "case": "categories-desktop",
+      "passed": true,
+      "details": [
+        {
+          "category": "electric",
+          "actualCatalogModels": 90
+        },
+        {
+          "category": "acoustic",
+          "actualCatalogModels": 73
+        },
+        {
+          "category": "classical",
+          "actualCatalogModels": 20
+        },
+        {
+          "category": "bass",
+          "actualCatalogModels": 17
+        }
+      ]
+    },
+    {
+      "case": "quiz-desktop",
+      "passed": true,
+      "details": {
+        "welcomeCTA": true,
+        "realQuizPrefillLinks": [
+          "electric",
+          "acoustic",
+          "classical",
+          "bass"
+        ]
+      }
+    },
+    {
+      "case": "quiz-mobile",
+      "passed": true,
+      "details": {
+        "welcomeCTA": true,
+        "realQuizPrefillLinks": [
+          "electric",
+          "acoustic",
+          "classical",
+          "bass"
+        ]
+      }
+    },
+    {
+      "case": "compare-desktop",
+      "passed": true,
+      "details": {
+        "sampleStillAvailable": true,
+        "liveSelections": [
+          {
+            "models": 2,
+            "onlyDifferentRows": 26,
+            "allRows": 29
+          },
+          {
+            "models": 3,
+            "onlyDifferentRows": 28,
+            "allRows": 29
+          },
+          {
+            "models": 4,
+            "onlyDifferentRows": 28,
+            "allRows": 29
+          }
+        ],
+        "previewAndFullTableRemove": true,
+        "differencesKeyboardToggle": true,
+        "detailAndBrowserBack": true
+      }
+    },
+    {
+      "case": "compare-mobile",
+      "passed": true,
+      "details": {
+        "sampleStillAvailable": true,
+        "liveSelections": [
+          {
+            "models": 2,
+            "onlyDifferentRows": 26,
+            "allRows": 29
+          },
+          {
+            "models": 3,
+            "onlyDifferentRows": 28,
+            "allRows": 29
+          },
+          {
+            "models": 4,
+            "onlyDifferentRows": 28,
+            "allRows": 29
+          }
+        ],
+        "previewAndFullTableRemove": true,
+        "differencesKeyboardToggle": true,
+        "detailAndBrowserBack": true
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "passed": true
+}

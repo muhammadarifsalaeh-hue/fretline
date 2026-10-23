@@ -2,12 +2,14 @@ import { useEffect, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { t } from '@/i18n';
 import BrandCard from '@/components/brands/BrandCard';
+import BrandCredits from '@/components/brands/BrandCredits';
 import BrandsToolbar from '@/components/brands/BrandsToolbar';
 import CatalogEmpty from '@/components/catalog/CatalogEmpty';
 import DiscoveryHeading from '@/components/ui/DiscoveryHeading';
 import { BRANDS } from '@/data/brands';
 import { CATEGORIES } from '@/data/categories';
 import { GUITARS } from '@/data/guitars';
+import { HOME_BRAND_ASSETS } from '@/data/homeBrandAssets';
 import { filterBrands, isBrandSort } from '@/utils/brandFilters';
 
 const COUNTRIES = [...new Set(BRANDS.map((brand) => brand.country).filter(Boolean))].sort();
@@ -36,6 +38,9 @@ export default function BrandsPage() {
 
   return (
     <div className="phase5-page brands-page">
+      <div className="brand-directory-atmosphere" aria-hidden="true">
+        <img src={HOME_BRAND_ASSETS.fender.photo} alt="" width="1200" height="700" decoding="async" />
+      </div>
       <DiscoveryHeading eyebrow="BRAND DIRECTORY" title={t('p5.brands.title')} description={t('p5.brands.intro')}
         breadcrumbs={[{ label: t('nav.brands') }]}
         aside={<p className="phase5-heading-meta">{t('p5.brands.summary', { brands: BRANDS.length, n: GUITARS.length })}</p>} />
@@ -45,9 +50,10 @@ export default function BrandsPage() {
           types={TYPES} countries={COUNTRIES} count={results.length} hasFilters={hasFilters} onClear={clear} />
         {sort === 'price' && BRANDS.every((brand) => brand.priceMin == null) && <p className="phase5-note">{t('p5.brands.noPrices')}</p>}
         {results.length ? <div className="brand-directory-grid">
-          {results.map((brand, index) => <BrandCard key={brand.id} brand={brand} index={index} />)}
+          {results.map((brand) => <BrandCard key={brand.id} brand={brand} />)}
         </div> : <CatalogEmpty title={t('p5.brands.empty')} text={t('p5.brands.emptyText')} onClear={clear} />}
         <p className="phase5-note brands-catalog-note">{t('p5.brands.note')}</p>
+        <BrandCredits />
       </section>
     </div>
   );

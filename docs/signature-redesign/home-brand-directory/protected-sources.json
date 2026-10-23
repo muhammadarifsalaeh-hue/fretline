@@ -1,0 +1,439 @@
+{
+  "baseline": "3b35de897fca64b33e1aaa47661d45a037f91fdc",
+  "method": "Byte comparison with git show, not source-name inference",
+  "checks": [
+    {
+      "path": "src/components/catalog/ActiveFilters.jsx",
+      "baselineSha256": "a0d86e1c34bbba9a120f25e564ea0601677becad68d8c96b5fd52dde9e466b41",
+      "currentSha256": "a0d86e1c34bbba9a120f25e564ea0601677becad68d8c96b5fd52dde9e466b41",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/CatalogCard.jsx",
+      "baselineSha256": "56f9eb2fbb1c7e8a4517b7d4776766b8873e4055122bddbbe1f3286007609d11",
+      "currentSha256": "56f9eb2fbb1c7e8a4517b7d4776766b8873e4055122bddbbe1f3286007609d11",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/CatalogEmpty.jsx",
+      "baselineSha256": "64b0c253fb113876662cf06624a2e49c097a4c9fd02cac2ac334d576dfc80525",
+      "currentSha256": "64b0c253fb113876662cf06624a2e49c097a4c9fd02cac2ac334d576dfc80525",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/CatalogPagination.jsx",
+      "baselineSha256": "8f8c66a3e321767d1a64e57e460c477817caaebcb986eefbe7d62348c212f25e",
+      "currentSha256": "8f8c66a3e321767d1a64e57e460c477817caaebcb986eefbe7d62348c212f25e",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/CatalogToolbar.jsx",
+      "baselineSha256": "2bf7950576115e4a4f22f8e0c50306f635dd89af4b494ca1dda750d03591a673",
+      "currentSha256": "2bf7950576115e4a4f22f8e0c50306f635dd89af4b494ca1dda750d03591a673",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/CategoryNavigation.jsx",
+      "baselineSha256": "2bde15d3920938a58e12912858ab88e33dfe8a06a8f723db853600af2f4b4387",
+      "currentSha256": "2bde15d3920938a58e12912858ab88e33dfe8a06a8f723db853600af2f4b4387",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/FilterCheckbox.jsx",
+      "baselineSha256": "cf3d3025f3bf28f52c11b5353c67efb6ff511b056cadeccaca51fc45dd9c4a96",
+      "currentSha256": "cf3d3025f3bf28f52c11b5353c67efb6ff511b056cadeccaca51fc45dd9c4a96",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/FilterGroup.jsx",
+      "baselineSha256": "a0b10f13ee689c4af17c0becffd9be04aa4b726f836ddcc01c8d06c3df7adc9e",
+      "currentSha256": "a0b10f13ee689c4af17c0becffd9be04aa4b726f836ddcc01c8d06c3df7adc9e",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/FilterPanel.jsx",
+      "baselineSha256": "fb975d59e86874f1b159f4e75eb7c086efdb9b1aa4e589f1b583250fe1ee34ed",
+      "currentSha256": "fb975d59e86874f1b159f4e75eb7c086efdb9b1aa4e589f1b583250fe1ee34ed",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/MobileFilterDrawer.jsx",
+      "baselineSha256": "5f8be2de8eb297bfcca1dbbed81c4064dc73efb3f082febcd8b2081a01865e93",
+      "currentSha256": "5f8be2de8eb297bfcca1dbbed81c4064dc73efb3f082febcd8b2081a01865e93",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/PriceRange.jsx",
+      "baselineSha256": "a08a254c06e6dc3e5b834371515010c9318385160ca5c782f840474937706531",
+      "currentSha256": "a08a254c06e6dc3e5b834371515010c9318385160ca5c782f840474937706531",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/compare/CompareEmpty.jsx",
+      "baselineSha256": "937e9ed47d019e2b4f8bd9b19de832e7a9b964251f2b811d32ba064ee2fc56d8",
+      "currentSha256": "937e9ed47d019e2b4f8bd9b19de832e7a9b964251f2b811d32ba064ee2fc56d8",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/compare/CompareSection.jsx",
+      "baselineSha256": "9c80bc868c4f9f8f0464637b12d34605c448d443c8942044d751193fe461e191",
+      "currentSha256": "9c80bc868c4f9f8f0464637b12d34605c448d443c8942044d751193fe461e191",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/compare/CompareTable.jsx",
+      "baselineSha256": "17c7eb11093cc3eb3e314cfce1b279e42cc79bc18db940ccc19042133629bc2f",
+      "currentSha256": "17c7eb11093cc3eb3e314cfce1b279e42cc79bc18db940ccc19042133629bc2f",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/compare/CompareVerdicts.jsx",
+      "baselineSha256": "8f167eeb64a0797bcde26d1576563a4a918df5bdf1bd6a78e07dbf8a796e083c",
+      "currentSha256": "8f167eeb64a0797bcde26d1576563a4a918df5bdf1bd6a78e07dbf8a796e083c",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/compare/GuitarPicker.jsx",
+      "baselineSha256": "b1e0993179683bbf77878f31d19638fdb6b5c5d727a02ddabb5834b47b12cd5e",
+      "currentSha256": "b1e0993179683bbf77878f31d19638fdb6b5c5d727a02ddabb5834b47b12cd5e",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/compare/compareRows.js",
+      "baselineSha256": "5b82091d90244c1e1742ef0570e64d83502a8a73bad28d47f7af49e1f7be4789",
+      "currentSha256": "5b82091d90244c1e1742ef0570e64d83502a8a73bad28d47f7af49e1f7be4789",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/ColorSwatches.jsx",
+      "baselineSha256": "8c56560701eb48f1aff7487297a49a78f9d65688c6bb4e5948b0ed3b8d96aba9",
+      "currentSha256": "8c56560701eb48f1aff7487297a49a78f9d65688c6bb4e5948b0ed3b8d96aba9",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/DataStatusNote.jsx",
+      "baselineSha256": "35bdf57cef08b5a772290aac454929448d160098efaf6049db906364941fbabf",
+      "currentSha256": "35bdf57cef08b5a772290aac454929448d160098efaf6049db906364941fbabf",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/DetailTabs.jsx",
+      "baselineSha256": "a9abc3780be18cf35da3c04b456de5d08900e4a810f0e11e0be42342fd7883c9",
+      "currentSha256": "a9abc3780be18cf35da3c04b456de5d08900e4a810f0e11e0be42342fd7883c9",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/GuitarGallery.jsx",
+      "baselineSha256": "86bf5a5783b989a2e4603918b05882cbca242d7794257d91b98bdefe5514eed2",
+      "currentSha256": "86bf5a5783b989a2e4603918b05882cbca242d7794257d91b98bdefe5514eed2",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/ImageAttribution.jsx",
+      "baselineSha256": "035d93a6ca250c6f99427a3a6e8fd9837f5b548ec9867a61b6b7f8c23f22b223",
+      "currentSha256": "035d93a6ca250c6f99427a3a6e8fd9837f5b548ec9867a61b6b7f8c23f22b223",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/ImageLightbox.jsx",
+      "baselineSha256": "ee2977f842f5b9b412e2684359d86c1fbc6a613f6d424025aa2cc8c9d9106d52",
+      "currentSha256": "ee2977f842f5b9b412e2684359d86c1fbc6a613f6d424025aa2cc8c9d9106d52",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/SimilarGuitars.jsx",
+      "baselineSha256": "5197047bdaaa769fbd4de3180494f2664d27a30ad0afb9b08bef71955fe0eaaf",
+      "currentSha256": "5197047bdaaa769fbd4de3180494f2664d27a30ad0afb9b08bef71955fe0eaaf",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/SpecTable.jsx",
+      "baselineSha256": "2ca291a0c93586f5ae0c63400fa94f132325cbf5b2ce2aba4d658dea4fe13131",
+      "currentSha256": "2ca291a0c93586f5ae0c63400fa94f132325cbf5b2ce2aba4d658dea4fe13131",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/StickyGuitarBar.jsx",
+      "baselineSha256": "15290180b19b82d9405d9a42515ea480867f8469a58e71c6856d23dc38e564b1",
+      "currentSha256": "15290180b19b82d9405d9a42515ea480867f8469a58e71c6856d23dc38e564b1",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/home/Hero.jsx",
+      "baselineSha256": "015b6e65082251d43e96b142cd78e106512e2d24baec0857962b3b56a0957485",
+      "currentSha256": "015b6e65082251d43e96b142cd78e106512e2d24baec0857962b3b56a0957485",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/BottomBar.jsx",
+      "baselineSha256": "f08a8321209498d4a6d61a11868d4d3b8f21438ef09dfb482b644891b7627ba4",
+      "currentSha256": "f08a8321209498d4a6d61a11868d4d3b8f21438ef09dfb482b644891b7627ba4",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/CompareBar.jsx",
+      "baselineSha256": "032e3bfec76d4039ba8e3be4c8794623ae30ce7e1cad736bb5b8bbe1394ba006",
+      "currentSha256": "032e3bfec76d4039ba8e3be4c8794623ae30ce7e1cad736bb5b8bbe1394ba006",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/Footer.jsx",
+      "baselineSha256": "b19e5d7990b7d604129f3597e80cf11157cf082793bccd5b6eb5cba46d2d029e",
+      "currentSha256": "b19e5d7990b7d604129f3597e80cf11157cf082793bccd5b6eb5cba46d2d029e",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/IconButton.jsx",
+      "baselineSha256": "d9686bdb8a2378c3bdcabed0c32030734200d1a9da67c7613b8b62d011ab8ab1",
+      "currentSha256": "d9686bdb8a2378c3bdcabed0c32030734200d1a9da67c7613b8b62d011ab8ab1",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/Logo.jsx",
+      "baselineSha256": "b7e77c5175591d0a8abbba0ca8b1e7089658ccc6147f61b7e0e0549c51dc8b1c",
+      "currentSha256": "b7e77c5175591d0a8abbba0ca8b1e7089658ccc6147f61b7e0e0549c51dc8b1c",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/MegaMenu.jsx",
+      "baselineSha256": "c45046a66b685c7a93203df4f585293af513e8632c7edcbd735744970c8e739b",
+      "currentSha256": "c45046a66b685c7a93203df4f585293af513e8632c7edcbd735744970c8e739b",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/MobileMenu.jsx",
+      "baselineSha256": "87dd23675f9395652ded80ba1e289bef70a11a47365e773612c853f05999baa4",
+      "currentSha256": "87dd23675f9395652ded80ba1e289bef70a11a47365e773612c853f05999baa4",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/Navbar.jsx",
+      "baselineSha256": "eb2eb046cce79d10011c7ef34994b6cc3b2834287137731f0da52f0f0106b392",
+      "currentSha256": "eb2eb046cce79d10011c7ef34994b6cc3b2834287137731f0da52f0f0106b392",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/ScrollManager.jsx",
+      "baselineSha256": "01e75fe8d455fef40ffaf76efa1f8864d67d4e86dd4af3f2da1885b756dd61db",
+      "currentSha256": "01e75fe8d455fef40ffaf76efa1f8864d67d4e86dd4af3f2da1885b756dd61db",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/Toast.jsx",
+      "baselineSha256": "6242bb68a1ecb1c0d90a523d0dc17524cd1b74cb0f403d8b72fbcab8e9643de8",
+      "currentSha256": "6242bb68a1ecb1c0d90a523d0dc17524cd1b74cb0f403d8b72fbcab8e9643de8",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/MatchButtons.jsx",
+      "baselineSha256": "28965ce786843b0e76df85a40e69ed7a5a56c3530eddeb7974726e1c391af4af",
+      "currentSha256": "28965ce786843b0e76df85a40e69ed7a5a56c3530eddeb7974726e1c391af4af",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/MatchCard.jsx",
+      "baselineSha256": "f3b5eb8f13e6cd7c38d3b75573df5273ab82e69bd3e6e034f17ea1db605448a2",
+      "currentSha256": "f3b5eb8f13e6cd7c38d3b75573df5273ab82e69bd3e6e034f17ea1db605448a2",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/QuizFlow.jsx",
+      "baselineSha256": "bc5b1c9aa9fd26517b23c9ad205f335ea7fdd7a7e58668e9e57d8df75790bf0f",
+      "currentSha256": "bc5b1c9aa9fd26517b23c9ad205f335ea7fdd7a7e58668e9e57d8df75790bf0f",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/QuizIntro.jsx",
+      "baselineSha256": "7931a9fe23b41d750927bd7b6cab4f76e8c31b99ca49791fb6f7003f7baf6671",
+      "currentSha256": "7931a9fe23b41d750927bd7b6cab4f76e8c31b99ca49791fb6f7003f7baf6671",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/QuizOption.jsx",
+      "baselineSha256": "55a4d2cec33cf819522ca70df0b99a5ad39eaab539c354bac9751d4d20f247df",
+      "currentSha256": "55a4d2cec33cf819522ca70df0b99a5ad39eaab539c354bac9751d4d20f247df",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/QuizProgress.jsx",
+      "baselineSha256": "ea45df4eb707ebd65a5d98faaa1bf4578391d3f5d1c35f688050d661c6ddd964",
+      "currentSha256": "ea45df4eb707ebd65a5d98faaa1bf4578391d3f5d1c35f688050d661c6ddd964",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/QuizResults.jsx",
+      "baselineSha256": "3fdcf8a049c11abd4681036050190cf2e40de5727202d7624214b8c4321ecb7c",
+      "currentSha256": "3fdcf8a049c11abd4681036050190cf2e40de5727202d7624214b8c4321ecb7c",
+      "unchanged": true
+    },
+    {
+      "path": "src/context/ShopContext.jsx",
+      "baselineSha256": "81648d01338db354337dffcedafa4998e4db258fb01095f09e544a2ace535134",
+      "currentSha256": "81648d01338db354337dffcedafa4998e4db258fb01095f09e544a2ace535134",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/additionalSpecifications.js",
+      "baselineSha256": "535b50db28bb017e2df65dccf9fcffa0fbe976dc05c214da02d0e4a7a38e92c9",
+      "currentSha256": "535b50db28bb017e2df65dccf9fcffa0fbe976dc05c214da02d0e4a7a38e92c9",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/brands.js",
+      "baselineSha256": "9b0c9ea2c30f70f21ae89e8c3dffb28d15cf7e07ec71ea6ed7178aef1ea3e7e7",
+      "currentSha256": "9b0c9ea2c30f70f21ae89e8c3dffb28d15cf7e07ec71ea6ed7178aef1ea3e7e7",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/archivedGuitars.json",
+      "baselineSha256": "e60ebcaebd2f04e74268f288bc80176821e0b4d75326b7c68f0a5317934aaf56",
+      "currentSha256": "e60ebcaebd2f04e74268f288bc80176821e0b4d75326b7c68f0a5317934aaf56",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/catalogPolicy.json",
+      "baselineSha256": "43d48c003fa1b50379c6f6432fa5eeb740c397e64642797e983613663ffe71de",
+      "currentSha256": "43d48c003fa1b50379c6f6432fa5eeb740c397e64642797e983613663ffe71de",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/extraGuitars.json",
+      "baselineSha256": "21af8fbaf6c3c163ddd041451d13a988f3ec31d4653b750b620d64aef920dd4f",
+      "currentSha256": "21af8fbaf6c3c163ddd041451d13a988f3ec31d4653b750b620d64aef920dd4f",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/imageRights.json",
+      "baselineSha256": "51d845ec65ee92c3406cdd2d60a94480a83aed20c0416e9f734715a2ef90f2a7",
+      "currentSha256": "51d845ec65ee92c3406cdd2d60a94480a83aed20c0416e9f734715a2ef90f2a7",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/phase7Guitars.json",
+      "baselineSha256": "ed8e16264d499c6a7c3bf3823e98a16cc28a4dd9a82d0024a3106f16cebeb433",
+      "currentSha256": "ed8e16264d499c6a7c3bf3823e98a16cc28a4dd9a82d0024a3106f16cebeb433",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/projectArtwork.json",
+      "baselineSha256": "3cc8c62bd499ebd1fc2f2103a7318cccffb35f1f77c8e678a7918a2e5431b4f1",
+      "currentSha256": "3cc8c62bd499ebd1fc2f2103a7318cccffb35f1f77c8e678a7918a2e5431b4f1",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/reviewedGuitars.json",
+      "baselineSha256": "29cbf16c64d99d6392c5aed79d77920a8c95993a9483566fd08bba567f145502",
+      "currentSha256": "29cbf16c64d99d6392c5aed79d77920a8c95993a9483566fd08bba567f145502",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/categories.js",
+      "baselineSha256": "b6b8c32ea9bfb6d47d6b28f27836bb8cce36264a8ff1241e589b8f54c92df55f",
+      "currentSha256": "b6b8c32ea9bfb6d47d6b28f27836bb8cce36264a8ff1241e589b8f54c92df55f",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/guitarDetails.js",
+      "baselineSha256": "fb20434c0471b0697613107c01e1cfe18af6792d4cf64e25682cb560d174c749",
+      "currentSha256": "fb20434c0471b0697613107c01e1cfe18af6792d4cf64e25682cb560d174c749",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/guitarImages.js",
+      "baselineSha256": "0b2e8fbd20dba00f43b4f2e85e2d4f07fc1d312e97b3c9319891e7947cd75d58",
+      "currentSha256": "0b2e8fbd20dba00f43b4f2e85e2d4f07fc1d312e97b3c9319891e7947cd75d58",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/guitars.js",
+      "baselineSha256": "1e399d38b116a1204935a294d9ddcdada4e23ab551ccc96331c9bb54c03906cc",
+      "currentSha256": "1e399d38b116a1204935a294d9ddcdada4e23ab551ccc96331c9bb54c03906cc",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/hero.js",
+      "baselineSha256": "7a8ad3f893bb2cebc02cf05c7886f8a410c2dff16abde2eabe58c6d48c5576fc",
+      "currentSha256": "7a8ad3f893bb2cebc02cf05c7886f8a410c2dff16abde2eabe58c6d48c5576fc",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/images.js",
+      "baselineSha256": "dc6827f45a3776b825626ca053c6e145ef51bbca926e6b861fbdd4c95d620ae9",
+      "currentSha256": "dc6827f45a3776b825626ca053c6e145ef51bbca926e6b861fbdd4c95d620ae9",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/navigation.js",
+      "baselineSha256": "269ddda8eb9c5d34cf53ea32d9da0a670d373db5184d70e241ceb0688655fbe5",
+      "currentSha256": "269ddda8eb9c5d34cf53ea32d9da0a670d373db5184d70e241ceb0688655fbe5",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/quiz.js",
+      "baselineSha256": "a4eaefaef0b971dcc4f761dac255ddea23001873bfb43fdd012f3f3ea3f45222",
+      "currentSha256": "a4eaefaef0b971dcc4f761dac255ddea23001873bfb43fdd012f3f3ea3f45222",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/BrandDetailPage.jsx",
+      "baselineSha256": "09c384112f3ba0f4e69877c19a2908836f759bbdd50dc3f26781689aa12c81cc",
+      "currentSha256": "09c384112f3ba0f4e69877c19a2908836f759bbdd50dc3f26781689aa12c81cc",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/CatalogPage.jsx",
+      "baselineSha256": "98bd95ae0e8d6d6d46c8ffb46f77a33b0b511b5b1c06ad79576e0da291022b5c",
+      "currentSha256": "98bd95ae0e8d6d6d46c8ffb46f77a33b0b511b5b1c06ad79576e0da291022b5c",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/ComparePage.jsx",
+      "baselineSha256": "d011ccb1b7ab34f65e320f0d18e2092c62bd542aff0f0711ffcc71d098a07fcd",
+      "currentSha256": "d011ccb1b7ab34f65e320f0d18e2092c62bd542aff0f0711ffcc71d098a07fcd",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/FindMyGuitarPage.jsx",
+      "baselineSha256": "5feff7cdb36d471703a17cbabdef935dd59253cbe4a5da0b452ffb30c0455b20",
+      "currentSha256": "5feff7cdb36d471703a17cbabdef935dd59253cbe4a5da0b452ffb30c0455b20",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/GuitarDetailPage.jsx",
+      "baselineSha256": "ec00aa20690d2f19b536880e69af7ae5c17a18534a6cc1487990732e599a084c",
+      "currentSha256": "ec00aa20690d2f19b536880e69af7ae5c17a18534a6cc1487990732e599a084c",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/ImageCreditsPage.jsx",
+      "baselineSha256": "a1ce2423fc17c744d80c5c4e3f789fce78537423a748f5776ff05b95c94de5f7",
+      "currentSha256": "a1ce2423fc17c744d80c5c4e3f789fce78537423a748f5776ff05b95c94de5f7",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/NotFoundPage.jsx",
+      "baselineSha256": "bddafb9c31516dea9b9fc897d41df76c396893cd6270ea8db721d1e1fad66844",
+      "currentSha256": "bddafb9c31516dea9b9fc897d41df76c396893cd6270ea8db721d1e1fad66844",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/WishlistPage.jsx",
+      "baselineSha256": "c3ea66c04d7ea8724afe9d03516b92753c950e1253d6c75987eb96970385c0e6",
+      "currentSha256": "c3ea66c04d7ea8724afe9d03516b92753c950e1253d6c75987eb96970385c0e6",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/home-discovery.css",
+      "baselineSha256": "925fcbadfa9a7c35838e050e7fbd330d996bd0c2ff88c361237f7a5cc83b9385",
+      "currentSha256": "925fcbadfa9a7c35838e050e7fbd330d996bd0c2ff88c361237f7a5cc83b9385",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/home-experiences.css",
+      "baselineSha256": "dfb20d6ef2e61c3bb1d82f2aff2e4a92cfee75d13f2f8a014cdecdeef246e6d0",
+      "currentSha256": "dfb20d6ef2e61c3bb1d82f2aff2e4a92cfee75d13f2f8a014cdecdeef246e6d0",
+      "unchanged": true
+    }
+  ],
+  "passed": true
+}

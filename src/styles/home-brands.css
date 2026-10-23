@@ -1,438 +1,70 @@
-/* Phase C: the approved Explore by Brand composition. All selectors stay on
-   the homepage; dedicated Brands, Catalog and product galleries are untouched.
-   Photographs are licensed editorial details, with the warm grade disclosed
-   in the accompanying credits. Brand marks retain their original contours. */
-.signature-home .signature-brands {
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-  padding-top: 64px;
-  padding-bottom: 64px;
-  background: #000;
-}
-.signature-home .signature-brand-inner {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  max-width: 1360px;
-  margin-inline: auto;
-  padding-inline: 24px;
-}
-.signature-home .signature-brand-header-art {
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  right: 0;
-  width: 65%;
-  height: 350px;
-  overflow: hidden;
-  pointer-events: none;
-}
-.signature-home .signature-brand-header-art > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 54% 46%;
-  filter: sepia(.6) saturate(.65) contrast(1.08) brightness(.68);
-  transform: rotate(-25deg) scale(1.48);
-}
-.signature-home .signature-brand-header-art::after {
-  position: absolute;
-  inset: 0;
-  content: '';
-  background: linear-gradient(90deg, #000 0%, #000b 22%, #0001 65%, #0006),
-    linear-gradient(0deg, #000 0%, #0002 42%, #0003);
-}
-.signature-home .signature-brand-heading { padding-inline: 24px; }
-.signature-home .signature-brand-heading .signature-section-eyebrow {
-  gap: 20px;
-  color: var(--fl-text-secondary);
-  font-size: 11px;
-  letter-spacing: .23em;
-}
-.signature-home .signature-brand-heading .signature-section-eyebrow::before { width: 36px; }
-.signature-home .signature-brand-heading h2 {
-  max-width: 760px;
-  margin-top: 20px;
-  color: var(--fl-text);
-  font-family: var(--fl-font-body);
-  font-size: clamp(38px, 3.6vw, 50px);
-  font-weight: 500;
-  line-height: 1.25;
-  letter-spacing: -.02em;
-  text-wrap: balance;
-}
-.signature-home .signature-brand-heading h2 > span { display: block; }
-.signature-home .signature-brand-heading h2 > span + span { color: var(--fl-accent-soft); }
-.signature-home .signature-brand-heading-bottom {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-  margin-top: 10px;
-  margin-bottom: 24px;
-}
-.signature-home .signature-brand-heading-bottom > p {
-  max-width: 650px;
-  color: var(--fl-text-secondary);
-  font-size: 18px;
-  line-height: 1.8;
-  text-wrap: pretty;
-}
-.signature-home .signature-brand-view-all {
-  display: inline-flex;
-  flex-shrink: 0;
-  align-items: center;
-  gap: 10px;
-  min-height: var(--fl-touch-target);
-  border-radius: 4px;
-  color: var(--fl-accent-soft);
-  font-size: 14px;
-  white-space: nowrap;
-  transition: color var(--fl-duration-feedback);
-}
-.signature-home .signature-brand-view-all > span {
-  display: inline-grid;
-  width: 28px;
-  height: 28px;
-  place-items: center;
-  border: 1px solid rgb(var(--fl-color-accent) / .65);
-  border-radius: 50%;
-}
-.signature-home .signature-brand-view-all svg { width: 15px; height: 15px; }
-@media (min-width: 600px) {
-  /* Keep the reference's compact heading rhythm and a full 44px link target. */
-  .signature-home .signature-brand-view-all { margin-block: -6px; }
-}
-
-.signature-home .signature-brand-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
-}
-.signature-home .signature-brand-card {
-  position: relative;
-  isolation: isolate;
-  display: block;
-  min-width: 0;
-  aspect-ratio: .96;
-  overflow: hidden;
-  border: 1px solid rgb(var(--fl-color-accent) / .46);
-  border-radius: 6px;
-  background: #0b0a08;
-  color: var(--fl-text);
-  -webkit-tap-highlight-color: rgb(var(--fl-color-accent) / .12);
-  transition: border-color var(--fl-duration-transition), box-shadow var(--fl-duration-transition);
-}
-.signature-home .signature-brand-photo {
-  position: absolute;
-  z-index: 0;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  filter: sepia(.55) saturate(.62) contrast(1.1) brightness(.76);
-}
-.signature-home .signature-brand-card--yamaha .signature-brand-photo {
-  object-position: 46% 100%;
-  transform: rotate(-14deg) scale(1.35);
-  transform-origin: 72% 35%;
-}
-.signature-home .signature-brand-card--fender .signature-brand-photo { object-position: 48% 47%; }
-.signature-home .signature-brand-card--gibson .signature-brand-photo {
-  object-position: 52% 76%;
-  transform: scale(2.25);
-  transform-origin: 52% 100%;
-}
-.signature-home .signature-brand-card--taylor .signature-brand-photo {
-  object-position: 70% 72%;
-  transform: scale(2.4);
-  transform-origin: 79% 75%;
-}
-.signature-home .signature-brand-card--ibanez .signature-brand-photo {
-  object-position: 45% 45%;
-  transform: scale(2);
-  transform-origin: 50% 69%;
-}
-.signature-home .signature-brand-card--prs .signature-brand-photo { object-position: 51% 45%; }
-.signature-home .signature-brand-card--epiphone .signature-brand-photo {
-  object-position: 42% 31%;
-  transform: scale(1.85);
-  transform-origin: 32% 44%;
-}
-.signature-home .signature-brand-card--martin .signature-brand-photo { object-position: 48% 40%; }
-.signature-home .signature-brand-card--squier .signature-brand-photo {
-  object-position: 50% 35%;
-  transform: scale(2.15);
-  transform-origin: 79% 51%;
-}
-.signature-home .signature-brand-card--cordoba .signature-brand-photo {
-  /* Only the classical guitar under the Córdoba sign on the left booth wall.
-     The performer and Guild instruments on the right stay outside this frame. */
-  inset: auto;
-  top: 0;
-  left: -112%;
-  width: 753%;
-  max-width: none;
-  height: auto;
-  object-fit: initial;
-  transform: translateY(-21.7%);
-  filter: grayscale(1) sepia(.75) saturate(.7) brightness(.6);
-}
-.signature-home .signature-brand-card--squier .signature-brand-mark > img {
-  /* This genuine mark has white lettering on a dark oval. Flattening every
-     pixel to white would erase the lettering; preserve its original contrast. */
-  filter: none;
-}
-.signature-home .signature-brand-shade {
-  position: absolute;
-  z-index: 1;
-  inset: 0;
-  pointer-events: none;
-  background: linear-gradient(0deg, #000 0%, #000e 19%, #0007 49%, #0001 100%),
-    linear-gradient(90deg, #0005, transparent 44%, #0006),
-    radial-gradient(ellipse at 50% 32%, transparent 25%, #0004 100%),
-    radial-gradient(ellipse at 90% 0, #c8a15a12, transparent 58%);
-}
-.signature-home .signature-brand-card::after {
-  position: absolute;
-  z-index: 3;
-  inset: 0;
-  content: '';
-  pointer-events: none;
-  border-radius: inherit;
-  background: radial-gradient(ellipse at 100% 0, rgb(var(--fl-color-accent) / .15), transparent 48%);
-  opacity: .25;
-  transition: opacity var(--fl-duration-transition);
-}
-.signature-home .signature-brand-mark {
-  position: absolute;
-  z-index: 2;
-  top: 35%;
-  right: 9%;
-  left: 9%;
-  display: grid;
-  height: 40%;
-  place-items: center;
-}
-.signature-home .signature-brand-mark > img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  max-width: 208px;
-  object-fit: contain;
-  /* Inspected files have transparent counters, not opaque white knockouts.
-     A monochrome filter preserves those alpha contours and real letterforms. */
-  filter: brightness(0) invert(1);
-  opacity: .97;
-}
-.signature-home .signature-brand-card--gibson .signature-brand-mark { top: 32.5%; height: 42%; right: 9%; left: 9%; }
-.signature-home .signature-brand-card--taylor .signature-brand-mark { top: 32%; height: 42%; right: 18%; left: 18%; }
-.signature-home .signature-brand-card--prs .signature-brand-mark { right: 13%; left: 13%; }
-.signature-home .signature-brand-card--martin .signature-brand-mark { right: 8%; left: 8%; }
-.signature-home .signature-brand-card--squier .signature-brand-mark { mix-blend-mode: screen; }
-.signature-home .signature-brand-card--cordoba .signature-brand-mark [data-brand-fallback] {
-  font-family: var(--fl-font-display);
-  font-size: clamp(56px, 5.5vw, 64px);
-  font-weight: 400;
-  line-height: 1.2;
-  letter-spacing: -.02em;
-  white-space: nowrap;
-}
-.signature-home .signature-brand-mark [data-brand-fallback] {
-  max-width: 100%;
-  color: var(--fl-text);
-  font-family: var(--fl-font-body);
-  font-size: clamp(25px, 2.6vw, 38px);
-  font-weight: 500;
-  line-height: 1.4;
-  letter-spacing: -.02em;
-  overflow-wrap: anywhere;
-}
-.signature-home .signature-brand-photo-mark {
-  position: relative;
-  display: block;
-  width: 100%;
-  aspect-ratio: 3.2;
-  overflow: hidden;
-  isolation: isolate;
-  border: 1px solid rgb(var(--fl-color-accent) / .25);
-  border-radius: 2px;
-  box-shadow: 0 5px 16px #0004;
-}
-.signature-home .signature-brand-photo-mark > img {
-  position: absolute;
-  width: 320%;
-  max-width: none;
-  height: auto;
-  left: -3.75%;
-  top: -22.4%;
-  /* Real photographed lettering, no tracing or generated replacement logo. */
-  /* Keep the photographed ink and wood intact. Warm toning avoids erasing
-     genuine letter details with a color key or drawing replacement glyphs. */
-  filter: grayscale(1) sepia(.75) saturate(.7) brightness(1.5);
-}
-.signature-home .signature-brand-card--cordoba {
-  background: radial-gradient(ellipse at 80% 10%, #31201266, transparent 65%),
-    linear-gradient(145deg, #17130d, #030303 78%);
-}
-.signature-home .signature-brand-count {
-  position: absolute;
-  z-index: 2;
-  right: 52px;
-  bottom: 20px;
-  left: 20px;
-  color: var(--fl-text);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.7;
-  font-variant-numeric: tabular-nums;
-  overflow-wrap: break-word;
-}
-.signature-home .signature-brand-count > span {
-  display: block;
-  width: 21px;
-  height: 2px;
-  margin-bottom: 10px;
-  background: var(--fl-accent);
-}
-.signature-home .signature-brand-arrow {
-  position: absolute;
-  z-index: 2;
-  right: 8px;
-  bottom: 10px;
-  display: grid;
-  width: var(--fl-touch-target);
-  height: var(--fl-touch-target);
-  place-items: center;
-  color: var(--fl-accent-soft);
-}
-.signature-home .signature-brand-arrow::before {
-  position: absolute;
-  width: 28px;
-  height: 28px;
-  content: '';
-  border: 1px solid rgb(var(--fl-color-accent) / .8);
-  border-radius: 50%;
-  transition: background var(--fl-duration-feedback), border-color var(--fl-duration-feedback);
-}
-.signature-home .signature-brand-arrow svg { position: relative; width: 15px; height: 15px; }
-.signature-home .signature-brand-card:focus-visible,
-.signature-home .signature-brand-view-all:focus-visible,
-.signature-home .signature-brand-credits summary:focus-visible,
-.signature-home .signature-brand-credits a:focus-visible {
-  outline: 2px solid var(--fl-focus);
-  outline-offset: 4px;
-}
-.signature-home .signature-brand-card:focus-visible {
-  z-index: 3;
-  border-color: var(--fl-accent-soft);
-}
-
-.signature-home .signature-brand-credits { margin: 12px 24px 0; }
-.signature-home .signature-brand-credits summary {
-  display: list-item;
-  width: fit-content;
-  max-width: 100%;
-  min-height: var(--fl-touch-target);
-  padding-block: 12px;
-  border-radius: 4px;
-  color: var(--fl-text-muted);
-  font-size: 12px;
-  line-height: 1.8;
-  cursor: pointer;
-}
-.signature-home .signature-brand-credits summary:hover,
-.signature-home .signature-brand-credits[open] summary { color: var(--fl-text-secondary); }
-.signature-home .signature-brand-credits > div {
-  padding: 12px 0 4px;
-  border-top: 1px solid var(--fl-border);
-  color: var(--fl-text-muted);
-  font-size: 12px;
-  line-height: 1.9;
-  overflow-wrap: anywhere;
-}
-.signature-home .signature-brand-credits > div > p { max-width: 980px; }
-.signature-home .signature-brand-credits ul {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px 32px;
-  margin-top: 16px;
-  padding: 0;
-  list-style: none;
-}
-.signature-home .signature-brand-credits a {
-  color: var(--fl-text-secondary);
-  text-decoration: underline;
-  text-decoration-color: var(--fl-border-strong);
-  text-underline-offset: 3px;
-}
-.signature-home .signature-brand-credits a:hover { color: var(--fl-accent-soft); }
-
-@media (hover: hover) and (pointer: fine) {
-  .signature-home .signature-brand-card:hover {
-    border-color: rgb(var(--fl-color-accent) / .85);
-    box-shadow: 0 0 22px rgb(var(--fl-color-accent) / .1), inset 0 0 0 1px rgb(var(--fl-color-accent) / .12);
-  }
-  .signature-home .signature-brand-card:hover::after { opacity: 1; }
-  .signature-home .signature-brand-card:hover .signature-brand-arrow::before {
-    border-color: var(--fl-accent-soft);
-    background: rgb(var(--fl-color-accent) / .12);
-  }
-  .signature-home .signature-brand-view-all:hover { color: var(--fl-text); }
-}
-@media (min-width: 900px) {
-  .signature-home .signature-brand-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-}
-@media (min-width: 1280px) {
-  .signature-home .signature-brand-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
-}
-@media (max-width: 899px) {
-  .signature-home .signature-brand-heading { padding-inline: 8px; }
-  .signature-home .signature-brand-heading h2 { font-size: 40px; }
-  .signature-home .signature-brand-heading-bottom > p { font-size: 16px; }
-  .signature-home .signature-brand-heading-bottom { align-items: flex-end; }
-  .signature-home .signature-brand-mark > img { max-width: 220px; }
-  .signature-home .signature-brand-credits { margin-inline: 8px; }
-}
+/* Phase B marquee restored only on Home; directory art lives separately. */
+.signature-home .signature-brand-marquee { padding-top: var(--fl-space-12); background: var(--fl-canvas); }
+.signature-home .signature-marquee-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; padding-bottom: 24px; }
+.signature-home .signature-marquee-heading .signature-section-eyebrow { color: var(--fl-accent-soft); font-size: 11px; letter-spacing: .18em; }
+.signature-home .signature-marquee-heading .signature-section-eyebrow::before { display: none; }
+.signature-home .signature-marquee-heading h2 { margin-top: 10px; font-size: clamp(23px, 2vw, 28px); font-weight: 500; line-height: 1.5; text-wrap: balance; }
+.signature-home .signature-marquee-view-all { display: inline-flex; flex-shrink: 0; align-items: center; gap: 10px; min-height: 44px; color: var(--fl-accent-soft); font-size: 13px; }
+.signature-home .signature-marquee-view-all svg { flex-shrink: 0; transition: transform var(--fl-duration-feedback); }
+.signature-home .signature-marquee-view-all:hover svg { transform: translateX(3px); }
+.signature-home .signature-marquee-rail { position: relative; display: flex; align-items: center; gap: 4px; border-block: 1px solid rgb(var(--fl-color-accent) / .4); background: radial-gradient(ellipse at 50% 0, rgb(var(--fl-color-accent) / .06), transparent 62%), #080807; }
+.signature-home .signature-marquee-rail::before { position: absolute; content: ''; top: -1px; left: 12%; right: 12%; height: 1px; background: linear-gradient(90deg, transparent, var(--fl-accent-soft), transparent); pointer-events: none; }
+.signature-home .signature-marquee-viewport { min-width: 0; flex: 1; overflow: hidden; scrollbar-width: none; -webkit-mask-image: linear-gradient(90deg, transparent, #000 18px, #000 calc(100% - 18px), transparent); mask-image: linear-gradient(90deg, transparent, #000 18px, #000 calc(100% - 18px), transparent); }
+.signature-home .signature-marquee-viewport::-webkit-scrollbar { display: none; }
+.signature-home .signature-marquee-track { display: flex; width: max-content; animation: marquee 40s linear infinite; }
+.signature-home .signature-marquee-group { display: flex; flex-shrink: 0; }
+.signature-home .signature-marquee-link { position: relative; display: flex; flex-shrink: 0; align-items: center; justify-content: center; width: 184px; height: 116px; padding: 20px 24px 28px; outline-offset: -5px; }
+.signature-home .signature-marquee-mark { display: grid; place-items: center; width: 100%; height: 68px; color: var(--fl-text); }
+.signature-home .signature-marquee-mark img { display: block; width: 100%; height: 100%; object-fit: contain; filter: brightness(0) invert(1); opacity: .8; transition: opacity var(--fl-duration-feedback); }
+.signature-home .signature-marquee-link[data-brand-id='squier'] img { filter: none; mix-blend-mode: screen; }
+.signature-home .signature-marquee-link[data-brand-id='taylor'] .signature-marquee-mark { width: 96px; }
+.signature-home .signature-marquee-link[data-brand-id='gibson'] .signature-marquee-mark { height: 62px; }
+.signature-home .signature-marquee-mark [data-brand-fallback] { font: 400 40px/1.2 var(--fl-font-display); letter-spacing: -.02em; white-space: nowrap; }
+.signature-home .signature-marquee-link:hover img,
+.signature-home .signature-marquee-link:focus-visible img { opacity: 1; }
+.signature-home .signature-marquee-count { position: absolute; bottom: 9px; color: var(--fl-accent-soft); font-size: 11px; line-height: 1.5; opacity: 0; transition: opacity var(--fl-duration-feedback); }
+.signature-home .signature-marquee-link:hover .signature-marquee-count,
+.signature-home .signature-marquee-link:focus-visible .signature-marquee-count { opacity: 1; }
+.signature-home .signature-marquee-arrow { display: inline-grid; flex-shrink: 0; place-items: center; width: 44px; height: 44px; color: var(--fl-accent-soft); border: 1px solid transparent; border-radius: 50%; transition: background var(--fl-duration-feedback), border-color var(--fl-duration-feedback); }
+.signature-home .signature-marquee-arrow:hover { border-color: rgb(var(--fl-color-accent) / .5); background: rgb(var(--fl-color-accent) / .07); }
+.signature-home .signature-marquee-footer { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 4px; color: var(--fl-text-muted); font-size: 11px; line-height: 1.7; }
+.signature-home .signature-marquee-footer > button,
+.signature-home .signature-marquee-footer > a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; }
+.signature-home .signature-marquee-footer > button:hover:not(:disabled),
+.signature-home .signature-marquee-footer > a:hover { color: var(--fl-accent-soft); }
+.signature-home .signature-marquee-footer > button:disabled { cursor: default; }
+.signature-home .signature-marquee-viewport:hover .signature-marquee-track,
+.signature-home .signature-marquee-viewport:focus-within .signature-marquee-track,
+.signature-home .signature-brand-marquee[data-paused='true'] .signature-marquee-track { animation-play-state: paused; }
+.signature-home .signature-brand-marquee[data-manual='true'] .signature-marquee-track { animation: none; transform: none; }
+.signature-home .signature-brand-marquee[data-manual='true'] .signature-marquee-viewport { overflow-x: auto; }
+.signature-home .signature-brand-marquee[data-manual='true'] [data-marquee-clone] { display: none; }
+.signature-home .signature-brand-marquee + .signature-collection { padding-top: var(--fl-space-16); }
 @media (max-width: 639px) {
-  .signature-home .signature-brands { padding-block: 48px; }
-  .signature-home .signature-brand-inner { padding-inline: 20px; }
-  .signature-home .signature-brand-header-art { width: 86%; height: 286px; opacity: .7; }
-  .signature-home .signature-brand-header-art::after { background: linear-gradient(90deg, #000 0%, #000a 40%, #0003), linear-gradient(0deg, #000 0%, #0003 60%); }
-  .signature-home .signature-brand-heading { padding-inline: 0; }
-  .signature-home .signature-brand-heading .signature-section-eyebrow { gap: 12px; font-size: 10px; letter-spacing: .16em; }
-  .signature-home .signature-brand-heading .signature-section-eyebrow::before { width: 24px; }
-  .signature-home .signature-brand-heading h2 { margin-top: 22px; font-size: clamp(27px, 7.4vw, 36px); line-height: 1.4; letter-spacing: -.015em; }
-  .signature-home .signature-brand-heading-bottom { flex-wrap: wrap; align-items: flex-start; gap: 8px; margin-top: 12px; margin-bottom: 20px; }
-  .signature-home .signature-brand-heading-bottom > p { font-size: 14px; line-height: 1.9; }
-  .signature-home .signature-brand-view-all { margin-left: auto; font-size: 13px; }
-  .signature-home .signature-brand-grid { gap: 10px; }
-  .signature-home .signature-brand-card { aspect-ratio: .83; }
-  .signature-home .signature-brand-mark { top: 27%; right: 9%; left: 9%; height: 32%; }
-  .signature-home .signature-brand-card--gibson .signature-brand-mark { top: 25%; height: 36%; }
-  .signature-home .signature-brand-card--taylor .signature-brand-mark { top: 26%; height: 32%; right: 16%; left: 16%; }
-  .signature-home .signature-brand-mark [data-brand-fallback] { font-size: clamp(21px, 6vw, 30px); }
-  .signature-home .signature-brand-card--cordoba .signature-brand-mark [data-brand-fallback] { font-size: clamp(34px, 11.4vw, 48px); }
-  .signature-home .signature-brand-count { right: 47px; bottom: 14px; left: 12px; font-size: 12px; line-height: 1.7; }
-  .signature-home .signature-brand-count > span { width: 18px; margin-bottom: 8px; }
-  .signature-home .signature-brand-arrow { right: 2px; bottom: 8px; }
-  .signature-home .signature-brand-arrow::before { width: 26px; height: 26px; }
-  .signature-home .signature-brand-arrow svg { width: 14px; height: 14px; }
-  .signature-home .signature-brand-credits { margin: 8px 0 0; }
-  .signature-home .signature-brand-credits ul { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .signature-home .signature-brand-marquee { padding-top: var(--fl-space-8); }
+  .signature-home .signature-marquee-heading { gap: 12px; padding-bottom: 16px; }
+  .signature-home .signature-marquee-heading h2 { font-size: 21px; }
+  .signature-home .signature-marquee-heading .signature-section-eyebrow { font-size: 10px; letter-spacing: .12em; }
+  .signature-home .signature-marquee-view-all { gap: 6px; font-size: 12px; }
+  .signature-home .signature-marquee-link { width: 152px; height: 108px; padding-inline: 18px; }
+  .signature-home .signature-marquee-mark { height: 62px; }
+  .signature-home .signature-marquee-link[data-brand-id='gibson'] .signature-marquee-mark { height: 56px; }
+  .signature-home .signature-marquee-link[data-brand-id='taylor'] .signature-marquee-mark { width: 88px; }
+  .signature-home .signature-marquee-mark [data-brand-fallback] { font-size: 34px; }
+  .signature-home .signature-marquee-footer { gap: 10px; font-size: 10px; }
 }
 @media (max-width: 359px) {
-  .signature-home .signature-brand-inner { padding-inline: 16px; }
-  .signature-home .signature-brand-grid { gap: 8px; }
-  .signature-home .signature-brand-card { aspect-ratio: .78; }
-  .signature-home .signature-brand-count { left: 10px; right: 45px; font-size: 12px; }
-  .signature-home .signature-brand-heading h2 { font-size: 27px; }
+  .signature-home .signature-marquee-heading { flex-wrap: wrap; gap: 0; }
+  .signature-home .signature-marquee-view-all { margin-left: auto; }
+  .signature-home .signature-marquee-footer { flex-wrap: wrap; gap: 0; }
+  .signature-home .signature-marquee-footer > a { margin-left: auto; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .signature-home .signature-brand-card,
-  .signature-home .signature-brand-card::after,
-  .signature-home .signature-brand-arrow::before,
-  .signature-home .signature-brand-view-all { transition: none; }
+  .signature-home .signature-marquee-track { animation: none !important; transform: none !important; }
+  .signature-home [data-marquee-clone] { display: none; }
+  .signature-home .signature-marquee-viewport { overflow-x: auto; }
+  .signature-home .signature-marquee-mark img,
+  .signature-home .signature-marquee-count,
+  .signature-home .signature-marquee-arrow,
+  .signature-home .signature-marquee-view-all svg { transition: none; }
 }

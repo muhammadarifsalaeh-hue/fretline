@@ -1,24 +1,30 @@
 import { t } from '@/i18n';
 import { CATEGORIES } from '@/data/categories';
-import { brandUrl } from '@/utils/routes';
+import { HOME_BRAND_ASSETS } from '@/data/homeBrandAssets';
+import { brandCatalogUrl } from '@/utils/routes';
 import AppLink from '@/components/ui/AppLink';
-import { ArrowUpRightIcon } from '@/components/ui/Icons';
+import { ArrowRightIcon } from '@/components/ui/Icons';
+import BrandMark from './BrandMark';
 
-/** Use ordinary brand names when no licensed logo file is available. */
-export default function BrandCard({ brand, index = 0 }) {
+/** Editorial imagery identifies the brand, never a catalog model or official finish. */
+export default function BrandCard({ brand }) {
+  const artwork = HOME_BRAND_ASSETS[brand.id];
   return (
-    <AppLink href={brandUrl(brand.name)} data-brand-id={brand.id}
+    <AppLink href={brandCatalogUrl(brand.name)} data-brand-id={brand.id}
       aria-label={t('p5.brands.cardAria', { brand: brand.name, n: brand.models })}
-      style={{ animationDelay: `${(index % 9) * 40}ms` }}
-      className="brand-directory-card animate-fade-up group">
-      <ArrowUpRightIcon size={17} className="brand-card-arrow" />
-      <div className="brand-card-mark">
-        {brand.logo
-          ? <img src={brand.logo} alt={brand.name} loading="lazy" width="180" height="64" />
-          : <span className="font-serif" lang="en">{brand.name}</span>}
+      className={`brand-directory-card brand-directory-card--${brand.id}`}>
+      {artwork?.photo && <img className="brand-directory-photo" data-brand-photo={brand.id}
+        src={artwork.photo} alt="" aria-hidden="true" width="600" height="640" loading="lazy" decoding="async" />}
+      <span className="brand-directory-shade" aria-hidden="true" />
+      <BrandMark brand={brand} className="brand-card-mark" />
+      <div className="brand-directory-caption">
+        <p className="brand-card-count" data-brand-count>
+          <span className="brand-count-full">{t('p5.brands.models', { n: brand.models })}</span>
+          <span className="brand-count-compact">{t('p5.brands.modelsShort', { n: brand.models })}</span>
+        </p>
+        <p className="brand-card-types">{brand.categories.map((id) => CATEGORIES.find((c) => c.id === id)?.name ?? id).join(' · ')}</p>
       </div>
-      <p className="brand-card-count">{t('p5.brands.models', { n: brand.models })}</p>
-      <p className="brand-card-types">{brand.categories.map((id) => CATEGORIES.find((c) => c.id === id)?.name ?? id).join(' · ')}</p>
+      <span className="brand-card-arrow" aria-hidden="true"><ArrowRightIcon size={15} /></span>
     </AppLink>
   );
 }

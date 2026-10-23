@@ -79,6 +79,7 @@ export const th = {
   "p5.brands.placeholder": "ค้นหาชื่อแบรนด์ เช่น Yamaha, Fender…",
   "p5.brands.count": "พบ {n} แบรนด์",
   "p5.brands.models": "{n} รุ่นในแคตตาล็อก",
+  "p5.brands.modelsShort": "{n} รุ่น",
   "p5.brands.cardAria": "ดูกีตาร์ {brand}, {n} รุ่นในแคตตาล็อก",
   "p5.brands.note": "จำนวนรุ่นนับจากแคตตาล็อก Fretline ไม่ใช่จำนวนรุ่นทั้งหมดของผู้ผลิต ชื่อแบรนด์ใช้ตัวอักษรเมื่อไม่มีโลโก้ที่ได้รับอนุญาต",
   "p5.brands.empty": "ไม่พบแบรนด์ที่ตรงกัน",
@@ -552,4 +553,9 @@ export const th = {
   "signature.brand.pending": "ใช้ชื่อแบรนด์ชั่วคราว ยังไม่มีโลโก้และภาพที่มีแหล่งสิทธิ์เพียงพอ",
   "signature.brand.photoMarkCredit": "ภาพตัวอักษรแบรนด์จากบูธ Córdoba · CC BY 2.0",
   "signature.brand.typeCredit": "ชื่อแบรนด์แบบข้อความชั่วคราว · ไม่ใช่ไฟล์โลโก้ทางการ",
+  "signature.brand.pause": "หยุดการเลื่อนแบรนด์",
+  "signature.brand.resume": "เริ่มการเลื่อนแบรนด์",
+  "signature.brand.previous": "ดูแบรนด์ก่อนหน้า",
+  "signature.brand.next": "ดูแบรนด์ถัดไป",
+  "signature.brand.reducedMotion": "เลื่อนดูแบรนด์ด้วยตนเอง",
 };

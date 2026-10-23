@@ -1,0 +1,315 @@
+/* Brand Directory only. Editorial artwork never changes product gallery styling. */
+.brands-page {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: #050505;
+}
+.brands-page .container-x { position: relative; z-index: 1; max-width: 1360px; }
+.brands-page .phase5-heading { padding-top: calc(var(--fl-header-height) + 36px); padding-bottom: 28px; }
+.brands-page .phase5-heading .discovery-breadcrumb { margin-bottom: 26px; }
+.brands-page .phase5-title-row { gap: 24px; }
+.brands-page .phase5-title-row h1 { font-size: var(--fl-type-page); letter-spacing: -.02em; }
+.brands-page .phase5-intro { max-width: 640px; color: var(--fl-text-secondary); }
+.brands-page .phase5-heading-meta { white-space: nowrap; }
+.brands-page .phase5-body { padding-bottom: var(--fl-space-24); }
+.brands-page .brand-directory-atmosphere {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  width: min(760px, 70%);
+  height: 390px;
+  overflow: hidden;
+  pointer-events: none;
+}
+.brands-page .brand-directory-atmosphere img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 54% 46%;
+  filter: sepia(.6) saturate(.65) brightness(.4);
+  transform: rotate(-25deg) scale(1.48);
+}
+.brands-page .brand-directory-atmosphere::after {
+  position: absolute;
+  inset: 0;
+  content: '';
+  background: linear-gradient(90deg, #050505, #05050588 40%, #05050544),
+    linear-gradient(0deg, #050505, transparent 75%);
+}
+.brands-page .brands-search-row { gap: 18px; }
+.brands-page .brands-search { background: #111111d9; }
+.brands-page .brands-search input { min-height: var(--fl-touch-target); }
+.brands-page .brands-search button { min-width: var(--fl-touch-target); min-height: var(--fl-touch-target); }
+.brands-page .brands-result-bar { min-height: 52px; }
+.brands-page .brand-directory-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 12px;
+}
+.brands-page .brand-directory-card {
+  position: relative;
+  isolation: isolate;
+  display: block;
+  min-width: 0;
+  min-height: 0;
+  aspect-ratio: .82;
+  overflow: hidden;
+  padding: 0;
+  border: 1px solid rgb(var(--fl-color-accent) / .44);
+  border-radius: 8px;
+  background: radial-gradient(ellipse at 80% 10%, #31201266, transparent 65%), linear-gradient(145deg, #17130d, #030303 78%);
+  color: var(--fl-text);
+  text-align: left;
+  transform: none;
+  box-shadow: none;
+  -webkit-tap-highlight-color: rgb(var(--fl-color-accent) / .12);
+  transition: border-color var(--fl-duration-transition), box-shadow var(--fl-duration-transition);
+}
+.brands-page .brand-directory-photo {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: sepia(.55) saturate(.62) contrast(1.1) brightness(.76);
+}
+.brands-page .brand-directory-card--yamaha .brand-directory-photo {
+  object-position: 46% 100%;
+  transform: rotate(-14deg) scale(1.35);
+  transform-origin: 72% 35%;
+}
+.brands-page .brand-directory-card--fender .brand-directory-photo { object-position: 48% 47%; }
+.brands-page .brand-directory-card--gibson .brand-directory-photo {
+  object-position: 52% 76%;
+  transform: scale(2.25);
+  transform-origin: 52% 100%;
+}
+.brands-page .brand-directory-card--taylor .brand-directory-photo {
+  object-position: 70% 72%;
+  transform: scale(2.4);
+  transform-origin: 79% 75%;
+}
+.brands-page .brand-directory-card--ibanez .brand-directory-photo {
+  object-position: 45% 45%;
+  transform: scale(2);
+  transform-origin: 50% 69%;
+}
+.brands-page .brand-directory-card--prs .brand-directory-photo { object-position: 51% 45%; }
+.brands-page .brand-directory-card--epiphone .brand-directory-photo {
+  object-position: 42% 31%;
+  transform: scale(1.85);
+  transform-origin: 32% 44%;
+}
+.brands-page .brand-directory-card--martin .brand-directory-photo { object-position: 48% 40%; }
+.brands-page .brand-directory-card--squier .brand-directory-photo {
+  object-position: 50% 35%;
+  transform: scale(2.15);
+  transform-origin: 79% 51%;
+}
+.brands-page .brand-directory-card--cordoba .brand-directory-photo {
+  /* Licensed left-wall classical guitar; exclude the Guild guitars/performer. */
+  inset: auto;
+  top: 0;
+  left: -112%;
+  width: 753%;
+  max-width: none;
+  height: auto;
+  object-fit: initial;
+  transform: translateY(-21.7%);
+  filter: grayscale(1) sepia(.75) saturate(.7) brightness(.6);
+}
+.brands-page .brand-directory-shade {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(0deg, #000 0%, #000f 18%, #0009 42%, #0003 70%, #0001),
+    linear-gradient(90deg, #0005, transparent 44%, #0006),
+    radial-gradient(ellipse at 50% 32%, transparent 25%, #0004 100%);
+}
+.brands-page .brand-directory-card::after {
+  position: absolute;
+  z-index: 3;
+  inset: 0;
+  content: '';
+  pointer-events: none;
+  border-radius: inherit;
+  background: radial-gradient(ellipse at 100% 0, rgb(var(--fl-color-accent) / .17), transparent 48%);
+  opacity: .2;
+  transition: opacity var(--fl-duration-transition);
+}
+.brands-page .brand-card-mark {
+  position: absolute;
+  z-index: 2;
+  top: 24%;
+  right: 9%;
+  left: 9%;
+  display: grid;
+  width: auto;
+  height: 40%;
+  min-height: 0;
+  place-items: center;
+}
+.brands-page .brand-card-mark > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 208px;
+  max-height: none;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  opacity: .97;
+}
+.brands-page .brand-directory-card--gibson .brand-card-mark { top: 22%; height: 42%; }
+.brands-page .brand-directory-card--taylor .brand-card-mark { top: 23%; height: 40%; right: 18%; left: 18%; }
+.brands-page .brand-directory-card--prs .brand-card-mark { right: 13%; left: 13%; }
+.brands-page .brand-directory-card--martin .brand-card-mark { right: 8%; left: 8%; }
+.brands-page .brand-directory-card--squier .brand-card-mark { mix-blend-mode: screen; }
+.brands-page .brand-directory-card--squier .brand-card-mark > img { filter: none; }
+.brands-page .brand-card-mark > [data-brand-fallback] {
+  max-width: 100%;
+  color: var(--fl-text);
+  font: 400 clamp(48px, 4.7vw, 64px)/1.2 var(--fl-font-display);
+  letter-spacing: -.02em;
+  white-space: nowrap;
+  overflow-wrap: normal;
+}
+.brands-page .brand-directory-caption {
+  position: absolute;
+  z-index: 2;
+  right: 18px;
+  bottom: 18px;
+  left: 18px;
+}
+.brands-page .brand-card-count {
+  margin: 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgb(var(--fl-color-accent) / .2);
+  color: var(--fl-text);
+  font-size: var(--fl-type-caption);
+  line-height: 1.7;
+  font-variant-numeric: tabular-nums;
+}
+.brands-page .brand-count-compact { display: none; }
+.brands-page .brand-card-types {
+  min-height: 1.7em;
+  margin-top: 6px;
+  padding-right: 30px;
+  color: var(--fl-text-secondary);
+  font-size: 12px;
+  line-height: 1.7;
+  text-wrap: balance;
+}
+.brands-page .brand-card-arrow {
+  position: absolute;
+  z-index: 2;
+  top: auto;
+  right: 7px;
+  bottom: 7px;
+  display: grid;
+  width: var(--fl-touch-target);
+  height: var(--fl-touch-target);
+  place-items: center;
+  color: var(--fl-accent-soft);
+  transform: none;
+}
+.brands-page .brand-card-arrow::before {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  content: '';
+  border: 1px solid rgb(var(--fl-color-accent) / .75);
+  border-radius: 50%;
+  transition: background var(--fl-duration-feedback), border-color var(--fl-duration-feedback);
+}
+.brands-page .brand-card-arrow svg { position: relative; flex-shrink: 0; }
+.brands-page .brand-directory-card:hover .brand-card-arrow { transform: none; }
+.brands-page .brand-directory-card:focus-visible,
+.brands-page .brand-artwork-credits summary:focus-visible,
+.brands-page .brand-artwork-credits a:focus-visible {
+  outline: 2px solid var(--fl-focus);
+  outline-offset: 4px;
+}
+.brands-page .brand-directory-card:focus-visible { z-index: 2; border-color: var(--fl-accent-soft); }
+.brands-page .brand-artwork-credits { margin-top: 16px; }
+.brands-page .brand-artwork-credits summary {
+  display: list-item;
+  width: fit-content;
+  max-width: 100%;
+  min-height: var(--fl-touch-target);
+  padding-block: 12px;
+  border-radius: 4px;
+  color: var(--fl-text-muted);
+  font-size: 12px;
+  line-height: 1.8;
+  cursor: pointer;
+}
+.brands-page .brand-artwork-credits > div {
+  padding-top: 12px;
+  border-top: 1px solid var(--fl-border);
+  color: var(--fl-text-muted);
+  font-size: 12px;
+  line-height: 1.9;
+  overflow-wrap: anywhere;
+}
+.brands-page .brand-artwork-credits > div > p { max-width: 980px; }
+.brands-page .brand-artwork-credits ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 32px; margin-top: 16px; padding: 0; list-style: none; }
+.brands-page .brand-artwork-credits a { color: var(--fl-text-secondary); text-decoration: underline; text-underline-offset: 3px; }
+.brands-page .brand-artwork-credits a:hover { color: var(--fl-accent-soft); }
+@media (hover: hover) and (pointer: fine) {
+  .brands-page .brand-directory-card:hover {
+    border-color: rgb(var(--fl-color-accent) / .85);
+    transform: none;
+    box-shadow: 0 0 22px rgb(var(--fl-color-accent) / .1), inset 0 0 0 1px rgb(var(--fl-color-accent) / .12);
+  }
+  .brands-page .brand-directory-card:hover::after { opacity: 1; }
+  .brands-page .brand-directory-card:hover .brand-card-arrow { color: var(--fl-accent-soft); transform: none; }
+  .brands-page .brand-directory-card:hover .brand-card-arrow::before { border-color: var(--fl-accent-soft); background: rgb(var(--fl-color-accent) / .12); }
+}
+@media (min-width: 900px) {
+  .brands-page .brand-directory-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (min-width: 1280px) {
+  .brands-page .brand-directory-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+}
+@media (max-width: 899px) {
+  .brands-page .phase5-heading-meta { white-space: normal; }
+}
+@media (max-width: 639px) {
+  .brands-page .phase5-heading { padding-top: calc(var(--fl-header-height) + 24px); padding-bottom: 22px; }
+  .brands-page .phase5-heading .discovery-breadcrumb { margin-bottom: 20px; }
+  .brands-page .phase5-title-row { align-items: flex-start; gap: 12px; }
+  .brands-page .phase5-body { padding-bottom: var(--fl-space-16); }
+  .brands-page .brand-directory-atmosphere { width: 95%; height: 340px; opacity: .7; }
+  .brands-page .brand-directory-grid { gap: 10px; }
+  .brands-page .brand-directory-card { aspect-ratio: .74; border-radius: 7px; }
+  .brands-page .brand-card-mark { top: 20%; height: 34%; }
+  .brands-page .brand-directory-card--gibson .brand-card-mark { top: 18%; height: 36%; }
+  .brands-page .brand-directory-card--taylor .brand-card-mark { top: 20%; height: 34%; right: 16%; left: 16%; }
+  .brands-page .brand-card-mark > [data-brand-fallback] { font-size: clamp(34px, 11.4vw, 48px); }
+  .brands-page .brand-directory-caption { right: 12px; bottom: 14px; left: 12px; }
+  .brands-page .brand-card-count { font-size: 12px; }
+  .brands-page .brand-count-full { display: none; }
+  .brands-page .brand-count-compact { display: inline; }
+  .brands-page .brand-card-types { font-size: 12px; padding-right: 30px; }
+  .brands-page .brand-card-arrow { right: 1px; bottom: 3px; }
+  .brands-page .brand-card-arrow::before { width: 26px; height: 26px; }
+  .brands-page .brand-artwork-credits ul { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 359px) {
+  .brands-page .brand-directory-grid { gap: 8px; }
+  .brands-page .brand-directory-card { aspect-ratio: .7; }
+  .brands-page .brand-directory-caption { right: 10px; bottom: 12px; left: 10px; }
+  .brands-page .brand-card-types { font-size: 11px; line-height: 1.8; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .brands-page .brand-directory-card,
+  .brands-page .brand-directory-card::after,
+  .brands-page .brand-card-arrow,
+  .brands-page .brand-card-arrow::before { transition: none; }
+}

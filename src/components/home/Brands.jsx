@@ -1,85 +1,111 @@
+import { useEffect, useRef, useState } from 'react';
 import { t } from '@/i18n';
 import { BRANDS } from '@/data/brands';
-import { HOME_BRAND_ASSETS, HOME_BRAND_ORDER } from '@/data/homeBrandAssets';
-import { brandUrl } from '@/utils/routes';
-import { ArrowRightIcon } from '@/components/ui/Icons';
+import { HOME_BRAND_ORDER } from '@/data/homeBrandAssets';
+import { brandCatalogUrl } from '@/utils/routes';
+import { ArrowRightIcon, ChevronLeftIcon, ChevronRightIcon } from '@/components/ui/Icons';
 import AppLink from '@/components/ui/AppLink';
+import BrandMark from '@/components/brands/BrandMark';
 
-// Presentation order only; counts and destinations always use the live catalog.
-const rank = (id) => {
-  const index = HOME_BRAND_ORDER.indexOf(id);
-  return index < 0 ? HOME_BRAND_ORDER.length : index;
-};
-const orderedBrands = [...BRANDS].sort((a, b) => rank(a.id) - rank(b.id));
+const brands = HOME_BRAND_ORDER.map((id) => BRANDS.find((brand) => brand.id === id)).filter(Boolean);
+const prefersReducedMotion = () => typeof window !== 'undefined'
+  && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-function BrandCard({ brand }) {
-  const artwork = HOME_BRAND_ASSETS[brand.id] ?? {};
+function BrandGroup({ decorative = false, onFocus }) {
   return (
-    <AppLink href={brandUrl(brand.name)}
-      className={`signature-brand-card signature-brand-card--${brand.id}`}
-      data-brand-id={brand.id}
-      aria-label={t('signature.brand.open', { brand: brand.name, n: brand.models })}>
-      {artwork.photo && <img className="signature-brand-photo" src={artwork.photo} alt="" aria-hidden="true"
-        width="600" height="640" loading="lazy" decoding="async" />}
-      <span className="signature-brand-shade" aria-hidden="true" />
-      <span className="signature-brand-mark">
-        {artwork.logoKind === 'photographic' ? (
-          <span className="signature-brand-photo-mark" data-brand-logo-frame>
-            <img data-brand-logo data-brand-logo-kind="photographic" src={artwork.logo} alt={brand.name}
-              width="1920" height="1280" loading="lazy" decoding="async" />
-          </span>
-        ) : artwork.logo ? <img data-brand-logo src={artwork.logo} alt={brand.name} width="220" height="90" loading="lazy" decoding="async" />
-          : <span data-brand-fallback>{brand.name}</span>}
-      </span>
-      <span className="signature-brand-count" data-brand-count>
-        <span aria-hidden="true" />{t('signature.brand.count', { n: brand.models })}
-      </span>
-      <span className="signature-brand-arrow" aria-hidden="true"><ArrowRightIcon size={15} /></span>
-    </AppLink>
+    <div className="signature-marquee-group" data-marquee-primary={decorative ? undefined : ''}
+      data-marquee-clone={decorative ? '' : undefined} aria-hidden={decorative ? true : undefined}>
+      {brands.map((brand) => (
+        <AppLink key={brand.id} href={brandCatalogUrl(brand.name)} data-brand-id={brand.id}
+          className="signature-marquee-link" tabIndex={decorative ? -1 : undefined}
+          aria-label={t('signature.brand.open', { brand: brand.name, n: brand.models })}
+          onFocus={decorative ? undefined : onFocus}>
+          {/* Small repeating marks load before they travel into the viewport. */}
+          <BrandMark brand={brand} className="signature-marquee-mark" loading="eager" />
+          <span className="signature-marquee-count">{t('unit.models', { n: brand.models })}</span>
+        </AppLink>
+      ))}
+    </div>
   );
 }
 
-function BrandCredits() {
-  return (
-    <details className="signature-brand-credits">
-      <summary>{t('signature.brand.credits')}</summary>
-      <div>
-        <p>{t('signature.brand.photoNote')}</p>
-        <p>{t('signature.brand.trademarkNote')}</p>
-        <ul>
-          {orderedBrands.map((brand) => {
-            const asset = HOME_BRAND_ASSETS[brand.id];
-            return <li key={brand.id}>
-              <strong>{brand.name}</strong>{' — '}
-              {asset?.photoSource && <><a href={asset.photoSource} target="_blank" rel="noreferrer">{asset.author}</a>{' · '}<a href={asset.licenseUrl} target="_blank" rel="noreferrer">{asset.license}</a>{'. '}</>}
-              {asset?.logoSource ? <a href={asset.logoSource} target="_blank" rel="noreferrer">{t(asset.logoKind === 'photographic' ? 'signature.brand.photoMarkCredit' : 'signature.brand.logoCredit')}</a> : t(asset?.logoKind === 'typographic' ? 'signature.brand.typeCredit' : 'signature.brand.pending')}
-            </li>;
-          })}
-        </ul>
-      </div>
-    </details>
-  );
-}
-
+/** Restore the Phase B two-copy marquee; keep current Hero and catalog data. */
 export default function Brands() {
+  const viewport = useRef(null);
+  const [paused, setPaused] = useState(false);
+  const [manual, setManual] = useState(false);
+  const [reducedMotion, setReducedMotion] = useState(prefersReducedMotion);
+
+  useEffect(() => {
+    const media = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const update = () => setReducedMotion(media.matches);
+    media.addEventListener('change', update);
+    return () => media.removeEventListener('change', update);
+  }, []);
+
+  const revealFocusedBrand = (event) => {
+    // A static unique row keeps every keyboard-focused link visible.
+    if (!event.currentTarget.matches(':focus-visible')) return;
+    const link = event.currentTarget;
+    setManual(true);
+    setPaused(true);
+    requestAnimationFrame(() => link.scrollIntoView({ block: 'nearest', inline: 'nearest', behavior: 'auto' }));
+  };
+
+  const browse = (direction) => {
+    setManual(true);
+    setPaused(true);
+    requestAnimationFrame(() => {
+      const row = viewport.current;
+      if (!row) return;
+      const max = row.scrollWidth - row.clientWidth;
+      const destination = direction < 0 && row.scrollLeft <= 1 ? max
+        : direction > 0 && row.scrollLeft >= max - 1 ? 0
+          : row.scrollLeft + direction * row.clientWidth * .75;
+      row.scrollTo({ left: destination, behavior: reducedMotion ? 'auto' : 'smooth' });
+    });
+  };
+
+  const toggleMotion = () => {
+    if (paused || manual) {
+      if (viewport.current) viewport.current.scrollLeft = 0;
+      setManual(false);
+      setPaused(false);
+    } else setPaused(true);
+  };
+  const stopped = paused || manual || reducedMotion;
+
   return (
-    <section id="brands" className="signature-brands" aria-labelledby="signature-brands-heading">
-      <div className="signature-brand-header-art" aria-hidden="true">
-        <img src={HOME_BRAND_ASSETS.fender.photo} width="1200" height="700" alt="" loading="lazy" decoding="async" />
-      </div>
-      <div className="signature-brand-inner">
-        <div className="signature-brand-heading">
-          <p className="signature-section-eyebrow">02 / EXPLORE BY BRAND</p>
-          <h2 id="signature-brands-heading"><span>{t('signature.brand.titleLead')}</span><span>{t('signature.brand.titleEnd')}</span></h2>
-          <div className="signature-brand-heading-bottom">
-            <p>{t('signature.brand.description')}</p>
-            <AppLink href="/brands" className="signature-brand-view-all">{t('brand.viewAll')}<span aria-hidden="true"><ArrowRightIcon size={16} /></span></AppLink>
+    <section id="brands" className="signature-brand-marquee" aria-labelledby="home-brands-title"
+      data-manual={manual ? 'true' : 'false'} data-paused={paused ? 'true' : 'false'}>
+      <div className="container-x">
+        <div className="signature-marquee-heading">
+          <div><p className="signature-section-eyebrow">EXPLORE BY BRAND</p>
+            <h2 id="home-brands-title">{t('brand.homeTitle')}</h2></div>
+          <AppLink href="/brands" className="signature-marquee-view-all">{t('brand.viewAll')}<ArrowRightIcon size={16} /></AppLink>
+        </div>
+        <div className="signature-marquee-rail">
+          <button type="button" className="signature-marquee-arrow" data-marquee-prev
+            aria-label={t('signature.brand.previous')} aria-controls="home-brand-track" onClick={() => browse(-1)}><ChevronLeftIcon size={18} /></button>
+          <div ref={viewport} className="signature-marquee-viewport" data-marquee-viewport>
+            <div id="home-brand-track" className="signature-marquee-track animate-marquee">
+              <BrandGroup onFocus={revealFocusedBrand} />
+              <BrandGroup decorative />
+            </div>
           </div>
+          <button type="button" className="signature-marquee-arrow" data-marquee-next
+            aria-label={t('signature.brand.next')} aria-controls="home-brand-track" onClick={() => browse(1)}><ChevronRightIcon size={18} /></button>
         </div>
-        <div className="signature-brand-grid" data-brand-grid>
-          {orderedBrands.map((brand) => <BrandCard key={brand.id} brand={brand} />)}
+        <div className="signature-marquee-footer">
+          <button type="button" data-marquee-pause aria-pressed={stopped} disabled={reducedMotion}
+            aria-controls="home-brand-track" onClick={toggleMotion}>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true">
+              {stopped ? <path d="m8 5 11 7-11 7Z" /> : <path d="M8 5v14M16 5v14" />}
+            </svg>
+            {t(reducedMotion ? 'signature.brand.reducedMotion' : stopped ? 'signature.brand.resume' : 'signature.brand.pause')}
+          </button>
+          <AppLink href="/brands#brand-credits">{t('signature.brand.credits')}</AppLink>
         </div>
-        <BrandCredits />
       </div>
     </section>
   );

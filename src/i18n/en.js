@@ -79,6 +79,7 @@ export const en = {
   "p5.brands.placeholder": "Search a brand, e.g. Yamaha, Fender…",
   "p5.brands.count": "{n} brands found",
   "p5.brands.models": "{n} catalog models",
+  "p5.brands.modelsShort": "{n} models",
   "p5.brands.cardAria": "Explore {brand}, {n} catalog models",
   "p5.brands.note": "Counts describe Fretline's catalog, not a maker's full range. Names appear as text where licensed logos are unavailable.",
   "p5.brands.empty": "No matching brands",
@@ -555,4 +556,9 @@ export const en = {
   "signature.brand.pending": "Temporary brand name; suitable logo and photo rights sources are not yet available",
   "signature.brand.photoMarkCredit": "Photographed Córdoba booth wordmark · CC BY 2.0",
   "signature.brand.typeCredit": "Temporary typographic brand name · not an official logo file",
+  "signature.brand.pause": "Pause brand scrolling",
+  "signature.brand.resume": "Resume brand scrolling",
+  "signature.brand.previous": "Previous brands",
+  "signature.brand.next": "Next brands",
+  "signature.brand.reducedMotion": "Scroll brands manually",
 };
