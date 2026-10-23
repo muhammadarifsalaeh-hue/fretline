@@ -3,7 +3,7 @@
 These files belong only to Phase C Explore by Brand. They do not replace catalog
 product imagery or verify any model, specification or official finish.
 
-The nine source photographs are reused under their individual Creative Commons
+The ten source photographs are reused under their individual Creative Commons
 licenses (CC BY or CC BY-SA), with source, author, license URL and modification
 notice available in the Homepage's “Photography and trademarks” disclosure.
 Each resized WebP photo and its CSS crop/grade retains the source photo license.
@@ -11,8 +11,7 @@ No license is extended to the application as a whole.
 
 The nine genuine marks have public-domain copyright classifications documented
 on their linked Commons file pages. Trademark rights remain with their owners;
-use identifies each brand and does not imply endorsement. Córdoba deliberately
-has no invented logo or substitute brand photo.
+use identifies each brand and does not imply endorsement. Córdoba uses the actual printed wordmark from Justin Higuchi’s CC BY2.0 photo of its2020NAMM booth, framed with the source wood intact and warm toning. The same photo supplies the classical-guitar background. No logo is invented and no standalone manufacturer-vector permission is claimed.
 
 Evidence and SHA-256 hashes:
 - docs/signature-redesign/phase-c/asset-downloads.json

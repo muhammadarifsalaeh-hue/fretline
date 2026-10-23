@@ -56,3 +56,7 @@ Searches also found guitars photographed in the Spanish city Córdoba. Those are
 ## Implementation attribution
 
 Record source URL, author, license URL, access date, local filename and transformations for each selected image. Credit should be accessible from the page. For derivatives, state cropping, color grading, resizing and WebP conversion as applicable and retain the indicated share-alike license on CC BY-SA image derivatives. A photographic license does not supply an official brand logo asset or imply brand endorsement.
+
+## Córdoba follow-up (2026-10-23)
+
+[2020 NAMM Show, Justin Higuchi](https://commons.wikimedia.org/wiki/File:2020_NAMM_Show_(50783452413).jpg) — **CC BY 2.0**, [original Flickr](https://www.flickr.com/photos/jus10h/50783452413/) and [license](https://creativecommons.org/licenses/by/2.0/). The left booth wall shows the authentic Córdoba wordmark above nylon-string classical guitars. CSS frames only this area, excluding the Guild instruments and performers on the right. The same source supplies the photographed wordmark detail; no separate official vector-logo permission is claimed. Source is resized/WebP; CSS applies static crop, warm grading and wordmark contrast/inversion. Exact guitar models are not identified. This supersedes the initial Córdoba photo gap above.

@@ -23,7 +23,12 @@ function BrandCard({ brand }) {
         width="600" height="640" loading="lazy" decoding="async" />}
       <span className="signature-brand-shade" aria-hidden="true" />
       <span className="signature-brand-mark">
-        {artwork.logo ? <img data-brand-logo src={artwork.logo} alt={brand.name} width="220" height="90" loading="lazy" decoding="async" />
+        {artwork.logoKind === 'photographic' ? (
+          <span className="signature-brand-photo-mark" data-brand-logo-frame>
+            <img data-brand-logo data-brand-logo-kind="photographic" src={artwork.logo} alt={brand.name}
+              width="1920" height="1280" loading="lazy" decoding="async" />
+          </span>
+        ) : artwork.logo ? <img data-brand-logo src={artwork.logo} alt={brand.name} width="220" height="90" loading="lazy" decoding="async" />
           : <span data-brand-fallback>{brand.name}</span>}
       </span>
       <span className="signature-brand-count" data-brand-count>
@@ -47,7 +52,7 @@ function BrandCredits() {
             return <li key={brand.id}>
               <strong>{brand.name}</strong>{' — '}
               {asset?.photoSource && <><a href={asset.photoSource} target="_blank" rel="noreferrer">{asset.author}</a>{' · '}<a href={asset.licenseUrl} target="_blank" rel="noreferrer">{asset.license}</a>{'. '}</>}
-              {asset?.logoSource ? <a href={asset.logoSource} target="_blank" rel="noreferrer">{t('signature.brand.logoCredit')}</a> : t('signature.brand.pending')}
+              {asset?.logoSource ? <a href={asset.logoSource} target="_blank" rel="noreferrer">{t(asset.logoKind === 'photographic' ? 'signature.brand.photoMarkCredit' : 'signature.brand.logoCredit')}</a> : t('signature.brand.pending')}
             </li>;
           })}
         </ul>

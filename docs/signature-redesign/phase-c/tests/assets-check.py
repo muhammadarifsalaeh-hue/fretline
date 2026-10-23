@@ -11,12 +11,16 @@ from urllib.parse import unquote, urlparse
 from xml.etree import ElementTree as ET
 import ast
 import json
+import os
 import re
 import traceback
 
 ROOT = Path(__file__).resolve().parents[4]
 OUT = Path(__file__).resolve().parents[1]
+REPORT_OUT = Path(os.environ.get('FRETLINE_QA_OUTPUT_DIR', str(OUT))).resolve()
 EXPECTED_BRANDS = {'yamaha', 'fender', 'gibson', 'taylor', 'ibanez', 'prs', 'epiphone', 'martin', 'squier'}
+ALL_BRANDS = EXPECTED_BRANDS | {'cordoba'}
+CORDOBA_SOURCE = 'https://commons.wikimedia.org/wiki/File:2020_NAMM_Show_(50783452413).jpg'
 REPORT = {'method': 'Offline file/hash/recorded-evidence audit; no live source retrieval in this test.',
           'checks': [], 'assets': [], 'productFiles': [],
           'limitations': ['Recorded copyright/reuse evidence is not a manufacturer endorsement or trademark license.',
@@ -108,11 +112,12 @@ def assets():
     logos = [row for row in manifest if row.get('kind') == 'logo']
     photos = [row for row in manifest if row.get('kind') == 'photo']
     pairs = [(row.get('kind'), row.get('brand')) for row in manifest]
-    check('Exactly eighteen unique registered files: nine logos and nine photos',
-          len(manifest) == len(set(row['file'] for row in manifest)) == len(set(pairs)) == 18
-          and len(logos) == len(photos) == 9, {'rows': len(manifest), 'kinds': dict(Counter(row['kind'] for row in manifest))})
-    check('Same nine known brands have logo/photo assets; Córdoba intentionally excluded',
-          {row['brand'] for row in logos} == {row['brand'] for row in photos} == EXPECTED_BRANDS)
+    check('Exactly nineteen unique registered files: nine logo files and ten photos',
+          len(manifest) == len(set(row['file'] for row in manifest)) == len(set(pairs)) == 19
+          and len(logos) == 9 and len(photos) == 10, {'rows': len(manifest), 'kinds': dict(Counter(row['kind'] for row in manifest))})
+    check('Nine standalone logo files and ten brand photographs are registered',
+          {row['brand'] for row in logos} == EXPECTED_BRANDS
+          and {row['brand'] for row in photos} == ALL_BRANDS)
     actual = {str(path.relative_to(ROOT)) for path in (ROOT / 'src/assets/home-brands').rglob('*') if path.suffix in {'.svg', '.png', '.webp'}}
     check('Every local Homepage asset is covered by the download/hash manifest',
           actual == {row['file'] for row in manifest}, {'unregistered': sorted(actual - {row['file'] for row in manifest})})
@@ -122,12 +127,21 @@ def assets():
               https_url(row.get('sourcePage'), 'commons.wikimedia.org') and row.get('copyrightBasis')
               and row.get('trademarkNotice') is True for row in selected_logos.values()))
     cordoba = [row for row in logo_evidence['logos'] if row.get('brandId') == 'cordoba']
-    check('Córdoba exclusion is explicit; no synthetic replacement is registered',
-          len(cordoba) == 1 and cordoba[0].get('status') == 'use-existing-text-fallback'
-          and 'cordoba' not in photo_credits and 'cordoba' not in logo_sources
-          and photo_evidence.get('cordoba', {}).get('status') == 'no-qualified-photograph-selected')
-    check('Source-credit registry has exactly the same nine logo/photo brands',
-          set(photo_credits) == set(logo_sources) == EXPECTED_BRANDS)
+    check('Córdoba wordmark is explicitly photographic; no standalone logo permission is claimed',
+          len(cordoba) == 1 and cordoba[0].get('status') == 'photographic-wordmark'
+          and cordoba[0].get('notStandaloneLogo') is True
+          and canonical_url(cordoba[0].get('sourcePage')) == canonical_url(CORDOBA_SOURCE)
+          and cordoba[0].get('license') == 'CC BY 2.0' and bool(cordoba[0].get('licenseEvidence'))
+          and not cordoba[0].get('copyrightBasis') and 'cordoba' not in logo_sources,
+          cordoba)
+    check('Source-credit registry covers ten photos and nine standalone logo sources',
+          set(photo_credits) == ALL_BRANDS and set(logo_sources) == EXPECTED_BRANDS)
+    previous_report = OUT / 'assets-check.json'
+    prior_assets = json.loads(previous_report.read_text()).get('assets', []) if previous_report.is_file() else []
+    prior_logo_hashes = {item['brand']: item['actualSha256'] for item in prior_assets if item.get('kind') == 'logo'}
+    check('All nine pre-existing standalone logo hashes remain unchanged',
+          set(prior_logo_hashes) == EXPECTED_BRANDS and all(
+              prior_logo_hashes.get(row['brand']) == row['sha256'] for row in logos))
     for row in manifest:
         label = row['kind'] + ':' + row['brand']
         item = {'kind': row['kind'], 'brand': row['brand'], 'file': row['file']}
@@ -191,6 +205,22 @@ def assets():
                 item['evidenceFormat'] = 'research JSON' if json_match else 'accessed photo-research README' if markdown_match else None
                 check(label + ' is a local optimized WebP derivative',
                       path.suffix == '.webp' and blob.startswith(b'RIFF') and blob[8:12] == b'WEBP')
+                if row['brand'] == 'cordoba':
+                    evidence = [candidate for candidate in photo_evidence['photographs']
+                                if candidate.get('brandId') == 'cordoba'
+                                and canonical_url(candidate.get('sourcePage')) == canonical_url(CORDOBA_SOURCE)]
+                    check('Córdoba uses the licensed NAMM photo for both background and authentic photographed wordmark',
+                          row.get('logoKind') == 'photographic'
+                          and canonical_url(row['source']) == canonical_url(CORDOBA_SOURCE)
+                          and row['license'] == 'CC BY 2.0'
+                          and 'justinhiguchi' in attribution_key(row['author'])
+                          and row.get('wordmarkUse', {}).get('kind') == 'photographic'
+                          and row.get('wordmarkUse', {}).get('sameSourceImage') is True
+                          and row.get('wordmarkUse', {}).get('standaloneOfficialVectorPermissionClaimed') is False
+                          and len(evidence) == 1 and bool(evidence[0].get('licenseEvidence'))
+                          and evidence[0].get('license') == 'CC BY 2.0'
+                          and 'photograph' in row.get('usage', '').lower(),
+                          {'manifest': row, 'evidence': evidence})
             REPORT['assets'].append(item)
         except Exception:
             failure = traceback.format_exc()
@@ -198,8 +228,9 @@ def assets():
             item['failure'] = failure
             REPORT['assets'].append(item)
     # Source evidence is recorded, not promoted into product verification.
-    REPORT['assetSummary'] = {'logos': len(logos), 'brandPhotos': len(photos),
-                              'newProductPhotos': 0, 'cordoba': 'Existing text/neutral background fallback',
+    REPORT['assetSummary'] = {'standaloneLogoFiles': len(logos), 'brandPhotos': len(photos),
+                              'visibleBrandMarks': 10, 'photographedWordmarks': 1,
+                              'newProductPhotos': 0, 'cordoba': 'Same licensed brand photograph provides a cropped authentic photographed wordmark; no standalone vector/logo permission claimed',
                               'trademarkNotice': 'Brand marks identify their owners; no endorsement is claimed.'}
 
 
@@ -225,7 +256,7 @@ def products():
     return {'baseline': '0b187d0',
             'baselineEvidence': str(baseline_path.relative_to(ROOT)),
             'historicalSourceBaseline': baseline.get('baseline'),
-            'comparedAgainst': 'Phase C working tree', 'files': rows,
+            'comparedAgainst': 'Current Phase C / Córdoba update working tree', 'files': rows,
             'allUnchanged': all(item['unchanged'] for item in rows),
             'newHomeBrandAssetsAreSeparate': True}
 
@@ -239,7 +270,8 @@ except Exception:
     print(REPORT['harnessFailure'], flush=True)
 finally:
     REPORT['passed'] = bool(REPORT['checks']) and all(row['passed'] for row in REPORT['checks']) and not REPORT.get('harnessFailure')
-    (OUT / 'assets-check.json').write_text(json.dumps(REPORT, ensure_ascii=False, indent=2) + '\n')
+    REPORT_OUT.mkdir(parents=True, exist_ok=True)
+    (REPORT_OUT / 'assets-check.json').write_text(json.dumps(REPORT, ensure_ascii=False, indent=2) + '\n')
     if integrity is not None:
-        (OUT / 'data-image-integrity.json').write_text(json.dumps(integrity, ensure_ascii=False, indent=2) + '\n')
+        (REPORT_OUT / 'data-image-integrity.json').write_text(json.dumps(integrity, ensure_ascii=False, indent=2) + '\n')
 raise SystemExit(0 if REPORT['passed'] else 1)

@@ -14,7 +14,10 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
       "licenseEvidence": "Commons licensing section and Flickr review dated 2015-07-14",
-      "dimensions": { "width": 4272, "height": 2848 },
+      "dimensions": {
+        "width": 4272,
+        "height": 2848
+      },
       "useRestriction": "Fender brand atmosphere only; not a product image for a current Catalog model."
     },
     {
@@ -27,7 +30,10 @@
       "license": "CC0 1.0",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "licenseEvidence": "Commons explicitly identifies original Unsplash publication 2016-04-27, before its 2017-06-05 license change, and records CC0. The page includes an archived source.",
-      "dimensions": { "width": 6000, "height": 4000 },
+      "dimensions": {
+        "width": 6000,
+        "height": 4000
+      },
       "useRestriction": "Inspect manufacturer mark before use. Gibson brand atmosphere only; not a product image for a current Catalog model."
     },
     {
@@ -40,7 +46,10 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
       "licenseEvidence": "Commons licensing section and Flickr upload-bot license confirmation dated 2013-03-31",
-      "dimensions": { "width": 2448, "height": 3264 },
+      "dimensions": {
+        "width": 2448,
+        "height": 3264
+      },
       "useRestriction": "Unspecified Taylor model; brand atmosphere only."
     },
     {
@@ -52,7 +61,10 @@
       "license": "PD-user",
       "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-user",
       "licenseEvidence": "Author's worldwide public-domain release; fallback unconditional permission for any purpose in the file-page Permission section",
-      "dimensions": { "width": 600, "height": 450 },
+      "dimensions": {
+        "width": 600,
+        "height": 450
+      },
       "useRestriction": "Unspecified PRS model; brand atmosphere only. Low original resolution; do not upscale for large hero."
     },
     {
@@ -65,7 +77,10 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "licenseEvidence": "Commons author self-license section",
-      "dimensions": { "width": 3072, "height": 4080 },
+      "dimensions": {
+        "width": 3072,
+        "height": 4080
+      },
       "useRestriction": "Ibanez brand atmosphere only. Credit author/source/license, describe crop/optimization, and preserve the same/compatible license on adapted image."
     },
     {
@@ -78,7 +93,10 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
       "licenseEvidence": "Commons author self-license section",
-      "dimensions": { "width": 3000, "height": 4000 },
+      "dimensions": {
+        "width": 3000,
+        "height": 4000
+      },
       "useRestriction": "Epiphone brand atmosphere only. Credit author/source/license, describe crop/optimization, and preserve the same/compatible license on adapted image."
     },
     {
@@ -91,12 +109,29 @@
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
       "licenseEvidence": "Commons author self-license section",
-      "dimensions": { "width": 750, "height": 563 },
+      "dimensions": {
+        "width": 750,
+        "height": 563
+      },
       "useRestriction": "Unspecified Squier model; brand atmosphere only. Credit author/source/license, describe crop/optimization, and preserve the same/compatible license on adapted image."
+    },
+    {
+      "brandId": "cordoba",
+      "subject": "Córdoba nylon-string classical guitars on the left booth wall at2020NAMM; exactmodels notidentified",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2020_NAMM_Show_(50783452413).jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/2020_NAMM_Show_%2850783452413%29.jpg",
+      "author": "Justin Higuchi",
+      "originalSource": "https://www.flickr.com/photos/jus10h/50783452413/",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "licenseEvidence": "Opened original photographer Flickr page and followed Some rights reserved to CC BY2.0. Commons extmetadata confirms identical author/license. Viewed source photo: authentic Córdoba wordmark and classical instruments on left wall; exclude Guild/performer onright.",
+      "useRestriction": "Brand atmosphere and photographed-wordmark framing only, never assigned to a catalog model or exact finish."
     }
   ],
   "cordoba": {
-    "status": "no-qualified-photograph-selected",
-    "reason": "Search results mixed Córdoba the city and other makers, or Córdoba ukuleles with other manufacturers' guitars. Do not use those as a Córdoba guitar background."
+    "status": "licensed-photograph-selected",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:2020_NAMM_Show_(50783452413).jpg",
+    "license": "CC BY 2.0",
+    "wordmark": "Genuine printed wordmark detail of same CC BY2.0 photograph; not a standalone official vector-logo license."
   }
 }

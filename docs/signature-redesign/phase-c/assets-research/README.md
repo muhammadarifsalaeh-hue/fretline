@@ -1,5 +1,8 @@
 # Phase C brand mark research
 
+> Historical Phase C report for commit14f92ca. Córdoba now has licensed guitar imagery and a genuine photographed wordmark; see [Córdoba follow-up](../../cordoba-update/README.md). Initial counts and fallback descriptions below record the earlier version.
+
+
 Access date: **2026-10-23**. Scope: the ten brands already present in Fretline. No guitar data, IDs, model counts, or application state are changed by this research.
 
 Nine real brand marks have an explicit copyright reuse basis on Wikimedia Commons. Each selected file-description page was opened and its identity, author/source, licensing section, and original-file link checked. These are existing manufacturer marks, not lettering generated for Fretline. The copyright classification is the Commons file-page statement; it does not imply that the manufacturer endorses or licensed Fretline. Trademark rights remain with their respective owners.

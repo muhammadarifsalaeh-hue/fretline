@@ -1,0 +1,3741 @@
+{
+  "baseURL": "http://127.0.0.1:5205",
+  "browser": "Chromium on Linux; physical Safari/iPad not tested",
+  "checks": [
+    {
+      "case": "desktop",
+      "passed": true,
+      "brands": {
+        "section": {
+          "left": 0,
+          "top": 2138.421875,
+          "width": 1440,
+          "height": 955.671875,
+          "right": 1440,
+          "bottom": 3094.09375
+        },
+        "grid": {
+          "left": 64,
+          "top": 2432.5,
+          "width": 1312,
+          "height": 540,
+          "right": 1376,
+          "bottom": 2972.5
+        },
+        "columns": "254.391px 254.406px 254.391px 254.406px 254.391px",
+        "cards": [
+          {
+            "id": "yamaha",
+            "href": "/brands/yamaha",
+            "label": "สำรวจ Yamaha · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 64,
+              "top": 2432.5,
+              "width": 254.390625,
+              "height": 264.984375,
+              "right": 318.390625,
+              "bottom": 2697.484375
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/yamaha-DhXfjkE2.svg",
+                "alt": "Yamaha",
+                "rect": {
+                  "left": 96.1875,
+                  "top": 2517.640625,
+                  "width": 190,
+                  "height": 89.40625,
+                  "right": 286.1875,
+                  "bottom": 2607.046875
+                },
+                "naturalWidth": 1066,
+                "naturalHeight": 232,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/yamaha-B6fXBWus.webp",
+                "rect": {
+                  "left": 65,
+                  "top": 2433.5,
+                  "width": 252.390625,
+                  "height": 262.984375,
+                  "right": 317.390625,
+                  "bottom": 2696.484375
+                },
+                "naturalWidth": 1071,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 85,
+              "top": 2640.6875,
+              "width": 180.390625,
+              "height": 35.796875,
+              "right": 265.390625,
+              "bottom": 2676.484375
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 265.390625,
+              "top": 2642.484375,
+              "width": 44,
+              "height": 44,
+              "right": 309.390625,
+              "bottom": 2686.484375
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "fender",
+            "href": "/brands/fender",
+            "label": "สำรวจ Fender · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 328.390625,
+              "top": 2432.5,
+              "width": 254.40625,
+              "height": 265,
+              "right": 582.796875,
+              "bottom": 2697.5
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/fender-DkIbZz31.svg",
+                "alt": "Fender",
+                "rect": {
+                  "left": 360.59375,
+                  "top": 2517.65625,
+                  "width": 190,
+                  "height": 89.40625,
+                  "right": 550.59375,
+                  "bottom": 2607.0625
+                },
+                "naturalWidth": 1024,
+                "naturalHeight": 388,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/fender-DCF8s-Rl.webp",
+                "rect": {
+                  "left": 329.390625,
+                  "top": 2433.5,
+                  "width": 252.40625,
+                  "height": 263,
+                  "right": 581.796875,
+                  "bottom": 2696.5
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 800,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 349.390625,
+              "top": 2640.703125,
+              "width": 180.40625,
+              "height": 35.796875,
+              "right": 529.796875,
+              "bottom": 2676.5
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 529.796875,
+              "top": 2642.5,
+              "width": 44,
+              "height": 44,
+              "right": 573.796875,
+              "bottom": 2686.5
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "gibson",
+            "href": "/brands/gibson",
+            "label": "สำรวจ Gibson · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 592.796875,
+              "top": 2432.5,
+              "width": 254.390625,
+              "height": 264.984375,
+              "right": 847.1875,
+              "bottom": 2697.484375
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/gibson-BLvOdW2L.svg",
+                "alt": "Gibson",
+                "rect": {
+                  "left": 624.984375,
+                  "top": 2501.875,
+                  "width": 190,
+                  "height": 120.328125,
+                  "right": 814.984375,
+                  "bottom": 2622.203125
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 190,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/gibson-DuMHBIUC.webp",
+                "rect": {
+                  "left": 501.92669677734375,
+                  "top": 2249.410888671875,
+                  "width": 429.0640869140625,
+                  "height": 447.073486328125,
+                  "right": 930.9907836914062,
+                  "bottom": 2696.484375
+                },
+                "naturalWidth": 1069,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 613.796875,
+              "top": 2640.6875,
+              "width": 180.390625,
+              "height": 35.796875,
+              "right": 794.1875,
+              "bottom": 2676.484375
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 794.1875,
+              "top": 2642.484375,
+              "width": 44,
+              "height": 44,
+              "right": 838.1875,
+              "bottom": 2686.484375
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "taylor",
+            "href": "/brands/taylor",
+            "label": "สำรวจ Taylor · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 857.1875,
+              "top": 2432.5,
+              "width": 254.40625,
+              "height": 265,
+              "right": 1111.59375,
+              "bottom": 2697.5
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/taylor-BiE1RgP3.svg",
+                "alt": "Taylor",
+                "rect": {
+                  "left": 898.5625,
+                  "top": 2501.875,
+                  "width": 171.65625,
+                  "height": 132.46875,
+                  "right": 1070.21875,
+                  "bottom": 2634.34375
+                },
+                "naturalWidth": 244,
+                "naturalHeight": 189,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/taylor-DVJVIccN.webp",
+                "rect": {
+                  "left": 778.6795043945312,
+                  "top": 2315.14990234375,
+                  "width": 365.98907470703125,
+                  "height": 381.35009765625,
+                  "right": 1144.6685791015625,
+                  "bottom": 2696.5
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 878.1875,
+              "top": 2640.703125,
+              "width": 180.40625,
+              "height": 35.796875,
+              "right": 1058.59375,
+              "bottom": 2676.5
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 1058.59375,
+              "top": 2642.5,
+              "width": 44,
+              "height": 44,
+              "right": 1102.59375,
+              "bottom": 2686.5
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "ibanez",
+            "href": "/brands/ibanez",
+            "label": "สำรวจ Ibanez · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 1121.59375,
+              "top": 2432.5,
+              "width": 254.390625,
+              "height": 264.984375,
+              "right": 1375.984375,
+              "bottom": 2697.484375
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/ibanez-Dr5XvkXn.svg",
+                "alt": "Ibanez",
+                "rect": {
+                  "left": 1153.78125,
+                  "top": 2517.640625,
+                  "width": 190,
+                  "height": 89.40625,
+                  "right": 1343.78125,
+                  "bottom": 2607.046875
+                },
+                "naturalWidth": 698,
+                "naturalHeight": 171,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/ibanez-0rVpVFOn.webp",
+                "rect": {
+                  "left": 1105.557373046875,
+                  "top": 2405.09765625,
+                  "width": 290.249267578125,
+                  "height": 302.43212890625,
+                  "right": 1395.806640625,
+                  "bottom": 2707.52978515625
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 1594,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 1142.59375,
+              "top": 2640.6875,
+              "width": 180.390625,
+              "height": 35.796875,
+              "right": 1322.984375,
+              "bottom": 2676.484375
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 1322.984375,
+              "top": 2642.484375,
+              "width": 44,
+              "height": 44,
+              "right": 1366.984375,
+              "bottom": 2686.484375
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "prs",
+            "href": "/brands/prs",
+            "label": "สำรวจ PRS · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 64,
+              "top": 2707.5,
+              "width": 254.390625,
+              "height": 264.984375,
+              "right": 318.390625,
+              "bottom": 2972.484375
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/prs-DcKJlR5R.svg",
+                "alt": "PRS",
+                "rect": {
+                  "left": 97.796875,
+                  "top": 2792.640625,
+                  "width": 186.796875,
+                  "height": 89.40625,
+                  "right": 284.59375,
+                  "bottom": 2882.046875
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 122,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/prs-CwqQZRay.webp",
+                "rect": {
+                  "left": 65,
+                  "top": 2708.5,
+                  "width": 252.390625,
+                  "height": 262.984375,
+                  "right": 317.390625,
+                  "bottom": 2971.484375
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 795,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 85,
+              "top": 2915.6875,
+              "width": 180.390625,
+              "height": 35.796875,
+              "right": 265.390625,
+              "bottom": 2951.484375
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 265.390625,
+              "top": 2917.484375,
+              "width": 44,
+              "height": 44,
+              "right": 309.390625,
+              "bottom": 2961.484375
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "epiphone",
+            "href": "/brands/epiphone",
+            "label": "สำรวจ Epiphone · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 328.390625,
+              "top": 2707.5,
+              "width": 254.40625,
+              "height": 265,
+              "right": 582.796875,
+              "bottom": 2972.5
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/epiphone-ScntFqrP.svg",
+                "alt": "Epiphone",
+                "rect": {
+                  "left": 360.59375,
+                  "top": 2792.65625,
+                  "width": 190,
+                  "height": 89.40625,
+                  "right": 550.59375,
+                  "bottom": 2882.0625
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 100,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/epiphone-3cYMFIFQ.webp",
+                "rect": {
+                  "left": 329.390625,
+                  "top": 2708.5,
+                  "width": 252.40625,
+                  "height": 263,
+                  "right": 581.796875,
+                  "bottom": 2971.5
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 349.390625,
+              "top": 2915.703125,
+              "width": 180.40625,
+              "height": 35.796875,
+              "right": 529.796875,
+              "bottom": 2951.5
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 529.796875,
+              "top": 2917.5,
+              "width": 44,
+              "height": 44,
+              "right": 573.796875,
+              "bottom": 2961.5
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "martin",
+            "href": "/brands/martin",
+            "label": "สำรวจ Martin · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 592.796875,
+              "top": 2707.5,
+              "width": 254.390625,
+              "height": 264.984375,
+              "right": 847.1875,
+              "bottom": 2972.484375
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/martin-DMJyvvLA.svg",
+                "alt": "Martin",
+                "rect": {
+                  "left": 624.984375,
+                  "top": 2792.640625,
+                  "width": 190,
+                  "height": 89.40625,
+                  "right": 814.984375,
+                  "bottom": 2882.046875
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 109,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/martin-BZX4UNwJ.webp",
+                "rect": {
+                  "left": 593.796875,
+                  "top": 2708.5,
+                  "width": 252.390625,
+                  "height": 262.984375,
+                  "right": 846.1875,
+                  "bottom": 2971.484375
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 803,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 613.796875,
+              "top": 2915.6875,
+              "width": 180.390625,
+              "height": 35.796875,
+              "right": 794.1875,
+              "bottom": 2951.484375
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 794.1875,
+              "top": 2917.484375,
+              "width": 44,
+              "height": 44,
+              "right": 838.1875,
+              "bottom": 2961.484375
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "squier",
+            "href": "/brands/squier",
+            "label": "สำรวจ Squier · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 857.1875,
+              "top": 2707.5,
+              "width": 254.40625,
+              "height": 265,
+              "right": 1111.59375,
+              "bottom": 2972.5
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/squier-DbmA7p2n.png",
+                "alt": "Squier",
+                "rect": {
+                  "left": 889.390625,
+                  "top": 2792.65625,
+                  "width": 190,
+                  "height": 89.40625,
+                  "right": 1079.390625,
+                  "bottom": 2882.0625
+                },
+                "naturalWidth": 1222,
+                "naturalHeight": 552,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/squier-D_xTWQop.webp",
+                "rect": {
+                  "left": 858.1875,
+                  "top": 2708.5,
+                  "width": 252.40625,
+                  "height": 263,
+                  "right": 1110.59375,
+                  "bottom": 2971.5
+                },
+                "naturalWidth": 750,
+                "naturalHeight": 563,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 878.1875,
+              "top": 2915.703125,
+              "width": 180.40625,
+              "height": 35.796875,
+              "right": 1058.59375,
+              "bottom": 2951.5
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 1058.59375,
+              "top": 2917.5,
+              "width": 44,
+              "height": 44,
+              "right": 1102.59375,
+              "bottom": 2961.5
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "cordoba",
+            "href": "/brands/cordoba",
+            "label": "สำรวจ Córdoba · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 1121.59375,
+              "top": 2707.5,
+              "width": 254.390625,
+              "height": 264.984375,
+              "right": 1375.984375,
+              "bottom": 2972.484375
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/cordoba-EcdWeOY5.webp",
+                "alt": "Córdoba",
+                "rect": {
+                  "left": 1141.34375,
+                  "top": 2793.125,
+                  "width": 639.75,
+                  "height": 426.5,
+                  "right": 1781.09375,
+                  "bottom": 3219.625
+                },
+                "naturalWidth": 1920,
+                "naturalHeight": 1280,
+                "complete": true,
+                "fit": "fill",
+                "kind": "photographic",
+                "frame": {
+                  "left": 1147.828125,
+                  "top": 2805.796875,
+                  "width": 201.921875,
+                  "height": 63.09375,
+                  "right": 1349.75,
+                  "bottom": 2868.890625
+                },
+                "frameOverflow": "hidden"
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/cordoba-EcdWeOY5.webp",
+                "rect": {
+                  "left": 839.921875,
+                  "top": 2433.56103515625,
+                  "width": 1900.5,
+                  "height": 1267,
+                  "right": 2740.421875,
+                  "bottom": 3700.56103515625
+                },
+                "naturalWidth": 1920,
+                "naturalHeight": 1280,
+                "complete": true,
+                "fit": "fill"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 1142.59375,
+              "top": 2915.6875,
+              "width": 180.390625,
+              "height": 35.796875,
+              "right": 1322.984375,
+              "bottom": 2951.484375
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 1322.984375,
+              "top": 2917.484375,
+              "width": 44,
+              "height": 44,
+              "right": 1366.984375,
+              "bottom": 2961.484375
+            },
+            "imageCount": 2
+          }
+        ]
+      },
+      "screenshots": [
+        "after/brands-desktop.png",
+        "after/cordoba-card-desktop.png"
+      ]
+    },
+    {
+      "case": "tablet-landscape",
+      "passed": true,
+      "brands": {
+        "section": {
+          "left": 0,
+          "top": 2031.765625,
+          "width": 1024,
+          "height": 1743.40625,
+          "right": 1024,
+          "bottom": 3775.171875
+        },
+        "grid": {
+          "left": 24,
+          "top": 2295.84375,
+          "width": 976,
+          "height": 1357.734375,
+          "right": 1000,
+          "bottom": 3653.578125
+        },
+        "columns": "318.656px 318.672px 318.656px",
+        "cards": [
+          {
+            "id": "yamaha",
+            "href": "/brands/yamaha",
+            "label": "สำรวจ Yamaha · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 24,
+              "top": 2295.84375,
+              "width": 318.65625,
+              "height": 331.921875,
+              "right": 342.65625,
+              "bottom": 2627.765625
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/yamaha-DhXfjkE2.svg",
+                "alt": "Yamaha",
+                "rect": {
+                  "left": 88.328125,
+                  "top": 2402.40625,
+                  "width": 190,
+                  "height": 112.171875,
+                  "right": 278.328125,
+                  "bottom": 2514.578125
+                },
+                "naturalWidth": 1066,
+                "naturalHeight": 232,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/yamaha-B6fXBWus.webp",
+                "rect": {
+                  "left": 25,
+                  "top": 2296.84375,
+                  "width": 316.65625,
+                  "height": 329.921875,
+                  "right": 341.65625,
+                  "bottom": 2626.765625
+                },
+                "naturalWidth": 1071,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 45,
+              "top": 2570.96875,
+              "width": 244.65625,
+              "height": 35.796875,
+              "right": 289.65625,
+              "bottom": 2606.765625
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 289.65625,
+              "top": 2572.765625,
+              "width": 44,
+              "height": 44,
+              "right": 333.65625,
+              "bottom": 2616.765625
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "fender",
+            "href": "/brands/fender",
+            "label": "สำรวจ Fender · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 352.65625,
+              "top": 2295.84375,
+              "width": 318.671875,
+              "height": 331.9375,
+              "right": 671.328125,
+              "bottom": 2627.78125
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/fender-DkIbZz31.svg",
+                "alt": "Fender",
+                "rect": {
+                  "left": 416.984375,
+                  "top": 2402.421875,
+                  "width": 190,
+                  "height": 112.171875,
+                  "right": 606.984375,
+                  "bottom": 2514.59375
+                },
+                "naturalWidth": 1024,
+                "naturalHeight": 388,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/fender-DCF8s-Rl.webp",
+                "rect": {
+                  "left": 353.65625,
+                  "top": 2296.84375,
+                  "width": 316.671875,
+                  "height": 329.9375,
+                  "right": 670.328125,
+                  "bottom": 2626.78125
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 800,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 373.65625,
+              "top": 2570.984375,
+              "width": 244.671875,
+              "height": 35.796875,
+              "right": 618.328125,
+              "bottom": 2606.78125
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 618.328125,
+              "top": 2572.78125,
+              "width": 44,
+              "height": 44,
+              "right": 662.328125,
+              "bottom": 2616.78125
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "gibson",
+            "href": "/brands/gibson",
+            "label": "สำรวจ Gibson · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 681.328125,
+              "top": 2295.84375,
+              "width": 318.65625,
+              "height": 331.921875,
+              "right": 999.984375,
+              "bottom": 2627.765625
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/gibson-BLvOdW2L.svg",
+                "alt": "Gibson",
+                "rect": {
+                  "left": 745.65625,
+                  "top": 2382.609375,
+                  "width": 190,
+                  "height": 148.453125,
+                  "right": 935.65625,
+                  "bottom": 2531.0625
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 190,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/gibson-DuMHBIUC.webp",
+                "rect": {
+                  "left": 567.0652465820312,
+                  "top": 2065.8984375,
+                  "width": 538.3156127929688,
+                  "height": 560.8671875,
+                  "right": 1105.380859375,
+                  "bottom": 2626.765625
+                },
+                "naturalWidth": 1069,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 702.328125,
+              "top": 2570.96875,
+              "width": 244.65625,
+              "height": 35.796875,
+              "right": 946.984375,
+              "bottom": 2606.765625
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 946.984375,
+              "top": 2572.765625,
+              "width": 44,
+              "height": 44,
+              "right": 990.984375,
+              "bottom": 2616.765625
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "taylor",
+            "href": "/brands/taylor",
+            "label": "สำรวจ Taylor · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 24,
+              "top": 2637.78125,
+              "width": 318.65625,
+              "height": 331.921875,
+              "right": 342.65625,
+              "bottom": 2969.703125
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/taylor-BiE1RgP3.svg",
+                "alt": "Taylor",
+                "rect": {
+                  "left": 88.328125,
+                  "top": 2724.546875,
+                  "width": 190,
+                  "height": 146.625,
+                  "right": 278.328125,
+                  "bottom": 2871.171875
+                },
+                "naturalWidth": 244,
+                "naturalHeight": 189,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/taylor-DVJVIccN.webp",
+                "rect": {
+                  "left": -74.74671936035156,
+                  "top": 2490.31640625,
+                  "width": 459.15155029296875,
+                  "height": 478.38671875,
+                  "right": 384.4048309326172,
+                  "bottom": 2968.703125
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 45,
+              "top": 2912.90625,
+              "width": 244.65625,
+              "height": 35.796875,
+              "right": 289.65625,
+              "bottom": 2948.703125
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 289.65625,
+              "top": 2914.703125,
+              "width": 44,
+              "height": 44,
+              "right": 333.65625,
+              "bottom": 2958.703125
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "ibanez",
+            "href": "/brands/ibanez",
+            "label": "สำรวจ Ibanez · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 352.65625,
+              "top": 2637.78125,
+              "width": 318.671875,
+              "height": 331.9375,
+              "right": 671.328125,
+              "bottom": 2969.71875
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/ibanez-Dr5XvkXn.svg",
+                "alt": "Ibanez",
+                "rect": {
+                  "left": 416.984375,
+                  "top": 2744.359375,
+                  "width": 190,
+                  "height": 112.171875,
+                  "right": 606.984375,
+                  "bottom": 2856.53125
+                },
+                "naturalWidth": 698,
+                "naturalHeight": 171,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/ibanez-0rVpVFOn.webp",
+                "rect": {
+                  "left": 332.2808837890625,
+                  "top": 2603.14794921875,
+                  "width": 364.17266845703125,
+                  "height": 379.42822265625,
+                  "right": 696.4535522460938,
+                  "bottom": 2982.576171875
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 1594,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 373.65625,
+              "top": 2912.921875,
+              "width": 244.671875,
+              "height": 35.796875,
+              "right": 618.328125,
+              "bottom": 2948.71875
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 618.328125,
+              "top": 2914.71875,
+              "width": 44,
+              "height": 44,
+              "right": 662.328125,
+              "bottom": 2958.71875
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "prs",
+            "href": "/brands/prs",
+            "label": "สำรวจ PRS · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 681.328125,
+              "top": 2637.78125,
+              "width": 318.65625,
+              "height": 331.921875,
+              "right": 999.984375,
+              "bottom": 2969.703125
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/prs-DcKJlR5R.svg",
+                "alt": "PRS",
+                "rect": {
+                  "left": 745.65625,
+                  "top": 2744.34375,
+                  "width": 190,
+                  "height": 112.171875,
+                  "right": 935.65625,
+                  "bottom": 2856.515625
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 122,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/prs-CwqQZRay.webp",
+                "rect": {
+                  "left": 682.328125,
+                  "top": 2638.78125,
+                  "width": 316.65625,
+                  "height": 329.921875,
+                  "right": 998.984375,
+                  "bottom": 2968.703125
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 795,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 702.328125,
+              "top": 2912.90625,
+              "width": 244.65625,
+              "height": 35.796875,
+              "right": 946.984375,
+              "bottom": 2948.703125
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 946.984375,
+              "top": 2914.703125,
+              "width": 44,
+              "height": 44,
+              "right": 990.984375,
+              "bottom": 2958.703125
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "epiphone",
+            "href": "/brands/epiphone",
+            "label": "สำรวจ Epiphone · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 24,
+              "top": 2979.71875,
+              "width": 318.65625,
+              "height": 331.921875,
+              "right": 342.65625,
+              "bottom": 3311.640625
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/epiphone-ScntFqrP.svg",
+                "alt": "Epiphone",
+                "rect": {
+                  "left": 88.328125,
+                  "top": 3086.28125,
+                  "width": 190,
+                  "height": 112.171875,
+                  "right": 278.328125,
+                  "bottom": 3198.453125
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 100,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/epiphone-3cYMFIFQ.webp",
+                "rect": {
+                  "left": 25,
+                  "top": 2980.71875,
+                  "width": 316.65625,
+                  "height": 329.921875,
+                  "right": 341.65625,
+                  "bottom": 3310.640625
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 45,
+              "top": 3254.84375,
+              "width": 244.65625,
+              "height": 35.796875,
+              "right": 289.65625,
+              "bottom": 3290.640625
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 289.65625,
+              "top": 3256.640625,
+              "width": 44,
+              "height": 44,
+              "right": 333.65625,
+              "bottom": 3300.640625
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "martin",
+            "href": "/brands/martin",
+            "label": "สำรวจ Martin · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 352.65625,
+              "top": 2979.71875,
+              "width": 318.671875,
+              "height": 331.9375,
+              "right": 671.328125,
+              "bottom": 3311.65625
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/martin-DMJyvvLA.svg",
+                "alt": "Martin",
+                "rect": {
+                  "left": 416.984375,
+                  "top": 3086.296875,
+                  "width": 190,
+                  "height": 112.171875,
+                  "right": 606.984375,
+                  "bottom": 3198.46875
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 109,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/martin-BZX4UNwJ.webp",
+                "rect": {
+                  "left": 353.65625,
+                  "top": 2980.71875,
+                  "width": 316.671875,
+                  "height": 329.9375,
+                  "right": 670.328125,
+                  "bottom": 3310.65625
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 803,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 373.65625,
+              "top": 3254.859375,
+              "width": 244.671875,
+              "height": 35.796875,
+              "right": 618.328125,
+              "bottom": 3290.65625
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 618.328125,
+              "top": 3256.65625,
+              "width": 44,
+              "height": 44,
+              "right": 662.328125,
+              "bottom": 3300.65625
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "squier",
+            "href": "/brands/squier",
+            "label": "สำรวจ Squier · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 681.328125,
+              "top": 2979.71875,
+              "width": 318.65625,
+              "height": 331.921875,
+              "right": 999.984375,
+              "bottom": 3311.640625
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/squier-DbmA7p2n.png",
+                "alt": "Squier",
+                "rect": {
+                  "left": 745.65625,
+                  "top": 3086.28125,
+                  "width": 190,
+                  "height": 112.171875,
+                  "right": 935.65625,
+                  "bottom": 3198.453125
+                },
+                "naturalWidth": 1222,
+                "naturalHeight": 552,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/squier-D_xTWQop.webp",
+                "rect": {
+                  "left": 682.328125,
+                  "top": 2980.71875,
+                  "width": 316.65625,
+                  "height": 329.921875,
+                  "right": 998.984375,
+                  "bottom": 3310.640625
+                },
+                "naturalWidth": 750,
+                "naturalHeight": 563,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 702.328125,
+              "top": 3254.84375,
+              "width": 244.65625,
+              "height": 35.796875,
+              "right": 946.984375,
+              "bottom": 3290.640625
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 946.984375,
+              "top": 3256.640625,
+              "width": 44,
+              "height": 44,
+              "right": 990.984375,
+              "bottom": 3300.640625
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "cordoba",
+            "href": "/brands/cordoba",
+            "label": "สำรวจ Córdoba · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 24,
+              "top": 3321.65625,
+              "width": 318.65625,
+              "height": 331.921875,
+              "right": 342.65625,
+              "bottom": 3653.578125
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/cordoba-EcdWeOY5.webp",
+                "alt": "Córdoba",
+                "rect": {
+                  "left": 48.234375,
+                  "top": 3428.4375,
+                  "width": 804.296875,
+                  "height": 536.1875,
+                  "right": 852.53125,
+                  "bottom": 3964.625
+                },
+                "naturalWidth": 1920,
+                "naturalHeight": 1280,
+                "complete": true,
+                "fit": "fill",
+                "kind": "photographic",
+                "frame": {
+                  "left": 56.65625,
+                  "top": 3444.71875,
+                  "width": 253.34375,
+                  "height": 79.15625,
+                  "right": 310,
+                  "bottom": 3523.875
+                },
+                "frameOverflow": "hidden"
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/cordoba-EcdWeOY5.webp",
+                "rect": {
+                  "left": -329.640625,
+                  "top": 2977.71435546875,
+                  "width": 2384.40625,
+                  "height": 1589.59375,
+                  "right": 2054.765625,
+                  "bottom": 4567.30810546875
+                },
+                "naturalWidth": 1920,
+                "naturalHeight": 1280,
+                "complete": true,
+                "fit": "fill"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 45,
+              "top": 3596.78125,
+              "width": 244.65625,
+              "height": 35.796875,
+              "right": 289.65625,
+              "bottom": 3632.578125
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 289.65625,
+              "top": 3598.578125,
+              "width": 44,
+              "height": 44,
+              "right": 333.65625,
+              "bottom": 3642.578125
+            },
+            "imageCount": 2
+          }
+        ]
+      },
+      "screenshots": [
+        "after/brands-tablet-landscape.png",
+        "after/cordoba-card-tablet-landscape.png"
+      ]
+    },
+    {
+      "case": "tablet",
+      "passed": true,
+      "brands": {
+        "section": {
+          "left": 0,
+          "top": 2066.546875,
+          "width": 768,
+          "height": 2279.1875,
+          "right": 768,
+          "bottom": 4345.734375
+        },
+        "grid": {
+          "left": 24,
+          "top": 2335.234375,
+          "width": 720,
+          "height": 1888.90625,
+          "right": 744,
+          "bottom": 4224.140625
+        },
+        "columns": "355px 355px",
+        "cards": [
+          {
+            "id": "yamaha",
+            "href": "/brands/yamaha",
+            "label": "สำรวจ Yamaha · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 24,
+              "top": 2335.234375,
+              "width": 355,
+              "height": 369.78125,
+              "right": 379,
+              "bottom": 2705.015625
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/yamaha-DhXfjkE2.svg",
+                "alt": "Yamaha",
+                "rect": {
+                  "left": 91.5,
+                  "top": 2453.921875,
+                  "width": 220,
+                  "height": 125.03125,
+                  "right": 311.5,
+                  "bottom": 2578.953125
+                },
+                "naturalWidth": 1066,
+                "naturalHeight": 232,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/yamaha-B6fXBWus.webp",
+                "rect": {
+                  "left": 25,
+                  "top": 2336.234375,
+                  "width": 353,
+                  "height": 367.78125,
+                  "right": 378,
+                  "bottom": 2704.015625
+                },
+                "naturalWidth": 1071,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 45,
+              "top": 2648.21875,
+              "width": 281,
+              "height": 35.796875,
+              "right": 326,
+              "bottom": 2684.015625
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 326,
+              "top": 2650.015625,
+              "width": 44,
+              "height": 44,
+              "right": 370,
+              "bottom": 2694.015625
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "fender",
+            "href": "/brands/fender",
+            "label": "สำรวจ Fender · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 389,
+              "top": 2335.234375,
+              "width": 355,
+              "height": 369.78125,
+              "right": 744,
+              "bottom": 2705.015625
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/fender-DkIbZz31.svg",
+                "alt": "Fender",
+                "rect": {
+                  "left": 456.5,
+                  "top": 2453.921875,
+                  "width": 220,
+                  "height": 125.03125,
+                  "right": 676.5,
+                  "bottom": 2578.953125
+                },
+                "naturalWidth": 1024,
+                "naturalHeight": 388,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/fender-DCF8s-Rl.webp",
+                "rect": {
+                  "left": 390,
+                  "top": 2336.234375,
+                  "width": 353,
+                  "height": 367.78125,
+                  "right": 743,
+                  "bottom": 2704.015625
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 800,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 410,
+              "top": 2648.21875,
+              "width": 281,
+              "height": 35.796875,
+              "right": 691,
+              "bottom": 2684.015625
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 691,
+              "top": 2650.015625,
+              "width": 44,
+              "height": 44,
+              "right": 735,
+              "bottom": 2694.015625
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "gibson",
+            "href": "/brands/gibson",
+            "label": "สำรวจ Gibson · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 24,
+              "top": 2715.015625,
+              "width": 355,
+              "height": 369.78125,
+              "right": 379,
+              "bottom": 3084.796875
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/gibson-BLvOdW2L.svg",
+                "alt": "Gibson",
+                "rect": {
+                  "left": 91.5,
+                  "top": 2811.625,
+                  "width": 220,
+                  "height": 165.5,
+                  "right": 311.5,
+                  "bottom": 2977.125
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 190,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/gibson-DuMHBIUC.webp",
+                "rect": {
+                  "left": -103.49200439453125,
+                  "top": 2458.56884765625,
+                  "width": 600.1000366210938,
+                  "height": 625.22802734375,
+                  "right": 496.6080322265625,
+                  "bottom": 3083.796875
+                },
+                "naturalWidth": 1069,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 45,
+              "top": 3028,
+              "width": 281,
+              "height": 35.796875,
+              "right": 326,
+              "bottom": 3063.796875
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 326,
+              "top": 3029.796875,
+              "width": 44,
+              "height": 44,
+              "right": 370,
+              "bottom": 3073.796875
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "taylor",
+            "href": "/brands/taylor",
+            "label": "สำรวจ Taylor · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 389,
+              "top": 2715.015625,
+              "width": 355,
+              "height": 369.78125,
+              "right": 744,
+              "bottom": 3084.796875
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/taylor-BiE1RgP3.svg",
+                "alt": "Taylor",
+                "rect": {
+                  "left": 456.5,
+                  "top": 2811.625,
+                  "width": 220,
+                  "height": 169.78125,
+                  "right": 676.5,
+                  "bottom": 2981.40625
+                },
+                "naturalWidth": 244,
+                "naturalHeight": 189,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/taylor-DVJVIccN.webp",
+                "rect": {
+                  "left": 278.80499267578125,
+                  "top": 2550.51416015625,
+                  "width": 511.85003662109375,
+                  "height": 533.28271484375,
+                  "right": 790.655029296875,
+                  "bottom": 3083.796875
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 410,
+              "top": 3028,
+              "width": 281,
+              "height": 35.796875,
+              "right": 691,
+              "bottom": 3063.796875
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 691,
+              "top": 3029.796875,
+              "width": 44,
+              "height": 44,
+              "right": 735,
+              "bottom": 3073.796875
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "ibanez",
+            "href": "/brands/ibanez",
+            "label": "สำรวจ Ibanez · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 24,
+              "top": 3094.796875,
+              "width": 355,
+              "height": 369.78125,
+              "right": 379,
+              "bottom": 3464.578125
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/ibanez-Dr5XvkXn.svg",
+                "alt": "Ibanez",
+                "rect": {
+                  "left": 91.5,
+                  "top": 3213.484375,
+                  "width": 220,
+                  "height": 125.03125,
+                  "right": 311.5,
+                  "bottom": 3338.515625
+                },
+                "naturalWidth": 698,
+                "naturalHeight": 171,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/ibanez-0rVpVFOn.webp",
+                "rect": {
+                  "left": 1.1725006103515625,
+                  "top": 3056.076416015625,
+                  "width": 405.95001220703125,
+                  "height": 422.948486328125,
+                  "right": 407.1225128173828,
+                  "bottom": 3479.02490234375
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 1594,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 45,
+              "top": 3407.78125,
+              "width": 281,
+              "height": 35.796875,
+              "right": 326,
+              "bottom": 3443.578125
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 326,
+              "top": 3409.578125,
+              "width": 44,
+              "height": 44,
+              "right": 370,
+              "bottom": 3453.578125
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "prs",
+            "href": "/brands/prs",
+            "label": "สำรวจ PRS · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 389,
+              "top": 3094.796875,
+              "width": 355,
+              "height": 369.78125,
+              "right": 744,
+              "bottom": 3464.578125
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/prs-DcKJlR5R.svg",
+                "alt": "PRS",
+                "rect": {
+                  "left": 456.5,
+                  "top": 3213.484375,
+                  "width": 220,
+                  "height": 125.03125,
+                  "right": 676.5,
+                  "bottom": 3338.515625
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 122,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/prs-CwqQZRay.webp",
+                "rect": {
+                  "left": 390,
+                  "top": 3095.796875,
+                  "width": 353,
+                  "height": 367.78125,
+                  "right": 743,
+                  "bottom": 3463.578125
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 795,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 410,
+              "top": 3407.78125,
+              "width": 281,
+              "height": 35.796875,
+              "right": 691,
+              "bottom": 3443.578125
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 691,
+              "top": 3409.578125,
+              "width": 44,
+              "height": 44,
+              "right": 735,
+              "bottom": 3453.578125
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "epiphone",
+            "href": "/brands/epiphone",
+            "label": "สำรวจ Epiphone · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 24,
+              "top": 3474.578125,
+              "width": 355,
+              "height": 369.78125,
+              "right": 379,
+              "bottom": 3844.359375
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/epiphone-ScntFqrP.svg",
+                "alt": "Epiphone",
+                "rect": {
+                  "left": 91.5,
+                  "top": 3593.265625,
+                  "width": 220,
+                  "height": 125.03125,
+                  "right": 311.5,
+                  "bottom": 3718.296875
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 100,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/epiphone-3cYMFIFQ.webp",
+                "rect": {
+                  "left": 25,
+                  "top": 3475.578125,
+                  "width": 353,
+                  "height": 367.78125,
+                  "right": 378,
+                  "bottom": 3843.359375
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 45,
+              "top": 3787.5625,
+              "width": 281,
+              "height": 35.796875,
+              "right": 326,
+              "bottom": 3823.359375
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 326,
+              "top": 3789.359375,
+              "width": 44,
+              "height": 44,
+              "right": 370,
+              "bottom": 3833.359375
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "martin",
+            "href": "/brands/martin",
+            "label": "สำรวจ Martin · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 389,
+              "top": 3474.578125,
+              "width": 355,
+              "height": 369.78125,
+              "right": 744,
+              "bottom": 3844.359375
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/martin-DMJyvvLA.svg",
+                "alt": "Martin",
+                "rect": {
+                  "left": 456.5,
+                  "top": 3593.265625,
+                  "width": 220,
+                  "height": 125.03125,
+                  "right": 676.5,
+                  "bottom": 3718.296875
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 109,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/martin-BZX4UNwJ.webp",
+                "rect": {
+                  "left": 390,
+                  "top": 3475.578125,
+                  "width": 353,
+                  "height": 367.78125,
+                  "right": 743,
+                  "bottom": 3843.359375
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 803,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 410,
+              "top": 3787.5625,
+              "width": 281,
+              "height": 35.796875,
+              "right": 691,
+              "bottom": 3823.359375
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 691,
+              "top": 3789.359375,
+              "width": 44,
+              "height": 44,
+              "right": 735,
+              "bottom": 3833.359375
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "squier",
+            "href": "/brands/squier",
+            "label": "สำรวจ Squier · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 24,
+              "top": 3854.359375,
+              "width": 355,
+              "height": 369.78125,
+              "right": 379,
+              "bottom": 4224.140625
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/squier-DbmA7p2n.png",
+                "alt": "Squier",
+                "rect": {
+                  "left": 91.5,
+                  "top": 3973.046875,
+                  "width": 220,
+                  "height": 125.03125,
+                  "right": 311.5,
+                  "bottom": 4098.078125
+                },
+                "naturalWidth": 1222,
+                "naturalHeight": 552,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/squier-D_xTWQop.webp",
+                "rect": {
+                  "left": 25,
+                  "top": 3855.359375,
+                  "width": 353,
+                  "height": 367.78125,
+                  "right": 378,
+                  "bottom": 4223.140625
+                },
+                "naturalWidth": 750,
+                "naturalHeight": 563,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 45,
+              "top": 4167.34375,
+              "width": 281,
+              "height": 35.796875,
+              "right": 326,
+              "bottom": 4203.140625
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 326,
+              "top": 4169.140625,
+              "width": 44,
+              "height": 44,
+              "right": 370,
+              "bottom": 4213.140625
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "cordoba",
+            "href": "/brands/cordoba",
+            "label": "สำรวจ Córdoba · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 389,
+              "top": 3854.359375,
+              "width": 355,
+              "height": 369.78125,
+              "right": 744,
+              "bottom": 4224.140625
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/cordoba-EcdWeOY5.webp",
+                "alt": "Córdoba",
+                "rect": {
+                  "left": 415.796875,
+                  "top": 3973.125,
+                  "width": 897.296875,
+                  "height": 598.1875,
+                  "right": 1313.09375,
+                  "bottom": 4571.3125
+                },
+                "naturalWidth": 1920,
+                "naturalHeight": 1280,
+                "complete": true,
+                "fit": "fill",
+                "kind": "photographic",
+                "frame": {
+                  "left": 425.296875,
+                  "top": 3991.4375,
+                  "width": 282.40625,
+                  "height": 88.25,
+                  "right": 707.703125,
+                  "bottom": 4079.6875
+                },
+                "frameOverflow": "hidden"
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/cordoba-EcdWeOY5.webp",
+                "rect": {
+                  "left": -5.359375,
+                  "top": 3470.8251953125,
+                  "width": 2658.078125,
+                  "height": 1772.046875,
+                  "right": 2652.71875,
+                  "bottom": 5242.8720703125
+                },
+                "naturalWidth": 1920,
+                "naturalHeight": 1280,
+                "complete": true,
+                "fit": "fill"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 410,
+              "top": 4167.34375,
+              "width": 281,
+              "height": 35.796875,
+              "right": 691,
+              "bottom": 4203.140625
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 691,
+              "top": 4169.140625,
+              "width": 44,
+              "height": 44,
+              "right": 735,
+              "bottom": 4213.140625
+            },
+            "imageCount": 2
+          }
+        ]
+      },
+      "screenshots": [
+        "after/brands-tablet.png",
+        "after/cordoba-card-tablet.png"
+      ]
+    },
+    {
+      "case": "mobile",
+      "passed": true,
+      "brands": {
+        "section": {
+          "left": 0,
+          "top": 1983.296875,
+          "width": 390,
+          "height": 1444.03125,
+          "right": 390,
+          "bottom": 3427.328125
+        },
+        "grid": {
+          "left": 20,
+          "top": 2261.671875,
+          "width": 350,
+          "height": 1064.0625,
+          "right": 370,
+          "bottom": 3325.734375
+        },
+        "columns": "170px 170px",
+        "cards": [
+          {
+            "id": "yamaha",
+            "href": "/brands/yamaha",
+            "label": "สำรวจ Yamaha · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 20,
+              "top": 2261.671875,
+              "width": 170,
+              "height": 204.8125,
+              "right": 190,
+              "bottom": 2466.484375
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/yamaha-DhXfjkE2.svg",
+                "alt": "Yamaha",
+                "rect": {
+                  "left": 36.109375,
+                  "top": 2311.34375,
+                  "width": 137.78125,
+                  "height": 62.859375,
+                  "right": 173.890625,
+                  "bottom": 2374.203125
+                },
+                "naturalWidth": 1066,
+                "naturalHeight": 232,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/yamaha-B6fXBWus.webp",
+                "rect": {
+                  "left": 21,
+                  "top": 2262.671875,
+                  "width": 168,
+                  "height": 202.8125,
+                  "right": 189,
+                  "bottom": 2465.484375
+                },
+                "naturalWidth": 1071,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 33,
+              "top": 2421.09375,
+              "width": 109,
+              "height": 30.390625,
+              "right": 142,
+              "bottom": 2451.484375
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 143,
+              "top": 2413.484375,
+              "width": 44,
+              "height": 44,
+              "right": 187,
+              "bottom": 2457.484375
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "fender",
+            "href": "/brands/fender",
+            "label": "สำรวจ Fender · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 200,
+              "top": 2261.671875,
+              "width": 170,
+              "height": 204.8125,
+              "right": 370,
+              "bottom": 2466.484375
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/fender-DkIbZz31.svg",
+                "alt": "Fender",
+                "rect": {
+                  "left": 216.109375,
+                  "top": 2311.34375,
+                  "width": 137.78125,
+                  "height": 62.859375,
+                  "right": 353.890625,
+                  "bottom": 2374.203125
+                },
+                "naturalWidth": 1024,
+                "naturalHeight": 388,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/fender-DCF8s-Rl.webp",
+                "rect": {
+                  "left": 201,
+                  "top": 2262.671875,
+                  "width": 168,
+                  "height": 202.8125,
+                  "right": 369,
+                  "bottom": 2465.484375
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 800,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 213,
+              "top": 2421.09375,
+              "width": 109,
+              "height": 30.390625,
+              "right": 322,
+              "bottom": 2451.484375
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 323,
+              "top": 2413.484375,
+              "width": 44,
+              "height": 44,
+              "right": 367,
+              "bottom": 2457.484375
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "gibson",
+            "href": "/brands/gibson",
+            "label": "สำรวจ Gibson · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 20,
+              "top": 2476.484375,
+              "width": 170,
+              "height": 204.8125,
+              "right": 190,
+              "bottom": 2681.296875
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/gibson-BLvOdW2L.svg",
+                "alt": "Gibson",
+                "rect": {
+                  "left": 32.75,
+                  "top": 2522.09375,
+                  "width": 144.5,
+                  "height": 91.515625,
+                  "right": 177.25,
+                  "bottom": 2613.609375
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 190,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/gibson-DuMHBIUC.webp",
+                "rect": {
+                  "left": -40.152008056640625,
+                  "top": 2335.515625,
+                  "width": 285.6000061035156,
+                  "height": 344.78125,
+                  "right": 245.447998046875,
+                  "bottom": 2680.296875
+                },
+                "naturalWidth": 1069,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 33,
+              "top": 2635.90625,
+              "width": 109,
+              "height": 30.390625,
+              "right": 142,
+              "bottom": 2666.296875
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 143,
+              "top": 2628.296875,
+              "width": 44,
+              "height": 44,
+              "right": 187,
+              "bottom": 2672.296875
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "taylor",
+            "href": "/brands/taylor",
+            "label": "สำรวจ Taylor · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 200,
+              "top": 2476.484375,
+              "width": 170,
+              "height": 204.8125,
+              "right": 370,
+              "bottom": 2681.296875
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/taylor-BiE1RgP3.svg",
+                "alt": "Taylor",
+                "rect": {
+                  "left": 226.1875,
+                  "top": 2522.09375,
+                  "width": 117.625,
+                  "height": 90.765625,
+                  "right": 343.8125,
+                  "bottom": 2612.859375
+                },
+                "naturalWidth": 244,
+                "naturalHeight": 189,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/taylor-DVJVIccN.webp",
+                "rect": {
+                  "left": 148.07998657226562,
+                  "top": 2386.21875,
+                  "width": 243.60000610351562,
+                  "height": 294.078125,
+                  "right": 391.67999267578125,
+                  "bottom": 2680.296875
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 213,
+              "top": 2635.90625,
+              "width": 109,
+              "height": 30.390625,
+              "right": 322,
+              "bottom": 2666.296875
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 323,
+              "top": 2628.296875,
+              "width": 44,
+              "height": 44,
+              "right": 367,
+              "bottom": 2672.296875
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "ibanez",
+            "href": "/brands/ibanez",
+            "label": "สำรวจ Ibanez · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 20,
+              "top": 2691.296875,
+              "width": 170,
+              "height": 204.8125,
+              "right": 190,
+              "bottom": 2896.109375
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/ibanez-Dr5XvkXn.svg",
+                "alt": "Ibanez",
+                "rect": {
+                  "left": 36.109375,
+                  "top": 2740.96875,
+                  "width": 137.78125,
+                  "height": 62.859375,
+                  "right": 173.890625,
+                  "bottom": 2803.828125
+                },
+                "naturalWidth": 698,
+                "naturalHeight": 171,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/ibanez-0rVpVFOn.webp",
+                "rect": {
+                  "left": 9.660003662109375,
+                  "top": 2670.39306640625,
+                  "width": 193.1999969482422,
+                  "height": 233.234375,
+                  "right": 202.86000061035156,
+                  "bottom": 2903.62744140625
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 1594,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 33,
+              "top": 2850.71875,
+              "width": 109,
+              "height": 30.390625,
+              "right": 142,
+              "bottom": 2881.109375
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 143,
+              "top": 2843.109375,
+              "width": 44,
+              "height": 44,
+              "right": 187,
+              "bottom": 2887.109375
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "prs",
+            "href": "/brands/prs",
+            "label": "สำรวจ PRS · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 200,
+              "top": 2691.296875,
+              "width": 170,
+              "height": 204.8125,
+              "right": 370,
+              "bottom": 2896.109375
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/prs-DcKJlR5R.svg",
+                "alt": "PRS",
+                "rect": {
+                  "left": 222.828125,
+                  "top": 2740.96875,
+                  "width": 124.34375,
+                  "height": 62.859375,
+                  "right": 347.171875,
+                  "bottom": 2803.828125
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 122,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/prs-CwqQZRay.webp",
+                "rect": {
+                  "left": 201,
+                  "top": 2692.296875,
+                  "width": 168,
+                  "height": 202.8125,
+                  "right": 369,
+                  "bottom": 2895.109375
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 795,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 213,
+              "top": 2850.71875,
+              "width": 109,
+              "height": 30.390625,
+              "right": 322,
+              "bottom": 2881.109375
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 323,
+              "top": 2843.109375,
+              "width": 44,
+              "height": 44,
+              "right": 367,
+              "bottom": 2887.109375
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "epiphone",
+            "href": "/brands/epiphone",
+            "label": "สำรวจ Epiphone · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 20,
+              "top": 2906.109375,
+              "width": 170,
+              "height": 204.8125,
+              "right": 190,
+              "bottom": 3110.921875
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/epiphone-ScntFqrP.svg",
+                "alt": "Epiphone",
+                "rect": {
+                  "left": 36.109375,
+                  "top": 2955.78125,
+                  "width": 137.78125,
+                  "height": 62.859375,
+                  "right": 173.890625,
+                  "bottom": 3018.640625
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 100,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/epiphone-3cYMFIFQ.webp",
+                "rect": {
+                  "left": 21,
+                  "top": 2907.109375,
+                  "width": 168,
+                  "height": 202.8125,
+                  "right": 189,
+                  "bottom": 3109.921875
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 33,
+              "top": 3065.53125,
+              "width": 109,
+              "height": 30.390625,
+              "right": 142,
+              "bottom": 3095.921875
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 143,
+              "top": 3057.921875,
+              "width": 44,
+              "height": 44,
+              "right": 187,
+              "bottom": 3101.921875
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "martin",
+            "href": "/brands/martin",
+            "label": "สำรวจ Martin · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 200,
+              "top": 2906.109375,
+              "width": 170,
+              "height": 204.8125,
+              "right": 370,
+              "bottom": 3110.921875
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/martin-DMJyvvLA.svg",
+                "alt": "Martin",
+                "rect": {
+                  "left": 214.4375,
+                  "top": 2955.78125,
+                  "width": 141.125,
+                  "height": 62.859375,
+                  "right": 355.5625,
+                  "bottom": 3018.640625
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 109,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/martin-BZX4UNwJ.webp",
+                "rect": {
+                  "left": 201,
+                  "top": 2907.109375,
+                  "width": 168,
+                  "height": 202.8125,
+                  "right": 369,
+                  "bottom": 3109.921875
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 803,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 213,
+              "top": 3065.53125,
+              "width": 109,
+              "height": 30.390625,
+              "right": 322,
+              "bottom": 3095.921875
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 323,
+              "top": 3057.921875,
+              "width": 44,
+              "height": 44,
+              "right": 367,
+              "bottom": 3101.921875
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "squier",
+            "href": "/brands/squier",
+            "label": "สำรวจ Squier · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 20,
+              "top": 3120.921875,
+              "width": 170,
+              "height": 204.8125,
+              "right": 190,
+              "bottom": 3325.734375
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/squier-DbmA7p2n.png",
+                "alt": "Squier",
+                "rect": {
+                  "left": 36.109375,
+                  "top": 3170.59375,
+                  "width": 137.78125,
+                  "height": 62.859375,
+                  "right": 173.890625,
+                  "bottom": 3233.453125
+                },
+                "naturalWidth": 1222,
+                "naturalHeight": 552,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/squier-D_xTWQop.webp",
+                "rect": {
+                  "left": 21,
+                  "top": 3121.921875,
+                  "width": 168,
+                  "height": 202.8125,
+                  "right": 189,
+                  "bottom": 3324.734375
+                },
+                "naturalWidth": 750,
+                "naturalHeight": 563,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 33,
+              "top": 3280.34375,
+              "width": 109,
+              "height": 30.390625,
+              "right": 142,
+              "bottom": 3310.734375
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 143,
+              "top": 3272.734375,
+              "width": 44,
+              "height": 44,
+              "right": 187,
+              "bottom": 3316.734375
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "cordoba",
+            "href": "/brands/cordoba",
+            "label": "สำรวจ Córdoba · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 200,
+              "top": 3120.921875,
+              "width": 170,
+              "height": 204.8125,
+              "right": 370,
+              "bottom": 3325.734375
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/cordoba-EcdWeOY5.webp",
+                "alt": "Córdoba",
+                "rect": {
+                  "left": 212.03125,
+                  "top": 3172.3125,
+                  "width": 434.5,
+                  "height": 289.65625,
+                  "right": 646.53125,
+                  "bottom": 3461.96875
+                },
+                "naturalWidth": 1920,
+                "naturalHeight": 1280,
+                "complete": true,
+                "fit": "fill",
+                "kind": "photographic",
+                "frame": {
+                  "left": 216.109375,
+                  "top": 3180.5,
+                  "width": 137.78125,
+                  "height": 43.046875,
+                  "right": 353.890625,
+                  "bottom": 3223.546875
+                },
+                "frameOverflow": "hidden"
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/cordoba-EcdWeOY5.webp",
+                "rect": {
+                  "left": 12.84375,
+                  "top": 2938.916259765625,
+                  "width": 1265.03125,
+                  "height": 843.34375,
+                  "right": 1277.875,
+                  "bottom": 3782.260009765625
+                },
+                "naturalWidth": 1920,
+                "naturalHeight": 1280,
+                "complete": true,
+                "fit": "fill"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 213,
+              "top": 3280.34375,
+              "width": 109,
+              "height": 30.390625,
+              "right": 322,
+              "bottom": 3310.734375
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 323,
+              "top": 3272.734375,
+              "width": 44,
+              "height": 44,
+              "right": 367,
+              "bottom": 3316.734375
+            },
+            "imageCount": 2
+          }
+        ]
+      },
+      "screenshots": [
+        "after/brands-mobile.png",
+        "after/cordoba-card-mobile.png"
+      ]
+    },
+    {
+      "case": "small-mobile",
+      "passed": true,
+      "brands": {
+        "section": {
+          "left": 0,
+          "top": 1988.75,
+          "width": 320,
+          "height": 1330.796875,
+          "right": 320,
+          "bottom": 3319.546875
+        },
+        "grid": {
+          "left": 16,
+          "top": 2288.53125,
+          "width": 288,
+          "height": 929.421875,
+          "right": 304,
+          "bottom": 3217.953125
+        },
+        "columns": "140px 140px",
+        "cards": [
+          {
+            "id": "yamaha",
+            "href": "/brands/yamaha",
+            "label": "สำรวจ Yamaha · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 16,
+              "top": 2288.53125,
+              "width": 140,
+              "height": 179.484375,
+              "right": 156,
+              "bottom": 2468.015625
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/yamaha-DhXfjkE2.svg",
+                "alt": "Yamaha",
+                "rect": {
+                  "left": 29.40625,
+                  "top": 2332.125,
+                  "width": 113.1875,
+                  "height": 55.015625,
+                  "right": 142.59375,
+                  "bottom": 2387.140625
+                },
+                "naturalWidth": 1066,
+                "naturalHeight": 232,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/yamaha-B6fXBWus.webp",
+                "rect": {
+                  "left": 17,
+                  "top": 2289.53125,
+                  "width": 138,
+                  "height": 177.484375,
+                  "right": 155,
+                  "bottom": 2467.015625
+                },
+                "naturalWidth": 1071,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 27,
+              "top": 2402.234375,
+              "width": 83,
+              "height": 50.78125,
+              "right": 110,
+              "bottom": 2453.015625
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 109,
+              "top": 2415.015625,
+              "width": 44,
+              "height": 44,
+              "right": 153,
+              "bottom": 2459.015625
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "fender",
+            "href": "/brands/fender",
+            "label": "สำรวจ Fender · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 164,
+              "top": 2288.53125,
+              "width": 140,
+              "height": 179.484375,
+              "right": 304,
+              "bottom": 2468.015625
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/fender-DkIbZz31.svg",
+                "alt": "Fender",
+                "rect": {
+                  "left": 177.40625,
+                  "top": 2332.125,
+                  "width": 113.1875,
+                  "height": 55.015625,
+                  "right": 290.59375,
+                  "bottom": 2387.140625
+                },
+                "naturalWidth": 1024,
+                "naturalHeight": 388,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/fender-DCF8s-Rl.webp",
+                "rect": {
+                  "left": 165,
+                  "top": 2289.53125,
+                  "width": 138,
+                  "height": 177.484375,
+                  "right": 303,
+                  "bottom": 2467.015625
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 800,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 175,
+              "top": 2402.234375,
+              "width": 83,
+              "height": 50.78125,
+              "right": 258,
+              "bottom": 2453.015625
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 257,
+              "top": 2415.015625,
+              "width": 44,
+              "height": 44,
+              "right": 301,
+              "bottom": 2459.015625
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "gibson",
+            "href": "/brands/gibson",
+            "label": "สำรวจ Gibson · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 16,
+              "top": 2476.015625,
+              "width": 140,
+              "height": 179.484375,
+              "right": 156,
+              "bottom": 2655.5
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/gibson-BLvOdW2L.svg",
+                "alt": "Gibson",
+                "rect": {
+                  "left": 26.65625,
+                  "top": 2516.046875,
+                  "width": 118.6875,
+                  "height": 75.15625,
+                  "right": 145.34375,
+                  "bottom": 2591.203125
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 190,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/gibson-DuMHBIUC.webp",
+                "rect": {
+                  "left": -33.23200225830078,
+                  "top": 2352.776611328125,
+                  "width": 234.60000610351562,
+                  "height": 301.723388671875,
+                  "right": 201.36800384521484,
+                  "bottom": 2654.5
+                },
+                "naturalWidth": 1069,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 27,
+              "top": 2589.71875,
+              "width": 83,
+              "height": 50.78125,
+              "right": 110,
+              "bottom": 2640.5
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 109,
+              "top": 2602.5,
+              "width": 44,
+              "height": 44,
+              "right": 153,
+              "bottom": 2646.5
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "taylor",
+            "href": "/brands/taylor",
+            "label": "สำรวจ Taylor · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 164,
+              "top": 2476.015625,
+              "width": 140,
+              "height": 179.484375,
+              "right": 304,
+              "bottom": 2655.5
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/taylor-BiE1RgP3.svg",
+                "alt": "Taylor",
+                "rect": {
+                  "left": 185.6875,
+                  "top": 2516.046875,
+                  "width": 96.625,
+                  "height": 74.5625,
+                  "right": 282.3125,
+                  "bottom": 2590.609375
+                },
+                "naturalWidth": 244,
+                "naturalHeight": 189,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/taylor-DVJVIccN.webp",
+                "rect": {
+                  "left": 121.52999114990234,
+                  "top": 2397.147705078125,
+                  "width": 200.10000610351562,
+                  "height": 257.352294921875,
+                  "right": 321.62999725341797,
+                  "bottom": 2654.5
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 175,
+              "top": 2589.71875,
+              "width": 83,
+              "height": 50.78125,
+              "right": 258,
+              "bottom": 2640.5
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 257,
+              "top": 2602.5,
+              "width": 44,
+              "height": 44,
+              "right": 301,
+              "bottom": 2646.5
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "ibanez",
+            "href": "/brands/ibanez",
+            "label": "สำรวจ Ibanez · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 16,
+              "top": 2663.5,
+              "width": 140,
+              "height": 179.484375,
+              "right": 156,
+              "bottom": 2842.984375
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/ibanez-Dr5XvkXn.svg",
+                "alt": "Ibanez",
+                "rect": {
+                  "left": 29.40625,
+                  "top": 2707.09375,
+                  "width": 113.1875,
+                  "height": 55.015625,
+                  "right": 142.59375,
+                  "bottom": 2762.109375
+                },
+                "naturalWidth": 698,
+                "naturalHeight": 171,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/ibanez-0rVpVFOn.webp",
+                "rect": {
+                  "left": 7.685005187988281,
+                  "top": 2645.331787109375,
+                  "width": 158.70001220703125,
+                  "height": 204.10693359375,
+                  "right": 166.38501739501953,
+                  "bottom": 2849.438720703125
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 1594,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 27,
+              "top": 2777.203125,
+              "width": 83,
+              "height": 50.78125,
+              "right": 110,
+              "bottom": 2827.984375
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 109,
+              "top": 2789.984375,
+              "width": 44,
+              "height": 44,
+              "right": 153,
+              "bottom": 2833.984375
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "prs",
+            "href": "/brands/prs",
+            "label": "สำรวจ PRS · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 164,
+              "top": 2663.5,
+              "width": 140,
+              "height": 179.484375,
+              "right": 304,
+              "bottom": 2842.984375
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/prs-DcKJlR5R.svg",
+                "alt": "PRS",
+                "rect": {
+                  "left": 182.9375,
+                  "top": 2707.09375,
+                  "width": 102.125,
+                  "height": 55.015625,
+                  "right": 285.0625,
+                  "bottom": 2762.109375
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 122,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/prs-CwqQZRay.webp",
+                "rect": {
+                  "left": 165,
+                  "top": 2664.5,
+                  "width": 138,
+                  "height": 177.484375,
+                  "right": 303,
+                  "bottom": 2841.984375
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 795,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 175,
+              "top": 2777.203125,
+              "width": 83,
+              "height": 50.78125,
+              "right": 258,
+              "bottom": 2827.984375
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 257,
+              "top": 2789.984375,
+              "width": 44,
+              "height": 44,
+              "right": 301,
+              "bottom": 2833.984375
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "epiphone",
+            "href": "/brands/epiphone",
+            "label": "สำรวจ Epiphone · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 16,
+              "top": 2850.984375,
+              "width": 140,
+              "height": 179.484375,
+              "right": 156,
+              "bottom": 3030.46875
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/epiphone-ScntFqrP.svg",
+                "alt": "Epiphone",
+                "rect": {
+                  "left": 29.40625,
+                  "top": 2894.578125,
+                  "width": 113.1875,
+                  "height": 55.015625,
+                  "right": 142.59375,
+                  "bottom": 2949.59375
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 100,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/epiphone-3cYMFIFQ.webp",
+                "rect": {
+                  "left": 17,
+                  "top": 2851.984375,
+                  "width": 138,
+                  "height": 177.484375,
+                  "right": 155,
+                  "bottom": 3029.46875
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 1600,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 27,
+              "top": 2964.6875,
+              "width": 83,
+              "height": 50.78125,
+              "right": 110,
+              "bottom": 3015.46875
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 109,
+              "top": 2977.46875,
+              "width": 44,
+              "height": 44,
+              "right": 153,
+              "bottom": 3021.46875
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "martin",
+            "href": "/brands/martin",
+            "label": "สำรวจ Martin · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 164,
+              "top": 2850.984375,
+              "width": 140,
+              "height": 179.484375,
+              "right": 304,
+              "bottom": 3030.46875
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/martin-DMJyvvLA.svg",
+                "alt": "Martin",
+                "rect": {
+                  "left": 176.03125,
+                  "top": 2894.578125,
+                  "width": 115.9375,
+                  "height": 55.015625,
+                  "right": 291.96875,
+                  "bottom": 2949.59375
+                },
+                "naturalWidth": 300,
+                "naturalHeight": 109,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/martin-BZX4UNwJ.webp",
+                "rect": {
+                  "left": 165,
+                  "top": 2851.984375,
+                  "width": 138,
+                  "height": 177.484375,
+                  "right": 303,
+                  "bottom": 3029.46875
+                },
+                "naturalWidth": 1200,
+                "naturalHeight": 803,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 175,
+              "top": 2964.6875,
+              "width": 83,
+              "height": 50.78125,
+              "right": 258,
+              "bottom": 3015.46875
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 257,
+              "top": 2977.46875,
+              "width": 44,
+              "height": 44,
+              "right": 301,
+              "bottom": 3021.46875
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "squier",
+            "href": "/brands/squier",
+            "label": "สำรวจ Squier · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 16,
+              "top": 3038.46875,
+              "width": 140,
+              "height": 179.484375,
+              "right": 156,
+              "bottom": 3217.953125
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/squier-DbmA7p2n.png",
+                "alt": "Squier",
+                "rect": {
+                  "left": 29.40625,
+                  "top": 3082.0625,
+                  "width": 113.1875,
+                  "height": 55.015625,
+                  "right": 142.59375,
+                  "bottom": 3137.078125
+                },
+                "naturalWidth": 1222,
+                "naturalHeight": 552,
+                "complete": true,
+                "fit": "contain",
+                "kind": "file",
+                "frame": null,
+                "frameOverflow": null
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/squier-D_xTWQop.webp",
+                "rect": {
+                  "left": 17,
+                  "top": 3039.46875,
+                  "width": 138,
+                  "height": 177.484375,
+                  "right": 155,
+                  "bottom": 3216.953125
+                },
+                "naturalWidth": 750,
+                "naturalHeight": 563,
+                "complete": true,
+                "fit": "cover"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 27,
+              "top": 3152.171875,
+              "width": 83,
+              "height": 50.78125,
+              "right": 110,
+              "bottom": 3202.953125
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 109,
+              "top": 3164.953125,
+              "width": 44,
+              "height": 44,
+              "right": 153,
+              "bottom": 3208.953125
+            },
+            "imageCount": 2
+          },
+          {
+            "id": "cordoba",
+            "href": "/brands/cordoba",
+            "label": "สำรวจ Córdoba · 20 รุ่นในแคตตาล็อก",
+            "text": "20 รุ่นในแคตตาล็อก",
+            "rect": {
+              "left": 164,
+              "top": 3038.46875,
+              "width": 140,
+              "height": 179.484375,
+              "right": 304,
+              "bottom": 3217.953125
+            },
+            "logo": [
+              {
+                "src": "http://127.0.0.1:5205/assets/cordoba-EcdWeOY5.webp",
+                "alt": "Córdoba",
+                "rect": {
+                  "left": 174.25,
+                  "top": 3085.421875,
+                  "width": 355.796875,
+                  "height": 237.1875,
+                  "right": 530.046875,
+                  "bottom": 3322.609375
+                },
+                "naturalWidth": 1920,
+                "naturalHeight": 1280,
+                "complete": true,
+                "fit": "fill",
+                "kind": "photographic",
+                "frame": {
+                  "left": 177.40625,
+                  "top": 3091.890625,
+                  "width": 113.1875,
+                  "height": 35.359375,
+                  "right": 290.59375,
+                  "bottom": 3127.25
+                },
+                "frameOverflow": "hidden"
+              }
+            ],
+            "photos": [
+              {
+                "src": "http://127.0.0.1:5205/assets/cordoba-EcdWeOY5.webp",
+                "rect": {
+                  "left": 10.453125,
+                  "top": 2889.14208984375,
+                  "width": 1039.125,
+                  "height": 692.75,
+                  "right": 1049.578125,
+                  "bottom": 3581.89208984375
+                },
+                "naturalWidth": 1920,
+                "naturalHeight": 1280,
+                "complete": true,
+                "fit": "fill"
+              }
+            ],
+            "fallback": [],
+            "count": {
+              "left": 175,
+              "top": 3152.171875,
+              "width": 83,
+              "height": 50.78125,
+              "right": 258,
+              "bottom": 3202.953125
+            },
+            "countText": "20 รุ่นในแคตตาล็อก",
+            "arrow": {
+              "left": 257,
+              "top": 3164.953125,
+              "width": 44,
+              "height": 44,
+              "right": 301,
+              "bottom": 3208.953125
+            },
+            "imageCount": 2
+          }
+        ]
+      },
+      "screenshots": [
+        "after/brands-small-mobile.png",
+        "after/cordoba-card-small-mobile.png"
+      ]
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "method": "Actual vertical scroll, native lazy loading, decode and font waits. Brand section is cropped from unaltered full-page screenshot pixels. Card screenshot is taken from the real visible card.",
+  "passed": true
+}

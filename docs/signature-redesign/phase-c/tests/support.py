@@ -7,7 +7,7 @@ import os
 import re
 
 ROOT = Path(__file__).resolve().parents[4]
-OUT = Path(__file__).resolve().parents[1]
+OUT = Path(os.environ.get('FRETLINE_QA_OUTPUT_DIR', str(Path(__file__).resolve().parents[1]))).resolve()
 BASE = os.environ.get('FRETLINE_QA_URL', 'http://127.0.0.1:5203').rstrip('/')
 VIEWPORTS = [(1440, 1000, 'desktop'), (1024, 768, 'tablet-landscape'),
              (768, 1024, 'tablet'), (390, 844, 'mobile'), (320, 740, 'small-mobile')]
@@ -169,7 +169,12 @@ def brand_metrics(page):
       const grid=section.querySelector('[data-brand-grid]');
       const cards=[...section.querySelectorAll('a[data-brand-id]')].map(a=>({
         id:a.dataset.brandId,href:a.getAttribute('href'),label:a.getAttribute('aria-label'),text:a.textContent.trim(),rect:rect(a),
-        logo:[...a.querySelectorAll('img[data-brand-logo]')].map(i=>({src:i.currentSrc,alt:i.alt,rect:rect(i),naturalWidth:i.naturalWidth,complete:i.complete,fit:getComputedStyle(i).objectFit})),
+        logo:[...a.querySelectorAll('img[data-brand-logo]')].map(i=>{
+          const frame=i.closest('[data-brand-logo-frame]');
+          return {src:i.currentSrc,alt:i.alt,rect:rect(i),naturalWidth:i.naturalWidth,naturalHeight:i.naturalHeight,
+            complete:i.complete,fit:getComputedStyle(i).objectFit,kind:i.dataset.brandLogoKind ?? 'file',
+            frame:rect(frame),frameOverflow:frame?getComputedStyle(frame).overflow:null};
+        }),
         photos:[...a.querySelectorAll('img.signature-brand-photo')].map(i=>({src:i.currentSrc,rect:rect(i),naturalWidth:i.naturalWidth,naturalHeight:i.naturalHeight,complete:i.complete,fit:getComputedStyle(i).objectFit})),
         fallback:[...a.querySelectorAll('[data-brand-fallback]')].map(e=>({text:e.textContent.trim(),rect:rect(e)})),
         count:rect(a.querySelector('[data-brand-count]')),
@@ -193,24 +198,36 @@ def assert_brands(metrics, width):
     expected_columns = 5 if width >= 1280 else 3 if width >= 900 else 2
     assert len(metrics['columns'].split()) == expected_columns, metrics
     assert max(card['rect']['height'] for card in cards) - min(card['rect']['height'] for card in cards) <= 1, metrics
-    assert sum(len(card['photos']) for card in cards) == 9, metrics
+    assert sum(len(card['photos']) for card in cards) == 10, metrics
     rows = Counter(round(card['rect']['top']) for card in cards)
     assert sorted(rows.values(), reverse=True)[0] == expected_columns, metrics
     for card in cards:
         assert card['href'] == '/brands/' + card['id'], card
         assert card['countText'] and re.search(r'\b20\b', card['countText']), card
         assert card['arrow'] and min(card['arrow']['width'], card['arrow']['height']) >= 43.5, card
-        assert len(card['logo']) + len(card['fallback']) == 1, card
-        assert len(card['photos']) == (0 if card['id'] == 'cordoba' else 1), card
+        assert len(card['logo']) == 1 and not card['fallback'], card
+        assert len(card['photos']) == 1, card
         for photo in card['photos']:
             assert photo['complete'] and photo['naturalWidth'] > 0 and photo['naturalHeight'] > 0, card
             assert re.search(r'/' + re.escape(card['id']) + r'(?:[-.])', photo['src']), card
-        if card['logo']:
-            assert card['logo'][0]['complete'] and card['logo'][0]['naturalWidth'] > 0, card
-            assert card['logo'][0]['fit'] == 'contain', card
-        for mark in card['logo'] + card['fallback']:
-            assert mark['rect']['left'] >= card['rect']['left'] - 1, card
-            assert mark['rect']['right'] <= card['rect']['right'] + 1, card
+        logo = card['logo'][0]
+        assert logo['complete'] and logo['naturalWidth'] > 0 and logo['naturalHeight'] > 0, card
+        if card['id'] == 'cordoba':
+            assert logo['kind'] == 'photographic' and logo['src'] == card['photos'][0]['src'], card
+            assert logo['frame'] and min(logo['frame']['width'], logo['frame']['height']) > 0, card
+            assert 'hidden' in logo['frameOverflow'] or 'clip' in logo['frameOverflow'], card
+            # This is a real photographed wordmark crop. The deliberately large
+            # child image is clipped inside its explicit visible frame; measure
+            # that frame instead of falsely treating the hidden child as overflow.
+            assert logo['rect']['width'] > logo['frame']['width'], card
+            visible_mark = logo['frame']
+        else:
+            assert logo['kind'] != 'photographic' and logo['fit'] == 'contain', card
+            visible_mark = logo['rect']
+        assert visible_mark['left'] >= card['rect']['left'] - 1, card
+        assert visible_mark['right'] <= card['rect']['right'] + 1, card
+        assert visible_mark['top'] >= card['rect']['top'] - 1, card
+        assert visible_mark['bottom'] <= card['rect']['bottom'] + 1, card
         if card['count']:
             # Count and arrow may share a horizontal row, but not the same pixels.
             a, b = card['count'], card['arrow']
@@ -218,5 +235,7 @@ def assert_brands(metrics, width):
             vertical = min(a['bottom'], b['bottom']) - max(a['top'], b['top'])
             assert overlap <= 1 or vertical <= 1, card
     return {'columns': expected_columns, 'cards': len(cards),
-            'licensedLogoSlots': sum(bool(card['logo']) for card in cards),
+            'licensedLogoSlots': sum(bool(card['logo']) and card['logo'][0]['kind'] != 'photographic' for card in cards),
+            'photographedWordmarks': sum(bool(card['logo']) and card['logo'][0]['kind'] == 'photographic' for card in cards),
+            'brandPhotos': sum(len(card['photos']) for card in cards),
             'explicitTextFallbacks': sum(bool(card['fallback']) for card in cards)}

@@ -15,6 +15,7 @@ const photoCredits = {
   epiphone: ['Epiphone_Les_Paul_Special_II_headstock.jpg', 'Elmschrat', 'CC BY-SA 4.0', 'by-sa/4.0'],
   martin: ['Martin_JC-16ME_Aura_soundhole.jpg', 'Elías Gómez', 'CC BY-SA 2.0', 'by-sa/2.0'],
   squier: ['Squier_on_guitar_head.jpg', 'Tharish', 'CC BY-SA 3.0', 'by-sa/3.0'],
+  cordoba: ['2020_NAMM_Show_(50783452413).jpg', 'Justin Higuchi', 'CC BY 2.0', 'by/2.0'],
 };
 const logoFiles = {
   yamaha: 'Yamaha_logo.svg', fender: 'Fender_2020_logo.svg', gibson: 'Gibson_logo.svg',
@@ -25,10 +26,14 @@ const logoFiles = {
 export const HOME_BRAND_ORDER = ['yamaha', 'fender', 'gibson', 'taylor', 'ibanez', 'prs', 'epiphone', 'martin', 'squier', 'cordoba'];
 export const HOME_BRAND_ASSETS = Object.fromEntries(HOME_BRAND_ORDER.map((id) => {
   const credit = photoCredits[id];
+  // The Córdoba wordmark is a framed detail of this licensed booth photograph,
+  // not a synthesized mark or a separately licensed manufacturer vector file.
+  const photographic = id === 'cordoba';
   return [id, {
-    logo: file('logos', id, id === 'squier' ? 'png' : 'svg'),
+    logo: photographic ? file('photos', id, 'webp') : file('logos', id, id === 'squier' ? 'png' : 'svg'),
+    logoKind: photographic ? 'photographic' : 'mark',
     photo: file('photos', id, 'webp'),
-    logoSource: logoFiles[id] ? commons(logoFiles[id]) : null,
+    logoSource: logoFiles[id] ? commons(logoFiles[id]) : photographic ? commons(credit[0]) : null,
     photoSource: credit ? commons(credit[0]) : null,
     author: credit?.[1], license: credit?.[2],
     licenseUrl: credit ? `https://creativecommons.org/licenses/${credit[3]}/` : null,

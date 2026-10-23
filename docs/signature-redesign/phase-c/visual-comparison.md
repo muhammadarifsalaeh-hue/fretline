@@ -1,5 +1,8 @@
 # Reference comparison — actual Homepage
 
+> Historical Phase C report for commit14f92ca. Córdoba now has licensed guitar imagery and a genuine photographed wordmark; see [Córdoba follow-up](../cordoba-update/README.md). Initial counts and fallback descriptions below record the earlier version.
+
+
 The original user attachment (1280×853) was accessible locally and reviewed
 alongside the actual 1280px application render. Its hash and the measured browser
 geometry are in [visual-comparison.json](visual-comparison.json). The reference

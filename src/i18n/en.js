@@ -550,7 +550,8 @@ export const en = {
   "signature.brand.count": "{n} catalog models",
   "signature.brand.credits": "Photography and trademarks",
   "signature.brand.photoNote": "Brand editorial photography does not verify a catalog model or finish. Images are resized, converted to WebP, framed and toned with CSS under their respective licenses.",
-  "signature.brand.trademarkNote": "Trademarks belong to their respective owners and identify the brands; no endorsement of Fretline is implied. Linked logo files record public-domain copyright bases. Photo derivatives retain their original licenses.",
+  "signature.brand.trademarkNote": "Trademarks belong to their respective owners and identify the brands; no endorsement of Fretline is implied. Nine logo files have recorded public-domain copyright bases. Córdoba uses genuine lettering from a CC BY 2.0 booth photograph. Photo derivatives retain their original licenses.",
   "signature.brand.logoCredit": "Logo source",
   "signature.brand.pending": "Temporary brand name; suitable logo and photo rights sources are not yet available",
+  "signature.brand.photoMarkCredit": "Photographed Córdoba booth wordmark · CC BY 2.0",
 };

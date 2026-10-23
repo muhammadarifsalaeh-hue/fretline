@@ -1,5 +1,8 @@
 # Fretline — Phase C implementation
 
+> Historical Phase C report for commit14f92ca. Córdoba now has licensed guitar imagery and a genuine photographed wordmark; see [Córdoba follow-up](../cordoba-update/README.md). Initial counts and fallback descriptions below record the earlier version.
+
+
 Continued the existing project from `621dc31` (approved proposal documents), with
 Phase B application baseline `0b187d0`. The resumed worktree initially had no
 unfinished application edits. This delivery implements the actual Homepage;

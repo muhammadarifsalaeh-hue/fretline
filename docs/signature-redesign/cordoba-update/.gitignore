@@ -1,0 +1,8 @@
+__pycache__/
+preview.log
+*-run.log
+# Superseded diagnostic captures stay local; final card/grid captures are tracked.
+after/cordoba-desktop.png
+after/cordoba-mobile.png
+after/viewport-*.png
+after/home-*.png
