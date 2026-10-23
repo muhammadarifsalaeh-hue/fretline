@@ -1,0 +1,27 @@
+{
+  "reference": {
+    "source": "User-provided Explore by Brand attachment, reviewed locally",
+    "dimensions": [
+      1280,
+      853
+    ],
+    "sha256": "6c9f61208af9665ac5272fbc5ae1271897b0b66e82fe9ecf4213f2abe64a8cdd",
+    "notIncludedInWebsite": true
+  },
+  "actual": {
+    "viewportWidth": 1280,
+    "columns": 5,
+    "cards": 10,
+    "rows": 2,
+    "firstCardLeft": 24,
+    "firstCardTopWithinSection": 284.265625,
+    "cardWidth": 238.390625,
+    "cardHeight": 248.3125,
+    "horizontalGap": 10.0,
+    "sectionHeight": 912.515625,
+    "genuineLogoCount": 9,
+    "brandPhotographCount": 9,
+    "plainTextFallbacks": 1
+  },
+  "method": "Measured actual browser geometry; manual reference inspection. No pixel-diff/SSIM/accuracy percentage, since licensed photographs and one fallback intentionally differ."
+}

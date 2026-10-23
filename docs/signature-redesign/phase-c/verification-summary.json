@@ -1,0 +1,76 @@
+{
+  "baselineCommit": "621dc311c803578d287db257a14041ced56a0fe4",
+  "applicationBaseline": "0b187d0abdf261ed8cc62d61dd79da545b4b8167",
+  "npmBuild": "passed",
+  "catalogCheck": "passed: 200 unique models, 10 brands, 20 each; all partial; no invented price/spec/review changes",
+  "imagesCheck": "passed with expected 197 catalog placeholders; three existing image-backed models unchanged",
+  "unitChecks": {
+    "catalogPrice": {
+      "passed": 22,
+      "failed": 0
+    },
+    "scrollFocus": {
+      "passed": 6,
+      "failed": 0
+    }
+  },
+  "browserReports": {
+    "homepage": {
+      "report": "home-acceptance.json",
+      "passedChecks": 20,
+      "failedChecks": 0,
+      "consoleErrors": 0,
+      "runtimeErrors": 0,
+      "failedRequests": 0
+    },
+    "focusedBrandsCompare": {
+      "report": "home-focused.json",
+      "passedChecks": 7,
+      "failedChecks": 0,
+      "consoleErrors": 0,
+      "runtimeErrors": 0,
+      "failedRequests": 0
+    },
+    "sharedRegression": {
+      "report": "shared-regression.json",
+      "passedChecks": 18,
+      "failedChecks": 0,
+      "consoleErrors": 0,
+      "runtimeErrors": 0,
+      "failedRequests": 0
+    },
+    "galleryRegression": {
+      "report": "regression/browser-phase-c.json",
+      "passedChecks": 79,
+      "failedChecks": 0,
+      "consoleErrors": 0,
+      "runtimeErrors": 0,
+      "failedRequests": 0
+    }
+  },
+  "assetAndDataAudit": {
+    "passedChecks": 132,
+    "report": "assets-check.json",
+    "unchangedProductFiles": 25,
+    "newBrandLogos": 9,
+    "newBrandPhotographs": 9,
+    "newProductPhotographs": 0
+  },
+  "limitations": [
+    "Chromium/Linux with touch emulation, not physical Safari/iPad.",
+    "Córdoba uses temporary plain text and no replacement brand photograph.",
+    "Licensed brand backgrounds differ from reference photographs; no pixel-perfect claim.",
+    "No new product photographs or verification claims; all original 200 records and 25 product data/image files unchanged."
+  ],
+  "screenshots": {
+    "capture": {
+      "report": "capture.json",
+      "passedViewports": 5
+    },
+    "referenceWidth": {
+      "report": "reference-capture.json",
+      "width": 1280,
+      "passed": true
+    }
+  }
+}

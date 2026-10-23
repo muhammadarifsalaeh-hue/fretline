@@ -1,0 +1,24 @@
+{
+  "baseline": "621dc311c803578d287db257a14041ced56a0fe4",
+  "sourceFiles": [
+    "src/components/compare/CompareSection.jsx",
+    "src/components/home/Brands.jsx",
+    "src/components/home/Categories.jsx",
+    "src/components/home/CategoryCard.jsx",
+    "src/components/home/FeaturedGuitars.jsx",
+    "src/components/home/FindMyGuitar.jsx",
+    "src/components/home/Hero.jsx",
+    "src/components/home/HeroStats.jsx",
+    "src/i18n/en.js",
+    "src/i18n/th.js",
+    "src/main.jsx",
+    "src/pages/HomePage.jsx",
+    "src/styles/home-discovery.css",
+    "src/styles/home-brands.css",
+    "src/styles/home-experiences.css",
+    "src/data/homeBrandAssets.js"
+  ],
+  "newEditorialAssets": 18,
+  "productDataChanged": false,
+  "newDependencies": 0
+}

@@ -1,0 +1,2 @@
+# Preserve imported logo source bytes, including upstream CRLF and SVG spacing.
+src/assets/home-brands/logos/*.svg -whitespace

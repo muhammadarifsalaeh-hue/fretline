@@ -1,0 +1,32 @@
+{
+  "method": "Fresh Chromium contexts against local Vite production preview; normal motion, 2-second observation after network idle. No CPU/network throttling. Not Lighthouse, physical Safari or field Core Web Vitals.",
+  "runs": [
+    {
+      "cls": 0.0005074794439621914,
+      "lcp": 1824,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "domContentLoaded": 301.70000000298023,
+      "resourceRequests": 14,
+      "transferBytes": 757194,
+      "overflow": false,
+      "imageGeometry": true
+    },
+    {
+      "cls": 0.0005417137580277587,
+      "lcp": 1920,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "domContentLoaded": 426.29999999701977,
+      "resourceRequests": 14,
+      "transferBytes": 651162,
+      "overflow": false,
+      "imageGeometry": true
+    }
+  ],
+  "passed": true
+}

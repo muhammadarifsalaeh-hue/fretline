@@ -1,0 +1,102 @@
+{
+  "accessedAt": "2026-10-23",
+  "scope": "Optional brand-specific editorial backgrounds for Phase C; not Catalog product photographs and not new evidence for any guitar specification, color, or model.",
+  "downloadedByResearchAgent": false,
+  "evidenceMethod": "Opened every listed Commons description page and checked subject/author/license. Original URLs are original-file links or the standard Commons path derived from the checked filename. The implementing agent must verify downloads, visual suitability, attribution, conversion and any derivative license before registering an asset.",
+  "photographs": [
+    {
+      "brandId": "fender",
+      "subject": "1979 Fender Stratocaster headstock",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:1979_Fender_Stratocaster_headstock_(2010-03-18_01.49.11_by_John_Tuggle).jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/1979_Fender_Stratocaster_headstock_%282010-03-18_01.49.11_by_John_Tuggle%29.jpg",
+      "author": "John Tuggle",
+      "originalSource": "https://www.flickr.com/photos/22565768@N04/4444041804",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "licenseEvidence": "Commons licensing section and Flickr review dated 2015-07-14",
+      "dimensions": { "width": 4272, "height": 2848 },
+      "useRestriction": "Fender brand atmosphere only; not a product image for a current Catalog model."
+    },
+    {
+      "brandId": "gibson",
+      "subject": "Les Paul headstock",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Les_Paul_headstock_(Unsplash).jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Les_Paul_headstock_%28Unsplash%29.jpg",
+      "author": "Gabriel Barletta",
+      "originalSource": "https://unsplash.com/photos/w1zhNv6CENc",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseEvidence": "Commons explicitly identifies original Unsplash publication 2016-04-27, before its 2017-06-05 license change, and records CC0. The page includes an archived source.",
+      "dimensions": { "width": 6000, "height": 4000 },
+      "useRestriction": "Inspect manufacturer mark before use. Gibson brand atmosphere only; not a product image for a current Catalog model."
+    },
+    {
+      "brandId": "taylor",
+      "subject": "Taylor guitar leaned on a stool",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Taylor_Guitar_leaned_on_stool.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Taylor_Guitar_leaned_on_stool.jpg",
+      "author": "Lisa Hall-Wilson",
+      "originalSource": "http://flickr.com/photo/83246984@N07/7633705212",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "licenseEvidence": "Commons licensing section and Flickr upload-bot license confirmation dated 2013-03-31",
+      "dimensions": { "width": 2448, "height": 3264 },
+      "useRestriction": "Unspecified Taylor model; brand atmosphere only."
+    },
+    {
+      "brandId": "prs",
+      "subject": "Owner's PRS guitar",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rood%27s_PRS.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Rood%27s_PRS.jpg",
+      "author": "Mrjazzguitar",
+      "license": "PD-user",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-user",
+      "licenseEvidence": "Author's worldwide public-domain release; fallback unconditional permission for any purpose in the file-page Permission section",
+      "dimensions": { "width": 600, "height": 450 },
+      "useRestriction": "Unspecified PRS model; brand atmosphere only. Low original resolution; do not upscale for large hero."
+    },
+    {
+      "brandId": "ibanez",
+      "subject": "Ibanez ICX 120 headstock",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:0-Ibanez_ICX_120_electric_guitar_headstock.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/0-Ibanez_ICX_120_electric_guitar_headstock.jpg",
+      "author": "Elmschrat",
+      "originalSource": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseEvidence": "Commons author self-license section",
+      "dimensions": { "width": 3072, "height": 4080 },
+      "useRestriction": "Ibanez brand atmosphere only. Credit author/source/license, describe crop/optimization, and preserve the same/compatible license on adapted image."
+    },
+    {
+      "brandId": "epiphone",
+      "subject": "Epiphone Les Paul Special II headstock",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Epiphone_Les_Paul_Special_II_headstock.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Epiphone_Les_Paul_Special_II_headstock.jpg",
+      "author": "Elmschrat",
+      "originalSource": "Own work",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseEvidence": "Commons author self-license section",
+      "dimensions": { "width": 3000, "height": 4000 },
+      "useRestriction": "Epiphone brand atmosphere only. Credit author/source/license, describe crop/optimization, and preserve the same/compatible license on adapted image."
+    },
+    {
+      "brandId": "squier",
+      "subject": "Squier electric-guitar headstock",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Squier_on_guitar_head.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Squier_on_guitar_head.jpg",
+      "author": "Tharish",
+      "originalSource": "Own work",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "licenseEvidence": "Commons author self-license section",
+      "dimensions": { "width": 750, "height": 563 },
+      "useRestriction": "Unspecified Squier model; brand atmosphere only. Credit author/source/license, describe crop/optimization, and preserve the same/compatible license on adapted image."
+    }
+  ],
+  "cordoba": {
+    "status": "no-qualified-photograph-selected",
+    "reason": "Search results mixed Córdoba the city and other makers, or Córdoba ukuleles with other manufacturers' guitars. Do not use those as a Córdoba guitar background."
+  }
+}

@@ -11,13 +11,13 @@ import Hero from '@/components/home/Hero';
 export default function HomePage() {
   useEffect(() => { document.title = t('home.docTitle'); }, []);
   return (
-    <>
+    <div className="signature-home">
       <Hero />
       <FeaturedGuitars />
       <Categories />
       <Brands />
-      <CompareSection />
       <FindMyGuitar />
-    </>
+      <CompareSection />
+    </div>
   );
 }

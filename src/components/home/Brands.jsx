@@ -1,96 +1,80 @@
 import { t } from '@/i18n';
-import { BRANDS, BRANDS_BY_ID, FEATURED_BRANDS } from '@/data/brands';
+import { BRANDS } from '@/data/brands';
+import { HOME_BRAND_ASSETS, HOME_BRAND_ORDER } from '@/data/homeBrandAssets';
 import { brandUrl } from '@/utils/routes';
-import Reveal from '@/components/ui/Reveal';
-import SectionHeading from '@/components/ui/SectionHeading';
 import { ArrowRightIcon } from '@/components/ui/Icons';
 import AppLink from '@/components/ui/AppLink';
-import SmartImage from '@/components/ui/SmartImage';
 
-/** โลโก้แบรนด์: ใช้รูป (ขาวโมโนโครม) ถ้ามี ไม่งั้นแสดงเป็นชื่อแบรนด์ */
-function BrandMark({ brand, decorative = false }) {
+// Presentation order only; counts and destinations always use the live catalog.
+const rank = (id) => {
+  const index = HOME_BRAND_ORDER.indexOf(id);
+  return index < 0 ? HOME_BRAND_ORDER.length : index;
+};
+const orderedBrands = [...BRANDS].sort((a, b) => rank(a.id) - rank(b.id));
+
+function BrandCard({ brand }) {
+  const artwork = HOME_BRAND_ASSETS[brand.id] ?? {};
   return (
-    <AppLink
-      href={brandUrl(brand.name)}
-      tabIndex={decorative ? -1 : undefined}
-      className="group relative flex shrink-0 flex-col items-center px-8 py-4 md:px-12"
-      aria-label={`${brand.name}, ${t('unit.models', { n: brand.models })}`}
-    >
-      {brand.logo ? (
-        <img src={brand.logo} alt={brand.name} className="h-9 opacity-50 transition-opacity duration-300 group-hover:opacity-100 md:h-11" />
-      ) : (
-        <span className="font-serif text-4xl text-bone/50 transition-colors duration-300 group-hover:text-bone md:text-5xl">
-          {brand.name}
-        </span>
-      )}
-      <span className="absolute -bottom-1 font-mono text-xs text-gold opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-        {t('unit.models', { n: brand.models })}
+    <AppLink href={brandUrl(brand.name)}
+      className={`signature-brand-card signature-brand-card--${brand.id}`}
+      data-brand-id={brand.id}
+      aria-label={t('signature.brand.open', { brand: brand.name, n: brand.models })}>
+      {artwork.photo && <img className="signature-brand-photo" src={artwork.photo} alt="" aria-hidden="true"
+        width="600" height="640" loading="lazy" decoding="async" />}
+      <span className="signature-brand-shade" aria-hidden="true" />
+      <span className="signature-brand-mark">
+        {artwork.logo ? <img data-brand-logo src={artwork.logo} alt={brand.name} width="220" height="90" loading="lazy" decoding="async" />
+          : <span data-brand-fallback>{brand.name}</span>}
       </span>
+      <span className="signature-brand-count" data-brand-count>
+        <span aria-hidden="true" />{t('signature.brand.count', { n: brand.models })}
+      </span>
+      <span className="signature-brand-arrow" aria-hidden="true"><ArrowRightIcon size={15} /></span>
     </AppLink>
   );
 }
 
-function FeaturedBrandCard({ feature }) {
-  const brand = BRANDS_BY_ID[feature.id];
+function BrandCredits() {
   return (
-    <AppLink
-      href={brandUrl(brand.name)}
-      className="group relative block h-[380px] w-[82%] shrink-0 snap-start overflow-hidden rounded-3xl bg-surface ring-1 ring-white/5 sm:w-[55%] md:h-[440px] md:w-auto"
-    >
-      {feature.image ? (
-        <SmartImage src={feature.image} alt={`${brand.name} guitars`} className="absolute inset-0" imgClassName="opacity-70 group-hover:scale-105 group-hover:opacity-90" />
-      ) : (
-        <div aria-hidden="true" className="absolute inset-0 overflow-hidden bg-gradient-to-br from-[#2a2a2a] via-[#181818] to-[#0f0f0f]">
-          <div className="absolute inset-0 bg-[radial-gradient(60%_50%_at_30%_20%,rgba(200,161,90,0.12),transparent_70%)]" />
-          <span className="absolute -right-3 top-4 select-none font-serif text-[7.5rem] leading-none tracking-tighter text-white/[0.05] transition-transform duration-700 ease-premium group-hover:-translate-x-2">
-            {brand.name}
-          </span>
-        </div>
-      )}
-      <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-ink via-ink/50 to-ink/10" />
-      <div className="absolute inset-x-7 bottom-7">
-        <p className="font-mono text-xs text-bone/70">{t('p6.brand.sources', { n: brand.sourceModels })}</p>
-        <h3 className="mt-2 font-serif text-5xl leading-none tracking-tight">{brand.name}</h3>
-        <p className="mt-3 text-sm text-bone/70">{t('unit.models', { n: brand.models })}</p>
-        <span className="mt-5 inline-flex items-center gap-2 text-sm text-gold">
-          {t('brand.viewCollection')}
-          <ArrowRightIcon size={16} className="transition-transform duration-300 ease-premium group-hover:translate-x-1" />
-        </span>
+    <details className="signature-brand-credits">
+      <summary>{t('signature.brand.credits')}</summary>
+      <div>
+        <p>{t('signature.brand.photoNote')}</p>
+        <p>{t('signature.brand.trademarkNote')}</p>
+        <ul>
+          {orderedBrands.map((brand) => {
+            const asset = HOME_BRAND_ASSETS[brand.id];
+            return <li key={brand.id}>
+              <strong>{brand.name}</strong>{' — '}
+              {asset?.photoSource && <><a href={asset.photoSource} target="_blank" rel="noreferrer">{asset.author}</a>{' · '}<a href={asset.licenseUrl} target="_blank" rel="noreferrer">{asset.license}</a>{'. '}</>}
+              {asset?.logoSource ? <a href={asset.logoSource} target="_blank" rel="noreferrer">{t('signature.brand.logoCredit')}</a> : t('signature.brand.pending')}
+            </li>;
+          })}
+        </ul>
       </div>
-    </AppLink>
+    </details>
   );
 }
 
 export default function Brands() {
   return (
-    <section id="brands" className="section-y overflow-hidden bg-ink">
-      <div className="container-x">
-        <Reveal>
-          <SectionHeading title={t('brand.homeTitle')} action={{ label: t('brand.viewAll'), href: '/brands' }} />
-        </Reveal>
+    <section id="brands" className="signature-brands" aria-labelledby="signature-brands-heading">
+      <div className="signature-brand-header-art" aria-hidden="true">
+        <img src={HOME_BRAND_ASSETS.fender.photo} width="1200" height="700" alt="" loading="lazy" decoding="async" />
       </div>
-
-      {/* Marquee: เลื่อนช้า ๆ และหยุดเมื่อ hover (ซ้ำรายการ 2 ชุดเพื่อให้วนต่อเนื่อง) */}
-      <Reveal delay={100}>
-        <div className="mb-16 border-y border-line py-8 [mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)] md:mb-20">
-          <div className="flex w-max animate-marquee hover:[animation-play-state:paused] focus-within:[animation-play-state:paused]">
-            {[...BRANDS, ...BRANDS].map((brand, i) => (
-              <div key={`${brand.id}-${i}`} aria-hidden={i >= BRANDS.length}>
-                <BrandMark brand={brand} decorative={i >= BRANDS.length} />
-              </div>
-            ))}
+      <div className="signature-brand-inner">
+        <div className="signature-brand-heading">
+          <p className="signature-section-eyebrow">02 / EXPLORE BY BRAND</p>
+          <h2 id="signature-brands-heading"><span>{t('signature.brand.titleLead')}</span><span>{t('signature.brand.titleEnd')}</span></h2>
+          <div className="signature-brand-heading-bottom">
+            <p>{t('signature.brand.description')}</p>
+            <AppLink href="/brands" className="signature-brand-view-all">{t('brand.viewAll')}<span aria-hidden="true"><ArrowRightIcon size={16} /></span></AppLink>
           </div>
         </div>
-      </Reveal>
-
-      <div className="container-x">
-        <Reveal delay={150}>
-          <div className="-mx-5 flex snap-x snap-mandatory gap-4 overflow-x-auto px-5 pb-2 [scrollbar-width:none] sm:-mx-8 sm:px-8 md:mx-0 md:grid md:grid-cols-3 md:gap-5 md:overflow-visible md:px-0 [&::-webkit-scrollbar]:hidden">
-            {FEATURED_BRANDS.map((feature) => (
-              <FeaturedBrandCard key={feature.id} feature={feature} />
-            ))}
-          </div>
-        </Reveal>
+        <div className="signature-brand-grid" data-brand-grid>
+          {orderedBrands.map((brand) => <BrandCard key={brand.id} brand={brand} />)}
+        </div>
+        <BrandCredits />
       </div>
     </section>
   );
