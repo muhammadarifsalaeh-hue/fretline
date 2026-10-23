@@ -4,6 +4,10 @@
 
 Audit ใช้โปรเจกต์เดิม branch `master`, baseline `82fbe9bdae7cbb9b0d32f356172a37fc7646362a` ตรวจ Remote แล้วตรงกันระหว่างรอบนี้ ไม่ได้สร้าง Vite project ใหม่
 
+## Phase C — ภาพ Homepage รออนุมัติ
+
+[เปิด Mockup Desktop / Mobile และแนวทางเสนอ](phase-c-proposal/README.md) — เอกสารแยกจากแอป ยังไม่ได้แก้ Homepage ตามข้อกำหนดให้อนุมัติภาพก่อน
+
 ## เปิดดูภาพ
 
 - [Design System — Desktop](proposals/design-system-desktop.png)

@@ -1,0 +1,42 @@
+{
+  "status": "Design proposal only; awaiting user approval before implementation",
+  "applicationBaseline": "0b187d0abdf261ed8cc62d61dd79da545b4b8167",
+  "counts": {
+    "models": 200,
+    "brands": 10,
+    "perBrand": 20
+  },
+  "guitars": [
+    {
+      "id": "yamaha-pacifica-612viifm",
+      "name": "Pacifica 612VIIFM",
+      "price": 34000,
+      "dataStatus": "partial",
+      "image": "/src/assets/guitars/yamaha-pacifica-612viifm/01-black.jpg",
+      "imageSha256": "5c42dbdb9acf570228a14faad8c55dc80a80249a0835fde24f2648077bc73238"
+    },
+    {
+      "id": "martin-d-28",
+      "name": "D-28",
+      "price": null,
+      "dataStatus": "partial",
+      "image": "/src/assets/guitars/martin-d-28/responsive/01-front-480.webp",
+      "imageSha256": "b6f469ff2d395a5a79a307e12672c5f11c6f12ee38f9ef494f730e6415a33f09"
+    },
+    {
+      "id": "yamaha-fg820-12",
+      "name": "FG820-12",
+      "price": null,
+      "dataStatus": "partial",
+      "image": "/src/assets/guitars/yamaha-fg820-12/responsive/01-front-480.webp",
+      "imageSha256": "8635ac4ad707af1f447079d74e8c5e71825cf293a94c17b5af827feb2e42cedb"
+    }
+  ],
+  "notes": [
+    "All image assets already exist; no new product photography, generation, crop or recoloring.",
+    "Existing project artwork is not presented as rights-verified product photography.",
+    "Licensed photographs retain existing credits and model-specific limitations.",
+    "Home editorial order is a proposal only; featured flags and catalog records remain unchanged.",
+    "No application file imports this document."
+  ]
+}
