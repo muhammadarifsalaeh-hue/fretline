@@ -1,0 +1,351 @@
+{
+  "baseline": "32dc82d54ee19c986d11db497e111b8333ae4896",
+  "method": "Actual unmodified baseline in WebKit followed by separately labelled diagnostic CSS overrides; diagnostic variants are not production After screenshots.",
+  "variants": [
+    {
+      "name": "unmodified",
+      "injectedDiagnosticCSS": null,
+      "cards": [
+        {
+          "id": "cordoba",
+          "width": 2,
+          "height": 2.4375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "epiphone",
+          "width": 2,
+          "height": 2.4375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "fender",
+          "width": 2,
+          "height": 2.4375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "gibson",
+          "width": 2,
+          "height": 2.4375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "ibanez",
+          "width": 2,
+          "height": 2.4375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "martin",
+          "width": 2,
+          "height": 2.4375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "prs",
+          "width": 2,
+          "height": 2.4375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "squier",
+          "width": 2,
+          "height": 2.4375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "taylor",
+          "width": 2,
+          "height": 2.4375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "yamaha",
+          "width": 2,
+          "height": 2.4375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        }
+      ]
+    },
+    {
+      "name": "diagnostic-explicit-width",
+      "injectedDiagnosticCSS": ".brands-page .brand-directory-card{width:100%}",
+      "cards": [
+        {
+          "id": "cordoba",
+          "width": 346,
+          "height": 421.9375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "epiphone",
+          "width": 346,
+          "height": 421.9375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "fender",
+          "width": 346,
+          "height": 421.9375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "gibson",
+          "width": 346,
+          "height": 421.9375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "ibanez",
+          "width": 346,
+          "height": 421.9375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "martin",
+          "width": 346,
+          "height": 421.9375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "prs",
+          "width": 346,
+          "height": 421.9375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "squier",
+          "width": 346,
+          "height": 421.9375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "taylor",
+          "width": 346,
+          "height": 421.9375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "yamaha",
+          "width": 346,
+          "height": 421.9375,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        }
+      ]
+    },
+    {
+      "name": "diagnostic-ratio-auto-with-no-flow",
+      "injectedDiagnosticCSS": ".brands-page .brand-directory-card{aspect-ratio:auto}",
+      "cards": [
+        {
+          "id": "cordoba",
+          "width": 346,
+          "height": 2,
+          "aspectRatio": "auto",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "epiphone",
+          "width": 346,
+          "height": 2,
+          "aspectRatio": "auto",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "fender",
+          "width": 346,
+          "height": 2,
+          "aspectRatio": "auto",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "gibson",
+          "width": 346,
+          "height": 2,
+          "aspectRatio": "auto",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "ibanez",
+          "width": 346,
+          "height": 2,
+          "aspectRatio": "auto",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "martin",
+          "width": 346,
+          "height": 2,
+          "aspectRatio": "auto",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "prs",
+          "width": 346,
+          "height": 2,
+          "aspectRatio": "auto",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "squier",
+          "width": 346,
+          "height": 2,
+          "aspectRatio": "auto",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "taylor",
+          "width": 346,
+          "height": 2,
+          "aspectRatio": "auto",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        },
+        {
+          "id": "yamaha",
+          "width": 346,
+          "height": 2,
+          "aspectRatio": "auto",
+          "justifySelf": "auto",
+          "minHeight": "0px"
+        }
+      ]
+    },
+    {
+      "name": "diagnostic-min-height-only",
+      "injectedDiagnosticCSS": ".brands-page .brand-directory-card{min-height:212px}",
+      "cards": [
+        {
+          "id": "cordoba",
+          "width": 173.828125,
+          "height": 212,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "212px"
+        },
+        {
+          "id": "epiphone",
+          "width": 173.828125,
+          "height": 212,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "212px"
+        },
+        {
+          "id": "fender",
+          "width": 173.828125,
+          "height": 212,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "212px"
+        },
+        {
+          "id": "gibson",
+          "width": 173.828125,
+          "height": 212,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "212px"
+        },
+        {
+          "id": "ibanez",
+          "width": 173.828125,
+          "height": 212,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "212px"
+        },
+        {
+          "id": "martin",
+          "width": 173.828125,
+          "height": 212,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "212px"
+        },
+        {
+          "id": "prs",
+          "width": 173.828125,
+          "height": 212,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "212px"
+        },
+        {
+          "id": "squier",
+          "width": 173.828125,
+          "height": 212,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "212px"
+        },
+        {
+          "id": "taylor",
+          "width": 173.828125,
+          "height": 212,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "212px"
+        },
+        {
+          "id": "yamaha",
+          "width": 173.828125,
+          "height": 212,
+          "aspectRatio": "0.82 / 1",
+          "justifySelf": "auto",
+          "minHeight": "212px"
+        }
+      ]
+    }
+  ],
+  "browserVersion": "26.5"
+}

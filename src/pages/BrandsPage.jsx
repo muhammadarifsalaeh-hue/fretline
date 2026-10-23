@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { t } from '@/i18n';
 import BrandCard from '@/components/brands/BrandCard';
@@ -16,6 +16,7 @@ const COUNTRIES = [...new Set(BRANDS.map((brand) => brand.country).filter(Boolea
 const TYPES = CATEGORIES.filter((category) => BRANDS.some((brand) => brand.categories.includes(category.id)));
 
 export default function BrandsPage() {
+  const [showAtmosphere, setShowAtmosphere] = useState(true);
   const [params, setParams] = useSearchParams();
   const q = params.get('q') ?? '';
   const type = TYPES.some((item) => item.id === params.get('type')) ? params.get('type') : '';
@@ -39,7 +40,8 @@ export default function BrandsPage() {
   return (
     <div className="phase5-page brands-page">
       <div className="brand-directory-atmosphere" aria-hidden="true">
-        <img src={HOME_BRAND_ASSETS.fender.photo} alt="" width="1200" height="700" decoding="async" />
+        {showAtmosphere && <img src={HOME_BRAND_ASSETS.fender.photo} alt="" width="1200" height="700" decoding="async"
+          onError={() => setShowAtmosphere(false)} />}
       </div>
       <DiscoveryHeading eyebrow="BRAND DIRECTORY" title={t('p5.brands.title')} description={t('p5.brands.intro')}
         breadcrumbs={[{ label: t('nav.brands') }]}

@@ -1,0 +1,2317 @@
+{
+  "baseURL": "http://127.0.0.1:5402",
+  "engine": "webkit",
+  "checks": [
+    {
+      "case": "all-images-404-small-mobile",
+      "passed": true,
+      "details": {
+        "layout": {
+          "models": 200,
+          "brands": 10,
+          "modelsPerBrand": 20,
+          "minCardHeight": 193.421875,
+          "normalArtwork": false
+        },
+        "metrics": {
+          "viewport": {
+            "width": 320,
+            "height": 740
+          },
+          "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+          "aspectRatioSupported": true,
+          "scrollWidth": 320,
+          "grid": {
+            "x": 20,
+            "y": 663.25,
+            "width": 280,
+            "height": 999.109375,
+            "left": 20,
+            "top": 663.25,
+            "right": 300,
+            "bottom": 1662.359375
+          },
+          "columns": "136px 136px",
+          "cards": [
+            {
+              "id": "cordoba",
+              "href": "/guitars?brand=C%C3%B3rdoba",
+              "label": "ดูกีตาร์ Córdoba, 20 รุ่นในแคตตาล็อก",
+              "text": "ภาพประกอบไม่พร้อม\nCórdoba\n\n20 รุ่น\n\nกีตาร์คลาสสิก",
+              "rect": {
+                "x": 20,
+                "y": 663.25,
+                "width": 136,
+                "height": 193.421875,
+                "left": 20,
+                "top": 663.25,
+                "right": 156,
+                "bottom": 856.671875
+              },
+              "style": {
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "position": "relative",
+                "zIndex": "auto",
+                "overflow": "hidden",
+                "aspectRatio": "auto",
+                "minHeight": "174px",
+                "height": "193.421875px",
+                "filter": "none",
+                "transform": "none",
+                "animation": "none"
+              },
+              "hidden": false,
+              "photoStatus": "error",
+              "logoStatus": "available",
+              "photos": [],
+              "logos": [],
+              "fallbacks": [
+                {
+                  "text": "Córdoba",
+                  "rect": {
+                    "x": 37.421875,
+                    "y": 713.1875,
+                    "width": 101.140625,
+                    "height": 43.75,
+                    "left": 37.421875,
+                    "top": 713.1875,
+                    "right": 138.5625,
+                    "bottom": 756.9375
+                  },
+                  "hidden": false,
+                  "style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1",
+                    "position": "static",
+                    "zIndex": "auto",
+                    "overflow": "visible",
+                    "aspectRatio": "auto",
+                    "minHeight": "auto",
+                    "height": "43.75px",
+                    "filter": "none",
+                    "transform": "none",
+                    "animation": "none"
+                  }
+                }
+              ],
+              "photoFallbacks": [
+                {
+                  "text": "ภาพประกอบไม่พร้อม",
+                  "rect": {
+                    "x": 21,
+                    "y": 664.25,
+                    "width": 134,
+                    "height": 191.421875,
+                    "left": 21,
+                    "top": 664.25,
+                    "right": 155,
+                    "bottom": 855.671875
+                  },
+                  "hidden": false
+                }
+              ],
+              "count": "20 รุ่น",
+              "mark": {
+                "x": 33.046875,
+                "y": 702.53125,
+                "width": 109.90625,
+                "height": 65.078125,
+                "left": 33.046875,
+                "top": 702.53125,
+                "right": 142.953125,
+                "bottom": 767.609375
+              },
+              "before": {
+                "content": "\"\"",
+                "paddingTop": "191.421875px",
+                "display": "block"
+              }
+            },
+            {
+              "id": "epiphone",
+              "href": "/guitars?brand=Epiphone",
+              "label": "ดูกีตาร์ Epiphone, 20 รุ่นในแคตตาล็อก",
+              "text": "ภาพประกอบไม่พร้อม\nEpiphone\n\n20 รุ่น\n\nกีตาร์ไฟฟ้า · เบส",
+              "rect": {
+                "x": 164,
+                "y": 663.25,
+                "width": 136,
+                "height": 193.421875,
+                "left": 164,
+                "top": 663.25,
+                "right": 300,
+                "bottom": 856.671875
+              },
+              "style": {
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "position": "relative",
+                "zIndex": "auto",
+                "overflow": "hidden",
+                "aspectRatio": "auto",
+                "minHeight": "174px",
+                "height": "193.421875px",
+                "filter": "none",
+                "transform": "none",
+                "animation": "none"
+              },
+              "hidden": false,
+              "photoStatus": "error",
+              "logoStatus": "error",
+              "photos": [],
+              "logos": [],
+              "fallbacks": [
+                {
+                  "text": "Epiphone",
+                  "rect": {
+                    "x": 194.703125,
+                    "y": 720.671875,
+                    "width": 74.578125,
+                    "height": 28.796875,
+                    "left": 194.703125,
+                    "top": 720.671875,
+                    "right": 269.28125,
+                    "bottom": 749.46875
+                  },
+                  "hidden": false,
+                  "style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1",
+                    "position": "static",
+                    "zIndex": "auto",
+                    "overflow": "visible",
+                    "aspectRatio": "auto",
+                    "minHeight": "auto",
+                    "height": "28.796875px",
+                    "filter": "none",
+                    "transform": "none",
+                    "animation": "none"
+                  }
+                }
+              ],
+              "photoFallbacks": [
+                {
+                  "text": "ภาพประกอบไม่พร้อม",
+                  "rect": {
+                    "x": 165,
+                    "y": 664.25,
+                    "width": 134,
+                    "height": 191.421875,
+                    "left": 165,
+                    "top": 664.25,
+                    "right": 299,
+                    "bottom": 855.671875
+                  },
+                  "hidden": false
+                }
+              ],
+              "count": "20 รุ่น",
+              "mark": {
+                "x": 177.046875,
+                "y": 702.53125,
+                "width": 109.90625,
+                "height": 65.078125,
+                "left": 177.046875,
+                "top": 702.53125,
+                "right": 286.953125,
+                "bottom": 767.609375
+              },
+              "before": {
+                "content": "\"\"",
+                "paddingTop": "191.421875px",
+                "display": "block"
+              }
+            },
+            {
+              "id": "fender",
+              "href": "/guitars?brand=Fender",
+              "label": "ดูกีตาร์ Fender, 20 รุ่นในแคตตาล็อก",
+              "text": "ภาพประกอบไม่พร้อม\nFender\n\n20 รุ่น\n\nกีตาร์ไฟฟ้า · เบส · กีตาร์โปร่ง",
+              "rect": {
+                "x": 20,
+                "y": 864.671875,
+                "width": 136,
+                "height": 193.421875,
+                "left": 20,
+                "top": 864.671875,
+                "right": 156,
+                "bottom": 1058.09375
+              },
+              "style": {
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "position": "relative",
+                "zIndex": "auto",
+                "overflow": "hidden",
+                "aspectRatio": "auto",
+                "minHeight": "174px",
+                "height": "193.421875px",
+                "filter": "none",
+                "transform": "none",
+                "animation": "none"
+              },
+              "hidden": false,
+              "photoStatus": "error",
+              "logoStatus": "error",
+              "photos": [],
+              "logos": [],
+              "fallbacks": [
+                {
+                  "text": "Fender",
+                  "rect": {
+                    "x": 61.625,
+                    "y": 922.09375,
+                    "width": 52.734375,
+                    "height": 28.796875,
+                    "left": 61.625,
+                    "top": 922.09375,
+                    "right": 114.359375,
+                    "bottom": 950.890625
+                  },
+                  "hidden": false,
+                  "style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1",
+                    "position": "static",
+                    "zIndex": "auto",
+                    "overflow": "visible",
+                    "aspectRatio": "auto",
+                    "minHeight": "auto",
+                    "height": "28.796875px",
+                    "filter": "none",
+                    "transform": "none",
+                    "animation": "none"
+                  }
+                }
+              ],
+              "photoFallbacks": [
+                {
+                  "text": "ภาพประกอบไม่พร้อม",
+                  "rect": {
+                    "x": 21,
+                    "y": 865.671875,
+                    "width": 134,
+                    "height": 191.421875,
+                    "left": 21,
+                    "top": 865.671875,
+                    "right": 155,
+                    "bottom": 1057.09375
+                  },
+                  "hidden": false
+                }
+              ],
+              "count": "20 รุ่น",
+              "mark": {
+                "x": 33.046875,
+                "y": 903.953125,
+                "width": 109.90625,
+                "height": 65.078125,
+                "left": 33.046875,
+                "top": 903.953125,
+                "right": 142.953125,
+                "bottom": 969.03125
+              },
+              "before": {
+                "content": "\"\"",
+                "paddingTop": "191.421875px",
+                "display": "block"
+              }
+            },
+            {
+              "id": "gibson",
+              "href": "/guitars?brand=Gibson",
+              "label": "ดูกีตาร์ Gibson, 20 รุ่นในแคตตาล็อก",
+              "text": "ภาพประกอบไม่พร้อม\nGibson\n\n20 รุ่น\n\nกีตาร์ไฟฟ้า · กีตาร์โปร่ง",
+              "rect": {
+                "x": 164,
+                "y": 864.671875,
+                "width": 136,
+                "height": 193.421875,
+                "left": 164,
+                "top": 864.671875,
+                "right": 300,
+                "bottom": 1058.09375
+              },
+              "style": {
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "position": "relative",
+                "zIndex": "auto",
+                "overflow": "hidden",
+                "aspectRatio": "auto",
+                "minHeight": "174px",
+                "height": "193.421875px",
+                "filter": "none",
+                "transform": "none",
+                "animation": "none"
+              },
+              "hidden": false,
+              "photoStatus": "error",
+              "logoStatus": "error",
+              "photos": [],
+              "logos": [],
+              "fallbacks": [
+                {
+                  "text": "Gibson",
+                  "rect": {
+                    "x": 204.953125,
+                    "y": 920.171875,
+                    "width": 54.078125,
+                    "height": 28.796875,
+                    "left": 204.953125,
+                    "top": 920.171875,
+                    "right": 259.03125,
+                    "bottom": 948.96875
+                  },
+                  "hidden": false,
+                  "style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1",
+                    "position": "static",
+                    "zIndex": "auto",
+                    "overflow": "visible",
+                    "aspectRatio": "auto",
+                    "minHeight": "auto",
+                    "height": "28.796875px",
+                    "filter": "none",
+                    "transform": "none",
+                    "animation": "none"
+                  }
+                }
+              ],
+              "photoFallbacks": [
+                {
+                  "text": "ภาพประกอบไม่พร้อม",
+                  "rect": {
+                    "x": 165,
+                    "y": 865.671875,
+                    "width": 134,
+                    "height": 191.421875,
+                    "left": 165,
+                    "top": 865.671875,
+                    "right": 299,
+                    "bottom": 1057.09375
+                  },
+                  "hidden": false
+                }
+              ],
+              "count": "20 รุ่น",
+              "mark": {
+                "x": 177.046875,
+                "y": 900.125,
+                "width": 109.90625,
+                "height": 68.90625,
+                "left": 177.046875,
+                "top": 900.125,
+                "right": 286.953125,
+                "bottom": 969.03125
+              },
+              "before": {
+                "content": "\"\"",
+                "paddingTop": "191.421875px",
+                "display": "block"
+              }
+            },
+            {
+              "id": "ibanez",
+              "href": "/guitars?brand=Ibanez",
+              "label": "ดูกีตาร์ Ibanez, 20 รุ่นในแคตตาล็อก",
+              "text": "ภาพประกอบไม่พร้อม\nIbanez\n\n20 รุ่น\n\nกีตาร์ไฟฟ้า · เบส",
+              "rect": {
+                "x": 20,
+                "y": 1066.09375,
+                "width": 136,
+                "height": 193.421875,
+                "left": 20,
+                "top": 1066.09375,
+                "right": 156,
+                "bottom": 1259.515625
+              },
+              "style": {
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "position": "relative",
+                "zIndex": "auto",
+                "overflow": "hidden",
+                "aspectRatio": "auto",
+                "minHeight": "174px",
+                "height": "193.421875px",
+                "filter": "none",
+                "transform": "none",
+                "animation": "none"
+              },
+              "hidden": false,
+              "photoStatus": "error",
+              "logoStatus": "error",
+              "photos": [],
+              "logos": [],
+              "fallbacks": [
+                {
+                  "text": "Ibanez",
+                  "rect": {
+                    "x": 62.203125,
+                    "y": 1123.515625,
+                    "width": 51.578125,
+                    "height": 28.796875,
+                    "left": 62.203125,
+                    "top": 1123.515625,
+                    "right": 113.78125,
+                    "bottom": 1152.3125
+                  },
+                  "hidden": false,
+                  "style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1",
+                    "position": "static",
+                    "zIndex": "auto",
+                    "overflow": "visible",
+                    "aspectRatio": "auto",
+                    "minHeight": "auto",
+                    "height": "28.796875px",
+                    "filter": "none",
+                    "transform": "none",
+                    "animation": "none"
+                  }
+                }
+              ],
+              "photoFallbacks": [
+                {
+                  "text": "ภาพประกอบไม่พร้อม",
+                  "rect": {
+                    "x": 21,
+                    "y": 1067.09375,
+                    "width": 134,
+                    "height": 191.421875,
+                    "left": 21,
+                    "top": 1067.09375,
+                    "right": 155,
+                    "bottom": 1258.515625
+                  },
+                  "hidden": false
+                }
+              ],
+              "count": "20 รุ่น",
+              "mark": {
+                "x": 33.046875,
+                "y": 1105.375,
+                "width": 109.90625,
+                "height": 65.078125,
+                "left": 33.046875,
+                "top": 1105.375,
+                "right": 142.953125,
+                "bottom": 1170.453125
+              },
+              "before": {
+                "content": "\"\"",
+                "paddingTop": "191.421875px",
+                "display": "block"
+              }
+            },
+            {
+              "id": "martin",
+              "href": "/guitars?brand=Martin",
+              "label": "ดูกีตาร์ Martin, 20 รุ่นในแคตตาล็อก",
+              "text": "ภาพประกอบไม่พร้อม\nMartin\n\n20 รุ่น\n\nกีตาร์โปร่ง",
+              "rect": {
+                "x": 164,
+                "y": 1066.09375,
+                "width": 136,
+                "height": 193.421875,
+                "left": 164,
+                "top": 1066.09375,
+                "right": 300,
+                "bottom": 1259.515625
+              },
+              "style": {
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "position": "relative",
+                "zIndex": "auto",
+                "overflow": "hidden",
+                "aspectRatio": "auto",
+                "minHeight": "174px",
+                "height": "193.421875px",
+                "filter": "none",
+                "transform": "none",
+                "animation": "none"
+              },
+              "hidden": false,
+              "photoStatus": "error",
+              "logoStatus": "error",
+              "photos": [],
+              "logos": [],
+              "fallbacks": [
+                {
+                  "text": "Martin",
+                  "rect": {
+                    "x": 205.421875,
+                    "y": 1123.515625,
+                    "width": 53.140625,
+                    "height": 28.796875,
+                    "left": 205.421875,
+                    "top": 1123.515625,
+                    "right": 258.5625,
+                    "bottom": 1152.3125
+                  },
+                  "hidden": false,
+                  "style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1",
+                    "position": "static",
+                    "zIndex": "auto",
+                    "overflow": "visible",
+                    "aspectRatio": "auto",
+                    "minHeight": "auto",
+                    "height": "28.796875px",
+                    "filter": "none",
+                    "transform": "none",
+                    "animation": "none"
+                  }
+                }
+              ],
+              "photoFallbacks": [
+                {
+                  "text": "ภาพประกอบไม่พร้อม",
+                  "rect": {
+                    "x": 165,
+                    "y": 1067.09375,
+                    "width": 134,
+                    "height": 191.421875,
+                    "left": 165,
+                    "top": 1067.09375,
+                    "right": 299,
+                    "bottom": 1258.515625
+                  },
+                  "hidden": false
+                }
+              ],
+              "count": "20 รุ่น",
+              "mark": {
+                "x": 175.71875,
+                "y": 1105.375,
+                "width": 112.5625,
+                "height": 65.078125,
+                "left": 175.71875,
+                "top": 1105.375,
+                "right": 288.28125,
+                "bottom": 1170.453125
+              },
+              "before": {
+                "content": "\"\"",
+                "paddingTop": "191.421875px",
+                "display": "block"
+              }
+            },
+            {
+              "id": "prs",
+              "href": "/guitars?brand=PRS",
+              "label": "ดูกีตาร์ PRS, 20 รุ่นในแคตตาล็อก",
+              "text": "ภาพประกอบไม่พร้อม\nPRS\n\n20 รุ่น\n\nกีตาร์ไฟฟ้า",
+              "rect": {
+                "x": 20,
+                "y": 1267.515625,
+                "width": 136,
+                "height": 193.421875,
+                "left": 20,
+                "top": 1267.515625,
+                "right": 156,
+                "bottom": 1460.9375
+              },
+              "style": {
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "position": "relative",
+                "zIndex": "auto",
+                "overflow": "hidden",
+                "aspectRatio": "auto",
+                "minHeight": "174px",
+                "height": "193.421875px",
+                "filter": "none",
+                "transform": "none",
+                "animation": "none"
+              },
+              "hidden": false,
+              "photoStatus": "error",
+              "logoStatus": "error",
+              "photos": [],
+              "logos": [],
+              "fallbacks": [
+                {
+                  "text": "PRS",
+                  "rect": {
+                    "x": 72.078125,
+                    "y": 1324.9375,
+                    "width": 31.828125,
+                    "height": 28.796875,
+                    "left": 72.078125,
+                    "top": 1324.9375,
+                    "right": 103.90625,
+                    "bottom": 1353.734375
+                  },
+                  "hidden": false,
+                  "style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1",
+                    "position": "static",
+                    "zIndex": "auto",
+                    "overflow": "visible",
+                    "aspectRatio": "auto",
+                    "minHeight": "auto",
+                    "height": "28.796875px",
+                    "filter": "none",
+                    "transform": "none",
+                    "animation": "none"
+                  }
+                }
+              ],
+              "photoFallbacks": [
+                {
+                  "text": "ภาพประกอบไม่พร้อม",
+                  "rect": {
+                    "x": 21,
+                    "y": 1268.515625,
+                    "width": 134,
+                    "height": 191.421875,
+                    "left": 21,
+                    "top": 1268.515625,
+                    "right": 155,
+                    "bottom": 1459.9375
+                  },
+                  "hidden": false
+                }
+              ],
+              "count": "20 รุ่น",
+              "mark": {
+                "x": 38.40625,
+                "y": 1306.796875,
+                "width": 99.1875,
+                "height": 65.078125,
+                "left": 38.40625,
+                "top": 1306.796875,
+                "right": 137.59375,
+                "bottom": 1371.875
+              },
+              "before": {
+                "content": "\"\"",
+                "paddingTop": "191.421875px",
+                "display": "block"
+              }
+            },
+            {
+              "id": "squier",
+              "href": "/guitars?brand=Squier",
+              "label": "ดูกีตาร์ Squier, 20 รุ่นในแคตตาล็อก",
+              "text": "ภาพประกอบไม่พร้อม\nSquier\n\n20 รุ่น\n\nกีตาร์ไฟฟ้า · เบส",
+              "rect": {
+                "x": 164,
+                "y": 1267.515625,
+                "width": 136,
+                "height": 193.421875,
+                "left": 164,
+                "top": 1267.515625,
+                "right": 300,
+                "bottom": 1460.9375
+              },
+              "style": {
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "position": "relative",
+                "zIndex": "auto",
+                "overflow": "hidden",
+                "aspectRatio": "auto",
+                "minHeight": "174px",
+                "height": "193.421875px",
+                "filter": "none",
+                "transform": "none",
+                "animation": "none"
+              },
+              "hidden": false,
+              "photoStatus": "error",
+              "logoStatus": "error",
+              "photos": [],
+              "logos": [],
+              "fallbacks": [
+                {
+                  "text": "Squier",
+                  "rect": {
+                    "x": 207.046875,
+                    "y": 1324.9375,
+                    "width": 49.90625,
+                    "height": 28.796875,
+                    "left": 207.046875,
+                    "top": 1324.9375,
+                    "right": 256.953125,
+                    "bottom": 1353.734375
+                  },
+                  "hidden": false,
+                  "style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1",
+                    "position": "static",
+                    "zIndex": "auto",
+                    "overflow": "visible",
+                    "aspectRatio": "auto",
+                    "minHeight": "auto",
+                    "height": "28.796875px",
+                    "filter": "none",
+                    "transform": "none",
+                    "animation": "none"
+                  }
+                }
+              ],
+              "photoFallbacks": [
+                {
+                  "text": "ภาพประกอบไม่พร้อม",
+                  "rect": {
+                    "x": 165,
+                    "y": 1268.515625,
+                    "width": 134,
+                    "height": 191.421875,
+                    "left": 165,
+                    "top": 1268.515625,
+                    "right": 299,
+                    "bottom": 1459.9375
+                  },
+                  "hidden": false
+                }
+              ],
+              "count": "20 รุ่น",
+              "mark": {
+                "x": 177.046875,
+                "y": 1306.796875,
+                "width": 109.90625,
+                "height": 65.078125,
+                "left": 177.046875,
+                "top": 1306.796875,
+                "right": 286.953125,
+                "bottom": 1371.875
+              },
+              "before": {
+                "content": "\"\"",
+                "paddingTop": "191.421875px",
+                "display": "block"
+              }
+            },
+            {
+              "id": "taylor",
+              "href": "/guitars?brand=Taylor",
+              "label": "ดูกีตาร์ Taylor, 20 รุ่นในแคตตาล็อก",
+              "text": "ภาพประกอบไม่พร้อม\nTaylor\n\n20 รุ่น\n\nกีตาร์โปร่ง",
+              "rect": {
+                "x": 20,
+                "y": 1468.9375,
+                "width": 136,
+                "height": 193.421875,
+                "left": 20,
+                "top": 1468.9375,
+                "right": 156,
+                "bottom": 1662.359375
+              },
+              "style": {
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "position": "relative",
+                "zIndex": "auto",
+                "overflow": "hidden",
+                "aspectRatio": "auto",
+                "minHeight": "174px",
+                "height": "193.421875px",
+                "filter": "none",
+                "transform": "none",
+                "animation": "none"
+              },
+              "hidden": false,
+              "photoStatus": "error",
+              "logoStatus": "error",
+              "photos": [],
+              "logos": [],
+              "fallbacks": [
+                {
+                  "text": "Taylor",
+                  "rect": {
+                    "x": 64.03125,
+                    "y": 1526.359375,
+                    "width": 47.9375,
+                    "height": 28.796875,
+                    "left": 64.03125,
+                    "top": 1526.359375,
+                    "right": 111.96875,
+                    "bottom": 1555.15625
+                  },
+                  "hidden": false,
+                  "style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1",
+                    "position": "static",
+                    "zIndex": "auto",
+                    "overflow": "visible",
+                    "aspectRatio": "auto",
+                    "minHeight": "auto",
+                    "height": "28.796875px",
+                    "filter": "none",
+                    "transform": "none",
+                    "animation": "none"
+                  }
+                }
+              ],
+              "photoFallbacks": [
+                {
+                  "text": "ภาพประกอบไม่พร้อม",
+                  "rect": {
+                    "x": 21,
+                    "y": 1469.9375,
+                    "width": 134,
+                    "height": 191.421875,
+                    "left": 21,
+                    "top": 1469.9375,
+                    "right": 155,
+                    "bottom": 1661.359375
+                  },
+                  "hidden": false
+                }
+              ],
+              "count": "20 รุ่น",
+              "mark": {
+                "x": 42.4375,
+                "y": 1508.21875,
+                "width": 91.125,
+                "height": 65.078125,
+                "left": 42.4375,
+                "top": 1508.21875,
+                "right": 133.5625,
+                "bottom": 1573.296875
+              },
+              "before": {
+                "content": "\"\"",
+                "paddingTop": "191.421875px",
+                "display": "block"
+              }
+            },
+            {
+              "id": "yamaha",
+              "href": "/guitars?brand=Yamaha",
+              "label": "ดูกีตาร์ Yamaha, 20 รุ่นในแคตตาล็อก",
+              "text": "ภาพประกอบไม่พร้อม\nYamaha\n\n20 รุ่น\n\nกีตาร์ไฟฟ้า · กีตาร์โปร่ง",
+              "rect": {
+                "x": 164,
+                "y": 1468.9375,
+                "width": 136,
+                "height": 193.421875,
+                "left": 164,
+                "top": 1468.9375,
+                "right": 300,
+                "bottom": 1662.359375
+              },
+              "style": {
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "position": "relative",
+                "zIndex": "auto",
+                "overflow": "hidden",
+                "aspectRatio": "auto",
+                "minHeight": "174px",
+                "height": "193.421875px",
+                "filter": "none",
+                "transform": "none",
+                "animation": "none"
+              },
+              "hidden": false,
+              "photoStatus": "error",
+              "logoStatus": "error",
+              "photos": [],
+              "logos": [],
+              "fallbacks": [
+                {
+                  "text": "Yamaha",
+                  "rect": {
+                    "x": 200.1875,
+                    "y": 1526.359375,
+                    "width": 63.609375,
+                    "height": 28.796875,
+                    "left": 200.1875,
+                    "top": 1526.359375,
+                    "right": 263.796875,
+                    "bottom": 1555.15625
+                  },
+                  "hidden": false,
+                  "style": {
+                    "display": "block",
+                    "visibility": "visible",
+                    "opacity": "1",
+                    "position": "static",
+                    "zIndex": "auto",
+                    "overflow": "visible",
+                    "aspectRatio": "auto",
+                    "minHeight": "auto",
+                    "height": "28.796875px",
+                    "filter": "none",
+                    "transform": "none",
+                    "animation": "none"
+                  }
+                }
+              ],
+              "photoFallbacks": [
+                {
+                  "text": "ภาพประกอบไม่พร้อม",
+                  "rect": {
+                    "x": 165,
+                    "y": 1469.9375,
+                    "width": 134,
+                    "height": 191.421875,
+                    "left": 165,
+                    "top": 1469.9375,
+                    "right": 299,
+                    "bottom": 1661.359375
+                  },
+                  "hidden": false
+                }
+              ],
+              "count": "20 รุ่น",
+              "mark": {
+                "x": 177.046875,
+                "y": 1508.21875,
+                "width": 109.90625,
+                "height": 65.078125,
+                "left": 177.046875,
+                "top": 1508.21875,
+                "right": 286.953125,
+                "bottom": 1573.296875
+              },
+              "before": {
+                "content": "\"\"",
+                "paddingTop": "191.421875px",
+                "display": "block"
+              }
+            }
+          ]
+        },
+        "visibleTextRanges": [
+          {
+            "id": "cordoba",
+            "card": {
+              "left": 20,
+              "top": 663.25,
+              "right": 156,
+              "bottom": 856.671875,
+              "width": 136,
+              "height": 193.421875
+            },
+            "texts": [
+              {
+                "text": "ภาพประกอบไม่พร้อม",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 46.17503356933594,
+                    "top": 679.640625,
+                    "right": 129.82496643066406,
+                    "bottom": 692.640625,
+                    "width": 83.64993286132812,
+                    "height": 13
+                  }
+                ]
+              },
+              {
+                "text": "Córdoba",
+                "brandName": true,
+                "rects": [
+                  {
+                    "left": 37.421875,
+                    "top": 711.5625,
+                    "right": 138.54812622070312,
+                    "bottom": 758.5625,
+                    "width": 101.12625122070312,
+                    "height": 47
+                  }
+                ]
+              },
+              {
+                "text": "20 รุ่น",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 31,
+                    "top": 791.1796875,
+                    "right": 61.588226318359375,
+                    "bottom": 806.1796875,
+                    "width": 30.588226318359375,
+                    "height": 15
+                  }
+                ]
+              },
+              {
+                "text": "กีตาร์คลาสสิก",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 31,
+                    "top": 826.7734375,
+                    "right": 93.16053771972656,
+                    "bottom": 840.7734375,
+                    "width": 62.16053771972656,
+                    "height": 14
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "epiphone",
+            "card": {
+              "left": 164,
+              "top": 663.25,
+              "right": 300,
+              "bottom": 856.671875,
+              "width": 136,
+              "height": 193.421875
+            },
+            "texts": [
+              {
+                "text": "ภาพประกอบไม่พร้อม",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 190.17503356933594,
+                    "top": 679.640625,
+                    "right": 273.824951171875,
+                    "bottom": 692.640625,
+                    "width": 83.64991760253906,
+                    "height": 13
+                  }
+                ]
+              },
+              {
+                "text": "Epiphone",
+                "brandName": true,
+                "rects": [
+                  {
+                    "left": 194.70828247070312,
+                    "top": 719.5703125,
+                    "right": 269.2760925292969,
+                    "bottom": 750.5703125,
+                    "width": 74.56781005859375,
+                    "height": 31
+                  }
+                ]
+              },
+              {
+                "text": "20 รุ่น",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 175,
+                    "top": 791.1796875,
+                    "right": 205.58822631835938,
+                    "bottom": 806.1796875,
+                    "width": 30.588226318359375,
+                    "height": 15
+                  }
+                ]
+              },
+              {
+                "text": "กีตาร์ไฟฟ้า · เบส",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 175,
+                    "top": 826.7734375,
+                    "right": 247.85247802734375,
+                    "bottom": 840.7734375,
+                    "width": 72.85247802734375,
+                    "height": 14
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "fender",
+            "card": {
+              "left": 20,
+              "top": 864.671875,
+              "right": 156,
+              "bottom": 1058.09375,
+              "width": 136,
+              "height": 193.421875
+            },
+            "texts": [
+              {
+                "text": "ภาพประกอบไม่พร้อม",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 46.17503356933594,
+                    "top": 881.0625,
+                    "right": 129.82496643066406,
+                    "bottom": 894.0625,
+                    "width": 83.64993286132812,
+                    "height": 13
+                  }
+                ]
+              },
+              {
+                "text": "Fender",
+                "brandName": true,
+                "rects": [
+                  {
+                    "left": 61.62826919555664,
+                    "top": 920.9921875,
+                    "right": 114.35610961914062,
+                    "bottom": 951.9921875,
+                    "width": 52.727840423583984,
+                    "height": 31
+                  }
+                ]
+              },
+              {
+                "text": "20 รุ่น",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 31,
+                    "top": 972.8046875,
+                    "right": 61.588226318359375,
+                    "bottom": 987.8046875,
+                    "width": 30.588226318359375,
+                    "height": 15
+                  }
+                ]
+              },
+              {
+                "text": "กีตาร์ไฟฟ้า · เบส · กีตาร์โปร่ง",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 31,
+                    "top": 1008.3984375,
+                    "right": 84.85562133789062,
+                    "bottom": 1022.3984375,
+                    "width": 53.855621337890625,
+                    "height": 14
+                  },
+                  {
+                    "left": 31,
+                    "top": 1028.1953125,
+                    "right": 101.80647277832031,
+                    "bottom": 1042.1953125,
+                    "width": 70.80647277832031,
+                    "height": 14
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "gibson",
+            "card": {
+              "left": 164,
+              "top": 864.671875,
+              "right": 300,
+              "bottom": 1058.09375,
+              "width": 136,
+              "height": 193.421875
+            },
+            "texts": [
+              {
+                "text": "ภาพประกอบไม่พร้อม",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 190.17503356933594,
+                    "top": 881.0625,
+                    "right": 273.824951171875,
+                    "bottom": 894.0625,
+                    "width": 83.64991760253906,
+                    "height": 13
+                  }
+                ]
+              },
+              {
+                "text": "Gibson",
+                "brandName": true,
+                "rects": [
+                  {
+                    "left": 204.9562530517578,
+                    "top": 919.0703125,
+                    "right": 259.0281066894531,
+                    "bottom": 950.0703125,
+                    "width": 54.07185363769531,
+                    "height": 31
+                  }
+                ]
+              },
+              {
+                "text": "20 รุ่น",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 175,
+                    "top": 972.8046875,
+                    "right": 205.58822631835938,
+                    "bottom": 987.8046875,
+                    "width": 30.588226318359375,
+                    "height": 15
+                  }
+                ]
+              },
+              {
+                "text": "กีตาร์ไฟฟ้า · กีตาร์โปร่ง",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 175,
+                    "top": 1008.3984375,
+                    "right": 222.67367553710938,
+                    "bottom": 1022.3984375,
+                    "width": 47.673675537109375,
+                    "height": 14
+                  },
+                  {
+                    "left": 175,
+                    "top": 1028.1953125,
+                    "right": 226.8096160888672,
+                    "bottom": 1042.1953125,
+                    "width": 51.80961608886719,
+                    "height": 14
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ibanez",
+            "card": {
+              "left": 20,
+              "top": 1066.09375,
+              "right": 156,
+              "bottom": 1259.515625,
+              "width": 136,
+              "height": 193.421875
+            },
+            "texts": [
+              {
+                "text": "ภาพประกอบไม่พร้อม",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 46.17503356933594,
+                    "top": 1082.484375,
+                    "right": 129.82496643066406,
+                    "bottom": 1095.484375,
+                    "width": 83.64993286132812,
+                    "height": 13
+                  }
+                ]
+              },
+              {
+                "text": "Ibanez",
+                "brandName": true,
+                "rects": [
+                  {
+                    "left": 62.20426559448242,
+                    "top": 1122.4140625,
+                    "right": 113.78010559082031,
+                    "bottom": 1153.4140625,
+                    "width": 51.57583999633789,
+                    "height": 31
+                  }
+                ]
+              },
+              {
+                "text": "20 รุ่น",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 31,
+                    "top": 1194.0234375,
+                    "right": 61.588226318359375,
+                    "bottom": 1209.0234375,
+                    "width": 30.588226318359375,
+                    "height": 15
+                  }
+                ]
+              },
+              {
+                "text": "กีตาร์ไฟฟ้า · เบส",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 31,
+                    "top": 1229.6171875,
+                    "right": 103.85247802734375,
+                    "bottom": 1243.6171875,
+                    "width": 72.85247802734375,
+                    "height": 14
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "martin",
+            "card": {
+              "left": 164,
+              "top": 1066.09375,
+              "right": 300,
+              "bottom": 1259.515625,
+              "width": 136,
+              "height": 193.421875
+            },
+            "texts": [
+              {
+                "text": "ภาพประกอบไม่พร้อม",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 190.17503356933594,
+                    "top": 1082.484375,
+                    "right": 273.824951171875,
+                    "bottom": 1095.484375,
+                    "width": 83.64991760253906,
+                    "height": 13
+                  }
+                ]
+              },
+              {
+                "text": "Martin",
+                "brandName": true,
+                "rects": [
+                  {
+                    "left": 205.4242706298828,
+                    "top": 1122.4140625,
+                    "right": 258.56011962890625,
+                    "bottom": 1153.4140625,
+                    "width": 53.13584899902344,
+                    "height": 31
+                  }
+                ]
+              },
+              {
+                "text": "20 รุ่น",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 175,
+                    "top": 1194.0234375,
+                    "right": 205.58822631835938,
+                    "bottom": 1209.0234375,
+                    "width": 30.588226318359375,
+                    "height": 15
+                  }
+                ]
+              },
+              {
+                "text": "กีตาร์โปร่ง",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 175,
+                    "top": 1229.6171875,
+                    "right": 220.62767028808594,
+                    "bottom": 1243.6171875,
+                    "width": 45.62767028808594,
+                    "height": 14
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "prs",
+            "card": {
+              "left": 20,
+              "top": 1267.515625,
+              "right": 156,
+              "bottom": 1460.9375,
+              "width": 136,
+              "height": 193.421875
+            },
+            "texts": [
+              {
+                "text": "ภาพประกอบไม่พร้อม",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 46.17503356933594,
+                    "top": 1283.90625,
+                    "right": 129.82496643066406,
+                    "bottom": 1296.90625,
+                    "width": 83.64993286132812,
+                    "height": 13
+                  }
+                ]
+              },
+              {
+                "text": "PRS",
+                "brandName": true,
+                "rects": [
+                  {
+                    "left": 72.08023834228516,
+                    "top": 1323.8359375,
+                    "right": 103.90413665771484,
+                    "bottom": 1354.8359375,
+                    "width": 31.823898315429688,
+                    "height": 31
+                  }
+                ]
+              },
+              {
+                "text": "20 รุ่น",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 31,
+                    "top": 1395.4453125,
+                    "right": 61.588226318359375,
+                    "bottom": 1410.4453125,
+                    "width": 30.588226318359375,
+                    "height": 15
+                  }
+                ]
+              },
+              {
+                "text": "กีตาร์ไฟฟ้า",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 31,
+                    "top": 1431.0390625,
+                    "right": 78.67367553710938,
+                    "bottom": 1445.0390625,
+                    "width": 47.673675537109375,
+                    "height": 14
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "squier",
+            "card": {
+              "left": 164,
+              "top": 1267.515625,
+              "right": 300,
+              "bottom": 1460.9375,
+              "width": 136,
+              "height": 193.421875
+            },
+            "texts": [
+              {
+                "text": "ภาพประกอบไม่พร้อม",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 190.17503356933594,
+                    "top": 1283.90625,
+                    "right": 273.824951171875,
+                    "bottom": 1296.90625,
+                    "width": 83.64991760253906,
+                    "height": 13
+                  }
+                ]
+              },
+              {
+                "text": "Squier",
+                "brandName": true,
+                "rects": [
+                  {
+                    "left": 207.0520782470703,
+                    "top": 1323.8359375,
+                    "right": 256.94793701171875,
+                    "bottom": 1354.8359375,
+                    "width": 49.89585876464844,
+                    "height": 31
+                  }
+                ]
+              },
+              {
+                "text": "20 รุ่น",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 175,
+                    "top": 1395.4453125,
+                    "right": 205.58822631835938,
+                    "bottom": 1410.4453125,
+                    "width": 30.588226318359375,
+                    "height": 15
+                  }
+                ]
+              },
+              {
+                "text": "กีตาร์ไฟฟ้า · เบส",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 175,
+                    "top": 1431.0390625,
+                    "right": 247.85247802734375,
+                    "bottom": 1445.0390625,
+                    "width": 72.85247802734375,
+                    "height": 14
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "taylor",
+            "card": {
+              "left": 20,
+              "top": 1468.9375,
+              "right": 156,
+              "bottom": 1662.359375,
+              "width": 136,
+              "height": 193.421875
+            },
+            "texts": [
+              {
+                "text": "ภาพประกอบไม่พร้อม",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 46.17503356933594,
+                    "top": 1485.328125,
+                    "right": 129.82496643066406,
+                    "bottom": 1498.328125,
+                    "width": 83.64993286132812,
+                    "height": 13
+                  }
+                ]
+              },
+              {
+                "text": "Taylor",
+                "brandName": true,
+                "rects": [
+                  {
+                    "left": 64.03607177734375,
+                    "top": 1525.2578125,
+                    "right": 111.96392822265625,
+                    "bottom": 1556.2578125,
+                    "width": 47.9278564453125,
+                    "height": 31
+                  }
+                ]
+              },
+              {
+                "text": "20 รุ่น",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 31,
+                    "top": 1596.8671875,
+                    "right": 61.588226318359375,
+                    "bottom": 1611.8671875,
+                    "width": 30.588226318359375,
+                    "height": 15
+                  }
+                ]
+              },
+              {
+                "text": "กีตาร์โปร่ง",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 31,
+                    "top": 1632.4609375,
+                    "right": 76.62767028808594,
+                    "bottom": 1646.4609375,
+                    "width": 45.62767028808594,
+                    "height": 14
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "yamaha",
+            "card": {
+              "left": 164,
+              "top": 1468.9375,
+              "right": 300,
+              "bottom": 1662.359375,
+              "width": 136,
+              "height": 193.421875
+            },
+            "texts": [
+              {
+                "text": "ภาพประกอบไม่พร้อม",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 190.17503356933594,
+                    "top": 1485.328125,
+                    "right": 273.824951171875,
+                    "bottom": 1498.328125,
+                    "width": 83.64991760253906,
+                    "height": 13
+                  }
+                ]
+              },
+              {
+                "text": "Yamaha",
+                "brandName": true,
+                "rects": [
+                  {
+                    "left": 200.19227600097656,
+                    "top": 1525.2578125,
+                    "right": 263.7920837402344,
+                    "bottom": 1556.2578125,
+                    "width": 63.59980773925781,
+                    "height": 31
+                  }
+                ]
+              },
+              {
+                "text": "20 รุ่น",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 175,
+                    "top": 1577.0703125,
+                    "right": 205.58822631835938,
+                    "bottom": 1592.0703125,
+                    "width": 30.588226318359375,
+                    "height": 15
+                  }
+                ]
+              },
+              {
+                "text": "กีตาร์ไฟฟ้า · กีตาร์โปร่ง",
+                "brandName": false,
+                "rects": [
+                  {
+                    "left": 175,
+                    "top": 1612.6640625,
+                    "right": 222.67367553710938,
+                    "bottom": 1626.6640625,
+                    "width": 47.673675537109375,
+                    "height": 14
+                  },
+                  {
+                    "left": 175,
+                    "top": 1632.4609375,
+                    "right": 226.8096160888672,
+                    "bottom": 1646.4609375,
+                    "width": 51.80961608886719,
+                    "height": 14
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "failedPhotoBrands": [
+          "cordoba",
+          "epiphone",
+          "fender",
+          "gibson",
+          "ibanez",
+          "martin",
+          "prs",
+          "squier",
+          "taylor",
+          "yamaha"
+        ],
+        "failedLogoBrands": [
+          "epiphone",
+          "fender",
+          "gibson",
+          "ibanez",
+          "martin",
+          "prs",
+          "squier",
+          "taylor",
+          "yamaha"
+        ],
+        "paintedIdentity": {
+          "method": "Actual locator screenshots after native scroll; bright mark pixels support painted identity, not photographic source authenticity. Manual reference review is still required.",
+          "cards": [
+            {
+              "id": "cordoba",
+              "cardPixels": [
+                136,
+                194
+              ],
+              "markBrightPixels": 477,
+              "cardSampleColors": 1133
+            },
+            {
+              "id": "epiphone",
+              "cardPixels": [
+                136,
+                194
+              ],
+              "markBrightPixels": 197,
+              "cardSampleColors": 1031
+            },
+            {
+              "id": "fender",
+              "cardPixels": [
+                136,
+                195
+              ],
+              "markBrightPixels": 138,
+              "cardSampleColors": 1015
+            },
+            {
+              "id": "gibson",
+              "cardPixels": [
+                136,
+                195
+              ],
+              "markBrightPixels": 130,
+              "cardSampleColors": 991
+            },
+            {
+              "id": "ibanez",
+              "cardPixels": [
+                136,
+                194
+              ],
+              "markBrightPixels": 135,
+              "cardSampleColors": 958
+            },
+            {
+              "id": "martin",
+              "cardPixels": [
+                136,
+                194
+              ],
+              "markBrightPixels": 139,
+              "cardSampleColors": 936
+            },
+            {
+              "id": "prs",
+              "cardPixels": [
+                136,
+                194
+              ],
+              "markBrightPixels": 74,
+              "cardSampleColors": 903
+            },
+            {
+              "id": "squier",
+              "cardPixels": [
+                136,
+                194
+              ],
+              "markBrightPixels": 121,
+              "cardSampleColors": 943
+            },
+            {
+              "id": "taylor",
+              "cardPixels": [
+                136,
+                195
+              ],
+              "markBrightPixels": 120,
+              "cardSampleColors": 927
+            },
+            {
+              "id": "yamaha",
+              "cardPixels": [
+                136,
+                195
+              ],
+              "markBrightPixels": 165,
+              "cardSampleColors": 1018
+            }
+          ]
+        },
+        "screenshot": "faults/webkit/all-images-404-small-mobile.png",
+        "catalogAfterFallbackClick": {
+          "url": "http://127.0.0.1:5402/guitars?brand=Epiphone",
+          "countText": "20 รุ่น\n\nแสดง 1–9 จาก 20 รุ่น",
+          "visibleGuitarIds": [
+            "epiphone-casino",
+            "epiphone-les-paul-standard-50s",
+            "epiphone-futura-les-paul-custom",
+            "epiphone-es-335-figured-with-rosewood-fretboard",
+            "epiphone-sg-bass-with-rosewood-fretboard",
+            "epiphone-thunderbird-64-with-rosewood-fretboard",
+            "epiphone-wilshire-p-90-with-rosewood-fretboard",
+            "epiphone-riviera-with-rosewood-fretboard",
+            "epiphone-coronet-with-rosewood-fretboard"
+          ]
+        }
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "badResponses": [],
+  "expectedFaultErrors": [
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/fender-DCF8s-Rl.webp",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/fender-DCF8s-Rl.webp",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/cordoba-EcdWeOY5.webp",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/cordoba-EcdWeOY5.webp",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/epiphone-3cYMFIFQ.webp",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/epiphone-3cYMFIFQ.webp",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/epiphone-ScntFqrP.svg",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/epiphone-ScntFqrP.svg",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/fender-DCF8s-Rl.webp",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/fender-DCF8s-Rl.webp",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/fender-DkIbZz31.svg",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/fender-DkIbZz31.svg",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/gibson-DuMHBIUC.webp",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/gibson-DuMHBIUC.webp",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/gibson-BLvOdW2L.svg",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/gibson-BLvOdW2L.svg",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/ibanez-0rVpVFOn.webp",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/ibanez-0rVpVFOn.webp",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/ibanez-Dr5XvkXn.svg",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/ibanez-Dr5XvkXn.svg",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/martin-BZX4UNwJ.webp",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/martin-BZX4UNwJ.webp",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/martin-DMJyvvLA.svg",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/martin-DMJyvvLA.svg",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/prs-CwqQZRay.webp",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/prs-CwqQZRay.webp",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/prs-DcKJlR5R.svg",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/prs-DcKJlR5R.svg",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/squier-D_xTWQop.webp",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/squier-D_xTWQop.webp",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/squier-DbmA7p2n.png",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/squier-DbmA7p2n.png",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/taylor-DVJVIccN.webp",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/taylor-DVJVIccN.webp",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/taylor-BiE1RgP3.svg",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/taylor-BiE1RgP3.svg",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/yamaha-B6fXBWus.webp",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/yamaha-B6fXBWus.webp",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/yamaha-DhXfjkE2.svg",
+      "status": 404
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:5402/assets/yamaha-DhXfjkE2.svg",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    }
+  ],
+  "injectedImageFaults": [
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/fender-DCF8s-Rl.webp",
+      "status": 404,
+      "kind": "photo"
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/cordoba-EcdWeOY5.webp",
+      "status": 404,
+      "kind": "photo"
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/epiphone-3cYMFIFQ.webp",
+      "status": 404,
+      "kind": "photo"
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/epiphone-ScntFqrP.svg",
+      "status": 404,
+      "kind": "logo"
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/fender-DCF8s-Rl.webp",
+      "status": 404,
+      "kind": "photo"
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/fender-DkIbZz31.svg",
+      "status": 404,
+      "kind": "logo"
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/gibson-DuMHBIUC.webp",
+      "status": 404,
+      "kind": "photo"
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/gibson-BLvOdW2L.svg",
+      "status": 404,
+      "kind": "logo"
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/ibanez-0rVpVFOn.webp",
+      "status": 404,
+      "kind": "photo"
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/ibanez-Dr5XvkXn.svg",
+      "status": 404,
+      "kind": "logo"
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/martin-BZX4UNwJ.webp",
+      "status": 404,
+      "kind": "photo"
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/martin-DMJyvvLA.svg",
+      "status": 404,
+      "kind": "logo"
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/prs-CwqQZRay.webp",
+      "status": 404,
+      "kind": "photo"
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/prs-DcKJlR5R.svg",
+      "status": 404,
+      "kind": "logo"
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/squier-D_xTWQop.webp",
+      "status": 404,
+      "kind": "photo"
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/squier-DbmA7p2n.png",
+      "status": 404,
+      "kind": "logo"
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/taylor-DVJVIccN.webp",
+      "status": 404,
+      "kind": "photo"
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/taylor-BiE1RgP3.svg",
+      "status": 404,
+      "kind": "logo"
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/yamaha-B6fXBWus.webp",
+      "status": 404,
+      "kind": "photo"
+    },
+    {
+      "case": "all-images-404-small-mobile",
+      "url": "http://127.0.0.1:5402/assets/yamaha-DhXfjkE2.svg",
+      "status": 404,
+      "kind": "logo"
+    }
+  ],
+  "limitations": [
+    "WebKit on Linux is engine coverage, not physical Safari on iPad.",
+    "Viewport/touch emulation does not reproduce every iPad GPU, OS or network condition."
+  ],
+  "scope": "Combined failure of all ten brand photos and nine image marks at320px; no physical Safari claim.",
+  "intentionalFault": "Every matching brand photo/logo request receives deliberate404; expected HTTP/decode errors are retained separately. No CSS, content, image source or fallback state is substituted.",
+  "browserVersion": "26.5",
+  "passed": true
+}

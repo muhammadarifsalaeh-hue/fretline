@@ -80,6 +80,7 @@ export const en = {
   "p5.brands.count": "{n} brands found",
   "p5.brands.models": "{n} catalog models",
   "p5.brands.modelsShort": "{n} models",
+  "p5.brands.imageUnavailable": "Brand image unavailable",
   "p5.brands.cardAria": "Explore {brand}, {n} catalog models",
   "p5.brands.note": "Counts describe Fretline's catalog, not a maker's full range. Names appear as text where licensed logos are unavailable.",
   "p5.brands.empty": "No matching brands",

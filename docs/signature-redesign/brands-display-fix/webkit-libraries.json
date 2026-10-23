@@ -1,0 +1,26 @@
+[
+  {
+    "package": "libharfbuzz-icu0",
+    "version": "10.2.0-1+deb13u1",
+    "url": "https://deb.debian.org/debian/pool/main/h/harfbuzz/libharfbuzz-icu0_10.2.0-1+deb13u1_amd64.deb",
+    "sha256": "0b45d951629e98673c0da73b2bcd0886a467d833bb3b7499892a168f247165d2"
+  },
+  {
+    "package": "libhyphen0",
+    "version": "2.8.8-7+b2",
+    "url": "https://deb.debian.org/debian/pool/main/h/hyphen/libhyphen0_2.8.8-7+b2_amd64.deb",
+    "sha256": "fa9dca7b8cf1381fd52800c44a385c5725a78a88bd705f7c39b1046a5293435e"
+  },
+  {
+    "package": "libgles2",
+    "version": "1.7.0-1+b2",
+    "url": "https://deb.debian.org/debian/pool/main/libg/libglvnd/libgles2_1.7.0-1+b2_amd64.deb",
+    "sha256": "e12c18aa77939d122ee1dea520ba0440b97dc19200b7396e03dff03a3ece74c1"
+  },
+  {
+    "package": "libglvnd0",
+    "version": "1.7.0-1+b2",
+    "url": "https://deb.debian.org/debian/pool/main/libg/libglvnd/libglvnd0_1.7.0-1+b2_amd64.deb",
+    "sha256": "887f74008166549ce9e100c906aa937e95d6e5ce1c8d86efe8c95fd953359b9c"
+  }
+]

@@ -80,6 +80,7 @@ export const th = {
   "p5.brands.count": "พบ {n} แบรนด์",
   "p5.brands.models": "{n} รุ่นในแคตตาล็อก",
   "p5.brands.modelsShort": "{n} รุ่น",
+  "p5.brands.imageUnavailable": "ภาพประกอบไม่พร้อม",
   "p5.brands.cardAria": "ดูกีตาร์ {brand}, {n} รุ่นในแคตตาล็อก",
   "p5.brands.note": "จำนวนรุ่นนับจากแคตตาล็อก Fretline ไม่ใช่จำนวนรุ่นทั้งหมดของผู้ผลิต ชื่อแบรนด์ใช้ตัวอักษรเมื่อไม่มีโลโก้ที่ได้รับอนุญาต",
   "p5.brands.empty": "ไม่พบแบรนด์ที่ตรงกัน",
