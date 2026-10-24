@@ -1,0 +1,65 @@
+{
+  "engine": "chromium",
+  "baseURL": "http://127.0.0.1:5410",
+  "checks": [
+    {
+      "case": "module-failure",
+      "passed": true,
+      "details": {
+        "intentionalFault": "HTTP503 for real combined scene/Three chunk",
+        "blockedURLs": [
+          "http://127.0.0.1:5410/assets/practice-three-60w0sSuZ.js"
+        ],
+        "moduleResponses": [
+          {
+            "url": "http://127.0.0.1:5410/assets/practice-three-60w0sSuZ.js",
+            "status": 503
+          },
+          {
+            "url": "http://127.0.0.1:5410/assets/practice-three-60w0sSuZ.js?practice-retry=1792790606449-1",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:5410/assets/practice-three-60w0sSuZ.js?practice-retry=1792790606449-1",
+            "status": 304
+          }
+        ],
+        "visibleFallback": true,
+        "distinctURLRecoveredInSameDocument": true,
+        "selectedChordPreserved": "G",
+        "subsequentContextLossRetryRecovered": true,
+        "laterDocumentReloadRecoveredWithDefaultChord": "C"
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "badResponses": [],
+  "expectedFaultErrors": [
+    {
+      "case": "module-failure",
+      "url": "http://127.0.0.1:5410/assets/practice-three-60w0sSuZ.js",
+      "status": 503
+    },
+    {
+      "case": "module-failure",
+      "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+    },
+    {
+      "case": "module-failure",
+      "url": "http://127.0.0.1:5410/assets/practice-three-60w0sSuZ.js",
+      "failure": "net::ERR_ABORTED"
+    }
+  ],
+  "contextWarnings": [],
+  "screenshots": [
+    "screenshots/chromium/intentional-scene-module-503.png"
+  ],
+  "limitations": [
+    "Actual Linux browser engines, not physical iPad Safari.",
+    "Chromium uses SwiftShader software WebGL; iPad GPU and thermal behavior are not covered."
+  ],
+  "browserVersion": "154.0.8037.57",
+  "passed": true
+}

@@ -446,6 +446,7 @@ export const en = {
   "nav.compare": "Compare",
   "nav.compareAria": "Compare, {n} selected",
   "nav.find": "Find my guitar",
+  "nav.practice": "Practice",
   "nav.guitars": "Guitars",
   "nav.home": "Home",
   "nav.homeAria": "Fretline home",

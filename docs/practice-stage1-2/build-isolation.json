@@ -1,0 +1,18 @@
+{
+  "engineChunk": "practice-three-B8kz-qx9.js",
+  "engineBytes": 589346,
+  "engineSHA256": "684556b08eac0e23a0fabcce09daedba75c2e6c0816b736a586466317928a445",
+  "enginePythonGzipLevel6Bytes": 149284,
+  "engineImports": [],
+  "hasFactoryExport": true,
+  "sharedVendorChunk": "vendor-DU_bXo7n.js",
+  "sharedVendorContentHashMatchesPriorBuild": true,
+  "sharedVendorSHA256": "1783431cee50503ac53f759bc5128b25546e05fdb559152041fdb1fffb0ed3b0",
+  "licenseSha256": {
+    "node_modules/three/LICENSE": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+    "public/licenses/three-MIT.txt": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+    "dist/licenses/three-MIT.txt": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+  },
+  "passed": true,
+  "note": "Vite reports about150KB gzip using Node; Python gzip result is separately labelled. Actual no-engine requests on Home, Brands and Catalog are checked in browser lazy-routes."
+}

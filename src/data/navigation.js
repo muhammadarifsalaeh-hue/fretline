@@ -7,6 +7,7 @@ export const NAV_LINKS = [
   { label: t('nav.brands'), href: '/brands' },
   { label: t('nav.compare'), href: '/compare' },
   { label: t('nav.find'), href: '/find-my-guitar' },
+  { label: t('nav.practice'), href: '/practice' },
 ];
 
 export const BUDGET_LINKS = [

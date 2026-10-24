@@ -1,0 +1,46 @@
+.practice-page .practice-viewer { min-width: 0; overflow: hidden; border: 1px solid rgb(var(--fl-color-accent) / .26); border-radius: var(--fl-radius-card); background: #10100f; }
+.practice-page .practice-viewer-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 24px 26px 18px; }
+.practice-page .practice-viewer-heading h2 { margin-top: 5px; font-size: 19px; font-weight: 500; }
+.practice-page .practice-live-label { display: inline-flex; align-items: center; gap: 7px; white-space: nowrap; font-size: 10px; letter-spacing: .12em; color: var(--fl-accent-soft); }
+.practice-page .practice-live-label i { width: 5px; height: 5px; border-radius: 50%; background: var(--fl-accent); }
+.practice-page .practice-viewer-presets { display: flex; flex-wrap: wrap; gap: 5px; padding: 0 26px 18px; }
+.practice-page .practice-viewer-presets button { min-height: 44px; padding: 7px 14px; border-radius: 5px; border: 1px solid transparent; color: var(--fl-text-secondary); font-size: 12px; transition: color 160ms, border-color 160ms; }
+.practice-page .practice-viewer-presets button[aria-pressed='true'] { color: var(--fl-accent-soft); border-color: #c8a15a4d; background: #c8a15a0c; }
+.practice-page .practice-viewer button:not(:disabled):hover { color: var(--fl-accent-soft); border-color: #c8a15a70; }
+.practice-page .practice-viewer button:disabled { opacity: .4; cursor: not-allowed; }
+.practice-page .practice-canvas-stage { position: relative; height: clamp(360px, 33vw, 480px); min-width: 0; background: radial-gradient(ellipse at 47% 50%, #29231c 0, #11110f 46%, #090a09 90%); border-block: 1px solid #ffffff08; }
+.practice-page .practice-canvas-host { position: absolute; inset: 0; }
+.practice-page .practice-canvas-host canvas { display: block; width: 100%; height: 100%; touch-action: none; cursor: grab; outline-offset: -4px; }
+.practice-page .practice-canvas-host canvas:active { cursor: grabbing; }
+.practice-page .practice-canvas-model-note { position: absolute; right: 20px; bottom: 14px; left: 20px; text-align: center; pointer-events: none; color: var(--fl-text-muted); font-size: 11px; letter-spacing: .025em; }
+.practice-page .practice-scene-state { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; padding: 28px; text-align: center; background: #0e0f0d; color: var(--fl-text-secondary); }
+.practice-page .practice-scene-state > svg { color: var(--fl-accent); }
+.practice-page .practice-scene-state h3 { font-size: 19px; color: var(--fl-text); }
+.practice-page .practice-scene-state p { max-width: 390px; font-size: 14px; line-height: 1.9; }
+.practice-page .practice-loading-track { width: 140px; height: 2px; background: linear-gradient(90deg, #c8a15a20, #e0c58c, #c8a15a20); }
+.practice-page .practice-scene-error button { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 48px; padding: 10px 18px; border: 1px solid #c8a15a66; border-radius: 7px; color: var(--fl-accent-soft); font-size: 13px; }
+.practice-page [data-practice-status='error'] .practice-canvas-host { visibility: hidden; }
+.practice-page .practice-camera-controls { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 16px 22px 10px; }
+.practice-page .practice-camera-controls > div { display: flex; align-items: center; gap: 5px; }
+.practice-page .practice-camera-controls button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-width: 44px; min-height: 44px; border: 1px solid #ffffff16; border-radius: 6px; color: var(--fl-text-secondary); }
+.practice-page .practice-camera-controls button > span[aria-hidden] { font-size: 24px; line-height: 1; }
+.practice-page .practice-camera-controls .practice-camera-reset { padding: 7px 14px; font-size: 12px; }
+.practice-page .practice-control-divider { height: 20px; width: 1px; background: var(--fl-border); margin-inline: 4px; }
+.practice-page .practice-camera-description { padding: 0 26px; font-size: 11px; color: var(--fl-text-muted); line-height: 1.9; }
+.practice-page .practice-marker-caption { margin: 14px 26px 22px; padding-top: 14px; border-top: 1px solid #ffffff0b; font-size: 11px; color: var(--fl-text-muted); }
+@media (max-width: 639px) {
+  .practice-page .practice-viewer-heading { padding: 20px 16px 12px; gap: 8px; }
+  .practice-page .practice-viewer-heading h2 { font-size: 17px; }
+  .practice-page .practice-live-label { font-size: 9px; }
+  .practice-page .practice-viewer-presets { padding-inline: 12px; padding-bottom: 12px; }
+  .practice-page .practice-viewer-presets button { padding-inline: 10px; }
+  .practice-page .practice-canvas-stage { height: 350px; }
+  .practice-page .practice-camera-controls { padding: 14px 12px 10px; flex-wrap: wrap; }
+  .practice-page .practice-camera-controls > div { gap: 3px; }
+  .practice-page .practice-camera-controls .practice-camera-reset { padding-inline: 10px; }
+  .practice-page .practice-camera-description { padding-inline: 16px; }
+  .practice-page .practice-marker-caption { margin-inline: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .practice-page .practice-viewer button { transition: none; }
+}

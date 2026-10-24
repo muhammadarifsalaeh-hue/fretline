@@ -1,0 +1,62 @@
+{
+  "diagnosticOnly": true,
+  "stage": "Before distinct-URL recovery fix",
+  "notFinalAcceptance": true,
+  "results": {
+    "base": "http://127.0.0.1:35711",
+    "method": "Actual HTTP server, no Playwright route/interception, exact existing dist bytes",
+    "events": [
+      {
+        "event": "response",
+        "url": "http://127.0.0.1:35711/practice",
+        "status": 200
+      },
+      {
+        "event": "response",
+        "url": "http://127.0.0.1:35711/assets/createNeckScene-aCU1Tnbr.js",
+        "status": 503
+      },
+      {
+        "event": "failed",
+        "url": "http://127.0.0.1:35711/assets/createNeckScene-aCU1Tnbr.js",
+        "failure": "Load request cancelled"
+      },
+      {
+        "event": "response",
+        "url": "http://127.0.0.1:35711/practice",
+        "status": 200
+      },
+      {
+        "event": "response",
+        "url": "http://127.0.0.1:35711/assets/createNeckScene-aCU1Tnbr.js?qaRetry=1",
+        "status": 200
+      }
+    ],
+    "recovered": false,
+    "assertion": "-title\">…</section>\n      - unexpected value \"loading\"\n    20 × locator resolved to <section class=\"practice-viewer\" data-practice-status=\"error\" aria-labelledby=\"practice-viewer-title\">…</section>\n       - unexpected value \"error\"\n\nAria snapshot:\n- region \"สำรวจคอกีตาร์ 3D\":\n  - text: INTERACTIVE VIEW\n  - heading \"สำรวจคอกีตาร์ 3D\" [level=2]\n  - text: 3D VIEW\n  - group \"มุมมองกล้อง\"\n  - text: แบบจำลองคอทั่วไป · 6 สาย · 12 เฟรต\n  - alert\n  - group \"ควบคุมกล้อง\"\n  - paragraph: ลากเพื่อหมุน · จีบสองนิ้วเพื่อซูม · เลื่อนหน้าเว็บจากพื้นที่นอกภาพ\n  - paragraph: \"คีย์บอร์ด: เลือกภาพแล้วกดลูกศรเพื่อหมุน + / − เพื่อซูม และ 0 เพื่อรีเซ็ต\"\n  - paragraph: จุดทองคือผังหมายเลขนิ้ว ยังไม่ใช่โมเดลมือมนุษย์",
+    "state": {
+      "status": "error",
+      "sameDocument": null,
+      "navigation": [
+        "reload"
+      ],
+      "canvasCount": 0
+    },
+    "requests": [
+      {
+        "path": "/assets/createNeckScene-aCU1Tnbr.js",
+        "blocked": true
+      },
+      {
+        "path": "/assets/createNeckScene-aCU1Tnbr.js?qaRetry=1",
+        "blocked": false
+      }
+    ],
+    "uniqueQueryImport": {
+      "ok": true,
+      "keys": [
+        "createNeckScene"
+      ]
+    }
+  }
+}

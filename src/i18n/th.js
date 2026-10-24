@@ -445,6 +445,7 @@ export const th = {
   "nav.compare": "เปรียบเทียบ",
   "nav.compareAria": "เปรียบเทียบ {n} รุ่น",
   "nav.find": "ค้นหากีตาร์ที่ใช่",
+  "nav.practice": "ฝึกกีตาร์",
   "nav.guitars": "กีตาร์",
   "nav.home": "หน้าหลัก",
   "nav.homeAria": "Fretline หน้าหลัก",

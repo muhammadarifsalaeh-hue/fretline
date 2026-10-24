@@ -9,6 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "images:check": "node scripts/check-images.mjs",
+    "practice:check": "node scripts/check-practice.mjs",
     "catalog:check": "node scripts/validate-catalog.mjs",
     "catalog:import": "node scripts/import-csv.mjs",
     "phase4:check": "node scripts/check-phase4.mjs",
@@ -21,7 +22,8 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.26.2"
+    "react-router-dom": "^6.26.2",
+    "three": "0.186.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",

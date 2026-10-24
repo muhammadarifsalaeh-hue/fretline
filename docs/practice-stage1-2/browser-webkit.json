@@ -1,0 +1,708 @@
+{
+  "engine": "webkit",
+  "baseURL": "http://127.0.0.1:5410",
+  "checks": [
+    {
+      "case": "rendering-desktop",
+      "passed": true,
+      "details": {
+        "canvas": {
+          "width": 974,
+          "height": 473,
+          "rect": {
+            "width": 974,
+            "height": 473.1875
+          },
+          "gl": true,
+          "touchAction": "none"
+        },
+        "camera": {
+          "position": [
+            0.10189,
+            5.01257,
+            6.26571
+          ],
+          "target": [
+            -0.65,
+            0,
+            0
+          ],
+          "distance": 8.05918
+        },
+        "paint": {
+          "sampleDimensions": [
+            400,
+            195
+          ],
+          "colors": 9135,
+          "litColoredPixels": 10351
+        }
+      }
+    },
+    {
+      "case": "rendering-tablet-landscape",
+      "passed": true,
+      "details": {
+        "canvas": {
+          "width": 664,
+          "height": 358,
+          "rect": {
+            "width": 664,
+            "height": 358
+          },
+          "gl": true,
+          "touchAction": "none"
+        },
+        "camera": {
+          "position": [
+            0.18443,
+            5.5629,
+            6.95362
+          ],
+          "target": [
+            -0.65,
+            0,
+            0
+          ],
+          "distance": 8.94399
+        },
+        "paint": {
+          "sampleDimensions": [
+            400,
+            216
+          ],
+          "colors": 9264,
+          "litColoredPixels": 10282
+        }
+      }
+    },
+    {
+      "case": "rendering-tablet",
+      "passed": true,
+      "details": {
+        "canvas": {
+          "width": 702,
+          "height": 358,
+          "rect": {
+            "width": 702,
+            "height": 358
+          },
+          "gl": true,
+          "touchAction": "none"
+        },
+        "camera": {
+          "position": [
+            0.13927,
+            5.26177,
+            6.57721
+          ],
+          "target": [
+            -0.65,
+            0,
+            0
+          ],
+          "distance": 8.45984
+        },
+        "paint": {
+          "sampleDimensions": [
+            400,
+            205
+          ],
+          "colors": 9385,
+          "litColoredPixels": 10357
+        }
+      }
+    },
+    {
+      "case": "rendering-mobile",
+      "passed": true,
+      "details": {
+        "canvas": {
+          "width": 348,
+          "height": 348,
+          "rect": {
+            "width": 348,
+            "height": 348
+          },
+          "gl": true,
+          "touchAction": "none"
+        },
+        "camera": {
+          "position": [
+            0.89767,
+            10.31778,
+            12.89722
+          ],
+          "target": [
+            -0.65,
+            0,
+            0
+          ],
+          "distance": 16.58885
+        },
+        "paint": {
+          "sampleDimensions": [
+            348,
+            349
+          ],
+          "colors": 5174,
+          "litColoredPixels": 7596
+        }
+      }
+    },
+    {
+      "case": "rendering-small-mobile",
+      "passed": true,
+      "details": {
+        "canvas": {
+          "width": 278,
+          "height": 348,
+          "rect": {
+            "width": 278,
+            "height": 348
+          },
+          "gl": true,
+          "touchAction": "none"
+        },
+        "camera": {
+          "position": [
+            1.28737,
+            12.91578,
+            16.14472
+          ],
+          "target": [
+            -0.65,
+            0,
+            0
+          ],
+          "distance": 20.7659
+        },
+        "paint": {
+          "sampleDimensions": [
+            278,
+            349
+          ],
+          "colors": 3769,
+          "litColoredPixels": 5079
+        }
+      }
+    },
+    {
+      "case": "camera-controls",
+      "passed": true,
+      "details": {
+        "movements": [
+          {
+            "action": "หมุนไปทางซ้าย",
+            "before": {
+              "position": [
+                0.10189,
+                5.01257,
+                6.26571
+              ],
+              "target": [
+                -0.65,
+                0,
+                0
+              ],
+              "distance": 8.05918
+            },
+            "after": {
+              "position": [
+                -1.15791,
+                5.01257,
+                6.29019
+              ],
+              "target": [
+                -0.65,
+                0,
+                0
+              ],
+              "distance": 8.05918
+            }
+          },
+          {
+            "action": "หมุนไปทางขวา",
+            "before": {
+              "position": [
+                -1.15791,
+                5.01257,
+                6.29019
+              ],
+              "target": [
+                -0.65,
+                0,
+                0
+              ],
+              "distance": 8.05918
+            },
+            "after": {
+              "position": [
+                0.10189,
+                5.01257,
+                6.26571
+              ],
+              "target": [
+                -0.65,
+                0,
+                0
+              ],
+              "distance": 8.05918
+            }
+          },
+          {
+            "action": "ซูมเข้า",
+            "before": {
+              "position": [
+                0.10189,
+                5.01257,
+                6.26571
+              ],
+              "target": [
+                -0.65,
+                0,
+                0
+              ],
+              "distance": 8.05918
+            },
+            "after": {
+              "position": [
+                -0.0109,
+                4.26068,
+                5.32585
+              ],
+              "target": [
+                -0.65,
+                0,
+                0
+              ],
+              "distance": 6.8503
+            }
+          },
+          {
+            "action": "ซูมออก",
+            "before": {
+              "position": [
+                -0.0109,
+                4.26068,
+                5.32585
+              ],
+              "target": [
+                -0.65,
+                0,
+                0
+              ],
+              "distance": 6.8503
+            },
+            "after": {
+              "position": [
+                0.10414,
+                5.02761,
+                6.28451
+              ],
+              "target": [
+                -0.65,
+                0,
+                0
+              ],
+              "distance": 8.08335
+            }
+          }
+        ],
+        "presets": [
+          {
+            "preset": "front",
+            "camera": {
+              "position": [
+                -0.65,
+                8.0334,
+                0.64405
+              ],
+              "target": [
+                -0.65,
+                0,
+                0
+              ],
+              "distance": 8.05918
+            }
+          },
+          {
+            "preset": "head",
+            "camera": {
+              "position": [
+                -8.38085,
+                3.35081,
+                2.23387
+              ],
+              "target": [
+                -1.4,
+                0,
+                0
+              ],
+              "distance": 8.05918
+            }
+          },
+          {
+            "preset": "angle",
+            "camera": {
+              "position": [
+                0.10189,
+                5.01257,
+                6.26571
+              ],
+              "target": [
+                -0.65,
+                0,
+                0
+              ],
+              "distance": 8.05918
+            }
+          }
+        ],
+        "canvasPixelsChanged": true
+      }
+    },
+    {
+      "case": "keyboard-pointer",
+      "passed": true,
+      "details": {
+        "keyboard": [
+          {
+            "key": "ArrowLeft",
+            "camera": {
+              "position": [
+                -0.84289,
+                5.01257,
+                6.30771
+              ],
+              "target": [
+                -0.65,
+                0,
+                0
+              ],
+              "distance": 8.05918
+            }
+          },
+          {
+            "key": "ArrowUp",
+            "camera": {
+              "position": [
+                -0.82316,
+                5.73199,
+                5.66257
+              ],
+              "target": [
+                -0.65,
+                0,
+                0
+              ],
+              "distance": 8.05918
+            }
+          },
+          {
+            "key": "=",
+            "camera": {
+              "position": [
+                -0.79719,
+                4.87219,
+                4.81318
+              ],
+              "target": [
+                -0.65,
+                0,
+                0
+              ],
+              "distance": 6.8503
+            }
+          },
+          {
+            "key": "-",
+            "camera": {
+              "position": [
+                -0.82368,
+                5.74918,
+                5.67956
+              ],
+              "target": [
+                -0.65,
+                0,
+                0
+              ],
+              "distance": 8.08335
+            }
+          }
+        ],
+        "pointerDrag": {
+          "position": [
+            -3.02318,
+            6.24791,
+            4.50356
+          ],
+          "target": [
+            -0.65,
+            0,
+            0
+          ],
+          "distance": 8.05918
+        },
+        "browserModifierShortcutsPreserved": true,
+        "tabEscapesCanvas": true
+      }
+    },
+    {
+      "case": "chords",
+      "passed": true,
+      "details": {
+        "states": [
+          {
+            "chord": "C",
+            "selected": true,
+            "renderedDiagramDescription": "C Major. Strings 6 to 1: 6: mute; 5: fret 3, finger 3; 4: fret 2, finger 2; 3: open; 2: fret 1, finger 1; 1: open",
+            "verifiedVoicingLowToHigh": [
+              null,
+              3,
+              2,
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "chord": "G",
+            "selected": true,
+            "renderedDiagramDescription": "G Major. Strings 6 to 1: 6: fret 3, finger 2; 5: fret 2, finger 1; 4: open; 3: open; 2: open; 1: fret 3, finger 3",
+            "verifiedVoicingLowToHigh": [
+              3,
+              2,
+              0,
+              0,
+              0,
+              3
+            ]
+          },
+          {
+            "chord": "D",
+            "selected": true,
+            "renderedDiagramDescription": "D Major. Strings 6 to 1: 6: mute; 5: mute; 4: open; 3: fret 2, finger 1; 2: fret 3, finger 3; 1: fret 2, finger 2",
+            "verifiedVoicingLowToHigh": [
+              null,
+              null,
+              0,
+              2,
+              3,
+              2
+            ]
+          },
+          {
+            "chord": "Em",
+            "selected": true,
+            "renderedDiagramDescription": "E Minor. Strings 6 to 1: 6: open; 5: fret 2, finger 2; 4: fret 2, finger 3; 3: open; 2: open; 1: open",
+            "verifiedVoicingLowToHigh": [
+              0,
+              2,
+              2,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "chord": "Am",
+            "selected": true,
+            "renderedDiagramDescription": "A Minor. Strings 6 to 1: 6: mute; 5: open; 4: fret 2, finger 2; 3: fret 2, finger 3; 2: fret 1, finger 1; 1: open",
+            "verifiedVoicingLowToHigh": [
+              null,
+              0,
+              2,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "chord": "C",
+            "selected": true,
+            "renderedDiagramDescription": "C Major. Strings 6 to 1: 6: mute; 5: fret 3, finger 3; 4: fret 2, finger 2; 3: open; 2: fret 1, finger 1; 1: open",
+            "verifiedVoicingLowToHigh": [
+              null,
+              3,
+              2,
+              0,
+              1,
+              0
+            ]
+          }
+        ],
+        "sameDocument": true
+      }
+    },
+    {
+      "case": "lazy-routes",
+      "passed": true,
+      "details": {
+        "routes": [
+          {
+            "route": "/",
+            "practiceScripts": [],
+            "scriptCount": 3
+          },
+          {
+            "route": "/brands",
+            "practiceScripts": [],
+            "scriptCount": 7
+          },
+          {
+            "route": "/guitars",
+            "practiceScripts": [],
+            "scriptCount": 7
+          },
+          {
+            "route": "/practice",
+            "threeChunks": [
+              "http://127.0.0.1:5410/assets/practice-three-B8kz-qx9.js"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": "loading",
+      "passed": true,
+      "details": {
+        "deferredChunkCount": 1,
+        "loadingVisible": true,
+        "eventualReady": true
+      }
+    },
+    {
+      "case": "unsupported",
+      "passed": true,
+      "details": {
+        "intentionalFault": "WebGL context factory unavailable before route load",
+        "visibleFallback": true,
+        "retryRecovered": true
+      }
+    },
+    {
+      "case": "context-loss",
+      "passed": true,
+      "details": {
+        "intentionalFault": "Actual WEBGL_lose_context extension",
+        "visibleFallback": true,
+        "retryRecovered": true
+      }
+    },
+    {
+      "case": "touch",
+      "passed": true,
+      "details": {
+        "nativeTouchTapZoom": true,
+        "pinchLimitation": "No CDP touch injection in WebKit; physical iPad pinch remains untested."
+      }
+    },
+    {
+      "case": "module-failure",
+      "passed": true,
+      "details": {
+        "intentionalFault": "HTTP503 for real combined scene/Three chunk",
+        "blockedURLs": [
+          "http://127.0.0.1:5410/assets/practice-three-B8kz-qx9.js"
+        ],
+        "moduleResponses": [
+          {
+            "url": "http://127.0.0.1:5410/assets/practice-three-B8kz-qx9.js",
+            "status": 503
+          },
+          {
+            "url": "http://127.0.0.1:5410/assets/practice-three-B8kz-qx9.js?practice-retry=1792821771993-1",
+            "status": 200
+          },
+          {
+            "url": "http://127.0.0.1:5410/assets/practice-three-B8kz-qx9.js?practice-retry=1792821771993-1",
+            "status": 304
+          }
+        ],
+        "visibleFallback": true,
+        "distinctURLRecoveredInSameDocument": true,
+        "selectedChordPreserved": "G",
+        "subsequentContextLossRetryRecovered": true,
+        "laterDocumentReloadRecoveredWithDefaultChord": "C"
+      }
+    },
+    {
+      "case": "spa-cleanup",
+      "passed": true,
+      "details": {
+        "cycles": [
+          {
+            "cycle": 1,
+            "canvasCountOutsidePractice": 0,
+            "canvasCountAfterBack": 1,
+            "sameDocument": true
+          },
+          {
+            "cycle": 2,
+            "canvasCountOutsidePractice": 0,
+            "canvasCountAfterBack": 1,
+            "sameDocument": true
+          }
+        ],
+        "cameraAfterBack": {
+          "position": [
+            0.10189,
+            5.01257,
+            6.26571
+          ],
+          "target": [
+            -0.65,
+            0,
+            0
+          ],
+          "distance": 8.05918
+        }
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "badResponses": [],
+  "expectedFaultErrors": [
+    {
+      "case": "module-failure",
+      "url": "http://127.0.0.1:5410/assets/practice-three-B8kz-qx9.js",
+      "status": 503
+    },
+    {
+      "case": "module-failure",
+      "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+    },
+    {
+      "case": "module-failure",
+      "url": "http://127.0.0.1:5410/assets/practice-three-B8kz-qx9.js",
+      "failure": "Load request cancelled"
+    }
+  ],
+  "contextWarnings": [],
+  "screenshots": [
+    "screenshots/webkit/practice-desktop.png",
+    "screenshots/webkit/neck-desktop.png",
+    "screenshots/webkit/practice-tablet-landscape.png",
+    "screenshots/webkit/practice-tablet.png",
+    "screenshots/webkit/neck-tablet.png",
+    "screenshots/webkit/practice-mobile.png",
+    "screenshots/webkit/neck-mobile.png",
+    "screenshots/webkit/practice-small-mobile.png",
+    "screenshots/webkit/neck-rotated.png",
+    "screenshots/webkit/intentional-loading.png",
+    "screenshots/webkit/intentional-webgl-unavailable.png",
+    "screenshots/webkit/intentional-context-lost.png",
+    "screenshots/webkit/intentional-scene-module-503.png"
+  ],
+  "limitations": [
+    "Actual Linux browser engines, not physical iPad Safari.",
+    "Chromium uses SwiftShader software WebGL; iPad GPU and thermal behavior are not covered."
+  ],
+  "browserVersion": "26.5",
+  "passed": true
+}

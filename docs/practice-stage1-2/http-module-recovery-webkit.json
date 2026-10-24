@@ -1,0 +1,58 @@
+{
+  "engine": "webkit",
+  "method": "Actual local HTTP server using unchanged production dist bytes; no Playwright routing, canvas replacement or source edits.",
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "badResponses": [],
+  "expectedFaultErrors": [
+    {
+      "url": "http://127.0.0.1:36193/assets/practice-three-B8kz-qx9.js",
+      "status": 503
+    },
+    {
+      "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+      "location": {
+        "url": "http://127.0.0.1:36193/assets/practice-three-B8kz-qx9.js",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "url": "http://127.0.0.1:36193/assets/practice-three-B8kz-qx9.js",
+      "failure": "Load request cancelled"
+    }
+  ],
+  "limitations": [
+    "Actual Linux WebKit/Chromium engine, not physical Safari on iPad."
+  ],
+  "buildEvidence": {
+    "fileCount": 70,
+    "indexSHA256": "f2aef6af941ce128efdd642e6b65fba08ced345f558c02ec1483730641adb3de",
+    "module": "assets/practice-three-B8kz-qx9.js",
+    "moduleSHA256": "684556b08eac0e23a0fabcce09daedba75c2e6c0816b736a586466317928a445"
+  },
+  "baseURL": "http://127.0.0.1:36193",
+  "browserVersion": "26.5",
+  "visibleFallback": true,
+  "actualHTTPModuleRequests": [
+    {
+      "path": "/assets/practice-three-B8kz-qx9.js",
+      "blocked": true
+    },
+    {
+      "path": "/assets/practice-three-B8kz-qx9.js?practice-retry=1792821834913-1",
+      "blocked": false
+    },
+    {
+      "path": "/assets/practice-three-B8kz-qx9.js?practice-retry=1792821834913-1",
+      "blocked": false
+    }
+  ],
+  "sameDocumentRecoveryWithSelectedG": true,
+  "laterDocumentReloadReadyWithDefaultC": true,
+  "buildUnchanged": true,
+  "passed": true
+}

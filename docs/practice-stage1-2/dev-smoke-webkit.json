@@ -1,0 +1,33 @@
+{
+  "engine": "webkit",
+  "productionURL": "http://127.0.0.1:5410",
+  "devURL": "http://127.0.0.1:5412",
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "limitations": [
+    "Linux browser engine, not physical iPad Safari.",
+    "Linux WebKit WPE does not reproduce the iPad GPU.",
+    "Dev URL smoke does not validate GitHub Codespaces port forwarding."
+  ],
+  "browserVersion": "26.5",
+  "productionWorkspaceCapture": {
+    "path": "screenshots/webkit/workspace-desktop.png",
+    "viewport": {
+      "width": 1440,
+      "height": 1600
+    },
+    "method": "Native element screenshot of actual workspace, no DOM/CSS replacements."
+  },
+  "devChecks": {
+    "actualWebGL2": true,
+    "strings": 6,
+    "frets": 12,
+    "selectedChord": "G",
+    "rotateWorks": true,
+    "zoomWorks": true,
+    "resetWorks": true,
+    "noPageOverflow": true
+  },
+  "passed": true
+}

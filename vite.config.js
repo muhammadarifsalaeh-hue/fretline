@@ -2,9 +2,10 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { fileURLToPath, URL } from 'node:url';
 import { developmentImagePreview } from './scripts/vite/developmentImagePreview.mjs';
+import { practiceSceneModule } from './scripts/vite/practiceSceneModule.mjs';
 
 export default defineConfig(({ command, mode }) => ({
-  plugins: [react(), developmentImagePreview({
+  plugins: [react(), practiceSceneModule(), developmentImagePreview({
     enabled: command === 'serve' && mode === 'pacifica-preview',
     root: fileURLToPath(new URL('.', import.meta.url)),
   })],
@@ -20,6 +21,8 @@ export default defineConfig(({ command, mode }) => ({
       output: {
         // Cache catalog facts separately from the UI and framework as data grows.
         manualChunks(id) {
+          // Keep the WebGL engine out of the shared framework/Home bundle.
+          if (id.includes('/node_modules/three/') || id.includes('/src/features/practice/scene/')) return 'practice-three';
           if (id.includes('/node_modules/')) return 'vendor';
           if (id.includes('/src/data/catalog/') && id.endsWith('.json')) return 'guitar-catalog';
         },
