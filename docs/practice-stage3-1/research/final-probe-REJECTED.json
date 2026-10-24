@@ -1,0 +1,52 @@
+[
+  {
+    "candidate": "patch-ik-0.json",
+    "status": "REJECTED: no more optimization; artist handoff required",
+    "handWoodMaxWitnessMm": 10.444645491910382,
+    "nailsWoodMaxWitnessMm": 8.519925184373822,
+    "handSampleWitnessMM": [
+      33.39807899609633,
+      -10.459421757970674,
+      -2.524368836611039
+    ],
+    "nailSampleWitnessMM": [
+      138.39120926993508,
+      -12.47977976098116,
+      -0.15280437724533158
+    ],
+    "handSamples": 24965,
+    "nailSamples": 1202,
+    "contactNormalsY": {
+      "index": -0.46330144292969766,
+      "midd": -0.540724874542053,
+      "ring": -0.026845074195949347,
+      "thumb": 0.9969721212521523
+    },
+    "scope": "Actual V2normalized4weights fromFK, fullskin/nailvertices+facecenters+edgemidpoints. Measurements are found witness depths, not exhaustive maximum or gate approval. No source geometry modifications."
+  },
+  {
+    "candidate": "patch-ik-1.json",
+    "status": "REJECTED: no more optimization; artist handoff required",
+    "handWoodMaxWitnessMm": 10.437928611731483,
+    "nailsWoodMaxWitnessMm": 9.544196154258561,
+    "handSampleWitnessMM": [
+      17.847038639768353,
+      -10.551111314732552,
+      -0.8434339333063647
+    ],
+    "nailSampleWitnessMM": [
+      68.5457462967484,
+      -9.676823989248831,
+      9.63532482551517
+    ],
+    "handSamples": 24965,
+    "nailSamples": 1202,
+    "contactNormalsY": {
+      "index": 0.033017194640466686,
+      "midd": 0.004200764672914977,
+      "ring": -0.794298562972399,
+      "thumb": -0.27181570926414655
+    },
+    "scope": "Actual V2normalized4weights fromFK, fullskin/nailvertices+facecenters+edgemidpoints. Measurements are found witness depths, not exhaustive maximum or gate approval. No source geometry modifications."
+  }
+]

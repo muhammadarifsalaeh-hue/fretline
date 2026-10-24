@@ -1,0 +1,40 @@
+{
+  "scope": "Numerical identity of actual browser scene and independently audited mesh; NOT chord/contact approval",
+  "engine": "webkit",
+  "modelSha256": "c05abb56202970afae7dfd78abacd44ac11e11f88ef8effdcd3f639af041ec13",
+  "meshes": {
+    "Hand": {
+      "vertices": 3148,
+      "maxErrorMm": 1.2005398222595581e-05,
+      "meanErrorMm": 7.689505358185814e-07,
+      "matchesWithinPointOneMm": true
+    },
+    "Nails": {
+      "vertices": 204,
+      "maxErrorMm": 9.196400254922829e-14,
+      "meanErrorMm": 4.689148672004949e-14,
+      "matchesWithinPointOneMm": true
+    }
+  },
+  "allVertexComparisonsPassed": true,
+  "renderingChecksPassed": true,
+  "screenshotSha256": {
+    "webkit-desktop-front.png": "4f337e91d9f7142e02ef2c500a2ae1d053050759064a889aa41717511a5a406b",
+    "webkit-desktop-side.png": "925ca21c894f2e48e2b542ba16d557a07244c1af6551ed54f9846f73e464357a",
+    "webkit-desktop-back.png": "8dbd15f27d0257a8bbc77cedb095587accabf9cc2de9ead16fce05df9d648bee",
+    "webkit-desktop-player.png": "5d813ecba233edc6484190752cb6669189d19c733014b2605527eca7db49f4f7",
+    "webkit-tablet-front.png": "4b06300606afb9b9fb849110cd481320f81095f8eb14e7e46b6ecbb844fb9bb1",
+    "webkit-tablet-side.png": "c73b10669129adb3d6d517464d22ff3e77883875fe3e6fcaeb34dc4f4bebc9df",
+    "webkit-tablet-back.png": "cb9f075db151be2bde1d79cd0ef5dcaef4f1ff96910fbfd406075cde12f5619d",
+    "webkit-tablet-player.png": "626a6aae06e20d00049003f678b8f99a692089c06ae467af946075d70a6b9883",
+    "webkit-mobile-front.png": "1e1187f10fadad5f97557deda27a8dd5babb127e9d92b2bddca3e0fb9fea9443",
+    "webkit-mobile-side.png": "050917abde263ab58c3f30071ca542fb7b9e702b3755b64b3d2ace2cba797a7e",
+    "webkit-mobile-back.png": "d9c348d8e21fc544529c022efaaa09202f108a51c046bad9e11b599882b12cc0",
+    "webkit-mobile-player.png": "06ab477766162e1a5e7fb9cf2a6611cdba8874cf6f0a2c0351d1d59805f739c8",
+    "webkit-small-mobile-front.png": "98d168ee49e533108d5716257a1b94a77b4d924447611045fb4ec2504cf7fe8b",
+    "webkit-small-mobile-side.png": "859544e8a3e1eb59f3f755b1798baef134a1c1cc5e09a966875990f84bb52e82",
+    "webkit-small-mobile-back.png": "bc21f8fb60286326b0e4ed995c34e09d519bf220fa622d8a137692bbffd4a788",
+    "webkit-small-mobile-player.png": "8b78f24edec9bc717db584c3465272b7ca655fbbff09e211e39bea7967090706"
+  },
+  "poseApproved": false
+}

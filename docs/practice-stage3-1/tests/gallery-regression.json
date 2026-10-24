@@ -1,0 +1,328 @@
+{
+  "mode": "stage31",
+  "url": "http://127.0.0.1:5430",
+  "browser": "Chromium on Linux; physical Safari/iPad not tested",
+  "checks": [
+    {
+      "name": ".catalog-card-image displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "Catalog contains one original model and three color dots",
+      "passed": true
+    },
+    {
+      "name": "Catalog shows no AI badge",
+      "passed": true
+    },
+    {
+      "name": "Catalog image is lazy loaded",
+      "passed": true
+    },
+    {
+      "name": "Catalog desktop has no page horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "Detail defaults to the same black image as Catalog",
+      "passed": true
+    },
+    {
+      "name": "Normal website needs no local file picker",
+      "passed": true
+    },
+    {
+      "name": "Main gallery has no AI badge",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays red uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays blue-teal uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "Color changes do not reload",
+      "passed": true
+    },
+    {
+      "name": "Each color has its own asset",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays red uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays all-colors uncropped",
+      "passed": true
+    },
+    {
+      "name": "Overview is a fourth gallery entry, not a fourth color/model",
+      "passed": true
+    },
+    {
+      "name": "[role=\"dialog\"] > div:nth-child(2) displays all-colors uncropped",
+      "passed": true
+    },
+    {
+      "name": "[role=\"dialog\"] > div:nth-child(2) displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "[role=\"dialog\"] > div:nth-child(2) displays red uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays blue-teal uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "Keyboard, thumbnail and lightbox selections share one state",
+      "passed": true
+    },
+    {
+      "name": "black ships the unchanged original JPEG",
+      "passed": true
+    },
+    {
+      "name": "red ships the unchanged original JPEG",
+      "passed": true
+    },
+    {
+      "name": "blue-teal ships the unchanged original JPEG",
+      "passed": true
+    },
+    {
+      "name": "all-colors ships the unchanged original JPEG",
+      "passed": true
+    },
+    {
+      "name": "Existing detailed specifications remain available",
+      "passed": true
+    },
+    {
+      "name": ".wishlist-image displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "Wishlist stores exactly the original ID",
+      "passed": true
+    },
+    {
+      "name": "Compare resolves the black asset",
+      "passed": true
+    },
+    {
+      "name": "Homepage reuses the same model image",
+      "passed": true
+    },
+    {
+      "name": "Yamaha still has exactly twenty cards",
+      "passed": true
+    },
+    {
+      "name": "Quiz results reuse the same Pacifica asset",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "Detail tablet-landscape has no page horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays red uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays blue-teal uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays all-colors uncropped",
+      "passed": true
+    },
+    {
+      "name": "Overview tablet-landscape has no page horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": ".catalog-card-image displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "Catalog tablet-landscape has no page horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "Detail tablet has no page horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays red uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays blue-teal uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays all-colors uncropped",
+      "passed": true
+    },
+    {
+      "name": "Overview tablet has no page horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": ".catalog-card-image displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "Catalog tablet has no page horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "Detail mobile has no page horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays red uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays blue-teal uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays all-colors uncropped",
+      "passed": true
+    },
+    {
+      "name": "Overview mobile has no page horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": ".catalog-card-image displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "Catalog mobile has no page horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "Detail small-mobile has no page horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays red uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays blue-teal uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays all-colors uncropped",
+      "passed": true
+    },
+    {
+      "name": "Overview small-mobile has no page horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": ".catalog-card-image displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "Catalog small-mobile has no page horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "Refresh and Browser Back/Forward retain working gallery routes",
+      "passed": true
+    },
+    {
+      "name": "Existing licensed gallery is unchanged",
+      "passed": true
+    },
+    {
+      "name": "A model without images keeps its placeholder",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays red uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays blue-teal uncropped",
+      "passed": true
+    },
+    {
+      "name": "Touch tap and swipe synchronize color",
+      "passed": true
+    },
+    {
+      "name": "No console errors, runtime errors or failed requests",
+      "passed": true
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "screenshots": [],
+  "passed": true
+}

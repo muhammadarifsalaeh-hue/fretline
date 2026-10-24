@@ -1,0 +1,25 @@
+{
+  "status": "PASS weight-only patch integrity; NOT Cpose approval",
+  "source": "/tmp/fretline-stage3-assets/anatomical-hand-optimized.glb",
+  "target": "/tmp/fretline-stage31-assets/anatomical-hand-weight-repaired-v2.glb",
+  "sourceSHA256": "dedb30a66d26589004089dd6b566ba3f61de626e326af21773284c009d463b80",
+  "targetSHA256": "c05abb56202970afae7dfd78abacd44ac11e11f88ef8effdcd3f639af041ec13",
+  "bytes": 3363664,
+  "changedNativeVertices": 918,
+  "changedGLTFVertices": 998,
+  "maxInfluences": 4,
+  "changedAccessors": [
+    5,
+    6
+  ],
+  "allowedAccessors": [
+    5,
+    6
+  ],
+  "allOtherAccessorBytesUnchanged": true,
+  "allNonWeightJointBinaryBytesUnchanged": true,
+  "restPositionNormalUVTopologyUnchanged": true,
+  "nailsUnchanged": true,
+  "maxRestMappingError": 0.0,
+  "poseNotApproved": true
+}

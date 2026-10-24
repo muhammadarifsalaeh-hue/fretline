@@ -1,0 +1,8 @@
+Original anatomical hand: Copyright (c) 2026 Emma L. D. Lieker.
+Source: https://github.com/emmalieker/anatomical-hand-model/tree/f27f19f55f8270b3108ea0b53ce5aa81c543ff7c
+License: Creative Commons Attribution-NonCommercial 4.0 International.
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+
+Local research modifications: original source mesh retained; texture downsampling and constant nail-map folding from prior Stage3; runtime grayscale-height/bump binding correction in the inspector; left-hand reflection and experimental C Major joint poses; Stage3.1 joint-local normalized skin-weight repaint in Hand JOINTS_0/WEIGHTS_0 only. No nail geometry, rest positions, normals, UVs, indices or skeleton changed by the Stage3.1 weight patch.
+
+The Stage3.1 weight-repaired model and current C Major poses are UNAPPROVED research artifacts. Contact/anatomy gates still fail. Do not present this as a correct instructional C chord or claim it is cleared for commercial use. Retain credit, license and this modification notice with redistributed research files and captures.

@@ -1,0 +1,29 @@
+{
+  "status": "reproducible weight-only candidate; no pose approval",
+  "stages": [
+    {
+      "stage": "ip",
+      "poseApproved": false,
+      "geometryUnchanged": true,
+      "method": "joint-local axial linear parent/child ramp",
+      "widthEachSideNative": 1.0,
+      "radialLimitNative": 1.25,
+      "minimumExistingFamilyWeight": 0.8,
+      "changedHandNativeVerticesFromInput": 752,
+      "sourceLicense": "CC BY-NC4.0; copyright2026Emma L.D.Lieker",
+      "matchesEarlierExactWeights": true
+    },
+    {
+      "stage": "mcp",
+      "poseApproved": false,
+      "geometryUnchanged": true,
+      "method": "joint-local axial linear parent/child ramp",
+      "widthEachSideNative": 1.0,
+      "radialLimitNative": 1.8,
+      "minimumExistingFamilyWeight": 0.8,
+      "changedHandNativeVerticesFromInput": 166,
+      "sourceLicense": "CC BY-NC4.0; copyright2026Emma L.D.Lieker",
+      "matchesEarlierExactWeights": true
+    }
+  ]
+}

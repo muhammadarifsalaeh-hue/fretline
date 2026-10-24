@@ -1,0 +1,1222 @@
+[
+  {
+    "bone": "index_prox",
+    "degrees": 30,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "index_prox",
+    "degrees": 30,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "index_prox",
+    "degrees": 45,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "index_prox",
+    "degrees": 45,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "index_prox",
+    "degrees": 60,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "index_prox",
+    "degrees": 60,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "index_prox",
+    "degrees": 75,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 4,
+    "regions": {
+      "index_meta | index_prox": 4
+    }
+  },
+  {
+    "bone": "index_prox",
+    "degrees": 75,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 5,
+    "regions": {
+      "index_meta | index_meta": 2,
+      "index_meta | index_prox": 2,
+      "index_prox | index_prox": 1
+    }
+  },
+  {
+    "bone": "index_prox",
+    "degrees": 90,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 29,
+    "regions": {
+      "index_meta | index_prox": 29
+    }
+  },
+  {
+    "bone": "index_prox",
+    "degrees": 90,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 11,
+    "regions": {
+      "index_meta | index_prox": 7,
+      "index_meta | index_meta": 3,
+      "index_prox | index_prox": 1
+    }
+  },
+  {
+    "bone": "index_midd",
+    "degrees": 30,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "index_midd",
+    "degrees": 30,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "index_midd",
+    "degrees": 45,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "index_midd",
+    "degrees": 45,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "index_midd",
+    "degrees": 60,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 12,
+    "regions": {
+      "index_midd | index_prox": 12
+    }
+  },
+  {
+    "bone": "index_midd",
+    "degrees": 60,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 12,
+    "regions": {
+      "index_midd | index_prox": 12
+    }
+  },
+  {
+    "bone": "index_midd",
+    "degrees": 75,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 24,
+    "regions": {
+      "index_midd | index_prox": 24
+    }
+  },
+  {
+    "bone": "index_midd",
+    "degrees": 75,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 19,
+    "regions": {
+      "index_midd | index_prox": 19
+    }
+  },
+  {
+    "bone": "index_midd",
+    "degrees": 90,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 29,
+    "regions": {
+      "index_midd | index_prox": 29
+    }
+  },
+  {
+    "bone": "index_midd",
+    "degrees": 90,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 28,
+    "regions": {
+      "index_midd | index_prox": 28
+    }
+  },
+  {
+    "bone": "index_dist",
+    "degrees": 30,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "index_dist",
+    "degrees": 30,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "index_dist",
+    "degrees": 45,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "index_dist",
+    "degrees": 45,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "index_dist",
+    "degrees": 60,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 9,
+    "regions": {
+      "index_dist | index_midd": 9
+    }
+  },
+  {
+    "bone": "index_dist",
+    "degrees": 60,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 1,
+    "regions": {
+      "index_dist | index_midd": 1
+    }
+  },
+  {
+    "bone": "index_dist",
+    "degrees": 75,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 20,
+    "regions": {
+      "index_dist | index_midd": 19,
+      "index_dist | index_dist": 1
+    }
+  },
+  {
+    "bone": "index_dist",
+    "degrees": 75,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 27,
+    "regions": {
+      "index_dist | index_midd": 22,
+      "index_dist | index_dist": 5
+    }
+  },
+  {
+    "bone": "index_dist",
+    "degrees": 90,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 26,
+    "regions": {
+      "index_dist | index_midd": 26
+    }
+  },
+  {
+    "bone": "index_dist",
+    "degrees": 90,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 26,
+    "regions": {
+      "index_dist | index_midd": 21,
+      "index_dist | index_dist": 5
+    }
+  },
+  {
+    "bone": "midd_prox",
+    "degrees": 30,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "midd_prox",
+    "degrees": 30,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "midd_prox",
+    "degrees": 45,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "midd_prox",
+    "degrees": 45,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "midd_prox",
+    "degrees": 60,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 3,
+    "regions": {
+      "midd_meta | midd_prox": 3
+    }
+  },
+  {
+    "bone": "midd_prox",
+    "degrees": 60,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "midd_prox",
+    "degrees": 75,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 5,
+    "regions": {
+      "midd_meta | midd_prox": 5
+    }
+  },
+  {
+    "bone": "midd_prox",
+    "degrees": 75,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 6,
+    "regions": {
+      "midd_meta | midd_prox": 4,
+      "midd_meta | midd_meta": 2
+    }
+  },
+  {
+    "bone": "midd_prox",
+    "degrees": 90,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 21,
+    "regions": {
+      "midd_meta | midd_prox": 21
+    }
+  },
+  {
+    "bone": "midd_prox",
+    "degrees": 90,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 12,
+    "regions": {
+      "midd_meta | midd_prox": 7,
+      "midd_meta | midd_meta": 5
+    }
+  },
+  {
+    "bone": "midd_midd",
+    "degrees": 30,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "midd_midd",
+    "degrees": 30,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "midd_midd",
+    "degrees": 45,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "midd_midd",
+    "degrees": 45,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "midd_midd",
+    "degrees": 60,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 12,
+    "regions": {
+      "midd_midd | midd_prox": 12
+    }
+  },
+  {
+    "bone": "midd_midd",
+    "degrees": 60,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 11,
+    "regions": {
+      "midd_midd | midd_prox": 11
+    }
+  },
+  {
+    "bone": "midd_midd",
+    "degrees": 75,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 22,
+    "regions": {
+      "midd_midd | midd_prox": 22
+    }
+  },
+  {
+    "bone": "midd_midd",
+    "degrees": 75,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 20,
+    "regions": {
+      "midd_midd | midd_prox": 20
+    }
+  },
+  {
+    "bone": "midd_midd",
+    "degrees": 90,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 29,
+    "regions": {
+      "midd_midd | midd_prox": 29
+    }
+  },
+  {
+    "bone": "midd_midd",
+    "degrees": 90,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 26,
+    "regions": {
+      "midd_midd | midd_prox": 26
+    }
+  },
+  {
+    "bone": "midd_dist",
+    "degrees": 30,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "midd_dist",
+    "degrees": 30,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "midd_dist",
+    "degrees": 45,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "midd_dist",
+    "degrees": 45,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "midd_dist",
+    "degrees": 60,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "midd_dist",
+    "degrees": 60,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "midd_dist",
+    "degrees": 75,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 16,
+    "regions": {
+      "midd_dist | midd_midd": 15,
+      "midd_dist | midd_dist": 1
+    }
+  },
+  {
+    "bone": "midd_dist",
+    "degrees": 75,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 11,
+    "regions": {
+      "midd_dist | midd_midd": 11
+    }
+  },
+  {
+    "bone": "midd_dist",
+    "degrees": 90,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 29,
+    "regions": {
+      "midd_dist | midd_midd": 29
+    }
+  },
+  {
+    "bone": "midd_dist",
+    "degrees": 90,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 24,
+    "regions": {
+      "midd_dist | midd_midd": 22,
+      "midd_dist | midd_dist": 2
+    }
+  },
+  {
+    "bone": "ring_prox",
+    "degrees": 30,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "ring_prox",
+    "degrees": 30,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "ring_prox",
+    "degrees": 45,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "ring_prox",
+    "degrees": 45,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "ring_prox",
+    "degrees": 60,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "ring_prox",
+    "degrees": 60,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "ring_prox",
+    "degrees": 75,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 12,
+    "regions": {
+      "ring_meta | ring_prox": 11,
+      "ring_meta | ring_meta": 1
+    }
+  },
+  {
+    "bone": "ring_prox",
+    "degrees": 75,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 7,
+    "regions": {
+      "ring_meta | ring_prox": 4,
+      "ring_meta | ring_meta": 3
+    }
+  },
+  {
+    "bone": "ring_prox",
+    "degrees": 90,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 20,
+    "regions": {
+      "ring_meta | ring_prox": 20
+    }
+  },
+  {
+    "bone": "ring_prox",
+    "degrees": 90,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 16,
+    "regions": {
+      "ring_meta | ring_prox": 15,
+      "ring_meta | ring_meta": 1
+    }
+  },
+  {
+    "bone": "ring_midd",
+    "degrees": 30,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "ring_midd",
+    "degrees": 30,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "ring_midd",
+    "degrees": 45,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "ring_midd",
+    "degrees": 45,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "ring_midd",
+    "degrees": 60,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 16,
+    "regions": {
+      "ring_midd | ring_prox": 16
+    }
+  },
+  {
+    "bone": "ring_midd",
+    "degrees": 60,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 15,
+    "regions": {
+      "ring_midd | ring_prox": 15
+    }
+  },
+  {
+    "bone": "ring_midd",
+    "degrees": 75,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 27,
+    "regions": {
+      "ring_midd | ring_prox": 27
+    }
+  },
+  {
+    "bone": "ring_midd",
+    "degrees": 75,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 21,
+    "regions": {
+      "ring_midd | ring_prox": 21
+    }
+  },
+  {
+    "bone": "ring_midd",
+    "degrees": 90,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 30,
+    "regions": {
+      "ring_midd | ring_prox": 29,
+      "ring_midd | ring_midd": 1
+    }
+  },
+  {
+    "bone": "ring_midd",
+    "degrees": 90,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 26,
+    "regions": {
+      "ring_midd | ring_prox": 25,
+      "ring_midd | ring_midd": 1
+    }
+  },
+  {
+    "bone": "ring_dist",
+    "degrees": 30,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "ring_dist",
+    "degrees": 30,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "ring_dist",
+    "degrees": 45,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "ring_dist",
+    "degrees": 45,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "ring_dist",
+    "degrees": 60,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "ring_dist",
+    "degrees": 60,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "ring_dist",
+    "degrees": 75,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 11,
+    "regions": {
+      "ring_dist | ring_midd": 11
+    }
+  },
+  {
+    "bone": "ring_dist",
+    "degrees": 75,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "ring_dist",
+    "degrees": 90,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 27,
+    "regions": {
+      "ring_dist | ring_midd": 26,
+      "ring_dist | ring_dist": 1
+    }
+  },
+  {
+    "bone": "ring_dist",
+    "degrees": 90,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 27,
+    "regions": {
+      "ring_dist | ring_midd": 23,
+      "ring_dist | ring_dist": 4
+    }
+  },
+  {
+    "bone": "pinky_prox",
+    "degrees": 30,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "pinky_prox",
+    "degrees": 30,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "pinky_prox",
+    "degrees": 45,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "pinky_prox",
+    "degrees": 45,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "pinky_prox",
+    "degrees": 60,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "pinky_prox",
+    "degrees": 60,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "pinky_prox",
+    "degrees": 75,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 18,
+    "regions": {
+      "pinky_meta | pinky_prox": 18
+    }
+  },
+  {
+    "bone": "pinky_prox",
+    "degrees": 75,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 1,
+    "regions": {
+      "pinky_meta | pinky_prox": 1
+    }
+  },
+  {
+    "bone": "pinky_prox",
+    "degrees": 90,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 28,
+    "regions": {
+      "pinky_meta | pinky_prox": 28
+    }
+  },
+  {
+    "bone": "pinky_prox",
+    "degrees": 90,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 19,
+    "regions": {
+      "pinky_meta | pinky_prox": 19
+    }
+  },
+  {
+    "bone": "pinky_midd",
+    "degrees": 30,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "pinky_midd",
+    "degrees": 30,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "pinky_midd",
+    "degrees": 45,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "pinky_midd",
+    "degrees": 45,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "pinky_midd",
+    "degrees": 60,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 19,
+    "regions": {
+      "pinky_midd | pinky_prox": 19
+    }
+  },
+  {
+    "bone": "pinky_midd",
+    "degrees": 60,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 15,
+    "regions": {
+      "pinky_midd | pinky_prox": 15
+    }
+  },
+  {
+    "bone": "pinky_midd",
+    "degrees": 75,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 23,
+    "regions": {
+      "pinky_midd | pinky_prox": 23
+    }
+  },
+  {
+    "bone": "pinky_midd",
+    "degrees": 75,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 21,
+    "regions": {
+      "pinky_midd | pinky_prox": 19,
+      "pinky_midd | pinky_midd": 2
+    }
+  },
+  {
+    "bone": "pinky_midd",
+    "degrees": 90,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 32,
+    "regions": {
+      "pinky_midd | pinky_prox": 32
+    }
+  },
+  {
+    "bone": "pinky_midd",
+    "degrees": 90,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 33,
+    "regions": {
+      "pinky_midd | pinky_prox": 32,
+      "pinky_midd | pinky_midd": 1
+    }
+  },
+  {
+    "bone": "pinky_dist",
+    "degrees": 30,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "pinky_dist",
+    "degrees": 30,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "pinky_dist",
+    "degrees": 45,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "pinky_dist",
+    "degrees": 45,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "pinky_dist",
+    "degrees": 60,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 18,
+    "regions": {
+      "pinky_dist | pinky_midd": 18
+    }
+  },
+  {
+    "bone": "pinky_dist",
+    "degrees": 60,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 14,
+    "regions": {
+      "pinky_dist | pinky_midd": 14
+    }
+  },
+  {
+    "bone": "pinky_dist",
+    "degrees": 75,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 24,
+    "regions": {
+      "pinky_dist | pinky_midd": 24
+    }
+  },
+  {
+    "bone": "pinky_dist",
+    "degrees": 75,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 20,
+    "regions": {
+      "pinky_dist | pinky_midd": 20
+    }
+  },
+  {
+    "bone": "pinky_dist",
+    "degrees": 90,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 27,
+    "regions": {
+      "pinky_dist | pinky_midd": 27
+    }
+  },
+  {
+    "bone": "pinky_dist",
+    "degrees": 90,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 27,
+    "regions": {
+      "pinky_dist | pinky_midd": 27
+    }
+  },
+  {
+    "bone": "thumb_meta",
+    "degrees": 30,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "thumb_meta",
+    "degrees": 30,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "thumb_meta",
+    "degrees": 45,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "thumb_meta",
+    "degrees": 45,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "thumb_meta",
+    "degrees": 60,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "thumb_meta",
+    "degrees": 60,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "thumb_meta",
+    "degrees": 75,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "thumb_meta",
+    "degrees": 75,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "thumb_meta",
+    "degrees": 90,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 24,
+    "regions": {
+      "thumb_meta | thumb_trapez": 24
+    }
+  },
+  {
+    "bone": "thumb_meta",
+    "degrees": 90,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "thumb_prox",
+    "degrees": 30,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "thumb_prox",
+    "degrees": 30,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "thumb_prox",
+    "degrees": 45,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "thumb_prox",
+    "degrees": 45,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "thumb_prox",
+    "degrees": 60,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 22,
+    "regions": {
+      "thumb_meta | thumb_prox": 19,
+      "thumb_prox | thumb_prox": 3
+    }
+  },
+  {
+    "bone": "thumb_prox",
+    "degrees": 60,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 9,
+    "regions": {
+      "thumb_meta | thumb_prox": 6,
+      "thumb_prox | thumb_prox": 3
+    }
+  },
+  {
+    "bone": "thumb_prox",
+    "degrees": 75,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 47,
+    "regions": {
+      "thumb_meta | thumb_prox": 47
+    }
+  },
+  {
+    "bone": "thumb_prox",
+    "degrees": 75,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 39,
+    "regions": {
+      "thumb_meta | thumb_prox": 33,
+      "thumb_prox | thumb_prox": 6
+    }
+  },
+  {
+    "bone": "thumb_prox",
+    "degrees": 90,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 58,
+    "regions": {
+      "thumb_meta | thumb_prox": 58
+    }
+  },
+  {
+    "bone": "thumb_prox",
+    "degrees": 90,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 55,
+    "regions": {
+      "thumb_meta | thumb_prox": 51,
+      "thumb_prox | thumb_prox": 4
+    }
+  },
+  {
+    "bone": "thumb_dist",
+    "degrees": 30,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "thumb_dist",
+    "degrees": 30,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "thumb_dist",
+    "degrees": 45,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "thumb_dist",
+    "degrees": 45,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 0,
+    "regions": {}
+  },
+  {
+    "bone": "thumb_dist",
+    "degrees": 60,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 10,
+    "regions": {
+      "thumb_dist | thumb_prox": 10
+    }
+  },
+  {
+    "bone": "thumb_dist",
+    "degrees": 60,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 11,
+    "regions": {
+      "thumb_dist | thumb_prox": 11
+    }
+  },
+  {
+    "bone": "thumb_dist",
+    "degrees": 75,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 21,
+    "regions": {
+      "thumb_dist | thumb_prox": 21
+    }
+  },
+  {
+    "bone": "thumb_dist",
+    "degrees": 75,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 19,
+    "regions": {
+      "thumb_dist | thumb_prox": 19
+    }
+  },
+  {
+    "bone": "thumb_dist",
+    "degrees": 90,
+    "dualQuaternion": false,
+    "selfCrossingPairs": 32,
+    "regions": {
+      "thumb_dist | thumb_prox": 32
+    }
+  },
+  {
+    "bone": "thumb_dist",
+    "degrees": 90,
+    "dualQuaternion": true,
+    "selfCrossingPairs": 31,
+    "regions": {
+      "thumb_dist | thumb_prox": 31
+    }
+  }
+]

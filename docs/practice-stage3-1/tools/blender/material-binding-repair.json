@@ -1,0 +1,16 @@
+{
+  "status": "PASS known binding repair only; NOT pose approval",
+  "inputSHA256": "f7d1bdb2e63693bff4a4d85dd61c69a68dbb45320f986ef0c594c5c2f0f0edd5",
+  "outputSHA256": "87bd6240b129812239d7e3628bec17fb9c75515fce4753378699892ccdd9ebdb",
+  "changes": [
+    {
+      "material": 0,
+      "image": "skin_bump",
+      "removedWrongNormalBinding": true,
+      "preservedOptionalHeightTexture": true
+    }
+  ],
+  "allBINBytesUnchanged": true,
+  "allAccessorsUnchanged": true,
+  "genericViewerLimitation": "Correct outward geometry normals and color/roughness; optional skin microbump retained as metadata, needs runtime binding."
+}

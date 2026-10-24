@@ -1,0 +1,2847 @@
+{
+  "status": "FAIL actual crossing or containment",
+  "meta": {
+    "glbSHA256": "c05abb56202970afae7dfd78abacd44ac11e11f88ef8effdcd3f639af041ec13",
+    "glb": "/tmp/fretline-stage31-assets/anatomical-hand-weight-repaired-v2.glb",
+    "pose": "/tmp/fretline-stage31-assets/pose/painted/balanced-c-attempt-0.json",
+    "restControl": false,
+    "bakedMm": false
+  },
+  "guitarSHA256": "b5e76d24d60de0d55dedcc728114aad63a84818c2cfd712ba255ba15b4963fd0",
+  "confirmedTrianglePairs": 161,
+  "interiorSamples": 2,
+  "rows": [
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "d-section-neck-back",
+      "guitarRole": "solid",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 173,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "d-section-neck-back",
+      "guitarRole": "solid",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 62,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "curved-fingerboard",
+      "guitarRole": "solid",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 9,
+        "interiorSamples": 2,
+        "maxInteriorSurfaceDistanceMm": 0.01088479533791542,
+        "interiorWitnessMm": [
+          27.377395629882812,
+          -0.11784617602825165,
+          -8.602547645568848
+        ],
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 17,
+      "confirmedTrianglePairs": 17,
+      "evidence": [
+        {
+          "triangleA": 5269,
+          "triangleB": 125,
+          "hitsMm": [
+            [
+              29.970090866088867,
+              -0.0889580249786377,
+              -7.831868648529053
+            ],
+            [
+              32.41981887817383,
+              -0.08247879892587662,
+              -7.5019707679748535
+            ]
+          ]
+        },
+        {
+          "triangleA": 2615,
+          "triangleB": 125,
+          "hitsMm": [
+            [
+              29.970090866088867,
+              -0.08895803242921829,
+              -7.8318681716918945
+            ],
+            [
+              29.908124923706055,
+              -0.08766831457614899,
+              -7.766878604888916
+            ]
+          ]
+        },
+        {
+          "triangleA": 2615,
+          "triangleB": 124,
+          "hitsMm": [
+            [
+              29.830631256103516,
+              -0.08608810603618622,
+              -7.686243534088135
+            ],
+            [
+              29.908124923706055,
+              -0.08766831457614899,
+              -7.766878604888916
+            ]
+          ]
+        },
+        {
+          "triangleA": 3660,
+          "triangleB": 124,
+          "hitsMm": [
+            [
+              29.830631256103516,
+              -0.08608803898096085,
+              -7.686242580413818
+            ],
+            [
+              27.5,
+              -0.08942358940839767,
+              -7.854372501373291
+            ]
+          ]
+        },
+        {
+          "triangleA": 3660,
+          "triangleB": 73,
+          "hitsMm": [
+            [
+              27.34571075439453,
+              -0.08963151276111603,
+              -7.865163803100586
+            ],
+            [
+              27.5,
+              -0.08942355215549469,
+              -7.854371070861816
+            ]
+          ]
+        },
+        {
+          "triangleA": 2528,
+          "triangleB": 125,
+          "hitsMm": [
+            [
+              32.41981887817383,
+              -0.08247879892587662,
+              -7.501971244812012
+            ],
+            [
+              29.969364166259766,
+              -0.09337221831083298,
+              -8.054564476013184
+            ]
+          ]
+        },
+        {
+          "triangleA": 5213,
+          "triangleB": 125,
+          "hitsMm": [
+            [
+              29.96018409729004,
+              -0.09345170110464096,
+              -8.058586120605469
+            ],
+            [
+              29.969364166259766,
+              -0.09337234497070312,
+              -8.054564476013184
+            ]
+          ]
+        },
+        {
+          "triangleA": 580,
+          "triangleB": 73,
+          "hitsMm": [
+            [
+              26.924072265625,
+              -0.086081862449646,
+              -7.684701442718506
+            ],
+            [
+              27.34571075439453,
+              -0.08963154256343842,
+              -7.8651652336120605
+            ]
+          ]
+        },
+        {
+          "triangleA": 5466,
+          "triangleB": 73,
+          "hitsMm": [
+            [
+              26.924072265625,
+              -0.08608187735080719,
+              -7.684701919555664
+            ],
+            [
+              27.187456130981445,
+              -0.09689250588417053,
+              -8.235568046569824
+            ]
+          ]
+        },
+        {
+          "triangleA": 5466,
+          "triangleB": 74,
+          "hitsMm": [
+            [
+              27.187454223632812,
+              -0.09689250588417053,
+              -8.235568046569824
+            ],
+            [
+              27.21491813659668,
+              -0.09842678159475327,
+              -8.292068481445312
+            ]
+          ]
+        },
+        {
+          "triangleA": 5466,
+          "triangleB": 75,
+          "hitsMm": [
+            [
+              27.352031707763672,
+              -0.10617232322692871,
+              -8.573970794677734
+            ],
+            [
+              27.214916229248047,
+              -0.09842679649591446,
+              -8.292068481445312
+            ]
+          ]
+        },
+        {
+          "triangleA": 2839,
+          "triangleB": 75,
+          "hitsMm": [
+            [
+              27.367860794067383,
+              -0.10706663131713867,
+              -8.606547355651855
+            ],
+            [
+              27.352031707763672,
+              -0.10617174953222275,
+              -8.573969841003418
+            ]
+          ]
+        },
+        {
+          "triangleA": 2557,
+          "triangleB": 125,
+          "hitsMm": [
+            [
+              29.96018409729004,
+              -0.09345167875289917,
+              -8.058586120605469
+            ],
+            [
+              29.123653411865234,
+              -0.09718363732099533,
+              -8.247893333435059
+            ]
+          ]
+        },
+        {
+          "triangleA": 2557,
+          "triangleB": 126,
+          "hitsMm": [
+            [
+              29.123653411865234,
+              -0.09718363732099533,
+              -8.247893333435059
+            ],
+            [
+              27.5,
+              -0.10708252340555191,
+              -8.606966972351074
+            ]
+          ]
+        },
+        {
+          "triangleA": 2557,
+          "triangleB": 75,
+          "hitsMm": [
+            [
+              27.399328231811523,
+              -0.10769109427928925,
+              -8.629246711730957
+            ],
+            [
+              27.5,
+              -0.10708252340555191,
+              -8.606966972351074
+            ]
+          ]
+        },
+        {
+          "triangleA": 4420,
+          "triangleB": 75,
+          "hitsMm": [
+            [
+              27.380666732788086,
+              -0.10740528255701065,
+              -8.618860244750977
+            ],
+            [
+              27.399330139160156,
+              -0.10769098997116089,
+              -8.629247665405273
+            ]
+          ]
+        },
+        {
+          "triangleA": 1504,
+          "triangleB": 75,
+          "hitsMm": [
+            [
+              27.367860794067383,
+              -0.1070668026804924,
+              -8.606547355651855
+            ],
+            [
+              27.380666732788086,
+              -0.10740542411804199,
+              -8.618860244750977
+            ]
+          ]
+        }
+      ],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "curved-fingerboard",
+      "guitarRole": "solid",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "grooved-nut",
+      "guitarRole": "solid",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "grooved-nut",
+      "guitarRole": "solid",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "fret-1",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "fret-1",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "fret-2",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "fret-2",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "fret-3",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "fret-3",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "fret-4",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "fret-4",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "fret-5",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "fret-5",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "fret-6",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "fret-6",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "fret-7",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "fret-7",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "fret-8",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "fret-8",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "fret-9",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "fret-9",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "fret-10",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "fret-10",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "fret-11",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "fret-11",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "fret-12",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "fret-12",
+      "guitarRole": "fret",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "headstock-solid",
+      "guitarRole": "solid",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "headstock-solid",
+      "guitarRole": "solid",
+      "containment": {
+        "watertight": true,
+        "samplesInBoundingBox": 0,
+        "interiorSamples": 0,
+        "maxInteriorSurfaceDistanceMm": 0,
+        "interiorWitnessMm": null,
+        "windingThreshold": 0.8
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "string-6",
+      "guitarRole": "string",
+      "containment": {
+        "notApplied": "Open-ended stringtube; centerline/handdistance audit is separate."
+      },
+      "bvhPairs": 58,
+      "confirmedTrianglePairs": 58,
+      "evidence": [
+        {
+          "triangleA": 3214,
+          "triangleB": 265,
+          "hitsMm": [
+            [
+              101.6963119506836,
+              2.3799402713775635,
+              19.40560531616211
+            ],
+            [
+              101.99114227294922,
+              2.656911849975586,
+              18.931808471679688
+            ]
+          ]
+        },
+        {
+          "triangleA": 3214,
+          "triangleB": 264,
+          "hitsMm": [
+            [
+              102.02082824707031,
+              2.684796094894409,
+              18.88410758972168
+            ],
+            [
+              101.99114227294922,
+              2.656911849975586,
+              18.931808471679688
+            ]
+          ]
+        },
+        {
+          "triangleA": 3214,
+          "triangleB": 268,
+          "hitsMm": [
+            [
+              101.30549621582031,
+              1.6341605186462402,
+              19.2547607421875
+            ],
+            [
+              101.3132095336914,
+              1.7183244228363037,
+              19.40057945251465
+            ]
+          ]
+        },
+        {
+          "triangleA": 3214,
+          "triangleB": 267,
+          "hitsMm": [
+            [
+              101.3132095336914,
+              1.7183244228363037,
+              19.40057945251465
+            ],
+            [
+              101.61248779296875,
+              2.235179901123047,
+              19.404504776000977
+            ]
+          ]
+        },
+        {
+          "triangleA": 3214,
+          "triangleB": 266,
+          "hitsMm": [
+            [
+              101.61248779296875,
+              2.235180139541626,
+              19.404504776000977
+            ],
+            [
+              101.6963119506836,
+              2.3799402713775635,
+              19.40560531616211
+            ]
+          ]
+        },
+        {
+          "triangleA": 493,
+          "triangleB": 271,
+          "hitsMm": [
+            [
+              101.44149017333984,
+              1.7188005447387695,
+              18.259010314941406
+            ],
+            [
+              101.25104522705078,
+              1.4781839847564697,
+              18.671958923339844
+            ]
+          ]
+        },
+        {
+          "triangleA": 493,
+          "triangleB": 272,
+          "hitsMm": [
+            [
+              101.54133605957031,
+              1.872044563293457,
+              18.26032066345215
+            ],
+            [
+              101.44149017333984,
+              1.7188005447387695,
+              18.259010314941406
+            ]
+          ]
+        },
+        {
+          "triangleA": 493,
+          "triangleB": 273,
+          "hitsMm": [
+            [
+              101.87268829345703,
+              2.3806185722351074,
+              18.264667510986328
+            ],
+            [
+              101.54132843017578,
+              1.8720446825027466,
+              18.26032066345215
+            ]
+          ]
+        },
+        {
+          "triangleA": 493,
+          "triangleB": 274,
+          "hitsMm": [
+            [
+              101.90287017822266,
+              2.4396309852600098,
+              18.367053985595703
+            ],
+            [
+              101.87268829345703,
+              2.3806185722351074,
+              18.264667510986328
+            ]
+          ]
+        },
+        {
+          "triangleA": 493,
+          "triangleB": 275,
+          "hitsMm": [
+            [
+              102.04185485839844,
+              2.7113640308380127,
+              18.838512420654297
+            ],
+            [
+              101.90287017822266,
+              2.4396309852600098,
+              18.367053985595703
+            ]
+          ]
+        },
+        {
+          "triangleA": 493,
+          "triangleB": 269,
+          "hitsMm": [
+            [
+              101.17945098876953,
+              1.3877277374267578,
+              18.827199935913086
+            ],
+            [
+              101.30390167236328,
+              1.6310441493988037,
+              19.249353408813477
+            ]
+          ]
+        },
+        {
+          "triangleA": 493,
+          "triangleB": 270,
+          "hitsMm": [
+            [
+              101.25104522705078,
+              1.4781839847564697,
+              18.671958923339844
+            ],
+            [
+              101.17945098876953,
+              1.3877277374267578,
+              18.827199935913086
+            ]
+          ]
+        },
+        {
+          "triangleA": 493,
+          "triangleB": 264,
+          "hitsMm": [
+            [
+              102.02082824707031,
+              2.684796094894409,
+              18.88410758972168
+            ],
+            [
+              102.04185485839844,
+              2.7113640308380127,
+              18.838512420654297
+            ]
+          ]
+        },
+        {
+          "triangleA": 493,
+          "triangleB": 268,
+          "hitsMm": [
+            [
+              101.30549621582031,
+              1.6341607570648193,
+              19.2547607421875
+            ],
+            [
+              101.30390167236328,
+              1.6310441493988037,
+              19.249353408813477
+            ]
+          ]
+        },
+        {
+          "triangleA": 455,
+          "triangleB": 259,
+          "hitsMm": [
+            [
+              95.03025817871094,
+              1.4875489473342896,
+              18.52884292602539
+            ],
+            [
+              95.48126220703125,
+              1.4008420705795288,
+              18.688249588012695
+            ]
+          ]
+        },
+        {
+          "triangleA": 455,
+          "triangleB": 258,
+          "hitsMm": [
+            [
+              95.48126220703125,
+              1.4008420705795288,
+              18.688249588012695
+            ],
+            [
+              95.66991424560547,
+              1.364572525024414,
+              18.75493049621582
+            ]
+          ]
+        },
+        {
+          "triangleA": 455,
+          "triangleB": 257,
+          "hitsMm": [
+            [
+              95.669921875,
+              1.364572525024414,
+              18.75493049621582
+            ],
+            [
+              95.05489349365234,
+              1.6348706483840942,
+              19.219499588012695
+            ]
+          ]
+        },
+        {
+          "triangleA": 455,
+          "triangleB": 256,
+          "hitsMm": [
+            [
+              94.99032592773438,
+              1.66324782371521,
+              19.268272399902344
+            ],
+            [
+              95.05489349365234,
+              1.6348706483840942,
+              19.219499588012695
+            ]
+          ]
+        },
+        {
+          "triangleA": 5378,
+          "triangleB": 259,
+          "hitsMm": [
+            [
+              94.76979064941406,
+              1.596470594406128,
+              18.3348388671875
+            ],
+            [
+              95.03025817871094,
+              1.487549066543579,
+              18.52884292602539
+            ]
+          ]
+        },
+        {
+          "triangleA": 5378,
+          "triangleB": 255,
+          "hitsMm": [
+            [
+              94.2293701171875,
+              2.106764793395996,
+              19.307659149169922
+            ],
+            [
+              94.95842742919922,
+              1.6916167736053467,
+              19.317222595214844
+            ]
+          ]
+        },
+        {
+          "triangleA": 5378,
+          "triangleB": 256,
+          "hitsMm": [
+            [
+              94.99032592773438,
+              1.6632477045059204,
+              19.268272399902344
+            ],
+            [
+              94.95842742919922,
+              1.6916167736053467,
+              19.317222595214844
+            ]
+          ]
+        },
+        {
+          "triangleA": 2740,
+          "triangleB": 261,
+          "hitsMm": [
+            [
+              93.6723861694336,
+              2.3461546897888184,
+              18.157100677490234
+            ],
+            [
+              94.34615325927734,
+              1.8725301027297974,
+              18.165939331054688
+            ]
+          ]
+        },
+        {
+          "triangleA": 2740,
+          "triangleB": 260,
+          "hitsMm": [
+            [
+              94.34615325927734,
+              1.872530221939087,
+              18.165939331054688
+            ],
+            [
+              94.605712890625,
+              1.6900713443756104,
+              18.169343948364258
+            ]
+          ]
+        },
+        {
+          "triangleA": 2740,
+          "triangleB": 259,
+          "hitsMm": [
+            [
+              94.76979064941406,
+              1.596470832824707,
+              18.3348388671875
+            ],
+            [
+              94.605712890625,
+              1.6900713443756104,
+              18.169343948364258
+            ]
+          ]
+        },
+        {
+          "triangleA": 2740,
+          "triangleB": 263,
+          "hitsMm": [
+            [
+              93.3132553100586,
+              2.674679756164551,
+              18.724016189575195
+            ],
+            [
+              93.5301742553711,
+              2.4762463569641113,
+              18.381591796875
+            ]
+          ]
+        },
+        {
+          "triangleA": 2740,
+          "triangleB": 262,
+          "hitsMm": [
+            [
+              93.5301742553711,
+              2.4762463569641113,
+              18.381591796875
+            ],
+            [
+              93.6723861694336,
+              2.3461546897888184,
+              18.157100677490234
+            ]
+          ]
+        },
+        {
+          "triangleA": 2740,
+          "triangleB": 252,
+          "hitsMm": [
+            [
+              93.53922271728516,
+              2.545772075653076,
+              18.95193862915039
+            ],
+            [
+              93.3132553100586,
+              2.674679756164551,
+              18.724016189575195
+            ]
+          ]
+        },
+        {
+          "triangleA": 2740,
+          "triangleB": 253,
+          "hitsMm": [
+            [
+              93.88744354248047,
+              2.347121477127075,
+              19.303173065185547
+            ],
+            [
+              93.53922271728516,
+              2.545772075653076,
+              18.95193862915039
+            ]
+          ]
+        },
+        {
+          "triangleA": 2740,
+          "triangleB": 255,
+          "hitsMm": [
+            [
+              94.2293701171875,
+              2.106765031814575,
+              19.307659149169922
+            ],
+            [
+              94.16887664794922,
+              2.149287223815918,
+              19.306865692138672
+            ]
+          ]
+        },
+        {
+          "triangleA": 2740,
+          "triangleB": 254,
+          "hitsMm": [
+            [
+              94.16887664794922,
+              2.149287223815918,
+              19.306865692138672
+            ],
+            [
+              93.88744354248047,
+              2.347121477127075,
+              19.303173065185547
+            ]
+          ]
+        }
+      ],
+      "evidenceTruncated": true
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "string-6",
+      "guitarRole": "string",
+      "containment": {
+        "notApplied": "Open-ended stringtube; centerline/handdistance audit is separate."
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "string-5",
+      "guitarRole": "string",
+      "containment": {
+        "notApplied": "Open-ended stringtube; centerline/handdistance audit is separate."
+      },
+      "bvhPairs": 18,
+      "confirmedTrianglePairs": 18,
+      "evidence": [
+        {
+          "triangleA": 899,
+          "triangleB": 347,
+          "hitsMm": [
+            [
+              100.54684448242188,
+              1.274949312210083,
+              11.138270378112793
+            ],
+            [
+              100.7253189086914,
+              1.389749526977539,
+              11.292745590209961
+            ]
+          ]
+        },
+        {
+          "triangleA": 899,
+          "triangleB": 338,
+          "hitsMm": [
+            [
+              100.64765167236328,
+              1.080648422241211,
+              11.686187744140625
+            ],
+            [
+              100.71826934814453,
+              1.1601375341415405,
+              11.68674373626709
+            ]
+          ]
+        },
+        {
+          "triangleA": 899,
+          "triangleB": 337,
+          "hitsMm": [
+            [
+              100.71826934814453,
+              1.16013765335083,
+              11.68674373626709
+            ],
+            [
+              100.72198486328125,
+              1.279600739479065,
+              11.48184585571289
+            ]
+          ]
+        },
+        {
+          "triangleA": 899,
+          "triangleB": 336,
+          "hitsMm": [
+            [
+              100.72198486328125,
+              1.2796008586883545,
+              11.48184585571289
+            ],
+            [
+              100.7253189086914,
+              1.389749526977539,
+              11.292745590209961
+            ]
+          ]
+        },
+        {
+          "triangleA": 4730,
+          "triangleB": 347,
+          "hitsMm": [
+            [
+              100.39309692382812,
+              1.2715303897857666,
+              11.16907024383545
+            ],
+            [
+              100.54684448242188,
+              1.274949312210083,
+              11.138270378112793
+            ]
+          ]
+        },
+        {
+          "triangleA": 4730,
+          "triangleB": 338,
+          "hitsMm": [
+            [
+              100.64765167236328,
+              1.0806485414505005,
+              11.686187744140625
+            ],
+            [
+              100.2888412475586,
+              1.0985140800476074,
+              11.683363914489746
+            ]
+          ]
+        },
+        {
+          "triangleA": 4730,
+          "triangleB": 337,
+          "hitsMm": [
+            [
+              100.2888412475586,
+              1.0985140800476074,
+              11.683363914489746
+            ],
+            [
+              100.10100555419922,
+              1.1614564657211304,
+              11.526983261108398
+            ]
+          ]
+        },
+        {
+          "triangleA": 4730,
+          "triangleB": 336,
+          "hitsMm": [
+            [
+              100.07283782958984,
+              1.1709123849868774,
+              11.503482818603516
+            ],
+            [
+              100.10100555419922,
+              1.1614564657211304,
+              11.526983261108398
+            ]
+          ]
+        },
+        {
+          "triangleA": 1929,
+          "triangleB": 347,
+          "hitsMm": [
+            [
+              98.76872253417969,
+              1.1020891666412354,
+              11.265661239624023
+            ],
+            [
+              100.39309692382812,
+              1.271530270576477,
+              11.16907024383545
+            ]
+          ]
+        },
+        {
+          "triangleA": 1929,
+          "triangleB": 336,
+          "hitsMm": [
+            [
+              98.76278686523438,
+              1.0938465595245361,
+              11.301785469055176
+            ],
+            [
+              100.07283782958984,
+              1.1709123849868774,
+              11.5034818649292
+            ]
+          ]
+        },
+        {
+          "triangleA": 4646,
+          "triangleB": 347,
+          "hitsMm": [
+            [
+              98.76872253417969,
+              1.1020891666412354,
+              11.265661239624023
+            ],
+            [
+              98.59518432617188,
+              1.0839872360229492,
+              11.275980949401855
+            ]
+          ]
+        },
+        {
+          "triangleA": 4646,
+          "triangleB": 336,
+          "hitsMm": [
+            [
+              98.76278686523438,
+              1.0938465595245361,
+              11.301785469055176
+            ],
+            [
+              98.59517669677734,
+              1.0839862823486328,
+              11.275980949401855
+            ]
+          ]
+        },
+        {
+          "triangleA": 4646,
+          "triangleB": 335,
+          "hitsMm": [
+            [
+              97.6954574584961,
+              1.0098652839660645,
+              11.236907005310059
+            ],
+            [
+              97.94390869140625,
+              1.0253983736038208,
+              11.270854949951172
+            ]
+          ]
+        },
+        {
+          "triangleA": 4646,
+          "triangleB": 325,
+          "hitsMm": [
+            [
+              97.73087310791016,
+              0.9935458898544312,
+              11.328709602355957
+            ],
+            [
+              97.88172912597656,
+              1.0161080360412598,
+              11.28770923614502
+            ]
+          ]
+        },
+        {
+          "triangleA": 4646,
+          "triangleB": 324,
+          "hitsMm": [
+            [
+              97.88172912597656,
+              1.0161080360412598,
+              11.28770923614502
+            ],
+            [
+              97.94390869140625,
+              1.0253983736038208,
+              11.270854949951172
+            ]
+          ]
+        },
+        {
+          "triangleA": 1834,
+          "triangleB": 335,
+          "hitsMm": [
+            [
+              97.6954574584961,
+              1.0098652839660645,
+              11.236907005310059
+            ],
+            [
+              97.42225646972656,
+              1.0314764976501465,
+              11.266749382019043
+            ]
+          ]
+        },
+        {
+          "triangleA": 1834,
+          "triangleB": 325,
+          "hitsMm": [
+            [
+              97.73087310791016,
+              0.9935458898544312,
+              11.328709602355957
+            ],
+            [
+              97.60053253173828,
+              1.009573221206665,
+              11.302485466003418
+            ]
+          ]
+        },
+        {
+          "triangleA": 1834,
+          "triangleB": 324,
+          "hitsMm": [
+            [
+              97.60053253173828,
+              1.009573221206665,
+              11.302485466003418
+            ],
+            [
+              97.42224884033203,
+              1.0314764976501465,
+              11.266749382019043
+            ]
+          ]
+        }
+      ],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "string-5",
+      "guitarRole": "string",
+      "containment": {
+        "notApplied": "Open-ended stringtube; centerline/handdistance audit is separate."
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "string-4",
+      "guitarRole": "string",
+      "containment": {
+        "notApplied": "Open-ended stringtube; centerline/handdistance audit is separate."
+      },
+      "bvhPairs": 28,
+      "confirmedTrianglePairs": 28,
+      "evidence": [
+        {
+          "triangleA": 3157,
+          "triangleB": 335,
+          "hitsMm": [
+            [
+              63.34491729736328,
+              1.104257583618164,
+              3.662777900695801
+            ],
+            [
+              63.269371032714844,
+              1.100724220275879,
+              3.6659843921661377
+            ]
+          ]
+        },
+        {
+          "triangleA": 3157,
+          "triangleB": 324,
+          "hitsMm": [
+            [
+              63.371761322021484,
+              1.093337893486023,
+              3.691950559616089
+            ],
+            [
+              63.26936721801758,
+              1.1007239818572998,
+              3.6659843921661377
+            ]
+          ]
+        },
+        {
+          "triangleA": 3157,
+          "triangleB": 323,
+          "hitsMm": [
+            [
+              62.09541320800781,
+              1.0685081481933594,
+              3.659318447113037
+            ],
+            [
+              62.17456817626953,
+              1.0693367719650269,
+              3.6631124019622803
+            ]
+          ]
+        },
+        {
+          "triangleA": 3157,
+          "triangleB": 312,
+          "hitsMm": [
+            [
+              62.0939826965332,
+              1.0588618516921997,
+              3.683228015899658
+            ],
+            [
+              62.174564361572266,
+              1.0693368911743164,
+              3.6631124019622803
+            ]
+          ]
+        },
+        {
+          "triangleA": 25,
+          "triangleB": 335,
+          "hitsMm": [
+            [
+              63.34491729736328,
+              1.104257583618164,
+              3.662778377532959
+            ],
+            [
+              63.38530731201172,
+              1.1091721057891846,
+              3.6662886142730713
+            ]
+          ]
+        },
+        {
+          "triangleA": 25,
+          "triangleB": 324,
+          "hitsMm": [
+            [
+              63.371761322021484,
+              1.0933377742767334,
+              3.691950798034668
+            ],
+            [
+              63.38530731201172,
+              1.1091721057891846,
+              3.6662886142730713
+            ]
+          ]
+        },
+        {
+          "triangleA": 1575,
+          "triangleB": 323,
+          "hitsMm": [
+            [
+              62.09541320800781,
+              1.0685081481933594,
+              3.659318447113037
+            ],
+            [
+              61.83824920654297,
+              1.074608564376831,
+              3.6622300148010254
+            ]
+          ]
+        },
+        {
+          "triangleA": 1575,
+          "triangleB": 312,
+          "hitsMm": [
+            [
+              62.0939826965332,
+              1.058861494064331,
+              3.6832284927368164
+            ],
+            [
+              61.8382568359375,
+              1.0746084451675415,
+              3.6622300148010254
+            ]
+          ]
+        },
+        {
+          "triangleA": 861,
+          "triangleB": 275,
+          "hitsMm": [
+            [
+              29.282581329345703,
+              1.5842612981796265,
+              3.5768215656280518
+            ],
+            [
+              29.29902458190918,
+              1.5504846572875977,
+              3.518810272216797
+            ]
+          ]
+        },
+        {
+          "triangleA": 861,
+          "triangleB": 264,
+          "hitsMm": [
+            [
+              29.048233032226562,
+              1.450539469718933,
+              3.814126968383789
+            ],
+            [
+              29.28257942199707,
+              1.5842612981796265,
+              3.5768215656280518
+            ]
+          ]
+        },
+        {
+          "triangleA": 861,
+          "triangleB": 265,
+          "hitsMm": [
+            [
+              29.001083374023438,
+              1.4236347675323486,
+              3.861872434616089
+            ],
+            [
+              29.048233032226562,
+              1.450539469718933,
+              3.814126968383789
+            ]
+          ]
+        },
+        {
+          "triangleA": 861,
+          "triangleB": 273,
+          "hitsMm": [
+            [
+              29.36353302001953,
+              1.4179859161376953,
+              3.2912445068359375
+            ],
+            [
+              29.322059631347656,
+              1.3503808975219727,
+              3.291135787963867
+            ]
+          ]
+        },
+        {
+          "triangleA": 861,
+          "triangleB": 274,
+          "hitsMm": [
+            [
+              29.29902458190918,
+              1.5504846572875977,
+              3.518810272216797
+            ],
+            [
+              29.36353302001953,
+              1.4179859161376953,
+              3.2912445068359375
+            ]
+          ]
+        },
+        {
+          "triangleA": 861,
+          "triangleB": 266,
+          "hitsMm": [
+            [
+              28.941865921020508,
+              1.3271052837371826,
+              3.8617167472839355
+            ],
+            [
+              29.001083374023438,
+              1.4236348867416382,
+              3.861872434616089
+            ]
+          ]
+        },
+        {
+          "triangleA": 861,
+          "triangleB": 272,
+          "hitsMm": [
+            [
+              29.196691513061523,
+              1.146021842956543,
+              3.290807008743286
+            ],
+            [
+              29.322059631347656,
+              1.3503810167312622,
+              3.291135787963867
+            ]
+          ]
+        },
+        {
+          "triangleA": 4901,
+          "triangleB": 266,
+          "hitsMm": [
+            [
+              27.912029266357422,
+              1.3679639101028442,
+              3.8590152263641357
+            ],
+            [
+              28.941865921020508,
+              1.3271052837371826,
+              3.8617172241210938
+            ]
+          ]
+        },
+        {
+          "triangleA": 4901,
+          "triangleB": 272,
+          "hitsMm": [
+            [
+              29.196691513061523,
+              1.1460219621658325,
+              3.290807008743286
+            ],
+            [
+              27.87797737121582,
+              1.1983418464660645,
+              3.2873473167419434
+            ]
+          ]
+        },
+        {
+          "triangleA": 4901,
+          "triangleB": 261,
+          "hitsMm": [
+            [
+              27.783878326416016,
+              1.2020750045776367,
+              3.287100076675415
+            ],
+            [
+              27.87797737121582,
+              1.1983418464660645,
+              3.2873473167419434
+            ]
+          ]
+        },
+        {
+          "triangleA": 2164,
+          "triangleB": 266,
+          "hitsMm": [
+            [
+              27.912029266357422,
+              1.3679640293121338,
+              3.859015464782715
+            ],
+            [
+              27.879201889038086,
+              1.3723812103271484,
+              3.85892915725708
+            ]
+          ]
+        },
+        {
+          "triangleA": 2164,
+          "triangleB": 253,
+          "hitsMm": [
+            [
+              27.300498962402344,
+              1.450249433517456,
+              3.8574109077453613
+            ],
+            [
+              25.790334701538086,
+              1.589373230934143,
+              3.6534535884857178
+            ]
+          ]
+        },
+        {
+          "triangleA": 2164,
+          "triangleB": 252,
+          "hitsMm": [
+            [
+              25.26313591003418,
+              1.6379414796829224,
+              3.582251787185669
+            ],
+            [
+              25.79033660888672,
+              1.589373230934143,
+              3.6534535884857178
+            ]
+          ]
+        },
+        {
+          "triangleA": 2164,
+          "triangleB": 263,
+          "hitsMm": [
+            [
+              25.306114196777344,
+              1.602785587310791,
+              3.4906880855560303
+            ],
+            [
+              25.553796768188477,
+              1.532739520072937,
+              3.3767340183258057
+            ]
+          ]
+        },
+        {
+          "triangleA": 2164,
+          "triangleB": 262,
+          "hitsMm": [
+            [
+              25.553796768188477,
+              1.532739520072937,
+              3.3767340183258057
+            ],
+            [
+              25.760156631469727,
+              1.474379539489746,
+              3.2817912101745605
+            ]
+          ]
+        },
+        {
+          "triangleA": 2164,
+          "triangleB": 261,
+          "hitsMm": [
+            [
+              27.783878326416016,
+              1.2020752429962158,
+              3.287100315093994
+            ],
+            [
+              25.760156631469727,
+              1.474379539489746,
+              3.2817912101745605
+            ]
+          ]
+        },
+        {
+          "triangleA": 2164,
+          "triangleB": 255,
+          "hitsMm": [
+            [
+              27.879201889038086,
+              1.3723812103271484,
+              3.85892915725708
+            ],
+            [
+              27.465543746948242,
+              1.4280414581298828,
+              3.8578438758850098
+            ]
+          ]
+        },
+        {
+          "triangleA": 2164,
+          "triangleB": 254,
+          "hitsMm": [
+            [
+              27.465543746948242,
+              1.4280415773391724,
+              3.8578438758850098
+            ],
+            [
+              27.300498962402344,
+              1.450249433517456,
+              3.8574109077453613
+            ]
+          ]
+        },
+        {
+          "triangleA": 3498,
+          "triangleB": 252,
+          "hitsMm": [
+            [
+              25.26313591003418,
+              1.637941598892212,
+              3.582252025604248
+            ],
+            [
+              25.0579891204834,
+              1.6503771543502808,
+              3.5657384395599365
+            ]
+          ]
+        },
+        {
+          "triangleA": 3498,
+          "triangleB": 263,
+          "hitsMm": [
+            [
+              25.306116104125977,
+              1.602784514427185,
+              3.490685224533081
+            ],
+            [
+              25.05799102783203,
+              1.6503770351409912,
+              3.5657384395599365
+            ]
+          ]
+        }
+      ],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "string-4",
+      "guitarRole": "string",
+      "containment": {
+        "notApplied": "Open-ended stringtube; centerline/handdistance audit is separate."
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "string-3",
+      "guitarRole": "string",
+      "containment": {
+        "notApplied": "Open-ended stringtube; centerline/handdistance audit is separate."
+      },
+      "bvhPairs": 28,
+      "confirmedTrianglePairs": 28,
+      "evidence": [
+        {
+          "triangleA": 3381,
+          "triangleB": 273,
+          "hitsMm": [
+            [
+              32.69020080566406,
+              1.79088294506073,
+              -3.7849481105804443
+            ],
+            [
+              32.7629280090332,
+              1.8883322477340698,
+              -3.7851386070251465
+            ]
+          ]
+        },
+        {
+          "triangleA": 3381,
+          "triangleB": 265,
+          "hitsMm": [
+            [
+              32.701904296875,
+              1.9439235925674438,
+              -3.483417272567749
+            ],
+            [
+              32.74457931518555,
+              1.9759823083877563,
+              -3.538691759109497
+            ]
+          ]
+        },
+        {
+          "triangleA": 3381,
+          "triangleB": 275,
+          "hitsMm": [
+            [
+              32.781105041503906,
+              2.003420352935791,
+              -3.5859997272491455
+            ],
+            [
+              32.767173767089844,
+              1.915229082107544,
+              -3.7385988235473633
+            ]
+          ]
+        },
+        {
+          "triangleA": 3381,
+          "triangleB": 274,
+          "hitsMm": [
+            [
+              32.767173767089844,
+              1.915229082107544,
+              -3.7385988235473633
+            ],
+            [
+              32.7629280090332,
+              1.8883322477340698,
+              -3.7851386070251465
+            ]
+          ]
+        },
+        {
+          "triangleA": 3381,
+          "triangleB": 264,
+          "hitsMm": [
+            [
+              32.74458312988281,
+              1.9759823083877563,
+              -3.538691759109497
+            ],
+            [
+              32.78110885620117,
+              2.003420352935791,
+              -3.5859997272491455
+            ]
+          ]
+        },
+        {
+          "triangleA": 279,
+          "triangleB": 271,
+          "hitsMm": [
+            [
+              32.59916305541992,
+              1.657525658607483,
+              -3.7847089767456055
+            ],
+            [
+              32.49723434448242,
+              1.5734461545944214,
+              -3.6396830081939697
+            ]
+          ]
+        },
+        {
+          "triangleA": 279,
+          "triangleB": 270,
+          "hitsMm": [
+            [
+              32.49723434448242,
+              1.5734461545944214,
+              -3.6396830081939697
+            ],
+            [
+              32.45890808105469,
+              1.5418331623077393,
+              -3.5851545333862305
+            ]
+          ]
+        },
+        {
+          "triangleA": 279,
+          "triangleB": 269,
+          "hitsMm": [
+            [
+              32.45890808105469,
+              1.5418331623077393,
+              -3.5851545333862305
+            ],
+            [
+              32.471405029296875,
+              1.6250333786010742,
+              -3.4411847591400146
+            ]
+          ]
+        },
+        {
+          "triangleA": 279,
+          "triangleB": 268,
+          "hitsMm": [
+            [
+              32.471405029296875,
+              1.6250333786010742,
+              -3.4411847591400146
+            ],
+            [
+              32.4761962890625,
+              1.656916856765747,
+              -3.3860132694244385
+            ]
+          ]
+        },
+        {
+          "triangleA": 279,
+          "triangleB": 267,
+          "hitsMm": [
+            [
+              32.4761962890625,
+              1.656916856765747,
+              -3.3860132694244385
+            ],
+            [
+              32.592891693115234,
+              1.8278638124465942,
+              -3.386319637298584
+            ]
+          ]
+        },
+        {
+          "triangleA": 279,
+          "triangleB": 273,
+          "hitsMm": [
+            [
+              32.69020080566406,
+              1.7908828258514404,
+              -3.7849483489990234
+            ],
+            [
+              32.638938903808594,
+              1.7157926559448242,
+              -3.784813404083252
+            ]
+          ]
+        },
+        {
+          "triangleA": 279,
+          "triangleB": 272,
+          "hitsMm": [
+            [
+              32.638938903808594,
+              1.7157926559448242,
+              -3.784813404083252
+            ],
+            [
+              32.59916305541992,
+              1.657525658607483,
+              -3.7847089767456055
+            ]
+          ]
+        },
+        {
+          "triangleA": 279,
+          "triangleB": 266,
+          "hitsMm": [
+            [
+              32.592891693115234,
+              1.8278636932373047,
+              -3.386319637298584
+            ],
+            [
+              32.63373565673828,
+              1.887692928314209,
+              -3.3864266872406006
+            ]
+          ]
+        },
+        {
+          "triangleA": 279,
+          "triangleB": 265,
+          "hitsMm": [
+            [
+              32.701904296875,
+              1.943923830986023,
+              -3.48341703414917
+            ],
+            [
+              32.63373565673828,
+              1.887692928314209,
+              -3.3864266872406006
+            ]
+          ]
+        },
+        {
+          "triangleA": 5466,
+          "triangleB": 259,
+          "hitsMm": [
+            [
+              23.341110229492188,
+              1.6120792627334595,
+              -3.76042103767395
+            ],
+            [
+              23.352943420410156,
+              1.5665125846862793,
+              -3.6814301013946533
+            ]
+          ]
+        },
+        {
+          "triangleA": 5466,
+          "triangleB": 258,
+          "hitsMm": [
+            [
+              23.35294532775879,
+              1.5665125846862793,
+              -3.6814301013946533
+            ],
+            [
+              23.370939254760742,
+              1.4972217082977295,
+              -3.561312675476074
+            ]
+          ]
+        },
+        {
+          "triangleA": 5466,
+          "triangleB": 257,
+          "hitsMm": [
+            [
+              23.370941162109375,
+              1.4972217082977295,
+              -3.561312675476074
+            ],
+            [
+              23.289077758789062,
+              1.5413634777069092,
+              -3.483944892883301
+            ]
+          ]
+        },
+        {
+          "triangleA": 5466,
+          "triangleB": 256,
+          "hitsMm": [
+            [
+              23.289077758789062,
+              1.5413634777069092,
+              -3.483944892883301
+            ],
+            [
+              23.15959358215332,
+              1.6111830472946167,
+              -3.3615715503692627
+            ]
+          ]
+        },
+        {
+          "triangleA": 5466,
+          "triangleB": 255,
+          "hitsMm": [
+            [
+              23.159591674804688,
+              1.6111830472946167,
+              -3.3615715503692627
+            ],
+            [
+              23.073715209960938,
+              1.6926602125167847,
+              -3.361346483230591
+            ]
+          ]
+        },
+        {
+          "triangleA": 5466,
+          "triangleB": 261,
+          "hitsMm": [
+            [
+              23.099931716918945,
+              1.8408981561660767,
+              -3.7597882747650146
+            ],
+            [
+              23.18993377685547,
+              1.7555079460144043,
+              -3.760024309158325
+            ]
+          ]
+        },
+        {
+          "triangleA": 5466,
+          "triangleB": 260,
+          "hitsMm": [
+            [
+              23.18993377685547,
+              1.7555079460144043,
+              -3.760024309158325
+            ],
+            [
+              23.341110229492188,
+              1.61207914352417,
+              -3.76042103767395
+            ]
+          ]
+        },
+        {
+          "triangleA": 5466,
+          "triangleB": 253,
+          "hitsMm": [
+            [
+              22.918415069580078,
+              1.8400019407272339,
+              -3.360938787460327
+            ],
+            [
+              22.908504486083984,
+              1.8781582117080688,
+              -3.4270834922790527
+            ]
+          ]
+        },
+        {
+          "triangleA": 5466,
+          "triangleB": 254,
+          "hitsMm": [
+            [
+              23.073715209960938,
+              1.6926602125167847,
+              -3.361346483230591
+            ],
+            [
+              22.918415069580078,
+              1.8400019407272339,
+              -3.360938787460327
+            ]
+          ]
+        },
+        {
+          "triangleA": 5466,
+          "triangleB": 262,
+          "hitsMm": [
+            [
+              22.972124099731445,
+              1.9098137617111206,
+              -3.6389989852905273
+            ],
+            [
+              23.099933624267578,
+              1.8408981561660767,
+              -3.7597882747650146
+            ]
+          ]
+        },
+        {
+          "triangleA": 5466,
+          "triangleB": 252,
+          "hitsMm": [
+            [
+              22.89052963256836,
+              1.9473700523376465,
+              -3.5470640659332275
+            ],
+            [
+              22.908506393432617,
+              1.8781582117080688,
+              -3.427083730697632
+            ]
+          ]
+        },
+        {
+          "triangleA": 2839,
+          "triangleB": 263,
+          "hitsMm": [
+            [
+              22.888568878173828,
+              1.9548593759536743,
+              -3.560047149658203
+            ],
+            [
+              22.960411071777344,
+              1.9161287546157837,
+              -3.6279308795928955
+            ]
+          ]
+        },
+        {
+          "triangleA": 2839,
+          "triangleB": 262,
+          "hitsMm": [
+            [
+              22.972126007080078,
+              1.9098135232925415,
+              -3.6389999389648438
+            ],
+            [
+              22.960411071777344,
+              1.9161287546157837,
+              -3.6279306411743164
+            ]
+          ]
+        },
+        {
+          "triangleA": 2839,
+          "triangleB": 252,
+          "hitsMm": [
+            [
+              22.89052963256836,
+              1.9473704099655151,
+              -3.5470643043518066
+            ],
+            [
+              22.888568878173828,
+              1.9548593759536743,
+              -3.560047149658203
+            ]
+          ]
+        }
+      ],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "string-3",
+      "guitarRole": "string",
+      "containment": {
+        "notApplied": "Open-ended stringtube; centerline/handdistance audit is separate."
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "string-2",
+      "guitarRole": "string",
+      "containment": {
+        "notApplied": "Open-ended stringtube; centerline/handdistance audit is separate."
+      },
+      "bvhPairs": 12,
+      "confirmedTrianglePairs": 12,
+      "evidence": [
+        {
+          "triangleA": 5213,
+          "triangleB": 218,
+          "hitsMm": [
+            [
+              29.707300186157227,
+              0.6916018128395081,
+              -10.590909004211426
+            ],
+            [
+              30.155075073242188,
+              0.7603965401649475,
+              -10.594432830810547
+            ]
+          ]
+        },
+        {
+          "triangleA": 5213,
+          "triangleB": 217,
+          "hitsMm": [
+            [
+              30.155078887939453,
+              0.7603967785835266,
+              -10.594432830810547
+            ],
+            [
+              30.329349517822266,
+              0.8099709749221802,
+              -10.665935516357422
+            ]
+          ]
+        },
+        {
+          "triangleA": 5213,
+          "triangleB": 227,
+          "hitsMm": [
+            [
+              30.509761810302734,
+              0.8613454699516296,
+              -10.740123748779297
+            ],
+            [
+              29.994922637939453,
+              0.8011488914489746,
+              -10.794211387634277
+            ]
+          ]
+        },
+        {
+          "triangleA": 5213,
+          "triangleB": 226,
+          "hitsMm": [
+            [
+              29.68372917175293,
+              0.7647738456726074,
+              -10.826937675476074
+            ],
+            [
+              29.994922637939453,
+              0.8011488914489746,
+              -10.794211387634277
+            ]
+          ]
+        },
+        {
+          "triangleA": 5213,
+          "triangleB": 216,
+          "hitsMm": [
+            [
+              30.32935333251953,
+              0.8099712133407593,
+              -10.665935516357422
+            ],
+            [
+              30.509761810302734,
+              0.8613455295562744,
+              -10.740123748779297
+            ]
+          ]
+        },
+        {
+          "triangleA": 2557,
+          "triangleB": 218,
+          "hitsMm": [
+            [
+              29.006301879882812,
+              0.6363333463668823,
+              -10.585391998291016
+            ],
+            [
+              29.707300186157227,
+              0.6916017532348633,
+              -10.590909004211426
+            ]
+          ]
+        },
+        {
+          "triangleA": 2557,
+          "triangleB": 226,
+          "hitsMm": [
+            [
+              29.213428497314453,
+              0.7322324514389038,
+              -10.8375244140625
+            ],
+            [
+              29.68372917175293,
+              0.7647739052772522,
+              -10.826937675476074
+            ]
+          ]
+        },
+        {
+          "triangleA": 4420,
+          "triangleB": 218,
+          "hitsMm": [
+            [
+              29.006301879882812,
+              0.6363332271575928,
+              -10.585391998291016
+            ],
+            [
+              28.866893768310547,
+              0.6938471794128418,
+              -10.584294319152832
+            ]
+          ]
+        },
+        {
+          "triangleA": 4420,
+          "triangleB": 217,
+          "hitsMm": [
+            [
+              28.866893768310547,
+              0.6938472390174866,
+              -10.584294319152832
+            ],
+            [
+              28.872520446777344,
+              0.7045276761054993,
+              -10.602298736572266
+            ]
+          ]
+        },
+        {
+          "triangleA": 4420,
+          "triangleB": 227,
+          "hitsMm": [
+            [
+              28.911834716796875,
+              0.7787573933601379,
+              -10.727546691894531
+            ],
+            [
+              28.972286224365234,
+              0.7694263458251953,
+              -10.74958324432373
+            ]
+          ]
+        },
+        {
+          "triangleA": 4420,
+          "triangleB": 226,
+          "hitsMm": [
+            [
+              29.213428497314453,
+              0.7322325706481934,
+              -10.8375244140625
+            ],
+            [
+              28.972288131713867,
+              0.7694263458251953,
+              -10.74958324432373
+            ]
+          ]
+        },
+        {
+          "triangleA": 4420,
+          "triangleB": 216,
+          "hitsMm": [
+            [
+              28.872520446777344,
+              0.7045276761054993,
+              -10.602298736572266
+            ],
+            [
+              28.911836624145508,
+              0.7787573933601379,
+              -10.727546691894531
+            ]
+          ]
+        }
+      ],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "string-2",
+      "guitarRole": "string",
+      "containment": {
+        "notApplied": "Open-ended stringtube; centerline/handdistance audit is separate."
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Hand",
+      "guitarMesh": "string-1",
+      "guitarRole": "string",
+      "containment": {
+        "notApplied": "Open-ended stringtube; centerline/handdistance audit is separate."
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    },
+    {
+      "handMesh": "Nails",
+      "guitarMesh": "string-1",
+      "guitarRole": "string",
+      "containment": {
+        "notApplied": "Open-ended stringtube; centerline/handdistance audit is separate."
+      },
+      "bvhPairs": 0,
+      "confirmedTrianglePairs": 0,
+      "evidence": [],
+      "evidenceTruncated": false
+    }
+  ],
+  "elapsedSeconds": 0.3968544006347656,
+  "limitations": [
+    "Exact edge-triangle witness counterexamples, not BVH bounding boxes alone.",
+    "Tangential touching is permitted; finite handvertex/centroid containment is tested against watertight actual wood/fret/nut solids. Open-ended stringtubes need separate centerline/handdistance audit.",
+    "Number counts triangle pairs, not distinct anatomical incidents."
+  ]
+}

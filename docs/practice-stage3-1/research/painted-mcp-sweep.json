@@ -1,0 +1,382 @@
+[
+  {
+    "bone": "index_prox",
+    "flexDegrees": 90,
+    "abductionDegrees": -20,
+    "selfCrossingPairs": 27,
+    "regions": {
+      "index_meta | index_prox": 27
+    }
+  },
+  {
+    "bone": "index_prox",
+    "flexDegrees": 90,
+    "abductionDegrees": 0,
+    "selfCrossingPairs": 29,
+    "regions": {
+      "index_meta | index_prox": 29
+    }
+  },
+  {
+    "bone": "index_prox",
+    "flexDegrees": 90,
+    "abductionDegrees": 20,
+    "selfCrossingPairs": 45,
+    "regions": {
+      "index_meta | index_prox": 33,
+      "index_prox | midd_prox": 6,
+      "index_prox | index_prox": 6
+    }
+  },
+  {
+    "bone": "index_prox",
+    "flexDegrees": 105,
+    "abductionDegrees": -20,
+    "selfCrossingPairs": 38,
+    "regions": {
+      "index_meta | index_prox": 38
+    }
+  },
+  {
+    "bone": "index_prox",
+    "flexDegrees": 105,
+    "abductionDegrees": 0,
+    "selfCrossingPairs": 37,
+    "regions": {
+      "index_meta | index_prox": 37
+    }
+  },
+  {
+    "bone": "index_prox",
+    "flexDegrees": 105,
+    "abductionDegrees": 20,
+    "selfCrossingPairs": 75,
+    "regions": {
+      "index_meta | index_prox": 36,
+      "index_prox | midd_prox": 24,
+      "index_prox | index_prox": 8,
+      "midd_prox | midd_prox": 7
+    }
+  },
+  {
+    "bone": "index_prox",
+    "flexDegrees": 120,
+    "abductionDegrees": -20,
+    "selfCrossingPairs": 43,
+    "regions": {
+      "index_meta | index_prox": 43
+    }
+  },
+  {
+    "bone": "index_prox",
+    "flexDegrees": 120,
+    "abductionDegrees": 0,
+    "selfCrossingPairs": 43,
+    "regions": {
+      "index_meta | index_prox": 43
+    }
+  },
+  {
+    "bone": "index_prox",
+    "flexDegrees": 120,
+    "abductionDegrees": 20,
+    "selfCrossingPairs": 76,
+    "regions": {
+      "index_meta | index_prox": 43,
+      "index_prox | midd_prox": 21,
+      "index_prox | index_prox": 9,
+      "midd_prox | midd_prox": 2,
+      "index_prox | midd_meta": 1
+    }
+  },
+  {
+    "bone": "midd_prox",
+    "flexDegrees": 90,
+    "abductionDegrees": -20,
+    "selfCrossingPairs": 24,
+    "regions": {
+      "midd_meta | midd_prox": 20,
+      "index_meta | midd_prox": 2,
+      "midd_prox | midd_prox": 2
+    }
+  },
+  {
+    "bone": "midd_prox",
+    "flexDegrees": 90,
+    "abductionDegrees": 0,
+    "selfCrossingPairs": 21,
+    "regions": {
+      "midd_meta | midd_prox": 21
+    }
+  },
+  {
+    "bone": "midd_prox",
+    "flexDegrees": 90,
+    "abductionDegrees": 20,
+    "selfCrossingPairs": 16,
+    "regions": {
+      "midd_meta | midd_prox": 16
+    }
+  },
+  {
+    "bone": "midd_prox",
+    "flexDegrees": 105,
+    "abductionDegrees": -20,
+    "selfCrossingPairs": 39,
+    "regions": {
+      "midd_meta | midd_prox": 21,
+      "index_meta | midd_prox": 6,
+      "index_prox | midd_prox": 6,
+      "midd_prox | midd_prox": 3,
+      "index_prox | index_prox": 3
+    }
+  },
+  {
+    "bone": "midd_prox",
+    "flexDegrees": 105,
+    "abductionDegrees": 0,
+    "selfCrossingPairs": 26,
+    "regions": {
+      "midd_meta | midd_prox": 21,
+      "index_meta | midd_prox": 5
+    }
+  },
+  {
+    "bone": "midd_prox",
+    "flexDegrees": 105,
+    "abductionDegrees": 20,
+    "selfCrossingPairs": 29,
+    "regions": {
+      "midd_meta | midd_prox": 29
+    }
+  },
+  {
+    "bone": "midd_prox",
+    "flexDegrees": 120,
+    "abductionDegrees": -20,
+    "selfCrossingPairs": 57,
+    "regions": {
+      "midd_meta | midd_prox": 21,
+      "index_meta | midd_prox": 19,
+      "index_prox | midd_prox": 15,
+      "midd_prox | midd_prox": 2
+    }
+  },
+  {
+    "bone": "midd_prox",
+    "flexDegrees": 120,
+    "abductionDegrees": 0,
+    "selfCrossingPairs": 35,
+    "regions": {
+      "midd_meta | midd_prox": 28,
+      "index_meta | midd_prox": 6,
+      "midd_prox | midd_prox": 1
+    }
+  },
+  {
+    "bone": "midd_prox",
+    "flexDegrees": 120,
+    "abductionDegrees": 20,
+    "selfCrossingPairs": 44,
+    "regions": {
+      "midd_meta | midd_prox": 30,
+      "midd_prox | ring_prox": 9,
+      "index_meta | midd_prox": 3,
+      "ring_prox | ring_prox": 2
+    }
+  },
+  {
+    "bone": "ring_prox",
+    "flexDegrees": 90,
+    "abductionDegrees": -20,
+    "selfCrossingPairs": 33,
+    "regions": {
+      "midd_prox | ring_prox": 16,
+      "ring_meta | ring_prox": 14,
+      "ring_prox | ring_prox": 3
+    }
+  },
+  {
+    "bone": "ring_prox",
+    "flexDegrees": 90,
+    "abductionDegrees": 0,
+    "selfCrossingPairs": 20,
+    "regions": {
+      "ring_meta | ring_prox": 20
+    }
+  },
+  {
+    "bone": "ring_prox",
+    "flexDegrees": 90,
+    "abductionDegrees": 20,
+    "selfCrossingPairs": 54,
+    "regions": {
+      "pinky_prox | ring_prox": 19,
+      "ring_meta | ring_prox": 18,
+      "ring_prox | ring_prox": 12,
+      "pinky_meta | ring_prox": 5
+    }
+  },
+  {
+    "bone": "ring_prox",
+    "flexDegrees": 105,
+    "abductionDegrees": -20,
+    "selfCrossingPairs": 50,
+    "regions": {
+      "ring_meta | ring_prox": 31,
+      "midd_prox | ring_prox": 17,
+      "midd_prox | midd_prox": 1,
+      "ring_prox | ring_prox": 1
+    }
+  },
+  {
+    "bone": "ring_prox",
+    "flexDegrees": 105,
+    "abductionDegrees": 0,
+    "selfCrossingPairs": 35,
+    "regions": {
+      "ring_meta | ring_prox": 35
+    }
+  },
+  {
+    "bone": "ring_prox",
+    "flexDegrees": 105,
+    "abductionDegrees": 20,
+    "selfCrossingPairs": 62,
+    "regions": {
+      "pinky_meta | ring_prox": 30,
+      "ring_meta | ring_prox": 15,
+      "pinky_prox | ring_prox": 13,
+      "ring_prox | ring_prox": 4
+    }
+  },
+  {
+    "bone": "ring_prox",
+    "flexDegrees": 120,
+    "abductionDegrees": -20,
+    "selfCrossingPairs": 92,
+    "regions": {
+      "midd_meta | ring_prox": 34,
+      "ring_meta | ring_prox": 26,
+      "midd_prox | ring_prox": 21,
+      "ring_prox | ring_prox": 5,
+      "midd_meta | midd_prox": 4,
+      "midd_prox | midd_prox": 2
+    }
+  },
+  {
+    "bone": "ring_prox",
+    "flexDegrees": 120,
+    "abductionDegrees": 0,
+    "selfCrossingPairs": 49,
+    "regions": {
+      "ring_meta | ring_prox": 35,
+      "pinky_meta | ring_prox": 10,
+      "pinky_prox | ring_prox": 2,
+      "ring_prox | ring_prox": 2
+    }
+  },
+  {
+    "bone": "ring_prox",
+    "flexDegrees": 120,
+    "abductionDegrees": 20,
+    "selfCrossingPairs": 81,
+    "regions": {
+      "pinky_meta | ring_prox": 38,
+      "ring_meta | ring_prox": 27,
+      "pinky_prox | ring_prox": 8,
+      "ring_prox | ring_prox": 8
+    }
+  },
+  {
+    "bone": "pinky_prox",
+    "flexDegrees": 90,
+    "abductionDegrees": -20,
+    "selfCrossingPairs": 37,
+    "regions": {
+      "pinky_meta | pinky_prox": 27,
+      "pinky_prox | pinky_prox": 10
+    }
+  },
+  {
+    "bone": "pinky_prox",
+    "flexDegrees": 90,
+    "abductionDegrees": 0,
+    "selfCrossingPairs": 28,
+    "regions": {
+      "pinky_meta | pinky_prox": 28
+    }
+  },
+  {
+    "bone": "pinky_prox",
+    "flexDegrees": 90,
+    "abductionDegrees": 20,
+    "selfCrossingPairs": 31,
+    "regions": {
+      "pinky_meta | pinky_prox": 31
+    }
+  },
+  {
+    "bone": "pinky_prox",
+    "flexDegrees": 105,
+    "abductionDegrees": -20,
+    "selfCrossingPairs": 50,
+    "regions": {
+      "pinky_meta | pinky_prox": 33,
+      "pinky_prox | pinky_prox": 10,
+      "pinky_prox | ring_prox": 4,
+      "pinky_prox | ring_meta": 3
+    }
+  },
+  {
+    "bone": "pinky_prox",
+    "flexDegrees": 105,
+    "abductionDegrees": 0,
+    "selfCrossingPairs": 38,
+    "regions": {
+      "pinky_meta | pinky_prox": 37,
+      "pinky_prox | pinky_prox": 1
+    }
+  },
+  {
+    "bone": "pinky_prox",
+    "flexDegrees": 105,
+    "abductionDegrees": 20,
+    "selfCrossingPairs": 41,
+    "regions": {
+      "pinky_meta | pinky_prox": 39,
+      "pinky_prox | pinky_prox": 2
+    }
+  },
+  {
+    "bone": "pinky_prox",
+    "flexDegrees": 120,
+    "abductionDegrees": -20,
+    "selfCrossingPairs": 84,
+    "regions": {
+      "pinky_meta | pinky_prox": 36,
+      "pinky_prox | ring_prox": 18,
+      "pinky_prox | ring_meta": 15,
+      "pinky_prox | pinky_prox": 15
+    }
+  },
+  {
+    "bone": "pinky_prox",
+    "flexDegrees": 120,
+    "abductionDegrees": 0,
+    "selfCrossingPairs": 63,
+    "regions": {
+      "pinky_meta | pinky_prox": 59,
+      "pinky_prox | pinky_prox": 4
+    }
+  },
+  {
+    "bone": "pinky_prox",
+    "flexDegrees": 120,
+    "abductionDegrees": 20,
+    "selfCrossingPairs": 60,
+    "regions": {
+      "pinky_meta | pinky_prox": 60
+    }
+  }
+]

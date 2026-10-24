@@ -1,0 +1,260 @@
+{
+  "status": "PASS research bundle opens and renders; Cpose still FAIL",
+  "errors": [],
+  "responses": [
+    {
+      "url": "http://127.0.0.1:8769/tools/inspection/?config=partial-repair-config.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8769/tools/inspection/viewer.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8769/node_modules/three/examples/jsm/controls/OrbitControls.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8769/node_modules/three/examples/jsm/environments/RoomEnvironment.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8769/tools/buildStudyGuitar.mjs",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8769/node_modules/three/examples/jsm/loaders/GLTFLoader.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8769/node_modules/three/examples/jsm/utils/BufferGeometryUtils.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8769/node_modules/three/build/three.module.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8769/node_modules/three/examples/jsm/utils/SkeletonUtils.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8769/node_modules/three/build/three.core.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8769/tools/inspection/partial-repair-config.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8769/tools/inspection/partial-repair-config-runtime-pose.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8769/models/hand-weight-repaired-v2-UNAPPROVED.glb",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8769/38c35851-701e-405e-ac31-1d0aa5cc1130",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8769/452380f5-71bd-4aa0-a299-9d66bf69bdd2",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8769/9cf57b7a-67fd-4db8-93aa-7dc9e723686e",
+      "status": 200
+    }
+  ],
+  "proof": {
+    "actual3D": true,
+    "poseApproved": false,
+    "status": "Unvalidated candidate; requires independent contact gate",
+    "configUrl": "http://127.0.0.1:8769/tools/inspection/partial-repair-config.json",
+    "modelUrl": "http://127.0.0.1:8769/models/hand-weight-repaired-v2-UNAPPROVED.glb",
+    "poseUrl": "http://127.0.0.1:8769/tools/inspection/partial-repair-config-runtime-pose.json",
+    "modelSha256": "c05abb56202970afae7dfd78abacd44ac11e11f88ef8effdcd3f639af041ec13",
+    "poseSource": "/tmp/fretline-stage31-assets/pose/painted/balanced-c-attempt-0.json",
+    "modifications": [
+      "See candidate pose and model repair provenance; this config does not approve the result."
+    ],
+    "jointsApplied": 21,
+    "skinnedMeshes": 2,
+    "handTriangles": 5790,
+    "neck": {
+      "units": "mm",
+      "genericStudyModel": true,
+      "stringCount": 6,
+      "fretCount": 12,
+      "tunerCount": 6,
+      "dimensions": {
+        "scaleLength": 648,
+        "frets": 12,
+        "radius": 350,
+        "nutWidth": 43,
+        "widthAt12": 54,
+        "boardThickness": 5,
+        "backDepth": 21,
+        "stringSpanNut": 35,
+        "stringSpanBridge": 52,
+        "fretHeight": 1,
+        "fretCrownWidth": 2.2,
+        "pressOffset": 4,
+        "pressHeight": 0.75,
+        "openStringBottomAtNut": 1.4,
+        "openStringBottomAt12": 3,
+        "headstockLength": 175,
+        "headstockWidth": 70,
+        "headstockThickness": 14,
+        "headstockAngle": 14,
+        "tunerSpacing": 33
+      },
+      "boundsMm": {
+        "min": [
+          -172.69881921704223,
+          -60.78112014282952,
+          -46.6
+        ],
+        "max": [
+          330.0088806152344,
+          3.694734573364258,
+          46.6
+        ]
+      },
+      "contactTargetsAreNotAValidatedHandPose": true
+    },
+    "handBoundsWorld": {
+      "min": [
+        0.057100233336169204,
+        -2.8417525822244514,
+        -0.685352162625241
+      ],
+      "max": [
+        3.2676943520398054,
+        0.6982712310265522,
+        2.4815372199944195
+      ]
+    },
+    "focusBoundsWorld": {
+      "min": [
+        0,
+        -2.8417525822244514,
+        -0.685352162625241
+      ],
+      "max": [
+        3.2676943520398054,
+        0.6982712310265522,
+        2.4815372199944195
+      ]
+    },
+    "worldMmBonePositions": {
+      "radius_ulna": [
+        89.59368524353609,
+        -90.63375725768601,
+        -10.426013448826712
+      ],
+      "pinky_meta": [
+        71.36821015328337,
+        -76.15520633179935,
+        13.122741815362172
+      ],
+      "pinky_prox": [
+        92.86204481383425,
+        -35.32613073602484,
+        70.28160477417798
+      ],
+      "pinky_midd": [
+        107.69636851458417,
+        -15.839309635080056,
+        90.78603450472713
+      ],
+      "pinky_dist": [
+        117.35955818755697,
+        -2.3290956281173925,
+        94.40709127970914
+      ],
+      "ring_meta": [
+        71.36821016902152,
+        -76.15520633587252,
+        13.122741815263442
+      ],
+      "ring_prox": [
+        74.54986605256798,
+        -33.22437012864059,
+        71.67490892381704
+      ],
+      "ring_midd": [
+        88.84440540685533,
+        6.435646951395935,
+        54.17032562569333
+      ],
+      "ring_dist": [
+        96.21415996408626,
+        13.750379676210054,
+        30.401278965326366
+      ],
+      "midd_meta": [
+        71.36821020651436,
+        -76.15520635022777,
+        13.122741814045726
+      ],
+      "midd_prox": [
+        55.96666053597009,
+        -27.843384184674154,
+        70.8877534400165
+      ],
+      "midd_midd": [
+        59.77365840529612,
+        17.34909402453016,
+        49.49591002847132
+      ],
+      "midd_dist": [
+        62.48386737607252,
+        19.41933667925994,
+        19.86069072099292
+      ],
+      "index_meta": [
+        71.36821007621515,
+        -76.15520631162545,
+        13.122741812984287
+      ],
+      "index_prox": [
+        26.360713446408948,
+        -29.98114385683251,
+        62.790753873320554
+      ],
+      "index_midd": [
+        17.008916758894518,
+        6.225208713693773,
+        32.66522439128142
+      ],
+      "index_dist": [
+        20.77924641685572,
+        11.18150492795452,
+        8.02968914366672
+      ],
+      "thumb_trapez": [
+        71.36820997465193,
+        -76.15520631839425,
+        13.122741802363382
+      ],
+      "thumb_meta": [
+        18.51551440257067,
+        -68.57121170518474,
+        7.885695820014061
+      ],
+      "thumb_prox": [
+        12.223895585102769,
+        -43.990823560253844,
+        22.513220631861664
+      ],
+      "thumb_dist": [
+        32.518013361685085,
+        -23.31613101656385,
+        21.624718665176758
+      ]
+    }
+  },
+  "missingResources": []
+}

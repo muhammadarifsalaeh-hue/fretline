@@ -1,0 +1,40 @@
+{
+  "scope": "Numerical identity of actual browser scene and independently audited mesh; NOT chord/contact approval",
+  "engine": "chromium",
+  "modelSha256": "c05abb56202970afae7dfd78abacd44ac11e11f88ef8effdcd3f639af041ec13",
+  "meshes": {
+    "Hand": {
+      "vertices": 3148,
+      "maxErrorMm": 1.2005398222595581e-05,
+      "meanErrorMm": 7.689505358185814e-07,
+      "matchesWithinPointOneMm": true
+    },
+    "Nails": {
+      "vertices": 204,
+      "maxErrorMm": 9.196400254922829e-14,
+      "meanErrorMm": 4.689148672004949e-14,
+      "matchesWithinPointOneMm": true
+    }
+  },
+  "allVertexComparisonsPassed": true,
+  "renderingChecksPassed": true,
+  "screenshotSha256": {
+    "chromium-desktop-front.png": "7cdf1713287c0b20f625eee48fa86a325bd743b2c60e5de6ce701dd96e3bf923",
+    "chromium-desktop-side.png": "306f615cee568de01776d30fcb73e6d676ac6b9428442afbd526886fce5caa79",
+    "chromium-desktop-back.png": "8f97d776bc5722aeb238cafec588058b8ae956e2fefda4a8c8e76039d693e669",
+    "chromium-desktop-player.png": "a4c338a3743196081e16ecdec6aeb1154e27f901385b6bffff8716882d376739",
+    "chromium-tablet-front.png": "a059484556a36ad9587fc0425bcde3c7b20ee491fd2356e3390fcfcd0d2e7c67",
+    "chromium-tablet-side.png": "9d4a3d36e616e63a1e2bc09654195fd492f81da74abc51a22fd520f3213f6cc1",
+    "chromium-tablet-back.png": "80e756848c0d225402822b66a89db49a119bb0d8f29a6b3db4eeff280521ee4d",
+    "chromium-tablet-player.png": "6b4beed813c3474b483db57f587418fe41dbbe2dd9839a24bc45e764276a2bee",
+    "chromium-mobile-front.png": "c2b29de3222a09f3842f9bcaa3695e3f24e90f37428adc66cbb1e9fe4df2e96d",
+    "chromium-mobile-side.png": "f97d18d27309521bcab24d63635ad95c2cd8ac810b24520e5a1b998063a30923",
+    "chromium-mobile-back.png": "7664233791010f0868c32102539f48eb6fca35347e65aff091da48d6dc190d75",
+    "chromium-mobile-player.png": "484b562f2442056e72d9a3f71ec30a8eeeaa71b7c0ef688e37432c642037db04",
+    "chromium-small-mobile-front.png": "5bc165f4bdcb25fc2bcea0cbaa9fa18bb30431e32bf1dfba632e25cfdf98c95e",
+    "chromium-small-mobile-side.png": "150057f95ea72a197ed86220ba40a3389777944a673029e5b6ef2f1ff7c7f37f",
+    "chromium-small-mobile-back.png": "a0c5dcd5f6a85ee1ce577cb6646cad83dec1225bedccaf9787adf35538ed4bc0",
+    "chromium-small-mobile-player.png": "159de490a7d51469504ffb31e2e860795de25f8ad24dc33d0d3f434fd7df3bd9"
+  },
+  "poseApproved": false
+}

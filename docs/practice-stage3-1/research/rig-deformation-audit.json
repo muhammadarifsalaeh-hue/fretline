@@ -1,0 +1,2476 @@
+{
+  "sourceConstraints": [
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "radius_ulna",
+      "target": null
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "pinky_meta",
+      "target": null
+    },
+    {
+      "name": "Copy Rotation",
+      "type": "COPY_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "LOCAL",
+      "subtarget": "midd_meta",
+      "mix_mode": "REPLACE",
+      "use_x": true,
+      "use_y": true,
+      "use_z": true,
+      "invert_x": false,
+      "invert_y": false,
+      "invert_z": false,
+      "use_offset": false,
+      "bone": "pinky_meta",
+      "target": "Rig"
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "pinky_prox",
+      "target": null
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "pinky_midd",
+      "target": null
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "pinky_dist",
+      "target": null
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "ring_meta",
+      "target": null
+    },
+    {
+      "name": "Copy Rotation",
+      "type": "COPY_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "LOCAL",
+      "subtarget": "midd_meta",
+      "mix_mode": "REPLACE",
+      "use_x": true,
+      "use_y": true,
+      "use_z": true,
+      "invert_x": false,
+      "invert_y": false,
+      "invert_z": false,
+      "use_offset": false,
+      "bone": "ring_meta",
+      "target": "Rig"
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "ring_prox",
+      "target": null
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "ring_midd",
+      "target": null
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "ring_dist",
+      "target": null
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "midd_meta",
+      "target": null
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "midd_prox",
+      "target": null
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "midd_midd",
+      "target": null
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "midd_dist",
+      "target": null
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "index_meta",
+      "target": null
+    },
+    {
+      "name": "Copy Rotation",
+      "type": "COPY_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "LOCAL",
+      "subtarget": "midd_meta",
+      "mix_mode": "REPLACE",
+      "use_x": true,
+      "use_y": true,
+      "use_z": true,
+      "invert_x": false,
+      "invert_y": false,
+      "invert_z": false,
+      "use_offset": false,
+      "bone": "index_meta",
+      "target": "Rig"
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "index_prox",
+      "target": null
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "index_midd",
+      "target": null
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "index_dist",
+      "target": null
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "thumb_trapez",
+      "target": null
+    },
+    {
+      "name": "Copy Rotation",
+      "type": "COPY_ROTATION",
+      "influence": 0.800000011920929,
+      "owner_space": "LOCAL",
+      "target_space": "LOCAL",
+      "subtarget": "midd_meta",
+      "mix_mode": "REPLACE",
+      "use_x": true,
+      "use_y": true,
+      "use_z": true,
+      "invert_x": false,
+      "invert_y": false,
+      "invert_z": false,
+      "use_offset": false,
+      "bone": "thumb_trapez",
+      "target": "Rig"
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "thumb_meta",
+      "target": null
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "thumb_prox",
+      "target": null
+    },
+    {
+      "name": "Limit Rotation",
+      "type": "LIMIT_ROTATION",
+      "influence": 1.0,
+      "owner_space": "LOCAL",
+      "target_space": "WORLD",
+      "subtarget": null,
+      "mix_mode": null,
+      "use_x": null,
+      "use_y": null,
+      "use_z": null,
+      "invert_x": null,
+      "invert_y": null,
+      "invert_z": null,
+      "use_offset": null,
+      "bone": "thumb_dist",
+      "target": null
+    }
+  ],
+  "cases": [
+    {
+      "weights": "native6",
+      "case": "rest",
+      "dualQuaternion": false,
+      "selfCrossingPairs": 0,
+      "regions": {},
+      "actualRotationDegrees": {
+        "radius_ulna": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_midd": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "ring_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "ring_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "ring_midd": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "ring_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "midd_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "midd_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "midd_midd": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "midd_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "index_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "index_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "index_midd": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "index_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "thumb_trapez": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "thumb_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "thumb_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "thumb_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "weights": "native6",
+      "case": "rest",
+      "dualQuaternion": true,
+      "selfCrossingPairs": 0,
+      "regions": {},
+      "actualRotationDegrees": {
+        "radius_ulna": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_midd": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "ring_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "ring_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "ring_midd": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "ring_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "midd_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "midd_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "midd_midd": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "midd_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "index_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "index_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "index_midd": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "index_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "thumb_trapez": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "thumb_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "thumb_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "thumb_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "weights": "native6",
+      "case": "oldC",
+      "dualQuaternion": false,
+      "selfCrossingPairs": 398,
+      "regions": {
+        "pinky_prox | ring_prox": 72,
+        "pinky_dist | ring_midd": 62,
+        "thumb_meta | thumb_prox": 50,
+        "index_meta | thumb_prox": 48,
+        "pinky_midd | ring_prox": 33,
+        "index_midd | index_prox": 29,
+        "ring_dist | ring_midd": 24,
+        "midd_dist | midd_midd": 15,
+        "midd_midd | midd_prox": 14,
+        "pinky_midd | pinky_prox": 13,
+        "index_meta | thumb_dist": 9,
+        "pinky_midd | ring_midd": 9,
+        "midd_meta | midd_prox": 5,
+        "index_meta | index_prox": 4,
+        "ring_meta | ring_prox": 3,
+        "ring_dist | ring_dist": 3,
+        "ring_prox | ring_prox": 2,
+        "ring_meta | ring_meta": 1,
+        "index_meta | index_meta": 1,
+        "midd_dist | midd_dist": 1
+      },
+      "actualRotationDegrees": {
+        "radius_ulna": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_prox": [
+          -10.038692730741044,
+          -0.0,
+          43.35633671904303
+        ],
+        "pinky_midd": [
+          0.0,
+          -0.0,
+          52.363959460604576
+        ],
+        "pinky_dist": [
+          0.0,
+          -0.0,
+          32.78629112936813
+        ],
+        "ring_meta": [
+          1.4812679277774254,
+          -0.0,
+          0.0
+        ],
+        "ring_prox": [
+          16.827871737429746,
+          9.016983515819053,
+          72.7123839038257
+        ],
+        "ring_midd": [
+          0.0,
+          -0.0,
+          26.23364669627885
+        ],
+        "ring_dist": [
+          0.0,
+          -0.0,
+          84.29355703785093
+        ],
+        "midd_meta": [
+          2.151105540175928,
+          -0.0,
+          0.0
+        ],
+        "midd_prox": [
+          1.006637335301299,
+          7.139793961126613,
+          68.30587370041363
+        ],
+        "midd_midd": [
+          0.0,
+          -0.0,
+          65.17460762636713
+        ],
+        "midd_dist": [
+          0.0,
+          -0.0,
+          74.10294211694858
+        ],
+        "index_meta": [
+          0.5265306920189675,
+          -0.0,
+          0.0
+        ],
+        "index_prox": [
+          -24.997898135788876,
+          4.149516225040697,
+          65.98029674086183
+        ],
+        "index_midd": [
+          0.0,
+          -0.0,
+          82.37135739030175
+        ],
+        "index_dist": [
+          0.0,
+          -0.0,
+          15.534380757696486
+        ],
+        "thumb_trapez": [
+          -8.15265466597885,
+          -0.0,
+          -6.866880519347236
+        ],
+        "thumb_meta": [
+          34.960671606357934,
+          5.483387710033895,
+          52.675060916920316
+        ],
+        "thumb_prox": [
+          2.4291540035506847,
+          -3.4965435236417197,
+          61.35851263518931
+        ],
+        "thumb_dist": [
+          0.0,
+          -0.0,
+          -4.161433197595077
+        ]
+      }
+    },
+    {
+      "weights": "native6",
+      "case": "oldC",
+      "dualQuaternion": true,
+      "selfCrossingPairs": 369,
+      "regions": {
+        "pinky_dist | ring_midd": 67,
+        "pinky_prox | ring_prox": 65,
+        "thumb_meta | thumb_prox": 50,
+        "pinky_midd | ring_prox": 39,
+        "index_meta | thumb_prox": 38,
+        "index_midd | index_prox": 23,
+        "index_meta | thumb_dist": 21,
+        "ring_dist | ring_midd": 16,
+        "midd_midd | midd_prox": 13,
+        "pinky_midd | ring_midd": 10,
+        "midd_dist | midd_midd": 9,
+        "pinky_midd | pinky_prox": 8,
+        "ring_meta | ring_prox": 5,
+        "ring_meta | ring_meta": 2,
+        "ring_dist | ring_dist": 2,
+        "ring_prox | ring_prox": 1
+      },
+      "actualRotationDegrees": {
+        "radius_ulna": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_prox": [
+          -10.038692730741044,
+          -0.0,
+          43.35633671904303
+        ],
+        "pinky_midd": [
+          0.0,
+          -0.0,
+          52.363959460604576
+        ],
+        "pinky_dist": [
+          0.0,
+          -0.0,
+          32.78629112936813
+        ],
+        "ring_meta": [
+          1.4812679277774254,
+          -0.0,
+          0.0
+        ],
+        "ring_prox": [
+          16.827871737429746,
+          9.016983515819053,
+          72.7123839038257
+        ],
+        "ring_midd": [
+          0.0,
+          -0.0,
+          26.23364669627885
+        ],
+        "ring_dist": [
+          0.0,
+          -0.0,
+          84.29355703785093
+        ],
+        "midd_meta": [
+          2.151105540175928,
+          -0.0,
+          0.0
+        ],
+        "midd_prox": [
+          1.006637335301299,
+          7.139793961126613,
+          68.30587370041363
+        ],
+        "midd_midd": [
+          0.0,
+          -0.0,
+          65.17460762636713
+        ],
+        "midd_dist": [
+          0.0,
+          -0.0,
+          74.10294211694858
+        ],
+        "index_meta": [
+          0.5265306920189675,
+          -0.0,
+          0.0
+        ],
+        "index_prox": [
+          -24.997898135788876,
+          4.149516225040697,
+          65.98029674086183
+        ],
+        "index_midd": [
+          0.0,
+          -0.0,
+          82.37135739030175
+        ],
+        "index_dist": [
+          0.0,
+          -0.0,
+          15.534380757696486
+        ],
+        "thumb_trapez": [
+          -8.15265466597885,
+          -0.0,
+          -6.866880519347236
+        ],
+        "thumb_meta": [
+          34.960671606357934,
+          5.483387710033895,
+          52.675060916920316
+        ],
+        "thumb_prox": [
+          2.4291540035506847,
+          -3.4965435236417197,
+          61.35851263518931
+        ],
+        "thumb_dist": [
+          0.0,
+          -0.0,
+          -4.161433197595077
+        ]
+      }
+    },
+    {
+      "weights": "native6",
+      "case": "coupledC",
+      "dualQuaternion": false,
+      "selfCrossingPairs": 192,
+      "regions": {
+        "thumb_meta | thumb_prox": 50,
+        "index_meta | thumb_prox": 48,
+        "index_midd | index_prox": 29,
+        "pinky_prox | ring_prox": 16,
+        "midd_midd | midd_prox": 14,
+        "ring_prox | ring_prox": 11,
+        "index_meta | thumb_dist": 9,
+        "midd_meta | midd_prox": 5,
+        "ring_meta | ring_prox": 4,
+        "index_meta | index_prox": 4,
+        "ring_meta | ring_meta": 1,
+        "index_meta | index_meta": 1
+      },
+      "actualRotationDegrees": {
+        "radius_ulna": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_prox": [
+          0.0,
+          -0.0,
+          19.99999771063855
+        ],
+        "pinky_midd": [
+          0.0,
+          -0.0,
+          25.00000183405324
+        ],
+        "pinky_dist": [
+          0.0,
+          -0.0,
+          15.999999876058132
+        ],
+        "ring_meta": [
+          1.4812679277774254,
+          -0.0,
+          0.0
+        ],
+        "ring_prox": [
+          16.827871737429746,
+          9.016983515819053,
+          72.7123839038257
+        ],
+        "ring_midd": [
+          0.0,
+          -0.0,
+          26.23364669627885
+        ],
+        "ring_dist": [
+          0.0,
+          -0.0,
+          17.0518712063549
+        ],
+        "midd_meta": [
+          2.151105540175928,
+          -0.0,
+          0.0
+        ],
+        "midd_prox": [
+          1.006637335301299,
+          7.139793961126613,
+          68.30587370041363
+        ],
+        "midd_midd": [
+          0.0,
+          -0.0,
+          65.17460762636713
+        ],
+        "midd_dist": [
+          0.0,
+          -0.0,
+          42.36349700619539
+        ],
+        "index_meta": [
+          0.5265306920189675,
+          -0.0,
+          0.0
+        ],
+        "index_prox": [
+          -24.997898135788876,
+          4.149516225040697,
+          65.98029674086183
+        ],
+        "index_midd": [
+          0.0,
+          -0.0,
+          82.37135739030175
+        ],
+        "index_dist": [
+          0.0,
+          -0.0,
+          53.54138162067722
+        ],
+        "thumb_trapez": [
+          -8.15265466597885,
+          -0.0,
+          -6.866880519347236
+        ],
+        "thumb_meta": [
+          34.960671606357934,
+          5.483387710033895,
+          52.675060916920316
+        ],
+        "thumb_prox": [
+          2.4291540035506847,
+          -3.4965435236417197,
+          61.35851263518931
+        ],
+        "thumb_dist": [
+          0.0,
+          -0.0,
+          -4.161433197595077
+        ]
+      }
+    },
+    {
+      "weights": "native6",
+      "case": "coupledC",
+      "dualQuaternion": true,
+      "selfCrossingPairs": 181,
+      "regions": {
+        "thumb_meta | thumb_prox": 50,
+        "index_meta | thumb_prox": 38,
+        "index_midd | index_prox": 23,
+        "index_meta | thumb_dist": 21,
+        "pinky_prox | ring_prox": 21,
+        "midd_midd | midd_prox": 13,
+        "ring_prox | ring_prox": 8,
+        "ring_meta | ring_prox": 5,
+        "ring_meta | ring_meta": 2
+      },
+      "actualRotationDegrees": {
+        "radius_ulna": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_prox": [
+          0.0,
+          -0.0,
+          19.99999771063855
+        ],
+        "pinky_midd": [
+          0.0,
+          -0.0,
+          25.00000183405324
+        ],
+        "pinky_dist": [
+          0.0,
+          -0.0,
+          15.999999876058132
+        ],
+        "ring_meta": [
+          1.4812679277774254,
+          -0.0,
+          0.0
+        ],
+        "ring_prox": [
+          16.827871737429746,
+          9.016983515819053,
+          72.7123839038257
+        ],
+        "ring_midd": [
+          0.0,
+          -0.0,
+          26.23364669627885
+        ],
+        "ring_dist": [
+          0.0,
+          -0.0,
+          17.0518712063549
+        ],
+        "midd_meta": [
+          2.151105540175928,
+          -0.0,
+          0.0
+        ],
+        "midd_prox": [
+          1.006637335301299,
+          7.139793961126613,
+          68.30587370041363
+        ],
+        "midd_midd": [
+          0.0,
+          -0.0,
+          65.17460762636713
+        ],
+        "midd_dist": [
+          0.0,
+          -0.0,
+          42.36349700619539
+        ],
+        "index_meta": [
+          0.5265306920189675,
+          -0.0,
+          0.0
+        ],
+        "index_prox": [
+          -24.997898135788876,
+          4.149516225040697,
+          65.98029674086183
+        ],
+        "index_midd": [
+          0.0,
+          -0.0,
+          82.37135739030175
+        ],
+        "index_dist": [
+          0.0,
+          -0.0,
+          53.54138162067722
+        ],
+        "thumb_trapez": [
+          -8.15265466597885,
+          -0.0,
+          -6.866880519347236
+        ],
+        "thumb_meta": [
+          34.960671606357934,
+          5.483387710033895,
+          52.675060916920316
+        ],
+        "thumb_prox": [
+          2.4291540035506847,
+          -3.4965435236417197,
+          61.35851263518931
+        ],
+        "thumb_dist": [
+          0.0,
+          -0.0,
+          -4.161433197595077
+        ]
+      }
+    },
+    {
+      "weights": "native6",
+      "case": "sourceConstraintsC",
+      "dualQuaternion": false,
+      "selfCrossingPairs": 353,
+      "regions": {
+        "index_meta | thumb_prox": 76,
+        "pinky_dist | ring_midd": 55,
+        "pinky_prox | ring_prox": 52,
+        "index_midd | index_prox": 29,
+        "pinky_midd | ring_prox": 26,
+        "ring_dist | ring_midd": 24,
+        "thumb_meta | thumb_prox": 19,
+        "midd_dist | midd_midd": 15,
+        "midd_midd | midd_prox": 14,
+        "pinky_midd | pinky_prox": 13,
+        "pinky_midd | ring_midd": 8,
+        "midd_meta | midd_prox": 5,
+        "index_meta | index_prox": 4,
+        "pinky_dist | ring_prox": 4,
+        "ring_meta | ring_prox": 3,
+        "ring_dist | ring_dist": 3,
+        "ring_meta | ring_meta": 1,
+        "index_meta | index_meta": 1,
+        "midd_dist | midd_dist": 1
+      },
+      "actualRotationDegrees": {
+        "radius_ulna": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_prox": [
+          -10.038692730741044,
+          -0.0,
+          43.35633671904303
+        ],
+        "pinky_midd": [
+          0.0,
+          -0.0,
+          52.363959460604576
+        ],
+        "pinky_dist": [
+          0.0,
+          -0.0,
+          32.78629112936813
+        ],
+        "ring_meta": [
+          1.4812679277774254,
+          -0.0,
+          0.0
+        ],
+        "ring_prox": [
+          16.827871737429746,
+          9.016983515819053,
+          72.7123839038257
+        ],
+        "ring_midd": [
+          0.0,
+          -0.0,
+          26.23364669627885
+        ],
+        "ring_dist": [
+          0.0,
+          -0.0,
+          84.29355703785093
+        ],
+        "midd_meta": [
+          2.151105540175928,
+          -0.0,
+          0.0
+        ],
+        "midd_prox": [
+          1.006637335301299,
+          7.139793961126613,
+          68.30587370041363
+        ],
+        "midd_midd": [
+          0.0,
+          -0.0,
+          65.17460762636713
+        ],
+        "midd_dist": [
+          0.0,
+          -0.0,
+          74.10294211694858
+        ],
+        "index_meta": [
+          0.5265306920189675,
+          -0.0,
+          0.0
+        ],
+        "index_prox": [
+          -24.997898135788876,
+          4.149516225040697,
+          65.98029674086183
+        ],
+        "index_midd": [
+          0.0,
+          -0.0,
+          82.37135739030175
+        ],
+        "index_dist": [
+          0.0,
+          -0.0,
+          15.534380757696486
+        ],
+        "thumb_trapez": [
+          -8.15265466597885,
+          -0.0,
+          -6.866880519347236
+        ],
+        "thumb_meta": [
+          34.960671606357934,
+          5.483387710033895,
+          52.675060916920316
+        ],
+        "thumb_prox": [
+          2.4291540035506847,
+          -3.4965435236417197,
+          61.35851263518931
+        ],
+        "thumb_dist": [
+          0.0,
+          -0.0,
+          -4.161433197595077
+        ]
+      }
+    },
+    {
+      "weights": "native6",
+      "case": "sourceConstraintsC",
+      "dualQuaternion": true,
+      "selfCrossingPairs": 358,
+      "regions": {
+        "index_meta | thumb_prox": 71,
+        "pinky_dist | ring_midd": 55,
+        "pinky_prox | ring_prox": 54,
+        "thumb_meta | thumb_prox": 46,
+        "pinky_midd | ring_prox": 26,
+        "index_midd | index_prox": 23,
+        "thumb_meta | thumb_meta": 16,
+        "ring_dist | ring_midd": 16,
+        "midd_midd | midd_prox": 13,
+        "midd_dist | midd_midd": 9,
+        "pinky_midd | pinky_prox": 8,
+        "pinky_midd | ring_midd": 8,
+        "ring_meta | ring_prox": 5,
+        "pinky_dist | ring_prox": 4,
+        "ring_meta | ring_meta": 2,
+        "ring_dist | ring_dist": 2
+      },
+      "actualRotationDegrees": {
+        "radius_ulna": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_prox": [
+          -10.038692730741044,
+          -0.0,
+          43.35633671904303
+        ],
+        "pinky_midd": [
+          0.0,
+          -0.0,
+          52.363959460604576
+        ],
+        "pinky_dist": [
+          0.0,
+          -0.0,
+          32.78629112936813
+        ],
+        "ring_meta": [
+          1.4812679277774254,
+          -0.0,
+          0.0
+        ],
+        "ring_prox": [
+          16.827871737429746,
+          9.016983515819053,
+          72.7123839038257
+        ],
+        "ring_midd": [
+          0.0,
+          -0.0,
+          26.23364669627885
+        ],
+        "ring_dist": [
+          0.0,
+          -0.0,
+          84.29355703785093
+        ],
+        "midd_meta": [
+          2.151105540175928,
+          -0.0,
+          0.0
+        ],
+        "midd_prox": [
+          1.006637335301299,
+          7.139793961126613,
+          68.30587370041363
+        ],
+        "midd_midd": [
+          0.0,
+          -0.0,
+          65.17460762636713
+        ],
+        "midd_dist": [
+          0.0,
+          -0.0,
+          74.10294211694858
+        ],
+        "index_meta": [
+          0.5265306920189675,
+          -0.0,
+          0.0
+        ],
+        "index_prox": [
+          -24.997898135788876,
+          4.149516225040697,
+          65.98029674086183
+        ],
+        "index_midd": [
+          0.0,
+          -0.0,
+          82.37135739030175
+        ],
+        "index_dist": [
+          0.0,
+          -0.0,
+          15.534380757696486
+        ],
+        "thumb_trapez": [
+          -8.15265466597885,
+          -0.0,
+          -6.866880519347236
+        ],
+        "thumb_meta": [
+          34.960671606357934,
+          5.483387710033895,
+          52.675060916920316
+        ],
+        "thumb_prox": [
+          2.4291540035506847,
+          -3.4965435236417197,
+          61.35851263518931
+        ],
+        "thumb_dist": [
+          0.0,
+          -0.0,
+          -4.161433197595077
+        ]
+      }
+    },
+    {
+      "weights": "export4",
+      "case": "rest",
+      "dualQuaternion": false,
+      "selfCrossingPairs": 0,
+      "regions": {},
+      "actualRotationDegrees": {
+        "radius_ulna": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_midd": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "ring_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "ring_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "ring_midd": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "ring_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "midd_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "midd_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "midd_midd": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "midd_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "index_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "index_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "index_midd": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "index_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "thumb_trapez": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "thumb_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "thumb_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "thumb_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "weights": "export4",
+      "case": "rest",
+      "dualQuaternion": true,
+      "selfCrossingPairs": 0,
+      "regions": {},
+      "actualRotationDegrees": {
+        "radius_ulna": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_midd": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "ring_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "ring_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "ring_midd": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "ring_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "midd_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "midd_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "midd_midd": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "midd_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "index_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "index_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "index_midd": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "index_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "thumb_trapez": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "thumb_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "thumb_prox": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "thumb_dist": [
+          0.0,
+          -0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "weights": "export4",
+      "case": "oldC",
+      "dualQuaternion": false,
+      "selfCrossingPairs": 402,
+      "regions": {
+        "pinky_prox | ring_prox": 72,
+        "pinky_dist | ring_midd": 62,
+        "thumb_meta | thumb_prox": 50,
+        "index_meta | thumb_prox": 47,
+        "pinky_midd | ring_prox": 33,
+        "index_midd | index_prox": 29,
+        "ring_dist | ring_midd": 24,
+        "midd_dist | midd_midd": 15,
+        "midd_midd | midd_prox": 14,
+        "pinky_midd | pinky_prox": 13,
+        "index_meta | thumb_dist": 11,
+        "pinky_midd | ring_midd": 9,
+        "ring_meta | ring_prox": 6,
+        "midd_meta | midd_prox": 5,
+        "index_meta | index_prox": 4,
+        "ring_dist | ring_dist": 3,
+        "ring_prox | ring_prox": 2,
+        "ring_meta | ring_meta": 1,
+        "index_meta | index_meta": 1,
+        "midd_dist | midd_dist": 1
+      },
+      "actualRotationDegrees": {
+        "radius_ulna": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_prox": [
+          -10.038692730741044,
+          -0.0,
+          43.35633671904303
+        ],
+        "pinky_midd": [
+          0.0,
+          -0.0,
+          52.363959460604576
+        ],
+        "pinky_dist": [
+          0.0,
+          -0.0,
+          32.78629112936813
+        ],
+        "ring_meta": [
+          1.4812679277774254,
+          -0.0,
+          0.0
+        ],
+        "ring_prox": [
+          16.827871737429746,
+          9.016983515819053,
+          72.7123839038257
+        ],
+        "ring_midd": [
+          0.0,
+          -0.0,
+          26.23364669627885
+        ],
+        "ring_dist": [
+          0.0,
+          -0.0,
+          84.29355703785093
+        ],
+        "midd_meta": [
+          2.151105540175928,
+          -0.0,
+          0.0
+        ],
+        "midd_prox": [
+          1.006637335301299,
+          7.139793961126613,
+          68.30587370041363
+        ],
+        "midd_midd": [
+          0.0,
+          -0.0,
+          65.17460762636713
+        ],
+        "midd_dist": [
+          0.0,
+          -0.0,
+          74.10294211694858
+        ],
+        "index_meta": [
+          0.5265306920189675,
+          -0.0,
+          0.0
+        ],
+        "index_prox": [
+          -24.997898135788876,
+          4.149516225040697,
+          65.98029674086183
+        ],
+        "index_midd": [
+          0.0,
+          -0.0,
+          82.37135739030175
+        ],
+        "index_dist": [
+          0.0,
+          -0.0,
+          15.534380757696486
+        ],
+        "thumb_trapez": [
+          -8.15265466597885,
+          -0.0,
+          -6.866880519347236
+        ],
+        "thumb_meta": [
+          34.960671606357934,
+          5.483387710033895,
+          52.675060916920316
+        ],
+        "thumb_prox": [
+          2.4291540035506847,
+          -3.4965435236417197,
+          61.35851263518931
+        ],
+        "thumb_dist": [
+          0.0,
+          -0.0,
+          -4.161433197595077
+        ]
+      }
+    },
+    {
+      "weights": "export4",
+      "case": "oldC",
+      "dualQuaternion": true,
+      "selfCrossingPairs": 369,
+      "regions": {
+        "pinky_dist | ring_midd": 67,
+        "pinky_prox | ring_prox": 65,
+        "thumb_meta | thumb_prox": 50,
+        "pinky_midd | ring_prox": 39,
+        "index_meta | thumb_prox": 38,
+        "index_midd | index_prox": 23,
+        "index_meta | thumb_dist": 21,
+        "ring_dist | ring_midd": 16,
+        "midd_midd | midd_prox": 13,
+        "pinky_midd | ring_midd": 10,
+        "midd_dist | midd_midd": 9,
+        "pinky_midd | pinky_prox": 8,
+        "ring_meta | ring_prox": 5,
+        "ring_meta | ring_meta": 2,
+        "ring_dist | ring_dist": 2,
+        "ring_prox | ring_prox": 1
+      },
+      "actualRotationDegrees": {
+        "radius_ulna": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_prox": [
+          -10.038692730741044,
+          -0.0,
+          43.35633671904303
+        ],
+        "pinky_midd": [
+          0.0,
+          -0.0,
+          52.363959460604576
+        ],
+        "pinky_dist": [
+          0.0,
+          -0.0,
+          32.78629112936813
+        ],
+        "ring_meta": [
+          1.4812679277774254,
+          -0.0,
+          0.0
+        ],
+        "ring_prox": [
+          16.827871737429746,
+          9.016983515819053,
+          72.7123839038257
+        ],
+        "ring_midd": [
+          0.0,
+          -0.0,
+          26.23364669627885
+        ],
+        "ring_dist": [
+          0.0,
+          -0.0,
+          84.29355703785093
+        ],
+        "midd_meta": [
+          2.151105540175928,
+          -0.0,
+          0.0
+        ],
+        "midd_prox": [
+          1.006637335301299,
+          7.139793961126613,
+          68.30587370041363
+        ],
+        "midd_midd": [
+          0.0,
+          -0.0,
+          65.17460762636713
+        ],
+        "midd_dist": [
+          0.0,
+          -0.0,
+          74.10294211694858
+        ],
+        "index_meta": [
+          0.5265306920189675,
+          -0.0,
+          0.0
+        ],
+        "index_prox": [
+          -24.997898135788876,
+          4.149516225040697,
+          65.98029674086183
+        ],
+        "index_midd": [
+          0.0,
+          -0.0,
+          82.37135739030175
+        ],
+        "index_dist": [
+          0.0,
+          -0.0,
+          15.534380757696486
+        ],
+        "thumb_trapez": [
+          -8.15265466597885,
+          -0.0,
+          -6.866880519347236
+        ],
+        "thumb_meta": [
+          34.960671606357934,
+          5.483387710033895,
+          52.675060916920316
+        ],
+        "thumb_prox": [
+          2.4291540035506847,
+          -3.4965435236417197,
+          61.35851263518931
+        ],
+        "thumb_dist": [
+          0.0,
+          -0.0,
+          -4.161433197595077
+        ]
+      }
+    },
+    {
+      "weights": "export4",
+      "case": "coupledC",
+      "dualQuaternion": false,
+      "selfCrossingPairs": 201,
+      "regions": {
+        "thumb_meta | thumb_prox": 50,
+        "index_meta | thumb_prox": 47,
+        "index_midd | index_prox": 29,
+        "pinky_prox | ring_prox": 16,
+        "midd_midd | midd_prox": 14,
+        "ring_meta | ring_prox": 12,
+        "index_meta | thumb_dist": 11,
+        "ring_prox | ring_prox": 11,
+        "midd_meta | midd_prox": 5,
+        "index_meta | index_prox": 4,
+        "ring_meta | ring_meta": 1,
+        "index_meta | index_meta": 1
+      },
+      "actualRotationDegrees": {
+        "radius_ulna": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_prox": [
+          0.0,
+          -0.0,
+          19.99999771063855
+        ],
+        "pinky_midd": [
+          0.0,
+          -0.0,
+          25.00000183405324
+        ],
+        "pinky_dist": [
+          0.0,
+          -0.0,
+          15.999999876058132
+        ],
+        "ring_meta": [
+          1.4812679277774254,
+          -0.0,
+          0.0
+        ],
+        "ring_prox": [
+          16.827871737429746,
+          9.016983515819053,
+          72.7123839038257
+        ],
+        "ring_midd": [
+          0.0,
+          -0.0,
+          26.23364669627885
+        ],
+        "ring_dist": [
+          0.0,
+          -0.0,
+          17.0518712063549
+        ],
+        "midd_meta": [
+          2.151105540175928,
+          -0.0,
+          0.0
+        ],
+        "midd_prox": [
+          1.006637335301299,
+          7.139793961126613,
+          68.30587370041363
+        ],
+        "midd_midd": [
+          0.0,
+          -0.0,
+          65.17460762636713
+        ],
+        "midd_dist": [
+          0.0,
+          -0.0,
+          42.36349700619539
+        ],
+        "index_meta": [
+          0.5265306920189675,
+          -0.0,
+          0.0
+        ],
+        "index_prox": [
+          -24.997898135788876,
+          4.149516225040697,
+          65.98029674086183
+        ],
+        "index_midd": [
+          0.0,
+          -0.0,
+          82.37135739030175
+        ],
+        "index_dist": [
+          0.0,
+          -0.0,
+          53.54138162067722
+        ],
+        "thumb_trapez": [
+          -8.15265466597885,
+          -0.0,
+          -6.866880519347236
+        ],
+        "thumb_meta": [
+          34.960671606357934,
+          5.483387710033895,
+          52.675060916920316
+        ],
+        "thumb_prox": [
+          2.4291540035506847,
+          -3.4965435236417197,
+          61.35851263518931
+        ],
+        "thumb_dist": [
+          0.0,
+          -0.0,
+          -4.161433197595077
+        ]
+      }
+    },
+    {
+      "weights": "export4",
+      "case": "coupledC",
+      "dualQuaternion": true,
+      "selfCrossingPairs": 181,
+      "regions": {
+        "thumb_meta | thumb_prox": 50,
+        "index_meta | thumb_prox": 38,
+        "index_midd | index_prox": 23,
+        "index_meta | thumb_dist": 21,
+        "pinky_prox | ring_prox": 21,
+        "midd_midd | midd_prox": 13,
+        "ring_prox | ring_prox": 8,
+        "ring_meta | ring_prox": 5,
+        "ring_meta | ring_meta": 2
+      },
+      "actualRotationDegrees": {
+        "radius_ulna": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_prox": [
+          0.0,
+          -0.0,
+          19.99999771063855
+        ],
+        "pinky_midd": [
+          0.0,
+          -0.0,
+          25.00000183405324
+        ],
+        "pinky_dist": [
+          0.0,
+          -0.0,
+          15.999999876058132
+        ],
+        "ring_meta": [
+          1.4812679277774254,
+          -0.0,
+          0.0
+        ],
+        "ring_prox": [
+          16.827871737429746,
+          9.016983515819053,
+          72.7123839038257
+        ],
+        "ring_midd": [
+          0.0,
+          -0.0,
+          26.23364669627885
+        ],
+        "ring_dist": [
+          0.0,
+          -0.0,
+          17.0518712063549
+        ],
+        "midd_meta": [
+          2.151105540175928,
+          -0.0,
+          0.0
+        ],
+        "midd_prox": [
+          1.006637335301299,
+          7.139793961126613,
+          68.30587370041363
+        ],
+        "midd_midd": [
+          0.0,
+          -0.0,
+          65.17460762636713
+        ],
+        "midd_dist": [
+          0.0,
+          -0.0,
+          42.36349700619539
+        ],
+        "index_meta": [
+          0.5265306920189675,
+          -0.0,
+          0.0
+        ],
+        "index_prox": [
+          -24.997898135788876,
+          4.149516225040697,
+          65.98029674086183
+        ],
+        "index_midd": [
+          0.0,
+          -0.0,
+          82.37135739030175
+        ],
+        "index_dist": [
+          0.0,
+          -0.0,
+          53.54138162067722
+        ],
+        "thumb_trapez": [
+          -8.15265466597885,
+          -0.0,
+          -6.866880519347236
+        ],
+        "thumb_meta": [
+          34.960671606357934,
+          5.483387710033895,
+          52.675060916920316
+        ],
+        "thumb_prox": [
+          2.4291540035506847,
+          -3.4965435236417197,
+          61.35851263518931
+        ],
+        "thumb_dist": [
+          0.0,
+          -0.0,
+          -4.161433197595077
+        ]
+      }
+    },
+    {
+      "weights": "export4",
+      "case": "sourceConstraintsC",
+      "dualQuaternion": false,
+      "selfCrossingPairs": 358,
+      "regions": {
+        "index_meta | thumb_prox": 73,
+        "pinky_dist | ring_midd": 55,
+        "pinky_prox | ring_prox": 52,
+        "index_midd | index_prox": 29,
+        "pinky_midd | ring_prox": 26,
+        "ring_dist | ring_midd": 24,
+        "thumb_meta | thumb_prox": 23,
+        "midd_dist | midd_midd": 15,
+        "midd_midd | midd_prox": 14,
+        "pinky_midd | pinky_prox": 13,
+        "pinky_midd | ring_midd": 8,
+        "ring_meta | ring_prox": 7,
+        "midd_meta | midd_prox": 5,
+        "index_meta | index_prox": 4,
+        "pinky_dist | ring_prox": 4,
+        "ring_dist | ring_dist": 3,
+        "ring_meta | ring_meta": 1,
+        "index_meta | index_meta": 1,
+        "midd_dist | midd_dist": 1
+      },
+      "actualRotationDegrees": {
+        "radius_ulna": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_prox": [
+          -10.038692730741044,
+          -0.0,
+          43.35633671904303
+        ],
+        "pinky_midd": [
+          0.0,
+          -0.0,
+          52.363959460604576
+        ],
+        "pinky_dist": [
+          0.0,
+          -0.0,
+          32.78629112936813
+        ],
+        "ring_meta": [
+          1.4812679277774254,
+          -0.0,
+          0.0
+        ],
+        "ring_prox": [
+          16.827871737429746,
+          9.016983515819053,
+          72.7123839038257
+        ],
+        "ring_midd": [
+          0.0,
+          -0.0,
+          26.23364669627885
+        ],
+        "ring_dist": [
+          0.0,
+          -0.0,
+          84.29355703785093
+        ],
+        "midd_meta": [
+          2.151105540175928,
+          -0.0,
+          0.0
+        ],
+        "midd_prox": [
+          1.006637335301299,
+          7.139793961126613,
+          68.30587370041363
+        ],
+        "midd_midd": [
+          0.0,
+          -0.0,
+          65.17460762636713
+        ],
+        "midd_dist": [
+          0.0,
+          -0.0,
+          74.10294211694858
+        ],
+        "index_meta": [
+          0.5265306920189675,
+          -0.0,
+          0.0
+        ],
+        "index_prox": [
+          -24.997898135788876,
+          4.149516225040697,
+          65.98029674086183
+        ],
+        "index_midd": [
+          0.0,
+          -0.0,
+          82.37135739030175
+        ],
+        "index_dist": [
+          0.0,
+          -0.0,
+          15.534380757696486
+        ],
+        "thumb_trapez": [
+          -8.15265466597885,
+          -0.0,
+          -6.866880519347236
+        ],
+        "thumb_meta": [
+          34.960671606357934,
+          5.483387710033895,
+          52.675060916920316
+        ],
+        "thumb_prox": [
+          2.4291540035506847,
+          -3.4965435236417197,
+          61.35851263518931
+        ],
+        "thumb_dist": [
+          0.0,
+          -0.0,
+          -4.161433197595077
+        ]
+      }
+    },
+    {
+      "weights": "export4",
+      "case": "sourceConstraintsC",
+      "dualQuaternion": true,
+      "selfCrossingPairs": 361,
+      "regions": {
+        "index_meta | thumb_prox": 74,
+        "pinky_dist | ring_midd": 55,
+        "pinky_prox | ring_prox": 54,
+        "thumb_meta | thumb_prox": 46,
+        "pinky_midd | ring_prox": 26,
+        "index_midd | index_prox": 23,
+        "thumb_meta | thumb_meta": 16,
+        "ring_dist | ring_midd": 16,
+        "midd_midd | midd_prox": 13,
+        "midd_dist | midd_midd": 9,
+        "pinky_midd | pinky_prox": 8,
+        "pinky_midd | ring_midd": 8,
+        "ring_meta | ring_prox": 5,
+        "pinky_dist | ring_prox": 4,
+        "ring_meta | ring_meta": 2,
+        "ring_dist | ring_dist": 2
+      },
+      "actualRotationDegrees": {
+        "radius_ulna": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_meta": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "pinky_prox": [
+          -10.038692730741044,
+          -0.0,
+          43.35633671904303
+        ],
+        "pinky_midd": [
+          0.0,
+          -0.0,
+          52.363959460604576
+        ],
+        "pinky_dist": [
+          0.0,
+          -0.0,
+          32.78629112936813
+        ],
+        "ring_meta": [
+          1.4812679277774254,
+          -0.0,
+          0.0
+        ],
+        "ring_prox": [
+          16.827871737429746,
+          9.016983515819053,
+          72.7123839038257
+        ],
+        "ring_midd": [
+          0.0,
+          -0.0,
+          26.23364669627885
+        ],
+        "ring_dist": [
+          0.0,
+          -0.0,
+          84.29355703785093
+        ],
+        "midd_meta": [
+          2.151105540175928,
+          -0.0,
+          0.0
+        ],
+        "midd_prox": [
+          1.006637335301299,
+          7.139793961126613,
+          68.30587370041363
+        ],
+        "midd_midd": [
+          0.0,
+          -0.0,
+          65.17460762636713
+        ],
+        "midd_dist": [
+          0.0,
+          -0.0,
+          74.10294211694858
+        ],
+        "index_meta": [
+          0.5265306920189675,
+          -0.0,
+          0.0
+        ],
+        "index_prox": [
+          -24.997898135788876,
+          4.149516225040697,
+          65.98029674086183
+        ],
+        "index_midd": [
+          0.0,
+          -0.0,
+          82.37135739030175
+        ],
+        "index_dist": [
+          0.0,
+          -0.0,
+          15.534380757696486
+        ],
+        "thumb_trapez": [
+          -8.15265466597885,
+          -0.0,
+          -6.866880519347236
+        ],
+        "thumb_meta": [
+          34.960671606357934,
+          5.483387710033895,
+          52.675060916920316
+        ],
+        "thumb_prox": [
+          2.4291540035506847,
+          -3.4965435236417197,
+          61.35851263518931
+        ],
+        "thumb_dist": [
+          0.0,
+          -0.0,
+          -4.161433197595077
+        ]
+      }
+    }
+  ]
+}

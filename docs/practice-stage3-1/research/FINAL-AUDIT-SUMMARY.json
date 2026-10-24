@@ -1,0 +1,140 @@
+{
+  "status": "FAIL whole C Major; partial weight repair only, NOT teaching approved",
+  "pose": "pose/painted/balanced-c-attempt-0.json",
+  "poseSHA256": "5f3494d7082189373557d0bf022eda9fed2f1deb56428a9e2b294636bf7413be",
+  "modelSHA256": "c05abb56202970afae7dfd78abacd44ac11e11f88ef8effdcd3f639af041ec13",
+  "samePoseControlledSelfComparison": [
+    {
+      "modelVersion": "v0",
+      "samePose": "pose/painted/balanced-c-attempt-0.json",
+      "confirmedHandSelfTrianglePairs": 133,
+      "modelSHA256": "dedb30a66d26589004089dd6b566ba3f61de626e326af21773284c009d463b80"
+    },
+    {
+      "modelVersion": "v1",
+      "samePose": "pose/painted/balanced-c-attempt-0.json",
+      "confirmedHandSelfTrianglePairs": 127,
+      "modelSHA256": "554944dcac7924458e5e1292069ec95f6d45f18c472143ce0b80a0c8800675ba"
+    },
+    {
+      "modelVersion": "v2",
+      "samePose": "pose/painted/balanced-c-attempt-0.json",
+      "confirmedHandSelfTrianglePairs": 113,
+      "modelSHA256": "c05abb56202970afae7dfd78abacd44ac11e11f88ef8effdcd3f639af041ec13"
+    }
+  ],
+  "actualHandSelfPairs": 113,
+  "actualGuitarTrianglePairs": 161,
+  "actualGuitarIntersections": [
+    {
+      "mesh": "Hand",
+      "guitar": "curved-fingerboard",
+      "trianglePairs": 17,
+      "interiorSamples": 2,
+      "maxInteriorSurfaceDistanceMm": 0.01088479533791542
+    },
+    {
+      "mesh": "Hand",
+      "guitar": "string-6",
+      "trianglePairs": 58,
+      "interiorSamples": 0,
+      "maxInteriorSurfaceDistanceMm": 0
+    },
+    {
+      "mesh": "Hand",
+      "guitar": "string-5",
+      "trianglePairs": 18,
+      "interiorSamples": 0,
+      "maxInteriorSurfaceDistanceMm": 0
+    },
+    {
+      "mesh": "Hand",
+      "guitar": "string-4",
+      "trianglePairs": 28,
+      "interiorSamples": 0,
+      "maxInteriorSurfaceDistanceMm": 0
+    },
+    {
+      "mesh": "Hand",
+      "guitar": "string-3",
+      "trianglePairs": 28,
+      "interiorSamples": 0,
+      "maxInteriorSurfaceDistanceMm": 0
+    },
+    {
+      "mesh": "Hand",
+      "guitar": "string-2",
+      "trianglePairs": 12,
+      "interiorSamples": 0,
+      "maxInteriorSurfaceDistanceMm": 0
+    }
+  ],
+  "analyticSurfaceWitnesses": {
+    "Hand": {
+      "maxWoodDepthMm": 0.012126499113654585,
+      "maxFretDepthMm": 0,
+      "samples": 636243
+    },
+    "Nails": {
+      "maxWoodDepthMm": 0.005185222532205103,
+      "maxFretDepthMm": 0,
+      "samples": 34686
+    }
+  },
+  "stringTubeSurfaceMinGapsMm": {
+    "1": 3.7385737895965576,
+    "2": -0.10168998032808305,
+    "3": -0.21688360303640367,
+    "4": -0.32989335438294803,
+    "5": -0.16707287907600404,
+    "6": -0.6580319861788303
+  },
+  "pressureAssociations": {
+    "2": {
+      "expectedFinger": "index",
+      "actualDominantBone": "index_dist",
+      "skinGapAtPressureMm": 0.15457554817199706,
+      "fret": 1,
+      "associationCorrect": true,
+      "outwardNormal": [
+        -0.32087770104408264,
+        -0.7671817541122437,
+        -0.5554003715515137
+      ]
+    },
+    "4": {
+      "expectedFinger": "midd",
+      "actualDominantBone": "midd_dist",
+      "skinGapAtPressureMm": -0.002426044940948502,
+      "fret": 2,
+      "associationCorrect": true,
+      "outwardNormal": [
+        0.027570825070142746,
+        -0.9275885820388794,
+        -0.37258464097976685
+      ]
+    },
+    "5": {
+      "expectedFinger": "ring",
+      "actualDominantBone": "ring_dist",
+      "skinGapAtPressureMm": 0.011405689716339096,
+      "fret": 3,
+      "associationCorrect": true,
+      "outwardNormal": [
+        0.08926766365766525,
+        -0.9741307497024536,
+        -0.207606241106987
+      ]
+    }
+  },
+  "interpretation": [
+    "Only a same-pose model comparison isolates skin-weight changes; 402 older Stage3 pairs use a different pose and cannot serve as direct repair percentage.",
+    "Actual GLB113 pairs is authoritative; native helper72 was invalid because MCP/meta quaternion rotation modes ignored Euler assignments.",
+    "Positive coarse vertex-to-string gap did not establish clearance; actual triangle surfaces still touch openG.",
+    "Source restcontrol has zero self-intersections.",
+    "No claim that all MCP folding is fixed.",
+    "Actual tiny board contact differs from analytic neck model; actual surface intersection/containment evidence retained.",
+    "LowE is not strummed; contact can mute the note musically, but tube penetration remains a visual/physical defect.",
+    "Last semantic pointIK poses rejected for >10mmhandwood/>7mmnailwood intrusion despite precise landmarks; not used as approved samples."
+  ]
+}

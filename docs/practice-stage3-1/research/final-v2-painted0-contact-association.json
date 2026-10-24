@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "glbSHA256": "c05abb56202970afae7dfd78abacd44ac11e11f88ef8effdcd3f639af041ec13",
+    "glb": "/tmp/fretline-stage31-assets/anatomical-hand-weight-repaired-v2.glb",
+    "pose": "/tmp/fretline-stage31-assets/pose/painted/balanced-c-attempt-0.json",
+    "restControl": false,
+    "bakedMm": false
+  },
+  "status": "Contact-association evidence only; full self/wood/string gates and visual anatomy remain separate",
+  "strings": {
+    "2": {
+      "expectedFinger": "index",
+      "fret": 1,
+      "maxPressureBelowSupportLineMm": 0.5029525691318328,
+      "pressurePointMm": [
+        28.3700008392334,
+        0.5857375264167786,
+        -10.723282814025879
+      ],
+      "distanceBeforeTargetWireMm": 7.999444543029199,
+      "skinGapAtPressureMm": 0.15457554817199706,
+      "actualClosestSkin": {
+        "distanceMm": 0.31957554817199707,
+        "mesh": "Hand",
+        "triangle": 4420,
+        "skinPointMm": [
+          28.472545623779297,
+          0.8309102058410645,
+          -10.545790672302246
+        ],
+        "normal": [
+          -0.32087770104408264,
+          -0.7671817541122437,
+          -0.5554003715515137
+        ],
+        "boneWeights": [
+          [
+            "index_dist",
+            1.0
+          ],
+          [
+            "radius_ulna",
+            0.0
+          ],
+          [
+            "pinky_meta",
+            0.0
+          ],
+          [
+            "pinky_prox",
+            0.0
+          ]
+        ],
+        "dominantBone": "index_dist"
+      },
+      "associationCorrect": true,
+      "pressureNormalPointsTowardBoard": true,
+      "nearContactDominantBoneCounts": {
+        "index_dist": 34
+      },
+      "nearContactXRangeMm": [
+        28.69,
+        31.130000000000003
+      ]
+    },
+    "4": {
+      "expectedFinger": "midd",
+      "fret": 2,
+      "maxPressureBelowSupportLineMm": 0.5403805522817355,
+      "pressurePointMm": [
+        62.69944381713867,
+        0.7312391996383667,
+        3.664489269256592
+      ],
+      "distanceBeforeTargetWireMm": 7.998186827921472,
+      "skinGapAtPressureMm": -0.002426044940948502,
+      "actualClosestSkin": {
+        "distanceMm": 0.3275739550590515,
+        "mesh": "Hand",
+        "triangle": 3157,
+        "skinPointMm": [
+          62.69041442871094,
+          1.035093069076538,
+          3.7865383625030518
+        ],
+        "normal": [
+          0.027570825070142746,
+          -0.9275885820388794,
+          -0.37258464097976685
+        ],
+        "boneWeights": [
+          [
+            "midd_dist",
+            1.0
+          ],
+          [
+            "radius_ulna",
+            0.0
+          ],
+          [
+            "pinky_meta",
+            0.0
+          ],
+          [
+            "pinky_prox",
+            0.0
+          ]
+        ],
+        "dominantBone": "midd_dist"
+      },
+      "associationCorrect": true,
+      "pressureNormalPointsTowardBoard": true,
+      "nearContactDominantBoneCounts": {
+        "midd_dist": 112
+      },
+      "nearContactXRangeMm": [
+        60.05944538226209,
+        64.499445382262
+      ]
+    },
+    "5": {
+      "expectedFinger": "ring",
+      "fret": 3,
+      "maxPressureBelowSupportLineMm": 0.6449309772140039,
+      "pressurePointMm": [
+        98.18762969970703,
+        0.56853187084198,
+        11.272772789001465
+      ],
+      "distanceBeforeTargetWireMm": 4.911493215885969,
+      "skinGapAtPressureMm": 0.011405689716339096,
+      "actualClosestSkin": {
+        "distanceMm": 0.4664056897163391,
+        "mesh": "Hand",
+        "triangle": 4646,
+        "skinPointMm": [
+          98.14599609375,
+          1.0228722095489502,
+          11.369601249694824
+        ],
+        "normal": [
+          0.08926766365766525,
+          -0.9741307497024536,
+          -0.207606241106987
+        ],
+        "boneWeights": [
+          [
+            "ring_dist",
+            1.0
+          ],
+          [
+            "radius_ulna",
+            0.0
+          ],
+          [
+            "pinky_meta",
+            0.0
+          ],
+          [
+            "pinky_prox",
+            0.0
+          ]
+        ],
+        "dominantBone": "ring_dist"
+      },
+      "associationCorrect": true,
+      "pressureNormalPointsTowardBoard": true,
+      "nearContactDominantBoneCounts": {
+        "ring_dist": 70
+      },
+      "nearContactXRangeMm": [
+        96.74763064506422,
+        101.0676306450649
+      ]
+    }
+  }
+}

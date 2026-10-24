@@ -1,0 +1,52 @@
+{
+  "status": "PASS winding correction only; C pose remainsFAILED/UNAPPROVED",
+  "input": "/tmp/fretline-stage31-assets/blender/current-hand-UNAPPROVED.glb",
+  "output": "/tmp/fretline-stage31-assets/blender/current-hand-winding-corrected-UNAPPROVED.glb",
+  "inputSHA256": "c80af6bcbe724a18e69b696d0bf9c21d1a9b94e4b0a22ff3825b2f3d1e5004ff",
+  "outputSHA256": "f7d1bdb2e63693bff4a4d85dd61c69a68dbb45320f986ef0c594c5c2f0f0edd5",
+  "meshRows": [
+    {
+      "mesh": "Hand",
+      "before": {
+        "medianGeometricDotAuthored": -0.9845436015980032,
+        "meanGeometricDotAuthored": -0.9395450669271328,
+        "minGeometricDotAuthored": -0.9999980894872147
+      },
+      "indicesFlipped": true,
+      "after": {
+        "medianGeometricDotAuthored": 0.9845436015980032,
+        "meanGeometricDotAuthored": 0.9395450669271328,
+        "minGeometricDotAuthored": -0.9722674737875096
+      },
+      "positionsByteNumericallyIdentical": true,
+      "authoredNormalsNumericallyIdentical": true
+    },
+    {
+      "mesh": "Nails",
+      "before": {
+        "medianGeometricDotAuthored": -0.9476107449182982,
+        "meanGeometricDotAuthored": -0.897873920057369,
+        "minGeometricDotAuthored": -0.9995587811597147
+      },
+      "indicesFlipped": true,
+      "after": {
+        "medianGeometricDotAuthored": 0.9476107449182982,
+        "meanGeometricDotAuthored": 0.8978739200573689,
+        "minGeometricDotAuthored": 0.38080748515396434
+      },
+      "positionsByteNumericallyIdentical": true,
+      "authoredNormalsNumericallyIdentical": true
+    }
+  ],
+  "indexAccessorsChanged": [
+    7,
+    16
+  ],
+  "allNonIndexBinaryBytesIdentical": true,
+  "geometryPositionNormalsWeightsBonesTexturesUntouched": true,
+  "limitations": [
+    "Tests global mirrored-export winding against authored outward normals, not anatomical pose or collision freedom.",
+    "Before/after NORMAL alignment is a robust global orientation check; self-intersections can still have local invalid surface folds.",
+    "Known canonical-mm Blender hand export pipeline only; do not assume arbitrary glTF assets use this coordinate convention."
+  ]
+}

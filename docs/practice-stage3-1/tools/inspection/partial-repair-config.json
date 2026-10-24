@@ -1,0 +1,16 @@
+{
+  "label": "STAGE 3.1 PARTIAL WEIGHT REPAIR \u2014 C POSE FAILED",
+  "modelUrl": "../anatomical-hand-weight-repaired-v2.glb",
+  "poseUrl": "partial-repair-config-runtime-pose.json",
+  "modelSha256": "c05abb56202970afae7dfd78abacd44ac11e11f88ef8effdcd3f639af041ec13",
+  "applyJointPose": true,
+  "grayscaleNormalIsHeight": true,
+  "pressOffsetsMm": [
+    7.999193913459325,
+    7.971127064837745,
+    4.905429204486492
+  ],
+  "modifications": [
+    "See candidate pose and model repair provenance; this config does not approve the result."
+  ]
+}
