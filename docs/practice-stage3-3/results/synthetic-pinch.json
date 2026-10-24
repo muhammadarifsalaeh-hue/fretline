@@ -1,0 +1,68 @@
+{
+  "engine": "Chromium Linux SwiftShader",
+  "url": "http://127.0.0.1:5430",
+  "input": "Synthetic two-contact CDP Input.dispatchTouchEvent into actual browser",
+  "checks": [
+    {
+      "case": "synthetic-two-contact-pinch",
+      "passed": true,
+      "beforeCamera": {
+        "position": [
+          -3.8254804,
+          14.5154676,
+          4.3546403
+        ],
+        "target": [
+          -2.0836242,
+          0,
+          0
+        ],
+        "up": [
+          -0.2571262,
+          -0.3058642,
+          0.9166969
+        ],
+        "distance": 15.2543684,
+        "fov": 38,
+        "aspect": 1.4686192468619246
+      },
+      "afterCamera": {
+        "position": [
+          -3.1558624,
+          8.9353185,
+          2.6805955
+        ],
+        "target": [
+          -2.0836242,
+          0,
+          0
+        ],
+        "up": [
+          -0.2571262,
+          -0.3058642,
+          0.9166969
+        ],
+        "distance": 9.3901652,
+        "fov": 38,
+        "aspect": 1.4686192468619246
+      },
+      "loadedSceneChunks": [
+        "http://127.0.0.1:5430/assets/practice-three-CyceKmSN.js"
+      ],
+      "geometrySignature": "1d967467",
+      "actualWorldStringAnchorsUnchanged": true,
+      "pixelChangeCount": 64268
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "badResponses": [],
+  "limitations": [
+    "Not physical touch hardware.",
+    "Not physical iPadOS Safari.",
+    "No human hand/arm/black sleeve or C fingering approval."
+  ],
+  "version": "154.0.8037.57",
+  "passed": true
+}

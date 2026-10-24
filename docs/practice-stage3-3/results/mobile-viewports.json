@@ -1,0 +1,53 @@
+{
+  "engine": "Linux WebKit WPE",
+  "url": "http://127.0.0.1:5430",
+  "screenshots": [
+    {
+      "path": "webkit-mobile-canvas-controls-viewport.png",
+      "width": 390,
+      "height": 844,
+      "scrollY": 578,
+      "sceneChunks": [
+        "http://127.0.0.1:5430/assets/practice-three-CyceKmSN.js"
+      ]
+    },
+    {
+      "path": "webkit-mobile-diagram-choices-viewport.png",
+      "width": 390,
+      "height": 844,
+      "scrollY": 1198,
+      "sceneChunks": [
+        "http://127.0.0.1:5430/assets/practice-three-CyceKmSN.js"
+      ]
+    },
+    {
+      "path": "webkit-small-mobile-canvas-controls-viewport.png",
+      "width": 320,
+      "height": 740,
+      "scrollY": 578,
+      "sceneChunks": [
+        "http://127.0.0.1:5430/assets/practice-three-CyceKmSN.js"
+      ]
+    },
+    {
+      "path": "webkit-small-mobile-diagram-choices-viewport.png",
+      "width": 320,
+      "height": 740,
+      "scrollY": 1293,
+      "sceneChunks": [
+        "http://127.0.0.1:5430/assets/practice-three-CyceKmSN.js"
+      ]
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "badResponses": [],
+  "limitations": [
+    "Normal viewport captures retain real fixed header and bottom navigation.",
+    "Not physical iPadOS Safari or physical touch hardware.",
+    "No anatomical hand, arm, black sleeve or C-pose approval."
+  ],
+  "version": "26.5",
+  "passed": true
+}

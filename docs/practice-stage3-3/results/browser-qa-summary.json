@@ -1,0 +1,138 @@
+{
+  "capturedAtUTC": "2026-10-24T23:05:30.211610+00:00",
+  "passed": true,
+  "appSourceEditsByQA": false,
+  "appBuildsByQA": false,
+  "url": "http://127.0.0.1:5430",
+  "finalBundle": "assets/practice-three-CyceKmSN.js",
+  "finalBundleSHA256": "5fb71ab00ac2994e24dde8f912e9fa04b99d7693e1f5c365ae32c6ee45a68717",
+  "suites": {
+    "cameraChromium": {
+      "passed": true,
+      "viewportCases": 5,
+      "report": "after/chromium/camera-orientation-chromium.json"
+    },
+    "cameraWebKit": {
+      "passed": true,
+      "viewportCases": 5,
+      "report": "after/webkit/camera-orientation-webkit.json"
+    },
+    "syntheticChromiumPinchGeometry": {
+      "passed": true,
+      "cases": 1,
+      "report": "touch/touch-geometry.json"
+    },
+    "finalPracticeChromium": {
+      "passed": true,
+      "cases": 10
+    },
+    "finalPracticeWebKit": {
+      "passed": true,
+      "cases": 10
+    },
+    "sharedRegression": {
+      "passed": true,
+      "checks": 18,
+      "scope": "Retained from immediately prior Stage3.3 lighting build; shared source/assets unchanged"
+    },
+    "pacificaGallery": {
+      "passed": true,
+      "checks": 79,
+      "scope": "Retained from immediately prior Stage3.3 lighting build; gallery source/assets unchanged"
+    },
+    "mobileActualViewportCaptures": {
+      "passed": true,
+      "states": 4,
+      "report": "mobile-viewports/mobile-viewport-captures.json"
+    }
+  },
+  "cameraAcceptance": {
+    "viewports": [
+      "desktop",
+      "tablet-landscape",
+      "tablet",
+      "mobile",
+      "small-mobile"
+    ],
+    "requestedPresets": [
+      "angle",
+      "side",
+      "back",
+      "player"
+    ],
+    "defaultHeadstock": "Right/up of body-end",
+    "measuredDefaultHeadBodyAxisDegrees": {
+      "min": 16.28412162865395,
+      "max": 16.298421075325848
+    },
+    "physicalStringsTopToBottom": [
+      "E2",
+      "A2",
+      "D3",
+      "G3",
+      "B3",
+      "E4"
+    ],
+    "independentWorldProjectionMatchesThree": true,
+    "worldGeometryAndStringRadiiUnchangedByAllPresetsOrbitZoomReset": true,
+    "actualCanvasPixelsChangeWithCamera": true,
+    "resetCameraAndProjectionRestored": true,
+    "horizontalOverflow": false,
+    "geometrySignature": "1d967467"
+  },
+  "observedUnexpectedErrors": 0,
+  "cameraConsoleWarnings": 0,
+  "expectedIntentionalFaultEvents": 6,
+  "syntheticPinch": {
+    "beforeDistance": 15.2543684,
+    "afterDistance": 9.3901652,
+    "changedCanvasPixels": 64268,
+    "worldStringAnchorsAndGeometryUnchanged": true
+  },
+  "beforeEvidence": {
+    "immutableDist": "/tmp/fretline-stage33-before-dist",
+    "chromiumReport": "before/before-chromium.json",
+    "webkitReport": "../before/before-capture.json"
+  },
+  "visualReview": {
+    "reviewed": [
+      "desktop",
+      "tablet-landscape",
+      "tablet",
+      "mobile",
+      "small-mobile"
+    ],
+    "layoutResult": "No clipping or spacing defect; 320px reset wraps to a second row and was actually clicked successfully",
+    "lightingResult": "Initial back/player silhouette found and fixed; final back/player wood and hardware visible",
+    "mobileCaptureMethod": "Normal unmodified viewport screenshots at canvas-controls and diagram-choices scroll states, with actual fixed header/bottom navigation retained"
+  },
+  "retestsAndSetupFailures": [
+    {
+      "issue": "Initial Chromium default sandbox launch: crashpad local socket setsockopt EPERM",
+      "resolution": "Read-only browser QA rerun with auto-approved require_escalated local socket access; passed",
+      "appFailure": false
+    },
+    {
+      "issue": "Initial WebKit optional GUI host validation reported missing libraries",
+      "preservedReport": "after/webkit/camera-orientation-webkit-host-validation-failure.json",
+      "resolution": "Used prior documented cached WPE runtime variables and skipped optional GUI host validation; actual final Linux WebKit browser suite passed",
+      "appFailure": false
+    },
+    {
+      "issue": "Initial back/player were too dark in actual screenshots",
+      "preservedEvidence": "after/chromium-pre-lighting and pre-lighting-review.json",
+      "resolution": "Root added backFill and PMREM environment; all camera and practice init/dispose/fault suites reran on final CyceKmSN and passed"
+    },
+    {
+      "issue": "Tall mobile page screenshots show fixed-navigation at the viewport edge inside the long document",
+      "resolution": "Selected final mobile proof uses normal actual viewport screenshots; no DOM/style hiding or Canvas substitution"
+    }
+  ],
+  "limitations": [
+    "Actual Linux Chromium/WebKit, no physical iPadOS Safari.",
+    "Chromium uses SwiftShader.",
+    "WebKit touch test covers tap; native pinch requires physical iPad testing. Dedicated Chromium pinch geometry checks recorded separately by parent.",
+    "No anatomical hand, sleeve, C-hand or physical fingering approval.",
+    "No human hand, continuous arm, natural black long sleeve or validated physical C-Major pose exists in the application; camera/guitar acceptance does not certify those requirements."
+  ]
+}

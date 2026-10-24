@@ -1,0 +1,4244 @@
+{
+  "passed": true,
+  "scope": "CPU perspective and OrbitControls math using actual study-neck meshes; no hand, browser/WebGL, touch or physical iPad approval.",
+  "fixedUp": [
+    -0.2571261698109134,
+    -0.3058642120341528,
+    0.9166969055228104
+  ],
+  "worldScale": 0.025,
+  "nutX": -4.05,
+  "meshBounds": {
+    "min": [
+      -8.367470480426054,
+      -1.5195280035707384,
+      -1.165
+    ],
+    "max": [
+      4.20022201538086,
+      0.0923686683177948,
+      1.165
+    ]
+  },
+  "labelBounds": {
+    "min": [
+      -1.9925405804918357,
+      -0.115,
+      -0.8959119122627985
+    ],
+    "max": [
+      3.924174467844855,
+      0.115,
+      -0.7993781691583177
+    ]
+  },
+  "paddedBounds": {
+    "min": [
+      -8.567470480426053,
+      -1.7195280035707383,
+      -1.365
+    ],
+    "max": [
+      4.40022201538086,
+      0.315,
+      1.365
+    ]
+  },
+  "geometrySignature": "60a041733bd77d45755c364cf2b490cff065729843233f1b6f445f3c0a3ae90c",
+  "checks": [
+    {
+      "name": "Fixed rolled up vector is finite, unit length and points toward the low-E edge",
+      "passed": true
+    },
+    {
+      "name": "Actual scaled tube rings keep E A D G B e numbering and decreasing physical radii",
+      "passed": true
+    },
+    {
+      "name": "A camera up vector parallel to the view is rejected instead of producing a broken fit",
+      "passed": true
+    },
+    {
+      "name": "1440x900 angle: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "1440x900 angle: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "1440x900 front: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "1440x900 front: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "1440x900 head: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "1440x900 head: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "1440x900 back: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "1440x900 back: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "1440x900 side: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "1440x900 side: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "1440x900 player: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "1440x900 player: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "1440x900 default: headstock right/up, body left/down and 15 degree neck axis",
+      "passed": true
+    },
+    {
+      "name": "1440x900: public OrbitControls rotate and Reset preserve the fixed up basis and actual geometry",
+      "passed": true
+    },
+    {
+      "name": "1440x900: public vertical rotation obeys both polar limits and Reset restores the view",
+      "passed": true
+    },
+    {
+      "name": "1024x768 angle: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "1024x768 angle: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "1024x768 front: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "1024x768 front: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "1024x768 head: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "1024x768 head: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "1024x768 back: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "1024x768 back: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "1024x768 side: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "1024x768 side: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "1024x768 player: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "1024x768 player: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "1024x768 default: headstock right/up, body left/down and 15 degree neck axis",
+      "passed": true
+    },
+    {
+      "name": "1024x768: public OrbitControls rotate and Reset preserve the fixed up basis and actual geometry",
+      "passed": true
+    },
+    {
+      "name": "1024x768: public vertical rotation obeys both polar limits and Reset restores the view",
+      "passed": true
+    },
+    {
+      "name": "768x1024 angle: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "768x1024 angle: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "768x1024 front: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "768x1024 front: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "768x1024 head: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "768x1024 head: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "768x1024 back: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "768x1024 back: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "768x1024 side: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "768x1024 side: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "768x1024 player: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "768x1024 player: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "768x1024 default: headstock right/up, body left/down and 15 degree neck axis",
+      "passed": true
+    },
+    {
+      "name": "768x1024: public OrbitControls rotate and Reset preserve the fixed up basis and actual geometry",
+      "passed": true
+    },
+    {
+      "name": "768x1024: public vertical rotation obeys both polar limits and Reset restores the view",
+      "passed": true
+    },
+    {
+      "name": "390x844 angle: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "390x844 angle: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "390x844 front: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "390x844 front: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "390x844 head: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "390x844 head: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "390x844 back: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "390x844 back: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "390x844 side: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "390x844 side: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "390x844 player: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "390x844 player: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "390x844 default: headstock right/up, body left/down and 15 degree neck axis",
+      "passed": true
+    },
+    {
+      "name": "390x844: public OrbitControls rotate and Reset preserve the fixed up basis and actual geometry",
+      "passed": true
+    },
+    {
+      "name": "390x844: public vertical rotation obeys both polar limits and Reset restores the view",
+      "passed": true
+    },
+    {
+      "name": "320x740 angle: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "320x740 angle: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "320x740 front: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "320x740 front: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "320x740 head: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "320x740 head: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "320x740 back: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "320x740 back: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "320x740 side: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "320x740 side: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "320x740 player: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "320x740 player: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "320x740 default: headstock right/up, body left/down and 15 degree neck axis",
+      "passed": true
+    },
+    {
+      "name": "320x740: public OrbitControls rotate and Reset preserve the fixed up basis and actual geometry",
+      "passed": true
+    },
+    {
+      "name": "320x740: public vertical rotation obeys both polar limits and Reset restores the view",
+      "passed": true
+    },
+    {
+      "name": "930x520 angle: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "930x520 angle: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "930x520 front: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "930x520 front: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "930x520 head: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "930x520 head: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "930x520 back: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "930x520 back: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "930x520 side: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "930x520 side: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "930x520 player: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "930x520 player: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "930x520 default: headstock right/up, body left/down and 15 degree neck axis",
+      "passed": true
+    },
+    {
+      "name": "930x520: public OrbitControls rotate and Reset preserve the fixed up basis and actual geometry",
+      "passed": true
+    },
+    {
+      "name": "930x520: public vertical rotation obeys both polar limits and Reset restores the view",
+      "passed": true
+    },
+    {
+      "name": "900x540 angle: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "900x540 angle: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "900x540 front: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "900x540 front: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "900x540 head: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "900x540 head: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "900x540 back: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "900x540 back: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "900x540 side: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "900x540 side: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "900x540 player: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "900x540 player: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "900x540 default: headstock right/up, body left/down and 15 degree neck axis",
+      "passed": true
+    },
+    {
+      "name": "900x540: public OrbitControls rotate and Reset preserve the fixed up basis and actual geometry",
+      "passed": true
+    },
+    {
+      "name": "900x540: public vertical rotation obeys both polar limits and Reset restores the view",
+      "passed": true
+    },
+    {
+      "name": "640x480 angle: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "640x480 angle: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "640x480 front: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "640x480 front: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "640x480 head: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "640x480 head: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "640x480 back: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "640x480 back: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "640x480 side: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "640x480 side: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "640x480 player: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "640x480 player: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "640x480 default: headstock right/up, body left/down and 15 degree neck axis",
+      "passed": true
+    },
+    {
+      "name": "640x480: public OrbitControls rotate and Reset preserve the fixed up basis and actual geometry",
+      "passed": true
+    },
+    {
+      "name": "640x480: public vertical rotation obeys both polar limits and Reset restores the view",
+      "passed": true
+    },
+    {
+      "name": "358x420 angle: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "358x420 angle: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "358x420 front: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "358x420 front: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "358x420 head: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "358x420 head: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "358x420 back: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "358x420 back: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "358x420 side: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "358x420 side: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "358x420 player: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "358x420 player: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "358x420 default: headstock right/up, body left/down and 15 degree neck axis",
+      "passed": true
+    },
+    {
+      "name": "358x420: public OrbitControls rotate and Reset preserve the fixed up basis and actual geometry",
+      "passed": true
+    },
+    {
+      "name": "358x420: public vertical rotation obeys both polar limits and Reset restores the view",
+      "passed": true
+    },
+    {
+      "name": "288x400 angle: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "288x400 angle: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "288x400 front: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "288x400 front: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "288x400 head: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "288x400 head: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "288x400 back: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "288x400 back: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "288x400 side: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "288x400 side: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "288x400 player: actual mesh and padded fret-label bounds fit without clipping",
+      "passed": true
+    },
+    {
+      "name": "288x400 player: actual strings project E A D G B e from top to bottom with decreasing radii",
+      "passed": true
+    },
+    {
+      "name": "288x400 default: headstock right/up, body left/down and 15 degree neck axis",
+      "passed": true
+    },
+    {
+      "name": "288x400: public OrbitControls rotate and Reset preserve the fixed up basis and actual geometry",
+      "passed": true
+    },
+    {
+      "name": "288x400: public vertical rotation obeys both polar limits and Reset restores the view",
+      "passed": true
+    }
+  ],
+  "results": [
+    {
+      "width": 1440,
+      "height": 900,
+      "slopeDegrees": 14.999999999999996,
+      "head": {
+        "x": 1083.441388350223,
+        "y": 330.7264843735827,
+        "depth": 0.9880529097588056
+      },
+      "nut": {
+        "x": 898.3027462463488,
+        "y": 402.2239231350398,
+        "depth": 0.9875269032062137
+      },
+      "body": {
+        "x": 186.56121807719964,
+        "y": 592.9344908276564,
+        "depth": 0.9884499706273218
+      },
+      "presets": [
+        {
+          "name": "angle",
+          "distance": 14.055197357833528,
+          "polarAngle": 1.5707963267948963,
+          "maxProjectedBounds": 0.8928571428571433,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 652.5248609825452,
+              "y": 425.7025127963195,
+              "depth": 0.9876420121923386,
+              "projectedRadius": 1.4962215516067152
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 657.6843910574377,
+              "y": 442.02044911480664,
+              "depth": 0.9876942276868311,
+              "projectedRadius": 1.030605933356337
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 662.8208229603306,
+              "y": 458.1590193258102,
+              "depth": 0.9877480994999056,
+              "projectedRadius": 0.7467468773811755
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 667.9410503747666,
+              "y": 474.0721411349125,
+              "depth": 0.987804903392861,
+              "projectedRadius": 0.5198300115402867
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 673.0401648919311,
+              "y": 489.75905371783153,
+              "depth": 0.9878643270894889,
+              "projectedRadius": 0.3723890903652932
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 678.1165251200189,
+              "y": 505.20446489665983,
+              "depth": 0.9879265347342042,
+              "projectedRadius": 0.2816429491094027
+            }
+          ]
+        },
+        {
+          "name": "front",
+          "distance": 13.781060578446958,
+          "polarAngle": 1.8623835227808727,
+          "maxProjectedBounds": 0.8928571428571435,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 651.9040939004358,
+              "y": 422.4840557808634,
+              "depth": 0.98741041816272,
+              "projectedRadius": 1.3737572685536268
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 656.72868146136,
+              "y": 439.7850305332709,
+              "depth": 0.987411143503213,
+              "projectedRadius": 0.9392502591646223
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 661.5606770167251,
+              "y": 457.0793365950073,
+              "depth": 0.9874141079615328,
+              "projectedRadius": 0.685934525906139
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 666.402524964867,
+              "y": 474.35405493744895,
+              "depth": 0.9874207689088088,
+              "projectedRadius": 0.48137981167665916
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 671.2497754608291,
+              "y": 491.5972965703504,
+              "depth": 0.9874308511494494,
+              "projectedRadius": 0.3476316126385176
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 676.0996535689809,
+              "y": 508.7954512542597,
+              "depth": 0.987444605069593,
+              "projectedRadius": 0.26502742537891544
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "distance": 14.999218627425229,
+          "polarAngle": 1.302720189296033,
+          "maxProjectedBounds": 0.8928571428571426,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 674.1460753608749,
+              "y": 417.8041356931042,
+              "depth": 0.9890036653302776,
+              "projectedRadius": 1.396801422596015
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 680.4052776196679,
+              "y": 432.2672132030316,
+              "depth": 0.9890351017815451,
+              "projectedRadius": 0.9608668113048867
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 686.7716536551599,
+              "y": 446.5812516641661,
+              "depth": 0.9890672169168567,
+              "projectedRadius": 0.6954005180178044
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 693.332349394023,
+              "y": 460.6924228876539,
+              "depth": 0.9891005386191021,
+              "projectedRadius": 0.483620056788331
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 700.0676756852483,
+              "y": 474.6073902807801,
+              "depth": 0.9891349495164647,
+              "projectedRadius": 0.34618190431183904
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 706.9902761525891,
+              "y": 488.3139969465899,
+              "depth": 0.98917052793072,
+              "projectedRadius": 0.2616726276050803
+            }
+          ]
+        },
+        {
+          "name": "back",
+          "distance": 15.215595119180637,
+          "polarAngle": 1.0767990761809694,
+          "maxProjectedBounds": 0.8928571428571431,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 782.9537095957331,
+              "y": 429.1358773642778,
+              "depth": 0.9887586880574857,
+              "projectedRadius": 1.3465904876945525
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 777.7508179720415,
+              "y": 444.1944104743383,
+              "depth": 0.9887965914827669,
+              "projectedRadius": 0.9292558535732299
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 772.5587049433474,
+              "y": 459.2002806189215,
+              "depth": 0.9888325018325067,
+              "projectedRadius": 0.674734414422575
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 767.362401530203,
+              "y": 474.1829598990394,
+              "depth": 0.9888652958772081,
+              "projectedRadius": 0.47090614764752764
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 762.1608776652126,
+              "y": 489.14818677609156,
+              "depth": 0.9888952275559229,
+              "projectedRadius": 0.33834899100149757
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 756.9484976401391,
+              "y": 504.1099526013145,
+              "depth": 0.9889221268273798,
+              "projectedRadius": 0.25678044283874113
+            }
+          ]
+        },
+        {
+          "name": "side",
+          "distance": 15.233571791886353,
+          "polarAngle": 0.5244908790645239,
+          "maxProjectedBounds": 0.8928571428571436,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 666.1178660616467,
+              "y": 468.92634313044346,
+              "depth": 0.9884841296137664,
+              "projectedRadius": 1.4329304556614564
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 669.1552745288657,
+              "y": 471.15287954423115,
+              "depth": 0.9886503924476869,
+              "projectedRadius": 0.9760552718671348
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 672.054729821212,
+              "y": 473.1585922067049,
+              "depth": 0.9888129383690294,
+              "projectedRadius": 0.6995380104637394
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 674.7796054488579,
+              "y": 474.84376937595334,
+              "depth": 0.9889720956070611,
+              "projectedRadius": 0.48182655682271647
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 677.3432696654181,
+              "y": 476.23899609722383,
+              "depth": 0.9891279299367477,
+              "projectedRadius": 0.3416224380512303
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 679.7437814381152,
+              "y": 477.3353114906399,
+              "depth": 0.9892805779116421,
+              "projectedRadius": 0.2558012364824216
+            }
+          ]
+        },
+        {
+          "name": "player",
+          "distance": 22.50059762484947,
+          "polarAngle": 0.5266756835710135,
+          "maxProjectedBounds": 0.8928571428571432,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 752.2185142835791,
+              "y": 467.1836462460991,
+              "depth": 0.9929153437393125,
+              "projectedRadius": 0.8923279439667042
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 747.7127044693756,
+              "y": 471.77116544336536,
+              "depth": 0.9929786344879594,
+              "projectedRadius": 0.6092144702459803
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 743.1771544559083,
+              "y": 476.33916459785434,
+              "depth": 0.9930405809888905,
+              "projectedRadius": 0.4376258268484468
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 738.5519122611968,
+              "y": 480.91739273048665,
+              "depth": 0.9931009185951062,
+              "projectedRadius": 0.3021286564119305
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 733.8484324898056,
+              "y": 485.5016128327522,
+              "depth": 0.9931597491827112,
+              "projectedRadius": 0.21471850033729298
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 729.056354374036,
+              "y": 490.09799338114294,
+              "depth": 0.9932170628529575,
+              "projectedRadius": 0.16116075729716436
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "slopeDegrees": 14.99999999999999,
+      "head": {
+        "x": 773.3223954922317,
+        "y": 298.23970460887574,
+        "depth": 0.9902484405200843
+      },
+      "nut": {
+        "x": 639.447187080486,
+        "y": 349.850629144166,
+        "depth": 0.989877189031994
+      },
+      "body": {
+        "x": 126.71955660979035,
+        "y": 487.2355836659119,
+        "depth": 0.9905316151185813
+      },
+      "presets": [
+        {
+          "name": "angle",
+          "distance": 16.736146677017388,
+          "polarAngle": 1.5707963267948963,
+          "maxProjectedBounds": 0.8928571428571442,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 463.7077850609794,
+              "y": 366.6101955237957,
+              "depth": 0.9899580571556715,
+              "projectedRadius": 1.0719912211696778
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 467.3743092936199,
+              "y": 378.28565369381727,
+              "depth": 0.9899948093622354,
+              "projectedRadius": 0.7384766825320674
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 471.02782515065235,
+              "y": 389.84640744626995,
+              "depth": 0.9900327726131828,
+              "projectedRadius": 0.5351501701338971
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 474.6729202311359,
+              "y": 401.26010107423906,
+              "depth": 0.9900728519392007,
+              "projectedRadius": 0.3725970581354393
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 478.3065360956489,
+              "y": 412.52693665192953,
+              "depth": 0.9901148345995625,
+              "projectedRadius": 0.2669727471792114
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 481.9277373317774,
+              "y": 423.63671050666665,
+              "depth": 0.9901588443428994,
+              "projectedRadius": 0.20196598763475027
+            }
+          ]
+        },
+        {
+          "name": "front",
+          "distance": 16.468826382030123,
+          "polarAngle": 1.8623835227808727,
+          "maxProjectedBounds": 0.8928571428571439,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 463.41013631712383,
+              "y": 364.36598592639933,
+              "depth": 0.9898006374874844,
+              "projectedRadius": 0.9768501638194164
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 466.8523552594869,
+              "y": 376.71104470128284,
+              "depth": 0.9898011446619653,
+              "projectedRadius": 0.6711598316044062
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 470.2988680755674,
+              "y": 389.05167298687536,
+              "depth": 0.9898032175641484,
+              "projectedRadius": 0.48970241928675107
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 473.7510536548337,
+              "y": 401.3798661220353,
+              "depth": 0.9898078757454495,
+              "projectedRadius": 0.34327969726020235
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 477.20627473130713,
+              "y": 413.68857933415677,
+              "depth": 0.9898149278556891,
+              "projectedRadius": 0.2476354489265576
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 480.66286168374563,
+              "y": 425.9696275339522,
+              "depth": 0.9898245507291288,
+              "projectedRadius": 0.1886004294272929
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "distance": 17.105500823377824,
+          "polarAngle": 1.302720189296033,
+          "maxProjectedBounds": 0.8928571428571426,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 477.5785819923843,
+              "y": 359.83135332153165,
+              "depth": 0.9905673930908376,
+              "projectedRadius": 1.0486831385121382
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 482.2685614284894,
+              "y": 370.6845571919544,
+              "depth": 0.990591727844748,
+              "projectedRadius": 0.7215633219870244
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 487.0416142651915,
+              "y": 381.4321189862876,
+              "depth": 0.9906166025944829,
+              "projectedRadius": 0.5223314862922208
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 491.96328338655576,
+              "y": 392.03374284733604,
+              "depth": 0.9906424275345006,
+              "projectedRadius": 0.3633427270802126
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 497.01908967452863,
+              "y": 402.4946372193741,
+              "depth": 0.9906691133596393,
+              "projectedRadius": 0.2601466508536568
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 502.21881345288887,
+              "y": 412.80586520478846,
+              "depth": 0.9906967225003168,
+              "projectedRadius": 0.19668683859620834
+            }
+          ]
+        },
+        {
+          "name": "back",
+          "distance": 17.764371345383452,
+          "polarAngle": 1.0767990761809694,
+          "maxProjectedBounds": 0.8928571428571435,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 557.9698668022531,
+              "y": 368.76466367638693,
+              "depth": 0.990669393574579,
+              "projectedRadius": 0.9846715742728571
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 554.1880478759089,
+              "y": 379.7589087487021,
+              "depth": 0.9906971602732025,
+              "projectedRadius": 0.6794121679410966
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 550.410145618859,
+              "y": 390.7236077960449,
+              "depth": 0.990723488087259,
+              "projectedRadius": 0.4932482210041001
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 546.6250433685075,
+              "y": 401.6793407477263,
+              "depth": 0.9907475491869154,
+              "projectedRadius": 0.34418342251325024
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 542.832451616332,
+              "y": 412.6292563505358,
+              "depth": 0.9907695251886153,
+              "projectedRadius": 0.24724773274544962
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 539.0285456581831,
+              "y": 423.5824842106146,
+              "depth": 0.9907892870298471,
+              "projectedRadius": 0.18759843762300177
+            }
+          ]
+        },
+        {
+          "name": "side",
+          "distance": 17.091468131657415,
+          "polarAngle": 0.5244908790645239,
+          "maxProjectedBounds": 0.8928571428571428,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 471.1456891766058,
+              "y": 398.35026136652255,
+              "depth": 0.9899909033696017,
+              "projectedRadius": 1.0864792751178904
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 473.39577664662096,
+              "y": 400.0604758689516,
+              "depth": 0.9901223470685443,
+              "projectedRadius": 0.7410523183203326
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 475.548285005947,
+              "y": 401.60695892700966,
+              "depth": 0.9902512016201264,
+              "projectedRadius": 0.5318046807679936
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 477.5746451303103,
+              "y": 402.91304986515917,
+              "depth": 0.9903777059082258,
+              "projectedRadius": 0.36676575897212044
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 479.4843593261689,
+              "y": 404.00101184613555,
+              "depth": 0.9905018924538002,
+              "projectedRadius": 0.2603707989845677
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 481.2753006700494,
+              "y": 404.8630928746908,
+              "depth": 0.9906238512256591,
+              "projectedRadius": 0.19520350745360515
+            }
+          ]
+        },
+        {
+          "name": "player",
+          "distance": 22.50059762484947,
+          "polarAngle": 0.5266756835710135,
+          "maxProjectedBounds": 0.8928571428571432,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 539.4931321886543,
+              "y": 398.66337813000456,
+              "depth": 0.9929153437393125,
+              "projectedRadius": 0.7614531788514478
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 535.6481744805338,
+              "y": 402.57806117833843,
+              "depth": 0.9929786344879594,
+              "projectedRadius": 0.5198630146098593
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 531.7778384690417,
+              "y": 406.47608712350234,
+              "depth": 0.9930405809888905,
+              "projectedRadius": 0.3734407055773443
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 527.8309651295546,
+              "y": 410.38284179668193,
+              "depth": 0.9931009185951062,
+              "projectedRadius": 0.2578164534714994
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 523.8173290579674,
+              "y": 414.2947096172819,
+              "depth": 0.9931597491827112,
+              "projectedRadius": 0.18322645362124032
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 519.7280890658442,
+              "y": 418.2169543519086,
+              "depth": 0.9932170628529575,
+              "projectedRadius": 0.13752384622676642
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "slopeDegrees": 15.000000000000005,
+      "head": {
+        "x": 584.8803413906105,
+        "y": 446.07546496932093,
+        "depth": 0.9952257187104498
+      },
+      "nut": {
+        "x": 480.6764099145877,
+        "y": 486.09563403624657,
+        "depth": 0.9951039482923939
+      },
+      "body": {
+        "x": 84.77944357092154,
+        "y": 592.1759064539633,
+        "depth": 0.9953208124855166
+      },
+      "presets": [
+        {
+          "name": "angle",
+          "distance": 29.247243499875395,
+          "polarAngle": 1.5707963267948966,
+          "maxProjectedBounds": 0.8928571428571441,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 347.26180262555306,
+              "y": 498.77074410530685,
+              "depth": 0.9951301983869136,
+              "projectedRadius": 0.8174601048682432
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 350.0065566735408,
+              "y": 507.64711931104733,
+              "depth": 0.9951421783883683,
+              "projectedRadius": 0.563279358639234
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 352.7472481114331,
+              "y": 516.4595221520359,
+              "depth": 0.9951545862052776,
+              "projectedRadius": 0.4083136137039456
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 355.48679722888323,
+              "y": 525.1845503271935,
+              "depth": 0.9951677222364687,
+              "projectedRadius": 0.2843984193133868
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 358.2236795233608,
+              "y": 533.8238012999896,
+              "depth": 0.9951815225747184,
+              "projectedRadius": 0.2038727332066803
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 360.957625020536,
+              "y": 542.3709752912005,
+              "depth": 0.9951960339227282,
+              "projectedRadius": 0.1543167368378357
+            }
+          ]
+        },
+        {
+          "name": "front",
+          "distance": 29.011733465418207,
+          "polarAngle": 1.862383522780873,
+          "maxProjectedBounds": 0.8928571428571431,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 347.28207861296414,
+              "y": 497.1631568680344,
+              "depth": 0.9950868445632627,
+              "projectedRadius": 0.7359540213295701
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 349.8826471415068,
+              "y": 506.49185308944885,
+              "depth": 0.9950870074750676,
+              "projectedRadius": 0.5091105208340884
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 352.4848020274827,
+              "y": 515.8177494693019,
+              "depth": 0.9950876733823433,
+              "projectedRadius": 0.37049884658880405
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 355.0889730638162,
+              "y": 525.1368266479041,
+              "depth": 0.9950891701526293,
+              "projectedRadius": 0.2590713442969087
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 357.69406369411666,
+              "y": 534.4461701339932,
+              "depth": 0.9950914370846449,
+              "projectedRadius": 0.18644285724311038
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 360.2993278076036,
+              "y": 543.7421576335587,
+              "depth": 0.995094532232956,
+              "projectedRadius": 0.14167307032001017
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "distance": 26.934817737823277,
+          "polarAngle": 1.3027201892960332,
+          "maxProjectedBounds": 0.8928571428571431,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 354.60655180032495,
+              "y": 491.36169090876376,
+              "depth": 0.9946787436028385,
+              "projectedRadius": 0.8958121823650518
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 358.5920194935071,
+              "y": 500.62084959365757,
+              "depth": 0.9946887326827942,
+              "projectedRadius": 0.6167577823744751
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 362.6542803257765,
+              "y": 509.8038135615869,
+              "depth": 0.9946989592477276,
+              "projectedRadius": 0.4467346338102606
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 366.8496012135145,
+              "y": 518.8764706432709,
+              "depth": 0.9947095934232542,
+              "projectedRadius": 0.310946744080024
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 371.1663169091617,
+              "y": 527.843784376034,
+              "depth": 0.9947206002957641,
+              "projectedRadius": 0.22276964786737755
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 375.6134555010999,
+              "y": 536.6986057576654,
+              "depth": 0.9947320075215221,
+              "projectedRadius": 0.16853310446912345
+            }
+          ]
+        },
+        {
+          "name": "back",
+          "distance": 30.20644547468476,
+          "polarAngle": 1.0767990761809696,
+          "maxProjectedBounds": 0.8928571428571436,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 419.96381401627514,
+              "y": 500.080870358515,
+              "depth": 0.9953525838588684,
+              "projectedRadius": 0.7729771007253388
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 417.03861896253693,
+              "y": 508.6786849619316,
+              "depth": 0.9953621529728137,
+              "projectedRadius": 0.5331761189932582
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 414.10897556604993,
+              "y": 517.270507038833,
+              "depth": 0.9953712441434528,
+              "projectedRadius": 0.38694069813327037
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 411.1657889633766,
+              "y": 525.870689912295,
+              "depth": 0.9953795679124826,
+              "projectedRadius": 0.26988542935819426
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 408.2096894687887,
+              "y": 534.4797370833029,
+              "depth": 0.995387183165959,
+              "projectedRadius": 0.19377744559034804
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 405.2382174143783,
+              "y": 543.1027243602987,
+              "depth": 0.9953940416238606,
+              "projectedRadius": 0.14694344420580205
+            }
+          ]
+        },
+        {
+          "name": "side",
+          "distance": 29.97520986137327,
+          "polarAngle": 0.5244908790645241,
+          "maxProjectedBounds": 0.8928571428571425,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 353.2761040457224,
+              "y": 522.7919073472477,
+              "depth": 0.9952274217207372,
+              "projectedRadius": 0.8170970801151101
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 354.82907301324036,
+              "y": 524.1359511537692,
+              "depth": 0.9952694378563722,
+              "projectedRadius": 0.5599072841139233
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 356.32553938225635,
+              "y": 525.3673571052351,
+              "depth": 0.9953110192365495,
+              "projectedRadius": 0.40365023891651636
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 357.7422494790109,
+              "y": 526.4258250010845,
+              "depth": 0.995352225958272,
+              "projectedRadius": 0.2796449332708544
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 359.084965589186,
+              "y": 527.3257290359536,
+              "depth": 0.9953930527582575,
+              "projectedRadius": 0.1994131004755903
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 360.3506005421409,
+              "y": 528.058728908016,
+              "depth": 0.9954335138148975,
+              "projectedRadius": 0.15016619529694222
+            }
+          ]
+        },
+        {
+          "name": "player",
+          "distance": 22.50059762484947,
+          "polarAngle": 0.5266756835710135,
+          "maxProjectedBounds": 0.8928571428571432,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 420.6575095848723,
+              "y": 531.5511708400061,
+              "depth": 0.9929153437393125,
+              "projectedRadius": 1.0152709051353315
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 415.5308993073785,
+              "y": 536.7707482377846,
+              "depth": 0.9929786344879594,
+              "projectedRadius": 0.693150686146517
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 410.3704512920556,
+              "y": 541.9681161646698,
+              "depth": 0.9930405809888905,
+              "projectedRadius": 0.4979209407698911
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 405.1079535060727,
+              "y": 547.1771223955759,
+              "depth": 0.9931009185951062,
+              "projectedRadius": 0.34375527129545475
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 399.75643874395655,
+              "y": 552.3929461563758,
+              "depth": 0.9931597491827112,
+              "projectedRadius": 0.24430193816162304
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 394.30411875445884,
+              "y": 557.6226058025449,
+              "depth": 0.9932170628529575,
+              "projectedRadius": 0.18336512830242346
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "slopeDegrees": 15.000000000000002,
+      "head": {
+        "x": 298.28102763993206,
+        "y": 388.10542536159016,
+        "depth": 0.9977750026944746
+      },
+      "nut": {
+        "x": 244.37163074918863,
+        "y": 408.77091141174725,
+        "depth": 0.9977279378218639
+      },
+      "body": {
+        "x": 40.34162565005116,
+        "y": 463.440586509779,
+        "depth": 0.997812201777627
+      },
+      "presets": [
+        {
+          "name": "angle",
+          "distance": 47.065245128912736,
+          "polarAngle": 1.5707963267948966,
+          "maxProjectedBounds": 0.892857142857143,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 176.21098866989837,
+              "y": 415.23416344136973,
+              "depth": 0.9977380300935793,
+              "projectedRadius": 0.41857744693720444
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 177.6032281727741,
+              "y": 419.7723329934655,
+              "depth": 0.9977426457288702,
+              "projectedRadius": 0.28846348349876233
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 178.99485319004697,
+              "y": 424.2838087026722,
+              "depth": 0.9977474326393255,
+              "projectedRadius": 0.20913549172686643
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 180.3872149757221,
+              "y": 428.756975044845,
+              "depth": 0.9977525076572639,
+              "projectedRadius": 0.14569568981477618
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 181.77974849682406,
+              "y": 433.19306932122703,
+              "depth": 0.997757847279568,
+              "projectedRadius": 0.10446753536463581
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 183.17243877513164,
+              "y": 437.5893031875301,
+              "depth": 0.997763470816311,
+              "projectedRadius": 0.07909638641896587
+            }
+          ]
+        },
+        {
+          "name": "front",
+          "distance": 46.87503849846321,
+          "polarAngle": 1.8623835227808727,
+          "maxProjectedBounds": 0.8928571428571429,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 176.28434057210907,
+              "y": 414.4374449164505,
+              "depth": 0.9977255202006587,
+              "projectedRadius": 0.37634511408671595
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 177.6097319060859,
+              "y": 419.1923920395456,
+              "depth": 0.9977255825060419,
+              "projectedRadius": 0.26000115667200163
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 178.9355097908986,
+              "y": 423.9460515216785,
+              "depth": 0.9977258371929603,
+              "projectedRadius": 0.1889675758595829
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 180.2617370991074,
+              "y": 428.69689130198117,
+              "depth": 0.9977264097250883,
+              "projectedRadius": 0.131971029216487
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 181.5880822601407,
+              "y": 433.4440400034225,
+              "depth": 0.997727277033211,
+              "projectedRadius": 0.09486010881391642
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 182.914295292693,
+              "y": 438.1863064818502,
+              "depth": 0.9977284615600795,
+              "projectedRadius": 0.07199892499322673
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "distance": 40.93349325553899,
+          "polarAngle": 1.302720189296033,
+          "maxProjectedBounds": 0.8928571428571443,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 178.977805903078,
+              "y": 410.7501802494982,
+              "depth": 0.997158791782323,
+              "projectedRadius": 0.4884043026776457
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 181.14386010250414,
+              "y": 415.7944261290411,
+              "depth": 0.9971631628151995,
+              "projectedRadius": 0.3363866237119763
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 183.35368745899962,
+              "y": 420.80175163684225,
+              "depth": 0.9971676419543152,
+              "projectedRadius": 0.24374337223348555
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 185.63806365355256,
+              "y": 425.7536783401941,
+              "depth": 0.997172304122588,
+              "projectedRadius": 0.16971889498472895
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 187.99086864767142,
+              "y": 430.65310176537525,
+              "depth": 0.9971771345249195,
+              "projectedRadius": 0.12163612777766512
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 190.4172565672037,
+              "y": 435.4963062975481,
+              "depth": 0.9971821458252693,
+              "projectedRadius": 0.09205696487564047
+            }
+          ]
+        },
+        {
+          "name": "back",
+          "distance": 48.48106078483228,
+          "polarAngle": 1.0767990761809694,
+          "maxProjectedBounds": 0.8928571428571435,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 213.4459236101751,
+              "y": 415.88665076604184,
+              "depth": 0.9978641417727543,
+              "projectedRadius": 0.397189597453778
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 211.95480023778535,
+              "y": 420.2955633508452,
+              "depth": 0.9978678493670115,
+              "projectedRadius": 0.2739241420920487
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 210.45934986113141,
+              "y": 424.7061236965744,
+              "depth": 0.997871375517703,
+              "projectedRadius": 0.19875591393388353
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 208.95478593572588,
+              "y": 429.1252305157731,
+              "depth": 0.9978746072184876,
+              "projectedRadius": 0.1385968208924507
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 207.44165827651202,
+              "y": 433.5526143900712,
+              "depth": 0.9978775665205024,
+              "projectedRadius": 0.09948517766901722
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 205.91884430245736,
+              "y": 437.9903158559074,
+              "depth": 0.997880233926713,
+              "projectedRadius": 0.07541691149959237
+            }
+          ]
+        },
+        {
+          "name": "side",
+          "distance": 48.3239233577598,
+          "polarAngle": 0.5244908790645239,
+          "maxProjectedBounds": 0.8928571428571426,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 179.37709304139602,
+              "y": 427.48761669557877,
+              "depth": 0.99782249108128,
+              "projectedRadius": 0.4154966748472608
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 180.13144401330356,
+              "y": 428.18575025961724,
+              "depth": 0.9978385211450226,
+              "projectedRadius": 0.2853724374085923
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 180.8608772468491,
+              "y": 428.829499067994,
+              "depth": 0.9978544606849721,
+              "projectedRadius": 0.20620321618287643
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 181.55320720016593,
+              "y": 429.38757417933357,
+              "depth": 0.9978703310742633,
+              "projectedRadius": 0.14318181677139805
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 182.21108928504313,
+              "y": 429.8667112013843,
+              "depth": 0.9978861287654669,
+              "projectedRadius": 0.10233422939432986
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 182.83264103819374,
+              "y": 430.26204147138407,
+              "depth": 0.9979018577435809,
+              "projectedRadius": 0.07723641809829981
+            }
+          ]
+        },
+        {
+          "name": "player",
+          "distance": 35.269527870865076,
+          "polarAngle": 0.5266756835710135,
+          "maxProjectedBounds": 0.8928571428571452,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 214.1280571660758,
+              "y": 432.2018909011126,
+              "depth": 0.9962493300444051,
+              "projectedRadius": 0.5286622857216122
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 211.49512354231192,
+              "y": 434.95860763229666,
+              "depth": 0.9962747621531595,
+              "projectedRadius": 0.362160968122119
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 208.8301612968816,
+              "y": 437.7169809394176,
+              "depth": 0.9962997806203457,
+              "projectedRadius": 0.2610264694509512
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 206.09738355773163,
+              "y": 440.4941671189809,
+              "depth": 0.9963242705336243,
+              "projectedRadius": 0.1808004627707524
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 203.30373045615323,
+              "y": 443.2873062665329,
+              "depth": 0.996348264820776,
+              "projectedRadius": 0.12890782993132852
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 200.443049863614,
+              "y": 446.0996949092625,
+              "depth": 0.9963717514058936,
+              "projectedRadius": 0.09706189580774617
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "slopeDegrees": 14.999999999999986,
+      "head": {
+        "x": 244.85233421953453,
+        "y": 342.15331952859754,
+        "depth": 0.998041172510472
+      },
+      "nut": {
+        "x": 200.53370762298584,
+        "y": 359.139025776182,
+        "depth": 0.9979998772278218
+      },
+      "body": {
+        "x": 32.867257707995265,
+        "y": 404.06511562869696,
+        "depth": 0.99807385242464
+      },
+      "presets": [
+        {
+          "name": "angle",
+          "distance": 50.24801316681561,
+          "polarAngle": 1.5707963267948966,
+          "maxProjectedBounds": 0.8928571428571458,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 144.57205652909695,
+              "y": 364.4444685180063,
+              "depth": 0.9980087274333667,
+              "projectedRadius": 0.3437433450693456
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 145.71426387290583,
+              "y": 368.17070297004307,
+              "depth": 0.9980127759041205,
+              "projectedRadius": 0.23689471266679252
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 146.85609006943037,
+              "y": 371.87553267976966,
+              "depth": 0.9980169751917853,
+              "projectedRadius": 0.1717509852632264
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 147.99863266617453,
+              "y": 375.5494513498935,
+              "depth": 0.998021427873798,
+              "projectedRadius": 0.1196539653081059
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 149.14144623941615,
+              "y": 379.19351231262846,
+              "depth": 0.9980261134390931,
+              "projectedRadius": 0.08579705538269422
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 150.28452926784584,
+              "y": 382.8054647930873,
+              "depth": 0.9980310489475731,
+              "projectedRadius": 0.06496212813584251
+            }
+          ]
+        },
+        {
+          "name": "front",
+          "distance": 50.06589892681962,
+          "polarAngle": 1.862383522780873,
+          "maxProjectedBounds": 0.892857142857143,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 144.6376351947642,
+              "y": 363.7924319204032,
+              "depth": 0.9979984055527542,
+              "projectedRadius": 0.30901895720291545
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 145.72554219006682,
+              "y": 367.69543050389393,
+              "depth": 0.997998460160382,
+              "projectedRadius": 0.2134593067829837
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 146.81373064871474,
+              "y": 371.5973839942826,
+              "depth": 0.997998683382092,
+              "projectedRadius": 0.155120425214937
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 147.90223890520923,
+              "y": 375.49707869875505,
+              "depth": 0.9979991851871278,
+              "projectedRadius": 0.1083189186491386
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 148.99081407504454,
+              "y": 379.39385154114626,
+              "depth": 0.99799994536968,
+              "projectedRadius": 0.07784940551906476
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 150.07926200224125,
+              "y": 383.28678051026446,
+              "depth": 0.9980009836214891,
+              "projectedRadius": 0.05908072995136172
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "distance": 43.43402827278528,
+          "polarAngle": 1.3027201892960332,
+          "maxProjectedBounds": 0.8928571428571416,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 146.75342362910249,
+              "y": 360.69905185379855,
+              "depth": 0.9974350577948309,
+              "projectedRadius": 0.40380462280879664
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 148.54364989951878,
+              "y": 364.86918958916203,
+              "depth": 0.9974389445859646,
+              "projectedRadius": 0.2781304443177008
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 150.37024205646003,
+              "y": 369.00922788626633,
+              "depth": 0.9974429279220673,
+              "projectedRadius": 0.20153958817235268
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 152.25865426071366,
+              "y": 373.10390081177377,
+              "depth": 0.9974470744739956,
+              "projectedRadius": 0.1403381353292772
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 154.20384900033054,
+              "y": 377.1556205650156,
+              "depth": 0.997451371134418,
+              "projectedRadius": 0.10058337608049507
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 156.21010938815104,
+              "y": 381.1613327871816,
+              "depth": 0.997455829221116,
+              "projectedRadius": 0.0761269924415906
+            }
+          ]
+        },
+        {
+          "name": "back",
+          "distance": 51.74539214617421,
+          "polarAngle": 1.0767990761809694,
+          "maxProjectedBounds": 0.8928571428571451,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 175.1507567911092,
+              "y": 364.97873517313553,
+              "depth": 0.9981256744811561,
+              "projectedRadius": 0.32629828415443796
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 173.92679535989635,
+              "y": 368.5999634272439,
+              "depth": 0.9981289283953201,
+              "projectedRadius": 0.22502971533183858
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 172.699105647214,
+              "y": 372.2229492847978,
+              "depth": 0.9981320234102559,
+              "projectedRadius": 0.16327546094759565
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 171.46374535364538,
+              "y": 375.85332004339415,
+              "depth": 0.9981348602699665,
+              "projectedRadius": 0.11385274756913297
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 170.22118514741575,
+              "y": 379.4908096648619,
+              "depth": 0.9981374582576125,
+              "projectedRadius": 0.08172147771093807
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 168.97051462285933,
+              "y": 383.13704621443196,
+              "depth": 0.9981398001896267,
+              "projectedRadius": 0.06194870646828884
+            }
+          ]
+        },
+        {
+          "name": "side",
+          "distance": 51.60149062196773,
+          "polarAngle": 0.5244908790645239,
+          "maxProjectedBounds": 0.892857142857142,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 147.17943333880876,
+              "y": 374.5032819975919,
+              "depth": 0.9980901576528453,
+              "projectedRadius": 0.3409681733177784
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 147.7954757281541,
+              "y": 375.0774358485535,
+              "depth": 0.9981042037006066,
+              "projectedRadius": 0.23424039800623184
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 148.3913788123397,
+              "y": 375.6072126231563,
+              "depth": 0.9981181772737916,
+              "projectedRadius": 0.16929656830255801
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 148.9571146159848,
+              "y": 376.0668842111778,
+              "depth": 0.9981320970117568,
+              "projectedRadius": 0.11758269775899165
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 149.49484110824406,
+              "y": 376.4619304151878,
+              "depth": 0.9981459597172212,
+              "projectedRadius": 0.08405801118790442
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 150.00298883397608,
+              "y": 376.78830312336896,
+              "depth": 0.9981597688017636,
+              "projectedRadius": 0.06345748082298942
+            }
+          ]
+        },
+        {
+          "name": "player",
+          "distance": 37.78198192251218,
+          "polarAngle": 0.5266756835710135,
+          "maxProjectedBounds": 0.8928571428571451,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 175.6417960346795,
+              "y": 378.34250416849784,
+              "depth": 0.9966366762657408,
+              "projectedRadius": 0.4322038209822094
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 173.4927547942262,
+              "y": 380.59993972210395,
+              "depth": 0.9966588054109529,
+              "projectedRadius": 0.29619906823334374
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 171.31617182079168,
+              "y": 382.86001319844746,
+              "depth": 0.9966805874982915,
+              "projectedRadius": 0.21356778495813172
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 169.08275218951485,
+              "y": 385.13671542659654,
+              "depth": 0.9967019217717412,
+              "projectedRadius": 0.147984969000854
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 166.7981728973608,
+              "y": 387.4276837721441,
+              "depth": 0.996722836158584,
+              "projectedRadius": 0.10555090885724301
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 164.4573918969061,
+              "y": 389.7355871245188,
+              "depth": 0.9967433194054315,
+              "projectedRadius": 0.07950490318333184
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 930,
+      "height": 520,
+      "slopeDegrees": 14.999999999999993,
+      "head": {
+        "x": 697.9114974587328,
+        "y": 183.56354003098104,
+        "depth": 0.9865301730019097
+      },
+      "nut": {
+        "x": 579.7376692479962,
+        "y": 229.25613418357023,
+        "depth": 0.9858803815080489
+      },
+      "body": {
+        "x": 124.2046039212622,
+        "y": 351.3158511635424,
+        "depth": 0.9870171417574005
+      },
+      "presets": [
+        {
+          "name": "angle",
+          "distance": 12.64265416815601,
+          "polarAngle": 1.5707963267948966,
+          "maxProjectedBounds": 0.8928571428571437,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 421.6190443723844,
+              "y": 244.37871741216026,
+              "depth": 0.9860230377825802,
+              "projectedRadius": 0.9612332382459327
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 424.95261459048277,
+              "y": 254.87190841721932,
+              "depth": 0.9860876642440946,
+              "projectedRadius": 0.6620515637022101
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 428.2690930519782,
+              "y": 265.2412118389798,
+              "depth": 0.9861542852214044,
+              "projectedRadius": 0.4796585573286485
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 431.5731330369001,
+              "y": 275.4566364674337,
+              "depth": 0.9862244712154351,
+              "projectedRadius": 0.33386213455664565
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 434.861299418865,
+              "y": 285.51725772957593,
+              "depth": 0.9862978273145768,
+              "projectedRadius": 0.2391323812896661
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 438.132393539167,
+              "y": 295.41281715460633,
+              "depth": 0.9863745469134186,
+              "projectedRadius": 0.18082713454957877
+            }
+          ]
+        },
+        {
+          "name": "front",
+          "distance": 12.364925907741851,
+          "polarAngle": 1.8623835227808727,
+          "maxProjectedBounds": 0.8928571428571438,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 421.1273908237341,
+              "y": 242.27211684242786,
+              "depth": 0.9857310089011162,
+              "projectedRadius": 0.88724373287516
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 424.23599364760247,
+              "y": 253.4187703077981,
+              "depth": 0.9857319108100537,
+              "projectedRadius": 0.6060491318362666
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 427.34999859493047,
+              "y": 264.56091924311465,
+              "depth": 0.9857355967943151,
+              "projectedRadius": 0.44177515829569614
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 430.4712119548614,
+              "y": 275.68947045403985,
+              "depth": 0.9857438783352461,
+              "projectedRadius": 0.3102773605148722
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 433.5964250024238,
+              "y": 286.7958524271785,
+              "depth": 0.9857564119074013,
+              "projectedRadius": 0.2242375348540071
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 436.723652320431,
+              "y": 297.8703303459106,
+              "depth": 0.9857735066539608,
+              "projectedRadius": 0.17107567196219733
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "distance": 13.889457040310418,
+          "polarAngle": 1.3027201892960332,
+          "maxProjectedBounds": 0.8928571428571429,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 436.4494654142178,
+              "y": 239.95353408356104,
+              "depth": 0.9879943714471838,
+              "projectedRadius": 0.8696317280697518
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 440.35133032429025,
+              "y": 248.96091251784154,
+              "depth": 0.9880308725310069,
+              "projectedRadius": 0.5981337784266219
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 444.31851986436516,
+              "y": 257.8721548444657,
+              "depth": 0.9880681474886778,
+              "projectedRadius": 0.432818377372893
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 448.4052299531543,
+              "y": 266.65369070886493,
+              "depth": 0.9881068077585998,
+              "projectedRadius": 0.3009607686417034
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 452.599042630628,
+              "y": 275.3095641544229,
+              "depth": 0.9881467155856869,
+              "projectedRadius": 0.21539935115230982
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 456.9076785204599,
+              "y": 283.83211081914146,
+              "depth": 0.9881879601991801,
+              "projectedRadius": 0.16279155487924057
+            }
+          ]
+        },
+        {
+          "name": "back",
+          "distance": 14.031156549348317,
+          "polarAngle": 1.0767990761809694,
+          "maxProjectedBounds": 0.8928571428571431,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 504.4654099386137,
+              "y": 246.92037120423964,
+              "depth": 0.9876328502196798,
+              "projectedRadius": 0.8434809060165543
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 501.194932935155,
+              "y": 256.36138619487446,
+              "depth": 0.9876774611950091,
+              "projectedRadius": 0.5821159933835294
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 497.9332215517282,
+              "y": 265.76488481380227,
+              "depth": 0.9877197063748291,
+              "projectedRadius": 0.42271316563005973
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 494.67098091001117,
+              "y": 275.1498259870626,
+              "depth": 0.9877582685093169,
+              "projectedRadius": 0.29504797036617975
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 491.407327549846,
+              "y": 284.52033848507386,
+              "depth": 0.9877934506616428,
+              "projectedRadius": 0.21201901948078222
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 488.13857850806295,
+              "y": 293.8857454645989,
+              "depth": 0.9878250569537376,
+              "projectedRadius": 0.16092755332680764
+            }
+          ]
+        },
+        {
+          "name": "side",
+          "distance": 15.233571791886353,
+          "polarAngle": 0.5244908790645239,
+          "maxProjectedBounds": 0.8928571428571436,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 433.8681003911737,
+              "y": 270.9352204753673,
+              "depth": 0.9884841296137664,
+              "projectedRadius": 0.8279153743822145
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 435.62304750556683,
+              "y": 272.22166373666687,
+              "depth": 0.9886503924476869,
+              "projectedRadius": 0.5639430459677034
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 437.29828834114477,
+              "y": 273.3805199416517,
+              "depth": 0.9888129383690294,
+              "projectedRadius": 0.40417751715680417
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 438.8726609260068,
+              "y": 274.3541778616619,
+              "depth": 0.9889720956070611,
+              "projectedRadius": 0.27838867727536026
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 440.3538891400193,
+              "y": 275.16030885617374,
+              "depth": 0.9891279299367477,
+              "projectedRadius": 0.19738185309633446
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 441.74085149757764,
+              "y": 275.79373552792526,
+              "depth": 0.9892805779116421,
+              "projectedRadius": 0.14779626996766462
+            }
+          ]
+        },
+        {
+          "name": "player",
+          "distance": 22.50059762484947,
+          "polarAngle": 0.5266756835710135,
+          "maxProjectedBounds": 0.8928571428571432,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 483.615141586068,
+              "y": 269.9283289421906,
+              "depth": 0.9929153437393125,
+              "projectedRadius": 0.5155672565140231
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 481.01178480452813,
+              "y": 272.5788955895,
+              "depth": 0.9929786344879594,
+              "projectedRadius": 0.35199058280875195
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 478.391244796747,
+              "y": 275.2181839898714,
+              "depth": 0.9930405809888905,
+              "projectedRadius": 0.25285047773467223
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 475.71888263980253,
+              "y": 277.86338246650337,
+              "depth": 0.9931009185951062,
+              "projectedRadius": 0.17456322370468005
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 473.00131654966543,
+              "y": 280.5120429700346,
+              "depth": 0.9931597491827112,
+              "projectedRadius": 0.12405957797270556
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 470.2325603049986,
+              "y": 283.1677295091048,
+              "depth": 0.9932170628529575,
+              "projectedRadius": 0.09311510421610956
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 900,
+      "height": 540,
+      "slopeDegrees": 14.999999999999996,
+      "head": {
+        "x": 676.527777710118,
+        "y": 195.65853724813184,
+        "depth": 0.9875115551779702
+      },
+      "nut": {
+        "x": 561.2964091127042,
+        "y": 240.17821705776726,
+        "depth": 0.9869430965594482
+      },
+      "body": {
+        "x": 117.88219047784708,
+        "y": 358.99069885345443,
+        "depth": 0.9879395605771062
+      },
+      "presets": [
+        {
+          "name": "angle",
+          "distance": 13.519007493996755,
+          "polarAngle": 1.5707963267948966,
+          "maxProjectedBounds": 0.8928571428571436,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 407.89558471445855,
+              "y": 254.83839371780687,
+              "depth": 0.9870676379471706,
+              "projectedRadius": 0.9333946639998294
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 411.12078063947274,
+              "y": 265.0214927763944,
+              "depth": 0.9871241058215768,
+              "projectedRadius": 0.6429098072960701
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 414.33079415600656,
+              "y": 275.0897154328671,
+              "depth": 0.9871823476933844,
+              "projectedRadius": 0.4658182243836432
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 417.5300027331559,
+              "y": 285.014178397461,
+              "depth": 0.9872437405709873,
+              "projectedRadius": 0.32425420412632583
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 420.7152467609806,
+              "y": 294.79425395051163,
+              "depth": 0.9873079441177967,
+              "projectedRadius": 0.23227281777019054
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 423.8854520075433,
+              "y": 304.42024932441245,
+              "depth": 0.9873751327918716,
+              "projectedRadius": 0.17566010103478558
+            }
+          ]
+        },
+        {
+          "name": "front",
+          "distance": 13.243507417730326,
+          "polarAngle": 1.8623835227808727,
+          "maxProjectedBounds": 0.8928571428571435,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 407.47640124653617,
+              "y": 252.81722003101814,
+              "depth": 0.9868154146357482,
+              "projectedRadius": 0.8586072719750475
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 410.4892736945341,
+              "y": 263.62110870864575,
+              "depth": 0.986816200335397,
+              "projectedRadius": 0.5868427013434004
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 413.5069883017028,
+              "y": 274.4207615692556,
+              "depth": 0.986819411447787,
+              "projectedRadius": 0.4282888554015343
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 416.5311510126751,
+              "y": 285.20784675763525,
+              "depth": 0.9868266264168284,
+              "projectedRadius": 0.3006517506712668
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 419.55886572628225,
+              "y": 295.97462683077975,
+              "depth": 0.9868375467330578,
+              "projectedRadius": 0.21717559717935547
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 422.5883317955073,
+              "y": 306.7122706935268,
+              "depth": 0.9868524429410308,
+              "projectedRadius": 0.16561208467528027
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "distance": 14.577962188234707,
+          "polarAngle": 1.3027201892960332,
+          "maxProjectedBounds": 0.8928571428571435,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 421.7140008811399,
+              "y": 250.13927495665763,
+              "depth": 0.9886381535587607,
+              "projectedRadius": 0.8616209907612726
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 425.57678804752703,
+              "y": 259.06188541265004,
+              "depth": 0.9886713805869917,
+              "projectedRadius": 0.5926810555072692
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 429.5051834759605,
+              "y": 267.8913600105873,
+              "depth": 0.9887053202900083,
+              "projectedRadius": 0.4289133029736844
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 433.552921647358,
+              "y": 276.59447356691436,
+              "depth": 0.9887405301249894,
+              "projectedRadius": 0.2982738831971513
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 437.7077997193479,
+              "y": 285.175298421753,
+              "depth": 0.9887768855465808,
+              "projectedRadius": 0.21349688270926429
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 441.9775624556351,
+              "y": 293.6263006950895,
+              "depth": 0.988814468770915,
+              "projectedRadius": 0.16136947854194453
+            }
+          ]
+        },
+        {
+          "name": "back",
+          "distance": 14.705839873940073,
+          "polarAngle": 1.0767990761809694,
+          "maxProjectedBounds": 0.8928571428571433,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 489.090372244018,
+              "y": 257.0446662220122,
+              "depth": 0.9882965329316871,
+              "projectedRadius": 0.8358686411727655
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 485.85611606803604,
+              "y": 266.39544686663504,
+              "depth": 0.9883371239122236,
+              "projectedRadius": 0.5768354259548463
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 482.62936866853363,
+              "y": 275.71169606428333,
+              "depth": 0.9883755730189577,
+              "projectedRadius": 0.41885658287706035
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 479.40087190974157,
+              "y": 285.01190994161607,
+              "depth": 0.9884106791519319,
+              "projectedRadius": 0.2923381328193626
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 476.16988985494083,
+              "y": 294.29986738146795,
+              "depth": 0.9884427158184486,
+              "projectedRadius": 0.21005703340342297
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 472.9328623655392,
+              "y": 303.5844804218437,
+              "depth": 0.988471502509641,
+              "projectedRadius": 0.15942570833312777
+            }
+          ]
+        },
+        {
+          "name": "side",
+          "distance": 15.233571791886353,
+          "polarAngle": 0.5244908790645239,
+          "maxProjectedBounds": 0.8928571428571436,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 417.67071963698805,
+              "y": 281.35580587826604,
+              "depth": 0.9884841296137664,
+              "projectedRadius": 0.8597582733969328
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 419.49316471731936,
+              "y": 282.69172772653866,
+              "depth": 0.9886503924476869,
+              "projectedRadius": 0.5856331631203251
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 421.2328378927272,
+              "y": 283.89515532402294,
+              "depth": 0.9888129383690294,
+              "projectedRadius": 0.4197228062782271
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 422.8677632693147,
+              "y": 284.906261625572,
+              "depth": 0.9889720956070611,
+              "projectedRadius": 0.289095934093687
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 424.4059617992508,
+              "y": 285.7433976583343,
+              "depth": 0.9891279299367477,
+              "projectedRadius": 0.20497346283077775
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 425.8462688628691,
+              "y": 286.40118689438395,
+              "depth": 0.9892805779116421,
+              "projectedRadius": 0.15348074188943825
+            }
+          ]
+        },
+        {
+          "name": "player",
+          "distance": 22.50059762484947,
+          "polarAngle": 0.5266756835710135,
+          "maxProjectedBounds": 0.8928571428571432,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 469.33110857014753,
+              "y": 280.3101877476595,
+              "depth": 0.9929153437393125,
+              "projectedRadius": 0.5353967663799685
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 466.6276226816254,
+              "y": 283.0626992660192,
+              "depth": 0.9929786344879594,
+              "projectedRadius": 0.3655286821475541
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 463.90629267354495,
+              "y": 285.8034987587126,
+              "depth": 0.9930405809888905,
+              "projectedRadius": 0.26257549610906367
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 461.13114735671803,
+              "y": 288.55043563829196,
+              "depth": 0.9931009185951062,
+              "projectedRadius": 0.18127719384719315
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 458.3090594938833,
+              "y": 291.3009676996513,
+              "depth": 0.9931597491827112,
+              "projectedRadius": 0.1288311002024929
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 455.43381262442165,
+              "y": 294.0587960286858,
+              "depth": 0.9932170628529575,
+              "projectedRadius": 0.09669645437824055
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 640,
+      "height": 480,
+      "slopeDegrees": 14.999999999999982,
+      "head": {
+        "x": 483.32649718264486,
+        "y": 186.39981538054735,
+        "depth": 0.9902484405200843
+      },
+      "nut": {
+        "x": 399.6544919253037,
+        "y": 218.65664321510377,
+        "depth": 0.989877189031994
+      },
+      "body": {
+        "x": 79.19972288111896,
+        "y": 304.5222397911949,
+        "depth": 0.9905316151185813
+      },
+      "presets": [
+        {
+          "name": "angle",
+          "distance": 16.736146677017388,
+          "polarAngle": 1.5707963267948963,
+          "maxProjectedBounds": 0.8928571428571442,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 289.8173656631121,
+              "y": 229.1313722023723,
+              "depth": 0.9899580571556715,
+              "projectedRadius": 0.6699945132310803
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 292.10894330851244,
+              "y": 236.42853355863576,
+              "depth": 0.9899948093622354,
+              "projectedRadius": 0.46154792658255445
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 294.39239071915773,
+              "y": 243.6540046539187,
+              "depth": 0.9900327726131828,
+              "projectedRadius": 0.33446885633370865
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 296.6705751444599,
+              "y": 250.78756317139943,
+              "depth": 0.9900728519392007,
+              "projectedRadius": 0.23287316133463412
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 298.94158505978055,
+              "y": 257.82933540745597,
+              "depth": 0.9901148345995625,
+              "projectedRadius": 0.16685796698703306
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 301.20483583236086,
+              "y": 264.7729440666667,
+              "depth": 0.9901588443428994,
+              "projectedRadius": 0.12622874227168765
+            }
+          ]
+        },
+        {
+          "name": "front",
+          "distance": 16.468826382030123,
+          "polarAngle": 1.8623835227808727,
+          "maxProjectedBounds": 0.8928571428571439,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 289.6313351982024,
+              "y": 227.7287412039996,
+              "depth": 0.9898006374874844,
+              "projectedRadius": 0.6105313523871635
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 291.7827220371793,
+              "y": 235.44440293830178,
+              "depth": 0.9898011446619653,
+              "projectedRadius": 0.419474894752759
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 293.93679254722963,
+              "y": 243.15729561679711,
+              "depth": 0.9898032175641484,
+              "projectedRadius": 0.3060640120542141
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 296.09440853427105,
+              "y": 250.8624163262721,
+              "depth": 0.9898078757454495,
+              "projectedRadius": 0.2145498107875805
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 298.253921707067,
+              "y": 258.555362083848,
+              "depth": 0.9898149278556891,
+              "projectedRadius": 0.15477215557901244
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 300.414288552341,
+              "y": 266.2310172087201,
+              "depth": 0.9898245507291288,
+              "projectedRadius": 0.11787526839204998
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "distance": 17.105500823377824,
+          "polarAngle": 1.302720189296033,
+          "maxProjectedBounds": 0.8928571428571426,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 298.48661374524016,
+              "y": 224.89459582595725,
+              "depth": 0.9905673930908376,
+              "projectedRadius": 0.6554269615701143
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 301.41785089280586,
+              "y": 231.6778482449715,
+              "depth": 0.990591727844748,
+              "projectedRadius": 0.4509770762418886
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 304.4010089157447,
+              "y": 238.39507436642978,
+              "depth": 0.9906166025944829,
+              "projectedRadius": 0.3264571789326294
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 307.47705211659735,
+              "y": 245.02108927958506,
+              "depth": 0.9906424275345006,
+              "projectedRadius": 0.2270892044251331
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 310.6369310465804,
+              "y": 251.5591482621088,
+              "depth": 0.9906691133596393,
+              "projectedRadius": 0.1625916567835646
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 313.8867584080555,
+              "y": 258.0036657529928,
+              "depth": 0.9906967225003168,
+              "projectedRadius": 0.1229292741226302
+            }
+          ]
+        },
+        {
+          "name": "back",
+          "distance": 17.764371345383452,
+          "polarAngle": 1.0767990761809694,
+          "maxProjectedBounds": 0.8928571428571435,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 348.7311667514082,
+              "y": 230.47791479774185,
+              "depth": 0.990669393574579,
+              "projectedRadius": 0.6154197339204995
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 346.36752992244305,
+              "y": 237.34931796793882,
+              "depth": 0.9906971602732025,
+              "projectedRadius": 0.42463260496319394
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 344.0063410117869,
+              "y": 244.20225487252807,
+              "depth": 0.990723488087259,
+              "projectedRadius": 0.3082801381275759
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 341.64065210531714,
+              "y": 251.04958796732893,
+              "depth": 0.9907475491869154,
+              "projectedRadius": 0.21511463907075817
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 339.2702822602075,
+              "y": 257.8932852190849,
+              "depth": 0.9907695251886153,
+              "projectedRadius": 0.1545298329659376
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 336.8928410363645,
+              "y": 264.73905263163414,
+              "depth": 0.9907892870298471,
+              "projectedRadius": 0.1172490235143679
+            }
+          ]
+        },
+        {
+          "name": "side",
+          "distance": 17.091468131657415,
+          "polarAngle": 0.5244908790645239,
+          "maxProjectedBounds": 0.8928571428571428,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 294.46605573537863,
+              "y": 248.96891335407662,
+              "depth": 0.9899909033696017,
+              "projectedRadius": 0.6790495469486709
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 295.8723604041381,
+              "y": 250.03779741809473,
+              "depth": 0.9901223470685443,
+              "projectedRadius": 0.4631576989502657
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 297.21767812871684,
+              "y": 251.00434932938103,
+              "depth": 0.9902512016201264,
+              "projectedRadius": 0.33237792548002354
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 298.4841532064439,
+              "y": 251.82065616572447,
+              "depth": 0.9903777059082258,
+              "projectedRadius": 0.2292285993575899
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 299.67772457885553,
+              "y": 252.50063240383471,
+              "depth": 0.9905018924538002,
+              "projectedRadius": 0.16273174936537702
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 300.79706291878085,
+              "y": 253.03943304668172,
+              "depth": 0.9906238512256591,
+              "projectedRadius": 0.12200219215854263
+            }
+          ]
+        },
+        {
+          "name": "player",
+          "distance": 22.50059762484947,
+          "polarAngle": 0.5266756835710135,
+          "maxProjectedBounds": 0.8928571428571432,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 337.1832076179089,
+              "y": 249.16461133125284,
+              "depth": 0.9929153437393125,
+              "projectedRadius": 0.47590823678215605
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 334.78010905033364,
+              "y": 251.61128823646152,
+              "depth": 0.9929786344879594,
+              "projectedRadius": 0.3249143841311876
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 332.3611490431511,
+              "y": 254.047554452189,
+              "depth": 0.9930405809888905,
+              "projectedRadius": 0.23340044098583856
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 329.8943532059716,
+              "y": 256.4892761229262,
+              "depth": 0.9931009185951062,
+              "projectedRadius": 0.16113528341966613
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 327.38583066122965,
+              "y": 258.93419351080115,
+              "depth": 0.9931597491827112,
+              "projectedRadius": 0.1145165335132355
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 324.8300556661526,
+              "y": 261.3855964699429,
+              "depth": 0.9932170628529575,
+              "projectedRadius": 0.08595240389180833
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 358,
+      "height": 420,
+      "slopeDegrees": 14.999999999999993,
+      "head": {
+        "x": 272.2313968582478,
+        "y": 179.40349441068804,
+        "depth": 0.9943342691466767
+      },
+      "nut": {
+        "x": 223.9752073663267,
+        "y": 197.94892950677067,
+        "depth": 0.9941779829786515
+      },
+      "body": {
+        "x": 40.38342997909667,
+        "y": 247.14219799467338,
+        "depth": 0.9944558042953201
+      },
+      "presets": [
+        {
+          "name": "angle",
+          "distance": 25.8124331989471,
+          "polarAngle": 1.5707963267948966,
+          "maxProjectedBounds": 0.8928571428571432,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 161.91760692468162,
+              "y": 203.8487088252103,
+              "depth": 0.9942117362392049,
+              "projectedRadius": 0.3799385981429121
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 163.19753480528234,
+              "y": 207.97648490847672,
+              "depth": 0.9942271290792176,
+              "projectedRadius": 0.26178850676991006
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 164.47509915674542,
+              "y": 212.0725892330241,
+              "depth": 0.9942430640512387,
+              "projectedRadius": 0.18975672141873695
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 165.75170405406385,
+              "y": 216.1260331240546,
+              "depth": 0.9942599258706619,
+              "projectedRadius": 0.1321600967747963
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 167.0265730235535,
+              "y": 220.13743181268697,
+              "depth": 0.9942776311437314,
+              "projectedRadius": 0.09473186492434803
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 168.29954244381682,
+              "y": 224.10372552017776,
+              "depth": 0.9942962383745926,
+              "projectedRadius": 0.07169800441306665
+            }
+          ]
+        },
+        {
+          "name": "front",
+          "distance": 25.568189940529535,
+          "polarAngle": 1.8623835227808727,
+          "maxProjectedBounds": 0.8928571428571438,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 161.9067757756104,
+              "y": 203.09303258854095,
+              "depth": 0.9941532855380758,
+              "projectedRadius": 0.3422151465634177
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 163.11746401861933,
+              "y": 207.43581098274538,
+              "depth": 0.9941534954051511,
+              "projectedRadius": 0.23684478881044224
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 164.32902711464232,
+              "y": 211.77724090440654,
+              "depth": 0.9941543532297346,
+              "projectedRadius": 0.17244001968524986
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 165.54171555277327,
+              "y": 216.11528432219524,
+              "depth": 0.994156281294175,
+              "projectedRadius": 0.1206318531753529
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 166.7549452870192,
+              "y": 220.44838618141705,
+              "depth": 0.9941592012277978,
+              "projectedRadius": 0.08685050450006344
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 167.96832674627728,
+              "y": 224.77464894408882,
+              "depth": 0.9941631875324711,
+              "projectedRadius": 0.06602213717573902
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "distance": 24.23626624654695,
+          "polarAngle": 1.3027201892960332,
+          "maxProjectedBounds": 0.892857142857143,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 165.62368927611405,
+              "y": 200.60796020444357,
+              "depth": 0.9938766752209075,
+              "projectedRadius": 0.4076367505585192
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 167.43911492854727,
+              "y": 204.8223728357757,
+              "depth": 0.9938889703634997,
+              "projectedRadius": 0.280620106917546
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 169.28896922973865,
+              "y": 209.0008660093848,
+              "depth": 0.9939015540119683,
+              "projectedRadius": 0.20323680796055366
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 171.19883061877636,
+              "y": 213.127887164667,
+              "depth": 0.993914635139211,
+              "projectedRadius": 0.14144472779829978
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 173.1633272579845,
+              "y": 217.20564655862387,
+              "depth": 0.9939281703425935,
+              "projectedRadius": 0.10132213805234468
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 175.1865061558222,
+              "y": 221.23084495992163,
+              "depth": 0.9939421931637681,
+              "projectedRadius": 0.07664438486038791
+            }
+          ]
+        },
+        {
+          "name": "back",
+          "distance": 26.68361287989461,
+          "polarAngle": 1.0767990761809694,
+          "maxProjectedBounds": 0.8928571428571441,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 195.70543247109973,
+              "y": 204.46348445551465,
+              "depth": 0.9944714590427027,
+              "projectedRadius": 0.35882225916562893
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 194.34373378712763,
+              "y": 208.457521065724,
+              "depth": 0.994483729880299,
+              "projectedRadius": 0.24751923092995065
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 192.98062185825,
+              "y": 212.44727575501682,
+              "depth": 0.9944953834994696,
+              "projectedRadius": 0.1796438276854129
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 191.6119089051266,
+              "y": 216.43956550869848,
+              "depth": 0.9945060497152649,
+              "projectedRadius": 0.125309215010149
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 190.23781436641497,
+              "y": 220.43479358434863,
+              "depth": 0.9945158049299992,
+              "projectedRadius": 0.08998045673111343
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 188.85715042184208,
+              "y": 224.43549741330986,
+              "depth": 0.9945245881501072,
+              "projectedRadius": 0.06824057578447594
+            }
+          ]
+        },
+        {
+          "name": "side",
+          "distance": 26.438093217301237,
+          "polarAngle": 0.5244908790645239,
+          "maxProjectedBounds": 0.8928571428571428,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 164.6850029656008,
+              "y": 215.02820742204258,
+              "depth": 0.9943063036453004,
+              "projectedRadius": 0.3807026625965837
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 165.42001989284694,
+              "y": 215.64966534400398,
+              "depth": 0.9943604764497592,
+              "projectedRadius": 0.2606593196819182
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 166.12740555444134,
+              "y": 216.21773877371703,
+              "depth": 0.9944139989087657,
+              "projectedRadius": 0.1877634515167426
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 166.79645472529597,
+              "y": 216.70454266007937,
+              "depth": 0.9944669512074832,
+              "projectedRadius": 0.12997620907405386
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 167.42995192140538,
+              "y": 217.11696475556684,
+              "depth": 0.9945193291994779,
+              "projectedRadius": 0.09261136119614916
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 168.0265692562594,
+              "y": 217.451324496363,
+              "depth": 0.9945711536295919,
+              "projectedRadius": 0.06968491159238396
+            }
+          ]
+        },
+        {
+          "name": "player",
+          "distance": 22.50059762484947,
+          "polarAngle": 0.5266756835710135,
+          "maxProjectedBounds": 0.8928571428571432,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 194.03530666567028,
+              "y": 218.01903491484623,
+              "depth": 0.9929153437393125,
+              "projectedRadius": 0.4164197071844178
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 191.93259541904195,
+              "y": 220.15987720690384,
+              "depth": 0.9929786344879594,
+              "projectedRadius": 0.28430008611479274
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 189.8160054127572,
+              "y": 222.29161014566535,
+              "depth": 0.9930405809888905,
+              "projectedRadius": 0.2042253858626083
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 187.65755905522514,
+              "y": 224.42811660756044,
+              "depth": 0.9931009185951062,
+              "projectedRadius": 0.14099337299227052
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 185.4626018285759,
+              "y": 226.56741932195104,
+              "depth": 0.9931597491827112,
+              "projectedRadius": 0.10020196682410351
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 183.2262987078835,
+              "y": 228.71239691120005,
+              "depth": 0.9932170628529575,
+              "projectedRadius": 0.07520835340531985
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "width": 288,
+      "height": 400,
+      "slopeDegrees": 14.999999999999996,
+      "head": {
+        "x": 219.42688277778174,
+        "y": 175.24654656838806,
+        "depth": 0.9954884146582901
+      },
+      "nut": {
+        "x": 180.2749474747661,
+        "y": 190.28015711865524,
+        "depth": 0.9953759809001534
+      },
+      "body": {
+        "x": 31.587014689293518,
+        "y": 230.12096863277566,
+        "depth": 0.9955763261797229
+      },
+      "presets": [
+        {
+          "name": "angle",
+          "distance": 30.438776530623777,
+          "polarAngle": 1.5707963267948963,
+          "maxProjectedBounds": 0.8928571428571453,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 130.21301506539925,
+              "y": 195.035370139228,
+              "depth": 0.9954002050496432,
+              "projectedRadius": 0.30681186150744316
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 131.24218305859446,
+              "y": 198.36635393290055,
+              "depth": 0.9954112628684033,
+              "projectedRadius": 0.2114147823325616
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 132.26993855774683,
+              "y": 201.67378760862357,
+              "depth": 0.9954227171679909,
+              "projectedRadius": 0.15325416062355354
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 133.297366568468,
+              "y": 204.94891472712703,
+              "depth": 0.9954348454915019,
+              "projectedRadius": 0.10674669909499727
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 134.32391111335548,
+              "y": 208.19236560216376,
+              "depth": 0.9954475891239415,
+              "projectedRadius": 0.0765238946315654
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 135.34948002124077,
+              "y": 211.40180770276862,
+              "depth": 0.9954609914934762,
+              "projectedRadius": 0.05792466751751943
+            }
+          ]
+        },
+        {
+          "name": "front",
+          "distance": 30.2062960447885,
+          "polarAngle": 1.8623835227808727,
+          "maxProjectedBounds": 0.8928571428571439,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 130.22542355329534,
+              "y": 194.43401962233148,
+              "depth": 0.9953608686091614,
+              "projectedRadius": 0.27618299500782145
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 131.2010041396811,
+              "y": 197.93363952360053,
+              "depth": 0.9953610188656459,
+              "projectedRadius": 0.19102875460560403
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 132.1771475863097,
+              "y": 201.4322197362482,
+              "depth": 0.9953616330468064,
+              "projectedRadius": 0.1390000715758154
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 133.15400319959946,
+              "y": 204.9282918972437,
+              "depth": 0.9953630135685962,
+              "projectedRadius": 0.09718323456133472
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 134.13117700450198,
+              "y": 208.42080956189628,
+              "depth": 0.9953651044816583,
+              "projectedRadius": 0.0699300230515377
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 135.10839908099575,
+              "y": 211.90846384839153,
+              "depth": 0.9953679593907829,
+              "projectedRadius": 0.05313168259641214
+            }
+          ]
+        },
+        {
+          "name": "head",
+          "distance": 27.870943158246654,
+          "polarAngle": 1.3027201892960332,
+          "maxProjectedBounds": 0.8928571428571415,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 132.89834025560066,
+              "y": 192.20508313028836,
+              "depth": 0.9949212122496811,
+              "projectedRadius": 0.33834771018925236
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 134.40318468625034,
+              "y": 195.70199588081633,
+              "depth": 0.9949305512369866,
+              "projectedRadius": 0.23295750418236275
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 135.93716314151806,
+              "y": 199.17044291623873,
+              "depth": 0.9949401131276013,
+              "projectedRadius": 0.16874357074985225
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 137.52153411340973,
+              "y": 202.5975477909979,
+              "depth": 0.9949500570741062,
+              "projectedRadius": 0.1174571205059985
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 139.15190769694593,
+              "y": 205.98519758833146,
+              "depth": 0.9949603505342953,
+              "projectedRadius": 0.08415214904154204
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 140.83170926329495,
+              "y": 209.33070394389475,
+              "depth": 0.9949710194800783,
+              "projectedRadius": 0.06366643154629056
+            }
+          ]
+        },
+        {
+          "name": "back",
+          "distance": 31.42851337093948,
+          "polarAngle": 1.0767990761809696,
+          "maxProjectedBounds": 0.8928571428571436,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 157.5003898059784,
+              "y": 195.52569990949186,
+              "depth": 0.9956119532046459,
+              "projectedRadius": 0.2902213857878547
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 156.40300245594943,
+              "y": 198.75314768390123,
+              "depth": 0.9956207908621412,
+              "projectedRadius": 0.20018245046630337
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 155.3037901530409,
+              "y": 201.97870251136246,
+              "depth": 0.9956291880291699,
+              "projectedRadius": 0.14527504463328395
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 154.19932988067538,
+              "y": 205.20771703994237,
+              "depth": 0.9956368771621995,
+              "projectedRadius": 0.10132474925646474
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 153.08987558977617,
+              "y": 208.4403401225586,
+              "depth": 0.995643912457487,
+              "projectedRadius": 0.07274901490463105
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 151.97451463361793,
+              "y": 211.6784344805073,
+              "depth": 0.995650249130909,
+              "projectedRadius": 0.05516455005707583
+            }
+          ]
+        },
+        {
+          "name": "side",
+          "distance": 31.202232883250968,
+          "polarAngle": 0.5244908790645239,
+          "maxProjectedBounds": 0.8928571428571427,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 132.47693058486144,
+              "y": 204.04753022432897,
+              "depth": 0.9954974970093288,
+              "projectedRadius": 0.30645476061058974
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 133.05666950980392,
+              "y": 204.55274267934135,
+              "depth": 0.9955362394712016,
+              "projectedRadius": 0.2100453186652922
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 133.61551992122384,
+              "y": 205.01592625354363,
+              "depth": 0.9955745999225462,
+              "projectedRadius": 0.15146255054162558
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 134.14473094201404,
+              "y": 205.41441608470853,
+              "depth": 0.9956126332704025,
+              "projectedRadius": 0.10495655896724829
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 134.64644104327323,
+              "y": 205.75355858350295,
+              "depth": 0.9956503341633108,
+              "projectedRadius": 0.07486144937469437
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 135.11946701216843,
+              "y": 206.03017730172795,
+              "depth": 0.9956877152104053,
+              "projectedRadius": 0.05638687926811922
+            }
+          ]
+        },
+        {
+          "name": "player",
+          "distance": 22.50059762484947,
+          "polarAngle": 0.5266756835710135,
+          "maxProjectedBounds": 0.8928571428571432,
+          "strings": [
+            {
+              "number": 6,
+              "note": "E2",
+              "x": 158.31933968159075,
+              "y": 207.63717610937738,
+              "depth": 0.9929153437393125,
+              "projectedRadius": 0.39659019731846157
+            },
+            {
+              "number": 5,
+              "note": "A2",
+              "x": 156.3167575419447,
+              "y": 209.6760735303846,
+              "depth": 0.9929786344879594,
+              "projectedRadius": 0.270761986776002
+            },
+            {
+              "number": 4,
+              "note": "D3",
+              "x": 154.30095753595924,
+              "y": 211.70629537682416,
+              "depth": 0.9930405809888905,
+              "projectedRadius": 0.19450036748823968
+            },
+            {
+              "number": 3,
+              "note": "G3",
+              "x": 152.24529433830966,
+              "y": 213.74106343577185,
+              "depth": 0.9931009185951062,
+              "projectedRadius": 0.13427940284975742
+            },
+            {
+              "number": 2,
+              "note": "B3",
+              "x": 150.15485888435802,
+              "y": 215.7784945923343,
+              "depth": 0.9931597491827112,
+              "projectedRadius": 0.09543044459439148
+            },
+            {
+              "number": 1,
+              "note": "E4",
+              "x": 148.0250463884605,
+              "y": 217.82133039161909,
+              "depth": 0.9932170628529575,
+              "projectedRadius": 0.07162700324311302
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

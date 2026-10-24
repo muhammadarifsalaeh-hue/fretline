@@ -1,36 +1,15 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { FRET_COUNT, STRING_COUNT, getFretPosition, getFingerPosition, getStringZ } from '../data/fretboard';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+import { FRET_COUNT, STRING_COUNT, getFretPosition } from '../data/fretboard';
+import { buildStudyGuitar } from './studyGuitar';
+import { CAMERA_DIRECTIONS, referenceCameraUp, fitPerspectiveDistance } from './cameraMath';
 
-// A generic study model, not an asset or specification of any catalog guitar.
-// Model coordinates use 40 mm per world unit: nut -> body is +X, board up is +Y.
+// Generic study geometry, never a catalog guitar or a validated anatomical pose.
+// World scale: 40 mm/unit. Nut -> body is +X, board face +Y, low E +Z.
 const UNIT = 40;
-const LENGTH = getFretPosition(FRET_COUNT) / UNIT;
-const NUT_X = -LENGTH / 2;
+const NUT_X = -getFretPosition(FRET_COUNT) / UNIT / 2;
 const xAt = (mm) => NUT_X + mm / UNIT;
-const topAt = (z) => .14 - z * z / (2 * 8.75);
-
-function woodTexture() {
-  const canvas = document.createElement('canvas');
-  canvas.width = 512; canvas.height = 128;
-  const ctx = canvas.getContext('2d');
-  ctx.fillStyle = '#38251b'; ctx.fillRect(0, 0, 512, 128);
-  // Deterministic procedural grain: no downloaded photos or model likeness.
-  for (let row = 0; row < 128; row += 2) {
-    ctx.strokeStyle = row % 6 ? '#21161075' : '#91624466';
-    ctx.lineWidth = row % 3 ? .6 : 1.2;
-    ctx.beginPath();
-    for (let x = 0; x <= 512; x += 8) {
-      const y = row + Math.sin(x / 87 + row * .2) * 1.8;
-      if (!x) ctx.moveTo(x, y); else ctx.lineTo(x, y);
-    }
-    ctx.stroke();
-  }
-  const texture = new THREE.CanvasTexture(canvas);
-  texture.colorSpace = THREE.SRGBColorSpace;
-  texture.wrapS = THREE.RepeatWrapping; texture.repeat.set(2, 1);
-  return texture;
-}
 
 function label(text, { gold = false, size = .24 } = {}) {
   const canvas = document.createElement('canvas');
@@ -47,7 +26,7 @@ function label(text, { gold = false, size = .24 } = {}) {
   ctx.fillText(text, 64, 67);
   const map = new THREE.CanvasTexture(canvas);
   map.colorSpace = THREE.SRGBColorSpace;
-  const sprite = new THREE.Sprite(new THREE.SpriteMaterial({ map, depthTest: false, toneMapped: false }));
+  const sprite = new THREE.Sprite(new THREE.SpriteMaterial({ map, depthTest: true, toneMapped: false }));
   sprite.scale.set(size, size, 1); sprite.renderOrder = 3;
   return sprite;
 }
@@ -67,111 +46,95 @@ function disposeObject(root) {
   root.clear();
 }
 
-function buildNeck() {
-  const group = new THREE.Group();
-  const grain = woodTexture();
-  const walnut = new THREE.MeshStandardMaterial({ color: '#9d7650', map: grain, roughness: .57 });
-  const boardMaterial = new THREE.MeshStandardMaterial({ map: grain, color: '#c3a180', roughness: .58 });
-  const metal = new THREE.MeshStandardMaterial({ color: '#c7c2af', metalness: .7, roughness: .27 });
-  const outline = new THREE.Shape();
-  outline.moveTo(NUT_X - .08, -.575); outline.lineTo(LENGTH / 2 + .14, -.72);
-  outline.lineTo(LENGTH / 2 + .14, .72); outline.lineTo(NUT_X - .08, .575); outline.closePath();
-  const neckGeometry = new THREE.ExtrudeGeometry(outline, { depth: .36, bevelEnabled: true, bevelSize: .055, bevelThickness: .055, bevelSegments: 3, steps: 1 });
-  neckGeometry.rotateX(Math.PI / 2);
-  group.add(new THREE.Mesh(neckGeometry, walnut));
-
-  // Curved, gently tapered fingerboard. Fret positions below use equal temperament.
-  const positions = [], uvs = [], indices = [], rows = 32, columns = 12;
-  for (let row = 0; row <= rows; row++) {
-    const fraction = row / rows, x = NUT_X + fraction * (LENGTH + .12);
-    for (let col = 0; col <= columns; col++) {
-      const z = (col / columns * 2 - 1) * (.575 + .145 * fraction);
-      positions.push(x, topAt(z), z); uvs.push(fraction, col / columns);
-      if (row < rows && col < columns) {
-        const a = row * (columns + 1) + col, b = a + columns + 1;
-        indices.push(a, a + 1, b, a + 1, b + 1, b);
-      }
-    }
-  }
-  const boardGeometry = new THREE.BufferGeometry();
-  boardGeometry.setAttribute('position', new THREE.Float32BufferAttribute(positions, 3));
-  boardGeometry.setAttribute('uv', new THREE.Float32BufferAttribute(uvs, 2));
-  boardGeometry.setIndex(indices); boardGeometry.computeVertexNormals();
-  group.add(new THREE.Mesh(boardGeometry, boardMaterial));
-  const nut = new THREE.Mesh(new THREE.BoxGeometry(.075, .13, 1.18), new THREE.MeshStandardMaterial({ color: '#ede1bc', roughness: .4 }));
-  nut.position.set(NUT_X - .025, .16, 0); group.add(nut);
-
-  for (let fret = 1; fret <= FRET_COUNT; fret++) {
-    const x = xAt(getFretPosition(fret)), halfWidth = .575 + .145 * (x - NUT_X) / LENGTH;
-    const points = Array.from({ length: 9 }, (_, index) => {
-      const z = -halfWidth + 2 * halfWidth * index / 8;
-      return new THREE.Vector3(x, topAt(z) + .018, z);
-    });
-    const wire = new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(points), 12, .016, 6, false), metal);
-    wire.name = `fret-${fret}`; group.add(wire);
-    if ([3, 5, 7, 9, 12].includes(fret)) {
-      for (const z of fret === 12 ? [-.24, .24] : [0]) {
-        const dot = new THREE.Mesh(new THREE.CircleGeometry(.048, 16), new THREE.MeshStandardMaterial({ color: '#d9cba4', roughness: .4 }));
-        dot.rotation.x = -Math.PI / 2; dot.position.set(xAt(getFingerPosition(fret)), topAt(z) + .003, z); group.add(dot);
-      }
-      const number = label(String(fret), { size: .23 });
-      number.position.set(xAt(getFingerPosition(fret)), .12, -.94); group.add(number);
-    }
-  }
-
-  const head = new THREE.Mesh(new THREE.BoxGeometry(1.35, .28, 1.36), walnut);
-  head.position.set(NUT_X - .8, -.08, 0); head.rotation.z = -.07; group.add(head);
-  for (let index = 0; index < STRING_COUNT; index++) {
-    const z = getStringZ(index) / UNIT;
-    const radius = [.016, .013, .010, .007, .005, .004][index];
-    const string = new THREE.Mesh(new THREE.CylinderGeometry(radius, radius, LENGTH + 1.12, 8),
-      new THREE.MeshStandardMaterial({ color: index < 3 ? '#d5b577' : '#d9d7ca', metalness: .65, roughness: .28 }));
-    string.rotation.z = Math.PI / 2;
-    string.position.set(-.45, topAt(z) + .09, z); string.name = `string-${6 - index}`; group.add(string);
-    const peg = new THREE.Mesh(new THREE.CylinderGeometry(.06, .06, .22, 10), metal);
-    peg.position.set(NUT_X - .35 - (index % 3) * .38, .12, index < 3 ? .65 : -.65); group.add(peg);
-  }
-  return group;
-}
-
-/** Creates a real WebGL scene. No render loop runs while the model is idle. */
+/** Real WebGL, rendered on demand. The model never changes when a camera moves. */
 export function createNeckScene(host, { chord, canvasLabel, onError, onInteraction }) {
   const canvas = document.createElement('canvas');
   canvas.setAttribute('data-practice-canvas', '');
   canvas.setAttribute('aria-label', canvasLabel);
   canvas.setAttribute('aria-describedby', 'practice-camera-help'); canvas.tabIndex = 0;
-  canvas.dataset.stringCount = String(STRING_COUNT); canvas.dataset.fretCount = String(FRET_COUNT);
   const context = canvas.getContext('webgl2', { alpha: true, antialias: true, powerPreference: 'low-power' });
   if (!context) throw new Error('WEBGL_UNAVAILABLE');
   const renderer = new THREE.WebGLRenderer({ canvas, context, alpha: true, antialias: true });
   renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.75));
-  renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.35;
+  renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.1;
   const scene = new THREE.Scene();
-  scene.add(new THREE.HemisphereLight('#f8e8cc', '#26232a', 2.5));
-  const key = new THREE.DirectionalLight('#ffe1ac', 4); key.position.set(-2, 7, 3); scene.add(key);
-  const fill = new THREE.DirectionalLight('#dce7ef', 2.5); fill.position.set(3, 4, -5); scene.add(fill);
-  const rim = new THREE.DirectionalLight('#c89951', 2); rim.position.set(-6, 1, -2); scene.add(rim);
-  let neck;
-  try { neck = buildNeck(); }
-  catch (error) {
-    // Release a partially initialized graphics context before showing recovery UI.
-    disposeObject(scene); renderer.dispose(); renderer.forceContextLoss(); throw error;
+  scene.add(new THREE.HemisphereLight('#f7e8ce', '#34353b', 1.65));
+  const key = new THREE.DirectionalLight('#ffe3bb', 3.2); key.position.set(-4, 7, 4); scene.add(key);
+  const fill = new THREE.DirectionalLight('#d8e4f3', 1.65); fill.position.set(4, 3, -5); scene.add(fill);
+  const rim = new THREE.DirectionalLight('#d6aa68', 1.3); rim.position.set(-6, -2, -3); scene.add(rim);
+  // A back softbox keeps inspection views readable, not a black silhouette.
+  const backFill = new THREE.DirectionalLight('#ead9c3', 3.0); backFill.position.set(1, -6, 3); scene.add(backFill);
+  let model, environment;
+  try {
+    model = buildStudyGuitar();
+    const room = new RoomEnvironment(), pmrem = new THREE.PMREMGenerator(renderer);
+    try {
+      // Small procedural studio environment, baked once; no HDR/photo download.
+      environment = pmrem.fromScene(room, .04, .1, 100, { size: 64 });
+      scene.environment = environment.texture; scene.environmentIntensity = .7;
+    } finally { room.dispose(); pmrem.dispose(); }
+  } catch (error) {
+    if (model) disposeObject(model.group);
+    environment?.dispose(); disposeObject(scene);
+    renderer.dispose(); renderer.forceContextLoss(); throw error;
   }
-  const markers = new THREE.Group(); scene.add(neck, markers);
-  canvas.dataset.stringCount = String(neck.children.filter((object) => object.name.startsWith('string-')).length);
-  canvas.dataset.fretCount = String(neck.children.filter((object) => object.name.startsWith('fret-')).length);
+  const neck = model.group;
+  neck.scale.setScalar(1 / UNIT); neck.position.x = NUT_X;
+  const markers = new THREE.Group(), fretLabels = new THREE.Group();
+  scene.add(neck, markers, fretLabels);
+  for (const fret of [3, 5, 7, 9, 12]) {
+    const mm = (getFretPosition(fret - 1) + getFretPosition(fret)) / 2;
+    const number = label(String(fret), { size: .23 });
+    number.position.set(xAt(mm), 0, -(model.surfaces.widthAtX(mm) / 2 + 9) / UNIT);
+    fretLabels.add(number);
+  }
+  canvas.dataset.stringCount = String(model.strings.length);
+  canvas.dataset.fretCount = String(model.metadata.fretCount);
+  canvas.dataset.handStatus = 'not-integrated';
+  scene.updateMatrixWorld(true);
+  const bounds = new THREE.Box3().setFromObject(neck).union(new THREE.Box3().setFromObject(fretLabels)).expandByScalar(.2);
+  // Target the fretboard axis so perspective keeps the neck's 15-degree slope.
+  const target = new THREE.Vector3(bounds.getCenter(new THREE.Vector3()).x, 0, 0);
   const camera = new THREE.PerspectiveCamera(38, 1, .1, 100);
-  camera.position.set(0, 7, 10);
+  // OrbitControls caches this up-axis in its constructor. Set it first, once.
+  camera.up.copy(referenceCameraUp());
+  camera.position.copy(target).addScaledVector(new THREE.Vector3(...CAMERA_DIRECTIONS.angle).normalize(), 15);
   const controls = new OrbitControls(camera, canvas);
+  controls.target.copy(target);
   controls.enableDamping = false; controls.enablePan = false;
   controls.rotateSpeed = .65; controls.zoomSpeed = .7;
-  controls.minPolarAngle = .08; controls.maxPolarAngle = Math.PI * .83;
-  let disposed = false, lost = false, frame = 0, fitDistance = 13;
+  // Keep the low-E edge upright while allowing true front/back/player views.
+  controls.minPolarAngle = .45; controls.maxPolarAngle = Math.PI - .45;
+  let disposed = false, lost = false, frame = 0, fitDistance = 15;
+  const rounded = (vector) => vector.toArray().map((v) => +v.toFixed(7));
+  const worldPoint = (point) => neck.localToWorld(point.clone());
+  const project = (point) => rounded(worldPoint(point).project(camera));
+  const geometrySignature = () => {
+    // Fingerprint actual position buffers and model matrices, excluding sprites.
+    // Recomputed on demand, so the diagnostics detect geometry mutation as well.
+    let hash = 2166136261;
+    neck.traverse((object) => {
+      const array = object.geometry?.attributes.position?.array;
+      if (!array) return;
+      const words = new Uint32Array(array.buffer, array.byteOffset, array.byteLength / 4);
+      for (const word of words) hash = Math.imul(hash ^ word, 16777619) >>> 0;
+      const matrix = new Float32Array(object.matrixWorld.elements);
+      for (const word of new Uint32Array(matrix.buffer)) hash = Math.imul(hash ^ word, 16777619) >>> 0;
+    });
+    return hash.toString(16).padStart(8, '0');
+  };
   const updateDiagnostics = () => {
+    camera.updateMatrixWorld(true); neck.updateMatrixWorld(true);
     canvas.dataset.camera = JSON.stringify({
-      position: camera.position.toArray().map((v) => +v.toFixed(5)),
-      target: controls.target.toArray().map((v) => +v.toFixed(5)),
-      distance: +camera.position.distanceTo(controls.target).toFixed(5),
+      position: rounded(camera.position), target: rounded(controls.target), up: rounded(camera.up),
+      distance: +camera.position.distanceTo(controls.target).toFixed(7), fov: camera.fov, aspect: camera.aspect,
+    });
+    canvas.dataset.practiceProjection = JSON.stringify({
+      headstock: project(model.anchors.headstock), nut: project(model.anchors.nut),
+      body: project(model.anchors.bodyDirection),
+      strings: model.anchors.strings.map(({ number, note, radiusMm, position }) => ({
+        number, note, radius: radiusMm / UNIT, world: rounded(worldPoint(position)), ndc: project(position),
+      })), geometrySignature: geometrySignature(),
     });
   };
   const render = () => {
@@ -182,29 +145,32 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
   };
   const invalidate = () => { if (!disposed && !lost && !frame) frame = requestAnimationFrame(render); };
   controls.addEventListener('change', invalidate); controls.addEventListener('start', onInteraction);
-
+  const setDistanceLimits = (distance) => {
+    fitDistance = distance; controls.minDistance = distance * .38; controls.maxDistance = distance * 2.1;
+  };
   function preset(name = 'angle') {
-    const direction = name === 'front' ? [0, 1, .035] : name === 'head' ? [-1, .48, .32] : [.12, .8, 1];
-    controls.target.set(name === 'head' ? -1.4 : -.65, 0, 0);
-    camera.position.copy(controls.target).add(new THREE.Vector3(...direction).normalize().multiplyScalar(fitDistance));
+    const direction = new THREE.Vector3(...(CAMERA_DIRECTIONS[name] ?? CAMERA_DIRECTIONS.angle)).normalize();
+    controls.target.copy(target);
+    setDistanceLimits(fitPerspectiveDistance(camera, bounds, target, direction));
+    camera.position.copy(target).addScaledVector(direction, fitDistance);
     controls.update(); updateDiagnostics(); invalidate();
   }
   const resize = () => {
     const { width, height } = host.getBoundingClientRect();
     if (!width || !height || disposed) return;
+    const offset = camera.position.clone().sub(controls.target);
+    const zoomRatio = offset.length() / fitDistance;
     camera.aspect = width / height; camera.updateProjectionMatrix();
     renderer.setSize(width, height, false);
-    const nextFit = Math.max(10.2 / camera.aspect, 4.1) / (2 * Math.tan(THREE.MathUtils.degToRad(19))) * 1.12;
-    const offset = camera.position.clone().sub(controls.target).multiplyScalar(nextFit / fitDistance);
-    fitDistance = nextFit; controls.minDistance = nextFit * .38; controls.maxDistance = nextFit * 2.1;
-    camera.position.copy(controls.target).add(offset); controls.update(); updateDiagnostics(); invalidate();
+    const nextFit = fitPerspectiveDistance(camera, bounds, controls.target, offset);
+    setDistanceLimits(nextFit);
+    camera.position.copy(controls.target).add(offset.setLength(THREE.MathUtils.clamp(nextFit * zoomRatio, controls.minDistance, controls.maxDistance)));
+    controls.update(); updateDiagnostics(); invalidate();
   };
   const rotate = (horizontal = 0, vertical = 0) => {
-    const spherical = new THREE.Spherical().setFromVector3(camera.position.clone().sub(controls.target));
-    spherical.theta += horizontal;
-    spherical.phi = THREE.MathUtils.clamp(spherical.phi + vertical, controls.minPolarAngle, controls.maxPolarAngle);
-    camera.position.copy(controls.target).add(new THREE.Vector3().setFromSpherical(spherical));
-    controls.update(); updateDiagnostics(); invalidate();
+    // Public controls methods respect its fixed up-axis; world-Y spherical math does not.
+    controls.rotateLeft(-horizontal); controls.rotateUp(-vertical);
+    updateDiagnostics(); invalidate();
   };
   const zoom = (factor) => {
     const offset = camera.position.clone().sub(controls.target);
@@ -215,9 +181,13 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
     disposeObject(markers);
     canvas.dataset.chordId = nextChord.id;
     nextChord.frets.forEach((fret, index) => {
-      const z = getStringZ(index) / UNIT;
+      const number = 6 - index;
+      // Schematic labels near the fret, never a claim of fingertip contact.
+      const mm = fret > 0 ? getFretPosition(fret) - Math.min(4, (getFretPosition(fret) - getFretPosition(fret - 1)) * .25) : -10;
+      const z = model.surfaces.stringZ(number, Math.max(0, mm));
+      const y = model.surfaces.openStringCenterY(Math.max(0, mm), number);
       const marker = label(fret === null ? '×' : fret === 0 ? '○' : String(nextChord.fingers[index]), { gold: fret > 0, size: fret > 0 ? .29 : .23 });
-      marker.position.set(fret > 0 ? xAt(getFingerPosition(fret)) : NUT_X - .24, topAt(z) + .19, z);
+      marker.position.set(xAt(mm), y / UNIT + .13, z / UNIT);
       markers.add(marker);
     });
     invalidate();
@@ -249,6 +219,7 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
       controls.removeEventListener('change', invalidate); controls.removeEventListener('start', onInteraction);
       controls.dispose(); canvas.removeEventListener('keydown', keydown); canvas.removeEventListener('pointerdown', focus);
       canvas.removeEventListener('webglcontextlost', contextLost); document.removeEventListener('visibilitychange', visible);
+      scene.environment = null; environment?.dispose();
       disposeObject(scene); renderer.dispose(); renderer.forceContextLoss(); canvas.remove();
     },
   };

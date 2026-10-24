@@ -1,0 +1,86 @@
+{
+  "bytes": 456328,
+  "triangles": 1196,
+  "vertices": 872,
+  "skins": [
+    {
+      "name": "arms",
+      "joints": 50
+    }
+  ],
+  "meshes": [
+    "arms_mat"
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "arm_mat_pale",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8999999761581421
+      }
+    }
+  ],
+  "images": [
+    {
+      "bufferView": 6,
+      "mimeType": "image/png",
+      "name": "arm_albedo_pale"
+    }
+  ],
+  "bones": [
+    "root",
+    "shoulder.r",
+    "bicep.r",
+    "forearm.r",
+    "wrist.r",
+    "finger_pinky1.r",
+    "finger_pinky2.r",
+    "finger_pinky3.r",
+    "finger_ring1.r",
+    "finger_ring2.r",
+    "finger_ring3.r",
+    "finger_middle1.r",
+    "finger_middle2.r",
+    "finger_middle3.r",
+    "finger_index1.r",
+    "finger_index2.r",
+    "finger_index3.r",
+    "finger_thumb1.r",
+    "finger_thumb2.r",
+    "finger_thumb3.r",
+    "socket.r",
+    "forearm.Twist0.r",
+    "forearm.Twist1.r",
+    "wrist_ik.r",
+    "arm_target.r",
+    "head",
+    "shoulder.l",
+    "bicep.l",
+    "forearm.l",
+    "wrist.l",
+    "finger_pinky1.l",
+    "finger_pinky2.l",
+    "finger_pinky3.l",
+    "finger_ring1.l",
+    "finger_ring2.l",
+    "finger_ring3.l",
+    "finger_middle1.l",
+    "finger_middle2.l",
+    "finger_middle3.l",
+    "finger_index1.l",
+    "finger_index2.l",
+    "finger_index3.l",
+    "finger_thumb1.l",
+    "finger_thumb2.l",
+    "finger_thumb3.l",
+    "socket.l",
+    "forearm.Twist0.l",
+    "forearm.Twist1.l",
+    "wrist_ik.l",
+    "arm_target.l"
+  ]
+}

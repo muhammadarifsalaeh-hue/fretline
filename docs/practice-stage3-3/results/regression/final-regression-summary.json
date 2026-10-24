@@ -1,0 +1,95 @@
+{
+  "scope": "Final Stage3.3 lighting build; compatible practice tests re-run sequentially in Chromium and WebKit after PMREM/backFill changes. Shared and Pacifica checks retained from immediately prior Stage3.3 build: their source/assets are unchanged by lighting-only changes.",
+  "limitations": [
+    "Actual Linux Chromium/WebKit, no physical iPadOS Safari.",
+    "Chromium uses SwiftShader.",
+    "WebKit touch test covers tap; native pinch requires physical iPad testing. Dedicated Chromium pinch geometry checks recorded separately by parent.",
+    "No anatomical hand, sleeve, C-hand or physical fingering approval."
+  ],
+  "finalBundle": "assets/practice-three-CyceKmSN.js",
+  "finalBundleSHA256": "5fb71ab00ac2994e24dde8f912e9fa04b99d7693e1f5c365ae32c6ee45a68717",
+  "suites": [
+    {
+      "report": "shared-regression.json",
+      "passed": true,
+      "checks": 18,
+      "unexpectedErrors": {
+        "consoleErrors": 0,
+        "runtimeErrors": 0,
+        "failedRequests": 0
+      },
+      "expectedIntentionalFaultEvents": 0
+    },
+    {
+      "report": "regression/browser-stage33.json",
+      "passed": true,
+      "checks": 79,
+      "unexpectedErrors": {
+        "consoleErrors": 0,
+        "runtimeErrors": 0,
+        "failedRequests": 0
+      },
+      "expectedIntentionalFaultEvents": 0
+    },
+    {
+      "report": "final-lighting/browser-chromium-camera-controls.json",
+      "passed": true,
+      "checks": 1,
+      "unexpectedErrors": {
+        "consoleErrors": 0,
+        "runtimeErrors": 0,
+        "failedRequests": 0,
+        "badResponses": 0,
+        "contextWarnings": 0
+      },
+      "expectedIntentionalFaultEvents": 0,
+      "browserVersion": "154.0.8037.57"
+    },
+    {
+      "report": "final-lighting/browser-chromium-keyboard-pointer-chords-lazy-routes-loading-unsupported-context-loss-touch-module-failure-spa-cleanup.json",
+      "passed": true,
+      "checks": 9,
+      "unexpectedErrors": {
+        "consoleErrors": 0,
+        "runtimeErrors": 0,
+        "failedRequests": 0,
+        "badResponses": 0,
+        "contextWarnings": 0
+      },
+      "expectedIntentionalFaultEvents": 3,
+      "browserVersion": "154.0.8037.57"
+    },
+    {
+      "report": "final-lighting/browser-webkit-camera-controls.json",
+      "passed": true,
+      "checks": 1,
+      "unexpectedErrors": {
+        "consoleErrors": 0,
+        "runtimeErrors": 0,
+        "failedRequests": 0,
+        "badResponses": 0,
+        "contextWarnings": 0
+      },
+      "expectedIntentionalFaultEvents": 0,
+      "browserVersion": "26.5"
+    },
+    {
+      "report": "final-lighting/browser-webkit-keyboard-pointer-chords-lazy-routes-loading-unsupported-context-loss-touch-module-failure-spa-cleanup.json",
+      "passed": true,
+      "checks": 9,
+      "unexpectedErrors": {
+        "consoleErrors": 0,
+        "runtimeErrors": 0,
+        "failedRequests": 0,
+        "badResponses": 0,
+        "contextWarnings": 0
+      },
+      "expectedIntentionalFaultEvents": 3,
+      "browserVersion": "26.5"
+    }
+  ],
+  "passed": true,
+  "totalChecks": 117,
+  "unexpectedErrorEvents": 0,
+  "expectedIntentionalFaultEvents": 6
+}

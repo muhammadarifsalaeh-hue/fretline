@@ -1,0 +1,20 @@
+{
+  "baseline": "6dbfe05",
+  "branch": "feature/guitar-practice-3d",
+  "changedApplicationFiles": [
+    "src/features/practice/components/GuitarNeckViewer.jsx",
+    "src/features/practice/components/viewer.css",
+    "src/features/practice/scene/cameraMath.js",
+    "src/features/practice/scene/createNeckScene.js",
+    "src/features/practice/scene/studyGuitar.js",
+    "src/pages/PracticePage.jsx",
+    "src/styles/practice.css"
+  ],
+  "allApplicationChangesWithinPractice": true,
+  "catalogDataAndIDsUnchanged": true,
+  "existingOtherPagesAssetsPackagesViteConfigurationUnchanged": true,
+  "masterUnchanged": "9f7b35d7a0daea8a579976a5534ffb67d90f06a9",
+  "dependenciesAdded": 0,
+  "merged": false,
+  "pushedMaster": false
+}

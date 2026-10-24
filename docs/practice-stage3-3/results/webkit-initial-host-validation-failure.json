@@ -1,0 +1,19 @@
+{
+  "engine": "webkit",
+  "url": "http://127.0.0.1:5430",
+  "scope": "Camera/projection only, not hand/arm, sleeve or physical C fingering approval",
+  "checks": [],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "badResponses": [],
+  "consoleWarnings": [],
+  "screenshots": [],
+  "limitations": [
+    "Linux engines, not physical iPadOS Safari.",
+    "Chromium uses SwiftShader.",
+    "Direction/angle checks are structural requirements, not a visual-fidelity score."
+  ],
+  "harnessFailure": "Traceback (most recent call last):\n  File \"/tmp/fretline-stage33-assets/browser-review/camera-live.py\", line 124, in <module>\n    browser=(p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox','--use-angle=swiftshader','--enable-unsafe-swiftshader']) if args.engine=='chromium' else p.webkit.launch())\n                                                                                                                                                                                  ^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py\", line 16702, in launch\n    self._sync(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_browser_type.py\", line 97, in launch\n    await self._channel.send(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 76, in send\n    return await self._connection.wrap_api_call(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 632, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.Error: BrowserType.launch: \n╔══════════════════════════════════════════════════════╗\n║ Host system is missing dependencies to run browsers. ║\n║ Missing libraries:                                   ║\n║     libgtk-4.so.1                                    ║\n║     libgraphene-1.0.so.0                             ║\n║     libmanette-0.2.so.0                              ║\n║     libGLESv2.so.2                                   ║\n╚══════════════════════════════════════════════════════╝\n",
+  "passed": false
+}

@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "scope": "CPU audit of a generic open-string study neck; no hand, browser/WebGL, touch or physical iPad approval.",
+  "checks": [
+    {
+      "name": "Six actual open-string meshes retain standard numbering, notes, and decreasing gauges",
+      "passed": true
+    },
+    {
+      "name": "Every actual board-side tube ring follows the unpressed nut-to-end string path",
+      "passed": true
+    },
+    {
+      "name": "Projection anchors and radii come from actual tube rings on the open string paths",
+      "passed": true
+    },
+    {
+      "name": "Twelve actual fret crowns follow equal temperament, with fret 12 at half scale",
+      "passed": true
+    },
+    {
+      "name": "Fingerboard taper and curved D-back retain their declared physical dimensions",
+      "passed": true
+    },
+    {
+      "name": "All six open strings clear all twelve fret crowns across their full 2.2 mm width",
+      "passed": true
+    },
+    {
+      "name": "Actual nut groove vertices meet each corresponding string bottom",
+      "passed": true
+    },
+    {
+      "name": "The 14 degree headstock has six separate complete tuning machines in a 3+3 arrangement",
+      "passed": true
+    },
+    {
+      "name": "The visible headstock veneer faces outward with a FrontSide material",
+      "passed": true
+    },
+    {
+      "name": "Board top, D-back and fret crown surface normals face outward",
+      "passed": true
+    },
+    {
+      "name": "Neck, board, nut, fret and headstock solids are watertight after UV-seam welding",
+      "passed": true
+    },
+    {
+      "name": "Geometry has finite attributes, valid indices and at most 20,000 triangles / 75 meshes",
+      "passed": true
+    }
+  ],
+  "triangles": 15520,
+  "vertices": 9958,
+  "meshes": 70,
+  "minimumOpenFretClearanceMm": 0.5770022066703937,
+  "solids": [
+    {
+      "name": "d-section-neck-back",
+      "weldedVertices": 702,
+      "edges": 2100
+    },
+    {
+      "name": "curved-fingerboard",
+      "weldedVertices": 652,
+      "edges": 1950
+    },
+    {
+      "name": "grooved-nut",
+      "weldedVertices": 276,
+      "edges": 822
+    },
+    {
+      "name": "fret-1",
+      "weldedVertices": 110,
+      "edges": 324
+    },
+    {
+      "name": "headstock-solid",
+      "weldedVertices": 168,
+      "edges": 498
+    }
+  ],
+  "boundsMm": {
+    "min": [
+      -172.69881921704223,
+      -60.78112014282952,
+      -46.6
+    ],
+    "max": [
+      330.0088806152344,
+      3.694746732711792,
+      46.6
+    ]
+  }
+}

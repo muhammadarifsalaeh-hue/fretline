@@ -1,0 +1,55 @@
+{
+  "scope": "Actual local-browser QA for Stage3.3 final lighting build; no anatomical hand approval",
+  "finalSceneChunk": "practice-three-CyceKmSN.js",
+  "reports": {
+    "cameraChromium": "after/chromium/camera-orientation-chromium.json",
+    "cameraWebKit": "after/webkit/camera-orientation-webkit.json",
+    "syntheticTouchGeometry": "touch/touch-geometry.json",
+    "beforeChromium": "before/before-chromium.json",
+    "beforeWebKit": "../before/before-capture.json",
+    "finalSummary": "final-qa-summary.json",
+    "regressionSummary": "regression/final-regression-summary.json",
+    "finalBundleFingerprints": "regression/final-lighting/tested-bundle-final.json",
+    "mobileActualViewports": "mobile-viewports/mobile-viewport-captures.json"
+  },
+  "selectedScreenshots": {
+    "beforeDesktop": "../before/screenshots/webkit-desktop-workspace.png",
+    "afterDesktopUI": "after/webkit/webkit-desktop-workspace.png",
+    "afterTabletLandscapeUI": "after/webkit/webkit-tablet-landscape-workspace.png",
+    "afterMobileUI": "mobile-viewports/webkit-mobile-canvas-controls-viewport.png",
+    "desktopAngle": "lighting-preview/chromium-desktop-angle.png",
+    "desktopSide": "lighting-preview/chromium-desktop-side.png",
+    "desktopBack": "lighting-preview/chromium-desktop-back.png",
+    "desktopPlayer": "lighting-preview/chromium-desktop-player.png",
+    "tabletCanvas": "after/webkit/webkit-tablet-landscape-default.png",
+    "mobileCanvas": "after/webkit/webkit-mobile-default.png",
+    "afterMobileDiagramChoices": "mobile-viewports/webkit-mobile-diagram-choices-viewport.png"
+  },
+  "executedHarnesses": [
+    "camera-live.py",
+    "touch-geometry.py",
+    "capture-before-chromium.py",
+    "quick-lighting.py",
+    "mobile-viewports.py"
+  ],
+  "preservedSetupAndVisualFailures": [
+    "after/webkit/camera-orientation-webkit-host-validation-failure.json",
+    "webkit-camera-host-validation-failure.log",
+    "pre-lighting-review.json",
+    "chromium-camera-pre-lighting.log",
+    "after/chromium-pre-lighting"
+  ],
+  "limitations": [
+    "Actual Linux Chromium 154.0.8037.57 using SwiftShader; actual Linux WebKit 26.5 using cached WPE runtime.",
+    "No physical iPadOS Safari/GPU/thermal/touch-hardware validation.",
+    "Pinch uses synthetic two-contact CDP input to actual Chromium, not a physical device.",
+    "Generic static guitar and schematic chord markers; no human hand, continuous arm, black sleeve or physical C-Major pose exists or passes."
+  ],
+  "sourceHashes": {
+    "camera-live.py": "91ca3bcf6e75f3ce36de6db1207d94f18bf7864faa2c4b8273f4c1b993f8e0e2",
+    "touch-geometry.py": "81e4eab10ad4920275b74596d7c3e9be591f2faf12447d235a5c1faa6b66e317",
+    "capture-before-chromium.py": "7203b762bf0b138545abbd094c9a28869beca6e4ef39d2c70dbf53c76f270dba",
+    "quick-lighting.py": "54a94a4bd8ff006eded4b55544cae3395face91a6debc94a03a4d65b8cd1a27a",
+    "mobile-viewports.py": "d4424382898847c89ab887ead08594b4d2c52ded98ac594a5556e29472fa6495"
+  }
+}
