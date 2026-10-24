@@ -1,0 +1,36 @@
+{
+  "chromium": {
+    "side": {
+      "differentPixels": 397608,
+      "totalPixels": 1542240,
+      "sha256": "a217f97da6e7ea1233f92a252b8bcbbbbef6de17d0a69605220063a9d134713e"
+    },
+    "player": {
+      "differentPixels": 395968,
+      "totalPixels": 1542240,
+      "sha256": "2adb065c264a3d6093c0c62e2fb799b541f7592e47c2e3c316f0afff9c2ba430"
+    },
+    "context": {
+      "differentPixels": 369147,
+      "totalPixels": 1542240,
+      "sha256": "d5f95d56ca356d4a2d5288b32595ca0dbb6c1bf1599ede7f2824ac3202238334"
+    }
+  },
+  "webkit": {
+    "side": {
+      "differentPixels": 397595,
+      "totalPixels": 1524960,
+      "sha256": "0bb8791fc645416014aa9ac60ee318bc741a1b7f1d2db1687bda29adcaf32380"
+    },
+    "player": {
+      "differentPixels": 395942,
+      "totalPixels": 1524960,
+      "sha256": "efd95f112e0f3552a8b101d20285260a96e3107929a6675a4556104a5ed6dc18"
+    },
+    "context": {
+      "differentPixels": 369121,
+      "totalPixels": 1524960,
+      "sha256": "0528c1556f688782797ba5e15553f61eec166cf00f49cf9ecc352cc346f66b84"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "chromium": {
+    "Hand": {
+      "vertices": 3148,
+      "maxErrorMm": 1.1011378351930739e-05,
+      "meanErrorMm": 1.0057833554773137e-06,
+      "matchesWithinPointOneMm": true
+    },
+    "Nails": {
+      "vertices": 204,
+      "maxErrorMm": 8.996506481722548e-14,
+      "meanErrorMm": 3.3794749724948945e-14,
+      "matchesWithinPointOneMm": true
+    }
+  },
+  "webkit": {
+    "Hand": {
+      "vertices": 3148,
+      "maxErrorMm": 1.1011378351930739e-05,
+      "meanErrorMm": 1.0057833554773137e-06,
+      "matchesWithinPointOneMm": true
+    },
+    "Nails": {
+      "vertices": 204,
+      "maxErrorMm": 8.996506481722548e-14,
+      "meanErrorMm": 3.3794749724948945e-14,
+      "matchesWithinPointOneMm": true
+    }
+  }
+}

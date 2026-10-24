@@ -1,0 +1,42 @@
+{
+  "status": "FAIL numerical transfer",
+  "poseSource": "c-pose-offset-attempt-0.json",
+  "modelSha256": "dedb30a66d26589004089dd6b566ba3f61de626e326af21773284c009d463b80",
+  "nativeToGLTFAxes": "[x,z,-y]",
+  "matrixStorage": "column-major, assign with Matrix4.fromArray; matrixAutoUpdate=false",
+  "maxHierarchyReconstructionError": 2.6645352591003757e-15,
+  "meshes": [
+    {
+      "mesh": "Hand",
+      "gltfVertices": 3148,
+      "nativeVertices": 2829,
+      "restMappingMaxSourceUnits": 0.0,
+      "restMappingMaxMm": 0.0,
+      "nativeMaxNonzeroInfluences": 6,
+      "top4WeightL1Max": 0.42355242740288385,
+      "top4WeightElementMax": 0.13346897575571048,
+      "poseErrorMaxMm": 1.4443382478186457,
+      "poseErrorMeanMm": 0.013813442885583173,
+      "verticesAbovePoint1Mm": 108
+    },
+    {
+      "mesh": "Nails",
+      "gltfVertices": 204,
+      "nativeVertices": 178,
+      "restMappingMaxSourceUnits": 0.0,
+      "restMappingMaxMm": 0.0,
+      "nativeMaxNonzeroInfluences": 1,
+      "top4WeightL1Max": 0.0,
+      "top4WeightElementMax": 0.0,
+      "poseErrorMaxMm": 8.987733679556355e-14,
+      "poseErrorMeanMm": 2.8357500293033668e-14,
+      "verticesAbovePoint1Mm": 0
+    }
+  ],
+  "scopeLimitations": [
+    "Does not validate playable C pose, collisions, anatomy, or teaching correctness.",
+    "Does not validate actual WebGL skinning, PBR textures, camera, or browser performance.",
+    "GlobalmmFromGLTF includes a reflection to make left hand; runtime must handle reflected winding.",
+    "Original GLB armature constraints absent; all pose matrices explicitly baked from bounded native pose."
+  ]
+}

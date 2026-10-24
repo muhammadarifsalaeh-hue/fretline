@@ -1,0 +1,99 @@
+{
+  "scratchOnly": true,
+  "notAnAdoptedHandPose": true,
+  "triangles": 15544,
+  "meshes": 70,
+  "vertices": 9970,
+  "minimumOpenFretClearanceMm": 0.5770022066703937,
+  "dimensions": {
+    "scaleLength": 648,
+    "frets": 12,
+    "radius": 350,
+    "nutWidth": 43,
+    "widthAt12": 54,
+    "boardThickness": 5,
+    "backDepth": 21,
+    "stringSpanNut": 35,
+    "stringSpanBridge": 52,
+    "fretHeight": 1,
+    "fretCrownWidth": 2.2,
+    "pressOffset": 4,
+    "pressHeight": 0.75,
+    "openStringBottomAtNut": 1.4,
+    "openStringBottomAt12": 3,
+    "headstockLength": 175,
+    "headstockWidth": 70,
+    "headstockThickness": 14,
+    "headstockAngle": 14,
+    "tunerSpacing": 33
+  },
+  "boundsMm": {
+    "min": [
+      -172.69881921704223,
+      -60.78112014282952,
+      -46.6
+    ],
+    "max": [
+      330.0088806152344,
+      3.694734573364258,
+      46.6
+    ]
+  },
+  "checks": [
+    {
+      "name": "Six strings are genuinely meshed with correct low-E to high-E numbering",
+      "passed": true
+    },
+    {
+      "name": "Twelve separate fret crowns have decreasing equal-tempered spacing",
+      "passed": true
+    },
+    {
+      "name": "D back is total21mm deep at center; canonical curved edge and taper match",
+      "passed": true
+    },
+    {
+      "name": "All three C pad targets match the shared physical target JSON",
+      "passed": true
+    },
+    {
+      "name": "C pressure and following fret support points are explicitly sampled by each string",
+      "passed": true
+    },
+    {
+      "name": "Open string bottom action at nut and twelfth follows the shared canonical dimensions",
+      "passed": true
+    },
+    {
+      "name": "All six open strings clear all twelve actual elliptical crown profiles",
+      "passed": true
+    },
+    {
+      "name": "Nut groove seats and each string bottom agree at1.4mm above the board",
+      "passed": true
+    },
+    {
+      "name": "Legitimate per-finger C offsets update actual string control points without changing fret or string",
+      "passed": true
+    },
+    {
+      "name": "Six3+3 tuners and the requested175mm/14degree headstock are present",
+      "passed": true
+    },
+    {
+      "name": "Surface normal winding faces outward on board, D back and metal crown",
+      "passed": true
+    },
+    {
+      "name": "Geometry remains below20k triangles with finite normal/position/index data",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitations": [
+    "Generic modeled design, not manufacturer CAD.",
+    "No actual browser/render visual review in this isolated geometry audit.",
+    "Wood grain is procedural; realism still depends on lighting, environment, materials and the validated hand pose.",
+    "70 static meshes are not a physical iPad frame-rate benchmark. Parent may merge/instance static hardware if profiling warrants it."
+  ]
+}

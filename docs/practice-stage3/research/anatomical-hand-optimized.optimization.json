@@ -1,0 +1,140 @@
+{
+  "source": "/tmp/fretline-stage3-assets/anatomical-hand.glb",
+  "target": "/tmp/fretline-stage3-assets/anatomical-hand-optimized.glb",
+  "sourceBytes": 12291880,
+  "optimizedBytes": 3363120,
+  "sourceSHA256": "d43ef7e8f2dc645cc646b3e7c1a0384c40a4e386a77280ef439c8466e888ee57",
+  "optimizedSHA256": "dedb30a66d26589004089dd6b566ba3f61de626e326af21773284c009d463b80",
+  "sourceImages": 6,
+  "optimizedImages": 3,
+  "imageChanges": [
+    {
+      "name": "skin_bump",
+      "oldSize": [
+        2048,
+        2048
+      ],
+      "newSize": [
+        1024,
+        1024
+      ],
+      "sourceImageSHA256": "fd33a9659611fe6a8065b031e3773ec04e4afa1db876ee11220a9edb3e9ff675",
+      "optimizedImageSHA256": "c8ec8bb7f955b845a65cdef368fe1fe8300c5b077a8f75bb94a087b17e82a6c0",
+      "bytes": 522614,
+      "change": "Lanczos maximum dimension resize, lossless PNG encoding and removal of unsupported color/profile/editor metadata; not a creative image alteration."
+    },
+    {
+      "name": "skin_light",
+      "oldSize": [
+        2048,
+        2048
+      ],
+      "newSize": [
+        1024,
+        1024
+      ],
+      "sourceImageSHA256": "a2bd5d2516d0c08b846ee4cf1a96f6e87093d74e8a9508a04c2700314389a6cd",
+      "optimizedImageSHA256": "b93292a79c0b056b568b261af36331b5611bfcc94f8f96c1883aa656b93ae294",
+      "bytes": 1621438,
+      "change": "Lanczos maximum dimension resize, lossless PNG encoding and removal of unsupported color/profile/editor metadata; not a creative image alteration."
+    },
+    {
+      "name": "skin_roughness",
+      "oldSize": [
+        2048,
+        2048
+      ],
+      "newSize": [
+        1024,
+        1024
+      ],
+      "sourceImageSHA256": "bea011b1d0ce8bddb2d1d477ba19655ceb89257210e8960eb740bedfdffbc489",
+      "optimizedImageSHA256": "78dbdd359e732d20b823f86df0f9e470c5a767952b810ca84fd1de491e52d215",
+      "bytes": 842598,
+      "change": "Lanczos maximum dimension resize, lossless PNG encoding and removal of unsupported color/profile/editor metadata; not a creative image alteration."
+    }
+  ],
+  "materialChanges": [
+    {
+      "material": "SkinDual",
+      "warning": "Grayscale height texture retained in original normalTexture slot pending explicit runtime correction."
+    },
+    {
+      "material": "Nails_caucasian",
+      "folded": "baseColorTexture",
+      "sRGBA8": [
+        176,
+        113,
+        103,
+        255
+      ],
+      "linearRGBAFactor": [
+        0.43415363617474895,
+        0.1651321945016676,
+        0.13563332965520566,
+        1.0
+      ]
+    },
+    {
+      "material": "Nails_caucasian",
+      "folded": "metallicRoughnessTexture",
+      "linearRGBA8": [
+        255,
+        122,
+        0,
+        255
+      ],
+      "roughnessFactor": 0.47843137254901963,
+      "metallicFactor": 0.0
+    },
+    {
+      "material": "Nails_caucasian",
+      "folded": "neutralNormalTexture",
+      "note": "Removed standard flat normal map; no normals recomputed."
+    }
+  ],
+  "meshAccessorHashesBefore": {
+    "0/0/POSITION": "50a1f06a073753b1329e7f30cca73fb08fc4543c3376dad3096757167d279703",
+    "0/0/NORMAL": "b87a7d7a46aa84a6e4fcde7041219817adf101f3d09e97ca35330b7c3f7598a4",
+    "0/0/TEXCOORD_0": "3d28e75db29bebd35768c86d2d4abe3f01e9a3a88cb84ee0d7031d89a6e434ba",
+    "0/0/COLOR_0": "6644af26e55b4dc9e5ae255dc003a7b44fb70c2a70d6d6297bd898390896a6b7",
+    "0/0/COLOR_1": "ea40da3f883b34dc25ff094a1736d489ade071fd22890222f883fb179f3aeeac",
+    "0/0/JOINTS_0": "1ba26d961026037f71335ebc992fded1e57ad1ed77ba02c3a1f4efc410779c6c",
+    "0/0/WEIGHTS_0": "ae17d459b0e743a80a99d1949d67e47ebcaa2d544f729d5f86a0baab11cc8ab2",
+    "0/0/indices": "d81df3435adb14f21d8f79bdebdf0ac9ef9b1a95f27b73c10a461c8c85c4b125",
+    "1/0/POSITION": "ff299c42ec36b701c4d2fb30b75a72513abfedfd978661f63ae9cf1e1c29f768",
+    "1/0/NORMAL": "86794d27aa735b21d55c2a9ba5bbb777bb570121453dd12f818a1995667a2be3",
+    "1/0/TEXCOORD_0": "6407c2a453250bcf74bab3222e028029b7979ecf7d374cb170c72c191cc5594c",
+    "1/0/COLOR_0": "70a354d5077fa2144095952f480c029327011358901aa86393f13d3117840139",
+    "1/0/COLOR_1": "d5a52f16fbce86bb7c949743d38a30aae01343c533e5a9aba465d3f6b7fa99e8",
+    "1/0/JOINTS_0": "c24fd1a00b7b38ee05cfe20279e4f590a46675ef84bee4e8273aca1102e117d1",
+    "1/0/WEIGHTS_0": "ea74f5cfb209362ac1689b7cfe557ca393830a02007c8ea296650eccf2736c04",
+    "1/0/indices": "386c8da9f070fb6564d63dd796dc741a4d253069f08aea10de31fd25e8bccf1d"
+  },
+  "meshAccessorHashesAfter": {
+    "0/0/POSITION": "50a1f06a073753b1329e7f30cca73fb08fc4543c3376dad3096757167d279703",
+    "0/0/NORMAL": "b87a7d7a46aa84a6e4fcde7041219817adf101f3d09e97ca35330b7c3f7598a4",
+    "0/0/TEXCOORD_0": "3d28e75db29bebd35768c86d2d4abe3f01e9a3a88cb84ee0d7031d89a6e434ba",
+    "0/0/COLOR_0": "6644af26e55b4dc9e5ae255dc003a7b44fb70c2a70d6d6297bd898390896a6b7",
+    "0/0/COLOR_1": "ea40da3f883b34dc25ff094a1736d489ade071fd22890222f883fb179f3aeeac",
+    "0/0/JOINTS_0": "1ba26d961026037f71335ebc992fded1e57ad1ed77ba02c3a1f4efc410779c6c",
+    "0/0/WEIGHTS_0": "ae17d459b0e743a80a99d1949d67e47ebcaa2d544f729d5f86a0baab11cc8ab2",
+    "0/0/indices": "d81df3435adb14f21d8f79bdebdf0ac9ef9b1a95f27b73c10a461c8c85c4b125",
+    "1/0/POSITION": "ff299c42ec36b701c4d2fb30b75a72513abfedfd978661f63ae9cf1e1c29f768",
+    "1/0/NORMAL": "86794d27aa735b21d55c2a9ba5bbb777bb570121453dd12f818a1995667a2be3",
+    "1/0/TEXCOORD_0": "6407c2a453250bcf74bab3222e028029b7979ecf7d374cb170c72c191cc5594c",
+    "1/0/COLOR_0": "70a354d5077fa2144095952f480c029327011358901aa86393f13d3117840139",
+    "1/0/COLOR_1": "d5a52f16fbce86bb7c949743d38a30aae01343c533e5a9aba465d3f6b7fa99e8",
+    "1/0/JOINTS_0": "c24fd1a00b7b38ee05cfe20279e4f590a46675ef84bee4e8273aca1102e117d1",
+    "1/0/WEIGHTS_0": "ea74f5cfb209362ac1689b7cfe557ca393830a02007c8ea296650eccf2736c04",
+    "1/0/indices": "386c8da9f070fb6564d63dd796dc741a4d253069f08aea10de31fd25e8bccf1d"
+  },
+  "allMeshAccessorsByteIdentical": true,
+  "allNonImageViewsByteIdentical": true,
+  "skinNodeMeshAnimationStructureUnchanged": true,
+  "sourceTextureRGBA8MipMiBEstimate": 128.0,
+  "optimizedTextureRGBA8MipMiBEstimate": 16.0,
+  "gpuEstimateLimit": "RGBA8 plus full mip chain estimate only; actual driver allocations vary.",
+  "runtimeMaterialCorrectionStillRequired": true,
+  "noMirrorNoPoseNoBoneNoShapeEdits": true
+}

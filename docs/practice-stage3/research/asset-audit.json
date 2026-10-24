@@ -1,0 +1,82 @@
+{
+  "accessed": "2026-10-24",
+  "scope": "Research and temporary local inspection only; no assets adopted into Fretline source",
+  "candidates": [
+    {
+      "id": "emmalieker-anatomical",
+      "source": "https://github.com/emmalieker/anatomical-hand-model",
+      "commit": "f27f19f55f8270b3108ea0b53ce5aa81c543ff7c",
+      "url": "https://raw.githubusercontent.com/emmalieker/anatomical-hand-model/f27f19f55f8270b3108ea0b53ce5aa81c543ff7c/exports/hand_model.glb",
+      "license": "CC BY-NC 4.0",
+      "licenseURL": "https://github.com/emmalieker/anatomical-hand-model/blob/f27f19f55f8270b3108ea0b53ce5aa81c543ff7c/LICENSE",
+      "local": "anatomical-hand.glb",
+      "sha256": "d43ef7e8f2dc645cc646b3e7c1a0384c40a4e386a77280ef439c8466e888ee57",
+      "bytes": 12291880,
+      "triangles": 5790,
+      "gltfVertices": 3352,
+      "skinJoints": 21,
+      "skinnedMeshes": [
+        "Hand",
+        "Nails"
+      ],
+      "imageCount": 6,
+      "imageDimensions": [
+        2048,
+        2048
+      ],
+      "handedness": "Preview appears right hand; pose agent must verify actual mesh/rig and mirror for left",
+      "limitations": [
+        "No guitar C-major pose provided",
+        "GLB skeleton does not imply Blender joint constraints survive export",
+        "Skin grayscale height PNG incorrectly assigned as glTF normalTexture: material adaptation required",
+        "Nail three2K maps constant: replace with factors to save GPU memory",
+        "Noncommercial license and attribution must remain; commercial reuse would need other permission/license",
+        "Visualhumananatomy present, not a proof of photorealism or collision-free guitarpose"
+      ]
+    },
+    {
+      "id": "webxr-generic-left",
+      "url": "https://cdn.jsdelivr.net/npm/@webxr-input-profiles/assets@1.0.19/dist/profiles/generic-hand/left.glb",
+      "license": "MIT (asset README explicitly covers glTF/GLB assets)",
+      "licenseURL": "https://github.com/immersive-web/webxr-input-profiles/blob/main/packages/assets/LICENSE.md",
+      "source": "https://github.com/immersive-web/webxr-input-profiles/tree/main/packages/assets",
+      "local": "webxr-hand-left-pinned.glb",
+      "bytes": 94572,
+      "sha256": "bc67783144944ea1cda54d9247885825ea5fb9d4651469fe7d00be517a5c2b87",
+      "triangles": 2314,
+      "gltfVertices": 1360,
+      "skinJoints": 25,
+      "imageCount": 0,
+      "materials": "FlatgreyPBRbaseColor0.5roughness0.5528",
+      "limitations": [
+        "Realriggedmeshbutnotrealisticskinmaterial",
+        "Notrecommendedasfinalvisualsolutionforuserrequirement"
+      ]
+    },
+    {
+      "id": "innerscene-cc0-right",
+      "source": "https://www.innerscene.com/tools/library/3d-parts/posable-anatomical-right-hand-f6098b4f",
+      "license": "CC0 stated on asset page",
+      "download": "https://www.innerscene.com/api/library/posable-anatomical-right-hand-f6098b4f/download",
+      "downloadStatus": "HTTP403 via normalurllib; no bypassattempted",
+      "advertised": "495KB,right,16bones,MakeHumanCC0croppedhand",
+      "limitations": [
+        "Onlypageclaimsverified,notactualbinary/skinquality",
+        "Requiresleftmirroringandposework",
+        "Do not adopt without legitimate access and actualbinaryinspection"
+      ]
+    },
+    {
+      "id": "blendswap-hands-rigged",
+      "source": "https://blendswap.com/blend/22269",
+      "license": "CC0 stated on author model page",
+      "downloadStatus": "Officialdownloadpagerequiressignin; no bypassattempted",
+      "advertised": "8.83MB .blend Blender2.7x, left+right, workingarmature, no texture",
+      "limitations": [
+        "NotGLBready",
+        "Notrealistictexturedsolutionasprovided",
+        "Usermustdownloadviaownauthorizedaccountifchoosing"
+      ]
+    }
+  ]
+}

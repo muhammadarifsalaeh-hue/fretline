@@ -1,0 +1,19 @@
+
+> fretline@0.1.0 practice:check
+> node scripts/check-practice.mjs
+
+PASS Exactly five unique, stable chord choices in the agreed order
+PASS The neck contains six standard-tuned strings and twelve study frets
+PASS Nut is zero; octave wire divides the speaking length exactly in half
+PASS Successive wires get closer by the equal-tempered semitone ratio
+PASS Finger targets stay inside their fret interval; open strings have no offset
+PASS String coordinates are evenly spaced, symmetric and low-E positive
+PASS Invalid fret, scale and string indices fail explicitly
+PASS C: real open voicing, correct notes and a complete major/minor triad
+PASS G: real open voicing, correct notes and a complete major/minor triad
+PASS D: real open voicing, correct notes and a complete major/minor triad
+PASS Em: real open voicing, correct notes and a complete major/minor triad
+PASS Am: real open voicing, correct notes and a complete major/minor triad
+PASS Practice reference data cannot be accidentally mutated by viewer state
+
+Practice data/geometry: 13 passed, 0 failed.

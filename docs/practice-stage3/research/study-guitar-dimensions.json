@@ -1,0 +1,100 @@
+{
+  "status": "Scratch generic design dimensions and targets, not a validated pose or catalog specification",
+  "frame": "mm; nut x0, fretboard top y0; +X toward body; +Y out of board; lowE +Z",
+  "scaleLengthMm": 648,
+  "frets": 12,
+  "fingerboardRadiusMm": 350,
+  "nutWidthMm": 43,
+  "widthAt12Mm": 54,
+  "neckBackDepthMm": 21,
+  "fingerboardThicknessMm": 5,
+  "stringSpanAtNutMm": 35,
+  "stringSpanAtBridgeMm": 52,
+  "fretHeightMm": 1,
+  "pressOffsetBeforeWireMm": 4,
+  "pressedStringCenterHeightMm": 0.75,
+  "headstockLengthMm": 175,
+  "headstockMaxWidthMm": 70,
+  "headstockThicknessMm": 14,
+  "headstockTiltDegrees": 14,
+  "tunerSpacingMm": 33,
+  "activeFingerTargets": [
+    {
+      "finger": 1,
+      "string": 2,
+      "fret": 1,
+      "wireXmm": 36.3694453822626,
+      "padContactTargetMm": [
+        32.3694453822626,
+        0.7497644965490462,
+        -10.754759523841884
+      ],
+      "padNormalIdeal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "finger": 2,
+      "string": 4,
+      "fret": 2,
+      "wireXmm": 70.69763064506014,
+      "padContactTargetMm": [
+        66.69763064506014,
+        1.0607064773033208,
+        3.6749783520009296
+      ],
+      "padNormalIdeal": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "finger": 3,
+      "string": 5,
+      "fret": 3,
+      "wireXmm": 103.099122915593,
+      "padContactTargetMm": [
+        99.099122915593,
+        1.0232325716754622,
+        11.279946800724574
+      ],
+      "padNormalIdeal": [
+        0,
+        -1,
+        0
+      ]
+    }
+  ],
+  "thumbBackTargetMm": [
+    70,
+    -21,
+    0
+  ],
+  "note": "Mesh pad contact and collision must be validated; unused pinky stays lifted. These point targets alone do not establish playable technique.",
+  "stringDiametersMm": [
+    1.32,
+    0.91,
+    0.66,
+    0.46,
+    0.33,
+    0.25
+  ],
+  "neckBodyCanonical": {
+    "halfWidth": "21.5+5.5*clamp(x/324,0,1)",
+    "top": "-z*z/700",
+    "bottom": "-5-z*z/700-16*sqrt(max(0,1-(z/halfWidth)^2))",
+    "note": "21mm is total top-to-back center depth, includes5mmfingerboard; pose proxy and finalmesh must match"
+  },
+  "fretWidthMm": 2.2,
+  "unpressedStringBottomAtNutMm": 1.4,
+  "unpressedStringBottomAt12Mm": 3.0,
+  "unpressedStringCenterFormula": "y=lerp(top(zNut)+1.4+radius, top(z12)+3.0+radius,x/324); z=(stringNumber-3.5)*(35+17*x/648)/5",
+  "pressOffsetPermittedRangeMm": [
+    3,
+    8
+  ],
+  "nominalPressOffsetNotAMusicalRequirement": true
+}

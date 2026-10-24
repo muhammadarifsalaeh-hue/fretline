@@ -1,0 +1,287 @@
+{
+  "browserVersion": "154.0.8037.57",
+  "views": [
+    {
+      "view": "front",
+      "camera": {
+        "position": [
+          1.7999999999999998,
+          5.3,
+          3.799999999999999
+        ],
+        "target": [
+          1.7999999999999998,
+          -0.8499999999999999,
+          -0.09999999999999999
+        ]
+      }
+    },
+    {
+      "view": "side",
+      "camera": {
+        "position": [
+          6.8,
+          0.6000000000000009,
+          4.8
+        ],
+        "target": [
+          1.8,
+          -0.85,
+          -0.15
+        ]
+      }
+    },
+    {
+      "view": "player",
+      "camera": {
+        "position": [
+          2.799999999999999,
+          4,
+          -5.8
+        ],
+        "target": [
+          1.7999999999999998,
+          -0.8499999999999999,
+          -0.09999999999999999
+        ]
+      }
+    },
+    {
+      "view": "context",
+      "camera": {
+        "position": [
+          6.999999999999998,
+          10,
+          12
+        ],
+        "target": [
+          1.1999999999999997,
+          -0.5,
+          0
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "responses": [
+    {
+      "url": "http://127.0.0.1:8766/inspection/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8766/inspection/viewer.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8766/node_modules/three/examples/jsm/controls/OrbitControls.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8766/buildStudyGuitar.mjs",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8766/node_modules/three/examples/jsm/environments/RoomEnvironment.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8766/node_modules/three/examples/jsm/loaders/GLTFLoader.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8766/node_modules/three/examples/jsm/utils/BufferGeometryUtils.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8766/node_modules/three/examples/jsm/utils/SkeletonUtils.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8766/node_modules/three/build/three.module.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8766/node_modules/three/build/three.core.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8766/c-major-runtime-pose.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8766/anatomical-hand-optimized.glb",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8766/71084147-77bc-4e5c-bb9e-e4aa99d2b421",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8766/ddb58600-53b9-4aa0-850b-af80547b3c77",
+      "status": 200
+    },
+    {
+      "url": "blob:http://127.0.0.1:8766/305d3781-9ac0-4c88-8cac-b10b305eef68",
+      "status": 200
+    }
+  ],
+  "failedRequests": [],
+  "proof": {
+    "actual3D": true,
+    "poseApproved": false,
+    "status": "failed contact gate",
+    "jointsApplied": 21,
+    "skinnedMeshes": 2,
+    "handTriangles": 5790,
+    "neckTriangles": {
+      "units": "mm",
+      "genericStudyModel": true,
+      "stringCount": 6,
+      "fretCount": 12,
+      "tunerCount": 6,
+      "dimensions": {
+        "scaleLength": 648,
+        "frets": 12,
+        "radius": 350,
+        "nutWidth": 43,
+        "widthAt12": 54,
+        "boardThickness": 5,
+        "backDepth": 21,
+        "stringSpanNut": 35,
+        "stringSpanBridge": 52,
+        "fretHeight": 1,
+        "fretCrownWidth": 2.2,
+        "pressOffset": 4,
+        "pressHeight": 0.75,
+        "openStringBottomAtNut": 1.4,
+        "openStringBottomAt12": 3,
+        "headstockLength": 175,
+        "headstockWidth": 70,
+        "headstockThickness": 14,
+        "headstockAngle": 14,
+        "tunerSpacing": 33
+      },
+      "boundsMm": {
+        "min": [
+          -172.69881921704223,
+          -60.78112014282952,
+          -46.6
+        ],
+        "max": [
+          330.0088806152344,
+          3.694734573364258,
+          46.6
+        ]
+      },
+      "contactTargetsAreNotAValidatedHandPose": true
+    },
+    "modelSha256": "dedb30a66d26589004089dd6b566ba3f61de626e326af21773284c009d463b80",
+    "worldMmBonePositions": {
+      "radius_ulna": [
+        80.78281584493479,
+        -98.2918857050679,
+        -10.482743560215626
+      ],
+      "pinky_meta": [
+        64.0331931459914,
+        -79.53989626597358,
+        7.07817713052123
+      ],
+      "pinky_prox": [
+        84.43463316595803,
+        -32.3129797228258,
+        51.60741189194059
+      ],
+      "pinky_midd": [
+        89.2917383199661,
+        -3.4845509595678825,
+        56.14640975240807
+      ],
+      "pinky_dist": [
+        94.46812803194392,
+        6.623485255518382,
+        45.23839342942896
+      ],
+      "ring_meta": [
+        64.03319319796628,
+        -79.53989866747568,
+        7.0781759439450305
+      ],
+      "ring_prox": [
+        68.27966805839283,
+        -29.339557438734207,
+        51.72154032142592
+      ],
+      "ring_midd": [
+        89.05922518357544,
+        5.393228650909565,
+        39.496150352523145
+      ],
+      "ring_dist": [
+        101.55393029831168,
+        18.30567600487945,
+        23.54786919347628
+      ],
+      "midd_meta": [
+        64.03319277798272,
+        -79.5398999697535,
+        7.078174730575952
+      ],
+      "midd_prox": [
+        49.776684274433336,
+        -23.459951450196115,
+        48.556076433527835
+      ],
+      "midd_midd": [
+        58.96821735683818,
+        20.29513087113493,
+        35.97757208929544
+      ],
+      "midd_dist": [
+        67.65219116269799,
+        22.83726413758783,
+        9.87069449817081
+      ],
+      "index_meta": [
+        64.03319452645599,
+        -79.539901260274,
+        7.07817390096265
+      ],
+      "index_prox": [
+        28.58227862834998,
+        -24.251180013859972,
+        44.088931414304554
+      ],
+      "index_midd": [
+        14.185961966615714,
+        14.123134598556092,
+        26.81351216255532
+      ],
+      "index_dist": [
+        22.35297296886012,
+        11.084975698673565,
+        4.94983726941479
+      ],
+      "thumb_trapez": [
+        64.03319293258227,
+        -79.53989635011908,
+        7.0781782495750045
+      ],
+      "thumb_meta": [
+        16.125885344908973,
+        -67.55966300858744,
+        1.531957283803158
+      ],
+      "thumb_prox": [
+        9.96173572702135,
+        -44.14921907725404,
+        13.772502413539641
+      ],
+      "thumb_dist": [
+        33.607193761796175,
+        -31.569458092718197,
+        11.9374256593422
+      ]
+    }
+  }
+}

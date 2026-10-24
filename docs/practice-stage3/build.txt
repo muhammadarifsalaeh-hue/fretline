@@ -1,0 +1,73 @@
+
+> fretline@0.1.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 213 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                             0.91 kB │ gzip:   0.57 kB
+dist/assets/gibson-BLvOdW2L.svg             4.44 kB │ gzip:   2.12 kB
+dist/assets/yamaha-DhXfjkE2.svg             6.55 kB │ gzip:   2.50 kB
+dist/assets/prs-DcKJlR5R.svg                9.56 kB │ gzip:   4.05 kB
+dist/assets/fender-DkIbZz31.svg            10.33 kB │ gzip:   3.82 kB
+dist/assets/epiphone-ScntFqrP.svg          11.49 kB │ gzip:   5.20 kB
+dist/assets/martin-DMJyvvLA.svg            14.24 kB │ gzip:   6.44 kB
+dist/assets/ibanez-Dr5XvkXn.svg            15.72 kB │ gzip:   7.07 kB
+dist/assets/taylor-BiE1RgP3.svg            19.56 kB │ gzip:   8.02 kB
+dist/assets/01-front-480-cu5pQ3DA.webp     20.11 kB
+dist/assets/01-front-480-DvNXnlmI.webp     38.72 kB
+dist/assets/gibson-DuMHBIUC.webp           55.59 kB
+dist/assets/squier-D_xTWQop.webp           56.19 kB
+dist/assets/fender-DCF8s-Rl.webp           56.93 kB
+dist/assets/01-front-960-RP14YaR8.webp     83.14 kB
+dist/assets/taylor-DVJVIccN.webp          104.98 kB
+dist/assets/01-front-960-Bhe6OkYl.webp    115.42 kB
+dist/assets/prs-CwqQZRay.webp             119.90 kB
+dist/assets/01-front-CpQ6r9La.webp        131.46 kB
+dist/assets/epiphone-3cYMFIFQ.webp        133.63 kB
+dist/assets/squier-DbmA7p2n.png           137.91 kB
+dist/assets/ibanez-0rVpVFOn.webp          147.52 kB
+dist/assets/martin-BZX4UNwJ.webp          148.95 kB
+dist/assets/01-front-D2ver0On.webp        168.65 kB
+dist/assets/yamaha-B6fXBWus.webp          181.69 kB
+dist/assets/01-black-4e0ibs0x.jpg         186.84 kB
+dist/assets/03-blue-teal-DGai0Mw0.jpg     191.78 kB
+dist/assets/02-red-5wy1XNF8.jpg           192.06 kB
+dist/assets/04-all-colors-Dh6UTa0U.jpg    233.51 kB
+dist/assets/cordoba-EcdWeOY5.webp         248.51 kB
+dist/assets/PracticePage-BDlqNLrt.css      19.41 kB │ gzip:   3.56 kB
+dist/assets/index-x3KRVqDG.css            137.81 kB │ gzip:  24.39 kB
+dist/assets/SortSelect-BEapmuXi.js          0.61 kB │ gzip:   0.38 kB
+dist/assets/CatalogEmpty-C5QNuP_f.js        0.70 kB │ gzip:   0.41 kB
+dist/assets/guitarSort-gDxFiBv4.js          0.73 kB │ gzip:   0.42 kB
+dist/assets/ImageAttribution-CCHRhro3.js    0.75 kB │ gzip:   0.39 kB
+dist/assets/ShareLink-CIn-Jh-P.js           0.82 kB │ gzip:   0.53 kB
+dist/assets/DiscoveryHeading-CvuzUI7D.js    0.93 kB │ gzip:   0.49 kB
+dist/assets/ConfirmDialog-CM_8neGn.js       1.03 kB │ gzip:   0.57 kB
+dist/assets/ImageCreditsPage-Biw3-hqt.js    2.61 kB │ gzip:   1.04 kB
+dist/assets/CatalogCard-7S_6BHxN.js         4.96 kB │ gzip:   1.95 kB
+dist/assets/WishlistPage-B-DO0TRJ.js        5.66 kB │ gzip:   2.14 kB
+dist/assets/BrandDetailPage-D4yV-Vyx.js     6.05 kB │ gzip:   2.11 kB
+dist/assets/BrandsPage-BYI3ENOx.js          7.88 kB │ gzip:   2.87 kB
+dist/assets/ComparePage-C0KzTwui.js        11.50 kB │ gzip:   4.03 kB
+dist/assets/FindMyGuitarPage-Vxf6RqjF.js   14.58 kB │ gzip:   4.67 kB
+dist/assets/PracticePage-D7Z_J3dO.js       16.26 kB │ gzip:   5.95 kB
+dist/assets/CatalogPage-BW3uw744.js        19.28 kB │ gzip:   6.52 kB
+dist/assets/GuitarDetailPage-CQiNGmLq.js   23.74 kB │ gzip:   8.02 kB
+dist/assets/index-6BvTKc6f.js             156.10 kB │ gzip:  52.10 kB
+dist/assets/vendor-DU_bXo7n.js            163.33 kB │ gzip:  53.23 kB
+dist/assets/guitar-catalog-fsERoDj-.js    338.29 kB │ gzip:  37.12 kB
+dist/assets/practice-three-B8kz-qx9.js    589.34 kB │ gzip: 150.37 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 6.18s
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice
