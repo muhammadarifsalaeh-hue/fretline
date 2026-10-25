@@ -1,5 +1,9 @@
 # Fretline Guitar Practice Studio — feature delivery
 
+Latest continuation: [Hand repair Batch 2](../practice-hand-batch-2/README.md)
+and its [current 42-pose table](../practice-hand-batch-2/CHORD-STATUS-42.md).
+The initial delivery evidence below is retained as the `1f71d34` snapshot.
+
 This extends the existing project on `feature/guitar-practice-3d`, starting from
 `b21bd6a` with rollback checkpoint `17bd035`. It is **not a completed, approved
 42-pose human-hand trainer**. The stable original website remains on master;

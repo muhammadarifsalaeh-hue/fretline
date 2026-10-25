@@ -1,0 +1,84 @@
+{
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "sourcePose": "docs/practice-trainer/pose-solver/C-arm-variant.json",
+  "sourcePoseSha256": "3eb34d7807d30e620d70d0af91baaddce863bde753f6e8557cdc3af7fb9a98ed",
+  "unit": "mm and degrees",
+  "fingers": [
+    {
+      "finger": "index",
+      "boneLengthsMm": [
+        25.19985639838977,
+        22.636629569686065,
+        23.15494487347131
+      ],
+      "sumMcpToTipBoneLengthsMm": 70.99143084154714,
+      "wristToMcpDistanceMm": 99.96400065239625,
+      "restMcpProjectedFlexDegrees": 15.747500626366012,
+      "posedMcpProjectedFlexDegrees": 16.26324777764083,
+      "restAngleBetweenCarpalAndProximalDegrees": 18.100765462387923,
+      "posedAngleBetweenCarpalAndProximalDegrees": 23.564157222726,
+      "posedPipRelativeSegmentBendDegrees": 71.07996476824681,
+      "posedDipRelativeSegmentBendDegrees": 30.077540022856805
+    },
+    {
+      "finger": "middle",
+      "boneLengthsMm": [
+        31.8434902123211,
+        24.974482773992833,
+        24.696053602370856
+      ],
+      "sumMcpToTipBoneLengthsMm": 81.51402658868479,
+      "wristToMcpDistanceMm": 96.42379438388781,
+      "restMcpProjectedFlexDegrees": 12.485983583748572,
+      "posedMcpProjectedFlexDegrees": 11.962868397771716,
+      "restAngleBetweenCarpalAndProximalDegrees": 13.455618220084022,
+      "posedAngleBetweenCarpalAndProximalDegrees": 14.12873314055138,
+      "posedPipRelativeSegmentBendDegrees": 76.7777977357612,
+      "posedDipRelativeSegmentBendDegrees": 34.0609569507548
+    },
+    {
+      "finger": "ring",
+      "boneLengthsMm": [
+        28.1658292182864,
+        23.69025995428985,
+        24.47528457209977
+      ],
+      "sumMcpToTipBoneLengthsMm": 76.33137374467601,
+      "wristToMcpDistanceMm": 92.00388476378129,
+      "restMcpProjectedFlexDegrees": 16.403271737290765,
+      "posedMcpProjectedFlexDegrees": 19.06856726061165,
+      "restAngleBetweenCarpalAndProximalDegrees": 22.295177263651897,
+      "posedAngleBetweenCarpalAndProximalDegrees": 24.81753153943108,
+      "posedPipRelativeSegmentBendDegrees": 46.90087867291507,
+      "posedDipRelativeSegmentBendDegrees": 46.42598375719185
+    },
+    {
+      "finger": "little",
+      "boneLengthsMm": [
+        21.519087483669175,
+        14.203460202561095,
+        18.275218783763332
+      ],
+      "sumMcpToTipBoneLengthsMm": 53.99776646999361,
+      "wristToMcpDistanceMm": 89.237840470554,
+      "restMcpProjectedFlexDegrees": 26.168046200653375,
+      "posedMcpProjectedFlexDegrees": 26.388050088144,
+      "restAngleBetweenCarpalAndProximalDegrees": 26.20783345963179,
+      "posedAngleBetweenCarpalAndProximalDegrees": 28.54725561860072,
+      "posedPipRelativeSegmentBendDegrees": 22.858829086956906,
+      "posedDipRelativeSegmentBendDegrees": 6.686524151323172
+    }
+  ],
+  "mostDistalSkinProjectionFromWristMm": 175.81616675363122,
+  "wholeMeshDimensionsMm": [
+    214.361272752285,
+    270.1505944132805,
+    337.40633726119995
+  ],
+  "forearmCutExists": true,
+  "limitations": [
+    "Authoring parameters are deltas from exported rest rotations, not clinical/anatomical zero angles.",
+    "Bone-axis measurements are proxy joint angles; no medical or ergonomic acceptance is inferred.",
+    "Native Blender source contains cropped forearm only. Original complete body/shirt inputs are not present locally."
+  ]
+}

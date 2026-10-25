@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "candidate": "docs/practice-hand-batch-2/presentation/C-natural-arm.json",
+  "candidateSha256": "09f45f3c836f489afe9fb1b4f6a9cac8546ea9715b252db5d7bda933d0e8b0f8",
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "rigDataSha256": "6c58c7de471cd50753ce884fc6f0d044d8d5e1e2a39be384815b6be94e896c88",
+  "poseTransformSha256": "60fec80ad0cb42f3e228cc06ee916eab1c48c334dcf239ee3bee33f3c2613393",
+  "posedCombinedMeshGeometrySha256": "d064308642dd055c74871ffa394ea2dc7164804b613fada2f6a8423febd3a070",
+  "actualRuntimeGuitarGeometrySha256": "53f2c653d22f4ad03475937f7ca5a6fc4baa0c02acf8adc7f1190818898886e6",
+  "reports": {
+    "C-natural-experiment-self-audit.json": "bcdab1efa503d7be1c7e00d4b3e9f8223b88d4ed36ddc3af212d638b62e7dd5d",
+    "C-natural-little20-self-audit.json": "61009d0dbeeed3e3222b10c5665ddc425c0785caf025e8d5cff7d0216734026d",
+    "C-natural-little0-self-audit.json": "c9f7d2bd9069a67cb9944ee02692778d8c70e092a60e0e778f832e1d92f9f75e",
+    "C-natural-little0-combined-self-audit.json": "eccb1f2bb7ba98135bb1bdcf6b5ee45baa538ea41446853a4037ab467971920f",
+    "C-natural-little0-guitar-audit.json": "4fb9da4141950c19027fbb297cfa9a09bddb94ec44a316b16a7a7c41c548492c",
+    "C-natural-arm-combined-self-audit.json": "18cfe780b7e1741734885b16ea4e74826dba35195c30211107585456ea0d176c",
+    "C-natural-arm-guitar-audit.json": "ac30660641464c88c61f8cd3dae95653c4bab3430ca560ebcf0cbcc602c76218",
+    "C-natural-arm-clearances.json": "076bece6e0757ac019dbfdf7e864d31fe8708ac2b63dbd06b07851c48bcb33ab"
+  },
+  "geometryPassed": true,
+  "teachingAnatomyApproved": false,
+  "multiViewVisualReview": "not performed by this authoring task",
+  "sourceFiles": {
+    "scripts/practice/solve-hand-poses.py": "cf968c6901d38215168f3b62f66a810fc94b8e6f70de02e2807aa0f302cbd92c",
+    "docs/practice-trainer/pose-solver/refine_c_contacts.py": "78e8f1d31ccacf10040a6e5f553b58101e008a1266e17539f3b33b736a7f0c01",
+    "src/features/practice/scene/studyGuitar.js": "d0b5041bc04d893c7b0abd6b68c0ed50ec701e0f5ee991df1372c2cf4fa2ed79",
+    "src/features/practice/scene/frettedStrings.js": "7243d9e23dff201dc3496a5034135ea50b88a07bb15f978df7f540d67022930a"
+  },
+  "usedFingerRestRelativeAnglesDegrees": {
+    "index": [
+      14.90356083733765,
+      27.39266918375538,
+      53.30955504874697,
+      18.865263287133136
+    ],
+    "middle": [
+      14.998968197104512,
+      6.455212341872988,
+      56.120553289114376,
+      27.11825811481107
+    ],
+    "ring": [
+      23.04720890394487,
+      -7.695503925141958,
+      19.082757855096446,
+      38.34501159625358
+    ]
+  },
+  "limitations": [
+    "All review gates remain false in this saved authoring candidate; no automatic lesson approval.",
+    "Finite cropped forearm remains unchanged geometry.",
+    "Numerical solver maximum50evaluations was reached; subsequent mesh/contact audits, not solver success, establish geometric metrics."
+  ]
+}

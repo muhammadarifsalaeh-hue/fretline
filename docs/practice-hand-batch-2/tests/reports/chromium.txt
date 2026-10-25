@@ -1,0 +1,38 @@
+PROGRESS chromium rendered diagrams 7/42
+PROGRESS chromium rendered diagrams 14/42
+PROGRESS chromium rendered diagrams 21/42
+PROGRESS chromium rendered diagrams 28/42
+PROGRESS chromium rendered diagrams 35/42
+PROGRESS chromium rendered diagrams 42/42
+PASS chromium all-42-diagrams
+PASS chromium search-filters
+PASS chromium navigation-history-keyboard
+PASS chromium responsive-desktop
+PASS chromium responsive-tablet-landscape
+PASS chromium responsive-tablet
+PASS chromium responsive-mobile
+PASS chromium responsive-small-mobile
+PASS chromium loading
+PROGRESS chromium unsupported fallback captured; restoring native WebGL
+PROGRESS chromium native WebGL restored; clicking scene retry
+PROGRESS chromium scene retry clicked; awaiting ready
+PASS chromium webgl-unavailable
+PASS chromium context-loss
+PASS chromium module-failure
+PASS chromium touch
+PASS chromium lazy-routes
+PASS chromium spa-cleanup
+PASS chromium hand-loading
+PASS chromium hand-failure
+FAIL chromium performance-lifecycle Traceback (most recent call last):
+  File "/workspace/fretline/docs/practice-trainer/tests/browser-trainer.py", line 709, in <module>
+    details = function(page)
+              ^^^^^^^^^^^^^^
+  File "/workspace/fretline/docs/practice-trainer/tests/browser-trainer.py", line 621, in performance_lifecycle
+    assert idle == first, 'An idle trainer must not keep rendering WebGL frames'
+           ^^^^^^^^^^^^^
+AssertionError: An idle trainer must not keep rendering WebGL frames
+
+PASS chromium hand-review-desktop
+PASS chromium hand-review-tablet
+PASS chromium hand-review-mobile

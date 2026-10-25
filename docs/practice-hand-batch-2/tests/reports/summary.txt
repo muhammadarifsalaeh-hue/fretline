@@ -1,0 +1,59 @@
+{
+  "scope": "Frozen-build browser/rendering/lifecycle regression acceptance; numerical and anatomical hand approval are separate",
+  "matchingProductionAssetsAcrossReports": true,
+  "matchingCurrentSourcePoseLibrary": true,
+  "chromiumInitialFailureAndFocusedCoverage": {
+    "initialRunPassed": false,
+    "initialPassedCases": 20,
+    "initialCaseCount": 21,
+    "initialFailedCases": [
+      "performance-lifecycle"
+    ],
+    "initialReport": "chromium/browser-trainer-chromium.json",
+    "focusedCorrectedCasePassed": true,
+    "focusedReport": "chromium-performance/browser-trainer-chromium-performance-lifecycle.json",
+    "acceptedCaseCoverage": 21,
+    "sameFrozenProductionAssets": true,
+    "reason": "Observed one already-scheduled hand-publish frame after asset-ready; explicit initial two-rAF/stable-size/count readiness precedes the original unchanged800msidleassertion. Original20/21runremainsfailed."
+  },
+  "allSevenCameraPresets": {
+    "passed": true,
+    "engineCases": 2,
+    "errors": {
+      "consoleErrors": 0,
+      "runtimeErrors": 0,
+      "failedRequests": 0,
+      "badResponses": 0,
+      "networkErrors": 0
+    }
+  },
+  "newCandidateRendering": {
+    "passed": true,
+    "engineViewportCases": 4,
+    "errors": {
+      "consoleErrors": 0,
+      "runtimeErrors": 0,
+      "failedRequests": 0,
+      "badResponses": 0,
+      "networkErrors": 0
+    },
+    "actualSourceTransformsChecked": [
+      "C",
+      "Cmaj7",
+      "Am7"
+    ],
+    "fourViewCandidateCapture": [
+      "Cmaj7",
+      "Am7"
+    ],
+    "fourViewCIncludedInCanonicalSuites": true
+  },
+  "sourceIndependentTeachingHandApprovals": [],
+  "handsApprovedByThisHarness": 0,
+  "limitations": [
+    "Linux Chromium/SwiftShader and Linux WebKit are not physical iPadOS Safari or native iPad performance evidence.",
+    "These browser tests do not certify finger contact, collisions, skin weights, or anatomical pose correctness.",
+    "Historical Phase 5–9 static baseline failures are reported separately, not relabelled passes."
+  ],
+  "passed": true
+}

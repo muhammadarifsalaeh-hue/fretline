@@ -1,0 +1,176 @@
+{
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "poseTransformSha256": "60fec80ad0cb42f3e228cc06ee916eab1c48c334dcf239ee3bee33f3c2613393",
+  "transformSource": "Actual saved root quaternion/translation and all22 absoluteLOCALbonequaternions; rest translations/scales and original GLB skinweights; old sourceSolverParameters provenance is never used.",
+  "scope": "All14760actualexportedGLBskintriangles vs physicalpiecewisecentrelines, circumcircleradiususedconservatively around6sidedactualtubes. Positiveclearanceprovesoutsidecircumscribedtube. SLSQPcoordinatesaresecondaryillustrativeclosestpointcalculation; authoritativeclearanceminimumcomesfromanalytictriangle/segmentdistance.",
+  "strings": [
+    {
+      "string": 1,
+      "minimumWholeSkinTriangleClearanceMm": 1.8347640552526632,
+      "triangle": 1050,
+      "triangleVertexIndices": [
+        4292,
+        178,
+        2289
+      ],
+      "lineSegmentIndex": 0,
+      "linePointMm": [
+        32.72512975939703,
+        1.225036087400949,
+        -17.929264819374808
+      ],
+      "skinPointMm": [
+        32.730226576115975,
+        2.944954665138927,
+        -16.989834534213493
+      ],
+      "closestPairCalculationConverged": true,
+      "closestPairDistanceMm": 1.9597640552543985,
+      "barycentric": [
+        1.1102230246251565e-16,
+        0.051125240143044565,
+        0.9488747598569554
+      ]
+    },
+    {
+      "string": 2,
+      "minimumWholeSkinTriangleClearanceMm": 0.008002537707762963,
+      "triangle": 1061,
+      "triangleVertexIndices": [
+        6175,
+        175,
+        4293
+      ],
+      "lineSegmentIndex": 0,
+      "linePointMm": [
+        30.18363181053829,
+        1.0506095009334047,
+        -10.73755636147183
+      ],
+      "skinPointMm": [
+        30.185437030950055,
+        1.221434610805864,
+        -10.764858395640186
+      ],
+      "closestPairCalculationConverged": true,
+      "closestPairDistanceMm": 0.17300253770798546,
+      "barycentric": [
+        -2.0816681711721685e-17,
+        0.9697137416911079,
+        0.03028625830889211
+      ]
+    },
+    {
+      "string": 3,
+      "minimumWholeSkinTriangleClearanceMm": 2.7801957059012508,
+      "triangle": 2500,
+      "triangleVertexIndices": [
+        6355,
+        4533,
+        392
+      ],
+      "lineSegmentIndex": 0,
+      "linePointMm": [
+        68.02644265680371,
+        1.9464316990167223,
+        -3.6784644328959355
+      ],
+      "skinPointMm": [
+        68.01981710909061,
+        4.2997674087313715,
+        -1.8014867219648785
+      ],
+      "closestPairCalculationConverged": true,
+      "closestPairDistanceMm": 3.0101957059022992,
+      "barycentric": [
+        -3.3306690738754696e-16,
+        0.29192845015693547,
+        0.7080715498430649
+      ]
+    },
+    {
+      "string": 4,
+      "minimumWholeSkinTriangleClearanceMm": 0.00800147030843068,
+      "triangle": 1844,
+      "triangleVertexIndices": [
+        6273,
+        4428,
+        301
+      ],
+      "lineSegmentIndex": 1,
+      "linePointMm": [
+        66.71707804727004,
+        1.3357059408377314,
+        3.6750293714203073
+      ],
+      "skinPointMm": [
+        66.71705691347158,
+        1.6735076640686493,
+        3.6866478595425827
+      ],
+      "closestPairCalculationConverged": true,
+      "closestPairDistanceMm": 0.33800147030843297,
+      "barycentric": [
+        2.220446049250313e-16,
+        0.3979198787456496,
+        0.6020801212543502
+      ]
+    },
+    {
+      "string": 5,
+      "minimumWholeSkinTriangleClearanceMm": 0.00800269147337207,
+      "triangle": 3329,
+      "triangleVertexIndices": [
+        668,
+        6459,
+        4676
+      ],
+      "lineSegmentIndex": 1,
+      "linePointMm": [
+        101.92040809351403,
+        1.2975159552082691,
+        11.302151359995248
+      ],
+      "skinPointMm": [
+        101.92105917381438,
+        1.7555062266397703,
+        11.234210358529785
+      ],
+      "closestPairCalculationConverged": true,
+      "closestPairDistanceMm": 0.46300269147337336,
+      "barycentric": [
+        0.5649435902069546,
+        6.150986498482677e-16,
+        0.43505640979304466
+      ]
+    },
+    {
+      "string": 6,
+      "minimumWholeSkinTriangleClearanceMm": 4.22491357179037,
+      "triangle": 3232,
+      "triangleVertexIndices": [
+        659,
+        2671,
+        6447
+      ],
+      "lineSegmentIndex": 0,
+      "linePointMm": [
+        100.81043854267631,
+        2.0461827596490183,
+        18.822359147550536
+      ],
+      "skinPointMm": [
+        100.86936030103666,
+        2.9868163504367313,
+        14.029226844125159
+      ],
+      "closestPairCalculationConverged": true,
+      "closestPairDistanceMm": 4.884913571790838,
+      "barycentric": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    }
+  ]
+}

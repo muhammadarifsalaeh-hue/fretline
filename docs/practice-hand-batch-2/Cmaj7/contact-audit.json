@@ -1,0 +1,58 @@
+{
+  "chordId": "Cmaj7",
+  "voicing": "x32000",
+  "sourceChordDataSha256": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "poseTransformSha256": "c46c954aa85d3323f42c33e9a59b8117a2c76f6645467d1e8af1090f5ec553bb",
+  "source": "ActualexportedGLBweights+restTRS; actualsavedroot+22localbonequats",
+  "triangleCount": 14760,
+  "stringDistanceScope": "Analytic segment/triangle distance over ALL skin triangles, physical piecewise circular-tube paths; positive clearance is outside conservative circumscribed six-sided runtime string tube.",
+  "strings": [
+    {
+      "string": 1,
+      "fret": 0,
+      "clearanceMm": 0.557241387151
+    },
+    {
+      "string": 2,
+      "fret": 0,
+      "clearanceMm": 1.327904902427182
+    },
+    {
+      "string": 3,
+      "fret": 0,
+      "clearanceMm": 2.6826427209589325
+    },
+    {
+      "string": 4,
+      "fret": 2,
+      "clearanceMm": 0.008002018031291414
+    },
+    {
+      "string": 5,
+      "fret": 3,
+      "clearanceMm": 0.00800300086587935
+    },
+    {
+      "string": 6,
+      "fret": null,
+      "clearanceMm": 4.213400322417754
+    }
+  ],
+  "woodSamples": [
+    {
+      "mesh": "Black_LongSleeve_Forearm",
+      "sampleCount": 5950,
+      "interiorSamples": 0,
+      "maxDepthMm": 0.0
+    },
+    {
+      "mesh": "MakeHuman_Left_Hand_Forearm",
+      "sampleCount": 66928,
+      "interiorSamples": 0,
+      "maxDepthMm": 0.0
+    }
+  ],
+  "combinedMeshTransient": "/tmp/fretline-Cmaj7-batch/combined-mesh.json",
+  "anatomicalApproval": false
+}

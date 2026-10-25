@@ -1,0 +1,21 @@
+{
+  "baseline": "1f71d347c375e97b08196f952c7fc96bce2c7f32",
+  "branch": "feature/guitar-practice-3d",
+  "geometricPassed": 3,
+  "geometricallyPassedChords": [
+    "C",
+    "Cmaj7",
+    "Am7"
+  ],
+  "needsReviewTeachingHands": 42,
+  "verifiedTeachingHands": 0,
+  "all42GeometricPassed": false,
+  "browserAcceptancePassed": true,
+  "physicalIPadSafariTested": false,
+  "masterMerged": false,
+  "legacyStaticCommandsAllPassed": false,
+  "protectedOriginalFiles": 197,
+  "guitars": 200,
+  "brands": 10,
+  "perBrand": 20
+}

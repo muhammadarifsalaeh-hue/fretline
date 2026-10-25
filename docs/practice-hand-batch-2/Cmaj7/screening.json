@@ -1,0 +1,293 @@
+{
+  "selectionRule": "Minimize conservative wood/open-string vertex deficits, then angular change; not a verification gate.",
+  "trials": [
+    {
+      "pipReleaseDegrees": 4,
+      "dipReleaseDegrees": 0,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 4,
+      "dipReleaseDegrees": 5,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 4,
+      "dipReleaseDegrees": 10,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 7,
+      "dipReleaseDegrees": 0,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 4,
+      "dipReleaseDegrees": 15,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 7,
+      "dipReleaseDegrees": 5,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 7,
+      "dipReleaseDegrees": 10,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 10,
+      "dipReleaseDegrees": 0,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 7,
+      "dipReleaseDegrees": 15,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 10,
+      "dipReleaseDegrees": 5,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 10,
+      "dipReleaseDegrees": 10,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 10,
+      "dipReleaseDegrees": 15,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 14,
+      "dipReleaseDegrees": 0,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 14,
+      "dipReleaseDegrees": 5,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 14,
+      "dipReleaseDegrees": 10,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 14,
+      "dipReleaseDegrees": 15,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 20,
+      "dipReleaseDegrees": 0,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 20,
+      "dipReleaseDegrees": 5,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 20,
+      "dipReleaseDegrees": 10,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 20,
+      "dipReleaseDegrees": 15,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 30,
+      "dipReleaseDegrees": 0,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 30,
+      "dipReleaseDegrees": 5,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 30,
+      "dipReleaseDegrees": 10,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    },
+    {
+      "pipReleaseDegrees": 30,
+      "dipReleaseDegrees": 15,
+      "minimumVertexClearanceMm": {
+        "1": 0.5604266681172807,
+        "2": 1.3917475937472812,
+        "3": 2.9546925932551877
+      },
+      "woodVertices": 0,
+      "maximumWoodDepthMm": 0.0,
+      "screeningDeficit": 0.1932247141024753
+    }
+  ]
+}

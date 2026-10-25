@@ -1,0 +1,540 @@
+{
+  "chordId": "C",
+  "root": {
+    "positionMm": [
+      81.43544736248127,
+      -54.365156084220125,
+      -115.0323242020571
+    ],
+    "quaternion": [
+      -0.5819410348796568,
+      -0.11403744792558194,
+      0.41047739675969225,
+      0.692710905893072
+    ]
+  },
+  "bones": {
+    "finger2-3.L": {
+      "quaternion": [
+        0.0728999733006214,
+        -0.00010606221921366552,
+        -0.16506720810896788,
+        0.9835844648278486
+      ]
+    },
+    "finger2-2.L": {
+      "quaternion": [
+        0.1912919736046607,
+        -0.011753781436693929,
+        -0.4968159055911246,
+        0.8464296694989154
+      ]
+    },
+    "finger2-1.L": {
+      "quaternion": [
+        0.2482733478709894,
+        0.013110388216466762,
+        -0.17675167170698983,
+        0.9523378124418503
+      ]
+    },
+    "metacarpal1.L": {
+      "quaternion": [
+        0.26369509100914,
+        0.8013477921485901,
+        0.16547928750514984,
+        0.5108065605163574
+      ]
+    },
+    "finger3-3.L": {
+      "quaternion": [
+        0.039580962164381686,
+        -0.0030814531573441777,
+        -0.23019176287513587,
+        0.972335129667245
+      ]
+    },
+    "finger3-2.L": {
+      "quaternion": [
+        0.13984265094104187,
+        0.013977929378085193,
+        -0.5365547115736735,
+        0.8320803398447624
+      ]
+    },
+    "finger3-1.L": {
+      "quaternion": [
+        0.06278216999247509,
+        0.00428397024965571,
+        -0.22933655219243018,
+        0.9713108629879648
+      ]
+    },
+    "metacarpal2.L": {
+      "quaternion": [
+        0.14579230546951294,
+        0.7410261631011963,
+        0.24987778067588806,
+        0.6059587001800537
+      ]
+    },
+    "finger4-3.L": {
+      "quaternion": [
+        0.0029674134864473042,
+        -0.008808455455602741,
+        -0.3253687192135603,
+        0.9455415390806554
+      ]
+    },
+    "finger4-2.L": {
+      "quaternion": [
+        0.05060984033974691,
+        0.006391708431292248,
+        -0.26536644766389206,
+        0.9627971949368993
+      ]
+    },
+    "finger4-1.L": {
+      "quaternion": [
+        -0.16246236098384556,
+        -0.04102457815607831,
+        -0.34962081401349737,
+        0.9217853609486376
+      ]
+    },
+    "metacarpal3.L": {
+      "quaternion": [
+        0.18751247227191925,
+        0.7086350321769714,
+        0.26907727122306824,
+        0.6247183084487915
+      ]
+    },
+    "finger5-3.L": {
+      "quaternion": [
+        -0.02320751633528777,
+        -0.0006653636895517501,
+        -0.05350122275880694,
+        0.9982978451544512
+      ]
+    },
+    "finger5-2.L": {
+      "quaternion": [
+        -0.030923401394586433,
+        -0.0017621847627795801,
+        -0.19573285775567695,
+        0.9801679888395902
+      ]
+    },
+    "finger5-1.L": {
+      "quaternion": [
+        0.15219221488579618,
+        -0.0189156369403471,
+        -0.2472242320380614,
+        0.9567444316537659
+      ]
+    },
+    "metacarpal4.L": {
+      "quaternion": [
+        0.09769730269908905,
+        0.5953862071037292,
+        0.37211430072784424,
+        0.7053378820419312
+      ]
+    },
+    "finger1-3.L": {
+      "quaternion": [
+        -0.03580077026374183,
+        0.0010762509418060571,
+        -0.021378154352874847,
+        0.9991296817975621
+      ]
+    },
+    "finger1-2.L": {
+      "quaternion": [
+        -0.056569950634299294,
+        0.0012183757234835038,
+        -0.09655541530538188,
+        0.99371797207308
+      ]
+    },
+    "finger1-1.L": {
+      "quaternion": [
+        0.2765313517104669,
+        0.9399734816016653,
+        -0.12546625827165325,
+        -0.1556871331939057
+      ]
+    },
+    "wrist.L": {
+      "quaternion": [
+        -0.32130396366119385,
+        0.05413259193301201,
+        -0.04062996432185173,
+        0.9445542097091675
+      ]
+    },
+    "lowerarm02.L": {
+      "quaternion": [
+        -4.284083843231201e-08,
+        5.587935447692871e-09,
+        8.195638656616211e-08,
+        1.0
+      ]
+    },
+    "lowerarm01.L": {
+      "quaternion": [
+        0.5505050420761108,
+        0.5182414054870605,
+        0.6534645557403564,
+        0.03679876774549484
+      ]
+    }
+  },
+  "targets": [
+    {
+      "finger": "index",
+      "string": 2,
+      "fret": 1,
+      "positionMm": [
+        32.3694453822626,
+        1.1647644965490462,
+        -10.754759523841882
+      ]
+    },
+    {
+      "finger": "middle",
+      "string": 4,
+      "fret": 2,
+      "positionMm": [
+        66.69763064506014,
+        1.6407064773033206,
+        3.6749783520009296
+      ]
+    },
+    {
+      "finger": "ring",
+      "string": 5,
+      "fret": 3,
+      "positionMm": [
+        99.099122915593,
+        1.728232571675462,
+        11.279946800724575
+      ]
+    }
+  ],
+  "audit": {
+    "collisionPassed": false,
+    "metrics": {
+      "skinVerticesAudited": 7888,
+      "woodInteriorVertexCount": 0,
+      "maximumWoodVertexPenetrationMm": 0.0,
+      "padContacts": [
+        {
+          "finger": "index",
+          "string": 2,
+          "fret": 1,
+          "positionMm": [
+            32.3694453822626,
+            1.1647644965490462,
+            -10.754759523841882
+          ],
+          "actualPositionMm": [
+            32.58897213469304,
+            1.7169538903296133,
+            -10.657981711375502
+          ],
+          "errorMm": 0.6020557005976969,
+          "meanOutwardNormal": [
+            0.24126280859514093,
+            -0.9143620582423808,
+            0.1590165423498098
+          ],
+          "originalVertexIndices": [
+            175,
+            4292,
+            6087,
+            70,
+            39,
+            4293,
+            6176,
+            4178
+          ],
+          "patchSide": "far-distal-flesh-cap",
+          "actualLowerSurfaceAtTargetXZ": {
+            "positionMm": [
+              32.3694453822626,
+              1.4159288845652658,
+              -10.754759523841882
+            ],
+            "triangleVertexIndices": [
+              39,
+              6176,
+              4178
+            ],
+            "barycentric": [
+              0.11366025765261226,
+              0.6383473995720127,
+              0.24799234277537505
+            ]
+          }
+        },
+        {
+          "finger": "middle",
+          "string": 4,
+          "fret": 2,
+          "positionMm": [
+            66.69763064506014,
+            1.6407064773033206,
+            3.6749783520009296
+          ],
+          "actualPositionMm": [
+            66.69999118012944,
+            2.0092998540583547,
+            3.8190963639462296
+          ],
+          "errorMm": 0.3957734843070686,
+          "meanOutwardNormal": [
+            -0.0078035175461181995,
+            -0.9435860303144148,
+            -0.05037418622759832
+          ],
+          "originalVertexIndices": [
+            270,
+            4533,
+            4429,
+            6273,
+            6362,
+            4540,
+            4428,
+            301
+          ],
+          "patchSide": "far-distal-flesh-cap",
+          "actualLowerSurfaceAtTargetXZ": {
+            "positionMm": [
+              66.69763064506014,
+              1.6773094335232188,
+              3.6749783520009296
+            ],
+            "triangleVertexIndices": [
+              4428,
+              4540,
+              301
+            ],
+            "barycentric": [
+              0.3948690887260239,
+              0.010446293724770333,
+              0.5946846175492058
+            ]
+          }
+        },
+        {
+          "finger": "ring",
+          "string": 5,
+          "fret": 3,
+          "positionMm": [
+            99.099122915593,
+            1.728232571675462,
+            11.279946800724575
+          ],
+          "actualPositionMm": [
+            98.9284010831232,
+            2.539036689917578,
+            11.491832361934879
+          ],
+          "errorMm": 0.8552454345330498,
+          "meanOutwardNormal": [
+            -0.3728808792820115,
+            -0.875581646719355,
+            0.19973359079408554
+          ],
+          "originalVertexIndices": [
+            4657,
+            637,
+            6459,
+            6548,
+            4658,
+            4677,
+            4793,
+            501
+          ],
+          "patchSide": "far-distal-flesh-cap",
+          "actualLowerSurfaceAtTargetXZ": {
+            "positionMm": [
+              99.099122915593,
+              2.2876535816519086,
+              11.279946800724575
+            ],
+            "triangleVertexIndices": [
+              501,
+              6548,
+              4677
+            ],
+            "barycentric": [
+              0.6015157476129569,
+              0.04441874501878749,
+              0.35406550736825565
+            ]
+          }
+        }
+      ],
+      "openStrings": [
+        {
+          "string": 1,
+          "minimumVertexClearanceMm": 1.839413218622504,
+          "skinVerticesWithinHalfMm": 0
+        },
+        {
+          "string": 3,
+          "minimumVertexClearanceMm": 2.9302252141936487,
+          "skinVerticesWithinHalfMm": 0
+        }
+      ],
+      "anatomicalAnglesDegrees": {
+        "index": {
+          "mcpFlex": 14.90356083733765,
+          "mcpSpread": 27.39266918375538,
+          "pipFlex": 53.30955504874697,
+          "dipFlex": 18.865263287133136
+        },
+        "middle": {
+          "mcpFlex": 14.998968197104514,
+          "mcpSpread": 6.455212341872988,
+          "pipFlex": 56.120553289114376,
+          "dipFlex": 27.11825811481107
+        },
+        "ring": {
+          "mcpFlex": 23.04720890394487,
+          "mcpSpread": -7.695503925141958,
+          "pipFlex": 19.082757855096446,
+          "dipFlex": 38.34501159625358
+        },
+        "little": {
+          "mcpFlex": 0.0,
+          "mcpSpread": 20.0,
+          "pipFlex": 14.999999999999998,
+          "dipFlex": 5.0
+        },
+        "thumb": {
+          "mcpFlex": 19.252600018508904,
+          "mcpSpread": -3.551968337238865,
+          "pipFlex": -4.598780307715374,
+          "dipFlex": -4.041693133805446,
+          "cmcAxialRotation": 29.999999999999996
+        }
+      },
+      "thumbPadPositionMm": [
+        13.655256918252782,
+        -20.333218618823885,
+        -19.15164113223244
+      ],
+      "thumbPadNormal": [
+        0.19349927293055136,
+        -0.5056726031845961,
+        0.8104155428288631
+      ],
+      "triangleIntersectionAudit": "pending",
+      "selfCollisionAudit": "pending",
+      "fourViewVisualReview": "pending",
+      "allMeshWoodSamples": [
+        {
+          "mesh": "Black_LongSleeve_Forearm",
+          "sampleCount": 5950,
+          "samplesInsideOverQuarterMm": 0,
+          "maximumInteriorDepthMm": 0.0,
+          "scope": "Actual LBS vertices, triangle centroids and edge midpoints against conservative analytical study-neck volume; not an exact triangle/wood proof."
+        },
+        {
+          "mesh": "MakeHuman_Left_Hand_Forearm",
+          "sampleCount": 66928,
+          "samplesInsideOverQuarterMm": 0,
+          "maximumInteriorDepthMm": 0.0,
+          "scope": "Actual LBS vertices, triangle centroids and edge midpoints against conservative analytical study-neck volume; not an exact triangle/wood proof."
+        }
+      ],
+      "contactRefinement": [
+        {
+          "finger": "index",
+          "string": 2,
+          "beforeClearanceMm": -0.05641986181815015,
+          "afterClearanceMm": 0.007999998582014195,
+          "angularChangeDegrees": [
+            -0.09644343290819853,
+            -0.07720076063972339,
+            0.039277387155914174,
+            0.04431070376929633
+          ],
+          "evaluations": 14
+        },
+        {
+          "finger": "middle",
+          "string": 4,
+          "beforeClearanceMm": 0.007182701811870695,
+          "afterClearanceMm": 0.007999999991825713,
+          "angularChangeDegrees": [
+            -0.001033456830874633,
+            0.0002692417286573715,
+            0.0002860063073692785,
+            0.0003909009964479326
+          ],
+          "evaluations": 13
+        },
+        {
+          "finger": "ring",
+          "string": 5,
+          "beforeClearanceMm": 0.007116903302277877,
+          "afterClearanceMm": 0.007999999993030027,
+          "angularChangeDegrees": [
+            -0.0008695209501672076,
+            0.0005579756571546425,
+            0.00010005963318126183,
+            0.00043068157958804653
+          ],
+          "evaluations": 10
+        }
+      ]
+    }
+  },
+  "reviewed": false,
+  "status": "needs-review",
+  "reason": {
+    "th": "\u0e17\u0e48\u0e32\u0e21\u0e37\u0e2d\u0e08\u0e32\u0e01\u0e15\u0e31\u0e27\u0e41\u0e01\u0e49\u0e2a\u0e21\u0e01\u0e32\u0e23\u0e1a\u0e19\u0e1c\u0e34\u0e27\u0e42\u0e21\u0e40\u0e14\u0e25\u0e08\u0e23\u0e34\u0e07 \u0e22\u0e31\u0e07\u0e23\u0e2d\u0e15\u0e23\u0e27\u0e08\u0e01\u0e32\u0e23\u0e0a\u0e19\u0e41\u0e25\u0e30\u0e15\u0e23\u0e27\u0e08\u0e20\u0e32\u0e1e\u0e2a\u0e35\u0e48\u0e21\u0e38\u0e21\u0e42\u0e14\u0e22\u0e1c\u0e39\u0e49\u0e15\u0e23\u0e27\u0e08\u0e2d\u0e34\u0e2a\u0e23\u0e30",
+    "en": "A numerical candidate fitted to actual skinned flesh patches; triangle collisions and independent four-view review remain pending."
+  },
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "rigSignature": "finger1-1.L|finger1-2.L|finger1-3.L|finger2-1.L|finger2-2.L|finger2-3.L|finger3-1.L|finger3-2.L|finger3-3.L|finger4-1.L|finger4-2.L|finger4-3.L|finger5-1.L|finger5-2.L|finger5-3.L|lowerarm01.L|lowerarm02.L|metacarpal1.L|metacarpal2.L|metacarpal3.L|metacarpal4.L|wrist.L",
+  "solverParameters": [
+    81.43544736248127,
+    -54.365156084220125,
+    -115.0323242020571,
+    -0.8545544713493175,
+    -0.1139763089590975,
+    -0.18748468511803618,
+    0.26011620688282505,
+    0.478092268166119,
+    0.9304272583738009,
+    0.3292609586160816,
+    0.26178137944139157,
+    0.11266470928105746,
+    0.9794884329359791,
+    0.47330289150912364,
+    0.40224967876879153,
+    -0.1343118810938744,
+    0.33305695493224396,
+    0.6692467040700315,
+    0.0,
+    0.3490658503988659,
+    0.2617993877991494,
+    0.08726646259971647,
+    0.3360212598925016,
+    -0.061993542411406505,
+    -0.08026385794551126,
+    -0.07054085254015277,
+    0.5235987755982988
+  ],
+  "palmarNormalSource": [
+    -0.819485192590992,
+    -0.563421344130725,
+    -0.10488283034907073
+  ]
+}

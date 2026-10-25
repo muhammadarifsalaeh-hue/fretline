@@ -1,0 +1,10 @@
+{
+  "candidate": "/tmp/fretline-natural-arm-combined.json",
+  "against": null,
+  "scope": "All supplied mesh triangles (skin only for a runtime pose), nonadjacent index sets, inclusive AABB broad phase, bidirectional segment/triangle crossings and coplanar interior-area overlaps. Original skin seams are not welded.",
+  "broadphasePairs": 16555,
+  "crossingPairCount": 0,
+  "coplanarOverlapPairCount": 0,
+  "pairs": [],
+  "categoryCounts": []
+}

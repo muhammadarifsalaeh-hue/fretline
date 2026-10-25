@@ -1,0 +1,5 @@
+PASS chromium desktop Cmaj7/Am7 actual source transforms, warning, four views, selection, zoom/reset
+PASS chromium mobile Cmaj7/Am7 actual source transforms, warning, four views, selection, zoom/reset
+Skipping host requirements validation logic because `PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS` env variable is set.
+PASS webkit desktop Cmaj7/Am7 actual source transforms, warning, four views, selection, zoom/reset
+PASS webkit mobile Cmaj7/Am7 actual source transforms, warning, four views, selection, zoom/reset

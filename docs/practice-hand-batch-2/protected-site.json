@@ -1,0 +1,795 @@
+{
+  "baseline": "1f71d34",
+  "count": 197,
+  "allUnchanged": true,
+  "files": [
+    {
+      "path": "package-lock.json",
+      "unchanged": true
+    },
+    {
+      "path": "package.json",
+      "unchanged": true
+    },
+    {
+      "path": "public/favicon.svg",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/anuphan-300-normal.woff",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/anuphan-400-normal.woff",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/anuphan-500-normal.woff",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/anuphan-600-normal.woff",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/anuphan-700-normal.woff",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/anuphan-OFL.txt",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/fonts.css",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/instrument-serif-400-italic.woff",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/instrument-serif-400-normal.woff",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/instrumentserif-OFL.txt",
+      "unchanged": true
+    },
+    {
+      "path": "public/images/guitars/.gitkeep",
+      "unchanged": true
+    },
+    {
+      "path": "public/images/hero/.gitkeep",
+      "unchanged": true
+    },
+    {
+      "path": "public/images/hero/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "public/images/hero/acoustic-studio-mobile.webp",
+      "unchanged": true
+    },
+    {
+      "path": "public/images/hero/acoustic-studio.webp",
+      "unchanged": true
+    },
+    {
+      "path": "public/licenses/three-MIT.txt",
+      "unchanged": true
+    },
+    {
+      "path": "src/App.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/brands/.gitkeep",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/.gitkeep",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/martin-d-28/01-front.webp",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/martin-d-28/LICENSE.md",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/martin-d-28/responsive/01-front-480.webp",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/martin-d-28/responsive/01-front-960.webp",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-fg820-12/01-front.webp",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-fg820-12/LICENSE.md",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-fg820-12/responsive/01-front-480.webp",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-fg820-12/responsive/01-front-960.webp",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-pacifica-612viifm/01-black.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-pacifica-612viifm/02-red.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-pacifica-612viifm/03-blue-teal.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-pacifica-612viifm/04-all-colors.jpg",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/README.md",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/logos/epiphone.svg",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/logos/fender.svg",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/logos/gibson.svg",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/logos/ibanez.svg",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/logos/martin.svg",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/logos/prs.svg",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/logos/squier.png",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/logos/taylor.svg",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/logos/yamaha.svg",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/cordoba.webp",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/epiphone.webp",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/fender.webp",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/gibson.webp",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/ibanez.webp",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/martin.webp",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/prs.webp",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/squier.webp",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/taylor.webp",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/yamaha.webp",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/brands/BrandCard.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/brands/BrandCredits.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/brands/BrandMark.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/brands/BrandsToolbar.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/ActiveFilters.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/CatalogCard.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/CatalogEmpty.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/CatalogPagination.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/CatalogToolbar.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/CategoryNavigation.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/FilterCheckbox.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/FilterGroup.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/FilterPanel.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/MobileFilterDrawer.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/PriceRange.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/compare/CompareEmpty.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/compare/CompareSection.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/compare/CompareTable.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/compare/CompareVerdicts.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/compare/GuitarPicker.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/compare/compareRows.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/ColorSwatches.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/DataStatusNote.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/DetailTabs.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/GuitarGallery.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/ImageAttribution.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/ImageLightbox.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/SimilarGuitars.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/SpecTable.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/StickyGuitarBar.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/guitar/DevelopmentImagePreview.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/guitar/GuitarCard.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/guitar/GuitarImage.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/guitar/ImagePlaceholder.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/guitar/LocalPreviewImagePicker.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/guitar/PreviewColorIndicators.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/guitar/PriceSourceNote.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/home/Brands.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/home/Categories.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/home/CategoryCard.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/home/FeaturedGuitars.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/home/FindMyGuitar.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/home/Hero.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/home/HeroArt.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/home/HeroHotspot.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/home/HeroStats.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/BottomBar.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/CompareBar.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/Footer.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/IconButton.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/Logo.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/MegaMenu.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/MobileMenu.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/Navbar.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/ScrollManager.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/Toast.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/MatchButtons.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/MatchCard.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/QuizFlow.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/QuizIntro.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/QuizOption.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/QuizProgress.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/QuizResults.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/search/SearchBar.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/AppLink.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/ArtBackdrop.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/Badge.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/Button.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/ConfirmDialog.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/DiscoveryHeading.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/DiscoveryRoute.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/GuitarArt.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/Icons.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/Reveal.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/SectionHeading.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/ShareLink.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/SmartImage.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/SortSelect.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/Switch.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/Tabs.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/wishlist/WishlistRow.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/context/ShopContext.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/additionalSpecifications.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/brands.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/archivedGuitars.json",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/catalogPolicy.json",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/extraGuitars.json",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/imageRights.json",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/phase7Guitars.json",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/projectArtwork.json",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/reviewedGuitars.json",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/categories.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/guitarDetails.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/guitarImages.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/guitars.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/hero.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/homeBrandAssets.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/images.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/navigation.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/quiz.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/hooks/useCatalogFilters.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/hooks/useDevelopmentImagePreview.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/hooks/useDialogFocus.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/hooks/useInView.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/hooks/useParallax.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/hooks/useScrolled.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/hooks/useSearchNavigation.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/i18n/en.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/i18n/index.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/i18n/th.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/index.css",
+      "unchanged": true
+    },
+    {
+      "path": "src/main.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/BrandDetailPage.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/BrandsPage.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/CatalogPage.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/ComparePage.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/FindMyGuitarPage.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/GuitarDetailPage.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/HomePage.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/ImageCreditsPage.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/NotFoundPage.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/WishlistPage.jsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/brand-directory.css",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/home-brands.css",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/home-discovery.css",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/home-experiences.css",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/polish.css",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/tokens.css",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/brandFilters.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/cn.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/dataTrust.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/developmentImagePreview.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/dom.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/format.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/guitarSort.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/imageRights.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/quizScoring.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/routes.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/search.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/selection.js",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/slug.js",
+      "unchanged": true
+    },
+    {
+      "path": "vite.config.js",
+      "unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "command": "npm run phase4:check",
+    "exitCode": 0,
+    "passed": true
+  },
+  {
+    "command": "npm run phase5:check",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "command": "npm run phase6:check",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "command": "npm run phase7:check",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "command": "npm run phase8:check",
+    "exitCode": 1,
+    "passed": false
+  },
+  {
+    "command": "npm run phase9:check",
+    "exitCode": 1,
+    "passed": false
+  }
+]

@@ -1,0 +1,237 @@
+{
+  "scope": "Startup timing diagnosis; instrumentation only observes existing app rAF and ResizeObserver callbacks",
+  "browserVersion": "154.0.8037.57",
+  "samples": [
+    {
+      "at": 6694.5,
+      "count": 2,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 7005.199999999255,
+      "count": 2,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 7278.800000000745,
+      "count": 2,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 7598.699999999255,
+      "count": 2,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 7872.89999999851,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 8181.800000000745,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 8472.89999999851,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 8803.199999999255,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 9081.300000000745,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 9351.300000000745,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 9616.800000000745,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 9886.300000000745,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 10153.800000000745,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 10421.800000000745,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 10690.800000000745,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 10955.599999997765,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 11220.800000000745,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 11487,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 11752.5,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 12015.599999997765,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 12281.89999999851,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 12549.5,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 12818,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 13083.199999999255,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "at": 13346.89999999851,
+      "count": 3,
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    }
+  ],
+  "trace": [
+    {
+      "kind": "resize",
+      "rects": [
+        {
+          "width": 994,
+          "height": 558
+        }
+      ],
+      "at": 6303.199999999255,
+      "count": "1",
+      "asset": "loading",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "kind": "raf-before",
+      "scheduled": 6304.699999999255,
+      "origin": "Error\n    at window.requestAnimationFrame (<anonymous>:6:61)\n    at qe (http://127.0.0.1:5430/assets/practice-three-94EDdmZP.js:4228:148778)\n    at K (http://127.0.0.1:5430/assets/practice-three-94EDdmZP.js:4228:149521)\n    at window.ResizeObserver.<anonymous> (<anonymous>:8:253)",
+      "at": 6371.699999999255,
+      "count": "1",
+      "asset": "loading",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "kind": "raf-after",
+      "at": 6374.89999999851,
+      "count": "2",
+      "asset": "loading",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "kind": "raf-before",
+      "scheduled": 6580.800000000745,
+      "origin": "Error\n    at window.requestAnimationFrame (<anonymous>:6:61)\n    at qe (http://127.0.0.1:5430/assets/practice-three-94EDdmZP.js:4228:148778)\n    at E (http://127.0.0.1:5430/assets/practice-three-94EDdmZP.js:4228:141186)\n    at A (http://127.0.0.1:5430/assets/practice-three-94EDdmZP.js:4228:142251)",
+      "at": 7653.5,
+      "count": "2",
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    },
+    {
+      "kind": "raf-after",
+      "at": 7658,
+      "count": "3",
+      "asset": "ready",
+      "width": 994,
+      "height": 558
+    }
+  ],
+  "runtimeErrors": [],
+  "productionSceneSHA256": {
+    "practice-three-94EDdmZP.js": "53ca72a8e7b441cc0bbb8357a0a75eefa4d7a00bacf50210b9562dd4316f5fd9"
+  }
+}

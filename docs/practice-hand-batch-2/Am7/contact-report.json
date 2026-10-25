@@ -1,0 +1,53 @@
+{
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "seedSha256": "5d86536ee68dc2d4da42cd113551a4843e23138937b53d5081e5571ca559bd48",
+  "poseTransformSha256": "6cdd9480538558152cee39af50f6980d9a559d7e2474ca33e3184fc131c6c4b6",
+  "voicing": "x02010",
+  "fingers": [
+    null,
+    null,
+    2,
+    null,
+    1,
+    null
+  ],
+  "sourceChordSha256": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+  "unchangedAssignedDistalFleshMaximumCoordinateDeltaMm": 0.0,
+  "wholeSkinTriangleStringClearances": [
+    {
+      "string": 1,
+      "state": "open",
+      "minimumWholeSkinTriangleClearanceMm": 0.557241387151
+    },
+    {
+      "string": 2,
+      "state": "fretted",
+      "minimumWholeSkinTriangleClearanceMm": 0.008002719141407849
+    },
+    {
+      "string": 3,
+      "state": "open",
+      "minimumWholeSkinTriangleClearanceMm": 2.6826427209589325
+    },
+    {
+      "string": 4,
+      "state": "fretted",
+      "minimumWholeSkinTriangleClearanceMm": 0.008002018031291414
+    },
+    {
+      "string": 5,
+      "state": "open",
+      "minimumWholeSkinTriangleClearanceMm": 2.4997630855413444
+    },
+    {
+      "string": 6,
+      "state": "muted",
+      "minimumWholeSkinTriangleClearanceMm": 9.308197363850745
+    }
+  ],
+  "denseWoodSamples": 72878,
+  "woodSamplesInside": 0,
+  "maximumWoodPenetrationMm": 0.0,
+  "status": "needs-review",
+  "scope": "Whole-skin closed triangle distance to physical circumcircle string tubes and dense skin/clothing wood sampling. Exact self/guitar triangle audits and visual review remain separate."
+}

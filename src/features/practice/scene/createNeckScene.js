@@ -6,6 +6,7 @@ import { buildStudyGuitar } from './studyGuitar';
 import { CAMERA_DIRECTIONS, referenceCameraUp, fitPerspectiveDistance } from './cameraMath';
 import { createHandPoseEngine } from './handPoseEngine';
 import { createFrettedStringController } from './frettedStrings';
+import { createGeometryFingerprint } from './geometryFingerprint';
 
 // Generic study geometry, never a catalog guitar or a validated anatomical pose.
 // World scale: 40 mm/unit. Nut -> body is +X, board face +Y, low E +Z.
@@ -118,20 +119,7 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
   const rounded = (vector) => vector.toArray().map((v) => +v.toFixed(7));
   const worldPoint = (point) => neck.localToWorld(point.clone());
   const project = (point) => rounded(worldPoint(point).project(camera));
-  const geometrySignature = () => {
-    // Fingerprint actual position buffers and model matrices, excluding sprites.
-    // Recomputed on demand, so the diagnostics detect geometry mutation as well.
-    let hash = 2166136261;
-    neck.traverse((object) => {
-      const array = object.geometry?.attributes.position?.array;
-      if (!array) return;
-      const words = new Uint32Array(array.buffer, array.byteOffset, array.byteLength / 4);
-      for (const word of words) hash = Math.imul(hash ^ word, 16777619) >>> 0;
-      const matrix = new Float32Array(object.matrixWorld.elements);
-      for (const word of new Uint32Array(matrix.buffer)) hash = Math.imul(hash ^ word, 16777619) >>> 0;
-    });
-    return hash.toString(16).padStart(8, '0');
-  };
+  const geometrySignature = createGeometryFingerprint(neck);
   const updateDiagnostics = () => {
     camera.updateMatrixWorld(true); neck.updateMatrixWorld(true);
     canvas.dataset.camera = JSON.stringify({

@@ -1,0 +1,31 @@
+{
+  "scope": "Browser/runtime/regression checks only; hand anatomy and physical iPad approval are separate",
+  "runs": [
+    {
+      "name": "webkit",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "regressions",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "camera-controls",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "batch-poses",
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "summary",
+      "returncode": 0,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

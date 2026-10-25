@@ -26,5 +26,11 @@ model.group.traverse((object) => {
   for (let i = 0; i < (index ? index.count : vertices.count); i++) indices.push(offset + (index ? index.getX(i) : i));
   offset += vertices.count;
 });
-fs.writeFileSync(output, `${JSON.stringify({ chordId, units: 'millimetres', positions, indices, dominantBones })}\n`);
+const strings = model.strings.map((string, index) => ({
+  number: 6 - index,
+  radiusMm: string.userData.radiusMm,
+  controlPointsMm: string.userData.activeControlPointsMm,
+  centerlineSamplesMm: string.geometry.userData.centerlineSamplesMm,
+}));
+fs.writeFileSync(output, `${JSON.stringify({ chordId, units: 'millimetres', positions, indices, dominantBones, strings })}\n`);
 console.log(JSON.stringify({ output, vertices: positions.length, triangles: indices.length / 3 }));

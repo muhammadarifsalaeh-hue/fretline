@@ -1,0 +1,56 @@
+{
+  "sourcePoseSha256": "63cf53b9fa94d89ab10af2bb64934acfc46c0c26d5ae8c5fee570e94ffd49188",
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "maxEvaluations": 50,
+  "functionEvaluations": 50,
+  "residualCalls": 1062,
+  "elapsedSeconds": 2.12165155600087,
+  "optimizerSuccess": false,
+  "termination": "The maximum number of function evaluations is exceeded.",
+  "padAnchorErrorsMm": [
+    0.0012834807612647097,
+    0.0014317851574644795,
+    0.0021262516427541615
+  ],
+  "thumbAnchorErrorMm": 0.02254783813135817,
+  "actualSkinWoodVertices": 0,
+  "maximumWoodDepthMm": 0.0,
+  "anglesDeltaFromRestDegrees": {
+    "index": [
+      15.00000427024585,
+      27.469869944395104,
+      53.27027766159106,
+      18.82095258336384
+    ],
+    "middle": [
+      15.000001653935389,
+      6.45494310014433,
+      56.12026728280701,
+      27.117867213814623
+    ],
+    "ring": [
+      23.04807842489504,
+      -7.696061900799113,
+      19.082657795463266,
+      38.34458091467399
+    ],
+    "little": [
+      0.0,
+      10.0,
+      14.999999999999998,
+      5.0
+    ],
+    "thumb": [
+      19.252600018508904,
+      -3.551968337238865,
+      -4.598780307715374,
+      -4.041693133805446
+    ]
+  },
+  "status": "needs-review",
+  "limitations": [
+    "Bone angle parameters are rest-relative, not medical zero angles.",
+    "No self-collision or actual guitar triangle pass is inferred from fitting.",
+    "Native forearm remains cropped."
+  ]
+}

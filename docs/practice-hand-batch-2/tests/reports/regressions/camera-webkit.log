@@ -1,0 +1,6 @@
+Skipping host requirements validation logic because `PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS` env variable is set.
+PASS webkit desktop
+PASS webkit tablet-landscape
+PASS webkit tablet
+PASS webkit mobile
+PASS webkit small-mobile

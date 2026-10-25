@@ -1,0 +1,9 @@
+{
+  "originalSuite": "docs/practice-trainer/tests/browser-trainer.py",
+  "originalSuiteSHA256": "e8dd1d20d57909719f5b0d9750bb2e8acf2cad98da872f42563d2d55150e37ef",
+  "adaptedSuiteSHA256": "372dc58dcb093fb4352b48f4a7df63754ef7ab38d3ea32ed732aef73bfe216ae",
+  "adaptation": "Only performance startup readiness: two existing animation frames then bounded300msstableframe-count/dimensions; original250msbeforefirstsampleand800msidleassertremainunchanged.",
+  "appSourceModified": false,
+  "originalSuiteModified": false,
+  "reasonEvidence": "../idle-startup-timeline.json"
+}

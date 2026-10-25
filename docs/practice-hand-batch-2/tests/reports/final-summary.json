@@ -1,0 +1,268 @@
+{
+  "scope": "Frozen-build browser/rendering/lifecycle regression acceptance; numerical and anatomical hand approval are separate",
+  "productionArtifactSHA256": {
+    "PracticePage-RLewwArL.js": "7117b5fdea91a24c63105198a0eb69a1fc8c0563a0c057f7d11dddb7fdf969a3",
+    "PracticePage-De_eEkvR.css": "0ebc2a47b730cc296e54e15160698e4d8a30e366d61143e4c537b51a1ad42ff3",
+    "practice-three-94EDdmZP.js": "53ca72a8e7b441cc0bbb8357a0a75eefa4d7a00bacf50210b9562dd4316f5fd9",
+    "hand-poses-fKPaYxzD.json": "0447c9b7452056badcdc5ddc50a9be05125a0afb79188d693c602491d84a1deb",
+    "makehuman-left-arm.metadata-Dl-RSsAy.json": "e14806f1a2f3275e3ae23621afe9c1587fd16db598392abc7c7a16f447e8fc74",
+    "makehuman-left-arm-sleeved-q3B7hHpz.glb": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+  },
+  "matchingProductionAssetsAcrossReports": true,
+  "matchingCurrentSourcePoseLibrary": true,
+  "browserTrainer": {
+    "chromium": {
+      "passed": true,
+      "cases": 21,
+      "browserVersion": "154.0.8037.57",
+      "errors": {
+        "consoleErrors": 0,
+        "runtimeErrors": 0,
+        "failedRequests": 0,
+        "badResponses": 0,
+        "networkErrors": 0
+      },
+      "buildArtifactsUnchangedDuringRun": true,
+      "performance": {
+        "startupSettlement": [
+          {
+            "elapsedSeconds": 0.07640039900070406,
+            "count": 3,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.2797902090023854,
+            "count": 3,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.458934804002638,
+            "count": 3,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.6478382000022975,
+            "count": 3,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          }
+        ],
+        "idleRenderCountBefore": 3,
+        "idleRenderCountAfter": 3,
+        "zoomRenderCount": 4,
+        "renderInfo": {
+          "calls": 78,
+          "triangles": 15500,
+          "geometries": 68,
+          "textures": 15
+        },
+        "visibleHandRenderInfo": {
+          "calls": 68,
+          "triangles": 30912,
+          "geometries": 70,
+          "textures": 18
+        },
+        "spaUnmounts": 3,
+        "heap": [
+          {
+            "cycle": 1,
+            "jsHeapUsedBytesAfterUnmount": 8426328,
+            "jsHeapTotalBytes": 9551872,
+            "documents": 1,
+            "nodes": 1669
+          },
+          {
+            "cycle": 2,
+            "jsHeapUsedBytesAfterUnmount": 8836048,
+            "jsHeapTotalBytes": 10076160,
+            "documents": 1,
+            "nodes": 1694
+          },
+          {
+            "cycle": 3,
+            "jsHeapUsedBytesAfterUnmount": 9080556,
+            "jsHeapTotalBytes": 10076160,
+            "documents": 1,
+            "nodes": 1719
+          }
+        ],
+        "limitations": [
+          "Software WebGL engine measurements are not physical iPad GPU/frame-rate evidence.",
+          "JS heap measurements do not measure native WebGL/GPU memory."
+        ]
+      }
+    },
+    "webkit": {
+      "passed": true,
+      "cases": 21,
+      "browserVersion": "26.5",
+      "errors": {
+        "consoleErrors": 0,
+        "runtimeErrors": 0,
+        "failedRequests": 0,
+        "badResponses": 0,
+        "networkErrors": 0
+      },
+      "buildArtifactsUnchangedDuringRun": true,
+      "performance": {
+        "startupSettlement": [
+          {
+            "elapsedSeconds": 0.016551182001421694,
+            "count": 2,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.1346045360005519,
+            "count": 2,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.24564197700237855,
+            "count": 2,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.3619021630001953,
+            "count": 2,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.47731318200021633,
+            "count": 2,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          }
+        ],
+        "idleRenderCountBefore": 2,
+        "idleRenderCountAfter": 2,
+        "zoomRenderCount": 3,
+        "renderInfo": {
+          "calls": 78,
+          "triangles": 15500,
+          "geometries": 68,
+          "textures": 15
+        },
+        "visibleHandRenderInfo": {
+          "calls": 68,
+          "triangles": 30912,
+          "geometries": 70,
+          "textures": 18
+        },
+        "spaUnmounts": 3,
+        "heap": [],
+        "limitations": [
+          "Software WebGL engine measurements are not physical iPad GPU/frame-rate evidence.",
+          "JS heap measurements do not measure native WebGL/GPU memory."
+        ]
+      }
+    }
+  },
+  "chromiumInitialFailureAndFocusedCoverage": {
+    "initialRunPassed": false,
+    "initialPassedCases": 20,
+    "initialCaseCount": 21,
+    "initialFailedCases": [
+      "performance-lifecycle"
+    ],
+    "initialReport": "chromium/browser-trainer-chromium.json",
+    "focusedCorrectedCasePassed": true,
+    "focusedReport": "chromium-performance/browser-trainer-chromium-performance-lifecycle.json",
+    "acceptedCaseCoverage": 21,
+    "sameFrozenProductionAssets": true,
+    "reason": "Observed one already-scheduled hand-publish frame after asset-ready; explicit initial two-rAF/stable-size/count readiness precedes the original unchanged800msidleassertion. Original20/21runremainsfailed."
+  },
+  "legacyBrowserRegressions": {
+    "passed": true,
+    "checks": 107,
+    "runs": [
+      {
+        "case": "shared",
+        "returncode": 0,
+        "report": "/workspace/fretline/docs/practice-hand-batch-2/tests/reports/regressions/shared-regression.json",
+        "checks": 18,
+        "expectedChecks": 18,
+        "passed": true
+      },
+      {
+        "case": "gallery",
+        "returncode": 0,
+        "report": "/workspace/fretline/docs/practice-hand-batch-2/tests/reports/regressions/regression/browser-practice-trainer.json",
+        "checks": 79,
+        "expectedChecks": 79,
+        "passed": true
+      },
+      {
+        "case": "camera-chromium",
+        "returncode": 0,
+        "report": "/workspace/fretline/docs/practice-hand-batch-2/tests/reports/regressions/camera-chromium/camera-orientation-chromium.json",
+        "checks": 5,
+        "expectedChecks": 5,
+        "passed": true
+      },
+      {
+        "case": "camera-webkit",
+        "returncode": 0,
+        "report": "/workspace/fretline/docs/practice-hand-batch-2/tests/reports/regressions/camera-webkit/camera-orientation-webkit.json",
+        "checks": 5,
+        "expectedChecks": 5,
+        "passed": true
+      }
+    ]
+  },
+  "allSevenCameraPresets": {
+    "passed": true,
+    "engineCases": 2,
+    "errors": {
+      "consoleErrors": 0,
+      "runtimeErrors": 0,
+      "failedRequests": 0,
+      "badResponses": 0,
+      "networkErrors": 0
+    }
+  },
+  "newCandidateRendering": {
+    "passed": true,
+    "engineViewportCases": 4,
+    "errors": {
+      "consoleErrors": 0,
+      "runtimeErrors": 0,
+      "failedRequests": 0,
+      "badResponses": 0,
+      "networkErrors": 0
+    },
+    "actualSourceTransformsChecked": [
+      "C",
+      "Cmaj7",
+      "Am7"
+    ],
+    "fourViewCandidateCapture": [
+      "Cmaj7",
+      "Am7"
+    ],
+    "fourViewCIncludedInCanonicalSuites": true
+  },
+  "sourceIndependentTeachingHandApprovals": [],
+  "handsApprovedByThisHarness": 0,
+  "limitations": [
+    "Linux Chromium/SwiftShader and Linux WebKit are not physical iPadOS Safari or native iPad performance evidence.",
+    "These browser tests do not certify finger contact, collisions, skin weights, or anatomical pose correctness.",
+    "Historical Phase 5–9 static baseline failures are reported separately, not relabelled passes."
+  ],
+  "passed": true
+}
