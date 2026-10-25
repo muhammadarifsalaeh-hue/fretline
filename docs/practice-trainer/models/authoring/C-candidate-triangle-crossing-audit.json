@@ -1,0 +1,13 @@
+{
+  "candidate": "/tmp/fretline-trainer-dqs/plain-sleeve-C-thumb-bent0-combined.json",
+  "against": null,
+  "scope": "All supplied mesh triangles (skin only for a runtime pose), nonadjacent index sets, AABB broad phase + bidirectional segment/triangle crossing; coplanar intersections omitted. Original skin seams are not welded.",
+  "broadphasePairs": 12790,
+  "crossingPairCount": 0,
+  "pairs": [],
+  "categoryCounts": [],
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "assetFile": "src/features/practice/assets/makehuman-left-arm-sleeved.glb",
+  "poseVerified": false,
+  "sourcePose": "/tmp/fretline-trainer-pose/C-thumb-bent0.json"
+}

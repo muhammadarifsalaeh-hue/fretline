@@ -1,0 +1,18 @@
+{
+  "scope": "Independent voicing and interval fixture. Low E/string 6 through high E/string 1; x means muted. Conventional C7 intentionally omits its fifth; every other entry includes all named chord tones. This does not approve anatomical hand poses.",
+  "tuningMidi": [40, 45, 50, 55, 59, 64],
+  "roots": {"C": 0, "D": 2, "E": 4, "F": 5, "G": 7, "A": 9, "B": 11},
+  "groups": [
+    {"type": "major", "suffix": "", "intervals": [0, 4, 7], "voicings": {"C": "x32010", "D": "xx0232", "E": "022100", "F": "133211", "G": "320003", "A": "x02220", "B": "x24442"}},
+    {"type": "minor", "suffix": "m", "intervals": [0, 3, 7], "voicings": {"Cm": "x35543", "Dm": "xx0231", "Em": "022000", "Fm": "133111", "Gm": "355333", "Am": "x02210", "Bm": "x24432"}},
+    {"type": "dominant7", "suffix": "7", "intervals": [0, 4, 7, 10], "voicings": {"C7": "x32310", "D7": "xx0212", "E7": "020100", "F7": "131211", "G7": "320001", "A7": "x02020", "B7": "x21202"}},
+    {"type": "major7", "suffix": "maj7", "intervals": [0, 4, 7, 11], "voicings": {"Cmaj7": "x32000", "Dmaj7": "xx0222", "Emaj7": "021100", "Fmaj7": "xx3210", "Gmaj7": "320002", "Amaj7": "x02120", "Bmaj7": "x24342"}},
+    {"type": "minor7", "suffix": "m7", "intervals": [0, 3, 7, 10], "voicings": {"Cm7": "x35343", "Dm7": "xx0211", "Em7": "020000", "Fm7": "131111", "Gm7": "353333", "Am7": "x02010", "Bm7": "x24232"}},
+    {"type": "suspended", "suffix": "", "intervals": null, "voicings": {"Csus2": "x35533", "Dsus2": "xx0230", "Asus2": "x02200", "Csus4": "x33011", "Dsus4": "xx0233", "Esus4": "022200", "Asus4": "x02230"}}
+  ],
+  "auditNotes": [
+    "C7 x32310 intentionally omits G and must explicitly declare omittedTones:[G]. Bmaj7 uses complete-tone x24342 rather than common fifth-omitting x2130x.",
+    "Matching a reference fret sequence is separate from proving the supplied notes, finger assignments, barres and rendered diagrams correct.",
+    "A repeated finger needs a declared same-fret barre; a barre may pass under a higher-fretted note, but may not block an open or lower-fretted sounding string."
+  ]
+}

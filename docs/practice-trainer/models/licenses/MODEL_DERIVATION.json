@@ -1,0 +1,26 @@
+{
+  "derivedUtc": "2026-10-25",
+  "assetFile": "src/features/practice/assets/makehuman-left-arm-sleeved.glb",
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "assetBytes": 1012288,
+  "nativeFile": "docs/practice-trainer/models/authoring/MakeHuman_Left_Arm_Source_UNPOSED.blend",
+  "nativeSha256": "2b4bfbc1b50dc0f09fbef35ce83a272f4c67f4f2878c458119a44e99b75bf0a5",
+  "nativeBytes": 2277616,
+  "componentLicenses": {
+    "MakeHumanBodyRigWeightsSkin": "CC0",
+    "ElvaerwynSleeve": "CC-BY (version unspecified in original source)"
+  },
+  "modifications": [
+    "Continuous left hand/forearm extracted from hm08; subdivided once; source rig and four runtime influences retained.",
+    "Original charcoal shirt albedo retained; white sheen removed.",
+    "Entire continuous forearm cloth panel retained; four disconnected overlapping ornamental cuff/button components removed."
+  ],
+  "bodyAndRigEquivalenceEvidence": "../authoring/hand-rig-equivalence.json",
+  "sourceManifests": [
+    "MAKEHUMAN_PROVENANCE.json",
+    "BLACK_SHIRT_PROVENANCE.json",
+    "SKIN_PROVENANCE.json",
+    "DERIVED_SKIN_PROVENANCE.json"
+  ],
+  "guitarPoseVerified": false
+}

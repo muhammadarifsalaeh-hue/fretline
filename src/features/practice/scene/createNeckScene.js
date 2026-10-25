@@ -4,6 +4,8 @@ import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { FRET_COUNT, STRING_COUNT, getFretPosition } from '../data/fretboard';
 import { buildStudyGuitar } from './studyGuitar';
 import { CAMERA_DIRECTIONS, referenceCameraUp, fitPerspectiveDistance } from './cameraMath';
+import { createHandPoseEngine } from './handPoseEngine';
+import { createFrettedStringController } from './frettedStrings';
 
 // Generic study geometry, never a catalog guitar or a validated anatomical pose.
 // World scale: 40 mm/unit. Nut -> body is +X, board face +Y, low E +Z.
@@ -47,7 +49,7 @@ function disposeObject(root) {
 }
 
 /** Real WebGL, rendered on demand. The model never changes when a camera moves. */
-export function createNeckScene(host, { chord, canvasLabel, onError, onInteraction }) {
+export function createNeckScene(host, { chord, canvasLabel, onError, onInteraction, onPoseStatus }) {
   const canvas = document.createElement('canvas');
   canvas.setAttribute('data-practice-canvas', '');
   canvas.setAttribute('aria-label', canvasLabel);
@@ -56,14 +58,14 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
   if (!context) throw new Error('WEBGL_UNAVAILABLE');
   const renderer = new THREE.WebGLRenderer({ canvas, context, alpha: true, antialias: true });
   renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.75));
-  renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.1;
+  renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = .95;
   const scene = new THREE.Scene();
-  scene.add(new THREE.HemisphereLight('#f7e8ce', '#34353b', 1.65));
-  const key = new THREE.DirectionalLight('#ffe3bb', 3.2); key.position.set(-4, 7, 4); scene.add(key);
-  const fill = new THREE.DirectionalLight('#d8e4f3', 1.65); fill.position.set(4, 3, -5); scene.add(fill);
-  const rim = new THREE.DirectionalLight('#d6aa68', 1.3); rim.position.set(-6, -2, -3); scene.add(rim);
+  scene.add(new THREE.HemisphereLight('#f7e8ce', '#34353b', .7));
+  const key = new THREE.DirectionalLight('#ffe3bb', 1.9); key.position.set(-4, 7, 4); scene.add(key);
+  const fill = new THREE.DirectionalLight('#d8e4f3', .65); fill.position.set(4, 3, -5); scene.add(fill);
+  const rim = new THREE.DirectionalLight('#d6aa68', 1.0); rim.position.set(-6, -2, -3); scene.add(rim);
   // A back softbox keeps inspection views readable, not a black silhouette.
-  const backFill = new THREE.DirectionalLight('#ead9c3', 3.0); backFill.position.set(1, -6, 3); scene.add(backFill);
+  const backFill = new THREE.DirectionalLight('#ead9c3', 1.2); backFill.position.set(1, -6, 3); scene.add(backFill);
   let model, environment;
   try {
     model = buildStudyGuitar();
@@ -71,13 +73,15 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
     try {
       // Small procedural studio environment, baked once; no HDR/photo download.
       environment = pmrem.fromScene(room, .04, .1, 100, { size: 64 });
-      scene.environment = environment.texture; scene.environmentIntensity = .7;
+      scene.environment = environment.texture; scene.environmentIntensity = .45;
     } finally { room.dispose(); pmrem.dispose(); }
   } catch (error) {
     if (model) disposeObject(model.group);
     environment?.dispose(); disposeObject(scene);
     renderer.dispose(); renderer.forceContextLoss(); throw error;
   }
+  const strings = createFrettedStringController(model);
+  let activeChord = chord;
   const neck = model.group;
   neck.scale.setScalar(1 / UNIT); neck.position.x = NUT_X;
   const markers = new THREE.Group(), fretLabels = new THREE.Group();
@@ -90,11 +94,16 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
   }
   canvas.dataset.stringCount = String(model.strings.length);
   canvas.dataset.fretCount = String(model.metadata.fretCount);
-  canvas.dataset.handStatus = 'not-integrated';
   scene.updateMatrixWorld(true);
-  const bounds = new THREE.Box3().setFromObject(neck).union(new THREE.Box3().setFromObject(fretLabels)).expandByScalar(.2);
-  // Target the fretboard axis so perspective keeps the neck's 15-degree slope.
-  const target = new THREE.Vector3(bounds.getCenter(new THREE.Vector3()).x, 0, 0);
+  const fullBounds = new THREE.Box3().setFromObject(neck).union(new THREE.Box3().setFromObject(fretLabels)).expandByScalar(.2);
+  // Frame the learner's hand and the first six frets, keeping the headstock.
+  // The full twelve-fret model remains available through the overview preset.
+  const teachingBounds = new THREE.Box3(
+    new THREE.Vector3(fullBounds.min.x, -2, -3),
+    new THREE.Vector3(xAt(getFretPosition(6)), fullBounds.max.y, fullBounds.max.z),
+  );
+  let bounds = teachingBounds;
+  const target = new THREE.Vector3(bounds.getCenter(new THREE.Vector3()).x, 0, -.6);
   const camera = new THREE.PerspectiveCamera(38, 1, .1, 100);
   // OrbitControls caches this up-axis in its constructor. Set it first, once.
   camera.up.copy(referenceCameraUp());
@@ -105,7 +114,7 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
   controls.rotateSpeed = .65; controls.zoomSpeed = .7;
   // Keep the low-E edge upright while allowing true front/back/player views.
   controls.minPolarAngle = .45; controls.maxPolarAngle = Math.PI - .45;
-  let disposed = false, lost = false, frame = 0, fitDistance = 15;
+  let disposed = false, lost = false, frame = 0, fitDistance = 15, hand, observer, renderCount = 0;
   const rounded = (vector) => vector.toArray().map((v) => +v.toFixed(7));
   const worldPoint = (point) => neck.localToWorld(point.clone());
   const project = (point) => rounded(worldPoint(point).project(camera));
@@ -140,8 +149,13 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
   const render = () => {
     frame = 0;
     if (disposed || lost || document.hidden) return;
-    try { renderer.render(scene, camera); updateDiagnostics(); }
-    catch { lost = true; onError('RENDER_FAILED'); }
+    try {
+      renderer.render(scene, camera); updateDiagnostics();
+      canvas.dataset.renderCount = String(++renderCount);
+      canvas.dataset.renderInfo = JSON.stringify({ calls: renderer.info.render.calls, triangles: renderer.info.render.triangles,
+        geometries: renderer.info.memory.geometries, textures: renderer.info.memory.textures });
+    }
+    catch { fail('RENDER_FAILED'); }
   };
   const invalidate = () => { if (!disposed && !lost && !frame) frame = requestAnimationFrame(render); };
   controls.addEventListener('change', invalidate); controls.addEventListener('start', onInteraction);
@@ -149,6 +163,9 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
     fitDistance = distance; controls.minDistance = distance * .38; controls.maxDistance = distance * 2.1;
   };
   function preset(name = 'angle') {
+    if (disposed) return;
+    bounds = name === 'overview' ? fullBounds : teachingBounds;
+    target.set(bounds.getCenter(new THREE.Vector3()).x, 0, name === 'overview' ? 0 : -.6);
     const direction = new THREE.Vector3(...(CAMERA_DIRECTIONS[name] ?? CAMERA_DIRECTIONS.angle)).normalize();
     controls.target.copy(target);
     setDistanceLimits(fitPerspectiveDistance(camera, bounds, target, direction));
@@ -168,16 +185,20 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
     controls.update(); updateDiagnostics(); invalidate();
   };
   const rotate = (horizontal = 0, vertical = 0) => {
+    if (disposed) return;
     // Public controls methods respect its fixed up-axis; world-Y spherical math does not.
     controls.rotateLeft(-horizontal); controls.rotateUp(-vertical);
     updateDiagnostics(); invalidate();
   };
   const zoom = (factor) => {
+    if (disposed) return;
     const offset = camera.position.clone().sub(controls.target);
     const distance = THREE.MathUtils.clamp(offset.length() * factor, controls.minDistance, controls.maxDistance);
     camera.position.copy(controls.target).add(offset.setLength(distance)); controls.update(); updateDiagnostics(); invalidate();
   };
   function setChord(nextChord) {
+    if (disposed) return;
+    activeChord = nextChord;
     disposeObject(markers);
     canvas.dataset.chordId = nextChord.id;
     nextChord.frets.forEach((fret, index) => {
@@ -190,6 +211,7 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
       marker.position.set(xAt(mm), y / UNIT + .13, z / UNIT);
       markers.add(marker);
     });
+    hand?.setChord(nextChord);
     invalidate();
   }
   const keydown = (event) => {
@@ -204,23 +226,42 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
     event.preventDefault(); onInteraction(); actions[event.key]();
   };
   const focus = () => canvas.focus({ preventScroll: true });
-  const contextLost = (event) => { event.preventDefault(); lost = true; onError('CONTEXT_LOST'); };
+  const contextLost = (event) => { event.preventDefault(); fail('CONTEXT_LOST'); };
   const visible = () => { if (!document.hidden) invalidate(); };
+  function dispose() {
+    if (disposed) return;
+    disposed = true; cancelAnimationFrame(frame); observer?.disconnect();
+    // Dispose the hand first: pending fetches are aborted and late parse results
+    // cannot attach themselves to a lost or unmounted scene.
+    hand?.dispose();
+    controls.removeEventListener('change', invalidate); controls.removeEventListener('start', onInteraction);
+    controls.dispose(); canvas.removeEventListener('keydown', keydown); canvas.removeEventListener('pointerdown', focus);
+    canvas.removeEventListener('webglcontextlost', contextLost); document.removeEventListener('visibilitychange', visible);
+    scene.environment = null; environment?.dispose();
+    disposeObject(scene); renderer.dispose(); renderer.forceContextLoss(); canvas.remove();
+  }
+  function fail(code) {
+    if (disposed) return;
+    lost = true; dispose(); onError?.(code);
+  }
   canvas.addEventListener('keydown', keydown); canvas.addEventListener('pointerdown', focus);
   canvas.addEventListener('webglcontextlost', contextLost);
   document.addEventListener('visibilitychange', visible);
   host.appendChild(canvas);
-  const observer = new ResizeObserver(resize); observer.observe(host);
+  observer = new ResizeObserver(resize); observer.observe(host);
+  hand = createHandPoseEngine({ scene, canvas, chord, nutX: NUT_X, unit: UNIT, invalidate,
+    onPoseStatus: (next) => {
+      const visible = canvas.dataset.handVisible === 'true';
+      strings.update(activeChord, visible); markers.visible = !visible;
+      canvas.dataset.stringPose = strings.state;
+      onPoseStatus?.(next);
+    },
+  });
   resize(); preset(); setChord(chord); cancelAnimationFrame(frame); render();
   return {
     preset, rotate, zoom, setChord,
-    dispose() {
-      disposed = true; cancelAnimationFrame(frame); observer.disconnect();
-      controls.removeEventListener('change', invalidate); controls.removeEventListener('start', onInteraction);
-      controls.dispose(); canvas.removeEventListener('keydown', keydown); canvas.removeEventListener('pointerdown', focus);
-      canvas.removeEventListener('webglcontextlost', contextLost); document.removeEventListener('visibilitychange', visible);
-      scene.environment = null; environment?.dispose();
-      disposeObject(scene); renderer.dispose(); renderer.forceContextLoss(); canvas.remove();
-    },
+    setHandReviewMode: (enabled) => hand.setHandReviewMode(enabled),
+    retryHand: () => hand.retryHand(),
+    dispose,
   };
 }

@@ -1,0 +1,7 @@
+{
+  "candidate": "C-cap-front.json",
+  "scope": "All actual skin triangles, nonadjacent index sets, AABB broad phase + bidirectional segment/triangle crossing; coplanar intersections and sleeve omitted. Contacting original skin seams are not welded.",
+  "broadphasePairs": 6580,
+  "crossingPairCount": 0,
+  "pairs": []
+}

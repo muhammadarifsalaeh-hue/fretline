@@ -1,0 +1,1193 @@
+{
+  "baseline": "b21bd6adb8fd1cead2d5fc2aeb0929d2f56eb431",
+  "masterRefs": {
+    "master": "9f7b35d7a0daea8a579976a5534ffb67d90f06a9",
+    "origin/master": "9f7b35d7a0daea8a579976a5534ffb67d90f06a9"
+  },
+  "protectedFileCount": 197,
+  "allProtectedFilesUnchanged": true,
+  "files": [
+    {
+      "path": "package-lock.json",
+      "baselineGitBlob": "427dcfdfc6469f754467e23cbdf13ec1e79e31d6",
+      "workingGitBlob": "427dcfdfc6469f754467e23cbdf13ec1e79e31d6",
+      "unchanged": true
+    },
+    {
+      "path": "package.json",
+      "baselineGitBlob": "db86556ac1d7b82bbbf2958eab250db3eb54a98b",
+      "workingGitBlob": "db86556ac1d7b82bbbf2958eab250db3eb54a98b",
+      "unchanged": true
+    },
+    {
+      "path": "public/favicon.svg",
+      "baselineGitBlob": "a1e6bcd303e95e140b96f98a5eac97475e149ff6",
+      "workingGitBlob": "a1e6bcd303e95e140b96f98a5eac97475e149ff6",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/anuphan-300-normal.woff",
+      "baselineGitBlob": "65b1e81deac0149c543a77b9480e678b0e56ab80",
+      "workingGitBlob": "65b1e81deac0149c543a77b9480e678b0e56ab80",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/anuphan-400-normal.woff",
+      "baselineGitBlob": "160cda1eb76c07265e762222d3544c9980eb4df3",
+      "workingGitBlob": "160cda1eb76c07265e762222d3544c9980eb4df3",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/anuphan-500-normal.woff",
+      "baselineGitBlob": "20544ce1509a8612f49f982046f4fa56d7a75723",
+      "workingGitBlob": "20544ce1509a8612f49f982046f4fa56d7a75723",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/anuphan-600-normal.woff",
+      "baselineGitBlob": "bfd29088507763c7bf6d27df37dd7522ef3707ce",
+      "workingGitBlob": "bfd29088507763c7bf6d27df37dd7522ef3707ce",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/anuphan-700-normal.woff",
+      "baselineGitBlob": "d257e1313cb273d5677e3b53bb9628ecfaab304e",
+      "workingGitBlob": "d257e1313cb273d5677e3b53bb9628ecfaab304e",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/anuphan-OFL.txt",
+      "baselineGitBlob": "796d0d594c957a0ef4de9235b70b6bb919ae5752",
+      "workingGitBlob": "796d0d594c957a0ef4de9235b70b6bb919ae5752",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/fonts.css",
+      "baselineGitBlob": "6fe42379a5d0ba20c812cb009de640958cc07111",
+      "workingGitBlob": "6fe42379a5d0ba20c812cb009de640958cc07111",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/instrument-serif-400-italic.woff",
+      "baselineGitBlob": "5600713648e06309c0ede03b7d3b37c3a88f9339",
+      "workingGitBlob": "5600713648e06309c0ede03b7d3b37c3a88f9339",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/instrument-serif-400-normal.woff",
+      "baselineGitBlob": "e2163c46d2263a64a45aab6491267e83ea7685dd",
+      "workingGitBlob": "e2163c46d2263a64a45aab6491267e83ea7685dd",
+      "unchanged": true
+    },
+    {
+      "path": "public/fonts/instrumentserif-OFL.txt",
+      "baselineGitBlob": "669ce7917bec662fcf7244d37f49c4277f6fbd73",
+      "workingGitBlob": "669ce7917bec662fcf7244d37f49c4277f6fbd73",
+      "unchanged": true
+    },
+    {
+      "path": "public/images/guitars/.gitkeep",
+      "baselineGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "workingGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "unchanged": true
+    },
+    {
+      "path": "public/images/hero/.gitkeep",
+      "baselineGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "workingGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "unchanged": true
+    },
+    {
+      "path": "public/images/hero/README.md",
+      "baselineGitBlob": "686252feb78064f7457d0ac520fccc22d3bd4a6c",
+      "workingGitBlob": "686252feb78064f7457d0ac520fccc22d3bd4a6c",
+      "unchanged": true
+    },
+    {
+      "path": "public/images/hero/acoustic-studio-mobile.webp",
+      "baselineGitBlob": "d65ff407915069240e019cb8f0b7b2a3280e598e",
+      "workingGitBlob": "d65ff407915069240e019cb8f0b7b2a3280e598e",
+      "unchanged": true
+    },
+    {
+      "path": "public/images/hero/acoustic-studio.webp",
+      "baselineGitBlob": "36ee9ddcc255f33441c14ff08c33042fa10b353d",
+      "workingGitBlob": "36ee9ddcc255f33441c14ff08c33042fa10b353d",
+      "unchanged": true
+    },
+    {
+      "path": "public/licenses/three-MIT.txt",
+      "baselineGitBlob": "8ada2a5f982916b0ba4b7a0aa7de347587e745d7",
+      "workingGitBlob": "8ada2a5f982916b0ba4b7a0aa7de347587e745d7",
+      "unchanged": true
+    },
+    {
+      "path": "src/App.jsx",
+      "baselineGitBlob": "3fa59a716148ae31041321360fc044599a14bf20",
+      "workingGitBlob": "3fa59a716148ae31041321360fc044599a14bf20",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/brands/.gitkeep",
+      "baselineGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "workingGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/.gitkeep",
+      "baselineGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "workingGitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/README.md",
+      "baselineGitBlob": "30a39c697437a1fa6f6247abc1c310be88a21902",
+      "workingGitBlob": "30a39c697437a1fa6f6247abc1c310be88a21902",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/martin-d-28/01-front.webp",
+      "baselineGitBlob": "0f8fbc264d518b2b2b6072639024b85e3f26ac21",
+      "workingGitBlob": "0f8fbc264d518b2b2b6072639024b85e3f26ac21",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/martin-d-28/LICENSE.md",
+      "baselineGitBlob": "601e08233eda906ed1ca91bb187f5949fab2b2b3",
+      "workingGitBlob": "601e08233eda906ed1ca91bb187f5949fab2b2b3",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/martin-d-28/responsive/01-front-480.webp",
+      "baselineGitBlob": "0dc13c97ea235f359b70205c26c1c67c2eb93f13",
+      "workingGitBlob": "0dc13c97ea235f359b70205c26c1c67c2eb93f13",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/martin-d-28/responsive/01-front-960.webp",
+      "baselineGitBlob": "73a3be50d8ccb3e6a3e852bcd792913b8d1c4200",
+      "workingGitBlob": "73a3be50d8ccb3e6a3e852bcd792913b8d1c4200",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-fg820-12/01-front.webp",
+      "baselineGitBlob": "6ec2e451e24d30d2d2560459e6ed5ae9a1a5723f",
+      "workingGitBlob": "6ec2e451e24d30d2d2560459e6ed5ae9a1a5723f",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-fg820-12/LICENSE.md",
+      "baselineGitBlob": "1269d348704ff375b992b6b714a8d5954f103f8b",
+      "workingGitBlob": "1269d348704ff375b992b6b714a8d5954f103f8b",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-fg820-12/responsive/01-front-480.webp",
+      "baselineGitBlob": "4691edd20af8da62e6aabcdf95c8524417460f11",
+      "workingGitBlob": "4691edd20af8da62e6aabcdf95c8524417460f11",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-fg820-12/responsive/01-front-960.webp",
+      "baselineGitBlob": "b5ae30f66be7991f7228984fb17f0eb406ea91ce",
+      "workingGitBlob": "b5ae30f66be7991f7228984fb17f0eb406ea91ce",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-pacifica-612viifm/01-black.jpg",
+      "baselineGitBlob": "a2a881d1d84da8eeed2ead6afb0ab19cdfd2a1f7",
+      "workingGitBlob": "a2a881d1d84da8eeed2ead6afb0ab19cdfd2a1f7",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-pacifica-612viifm/02-red.jpg",
+      "baselineGitBlob": "6b0490a51b7cbdbb70fe70d1b1e19682f250e14a",
+      "workingGitBlob": "6b0490a51b7cbdbb70fe70d1b1e19682f250e14a",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-pacifica-612viifm/03-blue-teal.jpg",
+      "baselineGitBlob": "851b33933462c38c684446f55f87c84d5b8f8494",
+      "workingGitBlob": "851b33933462c38c684446f55f87c84d5b8f8494",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/guitars/yamaha-pacifica-612viifm/04-all-colors.jpg",
+      "baselineGitBlob": "83ba7c01c8c8591dd6a4761bd7daaacfb396dcc1",
+      "workingGitBlob": "83ba7c01c8c8591dd6a4761bd7daaacfb396dcc1",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/README.md",
+      "baselineGitBlob": "18b80932986faaadf53fbbc7f7b340b710975c5b",
+      "workingGitBlob": "18b80932986faaadf53fbbc7f7b340b710975c5b",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/logos/epiphone.svg",
+      "baselineGitBlob": "6dd6b09619455e5f146257be236cd64f8f1ea008",
+      "workingGitBlob": "6dd6b09619455e5f146257be236cd64f8f1ea008",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/logos/fender.svg",
+      "baselineGitBlob": "b1e76fe0e13fa866cae895056257767e9113b127",
+      "workingGitBlob": "b1e76fe0e13fa866cae895056257767e9113b127",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/logos/gibson.svg",
+      "baselineGitBlob": "2477c6938e841f3959cc44be7ec327f31ae740f6",
+      "workingGitBlob": "2477c6938e841f3959cc44be7ec327f31ae740f6",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/logos/ibanez.svg",
+      "baselineGitBlob": "713c1fa87c71e51cbb58331a2631e3e5001539d0",
+      "workingGitBlob": "713c1fa87c71e51cbb58331a2631e3e5001539d0",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/logos/martin.svg",
+      "baselineGitBlob": "d9e2f0f4f8c3da05941cbd948811e7fc8ae55639",
+      "workingGitBlob": "d9e2f0f4f8c3da05941cbd948811e7fc8ae55639",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/logos/prs.svg",
+      "baselineGitBlob": "66e540b3ae5d3d66f3a7b508562b967ddaa05f35",
+      "workingGitBlob": "66e540b3ae5d3d66f3a7b508562b967ddaa05f35",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/logos/squier.png",
+      "baselineGitBlob": "9d9d3c4dfa5319f286554b3d2f5ce2ab93f5683a",
+      "workingGitBlob": "9d9d3c4dfa5319f286554b3d2f5ce2ab93f5683a",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/logos/taylor.svg",
+      "baselineGitBlob": "18ff1e4b98c153cb1a17e0b970277be5cbc631d4",
+      "workingGitBlob": "18ff1e4b98c153cb1a17e0b970277be5cbc631d4",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/logos/yamaha.svg",
+      "baselineGitBlob": "6b836814db6c4309663981fbe75e33b7bef8b80a",
+      "workingGitBlob": "6b836814db6c4309663981fbe75e33b7bef8b80a",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/cordoba.webp",
+      "baselineGitBlob": "e4b90fe0445da26a1760992023821b138915837e",
+      "workingGitBlob": "e4b90fe0445da26a1760992023821b138915837e",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/epiphone.webp",
+      "baselineGitBlob": "ab715febaa83ccfedcf2764d144fc022ea0fa16b",
+      "workingGitBlob": "ab715febaa83ccfedcf2764d144fc022ea0fa16b",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/fender.webp",
+      "baselineGitBlob": "17649abfe48bbcf2ca2cf738abd4ba3c095bbf70",
+      "workingGitBlob": "17649abfe48bbcf2ca2cf738abd4ba3c095bbf70",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/gibson.webp",
+      "baselineGitBlob": "5e08f0dc77f2841cb925d7c0251ba997ce74a8db",
+      "workingGitBlob": "5e08f0dc77f2841cb925d7c0251ba997ce74a8db",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/ibanez.webp",
+      "baselineGitBlob": "f459c8d0b511afe350e2b69b5081b9937e7fdbd0",
+      "workingGitBlob": "f459c8d0b511afe350e2b69b5081b9937e7fdbd0",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/martin.webp",
+      "baselineGitBlob": "968e7f8c18f9885c2114f7e53fa3c2fbd0c0f638",
+      "workingGitBlob": "968e7f8c18f9885c2114f7e53fa3c2fbd0c0f638",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/prs.webp",
+      "baselineGitBlob": "76f08a5c9092ee1c52780d672fdedf37279470b3",
+      "workingGitBlob": "76f08a5c9092ee1c52780d672fdedf37279470b3",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/squier.webp",
+      "baselineGitBlob": "81760bebbb4b0aa5e69bc1d09ed2f9e93d265aa4",
+      "workingGitBlob": "81760bebbb4b0aa5e69bc1d09ed2f9e93d265aa4",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/taylor.webp",
+      "baselineGitBlob": "149f4583c15e7d3375d7540e1341bf22055dd462",
+      "workingGitBlob": "149f4583c15e7d3375d7540e1341bf22055dd462",
+      "unchanged": true
+    },
+    {
+      "path": "src/assets/home-brands/photos/yamaha.webp",
+      "baselineGitBlob": "746a48de33363113472ec2aba94bee17ba5457a9",
+      "workingGitBlob": "746a48de33363113472ec2aba94bee17ba5457a9",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/brands/BrandCard.jsx",
+      "baselineGitBlob": "5343d627a6a0091745cece3783ab94b106e58096",
+      "workingGitBlob": "5343d627a6a0091745cece3783ab94b106e58096",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/brands/BrandCredits.jsx",
+      "baselineGitBlob": "7419ef8cd453ccbacd31d44cfd1fbbf76a65ea99",
+      "workingGitBlob": "7419ef8cd453ccbacd31d44cfd1fbbf76a65ea99",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/brands/BrandMark.jsx",
+      "baselineGitBlob": "bd6cafeea515d5315d034a19c66e10cdb434a004",
+      "workingGitBlob": "bd6cafeea515d5315d034a19c66e10cdb434a004",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/brands/BrandsToolbar.jsx",
+      "baselineGitBlob": "75daa9d2528ae916c84219ad5968fd853bcd521d",
+      "workingGitBlob": "75daa9d2528ae916c84219ad5968fd853bcd521d",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/ActiveFilters.jsx",
+      "baselineGitBlob": "dbf24a3262d2b081b71b4266bd17ea15e0dbfc29",
+      "workingGitBlob": "dbf24a3262d2b081b71b4266bd17ea15e0dbfc29",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/CatalogCard.jsx",
+      "baselineGitBlob": "5d21a00cee34a704e314031f3e0885d59b43dbc2",
+      "workingGitBlob": "5d21a00cee34a704e314031f3e0885d59b43dbc2",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/CatalogEmpty.jsx",
+      "baselineGitBlob": "f3ae93743379eb855cb6922df834bd705a82f9d1",
+      "workingGitBlob": "f3ae93743379eb855cb6922df834bd705a82f9d1",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/CatalogPagination.jsx",
+      "baselineGitBlob": "c33f735310d9d8c5f47a9e57ff46c4216e7ee05c",
+      "workingGitBlob": "c33f735310d9d8c5f47a9e57ff46c4216e7ee05c",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/CatalogToolbar.jsx",
+      "baselineGitBlob": "ce8d389958b7500228badd180c2538eb29179863",
+      "workingGitBlob": "ce8d389958b7500228badd180c2538eb29179863",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/CategoryNavigation.jsx",
+      "baselineGitBlob": "241f0b9f48c1c669d7f7f0fba6c0e470ffd106af",
+      "workingGitBlob": "241f0b9f48c1c669d7f7f0fba6c0e470ffd106af",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/FilterCheckbox.jsx",
+      "baselineGitBlob": "cca424de77770c02a6aac99de9d018d257556437",
+      "workingGitBlob": "cca424de77770c02a6aac99de9d018d257556437",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/FilterGroup.jsx",
+      "baselineGitBlob": "eb1eb6f56b6b3f8e634a5dc9a038d10626bcf743",
+      "workingGitBlob": "eb1eb6f56b6b3f8e634a5dc9a038d10626bcf743",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/FilterPanel.jsx",
+      "baselineGitBlob": "8ab9beb52da5629d0ebe7f66dd5e810ce8394ea0",
+      "workingGitBlob": "8ab9beb52da5629d0ebe7f66dd5e810ce8394ea0",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/MobileFilterDrawer.jsx",
+      "baselineGitBlob": "854b66b6b516a3b1a6c9289acdfa86e294781686",
+      "workingGitBlob": "854b66b6b516a3b1a6c9289acdfa86e294781686",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/catalog/PriceRange.jsx",
+      "baselineGitBlob": "b5e9f1e38cb011ad11fb33f87373ba3e95c9e2cf",
+      "workingGitBlob": "b5e9f1e38cb011ad11fb33f87373ba3e95c9e2cf",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/compare/CompareEmpty.jsx",
+      "baselineGitBlob": "40e76f4b3d94148a7fef67f0fdb2af04e5e9bc1a",
+      "workingGitBlob": "40e76f4b3d94148a7fef67f0fdb2af04e5e9bc1a",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/compare/CompareSection.jsx",
+      "baselineGitBlob": "451449d472188b181bc6afc1c191154201fc517f",
+      "workingGitBlob": "451449d472188b181bc6afc1c191154201fc517f",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/compare/CompareTable.jsx",
+      "baselineGitBlob": "b114cfeb9c4a8c0ddf95924e47424bc5d3afeb1b",
+      "workingGitBlob": "b114cfeb9c4a8c0ddf95924e47424bc5d3afeb1b",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/compare/CompareVerdicts.jsx",
+      "baselineGitBlob": "0c388492787377fd1db222f253eb6a586dac88c4",
+      "workingGitBlob": "0c388492787377fd1db222f253eb6a586dac88c4",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/compare/GuitarPicker.jsx",
+      "baselineGitBlob": "ee479cc9960191424b7e4f6040241b55066067f2",
+      "workingGitBlob": "ee479cc9960191424b7e4f6040241b55066067f2",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/compare/compareRows.js",
+      "baselineGitBlob": "f27dbf52102c849debe7fb41b389e0885fd32732",
+      "workingGitBlob": "f27dbf52102c849debe7fb41b389e0885fd32732",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/ColorSwatches.jsx",
+      "baselineGitBlob": "8a2068699b16433f99e52b0d4412deb39c7dba65",
+      "workingGitBlob": "8a2068699b16433f99e52b0d4412deb39c7dba65",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/DataStatusNote.jsx",
+      "baselineGitBlob": "0ccf7bbe15cc73d5333868aaff23700bf4a532fc",
+      "workingGitBlob": "0ccf7bbe15cc73d5333868aaff23700bf4a532fc",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/DetailTabs.jsx",
+      "baselineGitBlob": "f00c51f3f695d1b2afd929e78ecb9ac278120348",
+      "workingGitBlob": "f00c51f3f695d1b2afd929e78ecb9ac278120348",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/GuitarGallery.jsx",
+      "baselineGitBlob": "e61eb37a1ecb001316d64c5a37e65cf90af20833",
+      "workingGitBlob": "e61eb37a1ecb001316d64c5a37e65cf90af20833",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/ImageAttribution.jsx",
+      "baselineGitBlob": "1e62e30105c0137f71b4218d58ccbebf503cdebb",
+      "workingGitBlob": "1e62e30105c0137f71b4218d58ccbebf503cdebb",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/ImageLightbox.jsx",
+      "baselineGitBlob": "623a94c37f9baabcc94df283f960ca5600531d7e",
+      "workingGitBlob": "623a94c37f9baabcc94df283f960ca5600531d7e",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/SimilarGuitars.jsx",
+      "baselineGitBlob": "db5327ad188b4f4c95d7763cd934a4f19db1516a",
+      "workingGitBlob": "db5327ad188b4f4c95d7763cd934a4f19db1516a",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/SpecTable.jsx",
+      "baselineGitBlob": "a00381faf0532a7f0562a95c6461ed46f6594530",
+      "workingGitBlob": "a00381faf0532a7f0562a95c6461ed46f6594530",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/detail/StickyGuitarBar.jsx",
+      "baselineGitBlob": "3f9caf7e757c2c66b132221b091aa67c85e135c7",
+      "workingGitBlob": "3f9caf7e757c2c66b132221b091aa67c85e135c7",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/guitar/DevelopmentImagePreview.jsx",
+      "baselineGitBlob": "ac750d13a5582f60b1c77387b83c7edf42effe9b",
+      "workingGitBlob": "ac750d13a5582f60b1c77387b83c7edf42effe9b",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/guitar/GuitarCard.jsx",
+      "baselineGitBlob": "87c5cedd56b7a15205e513dabf4ef8c23395fa02",
+      "workingGitBlob": "87c5cedd56b7a15205e513dabf4ef8c23395fa02",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/guitar/GuitarImage.jsx",
+      "baselineGitBlob": "6c9c3e0303a792110096b0ef0fd26a3ce233307f",
+      "workingGitBlob": "6c9c3e0303a792110096b0ef0fd26a3ce233307f",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/guitar/ImagePlaceholder.jsx",
+      "baselineGitBlob": "7b0fba05b28a63b1e576effa6088392d78ffea34",
+      "workingGitBlob": "7b0fba05b28a63b1e576effa6088392d78ffea34",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/guitar/LocalPreviewImagePicker.jsx",
+      "baselineGitBlob": "0250821678e84ec3945046a6f2d47bce1e62090e",
+      "workingGitBlob": "0250821678e84ec3945046a6f2d47bce1e62090e",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/guitar/PreviewColorIndicators.jsx",
+      "baselineGitBlob": "10aada2c068de87b01ef712d93a534addf799ff9",
+      "workingGitBlob": "10aada2c068de87b01ef712d93a534addf799ff9",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/guitar/PriceSourceNote.jsx",
+      "baselineGitBlob": "f0466236f4befb3e29b848dd80e88ee771754efb",
+      "workingGitBlob": "f0466236f4befb3e29b848dd80e88ee771754efb",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/home/Brands.jsx",
+      "baselineGitBlob": "a840251568276b1cda16ba0d83c63b2d703accf6",
+      "workingGitBlob": "a840251568276b1cda16ba0d83c63b2d703accf6",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/home/Categories.jsx",
+      "baselineGitBlob": "01e6d028230ccfda05bd5ac776a9e3c5f8befc77",
+      "workingGitBlob": "01e6d028230ccfda05bd5ac776a9e3c5f8befc77",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/home/CategoryCard.jsx",
+      "baselineGitBlob": "52719360397c2a5872ff8ffaf363465f33959e8b",
+      "workingGitBlob": "52719360397c2a5872ff8ffaf363465f33959e8b",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/home/FeaturedGuitars.jsx",
+      "baselineGitBlob": "9cf6ea91692b3ba736b0da191a1ae4a8540a4c28",
+      "workingGitBlob": "9cf6ea91692b3ba736b0da191a1ae4a8540a4c28",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/home/FindMyGuitar.jsx",
+      "baselineGitBlob": "811af736953af5d07e267b6fefdaf3087e3cbb4b",
+      "workingGitBlob": "811af736953af5d07e267b6fefdaf3087e3cbb4b",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/home/Hero.jsx",
+      "baselineGitBlob": "87d55db8e382cb7c4a7b5df93333749fa49a1cd4",
+      "workingGitBlob": "87d55db8e382cb7c4a7b5df93333749fa49a1cd4",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/home/HeroArt.jsx",
+      "baselineGitBlob": "9c44edbb2ce3a9d3e4caab2ec8023acd983bdb72",
+      "workingGitBlob": "9c44edbb2ce3a9d3e4caab2ec8023acd983bdb72",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/home/HeroHotspot.jsx",
+      "baselineGitBlob": "a754dd5eabc95041eb24bca53682d2a6178daaea",
+      "workingGitBlob": "a754dd5eabc95041eb24bca53682d2a6178daaea",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/home/HeroStats.jsx",
+      "baselineGitBlob": "fcc15defa9da1e54b613a01c49559330b170620b",
+      "workingGitBlob": "fcc15defa9da1e54b613a01c49559330b170620b",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/BottomBar.jsx",
+      "baselineGitBlob": "afd8df8fe0e3104744478cb73893c925791012ec",
+      "workingGitBlob": "afd8df8fe0e3104744478cb73893c925791012ec",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/CompareBar.jsx",
+      "baselineGitBlob": "c3ffc4f52664bb59533644161a9a85a063965fd0",
+      "workingGitBlob": "c3ffc4f52664bb59533644161a9a85a063965fd0",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/Footer.jsx",
+      "baselineGitBlob": "31e19bc1c35a739331d0fecabb655729ca952ff6",
+      "workingGitBlob": "31e19bc1c35a739331d0fecabb655729ca952ff6",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/IconButton.jsx",
+      "baselineGitBlob": "4d0e465c12469d76acfd90934e1e8cad7b54fde3",
+      "workingGitBlob": "4d0e465c12469d76acfd90934e1e8cad7b54fde3",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/Logo.jsx",
+      "baselineGitBlob": "079b4423cd16f47e17c71fa7b30cae7c23c677c6",
+      "workingGitBlob": "079b4423cd16f47e17c71fa7b30cae7c23c677c6",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/MegaMenu.jsx",
+      "baselineGitBlob": "4bf18e63ee8af566b2ddd3b99f794a666a9a9345",
+      "workingGitBlob": "4bf18e63ee8af566b2ddd3b99f794a666a9a9345",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/MobileMenu.jsx",
+      "baselineGitBlob": "6e506abec5141a6a72a5ee50fceb3ab15e941f75",
+      "workingGitBlob": "6e506abec5141a6a72a5ee50fceb3ab15e941f75",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/Navbar.jsx",
+      "baselineGitBlob": "69d1d3f2fce4d6c49cda41b135e33c33d49ee870",
+      "workingGitBlob": "69d1d3f2fce4d6c49cda41b135e33c33d49ee870",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/ScrollManager.jsx",
+      "baselineGitBlob": "48554f11e6da7e15accf2c356d95ac5227ff6433",
+      "workingGitBlob": "48554f11e6da7e15accf2c356d95ac5227ff6433",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/layout/Toast.jsx",
+      "baselineGitBlob": "04872754e5e7c23951bdd68f288ee574cc29f23d",
+      "workingGitBlob": "04872754e5e7c23951bdd68f288ee574cc29f23d",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/MatchButtons.jsx",
+      "baselineGitBlob": "3d608587db435c24224b4d74a184d8c048f9c391",
+      "workingGitBlob": "3d608587db435c24224b4d74a184d8c048f9c391",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/MatchCard.jsx",
+      "baselineGitBlob": "4a44f282ec2c55bb90135fc282c8045fb17a6690",
+      "workingGitBlob": "4a44f282ec2c55bb90135fc282c8045fb17a6690",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/QuizFlow.jsx",
+      "baselineGitBlob": "53e33e189bbb7fc94a8d2f9ab5258571782daa7a",
+      "workingGitBlob": "53e33e189bbb7fc94a8d2f9ab5258571782daa7a",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/QuizIntro.jsx",
+      "baselineGitBlob": "f3d3c13bcdcfbaea41af94fffbf2d27caf9755a9",
+      "workingGitBlob": "f3d3c13bcdcfbaea41af94fffbf2d27caf9755a9",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/QuizOption.jsx",
+      "baselineGitBlob": "3ddee83136f5ddb7d28bf9ba419f4b40eac62b50",
+      "workingGitBlob": "3ddee83136f5ddb7d28bf9ba419f4b40eac62b50",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/QuizProgress.jsx",
+      "baselineGitBlob": "2a99f8b71616d2d1024779435311da0e9cd66be5",
+      "workingGitBlob": "2a99f8b71616d2d1024779435311da0e9cd66be5",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/quiz/QuizResults.jsx",
+      "baselineGitBlob": "e257815b05872ca4dc4dfa4f035a9b8221be346c",
+      "workingGitBlob": "e257815b05872ca4dc4dfa4f035a9b8221be346c",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/search/SearchBar.jsx",
+      "baselineGitBlob": "fda733fdb65c31269446d7bb5983cc2bcc626192",
+      "workingGitBlob": "fda733fdb65c31269446d7bb5983cc2bcc626192",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/AppLink.jsx",
+      "baselineGitBlob": "8200e2614bf4279e3edbfa5377cb5aa689acaf3c",
+      "workingGitBlob": "8200e2614bf4279e3edbfa5377cb5aa689acaf3c",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/ArtBackdrop.jsx",
+      "baselineGitBlob": "694d5369d637ae83e8ad0b0823ca746daf2c80ca",
+      "workingGitBlob": "694d5369d637ae83e8ad0b0823ca746daf2c80ca",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/Badge.jsx",
+      "baselineGitBlob": "7a98d93144fb43f181847cc32c25a771d0ea61bc",
+      "workingGitBlob": "7a98d93144fb43f181847cc32c25a771d0ea61bc",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/Button.jsx",
+      "baselineGitBlob": "90852e4d92b2d6540097c17d121dfc44994a9569",
+      "workingGitBlob": "90852e4d92b2d6540097c17d121dfc44994a9569",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/ConfirmDialog.jsx",
+      "baselineGitBlob": "c4d2951f428fb575b2c5aa7a41855dd712930adb",
+      "workingGitBlob": "c4d2951f428fb575b2c5aa7a41855dd712930adb",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/DiscoveryHeading.jsx",
+      "baselineGitBlob": "0881eaffd41ebb0a4539a2a88ac032e34a3891f0",
+      "workingGitBlob": "0881eaffd41ebb0a4539a2a88ac032e34a3891f0",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/DiscoveryRoute.jsx",
+      "baselineGitBlob": "591637927735a2680c1c549fee53862270452e2d",
+      "workingGitBlob": "591637927735a2680c1c549fee53862270452e2d",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/GuitarArt.jsx",
+      "baselineGitBlob": "867233248752d59cfb8b83f29b6f34dfca6be6e7",
+      "workingGitBlob": "867233248752d59cfb8b83f29b6f34dfca6be6e7",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/Icons.jsx",
+      "baselineGitBlob": "889c5f25ccbd21b158d73a5c6412a87a871c4aa2",
+      "workingGitBlob": "889c5f25ccbd21b158d73a5c6412a87a871c4aa2",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/Reveal.jsx",
+      "baselineGitBlob": "7c94c43abebb8859979b5e66a46d48ca59337593",
+      "workingGitBlob": "7c94c43abebb8859979b5e66a46d48ca59337593",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/SectionHeading.jsx",
+      "baselineGitBlob": "b6ea1096c89caa205b8b3e7dfcc0d089f91fdf5e",
+      "workingGitBlob": "b6ea1096c89caa205b8b3e7dfcc0d089f91fdf5e",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/ShareLink.jsx",
+      "baselineGitBlob": "2f78a9e370d8da57e7a52779587f65bf7bde1627",
+      "workingGitBlob": "2f78a9e370d8da57e7a52779587f65bf7bde1627",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/SmartImage.jsx",
+      "baselineGitBlob": "cf64b7aa22b7c7b0bb6ffc91646d18a127f2a718",
+      "workingGitBlob": "cf64b7aa22b7c7b0bb6ffc91646d18a127f2a718",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/SortSelect.jsx",
+      "baselineGitBlob": "7c52969cd40c55c6009a631f7944df2d643d0505",
+      "workingGitBlob": "7c52969cd40c55c6009a631f7944df2d643d0505",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/Switch.jsx",
+      "baselineGitBlob": "cad96494cdf4ec3d50e87193aa10b6c494c2e4ac",
+      "workingGitBlob": "cad96494cdf4ec3d50e87193aa10b6c494c2e4ac",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ui/Tabs.jsx",
+      "baselineGitBlob": "fdebd45a4af9630c642b7a053042760314ad5bc7",
+      "workingGitBlob": "fdebd45a4af9630c642b7a053042760314ad5bc7",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/wishlist/WishlistRow.jsx",
+      "baselineGitBlob": "94bb369503bc2b241be9c6391177b37c737c6a02",
+      "workingGitBlob": "94bb369503bc2b241be9c6391177b37c737c6a02",
+      "unchanged": true
+    },
+    {
+      "path": "src/context/ShopContext.jsx",
+      "baselineGitBlob": "35f7cacdf047496e7a4e24f5e22f501a119b4079",
+      "workingGitBlob": "35f7cacdf047496e7a4e24f5e22f501a119b4079",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/additionalSpecifications.js",
+      "baselineGitBlob": "9aab1765398d0da536dbb195c5c795ad3eedea37",
+      "workingGitBlob": "9aab1765398d0da536dbb195c5c795ad3eedea37",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/brands.js",
+      "baselineGitBlob": "334a8b91c115b2af992d4de316ae48829823110f",
+      "workingGitBlob": "334a8b91c115b2af992d4de316ae48829823110f",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/archivedGuitars.json",
+      "baselineGitBlob": "94471ef0eb29aa7ae88ab41e163bfd766e1808d7",
+      "workingGitBlob": "94471ef0eb29aa7ae88ab41e163bfd766e1808d7",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/catalogPolicy.json",
+      "baselineGitBlob": "0f0fde29ea46dce27bdff6a3836638f00d1a0ca9",
+      "workingGitBlob": "0f0fde29ea46dce27bdff6a3836638f00d1a0ca9",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/extraGuitars.json",
+      "baselineGitBlob": "ecdcbea54a8a068231635ff6f75fe5b948a59646",
+      "workingGitBlob": "ecdcbea54a8a068231635ff6f75fe5b948a59646",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/imageRights.json",
+      "baselineGitBlob": "49b0d12f4d8eec58791753541343c9c7b5dc3fe9",
+      "workingGitBlob": "49b0d12f4d8eec58791753541343c9c7b5dc3fe9",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/phase7Guitars.json",
+      "baselineGitBlob": "102602b83024288c254a9b909e9cc919b7cc20cf",
+      "workingGitBlob": "102602b83024288c254a9b909e9cc919b7cc20cf",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/projectArtwork.json",
+      "baselineGitBlob": "5da1d6afaf1207b2ee730d1246c2aca2de5a1f09",
+      "workingGitBlob": "5da1d6afaf1207b2ee730d1246c2aca2de5a1f09",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/catalog/reviewedGuitars.json",
+      "baselineGitBlob": "c1ce11ffaafa70ed5a0b8aeea9e0ddb438228e0a",
+      "workingGitBlob": "c1ce11ffaafa70ed5a0b8aeea9e0ddb438228e0a",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/categories.js",
+      "baselineGitBlob": "21309d063ed02e7e7962b0ac581d19e1add59e03",
+      "workingGitBlob": "21309d063ed02e7e7962b0ac581d19e1add59e03",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/guitarDetails.js",
+      "baselineGitBlob": "f11f4903cf13354587677ce6d239282004fcd471",
+      "workingGitBlob": "f11f4903cf13354587677ce6d239282004fcd471",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/guitarImages.js",
+      "baselineGitBlob": "b7da0ac6b70bbb60d2e28e30f3afa1b19a0e1b6a",
+      "workingGitBlob": "b7da0ac6b70bbb60d2e28e30f3afa1b19a0e1b6a",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/guitars.js",
+      "baselineGitBlob": "c245302d7e4fcc8a4b5dcc915a621579d133d8f8",
+      "workingGitBlob": "c245302d7e4fcc8a4b5dcc915a621579d133d8f8",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/hero.js",
+      "baselineGitBlob": "d721f71ef67583c45cbf0029b4db43a0c8ca1f2e",
+      "workingGitBlob": "d721f71ef67583c45cbf0029b4db43a0c8ca1f2e",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/homeBrandAssets.js",
+      "baselineGitBlob": "23b939748d9648cd3dcb5bf2b2e81b9bc96b81d6",
+      "workingGitBlob": "23b939748d9648cd3dcb5bf2b2e81b9bc96b81d6",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/images.js",
+      "baselineGitBlob": "2f2a9005f5245e4f7f9c978f305be8328d1c21cf",
+      "workingGitBlob": "2f2a9005f5245e4f7f9c978f305be8328d1c21cf",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/navigation.js",
+      "baselineGitBlob": "d2512f61cd48ee7fd5495877e98600f35160ad60",
+      "workingGitBlob": "d2512f61cd48ee7fd5495877e98600f35160ad60",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/quiz.js",
+      "baselineGitBlob": "4ad0deb7e04349f4b829a0a81bd00866f129e5cf",
+      "workingGitBlob": "4ad0deb7e04349f4b829a0a81bd00866f129e5cf",
+      "unchanged": true
+    },
+    {
+      "path": "src/hooks/useCatalogFilters.js",
+      "baselineGitBlob": "0a461549d7f28bc81afd172621a8933b675c78f2",
+      "workingGitBlob": "0a461549d7f28bc81afd172621a8933b675c78f2",
+      "unchanged": true
+    },
+    {
+      "path": "src/hooks/useDevelopmentImagePreview.js",
+      "baselineGitBlob": "069af49e183ebea34494a9b4aa2d1f97dfe6e8ab",
+      "workingGitBlob": "069af49e183ebea34494a9b4aa2d1f97dfe6e8ab",
+      "unchanged": true
+    },
+    {
+      "path": "src/hooks/useDialogFocus.js",
+      "baselineGitBlob": "9833fd7af7bf4095252a066718bd55df4a53d65e",
+      "workingGitBlob": "9833fd7af7bf4095252a066718bd55df4a53d65e",
+      "unchanged": true
+    },
+    {
+      "path": "src/hooks/useInView.js",
+      "baselineGitBlob": "70e195450cd7b91bdd0338a30c09174d35d2034e",
+      "workingGitBlob": "70e195450cd7b91bdd0338a30c09174d35d2034e",
+      "unchanged": true
+    },
+    {
+      "path": "src/hooks/useParallax.js",
+      "baselineGitBlob": "6a1797cab129261b5b54fc009074e11f7d72dc76",
+      "workingGitBlob": "6a1797cab129261b5b54fc009074e11f7d72dc76",
+      "unchanged": true
+    },
+    {
+      "path": "src/hooks/useScrolled.js",
+      "baselineGitBlob": "0425c1b4e5dbf75aa515ff10c44c162f57ac0ddb",
+      "workingGitBlob": "0425c1b4e5dbf75aa515ff10c44c162f57ac0ddb",
+      "unchanged": true
+    },
+    {
+      "path": "src/hooks/useSearchNavigation.js",
+      "baselineGitBlob": "0f64d0e6726e2331aadc9cdc3d8c543ee76a4ab7",
+      "workingGitBlob": "0f64d0e6726e2331aadc9cdc3d8c543ee76a4ab7",
+      "unchanged": true
+    },
+    {
+      "path": "src/i18n/en.js",
+      "baselineGitBlob": "b3c0ed4657dc19a633f4f4fc32f9fbb99008e2fa",
+      "workingGitBlob": "b3c0ed4657dc19a633f4f4fc32f9fbb99008e2fa",
+      "unchanged": true
+    },
+    {
+      "path": "src/i18n/index.js",
+      "baselineGitBlob": "5f64b998e206cc51a8b53faa45486ef854058cbe",
+      "workingGitBlob": "5f64b998e206cc51a8b53faa45486ef854058cbe",
+      "unchanged": true
+    },
+    {
+      "path": "src/i18n/th.js",
+      "baselineGitBlob": "a61f4d3c06e73c3d4257ecaf3b16ae21082cca0f",
+      "workingGitBlob": "a61f4d3c06e73c3d4257ecaf3b16ae21082cca0f",
+      "unchanged": true
+    },
+    {
+      "path": "src/index.css",
+      "baselineGitBlob": "a95e0216b2f03ed23b3f0b894aa005054f3de27a",
+      "workingGitBlob": "a95e0216b2f03ed23b3f0b894aa005054f3de27a",
+      "unchanged": true
+    },
+    {
+      "path": "src/main.jsx",
+      "baselineGitBlob": "955b15ab800a255bd81318163b6ca57147a21f85",
+      "workingGitBlob": "955b15ab800a255bd81318163b6ca57147a21f85",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/BrandDetailPage.jsx",
+      "baselineGitBlob": "eb43ba4552f9dea73cc6b86c04bd0cf1a085ea78",
+      "workingGitBlob": "eb43ba4552f9dea73cc6b86c04bd0cf1a085ea78",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/BrandsPage.jsx",
+      "baselineGitBlob": "0027151747f5cf954ddda5532a342b5bba31b942",
+      "workingGitBlob": "0027151747f5cf954ddda5532a342b5bba31b942",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/CatalogPage.jsx",
+      "baselineGitBlob": "5b950a87feef4c72dcb8a5e3e368a22876f42cc6",
+      "workingGitBlob": "5b950a87feef4c72dcb8a5e3e368a22876f42cc6",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/ComparePage.jsx",
+      "baselineGitBlob": "d1a2887871196cd3e602d57c3f59f4f719ddfa6d",
+      "workingGitBlob": "d1a2887871196cd3e602d57c3f59f4f719ddfa6d",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/FindMyGuitarPage.jsx",
+      "baselineGitBlob": "179f00b78099f3ae5cf0b755a795aba59af04be2",
+      "workingGitBlob": "179f00b78099f3ae5cf0b755a795aba59af04be2",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/GuitarDetailPage.jsx",
+      "baselineGitBlob": "daaaea99a77476251e9dcba67501ac432b8dd600",
+      "workingGitBlob": "daaaea99a77476251e9dcba67501ac432b8dd600",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/HomePage.jsx",
+      "baselineGitBlob": "0ef8907e173a4709139dc07e8c8e706523db6fe7",
+      "workingGitBlob": "0ef8907e173a4709139dc07e8c8e706523db6fe7",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/ImageCreditsPage.jsx",
+      "baselineGitBlob": "a3a42edb4dbd64fbfa43151f48c9f9ec6f41f272",
+      "workingGitBlob": "a3a42edb4dbd64fbfa43151f48c9f9ec6f41f272",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/NotFoundPage.jsx",
+      "baselineGitBlob": "c3c4df2ce044e0f79de0a9b121a387abb2f56d61",
+      "workingGitBlob": "c3c4df2ce044e0f79de0a9b121a387abb2f56d61",
+      "unchanged": true
+    },
+    {
+      "path": "src/pages/WishlistPage.jsx",
+      "baselineGitBlob": "489c3e4671b583d7fdb36a3ea08ab094f2ea14ee",
+      "workingGitBlob": "489c3e4671b583d7fdb36a3ea08ab094f2ea14ee",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/brand-directory.css",
+      "baselineGitBlob": "b5ff8cb98dea717c90c533c3a0622cee1cd9f7ae",
+      "workingGitBlob": "b5ff8cb98dea717c90c533c3a0622cee1cd9f7ae",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/home-brands.css",
+      "baselineGitBlob": "948415ded37091e986a0a9eac3c433956d0b81ac",
+      "workingGitBlob": "948415ded37091e986a0a9eac3c433956d0b81ac",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/home-discovery.css",
+      "baselineGitBlob": "22952d508e389e7f6f0405bc64462f1827271527",
+      "workingGitBlob": "22952d508e389e7f6f0405bc64462f1827271527",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/home-experiences.css",
+      "baselineGitBlob": "3d8fd38460465a080e2209ae23e47e7ecaf8565f",
+      "workingGitBlob": "3d8fd38460465a080e2209ae23e47e7ecaf8565f",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/polish.css",
+      "baselineGitBlob": "bf5a3548de33579a96365b5f89ba626e6360cfda",
+      "workingGitBlob": "bf5a3548de33579a96365b5f89ba626e6360cfda",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles/tokens.css",
+      "baselineGitBlob": "b24ef56c69075f6c4661d233d19fd4dec58c730e",
+      "workingGitBlob": "b24ef56c69075f6c4661d233d19fd4dec58c730e",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/brandFilters.js",
+      "baselineGitBlob": "417ffcd3d0b32dbf4300dd037605f12de8ed3931",
+      "workingGitBlob": "417ffcd3d0b32dbf4300dd037605f12de8ed3931",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/cn.js",
+      "baselineGitBlob": "3d720b84263d23347b64cfcf38f4497427843ccf",
+      "workingGitBlob": "3d720b84263d23347b64cfcf38f4497427843ccf",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/dataTrust.js",
+      "baselineGitBlob": "0eea7ca70ff1f2eefebe7ca5c1565c28117f86e6",
+      "workingGitBlob": "0eea7ca70ff1f2eefebe7ca5c1565c28117f86e6",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/developmentImagePreview.js",
+      "baselineGitBlob": "2589cd34c0d546f784cbfa5f0ee41535f7eeb563",
+      "workingGitBlob": "2589cd34c0d546f784cbfa5f0ee41535f7eeb563",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/dom.js",
+      "baselineGitBlob": "4a7fbe2ae3b16f717ac634c8d8777aba6a40dd14",
+      "workingGitBlob": "4a7fbe2ae3b16f717ac634c8d8777aba6a40dd14",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/format.js",
+      "baselineGitBlob": "ef402a8e01ab42697948c621cfa434f5c992a6f7",
+      "workingGitBlob": "ef402a8e01ab42697948c621cfa434f5c992a6f7",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/guitarSort.js",
+      "baselineGitBlob": "a0075780defe8daa4fe5cb9ae2195bf670ed4a2e",
+      "workingGitBlob": "a0075780defe8daa4fe5cb9ae2195bf670ed4a2e",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/imageRights.js",
+      "baselineGitBlob": "0ef4e08f94b5fa7cf7206b6ef4d62f0c64e0b1a8",
+      "workingGitBlob": "0ef4e08f94b5fa7cf7206b6ef4d62f0c64e0b1a8",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/quizScoring.js",
+      "baselineGitBlob": "488e1b4cdf9385e5fdf211fb539f6b209bc707ef",
+      "workingGitBlob": "488e1b4cdf9385e5fdf211fb539f6b209bc707ef",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/routes.js",
+      "baselineGitBlob": "3a8fd368f90202d0a9dade19820e78dd835c2dc8",
+      "workingGitBlob": "3a8fd368f90202d0a9dade19820e78dd835c2dc8",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/search.js",
+      "baselineGitBlob": "ab03da35c16741f512c3615bcc2885c86dec9791",
+      "workingGitBlob": "ab03da35c16741f512c3615bcc2885c86dec9791",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/selection.js",
+      "baselineGitBlob": "2aaa59489d42ae50f9c8a5b9c21e8c1a18c1c8bf",
+      "workingGitBlob": "2aaa59489d42ae50f9c8a5b9c21e8c1a18c1c8bf",
+      "unchanged": true
+    },
+    {
+      "path": "src/utils/slug.js",
+      "baselineGitBlob": "79c8812c3d114d21e1b8d6817bfc05be046effb6",
+      "workingGitBlob": "79c8812c3d114d21e1b8d6817bfc05be046effb6",
+      "unchanged": true
+    },
+    {
+      "path": "vite.config.js",
+      "baselineGitBlob": "4fc2150f96d5022503a8dbeb5e10efea0b2066c1",
+      "workingGitBlob": "4fc2150f96d5022503a8dbeb5e10efea0b2066c1",
+      "unchanged": true
+    }
+  ]
+}

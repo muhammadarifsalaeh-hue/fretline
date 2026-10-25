@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
-import { PRACTICE_CHORDS, PRACTICE_CHORD_BY_ID } from '../src/features/practice/data/chords.js';
+import { PRACTICE_CHORDS, PRACTICE_CHORD_BY_ID, BY_ID, CHORD_TYPES, CHORD_REFERENCES } from '../src/features/practice/data/chords.js';
+import { noteToMidi, validatePracticeChord } from '../src/features/practice/data/chordValidation.js';
 import {
   SCALE_LENGTH, FRET_COUNT, STRING_COUNT, STRING_SPACING, STRINGS,
   getFretPosition, getFingerPosition, getStringZ,
@@ -15,10 +16,37 @@ const near = (actual, expected, tolerance = 1e-8) => assert.ok(
   Math.abs(actual - expected) < tolerance, `${actual} must be within ${tolerance} of ${expected}`,
 );
 
-check('Exactly five unique, stable chord choices in the agreed order', () => {
-  assert.deepEqual(PRACTICE_CHORDS.map(({ id }) => id), ['C', 'G', 'D', 'Em', 'Am']);
-  assert.equal(new Set(PRACTICE_CHORDS.map(({ id }) => id)).size, 5);
-  assert.equal(Object.keys(PRACTICE_CHORD_BY_ID).length, 5);
+const EXPECTED_IDS = [
+  'C', 'D', 'E', 'F', 'G', 'A', 'B',
+  'Cm', 'Dm', 'Em', 'Fm', 'Gm', 'Am', 'Bm',
+  'C7', 'D7', 'E7', 'F7', 'G7', 'A7', 'B7',
+  'Cmaj7', 'Dmaj7', 'Emaj7', 'Fmaj7', 'Gmaj7', 'Amaj7', 'Bmaj7',
+  'Cm7', 'Dm7', 'Em7', 'Fm7', 'Gm7', 'Am7', 'Bm7',
+  'Csus2', 'Dsus2', 'Asus2', 'Csus4', 'Dsus4', 'Esus4', 'Asus4',
+];
+check('Exactly 42 unique stable IDs, in six groups of seven', () => {
+  assert.deepEqual(PRACTICE_CHORDS.map(({ id }) => id), EXPECTED_IDS);
+  assert.equal(new Set(PRACTICE_CHORDS.map(({ id }) => id)).size, 42);
+  assert.equal(Object.keys(PRACTICE_CHORD_BY_ID).length, 42);
+  assert.equal(BY_ID, PRACTICE_CHORD_BY_ID);
+  assert.deepEqual(CHORD_TYPES.map(({ id }) => id), ['major', 'minor', 'dominant7', 'major7', 'minor7', 'suspended']);
+  for (const type of CHORD_TYPES) {
+    assert.equal(PRACTICE_CHORDS.filter((chord) => chord.type === type.id).length, 7);
+    assert.ok(type.label.th.length > 0 && type.label.en.length > 0);
+  }
+});
+check('Original five chord IDs retain their open voicings and fingerings', () => {
+  const originals = {
+    C: ['x32010', [null, 3, 2, null, 1, null]],
+    G: ['320003', [2, 1, null, null, null, 3]],
+    D: ['xx0232', [null, null, null, 1, 3, 2]],
+    Em: ['022000', [null, 2, 3, null, null, null]],
+    Am: ['x02210', [null, null, 2, 3, 1, null]],
+  };
+  for (const [id, [voicing, fingers]] of Object.entries(originals)) {
+    assert.equal(BY_ID[id].voicing, voicing);
+    assert.deepEqual(BY_ID[id].fingers, fingers);
+  }
 });
 check('The neck contains six standard-tuned strings and twelve study frets', () => {
   assert.equal(STRING_COUNT, 6);
@@ -62,44 +90,65 @@ check('Invalid fret, scale and string indices fail explicitly', () => {
   for (const value of [-1, 6, 1.5, NaN, '0']) assert.throws(() => getStringZ(value), RangeError);
 });
 
-const VOICINGS = { C: 'x32010', G: '320003', D: 'xx0232', Em: '022000', Am: 'x02210' };
-const ROOTS = { C: 0, G: 7, D: 2, Em: 4, Am: 9 };
-const NOTE_NAMES = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
 for (const item of PRACTICE_CHORDS) {
-  check(`${item.id}: real open voicing, correct notes and a complete major/minor triad`, () => {
-    assert.equal(item.frets.length, 6);
-    assert.equal(item.fingers.length, 6);
-    assert.equal(item.notes.length, 6);
-    assert.equal(item.frets.map((fret) => fret === null ? 'x' : fret).join(''), VOICINGS[item.id]);
-    const actualPitchClasses = new Set();
-    item.frets.forEach((fret, i) => {
-      if (fret === null) {
-        assert.equal(item.notes[i], null);
-        assert.equal(item.fingers[i], null);
-        return;
-      }
-      assert.ok(Number.isInteger(fret) && fret >= 0 && fret <= FRET_COUNT);
-      const midi = STRINGS[i].midi + fret;
-      assert.equal(item.notes[i], `${NOTE_NAMES[midi % 12]}${Math.floor(midi / 12) - 1}`);
-      actualPitchClasses.add(midi % 12);
-      if (fret === 0) assert.equal(item.fingers[i], null);
-      else assert.ok(Number.isInteger(item.fingers[i]) && item.fingers[i] >= 1 && item.fingers[i] <= 4);
-    });
-    const intervals = item.quality === 'Major' ? [0, 4, 7] : [0, 3, 7];
-    const expectedPitchClasses = new Set(intervals.map((interval) => (ROOTS[item.id] + interval) % 12));
-    assert.deepEqual(actualPitchClasses, expectedPitchClasses);
-    const activeFingers = item.fingers.filter((finger) => finger !== null);
-    assert.equal(new Set(activeFingers).size, activeFingers.length, 'These open voicings must not accidentally assign one finger to separate strings.');
-    assert.equal(item.handPose, null, 'Stage 1–2 must not pretend an anatomical pose is implemented.');
+  check(`${item.id}: schema, tuning, chord tones, finger and barre coherence`, () => {
+    const result = validatePracticeChord(item);
+    assert.equal(result.valid, true, result.errors.join(' '));
     assert.equal(PRACTICE_CHORD_BY_ID[item.id], item);
   });
 }
-check('Practice reference data cannot be accidentally mutated by viewer state', () => {
-  assert.ok(Object.isFrozen(PRACTICE_CHORDS));
-  assert.ok(Object.isFrozen(STRINGS));
-  for (const item of PRACTICE_CHORDS) {
-    assert.ok(Object.isFrozen(item) && Object.isFrozen(item.frets) && Object.isFrozen(item.fingers));
+check('Fifths are omitted only for the documented conventional open C7', () => {
+  assert.deepEqual(PRACTICE_CHORDS.filter(({ omittedTones }) => omittedTones.length).map(({ id }) => id), ['C7']);
+  assert.deepEqual(BY_ID.C7.omittedTones, ['G']);
+  assert.equal(BY_ID.C7.voicing, 'x32310');
+  assert.deepEqual(BY_ID.C7.notes, [null, 'C3', 'E3', 'Bb3', 'C4', 'E4']);
+});
+check('A barre correctly permits higher notes on covered strings', () => {
+  assert.equal(validatePracticeChord(BY_ID.F).valid, true);
+  assert.equal(validatePracticeChord(BY_ID.Csus2).valid, true);
+  assert.deepEqual(BY_ID.Csus2.barres, [{ finger: 1, fret: 3, fromString: 5, toString: 1 }]);
+});
+check('Validator rejects wrong notes, omitted essential tones, finger reuse and blocked strings', () => {
+  const invalid = [];
+  const copy = (chord) => structuredClone(chord);
+  let item = copy(BY_ID.C); item.notes[1] = 'B2'; invalid.push(item);
+  item = copy(BY_ID.C); item.frets[3] = 1; item.notes[3] = 'G#3'; item.fingers[3] = 4; invalid.push(item);
+  item = copy(BY_ID.C7); item.omittedTones = []; invalid.push(item);
+  item = copy(BY_ID.Em7); item.frets[2] = 2; item.notes[2] = 'E3'; item.fingers[2] = 3; invalid.push(item);
+  item = copy(BY_ID.C); item.fingers[2] = 3; invalid.push(item);
+  item = copy(BY_ID.F); item.frets[2] = 0; item.notes[2] = 'D3'; item.fingers[2] = null; invalid.push(item);
+  item = copy(BY_ID.Csus2); item.barres[0].fromString = 6; invalid.push(item);
+  item = copy(BY_ID.C); item.frets[1] = 13; invalid.push(item);
+  item = copy(BY_ID.C); item.instructions.en = []; invalid.push(item);
+  item = copy(BY_ID.C); item.handPose.status = 'verified'; invalid.push(item);
+  for (const bad of invalid) assert.equal(validatePracticeChord(bad).valid, false, `Invalid ${bad.id} was accepted.`);
+});
+check('Enharmonic note parsing preserves actual octave and rejects non-note labels', () => {
+  assert.equal(noteToMidi('Bb3'), 58);
+  assert.equal(noteToMidi('A#3'), 58);
+  assert.equal(noteToMidi('F#4'), 66);
+  assert.equal(noteToMidi('Cb4'), 59);
+  assert.equal(noteToMidi('B#3'), 60);
+  for (const value of [null, undefined, 123, 'H3', 'C', 'C##4', ' C4']) assert.equal(noteToMidi(value), null);
+});
+check('Learning references record actual read dates and specific reviewed facts', () => {
+  assert.ok(CHORD_REFERENCES.length >= 6);
+  assert.equal(new Set(CHORD_REFERENCES.map(({ id }) => id)).size, CHORD_REFERENCES.length);
+  for (const source of CHORD_REFERENCES) {
+    assert.equal(new URL(source.url).protocol, 'https:');
+    assert.equal(source.retrievedAt, '2026-10-24');
+    assert.equal(source.status, 'read');
+    assert.ok(source.reviewedFacts.length > 20);
   }
+});
+check('Practice reference data cannot be accidentally mutated by viewer state', () => {
+  const assertDeepFrozen = (value) => {
+    if (!value || typeof value !== 'object') return;
+    assert.ok(Object.isFrozen(value));
+    Object.values(value).forEach(assertDeepFrozen);
+  };
+  for (const data of [PRACTICE_CHORDS, BY_ID, CHORD_TYPES, CHORD_REFERENCES]) assertDeepFrozen(data);
+  assert.ok(Object.isFrozen(STRINGS));
   assert.throws(() => { PRACTICE_CHORDS[0].frets[1] = 99; }, TypeError);
 });
 

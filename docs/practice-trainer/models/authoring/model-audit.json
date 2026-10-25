@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "asset": "src/features/practice/assets/makehuman-left-arm-sleeved.glb",
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "assetBytes": 1012288,
+  "boneCount": 22,
+  "boneNames": [
+    "finger2-3.L",
+    "finger2-2.L",
+    "finger2-1.L",
+    "metacarpal1.L",
+    "finger3-3.L",
+    "finger3-2.L",
+    "finger3-1.L",
+    "metacarpal2.L",
+    "finger4-3.L",
+    "finger4-2.L",
+    "finger4-1.L",
+    "metacarpal3.L",
+    "finger5-3.L",
+    "finger5-2.L",
+    "finger5-1.L",
+    "metacarpal4.L",
+    "finger1-3.L",
+    "finger1-2.L",
+    "finger1-1.L",
+    "wrist.L",
+    "lowerarm02.L",
+    "lowerarm01.L"
+  ],
+  "poseVerified": false,
+  "anatomicalSurfaceReference": {
+    "normalDefinition": "normalize((littleMCP-indexMCP) cross (middleMCP-wrist))",
+    "surfaceSidePositive": "palmar distal surface",
+    "surfaceSideNegative": "dorsal distal surface",
+    "verification": "Textured native and exported-GLB views: opposite positive-forward-cross view shows fingernails; this negative-forward-cross view shows palm and finger pads.",
+    "reviewScript": "docs/practice-trainer/models/authoring/render_anatomy_review.py",
+    "reviewDateUtc": "2026-10-25",
+    "guitarContactVerified": false
+  },
+  "palmReferenceNormal": [
+    -0.8194850848216518,
+    -0.5634215280534439,
+    -0.10488268437055054
+  ],
+  "meshes": [
+    {
+      "name": "Black_LongSleeve_Forearm",
+      "vertexCount": 734,
+      "triangleCount": 1304,
+      "audit": {
+        "allAttributesFinite": true,
+        "unitNormals": true,
+        "normalLengthRange": [
+          0.9999998807907104,
+          1.0000001192092896
+        ],
+        "allWeightsNormalized": true,
+        "weightSumRange": [
+          0.9999998807907104,
+          1.0000001192092896
+        ],
+        "influenceCountRange": [
+          1,
+          4
+        ],
+        "skinJointCount": 22,
+        "maxInverseBindRestError": 5.00364011890575e-07,
+        "boundsMeters": {
+          "min": [
+            -0.1505545973777771,
+            -0.03966757655143738,
+            -0.19605237245559692
+          ],
+          "max": [
+            0.025747766718268394,
+            0.14635497331619263,
+            0.03794441372156143
+          ]
+        },
+        "weldedVertexCount": 678,
+        "weldedConnectedComponentSizes": [
+          678
+        ],
+        "attributeSha256": {
+          "POSITION": "7c622ae08e40feafef8840a4e41f4809871cd935334505e77a19bf3aa641c77b",
+          "NORMAL": "75058a3c3bc921099eecfbc03c6fc955428b90f6de746c4b177e4b1447715495",
+          "TEXCOORD_0": "4fb6a2c4be12636afb7623c907ffab480d5fae018934c5e6f2682a9d15ec96ec",
+          "JOINTS_0": "e20a26d058c956fae84c20fc5f39b8eb700583795e4c159b14769dd73922dcfd",
+          "WEIGHTS_0": "f932e448e523e680ee8bc7cff27b5d7ca4618702577f23617ecb9cb53d2e7f73"
+        }
+      }
+    },
+    {
+      "name": "MakeHuman_Left_Hand_Forearm",
+      "vertexCount": 7888,
+      "triangleCount": 14760,
+      "audit": {
+        "allAttributesFinite": true,
+        "unitNormals": true,
+        "normalLengthRange": [
+          0.9999998807907104,
+          1.0000001192092896
+        ],
+        "allWeightsNormalized": true,
+        "weightSumRange": [
+          0.9999998807907104,
+          1.0000001192092896
+        ],
+        "influenceCountRange": [
+          1,
+          4
+        ],
+        "skinJointCount": 22,
+        "maxInverseBindRestError": 5.00364011890575e-07,
+        "boundsMeters": {
+          "min": [
+            -0.1494283527135849,
+            -0.12316849082708359,
+            -0.19186627864837646
+          ],
+          "max": [
+            0.0649329200387001,
+            0.1469821035861969,
+            0.1455400586128235
+          ]
+        },
+        "weldedVertexCount": 7407,
+        "weldedConnectedComponentSizes": [
+          7407
+        ],
+        "attributeSha256": {
+          "POSITION": "9a504e90ba804dc4210d642191913e60ce2691905a98851cdce2def144ad2188",
+          "NORMAL": "38bcc8b98b5fd29066d41733804ef9ede6f87465c343f9a5ff6c0c714cd83805",
+          "TEXCOORD_0": "c7262c06d7c2cac3ccede022ac3924845b706333dc9eaef635046da0ec47299d",
+          "JOINTS_0": "0d2436af2d619417012cf765f27e905478e1808829db33af672afa42f9064207",
+          "WEIGHTS_0": "ff934a0fa06c49e58e203a62e3c80469ba619b1a0f0513d346aa2eda2e6cb526"
+        }
+      }
+    }
+  ]
+}

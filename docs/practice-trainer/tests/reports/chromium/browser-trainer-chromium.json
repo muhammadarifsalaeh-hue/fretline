@@ -1,0 +1,1419 @@
+{
+  "engine": "chromium",
+  "url": "http://127.0.0.1:5430",
+  "scope": "42-chord music/diagram/trainer acceptance; anatomical hand poses are assessed separately",
+  "checks": [
+    {
+      "case": "all-42-diagrams",
+      "passed": false,
+      "failure": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/practice-trainer/tests/browser-trainer.py\", line 596, in <module>\n    context, page = context_for(browser,name,width,height,fault)\n                  ^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/practice-trainer/tests/browser-trainer.py\", line 224, in all_chords\n    assert len(fingerprints) == len(candidate_ids)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/practice-trainer/tests/browser-trainer.py\", line 96, in shot\n    page.screenshot(path=str(target), full_page=True)\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py\", line 10872, in screenshot\n    self._sync(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_page.py\", line 828, in screenshot\n    encoded_binary = await self._channel.send(\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 76, in send\n    return await self._connection.wrap_api_call(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 632, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.TimeoutError: Page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n\n",
+      "url": "http://127.0.0.1:5430/practice?chord=Asus4"
+    },
+    {
+      "case": "search-filters",
+      "passed": true,
+      "details": {
+        "groups": [
+          {
+            "type": "major",
+            "ids": [
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "A",
+              "B"
+            ]
+          },
+          {
+            "type": "minor",
+            "ids": [
+              "Cm",
+              "Dm",
+              "Em",
+              "Fm",
+              "Gm",
+              "Am",
+              "Bm"
+            ]
+          },
+          {
+            "type": "dominant7",
+            "ids": [
+              "C7",
+              "D7",
+              "E7",
+              "F7",
+              "G7",
+              "A7",
+              "B7"
+            ]
+          },
+          {
+            "type": "major7",
+            "ids": [
+              "Cmaj7",
+              "Dmaj7",
+              "Emaj7",
+              "Fmaj7",
+              "Gmaj7",
+              "Amaj7",
+              "Bmaj7"
+            ]
+          },
+          {
+            "type": "minor7",
+            "ids": [
+              "Cm7",
+              "Dm7",
+              "Em7",
+              "Fm7",
+              "Gm7",
+              "Am7",
+              "Bm7"
+            ]
+          },
+          {
+            "type": "suspended",
+            "ids": [
+              "Csus2",
+              "Dsus2",
+              "Asus2",
+              "Csus4",
+              "Dsus4",
+              "Esus4",
+              "Asus4"
+            ]
+          }
+        ],
+        "caseInsensitiveName": "bm7",
+        "multiTermSearch": "minor 7th",
+        "emptyResultsKeepSelection": true
+      }
+    },
+    {
+      "case": "navigation-history-keyboard",
+      "passed": true,
+      "details": {
+        "sharedURLAndReload": "F/major",
+        "backForward": [
+          "G",
+          "F"
+        ],
+        "outsideResultNext": "Cm",
+        "wrappedPrevious": "Bm",
+        "keyboardSelectionAndFocus": [
+          "Bm",
+          "Cm",
+          "Bm"
+        ]
+      }
+    },
+    {
+      "case": "responsive-desktop",
+      "passed": true,
+      "details": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "noOverflow": true,
+        "filterAndSelectionWorking": true,
+        "controls": [
+          {
+            "element": "←คอร์ดก่อนหน้า",
+            "width": 126.796875,
+            "height": 46.890625
+          },
+          {
+            "element": "คอร์ดถัดไป→",
+            "width": 110.765625,
+            "height": 46.890625
+          },
+          {
+            "element": "practice-chord-search",
+            "width": 460,
+            "height": 48
+          },
+          {
+            "element": "all",
+            "width": 84.484375,
+            "height": 44
+          },
+          {
+            "element": "major",
+            "width": 67.78125,
+            "height": 44
+          },
+          {
+            "element": "minor",
+            "width": 68.734375,
+            "height": 44
+          },
+          {
+            "element": "dominant7",
+            "width": 84.0625,
+            "height": 44
+          },
+          {
+            "element": "major7",
+            "width": 77.8125,
+            "height": 44
+          },
+          {
+            "element": "minor7",
+            "width": 78.765625,
+            "height": 44
+          },
+          {
+            "element": "suspended",
+            "width": 85.046875,
+            "height": 44
+          }
+        ],
+        "canvasPNGBytes": 213942,
+        "paint": {
+          "colors": 6490,
+          "litColoredPixels": 5334
+        }
+      }
+    },
+    {
+      "case": "responsive-tablet-landscape",
+      "passed": true,
+      "details": {
+        "viewport": [
+          1024,
+          768
+        ],
+        "noOverflow": true,
+        "filterAndSelectionWorking": true,
+        "controls": [
+          {
+            "element": "←คอร์ดก่อนหน้า",
+            "width": 126.796875,
+            "height": 46.890625
+          },
+          {
+            "element": "คอร์ดถัดไป→",
+            "width": 110.765625,
+            "height": 46.890625
+          },
+          {
+            "element": "practice-chord-search",
+            "width": 460,
+            "height": 48
+          },
+          {
+            "element": "all",
+            "width": 84.484375,
+            "height": 44
+          },
+          {
+            "element": "major",
+            "width": 67.78125,
+            "height": 44
+          },
+          {
+            "element": "minor",
+            "width": 68.734375,
+            "height": 44
+          },
+          {
+            "element": "dominant7",
+            "width": 84.0625,
+            "height": 44
+          },
+          {
+            "element": "major7",
+            "width": 77.8125,
+            "height": 44
+          },
+          {
+            "element": "minor7",
+            "width": 78.765625,
+            "height": 44
+          },
+          {
+            "element": "suspended",
+            "width": 85.046875,
+            "height": 44
+          }
+        ],
+        "canvasPNGBytes": 120590,
+        "paint": {
+          "colors": 6362,
+          "litColoredPixels": 5442
+        }
+      }
+    },
+    {
+      "case": "responsive-tablet",
+      "passed": true,
+      "details": {
+        "viewport": [
+          768,
+          1024
+        ],
+        "noOverflow": true,
+        "filterAndSelectionWorking": true,
+        "controls": [
+          {
+            "element": "←คอร์ดก่อนหน้า",
+            "width": 126.796875,
+            "height": 46.890625
+          },
+          {
+            "element": "คอร์ดถัดไป→",
+            "width": 110.765625,
+            "height": 46.890625
+          },
+          {
+            "element": "practice-chord-search",
+            "width": 460,
+            "height": 48
+          },
+          {
+            "element": "all",
+            "width": 84.484375,
+            "height": 44
+          },
+          {
+            "element": "major",
+            "width": 67.78125,
+            "height": 44
+          },
+          {
+            "element": "minor",
+            "width": 68.734375,
+            "height": 44
+          },
+          {
+            "element": "dominant7",
+            "width": 84.0625,
+            "height": 44
+          },
+          {
+            "element": "major7",
+            "width": 77.8125,
+            "height": 44
+          },
+          {
+            "element": "minor7",
+            "width": 78.765625,
+            "height": 44
+          },
+          {
+            "element": "suspended",
+            "width": 85.046875,
+            "height": 44
+          }
+        ],
+        "canvasPNGBytes": 128609,
+        "paint": {
+          "colors": 6463,
+          "litColoredPixels": 5534
+        }
+      }
+    },
+    {
+      "case": "responsive-mobile",
+      "passed": true,
+      "details": {
+        "viewport": [
+          390,
+          844
+        ],
+        "noOverflow": true,
+        "filterAndSelectionWorking": true,
+        "controls": [
+          {
+            "element": "←คอร์ดก่อนหน้า",
+            "width": 169,
+            "height": 46.890625
+          },
+          {
+            "element": "คอร์ดถัดไป→",
+            "width": 169,
+            "height": 46.890625
+          },
+          {
+            "element": "practice-chord-search",
+            "width": 350,
+            "height": 50.796875
+          },
+          {
+            "element": "all",
+            "width": 72.28125,
+            "height": 44
+          },
+          {
+            "element": "major",
+            "width": 56.96875,
+            "height": 44
+          },
+          {
+            "element": "minor",
+            "width": 57.84375,
+            "height": 44
+          },
+          {
+            "element": "dominant7",
+            "width": 71.890625,
+            "height": 44
+          },
+          {
+            "element": "major7",
+            "width": 66.15625,
+            "height": 44
+          },
+          {
+            "element": "minor7",
+            "width": 67.03125,
+            "height": 44
+          },
+          {
+            "element": "suspended",
+            "width": 72.796875,
+            "height": 44
+          }
+        ],
+        "canvasPNGBytes": 58486,
+        "paint": {
+          "colors": 5177,
+          "litColoredPixels": 3437
+        }
+      }
+    },
+    {
+      "case": "responsive-small-mobile",
+      "passed": true,
+      "details": {
+        "viewport": [
+          320,
+          740
+        ],
+        "noOverflow": true,
+        "filterAndSelectionWorking": true,
+        "controls": [
+          {
+            "element": "←คอร์ดก่อนหน้า",
+            "width": 134,
+            "height": 46.890625
+          },
+          {
+            "element": "คอร์ดถัดไป→",
+            "width": 134,
+            "height": 46.890625
+          },
+          {
+            "element": "practice-chord-search",
+            "width": 280,
+            "height": 50.796875
+          },
+          {
+            "element": "all",
+            "width": 72.28125,
+            "height": 44
+          },
+          {
+            "element": "major",
+            "width": 56.96875,
+            "height": 44
+          },
+          {
+            "element": "minor",
+            "width": 57.84375,
+            "height": 44
+          },
+          {
+            "element": "dominant7",
+            "width": 71.890625,
+            "height": 44
+          },
+          {
+            "element": "major7",
+            "width": 66.15625,
+            "height": 44
+          },
+          {
+            "element": "minor7",
+            "width": 67.03125,
+            "height": 44
+          },
+          {
+            "element": "suspended",
+            "width": 72.796875,
+            "height": 44
+          }
+        ],
+        "canvasPNGBytes": 46791,
+        "paint": {
+          "colors": 3970,
+          "litColoredPixels": 2341
+        }
+      }
+    },
+    {
+      "case": "loading",
+      "passed": true,
+      "details": {
+        "intentionalFault": "Hold actual lazy scene/Three module request",
+        "trainerAvailableDuringLoading": true,
+        "eventualSelectedChord": "B7"
+      }
+    },
+    {
+      "case": "webgl-unavailable",
+      "passed": false,
+      "failure": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/practice-trainer/tests/browser-trainer.py\", line 596, in <module>\n    report['browserVersion'] = browser.version\n                      ^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/practice-trainer/tests/browser-trainer.py\", line 391, in unsupported\n    expect(page.locator(STATUS)).to_have_attribute('data-practice-status', 'error', timeout=30000)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py\", line 9385, in evaluate\n    self._sync(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_page.py\", line 472, in evaluate\n    return await self._main_frame.evaluate(expression, arg)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py\", line 345, in evaluate\n    await self._channel.send(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 76, in send\n    return await self._connection.wrap_api_call(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 632, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.Error: Page.evaluate: TypeError: Illegal invocation\n    at UtilityScript.evaluate (<anonymous>:318:18)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n",
+      "url": "http://127.0.0.1:5430/practice?chord=F"
+    },
+    {
+      "case": "context-loss",
+      "passed": true,
+      "details": {
+        "intentionalFault": "Actual WEBGL_lose_context extension",
+        "diagramAvailable": true,
+        "retryPreservesSelection": "Bm7"
+      }
+    },
+    {
+      "case": "module-failure",
+      "passed": true,
+      "details": {
+        "intentionalFault": "HTTP503 for actual lazy Three/scene module",
+        "blockedURLs": [
+          "http://127.0.0.1:5430/assets/practice-three-B97K45CT.js"
+        ],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:5430/assets/practice-three-B97K45CT.js",
+            "status": 503
+          },
+          {
+            "url": "http://127.0.0.1:5430/assets/practice-three-B97K45CT.js?practice-retry=1792902921970-1",
+            "status": 200
+          }
+        ],
+        "sameDocumentDistinctURLRetry": true,
+        "selectedChordPreserved": "B7"
+      }
+    },
+    {
+      "case": "touch",
+      "passed": true,
+      "details": {
+        "nativeTouchZoomButton": true,
+        "nativeCDPTwoFingerPinchChangesCameraAndPixels": true
+      }
+    },
+    {
+      "case": "lazy-routes",
+      "passed": true,
+      "details": {
+        "routes": [
+          {
+            "route": "/",
+            "sceneRequests": [],
+            "handRequests": []
+          },
+          {
+            "route": "/brands",
+            "sceneRequests": [],
+            "handRequests": []
+          },
+          {
+            "route": "/guitars",
+            "sceneRequests": [],
+            "handRequests": []
+          }
+        ]
+      }
+    },
+    {
+      "case": "spa-cleanup",
+      "passed": true,
+      "details": {
+        "cycles": [
+          {
+            "cycle": 1,
+            "selectedChord": "C7",
+            "canvasesAfterBack": 1
+          },
+          {
+            "cycle": 2,
+            "selectedChord": "C7",
+            "canvasesAfterBack": 1
+          }
+        ]
+      }
+    },
+    {
+      "case": "hand-loading",
+      "passed": true,
+      "details": {
+        "intentionalFault": "Hold the actual anatomical GLB request",
+        "diagramAndMarkersAvailable": true,
+        "selectedChordPreserved": "B7",
+        "actualHand": {
+          "handStatus": "needs-review",
+          "handAssetStatus": "ready",
+          "handVisible": "false",
+          "handModelReady": "true",
+          "handChordId": "B7",
+          "handReviewMode": "false",
+          "handPoseSignature": "dc0af881",
+          "handModelSha256": "d46b7545ccf59b8bc7166eb5ff747f682a2b1ac859fb923a9d351930db4abae8"
+        }
+      }
+    },
+    {
+      "case": "hand-failure",
+      "passed": true,
+      "details": {
+        "intentionalFault": "HTTP503 for actual anatomical GLB",
+        "requests": [
+          "http://127.0.0.1:5430/assets/makehuman-left-arm-sleeved-DK1WSRc-.glb",
+          "http://127.0.0.1:5430/assets/makehuman-left-arm-sleeved-DK1WSRc-.glb"
+        ],
+        "selectedChordPreserved": "F",
+        "sameDocumentRetry": true,
+        "actualHand": {
+          "handStatus": "needs-review",
+          "handAssetStatus": "ready",
+          "handVisible": "false",
+          "handModelReady": "true",
+          "handChordId": "F",
+          "handReviewMode": "false",
+          "handPoseSignature": "0803a230",
+          "handModelSha256": "d46b7545ccf59b8bc7166eb5ff747f682a2b1ac859fb923a9d351930db4abae8"
+        }
+      }
+    },
+    {
+      "case": "hand-review-desktop",
+      "passed": true,
+      "details": {
+        "viewport": "desktop",
+        "initialHandHidden": true,
+        "explicitReviewAndWarning": true,
+        "poses": [
+          {
+            "chord": "C",
+            "candidateAvailable": true,
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "true",
+              "handModelReady": "true",
+              "handChordId": "C",
+              "handReviewMode": "true",
+              "handPoseSignature": "5f328d85",
+              "handModelSha256": "d46b7545ccf59b8bc7166eb5ff747f682a2b1ac859fb923a9d351930db4abae8"
+            },
+            "changedWebGLPixels": 86996,
+            "angles": [
+              {
+                "preset": "angle",
+                "camera": {
+                  "position": [
+                    -3.5327131,
+                    12.0757405,
+                    3.6227222
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 12.6904485,
+                  "fov": 38,
+                  "aspect": 1.7813620071684588
+                }
+              },
+              {
+                "preset": "side",
+                "camera": {
+                  "position": [
+                    -3.279334,
+                    2.6903469,
+                    14.9463715
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 15.2335718,
+                  "fov": 38,
+                  "aspect": 1.7813620071684588
+                }
+              },
+              {
+                "preset": "back",
+                "camera": {
+                  "position": [
+                    -0.990679,
+                    -13.6618153,
+                    3.0055994
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 14.0311565,
+                  "fov": 38,
+                  "aspect": 1.7813620071684588
+                }
+              },
+              {
+                "preset": "player",
+                "camera": {
+                  "position": [
+                    2.1403204,
+                    -12.4798363,
+                    18.2397607
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 22.5005976,
+                  "fov": 38,
+                  "aspect": 1.7813620071684588
+                }
+              }
+            ],
+            "anatomicalHandApproval": false
+          },
+          {
+            "chord": "F",
+            "candidateAvailable": true,
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "true",
+              "handModelReady": "true",
+              "handChordId": "F",
+              "handReviewMode": "true",
+              "handPoseSignature": "0803a230",
+              "handModelSha256": "d46b7545ccf59b8bc7166eb5ff747f682a2b1ac859fb923a9d351930db4abae8"
+            },
+            "changedWebGLPixels": 94669,
+            "angles": [
+              {
+                "preset": "angle",
+                "camera": {
+                  "position": [
+                    -3.5327131,
+                    12.0757405,
+                    3.6227222
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 12.6904485,
+                  "fov": 38,
+                  "aspect": 1.7813620071684588
+                }
+              },
+              {
+                "preset": "side",
+                "camera": {
+                  "position": [
+                    -3.279334,
+                    2.6903469,
+                    14.9463715
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 15.2335718,
+                  "fov": 38,
+                  "aspect": 1.7813620071684588
+                }
+              },
+              {
+                "preset": "back",
+                "camera": {
+                  "position": [
+                    -0.990679,
+                    -13.6618153,
+                    3.0055994
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 14.0311565,
+                  "fov": 38,
+                  "aspect": 1.7813620071684588
+                }
+              },
+              {
+                "preset": "player",
+                "camera": {
+                  "position": [
+                    2.1403204,
+                    -12.4798363,
+                    18.2397607
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 22.5005976,
+                  "fov": 38,
+                  "aspect": 1.7813620071684588
+                }
+              }
+            ],
+            "anatomicalHandApproval": false
+          }
+        ],
+        "anatomicalHandApproval": false
+      }
+    },
+    {
+      "case": "hand-review-tablet",
+      "passed": true,
+      "details": {
+        "viewport": "tablet",
+        "initialHandHidden": true,
+        "explicitReviewAndWarning": true,
+        "poses": [
+          {
+            "chord": "C",
+            "candidateAvailable": true,
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "true",
+              "handModelReady": "true",
+              "handChordId": "C",
+              "handReviewMode": "true",
+              "handPoseSignature": "5f328d85",
+              "handModelSha256": "d46b7545ccf59b8bc7166eb5ff747f682a2b1ac859fb923a9d351930db4abae8"
+            },
+            "changedWebGLPixels": 57915,
+            "angles": [
+              {
+                "preset": "angle",
+                "camera": {
+                  "position": [
+                    -3.8254804,
+                    14.5154676,
+                    4.3546403
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 15.2543684,
+                  "fov": 38,
+                  "aspect": 1.4686192468619246
+                }
+              },
+              {
+                "preset": "side",
+                "camera": {
+                  "position": [
+                    -3.3053919,
+                    2.7489772,
+                    15.2720957
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 15.5655549,
+                  "fov": 38,
+                  "aspect": 1.4686192468619246
+                }
+              },
+              {
+                "preset": "back",
+                "camera": {
+                  "position": [
+                    -0.8096148,
+                    -15.9251174,
+                    3.5035258
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 16.355646,
+                  "fov": 38,
+                  "aspect": 1.4686192468619246
+                }
+              },
+              {
+                "preset": "player",
+                "camera": {
+                  "position": [
+                    2.1403204,
+                    -12.4798363,
+                    18.2397607
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 22.5005976,
+                  "fov": 38,
+                  "aspect": 1.4686192468619246
+                }
+              }
+            ],
+            "anatomicalHandApproval": false
+          },
+          {
+            "chord": "F",
+            "candidateAvailable": true,
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "true",
+              "handModelReady": "true",
+              "handChordId": "F",
+              "handReviewMode": "true",
+              "handPoseSignature": "0803a230",
+              "handModelSha256": "d46b7545ccf59b8bc7166eb5ff747f682a2b1ac859fb923a9d351930db4abae8"
+            },
+            "changedWebGLPixels": 61820,
+            "angles": [
+              {
+                "preset": "angle",
+                "camera": {
+                  "position": [
+                    -3.8254804,
+                    14.5154676,
+                    4.3546403
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 15.2543684,
+                  "fov": 38,
+                  "aspect": 1.4686192468619246
+                }
+              },
+              {
+                "preset": "side",
+                "camera": {
+                  "position": [
+                    -3.3053919,
+                    2.7489772,
+                    15.2720957
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 15.5655549,
+                  "fov": 38,
+                  "aspect": 1.4686192468619246
+                }
+              },
+              {
+                "preset": "back",
+                "camera": {
+                  "position": [
+                    -0.8096148,
+                    -15.9251174,
+                    3.5035258
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 16.355646,
+                  "fov": 38,
+                  "aspect": 1.4686192468619246
+                }
+              },
+              {
+                "preset": "player",
+                "camera": {
+                  "position": [
+                    2.1403204,
+                    -12.4798363,
+                    18.2397607
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 22.5005976,
+                  "fov": 38,
+                  "aspect": 1.4686192468619246
+                }
+              }
+            ],
+            "anatomicalHandApproval": false
+          }
+        ],
+        "anatomicalHandApproval": false
+      }
+    },
+    {
+      "case": "hand-review-mobile",
+      "passed": true,
+      "details": {
+        "viewport": "mobile",
+        "initialHandHidden": true,
+        "explicitReviewAndWarning": true,
+        "poses": [
+          {
+            "chord": "C",
+            "candidateAvailable": true,
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "true",
+              "handModelReady": "true",
+              "handChordId": "C",
+              "handReviewMode": "true",
+              "handPoseSignature": "5f328d85",
+              "handModelSha256": "d46b7545ccf59b8bc7166eb5ff747f682a2b1ac859fb923a9d351930db4abae8"
+            },
+            "changedWebGLPixels": 29398,
+            "angles": [
+              {
+                "preset": "angle",
+                "camera": {
+                  "position": [
+                    -5.0995656,
+                    25.1328449,
+                    7.5398535
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 26.4122166,
+                  "fov": 38,
+                  "aspect": 0.8325358851674641
+                }
+              },
+              {
+                "preset": "side",
+                "camera": {
+                  "position": [
+                    -4.2072767,
+                    4.7782181,
+                    26.5456563
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 27.0557413,
+                  "fov": 38,
+                  "aspect": 0.8325358851674641
+                }
+              },
+              {
+                "preset": "back",
+                "camera": {
+                  "position": [
+                    0.0427904,
+                    -26.580183,
+                    5.8476403
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 27.2987667,
+                  "fov": 38,
+                  "aspect": 0.8325358851674641
+                }
+              },
+              {
+                "preset": "player",
+                "camera": {
+                  "position": [
+                    2.1403204,
+                    -12.4798363,
+                    18.2397607
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 22.5005976,
+                  "fov": 38,
+                  "aspect": 0.8325358851674641
+                }
+              }
+            ],
+            "anatomicalHandApproval": false
+          },
+          {
+            "chord": "F",
+            "candidateAvailable": true,
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "true",
+              "handModelReady": "true",
+              "handChordId": "F",
+              "handReviewMode": "true",
+              "handPoseSignature": "0803a230",
+              "handModelSha256": "d46b7545ccf59b8bc7166eb5ff747f682a2b1ac859fb923a9d351930db4abae8"
+            },
+            "changedWebGLPixels": 30408,
+            "angles": [
+              {
+                "preset": "angle",
+                "camera": {
+                  "position": [
+                    -5.0995656,
+                    25.1328449,
+                    7.5398535
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 26.4122166,
+                  "fov": 38,
+                  "aspect": 0.8325358851674641
+                }
+              },
+              {
+                "preset": "side",
+                "camera": {
+                  "position": [
+                    -4.2072767,
+                    4.7782181,
+                    26.5456563
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 27.0557413,
+                  "fov": 38,
+                  "aspect": 0.8325358851674641
+                }
+              },
+              {
+                "preset": "back",
+                "camera": {
+                  "position": [
+                    0.0427904,
+                    -26.580183,
+                    5.8476403
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 27.2987667,
+                  "fov": 38,
+                  "aspect": 0.8325358851674641
+                }
+              },
+              {
+                "preset": "player",
+                "camera": {
+                  "position": [
+                    2.1403204,
+                    -12.4798363,
+                    18.2397607
+                  ],
+                  "target": [
+                    -2.0836242,
+                    0,
+                    0
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 22.5005976,
+                  "fov": 38,
+                  "aspect": 0.8325358851674641
+                }
+              }
+            ],
+            "anatomicalHandApproval": false
+          }
+        ],
+        "anatomicalHandApproval": false
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "badResponses": [],
+  "warnings": [
+    {
+      "case": "context-loss",
+      "text": "THREE.WebGLRenderer: WEBGL_lose_context extension not supported."
+    }
+  ],
+  "expectedFaultErrors": [
+    {
+      "case": "module-failure",
+      "url": "http://127.0.0.1:5430/assets/practice-three-B97K45CT.js",
+      "status": 503
+    },
+    {
+      "case": "module-failure",
+      "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+      "location": {
+        "url": "http://127.0.0.1:5430/assets/practice-three-B97K45CT.js",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "module-failure",
+      "url": "http://127.0.0.1:5430/assets/practice-three-B97K45CT.js",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "case": "hand-failure",
+      "url": "http://127.0.0.1:5430/assets/makehuman-left-arm-sleeved-DK1WSRc-.glb",
+      "status": 503
+    },
+    {
+      "case": "hand-failure",
+      "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+      "location": {
+        "url": "http://127.0.0.1:5430/assets/makehuman-left-arm-sleeved-DK1WSRc-.glb",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "hand-failure",
+      "url": "http://127.0.0.1:5430/assets/makehuman-left-arm-sleeved-DK1WSRc-.glb",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "case": "hand-failure",
+      "url": "http://127.0.0.1:5430/assets/makehuman-left-arm.metadata-CWEBf3Jj.json",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "case": "hand-failure",
+      "url": "http://127.0.0.1:5430/assets/hand-poses-BdJCp7QC.json",
+      "failure": "net::ERR_ABORTED"
+    }
+  ],
+  "screenshots": [
+    "failure-all-42-diagrams.png",
+    "desktop-canvas.png",
+    "desktop-page.png",
+    "desktop-filtered.png",
+    "tablet-landscape-canvas.png",
+    "tablet-landscape-page.png",
+    "tablet-landscape-filtered.png",
+    "tablet-canvas.png",
+    "tablet-page.png",
+    "tablet-filtered.png",
+    "mobile-canvas.png",
+    "mobile-page.png",
+    "mobile-filtered.png",
+    "small-mobile-canvas.png",
+    "small-mobile-page.png",
+    "small-mobile-filtered.png",
+    "intentional-scene-loading.png",
+    "intentional-webgl-unavailable.png",
+    "failure-webgl-unavailable.png",
+    "intentional-context-loss.png",
+    "intentional-module-503.png",
+    "intentional-hand-loading.png",
+    "intentional-hand-503.png",
+    "UNAPPROVED-prototype-desktop-C-angle.png",
+    "UNAPPROVED-prototype-desktop-C-side.png",
+    "UNAPPROVED-prototype-desktop-C-back.png",
+    "UNAPPROVED-prototype-desktop-C-player.png",
+    "UNAPPROVED-prototype-desktop-C-warning.png",
+    "UNAPPROVED-prototype-desktop-F-angle.png",
+    "UNAPPROVED-prototype-desktop-F-side.png",
+    "UNAPPROVED-prototype-desktop-F-back.png",
+    "UNAPPROVED-prototype-desktop-F-player.png",
+    "UNAPPROVED-prototype-desktop-F-warning.png",
+    "UNAPPROVED-prototype-tablet-C-angle.png",
+    "UNAPPROVED-prototype-tablet-C-side.png",
+    "UNAPPROVED-prototype-tablet-C-back.png",
+    "UNAPPROVED-prototype-tablet-C-player.png",
+    "UNAPPROVED-prototype-tablet-C-warning.png",
+    "UNAPPROVED-prototype-tablet-F-angle.png",
+    "UNAPPROVED-prototype-tablet-F-side.png",
+    "UNAPPROVED-prototype-tablet-F-back.png",
+    "UNAPPROVED-prototype-tablet-F-player.png",
+    "UNAPPROVED-prototype-tablet-F-warning.png",
+    "UNAPPROVED-prototype-mobile-C-angle.png",
+    "UNAPPROVED-prototype-mobile-C-side.png",
+    "UNAPPROVED-prototype-mobile-C-back.png",
+    "UNAPPROVED-prototype-mobile-C-player.png",
+    "UNAPPROVED-prototype-mobile-C-warning.png",
+    "UNAPPROVED-prototype-mobile-F-angle.png",
+    "UNAPPROVED-prototype-mobile-F-side.png",
+    "UNAPPROVED-prototype-mobile-F-back.png",
+    "UNAPPROVED-prototype-mobile-F-player.png",
+    "UNAPPROVED-prototype-mobile-F-warning.png"
+  ],
+  "sourceDataSHA256": "3ed5a0582ed988b058ddbef88a6fad125a0a4d6a9d7c19d676d4b8dd85e2b0c2",
+  "limitations": [
+    "Actual Linux Chromium/WebKit engines, not physical iPadOS Safari.",
+    "Chromium uses real SwiftShader software WebGL2.",
+    "Structural musical/diagram approval does not establish anatomical hand contact, anatomy or visual fidelity."
+  ],
+  "browserVersion": "154.0.8037.57",
+  "passed": false
+}

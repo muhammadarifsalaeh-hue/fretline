@@ -1,0 +1,29 @@
+{
+  "scope": "Experimental forearm/root and counter-wrist transform. No teaching/anatomical approval.",
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "candidateFile": "docs/practice-trainer/pose-solver/C-arm-variant.json",
+  "candidateSha256": "3eb34d7807d30e620d70d0af91baaddce863bde753f6e8557cdc3af7fb9a98ed",
+  "reproductionScript": "docs/practice-trainer/pose-solver/reframe_c_forearm.py",
+  "checks": {
+    "skinNonadjacentCrossings": 0,
+    "combinedSkinSleeveNonadjacentCrossings": 0,
+    "combinedSkinSleeveCoplanarOverlaps": 0,
+    "combinedActualGuitarCrossings": 0,
+    "combinedActualGuitarCoplanarOverlaps": 0
+  },
+  "limitations": [
+    "Finite genuine forearm remains visibly cropped from some freely rotated views.",
+    "Counter-wrist rotation is an authored +25 degree feasibility adjustment; it has not received anatomical lesson approval.",
+    "Every hand vertex without forearm skin influence is preserved within 0.0000072 mm; vertices in the real wrist/forearm transition deform."
+  ],
+  "forearmFeasibility": {
+    "method": "Rotate forearm/root world-X by +25 degrees; counter-rotate wrist local quaternion; preserve wrist anchor and every descendant joint world transform. Source arm mesh/weights unchanged.",
+    "sourcePoseSha256": "63cf53b9fa94d89ab10af2bb64934acfc46c0c26d5ae8c5fee570e94ffd49188",
+    "wristCounterAngleDegrees": 25,
+    "maxHandWorldMatrixDifference": 4.966070854539595e-08,
+    "maxHandJointPositionDifferenceMm": 6.814176040973706e-06,
+    "comparisonScope": "all wrist/metacarpal/finger bones; skin vertices weighted partly to forearm may move at wrist transition",
+    "maxSkinDifferenceMmExcludingForearmWeightedTransition": 7.1542040318889144e-06,
+    "maxWholeSkinDifferenceMm": 111.38957762828504
+  }
+}

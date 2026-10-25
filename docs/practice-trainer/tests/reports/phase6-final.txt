@@ -1,0 +1,39 @@
+
+> fretline@0.1.0 phase6:check
+> node scripts/check-phase6.mjs
+
+WebSocket server error:
+Error: listen EPERM: operation not permitted 0.0.0.0:24678
+    at Server.setupListenHandle [as _listen2] (node:net:2145:21)
+    at listenInCluster (node:net:2224:12)
+    at Server.listen (node:net:2344:7)
+    at Object.listen (file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:59516:21)
+    at file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64101:45
+    at Array.forEach (<anonymous>)
+    at Object.listen (file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64101:16)
+    at _createServer (file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:63423:11)
+    at async file:///workspace/fretline/scripts/check-phase6.mjs:12:16
+PASS all original IDs remain resolvable; retained catalog order survives approved archival
+PASS no duplicate IDs or normalized brand/model pairs
+PASS every effective record passes catalog validation
+PASS all records remain partial; none silently becomes verified
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+34000 !== null
+
+    at file:///workspace/fretline/scripts/check-phase6.mjs:35:39
+    at check (file:///workspace/fretline/scripts/check-phase6.mjs:11:31)
+    at file:///workspace/fretline/scripts/check-phase6.mjs:34:3 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 34000,
+  expected: null,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

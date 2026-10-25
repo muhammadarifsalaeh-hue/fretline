@@ -1,0 +1,51 @@
+{
+  "reviewDateUtc": "2026-10-25",
+  "reviewer": "Independent implementation agent complete_asset; actual rendered image inspection",
+  "candidateFile": "docs/practice-trainer/pose-solver/C-arm-variant.json",
+  "candidateSha256": "3eb34d7807d30e620d70d0af91baaddce863bde753f6e8557cdc3af7fb9a98ed",
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "views": {
+    "angle": {
+      "file": "docs/practice-trainer/visual-review/C-arm-angle.png",
+      "sha256": "5c7af9588450f4c4d0e94806ebef4a9a17e9c16a7a33a5442b2f43991ab2bf63"
+    },
+    "side": {
+      "file": "docs/practice-trainer/visual-review/C-arm-side.png",
+      "sha256": "13789bb09b01c3f9bad843af34d30ab45474dc379434fee60b80bcc1aa1bc774"
+    },
+    "back": {
+      "file": "docs/practice-trainer/visual-review/C-arm-back.png",
+      "sha256": "3aa0ccb10d6ab9b23dcbd2f673016640157a74767eadcc782f57994c4a631b3d"
+    },
+    "player": {
+      "file": "docs/practice-trainer/visual-review/C-arm-player.png",
+      "sha256": "4213c0d3acdf511d3dde1e64f972a1aeb19412ccedd6e1e8f50b594c0144201c"
+    }
+  },
+  "captureContext": "Actual Three.js/WebGL Chromium rendering of the existing model on the Practice development route. Candidate C was substituted only in the pose-library network response; model and pose were not replaced by a photograph.",
+  "decision": {
+    "anatomicalPlausibilityPassed": true,
+    "multiViewVisualInspectionPassed": true,
+    "photorealisticProductionPresentationPassed": false,
+    "scope": "C Major candidate only. Anatomical visual plausibility is separate from numerical contact/collision approval, realistic texture fidelity and physical iPad Safari approval.",
+    "strictAnatomyAndReferenceAcceptancePassed": false,
+    "teachingPoseApproved": false,
+    "finalProjectStatus": "needs-review",
+    "finalReviewReason": "Local wrist/digit plausibility and zero collision do not establish the full reference requirement. An independent C-pose review still flags an elongated hand silhouette and exposed finite forearm crop that can appear to float."
+  },
+  "observations": [
+    "Five distinct human digits with jointed, curved finger shapes are visible across the four views. No detached wrist, gross folded skin, duplicate digit or obvious self-crossing is visible.",
+    "The thumb remains behind the wooden neck in the rear view; it does not cross over the fingerboard.",
+    "The hand, wrist and genuine continuous forearm remain connected; the charcoal garment is a continuous cloth panel over the forearm.",
+    "The +25 degree forearm direction change and compensating wrist rotation look plausible in these views. No gross wrist pinch is visible.",
+    "Default camera places the headstock upper right and shows the fingerboard. The low-E/top order is checked separately by the camera tests.",
+    "The fret-contact finger arrangement is unchanged from the contact-refined candidate within 0.0000072 mm for vertices without forearm influence. Precise string clearance is supported by the separate geometric audits, not inferred from pixels."
+  ],
+  "limitations": [
+    "The final conservative project decision keeps C needs-review: the silhouette is still elongated relative to the supplied reference and the finite arm end remains visible. This independent local-plausibility review must not be used alone to promote the runtime teaching pose.",
+    "The original finite forearm crop remains visible from Side/Player views. It is not a completed elbow/torso or a full photorealistic musician.",
+    "The default hand is still smaller and less photographic than the supplied reference; broad lighting and absent skin normal detail reduce realism.",
+    "These rendered frames do not replace the exact triangle contact/collision audit. They do not certify the other 41 chord poses.",
+    "Linux Chromium inspection does not establish approval on physical iPad Safari."
+  ]
+}

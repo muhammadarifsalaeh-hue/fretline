@@ -1,0 +1,38 @@
+[
+  {
+    "phase": 5,
+    "command": "npm run phase5:check",
+    "exitCode": 1,
+    "durationSeconds": 3.779,
+    "log": "phase5-baseline-b21bd6a.txt"
+  },
+  {
+    "phase": 6,
+    "command": "npm run phase6:check",
+    "exitCode": 1,
+    "durationSeconds": 3.589,
+    "log": "phase6-baseline-b21bd6a.txt"
+  },
+  {
+    "phase": 7,
+    "command": "npm run phase7:check",
+    "exitCode": 1,
+    "durationSeconds": 4.206,
+    "log": "phase7-baseline-b21bd6a.txt"
+  },
+  {
+    "phase": 8,
+    "command": "npm run phase8:check",
+    "exitCode": 1,
+    "durationSeconds": 1.222,
+    "log": "phase8-baseline-b21bd6a.txt"
+  },
+  {
+    "phase": 9,
+    "command": "npm run phase9:check",
+    "exitCode": 1,
+    "durationSeconds": 1.172,
+    "log": "phase9-baseline-b21bd6a.txt",
+    "capture": "direct file redirection; avoids Node uncaught-exception pipe truncation"
+  }
+]

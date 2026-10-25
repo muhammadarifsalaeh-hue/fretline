@@ -1,0 +1,659 @@
+{
+  "reason": "Only redundant PNGs from this task interim QA runs were archived outside Git; failure JSON/logs and complete canonical final screenshots remain in the repository.",
+  "files": [
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-desktop-C-side.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-desktop-C-side.png",
+      "bytes": 199198,
+      "sha256": "998ef3b2c2810fcd2fa000ec2aa1bacb618b961d24866bae386b1c8534d7cd0e"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-tablet-F-side.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-tablet-F-side.png",
+      "bytes": 130515,
+      "sha256": "112f13973ec15efc47f91924537c4f5e24603dc95ff8d60dfdfa819019c04455"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-tablet-C-player.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-tablet-C-player.png",
+      "bytes": 131708,
+      "sha256": "f564dee2df45af26663ba6959a782ab558438c721a1c77075ab2ba8f73538b2a"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/small-mobile-canvas.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/small-mobile-canvas.png",
+      "bytes": 46791,
+      "sha256": "65bf0e163d0022858d1f11d0706f62ac592bbb6becb221bab92379a152531154"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/tablet-landscape-page.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/tablet-landscape-page.png",
+      "bytes": 813535,
+      "sha256": "c34d4cd9764e10af577ee95bb6da3b4c6b4549e2688dc326ac7cafab697ab650"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-mobile-F-side.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-mobile-F-side.png",
+      "bytes": 61036,
+      "sha256": "7279f499f18f001deac3e1461b630799d621b6b43ffc795cf92c6b16051b8fa8"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/mobile-filtered.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/mobile-filtered.png",
+      "bytes": 405785,
+      "sha256": "72787c4019d5a90739a74a502905fdd28d59f8b56f8d7345007467cc6b4a89db"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/small-mobile-filtered.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/small-mobile-filtered.png",
+      "bytes": 359833,
+      "sha256": "77755f6e5c80aa60dfe4ed8a0ae03cd457f03b29dae350698385d3979ab68eab"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/desktop-filtered.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/desktop-filtered.png",
+      "bytes": 720779,
+      "sha256": "61695cb43e31815420aba8d3549b8a3d155816529ba74b5c20b00695433cb890"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-tablet-F-player.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-tablet-F-player.png",
+      "bytes": 137209,
+      "sha256": "d0a35d5395db5e0772fad31f068cd45beb48733c96b81707c514ee491bd62c5a"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-desktop-C-player.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-desktop-C-player.png",
+      "bytes": 182845,
+      "sha256": "69e31833847c54f0acfb6452110e104affacf94681df6dbe126f17346766fec5"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/small-mobile-page.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/small-mobile-page.png",
+      "bytes": 479473,
+      "sha256": "f90201efe49b4861a821e8d9f42cca9b551f8b003750d5666e0a97aa9c837217"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/tablet-canvas.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/tablet-canvas.png",
+      "bytes": 128609,
+      "sha256": "80332b70fab72c5acd652ba51f33374c198ae98b1eeb3cfe06cd51854c17590e"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-mobile-C-side.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-mobile-C-side.png",
+      "bytes": 63976,
+      "sha256": "d30513dfbe1e4f68194ffa647f59a58dfabb2b4f4ce78f461c155db198ac9609"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/failure-all-42-diagrams.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/failure-all-42-diagrams.png",
+      "bytes": 513670,
+      "sha256": "ecc1438f5f1ffe1e676170bdb4eecfd1ebe2ebe88cd95ef21d68e6a52e5e3f8a"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-mobile-C-back.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-mobile-C-back.png",
+      "bytes": 70584,
+      "sha256": "71fbc6306ac61a7b468eb3319132dc743e7d8a8ba9d7de0802f9a99e9316eff7"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/intentional-hand-loading.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/intentional-hand-loading.png",
+      "bytes": 830277,
+      "sha256": "7031eacc1436f0b3b7818d73170a8d92add16b6b408bd1d209ec554e15eafcf8"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-tablet-F-angle.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-tablet-F-angle.png",
+      "bytes": 147185,
+      "sha256": "96cb16cf629ad689e89854f02643f146dfd83282387697991f1b1c5923e33293"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/intentional-webgl-unavailable.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/intentional-webgl-unavailable.png",
+      "bytes": 550109,
+      "sha256": "5aa79f289c0b2f54c8c6fb42666d068ac72d7c34b5206a119c7ce30d7aa5af92"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/mobile-canvas.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/mobile-canvas.png",
+      "bytes": 58486,
+      "sha256": "afc2c03be74e11e5b1a6341ebade0eae02d3a08598726ac929fd483e324d66ff"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-mobile-F-player.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-mobile-F-player.png",
+      "bytes": 77907,
+      "sha256": "b98b2b96c86b411a8f41e3e72ab970fa0ece144e978c4cc893bfbccbd9dd2d08"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-mobile-F-angle.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-mobile-F-angle.png",
+      "bytes": 65583,
+      "sha256": "9de18609d67d150ceb3ec572c01ce8ff3f2a71053e41e79f7f0d8c23444e5e18"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-tablet-C-warning.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-tablet-C-warning.png",
+      "bytes": 131816,
+      "sha256": "3c5ae3b26b714953fd51a62e8f9b57809507ebc360c6910498a8aac21e088b53"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-mobile-C-warning.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-mobile-C-warning.png",
+      "bytes": 77205,
+      "sha256": "9555fbcf8be81a48e4dad380839499e54e67f31f9ab3a9a595aedd72608d79cb"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-tablet-F-warning.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-tablet-F-warning.png",
+      "bytes": 137317,
+      "sha256": "b4222407c259453aaf42aa17bb809b1cc02f305823b251701eb344800a99ee7b"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/tablet-landscape-filtered.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/tablet-landscape-filtered.png",
+      "bytes": 592514,
+      "sha256": "d102b55627a786d0a97c0a70dd9beae860dee8529594cfb98fb1ddd534acf255"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-tablet-F-back.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-tablet-F-back.png",
+      "bytes": 139885,
+      "sha256": "68548ba715342d0f96b46ea4bf496af3213c911231e42f7b564fa0266db3797b"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/failure-webgl-unavailable.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/failure-webgl-unavailable.png",
+      "bytes": 550109,
+      "sha256": "5aa79f289c0b2f54c8c6fb42666d068ac72d7c34b5206a119c7ce30d7aa5af92"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-mobile-F-back.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-mobile-F-back.png",
+      "bytes": 69702,
+      "sha256": "461fb7cc062d7f430a2ede3c09bbe79aaeaab324b48a6c80c68e819a790bd06c"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-mobile-F-warning.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-mobile-F-warning.png",
+      "bytes": 78010,
+      "sha256": "81d6015f711da51e289a721b28593df6229fbb0f04378b0eebfc50a2c182bcb2"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-mobile-C-player.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-mobile-C-player.png",
+      "bytes": 77116,
+      "sha256": "23c596359e7bc381f568d6b6df33533ee72fbd917774d7e608ff7177735c9642"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/intentional-hand-503.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/intentional-hand-503.png",
+      "bytes": 845549,
+      "sha256": "84d336eab034ae5fa5de80e6dda50b94b1f5eabff6f0f79ed4e60d8ff3c1378a"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-desktop-C-back.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-desktop-C-back.png",
+      "bytes": 213731,
+      "sha256": "e0f7118a873618ec3a54629bb8fc8f3c9fb9a5a59af0be83dfc40e40cc48e540"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/intentional-context-loss.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/intentional-context-loss.png",
+      "bytes": 695927,
+      "sha256": "9cdceea5c462858008b5445c9a60819ec03c07e9dba07fadb2b38e50d0ded5e6"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-desktop-C-angle.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-desktop-C-angle.png",
+      "bytes": 235078,
+      "sha256": "441b3f7e8ca024045221ed91db3ff018dbf53b11036cb05aee38f1f3f8856b19"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-desktop-F-warning.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-desktop-F-warning.png",
+      "bytes": 190534,
+      "sha256": "56b87cdfcc7fdca7eda8fdaf264ac1fc4fbb2f31ed87c6299a6ca6b6c6ef94cf"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-tablet-C-back.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-tablet-C-back.png",
+      "bytes": 144783,
+      "sha256": "d31e56efb0dc5c8a2e23e15c6263c9a224ba20b398ea6b26a889e19e11726023"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/tablet-page.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/tablet-page.png",
+      "bytes": 823889,
+      "sha256": "b9c0a68caf9ad62e34b1309e87e49be8ba1706bb7605cd7c88b353e3671a80f0"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-desktop-F-side.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-desktop-F-side.png",
+      "bytes": 181748,
+      "sha256": "e178c619846a0ae30cf304d2e070649c8e7ee625263ed94a8e7c4aed2ada6ddc"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-desktop-F-player.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-desktop-F-player.png",
+      "bytes": 190417,
+      "sha256": "467de2aa369b6a082d9207f41cba30902bb50d9ad2b7c546dec9a332264d20f0"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-desktop-F-angle.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-desktop-F-angle.png",
+      "bytes": 231379,
+      "sha256": "9246f0a17be9de349e15eabaf069ce9e0a2c0807132ed428adf90f3fc5a5e06c"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-tablet-C-side.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-tablet-C-side.png",
+      "bytes": 140381,
+      "sha256": "f78c14517c0d5b5920eded510e2830ca2ed8ae576b7ac95e38ae9cff398635de"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-desktop-F-back.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-desktop-F-back.png",
+      "bytes": 204931,
+      "sha256": "a3a7fe74bad3e8639e69efab23dea8b42645eb292783b466248b98687443bdf0"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-desktop-C-warning.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-desktop-C-warning.png",
+      "bytes": 182966,
+      "sha256": "75ed260851eecbd0fe6ac4a54bf92a4acdbb613c9a7099fed5f0099280beef88"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-tablet-C-angle.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-tablet-C-angle.png",
+      "bytes": 148431,
+      "sha256": "b6cd02903f7b594b2b672f3e07b3b337c47b2f1a93de178b6832bc1da0edc685"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/mobile-page.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/mobile-page.png",
+      "bytes": 615283,
+      "sha256": "080afebf3ba6c01c6e0ef9eb68b5d88b4ba3886017b11d80008f7dcbf97d6033"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/desktop-canvas.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/desktop-canvas.png",
+      "bytes": 213942,
+      "sha256": "0876d7ce5bb9dc90b202359ba7b130001ccc359260310c1973285a510d26b7bb"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/tablet-landscape-canvas.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/tablet-landscape-canvas.png",
+      "bytes": 120590,
+      "sha256": "783d38c2311ac79eee61f83b13e990bee4535072bcb077e597114dd4aa277806"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/UNAPPROVED-prototype-mobile-C-angle.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/UNAPPROVED-prototype-mobile-C-angle.png",
+      "bytes": 65992,
+      "sha256": "dcc83ecadcdea1acc388df9e84fc71b209e939f704dedacf4bd9e4ecf72e50ff"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/desktop-page.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/desktop-page.png",
+      "bytes": 919495,
+      "sha256": "7267950cdae9cc69d192f335f9fa443e251856e963045f6693fc9706eb28c1c6"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/tablet-filtered.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/tablet-filtered.png",
+      "bytes": 588146,
+      "sha256": "0347c5814d45518fd0f5e712087a4673056bd0bc0e2db2791cb9a92d14d04fb4"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/intentional-module-503.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/intentional-module-503.png",
+      "bytes": 679706,
+      "sha256": "4c943c592a379de4f5ffeda93aa51d17a9d055e20e011207b0092a0d1280ecaf"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium/intentional-scene-loading.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium/intentional-scene-loading.png",
+      "bytes": 668805,
+      "sha256": "7fbcdfa615fcd6f174750693f8296895e53de1b5087ab551615159d8696ac157"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-desktop-C-side.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-desktop-C-side.png",
+      "bytes": 199583,
+      "sha256": "db6f3cab270b968565abd3a1b637f2cd7c675f88ce9540370d224691201dd8e5"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-tablet-F-side.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-tablet-F-side.png",
+      "bytes": 130513,
+      "sha256": "1777c84d091a78958600dc68ea005380371302c1a75ad82b9c605a67687b4334"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-tablet-C-player.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-tablet-C-player.png",
+      "bytes": 131662,
+      "sha256": "2280f6ec7859d5e4a8dacc07aadf4cfbad28b59bfdb8e9d69b034f176f9fc250"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/all-42-library.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/all-42-library.png",
+      "bytes": 924462,
+      "sha256": "8c451e894dda6ceba1a8b93f1c1d7bf37a765b480b679b6b2852d8b30eaeb0d5"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/small-mobile-canvas.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/small-mobile-canvas.png",
+      "bytes": 46791,
+      "sha256": "65bf0e163d0022858d1f11d0706f62ac592bbb6becb221bab92379a152531154"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/tablet-landscape-page.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/tablet-landscape-page.png",
+      "bytes": 818638,
+      "sha256": "5713860db14de38e72039c12ba52e39d3d63fc3b84cc507767071d4f81c99e87"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-mobile-F-side.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-mobile-F-side.png",
+      "bytes": 61036,
+      "sha256": "76e45f50b9f4e850cee726bb29a2b3460fa3a3daf50ffbdeca06cc5619e70ffb"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/mobile-filtered.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/mobile-filtered.png",
+      "bytes": 411303,
+      "sha256": "4edc95d23c47f07c2d86142e6ab3fbd8570e3a03cfebbbaf4dbebaa26d24c98f"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/small-mobile-filtered.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/small-mobile-filtered.png",
+      "bytes": 364648,
+      "sha256": "67e4b0839e6de6dd02cdebddc1b29920e6cb55fb2453d0123a3bd5a7d9450d1a"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/desktop-filtered.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/desktop-filtered.png",
+      "bytes": 722611,
+      "sha256": "02fd782348f9f2300e7680c4c31d4e83709a0f1296f043758a00c32853729151"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-tablet-F-player.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-tablet-F-player.png",
+      "bytes": 137209,
+      "sha256": "d0a35d5395db5e0772fad31f068cd45beb48733c96b81707c514ee491bd62c5a"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-desktop-C-player.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-desktop-C-player.png",
+      "bytes": 182719,
+      "sha256": "61d1c50015ef84e599218e9c576f2815d7ed75ba66ae47c7de91fe0bb2340851"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/small-mobile-page.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/small-mobile-page.png",
+      "bytes": 485461,
+      "sha256": "4efbd053169a6f6100c3ffd7e0d3b4a150432d46e93ad08dcac34b7537e9071a"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/tablet-canvas.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/tablet-canvas.png",
+      "bytes": 128609,
+      "sha256": "80332b70fab72c5acd652ba51f33374c198ae98b1eeb3cfe06cd51854c17590e"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-mobile-C-side.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-mobile-C-side.png",
+      "bytes": 64020,
+      "sha256": "807153b534b5b9a0a01c50ae39c106d8368b68b050dc30695acf891309784655"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-mobile-C-back.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-mobile-C-back.png",
+      "bytes": 70613,
+      "sha256": "38f56d303aae90b1dc5a53db3868ca11399a84309b46bcdda918861d0e3fdf71"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/intentional-hand-loading.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/intentional-hand-loading.png",
+      "bytes": 834937,
+      "sha256": "0049e0f6943fd77bdf4e0ef9895754214f5ac289be899c2bf098f7380b7649cd"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-tablet-F-angle.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-tablet-F-angle.png",
+      "bytes": 146866,
+      "sha256": "d4a37959cf068db937a990c2b9508b0be08ce152471df0295b24b959710f807d"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/intentional-webgl-unavailable.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/intentional-webgl-unavailable.png",
+      "bytes": 556065,
+      "sha256": "92da0db2605180ca9e22b0a32c96736bc0e54e3f7f25c68c15a848eaddeb0895"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/mobile-canvas.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/mobile-canvas.png",
+      "bytes": 58486,
+      "sha256": "afc2c03be74e11e5b1a6341ebade0eae02d3a08598726ac929fd483e324d66ff"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-mobile-F-player.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-mobile-F-player.png",
+      "bytes": 77902,
+      "sha256": "aeb354ee15a5f150fb806b9655bdd407016d0835ad8e3224cc868c781b3582b1"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-mobile-F-angle.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-mobile-F-angle.png",
+      "bytes": 65487,
+      "sha256": "54849f43a2d8b4df0010f2c7a7e38df3f35c0e8125dad15276ed3c63379a8799"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-tablet-C-warning.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-tablet-C-warning.png",
+      "bytes": 131770,
+      "sha256": "943ecca7eeaac9f47cf955008fd81a0359d9de25474eb5c44535e6ba7fdf077e"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-mobile-C-warning.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-mobile-C-warning.png",
+      "bytes": 77177,
+      "sha256": "9d3de279489be400c0a7d6e5d58643ca92270fdda0653f3daa723eadfa5cadc4"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-tablet-F-warning.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-tablet-F-warning.png",
+      "bytes": 137317,
+      "sha256": "b4222407c259453aaf42aa17bb809b1cc02f305823b251701eb344800a99ee7b"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/tablet-landscape-filtered.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/tablet-landscape-filtered.png",
+      "bytes": 598857,
+      "sha256": "e1b8d034ea45215ee1240deeee0cbe5ac68820054e6d8d64b2390fd3c569d641"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-tablet-F-back.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-tablet-F-back.png",
+      "bytes": 139885,
+      "sha256": "68548ba715342d0f96b46ea4bf496af3213c911231e42f7b564fa0266db3797b"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/failure-webgl-unavailable.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/failure-webgl-unavailable.png",
+      "bytes": 556065,
+      "sha256": "92da0db2605180ca9e22b0a32c96736bc0e54e3f7f25c68c15a848eaddeb0895"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-mobile-F-back.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-mobile-F-back.png",
+      "bytes": 69702,
+      "sha256": "461fb7cc062d7f430a2ede3c09bbe79aaeaab324b48a6c80c68e819a790bd06c"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-mobile-F-warning.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-mobile-F-warning.png",
+      "bytes": 78005,
+      "sha256": "5c8dc4a35ab4517eff409a97cb3295d1d4602fcc02e2ad3aca63d043ba961424"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-mobile-C-player.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-mobile-C-player.png",
+      "bytes": 77088,
+      "sha256": "4f77f9056c263e9a55bc7a7fbcf7b431f6f69602079a80fa6c3c00a23f829f4e"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/intentional-hand-503.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/intentional-hand-503.png",
+      "bytes": 852300,
+      "sha256": "8632e0c9c32dcab674fe2938d9c0eba556fdca84e3cd5f4e4bc6b18726072506"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-desktop-C-back.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-desktop-C-back.png",
+      "bytes": 213357,
+      "sha256": "e7b837c202b1b99d598e3cc052de0024544638f4ad9a01972efd5ef21e13aa13"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/intentional-context-loss.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/intentional-context-loss.png",
+      "bytes": 700147,
+      "sha256": "d3e56b2b625f2c1df17f53ae012e1588c544866e282c9bf39a6edc9ef0b81046"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-desktop-C-angle.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-desktop-C-angle.png",
+      "bytes": 235076,
+      "sha256": "a3cf38d1f58cefb96310a7153bc20d8a6a95c3a2da58a4e16fefdb6cbf12bf08"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-desktop-F-warning.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-desktop-F-warning.png",
+      "bytes": 190532,
+      "sha256": "c6e0244760eebddfe64a5e4beaee0460317413a7af5c2d56078a4aa3514928a7"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-tablet-C-back.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-tablet-C-back.png",
+      "bytes": 144523,
+      "sha256": "c0ca202ad20830693ad2443ddad3c0acc31d12c918b548275be3084902d19e08"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/tablet-page.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/tablet-page.png",
+      "bytes": 828551,
+      "sha256": "c6fb7659d4c82b117cec20123fe2570906b3848de2f787eab5a43575b2abae67"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-desktop-F-side.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-desktop-F-side.png",
+      "bytes": 181747,
+      "sha256": "bc7737c4d00333a2aa09b522e2c4dbf8384dde0f9b8e73ac3bf04cb6b97bf992"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-desktop-F-player.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-desktop-F-player.png",
+      "bytes": 190415,
+      "sha256": "cdfae4e8900031cea2bcd2f9ee99e058a443f34dbc222508016f2fceddbc8060"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-desktop-F-angle.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-desktop-F-angle.png",
+      "bytes": 230911,
+      "sha256": "ea6a1ca37eb9e6704f422b60c392b21fd23f898edddbf2f96a77937281afd5e7"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-tablet-C-side.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-tablet-C-side.png",
+      "bytes": 140367,
+      "sha256": "2533acf2f30d9432cb18f89e5812745e0941caf324faa455b7cf4a9dc0fd15eb"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-desktop-F-back.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-desktop-F-back.png",
+      "bytes": 204931,
+      "sha256": "a3a7fe74bad3e8639e69efab23dea8b42645eb292783b466248b98687443bdf0"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-desktop-C-warning.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-desktop-C-warning.png",
+      "bytes": 182840,
+      "sha256": "72a9e74d29a9cae889d90a0e5020ac308e80069edde548f0d26fbaa9ea4f73a5"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-tablet-C-angle.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-tablet-C-angle.png",
+      "bytes": 148414,
+      "sha256": "fbd1ab9c81ea8961726daee2fc781650ca3ef4134aa0be60e0fe026cacf6281e"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/mobile-page.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/mobile-page.png",
+      "bytes": 620879,
+      "sha256": "ab101ffd2abcf41c977721f2145ab06799801799684b79169336d74f16a052e1"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/desktop-canvas.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/desktop-canvas.png",
+      "bytes": 213942,
+      "sha256": "0876d7ce5bb9dc90b202359ba7b130001ccc359260310c1973285a510d26b7bb"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/tablet-landscape-canvas.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/tablet-landscape-canvas.png",
+      "bytes": 120590,
+      "sha256": "783d38c2311ac79eee61f83b13e990bee4535072bcb077e597114dd4aa277806"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/UNAPPROVED-prototype-mobile-C-angle.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/UNAPPROVED-prototype-mobile-C-angle.png",
+      "bytes": 65990,
+      "sha256": "d628a14756ed9ec0405032ba1c0e7e5ed5b995a181311ef12ba7bbab0cfa4f2b"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/desktop-page.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/desktop-page.png",
+      "bytes": 924433,
+      "sha256": "24f5ca1eef7f96b5d9273eacc70f0160b7c230b3b6c6a6e0f2e6d5418c876679"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/tablet-filtered.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/tablet-filtered.png",
+      "bytes": 592731,
+      "sha256": "bcd81263d934645c5f58b994178159916377a81b53348daa5f141614cf0a10d9"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/intentional-module-503.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/intentional-module-503.png",
+      "bytes": 683789,
+      "sha256": "3a22465a9fef5d12fc024e261441cce33098ada266890ca7389abb757aad1c1a"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-resume/intentional-scene-loading.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-resume/intentional-scene-loading.png",
+      "bytes": 673137,
+      "sha256": "4c70f6dea968e816ea3e4b2ec21185127af2cd347a8260b4a35916c063d0a75c"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-harness-validation/intentional-webgl-unavailable.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-harness-validation/intentional-webgl-unavailable.png",
+      "bytes": 556065,
+      "sha256": "92da0db2605180ca9e22b0a32c96736bc0e54e3f7f25c68c15a848eaddeb0895"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/chromium-harness-validation/failure-webgl-unavailable.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/chromium-harness-validation/failure-webgl-unavailable.png",
+      "bytes": 640877,
+      "sha256": "edeb665d4237cee70ecfc3015d68a6ca03211403e2a813786ddc28adb4cebb81"
+    },
+    {
+      "original": "docs/practice-trainer/tests/reports/webkit-diagrams/all-42-library.png",
+      "archivedTo": "/workspace/artifacts/fretline-practice-interim/webkit-diagrams/all-42-library.png",
+      "bytes": 637723,
+      "sha256": "5226ff3e4b875b5acbc1c7521532af169837ba2fdda9cacb78e60b129754f7c4"
+    }
+  ]
+}

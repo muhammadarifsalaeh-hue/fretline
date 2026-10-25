@@ -1,0 +1,1924 @@
+{
+  "date": "2026-10-25T15:48:40.081Z",
+  "scope": "Independent voicing and interval fixture. Low E/string 6 through high E/string 1; x means muted. Conventional C7 intentionally omits its fifth; every other entry includes all named chord tones. This does not approve anatomical hand poses.",
+  "source": "/workspace/fretline/src/features/practice/data/chords.js",
+  "passed": true,
+  "checks": [
+    {
+      "name": "Exactly 42 stable unique choices in the requested family/root order",
+      "passed": true
+    },
+    {
+      "name": "C: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          3,
+          2,
+          0,
+          1,
+          0
+        ],
+        "soundingMidi": [
+          48,
+          52,
+          55,
+          60,
+          64
+        ],
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    },
+    {
+      "name": "C: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          3,
+          2,
+          null,
+          1,
+          null
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "D: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          null,
+          0,
+          2,
+          3,
+          2
+        ],
+        "soundingMidi": [
+          50,
+          57,
+          62,
+          66
+        ],
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    },
+    {
+      "name": "D: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          null,
+          null,
+          1,
+          3,
+          2
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "E: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          0,
+          2,
+          2,
+          1,
+          0,
+          0
+        ],
+        "soundingMidi": [
+          40,
+          47,
+          52,
+          56,
+          59,
+          64
+        ],
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    },
+    {
+      "name": "E: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          2,
+          3,
+          1,
+          null,
+          null
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "F: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          1,
+          3,
+          3,
+          2,
+          1,
+          1
+        ],
+        "soundingMidi": [
+          41,
+          48,
+          53,
+          57,
+          60,
+          65
+        ],
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    },
+    {
+      "name": "F: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          1,
+          3,
+          4,
+          2,
+          1,
+          1
+        ],
+        "barres": [
+          {
+            "finger": 1,
+            "fret": 1,
+            "fromString": 6,
+            "toString": 1
+          }
+        ],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "G: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          3,
+          2,
+          0,
+          0,
+          0,
+          3
+        ],
+        "soundingMidi": [
+          43,
+          47,
+          50,
+          55,
+          59,
+          67
+        ],
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    },
+    {
+      "name": "G: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          2,
+          1,
+          null,
+          null,
+          null,
+          3
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "A: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          0,
+          2,
+          2,
+          2,
+          0
+        ],
+        "soundingMidi": [
+          45,
+          52,
+          57,
+          61,
+          64
+        ],
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    },
+    {
+      "name": "A: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          null,
+          2,
+          3,
+          4,
+          null
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "B: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          2,
+          4,
+          4,
+          4,
+          2
+        ],
+        "soundingMidi": [
+          47,
+          54,
+          59,
+          63,
+          66
+        ],
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    },
+    {
+      "name": "B: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          1,
+          2,
+          3,
+          4,
+          1
+        ],
+        "barres": [
+          {
+            "finger": 1,
+            "fret": 2,
+            "fromString": 5,
+            "toString": 1
+          }
+        ],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Cm: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          3,
+          5,
+          5,
+          4,
+          3
+        ],
+        "soundingMidi": [
+          48,
+          55,
+          60,
+          63,
+          67
+        ],
+        "intervals": [
+          0,
+          3,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Cm: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          1,
+          3,
+          4,
+          2,
+          1
+        ],
+        "barres": [
+          {
+            "finger": 1,
+            "fret": 3,
+            "fromString": 5,
+            "toString": 1
+          }
+        ],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Dm: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          null,
+          0,
+          2,
+          3,
+          1
+        ],
+        "soundingMidi": [
+          50,
+          57,
+          62,
+          65
+        ],
+        "intervals": [
+          0,
+          3,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Dm: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          null,
+          null,
+          2,
+          3,
+          1
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Em: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          0,
+          2,
+          2,
+          0,
+          0,
+          0
+        ],
+        "soundingMidi": [
+          40,
+          47,
+          52,
+          55,
+          59,
+          64
+        ],
+        "intervals": [
+          0,
+          3,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Em: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          2,
+          3,
+          null,
+          null,
+          null
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Fm: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          1,
+          3,
+          3,
+          1,
+          1,
+          1
+        ],
+        "soundingMidi": [
+          41,
+          48,
+          53,
+          56,
+          60,
+          65
+        ],
+        "intervals": [
+          0,
+          3,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Fm: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          1,
+          3,
+          4,
+          1,
+          1,
+          1
+        ],
+        "barres": [
+          {
+            "finger": 1,
+            "fret": 1,
+            "fromString": 6,
+            "toString": 1
+          }
+        ],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Gm: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          3,
+          5,
+          5,
+          3,
+          3,
+          3
+        ],
+        "soundingMidi": [
+          43,
+          50,
+          55,
+          58,
+          62,
+          67
+        ],
+        "intervals": [
+          0,
+          3,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Gm: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          1,
+          3,
+          4,
+          1,
+          1,
+          1
+        ],
+        "barres": [
+          {
+            "finger": 1,
+            "fret": 3,
+            "fromString": 6,
+            "toString": 1
+          }
+        ],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Am: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          0,
+          2,
+          2,
+          1,
+          0
+        ],
+        "soundingMidi": [
+          45,
+          52,
+          57,
+          60,
+          64
+        ],
+        "intervals": [
+          0,
+          3,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Am: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          null,
+          2,
+          3,
+          1,
+          null
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Bm: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          2,
+          4,
+          4,
+          3,
+          2
+        ],
+        "soundingMidi": [
+          47,
+          54,
+          59,
+          62,
+          66
+        ],
+        "intervals": [
+          0,
+          3,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Bm: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          1,
+          3,
+          4,
+          2,
+          1
+        ],
+        "barres": [
+          {
+            "finger": 1,
+            "fret": 2,
+            "fromString": 5,
+            "toString": 1
+          }
+        ],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "C7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          3,
+          2,
+          3,
+          1,
+          0
+        ],
+        "soundingMidi": [
+          48,
+          52,
+          58,
+          60,
+          64
+        ],
+        "intervals": [
+          0,
+          4,
+          10
+        ]
+      }
+    },
+    {
+      "name": "C7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          3,
+          2,
+          4,
+          1,
+          null
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "D7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          null,
+          0,
+          2,
+          1,
+          2
+        ],
+        "soundingMidi": [
+          50,
+          57,
+          60,
+          66
+        ],
+        "intervals": [
+          0,
+          4,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "name": "D7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          null,
+          null,
+          2,
+          1,
+          3
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "E7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          0,
+          2,
+          0,
+          1,
+          0,
+          0
+        ],
+        "soundingMidi": [
+          40,
+          47,
+          50,
+          56,
+          59,
+          64
+        ],
+        "intervals": [
+          0,
+          4,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "name": "E7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          2,
+          null,
+          1,
+          null,
+          null
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "F7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          1,
+          3,
+          1,
+          2,
+          1,
+          1
+        ],
+        "soundingMidi": [
+          41,
+          48,
+          51,
+          57,
+          60,
+          65
+        ],
+        "intervals": [
+          0,
+          4,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "name": "F7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          1,
+          3,
+          1,
+          2,
+          1,
+          1
+        ],
+        "barres": [
+          {
+            "finger": 1,
+            "fret": 1,
+            "fromString": 6,
+            "toString": 1
+          }
+        ],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "G7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          3,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        "soundingMidi": [
+          43,
+          47,
+          50,
+          55,
+          59,
+          65
+        ],
+        "intervals": [
+          0,
+          4,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "name": "G7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          3,
+          2,
+          null,
+          null,
+          null,
+          1
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "A7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          0,
+          2,
+          0,
+          2,
+          0
+        ],
+        "soundingMidi": [
+          45,
+          52,
+          55,
+          61,
+          64
+        ],
+        "intervals": [
+          0,
+          4,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "name": "A7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          null,
+          2,
+          null,
+          3,
+          null
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "B7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          2,
+          1,
+          2,
+          0,
+          2
+        ],
+        "soundingMidi": [
+          47,
+          51,
+          57,
+          59,
+          66
+        ],
+        "intervals": [
+          0,
+          4,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "name": "B7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          2,
+          1,
+          3,
+          null,
+          4
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Cmaj7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          3,
+          2,
+          0,
+          0,
+          0
+        ],
+        "soundingMidi": [
+          48,
+          52,
+          55,
+          59,
+          64
+        ],
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "name": "Cmaj7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          3,
+          2,
+          null,
+          null,
+          null
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Dmaj7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          null,
+          0,
+          2,
+          2,
+          2
+        ],
+        "soundingMidi": [
+          50,
+          57,
+          61,
+          66
+        ],
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "name": "Dmaj7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          null,
+          null,
+          1,
+          1,
+          1
+        ],
+        "barres": [
+          {
+            "finger": 1,
+            "fret": 2,
+            "fromString": 3,
+            "toString": 1
+          }
+        ],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Emaj7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          0,
+          2,
+          1,
+          1,
+          0,
+          0
+        ],
+        "soundingMidi": [
+          40,
+          47,
+          51,
+          56,
+          59,
+          64
+        ],
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "name": "Emaj7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          3,
+          1,
+          2,
+          null,
+          null
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Fmaj7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          null,
+          3,
+          2,
+          1,
+          0
+        ],
+        "soundingMidi": [
+          53,
+          57,
+          60,
+          64
+        ],
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "name": "Fmaj7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          null,
+          3,
+          2,
+          1,
+          null
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Gmaj7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          3,
+          2,
+          0,
+          0,
+          0,
+          2
+        ],
+        "soundingMidi": [
+          43,
+          47,
+          50,
+          55,
+          59,
+          66
+        ],
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "name": "Gmaj7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          3,
+          2,
+          null,
+          null,
+          null,
+          1
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Amaj7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          0,
+          2,
+          1,
+          2,
+          0
+        ],
+        "soundingMidi": [
+          45,
+          52,
+          56,
+          61,
+          64
+        ],
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "name": "Amaj7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          null,
+          2,
+          1,
+          3,
+          null
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Bmaj7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          2,
+          4,
+          3,
+          4,
+          2
+        ],
+        "soundingMidi": [
+          47,
+          54,
+          58,
+          63,
+          66
+        ],
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ]
+      }
+    },
+    {
+      "name": "Bmaj7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          1,
+          3,
+          2,
+          4,
+          1
+        ],
+        "barres": [
+          {
+            "finger": 1,
+            "fret": 2,
+            "fromString": 5,
+            "toString": 1
+          }
+        ],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Cm7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          3,
+          5,
+          3,
+          4,
+          3
+        ],
+        "soundingMidi": [
+          48,
+          55,
+          58,
+          63,
+          67
+        ],
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "name": "Cm7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          1,
+          3,
+          1,
+          2,
+          1
+        ],
+        "barres": [
+          {
+            "finger": 1,
+            "fret": 3,
+            "fromString": 5,
+            "toString": 1
+          }
+        ],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Dm7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          null,
+          0,
+          2,
+          1,
+          1
+        ],
+        "soundingMidi": [
+          50,
+          57,
+          60,
+          65
+        ],
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "name": "Dm7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          null,
+          null,
+          2,
+          1,
+          1
+        ],
+        "barres": [
+          {
+            "finger": 1,
+            "fret": 1,
+            "fromString": 2,
+            "toString": 1
+          }
+        ],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Em7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "soundingMidi": [
+          40,
+          47,
+          50,
+          55,
+          59,
+          64
+        ],
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "name": "Em7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          2,
+          null,
+          null,
+          null,
+          null
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Fm7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          1,
+          3,
+          1,
+          1,
+          1,
+          1
+        ],
+        "soundingMidi": [
+          41,
+          48,
+          51,
+          56,
+          60,
+          65
+        ],
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "name": "Fm7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          1,
+          3,
+          1,
+          1,
+          1,
+          1
+        ],
+        "barres": [
+          {
+            "finger": 1,
+            "fret": 1,
+            "fromString": 6,
+            "toString": 1
+          }
+        ],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Gm7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          3,
+          5,
+          3,
+          3,
+          3,
+          3
+        ],
+        "soundingMidi": [
+          43,
+          50,
+          53,
+          58,
+          62,
+          67
+        ],
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "name": "Gm7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          1,
+          3,
+          1,
+          1,
+          1,
+          1
+        ],
+        "barres": [
+          {
+            "finger": 1,
+            "fret": 3,
+            "fromString": 6,
+            "toString": 1
+          }
+        ],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Am7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          0,
+          2,
+          0,
+          1,
+          0
+        ],
+        "soundingMidi": [
+          45,
+          52,
+          55,
+          60,
+          64
+        ],
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "name": "Am7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          null,
+          2,
+          null,
+          1,
+          null
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Bm7: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          2,
+          4,
+          2,
+          3,
+          2
+        ],
+        "soundingMidi": [
+          47,
+          54,
+          57,
+          62,
+          66
+        ],
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ]
+      }
+    },
+    {
+      "name": "Bm7: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          1,
+          3,
+          1,
+          2,
+          1
+        ],
+        "barres": [
+          {
+            "finger": 1,
+            "fret": 2,
+            "fromString": 5,
+            "toString": 1
+          }
+        ],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Csus2: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          3,
+          5,
+          5,
+          3,
+          3
+        ],
+        "soundingMidi": [
+          48,
+          55,
+          60,
+          62,
+          67
+        ],
+        "intervals": [
+          0,
+          2,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Csus2: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          1,
+          3,
+          4,
+          1,
+          1
+        ],
+        "barres": [
+          {
+            "finger": 1,
+            "fret": 3,
+            "fromString": 5,
+            "toString": 1
+          }
+        ],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Dsus2: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          null,
+          0,
+          2,
+          3,
+          0
+        ],
+        "soundingMidi": [
+          50,
+          57,
+          62,
+          64
+        ],
+        "intervals": [
+          0,
+          2,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Dsus2: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          null,
+          null,
+          1,
+          3,
+          null
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Asus2: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          0,
+          2,
+          2,
+          0,
+          0
+        ],
+        "soundingMidi": [
+          45,
+          52,
+          57,
+          59,
+          64
+        ],
+        "intervals": [
+          0,
+          2,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Asus2: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          null,
+          2,
+          3,
+          null,
+          null
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Csus4: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          3,
+          3,
+          0,
+          1,
+          1
+        ],
+        "soundingMidi": [
+          48,
+          53,
+          55,
+          60,
+          65
+        ],
+        "intervals": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Csus4: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          3,
+          4,
+          null,
+          1,
+          1
+        ],
+        "barres": [
+          {
+            "finger": 1,
+            "fret": 1,
+            "fromString": 2,
+            "toString": 1
+          }
+        ],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Dsus4: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          null,
+          0,
+          2,
+          3,
+          3
+        ],
+        "soundingMidi": [
+          50,
+          57,
+          62,
+          67
+        ],
+        "intervals": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Dsus4: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          null,
+          null,
+          1,
+          3,
+          4
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Esus4: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          0,
+          2,
+          2,
+          2,
+          0,
+          0
+        ],
+        "soundingMidi": [
+          40,
+          47,
+          52,
+          57,
+          59,
+          64
+        ],
+        "intervals": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Esus4: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          2,
+          3,
+          4,
+          null,
+          null
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Asus4: independent reference shape and named quality",
+      "passed": true,
+      "details": {
+        "frets": [
+          null,
+          0,
+          2,
+          2,
+          3,
+          0
+        ],
+        "soundingMidi": [
+          45,
+          52,
+          57,
+          62,
+          64
+        ],
+        "intervals": [
+          0,
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "name": "Asus4: playable finger reuse, barre endpoints and clearance",
+      "passed": true,
+      "details": {
+        "fingers": [
+          null,
+          null,
+          2,
+          3,
+          4,
+          null
+        ],
+        "barres": [],
+        "anatomicalHandStatus": "Not assessed by this musical audit"
+      }
+    },
+    {
+      "name": "Frozen reference records and nested barre metadata cannot be changed by viewer state",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Mathematical notes and structural fingering/barre checks do not approve a rig, mesh, animation or anatomical hand pose.",
+    "The independent fixture selects conventional voicings with an explicit C7 fifth omission; other musically valid alternatives exist.",
+    "Reference page review, where performed, is reported separately; this test does not claim browser access to external references."
+  ]
+}

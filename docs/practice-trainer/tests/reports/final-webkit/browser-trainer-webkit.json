@@ -1,0 +1,4450 @@
+{
+  "engine": "webkit",
+  "url": "http://127.0.0.1:5430",
+  "scope": "42-chord music/diagram/trainer acceptance; anatomical hand poses are assessed separately",
+  "checks": [
+    {
+      "case": "all-42-diagrams",
+      "passed": true,
+      "details": {
+        "count": 42,
+        "diagrams": [
+          {
+            "full": {
+              "chord": "C",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                3,
+                2,
+                0,
+                1,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "C3",
+                "E3",
+                "G3",
+                "C4",
+                "E4"
+              ]
+            },
+            "compact": {
+              "chord": "C",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                3,
+                2,
+                0,
+                1,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "C3",
+                "E3",
+                "G3",
+                "C4",
+                "E4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "C",
+              "handReviewMode": "false",
+              "handPoseSignature": "f759afd1",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "D",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                null,
+                0,
+                2,
+                3,
+                2
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "",
+                "D3",
+                "A3",
+                "D4",
+                "F#4"
+              ]
+            },
+            "compact": {
+              "chord": "D",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                null,
+                0,
+                2,
+                3,
+                2
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "",
+                "D3",
+                "A3",
+                "D4",
+                "F#4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "D",
+              "handReviewMode": "false",
+              "handPoseSignature": "9252b96c",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "E",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                0,
+                2,
+                2,
+                1,
+                0,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "E2",
+                "B2",
+                "E3",
+                "G#3",
+                "B3",
+                "E4"
+              ]
+            },
+            "compact": {
+              "chord": "E",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                0,
+                2,
+                2,
+                1,
+                0,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "E2",
+                "B2",
+                "E3",
+                "G#3",
+                "B3",
+                "E4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "E",
+              "handReviewMode": "false",
+              "handPoseSignature": "d05159a8",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "F",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                1,
+                3,
+                3,
+                2,
+                1,
+                1
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 1,
+                  "fromString": 6,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 28,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "F2",
+                "C3",
+                "F3",
+                "A3",
+                "C4",
+                "F4"
+              ]
+            },
+            "compact": {
+              "chord": "F",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                1,
+                3,
+                3,
+                2,
+                1,
+                1
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 1,
+                  "fromString": 6,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 28,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "F2",
+                "C3",
+                "F3",
+                "A3",
+                "C4",
+                "F4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "F",
+              "handReviewMode": "false",
+              "handPoseSignature": "0803a230",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "G",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                3,
+                2,
+                0,
+                0,
+                0,
+                3
+              ],
+              "barres": [],
+              "stringNotes": [
+                "G2",
+                "B2",
+                "D3",
+                "G3",
+                "B3",
+                "G4"
+              ]
+            },
+            "compact": {
+              "chord": "G",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                3,
+                2,
+                0,
+                0,
+                0,
+                3
+              ],
+              "barres": [],
+              "stringNotes": [
+                "G2",
+                "B2",
+                "D3",
+                "G3",
+                "B3",
+                "G4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "G",
+              "handReviewMode": "false",
+              "handPoseSignature": "4ce219a6",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "A",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                0,
+                2,
+                2,
+                2,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "A2",
+                "E3",
+                "A3",
+                "C#4",
+                "E4"
+              ]
+            },
+            "compact": {
+              "chord": "A",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                0,
+                2,
+                2,
+                2,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "A2",
+                "E3",
+                "A3",
+                "C#4",
+                "E4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "A",
+              "handReviewMode": "false",
+              "handPoseSignature": "33b15d0d",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "B",
+              "compact": false,
+              "baseFret": 2,
+              "frets": [
+                null,
+                2,
+                4,
+                4,
+                4,
+                2
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 2,
+                  "fromString": 5,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 46,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "B2",
+                "F#3",
+                "B3",
+                "D#4",
+                "F#4"
+              ]
+            },
+            "compact": {
+              "chord": "B",
+              "compact": true,
+              "baseFret": 2,
+              "frets": [
+                null,
+                2,
+                4,
+                4,
+                4,
+                2
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 2,
+                  "fromString": 5,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 46,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "B2",
+                "F#3",
+                "B3",
+                "D#4",
+                "F#4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "B",
+              "handReviewMode": "false",
+              "handPoseSignature": "1d842f78",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Cm",
+              "compact": false,
+              "baseFret": 3,
+              "frets": [
+                null,
+                3,
+                5,
+                5,
+                4,
+                3
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 3,
+                  "fromString": 5,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 46,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "C3",
+                "G3",
+                "C4",
+                "Eb4",
+                "G4"
+              ]
+            },
+            "compact": {
+              "chord": "Cm",
+              "compact": true,
+              "baseFret": 3,
+              "frets": [
+                null,
+                3,
+                5,
+                5,
+                4,
+                3
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 3,
+                  "fromString": 5,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 46,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "C3",
+                "G3",
+                "C4",
+                "Eb4",
+                "G4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Cm",
+              "handReviewMode": "false",
+              "handPoseSignature": "4ec13c8e",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Dm",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                null,
+                0,
+                2,
+                3,
+                1
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "",
+                "D3",
+                "A3",
+                "D4",
+                "F4"
+              ]
+            },
+            "compact": {
+              "chord": "Dm",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                null,
+                0,
+                2,
+                3,
+                1
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "",
+                "D3",
+                "A3",
+                "D4",
+                "F4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Dm",
+              "handReviewMode": "false",
+              "handPoseSignature": "7b32fc7e",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Em",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                0,
+                2,
+                2,
+                0,
+                0,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "E2",
+                "B2",
+                "E3",
+                "G3",
+                "B3",
+                "E4"
+              ]
+            },
+            "compact": {
+              "chord": "Em",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                0,
+                2,
+                2,
+                0,
+                0,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "E2",
+                "B2",
+                "E3",
+                "G3",
+                "B3",
+                "E4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Em",
+              "handReviewMode": "false",
+              "handPoseSignature": "27f4eec4",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Fm",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                1,
+                3,
+                3,
+                1,
+                1,
+                1
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 1,
+                  "fromString": 6,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 28,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "F2",
+                "C3",
+                "F3",
+                "Ab3",
+                "C4",
+                "F4"
+              ]
+            },
+            "compact": {
+              "chord": "Fm",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                1,
+                3,
+                3,
+                1,
+                1,
+                1
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 1,
+                  "fromString": 6,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 28,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "F2",
+                "C3",
+                "F3",
+                "Ab3",
+                "C4",
+                "F4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Fm",
+              "handReviewMode": "false",
+              "handPoseSignature": "a1da1c0c",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Gm",
+              "compact": false,
+              "baseFret": 3,
+              "frets": [
+                3,
+                5,
+                5,
+                3,
+                3,
+                3
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 3,
+                  "fromString": 6,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 28,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "G2",
+                "D3",
+                "G3",
+                "Bb3",
+                "D4",
+                "G4"
+              ]
+            },
+            "compact": {
+              "chord": "Gm",
+              "compact": true,
+              "baseFret": 3,
+              "frets": [
+                3,
+                5,
+                5,
+                3,
+                3,
+                3
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 3,
+                  "fromString": 6,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 28,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "G2",
+                "D3",
+                "G3",
+                "Bb3",
+                "D4",
+                "G4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Gm",
+              "handReviewMode": "false",
+              "handPoseSignature": "be6f16d2",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Am",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                0,
+                2,
+                2,
+                1,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "A2",
+                "E3",
+                "A3",
+                "C4",
+                "E4"
+              ]
+            },
+            "compact": {
+              "chord": "Am",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                0,
+                2,
+                2,
+                1,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "A2",
+                "E3",
+                "A3",
+                "C4",
+                "E4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Am",
+              "handReviewMode": "false",
+              "handPoseSignature": "7235226c",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Bm",
+              "compact": false,
+              "baseFret": 2,
+              "frets": [
+                null,
+                2,
+                4,
+                4,
+                3,
+                2
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 2,
+                  "fromString": 5,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 46,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "B2",
+                "F#3",
+                "B3",
+                "D4",
+                "F#4"
+              ]
+            },
+            "compact": {
+              "chord": "Bm",
+              "compact": true,
+              "baseFret": 2,
+              "frets": [
+                null,
+                2,
+                4,
+                4,
+                3,
+                2
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 2,
+                  "fromString": 5,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 46,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "B2",
+                "F#3",
+                "B3",
+                "D4",
+                "F#4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Bm",
+              "handReviewMode": "false",
+              "handPoseSignature": "c916951f",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "C7",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                3,
+                2,
+                3,
+                1,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "C3",
+                "E3",
+                "Bb3",
+                "C4",
+                "E4"
+              ]
+            },
+            "compact": {
+              "chord": "C7",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                3,
+                2,
+                3,
+                1,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "C3",
+                "E3",
+                "Bb3",
+                "C4",
+                "E4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "C7",
+              "handReviewMode": "false",
+              "handPoseSignature": "c7d7404a",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "D7",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                null,
+                0,
+                2,
+                1,
+                2
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "",
+                "D3",
+                "A3",
+                "C4",
+                "F#4"
+              ]
+            },
+            "compact": {
+              "chord": "D7",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                null,
+                0,
+                2,
+                1,
+                2
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "",
+                "D3",
+                "A3",
+                "C4",
+                "F#4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "D7",
+              "handReviewMode": "false",
+              "handPoseSignature": "05457593",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "E7",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                0,
+                2,
+                0,
+                1,
+                0,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "E2",
+                "B2",
+                "D3",
+                "G#3",
+                "B3",
+                "E4"
+              ]
+            },
+            "compact": {
+              "chord": "E7",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                0,
+                2,
+                0,
+                1,
+                0,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "E2",
+                "B2",
+                "D3",
+                "G#3",
+                "B3",
+                "E4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "E7",
+              "handReviewMode": "false",
+              "handPoseSignature": "3b6ece6d",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "F7",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                1,
+                3,
+                1,
+                2,
+                1,
+                1
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 1,
+                  "fromString": 6,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 28,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "F2",
+                "C3",
+                "Eb3",
+                "A3",
+                "C4",
+                "F4"
+              ]
+            },
+            "compact": {
+              "chord": "F7",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                1,
+                3,
+                1,
+                2,
+                1,
+                1
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 1,
+                  "fromString": 6,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 28,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "F2",
+                "C3",
+                "Eb3",
+                "A3",
+                "C4",
+                "F4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "F7",
+              "handReviewMode": "false",
+              "handPoseSignature": "7acaa971",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "G7",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                3,
+                2,
+                0,
+                0,
+                0,
+                1
+              ],
+              "barres": [],
+              "stringNotes": [
+                "G2",
+                "B2",
+                "D3",
+                "G3",
+                "B3",
+                "F4"
+              ]
+            },
+            "compact": {
+              "chord": "G7",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                3,
+                2,
+                0,
+                0,
+                0,
+                1
+              ],
+              "barres": [],
+              "stringNotes": [
+                "G2",
+                "B2",
+                "D3",
+                "G3",
+                "B3",
+                "F4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "G7",
+              "handReviewMode": "false",
+              "handPoseSignature": "b46212e4",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "A7",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                0,
+                2,
+                0,
+                2,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "A2",
+                "E3",
+                "G3",
+                "C#4",
+                "E4"
+              ]
+            },
+            "compact": {
+              "chord": "A7",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                0,
+                2,
+                0,
+                2,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "A2",
+                "E3",
+                "G3",
+                "C#4",
+                "E4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "A7",
+              "handReviewMode": "false",
+              "handPoseSignature": "532785f2",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "B7",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                2,
+                1,
+                2,
+                0,
+                2
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "B2",
+                "D#3",
+                "A3",
+                "B3",
+                "F#4"
+              ]
+            },
+            "compact": {
+              "chord": "B7",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                2,
+                1,
+                2,
+                0,
+                2
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "B2",
+                "D#3",
+                "A3",
+                "B3",
+                "F#4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "B7",
+              "handReviewMode": "false",
+              "handPoseSignature": "dc0af881",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Cmaj7",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                3,
+                2,
+                0,
+                0,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "C3",
+                "E3",
+                "G3",
+                "B3",
+                "E4"
+              ]
+            },
+            "compact": {
+              "chord": "Cmaj7",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                3,
+                2,
+                0,
+                0,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "C3",
+                "E3",
+                "G3",
+                "B3",
+                "E4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Cmaj7",
+              "handReviewMode": "false",
+              "handPoseSignature": "1a68b191",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Dmaj7",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                null,
+                0,
+                2,
+                2,
+                2
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 2,
+                  "fromString": 3,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 82,
+                      "x2": 118,
+                      "y1": 70,
+                      "y2": 70,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "",
+                "D3",
+                "A3",
+                "C#4",
+                "F#4"
+              ]
+            },
+            "compact": {
+              "chord": "Dmaj7",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                null,
+                0,
+                2,
+                2,
+                2
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 2,
+                  "fromString": 3,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 82,
+                      "x2": 118,
+                      "y1": 70,
+                      "y2": 70,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "",
+                "D3",
+                "A3",
+                "C#4",
+                "F#4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Dmaj7",
+              "handReviewMode": "false",
+              "handPoseSignature": "491c58b5",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Emaj7",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                0,
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "E2",
+                "B2",
+                "D#3",
+                "G#3",
+                "B3",
+                "E4"
+              ]
+            },
+            "compact": {
+              "chord": "Emaj7",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                0,
+                2,
+                1,
+                1,
+                0,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "E2",
+                "B2",
+                "D#3",
+                "G#3",
+                "B3",
+                "E4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Emaj7",
+              "handReviewMode": "false",
+              "handPoseSignature": "aa8bb71e",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Fmaj7",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                null,
+                3,
+                2,
+                1,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "",
+                "F3",
+                "A3",
+                "C4",
+                "E4"
+              ]
+            },
+            "compact": {
+              "chord": "Fmaj7",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                null,
+                3,
+                2,
+                1,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "",
+                "F3",
+                "A3",
+                "C4",
+                "E4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Fmaj7",
+              "handReviewMode": "false",
+              "handPoseSignature": "f3427365",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Gmaj7",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                3,
+                2,
+                0,
+                0,
+                0,
+                2
+              ],
+              "barres": [],
+              "stringNotes": [
+                "G2",
+                "B2",
+                "D3",
+                "G3",
+                "B3",
+                "F#4"
+              ]
+            },
+            "compact": {
+              "chord": "Gmaj7",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                3,
+                2,
+                0,
+                0,
+                0,
+                2
+              ],
+              "barres": [],
+              "stringNotes": [
+                "G2",
+                "B2",
+                "D3",
+                "G3",
+                "B3",
+                "F#4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Gmaj7",
+              "handReviewMode": "false",
+              "handPoseSignature": "76911e93",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Amaj7",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                0,
+                2,
+                1,
+                2,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "A2",
+                "E3",
+                "G#3",
+                "C#4",
+                "E4"
+              ]
+            },
+            "compact": {
+              "chord": "Amaj7",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                0,
+                2,
+                1,
+                2,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "A2",
+                "E3",
+                "G#3",
+                "C#4",
+                "E4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Amaj7",
+              "handReviewMode": "false",
+              "handPoseSignature": "4790b6ef",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Bmaj7",
+              "compact": false,
+              "baseFret": 2,
+              "frets": [
+                null,
+                2,
+                4,
+                3,
+                4,
+                2
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 2,
+                  "fromString": 5,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 46,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "B2",
+                "F#3",
+                "A#3",
+                "D#4",
+                "F#4"
+              ]
+            },
+            "compact": {
+              "chord": "Bmaj7",
+              "compact": true,
+              "baseFret": 2,
+              "frets": [
+                null,
+                2,
+                4,
+                3,
+                4,
+                2
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 2,
+                  "fromString": 5,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 46,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "B2",
+                "F#3",
+                "A#3",
+                "D#4",
+                "F#4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Bmaj7",
+              "handReviewMode": "false",
+              "handPoseSignature": "660afb95",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Cm7",
+              "compact": false,
+              "baseFret": 3,
+              "frets": [
+                null,
+                3,
+                5,
+                3,
+                4,
+                3
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 3,
+                  "fromString": 5,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 46,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "C3",
+                "G3",
+                "Bb3",
+                "Eb4",
+                "G4"
+              ]
+            },
+            "compact": {
+              "chord": "Cm7",
+              "compact": true,
+              "baseFret": 3,
+              "frets": [
+                null,
+                3,
+                5,
+                3,
+                4,
+                3
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 3,
+                  "fromString": 5,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 46,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "C3",
+                "G3",
+                "Bb3",
+                "Eb4",
+                "G4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Cm7",
+              "handReviewMode": "false",
+              "handPoseSignature": "a10937c9",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Dm7",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                null,
+                0,
+                2,
+                1,
+                1
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 1,
+                  "fromString": 2,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 100,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "",
+                "D3",
+                "A3",
+                "C4",
+                "F4"
+              ]
+            },
+            "compact": {
+              "chord": "Dm7",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                null,
+                0,
+                2,
+                1,
+                1
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 1,
+                  "fromString": 2,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 100,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "",
+                "D3",
+                "A3",
+                "C4",
+                "F4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Dm7",
+              "handReviewMode": "false",
+              "handPoseSignature": "24c8ec6b",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Em7",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                0,
+                2,
+                0,
+                0,
+                0,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "E2",
+                "B2",
+                "D3",
+                "G3",
+                "B3",
+                "E4"
+              ]
+            },
+            "compact": {
+              "chord": "Em7",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                0,
+                2,
+                0,
+                0,
+                0,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "E2",
+                "B2",
+                "D3",
+                "G3",
+                "B3",
+                "E4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Em7",
+              "handReviewMode": "false",
+              "handPoseSignature": "e64a8948",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Fm7",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                1,
+                3,
+                1,
+                1,
+                1,
+                1
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 1,
+                  "fromString": 6,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 28,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "F2",
+                "C3",
+                "Eb3",
+                "Ab3",
+                "C4",
+                "F4"
+              ]
+            },
+            "compact": {
+              "chord": "Fm7",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                1,
+                3,
+                1,
+                1,
+                1,
+                1
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 1,
+                  "fromString": 6,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 28,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "F2",
+                "C3",
+                "Eb3",
+                "Ab3",
+                "C4",
+                "F4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Fm7",
+              "handReviewMode": "false",
+              "handPoseSignature": "60bccca6",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Gm7",
+              "compact": false,
+              "baseFret": 3,
+              "frets": [
+                3,
+                5,
+                3,
+                3,
+                3,
+                3
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 3,
+                  "fromString": 6,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 28,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "G2",
+                "D3",
+                "F3",
+                "Bb3",
+                "D4",
+                "G4"
+              ]
+            },
+            "compact": {
+              "chord": "Gm7",
+              "compact": true,
+              "baseFret": 3,
+              "frets": [
+                3,
+                5,
+                3,
+                3,
+                3,
+                3
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 3,
+                  "fromString": 6,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 28,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "G2",
+                "D3",
+                "F3",
+                "Bb3",
+                "D4",
+                "G4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Gm7",
+              "handReviewMode": "false",
+              "handPoseSignature": "ea2fc938",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Am7",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                0,
+                2,
+                0,
+                1,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "A2",
+                "E3",
+                "G3",
+                "C4",
+                "E4"
+              ]
+            },
+            "compact": {
+              "chord": "Am7",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                0,
+                2,
+                0,
+                1,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "A2",
+                "E3",
+                "G3",
+                "C4",
+                "E4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Am7",
+              "handReviewMode": "false",
+              "handPoseSignature": "e22077a7",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Bm7",
+              "compact": false,
+              "baseFret": 2,
+              "frets": [
+                null,
+                2,
+                4,
+                2,
+                3,
+                2
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 2,
+                  "fromString": 5,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 46,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "B2",
+                "F#3",
+                "A3",
+                "D4",
+                "F#4"
+              ]
+            },
+            "compact": {
+              "chord": "Bm7",
+              "compact": true,
+              "baseFret": 2,
+              "frets": [
+                null,
+                2,
+                4,
+                2,
+                3,
+                2
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 2,
+                  "fromString": 5,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 46,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "B2",
+                "F#3",
+                "A3",
+                "D4",
+                "F#4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Bm7",
+              "handReviewMode": "false",
+              "handPoseSignature": "8b3e516a",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Csus2",
+              "compact": false,
+              "baseFret": 3,
+              "frets": [
+                null,
+                3,
+                5,
+                5,
+                3,
+                3
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 3,
+                  "fromString": 5,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 46,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "C3",
+                "G3",
+                "C4",
+                "D4",
+                "G4"
+              ]
+            },
+            "compact": {
+              "chord": "Csus2",
+              "compact": true,
+              "baseFret": 3,
+              "frets": [
+                null,
+                3,
+                5,
+                5,
+                3,
+                3
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 3,
+                  "fromString": 5,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 46,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "C3",
+                "G3",
+                "C4",
+                "D4",
+                "G4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Csus2",
+              "handReviewMode": "false",
+              "handPoseSignature": "8b20dc37",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Dsus2",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                null,
+                0,
+                2,
+                3,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "",
+                "D3",
+                "A3",
+                "D4",
+                "E4"
+              ]
+            },
+            "compact": {
+              "chord": "Dsus2",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                null,
+                0,
+                2,
+                3,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "",
+                "D3",
+                "A3",
+                "D4",
+                "E4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Dsus2",
+              "handReviewMode": "false",
+              "handPoseSignature": "8b8b3da7",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Asus2",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                0,
+                2,
+                2,
+                0,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "A2",
+                "E3",
+                "A3",
+                "B3",
+                "E4"
+              ]
+            },
+            "compact": {
+              "chord": "Asus2",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                0,
+                2,
+                2,
+                0,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "A2",
+                "E3",
+                "A3",
+                "B3",
+                "E4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Asus2",
+              "handReviewMode": "false",
+              "handPoseSignature": "704fde40",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Csus4",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                3,
+                3,
+                0,
+                1,
+                1
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 1,
+                  "fromString": 2,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 100,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "C3",
+                "F3",
+                "G3",
+                "C4",
+                "F4"
+              ]
+            },
+            "compact": {
+              "chord": "Csus4",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                3,
+                3,
+                0,
+                1,
+                1
+              ],
+              "barres": [
+                {
+                  "finger": 1,
+                  "fret": 1,
+                  "fromString": 2,
+                  "toString": 1,
+                  "lines": [
+                    {
+                      "x1": 100,
+                      "x2": 118,
+                      "y1": 48,
+                      "y2": 48,
+                      "stroke": 13
+                    }
+                  ]
+                }
+              ],
+              "stringNotes": [
+                "",
+                "C3",
+                "F3",
+                "G3",
+                "C4",
+                "F4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Csus4",
+              "handReviewMode": "false",
+              "handPoseSignature": "f2a0dc94",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Dsus4",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                null,
+                0,
+                2,
+                3,
+                3
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "",
+                "D3",
+                "A3",
+                "D4",
+                "G4"
+              ]
+            },
+            "compact": {
+              "chord": "Dsus4",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                null,
+                0,
+                2,
+                3,
+                3
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "",
+                "D3",
+                "A3",
+                "D4",
+                "G4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Dsus4",
+              "handReviewMode": "false",
+              "handPoseSignature": "9136e065",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Esus4",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                0,
+                2,
+                2,
+                2,
+                0,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "E2",
+                "B2",
+                "E3",
+                "A3",
+                "B3",
+                "E4"
+              ]
+            },
+            "compact": {
+              "chord": "Esus4",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                0,
+                2,
+                2,
+                2,
+                0,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "E2",
+                "B2",
+                "E3",
+                "A3",
+                "B3",
+                "E4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Esus4",
+              "handReviewMode": "false",
+              "handPoseSignature": "71b5686b",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          },
+          {
+            "full": {
+              "chord": "Asus4",
+              "compact": false,
+              "baseFret": 1,
+              "frets": [
+                null,
+                0,
+                2,
+                2,
+                3,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "A2",
+                "E3",
+                "A3",
+                "D4",
+                "E4"
+              ]
+            },
+            "compact": {
+              "chord": "Asus4",
+              "compact": true,
+              "baseFret": 1,
+              "frets": [
+                null,
+                0,
+                2,
+                2,
+                3,
+                0
+              ],
+              "barres": [],
+              "stringNotes": [
+                "",
+                "A2",
+                "E3",
+                "A3",
+                "D4",
+                "E4"
+              ]
+            },
+            "diagramStatus": "verified",
+            "handPoseStatus": "needs-review",
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "false",
+              "handModelReady": "true",
+              "handChordId": "Asus4",
+              "handReviewMode": "false",
+              "handPoseSignature": "54c23401",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            }
+          }
+        ],
+        "sameDocument": true,
+        "actualCandidatePoseFingerprints": {
+          "C": "f759afd1",
+          "D": "9252b96c",
+          "E": "d05159a8",
+          "F": "0803a230",
+          "G": "4ce219a6",
+          "A": "33b15d0d",
+          "B": "1d842f78",
+          "Cm": "4ec13c8e",
+          "Dm": "7b32fc7e",
+          "Em": "27f4eec4",
+          "Fm": "a1da1c0c",
+          "Gm": "be6f16d2",
+          "Am": "7235226c",
+          "Bm": "c916951f",
+          "C7": "c7d7404a",
+          "D7": "05457593",
+          "E7": "3b6ece6d",
+          "F7": "7acaa971",
+          "G7": "b46212e4",
+          "A7": "532785f2",
+          "B7": "dc0af881",
+          "Cmaj7": "1a68b191",
+          "Dmaj7": "491c58b5",
+          "Emaj7": "aa8bb71e",
+          "Fmaj7": "f3427365",
+          "Gmaj7": "76911e93",
+          "Amaj7": "4790b6ef",
+          "Bmaj7": "660afb95",
+          "Cm7": "a10937c9",
+          "Dm7": "24c8ec6b",
+          "Em7": "e64a8948",
+          "Fm7": "60bccca6",
+          "Gm7": "ea2fc938",
+          "Am7": "e22077a7",
+          "Bm7": "8b3e516a",
+          "Csus2": "8b20dc37",
+          "Dsus2": "8b8b3da7",
+          "Asus2": "704fde40",
+          "Csus4": "f2a0dc94",
+          "Dsus4": "9136e065",
+          "Esus4": "71b5686b",
+          "Asus4": "54c23401"
+        },
+        "anatomicalHandApproval": false
+      }
+    },
+    {
+      "case": "search-filters",
+      "passed": true,
+      "details": {
+        "groups": [
+          {
+            "type": "major",
+            "ids": [
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "A",
+              "B"
+            ]
+          },
+          {
+            "type": "minor",
+            "ids": [
+              "Cm",
+              "Dm",
+              "Em",
+              "Fm",
+              "Gm",
+              "Am",
+              "Bm"
+            ]
+          },
+          {
+            "type": "dominant7",
+            "ids": [
+              "C7",
+              "D7",
+              "E7",
+              "F7",
+              "G7",
+              "A7",
+              "B7"
+            ]
+          },
+          {
+            "type": "major7",
+            "ids": [
+              "Cmaj7",
+              "Dmaj7",
+              "Emaj7",
+              "Fmaj7",
+              "Gmaj7",
+              "Amaj7",
+              "Bmaj7"
+            ]
+          },
+          {
+            "type": "minor7",
+            "ids": [
+              "Cm7",
+              "Dm7",
+              "Em7",
+              "Fm7",
+              "Gm7",
+              "Am7",
+              "Bm7"
+            ]
+          },
+          {
+            "type": "suspended",
+            "ids": [
+              "Csus2",
+              "Dsus2",
+              "Asus2",
+              "Csus4",
+              "Dsus4",
+              "Esus4",
+              "Asus4"
+            ]
+          }
+        ],
+        "caseInsensitiveName": "bm7",
+        "multiTermSearch": "minor 7th",
+        "emptyResultsKeepSelection": true
+      }
+    },
+    {
+      "case": "navigation-history-keyboard",
+      "passed": true,
+      "details": {
+        "sharedURLAndReload": "F/major",
+        "backForward": [
+          "G",
+          "F"
+        ],
+        "outsideResultNext": "Cm",
+        "wrappedPrevious": "Bm",
+        "keyboardSelectionAndFocus": [
+          "Bm",
+          "Cm",
+          "Bm"
+        ]
+      }
+    },
+    {
+      "case": "responsive-desktop",
+      "passed": true,
+      "details": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "noOverflow": true,
+        "filterAndSelectionWorking": true,
+        "controls": [
+          {
+            "element": "←คอร์ดก่อนหน้า",
+            "width": 126.796875,
+            "height": 46.890625
+          },
+          {
+            "element": "คอร์ดถัดไป→",
+            "width": 110.765625,
+            "height": 46.890625
+          },
+          {
+            "element": "practice-chord-search",
+            "width": 460,
+            "height": 48
+          },
+          {
+            "element": "all",
+            "width": 84.484375,
+            "height": 44
+          },
+          {
+            "element": "major",
+            "width": 67.78125,
+            "height": 44
+          },
+          {
+            "element": "minor",
+            "width": 68.734375,
+            "height": 44
+          },
+          {
+            "element": "dominant7",
+            "width": 84.0625,
+            "height": 44
+          },
+          {
+            "element": "major7",
+            "width": 77.8125,
+            "height": 44
+          },
+          {
+            "element": "minor7",
+            "width": 78.765625,
+            "height": 44
+          },
+          {
+            "element": "suspended",
+            "width": 85.046875,
+            "height": 44
+          }
+        ],
+        "canvasPNGBytes": 166010,
+        "paint": {
+          "colors": 5089,
+          "litColoredPixels": 2775
+        }
+      }
+    },
+    {
+      "case": "responsive-tablet-landscape",
+      "passed": true,
+      "details": {
+        "viewport": [
+          1024,
+          768
+        ],
+        "noOverflow": true,
+        "filterAndSelectionWorking": true,
+        "controls": [
+          {
+            "element": "←คอร์ดก่อนหน้า",
+            "width": 126.796875,
+            "height": 46.890625
+          },
+          {
+            "element": "คอร์ดถัดไป→",
+            "width": 110.765625,
+            "height": 46.890625
+          },
+          {
+            "element": "practice-chord-search",
+            "width": 460,
+            "height": 50.796875
+          },
+          {
+            "element": "all",
+            "width": 84.484375,
+            "height": 44
+          },
+          {
+            "element": "major",
+            "width": 67.78125,
+            "height": 44
+          },
+          {
+            "element": "minor",
+            "width": 68.734375,
+            "height": 44
+          },
+          {
+            "element": "dominant7",
+            "width": 84.0625,
+            "height": 44
+          },
+          {
+            "element": "major7",
+            "width": 77.8125,
+            "height": 44
+          },
+          {
+            "element": "minor7",
+            "width": 78.765625,
+            "height": 44
+          },
+          {
+            "element": "suspended",
+            "width": 85.046875,
+            "height": 44
+          }
+        ],
+        "canvasPNGBytes": 101143,
+        "paint": {
+          "colors": 5994,
+          "litColoredPixels": 3456
+        }
+      }
+    },
+    {
+      "case": "responsive-tablet",
+      "passed": true,
+      "details": {
+        "viewport": [
+          768,
+          1024
+        ],
+        "noOverflow": true,
+        "filterAndSelectionWorking": true,
+        "controls": [
+          {
+            "element": "←คอร์ดก่อนหน้า",
+            "width": 126.796875,
+            "height": 46.890625
+          },
+          {
+            "element": "คอร์ดถัดไป→",
+            "width": 110.765625,
+            "height": 46.890625
+          },
+          {
+            "element": "practice-chord-search",
+            "width": 460,
+            "height": 50.796875
+          },
+          {
+            "element": "all",
+            "width": 84.484375,
+            "height": 44
+          },
+          {
+            "element": "major",
+            "width": 67.78125,
+            "height": 44
+          },
+          {
+            "element": "minor",
+            "width": 68.734375,
+            "height": 44
+          },
+          {
+            "element": "dominant7",
+            "width": 84.0625,
+            "height": 44
+          },
+          {
+            "element": "major7",
+            "width": 77.8125,
+            "height": 44
+          },
+          {
+            "element": "minor7",
+            "width": 78.765625,
+            "height": 44
+          },
+          {
+            "element": "suspended",
+            "width": 85.046875,
+            "height": 44
+          }
+        ],
+        "canvasPNGBytes": 113508,
+        "paint": {
+          "colors": 6001,
+          "litColoredPixels": 3363
+        }
+      }
+    },
+    {
+      "case": "responsive-mobile",
+      "passed": true,
+      "details": {
+        "viewport": [
+          390,
+          844
+        ],
+        "noOverflow": true,
+        "filterAndSelectionWorking": true,
+        "controls": [
+          {
+            "element": "←คอร์ดก่อนหน้า",
+            "width": 169,
+            "height": 46.890625
+          },
+          {
+            "element": "คอร์ดถัดไป→",
+            "width": 169,
+            "height": 46.890625
+          },
+          {
+            "element": "practice-chord-search",
+            "width": 350,
+            "height": 50.796875
+          },
+          {
+            "element": "all",
+            "width": 72.28125,
+            "height": 44
+          },
+          {
+            "element": "major",
+            "width": 56.96875,
+            "height": 44
+          },
+          {
+            "element": "minor",
+            "width": 57.84375,
+            "height": 44
+          },
+          {
+            "element": "dominant7",
+            "width": 71.890625,
+            "height": 44
+          },
+          {
+            "element": "major7",
+            "width": 66.15625,
+            "height": 44
+          },
+          {
+            "element": "minor7",
+            "width": 67.03125,
+            "height": 44
+          },
+          {
+            "element": "suspended",
+            "width": 72.796875,
+            "height": 44
+          }
+        ],
+        "canvasPNGBytes": 52518,
+        "paint": {
+          "colors": 5316,
+          "litColoredPixels": 2614
+        }
+      }
+    },
+    {
+      "case": "responsive-small-mobile",
+      "passed": true,
+      "details": {
+        "viewport": [
+          320,
+          740
+        ],
+        "noOverflow": true,
+        "filterAndSelectionWorking": true,
+        "controls": [
+          {
+            "element": "←คอร์ดก่อนหน้า",
+            "width": 134,
+            "height": 46.890625
+          },
+          {
+            "element": "คอร์ดถัดไป→",
+            "width": 134,
+            "height": 46.890625
+          },
+          {
+            "element": "practice-chord-search",
+            "width": 280,
+            "height": 50.796875
+          },
+          {
+            "element": "all",
+            "width": 72.28125,
+            "height": 44
+          },
+          {
+            "element": "major",
+            "width": 56.96875,
+            "height": 44
+          },
+          {
+            "element": "minor",
+            "width": 57.84375,
+            "height": 44
+          },
+          {
+            "element": "dominant7",
+            "width": 71.890625,
+            "height": 44
+          },
+          {
+            "element": "major7",
+            "width": 66.15625,
+            "height": 44
+          },
+          {
+            "element": "minor7",
+            "width": 67.03125,
+            "height": 44
+          },
+          {
+            "element": "suspended",
+            "width": 72.796875,
+            "height": 44
+          }
+        ],
+        "canvasPNGBytes": 43462,
+        "paint": {
+          "colors": 4111,
+          "litColoredPixels": 1751
+        }
+      }
+    },
+    {
+      "case": "loading",
+      "passed": true,
+      "details": {
+        "intentionalFault": "Hold actual lazy scene/Three module request",
+        "trainerAvailableDuringLoading": true,
+        "eventualSelectedChord": "B7"
+      }
+    },
+    {
+      "case": "webgl-unavailable",
+      "passed": true,
+      "details": {
+        "intentionalFault": "WebGL context unavailable",
+        "trainerUsableDuringFault": true,
+        "retryPreservesSelection": "F",
+        "softwareRendererRecoverySeconds": 0.879
+      }
+    },
+    {
+      "case": "context-loss",
+      "passed": true,
+      "details": {
+        "intentionalFault": "Actual WEBGL_lose_context extension",
+        "diagramAvailable": true,
+        "retryPreservesSelection": "Bm7"
+      }
+    },
+    {
+      "case": "module-failure",
+      "passed": true,
+      "details": {
+        "intentionalFault": "HTTP503 for actual lazy Three/scene module",
+        "blockedURLs": [
+          "http://127.0.0.1:5430/assets/practice-three-riIgG7aP.js"
+        ],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:5430/assets/practice-three-riIgG7aP.js",
+            "status": 503
+          },
+          {
+            "url": "http://127.0.0.1:5430/assets/practice-three-riIgG7aP.js?practice-retry=1792943798752-1",
+            "status": 200
+          }
+        ],
+        "sameDocumentDistinctURLRetry": true,
+        "selectedChordPreserved": "B7"
+      }
+    },
+    {
+      "case": "touch",
+      "passed": true,
+      "details": {
+        "nativeTouchZoomButton": true,
+        "pinchLimitation": "Linux WebKit has no CDP native multi-touch injection; physical iPad pinch remains untested."
+      }
+    },
+    {
+      "case": "lazy-routes",
+      "passed": true,
+      "details": {
+        "routes": [
+          {
+            "route": "/",
+            "sceneRequests": [],
+            "handRequests": []
+          },
+          {
+            "route": "/brands",
+            "sceneRequests": [],
+            "handRequests": []
+          },
+          {
+            "route": "/guitars",
+            "sceneRequests": [],
+            "handRequests": []
+          }
+        ]
+      }
+    },
+    {
+      "case": "spa-cleanup",
+      "passed": true,
+      "details": {
+        "cycles": [
+          {
+            "cycle": 1,
+            "selectedChord": "C7",
+            "canvasesAfterBack": 1
+          },
+          {
+            "cycle": 2,
+            "selectedChord": "C7",
+            "canvasesAfterBack": 1
+          }
+        ]
+      }
+    },
+    {
+      "case": "hand-loading",
+      "passed": true,
+      "details": {
+        "intentionalFault": "Hold the actual anatomical GLB request",
+        "diagramAndMarkersAvailable": true,
+        "selectedChordPreserved": "B7",
+        "actualHand": {
+          "handStatus": "needs-review",
+          "handAssetStatus": "ready",
+          "handVisible": "false",
+          "handModelReady": "true",
+          "handChordId": "B7",
+          "handReviewMode": "false",
+          "handPoseSignature": "dc0af881",
+          "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+        }
+      }
+    },
+    {
+      "case": "hand-failure",
+      "passed": true,
+      "details": {
+        "intentionalFault": "HTTP503 for actual anatomical GLB",
+        "requests": [
+          "http://127.0.0.1:5430/assets/makehuman-left-arm-sleeved-q3B7hHpz.glb",
+          "http://127.0.0.1:5430/assets/makehuman-left-arm-sleeved-q3B7hHpz.glb"
+        ],
+        "selectedChordPreserved": "F",
+        "sameDocumentRetry": true,
+        "actualHand": {
+          "handStatus": "needs-review",
+          "handAssetStatus": "ready",
+          "handVisible": "false",
+          "handModelReady": "true",
+          "handChordId": "F",
+          "handReviewMode": "false",
+          "handPoseSignature": "0803a230",
+          "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+        }
+      }
+    },
+    {
+      "case": "performance-lifecycle",
+      "passed": true,
+      "details": {
+        "idleRenderCountBefore": 2,
+        "idleRenderCountAfter": 2,
+        "zoomRenderCount": 3,
+        "renderInfo": {
+          "calls": 78,
+          "triangles": 15500,
+          "geometries": 68,
+          "textures": 15
+        },
+        "visibleHandRenderInfo": {
+          "calls": 68,
+          "triangles": 30912,
+          "geometries": 70,
+          "textures": 18
+        },
+        "spaUnmounts": 3,
+        "heap": [],
+        "limitations": [
+          "Software WebGL engine measurements are not physical iPad GPU/frame-rate evidence.",
+          "JS heap measurements do not measure native WebGL/GPU memory."
+        ]
+      }
+    },
+    {
+      "case": "hand-review-desktop",
+      "passed": true,
+      "details": {
+        "viewport": "desktop",
+        "initialHandHidden": true,
+        "explicitReviewAndWarning": true,
+        "poses": [
+          {
+            "chord": "C",
+            "candidateAvailable": true,
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "true",
+              "handModelReady": "true",
+              "handChordId": "C",
+              "handReviewMode": "true",
+              "handPoseSignature": "f759afd1",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            },
+            "changedWebGLPixels": 104334,
+            "angles": [
+              {
+                "preset": "angle",
+                "camera": {
+                  "position": [
+                    -5.1819575,
+                    10.3804778,
+                    2.5141433
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 10.9088895,
+                  "fov": 38,
+                  "aspect": 1.7813620071684588
+                }
+              },
+              {
+                "preset": "side",
+                "camera": {
+                  "position": [
+                    -5.070443,
+                    2.5518215,
+                    13.5767859
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 14.4491983,
+                  "fov": 38,
+                  "aspect": 1.7813620071684588
+                }
+              },
+              {
+                "preset": "back",
+                "camera": {
+                  "position": [
+                    -2.7520141,
+                    -14.8035763,
+                    2.6567868
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 15.2037845,
+                  "fov": 38,
+                  "aspect": 1.7813620071684588
+                }
+              },
+              {
+                "preset": "player",
+                "camera": {
+                  "position": [
+                    -0.5192413,
+                    -10.0958556,
+                    14.1554813
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 18.202385,
+                  "fov": 38,
+                  "aspect": 1.7813620071684588
+                }
+              }
+            ],
+            "anatomicalHandApproval": false
+          },
+          {
+            "chord": "F",
+            "candidateAvailable": true,
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "true",
+              "handModelReady": "true",
+              "handChordId": "F",
+              "handReviewMode": "true",
+              "handPoseSignature": "0803a230",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            },
+            "changedWebGLPixels": 99412,
+            "angles": [
+              {
+                "preset": "angle",
+                "camera": {
+                  "position": [
+                    -5.1819575,
+                    10.3804778,
+                    2.5141433
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 10.9088895,
+                  "fov": 38,
+                  "aspect": 1.7813620071684588
+                }
+              },
+              {
+                "preset": "side",
+                "camera": {
+                  "position": [
+                    -5.070443,
+                    2.5518215,
+                    13.5767859
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 14.4491983,
+                  "fov": 38,
+                  "aspect": 1.7813620071684588
+                }
+              },
+              {
+                "preset": "back",
+                "camera": {
+                  "position": [
+                    -2.7520141,
+                    -14.8035763,
+                    2.6567868
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 15.2037845,
+                  "fov": 38,
+                  "aspect": 1.7813620071684588
+                }
+              },
+              {
+                "preset": "player",
+                "camera": {
+                  "position": [
+                    -0.5192413,
+                    -10.0958556,
+                    14.1554813
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 18.202385,
+                  "fov": 38,
+                  "aspect": 1.7813620071684588
+                }
+              }
+            ],
+            "anatomicalHandApproval": false
+          }
+        ],
+        "anatomicalHandApproval": false
+      }
+    },
+    {
+      "case": "hand-review-tablet",
+      "passed": true,
+      "details": {
+        "viewport": "tablet",
+        "initialHandHidden": true,
+        "explicitReviewAndWarning": true,
+        "poses": [
+          {
+            "chord": "C",
+            "candidateAvailable": true,
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "true",
+              "handModelReady": "true",
+              "handChordId": "C",
+              "handReviewMode": "true",
+              "handPoseSignature": "f759afd1",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            },
+            "changedWebGLPixels": 72539,
+            "angles": [
+              {
+                "preset": "angle",
+                "camera": {
+                  "position": [
+                    -5.2438252,
+                    10.8960417,
+                    2.6688125
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 11.4506979,
+                  "fov": 38,
+                  "aspect": 1.4686192468619246
+                }
+              },
+              {
+                "preset": "side",
+                "camera": {
+                  "position": [
+                    -5.070443,
+                    2.5518215,
+                    13.5767859
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 14.4491983,
+                  "fov": 38,
+                  "aspect": 1.4686192468619246
+                }
+              },
+              {
+                "preset": "back",
+                "camera": {
+                  "position": [
+                    -2.7520141,
+                    -14.8035763,
+                    2.6567868
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 15.2037845,
+                  "fov": 38,
+                  "aspect": 1.4686192468619246
+                }
+              },
+              {
+                "preset": "player",
+                "camera": {
+                  "position": [
+                    -0.5192413,
+                    -10.0958556,
+                    14.1554813
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 18.202385,
+                  "fov": 38,
+                  "aspect": 1.4686192468619246
+                }
+              }
+            ],
+            "anatomicalHandApproval": false
+          },
+          {
+            "chord": "F",
+            "candidateAvailable": true,
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "true",
+              "handModelReady": "true",
+              "handChordId": "F",
+              "handReviewMode": "true",
+              "handPoseSignature": "0803a230",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            },
+            "changedWebGLPixels": 69095,
+            "angles": [
+              {
+                "preset": "angle",
+                "camera": {
+                  "position": [
+                    -5.2438252,
+                    10.8960417,
+                    2.6688125
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 11.4506979,
+                  "fov": 38,
+                  "aspect": 1.4686192468619246
+                }
+              },
+              {
+                "preset": "side",
+                "camera": {
+                  "position": [
+                    -5.070443,
+                    2.5518215,
+                    13.5767859
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 14.4491983,
+                  "fov": 38,
+                  "aspect": 1.4686192468619246
+                }
+              },
+              {
+                "preset": "back",
+                "camera": {
+                  "position": [
+                    -2.7520141,
+                    -14.8035763,
+                    2.6567868
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 15.2037845,
+                  "fov": 38,
+                  "aspect": 1.4686192468619246
+                }
+              },
+              {
+                "preset": "player",
+                "camera": {
+                  "position": [
+                    -0.5192413,
+                    -10.0958556,
+                    14.1554813
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 18.202385,
+                  "fov": 38,
+                  "aspect": 1.4686192468619246
+                }
+              }
+            ],
+            "anatomicalHandApproval": false
+          }
+        ],
+        "anatomicalHandApproval": false
+      }
+    },
+    {
+      "case": "hand-review-mobile",
+      "passed": true,
+      "details": {
+        "viewport": "mobile",
+        "initialHandHidden": true,
+        "explicitReviewAndWarning": true,
+        "poses": [
+          {
+            "chord": "C",
+            "candidateAvailable": true,
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "true",
+              "handModelReady": "true",
+              "handChordId": "C",
+              "handReviewMode": "true",
+              "handPoseSignature": "f759afd1",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            },
+            "changedWebGLPixels": 33534,
+            "angles": [
+              {
+                "preset": "angle",
+                "camera": {
+                  "position": [
+                    -6.230301,
+                    19.116674,
+                    5.1350022
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 20.0897963,
+                  "fov": 38,
+                  "aspect": 0.8325358851674641
+                }
+              },
+              {
+                "preset": "side",
+                "camera": {
+                  "position": [
+                    -5.6460083,
+                    3.8468433,
+                    20.7713515
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 21.7820102,
+                  "fov": 38,
+                  "aspect": 0.8325358851674641
+                }
+              },
+              {
+                "preset": "back",
+                "camera": {
+                  "position": [
+                    -2.2139237,
+                    -21.5297061,
+                    4.1365353
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 22.1117523,
+                  "fov": 38,
+                  "aspect": 0.8325358851674641
+                }
+              },
+              {
+                "preset": "player",
+                "camera": {
+                  "position": [
+                    -0.5192413,
+                    -10.0958556,
+                    14.1554813
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 18.202385,
+                  "fov": 38,
+                  "aspect": 0.8325358851674641
+                }
+              }
+            ],
+            "anatomicalHandApproval": false
+          },
+          {
+            "chord": "F",
+            "candidateAvailable": true,
+            "actualHand": {
+              "handStatus": "needs-review",
+              "handAssetStatus": "ready",
+              "handVisible": "true",
+              "handModelReady": "true",
+              "handChordId": "F",
+              "handReviewMode": "true",
+              "handPoseSignature": "0803a230",
+              "handModelSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+            },
+            "changedWebGLPixels": 32621,
+            "angles": [
+              {
+                "preset": "angle",
+                "camera": {
+                  "position": [
+                    -6.230301,
+                    19.116674,
+                    5.1350022
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 20.0897963,
+                  "fov": 38,
+                  "aspect": 0.8325358851674641
+                }
+              },
+              {
+                "preset": "side",
+                "camera": {
+                  "position": [
+                    -5.6460083,
+                    3.8468433,
+                    20.7713515
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 21.7820102,
+                  "fov": 38,
+                  "aspect": 0.8325358851674641
+                }
+              },
+              {
+                "preset": "back",
+                "camera": {
+                  "position": [
+                    -2.2139237,
+                    -21.5297061,
+                    4.1365353
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 22.1117523,
+                  "fov": 38,
+                  "aspect": 0.8325358851674641
+                }
+              },
+              {
+                "preset": "player",
+                "camera": {
+                  "position": [
+                    -0.5192413,
+                    -10.0958556,
+                    14.1554813
+                  ],
+                  "target": [
+                    -3.9363002,
+                    0,
+                    -0.6
+                  ],
+                  "up": [
+                    -0.2571262,
+                    -0.3058642,
+                    0.9166969
+                  ],
+                  "distance": 18.202385,
+                  "fov": 38,
+                  "aspect": 0.8325358851674641
+                }
+              }
+            ],
+            "anatomicalHandApproval": false
+          }
+        ],
+        "anatomicalHandApproval": false
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "badResponses": [],
+  "warnings": [
+    {
+      "case": "context-loss",
+      "text": "THREE.WebGLRenderer: WEBGL_lose_context extension not supported."
+    }
+  ],
+  "expectedFaultErrors": [
+    {
+      "case": "module-failure",
+      "url": "http://127.0.0.1:5430/assets/practice-three-riIgG7aP.js",
+      "status": 503
+    },
+    {
+      "case": "module-failure",
+      "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+      "location": {
+        "url": "http://127.0.0.1:5430/assets/practice-three-riIgG7aP.js",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "module-failure",
+      "url": "http://127.0.0.1:5430/assets/practice-three-riIgG7aP.js",
+      "failure": "Load request cancelled"
+    },
+    {
+      "case": "hand-failure",
+      "url": "http://127.0.0.1:5430/assets/makehuman-left-arm-sleeved-q3B7hHpz.glb",
+      "status": 503
+    },
+    {
+      "case": "hand-failure",
+      "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+      "location": {
+        "url": "http://127.0.0.1:5430/assets/makehuman-left-arm-sleeved-q3B7hHpz.glb",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "case": "hand-failure",
+      "url": "http://127.0.0.1:5430/assets/makehuman-left-arm.metadata-Dl-RSsAy.json",
+      "failure": "Load request cancelled"
+    },
+    {
+      "case": "hand-failure",
+      "url": "http://127.0.0.1:5430/assets/hand-poses-BpPTRYjp.json",
+      "failure": "Load request cancelled"
+    }
+  ],
+  "screenshots": [
+    "all-42-library.png",
+    "desktop-canvas.png",
+    "desktop-page.png",
+    "desktop-filtered.png",
+    "tablet-landscape-canvas.png",
+    "tablet-landscape-page.png",
+    "tablet-landscape-filtered.png",
+    "tablet-canvas.png",
+    "tablet-page.png",
+    "tablet-filtered.png",
+    "mobile-canvas.png",
+    "mobile-page.png",
+    "mobile-filtered.png",
+    "small-mobile-canvas.png",
+    "small-mobile-page.png",
+    "small-mobile-filtered.png",
+    "intentional-scene-loading.png",
+    "intentional-webgl-unavailable.png",
+    "intentional-context-loss.png",
+    "intentional-module-503.png",
+    "intentional-hand-loading.png",
+    "intentional-hand-503.png",
+    "UNAPPROVED-prototype-desktop-C-angle.png",
+    "UNAPPROVED-prototype-desktop-C-side.png",
+    "UNAPPROVED-prototype-desktop-C-back.png",
+    "UNAPPROVED-prototype-desktop-C-player.png",
+    "UNAPPROVED-prototype-desktop-C-warning.png",
+    "UNAPPROVED-prototype-desktop-F-angle.png",
+    "UNAPPROVED-prototype-desktop-F-side.png",
+    "UNAPPROVED-prototype-desktop-F-back.png",
+    "UNAPPROVED-prototype-desktop-F-player.png",
+    "UNAPPROVED-prototype-desktop-F-warning.png",
+    "UNAPPROVED-prototype-tablet-C-angle.png",
+    "UNAPPROVED-prototype-tablet-C-side.png",
+    "UNAPPROVED-prototype-tablet-C-back.png",
+    "UNAPPROVED-prototype-tablet-C-player.png",
+    "UNAPPROVED-prototype-tablet-C-warning.png",
+    "UNAPPROVED-prototype-tablet-F-angle.png",
+    "UNAPPROVED-prototype-tablet-F-side.png",
+    "UNAPPROVED-prototype-tablet-F-back.png",
+    "UNAPPROVED-prototype-tablet-F-player.png",
+    "UNAPPROVED-prototype-tablet-F-warning.png",
+    "UNAPPROVED-prototype-mobile-C-angle.png",
+    "UNAPPROVED-prototype-mobile-C-side.png",
+    "UNAPPROVED-prototype-mobile-C-back.png",
+    "UNAPPROVED-prototype-mobile-C-player.png",
+    "UNAPPROVED-prototype-mobile-C-warning.png",
+    "UNAPPROVED-prototype-mobile-F-angle.png",
+    "UNAPPROVED-prototype-mobile-F-side.png",
+    "UNAPPROVED-prototype-mobile-F-back.png",
+    "UNAPPROVED-prototype-mobile-F-player.png",
+    "UNAPPROVED-prototype-mobile-F-warning.png"
+  ],
+  "sourceDataSHA256": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+  "limitations": [
+    "Actual Linux Chromium/WebKit engines, not physical iPadOS Safari.",
+    "Chromium uses real SwiftShader software WebGL2.",
+    "Structural musical/diagram approval does not establish anatomical hand contact, anatomy or visual fidelity."
+  ],
+  "browserVersion": "26.5",
+  "productionArtifactSHA256": {
+    "PracticePage-C1csl1Cm.js": "781852f4d2cc4226cbc0a30778056c48a586bb5c558eea2cb6db2ca348d29d39",
+    "PracticePage-De_eEkvR.css": "0ebc2a47b730cc296e54e15160698e4d8a30e366d61143e4c537b51a1ad42ff3",
+    "practice-three-riIgG7aP.js": "fdfefc8965d2d2fccb8694660544cf04bc96f7b752b8d222c53328ac83ef8f4b",
+    "hand-poses-BpPTRYjp.json": "360f10f17ae088c4f1beb1d1fbf4977023a2bd2f8bede9b88800af5c91492f70",
+    "makehuman-left-arm.metadata-Dl-RSsAy.json": "e14806f1a2f3275e3ae23621afe9c1587fd16db598392abc7c7a16f447e8fc74",
+    "makehuman-left-arm-sleeved-q3B7hHpz.glb": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+  },
+  "buildArtifactsUnchangedDuringRun": true,
+  "passed": true
+}

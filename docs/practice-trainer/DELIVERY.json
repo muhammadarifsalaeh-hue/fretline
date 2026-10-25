@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-25",
+  "branch": "feature/guitar-practice-3d",
+  "baseline": "b21bd6adb8fd1cead2d5fc2aeb0929d2f56eb431",
+  "rollbackCheckpoint": "17bd035",
+  "productionReady42HandTrainer": false,
+  "verifiedDiagrams": 42,
+  "verifiedTeachingHands": 0,
+  "needsReviewHandCandidates": 42,
+  "masterMerged": false,
+  "physicalIPadSafariTested": false,
+  "browserAcceptance": "21/21 Chromium + 21/21 Linux WebKit",
+  "legacyBrowserRegression": "107/107",
+  "extraCameraControls": "both engines pass",
+  "legacyStaticCommands": {
+    "phase4": "19/19 pass",
+    "phase5": "fail: reproduced on baseline",
+    "phase6": "fail: reproduced on baseline",
+    "phase7": "fail: reproduced on baseline",
+    "phase8": "fail: reproduced on baseline",
+    "phase9": "fail: reproduced on baseline"
+  },
+  "catalog": {
+    "models": 200,
+    "brands": 10,
+    "perBrand": 20,
+    "uniqueIds": 200
+  },
+  "scope": "Stable diagram/neck practice fallback with gated hand prototypes; not an approved 42-pose human-hand lesson."
+}

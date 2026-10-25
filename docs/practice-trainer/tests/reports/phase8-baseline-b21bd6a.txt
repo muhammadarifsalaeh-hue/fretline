@@ -1,0 +1,37 @@
+
+> fretline@0.1.0 phase8:check
+> node scripts/check-phase8.mjs && node scripts/check-phase8-catalog.mjs
+
+PASS Phase 7 remains an ancestor of the current history
+PASS the approved catalog remains exactly 200 models and 10 brands
+PASS every approved brand has exactly 20 models
+PASS active and archived records have no duplicate IDs or normalized models
+PASS all 200 records still pass the existing data schema
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: yamaha-pacifica-612viifm
+
+34000 !== null
+
+    at file:///tmp/fretline-legacy-baseline-b21bd6a/scripts/check-phase8.mjs:43:12
+    at check (file:///tmp/fretline-legacy-baseline-b21bd6a/scripts/check-phase8.mjs:18:31)
+    at file:///tmp/fretline-legacy-baseline-b21bd6a/scripts/check-phase8.mjs:40:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 34000,
+  expected: null,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

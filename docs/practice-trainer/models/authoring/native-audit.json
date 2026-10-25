@@ -1,0 +1,68 @@
+{
+  "nativeFile": "docs/practice-trainer/models/authoring/MakeHuman_Left_Arm_Source_UNPOSED.blend",
+  "sha256": "2b4bfbc1b50dc0f09fbef35ce83a272f4c67f4f2878c458119a44e99b75bf0a5",
+  "bytes": 2277616,
+  "boneCount": 22,
+  "allPoseTransformsIdentity": true,
+  "guitarPoseVerified": false,
+  "meshes": [
+    {
+      "name": "Black_LongSleeve_Forearm",
+      "vertices": 678,
+      "polygons": 652,
+      "connectedComponentSizes": [
+        678
+      ],
+      "allVerticesFinite": true,
+      "weightSumRange": [
+        0.9999999403953552,
+        1.0000000894069672
+      ],
+      "armatureModifiers": [
+        "Fretline_Left_Hand_Rig"
+      ],
+      "materialNames": [
+        "Black_Cotton_LongSleeve_Elvaerwyn"
+      ]
+    },
+    {
+      "name": "MakeHuman_Left_Hand_Forearm",
+      "vertices": 7407,
+      "polygons": 7380,
+      "connectedComponentSizes": [
+        7407
+      ],
+      "allVerticesFinite": true,
+      "weightSumRange": [
+        0.9999999105930328,
+        1.0000000894069672
+      ],
+      "armatureModifiers": [
+        "Fretline_Left_Hand_Rig"
+      ],
+      "materialNames": [
+        "HumanSkin_PBR_CC0"
+      ]
+    }
+  ],
+  "packedImages": [
+    {
+      "name": "shirttietex1.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "packedBytes": 103243,
+      "sha256": "2f0a008caeb2534376e24eac84e6048afb2196007b76a4fd734265200a26d0ae"
+    },
+    {
+      "name": "skin-2048-optimized.jpg",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "packedBytes": 340454,
+      "sha256": "39f214706bc2a22a60b1470f8d2cdd0f814f6a1e96f157f9b6c266f741f237ed"
+    }
+  ]
+}

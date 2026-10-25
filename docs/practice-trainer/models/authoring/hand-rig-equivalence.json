@@ -1,0 +1,16 @@
+{
+  "scope": "hand and complete rig",
+  "beforeSha256": "d46b7545ccf59b8bc7166eb5ff747f682a2b1ac859fb923a9d351930db4abae8",
+  "afterSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "nodesIdentical": false,
+  "boneNodesIdentical": true,
+  "skinDefinitionsIdentical": true,
+  "meshes": [
+    {
+      "name": "MakeHuman_Left_Hand_ForearmMesh",
+      "allAttributeBytesIdentical": true,
+      "allIndexBytesIdentical": true
+    }
+  ],
+  "inverseBindBytesIdentical": true
+}

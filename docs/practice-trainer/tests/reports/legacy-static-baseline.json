@@ -1,0 +1,131 @@
+{
+  "dateUTC": "2026-10-25",
+  "baselineCommit": "b21bd6adb8fd1cead2d5fc2aeb0929d2f56eb431",
+  "result": "All five legacy static commands fail identically on isolated baseline source. Not counted as passes. No product data or old assertions changed.",
+  "method": "git archive baseline extraction into /tmp; node_modules symlink to identical installed dependencies; .git read-only pointer for historical git show and ancestry checks; exact commands run serially with sockets permitted; no browsers. Normalize only repo paths and unrelated npm update notice after the assertion output.",
+  "protectedFileComparison": {
+    "manifest": "legacy-static-baseline-file-hashes.json",
+    "filesChecked": 368,
+    "identical": 368,
+    "differences": 0
+  },
+  "rows": [
+    {
+      "phase": 5,
+      "command": "npm run phase5:check",
+      "workingTreeExitCode": 1,
+      "baselineExitCode": 1,
+      "checksPassedBeforeFailure": 6,
+      "assertionPath": "scripts/check-phase5.mjs:46",
+      "cause": "Frozen Phase5 requires no brand price ranges or logos. Baseline already has logos and the Yamaha source-backed THB34,000 recommended retail price.",
+      "sameNormalizedAssertionAndPassList": true,
+      "workingSocketErrors": [
+        "Error: listen EPERM: operation not permitted 0.0.0.0:24678"
+      ],
+      "baselineSocketErrors": [],
+      "logs": [
+        {
+          "path": "phase5-final.txt",
+          "sha256": "b5811aa6dabfd526fec4116ee52ac6ea03f97de56f1eee09de1c380e6ce56a14"
+        },
+        {
+          "path": "phase5-baseline-b21bd6a.txt",
+          "sha256": "fb2480cce39504ca34fd5f44a1d40b039a962f1eaefdc64d1678bd7bfd0458f0"
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "command": "npm run phase6:check",
+      "workingTreeExitCode": 1,
+      "baselineExitCode": 1,
+      "checksPassedBeforeFailure": 4,
+      "assertionPath": "scripts/check-phase6.mjs:35",
+      "cause": "Frozen Phase6 requires every public price to be null; baseline Yamaha PAC612VIIFM is THB34,000.",
+      "sameNormalizedAssertionAndPassList": true,
+      "workingSocketErrors": [
+        "Error: listen EPERM: operation not permitted 0.0.0.0:24678"
+      ],
+      "baselineSocketErrors": [],
+      "logs": [
+        {
+          "path": "phase6-final.txt",
+          "sha256": "6ed57092fdefd78e95ff0f8a086f032a41f457b28ad3fe612c6127b9e50c7594"
+        },
+        {
+          "path": "phase6-baseline-b21bd6a.txt",
+          "sha256": "762bb7bc5496141fcce95e9fa943a6848379137dd18af7abd559cb6dd1dfc827"
+        }
+      ]
+    },
+    {
+      "phase": 7,
+      "command": "npm run phase7:check",
+      "workingTreeExitCode": 1,
+      "baselineExitCode": 1,
+      "checksPassedBeforeFailure": 3,
+      "assertionPath": "scripts/lib/phase9.mjs:35; scripts/check-phase7.mjs:38",
+      "cause": "Old Phase9 batch boundary rejects the later approved PAC612VIIFM description, price, specs and sources as an out-of-batch change.",
+      "sameNormalizedAssertionAndPassList": true,
+      "workingSocketErrors": [
+        "Error: listen EPERM: operation not permitted 0.0.0.0:24678"
+      ],
+      "baselineSocketErrors": [],
+      "logs": [
+        {
+          "path": "phase7-final.txt",
+          "sha256": "f4c22a0011a48748f3fe475a01d627c6f5f3083a4ab8eb57f53beb00f02583ed"
+        },
+        {
+          "path": "phase7-baseline-b21bd6a.txt",
+          "sha256": "b407027ed22b7895655c6f9e24c2dc80fcca0f7d76176cf21c42bc35b64bd12f"
+        }
+      ]
+    },
+    {
+      "phase": 8,
+      "command": "npm run phase8:check",
+      "workingTreeExitCode": 1,
+      "baselineExitCode": 1,
+      "checksPassedBeforeFailure": 5,
+      "assertionPath": "scripts/check-phase8.mjs:43",
+      "cause": "Frozen Phase8 requires all prices null; baseline PAC612VIIFM is THB34,000. The second npm && script check-phase8-catalog.mjs is not reached.",
+      "sameNormalizedAssertionAndPassList": true,
+      "workingSocketErrors": [],
+      "baselineSocketErrors": [],
+      "logs": [
+        {
+          "path": "phase8-final.txt",
+          "sha256": "361e30fb4073f16774a7c9501c4ccc05dba3043c41575fb1107147f14a009fb7"
+        },
+        {
+          "path": "phase8-baseline-b21bd6a.txt",
+          "sha256": "7ffbb6fa26739e64e2bf4d77bbed4011eddd1e8f2577adcca9235b517dc2688d"
+        }
+      ]
+    },
+    {
+      "phase": 9,
+      "command": "npm run phase9:check",
+      "workingTreeExitCode": 1,
+      "baselineExitCode": 1,
+      "checksPassedBeforeFailure": 0,
+      "assertionPath": "scripts/check-phase9.mjs:23",
+      "cause": "Frozen docs/qa-phase9/audit-after.json predates the later PAC612VIIFM update and no longer equals readCatalog().",
+      "sameNormalizedAssertionAndPassList": true,
+      "workingSocketErrors": [],
+      "baselineSocketErrors": [],
+      "logs": [
+        {
+          "path": "phase9-final.txt",
+          "sha256": "eaa534430ab3bdeb419e152f9eab69f60c63d1e792efd35a5e0ade2f02051449"
+        },
+        {
+          "path": "phase9-baseline-b21bd6a.txt",
+          "sha256": "516344711525cb97ecd756c9d2e917832fff4dc36327bede484c9cdba2afc212"
+        }
+      ]
+    }
+  ],
+  "limitation": "Scripts abort at first assertion. Later assertions were not executed and are not reported as passing."
+}

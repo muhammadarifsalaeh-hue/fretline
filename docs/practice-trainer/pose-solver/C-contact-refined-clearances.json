@@ -1,0 +1,173 @@
+{
+  "scope": "All14760actualexportedGLBskintriangles vs physicalpiecewisecentrelines, circumcircleradiususedconservatively around6sidedactualtubes. Positiveclearanceprovesoutsidecircumscribedtube. SLSQPcoordinatesaresecondaryillustrativeclosestpointcalculation; authoritativeclearanceminimumcomesfromanalytictriangle/segmentdistance.",
+  "strings": [
+    {
+      "string": 1,
+      "minimumWholeSkinTriangleClearanceMm": 0.5572373473607172,
+      "triangle": 5408,
+      "triangleVertexIndices": [
+        865,
+        5019,
+        6719
+      ],
+      "lineSegmentIndex": 0,
+      "linePointMm": [
+        121.1605750143813,
+        1.596709636668962,
+        -19.089297666083706
+      ],
+      "skinPointMm": [
+        121.15517042587464,
+        2.2478400119383894,
+        -19.292885050183266
+      ],
+      "closestPairCalculationConverged": true,
+      "closestPairDistanceMm": 0.6822373473652211,
+      "barycentric": [
+        0.9363715574488343,
+        0.06362844255116576,
+        0.0
+      ]
+    },
+    {
+      "string": 2,
+      "minimumWholeSkinTriangleClearanceMm": 0.007999994916773556,
+      "triangle": 1064,
+      "triangleVertexIndices": [
+        39,
+        4293,
+        6176
+      ],
+      "lineSegmentIndex": 0,
+      "linePointMm": [
+        31.70696502025108,
+        1.0325976475927705,
+        -10.749545558029753
+      ],
+      "skinPointMm": [
+        31.708856409324806,
+        1.2046308907315664,
+        -10.767711023721873
+      ],
+      "closestPairCalculationConverged": true,
+      "closestPairDistanceMm": 0.17299999491702833,
+      "barycentric": [
+        0.0,
+        0.36540069294175037,
+        0.6345993070582496
+      ]
+    },
+    {
+      "string": 3,
+      "minimumWholeSkinTriangleClearanceMm": 2.6826445722674226,
+      "triangle": 2541,
+      "triangleVertexIndices": [
+        6360,
+        419,
+        2543
+      ],
+      "lineSegmentIndex": 0,
+      "linePointMm": [
+        66.33580777520048,
+        1.9381326235927887,
+        -3.674029125336174
+      ],
+      "skinPointMm": [
+        66.32961662004054,
+        4.1882262709438365,
+        -1.8245592953274365
+      ],
+      "closestPairCalculationConverged": true,
+      "closestPairDistanceMm": 2.9126445722683543,
+      "barycentric": [
+        0.44183095521602744,
+        0.0,
+        0.5581690447839726
+      ]
+    },
+    {
+      "string": 4,
+      "minimumWholeSkinTriangleClearanceMm": 0.007999996647902574,
+      "triangle": 1844,
+      "triangleVertexIndices": [
+        6273,
+        4428,
+        301
+      ],
+      "lineSegmentIndex": 1,
+      "linePointMm": [
+        66.71799184625462,
+        1.3357059156301636,
+        3.6750317687324583
+      ],
+      "skinPointMm": [
+        66.71797410801226,
+        1.673548171845701,
+        3.6853568515182635
+      ],
+      "closestPairCalculationConverged": true,
+      "closestPairDistanceMm": 0.33799999664790503,
+      "barycentric": [
+        -1.1102230246251565e-16,
+        0.3969338810630029,
+        0.6030661189369971
+      ]
+    },
+    {
+      "string": 5,
+      "minimumWholeSkinTriangleClearanceMm": 0.007999996750959304,
+      "triangle": 3329,
+      "triangleVertexIndices": [
+        668,
+        6459,
+        4676
+      ],
+      "lineSegmentIndex": 1,
+      "linePointMm": [
+        101.92076306745524,
+        1.2975158650436258,
+        11.302154153771639
+      ],
+      "skinPointMm": [
+        101.92129828775188,
+        1.7574539698700662,
+        11.248997307935133
+      ],
+      "closestPairCalculationConverged": true,
+      "closestPairDistanceMm": 0.46299999675096076,
+      "barycentric": [
+        0.5710589218446028,
+        0.0,
+        0.42894107815539717
+      ]
+    },
+    {
+      "string": 6,
+      "minimumWholeSkinTriangleClearanceMm": 4.213393313562357,
+      "triangle": 8961,
+      "triangleVertexIndices": [
+        658,
+        7163,
+        2824
+      ],
+      "lineSegmentIndex": 0,
+      "linePointMm": [
+        101.42215428817826,
+        2.048753658247632,
+        18.83038319668135
+      ],
+      "skinPointMm": [
+        101.48158487504307,
+        2.8896221713140893,
+        14.030448766112592
+      ],
+      "closestPairCalculationConverged": true,
+      "closestPairDistanceMm": 4.873393313563057,
+      "barycentric": [
+        0.7813728772635073,
+        2.6139189610377635e-16,
+        0.2186271227364924
+      ]
+    }
+  ]
+}

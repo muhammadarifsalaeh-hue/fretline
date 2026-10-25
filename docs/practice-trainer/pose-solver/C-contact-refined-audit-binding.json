@@ -1,0 +1,23 @@
+{
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "poseTransformSha256": "ebebd1a06b983fd03cbb0b994777d5d1ae9d075bfc501bf05c215f7a2cd45e1f",
+  "poseTransformHashFormat": "UTF-8 json.dumps({root,bones},sort_keys=True,separators=(comma,colon)); quaternions are absolute local rotations",
+  "reports": [
+    {
+      "path": "C-contact-refined-self-audit.json",
+      "sha256": "661d3cda8f17605c811375a686dacc529576c6b9de4bacf16f6a4127c9490e92"
+    },
+    {
+      "path": "C-contact-refined-combined-self-audit.json",
+      "sha256": "adad40b36b36b7d9d61a586f7cfa4dded0621669ade69203beb3fda9bb744db5"
+    },
+    {
+      "path": "C-contact-refined-guitar-audit.json",
+      "sha256": "72a5077dce9dca90fd0a9d85cfb17c7c3964142cb14ccd14bcacd4293dedcdbd"
+    },
+    {
+      "path": "C-contact-refined-combined-guitar-audit.json",
+      "sha256": "b65b558a4757fadf280f597b28d174ed83cbc344dc17beaf76c0436f2acaffeb"
+    }
+  ]
+}

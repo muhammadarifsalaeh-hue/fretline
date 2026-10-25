@@ -1,0 +1,23 @@
+# Exported from MakeClothes (TM)
+# author Elvaerwyn
+# license CC_by
+# homepage http://www.makehuman.org/
+uuid f1a4e71c-d014-48e8-91cb-798121cf7cda
+basemesh hm08
+tag shirt
+tag menswear
+tag fashion
+tag traditional
+tag untucked
+
+name mens_shirt_untuck_elvbhp1f
+obj_file mens_shirt_untuck_elvbhp1f.obj
+l_shear_x 10589 3924 1.5797 -1.5797
+l_shear_z 1892 3946 1.3160 -0.6583
+l_shear_y 1524 4370 6.1141 0.3438
+r_shear_x 3924 10589 -1.5797 1.5797
+r_shear_z 1892 3946 1.3160 -0.6583
+r_shear_y 1524 4370 6.1141 0.3438
+z_depth 47
+max_pole 5
+material mens_shirt_untuck_elvbhp1f.mhmat

@@ -1,0 +1,83 @@
+{
+  "engine": "chromium",
+  "url": "http://127.0.0.1:5430",
+  "scope": "42-chord music/diagram/trainer acceptance; anatomical hand poses are assessed separately",
+  "checks": [
+    {
+      "case": "webgl-unavailable",
+      "passed": false,
+      "failure": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/practice-trainer/tests/browser-trainer.py\", line 689, in <module>\n    details = function(page)\n              ^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/practice-trainer/tests/browser-trainer.py\", line 418, in unsupported\n    page.locator('[data-practice-retry]').click()\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py\", line 17876, in click\n    self._sync(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_locator.py\", line 165, in click\n    return await self._frame._click(self._selector, strict=True, **params)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_frame.py\", line 593, in _click\n    await self._channel.send(\"click\", self._timeout, locals_to_params(locals()))\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 76, in send\n    return await self._connection.wrap_api_call(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py\", line 632, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-practice-retry]\")\n    - locator resolved to <button type=\"button\" data-practice-retry=\"true\">…</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n\n",
+      "url": "http://127.0.0.1:5430/practice?chord=F"
+    },
+    {
+      "case": "performance-lifecycle",
+      "passed": true,
+      "details": {
+        "idleRenderCountBefore": 2,
+        "idleRenderCountAfter": 2,
+        "zoomRenderCount": 3,
+        "renderInfo": {
+          "calls": 81,
+          "triangles": 15542,
+          "geometries": 71,
+          "textures": 15
+        },
+        "spaUnmounts": 3,
+        "heap": [
+          {
+            "cycle": 1,
+            "jsHeapUsedBytesAfterUnmount": 8370040,
+            "jsHeapTotalBytes": 9289728,
+            "documents": 1,
+            "nodes": 1669
+          },
+          {
+            "cycle": 2,
+            "jsHeapUsedBytesAfterUnmount": 8779144,
+            "jsHeapTotalBytes": 9551872,
+            "documents": 1,
+            "nodes": 1694
+          },
+          {
+            "cycle": 3,
+            "jsHeapUsedBytesAfterUnmount": 9035108,
+            "jsHeapTotalBytes": 9551872,
+            "documents": 1,
+            "nodes": 1719
+          }
+        ],
+        "limitations": [
+          "Software WebGL engine measurements are not physical iPad GPU/frame-rate evidence.",
+          "JS heap measurements do not measure native WebGL/GPU memory."
+        ]
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "badResponses": [],
+  "warnings": [],
+  "expectedFaultErrors": [],
+  "screenshots": [
+    "intentional-webgl-unavailable.png",
+    "failure-webgl-unavailable.png"
+  ],
+  "sourceDataSHA256": "3ed5a0582ed988b058ddbef88a6fad125a0a4d6a9d7c19d676d4b8dd85e2b0c2",
+  "limitations": [
+    "Actual Linux Chromium/WebKit engines, not physical iPadOS Safari.",
+    "Chromium uses real SwiftShader software WebGL2.",
+    "Structural musical/diagram approval does not establish anatomical hand contact, anatomy or visual fidelity."
+  ],
+  "browserVersion": "154.0.8037.57",
+  "productionArtifactSHA256": {
+    "PracticePage-Cil1jkHP.js": "ffbb6b3db9642f534ec445bf752112d1289d5073e7de81dea9a1713f7521a213",
+    "PracticePage-De_eEkvR.css": "0ebc2a47b730cc296e54e15160698e4d8a30e366d61143e4c537b51a1ad42ff3",
+    "practice-three-Babn8Rbk.js": "f0d3dbb171f43410464d8611095f73377e8795aa0a742c118ce0a40e984aa66a",
+    "hand-poses-BRtqeYW2.json": "e8b9cf813c2d1e833d8974859f529ce70b65c994bdc46ddd20549d5380e52f6e",
+    "makehuman-left-arm.metadata-Dl-RSsAy.json": "e14806f1a2f3275e3ae23621afe9c1587fd16db598392abc7c7a16f447e8fc74",
+    "makehuman-left-arm-sleeved-q3B7hHpz.glb": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+  },
+  "buildArtifactsUnchangedDuringRun": true,
+  "passed": false
+}

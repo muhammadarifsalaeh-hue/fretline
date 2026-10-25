@@ -1,0 +1,14 @@
+{
+  "candidate": "docs/practice-trainer/pose-solver/C-arm-variant.json",
+  "against": null,
+  "scope": "All supplied mesh triangles (skin only for a runtime pose), nonadjacent index sets, inclusive AABB broad phase, bidirectional segment/triangle crossings and coplanar interior-area overlaps. Original skin seams are not welded.",
+  "broadphasePairs": 9513,
+  "crossingPairCount": 0,
+  "coplanarOverlapPairCount": 0,
+  "pairs": [],
+  "categoryCounts": [],
+  "candidateFile": "docs/practice-trainer/pose-solver/C-arm-variant.json",
+  "candidateSha256": "3eb34d7807d30e620d70d0af91baaddce863bde753f6e8557cdc3af7fb9a98ed",
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "reproductionScript": "docs/practice-trainer/pose-solver/reframe_c_forearm.py"
+}

@@ -1,0 +1,202 @@
+{
+  "passed": true,
+  "scope": "Code/music/diagram/rendering/lifecycle acceptance only. No anatomical hand or physical iPad Safari approval.",
+  "sourceDataSHA256": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+  "productionArtifactSHA256": {
+    "PracticePage-C1csl1Cm.js": "781852f4d2cc4226cbc0a30778056c48a586bb5c558eea2cb6db2ca348d29d39",
+    "PracticePage-De_eEkvR.css": "0ebc2a47b730cc296e54e15160698e4d8a30e366d61143e4c537b51a1ad42ff3",
+    "practice-three-riIgG7aP.js": "fdfefc8965d2d2fccb8694660544cf04bc96f7b752b8d222c53328ac83ef8f4b",
+    "hand-poses-BpPTRYjp.json": "360f10f17ae088c4f1beb1d1fbf4977023a2bd2f8bede9b88800af5c91492f70",
+    "makehuman-left-arm.metadata-Dl-RSsAy.json": "e14806f1a2f3275e3ae23621afe9c1587fd16db598392abc7c7a16f447e8fc74",
+    "makehuman-left-arm-sleeved-q3B7hHpz.glb": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+  },
+  "browserTrainer": {
+    "chromium": {
+      "passed": true,
+      "cases": 21,
+      "browserVersion": "154.0.8037.57",
+      "unexpectedConsoleErrors": 0,
+      "runtimeErrors": 0,
+      "unexpectedFailedRequests": 0,
+      "unexpectedHTTPFailures": 0,
+      "expectedInjectedFaultDiagnostics": 8,
+      "performance": {
+        "idleRenderCountBefore": 3,
+        "idleRenderCountAfter": 3,
+        "zoomRenderCount": 4,
+        "renderInfo": {
+          "calls": 78,
+          "triangles": 15500,
+          "geometries": 68,
+          "textures": 15
+        },
+        "visibleHandRenderInfo": {
+          "calls": 68,
+          "triangles": 30912,
+          "geometries": 70,
+          "textures": 18
+        },
+        "spaUnmounts": 3,
+        "heap": [
+          {
+            "cycle": 1,
+            "jsHeapUsedBytesAfterUnmount": 8419996,
+            "jsHeapTotalBytes": 9289728,
+            "documents": 1,
+            "nodes": 1669
+          },
+          {
+            "cycle": 2,
+            "jsHeapUsedBytesAfterUnmount": 8839224,
+            "jsHeapTotalBytes": 9814016,
+            "documents": 1,
+            "nodes": 1694
+          },
+          {
+            "cycle": 3,
+            "jsHeapUsedBytesAfterUnmount": 9069952,
+            "jsHeapTotalBytes": 10076160,
+            "documents": 1,
+            "nodes": 1719
+          }
+        ],
+        "limitations": [
+          "Software WebGL engine measurements are not physical iPad GPU/frame-rate evidence.",
+          "JS heap measurements do not measure native WebGL/GPU memory."
+        ]
+      },
+      "unsupportedRecovery": {
+        "intentionalFault": "WebGL context unavailable",
+        "trainerUsableDuringFault": true,
+        "retryPreservesSelection": "F",
+        "softwareRendererRecoverySeconds": 1.908
+      },
+      "report": "docs/practice-trainer/tests/reports/final-chromium/browser-trainer-chromium.json"
+    },
+    "webkit": {
+      "passed": true,
+      "cases": 21,
+      "browserVersion": "26.5",
+      "unexpectedConsoleErrors": 0,
+      "runtimeErrors": 0,
+      "unexpectedFailedRequests": 0,
+      "unexpectedHTTPFailures": 0,
+      "expectedInjectedFaultDiagnostics": 7,
+      "performance": {
+        "idleRenderCountBefore": 2,
+        "idleRenderCountAfter": 2,
+        "zoomRenderCount": 3,
+        "renderInfo": {
+          "calls": 78,
+          "triangles": 15500,
+          "geometries": 68,
+          "textures": 15
+        },
+        "visibleHandRenderInfo": {
+          "calls": 68,
+          "triangles": 30912,
+          "geometries": 70,
+          "textures": 18
+        },
+        "spaUnmounts": 3,
+        "heap": [],
+        "limitations": [
+          "Software WebGL engine measurements are not physical iPad GPU/frame-rate evidence.",
+          "JS heap measurements do not measure native WebGL/GPU memory."
+        ]
+      },
+      "unsupportedRecovery": {
+        "intentionalFault": "WebGL context unavailable",
+        "trainerUsableDuringFault": true,
+        "retryPreservesSelection": "F",
+        "softwareRendererRecoverySeconds": 0.879
+      },
+      "report": "docs/practice-trainer/tests/reports/final-webkit/browser-trainer-webkit.json"
+    }
+  },
+  "legacyRegressions": {
+    "passed": true,
+    "checks": 107,
+    "runs": [
+      {
+        "case": "shared",
+        "returncode": 0,
+        "report": "docs/practice-trainer/tests/reports/final-regressions/shared-regression.json",
+        "checks": 18,
+        "expectedChecks": 18,
+        "passed": true
+      },
+      {
+        "case": "gallery",
+        "returncode": 0,
+        "report": "docs/practice-trainer/tests/reports/final-regressions/regression/browser-practice-trainer.json",
+        "checks": 79,
+        "expectedChecks": 79,
+        "passed": true
+      },
+      {
+        "case": "camera-chromium",
+        "returncode": 0,
+        "report": "docs/practice-trainer/tests/reports/final-regressions/camera-chromium/camera-orientation-chromium.json",
+        "checks": 5,
+        "expectedChecks": 5,
+        "passed": true
+      },
+      {
+        "case": "camera-webkit",
+        "returncode": 0,
+        "report": "docs/practice-trainer/tests/reports/final-regressions/camera-webkit/camera-orientation-webkit.json",
+        "checks": 5,
+        "expectedChecks": 5,
+        "passed": true
+      }
+    ]
+  },
+  "supplementalCameraControls": {
+    "passed": true,
+    "engineCases": 2,
+    "perEngine": "Seven presets; four orbit/zoom buttons; keyboard and button reset; full-neck head/nut/body frame",
+    "report": "docs/practice-trainer/tests/reports/final-camera-controls/camera-controls.json"
+  },
+  "independentMusic": {
+    "passed": true,
+    "checks": 86,
+    "report": "docs/practice-trainer/tests/reports/chord-audit.json"
+  },
+  "handRuntime": {
+    "passed": true,
+    "checks": 17,
+    "log": "docs/practice-trainer/tests/reports/final-hand-runtime.log"
+  },
+  "physicalFrettedStrings": {
+    "passed": true,
+    "chords": 42,
+    "log": "docs/practice-trainer/tests/reports/final-fretted-strings.log"
+  },
+  "chordEvidence": {
+    "musicPassed": 42,
+    "renderedDiagramPassed": 42,
+    "handCandidates": 42,
+    "independentlyApprovedSourceHands": 0,
+    "handsApprovedByThisHarness": 0
+  },
+  "initialFailures": [
+    {
+      "issue": "Interim all-42 full-page screenshot timed out while multiple solver and software-renderer workers competed",
+      "resolution": "Canonical serial engine runs passed with complete final screenshots."
+    },
+    {
+      "issue": "Unsupported-WebGL test returned a native function during restore, triggering a Playwright Illegal invocation",
+      "resolution": "The harness restores the prototype and returns a primitive; actual recovery passed in both engines."
+    },
+    {
+      "issue": "Interim cold software-WebGL retry pointer action exceeded 30 seconds under concurrent GPU work",
+      "resolution": "The final app bakes a 64px studio environment and serial canonical retry recovered in 1.908s Chromium / 0.879s WebKit; the harness permits a bounded 90s cold action and records time."
+    }
+  ],
+  "limitations": [
+    "No physical iPadOS Safari, iPad GPU frame-rate, or native iPad multi-touch validation.",
+    "Chromium JS-heap churn evidence excludes native WebGL/GPU allocations.",
+    "42 real hand candidates remain needs-review and hidden in normal lessons. No hand is anatomically verified."
+  ]
+}

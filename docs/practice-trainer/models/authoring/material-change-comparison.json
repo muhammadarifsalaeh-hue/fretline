@@ -1,0 +1,19 @@
+{
+  "beforeSha256": "f8b40d1e9ab59e3ffe93c081e400d3d2816f1894cc6928bcf18a973deaf090e5",
+  "afterSha256": "d46b7545ccf59b8bc7166eb5ff747f682a2b1ac859fb923a9d351930db4abae8",
+  "nodesIdentical": true,
+  "skinDefinitionsIdentical": true,
+  "meshes": [
+    {
+      "name": "Black_LongSleeve_ForearmMesh",
+      "allAttributeBytesIdentical": true,
+      "allIndexBytesIdentical": true
+    },
+    {
+      "name": "MakeHuman_Left_Hand_ForearmMesh",
+      "allAttributeBytesIdentical": true,
+      "allIndexBytesIdentical": true
+    }
+  ],
+  "inverseBindBytesIdentical": true
+}

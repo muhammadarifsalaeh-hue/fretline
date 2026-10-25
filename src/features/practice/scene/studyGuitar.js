@@ -340,3 +340,6 @@ export function buildStudyGuitar({ textures = true } = {}) {
     surfaces: { widthAtX, boardTopY, neckBackY, stringZ, fretX, openStringCenterY },
   };
 }
+
+// Shared by the live fretting controller so string topology stays consistent.
+export { polylineTube as createStudyStringGeometry };

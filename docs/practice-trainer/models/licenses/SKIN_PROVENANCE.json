@@ -1,0 +1,32 @@
+{
+  "asset": "young_caucasian_male",
+  "author": "makehuman_system",
+  "license": "CC0",
+  "copyrightHoldersAtRelease": [
+    "Data Collection AB",
+    "Joel Palmius",
+    "Jonas Hauquier"
+  ],
+  "release": "September 2020 (embedded MHMAT header)",
+  "listingUrl": "https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html",
+  "sourcePackUrl": "https://files2.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip",
+  "sourceEntry": {
+    "name": "skins/young_caucasian_male/young_lightskinned_male_diffuse.png",
+    "compressed": 3690012,
+    "size": 3693828,
+    "offset": 23394852,
+    "crc": 3877881233,
+    "method": 8
+  },
+  "retrievedUtc": "2026-10-24",
+  "files": {
+    "young_caucasian_male.mhmat": {
+      "size": 1462,
+      "sha256": "6eda60b07ff2afbde078a2535ef3913593d84e9de92b2eb76c30f396a181fe2e"
+    },
+    "young_lightskinned_male_diffuse.png": {
+      "size": 3693828,
+      "sha256": "862a26e335e958b70534cb5f0d7c47ef30ab148a56c42b3e9da969cf76f12963"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "poseTransformSha256": "9360c6ed2b6cc0decbcf6a79b646bf3e045faba3686e6620306222ef6a10a157",
+  "transformSource": "Actual authored root and22localbonequaternions, not sourceSolverParameters",
+  "independentCombinedMeshMaximumCoordinateDifferenceMm": 1.1368683772161603e-13,
+  "independentCombinedMeshIndexArraysEqual": true,
+  "reports": [
+    {
+      "path": "C-arm-variant-self-audit.json",
+      "sha256": "5524f7c2eddc9e1364f6c2f7b9a382214c4a31ef9e9383d0e4df0901f417ef6a"
+    },
+    {
+      "path": "C-arm-variant-combined-self-audit.json",
+      "sha256": "b20814f59b7102f6e6a55908f6dc9fdf9bfd1e337498deb35b1907cfe5a857d9"
+    },
+    {
+      "path": "C-arm-variant-guitar-audit.json",
+      "sha256": "3ee7c366daeea801969f1813988bac460ad0e1bfdd0280c7e176f86b6936915c"
+    },
+    {
+      "path": "C-arm-variant-clearances.json",
+      "sha256": "e3fe8ab8412dd1359ea4a98a32a8907308ad96cc6c4e3fbf8537f220b111c479"
+    }
+  ],
+  "inspection": {
+    "views": [
+      "../visual-review/C-arm-angle.png",
+      "../visual-review/C-arm-side.png",
+      "../visual-review/C-arm-back.png",
+      "../visual-review/C-arm-player.png"
+    ],
+    "multiViewReviewed": true,
+    "anatomyPassed": false,
+    "reason": "Contacts are geometrically correct and source hand/forearm/garment continuous. However finite sleeve termination remains visibly floating in Side/Player and silhouette does not yet meet the approved natural reference. Keep teaching gate needs-review."
+  }
+}

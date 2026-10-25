@@ -1,0 +1,40 @@
+{
+  "author": "Elvaerwyn",
+  "category": "Shirt/T-shirt/Sweater",
+  "changed": "2019-03-31",
+  "created": "2019-03-31",
+  "description": "A shirt for makehuman male models consisting of a buttoned untucked shirt. Quad based model and one simple texture included.",
+  "license": "CC-BY",
+  "original_author": "",
+  "original_source": "",
+  "source": "http://www.makehumancommunity.org/node/1800",
+  "thumbnail": "elvs_male_shirt_untucked_bd1.png",
+  "type": "clothes",
+  "sourcePackUrl": "https://files2.makehumancommunity.org/asset_packs/shirts02/shirts02_ccby.zip",
+  "listingUrl": "https://static.makehumancommunity.org/assets/assetpacks/shirts02.html",
+  "retrievedUtc": "2026-10-24",
+  "basemesh": "hm08",
+  "licenseAsEmbedded": "CC_by",
+  "files": {
+    "shirttietex1.png": {
+      "size": 103243,
+      "sha256": "2f0a008caeb2534376e24eac84e6048afb2196007b76a4fd734265200a26d0ae"
+    },
+    "elvs_male_shirt_untucked_bd1.thumb": {
+      "size": 76554,
+      "sha256": "d2d76c41e77fcd084f9fc368c5e10cc93f2aa72eff6a306e5b32e609e38a448e"
+    },
+    "mens_shirt_untuck_elvbhp1f.obj": {
+      "size": 360017,
+      "sha256": "142b0116fc725ddbbcc4e442b0da74cd89ae9e93b7d2b218e09eaef9a2222f1e"
+    },
+    "elvs_male_shirt_untucked_bd1.mhclo": {
+      "size": 316292,
+      "sha256": "51cfb1288868958b34fbce824a06fab83d6c8191467c1c483bba36fb3e54e470"
+    },
+    "mens_shirt_untuck_elvbhp1f.mhmat": {
+      "size": 820,
+      "sha256": "dd5e7cebc113593f621a1be6d303b2d815ce2412d903d5497831e918b6a953a1"
+    }
+  }
+}
