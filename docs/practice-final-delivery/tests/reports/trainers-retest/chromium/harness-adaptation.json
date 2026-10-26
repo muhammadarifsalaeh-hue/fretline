@@ -1,0 +1,10 @@
+{
+  "originalSuite": "docs/practice-trainer/tests/browser-trainer.py",
+  "originalSuiteSHA256": "e8dd1d20d57909719f5b0d9750bb2e8acf2cad98da872f42563d2d55150e37ef",
+  "adaptedSuiteSHA256": "7de0311cb91d7339a6955dfe5a67dfaf899124c60aef7d03dd9f1402e6c0f563",
+  "adaptation": "Performance startup readiness: two existing animation frames then bounded300msstableframe-count/dimensions; original250msbeforefirstsampleand800msidleassertremainunchanged. The independent stricter inspection policy adaptation is recorded below.",
+  "appSourceModified": false,
+  "originalSuiteModified": false,
+  "finalPolicyAdaptation": "All42 actual hidden bone fingerprints retained; geometry-rejected F cannot expose inspection. C allowed hand retains actual pixel and four-camera assertions. Rejected F now requires absent review control, hidden hand, actual correct SVG diagram, open-string fallback and a drawn WebGL canvas.",
+  "reasonEvidence": "../../../practice-hand-batch-2/tests/reports/idle-startup-timeline.json"
+}

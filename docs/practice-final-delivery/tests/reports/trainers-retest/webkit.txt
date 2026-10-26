@@ -1,0 +1,31 @@
+Skipping host requirements validation logic because `PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS` env variable is set.
+PROGRESS webkit rendered diagrams 7/42
+PROGRESS webkit rendered diagrams 14/42
+PROGRESS webkit rendered diagrams 21/42
+PROGRESS webkit rendered diagrams 28/42
+PROGRESS webkit rendered diagrams 35/42
+PROGRESS webkit rendered diagrams 42/42
+PASS webkit all-42-diagrams
+PASS webkit search-filters
+PASS webkit navigation-history-keyboard
+PASS webkit responsive-desktop
+PASS webkit responsive-tablet-landscape
+PASS webkit responsive-tablet
+PASS webkit responsive-mobile
+PASS webkit responsive-small-mobile
+PASS webkit loading
+PROGRESS webkit unsupported fallback captured; restoring native WebGL
+PROGRESS webkit native WebGL restored; clicking scene retry
+PROGRESS webkit scene retry clicked; awaiting ready
+PASS webkit webgl-unavailable
+PASS webkit context-loss
+PASS webkit module-failure
+PASS webkit touch
+PASS webkit lazy-routes
+PASS webkit spa-cleanup
+PASS webkit hand-loading
+PASS webkit hand-failure
+PASS webkit performance-lifecycle
+PASS webkit hand-review-desktop
+PASS webkit hand-review-tablet
+PASS webkit hand-review-mobile

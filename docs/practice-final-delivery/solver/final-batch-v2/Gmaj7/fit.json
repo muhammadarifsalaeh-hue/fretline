@@ -1,0 +1,32 @@
+{
+  "chord": "Gmaj7",
+  "voicing": "320002",
+  "maxEvaluations": 12,
+  "evaluations": 12,
+  "residualCalls": 274,
+  "seconds": 7.271963930000084,
+  "initialCost": 24065.02923718927,
+  "finalCost": 495.2167014005745,
+  "optimizerConverged": false,
+  "rootDelta": [
+    10.569151848008783,
+    0.5183034991018078,
+    2.65875105830997,
+    -0.008513570093040483,
+    -0.03656040453427555,
+    -0.09760553366083922
+  ],
+  "activeDigits": [
+    "index",
+    "middle",
+    "ring"
+  ],
+  "releasedUnusedDigits": [],
+  "releaseReasons": {},
+  "contactXmm": [
+    100.74318278363089,
+    67.73428666912206,
+    65.1620140056569
+  ],
+  "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+}

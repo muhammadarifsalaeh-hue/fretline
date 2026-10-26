@@ -1,0 +1,30 @@
+{
+  "chord": "Csus2",
+  "voicing": "x35533",
+  "maxEvaluations": 12,
+  "evaluations": 12,
+  "residualCalls": 303,
+  "seconds": 10.134184343000015,
+  "initialCost": 517076.82887468295,
+  "finalCost": 3500.4315027464554,
+  "optimizerConverged": false,
+  "rootDelta": [
+    27.773743003047937,
+    -2.658149188879675,
+    2.6709223665317254,
+    -0.006626567358442326,
+    0.10621086411310084,
+    -0.129208108456833
+  ],
+  "activeDigits": [
+    "index",
+    "ring",
+    "little"
+  ],
+  "contactXmm": [
+    97.30205926865742,
+    156.70428920932397,
+    158.93787344033095
+  ],
+  "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+}

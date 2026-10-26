@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/fretline/docs/practice-final-delivery/tests/run-trainer-settled.py", line 58, in <module>
+    assert source.count(review_marker)==1
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

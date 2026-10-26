@@ -1,0 +1,53 @@
+test_all_42_contact_topologies_keep_real_strings_frets_fingers_and_barres (__main__.SharedSolverMath.test_all_42_contact_topologies_keep_real_strings_frets_fingers_and_barres) ... ok
+test_all_42_seed_choices_are_deterministic_copies_of_audited_geometry (__main__.SharedSolverMath.test_all_42_seed_choices_are_deterministic_copies_of_audited_geometry) ... ok
+test_closed_triangle_face_edge_vertex_and_nearest_mesh (__main__.SharedSolverMath.test_closed_triangle_face_edge_vertex_and_nearest_mesh) ... ok
+test_degenerate_triangles_and_rigid_transform_covariance (__main__.SharedSolverMath.test_degenerate_triangles_and_rigid_transform_covariance) ... ok
+test_nearest_contact_uses_original_owned_palmar_skin (__main__.SharedSolverMath.test_nearest_contact_uses_original_owned_palmar_skin) ... ok
+test_real_runtime_strings_keep_every_corner_and_contact_position (__main__.SharedSolverMath.test_real_runtime_strings_keep_every_corner_and_contact_position) ... FAIL
+test_seven_actual_22_bone_seed_frames_and_weighted_skin_are_reproduced (__main__.SharedSolverMath.test_seven_actual_22_bone_seed_frames_and_weighted_skin_are_reproduced) ... ok
+
+======================================================================
+FAIL: test_real_runtime_strings_keep_every_corner_and_contact_position (__main__.SharedSolverMath.test_real_runtime_strings_keep_every_corner_and_contact_position)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/fretline/scripts/practice/final_solver/test_math.py", line 68, in test_real_runtime_strings_keep_every_corner_and_contact_position
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.578s
+
+FAILED (failures=1)
+
+The initial test assumed a string starts at nut x=0. The real exported string includes a headstock lead. Corrected only the out-of-range query to actual minimum x minus 1 mm; solver/source data unchanged. The initial failure is retained above.
+
+test_all_42_contact_topologies_keep_real_strings_frets_fingers_and_barres (__main__.SharedSolverMath.test_all_42_contact_topologies_keep_real_strings_frets_fingers_and_barres) ... ok
+test_all_42_seed_choices_are_deterministic_copies_of_audited_geometry (__main__.SharedSolverMath.test_all_42_seed_choices_are_deterministic_copies_of_audited_geometry) ... ok
+test_closed_triangle_face_edge_vertex_and_nearest_mesh (__main__.SharedSolverMath.test_closed_triangle_face_edge_vertex_and_nearest_mesh) ... ok
+test_degenerate_triangles_and_rigid_transform_covariance (__main__.SharedSolverMath.test_degenerate_triangles_and_rigid_transform_covariance) ... ok
+test_nearest_contact_uses_original_owned_palmar_skin (__main__.SharedSolverMath.test_nearest_contact_uses_original_owned_palmar_skin) ... ok
+test_real_runtime_strings_keep_every_corner_and_contact_position (__main__.SharedSolverMath.test_real_runtime_strings_keep_every_corner_and_contact_position) ... ok
+test_seven_actual_22_bone_seed_frames_and_weighted_skin_are_reproduced (__main__.SharedSolverMath.test_seven_actual_22_bone_seed_frames_and_weighted_skin_are_reproduced) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.513s
+
+OK
+
+Added two actual-skin regression cases for the shared unused-digit release policy. Dsus2 from Dm must release the former G2 middle owner; Em7 from C must release index/ring, including an actual index/B-open-string intersection. No source data or thresholds changed.
+
+test_all_42_contact_topologies_keep_real_strings_frets_fingers_and_barres (__main__.SharedSolverMath.test_all_42_contact_topologies_keep_real_strings_frets_fingers_and_barres) ... ok
+test_all_42_seed_choices_are_deterministic_copies_of_audited_geometry (__main__.SharedSolverMath.test_all_42_seed_choices_are_deterministic_copies_of_audited_geometry) ... ok
+test_closed_triangle_face_edge_vertex_and_nearest_mesh (__main__.SharedSolverMath.test_closed_triangle_face_edge_vertex_and_nearest_mesh) ... ok
+test_degenerate_triangles_and_rigid_transform_covariance (__main__.SharedSolverMath.test_degenerate_triangles_and_rigid_transform_covariance) ... ok
+test_dsus2_releases_former_dm_middle_without_freeing_every_unused_digit (__main__.SharedSolverMath.test_dsus2_releases_former_dm_middle_without_freeing_every_unused_digit) ... ok
+test_em7_releases_original_c_index_and_ring_and_keeps_clear_little_fixed (__main__.SharedSolverMath.test_em7_releases_original_c_index_and_ring_and_keeps_clear_little_fixed) ... ok
+test_nearest_contact_uses_original_owned_palmar_skin (__main__.SharedSolverMath.test_nearest_contact_uses_original_owned_palmar_skin) ... ok
+test_real_runtime_strings_keep_every_corner_and_contact_position (__main__.SharedSolverMath.test_real_runtime_strings_keep_every_corner_and_contact_position) ... ok
+test_seven_actual_22_bone_seed_frames_and_weighted_skin_are_reproduced (__main__.SharedSolverMath.test_seven_actual_22_bone_seed_frames_and_weighted_skin_are_reproduced) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.471s
+
+OK

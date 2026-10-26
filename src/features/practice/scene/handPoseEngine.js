@@ -14,6 +14,7 @@ const REASONS = {
   missing: reason('ยังไม่มีท่ามือสำหรับคอร์ดนี้ ใช้ผังคอร์ดและหมายเลขนิ้ว', 'No hand pose is available for this chord. Use the diagram and finger numbers.'),
   mismatch: reason('ข้อมูลท่ามือไม่ตรงกับโมเดลที่โหลด จึงซ่อนมือไว้', 'The pose data does not match this hand model, so the hand is hidden.'),
   review: reason('ท่ามือนี้ยังรอตรวจทาน ไม่ใช้เป็นท่าสำหรับฝึก', 'This hand pose needs review and must not be used as a practice example.'),
+  geometry: reason('ท่ามือนี้ยังไม่ผ่านการตรวจตำแหน่งหรือการชน จึงใช้ผังคอร์ดและจุดทองแทน', 'This hand pose has not passed contact and collision checks. Use the chord diagram and gold markers instead.'),
   invalid: reason('ข้อมูลท่ามือไม่สมบูรณ์ จึงใช้ผังคอร์ดและหมายเลขนิ้ว', 'The hand pose data is incomplete. Use the chord diagram and finger numbers.'),
 };
 
@@ -27,7 +28,7 @@ export function assessHandPose({ library, metadata, assetSha256, boneNames, chor
   const record = library?.poses?.[chordId];
   if (!Array.isArray(boneNames) || !boneNames.length || boneNames.some((name) => typeof name !== 'string' || !name)
     || new Set(boneNames).size !== boneNames.length) {
-    return { status: 'unavailable', candidate: false, reason: REASONS.mismatch };
+    return { status: 'unavailable', candidate: false, inspectionAllowed: false, reason: REASONS.mismatch };
   }
   const actualRig = namesSignature(boneNames);
   const metadataRig = metadata?.rigSignature || (Array.isArray(metadata?.expectedBoneNames) ? namesSignature(metadata.expectedBoneNames) : '');
@@ -35,21 +36,25 @@ export function assessHandPose({ library, metadata, assetSha256, boneNames, chor
     && library.assetSha256 === assetSha256 && metadata?.assetSha256 === assetSha256
     && library.rigSignature === actualRig && metadataRig === actualRig
     && metadata.millimetresPerAssetUnit === 1000;
-  if (!matches) return { status: 'unavailable', candidate: false, reason: REASONS.mismatch };
-  if (!record || record.status === 'unavailable') return { status: 'unavailable', candidate: false, reason: poseReason(record?.reason, REASONS.missing) };
-  if (record.status !== 'needs-review' && record.status !== 'verified') return { status: 'unavailable', candidate: false, reason: REASONS.invalid };
+  if (!matches) return { status: 'unavailable', candidate: false, inspectionAllowed: false, reason: REASONS.mismatch };
+  if (!record || record.status === 'unavailable') return { status: 'unavailable', candidate: false, inspectionAllowed: false, reason: poseReason(record?.reason, REASONS.missing) };
+  if (record.status !== 'needs-review' && record.status !== 'verified') return { status: 'unavailable', candidate: false, inspectionAllowed: false, reason: REASONS.invalid };
   const complete = validQuaternion(record.root?.quaternion) && finiteArray(record.root?.positionMm, 3)
     && boneNames.every((name) => validQuaternion(record.bones?.[name]?.quaternion));
-  if (!complete) return { status: 'unavailable', candidate: false, reason: REASONS.invalid };
+  if (!complete) return { status: 'unavailable', candidate: false, inspectionAllowed: false, reason: REASONS.invalid };
+  // Applying a complete rig while hidden preserves pose diagnostics. Inspection
+  // is narrower: a known rejected or unaudited mesh must never be revealed.
+  const inspectionAllowed = record.audit?.collisionPassed === true && record.audit?.contactPassed === true;
   // A readable source rig is separate from evidence that this particular chord
   // is safe to copy. Every physical and visual review gate must explicitly pass.
   const verified = record.status === 'verified' && record.reviewed === true
     && record.audit?.collisionPassed === true && record.audit?.contactPassed === true
     && record.audit?.anatomyPassed === true && record.audit?.multiViewReviewed === true;
   return {
-    status: verified ? 'verified' : 'needs-review', candidate: true, record,
+    status: verified ? 'verified' : 'needs-review', candidate: true, inspectionAllowed, record,
     reason: verified ? poseReason(record.reason, reason('ท่ามือผ่านการตรวจทานแล้ว', 'This hand pose has been reviewed.'))
-      : record.status === 'needs-review' ? poseReason(record.reason, REASONS.review) : REASONS.review,
+      : !inspectionAllowed ? REASONS.geometry
+        : record.status === 'needs-review' ? poseReason(record.reason, REASONS.review) : REASONS.review,
   };
 }
 
@@ -105,8 +110,9 @@ export function createHandPoseEngine({ scene, canvas, chord, nutX, unit, invalid
   };
   const publish = () => {
     if (disposed) return;
-    let assessment = { status: 'unavailable', candidate: false, reason: assetStatus === 'loading' ? REASONS.loading : REASONS.error };
+    let assessment = { status: 'unavailable', candidate: false, inspectionAllowed: false, reason: assetStatus === 'loading' ? REASONS.loading : REASONS.error };
     if (assetStatus === 'ready') assessment = assessHandPose({ library, metadata, assetSha256, boneNames: [...bones.keys()], chordId: currentChord.id });
+    if (!assessment.inspectionAllowed) reviewMode = false;
     const previouslyVisible = wrapper.visible;
     const previousSignature = canvas.dataset.handPoseSignature;
     wrapper.visible = false;
@@ -116,7 +122,7 @@ export function createHandPoseEngine({ scene, canvas, chord, nutX, unit, invalid
         wrapper.position.fromArray(assessment.record.root.positionMm);
         wrapper.quaternion.fromArray(assessment.record.root.quaternion).normalize();
         bones.forEach((bone, name) => bone.quaternion.fromArray(assessment.record.bones[name].quaternion).normalize());
-        wrapper.visible = assessment.status === 'verified' || reviewMode;
+        wrapper.visible = assessment.status === 'verified' || (reviewMode && assessment.inspectionAllowed);
       }
       wrapper.updateMatrixWorld(true);
       asset.traverse((object) => { if (object.isSkinnedMesh) object.skeleton.update(); });
@@ -130,9 +136,11 @@ export function createHandPoseEngine({ scene, canvas, chord, nutX, unit, invalid
     canvas.dataset.handModelReady = String(assetStatus === 'ready');
     canvas.dataset.handChordId = currentChord.id;
     canvas.dataset.handReviewMode = String(reviewMode);
+    canvas.dataset.handInspectionAllowed = String(assessment.inspectionAllowed);
     canvas.dataset.handPoseSignature = signature;
     canvas.dataset.handModelSha256 = assetSha256;
-    onPoseStatus({ chordId: currentChord.id, status: assessment.status, assetStatus, reason: assessment.reason, reviewMode });
+    onPoseStatus({ chordId: currentChord.id, status: assessment.status, assetStatus, reason: assessment.reason, reviewMode,
+      inspectionAllowed: assessment.inspectionAllowed });
     invalidate();
   };
   const clearAsset = () => {

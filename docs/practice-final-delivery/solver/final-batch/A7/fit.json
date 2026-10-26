@@ -1,0 +1,28 @@
+{
+  "chord": "A7",
+  "voicing": "x02020",
+  "maxEvaluations": 12,
+  "evaluations": 12,
+  "residualCalls": 220,
+  "seconds": 5.519483878000074,
+  "initialCost": 20246.949070898572,
+  "finalCost": 153.92633276860485,
+  "optimizerConverged": false,
+  "rootDelta": [
+    -6.297203071074657,
+    0.5220425532472222,
+    -0.26335263433391143,
+    -0.0025635686786415015,
+    -0.08102461195498728,
+    0.052367579486765375
+  ],
+  "activeDigits": [
+    "middle",
+    "ring"
+  ],
+  "contactXmm": [
+    65.27658212339844,
+    69.06076472513924
+  ],
+  "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+}

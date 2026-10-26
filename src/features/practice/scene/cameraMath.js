@@ -6,7 +6,9 @@ export const CAMERA_DIRECTIONS = Object.freeze({
   head: [-1, .55, .24],
   back: [.08, -1, .22],
   side: [-.08, .18, 1],
-  player: [.22, -.65, .95],
+  // Player looks down from the low-E edge while retaining the board face.
+  // A negative Y direction exposed rear wood and hid the fretting fingers.
+  player: [.22, .65, .95],
 });
 
 /** +Z is the low-E edge. No guitar coordinate or string index changes. */

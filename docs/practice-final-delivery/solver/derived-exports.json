@@ -1,0 +1,773 @@
+{
+  "scope": "Only new fully reproducible runtime guitar collision exports were removed after the completed audit. Candidate transforms, fit records, source/library snapshots, logs and compressed raw audit evidence remain intact. Older committed batch3 is untouched.",
+  "exporterSourceSha256": "5d9ddf3c0f28730693024d4fc518a9ec8e4dbd04f7f4fed3eaae8890325abaf9",
+  "removedFiles": 69,
+  "removedBytes": 64539332,
+  "files": [
+    {
+      "file": "docs/practice-final-delivery/solver/Am/Am-guitar.json",
+      "originalBytes": 934299,
+      "originalSha256": "8e5eedaa0f10796e399e66f117765d1c76e8f6869a65c6a6ba58093e5470baf3",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Am",
+        "docs/practice-final-delivery/solver/Am/Am-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/Em/Em-guitar.json",
+      "originalBytes": 933521,
+      "originalSha256": "531a0cb9b7956bf8829959e67ec7870914e7044e577e1daabee69c25afe7716b",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Em",
+        "docs/practice-final-delivery/solver/Em/Em-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/A/A-guitar.json",
+      "originalBytes": 934284,
+      "originalSha256": "5f133a6d7b813c9e90fb1a3229de4f4816766744aed2341a28e3f9df0c50bbbb",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "A",
+        "docs/practice-final-delivery/solver/final-batch/A/A-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/A7/A7-guitar.json",
+      "originalBytes": 933490,
+      "originalSha256": "c114f32746005b2c80009ee5ae83c01f9bc671c8504b8200b570840dd085b6e9",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "A7",
+        "docs/practice-final-delivery/solver/final-batch/A7/A7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Am/Am-guitar.json",
+      "originalBytes": 934299,
+      "originalSha256": "8e5eedaa0f10796e399e66f117765d1c76e8f6869a65c6a6ba58093e5470baf3",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Am",
+        "docs/practice-final-delivery/solver/final-batch/Am/Am-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Amaj7/Amaj7-guitar.json",
+      "originalBytes": 934280,
+      "originalSha256": "7c4e5a97ec41b726f34370927b6719a2d3d2e944ecc1fde4490abc5a82a28c72",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Amaj7",
+        "docs/practice-final-delivery/solver/final-batch/Amaj7/Amaj7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Asus2/Asus2-guitar.json",
+      "originalBytes": 933515,
+      "originalSha256": "82d2f1800de58bec340ca04b817c113b03fc51ff41b59a241b607a5f8b388626",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Asus2",
+        "docs/practice-final-delivery/solver/final-batch/Asus2/Asus2-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/B/B-guitar.json",
+      "originalBytes": 938332,
+      "originalSha256": "7d1a90d5a006c9fd6c60971b09d786e2ff2066646a059955fe5c6719fe497f51",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "B",
+        "docs/practice-final-delivery/solver/final-batch/B/B-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/B7/B7-guitar.json",
+      "originalBytes": 935131,
+      "originalSha256": "4407f9573599563b59c6ec094543cecacea629007d096c6a5ec1707666b81322",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "B7",
+        "docs/practice-final-delivery/solver/final-batch/B7/B7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Bm/Bm-guitar.json",
+      "originalBytes": 938293,
+      "originalSha256": "e5e10b2c56b50b927f9ea6d9321d504898fa9a462cc4561c94b018d0b0bf0e4b",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Bm",
+        "docs/practice-final-delivery/solver/final-batch/Bm/Bm-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Bm7/Bm7-guitar.json",
+      "originalBytes": 937466,
+      "originalSha256": "f5fbac2f58e9a6f95274e2b915143d6f5c16502e4b97c704ca94d6f43feefc38",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Bm7",
+        "docs/practice-final-delivery/solver/final-batch/Bm7/Bm7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Bmaj7/Bmaj7-guitar.json",
+      "originalBytes": 938272,
+      "originalSha256": "63f8cdaa9ff08afc0ea63b23e83c5bd47a2e3d10d134f70fe294d0f1a9130765",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Bmaj7",
+        "docs/practice-final-delivery/solver/final-batch/Bmaj7/Bmaj7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/C7/C7-guitar.json",
+      "originalBytes": 935025,
+      "originalSha256": "d490f8d199a37bb8e504705c8a62e6f81425eb1b1b6420c5df6342aca1482dcd",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "C7",
+        "docs/practice-final-delivery/solver/final-batch/C7/C7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Cm/Cm-guitar.json",
+      "originalBytes": 936706,
+      "originalSha256": "a8191dd0c230d9f31f6b1a0a428e29446978fd454ecb02939e346100f0d4f22c",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Cm",
+        "docs/practice-final-delivery/solver/final-batch/Cm/Cm-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Cm7/Cm7-guitar.json",
+      "originalBytes": 936607,
+      "originalSha256": "0a049d88522eb915a99172e94484d56869e14d55be71bcfc50c9ae4a64c01ef7",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Cm7",
+        "docs/practice-final-delivery/solver/final-batch/Cm7/Cm7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Csus2/Csus2-guitar.json",
+      "originalBytes": 935947,
+      "originalSha256": "f198aae95391eb35b17e0bc264e56dcb900506fa17fa6f0b32dcc49fcff55bb4",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Csus2",
+        "docs/practice-final-delivery/solver/final-batch/Csus2/Csus2-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Csus4/Csus4-guitar.json",
+      "originalBytes": 934975,
+      "originalSha256": "b4e0a44faba40d6cc5dc3d2f7ec839669701bcabec3a18779a54b7d7d50dc05b",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Csus4",
+        "docs/practice-final-delivery/solver/final-batch/Csus4/Csus4-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/D/D-guitar.json",
+      "originalBytes": 934327,
+      "originalSha256": "245a66610438c904e2f12326e8aff87a30a08637a626607a451f2c795ca36aac",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "D",
+        "docs/practice-final-delivery/solver/final-batch/D/D-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/D7/D7-guitar.json",
+      "originalBytes": 934344,
+      "originalSha256": "fa5236ce1a62f72f97ea3378f07fcd20696db1b64cf2a855e3a0f4d2c581b36b",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "D7",
+        "docs/practice-final-delivery/solver/final-batch/D7/D7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Dm7/Dm7-guitar.json",
+      "originalBytes": 934309,
+      "originalSha256": "4d0fac0165a818d7cd13a8f94166852ec5d98dafe1490e2923a6a828c56129f3",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Dm7",
+        "docs/practice-final-delivery/solver/final-batch/Dm7/Dm7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Dmaj7/Dmaj7-guitar.json",
+      "originalBytes": 934333,
+      "originalSha256": "fd740f007dfbf2abb056f887d6b89b6a89f8c32b04e2a15e89b6bf7ec430145a",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Dmaj7",
+        "docs/practice-final-delivery/solver/final-batch/Dmaj7/Dmaj7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Dsus2/Dsus2-guitar.json",
+      "originalBytes": 933500,
+      "originalSha256": "2156fae62ca2e85218424cf57d620e5c434786cd826c67c7409a5dd5f07cc7df",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Dsus2",
+        "docs/practice-final-delivery/solver/final-batch/Dsus2/Dsus2-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/E/E-guitar.json",
+      "originalBytes": 934307,
+      "originalSha256": "6ba4e78af190051f89250608f8fc1430c816d7de6a61132df50fd69c278ed864",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "E",
+        "docs/practice-final-delivery/solver/final-batch/E/E-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Em/Em-guitar.json",
+      "originalBytes": 933521,
+      "originalSha256": "531a0cb9b7956bf8829959e67ec7870914e7044e577e1daabee69c25afe7716b",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Em",
+        "docs/practice-final-delivery/solver/final-batch/Em/Em-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Emaj7/Emaj7-guitar.json",
+      "originalBytes": 934295,
+      "originalSha256": "a5168a9d4bc1797fb4b997300e4a64a4e9892b9219d40b04a296a3dcd0bfbc8f",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Emaj7",
+        "docs/practice-final-delivery/solver/final-batch/Emaj7/Emaj7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/F/F-guitar.json",
+      "originalBytes": 937527,
+      "originalSha256": "0843b671c3562ee0cf67485bdcf1173ad1e5d15e13c15914089bab21c417ea36",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "F",
+        "docs/practice-final-delivery/solver/final-batch/F/F-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/F7/F7-guitar.json",
+      "originalBytes": 937485,
+      "originalSha256": "e1ad51f2064fe0838c7a80582b7fc5f462bdde1b6e90e14ff6352c0472d94ee2",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "F7",
+        "docs/practice-final-delivery/solver/final-batch/F7/F7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Fm/Fm-guitar.json",
+      "originalBytes": 936755,
+      "originalSha256": "42180e5aea132f09c1bee1f9edcd6672d152a561cd3438a7a62cc3d83f2a7c35",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Fm",
+        "docs/practice-final-delivery/solver/final-batch/Fm/Fm-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Fm7/Fm7-guitar.json",
+      "originalBytes": 936713,
+      "originalSha256": "90c05ee12a0432ff0bdce6e656f551e7e357787f5f54f4b47a9a27aedef82da8",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Fm7",
+        "docs/practice-final-delivery/solver/final-batch/Fm7/Fm7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/G/G-guitar.json",
+      "originalBytes": 934250,
+      "originalSha256": "1cc7df4dc1f516234f1aeb5a770097fce60393385ab920221b013542a39689c0",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "G",
+        "docs/practice-final-delivery/solver/final-batch/G/G-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/G7/G7-guitar.json",
+      "originalBytes": 934291,
+      "originalSha256": "35526f1baa3be68c5e1d5abe3ba58d90dbdc7e9be0fd9aa99f259458416d7ccd",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "G7",
+        "docs/practice-final-delivery/solver/final-batch/G7/G7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Gm/Gm-guitar.json",
+      "originalBytes": 936785,
+      "originalSha256": "2239e81cf0d732efd1f98f36a0615028bbf71860916373c0c9cc987f1fba3652",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Gm",
+        "docs/practice-final-delivery/solver/final-batch/Gm/Gm-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Gm7/Gm7-guitar.json",
+      "originalBytes": 936632,
+      "originalSha256": "e6cf59621958ec74562dd7c6b8e9c690c1e7c6c9d62d66bb6c8c31c09c9844da",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Gm7",
+        "docs/practice-final-delivery/solver/final-batch/Gm7/Gm7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch/Gmaj7/Gmaj7-guitar.json",
+      "originalBytes": 934330,
+      "originalSha256": "8ebc18895c52ffdd97db5cb35f7b75737531a78aa230c288e50b205700f78e69",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Gmaj7",
+        "docs/practice-final-delivery/solver/final-batch/Gmaj7/Gmaj7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/A/A-guitar.json",
+      "originalBytes": 934284,
+      "originalSha256": "5f133a6d7b813c9e90fb1a3229de4f4816766744aed2341a28e3f9df0c50bbbb",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "A",
+        "docs/practice-final-delivery/solver/final-batch-v2/A/A-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/A7/A7-guitar.json",
+      "originalBytes": 933490,
+      "originalSha256": "c114f32746005b2c80009ee5ae83c01f9bc671c8504b8200b570840dd085b6e9",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "A7",
+        "docs/practice-final-delivery/solver/final-batch-v2/A7/A7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Am/Am-guitar.json",
+      "originalBytes": 934299,
+      "originalSha256": "8e5eedaa0f10796e399e66f117765d1c76e8f6869a65c6a6ba58093e5470baf3",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Am",
+        "docs/practice-final-delivery/solver/final-batch-v2/Am/Am-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Amaj7/Amaj7-guitar.json",
+      "originalBytes": 934280,
+      "originalSha256": "7c4e5a97ec41b726f34370927b6719a2d3d2e944ecc1fde4490abc5a82a28c72",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Amaj7",
+        "docs/practice-final-delivery/solver/final-batch-v2/Amaj7/Amaj7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Asus2/Asus2-guitar.json",
+      "originalBytes": 933515,
+      "originalSha256": "82d2f1800de58bec340ca04b817c113b03fc51ff41b59a241b607a5f8b388626",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Asus2",
+        "docs/practice-final-delivery/solver/final-batch-v2/Asus2/Asus2-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Asus4/Asus4-guitar.json",
+      "originalBytes": 934286,
+      "originalSha256": "b58499a3057d80b7ddd5461135fbd5b0ca049b3e6627a58e57a6b3670fdcd0bf",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Asus4",
+        "docs/practice-final-delivery/solver/final-batch-v2/Asus4/Asus4-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/B/B-guitar.json",
+      "originalBytes": 938332,
+      "originalSha256": "7d1a90d5a006c9fd6c60971b09d786e2ff2066646a059955fe5c6719fe497f51",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "B",
+        "docs/practice-final-delivery/solver/final-batch-v2/B/B-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/B7/B7-guitar.json",
+      "originalBytes": 935131,
+      "originalSha256": "4407f9573599563b59c6ec094543cecacea629007d096c6a5ec1707666b81322",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "B7",
+        "docs/practice-final-delivery/solver/final-batch-v2/B7/B7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Bm/Bm-guitar.json",
+      "originalBytes": 938293,
+      "originalSha256": "e5e10b2c56b50b927f9ea6d9321d504898fa9a462cc4561c94b018d0b0bf0e4b",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Bm",
+        "docs/practice-final-delivery/solver/final-batch-v2/Bm/Bm-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Bm7/Bm7-guitar.json",
+      "originalBytes": 937466,
+      "originalSha256": "f5fbac2f58e9a6f95274e2b915143d6f5c16502e4b97c704ca94d6f43feefc38",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Bm7",
+        "docs/practice-final-delivery/solver/final-batch-v2/Bm7/Bm7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Bmaj7/Bmaj7-guitar.json",
+      "originalBytes": 938272,
+      "originalSha256": "63f8cdaa9ff08afc0ea63b23e83c5bd47a2e3d10d134f70fe294d0f1a9130765",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Bmaj7",
+        "docs/practice-final-delivery/solver/final-batch-v2/Bmaj7/Bmaj7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/C7/C7-guitar.json",
+      "originalBytes": 935025,
+      "originalSha256": "d490f8d199a37bb8e504705c8a62e6f81425eb1b1b6420c5df6342aca1482dcd",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "C7",
+        "docs/practice-final-delivery/solver/final-batch-v2/C7/C7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Cm/Cm-guitar.json",
+      "originalBytes": 936706,
+      "originalSha256": "a8191dd0c230d9f31f6b1a0a428e29446978fd454ecb02939e346100f0d4f22c",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Cm",
+        "docs/practice-final-delivery/solver/final-batch-v2/Cm/Cm-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Cm7/Cm7-guitar.json",
+      "originalBytes": 936607,
+      "originalSha256": "0a049d88522eb915a99172e94484d56869e14d55be71bcfc50c9ae4a64c01ef7",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Cm7",
+        "docs/practice-final-delivery/solver/final-batch-v2/Cm7/Cm7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Csus2/Csus2-guitar.json",
+      "originalBytes": 935947,
+      "originalSha256": "f198aae95391eb35b17e0bc264e56dcb900506fa17fa6f0b32dcc49fcff55bb4",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Csus2",
+        "docs/practice-final-delivery/solver/final-batch-v2/Csus2/Csus2-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Csus4/Csus4-guitar.json",
+      "originalBytes": 934975,
+      "originalSha256": "b4e0a44faba40d6cc5dc3d2f7ec839669701bcabec3a18779a54b7d7d50dc05b",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Csus4",
+        "docs/practice-final-delivery/solver/final-batch-v2/Csus4/Csus4-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/D/D-guitar.json",
+      "originalBytes": 934327,
+      "originalSha256": "245a66610438c904e2f12326e8aff87a30a08637a626607a451f2c795ca36aac",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "D",
+        "docs/practice-final-delivery/solver/final-batch-v2/D/D-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/D7/D7-guitar.json",
+      "originalBytes": 934344,
+      "originalSha256": "fa5236ce1a62f72f97ea3378f07fcd20696db1b64cf2a855e3a0f4d2c581b36b",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "D7",
+        "docs/practice-final-delivery/solver/final-batch-v2/D7/D7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Dm7/Dm7-guitar.json",
+      "originalBytes": 934309,
+      "originalSha256": "4d0fac0165a818d7cd13a8f94166852ec5d98dafe1490e2923a6a828c56129f3",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Dm7",
+        "docs/practice-final-delivery/solver/final-batch-v2/Dm7/Dm7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Dmaj7/Dmaj7-guitar.json",
+      "originalBytes": 934333,
+      "originalSha256": "fd740f007dfbf2abb056f887d6b89b6a89f8c32b04e2a15e89b6bf7ec430145a",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Dmaj7",
+        "docs/practice-final-delivery/solver/final-batch-v2/Dmaj7/Dmaj7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Dsus2/Dsus2-guitar.json",
+      "originalBytes": 933500,
+      "originalSha256": "2156fae62ca2e85218424cf57d620e5c434786cd826c67c7409a5dd5f07cc7df",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Dsus2",
+        "docs/practice-final-delivery/solver/final-batch-v2/Dsus2/Dsus2-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Dsus4/Dsus4-guitar.json",
+      "originalBytes": 934255,
+      "originalSha256": "6e0f6d346e385dcc91d8effe1ec46dee4ee150e8929ebc73c093ee6dc5941554",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Dsus4",
+        "docs/practice-final-delivery/solver/final-batch-v2/Dsus4/Dsus4-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/E/E-guitar.json",
+      "originalBytes": 934307,
+      "originalSha256": "6ba4e78af190051f89250608f8fc1430c816d7de6a61132df50fd69c278ed864",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "E",
+        "docs/practice-final-delivery/solver/final-batch-v2/E/E-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Em/Em-guitar.json",
+      "originalBytes": 933521,
+      "originalSha256": "531a0cb9b7956bf8829959e67ec7870914e7044e577e1daabee69c25afe7716b",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Em",
+        "docs/practice-final-delivery/solver/final-batch-v2/Em/Em-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Emaj7/Emaj7-guitar.json",
+      "originalBytes": 934295,
+      "originalSha256": "a5168a9d4bc1797fb4b997300e4a64a4e9892b9219d40b04a296a3dcd0bfbc8f",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Emaj7",
+        "docs/practice-final-delivery/solver/final-batch-v2/Emaj7/Emaj7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Esus4/Esus4-guitar.json",
+      "originalBytes": 934319,
+      "originalSha256": "892b76333c5a13f79e546f693b034cd1f2d1ebddffd3efff0bdde4c6b35e8e7e",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Esus4",
+        "docs/practice-final-delivery/solver/final-batch-v2/Esus4/Esus4-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/F/F-guitar.json",
+      "originalBytes": 937527,
+      "originalSha256": "0843b671c3562ee0cf67485bdcf1173ad1e5d15e13c15914089bab21c417ea36",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "F",
+        "docs/practice-final-delivery/solver/final-batch-v2/F/F-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/F7/F7-guitar.json",
+      "originalBytes": 937485,
+      "originalSha256": "e1ad51f2064fe0838c7a80582b7fc5f462bdde1b6e90e14ff6352c0472d94ee2",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "F7",
+        "docs/practice-final-delivery/solver/final-batch-v2/F7/F7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Fm/Fm-guitar.json",
+      "originalBytes": 936755,
+      "originalSha256": "42180e5aea132f09c1bee1f9edcd6672d152a561cd3438a7a62cc3d83f2a7c35",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Fm",
+        "docs/practice-final-delivery/solver/final-batch-v2/Fm/Fm-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Fm7/Fm7-guitar.json",
+      "originalBytes": 936713,
+      "originalSha256": "90c05ee12a0432ff0bdce6e656f551e7e357787f5f54f4b47a9a27aedef82da8",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Fm7",
+        "docs/practice-final-delivery/solver/final-batch-v2/Fm7/Fm7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/G/G-guitar.json",
+      "originalBytes": 934250,
+      "originalSha256": "1cc7df4dc1f516234f1aeb5a770097fce60393385ab920221b013542a39689c0",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "G",
+        "docs/practice-final-delivery/solver/final-batch-v2/G/G-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/G7/G7-guitar.json",
+      "originalBytes": 934291,
+      "originalSha256": "35526f1baa3be68c5e1d5abe3ba58d90dbdc7e9be0fd9aa99f259458416d7ccd",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "G7",
+        "docs/practice-final-delivery/solver/final-batch-v2/G7/G7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Gm/Gm-guitar.json",
+      "originalBytes": 936785,
+      "originalSha256": "2239e81cf0d732efd1f98f36a0615028bbf71860916373c0c9cc987f1fba3652",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Gm",
+        "docs/practice-final-delivery/solver/final-batch-v2/Gm/Gm-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Gm7/Gm7-guitar.json",
+      "originalBytes": 936632,
+      "originalSha256": "e6cf59621958ec74562dd7c6b8e9c690c1e7c6c9d62d66bb6c8c31c09c9844da",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Gm7",
+        "docs/practice-final-delivery/solver/final-batch-v2/Gm7/Gm7-guitar.json"
+      ]
+    },
+    {
+      "file": "docs/practice-final-delivery/solver/final-batch-v2/Gmaj7/Gmaj7-guitar.json",
+      "originalBytes": 934330,
+      "originalSha256": "8ebc18895c52ffdd97db5cb35f7b75737531a78aa230c288e50b205700f78e69",
+      "reproduceArgv": [
+        "node",
+        "scripts/practice/export-guitar-collision-mesh.mjs",
+        "Gmaj7",
+        "docs/practice-final-delivery/solver/final-batch-v2/Gmaj7/Gmaj7-guitar.json"
+      ]
+    }
+  ],
+  "reproductionSpotCheck": {
+    "file": "docs/practice-final-delivery/solver/final-batch-v2/G/G-guitar.json",
+    "sha256": "1cc7df4dc1f516234f1aeb5a770097fce60393385ab920221b013542a39689c0",
+    "byteIdentical": true,
+    "derivedFileRemovedAgain": true
+  }
+}

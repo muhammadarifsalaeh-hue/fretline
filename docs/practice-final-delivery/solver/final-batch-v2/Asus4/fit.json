@@ -1,0 +1,32 @@
+{
+  "chord": "Asus4",
+  "voicing": "x02230",
+  "maxEvaluations": 12,
+  "evaluations": 12,
+  "residualCalls": 245,
+  "seconds": 6.334662762000107,
+  "initialCost": 31910.561302528014,
+  "finalCost": 234.52609594796894,
+  "optimizerConverged": false,
+  "rootDelta": [
+    -8.22119557540401,
+    -1.7448658193431001,
+    -3.200291973244141,
+    -0.04145143726059323,
+    -0.013603632012592903,
+    0.07395643170845402
+  ],
+  "activeDigits": [
+    "middle",
+    "ring",
+    "little"
+  ],
+  "releasedUnusedDigits": [],
+  "releaseReasons": {},
+  "contactXmm": [
+    65.02667071210583,
+    69.3553536285759,
+    100.05594877424089
+  ],
+  "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+}

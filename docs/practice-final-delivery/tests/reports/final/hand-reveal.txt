@@ -1,0 +1,5 @@
+PASS chromium no-preference real hand-only reveal and cancellation
+PASS chromium reduce real hand-only reveal and cancellation
+Skipping host requirements validation logic because `PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS` env variable is set.
+PASS webkit no-preference real hand-only reveal and cancellation
+PASS webkit reduce real hand-only reveal and cancellation

@@ -1,0 +1,36 @@
+{
+  "chord": "Dsus2",
+  "voicing": "xx0230",
+  "maxEvaluations": 12,
+  "evaluations": 12,
+  "residualCalls": 265,
+  "seconds": 6.85822984299989,
+  "initialCost": 27305.47960985466,
+  "finalCost": 91.66414674213102,
+  "optimizerConverged": false,
+  "rootDelta": [
+    7.944538150405624,
+    0.8143579126762525,
+    5.728852604141157,
+    0.009218508088598457,
+    0.07252338331642069,
+    -0.026224195346759356
+  ],
+  "activeDigits": [
+    "index",
+    "ring"
+  ],
+  "releasedUnusedDigits": [
+    "middle"
+  ],
+  "releaseReasons": {
+    "middle": [
+      "formerly-fretted-in-seed"
+    ]
+  },
+  "contactXmm": [
+    65.090813646704,
+    101.46968134423244
+  ],
+  "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+}

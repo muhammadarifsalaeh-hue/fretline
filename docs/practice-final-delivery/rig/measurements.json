@@ -1,0 +1,602 @@
+{
+  "baseline": "96e0449",
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "rigSha256": "6c58c7de471cd50753ce884fc6f0d044d8d5e1e2a39be384815b6be94e896c88",
+  "librarySha256": "2e2816f7adf533f80fba931e4d73b592a670a614ea014406903da162b5f01aa1",
+  "bones": 22,
+  "restWristHeadMeters": [
+    -1.711971606838114e-08,
+    -1.744595088531975e-08,
+    -2.7241954803081114e-09
+  ],
+  "initialBasisDeterminant": 0.9999999999999999,
+  "sourcePalmarNormal": [
+    -0.819485192590992,
+    -0.563421344130725,
+    -0.10488283034907073
+  ],
+  "meshes": [
+    {
+      "name": "Black_LongSleeve_Forearm",
+      "vertices": 734,
+      "triangles": 1304,
+      "weightSumMinMax": [
+        0.9999999403953552,
+        1.0000000894069672
+      ],
+      "nonfiniteWeights": 0,
+      "negativeWeights": 0,
+      "zeroSumVertices": 0,
+      "influencesMinMax": [
+        1,
+        4
+      ]
+    },
+    {
+      "name": "MakeHuman_Left_Hand_Forearm",
+      "vertices": 7888,
+      "triangles": 14760,
+      "weightSumMinMax": [
+        0.999999888241291,
+        1.0000001154839993
+      ],
+      "nonfiniteWeights": 0,
+      "negativeWeights": 0,
+      "zeroSumVertices": 0,
+      "influencesMinMax": [
+        1,
+        4
+      ]
+    }
+  ],
+  "oneDegreeCurlSignChecks": [
+    {
+      "bone": "finger2-1.L",
+      "positiveOneDegreeDirectionDotPalmar": 0.017353671020019158,
+      "correctCurlSign": true
+    },
+    {
+      "bone": "finger2-2.L",
+      "positiveOneDegreeDirectionDotPalmar": 0.016681363374560013,
+      "correctCurlSign": true
+    },
+    {
+      "bone": "finger2-3.L",
+      "positiveOneDegreeDirectionDotPalmar": 0.016499409048299416,
+      "correctCurlSign": true
+    },
+    {
+      "bone": "finger3-1.L",
+      "positiveOneDegreeDirectionDotPalmar": 0.017432000083923326,
+      "correctCurlSign": true
+    },
+    {
+      "bone": "finger3-2.L",
+      "positiveOneDegreeDirectionDotPalmar": 0.016933241079145355,
+      "correctCurlSign": true
+    },
+    {
+      "bone": "finger3-3.L",
+      "positiveOneDegreeDirectionDotPalmar": 0.016943352203525944,
+      "correctCurlSign": true
+    },
+    {
+      "bone": "finger4-1.L",
+      "positiveOneDegreeDirectionDotPalmar": 0.017443608018345325,
+      "correctCurlSign": true
+    },
+    {
+      "bone": "finger4-2.L",
+      "positiveOneDegreeDirectionDotPalmar": 0.016937021244355466,
+      "correctCurlSign": true
+    },
+    {
+      "bone": "finger4-3.L",
+      "positiveOneDegreeDirectionDotPalmar": 0.016969845682653396,
+      "correctCurlSign": true
+    },
+    {
+      "bone": "finger5-1.L",
+      "positiveOneDegreeDirectionDotPalmar": 0.017092540283679784,
+      "correctCurlSign": true
+    },
+    {
+      "bone": "finger5-2.L",
+      "positiveOneDegreeDirectionDotPalmar": 0.016449489103103485,
+      "correctCurlSign": true
+    },
+    {
+      "bone": "finger5-3.L",
+      "positiveOneDegreeDirectionDotPalmar": 0.016293492792364566,
+      "correctCurlSign": true
+    },
+    {
+      "bone": "finger1-1.L",
+      "positiveOneDegreeDirectionDotPalmar": 0.01646526060345424,
+      "correctCurlSign": true
+    },
+    {
+      "bone": "finger1-2.L",
+      "positiveOneDegreeDirectionDotPalmar": 0.015995646601797822,
+      "correctCurlSign": true
+    },
+    {
+      "bone": "finger1-3.L",
+      "positiveOneDegreeDirectionDotPalmar": 0.01582101320639982,
+      "correctCurlSign": true
+    }
+  ],
+  "rest": {
+    "wristHeadMm": [
+      -1.711971606838114e-05,
+      -1.744595088531975e-05,
+      -2.7241954803081114e-06
+    ],
+    "palmarWorldNormal": [
+      -0.819485192590992,
+      -0.563421344130725,
+      -0.10488283034907082
+    ],
+    "forearmToPalmAxisAngleDegrees": 14.446093624363282,
+    "fingers": {
+      "index": {
+        "mcpHeadMm": [
+          18.368694938551137,
+          -42.15252346325583,
+          88.76123725121451
+        ],
+        "geometricAxesAngleDegrees": {
+          "mcp": 18.100765462387923,
+          "pip": 11.47563201293546,
+          "dip": 1.9278099662434869
+        }
+      },
+      "middle": {
+        "mcpHeadMm": [
+          29.64500063330204,
+          -56.56625962911832,
+          72.24251056274952
+        ],
+        "geometricAxesAngleDegrees": {
+          "mcp": 13.455618220084022,
+          "pip": 11.541719796314858,
+          "dip": 1.5129588550862199
+        }
+      },
+      "ring": {
+        "mcpHeadMm": [
+          38.45122118538893,
+          -62.68251133013719,
+          55.29123958030484
+        ],
+        "geometricAxesAngleDegrees": {
+          "mcp": 22.295177263651897,
+          "pip": 12.592807720912987,
+          "dip": 3.110329359284156
+        }
+      },
+      "little": {
+        "mcpHeadMm": [
+          43.35496200950925,
+          -68.80876182664566,
+          36.73001139240235
+        ],
+        "geometricAxesAngleDegrees": {
+          "mcp": 26.20783345963179,
+          "pip": 7.859514262463342,
+          "dip": 2.2406953041729536
+        }
+      }
+    }
+  },
+  "runtime": {
+    "C": {
+      "wristHeadMm": [
+        81.43544579467098,
+        -54.365169784094235,
+        -115.03230383731939
+      ],
+      "palmarWorldNormal": [
+        -0.20971216931026154,
+        -0.6414829203115519,
+        0.7379163021588203
+      ],
+      "forearmToPalmAxisAngleDegrees": 13.134730569164345,
+      "fingers": {
+        "index": {
+          "mcpHeadMm": [
+            55.08435775267435,
+            22.373894852426027,
+            -56.641060728351896
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 35.487878671208705,
+            "pip": 64.3315580186161,
+            "dip": 20.791744819088766
+          }
+        },
+        "middle": {
+          "mcpHeadMm": [
+            79.05280573624094,
+            18.717765967600904,
+            -52.177271715038394
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 27.510487666031285,
+            "pip": 67.34967470648361,
+            "dip": 27.014674973012376
+          }
+        },
+        "ring": {
+          "mcpHeadMm": [
+            98.10541903477593,
+            12.902250946130813,
+            -54.518501405978796
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 45.35255507834436,
+            "pip": 31.346313510624203,
+            "dip": 37.97745876435869
+          }
+        },
+        "little": {
+          "mcpHeadMm": [
+            115.69999215436097,
+            3.202360081284297,
+            -56.08052961075431
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 26.207833558207188,
+            "pip": 22.85882931653845,
+            "dip": 6.686524189784682
+          }
+        }
+      }
+    },
+    "Dm": {
+      "wristHeadMm": [
+        81.43544579467098,
+        -54.365169784094235,
+        -115.03230383731939
+      ],
+      "palmarWorldNormal": [
+        -0.20971216931026154,
+        -0.6414829203115519,
+        0.7379163021588203
+      ],
+      "forearmToPalmAxisAngleDegrees": 13.134730569164345,
+      "fingers": {
+        "index": {
+          "mcpHeadMm": [
+            55.08435775267435,
+            22.373894852426027,
+            -56.641060728351896
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 35.81155269527974,
+            "pip": 74.36055768498993,
+            "dip": 29.129285791963802
+          }
+        },
+        "middle": {
+          "mcpHeadMm": [
+            79.05280573624094,
+            18.717765967600904,
+            -52.177271715038394
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 22.446771105771845,
+            "pip": 77.19639306929284,
+            "dip": 35.422262100547
+          }
+        },
+        "ring": {
+          "mcpHeadMm": [
+            98.10541903477593,
+            12.902250946130813,
+            -54.518501405978796
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 24.556589995617998,
+            "pip": 68.68954667146421,
+            "dip": 64.59573490941537
+          }
+        },
+        "little": {
+          "mcpHeadMm": [
+            115.69999215436097,
+            3.202360081284297,
+            -56.08052961075431
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 26.207833558207188,
+            "pip": 22.85882931653845,
+            "dip": 6.686524189784682
+          }
+        }
+      }
+    },
+    "Em7": {
+      "wristHeadMm": [
+        83.09052685063479,
+        -64.47276517314914,
+        -109.36827891517585
+      ],
+      "palmarWorldNormal": [
+        -0.2665412808172249,
+        -0.6265574143233448,
+        0.7323807426310156
+      ],
+      "forearmToPalmAxisAngleDegrees": 13.76909725445802,
+      "fingers": {
+        "index": {
+          "mcpHeadMm": [
+            58.33543703641777,
+            13.764674630832516,
+            -52.281592801003114
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 23.564157222726,
+            "pip": 56.04123455428126,
+            "dip": 26.926448130857413
+          }
+        },
+        "middle": {
+          "mcpHeadMm": [
+            81.92567005439679,
+            9.000478352336529,
+            -46.93532975832722
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 22.849912042140193,
+            "pip": 56.21266740333998,
+            "dip": 40.363751881753174
+          }
+        },
+        "ring": {
+          "mcpHeadMm": [
+            100.75160964731151,
+            2.2736772518676105,
+            -48.55945758117595
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 24.81753153943108,
+            "pip": 37.22664260604569,
+            "dip": 24.70663561144071
+          }
+        },
+        "little": {
+          "mcpHeadMm": [
+            117.90889634136857,
+            -8.259364427987329,
+            -49.442274447799996
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 28.54725561860072,
+            "pip": 22.858829086956906,
+            "dip": 6.686524151323172
+          }
+        }
+      }
+    },
+    "E7": {
+      "wristHeadMm": [
+        83.09052685063479,
+        -64.47276517314914,
+        -109.36827891517585
+      ],
+      "palmarWorldNormal": [
+        -0.2665412808172249,
+        -0.6265574143233448,
+        0.7323807426310156
+      ],
+      "forearmToPalmAxisAngleDegrees": 13.76909725445802,
+      "fingers": {
+        "index": {
+          "mcpHeadMm": [
+            58.33543703641777,
+            13.764674630832516,
+            -52.281592801003114
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 34.48752105043793,
+            "pip": 40.17791634830533,
+            "dip": 44.87962856953115
+          }
+        },
+        "middle": {
+          "mcpHeadMm": [
+            81.92567005439679,
+            9.000478352336529,
+            -46.93532975832722
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 22.849912042140193,
+            "pip": 56.21266740333998,
+            "dip": 40.363751881753174
+          }
+        },
+        "ring": {
+          "mcpHeadMm": [
+            100.75160964731151,
+            2.2736772518676105,
+            -48.55945758117595
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 24.81753153943108,
+            "pip": 37.22664260604569,
+            "dip": 24.70663561144071
+          }
+        },
+        "little": {
+          "mcpHeadMm": [
+            117.90889634136857,
+            -8.259364427987329,
+            -49.442274447799996
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 28.54725561860072,
+            "pip": 22.858829086956906,
+            "dip": 6.686524151323172
+          }
+        }
+      }
+    },
+    "Fmaj7": {
+      "wristHeadMm": [
+        81.43544579467098,
+        -54.365169784094235,
+        -115.03230383731939
+      ],
+      "palmarWorldNormal": [
+        -0.20971216931026154,
+        -0.6414829203115519,
+        0.7379163021588203
+      ],
+      "forearmToPalmAxisAngleDegrees": 13.134730569164345,
+      "fingers": {
+        "index": {
+          "mcpHeadMm": [
+            55.08435775267435,
+            22.373894852426027,
+            -56.641060728351896
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 35.487878671208705,
+            "pip": 64.3315580186161,
+            "dip": 20.791744819088766
+          }
+        },
+        "middle": {
+          "mcpHeadMm": [
+            79.05280573624094,
+            18.717765967600904,
+            -52.177271715038394
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 22.446771105771845,
+            "pip": 77.19639306929284,
+            "dip": 35.422262100547
+          }
+        },
+        "ring": {
+          "mcpHeadMm": [
+            98.10541903477593,
+            12.902250946130813,
+            -54.518501405978796
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 37.56236136117493,
+            "pip": 42.19786141831531,
+            "dip": 52.891348320647346
+          }
+        },
+        "little": {
+          "mcpHeadMm": [
+            115.69999215436097,
+            3.202360081284297,
+            -56.08052961075431
+          ],
+          "geometricAxesAngleDegrees": {
+            "mcp": 26.207833558207188,
+            "pip": 22.85882931653845,
+            "dip": 6.686524189784682
+          }
+        }
+      }
+    }
+  },
+  "distalWidths": {
+    "index": {
+      "sampleVertices": 172,
+      "sliceAlongDistalBoneMm": [
+        7,
+        17
+      ],
+      "spanInRestBoneFrameXYZMm": [
+        12.975039190610847,
+        9.693646735800227,
+        14.300801725246984
+      ],
+      "central80PercentCrossSectionXZMm": [
+        9.927779324627803,
+        12.853258461355988
+      ]
+    },
+    "middle": {
+      "sampleVertices": 197,
+      "sliceAlongDistalBoneMm": [
+        7,
+        17
+      ],
+      "spanInRestBoneFrameXYZMm": [
+        12.820947921304677,
+        9.65606783899911,
+        13.96821686010087
+      ],
+      "central80PercentCrossSectionXZMm": [
+        9.248848263598116,
+        12.773221087800145
+      ]
+    },
+    "ring": {
+      "sampleVertices": 175,
+      "sliceAlongDistalBoneMm": [
+        7,
+        17
+      ],
+      "spanInRestBoneFrameXYZMm": [
+        12.365168102337691,
+        9.683934169120086,
+        13.657361763313947
+      ],
+      "central80PercentCrossSectionXZMm": [
+        9.710420803510502,
+        12.50775350085477
+      ]
+    },
+    "little": {
+      "sampleVertices": 259,
+      "sliceAlongDistalBoneMm": [
+        7,
+        17
+      ],
+      "spanInRestBoneFrameXYZMm": [
+        10.139007719440663,
+        9.829351842792098,
+        11.275735235501594
+      ],
+      "central80PercentCrossSectionXZMm": [
+        6.37891398958792,
+        9.289586337533375
+      ]
+    }
+  },
+  "gltfMaterials": [
+    {
+      "doubleSided": true,
+      "name": "Black_Cotton_LongSleeve_Elvaerwyn",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8799999952316284
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "HumanSkin_PBR_CC0",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5199999809265137
+      }
+    }
+  ],
+  "gltfExtensionsUsed": [],
+  "noAnatomicalApproval": true,
+  "scope": "Actual exported weights/rest frames/current saved TRS. Axis angles include spread and source rest bend; no clinical, collision, pressure or physical iPad certification."
+}

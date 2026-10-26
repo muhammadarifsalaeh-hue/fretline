@@ -1,0 +1,208 @@
+{
+  "scope": "Actual WebGL visibility/material reveal and cancellation; no swept bone motion or anatomical approval",
+  "checks": [
+    {
+      "engine": "chromium",
+      "browserVersion": "154.0.8037.57",
+      "motion": "no-preference",
+      "passed": true,
+      "details": {
+        "controlledClock": {
+          "zero": {
+            "phase": "revealing",
+            "progress": 0,
+            "visible": "true",
+            "review": "true",
+            "signature": "d25523f8",
+            "chord": "Em7",
+            "geometry": "2c191e6d",
+            "count": 6
+          },
+          "half": {
+            "phase": "revealing",
+            "progress": 0.5,
+            "visible": "true",
+            "review": "true",
+            "signature": "d25523f8",
+            "chord": "Em7",
+            "geometry": "2c191e6d",
+            "count": 8
+          },
+          "final": {
+            "phase": "idle",
+            "progress": 1,
+            "visible": "true",
+            "review": "true",
+            "signature": "d25523f8",
+            "chord": "Em7",
+            "geometry": "2c191e6d",
+            "count": 26
+          },
+          "halfToFinalChangedPixels": 4392
+        },
+        "completedIdle": {
+          "before": 26,
+          "after": 26,
+          "idleMilliseconds": 800
+        },
+        "nativeClockIdle": {
+          "before": 31,
+          "after": 31,
+          "idleMilliseconds": 800
+        },
+        "changeChordCancels": {
+          "phase": "idle",
+          "progress": 1,
+          "visible": "false",
+          "review": "false",
+          "signature": "69643940",
+          "chord": "Am7",
+          "geometry": "2c191e6d",
+          "count": 39
+        },
+        "cancelledIdle": {
+          "before": 40,
+          "after": 40,
+          "idleMilliseconds": 800
+        },
+        "navigationDisposesInFlightReveal": {
+          "detachedCanvasFramesBefore": 46,
+          "after": 46
+        }
+      }
+    },
+    {
+      "engine": "chromium",
+      "browserVersion": "154.0.8037.57",
+      "motion": "reduce",
+      "passed": true,
+      "details": {
+        "immediate": {
+          "phase": "idle",
+          "progress": 1,
+          "visible": "true",
+          "review": "true",
+          "signature": "d25523f8",
+          "chord": "Em7",
+          "geometry": "2c191e6d",
+          "count": 4
+        },
+        "changedWebGLPixels": 65261,
+        "idle": {
+          "before": 4,
+          "after": 4,
+          "idleMilliseconds": 800
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "browserVersion": "26.5",
+      "motion": "no-preference",
+      "passed": true,
+      "details": {
+        "controlledClock": {
+          "zero": {
+            "phase": "revealing",
+            "progress": 0,
+            "visible": "true",
+            "review": "true",
+            "signature": "d25523f8",
+            "chord": "Em7",
+            "geometry": "2c191e6d",
+            "count": 3
+          },
+          "half": {
+            "phase": "revealing",
+            "progress": 0.5,
+            "visible": "true",
+            "review": "true",
+            "signature": "d25523f8",
+            "chord": "Em7",
+            "geometry": "2c191e6d",
+            "count": 7
+          },
+          "final": {
+            "phase": "idle",
+            "progress": 1,
+            "visible": "true",
+            "review": "true",
+            "signature": "d25523f8",
+            "chord": "Em7",
+            "geometry": "2c191e6d",
+            "count": 26
+          },
+          "halfToFinalChangedPixels": 4153
+        },
+        "completedIdle": {
+          "before": 26,
+          "after": 26,
+          "idleMilliseconds": 800
+        },
+        "nativeClockIdle": {
+          "before": 31,
+          "after": 31,
+          "idleMilliseconds": 800
+        },
+        "changeChordCancels": {
+          "phase": "idle",
+          "progress": 1,
+          "visible": "false",
+          "review": "false",
+          "signature": "69643940",
+          "chord": "Am7",
+          "geometry": "984786e3",
+          "count": 43
+        },
+        "cancelledIdle": {
+          "before": 43,
+          "after": 43,
+          "idleMilliseconds": 800
+        },
+        "navigationDisposesInFlightReveal": {
+          "detachedCanvasFramesBefore": 52,
+          "after": 52
+        }
+      }
+    },
+    {
+      "engine": "webkit",
+      "browserVersion": "26.5",
+      "motion": "reduce",
+      "passed": true,
+      "details": {
+        "immediate": {
+          "phase": "idle",
+          "progress": 1,
+          "visible": "true",
+          "review": "true",
+          "signature": "d25523f8",
+          "chord": "Em7",
+          "geometry": "2c191e6d",
+          "count": 3
+        },
+        "changedWebGLPixels": 64618,
+        "idle": {
+          "before": 3,
+          "after": 3,
+          "idleMilliseconds": 800
+        }
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "networkErrors": [],
+  "productionArtifactSHA256": {
+    "practice-three-CP7LDGza.js": "f9a432e3a57d899fe5246f6a8114781258ce36378e39b3da236ef2342d4094b1",
+    "hand-poses-DBVKV8cD.json": "2e2816f7adf533f80fba931e4d73b592a670a614ea014406903da162b5f01aa1",
+    "PracticePage-DIyZ-FJw.js": "e50e96b82ce7a00446fe5f5e09d7f34a0378671de607769fa4053f51b6f8460e",
+    "makehuman-left-arm-sleeved-q3B7hHpz.glb": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+  },
+  "limitations": [
+    "Controlled half-opacity captures hold performance.now locally in this test, without altering production sources.",
+    "Linux WebKit and Chromium software rendering are not physical iPad Safari or GPU performance measurements."
+  ],
+  "buildArtifactsUnchangedDuringRun": true,
+  "passed": true
+}

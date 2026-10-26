@@ -1,0 +1,33 @@
+{
+  "scope": "Independent Node guard/camera/reveal review; not anatomy or browser approval",
+  "checks": [
+    {
+      "name": "hand-runtime",
+      "command": [
+        "node",
+        "scripts/check-hand-runtime.mjs"
+      ],
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "camera",
+      "command": [
+        "node",
+        "scripts/practice/check-final-camera.mjs"
+      ],
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "reveal",
+      "command": [
+        "node",
+        "scripts/practice/check-hand-reveal.mjs"
+      ],
+      "returncode": 0,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

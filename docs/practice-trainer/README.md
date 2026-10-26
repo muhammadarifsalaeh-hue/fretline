@@ -1,3 +1,5 @@
+Final deadline handoff: [3D demo, strict fallback and shared-solver closeout](../practice-final-delivery/README.md).
+
 Latest continuation: [Batch 3 — seven geometric candidates, zero teaching approvals](../practice-hand-batch-3/README.md).
 
 # Fretline Guitar Practice Studio — feature delivery

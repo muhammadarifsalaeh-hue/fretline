@@ -1,0 +1,7 @@
+PASS Repeated static/camera-only diagnostics reuse actual buffer work
+PASS World transforms invalidate the result without rescanning static buffers
+PASS GPU position updates and buffer replacement invalidate the cached geometry
+PASS Index changes affect actual topology fingerprints with unchanged positions
+PASS Real pressed-string replacement and open restoration invalidate correctly
+PASS A single Uint16 triangle is supported without 32-bit alignment assumptions
+6/6 geometry fingerprint regressions passed.

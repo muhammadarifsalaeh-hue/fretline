@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "checks": {
+    "chromium21": true,
+    "webkit21": true,
+    "originalRegressions107": true,
+    "camera2": true,
+    "inspectionGates2": true,
+    "reveal4": true,
+    "all42InspectionCases": true,
+    "zeroUnexpectedErrors": true
+  },
+  "sourceLibrarySHA256": "2e2816f7adf533f80fba931e4d73b592a670a614ea014406903da162b5f01aa1",
+  "frozenProductionBytesMatched": true,
+  "singleInitialRunPassed": false,
+  "initialPreparationFailuresRetained": true,
+  "initialReports": "docs/practice-final-delivery/tests/reports/final",
+  "trainerRetestReports": "docs/practice-final-delivery/tests/reports/trainers-retest",
+  "retryReason": "Initial adapter anchor matched both opening and closing assertions; changed to the unique opening-plus-canvas context. No app or expected behavior changed.",
+  "browserTrainers": {
+    "chromium": {
+      "passed": true,
+      "cases": 21,
+      "passedCases": 21,
+      "browserVersion": "154.0.8037.57"
+    },
+    "webkit": {
+      "passed": true,
+      "cases": 21,
+      "passedCases": 21,
+      "browserVersion": "26.5"
+    }
+  },
+  "originalRegressions": 107,
+  "sourceInspectionAllowed": [
+    "Am7",
+    "C",
+    "Cmaj7",
+    "Dm",
+    "E7",
+    "Em7",
+    "Fmaj7"
+  ],
+  "inspectionCases": {
+    "engines": 2,
+    "chordsPerEngine": 42,
+    "allowedPerEngine": 7,
+    "blockedPerEngine": 35,
+    "correctedCameraCaptures": 12
+  },
+  "errors": {
+    "chromium": {
+      "consoleErrors": 0,
+      "runtimeErrors": 0,
+      "networkErrors": 0,
+      "failedRequests": 0,
+      "badResponses": 0
+    },
+    "webkit": {
+      "consoleErrors": 0,
+      "runtimeErrors": 0,
+      "networkErrors": 0,
+      "failedRequests": 0,
+      "badResponses": 0
+    },
+    "inspection": {
+      "consoleErrors": 0,
+      "runtimeErrors": 0,
+      "networkErrors": 0,
+      "failedRequests": 0,
+      "badResponses": 0
+    },
+    "reveal": {
+      "consoleErrors": 0,
+      "runtimeErrors": 0,
+      "networkErrors": 0,
+      "failedRequests": 0,
+      "badResponses": 0
+    },
+    "camera": {
+      "consoleErrors": 0,
+      "runtimeErrors": 0,
+      "networkErrors": 0,
+      "failedRequests": 0,
+      "badResponses": 0
+    }
+  },
+  "physicalIPadSafariTested": false,
+  "anatomicalHandsApprovedByHarness": 0,
+  "limitations": [
+    "An opacity reveal is not a certified physical chord-change path.",
+    "Linux WebKit and Chromium software graphics do not establish physical iPad Safari or GPU performance.",
+    "These tests validate rendering/behavior; anatomy and collision acceptance remain separate."
+  ]
+}

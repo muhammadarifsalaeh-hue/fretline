@@ -1,0 +1,38 @@
+{
+  "chord": "Dmaj7",
+  "voicing": "xx0222",
+  "maxEvaluations": 12,
+  "evaluations": 12,
+  "residualCalls": 211,
+  "seconds": 6.353210497000077,
+  "initialCost": 56520.57588809334,
+  "finalCost": 262.3908075584071,
+  "optimizerConverged": false,
+  "rootDelta": [
+    11.93785740375297,
+    -2.52517587262143,
+    -3.3318767388588197,
+    -0.019042957010458467,
+    0.08606639500969097,
+    -0.03565793439039319
+  ],
+  "activeDigits": [
+    "index"
+  ],
+  "releasedUnusedDigits": [
+    "middle"
+  ],
+  "releaseReasons": {
+    "middle": [
+      "formerly-fretted-in-seed",
+      {
+        "initialOpenString": 4,
+        "actualFingerSurfaceClearanceMm": -0.33
+      }
+    ]
+  },
+  "contactXmm": [
+    65.17656908616286
+  ],
+  "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+}

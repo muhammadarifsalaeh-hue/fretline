@@ -1,0 +1,152 @@
+{
+  "core": [
+    {
+      "name": "catalog",
+      "command": [
+        "npm",
+        "run",
+        "catalog:check"
+      ],
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "images",
+      "command": [
+        "npm",
+        "run",
+        "images:check"
+      ],
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "practice",
+      "command": [
+        "npm",
+        "run",
+        "practice:check"
+      ],
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "music",
+      "command": [
+        "node",
+        "docs/practice-trainer/tests/chord-audit.test.mjs"
+      ],
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "hand-runtime",
+      "command": [
+        "node",
+        "scripts/check-hand-runtime.mjs"
+      ],
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "pressed-strings",
+      "command": [
+        "node",
+        "docs/practice-trainer/tests/fretted-strings.test.mjs"
+      ],
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "fingerprint",
+      "command": [
+        "node",
+        "scripts/practice/check-fingerprint.mjs"
+      ],
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "reveal",
+      "command": [
+        "node",
+        "scripts/practice/check-hand-reveal.mjs"
+      ],
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "camera",
+      "command": [
+        "node",
+        "scripts/practice/check-final-camera.mjs"
+      ],
+      "returncode": 0,
+      "passed": true
+    }
+  ],
+  "legacy": [
+    {
+      "name": "phase4",
+      "command": [
+        "npm",
+        "run",
+        "phase4:check"
+      ],
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "phase5",
+      "command": [
+        "npm",
+        "run",
+        "phase5:check"
+      ],
+      "returncode": 1,
+      "passed": false
+    },
+    {
+      "name": "phase6",
+      "command": [
+        "npm",
+        "run",
+        "phase6:check"
+      ],
+      "returncode": 1,
+      "passed": false
+    },
+    {
+      "name": "phase7",
+      "command": [
+        "npm",
+        "run",
+        "phase7:check"
+      ],
+      "returncode": 1,
+      "passed": false
+    },
+    {
+      "name": "phase8",
+      "command": [
+        "npm",
+        "run",
+        "phase8:check"
+      ],
+      "returncode": 1,
+      "passed": false
+    },
+    {
+      "name": "phase9",
+      "command": [
+        "npm",
+        "run",
+        "phase9:check"
+      ],
+      "returncode": 1,
+      "passed": false
+    }
+  ],
+  "corePassed": true,
+  "allLegacyPassed": false
+}

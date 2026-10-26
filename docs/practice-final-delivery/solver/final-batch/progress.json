@@ -1,0 +1,1153 @@
+{
+  "sources": {
+    "library_sha": "2e2816f7adf533f80fba931e4d73b592a670a614ea014406903da162b5f01aa1",
+    "model_sha": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+    "chord_sha": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+    "rig_sha": "6c58c7de471cd50753ce884fc6f0d044d8d5e1e2a39be384815b6be94e896c88"
+  },
+  "completedRuns": [
+    {
+      "id": "C",
+      "action": "preserve-exact-audited-seed"
+    },
+    {
+      "id": "G",
+      "seed": "E7",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "G",
+        "voicing": "320003",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 274,
+        "seconds": 7.905596936000052,
+        "initialCost": 59227.83543309181,
+        "finalCost": 2692.320522510268,
+        "optimizerConverged": false,
+        "rootDelta": [
+          -1.6196427087627443,
+          -7.021464463493573,
+          -4.663933277967254,
+          -0.0029242489677495575,
+          0.1767652136123622,
+          0.06540678958880185
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring"
+        ],
+        "contactXmm": [
+          98.69544011910503,
+          65.37592937375506,
+          100.8400866323239
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "D",
+      "seed": "Dm",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "D",
+        "voicing": "xx0232",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 274,
+        "seconds": 7.327821331999985,
+        "initialCost": 32985.51107458778,
+        "finalCost": 835.5945040085445,
+        "optimizerConverged": false,
+        "rootDelta": [
+          6.9187954243719,
+          -0.27228118526221956,
+          -0.0524377850712891,
+          -0.010493295509321272,
+          0.08438492542973548,
+          0.000982192406530468
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring"
+        ],
+        "contactXmm": [
+          64.94942188546914,
+          101.47794639918986,
+          69.11956381449497
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Em",
+      "seed": "Cmaj7",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Em",
+        "voicing": "022000",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 243,
+        "seconds": 6.280742178000025,
+        "initialCost": 23191.703667638347,
+        "finalCost": 156.9654030164646,
+        "optimizerConverged": false,
+        "rootDelta": [
+          -12.582195872797522,
+          1.9541814446603456,
+          0.1853479145364798,
+          0.002161206191681619,
+          0.016316772394758518,
+          0.04897785238714969
+        ],
+        "activeDigits": [
+          "middle",
+          "ring"
+        ],
+        "contactXmm": [
+          64.79779122880355,
+          69.44721235724556
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Am",
+      "seed": "C",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Am",
+        "voicing": "x02210",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 274,
+        "seconds": 7.147092723000014,
+        "initialCost": 24913.450371070117,
+        "finalCost": 292.79466369674475,
+        "optimizerConverged": false,
+        "rootDelta": [
+          -11.298612425592133,
+          -0.7709511586749858,
+          -6.696354882951422,
+          -0.014544952211761806,
+          0.02539728484911072,
+          0.10232195861245696
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring"
+        ],
+        "contactXmm": [
+          64.83644130899036,
+          69.3883275524348,
+          30.56847856482186
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "F",
+      "seed": "C",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "F",
+        "voicing": "133211",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 328,
+        "seconds": 10.886571795000009,
+        "initialCost": 49011.15354358737,
+        "finalCost": 1642.2363217300367,
+        "optimizerConverged": false,
+        "rootDelta": [
+          8.271051514385173,
+          -7.356147763180534,
+          12.343110949241725,
+          -0.08593693707938545,
+          -0.004131654715190043,
+          0.24301516035714713
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "contactXmm": [
+          30.54483383625188,
+          97.68151551135712,
+          101.6441535655835,
+          64.8997819285691
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "E",
+      "seed": "E7",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "E",
+        "voicing": "022100",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 274,
+        "seconds": 7.667231397999956,
+        "initialCost": 35553.17506755796,
+        "finalCost": 166.91827772924665,
+        "optimizerConverged": false,
+        "rootDelta": [
+          -5.785269924222648,
+          -0.8305514808531264,
+          -3.654277214468182,
+          -0.010344799003945228,
+          -0.014250704591923126,
+          0.09550105309525893
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring"
+        ],
+        "contactXmm": [
+          64.7995426619864,
+          69.4281574800523,
+          30.65469477123742
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Dm",
+      "action": "preserve-exact-audited-seed"
+    },
+    {
+      "id": "A",
+      "seed": "Cmaj7",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "A",
+        "voicing": "x02220",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 303,
+        "seconds": 8.305576419999966,
+        "initialCost": 82700.66388143809,
+        "finalCost": 1407.5172922848694,
+        "optimizerConverged": false,
+        "rootDelta": [
+          -26.078145472675576,
+          1.902900142625586,
+          -3.9203969095259787,
+          -0.009851087661149529,
+          0.05018955663230004,
+          0.11985583715253237
+        ],
+        "activeDigits": [
+          "middle",
+          "ring",
+          "little"
+        ],
+        "contactXmm": [
+          64.7976319361359,
+          69.44256380548123,
+          69.44761181794188
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "B",
+      "seed": "C",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "B",
+        "voicing": "x24442",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 328,
+        "seconds": 10.188725788,
+        "initialCost": 219141.05830322535,
+        "finalCost": 2787.839052113741,
+        "optimizerConverged": false,
+        "rootDelta": [
+          14.862555596089111,
+          -3.4457904202647063,
+          -0.9818124110023491,
+          0.014309089857376976,
+          0.13232114844169218,
+          -0.04216347313170728
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "contactXmm": [
+          65.06976016562199,
+          127.82725638067228,
+          132.43184648788616,
+          132.40461477213367
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Cm",
+      "seed": "Fmaj7",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Cm",
+        "voicing": "x35543",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 363,
+        "seconds": 10.84662574600003,
+        "initialCost": 597521.8248223935,
+        "finalCost": 2711.4557953774815,
+        "optimizerConverged": false,
+        "rootDelta": [
+          29.711143209677388,
+          -4.346717290570642,
+          1.6602691897956525,
+          -0.032213072227126535,
+          0.07024506997408021,
+          -0.12210911541713705
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "contactXmm": [
+          97.30809458178054,
+          156.7230592257262,
+          159.75021979891923,
+          127.83063200376108
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Fm",
+      "seed": "C",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Fm",
+        "voicing": "133111",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 303,
+        "seconds": 9.618412667999962,
+        "initialCost": 48717.92653391737,
+        "finalCost": 428.4741689359342,
+        "optimizerConverged": false,
+        "rootDelta": [
+          11.192699880785177,
+          -11.245042248766444,
+          20.390006383740207,
+          -0.16329575274451563,
+          0.025334117710877114,
+          0.3610324339929471
+        ],
+        "activeDigits": [
+          "index",
+          "ring",
+          "little"
+        ],
+        "contactXmm": [
+          30.682449696998987,
+          97.21201168358178,
+          101.10583752278261
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Gm",
+      "seed": "C",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Gm",
+        "voicing": "355333",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 332,
+        "seconds": 10.481288638000024,
+        "initialCost": 636804.3777474383,
+        "finalCost": 4269.047799623695,
+        "optimizerConverged": false,
+        "rootDelta": [
+          30.576913562260703,
+          -13.227010828684922,
+          12.668528894293566,
+          -0.09467259866756561,
+          0.0511694517647785,
+          -0.05027138280075116
+        ],
+        "activeDigits": [
+          "index",
+          "ring",
+          "little"
+        ],
+        "contactXmm": [
+          97.35618732634522,
+          156.65071698219657,
+          158.72960880509322
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Bm",
+      "seed": "Fmaj7",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Bm",
+        "voicing": "x24432",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 363,
+        "seconds": 10.948719738000023,
+        "initialCost": 159044.86385595927,
+        "finalCost": 1198.668864506551,
+        "optimizerConverged": false,
+        "rootDelta": [
+          29.157996145182093,
+          -6.917885204354839,
+          2.01581312064824,
+          -0.023131555843975846,
+          -0.058499136264078835,
+          0.042173951542805704
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "contactXmm": [
+          64.80336706084287,
+          128.04715932844445,
+          130.76414581230793,
+          97.48707633023632
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "C7",
+      "seed": "C",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "C7",
+        "voicing": "x32310",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 328,
+        "seconds": 8.790191838999931,
+        "initialCost": 20476.181324797657,
+        "finalCost": 53.10666372030954,
+        "optimizerConverged": false,
+        "rootDelta": [
+          1.6957002313881149,
+          -3.6062835271798797,
+          3.9307777804597697,
+          -0.0024821265098060423,
+          -0.0568201721202284,
+          0.06408186470061769
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "contactXmm": [
+          97.75942674265217,
+          64.97404539871634,
+          101.51701951434447,
+          30.73829433440822
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "D7",
+      "seed": "Dm",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "D7",
+        "voicing": "xx0212",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 245,
+        "seconds": 6.288344403999986,
+        "initialCost": 21929.026262592015,
+        "finalCost": 427.0756543045577,
+        "optimizerConverged": false,
+        "rootDelta": [
+          -12.077097592379896,
+          0.8498810545135027,
+          0.45621435382389086,
+          -0.015506825341885248,
+          0.01708998046635435,
+          0.08206276956001075
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring"
+        ],
+        "contactXmm": [
+          65.8548177030156,
+          30.910488081402303,
+          69.09578252095186
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "E7",
+      "action": "preserve-exact-audited-seed"
+    },
+    {
+      "id": "F7",
+      "seed": "C",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "F7",
+        "voicing": "131211",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 274,
+        "seconds": 7.936294169000007,
+        "initialCost": 24374.107667330456,
+        "finalCost": 928.2320055976102,
+        "optimizerConverged": false,
+        "rootDelta": [
+          0.18169257797852834,
+          -10.319589485137167,
+          4.955320331076061,
+          -0.07283046853451661,
+          0.1709012756294378,
+          0.2565241498780417
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring"
+        ],
+        "contactXmm": [
+          32.53492956166295,
+          98.95841722859173,
+          65.00053917087519
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "G7",
+      "seed": "C",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "G7",
+        "voicing": "320001",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 245,
+        "seconds": 6.059728713000027,
+        "initialCost": 1073.0548368337259,
+        "finalCost": 27.018090219881056,
+        "optimizerConverged": false,
+        "rootDelta": [
+          3.1297359703748393,
+          0.12733676157354484,
+          3.5017663996490143,
+          0.019021956751557028,
+          -0.07085941275815684,
+          -0.04354061028003679
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring"
+        ],
+        "contactXmm": [
+          99.35711015720875,
+          64.90083773721335,
+          30.974071958513072
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "A7",
+      "seed": "Dm",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "A7",
+        "voicing": "x02020",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 220,
+        "seconds": 5.519483878000074,
+        "initialCost": 20246.949070898572,
+        "finalCost": 153.92633276860485,
+        "optimizerConverged": false,
+        "rootDelta": [
+          -6.297203071074657,
+          0.5220425532472222,
+          -0.26335263433391143,
+          -0.0025635686786415015,
+          -0.08102461195498728,
+          0.052367579486765375
+        ],
+        "activeDigits": [
+          "middle",
+          "ring"
+        ],
+        "contactXmm": [
+          65.27658212339844,
+          69.06076472513924
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "B7",
+      "seed": "E7",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "B7",
+        "voicing": "x21202",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 328,
+        "seconds": 8.820180398000048,
+        "initialCost": 95487.82800759861,
+        "finalCost": 3127.528664282565,
+        "optimizerConverged": false,
+        "rootDelta": [
+          -17.987880489086063,
+          -0.44686460071216383,
+          -5.43625698484963,
+          -0.012187722819666551,
+          0.03293939723321815,
+          0.1646193023613384
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "contactXmm": [
+          65.2624288789263,
+          30.86680507321274,
+          68.59423517446983,
+          69.26530694405068
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Cmaj7",
+      "action": "preserve-exact-audited-seed"
+    },
+    {
+      "id": "Dmaj7",
+      "seed": "Am7",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Dmaj7",
+        "voicing": "xx0222",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 183,
+        "seconds": 4.884972542000014,
+        "initialCost": 56532.73168411614,
+        "finalCost": 183.45455735134948,
+        "optimizerConverged": false,
+        "rootDelta": [
+          10.87164091552414,
+          -2.7681177170663065,
+          -4.741579800111985,
+          -0.020956062940941156,
+          0.08033066532075511,
+          -0.04866639706925405
+        ],
+        "activeDigits": [
+          "index"
+        ],
+        "contactXmm": [
+          64.81335150797186
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Emaj7",
+      "seed": "C",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Emaj7",
+        "voicing": "021100",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 274,
+        "seconds": 7.325653626000076,
+        "initialCost": 46208.79744252201,
+        "finalCost": 126.06682934385495,
+        "optimizerConverged": false,
+        "rootDelta": [
+          -19.103507576420967,
+          2.3940002372432687,
+          2.9171104410823325,
+          -0.015821042479351594,
+          0.03719386476938829,
+          0.14509152751237958
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring"
+        ],
+        "contactXmm": [
+          69.32079396714305,
+          30.474032149131027,
+          35.118732341281
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Fmaj7",
+      "action": "preserve-exact-audited-seed"
+    },
+    {
+      "id": "Gmaj7",
+      "seed": "C",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Gmaj7",
+        "voicing": "320002",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 274,
+        "seconds": 6.695356689999926,
+        "initialCost": 24065.02923718927,
+        "finalCost": 495.2167014005745,
+        "optimizerConverged": false,
+        "rootDelta": [
+          10.569151848008783,
+          0.5183034991018078,
+          2.65875105830997,
+          -0.008513570093040483,
+          -0.03656040453427555,
+          -0.09760553366083922
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring"
+        ],
+        "contactXmm": [
+          100.74318278363089,
+          67.73428666912206,
+          65.1620140056569
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Amaj7",
+      "seed": "Dm",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Amaj7",
+        "voicing": "x02120",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 245,
+        "seconds": 6.01075050899999,
+        "initialCost": 22480.303698426997,
+        "finalCost": 340.63367788921306,
+        "optimizerConverged": false,
+        "rootDelta": [
+          -10.691935993834894,
+          1.477232794302245,
+          8.429813698728747,
+          -0.02075885755747222,
+          0.003682202187033517,
+          0.09998506778435089
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring"
+        ],
+        "contactXmm": [
+          66.25544846487983,
+          30.943178123117026,
+          68.77610064100786
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Bmaj7",
+      "seed": "Fmaj7",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Bmaj7",
+        "voicing": "x24342",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 363,
+        "seconds": 10.735858851999978,
+        "initialCost": 156468.29636944286,
+        "finalCost": 1536.4419980151652,
+        "optimizerConverged": false,
+        "rootDelta": [
+          20.592352892053345,
+          -6.944704694795075,
+          -1.9300518599815732,
+          0.004379040528792838,
+          0.04462965906310667,
+          0.033519556674257656
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "contactXmm": [
+          65.07295209436795,
+          128.1879188401039,
+          97.3822592999921,
+          132.34553992305433
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Cm7",
+      "seed": "Fmaj7",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Cm7",
+        "voicing": "x35343",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 303,
+        "seconds": 8.27453854800001,
+        "initialCost": 566580.5699122628,
+        "finalCost": 2057.4572017500577,
+        "optimizerConverged": false,
+        "rootDelta": [
+          23.59350533406707,
+          -9.851699978745675,
+          -1.9956264917744608,
+          -0.021591863775915376,
+          0.21674487043259347,
+          -0.12747611195140152
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring"
+        ],
+        "contactXmm": [
+          97.45792783576826,
+          156.80085866940948,
+          127.89599491578225
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Dm7",
+      "seed": "Dm",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Dm7",
+        "voicing": "xx0211",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 174,
+        "seconds": 4.353129642999988,
+        "initialCost": 336.96243932595553,
+        "finalCost": 25.253777453135974,
+        "optimizerConverged": false,
+        "rootDelta": [
+          -0.36949736863508653,
+          0.08269548808825287,
+          1.4902235508245538,
+          0.009261113641163393,
+          0.010495987996738952,
+          0.013994464748647555
+        ],
+        "activeDigits": [
+          "index",
+          "middle"
+        ],
+        "contactXmm": [
+          32.32462677032031,
+          66.64757781391629
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Em7",
+      "action": "preserve-exact-audited-seed"
+    },
+    {
+      "id": "Fm7",
+      "seed": "C",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Fm7",
+        "voicing": "131111",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 220,
+        "seconds": 6.535298459000046,
+        "initialCost": 24080.47441362219,
+        "finalCost": 898.774921141231,
+        "optimizerConverged": false,
+        "rootDelta": [
+          6.442846427190749,
+          -6.8785836773787254,
+          9.708247297704416,
+          -0.09438557400868225,
+          0.13967467483104135,
+          0.31912481285703237
+        ],
+        "activeDigits": [
+          "index",
+          "ring"
+        ],
+        "contactXmm": [
+          30.645774443465996,
+          98.47611601439841
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Gm7",
+      "seed": "C",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Gm7",
+        "voicing": "353333",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 243,
+        "seconds": 7.175214266000012,
+        "initialCost": 601667.6480967306,
+        "finalCost": 2057.6350034797288,
+        "optimizerConverged": false,
+        "rootDelta": [
+          25.160323033617516,
+          -13.99214099901187,
+          9.672168089311715,
+          -0.10215404775729664,
+          0.1546133443724139,
+          -0.016121863233871065
+        ],
+        "activeDigits": [
+          "index",
+          "ring"
+        ],
+        "contactXmm": [
+          97.41011059933938,
+          156.7018835667414
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Am7",
+      "action": "preserve-exact-audited-seed"
+    },
+    {
+      "id": "Bm7",
+      "seed": "Fmaj7",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Bm7",
+        "voicing": "x24232",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 303,
+        "seconds": 9.25683573099991,
+        "initialCost": 151038.97127407082,
+        "finalCost": 1171.6154136122514,
+        "optimizerConverged": false,
+        "rootDelta": [
+          15.054433120466005,
+          -9.557205973515375,
+          -2.6010185488126347,
+          -0.011708671011125023,
+          0.15512258516252656,
+          7.295234136334497e-05
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring"
+        ],
+        "contactXmm": [
+          64.81898365593459,
+          128.21936451563286,
+          97.200036640376
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Csus2",
+      "seed": "Fmaj7",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Csus2",
+        "voicing": "x35533",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 303,
+        "seconds": 10.134184343000015,
+        "initialCost": 517076.82887468295,
+        "finalCost": 3500.4315027464554,
+        "optimizerConverged": false,
+        "rootDelta": [
+          27.773743003047937,
+          -2.658149188879675,
+          2.6709223665317254,
+          -0.006626567358442326,
+          0.10621086411310084,
+          -0.129208108456833
+        ],
+        "activeDigits": [
+          "index",
+          "ring",
+          "little"
+        ],
+        "contactXmm": [
+          97.30205926865742,
+          156.70428920932397,
+          158.93787344033095
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Dsus2",
+      "seed": "Dm",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Dsus2",
+        "voicing": "xx0230",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 220,
+        "seconds": 5.609296300000096,
+        "initialCost": 27305.47941708895,
+        "finalCost": 51.598545672516536,
+        "optimizerConverged": false,
+        "rootDelta": [
+          8.153754677255202,
+          -0.04017239368948747,
+          0.9367544013523774,
+          0.010729325988918731,
+          0.09057264423638309,
+          -0.010423171777623419
+        ],
+        "activeDigits": [
+          "index",
+          "ring"
+        ],
+        "contactXmm": [
+          64.94706659978314,
+          101.83637602471026
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Asus2",
+      "seed": "Cmaj7",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Asus2",
+        "voicing": "x02200",
+        "maxEvaluations": 12,
+        "evaluations": 12,
+        "residualCalls": 220,
+        "seconds": 5.978941879999979,
+        "initialCost": 25285.19008486146,
+        "finalCost": 314.51544327443804,
+        "optimizerConverged": false,
+        "rootDelta": [
+          -4.934532936340359,
+          -2.967783810752783,
+          0.010847391952313157,
+          -0.08210670345591904,
+          -0.017858701315432504,
+          0.1057703713938835
+        ],
+        "activeDigits": [
+          "middle",
+          "ring"
+        ],
+        "contactXmm": [
+          65.39491486664184,
+          68.91780682939735
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    }
+  ],
+  "attempted": [
+    "G",
+    "D",
+    "Em",
+    "Am",
+    "F",
+    "E",
+    "A",
+    "B",
+    "Cm",
+    "Fm",
+    "Gm",
+    "Bm",
+    "C7",
+    "D7",
+    "F7",
+    "G7",
+    "A7",
+    "B7",
+    "Dmaj7",
+    "Emaj7",
+    "Gmaj7",
+    "Amaj7",
+    "Bmaj7",
+    "Cm7",
+    "Dm7",
+    "Fm7",
+    "Gm7",
+    "Bm7",
+    "Csus2",
+    "Dsus2",
+    "Asus2"
+  ],
+  "runtimeWritten": false
+}

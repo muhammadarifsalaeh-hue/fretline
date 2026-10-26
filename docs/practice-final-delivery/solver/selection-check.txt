@@ -1,0 +1,19 @@
+test_actual_transform_change_invalidates_old_physical_evidence (__main__.AuditSelection.test_actual_transform_change_invalidates_old_physical_evidence) ... ok
+test_all_six_unique_actual_string_states_are_required (__main__.AuditSelection.test_all_six_unique_actual_string_states_are_required) ... ok
+test_contact_and_open_string_thresholds_are_not_relaxed (__main__.AuditSelection.test_contact_and_open_string_thresholds_are_not_relaxed) ... ok
+test_every_changed_pose_requires_its_own_exact_audit (__main__.AuditSelection.test_every_changed_pose_requires_its_own_exact_audit) ... ok
+test_failed_numerical_candidate_preserves_the_original (__main__.AuditSelection.test_failed_numerical_candidate_preserves_the_original) ... ok
+test_forged_verified_label_is_stripped_even_for_a_geometric_endpoint (__main__.AuditSelection.test_forged_verified_label_is_stripped_even_for_a_geometric_endpoint) ... ok
+test_fresh_evidence_output_is_never_overwritten (__main__.AuditSelection.test_fresh_evidence_output_is_never_overwritten) ... ok
+test_guitar_wood_or_self_crossings_cannot_be_hidden_by_a_pass_label (__main__.AuditSelection.test_guitar_wood_or_self_crossings_cannot_be_hidden_by_a_pass_label) ... ok
+test_incomplete_or_inconsistent_audit_completion_is_rejected (__main__.AuditSelection.test_incomplete_or_inconsistent_audit_completion_is_rejected) ... ok
+test_invalid_budget_or_chord_list_leaves_no_output_artifacts (__main__.AuditSelection.test_invalid_budget_or_chord_list_leaves_no_output_artifacts) ... ok
+test_missing_duplicate_or_wrong_chord_rows_are_rejected (__main__.AuditSelection.test_missing_duplicate_or_wrong_chord_rows_are_rejected) ... ok
+test_missing_or_wrong_owner_fret_contact_is_rejected (__main__.AuditSelection.test_missing_or_wrong_owner_fret_contact_is_rejected) ... ok
+test_real_pass_can_replace_real_rejected_pose_without_teaching_approval (__main__.AuditSelection.test_real_pass_can_replace_real_rejected_pose_without_teaching_approval) ... ok
+test_stale_library_model_or_musical_source_hash_is_rejected (__main__.AuditSelection.test_stale_library_model_or_musical_source_hash_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 6.807s
+
+OK

@@ -1,0 +1,39 @@
+{
+  "baseline": "96e0449",
+  "branch": "feature/guitar-practice-3d",
+  "masterMerged": false,
+  "sourceLibrarySha256": "2e2816f7adf533f80fba931e4d73b592a670a614ea014406903da162b5f01aa1",
+  "diagramAndNeckChordsUsable": 42,
+  "totalChords": 42,
+  "geometricHandPrototypes": 7,
+  "naturalTeachingHandsApproved": 0,
+  "knownRejectedHandsBlocked": 35,
+  "runtimePoseLibraryUnchanged": true,
+  "centralSolver": {
+    "completeAll42Batch": true,
+    "preserved": 7,
+    "fittedAndExactAudited": 35,
+    "newAccepted": 0,
+    "criteriaUnchanged": true,
+    "mathRigReleaseTestsPassed": 9,
+    "evidenceSelectionTestsPassed": 14
+  },
+  "buildPassed": true,
+  "coreChecksPassed": true,
+  "browserAcceptedCoveragePassed": true,
+  "initialHarnessPreparationFailureRetained": true,
+  "singleInitialBrowserPlanPassed": false,
+  "legacyStaticAllGreen": false,
+  "protectedSiteFilesUnchanged": 197,
+  "guitarData": "200 models /10 brands /20 each, all IDs preserved",
+  "physicalIPadSafariTested": false,
+  "productionReadyRealistic42HandTrainer": false,
+  "scopeClosed": "3D demo/fallback delivery; no further 3D feature development in this delivery",
+  "remaining": [
+    "No realistic/anatomical hand has teaching approval",
+    "Palm curl/thumb support/skin and finite sleeve require model authoring",
+    "No validated swept bone-animation path",
+    "Physical iPad Safari remains untested",
+    "Historical Phase5\u20139 assertions remain failed baseline checks"
+  ]
+}

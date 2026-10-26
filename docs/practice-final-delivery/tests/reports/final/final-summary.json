@@ -1,0 +1,83 @@
+{
+  "scope": "Frozen browser/functional acceptance, separate from endpoint anatomy and physical iPad Safari",
+  "checks": {
+    "trainers": false,
+    "originalRegressions": true,
+    "cameraControls": true,
+    "inspectionGates": true,
+    "handReveal": true,
+    "changedPoseCaptures": true,
+    "matchingFrozenAssets": false
+  },
+  "browserTrainers": {
+    "chromium": {
+      "cases": 0,
+      "passedCases": 0,
+      "passed": false,
+      "errors": {
+        "consoleErrors": 0,
+        "runtimeErrors": 0,
+        "failedRequests": 0,
+        "badResponses": 0,
+        "networkErrors": 0
+      },
+      "browserVersion": null
+    },
+    "webkit": {
+      "cases": 0,
+      "passedCases": 0,
+      "passed": false,
+      "errors": {
+        "consoleErrors": 0,
+        "runtimeErrors": 0,
+        "failedRequests": 0,
+        "badResponses": 0,
+        "networkErrors": 0
+      },
+      "browserVersion": null
+    }
+  },
+  "originalRegressions": {
+    "checks": 107,
+    "passed": true
+  },
+  "inspectionGates": {
+    "passed": true,
+    "sourceInspectionAllowed": [
+      "Am7",
+      "C",
+      "Cmaj7",
+      "Dm",
+      "E7",
+      "Em7",
+      "Fmaj7"
+    ],
+    "engines": [
+      {
+        "engine": "chromium",
+        "checked": 42,
+        "allowed": 7,
+        "blocked": 35,
+        "views": 6
+      },
+      {
+        "engine": "webkit",
+        "checked": 42,
+        "allowed": 7,
+        "blocked": 35,
+        "views": 6
+      }
+    ]
+  },
+  "changedChordCaptures": [],
+  "sourceLibrarySHA256": "2e2816f7adf533f80fba931e4d73b592a670a614ea014406903da162b5f01aa1",
+  "commandPlanPassed": false,
+  "physicalIPadSafariTested": false,
+  "teachingHandsApprovedByHarness": 0,
+  "limitations": [
+    "Linux WebKit does not establish physical iPad Safari or iPad GPU/FPS results.",
+    "Browser evidence does not certify skin collisions, anatomy or swept bone paths.",
+    "Only integrated changed poses get additional four-view capture loops; ordinary canonical screenshots remain test evidence."
+  ],
+  "passed": false
+}

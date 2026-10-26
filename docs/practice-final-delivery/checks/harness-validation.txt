@@ -1,0 +1,9 @@
+usage: run-trainer-settled.py [-h] --url URL --engine {chromium,webkit}
+                              --output OUTPUT [--cases CASES]
+
+options:
+  -h, --help            show this help message and exit
+  --url URL
+  --engine {chromium,webkit}
+  --output OUTPUT
+  --cases CASES

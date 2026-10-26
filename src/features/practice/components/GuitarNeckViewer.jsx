@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { LANG } from '@/i18n';
 import { GuitarIcon, ReturnIcon, PlusIcon } from '@/components/ui/Icons';
 import { loadPracticeScene, retryFailedSceneModule } from '../loadScene';
@@ -87,7 +87,8 @@ export default function GuitarNeckViewer({ chord, onPoseStatus }) {
     return () => { cancelled = true; sceneRef.current?.dispose(); sceneRef.current = null; };
   }, [attempt]);
 
-  useEffect(() => { sceneRef.current?.setChord(chord); }, [chord]);
+  // Close the previous inspection and synchronize its rig before the next UI paint.
+  useLayoutEffect(() => { sceneRef.current?.setChord(chord); }, [chord]);
   const action = (callback) => { if (status !== 'ready' || !sceneRef.current) return; setView('custom'); callback(sceneRef.current); };
   const changeView = (name) => {
     if (status !== 'ready' || !sceneRef.current) return;
@@ -101,12 +102,13 @@ export default function GuitarNeckViewer({ chord, onPoseStatus }) {
   const reviewMode = currentHand?.reviewMode === true;
   const assetStatus = currentHand?.assetStatus ?? 'loading';
   const handStatus = currentHand?.status ?? 'unavailable';
-  const reviewing = reviewMode && handStatus === 'needs-review' && assetStatus === 'ready';
+  const inspectionAllowed = currentHand?.inspectionAllowed === true;
+  const reviewing = reviewMode && inspectionAllowed && handStatus === 'needs-review' && assetStatus === 'ready';
   const handMessage = assetStatus === 'loading' ? copy.handLoading : assetStatus === 'error' ? copy.handError
-    : handStatus === 'verified' ? copy.handVerified : handStatus === 'needs-review' ? copy.handReview : copy.handUnavailable;
+    : handStatus === 'verified' ? copy.handVerified : handStatus === 'needs-review' && inspectionAllowed ? copy.handReview : copy.handUnavailable;
   const handReason = currentHand?.reason?.[LANG] || currentHand?.reason?.en;
   const toggleReview = () => {
-    if (status === 'ready' && assetStatus === 'ready' && handStatus === 'needs-review') sceneRef.current?.setHandReviewMode(!reviewMode);
+    if (status === 'ready' && assetStatus === 'ready' && handStatus === 'needs-review' && inspectionAllowed) sceneRef.current?.setHandReviewMode(!reviewMode);
   };
 
   return (
@@ -133,10 +135,10 @@ export default function GuitarNeckViewer({ chord, onPoseStatus }) {
           <button data-practice-retry type="button" onClick={retry}><ReturnIcon size={17} />{copy.retry}</button>
         </div>}
       </div>
-      {status === 'ready' && <div className="practice-hand-state" data-hand-asset-status={assetStatus} data-hand-pose-status={handStatus}>
+      {status === 'ready' && <div className="practice-hand-state" data-hand-asset-status={assetStatus} data-hand-pose-status={handStatus} data-hand-inspection-allowed={inspectionAllowed}>
         <div aria-live="polite" aria-atomic="true"><strong>{reviewing ? copy.reviewWarning : handMessage}</strong>{handReason && <p>{handReason}</p>}</div>
         {assetStatus === 'error' && <button type="button" data-practice-hand-retry onClick={() => sceneRef.current?.retryHand()}><ReturnIcon size={16} />{copy.retryHand}</button>}
-        {assetStatus === 'ready' && handStatus === 'needs-review' && <button type="button" data-practice-hand-review aria-pressed={reviewMode} onClick={toggleReview}>{reviewMode ? copy.hideReview : copy.review}</button>}
+        {assetStatus === 'ready' && handStatus === 'needs-review' && inspectionAllowed && <button type="button" data-practice-hand-review aria-pressed={reviewMode} onClick={toggleReview}>{reviewMode ? copy.hideReview : copy.review}</button>}
       </div>}
       <div className="practice-camera-controls" role="group" aria-label={LANG === 'en' ? 'Camera controls' : 'ควบคุมกล้อง'}>
         <div>

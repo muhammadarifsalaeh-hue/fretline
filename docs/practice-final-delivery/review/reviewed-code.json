@@ -1,0 +1,31 @@
+{
+  "reviewedAtUTC": "2026-10-26T14:18:17.631381+00:00",
+  "baseline": "96e0449",
+  "files": [
+    {
+      "path": "src/features/practice/scene/handPoseEngine.js",
+      "sha256": "fe6bf764235d8a09fdbe612c171433aa291b2b91a6211afb28d7284fbc1c11d6"
+    },
+    {
+      "path": "src/features/practice/components/GuitarNeckViewer.jsx",
+      "sha256": "ae7dc70dd29273f06f035bd3e7361713bbbe0bb0bcde75b46a4097bb08840afb"
+    },
+    {
+      "path": "src/features/practice/scene/cameraMath.js",
+      "sha256": "d86f2162e826a9ea29d950956fcb7aadb8f916a84df12c5b841a55995bc32fec"
+    },
+    {
+      "path": "scripts/check-hand-runtime.mjs",
+      "sha256": "eb853265b0be9dd7d53471f4e395276b5c74c47ac14d50c10d918e2b0b807570"
+    },
+    {
+      "path": "scripts/practice/check-final-camera.mjs",
+      "sha256": "a3b42d2c8fe0b8b1dd8d3d7acf8c814f8ab9c818a8affc41336bf7199d55710d"
+    },
+    {
+      "path": "scripts/practice/check-hand-reveal.mjs",
+      "sha256": "20805d5404b8ad834439e17b4f7978bb223238f6e8112e339b5d69a302f95704"
+    }
+  ],
+  "scope": "Source snapshot for independent review and the completed quick Node tests. No anatomical/browser/physical iPad approval."
+}

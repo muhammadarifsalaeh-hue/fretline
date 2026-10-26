@@ -1,0 +1,10 @@
+{
+  "reason": "Structural unused-digit control omission found in review; stopped after a saved checkpoint, never selected into runtime",
+  "completedRecords": 38,
+  "completedFittedPoses": 31,
+  "lastCompletedId": "Asus2",
+  "exactAuditCompleted": false,
+  "runtimeWritten": false,
+  "executedSolverSourceSha256": "0485b643591b60422d82212d6443d75a20d13360abeef2ee5d1b2dc5eec1af53",
+  "guardOnlyUpdatesMadeWhileProcessRan": "Current selector/CLI gained stricter count validation and avoids output creation for invalid chord lists. Fitting math and controls in this saved executed source are the original run."
+}

@@ -1,0 +1,28 @@
+{
+  "chord": "Gm7",
+  "voicing": "353333",
+  "maxEvaluations": 12,
+  "evaluations": 12,
+  "residualCalls": 243,
+  "seconds": 7.175214266000012,
+  "initialCost": 601667.6480967306,
+  "finalCost": 2057.6350034797288,
+  "optimizerConverged": false,
+  "rootDelta": [
+    25.160323033617516,
+    -13.99214099901187,
+    9.672168089311715,
+    -0.10215404775729664,
+    0.1546133443724139,
+    -0.016121863233871065
+  ],
+  "activeDigits": [
+    "index",
+    "ring"
+  ],
+  "contactXmm": [
+    97.41011059933938,
+    156.7018835667414
+  ],
+  "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+}

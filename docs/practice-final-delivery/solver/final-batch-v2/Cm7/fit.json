@@ -1,0 +1,32 @@
+{
+  "chord": "Cm7",
+  "voicing": "x35343",
+  "maxEvaluations": 12,
+  "evaluations": 12,
+  "residualCalls": 303,
+  "seconds": 8.570244036999952,
+  "initialCost": 566580.5699122628,
+  "finalCost": 2057.4572017500577,
+  "optimizerConverged": false,
+  "rootDelta": [
+    23.59350533406707,
+    -9.851699978745675,
+    -1.9956264917744608,
+    -0.021591863775915376,
+    0.21674487043259347,
+    -0.12747611195140152
+  ],
+  "activeDigits": [
+    "index",
+    "middle",
+    "ring"
+  ],
+  "releasedUnusedDigits": [],
+  "releaseReasons": {},
+  "contactXmm": [
+    97.45792783576826,
+    156.80085866940948,
+    127.89599491578225
+  ],
+  "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+}

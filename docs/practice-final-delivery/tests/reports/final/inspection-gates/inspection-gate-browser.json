@@ -1,0 +1,3654 @@
+{
+  "scope": "Actual all42 inspection gates and camera rendering, not anatomical approval",
+  "sourceLibrarySHA256": "2e2816f7adf533f80fba931e4d73b592a670a614ea014406903da162b5f01aa1",
+  "productionArtifactSHA256": {
+    "PracticePage-DIyZ-FJw.js": "e50e96b82ce7a00446fe5f5e09d7f34a0378671de607769fa4053f51b6f8460e",
+    "PracticePage-De_eEkvR.css": "0ebc2a47b730cc296e54e15160698e4d8a30e366d61143e4c537b51a1ad42ff3",
+    "practice-three-CP7LDGza.js": "f9a432e3a57d899fe5246f6a8114781258ce36378e39b3da236ef2342d4094b1",
+    "hand-poses-DBVKV8cD.json": "2e2816f7adf533f80fba931e4d73b592a670a614ea014406903da162b5f01aa1",
+    "makehuman-left-arm.metadata-Dl-RSsAy.json": "e14806f1a2f3275e3ae23621afe9c1587fd16db598392abc7c7a16f447e8fc74",
+    "makehuman-left-arm-sleeved-q3B7hHpz.glb": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+  },
+  "sourceInspectionAllowed": [
+    "Am7",
+    "C",
+    "Cmaj7",
+    "Dm",
+    "E7",
+    "Em7",
+    "Fmaj7"
+  ],
+  "checks": [
+    {
+      "engine": "chromium",
+      "browserVersion": "154.0.8037.57",
+      "passed": true,
+      "chordsChecked": 42,
+      "allowed": 7,
+      "blocked": 35,
+      "sourceTransformsMatched": true,
+      "chords": [
+        {
+          "chord": "C",
+          "signature": "1ce0a568",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": true,
+          "actualChangedPixels": 66610
+        },
+        {
+          "chord": "D",
+          "signature": "9252b96c",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 1,
+              "fret": "2",
+              "finger": "2"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "E",
+          "signature": "d05159a8",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "F",
+          "signature": "0803a230",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "3",
+              "finger": "4"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "1",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "G",
+          "signature": "4ce219a6",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "3",
+              "finger": "2"
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "3",
+              "finger": "3"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "A",
+          "signature": "33b15d0d",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 2,
+              "fret": "2",
+              "finger": "4"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "B",
+          "signature": "1d842f78",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 4,
+              "fret": "4",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "4",
+              "finger": "3"
+            },
+            {
+              "string": 2,
+              "fret": "4",
+              "finger": "4"
+            },
+            {
+              "string": 1,
+              "fret": "2",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Cm",
+          "signature": "4ec13c8e",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 4,
+              "fret": "5",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "5",
+              "finger": "4"
+            },
+            {
+              "string": 2,
+              "fret": "4",
+              "finger": "2"
+            },
+            {
+              "string": 1,
+              "fret": "3",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Dm",
+          "signature": "f8923c92",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 1,
+              "fret": "1",
+              "finger": "1"
+            }
+          ],
+          "allowed": true,
+          "actualChangedPixels": 64899
+        },
+        {
+          "chord": "Em",
+          "signature": "27f4eec4",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Fm",
+          "signature": "a1da1c0c",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "3",
+              "finger": "4"
+            },
+            {
+              "string": 3,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "1",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Gm",
+          "signature": "be6f16d2",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 5,
+              "fret": "5",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "5",
+              "finger": "4"
+            },
+            {
+              "string": 3,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "3",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Am",
+          "signature": "7235226c",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Bm",
+          "signature": "c916951f",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 4,
+              "fret": "4",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "4",
+              "finger": "4"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "2"
+            },
+            {
+              "string": 1,
+              "fret": "2",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "C7",
+          "signature": "c7d7404a",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "3",
+              "finger": "4"
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "D7",
+          "signature": "05457593",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "2",
+              "finger": "3"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "E7",
+          "signature": "7753a6f9",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": true,
+          "actualChangedPixels": 65063
+        },
+        {
+          "chord": "F7",
+          "signature": "7acaa971",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "1",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "G7",
+          "signature": "b46212e4",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "1",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "A7",
+          "signature": "532785f2",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "B7",
+          "signature": "dc0af881",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 4,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "2",
+              "finger": "4"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Cmaj7",
+          "signature": "dd9b927d",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": true,
+          "actualChangedPixels": 64763
+        },
+        {
+          "chord": "Dmaj7",
+          "signature": "491c58b5",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "2",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Emaj7",
+          "signature": "aa8bb71e",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 3,
+              "fret": "1",
+              "finger": "2"
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Fmaj7",
+          "signature": "20167e00",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": true,
+          "actualChangedPixels": 65991
+        },
+        {
+          "chord": "Gmaj7",
+          "signature": "76911e93",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "2",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Amaj7",
+          "signature": "4790b6ef",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Bmaj7",
+          "signature": "660afb95",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 4,
+              "fret": "4",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "3",
+              "finger": "2"
+            },
+            {
+              "string": 2,
+              "fret": "4",
+              "finger": "4"
+            },
+            {
+              "string": 1,
+              "fret": "2",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Cm7",
+          "signature": "a10937c9",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 4,
+              "fret": "5",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "4",
+              "finger": "2"
+            },
+            {
+              "string": 1,
+              "fret": "3",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Dm7",
+          "signature": "24c8ec6b",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "1",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Em7",
+          "signature": "d25523f8",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": true,
+          "actualChangedPixels": 64615
+        },
+        {
+          "chord": "Fm7",
+          "signature": "60bccca6",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 3,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "1",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Gm7",
+          "signature": "ea2fc938",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 5,
+              "fret": "5",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 3,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "3",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Am7",
+          "signature": "69643940",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": true,
+          "actualChangedPixels": 64424
+        },
+        {
+          "chord": "Bm7",
+          "signature": "8b3e516a",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 4,
+              "fret": "4",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "2"
+            },
+            {
+              "string": 1,
+              "fret": "2",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Csus2",
+          "signature": "8b20dc37",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 4,
+              "fret": "5",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "5",
+              "finger": "4"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "3",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Dsus2",
+          "signature": "8b8b3da7",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Asus2",
+          "signature": "704fde40",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Csus4",
+          "signature": "f2a0dc94",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "3",
+              "finger": "4"
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "1",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Dsus4",
+          "signature": "9136e065",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 1,
+              "fret": "3",
+              "finger": "4"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Esus4",
+          "signature": "71b5686b",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "4"
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Asus4",
+          "signature": "54c23401",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "4"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        }
+      ],
+      "views": [
+        {
+          "viewport": [
+            1440,
+            1000
+          ],
+          "preset": "angle",
+          "camera": {
+            "position": [
+              -5.1819575,
+              10.3804778,
+              2.5141433
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 10.9088895,
+            "fov": 38,
+            "aspect": 1.7813620071684588
+          },
+          "screenshot": "UNAPPROVED-chromium-desktop-C-angle.png"
+        },
+        {
+          "viewport": [
+            1440,
+            1000
+          ],
+          "preset": "player",
+          "camera": {
+            "position": [
+              -1.2774303,
+              7.8557518,
+              10.8814834
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 14.163576,
+            "fov": 38,
+            "aspect": 1.7813620071684588
+          },
+          "screenshot": "UNAPPROVED-chromium-desktop-C-player.png"
+        },
+        {
+          "viewport": [
+            1024,
+            1366
+          ],
+          "preset": "angle",
+          "camera": {
+            "position": [
+              -5.3557512,
+              11.8287582,
+              2.9486275
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 12.4308937,
+            "fov": 38,
+            "aspect": 1.3514644351464435
+          },
+          "screenshot": "UNAPPROVED-chromium-tablet-C-angle.png"
+        },
+        {
+          "viewport": [
+            1024,
+            1366
+          ],
+          "preset": "player",
+          "camera": {
+            "position": [
+              -1.2774303,
+              7.8557518,
+              10.8814834
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 14.163576,
+            "fov": 38,
+            "aspect": 1.3514644351464435
+          },
+          "screenshot": "UNAPPROVED-chromium-tablet-C-player.png"
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "preset": "angle",
+          "camera": {
+            "position": [
+              -6.230301,
+              19.116674,
+              5.1350022
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 20.0897963,
+            "fov": 38,
+            "aspect": 0.8325358851674641
+          },
+          "screenshot": "UNAPPROVED-chromium-mobile-C-angle.png"
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "preset": "player",
+          "camera": {
+            "position": [
+              0.1370208,
+              12.034812,
+              16.9893407
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 21.6982384,
+            "fov": 38,
+            "aspect": 0.8325358851674641
+          },
+          "screenshot": "UNAPPROVED-chromium-mobile-C-player.png"
+        }
+      ]
+    },
+    {
+      "engine": "webkit",
+      "browserVersion": "26.5",
+      "passed": true,
+      "chordsChecked": 42,
+      "allowed": 7,
+      "blocked": 35,
+      "sourceTransformsMatched": true,
+      "chords": [
+        {
+          "chord": "C",
+          "signature": "1ce0a568",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": true,
+          "actualChangedPixels": 66587
+        },
+        {
+          "chord": "D",
+          "signature": "9252b96c",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 1,
+              "fret": "2",
+              "finger": "2"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "E",
+          "signature": "d05159a8",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "F",
+          "signature": "0803a230",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "3",
+              "finger": "4"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "1",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "G",
+          "signature": "4ce219a6",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "3",
+              "finger": "2"
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "3",
+              "finger": "3"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "A",
+          "signature": "33b15d0d",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 2,
+              "fret": "2",
+              "finger": "4"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "B",
+          "signature": "1d842f78",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 4,
+              "fret": "4",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "4",
+              "finger": "3"
+            },
+            {
+              "string": 2,
+              "fret": "4",
+              "finger": "4"
+            },
+            {
+              "string": 1,
+              "fret": "2",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Cm",
+          "signature": "4ec13c8e",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 4,
+              "fret": "5",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "5",
+              "finger": "4"
+            },
+            {
+              "string": 2,
+              "fret": "4",
+              "finger": "2"
+            },
+            {
+              "string": 1,
+              "fret": "3",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Dm",
+          "signature": "f8923c92",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 1,
+              "fret": "1",
+              "finger": "1"
+            }
+          ],
+          "allowed": true,
+          "actualChangedPixels": 64959
+        },
+        {
+          "chord": "Em",
+          "signature": "27f4eec4",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Fm",
+          "signature": "a1da1c0c",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "3",
+              "finger": "4"
+            },
+            {
+              "string": 3,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "1",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Gm",
+          "signature": "be6f16d2",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 5,
+              "fret": "5",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "5",
+              "finger": "4"
+            },
+            {
+              "string": 3,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "3",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Am",
+          "signature": "7235226c",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Bm",
+          "signature": "c916951f",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 4,
+              "fret": "4",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "4",
+              "finger": "4"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "2"
+            },
+            {
+              "string": 1,
+              "fret": "2",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "C7",
+          "signature": "c7d7404a",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "3",
+              "finger": "4"
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "D7",
+          "signature": "05457593",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "2",
+              "finger": "3"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "E7",
+          "signature": "7753a6f9",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": true,
+          "actualChangedPixels": 65143
+        },
+        {
+          "chord": "F7",
+          "signature": "7acaa971",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "1",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "G7",
+          "signature": "b46212e4",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "1",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "A7",
+          "signature": "532785f2",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "B7",
+          "signature": "dc0af881",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 4,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "2",
+              "finger": "4"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Cmaj7",
+          "signature": "dd9b927d",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": true,
+          "actualChangedPixels": 64839
+        },
+        {
+          "chord": "Dmaj7",
+          "signature": "491c58b5",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "2",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Emaj7",
+          "signature": "aa8bb71e",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 3,
+              "fret": "1",
+              "finger": "2"
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Fmaj7",
+          "signature": "20167e00",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": true,
+          "actualChangedPixels": 65954
+        },
+        {
+          "chord": "Gmaj7",
+          "signature": "76911e93",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "2",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Amaj7",
+          "signature": "4790b6ef",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Bmaj7",
+          "signature": "660afb95",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 4,
+              "fret": "4",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "3",
+              "finger": "2"
+            },
+            {
+              "string": 2,
+              "fret": "4",
+              "finger": "4"
+            },
+            {
+              "string": 1,
+              "fret": "2",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Cm7",
+          "signature": "a10937c9",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 4,
+              "fret": "5",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "4",
+              "finger": "2"
+            },
+            {
+              "string": 1,
+              "fret": "3",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Dm7",
+          "signature": "24c8ec6b",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "1",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Em7",
+          "signature": "d25523f8",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": true,
+          "actualChangedPixels": 64618
+        },
+        {
+          "chord": "Fm7",
+          "signature": "60bccca6",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 3,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "1",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Gm7",
+          "signature": "ea2fc938",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 5,
+              "fret": "5",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 3,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "3",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Am7",
+          "signature": "69643940",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": true,
+          "actualChangedPixels": 64497
+        },
+        {
+          "chord": "Bm7",
+          "signature": "8b3e516a",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 4,
+              "fret": "4",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "2"
+            },
+            {
+              "string": 1,
+              "fret": "2",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Csus2",
+          "signature": "8b20dc37",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 4,
+              "fret": "5",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "5",
+              "finger": "4"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "3",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Dsus2",
+          "signature": "8b8b3da7",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Asus2",
+          "signature": "704fde40",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Csus4",
+          "signature": "f2a0dc94",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 4,
+              "fret": "3",
+              "finger": "4"
+            },
+            {
+              "string": 3,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 2,
+              "fret": "1",
+              "finger": "1"
+            },
+            {
+              "string": 1,
+              "fret": "1",
+              "finger": "1"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Dsus4",
+          "signature": "9136e065",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "1"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "3"
+            },
+            {
+              "string": 1,
+              "fret": "3",
+              "finger": "4"
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Esus4",
+          "signature": "71b5686b",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "4"
+            },
+            {
+              "string": 2,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        },
+        {
+          "chord": "Asus4",
+          "signature": "54c23401",
+          "diagram": [
+            {
+              "string": 6,
+              "fret": "mute",
+              "finger": ""
+            },
+            {
+              "string": 5,
+              "fret": "0",
+              "finger": ""
+            },
+            {
+              "string": 4,
+              "fret": "2",
+              "finger": "2"
+            },
+            {
+              "string": 3,
+              "fret": "2",
+              "finger": "3"
+            },
+            {
+              "string": 2,
+              "fret": "3",
+              "finger": "4"
+            },
+            {
+              "string": 1,
+              "fret": "0",
+              "finger": ""
+            }
+          ],
+          "allowed": false,
+          "rejectedHandHidden": true,
+          "openStringFallback": true
+        }
+      ],
+      "views": [
+        {
+          "viewport": [
+            1440,
+            1000
+          ],
+          "preset": "angle",
+          "camera": {
+            "position": [
+              -5.1819575,
+              10.3804778,
+              2.5141433
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 10.9088895,
+            "fov": 38,
+            "aspect": 1.7813620071684588
+          },
+          "screenshot": "UNAPPROVED-webkit-desktop-C-angle.png"
+        },
+        {
+          "viewport": [
+            1440,
+            1000
+          ],
+          "preset": "player",
+          "camera": {
+            "position": [
+              -1.2774303,
+              7.8557518,
+              10.8814834
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 14.163576,
+            "fov": 38,
+            "aspect": 1.7813620071684588
+          },
+          "screenshot": "UNAPPROVED-webkit-desktop-C-player.png"
+        },
+        {
+          "viewport": [
+            1024,
+            1366
+          ],
+          "preset": "angle",
+          "camera": {
+            "position": [
+              -5.3557512,
+              11.8287582,
+              2.9486275
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 12.4308937,
+            "fov": 38,
+            "aspect": 1.3514644351464435
+          },
+          "screenshot": "UNAPPROVED-webkit-tablet-C-angle.png"
+        },
+        {
+          "viewport": [
+            1024,
+            1366
+          ],
+          "preset": "player",
+          "camera": {
+            "position": [
+              -1.2774303,
+              7.8557518,
+              10.8814834
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 14.163576,
+            "fov": 38,
+            "aspect": 1.3514644351464435
+          },
+          "screenshot": "UNAPPROVED-webkit-tablet-C-player.png"
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "preset": "angle",
+          "camera": {
+            "position": [
+              -6.230301,
+              19.116674,
+              5.1350022
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 20.0897963,
+            "fov": 38,
+            "aspect": 0.8325358851674641
+          },
+          "screenshot": "UNAPPROVED-webkit-mobile-C-angle.png"
+        },
+        {
+          "viewport": [
+            390,
+            844
+          ],
+          "preset": "player",
+          "camera": {
+            "position": [
+              0.1370208,
+              12.034812,
+              16.9893407
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 21.6982384,
+            "fov": 38,
+            "aspect": 0.8325358851674641
+          },
+          "screenshot": "UNAPPROVED-webkit-mobile-C-player.png"
+        }
+      ]
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "networkErrors": [],
+  "physicalIPadSafariTested": false,
+  "teachingHandsApprovedByHarness": 0,
+  "buildArtifactsUnchangedDuringRun": true,
+  "passed": true
+}

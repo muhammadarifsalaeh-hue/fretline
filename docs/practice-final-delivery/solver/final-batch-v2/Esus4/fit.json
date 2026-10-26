@@ -1,0 +1,32 @@
+{
+  "chord": "Esus4",
+  "voicing": "022200",
+  "maxEvaluations": 12,
+  "evaluations": 12,
+  "residualCalls": 274,
+  "seconds": 6.886785376000034,
+  "initialCost": 81661.07719748009,
+  "finalCost": 1777.0518337576218,
+  "optimizerConverged": false,
+  "rootDelta": [
+    -15.574842640401698,
+    1.970892424254489,
+    0.6171093228251663,
+    0.014373442013610653,
+    -0.08423722353318015,
+    0.06810575089894545
+  ],
+  "activeDigits": [
+    "middle",
+    "ring",
+    "little"
+  ],
+  "releasedUnusedDigits": [],
+  "releaseReasons": {},
+  "contactXmm": [
+    64.79809339770136,
+    69.09847173296063,
+    69.44443376053665
+  ],
+  "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+}

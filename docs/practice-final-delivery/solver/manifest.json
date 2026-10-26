@@ -1,0 +1,114 @@
+{
+  "solver": "one central actual-skin IK for42 immutable chord definitions",
+  "sources": {
+    "library_sha": "2e2816f7adf533f80fba931e4d73b592a670a614ea014406903da162b5f01aa1",
+    "model_sha": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+    "chord_sha": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+    "rig_sha": "6c58c7de471cd50753ce884fc6f0d044d8d5e1e2a39be384815b6be94e896c88"
+  },
+  "runs": [
+    {
+      "id": "C",
+      "action": "preserve-exact-audited-seed"
+    },
+    {
+      "id": "Em",
+      "seed": "Cmaj7",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Em",
+        "voicing": "022000",
+        "maxEvaluations": 28,
+        "evaluations": 28,
+        "residualCalls": 466,
+        "seconds": 68.01226272400527,
+        "initialCost": 23191.703667638347,
+        "finalCost": 119.33189193890641,
+        "optimizerConverged": false,
+        "rootDelta": [
+          -18.694660816161488,
+          2.750478711435455,
+          -1.7339874954089751,
+          0.015734948560861536,
+          0.08410481112514688,
+          0.06379010050545503
+        ],
+        "activeDigits": [
+          "middle",
+          "ring"
+        ],
+        "contactXmm": [
+          64.79763064520962,
+          69.44763064501718
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    },
+    {
+      "id": "Am",
+      "seed": "C",
+      "action": "bounded-central-fit",
+      "metrics": {
+        "chord": "Am",
+        "voicing": "x02210",
+        "maxEvaluations": 28,
+        "evaluations": 28,
+        "residualCalls": 609,
+        "seconds": 22.41496585999994,
+        "initialCost": 24913.450371070117,
+        "finalCost": 213.13693526536596,
+        "optimizerConverged": false,
+        "rootDelta": [
+          -12.568215723612106,
+          -0.4246349720862824,
+          -6.63011411949151,
+          -0.011380963919800634,
+          0.059969486634104445,
+          0.13030918095203575
+        ],
+        "activeDigits": [
+          "index",
+          "middle",
+          "ring"
+        ],
+        "contactXmm": [
+          64.79781043090543,
+          69.44738337766354,
+          30.538755615566764
+        ],
+        "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "id": "Em",
+      "geometricPassed": false,
+      "changed": true,
+      "selected": false,
+      "teachingApproved": false,
+      "preservedOriginal": true
+    },
+    {
+      "id": "Am",
+      "geometricPassed": false,
+      "changed": true,
+      "selected": false,
+      "teachingApproved": false,
+      "preservedOriginal": true
+    }
+  ],
+  "existingPassingPoses": [
+    "Am7",
+    "C",
+    "Cmaj7",
+    "Dm",
+    "E7",
+    "Em7",
+    "Fmaj7"
+  ],
+  "teachingApprovals": 0,
+  "runtimeWritten": false,
+  "auditRequiredForReplacement": true,
+  "physicalAnimationValidated": false
+}

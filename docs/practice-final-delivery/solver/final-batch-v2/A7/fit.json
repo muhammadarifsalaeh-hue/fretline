@@ -1,0 +1,40 @@
+{
+  "chord": "A7",
+  "voicing": "x02020",
+  "maxEvaluations": 12,
+  "evaluations": 12,
+  "residualCalls": 237,
+  "seconds": 7.118373349999956,
+  "initialCost": 20239.629111853388,
+  "finalCost": 258.93205394407676,
+  "optimizerConverged": false,
+  "rootDelta": [
+    -7.010837356776023,
+    0.48948351660406075,
+    2.8024063977423306,
+    -0.0070412347482707,
+    -0.062374522238256354,
+    0.08933386838022107
+  ],
+  "activeDigits": [
+    "middle",
+    "ring"
+  ],
+  "releasedUnusedDigits": [
+    "index"
+  ],
+  "releaseReasons": {
+    "index": [
+      "formerly-fretted-in-seed",
+      {
+        "initialOpenString": 1,
+        "actualFingerSurfaceClearanceMm": -0.125
+      }
+    ]
+  },
+  "contactXmm": [
+    65.75650566328372,
+    68.26657163040535
+  ],
+  "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+}

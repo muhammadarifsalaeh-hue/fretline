@@ -1,0 +1,51 @@
+{
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "librarySnapshotSha256": "a9ab3c4d63ed7fe6c7121b0c18dae49f6913ca9aa03bf9d0d27540aa6622a6f9",
+  "sourceChordSha256": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+  "count": 2,
+  "geometricPassed": 0,
+  "verifiedTeachingHands": 0,
+  "requiredBatch": [],
+  "testSuitePassed": true,
+  "all42GeometricPassed": false,
+  "errors": [],
+  "scope": "Actual FK/LBS skin and garment triangle crossings, dense wood rejection, actual runtime exported string paths and assigned-digit palmar contact. No anatomical or physical iPad approval.",
+  "rows": [
+    {
+      "id": "Em",
+      "voicing": "022000",
+      "poseTransformSha256": "04bdd543fa1f1f39722c238108cc2a429e25b54615f60ba7107e316a51815e0c",
+      "skinAndClothSelfCrossingPairs": 37,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 16,
+      "maximumWoodDepthMm": 0.18072916019914587,
+      "guitar": {
+        "status": "not-run"
+      },
+      "contacts": [],
+      "strings": [],
+      "geometricPassed": false,
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Em-raw.json.gz"
+    },
+    {
+      "id": "Am",
+      "voicing": "x02210",
+      "poseTransformSha256": "c17f8366559b9f498ae9e1c2e121f59004114cd59ab15455c05d15eb3567454d",
+      "skinAndClothSelfCrossingPairs": 31,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 10,
+      "maximumWoodDepthMm": 0.21510812555083803,
+      "guitar": {
+        "status": "not-run"
+      },
+      "contacts": [],
+      "strings": [],
+      "geometricPassed": false,
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Am-raw.json.gz"
+    }
+  ]
+}

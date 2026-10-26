@@ -1,0 +1,15 @@
+PROGRESS chromium inspector gate 7/42
+PROGRESS chromium inspector gate 14/42
+PROGRESS chromium inspector gate 21/42
+PROGRESS chromium inspector gate 28/42
+PROGRESS chromium inspector gate 35/42
+PROGRESS chromium inspector gate 42/42
+PASS chromium all42 inspector gates and six actual default/player captures
+Skipping host requirements validation logic because `PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS` env variable is set.
+PROGRESS webkit inspector gate 7/42
+PROGRESS webkit inspector gate 14/42
+PROGRESS webkit inspector gate 21/42
+PROGRESS webkit inspector gate 28/42
+PROGRESS webkit inspector gate 35/42
+PROGRESS webkit inspector gate 42/42
+PASS webkit all42 inspector gates and six actual default/player captures

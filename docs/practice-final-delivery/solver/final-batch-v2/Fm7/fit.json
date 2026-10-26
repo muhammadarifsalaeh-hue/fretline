@@ -1,0 +1,36 @@
+{
+  "chord": "Fm7",
+  "voicing": "131111",
+  "maxEvaluations": 12,
+  "evaluations": 12,
+  "residualCalls": 293,
+  "seconds": 9.05597517199999,
+  "initialCost": 24080.413679471,
+  "finalCost": 693.3547821325031,
+  "optimizerConverged": false,
+  "rootDelta": [
+    2.463322635019022,
+    -11.91855293037504,
+    6.401159350314348,
+    3.472155315650642e-05,
+    0.13719575475224205,
+    0.21212352121577233
+  ],
+  "activeDigits": [
+    "index",
+    "ring"
+  ],
+  "releasedUnusedDigits": [
+    "middle"
+  ],
+  "releaseReasons": {
+    "middle": [
+      "formerly-fretted-in-seed"
+    ]
+  },
+  "contactXmm": [
+    31.508449872062187,
+    97.25680407303061
+  ],
+  "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+}

@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import { createHash, webcrypto } from 'node:crypto';
+import { existsSync, readFileSync } from 'node:fs';
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { assessHandPose, createHandPoseEngine, disposeHandObject } from '../src/features/practice/scene/handPoseEngine.js';
@@ -17,7 +18,7 @@ const rigSignature = [...boneNames].sort().join('|');
 const bilingual = { th: 'ท่าทดลองรอตรวจทาน', en: 'Experimental pose awaiting review.' };
 function fixture() {
   const metadata = { schemaVersion: 1, assetSha256: sha, rigSignature, expectedBoneNames: boneNames, millimetresPerAssetUnit: 1000, anatomicalPoseStatus: 'unavailable' };
-  const record = { status: 'needs-review', reviewed: false, reason: bilingual, root: { positionMm: [55, 12, -4], quaternion: [0, 0, 0, 1] }, bones: Object.fromEntries(boneNames.map((name) => [name, { quaternion: [0, 0, 0, 1] }])), audit: { collisionPassed: false } };
+  const record = { status: 'needs-review', reviewed: false, reason: bilingual, root: { positionMm: [55, 12, -4], quaternion: [0, 0, 0, 1] }, bones: Object.fromEntries(boneNames.map((name) => [name, { quaternion: [0, 0, 0, 1] }])), audit: { collisionPassed: true, contactPassed: true, anatomyPassed: false, multiViewReviewed: false } };
   const library = { schemaVersion: 1, assetSha256: sha, rigSignature, poses: { C: record, D: clone(record) } };
   library.poses.D.bones['finger2-1.L'].quaternion = new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(1, 0, 0), .4).toArray();
   return { metadata, library, assetSha256: sha, boneNames, chordId: 'C' };
@@ -26,7 +27,44 @@ function fixture() {
 await check('A matched but unreviewed candidate remains needs-review', () => {
   const result = assessHandPose(fixture());
   assert.equal(result.status, 'needs-review'); assert.equal(result.candidate, true);
+  assert.equal(result.inspectionAllowed, true);
   assert.deepEqual(result.reason, bilingual);
+});
+await check('Inspection requires explicit successful contact and collision gates, without granting teaching approval', () => {
+  for (const name of ['collisionPassed', 'contactPassed']) {
+    for (const value of [undefined, false, 'true', 1, null]) {
+      const data = fixture(); data.library.poses.C.audit[name] = value;
+      const result = assessHandPose(data);
+      assert.equal(result.candidate, true, 'Complete transforms remain available to hidden diagnostics');
+      assert.equal(result.status, 'needs-review'); assert.equal(result.inspectionAllowed, false, `${name}=${value}`);
+      assert.ok(result.reason.th); assert.ok(result.reason.en);
+    }
+  }
+  const data = fixture(); delete data.library.poses.C.audit;
+  assert.equal(assessHandPose(data).inspectionAllowed, false);
+  assert.equal(assessHandPose(fixture()).status, 'needs-review');
+});
+await check('Actual 42-record library permits inspection only for independently mesh-audited endpoints', () => {
+  const libraryFile = new URL('../src/features/practice/assets/hand-poses.json', import.meta.url);
+  const libraryBytes = readFileSync(libraryFile), library = JSON.parse(libraryBytes);
+  const metadata = JSON.parse(readFileSync(new URL('../src/features/practice/assets/makehuman-left-arm.metadata.json', import.meta.url)));
+  const actualHash = createHash('sha256').update(readFileSync(new URL('../src/features/practice/assets/makehuman-left-arm-sleeved.glb', import.meta.url))).digest('hex');
+  const libraryHash = createHash('sha256').update(libraryBytes).digest('hex');
+  const reports = ['../docs/practice-final-delivery/geometry/summary.json', '../docs/practice-hand-batch-3/geometry/summary.json']
+    .map((path) => new URL(path, import.meta.url)).filter(existsSync).map((path) => JSON.parse(readFileSync(path)));
+  const audit = reports.find((report) => report.librarySnapshotSha256 === libraryHash);
+  assert.ok(audit, 'A completed actual mesh report must bind the current library before inspection tests can pass');
+  assert.equal(audit.assetSha256, actualHash); assert.equal(audit.count, 42);
+  assert.equal(new Set(audit.rows.map(({ id }) => id)).size, 42);
+  const expected = audit.rows.filter(({ geometricPassed }) => geometricPassed).map(({ id }) => id).sort();
+  const actual = Object.keys(library.poses).filter((chordId) => {
+    const result = assessHandPose({ library, metadata, assetSha256: actualHash, boneNames: metadata.expectedBoneNames, chordId });
+    assert.equal(result.candidate, true, `${chordId}: keep the complete real rig for hidden diagnostic fingerprints`);
+    assert.notEqual(result.status, 'verified', `${chordId}: geometry alone cannot approve a teaching hand`);
+    return result.inspectionAllowed;
+  }).sort();
+  assert.equal(Object.keys(library.poses).length, 42); assert.deepEqual(actual, expected);
+  console.log(`  Actual inspected eligibility: ${actual.length}/42; rejected endpoints remain hidden.`);
 });
 await check('A status label alone cannot promote a pose to verified', () => {
   for (const patch of [{}, { reviewed: true }, { audit: { collisionPassed: true } }]) {
@@ -155,6 +193,30 @@ await check('Loaded candidates stay hidden until inspection; bone transforms pro
     engine.setHandReviewMode(true); engine.setChord({ id: 'missing' });
     assert.equal(canvas.dataset.handStatus, 'unavailable'); assert.equal(canvas.dataset.handVisible, 'false');
   });
+});
+await check('Programmatic inspection cannot reveal a failed pose, and accepted hidden rig fingerprints remain distinct', async () => {
+  for (const name of ['collisionPassed', 'contactPassed']) {
+    for (const value of [undefined, false, 'true']) {
+      await withEngine(async ({ engine, canvas, updates, models }) => {
+        await until(() => canvas.dataset.handAssetStatus === 'ready', 'geometry-rejected hand ready');
+        const cSignature = canvas.dataset.handPoseSignature;
+        assert.equal(canvas.dataset.handInspectionAllowed, 'false');
+        engine.setHandReviewMode(true);
+        assert.equal(canvas.dataset.handVisible, 'false'); assert.equal(canvas.dataset.handReviewMode, 'false');
+        assert.equal(updates.at(-1).inspectionAllowed, false); assert.equal(updates.at(-1).reviewMode, false);
+        engine.setChord({ id: 'D' });
+        assert.notEqual(canvas.dataset.handPoseSignature, cSignature);
+        assert.ok(Math.abs(models[0].bones[1].quaternion.x) > .1);
+        assert.equal(canvas.dataset.handInspectionAllowed, 'true'); assert.equal(canvas.dataset.handVisible, 'false');
+        engine.setHandReviewMode(true); assert.equal(canvas.dataset.handVisible, 'true');
+        engine.setChord({ id: 'C' }); engine.setHandReviewMode(true);
+        assert.equal(canvas.dataset.handVisible, 'false'); assert.equal(canvas.dataset.handReviewMode, 'false');
+      }, { fetch: async (url, options, data) => {
+        data.library.poses.C.audit[name] = value;
+        return responseFor(url, data);
+      } });
+    }
+  }
 });
 await check('An HTTP asset failure aborts sibling requests and reports diagram fallback', async () => {
   await withEngine(async (context) => {

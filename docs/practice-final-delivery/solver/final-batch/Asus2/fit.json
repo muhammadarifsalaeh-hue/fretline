@@ -1,0 +1,28 @@
+{
+  "chord": "Asus2",
+  "voicing": "x02200",
+  "maxEvaluations": 12,
+  "evaluations": 12,
+  "residualCalls": 220,
+  "seconds": 5.978941879999979,
+  "initialCost": 25285.19008486146,
+  "finalCost": 314.51544327443804,
+  "optimizerConverged": false,
+  "rootDelta": [
+    -4.934532936340359,
+    -2.967783810752783,
+    0.010847391952313157,
+    -0.08210670345591904,
+    -0.017858701315432504,
+    0.1057703713938835
+  ],
+  "activeDigits": [
+    "middle",
+    "ring"
+  ],
+  "contactXmm": [
+    65.39491486664184,
+    68.91780682939735
+  ],
+  "note": "Sampled fitting priors only. Original exact acceptance and independent anatomical review remain mandatory."
+}
