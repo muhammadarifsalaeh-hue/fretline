@@ -1,0 +1,58 @@
+
+> fretline@0.1.0 phase6:check
+> node scripts/check-phase6.mjs
+
+PASS all original IDs remain resolvable; retained catalog order survives approved archival
+PASS no duplicate IDs or normalized brand/model pairs
+PASS every effective record passes catalog validation
+PASS all records remain partial; none silently becomes verified
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+34000 !== null
+
+    at file:///workspace/fretline/scripts/check-phase6.mjs:35:39
+    at check (file:///workspace/fretline/scripts/check-phase6.mjs:11:31)
+    at file:///workspace/fretline/scripts/check-phase6.mjs:34:3 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 34000,
+  expected: null,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan receive]:
+github.com/evanw/esbuild/internal/helpers.(*ThreadSafeWaitGroup).Wait(...)
+	github.com/evanw/esbuild/internal/helpers/waitgroup.go:36
+main.runService.func2()
+	github.com/evanw/esbuild/cmd/esbuild/service.go:114 +0x59
+main.runService(0x1)
+	github.com/evanw/esbuild/cmd/esbuild/service.go:160 +0x4ed
+main.main()
+	github.com/evanw/esbuild/cmd/esbuild/main.go:241 +0xa29
+
+goroutine 18 [chan receive]:
+main.runService.func1()
+	github.com/evanw/esbuild/cmd/esbuild/service.go:98 +0x4a
+created by main.runService
+	github.com/evanw/esbuild/cmd/esbuild/service.go:97 +0x1e5
+
+goroutine 19 [chan receive]:
+main.(*serviceType).sendRequest(0xc000128030, {0x94bc00, 0xc000144b70})
+	github.com/evanw/esbuild/cmd/esbuild/service.go:192 +0xfa
+main.runService.func3()
+	github.com/evanw/esbuild/cmd/esbuild/service.go:125 +0x39
+created by main.runService
+	github.com/evanw/esbuild/cmd/esbuild/service.go:122 +0x31c
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

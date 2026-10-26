@@ -1,0 +1,284 @@
+{
+  "baseline": "74c2076",
+  "testedRuntimeCommit": "43785e22c2edbebbb577ecd645efe84d508512b2",
+  "branch": "feature/guitar-practice-3d",
+  "masterMerged": false,
+  "geometry": {
+    "tested": 42,
+    "passed": 7,
+    "rejected": 35,
+    "passingChords": [
+      "C",
+      "Dm",
+      "E7",
+      "Cmaj7",
+      "Fmaj7",
+      "Em7",
+      "Am7"
+    ],
+    "teachingApproved": 0,
+    "all42Passed": false
+  },
+  "sourceLibrarySHA256": "2e2816f7adf533f80fba931e4d73b592a670a614ea014406903da162b5f01aa1",
+  "build": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "evidence": "build.txt",
+    "lazyThreeChunkWarning": true
+  },
+  "coreChecksPassed": true,
+  "browserChecksPassed": true,
+  "deliveryChecksPassed": true,
+  "browserTrainer": {
+    "chromium": {
+      "passed": true,
+      "cases": 21,
+      "passedCases": 21,
+      "failedCases": [],
+      "browserVersion": "154.0.8037.57",
+      "errors": {
+        "consoleErrors": 0,
+        "runtimeErrors": 0,
+        "failedRequests": 0,
+        "badResponses": 0,
+        "networkErrors": 0
+      },
+      "performance": {
+        "startupSettlement": [
+          {
+            "elapsedSeconds": 0.03260019200388342,
+            "count": 3,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.19997965500078863,
+            "count": 3,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.31982675500330515,
+            "count": 3,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.44217043399839895,
+            "count": 3,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.6020276519993786,
+            "count": 3,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          }
+        ],
+        "idleRenderCountBefore": 3,
+        "idleRenderCountAfter": 3,
+        "zoomRenderCount": 4,
+        "renderInfo": {
+          "calls": 78,
+          "triangles": 15500,
+          "geometries": 68,
+          "textures": 15
+        },
+        "visibleHandRenderInfo": {
+          "calls": 68,
+          "triangles": 30912,
+          "geometries": 70,
+          "textures": 18
+        },
+        "spaUnmounts": 3,
+        "heap": [
+          {
+            "cycle": 1,
+            "jsHeapUsedBytesAfterUnmount": 8430872,
+            "jsHeapTotalBytes": 9289728,
+            "documents": 1,
+            "nodes": 1671
+          },
+          {
+            "cycle": 2,
+            "jsHeapUsedBytesAfterUnmount": 8819656,
+            "jsHeapTotalBytes": 9814016,
+            "documents": 1,
+            "nodes": 1698
+          },
+          {
+            "cycle": 3,
+            "jsHeapUsedBytesAfterUnmount": 9042540,
+            "jsHeapTotalBytes": 9814016,
+            "documents": 1,
+            "nodes": 1725
+          }
+        ],
+        "limitations": [
+          "Software WebGL engine measurements are not physical iPad GPU/frame-rate evidence.",
+          "JS heap measurements do not measure native WebGL/GPU memory."
+        ]
+      },
+      "buildArtifactsUnchangedDuringRun": true
+    },
+    "webkit": {
+      "passed": true,
+      "cases": 21,
+      "passedCases": 21,
+      "failedCases": [],
+      "browserVersion": "26.5",
+      "errors": {
+        "consoleErrors": 0,
+        "runtimeErrors": 0,
+        "failedRequests": 0,
+        "badResponses": 0,
+        "networkErrors": 0
+      },
+      "performance": {
+        "startupSettlement": [
+          {
+            "elapsedSeconds": 0.01237244100047974,
+            "count": 2,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.12792015699960757,
+            "count": 2,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.2397777619989938,
+            "count": 2,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.35463232699839864,
+            "count": 2,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.4693538389983587,
+            "count": 2,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          }
+        ],
+        "idleRenderCountBefore": 2,
+        "idleRenderCountAfter": 2,
+        "zoomRenderCount": 3,
+        "renderInfo": {
+          "calls": 78,
+          "triangles": 15500,
+          "geometries": 68,
+          "textures": 15
+        },
+        "visibleHandRenderInfo": {
+          "calls": 68,
+          "triangles": 30912,
+          "geometries": 70,
+          "textures": 18
+        },
+        "spaUnmounts": 3,
+        "heap": [],
+        "limitations": [
+          "Software WebGL engine measurements are not physical iPad GPU/frame-rate evidence.",
+          "JS heap measurements do not measure native WebGL/GPU memory."
+        ]
+      },
+      "buildArtifactsUnchangedDuringRun": true
+    }
+  },
+  "browserRegressions": 107,
+  "protectedSiteFilesUnchanged": 197,
+  "guitarCatalog": "200 guitars / 10 brands / 20 each, IDs unchanged",
+  "legacyStatic": [
+    {
+      "name": "phase4",
+      "command": [
+        "npm",
+        "run",
+        "phase4:check"
+      ],
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "phase5",
+      "command": [
+        "npm",
+        "run",
+        "phase5:check"
+      ],
+      "returncode": 1,
+      "passed": false
+    },
+    {
+      "name": "phase6",
+      "command": [
+        "npm",
+        "run",
+        "phase6:check"
+      ],
+      "returncode": 1,
+      "passed": false
+    },
+    {
+      "name": "phase7",
+      "command": [
+        "npm",
+        "run",
+        "phase7:check"
+      ],
+      "returncode": 1,
+      "passed": false
+    },
+    {
+      "name": "phase8",
+      "command": [
+        "npm",
+        "run",
+        "phase8:check"
+      ],
+      "returncode": 1,
+      "passed": false
+    },
+    {
+      "name": "phase9",
+      "command": [
+        "npm",
+        "run",
+        "phase9:check"
+      ],
+      "returncode": 1,
+      "passed": false
+    }
+  ],
+  "historicalAllChecksGreen": false,
+  "physicalIPadSafariTested": false,
+  "physicalChordMorphValidated": false,
+  "appearanceRevealOnly": true,
+  "productionReady": false,
+  "remaining": [
+    "35 runtime hand poses rejected",
+    "No hand has final anatomical/teaching approval",
+    "Natural proximal curl/skin presentation and cropped sleeve remain unresolved",
+    "Physical chord-to-chord bone paths are not collision-validated",
+    "No physical iPad Safari test",
+    "Historical Phase5–9 static commands still fail baseline assertions"
+  ]
+}

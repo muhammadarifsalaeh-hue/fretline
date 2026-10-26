@@ -1,0 +1,2199 @@
+{
+  "scope": "Current actual repaired candidate renderings and controls; not anatomical hand approval",
+  "url": "http://127.0.0.1:5430",
+  "chords": [
+    "C",
+    "Em7",
+    "E7",
+    "Fmaj7",
+    "Dm"
+  ],
+  "checks": [
+    {
+      "engine": "chromium",
+      "browserVersion": "154.0.8037.57",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "passed": true,
+      "poses": [
+        {
+          "chord": "C",
+          "actualAppliedRigSignature": "1ce0a568",
+          "changedWebGLPixels": 108177,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -5.1819575,
+                  10.3804778,
+                  2.5141433
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 10.9088895,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-C-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.070443,
+                  2.5518215,
+                  13.5767859
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 14.4491983,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-C-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.7520141,
+                  -14.8035763,
+                  2.6567868
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 15.2037845,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-C-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-C-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        },
+        {
+          "chord": "Em7",
+          "actualAppliedRigSignature": "d25523f8",
+          "changedWebGLPixels": 104635,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -5.1819575,
+                  10.3804778,
+                  2.5141433
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 10.9088895,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-Em7-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.070443,
+                  2.5518215,
+                  13.5767859
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 14.4491983,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-Em7-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.7520141,
+                  -14.8035763,
+                  2.6567868
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 15.2037845,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-Em7-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-Em7-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        },
+        {
+          "chord": "E7",
+          "actualAppliedRigSignature": "7753a6f9",
+          "changedWebGLPixels": 105611,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -5.1819575,
+                  10.3804778,
+                  2.5141433
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 10.9088895,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-E7-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.070443,
+                  2.5518215,
+                  13.5767859
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 14.4491983,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-E7-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.7520141,
+                  -14.8035763,
+                  2.6567868
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 15.2037845,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-E7-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-E7-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        },
+        {
+          "chord": "Fmaj7",
+          "actualAppliedRigSignature": "20167e00",
+          "changedWebGLPixels": 107098,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -5.1819575,
+                  10.3804778,
+                  2.5141433
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 10.9088895,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-Fmaj7-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.070443,
+                  2.5518215,
+                  13.5767859
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 14.4491983,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-Fmaj7-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.7520141,
+                  -14.8035763,
+                  2.6567868
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 15.2037845,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-Fmaj7-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-Fmaj7-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        },
+        {
+          "chord": "Dm",
+          "actualAppliedRigSignature": "f8923c92",
+          "changedWebGLPixels": 105334,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -5.1819575,
+                  10.3804778,
+                  2.5141433
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 10.9088895,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-Dm-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.070443,
+                  2.5518215,
+                  13.5767859
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 14.4491983,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-Dm-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.7520141,
+                  -14.8035763,
+                  2.6567868
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 15.2037845,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-Dm-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-chromium-desktop-Dm-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        }
+      ],
+      "sourceCActualRigSignature": "1ce0a568"
+    },
+    {
+      "engine": "chromium",
+      "browserVersion": "154.0.8037.57",
+      "viewport": [
+        390,
+        844
+      ],
+      "passed": true,
+      "poses": [
+        {
+          "chord": "C",
+          "actualAppliedRigSignature": "1ce0a568",
+          "changedWebGLPixels": 42035,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -6.230301,
+                  19.116674,
+                  5.1350022
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 20.0897963,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-C-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.6460083,
+                  3.8468433,
+                  20.7713515
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 21.7820102,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-C-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.2139237,
+                  -21.5297061,
+                  4.1365353
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 22.1117523,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-C-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-C-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        },
+        {
+          "chord": "Em7",
+          "actualAppliedRigSignature": "d25523f8",
+          "changedWebGLPixels": 41406,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -6.230301,
+                  19.116674,
+                  5.1350022
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 20.0897963,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-Em7-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.6460083,
+                  3.8468433,
+                  20.7713515
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 21.7820102,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-Em7-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.2139237,
+                  -21.5297061,
+                  4.1365353
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 22.1117523,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-Em7-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-Em7-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        },
+        {
+          "chord": "E7",
+          "actualAppliedRigSignature": "7753a6f9",
+          "changedWebGLPixels": 41605,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -6.230301,
+                  19.116674,
+                  5.1350022
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 20.0897963,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-E7-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.6460083,
+                  3.8468433,
+                  20.7713515
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 21.7820102,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-E7-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.2139237,
+                  -21.5297061,
+                  4.1365353
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 22.1117523,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-E7-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-E7-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        },
+        {
+          "chord": "Fmaj7",
+          "actualAppliedRigSignature": "20167e00",
+          "changedWebGLPixels": 41882,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -6.230301,
+                  19.116674,
+                  5.1350022
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 20.0897963,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-Fmaj7-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.6460083,
+                  3.8468433,
+                  20.7713515
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 21.7820102,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-Fmaj7-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.2139237,
+                  -21.5297061,
+                  4.1365353
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 22.1117523,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-Fmaj7-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-Fmaj7-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        },
+        {
+          "chord": "Dm",
+          "actualAppliedRigSignature": "f8923c92",
+          "changedWebGLPixels": 41599,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -6.230301,
+                  19.116674,
+                  5.1350022
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 20.0897963,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-Dm-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.6460083,
+                  3.8468433,
+                  20.7713515
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 21.7820102,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-Dm-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.2139237,
+                  -21.5297061,
+                  4.1365353
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 22.1117523,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-Dm-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-chromium-mobile-Dm-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        }
+      ],
+      "sourceCActualRigSignature": "1ce0a568"
+    },
+    {
+      "engine": "webkit",
+      "browserVersion": "26.5",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "passed": true,
+      "poses": [
+        {
+          "chord": "C",
+          "actualAppliedRigSignature": "1ce0a568",
+          "changedWebGLPixels": 107060,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -5.1819575,
+                  10.3804778,
+                  2.5141433
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 10.9088895,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-C-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.070443,
+                  2.5518215,
+                  13.5767859
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 14.4491983,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-C-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.7520141,
+                  -14.8035763,
+                  2.6567868
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 15.2037845,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-C-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-C-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        },
+        {
+          "chord": "Em7",
+          "actualAppliedRigSignature": "d25523f8",
+          "changedWebGLPixels": 103549,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -5.1819575,
+                  10.3804778,
+                  2.5141433
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 10.9088895,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-Em7-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.070443,
+                  2.5518215,
+                  13.5767859
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 14.4491983,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-Em7-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.7520141,
+                  -14.8035763,
+                  2.6567868
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 15.2037845,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-Em7-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-Em7-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        },
+        {
+          "chord": "E7",
+          "actualAppliedRigSignature": "7753a6f9",
+          "changedWebGLPixels": 104499,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -5.1819575,
+                  10.3804778,
+                  2.5141433
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 10.9088895,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-E7-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.070443,
+                  2.5518215,
+                  13.5767859
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 14.4491983,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-E7-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.7520141,
+                  -14.8035763,
+                  2.6567868
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 15.2037845,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-E7-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-E7-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        },
+        {
+          "chord": "Fmaj7",
+          "actualAppliedRigSignature": "20167e00",
+          "changedWebGLPixels": 105953,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -5.1819575,
+                  10.3804778,
+                  2.5141433
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 10.9088895,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-Fmaj7-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.070443,
+                  2.5518215,
+                  13.5767859
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 14.4491983,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-Fmaj7-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.7520141,
+                  -14.8035763,
+                  2.6567868
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 15.2037845,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-Fmaj7-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-Fmaj7-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        },
+        {
+          "chord": "Dm",
+          "actualAppliedRigSignature": "f8923c92",
+          "changedWebGLPixels": 104185,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -5.1819575,
+                  10.3804778,
+                  2.5141433
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 10.9088895,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-Dm-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.070443,
+                  2.5518215,
+                  13.5767859
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 14.4491983,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-Dm-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.7520141,
+                  -14.8035763,
+                  2.6567868
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 15.2037845,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-Dm-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 1.7813620071684588
+              },
+              "screenshot": "UNAPPROVED-webkit-desktop-Dm-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        }
+      ],
+      "sourceCActualRigSignature": "1ce0a568"
+    },
+    {
+      "engine": "webkit",
+      "browserVersion": "26.5",
+      "viewport": [
+        390,
+        844
+      ],
+      "passed": true,
+      "poses": [
+        {
+          "chord": "C",
+          "actualAppliedRigSignature": "1ce0a568",
+          "changedWebGLPixels": 44703,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -6.230301,
+                  19.116674,
+                  5.1350022
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 20.0897963,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-C-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.6460083,
+                  3.8468433,
+                  20.7713515
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 21.7820102,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-C-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.2139237,
+                  -21.5297061,
+                  4.1365353
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 22.1117523,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-C-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-C-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        },
+        {
+          "chord": "Em7",
+          "actualAppliedRigSignature": "d25523f8",
+          "changedWebGLPixels": 44059,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -6.230301,
+                  19.116674,
+                  5.1350022
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 20.0897963,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-Em7-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.6460083,
+                  3.8468433,
+                  20.7713515
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 21.7820102,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-Em7-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.2139237,
+                  -21.5297061,
+                  4.1365353
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 22.1117523,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-Em7-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-Em7-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        },
+        {
+          "chord": "E7",
+          "actualAppliedRigSignature": "7753a6f9",
+          "changedWebGLPixels": 44246,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -6.230301,
+                  19.116674,
+                  5.1350022
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 20.0897963,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-E7-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.6460083,
+                  3.8468433,
+                  20.7713515
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 21.7820102,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-E7-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.2139237,
+                  -21.5297061,
+                  4.1365353
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 22.1117523,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-E7-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-E7-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        },
+        {
+          "chord": "Fmaj7",
+          "actualAppliedRigSignature": "20167e00",
+          "changedWebGLPixels": 44538,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -6.230301,
+                  19.116674,
+                  5.1350022
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 20.0897963,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-Fmaj7-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.6460083,
+                  3.8468433,
+                  20.7713515
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 21.7820102,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-Fmaj7-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.2139237,
+                  -21.5297061,
+                  4.1365353
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 22.1117523,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-Fmaj7-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-Fmaj7-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        },
+        {
+          "chord": "Dm",
+          "actualAppliedRigSignature": "f8923c92",
+          "changedWebGLPixels": 44242,
+          "warningVisible": true,
+          "angles": [
+            {
+              "preset": "angle",
+              "camera": {
+                "position": [
+                  -6.230301,
+                  19.116674,
+                  5.1350022
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 20.0897963,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-Dm-angle.png"
+            },
+            {
+              "preset": "side",
+              "camera": {
+                "position": [
+                  -5.6460083,
+                  3.8468433,
+                  20.7713515
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 21.7820102,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-Dm-side.png"
+            },
+            {
+              "preset": "back",
+              "camera": {
+                "position": [
+                  -2.2139237,
+                  -21.5297061,
+                  4.1365353
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 22.1117523,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-Dm-back.png"
+            },
+            {
+              "preset": "player",
+              "camera": {
+                "position": [
+                  -0.5192413,
+                  -10.0958556,
+                  14.1554813
+                ],
+                "target": [
+                  -3.9363002,
+                  0,
+                  -0.6
+                ],
+                "up": [
+                  -0.2571262,
+                  -0.3058642,
+                  0.9166969
+                ],
+                "distance": 18.202385,
+                "fov": 38,
+                "aspect": 0.8325358851674641
+              },
+              "screenshot": "UNAPPROVED-webkit-mobile-Dm-player.png"
+            }
+          ],
+          "zoomAndReset": true,
+          "anatomicalApproval": false
+        }
+      ],
+      "sourceCActualRigSignature": "1ce0a568"
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "networkErrors": [],
+  "poseLibrarySHA256": "2e2816f7adf533f80fba931e4d73b592a670a614ea014406903da162b5f01aa1",
+  "productionArtifactSHA256": {
+    "PracticePage-CtVOZmD0.js": "0193aebb31dc17bb411a6faaf658435082ac9ceaf473d3d18b15e9e7ebb5d57f",
+    "PracticePage-De_eEkvR.css": "0ebc2a47b730cc296e54e15160698e4d8a30e366d61143e4c537b51a1ad42ff3",
+    "practice-three-pEEwP9I4.js": "c80f95e22d5f5ab6df37ad06af9aa3d4f75b0c92c97c4ba9e1e5f4ada813f3ef",
+    "hand-poses-DBVKV8cD.json": "2e2816f7adf533f80fba931e4d73b592a670a614ea014406903da162b5f01aa1",
+    "makehuman-left-arm.metadata-Dl-RSsAy.json": "e14806f1a2f3275e3ae23621afe9c1587fd16db598392abc7c7a16f447e8fc74",
+    "makehuman-left-arm-sleeved-q3B7hHpz.glb": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+  },
+  "limitations": [
+    "Linux WebKit is not physical iPadOS Safari.",
+    "Candidates remain needs-review. Images establish actual rendering, not correctness of anatomy/contact."
+  ],
+  "buildArtifactsUnchangedDuringRun": true,
+  "passed": true
+}

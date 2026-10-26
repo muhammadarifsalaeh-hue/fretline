@@ -1,0 +1,282 @@
+{
+  "scope": "Frozen-production browser/render/lifecycle evidence; not anatomical or physical iPad approval",
+  "matchingProductionAssetsAcrossReports": true,
+  "matchingCurrentPoseLibrary": true,
+  "browserTrainer": {
+    "chromium": {
+      "passed": true,
+      "cases": 21,
+      "passedCases": 21,
+      "failedCases": [],
+      "browserVersion": "154.0.8037.57",
+      "errors": {
+        "consoleErrors": 0,
+        "runtimeErrors": 0,
+        "failedRequests": 0,
+        "badResponses": 0,
+        "networkErrors": 0
+      },
+      "performance": {
+        "startupSettlement": [
+          {
+            "elapsedSeconds": 0.03260019200388342,
+            "count": 3,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.19997965500078863,
+            "count": 3,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.31982675500330515,
+            "count": 3,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.44217043399839895,
+            "count": 3,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.6020276519993786,
+            "count": 3,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          }
+        ],
+        "idleRenderCountBefore": 3,
+        "idleRenderCountAfter": 3,
+        "zoomRenderCount": 4,
+        "renderInfo": {
+          "calls": 78,
+          "triangles": 15500,
+          "geometries": 68,
+          "textures": 15
+        },
+        "visibleHandRenderInfo": {
+          "calls": 68,
+          "triangles": 30912,
+          "geometries": 70,
+          "textures": 18
+        },
+        "spaUnmounts": 3,
+        "heap": [
+          {
+            "cycle": 1,
+            "jsHeapUsedBytesAfterUnmount": 8430872,
+            "jsHeapTotalBytes": 9289728,
+            "documents": 1,
+            "nodes": 1671
+          },
+          {
+            "cycle": 2,
+            "jsHeapUsedBytesAfterUnmount": 8819656,
+            "jsHeapTotalBytes": 9814016,
+            "documents": 1,
+            "nodes": 1698
+          },
+          {
+            "cycle": 3,
+            "jsHeapUsedBytesAfterUnmount": 9042540,
+            "jsHeapTotalBytes": 9814016,
+            "documents": 1,
+            "nodes": 1725
+          }
+        ],
+        "limitations": [
+          "Software WebGL engine measurements are not physical iPad GPU/frame-rate evidence.",
+          "JS heap measurements do not measure native WebGL/GPU memory."
+        ]
+      },
+      "buildArtifactsUnchangedDuringRun": true
+    },
+    "webkit": {
+      "passed": true,
+      "cases": 21,
+      "passedCases": 21,
+      "failedCases": [],
+      "browserVersion": "26.5",
+      "errors": {
+        "consoleErrors": 0,
+        "runtimeErrors": 0,
+        "failedRequests": 0,
+        "badResponses": 0,
+        "networkErrors": 0
+      },
+      "performance": {
+        "startupSettlement": [
+          {
+            "elapsedSeconds": 0.01237244100047974,
+            "count": 2,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.12792015699960757,
+            "count": 2,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.2397777619989938,
+            "count": 2,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.35463232699839864,
+            "count": 2,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          },
+          {
+            "elapsedSeconds": 0.4693538389983587,
+            "count": 2,
+            "width": 994,
+            "height": 558,
+            "asset": "ready"
+          }
+        ],
+        "idleRenderCountBefore": 2,
+        "idleRenderCountAfter": 2,
+        "zoomRenderCount": 3,
+        "renderInfo": {
+          "calls": 78,
+          "triangles": 15500,
+          "geometries": 68,
+          "textures": 15
+        },
+        "visibleHandRenderInfo": {
+          "calls": 68,
+          "triangles": 30912,
+          "geometries": 70,
+          "textures": 18
+        },
+        "spaUnmounts": 3,
+        "heap": [],
+        "limitations": [
+          "Software WebGL engine measurements are not physical iPad GPU/frame-rate evidence.",
+          "JS heap measurements do not measure native WebGL/GPU memory."
+        ]
+      },
+      "buildArtifactsUnchangedDuringRun": true
+    }
+  },
+  "legacyBrowserRegressions": {
+    "passed": true,
+    "checks": 107,
+    "runs": [
+      {
+        "case": "shared",
+        "returncode": 0,
+        "report": "/workspace/fretline/docs/practice-hand-batch-3/tests/reports/regressions/shared-regression.json",
+        "checks": 18,
+        "expectedChecks": 18,
+        "passed": true
+      },
+      {
+        "case": "gallery",
+        "returncode": 0,
+        "report": "/workspace/fretline/docs/practice-hand-batch-3/tests/reports/regressions/regression/browser-practice-trainer.json",
+        "checks": 79,
+        "expectedChecks": 79,
+        "passed": true
+      },
+      {
+        "case": "camera-chromium",
+        "returncode": 0,
+        "report": "/workspace/fretline/docs/practice-hand-batch-3/tests/reports/regressions/camera-chromium/camera-orientation-chromium.json",
+        "checks": 5,
+        "expectedChecks": 5,
+        "passed": true
+      },
+      {
+        "case": "camera-webkit",
+        "returncode": 0,
+        "report": "/workspace/fretline/docs/practice-hand-batch-3/tests/reports/regressions/camera-webkit/camera-orientation-webkit.json",
+        "checks": 5,
+        "expectedChecks": 5,
+        "passed": true
+      }
+    ]
+  },
+  "cameraControls": {
+    "passed": true,
+    "cases": 2,
+    "errors": {
+      "consoleErrors": 0,
+      "runtimeErrors": 0,
+      "failedRequests": 0,
+      "badResponses": 0,
+      "networkErrors": 0
+    }
+  },
+  "newCandidateRendering": {
+    "passed": true,
+    "chords": [
+      "C",
+      "Em7",
+      "E7",
+      "Fmaj7",
+      "Dm"
+    ],
+    "engineViewportCases": 4,
+    "errors": {
+      "consoleErrors": 0,
+      "runtimeErrors": 0,
+      "failedRequests": 0,
+      "badResponses": 0,
+      "networkErrors": 0
+    },
+    "actualSourceTransformsChecked": [
+      "C",
+      "Em7",
+      "E7",
+      "Fmaj7",
+      "Dm"
+    ],
+    "fourViews": [
+      "angle",
+      "side",
+      "back",
+      "player"
+    ]
+  },
+  "handReveal": {
+    "passed": true,
+    "engineMotionCases": 4,
+    "errors": {
+      "consoleErrors": 0,
+      "runtimeErrors": 0,
+      "failedRequests": 0,
+      "badResponses": 0,
+      "networkErrors": 0
+    },
+    "controlledClockCaptures": true,
+    "physicalBoneInterpolation": false
+  },
+  "verifiedTeachingHands": [],
+  "handsApprovedByThisHarness": 0,
+  "limitations": [
+    "Linux WebKit and Chromium software rendering are not physical iPad Safari or native iPad performance evidence.",
+    "These browser checks do not certify skin/finger collisions or anatomical accuracy.",
+    "The opacity reveal changes no bone transforms; a physical cross-chord trajectory remains unverified.",
+    "Historical Phase5–9 static failures are reported separately."
+  ],
+  "expectedCaseCoverage": true,
+  "passed": true
+}

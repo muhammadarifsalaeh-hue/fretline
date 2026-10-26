@@ -1,0 +1,66 @@
+{
+  "networkEnabled": true,
+  "runs": [
+    {
+      "name": "phase4",
+      "command": [
+        "npm",
+        "run",
+        "phase4:check"
+      ],
+      "returncode": 0,
+      "passed": true
+    },
+    {
+      "name": "phase5",
+      "command": [
+        "npm",
+        "run",
+        "phase5:check"
+      ],
+      "returncode": 1,
+      "passed": false
+    },
+    {
+      "name": "phase6",
+      "command": [
+        "npm",
+        "run",
+        "phase6:check"
+      ],
+      "returncode": 1,
+      "passed": false
+    },
+    {
+      "name": "phase7",
+      "command": [
+        "npm",
+        "run",
+        "phase7:check"
+      ],
+      "returncode": 1,
+      "passed": false
+    },
+    {
+      "name": "phase8",
+      "command": [
+        "npm",
+        "run",
+        "phase8:check"
+      ],
+      "returncode": 1,
+      "passed": false
+    },
+    {
+      "name": "phase9",
+      "command": [
+        "npm",
+        "run",
+        "phase9:check"
+      ],
+      "returncode": 1,
+      "passed": false
+    }
+  ],
+  "initialRestrictedRunRetained": "../phase4.txt through ../phase9.txt"
+}

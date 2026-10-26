@@ -1,0 +1,415 @@
+{
+  "scope": "Actual seven camera presets, four orbit/zoom buttons, and reset; not anatomical hand approval",
+  "url": "http://127.0.0.1:5430",
+  "checks": [
+    {
+      "engine": "chromium",
+      "browserVersion": "154.0.8037.57",
+      "passed": true,
+      "viewport": [
+        768,
+        1024
+      ],
+      "presets": [
+        {
+          "preset": "front",
+          "changedPixels": 51284,
+          "camera": {
+            "position": [
+              -3.9363002,
+              11.8467834,
+              -0.3630643
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 11.8491526,
+            "fov": 38,
+            "aspect": 1.4686192468619246
+          }
+        },
+        {
+          "preset": "head",
+          "changedPixels": 47982,
+          "camera": {
+            "position": [
+              -15.3268175,
+              6.2647845,
+              2.1337242
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 13.2840001,
+            "fov": 38,
+            "aspect": 1.4686192468619246
+          }
+        },
+        {
+          "preset": "side",
+          "changedPixels": 44197,
+          "camera": {
+            "position": [
+              -5.070443,
+              2.5518215,
+              13.5767859
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 14.4491983,
+            "fov": 38,
+            "aspect": 1.4686192468619246
+          }
+        },
+        {
+          "preset": "back",
+          "changedPixels": 58475,
+          "camera": {
+            "position": [
+              -2.7520141,
+              -14.8035763,
+              2.6567868
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 15.2037845,
+            "fov": 38,
+            "aspect": 1.4686192468619246
+          }
+        },
+        {
+          "preset": "player",
+          "changedPixels": 49772,
+          "camera": {
+            "position": [
+              -0.5192413,
+              -10.0958556,
+              14.1554813
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 18.202385,
+            "fov": 38,
+            "aspect": 1.4686192468619246
+          }
+        },
+        {
+          "preset": "angle",
+          "changedPixels": 64816,
+          "camera": {
+            "position": [
+              -5.2438252,
+              10.8960417,
+              2.6688125
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 11.4506979,
+            "fov": 38,
+            "aspect": 1.4686192468619246
+          }
+        },
+        {
+          "preset": "overview",
+          "changedPixels": 62080,
+          "camera": {
+            "position": [
+              -3.8254804,
+              14.5154676,
+              4.3546403
+            ],
+            "target": [
+              -2.0836242,
+              0,
+              0
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 15.2543684,
+            "fov": 38,
+            "aspect": 1.4686192468619246
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "button": "หมุนไปทางซ้าย",
+          "changedPixels": 62050
+        },
+        {
+          "button": "หมุนไปทางขวา",
+          "changedPixels": 46404
+        },
+        {
+          "button": "ซูมเข้า",
+          "changedPixels": 47080
+        },
+        {
+          "button": "ซูมออก",
+          "changedPixels": 47233
+        }
+      ],
+      "keyboardAndButtonReset": true,
+      "fullNeckFrameContainsHeadNutBody": true
+    },
+    {
+      "engine": "webkit",
+      "browserVersion": "26.5",
+      "passed": true,
+      "viewport": [
+        768,
+        1024
+      ],
+      "presets": [
+        {
+          "preset": "front",
+          "changedPixels": 51462,
+          "camera": {
+            "position": [
+              -3.9363002,
+              11.8467834,
+              -0.3630643
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 11.8491526,
+            "fov": 38,
+            "aspect": 1.4686192468619246
+          }
+        },
+        {
+          "preset": "head",
+          "changedPixels": 48039,
+          "camera": {
+            "position": [
+              -15.3268175,
+              6.2647845,
+              2.1337242
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 13.2840001,
+            "fov": 38,
+            "aspect": 1.4686192468619246
+          }
+        },
+        {
+          "preset": "side",
+          "changedPixels": 44230,
+          "camera": {
+            "position": [
+              -5.070443,
+              2.5518215,
+              13.5767859
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 14.4491983,
+            "fov": 38,
+            "aspect": 1.4686192468619246
+          }
+        },
+        {
+          "preset": "back",
+          "changedPixels": 58488,
+          "camera": {
+            "position": [
+              -2.7520141,
+              -14.8035763,
+              2.6567868
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 15.2037845,
+            "fov": 38,
+            "aspect": 1.4686192468619246
+          }
+        },
+        {
+          "preset": "player",
+          "changedPixels": 51009,
+          "camera": {
+            "position": [
+              -0.5192413,
+              -10.0958556,
+              14.1554813
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 18.202385,
+            "fov": 38,
+            "aspect": 1.4686192468619246
+          }
+        },
+        {
+          "preset": "angle",
+          "changedPixels": 66064,
+          "camera": {
+            "position": [
+              -5.2438252,
+              10.8960417,
+              2.6688125
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 11.4506979,
+            "fov": 38,
+            "aspect": 1.4686192468619246
+          }
+        },
+        {
+          "preset": "overview",
+          "changedPixels": 62087,
+          "camera": {
+            "position": [
+              -3.8254804,
+              14.5154676,
+              4.3546403
+            ],
+            "target": [
+              -2.0836242,
+              0,
+              0
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 15.2543684,
+            "fov": 38,
+            "aspect": 1.4686192468619246
+          }
+        }
+      ],
+      "buttons": [
+        {
+          "button": "หมุนไปทางซ้าย",
+          "changedPixels": 69820
+        },
+        {
+          "button": "หมุนไปทางขวา",
+          "changedPixels": 46280
+        },
+        {
+          "button": "ซูมเข้า",
+          "changedPixels": 47021
+        },
+        {
+          "button": "ซูมออก",
+          "changedPixels": 47164
+        }
+      ],
+      "keyboardAndButtonReset": true,
+      "fullNeckFrameContainsHeadNutBody": true
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "networkErrors": [],
+  "limitations": [
+    "Linux Chromium/SwiftShader and Linux WebKit are not physical iPad Safari or iPad GPU evidence."
+  ],
+  "productionSceneSHA256": {
+    "practice-three-pEEwP9I4.js": "c80f95e22d5f5ab6df37ad06af9aa3d4f75b0c92c97c4ba9e1e5f4ada813f3ef"
+  },
+  "buildArtifactsUnchangedDuringRun": true,
+  "passed": true
+}

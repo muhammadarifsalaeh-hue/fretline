@@ -54,7 +54,7 @@ look extended, skin rendering is less natural, and the cropped sleeve end is
 visible in some orbit views. Thumb and neighboring-digit constraints still
 prevent a correct full-barre/42-pose solution. A new rest-relative rotation is
 not a clinical joint-angle measurement. The existing source has no authored
-corrective shapes for all deep flexions. See [rig review](RIG-REVIEW.md),
+corrective shapes for all deep flexions. See [rig review](RIG-REVIEW.md), [actual visual review](VISUAL-REVIEW.md),
 [bounded D/G review](DG-BOUNDED-REVIEW.md), and
 [rejected Am/Em trials](Em-Am-EXPERIMENTS.md).
 
