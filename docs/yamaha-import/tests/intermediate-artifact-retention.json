@@ -1,0 +1,1165 @@
+{
+  "preserved": "All original uploads, original metadata, baseline screenshots, raw test reports, one representative failure per failed run, and every final capture.",
+  "removedGeneratedDuplicateScreenshots": [
+    {
+      "path": "after/chromium-preview-desktop-compare-0-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-compare-12-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-compare-16-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-compare-4-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-compare-8-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-quiz-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-wishlist-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-yamaha-fg800-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-yamaha-fg800j-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-yamaha-fg800m-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-yamaha-fg820-12-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-yamaha-fg820-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-yamaha-fg820l-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-yamaha-fg830-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-yamaha-fg840-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-yamaha-fg850-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-yamaha-fgx800c-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-yamaha-fgx820c-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-yamaha-fs800-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-yamaha-fs820-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-yamaha-fs830-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-yamaha-fs850-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-yamaha-fsx800c-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-yamaha-fsx820c-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-desktop-yamaha-fsx830c-FAIL.png",
+      "bytes": 27203,
+      "sha256": "fedfa8dbbc0024e9dfab363d835ea24338cb1f30e783710241cf04350470c366",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-catalog-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-compare-0-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-quiz-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-wishlist-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-yamaha-fg800-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-yamaha-fg800j-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-yamaha-fg800m-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-yamaha-fg820-12-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-yamaha-fg820-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-yamaha-fg820l-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-yamaha-fg830-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-yamaha-fg840-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-yamaha-fg850-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-yamaha-fgx800c-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-yamaha-fgx820c-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-yamaha-fs800-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-yamaha-fs820-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-yamaha-fs830-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-yamaha-fs850-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-yamaha-fsx800c-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-yamaha-fsx820c-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-mobile-yamaha-fsx830c-FAIL.png",
+      "bytes": 20644,
+      "sha256": "cc22d158665aac7dc61994d3d364ca06d05ecb3fdfca827a5f6c74c228ff4cac",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-catalog-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-compare-0-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-quiz-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-wishlist-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-yamaha-fg800-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-yamaha-fg800j-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-yamaha-fg800m-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-yamaha-fg820-12-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-yamaha-fg820-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-yamaha-fg820l-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-yamaha-fg830-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-yamaha-fg840-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-yamaha-fg850-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-yamaha-fgx800c-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-yamaha-fgx820c-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-yamaha-fs800-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-yamaha-fs820-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-yamaha-fs830-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-yamaha-fs850-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-yamaha-fsx800c-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-yamaha-fsx820c-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-preview-tablet-yamaha-fsx830c-FAIL.png",
+      "bytes": 24726,
+      "sha256": "4ca6f5ce3bb3fc90b4217af7582e2df477a8376a2619e3e8b9ee628269aa9ae3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-production-desktop-yamaha-catalog.png",
+      "bytes": 1299186,
+      "sha256": "4fc95c49ea5a23faa920235712b0691211d6459c542e9546bdd8e409bd25ed9f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-production-desktop-yamaha-fg800.png",
+      "bytes": 729362,
+      "sha256": "da38f79aa72c0efcee6ed5e707f4abeae7b0d6e661ecfbe8af1e931390f8ddf1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-production-desktop-yamaha-fg820-12.png",
+      "bytes": 805845,
+      "sha256": "bd6d100da2b4150ee70abea9e90fb8bb0c75030c0c5d3270942b34dc13f64b55",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-production-desktop-yamaha-fsx830c.png",
+      "bytes": 738431,
+      "sha256": "222ea4e47edf68f045bd98d7f581c20aa4e362878f38eb2cf2b91f3c1dd57f18",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-production-mobile-yamaha-catalog.png",
+      "bytes": 479216,
+      "sha256": "d780fd1228cc944414258c9b6abbfe9cbad61323bcee82ded257181ae01f8bb0",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-production-mobile-yamaha-fg800.png",
+      "bytes": 911746,
+      "sha256": "63d5827acdae98bd02532766d6542b9040567b9cfc4913d39a8af18b22df42d2",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-production-mobile-yamaha-fsx830c.png",
+      "bytes": 927172,
+      "sha256": "6605b3e0cfe3819d92b7b35551a2858be8a21c07a73251f099198eb5102e3d4a",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-production-tablet-yamaha-catalog.png",
+      "bytes": 826922,
+      "sha256": "b6da1b30878893955c16932541f40424621025758416cb6b81b3d883037112e7",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-production-tablet-yamaha-fg800.png",
+      "bytes": 878541,
+      "sha256": "c95667e4a352d78a71a98e73a2466629692fefd0d6e652a839a155d5cba90a11",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/chromium-production-tablet-yamaha-fsx830c.png",
+      "bytes": 895794,
+      "sha256": "4f2827afb02685fc6d667ce40569285ed213fdb5d315a08af143a1accfc3fe6c",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-catalog-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-compare-0-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-compare-12-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-compare-16-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-compare-4-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-compare-8-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-quiz-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-wishlist-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-yamaha-fg800-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-yamaha-fg800j-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-yamaha-fg800m-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-yamaha-fg820-12-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-yamaha-fg820-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-yamaha-fg820l-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-yamaha-fg830-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-yamaha-fg840-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-yamaha-fg850-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-yamaha-fgx800c-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-yamaha-fgx820c-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-yamaha-fs800-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-yamaha-fs820-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-yamaha-fs830-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-yamaha-fs850-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-yamaha-fsx800c-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-yamaha-fsx820c-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-desktop-yamaha-fsx830c-FAIL.png",
+      "bytes": 7972,
+      "sha256": "e7adc0a587d429ef6987fafe54c90f769152bd8b401a204348dd4eff8cc47381",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-catalog-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-compare-0-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-quiz-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-wishlist-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-yamaha-fg800-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-yamaha-fg800j-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-yamaha-fg800m-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-yamaha-fg820-12-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-yamaha-fg820-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-yamaha-fg820l-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-yamaha-fg830-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-yamaha-fg840-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-yamaha-fg850-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-yamaha-fgx800c-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-yamaha-fgx820c-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-yamaha-fs800-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-yamaha-fs820-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-yamaha-fs830-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-yamaha-fs850-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-yamaha-fsx800c-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-yamaha-fsx820c-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-mobile-yamaha-fsx830c-FAIL.png",
+      "bytes": 2862,
+      "sha256": "735d5c14a71bee3e44bee830b023b2850499db235f02b40bcff378004ba0267f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-catalog-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-compare-0-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-quiz-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-wishlist-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-yamaha-fg800-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-yamaha-fg800j-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-yamaha-fg800m-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-yamaha-fg820-12-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-yamaha-fg820-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-yamaha-fg820l-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-yamaha-fg830-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-yamaha-fg840-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-yamaha-fg850-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-yamaha-fgx800c-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-yamaha-fgx820c-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-yamaha-fs800-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-yamaha-fs820-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-yamaha-fs830-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-yamaha-fs850-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-yamaha-fsx800c-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-yamaha-fsx820c-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-preview-tablet-yamaha-fsx830c-FAIL.png",
+      "bytes": 5363,
+      "sha256": "dcd7742e24d9f062a698c6127bc2af4e8b805e217d8bfc4518984a89cc7322d1",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-production-desktop-yamaha-catalog.png",
+      "bytes": 873523,
+      "sha256": "d67ae26a1a5dc8058a38c5c5542c00a7293f8e474b135e68bcb5c0fbd23b23b0",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-production-desktop-yamaha-fg800.png",
+      "bytes": 409038,
+      "sha256": "20009d8d6ae16cb9ff3e7de654b026aa973da3585e36db892fb29e14ce8b4687",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-production-desktop-yamaha-fg820-12.png",
+      "bytes": 685336,
+      "sha256": "8a727f2e90cab67cd9c6e60736c5bbf72d389a70d6544bf0adf8400e4fb7982b",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-production-desktop-yamaha-fsx830c.png",
+      "bytes": 424987,
+      "sha256": "6a2b2ec03a5b23d2e7071f964fda544d5d04d91a7e595c8a3883a77341b2bf84",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-production-mobile-yamaha-catalog.png",
+      "bytes": 396113,
+      "sha256": "5669514f326264649cf87bd8529e9fb2445b6c54011acdc68e463276a60a2d4f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-production-mobile-yamaha-fg800.png",
+      "bytes": 506578,
+      "sha256": "6cc5108097a553b1c3a3e6e9c5c2d127f866ca364e53e438af2665dd80b9d79b",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-production-mobile-yamaha-fsx830c.png",
+      "bytes": 527985,
+      "sha256": "3163ae329b86dca30e087f4abe0fd5f9278931551ffaea30b428d50fa66ebdc3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-production-tablet-yamaha-catalog.png",
+      "bytes": 600721,
+      "sha256": "1df1bba3503725f76b71348c51e0f6c63e9818144f8b52f3aee471d77069a78b",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-production-tablet-yamaha-fg800.png",
+      "bytes": 437525,
+      "sha256": "b8ec57dede9eb634c0568f34cb3acbfa84bdd817aab3afdb668ae977cfec6730",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "after/webkit-production-tablet-yamaha-fsx830c.png",
+      "bytes": 456329,
+      "sha256": "22b48f36dee17227b26de0c72393e9ce27d3de8087674138138c007c508810c8",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "preview-retest/chromium-preview-desktop-yamaha-catalog.png",
+      "bytes": 650558,
+      "sha256": "4c8018633b7b4cbad49f285855b131dcfef0f6f266ea760c31cb137d9b3b4204",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "preview-retest/chromium-preview-desktop-yamaha-fg820-12.png",
+      "bytes": 638217,
+      "sha256": "3c45a149b53a3240374de6441059442cc75ad44855fd61e732bdd13b03199970",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "preview-retest/chromium-preview-desktop-yamaha-fsx830c.png",
+      "bytes": 474678,
+      "sha256": "bb97540fa6c264edec858474a87032e4921f3aa86793795b5b7c016488191c00",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "preview-retest/chromium-preview-mobile-yamaha-catalog.png",
+      "bytes": 338705,
+      "sha256": "f957ef991e506d3ffd36c0b01a5e139ae6d32187b4ba621d226f7e6d96edeb5c",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "preview-retest/chromium-preview-mobile-yamaha-fg800-FAIL.png",
+      "bytes": 564214,
+      "sha256": "0fedda478302aa08506550b8979d25219cab60d0d807433ffed816b08e266d88",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "preview-retest/chromium-preview-mobile-yamaha-fsx830c.png",
+      "bytes": 689892,
+      "sha256": "0d80464e1999b161c3a9c0dd29c8845e8629e547d6fd752f3d3d9977cb9d15d2",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "preview-retest/chromium-preview-tablet-yamaha-catalog.png",
+      "bytes": 476585,
+      "sha256": "005164f7ee982891537d4b2b06b69eb2ae46a6c6e9ea938d0fc63ef401be65fc",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "preview-retest/chromium-preview-tablet-yamaha-fg800-FAIL.png",
+      "bytes": 563684,
+      "sha256": "06e045790c01d8604b91e07147d8d1f90dd73ec379beef88c0e14f369066e410",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "preview-retest/chromium-preview-tablet-yamaha-fsx830c.png",
+      "bytes": 653974,
+      "sha256": "f981fe4efc1e8c5bc4728d59ed160a660a12c43d8af85f99a9325657c4873892",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "preview-retest/webkit-preview-desktop-yamaha-catalog.png",
+      "bytes": 1266223,
+      "sha256": "2f6c13c12d792dbdf659861929b3d340f18de4775a9f03ffca2dfd15a0c28482",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "preview-retest/webkit-preview-desktop-yamaha-fg800-FAIL.png",
+      "bytes": 945071,
+      "sha256": "e5d8f909b25b92e8151b82e1dcf7c424d8e66b78327cda61cd235e5bddddeed0",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "preview-retest/webkit-preview-desktop-yamaha-fg820-12.png",
+      "bytes": 847000,
+      "sha256": "47b751563b49907013d346a9770f8ec751b67d60d8bf8cfee627237aa1e10e09",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "preview-retest/webkit-preview-desktop-yamaha-fsx830c.png",
+      "bytes": 829165,
+      "sha256": "f52b8e956160c7cb27cac3e2521c0b7ff6f6dadf6da87627d5dd249ed0b859cd",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "preview-retest/webkit-preview-mobile-yamaha-catalog.png",
+      "bytes": 496141,
+      "sha256": "6256d97d07424b62646f19d2c28c5fe52c29bdca554691290a3b5ead28f47d8f",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "preview-retest/webkit-preview-mobile-yamaha-fg800-FAIL.png",
+      "bytes": 968431,
+      "sha256": "60844e1c1048befafc95e9daa8ba947bfd14e3a98817ddaf09c6ee46d2ac8fc2",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "preview-retest/webkit-preview-mobile-yamaha-fsx830c.png",
+      "bytes": 853186,
+      "sha256": "6479b0e545aff9f4fd849695763b74a0a558b6e21e96b0e313898b5a05a690fa",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "preview-retest/webkit-preview-tablet-yamaha-catalog.png",
+      "bytes": 787564,
+      "sha256": "ff25a6fa5253e339c5cc6695b09e9a590ce07940bd7d752e063cbf1bc3fe8935",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "preview-retest/webkit-preview-tablet-yamaha-fg800-FAIL.png",
+      "bytes": 901756,
+      "sha256": "e7d53e89e533e6992879811873831dfb7f90266c477a3897d95d23027f0ef4f7",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "preview-retest/webkit-preview-tablet-yamaha-fsx830c.png",
+      "bytes": 793654,
+      "sha256": "fb9587b80fe45942348666bee1ba5869cec7d593d37f8f0935ae2472017ef2a3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "legacy-shared/failures/price-1440.png",
+      "bytes": 1213333,
+      "sha256": "3a293d00f89a8169d6c86f8999bed125dba4580fdb8974e3e9e70c0504ade8dd",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "legacy-shared/failures/responsive-320.png",
+      "bytes": 220467,
+      "sha256": "2a2b6e8fd5c23c2b2796834d65d4efeb5307b9b593d4192403a33f8ff4b58b13",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "legacy-gallery/regression/screenshots/catalog-desktop.png",
+      "bytes": 372291,
+      "sha256": "28168badd2a60df75d9ae40d5346f6e22529805866c5f354adae7f9cec0f7209",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "legacy-gallery/regression/screenshots/catalog-mobile.png",
+      "bytes": 233320,
+      "sha256": "e6ac460a6fe7389319e4568d611796e37300f58e2a7f643dfbb39d97acce19a3",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "legacy-gallery/regression/screenshots/catalog-tablet.png",
+      "bytes": 287730,
+      "sha256": "cb3960709d427a15fbaf7cd6ef22da0e01b22f6d2b13cf3d4a60b75dc33fadab",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "legacy-gallery/regression/screenshots/detail-black-desktop.png",
+      "bytes": 848138,
+      "sha256": "51e3d5db11b02dd88f237369ea8654b0b2d922d0ec274cd6835576bfcfb622b8",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "legacy-gallery/regression/screenshots/detail-black-mobile.png",
+      "bytes": 1037202,
+      "sha256": "b9dd42ecf74790bcfa21a366c1f6d4bbce700efc25ff9153eb1ccc52d0cd677b",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "legacy-gallery/regression/screenshots/detail-black-tablet.png",
+      "bytes": 920661,
+      "sha256": "c4abda6b7a79609e7dd1064236ac757faba05b88a57e9f76b6fba6bd1f921827",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "legacy-gallery/regression/screenshots/detail-blue-teal-desktop.png",
+      "bytes": 851401,
+      "sha256": "e5ba31324406d6d87bcfb48f14268f1511636d334deae27eb6228d64b4920677",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "legacy-gallery/regression/screenshots/detail-blue-teal-mobile.png",
+      "bytes": 1037934,
+      "sha256": "df54a6ab56cd8177a3d11be50ee1ad971b1091c131a5898a8e971f5b3969cafe",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "legacy-gallery/regression/screenshots/detail-red-desktop.png",
+      "bytes": 855010,
+      "sha256": "23e81968570593354711c6da62b0c0f8418ac9cb27d0d29930196c1f36415d00",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "legacy-gallery/regression/screenshots/detail-red-mobile.png",
+      "bytes": 1038511,
+      "sha256": "715e7681b8198dc7e7899a88ac61d385bdc7338e000ad15ab888b6b862e2d18b",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "legacy-gallery/regression/screenshots/gallery-overview-desktop.png",
+      "bytes": 811027,
+      "sha256": "1d9cf8cc6a75ce0d2ed2c0e5eaac98080ddfd761c4882c1dac5ceebd66d2293c",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    },
+    {
+      "path": "legacy-gallery/regression/screenshots/lightbox-desktop.png",
+      "bytes": 1049116,
+      "sha256": "85c0bbcd63c571bb9c01e2ec1ac6ec12968139e45ccff02c49c058109ca1092c",
+      "reason": "Duplicate intermediate capture; final frozen-build screenshots retained under final/. Raw intermediate failure reports remain unchanged."
+    }
+  ],
+  "additionalIntermediatePruning": {
+    "directories": [
+      "console-before-fix/",
+      "screenshots-before-source-fix/"
+    ],
+    "policy": "Raw reports and a representative FG800 warning-era image retained; duplicate warning-era captures superseded by the clean final/ and screenshots/ runs.",
+    "uploadsRemoved": false
+  }
+}

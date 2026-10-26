@@ -1,0 +1,30 @@
+{
+  "text": {
+    "Body Shape": "bodyShape",
+    "Top Material": "topMaterial",
+    "Back Material": "backMaterial",
+    "Side Material": "sideMaterial",
+    "Body Depth": "bodyDepth",
+    "Nut Material": "nut",
+    "Saddle Material": "saddle",
+    "Bridge Pins": "bridgePins",
+    "Tuners": "tuners",
+    "Body Binding": "bodyBinding",
+    "Soundhole Inlay": "soundholeInlay",
+    "Pickguard": "pickguard",
+    "Body Finish": "bodyFinish",
+    "Neck Finish": "neckFinish",
+    "Connections": "connections",
+    "Strings": "factoryStrings",
+    "Accessories": "accessories",
+    "Case": "case"
+  },
+  "numeric": {
+    "Body Length": "bodyLengthMm",
+    "Total Length": "totalLengthMm",
+    "Body Width": "bodyWidthMm",
+    "Nut Width": "nutWidthMm",
+    "String Spacing *": "stringSpacingMm",
+    "Fingerboard Radius": "fingerboardRadiusMm"
+  }
+}

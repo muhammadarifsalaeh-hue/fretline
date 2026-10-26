@@ -1,0 +1,1120 @@
+[
+  {
+    "id": "yamaha-fg840",
+    "url": "https://www.musicarms.net/yamaha-fg840/",
+    "finalUrl": "https://www.musicarms.net/yamaha-fg840/",
+    "status": 200,
+    "accessedAt": "2026-10-26T18:49:27.130070+00:00",
+    "rawFile": "ma-fg840.html.gz",
+    "rawSha256": "d370a5ecd5c2e8018b1a724cd7817b8c5fbb854a09994a91da898182feba871f",
+    "rawBytes": 319667,
+    "priorRawSha256": "c25acd59fe5c68c245113f3d0e54e03b800b945a6b1a9545683ac8b2056eb74b",
+    "sameAsInitialFetch": false,
+    "model": "FG840",
+    "modelPriceHeader": "ราคา :\n19,200 บาท\n19200\nรุ่น :\nYamaha FG840 กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar",
+    "priceTHB": 19200,
+    "samePriceAsRecord": true,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.musicarms.net/#organization",
+            "name": "Music Arms",
+            "description": "ศูนย์รวมเครื่องดนตรีทุกชนิด ตั้งแต่เริ่มต้นถึงมืออาชีพ",
+            "url": "https://www.musicarms.net/",
+            "telephone": "+66897954544",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.musicarms.net/wp-content/uploads/2021/03/LOGO-Music-Arms.png",
+              "@id": "https://www.musicarms.net/yamaha-fg840/#organizationLogo",
+              "width": 300,
+              "height": 63,
+              "caption": "LOGO Music Arms"
+            },
+            "image": {
+              "@id": "https://www.musicarms.net/yamaha-fg840/#organizationLogo"
+            },
+            "sameAs": [
+              "https://www.instagram.com/musicarms/?hl=en",
+              "https://www.tiktok.com/@musicarms",
+              "https://www.youtube.com/channel/UCKRMc0cDYw45g_AAtUdPTCA"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.musicarms.net/#website",
+            "url": "https://www.musicarms.net/",
+            "name": "Music Arms",
+            "description": "ศูนย์รวมเครื่องดนตรีทุกชนิด ตั้งแต่เริ่มต้นถึงมืออาชีพ",
+            "inLanguage": "th",
+            "publisher": {
+              "@id": "https://www.musicarms.net/#organization"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "item": {
+              "name": "Music Arms",
+              "@id": "https://www.musicarms.net/category/ma/"
+            },
+            "@type": "ListItem",
+            "position": "1"
+          },
+          {
+            "item": {
+              "name": "สินค้า",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/"
+            },
+            "@type": "ListItem",
+            "position": "2"
+          },
+          {
+            "item": {
+              "name": "เครื่องดนตรี Musical Instrument",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/"
+            },
+            "@type": "ListItem",
+            "position": "3"
+          },
+          {
+            "item": {
+              "name": "กีตาร์ Guitar",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/"
+            },
+            "@type": "ListItem",
+            "position": "4"
+          },
+          {
+            "item": {
+              "name": "กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/"
+            },
+            "@type": "ListItem",
+            "position": "5"
+          },
+          {
+            "item": {
+              "name": "Yamaha",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/yamaha-acoustic-guitar/"
+            },
+            "@type": "ListItem",
+            "position": "6"
+          }
+        ]
+      },
+      {
+        "offers": {
+          "@type": "Offer",
+          "seller": {
+            "@type": "Organization",
+            "name": "Music Arms ศูนย์รวมเครื่องดนตรี ราคาถูกที่สุด ส่งฟรี ผ่อนได้"
+          },
+          "priceCurrency": "THB",
+          "price": 19200,
+          "warranty": {
+            "@type": "WarrantyPromise",
+            "durationOfWarranty": {
+              "@type": "QuantitativeValue",
+              "unitCode": "ANN",
+              "value": "1 ปี"
+            }
+          },
+          "url": "https://www.musicarms.net/yamaha-fg840/",
+          "availability": "https://schema.org/InStock"
+        },
+        "image": [
+          "https://www.musicarms.net/wp-content/uploads/2016/02/Face-cover-Yamaha-FG840-1.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/face-cover-Yamaha-FG840.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/fg840.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/fg840-1-1024x691.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/fg840-2-1024x705.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/fg840-3-1024x700.jpg"
+        ],
+        "@type": "Product",
+        "category": "Music Arms/สินค้า/เครื่องดนตรี Musical Instrument/กีตาร์ Guitar/กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar/Yamaha/",
+        "name": "Yamaha FG840 กีตาร์โปร่ง",
+        "model": "FG840",
+        "sku": "FG840",
+        "itemCondition": "NewCondition",
+        "@context": "https://schema.org",
+        "brand": {
+          "@type": "Brand",
+          "name": "Yamaha",
+          "url": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/yamaha-acoustic-guitar/"
+        },
+        "url": "https://www.musicarms.net/yamaha-fg840/",
+        "description": "ส่งด่วน มีทีมดูแลตลอดการใช้งาน แถมEconomy Bag YAMAHA FG840 &#8211; กีต้าร์โปร่งยามาฮ่าที่ให้เสียงที่สดใสจากไม้หลังและไม้ข้างที่เป็นเมเปิ้ล ให้ลักษณะที่โดดเด่นและแปลกใหม่ ให้เสียงระดับ High-End เสียงมีความโปร่งใสมีความชัดเจนในการตีคอร์ดแต่ละครั้ง ความยาวสเกล : 650mm ความยาวบอดี้ : 505mm ความยาวทั้งหมด : 1038mm ความกว้างบอดี้ : 412mm ไม้หน้า : Solid Spruce ไม้หลัง : Flamed Maple ไม้ข้าง : Flamed Maple คอ : Nato ฟิงเกอร์บอร์ด : Rosewood ขนาดของสาย : .012/.016/.025(or.024)/.032/.042/.052(or.053) สี "
+      }
+    ]
+  },
+  {
+    "id": "yamaha-fg850",
+    "url": "https://www.musicarms.net/yamaha-fg850/",
+    "finalUrl": "https://www.musicarms.net/yamaha-fg850/",
+    "status": 200,
+    "accessedAt": "2026-10-26T18:49:27.397008+00:00",
+    "rawFile": "ma-fg850.html.gz",
+    "rawSha256": "255ecd3d2a784c6d37c7c0b1f3b1cda1cd961c92a504a658a881d1d869f5e425",
+    "rawBytes": 313164,
+    "priorRawSha256": "255ecd3d2a784c6d37c7c0b1f3b1cda1cd961c92a504a658a881d1d869f5e425",
+    "sameAsInitialFetch": true,
+    "model": "FG850",
+    "modelPriceHeader": "ราคา :\n19,700 บาท\n19700\nรุ่น :\nYamaha FG850 กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar",
+    "priceTHB": 19700,
+    "samePriceAsRecord": true,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.musicarms.net/#organization",
+            "name": "Music Arms",
+            "description": "ศูนย์รวมเครื่องดนตรีทุกชนิด ตั้งแต่เริ่มต้นถึงมืออาชีพ",
+            "url": "https://www.musicarms.net/",
+            "telephone": "+66897954544",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.musicarms.net/wp-content/uploads/2021/03/LOGO-Music-Arms.png",
+              "@id": "https://www.musicarms.net/yamaha-fg850/#organizationLogo",
+              "width": 300,
+              "height": 63,
+              "caption": "LOGO Music Arms"
+            },
+            "image": {
+              "@id": "https://www.musicarms.net/yamaha-fg850/#organizationLogo"
+            },
+            "sameAs": [
+              "https://www.instagram.com/musicarms/?hl=en",
+              "https://www.tiktok.com/@musicarms",
+              "https://www.youtube.com/channel/UCKRMc0cDYw45g_AAtUdPTCA"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.musicarms.net/#website",
+            "url": "https://www.musicarms.net/",
+            "name": "Music Arms",
+            "description": "ศูนย์รวมเครื่องดนตรีทุกชนิด ตั้งแต่เริ่มต้นถึงมืออาชีพ",
+            "inLanguage": "th",
+            "publisher": {
+              "@id": "https://www.musicarms.net/#organization"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "item": {
+              "name": "Music Arms",
+              "@id": "https://www.musicarms.net/category/ma/"
+            },
+            "@type": "ListItem",
+            "position": "1"
+          },
+          {
+            "item": {
+              "name": "สินค้า",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/"
+            },
+            "@type": "ListItem",
+            "position": "2"
+          },
+          {
+            "item": {
+              "name": "เครื่องดนตรี Musical Instrument",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/"
+            },
+            "@type": "ListItem",
+            "position": "3"
+          },
+          {
+            "item": {
+              "name": "กีตาร์ Guitar",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/"
+            },
+            "@type": "ListItem",
+            "position": "4"
+          },
+          {
+            "item": {
+              "name": "กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/"
+            },
+            "@type": "ListItem",
+            "position": "5"
+          },
+          {
+            "item": {
+              "name": "Yamaha",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/yamaha-acoustic-guitar/"
+            },
+            "@type": "ListItem",
+            "position": "6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yamaha-fg820-12",
+    "url": "https://www.musicarms.net/yamaha-fg820-12/",
+    "finalUrl": "https://www.musicarms.net/yamaha-fg820-12/",
+    "status": 200,
+    "accessedAt": "2026-10-26T18:49:27.139892+00:00",
+    "rawFile": "ma-fg820-12.html.gz",
+    "rawSha256": "f862963035918c7110a64ea447afa10995a4aa0ac036afd0e84cdd763d81a851",
+    "rawBytes": 311313,
+    "priorRawSha256": "e4c9ada13f9f357f91cd953109499bba9cff9bbaa03fa90024807ba921d47b0c",
+    "sameAsInitialFetch": false,
+    "model": "FG820-12",
+    "modelPriceHeader": "ราคา :\n16,500 บาท\n16500\nรุ่น :\nYamaha FG820-12 กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar",
+    "priceTHB": 16500,
+    "samePriceAsRecord": true,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.musicarms.net/#organization",
+            "name": "Music Arms",
+            "description": "ศูนย์รวมเครื่องดนตรีทุกชนิด ตั้งแต่เริ่มต้นถึงมืออาชีพ",
+            "url": "https://www.musicarms.net/",
+            "telephone": "+66897954544",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.musicarms.net/wp-content/uploads/2021/03/LOGO-Music-Arms.png",
+              "@id": "https://www.musicarms.net/yamaha-fg820-12/#organizationLogo",
+              "width": 300,
+              "height": 63,
+              "caption": "LOGO Music Arms"
+            },
+            "image": {
+              "@id": "https://www.musicarms.net/yamaha-fg820-12/#organizationLogo"
+            },
+            "sameAs": [
+              "https://www.instagram.com/musicarms/?hl=en",
+              "https://www.tiktok.com/@musicarms",
+              "https://www.youtube.com/channel/UCKRMc0cDYw45g_AAtUdPTCA"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.musicarms.net/#website",
+            "url": "https://www.musicarms.net/",
+            "name": "Music Arms",
+            "description": "ศูนย์รวมเครื่องดนตรีทุกชนิด ตั้งแต่เริ่มต้นถึงมืออาชีพ",
+            "inLanguage": "th",
+            "publisher": {
+              "@id": "https://www.musicarms.net/#organization"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "item": {
+              "name": "Music Arms",
+              "@id": "https://www.musicarms.net/category/ma/"
+            },
+            "@type": "ListItem",
+            "position": "1"
+          },
+          {
+            "item": {
+              "name": "สินค้า",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/"
+            },
+            "@type": "ListItem",
+            "position": "2"
+          },
+          {
+            "item": {
+              "name": "เครื่องดนตรี Musical Instrument",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/"
+            },
+            "@type": "ListItem",
+            "position": "3"
+          },
+          {
+            "item": {
+              "name": "กีตาร์ Guitar",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/"
+            },
+            "@type": "ListItem",
+            "position": "4"
+          },
+          {
+            "item": {
+              "name": "กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/"
+            },
+            "@type": "ListItem",
+            "position": "5"
+          },
+          {
+            "item": {
+              "name": "Yamaha",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/yamaha-acoustic-guitar/"
+            },
+            "@type": "ListItem",
+            "position": "6"
+          }
+        ]
+      },
+      {
+        "offers": {
+          "@type": "Offer",
+          "seller": {
+            "@type": "Organization",
+            "name": "Music Arms ศูนย์รวมเครื่องดนตรี ราคาถูกที่สุด ส่งฟรี ผ่อนได้"
+          },
+          "priceCurrency": "THB",
+          "price": 16500,
+          "warranty": {
+            "@type": "WarrantyPromise",
+            "durationOfWarranty": {
+              "@type": "QuantitativeValue",
+              "unitCode": "ANN",
+              "value": "1 ปี"
+            }
+          },
+          "url": "https://www.musicarms.net/yamaha-fg820-12/",
+          "availability": "https://schema.org/Discontinued"
+        },
+        "image": [
+          "https://www.musicarms.net/wp-content/uploads/2016/02/face-cover-Yamaha-FG820-12.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/242F4C6D3261479E8AB5EB8150B73E5F_12073-scaled-1024x406.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/21934992E3CA4884BA49330DB384C99E_12075-scaled-1024x406.jpg"
+        ],
+        "@type": "Product",
+        "category": "Music Arms/สินค้า/เครื่องดนตรี Musical Instrument/กีตาร์ Guitar/กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar/Yamaha/",
+        "name": "Yamaha FG820-12",
+        "model": "FG820-12",
+        "sku": "FG820-12",
+        "itemCondition": "NewCondition",
+        "@context": "https://schema.org",
+        "brand": {
+          "@type": "Brand",
+          "name": "Yamaha",
+          "url": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/yamaha-acoustic-guitar/"
+        },
+        "url": "https://www.musicarms.net/yamaha-fg820-12/",
+        "description": "ส่งด่วน มีทีมดูแลตลอดการใช้งาน แถมEconomy Bag Yamaha FG820-12 กีต้าร์ 12 สาย สำหรับผู้ที่ต้องการเสียงคอร์ดแน่นๆชัดเจนทุกตัวโน๊ต และรุ่นนี้ยังมีความพิเศษตรงที่เป็นโปร่งไฟฟ้า โดนภาคไฟฟ้านั้นจะเป็นรุ่น Yamaha SYSTEM66 ของทาง Yamaha เอง สามารถปรับแต่ง EQ ได้ 3 ย่านเสียง รวมถึงมีจูนเนอร์ตั้งสายในตัว วัสดุไม้ที่ได้นับว่าเป็นเกรดดีทั้งหมด ไม้หน้าเป็นท็อปโซลิดสปรู๊ซ หรือไม้แท้ทั้งแผ่น ทำให้เมื่อเวลาผ่านไปนานเนื้อไม้จะแห้ง ซาวด์จะหวานละมุนมากขึ้น ส่วนข้างและด้านหลังเลือกใช้ไม้มะฮอกกานีที่มีซาวด์หนา ละมุน"
+      }
+    ]
+  },
+  {
+    "id": "yamaha-fs850",
+    "url": "https://www.musicarms.net/yamaha-fs850-%E0%B8%81%E0%B8%B5%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E/",
+    "finalUrl": "https://www.musicarms.net/yamaha-fs850-%E0%B8%81%E0%B8%B5%E0%B8%95%E0%B9%89%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E/",
+    "status": 200,
+    "accessedAt": "2026-10-26T18:49:27.391541+00:00",
+    "rawFile": "ma-fs850-real.html.gz",
+    "rawSha256": "36b0c127c667cbb6e0226b6b9334ff36d137dfd09409e137a375181014aa3e4a",
+    "rawBytes": 312495,
+    "priorRawSha256": "36b0c127c667cbb6e0226b6b9334ff36d137dfd09409e137a375181014aa3e4a",
+    "sameAsInitialFetch": true,
+    "model": "FS850",
+    "modelPriceHeader": "ราคา :\n19,700 บาท\n19700\nรุ่น :\nYamaha FS850 กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar",
+    "priceTHB": 19700,
+    "samePriceAsRecord": true,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.musicarms.net/#organization",
+            "name": "Music Arms",
+            "description": "ศูนย์รวมเครื่องดนตรีทุกชนิด ตั้งแต่เริ่มต้นถึงมืออาชีพ",
+            "url": "https://www.musicarms.net/",
+            "telephone": "+66897954544",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.musicarms.net/wp-content/uploads/2021/03/LOGO-Music-Arms.png",
+              "@id": "https://www.musicarms.net/yamaha-fs850-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b8%84%e0%b8%b8%e0%b8%93%e0%b8%a0%e0%b8%b2%e0%b8%9e/#organizationLogo",
+              "width": 300,
+              "height": 63,
+              "caption": "LOGO Music Arms"
+            },
+            "image": {
+              "@id": "https://www.musicarms.net/yamaha-fs850-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b8%84%e0%b8%b8%e0%b8%93%e0%b8%a0%e0%b8%b2%e0%b8%9e/#organizationLogo"
+            },
+            "sameAs": [
+              "https://www.instagram.com/musicarms/?hl=en",
+              "https://www.tiktok.com/@musicarms",
+              "https://www.youtube.com/channel/UCKRMc0cDYw45g_AAtUdPTCA"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.musicarms.net/#website",
+            "url": "https://www.musicarms.net/",
+            "name": "Music Arms",
+            "description": "ศูนย์รวมเครื่องดนตรีทุกชนิด ตั้งแต่เริ่มต้นถึงมืออาชีพ",
+            "inLanguage": "th",
+            "publisher": {
+              "@id": "https://www.musicarms.net/#organization"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "item": {
+              "name": "Music Arms",
+              "@id": "https://www.musicarms.net/category/ma/"
+            },
+            "@type": "ListItem",
+            "position": "1"
+          },
+          {
+            "item": {
+              "name": "สินค้า",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/"
+            },
+            "@type": "ListItem",
+            "position": "2"
+          },
+          {
+            "item": {
+              "name": "เครื่องดนตรี Musical Instrument",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/"
+            },
+            "@type": "ListItem",
+            "position": "3"
+          },
+          {
+            "item": {
+              "name": "กีตาร์ Guitar",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/"
+            },
+            "@type": "ListItem",
+            "position": "4"
+          },
+          {
+            "item": {
+              "name": "กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/"
+            },
+            "@type": "ListItem",
+            "position": "5"
+          },
+          {
+            "item": {
+              "name": "Yamaha",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/yamaha-acoustic-guitar/"
+            },
+            "@type": "ListItem",
+            "position": "6"
+          }
+        ]
+      },
+      {
+        "offers": {
+          "@type": "Offer",
+          "seller": {
+            "@type": "Organization",
+            "name": "Music Arms ศูนย์รวมเครื่องดนตรี ราคาถูกที่สุด ส่งฟรี ผ่อนได้"
+          },
+          "priceCurrency": "THB",
+          "price": 19700,
+          "availability": "https://schema.org/InStock",
+          "warranty": {
+            "@type": "WarrantyPromise",
+            "durationOfWarranty": {
+              "@type": "QuantitativeValue",
+              "unitCode": "ANN",
+              "value": "1 ปี"
+            }
+          },
+          "url": "https://www.musicarms.net/yamaha-fs850-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b8%84%e0%b8%b8%e0%b8%93%e0%b8%a0%e0%b8%b2%e0%b8%9e/",
+          "priceValidUntil": "2026-12-31"
+        },
+        "image": [
+          "https://www.musicarms.net/wp-content/uploads/2018/04/Face-cover-Yamaha-FS850-1.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2018/04/face-cover-Yamaha-FS850.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2018/04/Yamaha-FS850-scaled-1024x392.jpg"
+        ],
+        "@type": "Product",
+        "category": "Music Arms/สินค้า/เครื่องดนตรี Musical Instrument/กีตาร์ Guitar/กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar/Yamaha/",
+        "name": "Yamaha FS850",
+        "model": "FS850",
+        "sku": "FS850",
+        "itemCondition": "NewCondition",
+        "@context": "https://schema.org",
+        "brand": {
+          "@type": "Brand",
+          "name": "Yamaha",
+          "url": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/yamaha-acoustic-guitar/"
+        },
+        "url": "https://www.musicarms.net/yamaha-fs850-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b8%84%e0%b8%b8%e0%b8%93%e0%b8%a0%e0%b8%b2%e0%b8%9e/",
+        "description": "ส่งด่วน มีทีมดูแลตลอดการใช้งาน แถมEconomy Bag Yamaha FS850 กีต้าร์ที่มีเอกลักษณ์เฉพาะตัวเพราะบอดี้ทำมาจากไม้มะฮอกกานีทั้งหมด จึงมีเสียงที่หนา นุ่มนวล ฟังแล้วอบอุ่น เหมาะกับดนตรีทุกแนวไม่ว่าจะตีคอร์ดหรือฟิงเกอร์สไตล์ รุ่นนี้บอดี้เป็นทรง Concert ที่จะมีขนาดเล็กลงและสั้น เล่นได้ง่ายแม้ว่าจะเป็นคนตัวเล็กก็ตาม ไม้หน้ายังเป็นท็อปโซลิดมะฮออกกานีหรือไม้แท้แผ่นเดียว ยิ่งนานไปกีต้าร์จะเสียงดีมากขึ้น คอทำจากไม้นาโต้ ให้ซาวด์นุ่มลึกแข็งแรงทนทาน วัสดุอื่นๆเลือกใช้ของเกรดพรีเมี่ยมไม่ว่าจะเป็น Nut และ Saddle ห"
+      }
+    ]
+  },
+  {
+    "id": "yamaha-fg830",
+    "url": "https://www.musicarms.net/yamaha-fg830/",
+    "finalUrl": "https://www.musicarms.net/yamaha-fg830/",
+    "status": 200,
+    "accessedAt": "2026-10-26T18:49:27.383512+00:00",
+    "rawFile": "ma-fg830.html.gz",
+    "rawSha256": "f9d4dc4edb0f1fcd53223f0f20e2e82693a42a4eef009bd00b7835286e912335",
+    "rawBytes": 322604,
+    "priorRawSha256": "f9d4dc4edb0f1fcd53223f0f20e2e82693a42a4eef009bd00b7835286e912335",
+    "sameAsInitialFetch": true,
+    "model": "FG830",
+    "modelPriceHeader": "ราคา :\n17,500 บาท\n17500\nรุ่น :\nYamaha FG830 กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar",
+    "priceTHB": 17500,
+    "samePriceAsRecord": true,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.musicarms.net/#organization",
+            "name": "Music Arms",
+            "description": "ศูนย์รวมเครื่องดนตรีทุกชนิด ตั้งแต่เริ่มต้นถึงมืออาชีพ",
+            "url": "https://www.musicarms.net/",
+            "telephone": "+66897954544",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.musicarms.net/wp-content/uploads/2021/03/LOGO-Music-Arms.png",
+              "@id": "https://www.musicarms.net/yamaha-fg830/#organizationLogo",
+              "width": 300,
+              "height": 63,
+              "caption": "LOGO Music Arms"
+            },
+            "image": {
+              "@id": "https://www.musicarms.net/yamaha-fg830/#organizationLogo"
+            },
+            "sameAs": [
+              "https://www.instagram.com/musicarms/?hl=en",
+              "https://www.tiktok.com/@musicarms",
+              "https://www.youtube.com/channel/UCKRMc0cDYw45g_AAtUdPTCA"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.musicarms.net/#website",
+            "url": "https://www.musicarms.net/",
+            "name": "Music Arms",
+            "description": "ศูนย์รวมเครื่องดนตรีทุกชนิด ตั้งแต่เริ่มต้นถึงมืออาชีพ",
+            "inLanguage": "th",
+            "publisher": {
+              "@id": "https://www.musicarms.net/#organization"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "item": {
+              "name": "Music Arms",
+              "@id": "https://www.musicarms.net/category/ma/"
+            },
+            "@type": "ListItem",
+            "position": "1"
+          },
+          {
+            "item": {
+              "name": "สินค้า",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/"
+            },
+            "@type": "ListItem",
+            "position": "2"
+          },
+          {
+            "item": {
+              "name": "เครื่องดนตรี Musical Instrument",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/"
+            },
+            "@type": "ListItem",
+            "position": "3"
+          },
+          {
+            "item": {
+              "name": "กีตาร์ Guitar",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/"
+            },
+            "@type": "ListItem",
+            "position": "4"
+          },
+          {
+            "item": {
+              "name": "กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/"
+            },
+            "@type": "ListItem",
+            "position": "5"
+          },
+          {
+            "item": {
+              "name": "Yamaha",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/yamaha-acoustic-guitar/"
+            },
+            "@type": "ListItem",
+            "position": "6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yamaha-fsx820c",
+    "url": "https://www.musicarms.net/yamaha-fsx820c-natural/",
+    "finalUrl": "https://www.musicarms.net/yamaha-fsx820c-natural/",
+    "status": 200,
+    "accessedAt": "2026-10-26T18:49:27.140987+00:00",
+    "rawFile": "ma-fsx820c.html.gz",
+    "rawSha256": "7317534dd58f81cdf72cd7fd78eea9f5982c1b47c385f70da059546b80c7cf97",
+    "rawBytes": 329296,
+    "priorRawSha256": "1692957dd08d30a3c314444f90f7319fc7f4c5ec54aa4f881ff28199a6e87cf4",
+    "sameAsInitialFetch": false,
+    "model": "FSX820C",
+    "modelPriceHeader": "ราคา :\n20,500 บาท\n20500\nรุ่น :\nYamaha FSX820C กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar",
+    "priceTHB": 20500,
+    "samePriceAsRecord": true,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.musicarms.net/#organization",
+            "name": "Music Arms",
+            "description": "ศูนย์รวมเครื่องดนตรีทุกชนิด ตั้งแต่เริ่มต้นถึงมืออาชีพ",
+            "url": "https://www.musicarms.net/",
+            "telephone": "+66897954544",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.musicarms.net/wp-content/uploads/2021/03/LOGO-Music-Arms.png",
+              "@id": "https://www.musicarms.net/yamaha-fsx820c-natural/#organizationLogo",
+              "width": 300,
+              "height": 63,
+              "caption": "LOGO Music Arms"
+            },
+            "image": {
+              "@id": "https://www.musicarms.net/yamaha-fsx820c-natural/#organizationLogo"
+            },
+            "sameAs": [
+              "https://www.instagram.com/musicarms/?hl=en",
+              "https://www.tiktok.com/@musicarms",
+              "https://www.youtube.com/channel/UCKRMc0cDYw45g_AAtUdPTCA"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.musicarms.net/#website",
+            "url": "https://www.musicarms.net/",
+            "name": "Music Arms",
+            "description": "ศูนย์รวมเครื่องดนตรีทุกชนิด ตั้งแต่เริ่มต้นถึงมืออาชีพ",
+            "inLanguage": "th",
+            "publisher": {
+              "@id": "https://www.musicarms.net/#organization"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "item": {
+              "name": "Music Arms",
+              "@id": "https://www.musicarms.net/category/ma/"
+            },
+            "@type": "ListItem",
+            "position": "1"
+          },
+          {
+            "item": {
+              "name": "สินค้า",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/"
+            },
+            "@type": "ListItem",
+            "position": "2"
+          },
+          {
+            "item": {
+              "name": "เครื่องดนตรี Musical Instrument",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/"
+            },
+            "@type": "ListItem",
+            "position": "3"
+          },
+          {
+            "item": {
+              "name": "กีตาร์ Guitar",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/"
+            },
+            "@type": "ListItem",
+            "position": "4"
+          },
+          {
+            "item": {
+              "name": "กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/"
+            },
+            "@type": "ListItem",
+            "position": "5"
+          },
+          {
+            "item": {
+              "name": "Yamaha",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/yamaha-acoustic-guitar/"
+            },
+            "@type": "ListItem",
+            "position": "6"
+          }
+        ]
+      },
+      {
+        "offers": {
+          "@type": "Offer",
+          "seller": {
+            "@type": "Organization",
+            "name": "Music Arms ศูนย์รวมเครื่องดนตรี ราคาถูกที่สุด ส่งฟรี ผ่อนได้"
+          },
+          "priceCurrency": "THB",
+          "price": 20500,
+          "availability": "https://schema.org/InStock",
+          "warranty": {
+            "@type": "WarrantyPromise",
+            "durationOfWarranty": {
+              "@type": "QuantitativeValue",
+              "unitCode": "ANN",
+              "value": "1 ปี"
+            }
+          },
+          "url": "https://www.musicarms.net/yamaha-fsx820c-natural/"
+        },
+        "image": [
+          "https://www.musicarms.net/wp-content/uploads/2016/04/Face-cover-Yamaha-FSX820C-1.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/04/Yamaha-FSX820C-Natural.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/04/IMG_9033_1-1024x1024.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/04/IMG_9036_1-1024x682.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/04/IMG_9038_1-1024x682.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/04/IMG_9063_1-1024x682.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/04/IMG_9043_1-1024x682.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/04/IMG_9052_1-1024x682.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/04/IMG_9054_1-1024x682.jpg"
+        ],
+        "@type": "Product",
+        "category": "Music Arms/สินค้า/เครื่องดนตรี Musical Instrument/กีตาร์ Guitar/กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar/Yamaha/",
+        "name": "Yamaha FSX820C กีตาร์โปร่งไฟฟ้า",
+        "model": "FSX820C",
+        "sku": "FSX820C",
+        "itemCondition": "NewCondition",
+        "@context": "https://schema.org",
+        "brand": {
+          "@type": "Brand",
+          "name": "Yamaha",
+          "url": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/yamaha-acoustic-guitar/"
+        },
+        "url": "https://www.musicarms.net/yamaha-fsx820c-natural/",
+        "description": "ส่งด่วน มีทีมดูแลตลอดการใช้งาน แถมDeluxe Bag Yamaha FSX820C กีต้าร์ทรง Concert สวยงามจากแบรนด์ดังที่ทุกคนไว้วางใจอย่าง Yamaha รุ่นนี้จะเป็นคอเว้าช่วยในการเล่นเฟรตในได้ง่าย เรื่องเสียงนั้นหายห่วงเพราะคัดวัสดุไม้มาอย่างดี ไม้หน้าเป็นท็อปโซลิดสปรู๊ซ ให้เสียงโทนใสชัดเจน ยิ่งนานไปพอไม้แห้งเสียงจะหวานละมุนมากขึ้น ผสมผสานซาวด์ด้วยบอดี้ส่วนข้างและด้านหลังเป็นไม้มะฮอกกานีที่ให้เสียงหนาฟังอบอุ่น จึงลงตัวทั้งการตีคอร์ดและฟิงเกอร์สไตล์ ส่วนคอนั้นใช้ไม้นาโต้ ให้เสียงหนาชัดเจน ดีไซด์ภายนอกสวยงามด้วยขอบกีต้าร์"
+      }
+    ]
+  },
+  {
+    "id": "yamaha-fs820",
+    "url": "https://www.musicarms.net/yamaha-fs820/",
+    "finalUrl": "https://www.musicarms.net/yamaha-fs820/",
+    "status": 200,
+    "accessedAt": "2026-10-26T18:49:27.390687+00:00",
+    "rawFile": "ma-fs820.html.gz",
+    "rawSha256": "d54d2a0a3b75977894d3dff815d1508ce117a5ac3a9217a5f2cde499110fb152",
+    "rawBytes": 338080,
+    "priorRawSha256": "d23fa79288197e06f931073bcde215076bd51a41ed3008b3a0121e3978919cd5",
+    "sameAsInitialFetch": false,
+    "model": "FS820",
+    "modelPriceHeader": "ราคา :\n15,400 บาท\n15400\nรุ่น :\nYamaha FS820 กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar",
+    "priceTHB": 15400,
+    "samePriceAsRecord": true,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.musicarms.net/#organization",
+            "name": "Music Arms",
+            "description": "ศูนย์รวมเครื่องดนตรีทุกชนิด ตั้งแต่เริ่มต้นถึงมืออาชีพ",
+            "url": "https://www.musicarms.net/",
+            "telephone": "+66897954544",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.musicarms.net/wp-content/uploads/2021/03/LOGO-Music-Arms.png",
+              "@id": "https://www.musicarms.net/yamaha-fs820/#organizationLogo",
+              "width": 300,
+              "height": 63,
+              "caption": "LOGO Music Arms"
+            },
+            "image": {
+              "@id": "https://www.musicarms.net/yamaha-fs820/#organizationLogo"
+            },
+            "sameAs": [
+              "https://www.instagram.com/musicarms/?hl=en",
+              "https://www.tiktok.com/@musicarms",
+              "https://www.youtube.com/channel/UCKRMc0cDYw45g_AAtUdPTCA"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.musicarms.net/#website",
+            "url": "https://www.musicarms.net/",
+            "name": "Music Arms",
+            "description": "ศูนย์รวมเครื่องดนตรีทุกชนิด ตั้งแต่เริ่มต้นถึงมืออาชีพ",
+            "inLanguage": "th",
+            "publisher": {
+              "@id": "https://www.musicarms.net/#organization"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "item": {
+              "name": "Music Arms",
+              "@id": "https://www.musicarms.net/category/ma/"
+            },
+            "@type": "ListItem",
+            "position": "1"
+          },
+          {
+            "item": {
+              "name": "สินค้า",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/"
+            },
+            "@type": "ListItem",
+            "position": "2"
+          },
+          {
+            "item": {
+              "name": "เครื่องดนตรี Musical Instrument",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/"
+            },
+            "@type": "ListItem",
+            "position": "3"
+          },
+          {
+            "item": {
+              "name": "กีตาร์ Guitar",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/"
+            },
+            "@type": "ListItem",
+            "position": "4"
+          },
+          {
+            "item": {
+              "name": "กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/"
+            },
+            "@type": "ListItem",
+            "position": "5"
+          },
+          {
+            "item": {
+              "name": "Yamaha",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/yamaha-acoustic-guitar/"
+            },
+            "@type": "ListItem",
+            "position": "6"
+          }
+        ]
+      },
+      {
+        "offers": {
+          "@type": "Offer",
+          "seller": {
+            "@type": "Organization",
+            "name": "Music Arms ศูนย์รวมเครื่องดนตรี ราคาถูกที่สุด ส่งฟรี ผ่อนได้"
+          },
+          "priceCurrency": "THB",
+          "price": 15400,
+          "availability": "https://schema.org/InStock",
+          "warranty": {
+            "@type": "WarrantyPromise",
+            "durationOfWarranty": {
+              "@type": "QuantitativeValue",
+              "unitCode": "ANN",
+              "value": "1 ปี"
+            }
+          },
+          "url": "https://www.musicarms.net/yamaha-fs820/"
+        },
+        "image": [
+          "https://www.musicarms.net/wp-content/uploads/2016/02/Yamaha-FS820-6-1.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/YAMAHA-FS820-7-1024x1024.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/YAMAHA-FS820-บอดี้-1024x1024.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/YAMAHA-FS820-คอ-1024x1024.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/YAMAHA-FS820-หัว-1024x1024.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/YAMAHA-FS820-หลัง-1024x1024.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/Yamaha-FS820-6.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/Yamaha-FS820-5.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/Face-cover-Yamaha-FS820-1.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/face-cover-Yamaha-FS820.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/D2547D959C154F93894C2187A730068D_12073-scaled-1024x391.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/7988764CF201473883CE3A0000B4B570_12073-scaled-1024x391.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/4057EC0D6E3A4B239168D71ED318CF94_12073-scaled-1024x391.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/694BC67550294B69B7C6E743FFBD694E_12073-scaled-1024x388.jpg",
+          "https://www.musicarms.net/wp-content/uploads/2016/02/60CD9F7AECA947D999DA586FE533BF37_12073-scaled-1024x388.jpg"
+        ],
+        "@type": "Product",
+        "category": "Music Arms/สินค้า/เครื่องดนตรี Musical Instrument/กีตาร์ Guitar/กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar/Yamaha/",
+        "name": "Yamaha FS820 กีตาร์โปร่ง",
+        "model": "FS820",
+        "sku": "FS820",
+        "itemCondition": "NewCondition",
+        "@context": "https://schema.org",
+        "brand": {
+          "@type": "Brand",
+          "name": "Yamaha",
+          "url": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/yamaha-acoustic-guitar/"
+        },
+        "url": "https://www.musicarms.net/yamaha-fs820/",
+        "description": "ส่งด่วน มีทีมดูแลตลอดการใช้งาน แถมEconomy Bag Yamaha FS820 กีต้าร์ไซส์เล็กมีขนาด 40 นิ้ว สะดวกต่อการพกพา และยังทำบอดี้เป็นทรง Concert ที่เล็กจนเล่นได้ง่าย แต่มีเสียงที่หนาเพราะบอดี้ทำจากไม้มะฮอกกานีที่มีคาแรคเตอร์เสียง นุ่มนวล ฟังแล้วอบอุ่น เหมาะกับดนตรีทุกแนวไม่ว่าจะตีคอร์ดหรือฟิงเกอร์สไตล์ ไม้หน้ายังเป็นท็อปโซลิดมะฮออกกานีหรือไม้แท้แผ่นเดียว ยิ่งนานไปกีต้าร์จะเสียงดีมากขึ้น คอทำจากไม้นาโต้ ให้ซาวด์นุ่มลึกแข็งแรงทนทาน วัสดุอื่นๆเลือกใช้ของเกรดพรีเมี่ยมไม่ว่าจะเป็น Nut และ Saddle หรือ ตัวลูกบิดร"
+      }
+    ]
+  },
+  {
+    "id": "yamaha-fg800",
+    "url": "https://www.musicarms.net/yamaha-fg800/",
+    "finalUrl": "https://www.musicarms.net/yamaha-fg800/",
+    "status": 200,
+    "accessedAt": "2026-10-26T18:49:27.387049+00:00",
+    "rawFile": "ma-fg800.html.gz",
+    "rawSha256": "ecdc1661a1e0e5e35c13af879dbc167e73c46d04a914dddd40e12046e0ba645b",
+    "rawBytes": 351564,
+    "priorRawSha256": "ecdc1661a1e0e5e35c13af879dbc167e73c46d04a914dddd40e12046e0ba645b",
+    "sameAsInitialFetch": true,
+    "model": "FG800",
+    "modelPriceHeader": "ราคา :\n12,400 บาท\n12400\nรุ่น :\nYamaha FG800 กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar",
+    "priceTHB": 12400,
+    "samePriceAsRecord": true,
+    "jsonLd": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.musicarms.net/#organization",
+            "name": "Music Arms",
+            "description": "ศูนย์รวมเครื่องดนตรีทุกชนิด ตั้งแต่เริ่มต้นถึงมืออาชีพ",
+            "url": "https://www.musicarms.net/",
+            "telephone": "+66897954544",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.musicarms.net/wp-content/uploads/2021/03/LOGO-Music-Arms.png",
+              "@id": "https://www.musicarms.net/yamaha-fg800/#organizationLogo",
+              "width": 300,
+              "height": 63,
+              "caption": "LOGO Music Arms"
+            },
+            "image": {
+              "@id": "https://www.musicarms.net/yamaha-fg800/#organizationLogo"
+            },
+            "sameAs": [
+              "https://www.instagram.com/musicarms/?hl=en",
+              "https://www.tiktok.com/@musicarms",
+              "https://www.youtube.com/channel/UCKRMc0cDYw45g_AAtUdPTCA"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.musicarms.net/#website",
+            "url": "https://www.musicarms.net/",
+            "name": "Music Arms",
+            "description": "ศูนย์รวมเครื่องดนตรีทุกชนิด ตั้งแต่เริ่มต้นถึงมืออาชีพ",
+            "inLanguage": "th",
+            "publisher": {
+              "@id": "https://www.musicarms.net/#organization"
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "item": {
+              "name": "Music Arms",
+              "@id": "https://www.musicarms.net/category/ma/"
+            },
+            "@type": "ListItem",
+            "position": "1"
+          },
+          {
+            "item": {
+              "name": "สินค้า",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/"
+            },
+            "@type": "ListItem",
+            "position": "2"
+          },
+          {
+            "item": {
+              "name": "เครื่องดนตรี Musical Instrument",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/"
+            },
+            "@type": "ListItem",
+            "position": "3"
+          },
+          {
+            "item": {
+              "name": "กีตาร์ Guitar",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/"
+            },
+            "@type": "ListItem",
+            "position": "4"
+          },
+          {
+            "item": {
+              "name": "กีตาร์โปร่ง/โปร่งไฟฟ้า Acoustic Guitar",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/"
+            },
+            "@type": "ListItem",
+            "position": "5"
+          },
+          {
+            "item": {
+              "name": "Yamaha",
+              "@id": "https://www.musicarms.net/category/ma/%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%84%e0%b9%89%e0%b8%b2%e0%b9%80%e0%b8%84%e0%b8%a3%e0%b8%b7%e0%b9%88%e0%b8%ad%e0%b8%87%e0%b8%94%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b2%e0%b8%84%e0%b8%b2/musical-instrument/%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b9%89%e0%b8%b2%e0%b8%a3%e0%b9%8c/acoustic-and-electric/yamaha-acoustic-guitar/"
+            },
+            "@type": "ListItem",
+            "position": "6"
+          }
+        ]
+      }
+    ]
+  }
+]

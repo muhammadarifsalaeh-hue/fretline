@@ -1,0 +1,9 @@
+{
+  "command": [
+    "node",
+    "scripts/check-phase8-catalog.mjs"
+  ],
+  "exitCode": 1,
+  "seconds": 0.99,
+  "knownOutdatedAssumption": "Unknown prices excluded; expects zero matches even though new confirmed prices now exist."
+}

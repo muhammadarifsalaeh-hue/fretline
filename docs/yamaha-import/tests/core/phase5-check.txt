@@ -1,0 +1,35 @@
+
+> fretline@0.1.0 phase5:check
+> node scripts/check-phase5.mjs
+
+PASS brand names and model counts exactly partition the existing catalog
+PASS brand category membership comes only from its real catalog entries
+PASS unknown, inherited-object and uppercase brand routes are safe
+PASS empty brand catalog yields an empty index
+PASS brand summary excludes sample prices and counts source-backed models
+PASS sample-only brand has no asserted price range
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  assert.ok(BRANDS.every((brand) => brand.priceMin === null && brand.priceMax === null && !brand.logo))
+
+    at file:///workspace/fretline/scripts/check-phase5.mjs:46:12
+    at check (file:///workspace/fretline/scripts/check-phase5.mjs:6:31)
+    at file:///workspace/fretline/scripts/check-phase5.mjs:45:3 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.19.0
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

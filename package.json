@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "dev:pacifica-preview": "vite --mode pacifica-preview",
+    "dev:yamaha-preview": "vite --mode yamaha-preview",
     "build": "vite build",
     "preview": "vite preview",
     "images:check": "node scripts/check-images.mjs",

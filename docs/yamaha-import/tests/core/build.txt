@@ -1,0 +1,71 @@
+
+> fretline@0.1.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 224 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                            0.91 kB │ gzip:   0.57 kB
+dist/assets/gibson-BLvOdW2L.svg                            4.44 kB │ gzip:   2.12 kB
+dist/assets/yamaha-DhXfjkE2.svg                            6.55 kB │ gzip:   2.50 kB
+dist/assets/prs-DcKJlR5R.svg                               9.56 kB │ gzip:   4.05 kB
+dist/assets/fender-DkIbZz31.svg                           10.33 kB │ gzip:   3.82 kB
+dist/assets/epiphone-ScntFqrP.svg                         11.49 kB │ gzip:   5.20 kB
+dist/assets/martin-DMJyvvLA.svg                           14.24 kB │ gzip:   6.44 kB
+dist/assets/ibanez-Dr5XvkXn.svg                           15.72 kB │ gzip:   7.07 kB
+dist/assets/taylor-BiE1RgP3.svg                           19.56 kB │ gzip:   8.02 kB
+dist/assets/01-front-480-cu5pQ3DA.webp                    20.11 kB
+dist/assets/makehuman-left-arm.metadata-Dl-RSsAy.json     31.40 kB │ gzip:   6.81 kB
+dist/assets/01-front-480-DvNXnlmI.webp                    38.72 kB
+dist/assets/gibson-DuMHBIUC.webp                          55.59 kB
+dist/assets/squier-D_xTWQop.webp                          56.19 kB
+dist/assets/fender-DCF8s-Rl.webp                          56.93 kB
+dist/assets/01-front-960-RP14YaR8.webp                    83.14 kB
+dist/assets/taylor-DVJVIccN.webp                         104.98 kB
+dist/assets/01-front-960-Bhe6OkYl.webp                   115.42 kB
+dist/assets/prs-CwqQZRay.webp                            119.90 kB
+dist/assets/01-front-CpQ6r9La.webp                       131.46 kB
+dist/assets/epiphone-3cYMFIFQ.webp                       133.63 kB
+dist/assets/squier-DbmA7p2n.png                          137.91 kB
+dist/assets/ibanez-0rVpVFOn.webp                         147.52 kB
+dist/assets/martin-BZX4UNwJ.webp                         148.95 kB
+dist/assets/01-front-D2ver0On.webp                       168.65 kB
+dist/assets/yamaha-B6fXBWus.webp                         181.69 kB
+dist/assets/01-black-4e0ibs0x.jpg                        186.84 kB
+dist/assets/03-blue-teal-DGai0Mw0.jpg                    191.78 kB
+dist/assets/02-red-5wy1XNF8.jpg                          192.06 kB
+dist/assets/04-all-colors-Dh6UTa0U.jpg                   233.51 kB
+dist/assets/cordoba-EcdWeOY5.webp                        248.51 kB
+dist/assets/hand-poses-DBVKV8cD.json                     441.26 kB │ gzip:  96.65 kB
+dist/assets/makehuman-left-arm-sleeved-q3B7hHpz.glb    1,012.29 kB
+dist/assets/PracticePage-De_eEkvR.css                     30.33 kB │ gzip:   4.97 kB
+dist/assets/index-DQjzdsim.css                           138.09 kB │ gzip:  24.39 kB
+dist/assets/SortSelect-6WDewWb2.js                         0.61 kB │ gzip:   0.38 kB
+dist/assets/CatalogEmpty-BjybqVQj.js                       0.70 kB │ gzip:   0.41 kB
+dist/assets/guitarSort-CaUpGDsA.js                         0.73 kB │ gzip:   0.42 kB
+dist/assets/ImageAttribution-odo45V8a.js                   0.75 kB │ gzip:   0.39 kB
+dist/assets/ShareLink-CQhhyWWw.js                          0.82 kB │ gzip:   0.53 kB
+dist/assets/DiscoveryHeading-DXuF41ae.js                   0.93 kB │ gzip:   0.49 kB
+dist/assets/ConfirmDialog-Dcg5Qnp7.js                      1.03 kB │ gzip:   0.57 kB
+dist/assets/ImageCreditsPage-oGDU_H_5.js                   2.61 kB │ gzip:   1.04 kB
+dist/assets/CatalogCard-D5-UGw6h.js                        4.96 kB │ gzip:   1.95 kB
+dist/assets/WishlistPage-D9QUjTzq.js                       5.66 kB │ gzip:   2.15 kB
+dist/assets/BrandDetailPage-BmtNMdwA.js                    6.05 kB │ gzip:   2.11 kB
+dist/assets/BrandsPage-ChygddVu.js                         7.88 kB │ gzip:   2.87 kB
+dist/assets/ComparePage-DS8PXGuf.js                       11.52 kB │ gzip:   4.04 kB
+dist/assets/FindMyGuitarPage-DVk5hgv1.js                  14.58 kB │ gzip:   4.67 kB
+dist/assets/CatalogPage-B2luzBTV.js                       19.28 kB │ gzip:   6.53 kB
+dist/assets/GuitarDetailPage-DfPXzKqp.js                  24.13 kB │ gzip:   8.14 kB
+dist/assets/PracticePage-EZPqY_Q5.js                      37.61 kB │ gzip:  13.30 kB
+dist/assets/index-eSzqLT9f.js                            160.24 kB │ gzip:  53.38 kB
+dist/assets/vendor-DU_bXo7n.js                           163.33 kB │ gzip:  53.23 kB
+dist/assets/guitar-catalog-BvOHfNeZ.js                   401.97 kB │ gzip:  43.83 kB
+dist/assets/practice-three-CP7LDGza.js                   709.18 kB │ gzip: 185.36 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 4.12s

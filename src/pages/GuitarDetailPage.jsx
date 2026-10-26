@@ -17,7 +17,7 @@ import { NOT_SPECIFIED, formatKg, formatPrice, formatScale } from '@/utils/forma
 import { brandUrl, categoryUrl } from '@/utils/routes';
 import NotFoundPage from './NotFoundPage';
 import PriceSourceNote from '@/components/guitar/PriceSourceNote';
-import { hasManufacturerRrp } from '@/utils/dataTrust';
+import { hasManufacturerRrp, hasListedRetailerPrice } from '@/utils/dataTrust';
 import useDevelopmentImagePreview from '@/hooks/useDevelopmentImagePreview';
 import LocalPreviewImagePicker from '@/components/guitar/LocalPreviewImagePicker';
 
@@ -92,7 +92,7 @@ function DetailContent({ guitar }) {
                 <span className="font-mono text-3xl text-bone">{formatPrice(guitar.price)}</span>
                 {guitar.oldPrice && <span className="font-mono text-sm text-mute line-through">{formatPrice(guitar.oldPrice)}</span>}
               </p>
-              {hasManufacturerRrp(guitar) ? <PriceSourceNote guitar={guitar} full /> : <p className="mt-2 text-xs leading-6 text-mute">{guitar.price == null ? t('detail.noPrice') : t('detail.priceNote')}</p>}
+              {hasManufacturerRrp(guitar) || hasListedRetailerPrice(guitar) ? <PriceSourceNote guitar={guitar} full /> : <p className="mt-2 text-xs leading-6 text-mute">{guitar.price == null ? t('detail.noPrice') : t('detail.priceNote')}</p>}
             </div>
             <p className="mt-4 text-sm leading-7 text-bone/75">{firstSentence(guitar.description)}</p>
             {hasImageColors && galleryImages.length > 0 && <div className="gallery-color-selector preview-color-selector mt-6 border-t border-line pt-5">

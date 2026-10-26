@@ -28,3 +28,7 @@ export const publicPrice = (guitar) => guitar.price != null && trustedPrice(guit
 
 export const hasManufacturerRrp = (guitar) => trustedPrice(guitar) != null
   && guitar.priceSource?.kind === 'manufacturer-recommended-retail';
+
+/** An observed shop listing remains distinct from a manufacturer RRP. */
+export const hasListedRetailerPrice = (guitar) => guitar.intake?.batch === 'yamaha-2026-10-26'
+  && guitar.priceSource?.kind === 'retailer-listed' && trustedPrice(guitar) != null;

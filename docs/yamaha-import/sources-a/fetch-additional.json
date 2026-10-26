@@ -1,0 +1,20 @@
+[
+  {
+    "key": "yamaha-my-overview",
+    "requested": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/",
+    "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/",
+    "httpStatus": 200,
+    "bytes": 98031,
+    "sha256": "c20ad41456a356cbd69437b31fdef11acfa0e262547fb252dab58ed1a7f0e8b5",
+    "accessedAt": "2026-10-26T18:47:53.211874+00:00"
+  },
+  {
+    "key": "yamaha-my-lineup",
+    "requested": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+    "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+    "httpStatus": 200,
+    "bytes": 551551,
+    "sha256": "d55c1df6839111bc565b8061dfe3331849a5aa5824396ab6c86242bd188f1974",
+    "accessedAt": "2026-10-26T18:47:53.576215+00:00"
+  }
+]

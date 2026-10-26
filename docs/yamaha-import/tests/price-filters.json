@@ -1,0 +1,187 @@
+{
+  "checks": [
+    {
+      "engine": "chromium",
+      "viewport": "desktop",
+      "passed": true,
+      "knownUnder30000": [
+        "yamaha-fg800",
+        "yamaha-fg800m",
+        "yamaha-fg820",
+        "yamaha-fg820-12",
+        "yamaha-fg820l",
+        "yamaha-fg830",
+        "yamaha-fg840",
+        "yamaha-fg850",
+        "yamaha-fgx800c",
+        "yamaha-fgx820c",
+        "yamaha-fs800",
+        "yamaha-fs820",
+        "yamaha-fs830",
+        "yamaha-fs850",
+        "yamaha-fsx800c",
+        "yamaha-fsx820c",
+        "yamaha-fsx830c"
+      ],
+      "boundaries": [
+        15500,
+        34000,
+        70000
+      ],
+      "unknownPricesExcluded": true
+    },
+    {
+      "engine": "chromium",
+      "viewport": "tablet",
+      "passed": true,
+      "knownUnder30000": [
+        "yamaha-fg800",
+        "yamaha-fg800m",
+        "yamaha-fg820",
+        "yamaha-fg820-12",
+        "yamaha-fg820l",
+        "yamaha-fg830",
+        "yamaha-fg840",
+        "yamaha-fg850",
+        "yamaha-fgx800c",
+        "yamaha-fgx820c",
+        "yamaha-fs800",
+        "yamaha-fs820",
+        "yamaha-fs830",
+        "yamaha-fs850",
+        "yamaha-fsx800c",
+        "yamaha-fsx820c",
+        "yamaha-fsx830c"
+      ],
+      "boundaries": [
+        15500,
+        34000,
+        70000
+      ],
+      "unknownPricesExcluded": true
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "passed": true,
+      "knownUnder30000": [
+        "yamaha-fg800",
+        "yamaha-fg800m",
+        "yamaha-fg820",
+        "yamaha-fg820-12",
+        "yamaha-fg820l",
+        "yamaha-fg830",
+        "yamaha-fg840",
+        "yamaha-fg850",
+        "yamaha-fgx800c",
+        "yamaha-fgx820c",
+        "yamaha-fs800",
+        "yamaha-fs820",
+        "yamaha-fs830",
+        "yamaha-fs850",
+        "yamaha-fsx800c",
+        "yamaha-fsx820c",
+        "yamaha-fsx830c"
+      ],
+      "boundaries": [
+        15500,
+        34000,
+        70000
+      ],
+      "unknownPricesExcluded": true
+    },
+    {
+      "engine": "webkit",
+      "viewport": "desktop",
+      "passed": true,
+      "knownUnder30000": [
+        "yamaha-fg800",
+        "yamaha-fg800m",
+        "yamaha-fg820",
+        "yamaha-fg820-12",
+        "yamaha-fg820l",
+        "yamaha-fg830",
+        "yamaha-fg840",
+        "yamaha-fg850",
+        "yamaha-fgx800c",
+        "yamaha-fgx820c",
+        "yamaha-fs800",
+        "yamaha-fs820",
+        "yamaha-fs830",
+        "yamaha-fs850",
+        "yamaha-fsx800c",
+        "yamaha-fsx820c",
+        "yamaha-fsx830c"
+      ],
+      "boundaries": [
+        15500,
+        34000,
+        70000
+      ],
+      "unknownPricesExcluded": true
+    },
+    {
+      "engine": "webkit",
+      "viewport": "tablet",
+      "passed": true,
+      "knownUnder30000": [
+        "yamaha-fg800",
+        "yamaha-fg800m",
+        "yamaha-fg820",
+        "yamaha-fg820-12",
+        "yamaha-fg820l",
+        "yamaha-fg830",
+        "yamaha-fg840",
+        "yamaha-fg850",
+        "yamaha-fgx800c",
+        "yamaha-fgx820c",
+        "yamaha-fs800",
+        "yamaha-fs820",
+        "yamaha-fs830",
+        "yamaha-fs850",
+        "yamaha-fsx800c",
+        "yamaha-fsx820c",
+        "yamaha-fsx830c"
+      ],
+      "boundaries": [
+        15500,
+        34000,
+        70000
+      ],
+      "unknownPricesExcluded": true
+    },
+    {
+      "engine": "webkit",
+      "viewport": "mobile",
+      "passed": true,
+      "knownUnder30000": [
+        "yamaha-fg800",
+        "yamaha-fg800m",
+        "yamaha-fg820",
+        "yamaha-fg820-12",
+        "yamaha-fg820l",
+        "yamaha-fg830",
+        "yamaha-fg840",
+        "yamaha-fg850",
+        "yamaha-fgx800c",
+        "yamaha-fgx820c",
+        "yamaha-fs800",
+        "yamaha-fs820",
+        "yamaha-fs830",
+        "yamaha-fs850",
+        "yamaha-fsx800c",
+        "yamaha-fsx820c",
+        "yamaha-fsx830c"
+      ],
+      "boundaries": [
+        15500,
+        34000,
+        70000
+      ],
+      "unknownPricesExcluded": true
+    }
+  ],
+  "errors": [],
+  "physicalIPadSafariTested": false,
+  "passed": true
+}

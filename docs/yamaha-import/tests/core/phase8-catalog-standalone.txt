@@ -1,0 +1,28 @@
+PASS Accentless Córdoba search finds all twenty actual models
+PASS Common model punctuation variants find the real D-18
+PASS Latin accent folding preserves Thai vowels and tone marks
+PASS Thai bass alias matches the category without a Basswood false positive
+PASS Every published model remains searchable by its exact manufacturer name
+PASS Duplicate URL facets are trimmed and deduplicated
+PASS Malformed URL numbers and sort values use safe defaults
+PASS Brand, type and model query intersect rather than overriding each other
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+14 !== 0
+
+    at file:///workspace/fretline/scripts/check-phase8-catalog.mjs:59:12
+    at check (file:///workspace/fretline/scripts/check-phase8-catalog.mjs:6:33)
+    at file:///workspace/fretline/scripts/check-phase8-catalog.mjs:58:3 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 14,
+  expected: 0,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

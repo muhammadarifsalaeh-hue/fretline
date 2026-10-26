@@ -1,0 +1,71 @@
+{
+  "featureReviewAcceptancePassed": true,
+  "allHistoricalTestsPassed": false,
+  "all19ArchivesPresent": false,
+  "allAccessibleInputsProcessed": true,
+  "availableArchives": 18,
+  "requestedArchives": 19,
+  "missingConfirmedArchiveModel": "FGX830C",
+  "newImageFiles": 20,
+  "newImageLicensesVerified": 0,
+  "productionNewImages": 0,
+  "previewImageModels": 18,
+  "THBPricesConfirmed": 17,
+  "priceUnconfirmed": [
+    "FG800J"
+  ],
+  "catalogModels": 200,
+  "brands": 10,
+  "modelsPerBrand": 20,
+  "practiceModified": false,
+  "masterMerged": false,
+  "browserCasesPassed": 280,
+  "browserVersions": {
+    "chromium": "154.0.8037.57",
+    "webkit": "26.5"
+  },
+  "consoleErrors": 0,
+  "runtimeErrors": 0,
+  "networkErrors": 0,
+  "dataEvidenceChecksPassed": 11,
+  "previewPluginChecksPassed": 13,
+  "actualDevAssetIsolationChecksPassed": 8,
+  "preservationChecksPassed": 8,
+  "reviewScreenshots": 14,
+  "legacyGalleryPassed": 79,
+  "legacySharedPassed": 17,
+  "legacySharedTotal": 18,
+  "legacySharedRemainingFailure": "The old price-1440 fixture expects no prices below THB30000; 17 newly sourced Yamaha prices now exist. Original test unchanged; current-boundary regression passed6/6.",
+  "currentPriceFilterChecksPassed": 6,
+  "legacyStaticFailures": [
+    [
+      "npm",
+      "run",
+      "phase5:check"
+    ],
+    [
+      "npm",
+      "run",
+      "phase6:check"
+    ],
+    [
+      "npm",
+      "run",
+      "phase7:check"
+    ],
+    [
+      "npm",
+      "run",
+      "phase8:check"
+    ],
+    [
+      "npm",
+      "run",
+      "phase9:check"
+    ]
+  ],
+  "legacyAdditionalCatalogCheckPassed": false,
+  "physicalIPadSafariTested": false,
+  "readyForAutomaticMasterMerge": false,
+  "reviewedDataSHA256": "2cd055173b494fe23c60b71dda66f7eda2dbc04141d49da73d6ace506ea8463c"
+}

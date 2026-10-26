@@ -1,0 +1,88 @@
+{
+  "baselineCommit": "decd5544ade430530ac7c1e37ae463f251c90d50",
+  "importedIds": [
+    "yamaha-fsx830c",
+    "yamaha-fsx800c",
+    "yamaha-fs800",
+    "yamaha-fgx820c",
+    "yamaha-fg800m",
+    "yamaha-fg820l",
+    "yamaha-fs830",
+    "yamaha-fg820",
+    "yamaha-fgx800c",
+    "yamaha-fg840",
+    "yamaha-fg850",
+    "yamaha-fg800j",
+    "yamaha-fg820-12",
+    "yamaha-fs850",
+    "yamaha-fg830",
+    "yamaha-fsx820c",
+    "yamaha-fs820",
+    "yamaha-fg800"
+  ],
+  "checks": [
+    {
+      "name": "Reviewed record ID set unchanged",
+      "passed": true,
+      "count": 42
+    },
+    {
+      "name": "All18 supplied models map to pre-existing IDs",
+      "passed": true
+    },
+    {
+      "name": "No model brand/name/identity changed",
+      "passed": true
+    },
+    {
+      "name": "Every other reviewed record unchanged",
+      "passed": true
+    },
+    {
+      "name": "All original Practice files byte-identical",
+      "passed": true,
+      "count": 18,
+      "changed": []
+    },
+    {
+      "name": "Original musical/product IDs, image rights, shop and quiz preserved",
+      "passed": true,
+      "files": [
+        "src/data/catalog/projectArtwork.json",
+        "src/data/catalog/imageRights.json",
+        "src/data/catalog/catalogPolicy.json",
+        "src/data/guitars.js",
+        "src/data/quiz.js",
+        "src/utils/quizScoring.js",
+        "src/context/ShopContext.jsx"
+      ],
+      "changed": []
+    },
+    {
+      "name": "Unrelated pages and components byte-identical",
+      "passed": true,
+      "count": 87,
+      "changed": []
+    },
+    {
+      "name": "Every other original source/data/asset is byte-identical",
+      "passed": true,
+      "count": 186,
+      "changed": [],
+      "allowedChanges": [
+        "src/components/compare/CompareVerdicts.jsx",
+        "src/components/detail/DataStatusNote.jsx",
+        "src/components/detail/SpecTable.jsx",
+        "src/components/guitar/PriceSourceNote.jsx",
+        "src/data/additionalSpecifications.js",
+        "src/data/catalog/reviewedGuitars.json",
+        "src/data/guitarImages.js",
+        "src/i18n/en.js",
+        "src/i18n/th.js",
+        "src/pages/GuitarDetailPage.jsx",
+        "src/utils/dataTrust.js"
+      ]
+    }
+  ],
+  "passed": true
+}

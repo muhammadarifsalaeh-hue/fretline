@@ -1,0 +1,113 @@
+{
+  "records": [
+    {
+      "id": "yamaha-fsx830c",
+      "errors": []
+    },
+    {
+      "id": "yamaha-fsx800c",
+      "errors": []
+    },
+    {
+      "id": "yamaha-fs800",
+      "errors": []
+    },
+    {
+      "id": "yamaha-fgx820c",
+      "errors": []
+    },
+    {
+      "id": "yamaha-fg800m",
+      "errors": []
+    },
+    {
+      "id": "yamaha-fg820l",
+      "errors": []
+    },
+    {
+      "id": "yamaha-fs830",
+      "errors": []
+    },
+    {
+      "id": "yamaha-fg820",
+      "errors": []
+    },
+    {
+      "id": "yamaha-fgx800c",
+      "errors": []
+    }
+  ],
+  "sources": [
+    {
+      "key": "yamaha-my-specs",
+      "hashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "key": "yamaha-th-lineup",
+      "hashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "key": "yamaha-th-specs",
+      "hashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "key": "musicarms-fsx830c",
+      "hashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "key": "musicarms-fsx800c",
+      "hashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "key": "musicarms-fs800",
+      "hashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "key": "musicarms-fgx820c",
+      "hashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "key": "musicarms-fg800m",
+      "hashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "key": "musicarms-fg820l",
+      "hashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "key": "musicarms-fs830",
+      "hashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "key": "musicarms-fg820",
+      "hashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "key": "musicarms-fgx800c",
+      "hashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "key": "yamaha-my-overview",
+      "hashMatches": true,
+      "bytesMatch": true
+    },
+    {
+      "key": "yamaha-my-lineup",
+      "hashMatches": true,
+      "bytesMatch": true
+    }
+  ],
+  "passed": true
+}

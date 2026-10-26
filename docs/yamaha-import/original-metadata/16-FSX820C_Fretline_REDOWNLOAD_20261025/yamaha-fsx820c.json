@@ -1,0 +1,48 @@
+{
+  "id": "yamaha-fsx820c",
+  "brand": "Yamaha",
+  "model": "FSX820C",
+  "name": "Yamaha FSX820C",
+  "category": "กีตาร์โปร่งไฟฟ้า",
+  "type": "acoustic-electric",
+  "priceTHB": 20500,
+  "currency": "THB",
+  "priceNoteTH": "ราคาอ้างอิงจาก Music Arms ณ วันที่ตรวจสอบ 25 ตุลาคม 2026 อาจเปลี่ยนแปลงได้",
+  "image": "/images/guitars/yamaha-fsx820c-two-colors.jpg",
+  "imageAltTH": "กีตาร์โปร่งไฟฟ้า Yamaha FSX820C สี Natural และ Brown Sunburst พื้นหลังดำ",
+  "colorsShown": [
+    "Natural",
+    "Brown Sunburst"
+  ],
+  "descriptionTH": "Yamaha FSX820C เป็นกีตาร์โปร่งไฟฟ้าทรง Concert Cutaway ที่มีบอดี้ขนาดกะทัดรัดและเว้าช่วงคอเพื่อช่วยให้เข้าถึงเฟรตสูงได้สะดวก ไม้หน้า Solid Spruce ให้เสียงชัดและกังวาน ผสานไม้ข้างและหลัง Mahogany ให้โทนอบอุ่น เหมาะสำหรับตีคอร์ดและเล่นฟิงเกอร์สไตล์ พร้อมปิ๊กอัพ SRT Piezo และปรีแอมป์ Yamaha System66 สำหรับต่อเครื่องขยายเสียง",
+  "specificationsTH": {
+    "ทรงบอดี้": "Concert Cutaway",
+    "ไม้หน้า": "Solid Spruce",
+    "ไม้ด้านข้างและหลัง": "Mahogany",
+    "โครงภายใน": "Scalloped Bracing",
+    "คอ": "Nato",
+    "ฟิงเกอร์บอร์ด": "Rosewood หรือ Walnut (ขึ้นกับรุ่นย่อย/ล็อต)",
+    "บริดจ์": "Rosewood หรือ Walnut (ขึ้นกับรุ่นย่อย/ล็อต)",
+    "จำนวนเฟรต": 20,
+    "ความยาวสเกล": "634 มม. (25 นิ้ว)",
+    "ความลึกบอดี้": "90–110 มม.",
+    "ความกว้างนัท": "43 มม.",
+    "วัสดุนัทและแซดเดิล": "Urea",
+    "ลูกบิด": "Die-cast Chrome (TM29T)",
+    "เคลือบบอดี้": "Gloss",
+    "ระบบไฟฟ้า": "Yamaha System66 analog preamp",
+    "ปิ๊กอัพ": "SRT Piezo (ใต้แซดเดิล)",
+    "จำนวนสาย": 6
+  },
+  "sourceURLs": [
+    "https://www.musicarms.net/yamaha-fsx820c-natural/",
+    "https://mustorethailand.com/yamaha-fsx820c/",
+    "https://asia-latinamerica-mea.yamaha.com/files/download/brochure/0/1574890/Yamaha_Guitar_Catalog_2022.pdf"
+  ],
+  "notesTH": [
+    "ภาพที่แนบเป็นภาพสองสีในไฟล์เดียว ให้สร้างสินค้ารุ่นเดียว ไม่ใช่สองรายการ",
+    "ตรวจสอบโครงสร้างข้อมูลโปรเจกต์และปรับ JSON ให้ตรง schema เดิม",
+    "ข้อมูลวัสดุฟิงเกอร์บอร์ดและบริดจ์อาจต่างกันตามล็อต/ภูมิภาค",
+    "อย่าสับสนกับ FGX820C หรือ FSX830C"
+  ]
+}

@@ -1,0 +1,14 @@
+PASS 18 accessible archives, 18 stable model IDs and 20 distinct original files
+PASS uploaded files keep their original SHA-256, byte counts and true dimensions
+PASS rights and product accuracy are explicitly unverified, with true creation notes
+PASS all 20 preview image routes return original bytes, real MIME type and review-only headers
+PASS HEAD is bodyless and non-reading methods are rejected
+PASS only exact hash-bound model/file routes load; unknown paths cannot expose a file
+PASS enabled development pages receive an explicit robots exclusion
+PASS disabled preview does not read source files, emit assets or change ordinary page indexing
+PASS build mode production always has an empty Yamaha image module
+PASS build mode yamaha-preview always has an empty Yamaha image module
+PASS build mode pacifica-preview always has an empty Yamaha image module
+PASS path traversal and false rights approval in a manifest fail closed
+PASS altered image bytes fail the original integrity binding
+13 Yamaha development preview isolation/integrity checks passed.

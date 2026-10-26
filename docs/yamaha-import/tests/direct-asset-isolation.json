@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "path": "/docs/yamaha-import/preview-assets/yamaha-fsx830c/01-supplied-yamaha-fsx830c-natural-black.png",
+      "status": 403,
+      "originalBytesExposed": false
+    },
+    {
+      "path": "/@fs/workspace/fretline/docs/yamaha-import/preview-assets/yamaha-fsx830c/01-supplied-yamaha-fsx830c-natural-black.png",
+      "status": 403,
+      "originalBytesExposed": false
+    },
+    {
+      "path": "/docs/yamaha-import/preview-assets/yamaha-fsx830c/01-supplied-yamaha-fsx830c-natural-black.png?raw",
+      "status": 403,
+      "originalBytesExposed": false
+    },
+    {
+      "path": "/@fs/workspace/fretline/docs/yamaha-import/preview-assets/yamaha-fsx830c/01-supplied-yamaha-fsx830c-natural-black.png?raw",
+      "status": 403,
+      "originalBytesExposed": false
+    },
+    {
+      "path": "/docs/yamaha-import/preview-assets/yamaha-fsx830c/01-supplied-yamaha-fsx830c-natural-black.png?url",
+      "status": 403,
+      "originalBytesExposed": false
+    },
+    {
+      "path": "/@fs/workspace/fretline/docs/yamaha-import/preview-assets/yamaha-fsx830c/01-supplied-yamaha-fsx830c-natural-black.png?url",
+      "status": 403,
+      "originalBytesExposed": false
+    },
+    {
+      "path": "preview-route-in-ordinary-dev",
+      "status": 404
+    },
+    {
+      "case": "ordinary-dev Gallery has no supplied image",
+      "passed": true
+    }
+  ]
+}

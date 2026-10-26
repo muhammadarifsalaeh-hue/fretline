@@ -3,40 +3,41 @@ import { NOT_SPECIFIED, formatScale, formatKg, formatPrice } from '@/utils/forma
 import { ADDITIONAL_SPECIFICATIONS } from '@/data/additionalSpecifications';
 import PriceSourceNote from '@/components/guitar/PriceSourceNote';
 
-const val = (v) => v ?? NOT_SPECIFIED;
+const unknown = (g) => g.intake?.batch === 'yamaha-2026-10-26' ? t('import.unconfirmed') : NOT_SPECIFIED;
+const val = (v, g) => v ?? unknown(g);
 
 const GROUPS = [
   {
     id: 'construction',
     title: t('group.construction'),
     rows: [
-      [t('row.body'), (g) => val(g.specs.body)],
-      [t('row.neck'), (g) => val(g.specs.neck)],
-      [t('row.fingerboard'), (g) => val(g.specs.fretboard)],
+      [t('row.body'), (g) => val(g.specs.body, g)],
+      [t('row.neck'), (g) => val(g.specs.neck, g)],
+      [t('row.fingerboard'), (g) => val(g.specs.fretboard, g)],
       [t('row.scale'), (g) => formatScale(g.specs)],
-      [t('row.frets'), (g) => val(g.specs.frets)],
-      [t('row.strings'), (g) => val(g.specs.strings)],
+      [t('row.frets'), (g) => val(g.specs.frets, g)],
+      [t('row.strings'), (g) => val(g.specs.strings, g)],
     ],
   },
   {
     id: 'electronics',
     title: t('group.electronics'),
     rows: [
-      [t('row.pickups'), (g) => val(g.specs.pickups)],
-      [t('row.bridge'), (g) => val(g.specs.bridge)],
-      [t('row.controls'), (g) => val(g.specs.controls)],
+      [t('row.pickups'), (g) => val(g.specs.pickups, g)],
+      [t('row.bridge'), (g) => val(g.specs.bridge, g)],
+      [t('row.controls'), (g) => val(g.specs.controls, g)],
     ],
   },
   {
     id: 'details',
     title: t('group.details'),
     rows: [
-      [t('row.weight'), (g) => formatKg(g.specs.weightKg)],
+      [t('row.weight'), (g) => g.specs.weightKg == null ? unknown(g) : formatKg(g.specs.weightKg)],
       [
         t('detail.colors'),
         (g) =>
           g.colors.length === 0 ? (
-            NOT_SPECIFIED
+            unknown(g)
           ) : (
           <ul className="flex flex-wrap gap-x-5 gap-y-2">
             {g.colors.map((c) => (
@@ -51,7 +52,7 @@ const GROUPS = [
           </ul>
         ),
       ],
-      [t('row.price'), (g) => <>{formatPrice(g.price)}<PriceSourceNote guitar={g} /></>],
+      [t('row.price'), (g) => <>{g.price == null && g.intake?.batch === 'yamaha-2026-10-26' ? unknown(g) : formatPrice(g.price)}<PriceSourceNote guitar={g} /></>],
     ],
   },
 ];
@@ -65,7 +66,7 @@ export default function SpecTable({ guitar }) {
         <tbody key={group.title}>
           <tr><th colSpan={2} scope="colgroup" className="spec-group">{group.title}</th></tr>
           {[...group.rows, ...ADDITIONAL_SPECIFICATIONS.filter((field) => field.group === group.id && Object.hasOwn(guitar.specs, field.key))
-            .map((field) => [t(field.label), (g) => g.specs[field.key] == null ? NOT_SPECIFIED : `${g.specs[field.key]}${field.unit ?? ''}`])].map(([label, get]) => (
+            .map((field) => [t(field.label), (g) => g.specs[field.key] == null ? unknown(g) : `${g.specs[field.key]}${field.unit ?? ''}`])].map(([label, get]) => (
             <tr key={label}>
               <th scope="row">{label}</th>
               <td>{get(guitar)}</td>

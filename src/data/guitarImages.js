@@ -1,4 +1,5 @@
 import { t } from '@/i18n';
+import YAMAHA_IMPORT_PREVIEW from 'virtual:fretline-yamaha-import-preview';
 import IMAGE_RIGHTS from './catalog/imageRights.json';
 import PROJECT_ARTWORK from './catalog/projectArtwork.json';
 import { hasImageRights } from '@/utils/imageRights';
@@ -79,6 +80,8 @@ export function getGuitarImages(id) {
       srcSet: [...variants, `${src} ${rights.width}w`].join(', ') }];
   });
   const overrides = (IMAGE_OVERRIDES[id] ?? []).filter((photo) => hasImageRights(photo.attribution, id));
-  const gallery = overrides.length ? overrides : fromFiles;
+  // Rights-unverified imports exist only in the explicitly selected development mode.
+  // The existing licensed FG820-12 photograph remains first. Production exports {}.
+  const gallery = [...(overrides.length ? overrides : fromFiles), ...(YAMAHA_IMPORT_PREVIEW[id]?.images ?? [])];
   return { primary: gallery[0]?.src ?? null, gallery, hasPhotos: gallery.length > 0 };
 }

@@ -1,0 +1,1021 @@
+{
+  "schemaVersion": 1,
+  "receivedOn": "2026-10-26",
+  "intendedArchiveCount": 19,
+  "accessibleArchiveCount": 18,
+  "sourceImageCount": 20,
+  "models": [
+    {
+      "guitarId": "yamaha-fsx830c",
+      "archive": "1-Fretline_Yamaha_FSX830C_Codex_Ready_NEW.zip",
+      "archiveSha256": "ed67076e6199699a1eb8179d455b5814aa09f5ae03b95975dd9e4577262c10e7",
+      "source": "User-supplied ZIP attachment",
+      "use": "Development Preview only; excluded from every production build",
+      "licenseVerified": false,
+      "originalImageRightsVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNamesVerified": false,
+      "rightsStatus": "ยังไม่ยืนยัน",
+      "images": [
+        {
+          "id": "supplied-1",
+          "file": "01-supplied-yamaha-fsx830c-natural-black.png",
+          "originalFile": "images/yamaha-fsx830c-natural-black.png",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 860286,
+          "sha256": "ca2c59d6cb91939fb957187e140f5122e1415a234620c5002a0ecf37e5d99973",
+          "label": "ภาพประกอบจากไฟล์ผู้ใช้",
+          "alt": "Yamaha FSX830C — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": null,
+          "aiGenerationPossible": false,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        }
+      ]
+    },
+    {
+      "guitarId": "yamaha-fsx800c",
+      "archive": "2-FSX800C.zip",
+      "archiveSha256": "c84802f75af372d8b2ee2d6da8475dba255598c7189a59401cdcb6fb33fb64c5",
+      "source": "User-supplied ZIP attachment",
+      "use": "Development Preview only; excluded from every production build",
+      "licenseVerified": false,
+      "originalImageRightsVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNamesVerified": false,
+      "rightsStatus": "ยังไม่ยืนยัน",
+      "images": [
+        {
+          "id": "supplied-1",
+          "file": "01-supplied-FSX800C.jpg",
+          "originalFile": "FSX800C.jpg",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 315032,
+          "sha256": "3c56d5556bbfd1b971f13175d64a42cbd5ef6b3f52cbf7bb35984320f353d0af",
+          "label": "ภาพประกอบจากไฟล์ผู้ใช้",
+          "alt": "Yamaha FSX800C — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": null,
+          "aiGenerationPossible": false,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        }
+      ]
+    },
+    {
+      "guitarId": "yamaha-fs800",
+      "archive": "3-Yamaha_FS800_Fretline_Resend.zip",
+      "archiveSha256": "31a3ae06ac143602ed67deffb864608b350d93f00c14607aae0aa9c938551f2f",
+      "source": "User-supplied ZIP attachment",
+      "use": "Development Preview only; excluded from every production build",
+      "licenseVerified": false,
+      "originalImageRightsVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNamesVerified": false,
+      "rightsStatus": "ยังไม่ยืนยัน",
+      "images": [
+        {
+          "id": "supplied-1",
+          "file": "01-supplied-yamaha-fs800-three-colors.jpg",
+          "originalFile": "images/yamaha-fs800-three-colors.jpg",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 369063,
+          "sha256": "f260e88a86eb21af999de814b96128c56b1af7728268bf3c89b76161a1fd170c",
+          "label": "ภาพประกอบจากไฟล์ผู้ใช้",
+          "alt": "Yamaha FS800 — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": null,
+          "aiGenerationPossible": false,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        }
+      ]
+    },
+    {
+      "guitarId": "yamaha-fgx820c",
+      "archive": "4-Fretline_Yamaha_FGX820C_02_Codex_Ready.zip",
+      "archiveSha256": "144209e71dad8939731647ff38693c31fb3f5383dd8d4def1bf9a7fe1eacbddf",
+      "source": "User-supplied ZIP attachment",
+      "use": "Development Preview only; excluded from every production build",
+      "licenseVerified": false,
+      "originalImageRightsVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNamesVerified": false,
+      "rightsStatus": "ยังไม่ยืนยัน",
+      "images": [
+        {
+          "id": "supplied-1",
+          "file": "01-supplied-yamaha-fgx820c-02.png",
+          "originalFile": "images/yamaha-fgx820c-02.png",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 1183322,
+          "sha256": "873932136d7aa96ad5674a094047460530f97beaf13ebd2c22c3ad6027c7da51",
+          "label": "ภาพประกอบจากไฟล์ผู้ใช้",
+          "alt": "Yamaha FGX820C — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": null,
+          "aiGenerationPossible": false,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        }
+      ]
+    },
+    {
+      "guitarId": "yamaha-fg800m",
+      "archive": "5-Fretline_Yamaha_FG800M_Codex_Ready.zip",
+      "archiveSha256": "e030aa3413c3d6f10b4994d9ececbd3168b5cf5f34131b94f4efd0a8cd22d81b",
+      "source": "User-supplied ZIP attachment",
+      "use": "Development Preview only; excluded from every production build",
+      "licenseVerified": false,
+      "originalImageRightsVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNamesVerified": false,
+      "rightsStatus": "ยังไม่ยืนยัน",
+      "images": [
+        {
+          "id": "supplied-1",
+          "file": "01-supplied-yamaha-fg800m-natural-black-background.png",
+          "originalFile": "images/yamaha-fg800m-natural-black-background.png",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 761638,
+          "sha256": "4a2817e69621f694e6bf63febfada88686ac410c57fb3727ab9afa1271cf44b6",
+          "label": "ภาพประกอบจากไฟล์ผู้ใช้",
+          "alt": "Yamaha FG800M — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": null,
+          "aiGenerationPossible": false,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        }
+      ]
+    },
+    {
+      "guitarId": "yamaha-fg820l",
+      "archive": "6-Fretline_Yamaha_FG820L_Codex_Ready.zip",
+      "archiveSha256": "3bbe42c4356b2b72b5bcc68e6aa059f10f08116bbb7f71af98a213da0d1ef4c5",
+      "source": "User-supplied ZIP attachment",
+      "use": "Development Preview only; excluded from every production build",
+      "licenseVerified": false,
+      "originalImageRightsVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNamesVerified": false,
+      "rightsStatus": "ยังไม่ยืนยัน",
+      "images": [
+        {
+          "id": "supplied-1",
+          "file": "01-supplied-yamaha-fg820l-natural-black-background.png",
+          "originalFile": "Fretline_Yamaha_FG820L/images/yamaha-fg820l-natural-black-background.png",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 803151,
+          "sha256": "2fa667f07be7aec619b85b380a7fceef476f7a7434e9f89ffa6390028f869341",
+          "label": "ภาพประกอบจากไฟล์ผู้ใช้",
+          "alt": "Yamaha FG820L — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": null,
+          "aiGenerationPossible": false,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        }
+      ]
+    },
+    {
+      "guitarId": "yamaha-fs830",
+      "archive": "7-Fretline_Yamaha_FS830_Codex_Ready.zip",
+      "archiveSha256": "2dba39bb92d3911b50a2658ca1976740c7c0bed874d3810bd7dffc3d9e16f99d",
+      "source": "User-supplied ZIP attachment",
+      "use": "Development Preview only; excluded from every production build",
+      "licenseVerified": false,
+      "originalImageRightsVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNamesVerified": false,
+      "rightsStatus": "ยังไม่ยืนยัน",
+      "images": [
+        {
+          "id": "supplied-1",
+          "file": "01-supplied-yamaha-fs830-three-colors.png",
+          "originalFile": "images/yamaha-fs830-three-colors.png",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 542859,
+          "sha256": "9727d67e21cc518f8b35a2ffaea0b06dafe789e54e73c816ca35b020501c8a1c",
+          "label": "ภาพประกอบจากไฟล์ผู้ใช้",
+          "alt": "Yamaha FS830 — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": null,
+          "aiGenerationPossible": true,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        }
+      ]
+    },
+    {
+      "guitarId": "yamaha-fg820",
+      "archive": "8-fretline-yamaha-fg820-codex-ready.zip",
+      "archiveSha256": "4bfffc84b3bd02c8bf6872a7826f421640c3d764df8e279483c5ff3990a6d555",
+      "source": "User-supplied ZIP attachment",
+      "use": "Development Preview only; excluded from every production build",
+      "licenseVerified": false,
+      "originalImageRightsVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNamesVerified": false,
+      "rightsStatus": "ยังไม่ยืนยัน",
+      "images": [
+        {
+          "id": "supplied-1",
+          "file": "01-supplied-yamaha-fg820-five-colors-black.jpg",
+          "originalFile": "images/yamaha-fg820-five-colors-black.jpg",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 357550,
+          "sha256": "2a7df2e63d143d820bc370a79fc1858ee755634ab914af2c007a26b372beda59",
+          "label": "ภาพประกอบจากไฟล์ผู้ใช้",
+          "alt": "Yamaha FG820 — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": null,
+          "aiGenerationPossible": false,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        }
+      ]
+    },
+    {
+      "guitarId": "yamaha-fgx800c",
+      "archive": "9-Fretline_Yamaha_FGX800C_Codex_Ready.zip",
+      "archiveSha256": "15c4fcf09866b21a2e06c5f77d40f62612a60640a91d3218621f74f69a2411bb",
+      "source": "User-supplied ZIP attachment",
+      "use": "Development Preview only; excluded from every production build",
+      "licenseVerified": false,
+      "originalImageRightsVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNamesVerified": false,
+      "rightsStatus": "ยังไม่ยืนยัน",
+      "images": [
+        {
+          "id": "supplied-1",
+          "file": "01-supplied-yamaha-fgx800c-three-colors.jpg",
+          "originalFile": "images/yamaha-fgx800c-three-colors.jpg",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 347000,
+          "sha256": "81740bb10106560af9b676d0f8c1265683a8e05ac07b3245d90453387b8b7be9",
+          "label": "ภาพประกอบจากไฟล์ผู้ใช้",
+          "alt": "Yamaha FGX800C — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": null,
+          "aiGenerationPossible": false,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        }
+      ]
+    },
+    {
+      "guitarId": "yamaha-fg840",
+      "archive": "10-fretline-yamaha-fg840-codex-ready.zip",
+      "archiveSha256": "a44395d2f139e1b1427fbbfb62de8f09c177e8539d165f1fc86fa8aaff4f92a1",
+      "source": "User-supplied ZIP attachment",
+      "use": "Development Preview only; excluded from every production build",
+      "licenseVerified": false,
+      "originalImageRightsVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNamesVerified": false,
+      "rightsStatus": "ยังไม่ยืนยัน",
+      "images": [
+        {
+          "id": "supplied-1",
+          "file": "01-supplied-yamaha-fg840-natural-black-background.webp",
+          "originalFile": "yamaha-fg840-natural-black-background.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 123386,
+          "sha256": "f5dc1522c0bf6b0352864221bb3a5c8924c2de845941c13a065b971387e45a91",
+          "label": "ภาพประกอบจากไฟล์ผู้ใช้",
+          "alt": "Yamaha FG840 — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": true,
+          "aiGenerationPossible": false,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        }
+      ]
+    },
+    {
+      "guitarId": "yamaha-fg850",
+      "archive": "11-fretline-yamaha-fg850-codex-ready.zip",
+      "archiveSha256": "f7bec9dcf993f406b892476ebf4a28c4b5a854c3d70b940aa67a40410c84e671",
+      "source": "User-supplied ZIP attachment",
+      "use": "Development Preview only; excluded from every production build",
+      "licenseVerified": false,
+      "originalImageRightsVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNamesVerified": false,
+      "rightsStatus": "ยังไม่ยืนยัน",
+      "images": [
+        {
+          "id": "supplied-1",
+          "file": "01-supplied-yamaha-fg850-mahogany-black.webp",
+          "originalFile": "yamaha-fg850-mahogany-black.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 80840,
+          "sha256": "a666ad8787d43d1b0c0267888ebc4c263a598e07be49029e36310192fd79bb87",
+          "label": "ภาพประกอบจากไฟล์ผู้ใช้",
+          "alt": "Yamaha FG850 — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": true,
+          "aiGenerationPossible": false,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        }
+      ]
+    },
+    {
+      "guitarId": "yamaha-fg800j",
+      "archive": "12-Fretline_Yamaha_FG800J_Codex_Ready.zip",
+      "archiveSha256": "adfdac076e0a4516838f20ded463245f50b1280b8c535617ed2d9a9b97eb303a",
+      "source": "User-supplied ZIP attachment",
+      "use": "Development Preview only; excluded from every production build",
+      "licenseVerified": false,
+      "originalImageRightsVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNamesVerified": false,
+      "rightsStatus": "ยังไม่ยืนยัน",
+      "images": [
+        {
+          "id": "supplied-1",
+          "file": "01-supplied-yamaha-fg800j-natural.jpg",
+          "originalFile": "FG800J_package/images/yamaha-fg800j-natural.jpg",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 138734,
+          "sha256": "b0d4add141aa0567467bf5205fa2b5bb67fe68589bb58e673c5b033b857785be",
+          "label": "ภาพประกอบจากไฟล์ผู้ใช้",
+          "alt": "Yamaha FG800J — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": null,
+          "aiGenerationPossible": false,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        }
+      ]
+    },
+    {
+      "guitarId": "yamaha-fg820-12",
+      "archive": "13-Yamaha_FG820-12_Fretline_Complete.zip",
+      "archiveSha256": "afda20d818cceea3a4df5b18dafdfc95b47a93d3aa6906ac24d44ad236fc24e7",
+      "source": "User-supplied ZIP attachment",
+      "use": "Development Preview only; excluded from every production build",
+      "licenseVerified": false,
+      "originalImageRightsVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNamesVerified": false,
+      "rightsStatus": "ยังไม่ยืนยัน",
+      "images": [
+        {
+          "id": "supplied-1",
+          "file": "01-supplied-yamaha-fg820-12-natural.png",
+          "originalFile": "yamaha-fg820-12-natural.png",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 687803,
+          "sha256": "26e43d1abb550ceb7cefc17c02d93a32f8b8c53e54bd7847d1d5834f8724960a",
+          "label": "ภาพประกอบจากไฟล์ผู้ใช้",
+          "alt": "Yamaha FG820-12 — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": null,
+          "aiGenerationPossible": false,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        }
+      ]
+    },
+    {
+      "guitarId": "yamaha-fs850",
+      "archive": "14-Fretline_Yamaha_FS850_Codex_Ready.zip",
+      "archiveSha256": "6d929aa9be24389094c8cc70c920ddde077f3488e8a36cdb0e75e500e587df3f",
+      "source": "User-supplied ZIP attachment",
+      "use": "Development Preview only; excluded from every production build",
+      "licenseVerified": false,
+      "originalImageRightsVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNamesVerified": false,
+      "rightsStatus": "ยังไม่ยืนยัน",
+      "images": [
+        {
+          "id": "supplied-1",
+          "file": "01-supplied-yamaha-fs850-black-background.png",
+          "originalFile": "yamaha-fs850/images/yamaha-fs850-black-background.png",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 894864,
+          "sha256": "de3807e2f9593ec5b2ad82ae761efa8fab954a49cd3afe556eb45d65b783863e",
+          "label": "ภาพประกอบจากไฟล์ผู้ใช้",
+          "alt": "Yamaha FS850 — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": null,
+          "aiGenerationPossible": false,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        }
+      ]
+    },
+    {
+      "guitarId": "yamaha-fg830",
+      "archive": "15-fretline-yamaha-fg830-codex-ready.zip",
+      "archiveSha256": "083409b90a16e1fdae1b26b175681496006f81147c5257980108c5f568e078dc",
+      "source": "User-supplied ZIP attachment",
+      "use": "Development Preview only; excluded from every production build",
+      "licenseVerified": false,
+      "originalImageRightsVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNamesVerified": false,
+      "rightsStatus": "ยังไม่ยืนยัน",
+      "images": [
+        {
+          "id": "supplied-1",
+          "file": "01-supplied-yamaha-fg830-three-colors.jpg",
+          "originalFile": "fg830_package/images/yamaha-fg830-three-colors.jpg",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 313258,
+          "sha256": "84d2c59b7121975be18b17a758137d241354e9905d9daf28aedcfb0a2f2d00e5",
+          "label": "ภาพประกอบจากไฟล์ผู้ใช้",
+          "alt": "Yamaha FG830 — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": null,
+          "aiGenerationPossible": false,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        }
+      ]
+    },
+    {
+      "guitarId": "yamaha-fsx820c",
+      "archive": "16-FSX820C_Fretline_REDOWNLOAD_20261025.zip",
+      "archiveSha256": "fa0405035def2aaa4167487495aaf38951cacee7d476f4a795016abff75043f4",
+      "source": "User-supplied ZIP attachment",
+      "use": "Development Preview only; excluded from every production build",
+      "licenseVerified": false,
+      "originalImageRightsVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNamesVerified": false,
+      "rightsStatus": "ยังไม่ยืนยัน",
+      "images": [
+        {
+          "id": "supplied-1",
+          "file": "01-supplied-yamaha-fsx820c-two-colors.jpg",
+          "originalFile": "images/yamaha-fsx820c-two-colors.jpg",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 297658,
+          "sha256": "b8b7535cb02d9eecd5656a6561bf671965149c289daf3205e11d6bfe9e717410",
+          "label": "ภาพประกอบจากไฟล์ผู้ใช้",
+          "alt": "Yamaha FSX820C — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": null,
+          "aiGenerationPossible": false,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        }
+      ]
+    },
+    {
+      "guitarId": "yamaha-fs820",
+      "archive": "17-Fretline_Yamaha_FS820_Codex_Ready.zip",
+      "archiveSha256": "18841c5e569a82af89303e65b30ea534f0370a28b9d6008ffc1c021a59dbad76",
+      "source": "User-supplied ZIP attachment",
+      "use": "Development Preview only; excluded from every production build",
+      "licenseVerified": false,
+      "originalImageRightsVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNamesVerified": false,
+      "rightsStatus": "ยังไม่ยืนยัน",
+      "images": [
+        {
+          "id": "supplied-1",
+          "file": "01-supplied-yamaha-fs820-four-colors.jpg",
+          "originalFile": "images/yamaha-fs820-four-colors.jpg",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 485075,
+          "sha256": "d2ddcff70245680456b65591f2de90c373293a13f42412fdafad83285bf24a99",
+          "label": "ภาพประกอบจากไฟล์ผู้ใช้",
+          "alt": "Yamaha FS820 — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": null,
+          "aiGenerationPossible": false,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        }
+      ]
+    },
+    {
+      "guitarId": "yamaha-fg800",
+      "archive": "18-fretline-fg800-new-3-images.zip",
+      "archiveSha256": "95900c38a06d8f77306d2c3d6b8100d52f7eab3b6d78abe0e510f14adca7d26e",
+      "source": "User-supplied ZIP attachment",
+      "use": "Development Preview only; excluded from every production build",
+      "licenseVerified": false,
+      "originalImageRightsVerified": false,
+      "modelMatchVerified": false,
+      "officialColorNamesVerified": false,
+      "rightsStatus": "ยังไม่ยืนยัน",
+      "images": [
+        {
+          "id": "supplied-1",
+          "file": "01-supplied-yamaha-fg800-natural.webp",
+          "originalFile": "images/yamaha-fg800-natural.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 134412,
+          "sha256": "d571b5ecc4a2a84e387f53b8f0e0bf23a5c3f9c5b6098b56a7b283777f7dab54",
+          "label": "Natural — ภาพประกอบจากผู้ใช้",
+          "alt": "Yamaha FG800 — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": true,
+          "aiGenerationPossible": false,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        },
+        {
+          "id": "supplied-2",
+          "file": "02-supplied-yamaha-fg800-black.webp",
+          "originalFile": "images/yamaha-fg800-black.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 52698,
+          "sha256": "60af5dd3588bacbebe338ae6f9eddae15bb50c617bc94f389262971257c9dbd4",
+          "label": "Black — ภาพประกอบจากผู้ใช้",
+          "alt": "Yamaha FG800 — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": true,
+          "aiGenerationPossible": false,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        },
+        {
+          "id": "supplied-3",
+          "file": "03-supplied-yamaha-fg800-sunburst.webp",
+          "originalFile": "images/yamaha-fg800-sunburst.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 121176,
+          "sha256": "18dab689cd4bcb7fa72da89493fc87eaf20e5aa29cae654f73d1dd1c04fa189e",
+          "label": "Sunburst — ภาพประกอบจากผู้ใช้",
+          "alt": "Yamaha FG800 — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่",
+          "kind": "illustration",
+          "aiGenerated": true,
+          "aiGenerationPossible": false,
+          "changes": "Original uploaded image copied byte-for-byte. No crop, flip, recoloring, retouching, resizing or generation."
+        }
+      ]
+    }
+  ],
+  "archives": [
+    {
+      "archive": "1-Fretline_Yamaha_FSX830C_Codex_Ready_NEW.zip",
+      "sha256": "ed67076e6199699a1eb8179d455b5814aa09f5ae03b95975dd9e4577262c10e7",
+      "files": [
+        {
+          "path": "1-Fretline_Yamaha_FSX830C_Codex_Ready_NEW/CODEX_INSTRUCTIONS_TH.md",
+          "bytes": 2289,
+          "sha256": "625ec48d26e883b13b2c1ede8982bb592a8cba65bd52a23c0832acfffeae6fe0"
+        },
+        {
+          "path": "1-Fretline_Yamaha_FSX830C_Codex_Ready_NEW/yamaha-fsx830c.json",
+          "bytes": 4773,
+          "sha256": "e42b0a88310803fac37f33c3df92ab27cbbcd3559ed59efdedbe024c7c91cf3b"
+        },
+        {
+          "path": "1-Fretline_Yamaha_FSX830C_Codex_Ready_NEW/README_TH.md",
+          "bytes": 609,
+          "sha256": "89f1932859d28a2e177b492fce043a8fedb73b4fdf9c8570a77b62c9472dec43"
+        },
+        {
+          "path": "1-Fretline_Yamaha_FSX830C_Codex_Ready_NEW/images/yamaha-fsx830c-natural-black.png",
+          "bytes": 860286,
+          "sha256": "ca2c59d6cb91939fb957187e140f5122e1415a234620c5002a0ecf37e5d99973"
+        }
+      ]
+    },
+    {
+      "archive": "2-FSX800C.zip",
+      "sha256": "c84802f75af372d8b2ee2d6da8475dba255598c7189a59401cdcb6fb33fb64c5",
+      "files": [
+        {
+          "path": "2-FSX800C/FSX800C.json",
+          "bytes": 6799,
+          "sha256": "e5d27162a939da4e4bb51cd2d3f165a818e6739a780496bb498162c11a0245eb"
+        },
+        {
+          "path": "2-FSX800C/FSX800C.jpg",
+          "bytes": 315032,
+          "sha256": "3c56d5556bbfd1b971f13175d64a42cbd5ef6b3f52cbf7bb35984320f353d0af"
+        },
+        {
+          "path": "2-FSX800C/FSX800C_Codex.txt",
+          "bytes": 2968,
+          "sha256": "65b519dc1fa5a1dd643e3a5f99fc15ae1d0b5700fc97619ff407864ea45d91bd"
+        }
+      ]
+    },
+    {
+      "archive": "3-Yamaha_FS800_Fretline_Resend.zip",
+      "sha256": "31a3ae06ac143602ed67deffb864608b350d93f00c14607aae0aa9c938551f2f",
+      "files": [
+        {
+          "path": "3-Yamaha_FS800_Fretline_Resend/CODEX_INSTRUCTIONS_TH.md",
+          "bytes": 2712,
+          "sha256": "c1dfb067d37949e27dd4ddebd09f83d881c1e4044ef16ec6481f151002c17e91"
+        },
+        {
+          "path": "3-Yamaha_FS800_Fretline_Resend/yamaha-fs800.json",
+          "bytes": 4448,
+          "sha256": "365610f4011be8601ba12c01b91c46c163ee6358e8ee54ebe9c0b533d0a18a41"
+        },
+        {
+          "path": "3-Yamaha_FS800_Fretline_Resend/README_TH.md",
+          "bytes": 1226,
+          "sha256": "312c271982d7646558bbf6aac33784530e52fbbd784ba9c07a85156d1a680c46"
+        },
+        {
+          "path": "3-Yamaha_FS800_Fretline_Resend/images/yamaha-fs800-three-colors.jpg",
+          "bytes": 369063,
+          "sha256": "f260e88a86eb21af999de814b96128c56b1af7728268bf3c89b76161a1fd170c"
+        }
+      ]
+    },
+    {
+      "archive": "4-Fretline_Yamaha_FGX820C_02_Codex_Ready.zip",
+      "sha256": "144209e71dad8939731647ff38693c31fb3f5383dd8d4def1bf9a7fe1eacbddf",
+      "files": [
+        {
+          "path": "4-Fretline_Yamaha_FGX820C_02_Codex_Ready/yamaha-fgx820c-02.json",
+          "bytes": 3348,
+          "sha256": "46c37f96431fcb4428198f03810945734681596098bf6b546a14edfc4e8ddd3f"
+        },
+        {
+          "path": "4-Fretline_Yamaha_FGX820C_02_Codex_Ready/CODEX_INSTRUCTIONS_TH.md",
+          "bytes": 2193,
+          "sha256": "21fcdd50d72be3fcee6a7e788a0a17db7cce948b2fb8504f22baecc86e9349aa"
+        },
+        {
+          "path": "4-Fretline_Yamaha_FGX820C_02_Codex_Ready/README_TH.md",
+          "bytes": 816,
+          "sha256": "8fd5debb7c61ffb7010ff472298f5e3d0f130b5d032a039183aedc44e2732b85"
+        },
+        {
+          "path": "4-Fretline_Yamaha_FGX820C_02_Codex_Ready/images/yamaha-fgx820c-02.png",
+          "bytes": 1183322,
+          "sha256": "873932136d7aa96ad5674a094047460530f97beaf13ebd2c22c3ad6027c7da51"
+        }
+      ]
+    },
+    {
+      "archive": "5-Fretline_Yamaha_FG800M_Codex_Ready.zip",
+      "sha256": "e030aa3413c3d6f10b4994d9ececbd3168b5cf5f34131b94f4efd0a8cd22d81b",
+      "files": [
+        {
+          "path": "5-Fretline_Yamaha_FG800M_Codex_Ready/yamaha-fg800m.json",
+          "bytes": 3814,
+          "sha256": "8e2213978d368d8f623e498d124640f4386469b01b28e078987dd9ad89023036"
+        },
+        {
+          "path": "5-Fretline_Yamaha_FG800M_Codex_Ready/CODEX_INSTRUCTIONS_TH.md",
+          "bytes": 3153,
+          "sha256": "16ddd586d584a505ff9c1240f4dd2bbd36d085ddfcfabceceed78aca28482e94"
+        },
+        {
+          "path": "5-Fretline_Yamaha_FG800M_Codex_Ready/README_TH.md",
+          "bytes": 1109,
+          "sha256": "62d5c32c5b444f943180bcf595ef1547e6b16d09541bb8f9101480bcbc0a87fe"
+        },
+        {
+          "path": "5-Fretline_Yamaha_FG800M_Codex_Ready/images/yamaha-fg800m-natural-black-background.png",
+          "bytes": 761638,
+          "sha256": "4a2817e69621f694e6bf63febfada88686ac410c57fb3727ab9afa1271cf44b6"
+        }
+      ]
+    },
+    {
+      "archive": "6-Fretline_Yamaha_FG820L_Codex_Ready.zip",
+      "sha256": "3bbe42c4356b2b72b5bcc68e6aa059f10f08116bbb7f71af98a213da0d1ef4c5",
+      "files": [
+        {
+          "path": "6-Fretline_Yamaha_FG820L_Codex_Ready/Fretline_Yamaha_FG820L/CODEX_INSTRUCTIONS_TH.md",
+          "bytes": 3952,
+          "sha256": "741253f927bd5ef3f59c0444f37dc4b815599d80f7e68f2151ba89d64b90305d"
+        },
+        {
+          "path": "6-Fretline_Yamaha_FG820L_Codex_Ready/Fretline_Yamaha_FG820L/yamaha-fg820l.json",
+          "bytes": 3996,
+          "sha256": "faa59321c0a80a37cc02bd4cd331ad2d4037978a675234fff65bc2556686ae1c"
+        },
+        {
+          "path": "6-Fretline_Yamaha_FG820L_Codex_Ready/Fretline_Yamaha_FG820L/README_TH.md",
+          "bytes": 521,
+          "sha256": "b86918733281a79a22d9bfabe9173f0d4160e995c3d00b3ad437cd94e27da0be"
+        },
+        {
+          "path": "6-Fretline_Yamaha_FG820L_Codex_Ready/Fretline_Yamaha_FG820L/images/yamaha-fg820l-natural-black-background.png",
+          "bytes": 803151,
+          "sha256": "2fa667f07be7aec619b85b380a7fceef476f7a7434e9f89ffa6390028f869341"
+        }
+      ]
+    },
+    {
+      "archive": "7-Fretline_Yamaha_FS830_Codex_Ready.zip",
+      "sha256": "2dba39bb92d3911b50a2658ca1976740c7c0bed874d3810bd7dffc3d9e16f99d",
+      "files": [
+        {
+          "path": "7-Fretline_Yamaha_FS830_Codex_Ready/CODEX_INSTRUCTIONS_TH.md",
+          "bytes": 2780,
+          "sha256": "37a8a79e5629b8984fee6528a711a1eb3bec7b920acd0d9423471ca2f30b436a"
+        },
+        {
+          "path": "7-Fretline_Yamaha_FS830_Codex_Ready/README_TH.md",
+          "bytes": 1031,
+          "sha256": "fcb00be8c7cba343569e35ac38f5f395f9be5777f4fdd439c22b964d57ccf5cd"
+        },
+        {
+          "path": "7-Fretline_Yamaha_FS830_Codex_Ready/yamaha-fs830.json",
+          "bytes": 4852,
+          "sha256": "d19023ada751210a023d375194f2a40516599d5673c6d9dff36854ba8465518b"
+        },
+        {
+          "path": "7-Fretline_Yamaha_FS830_Codex_Ready/images/yamaha-fs830-three-colors.png",
+          "bytes": 542859,
+          "sha256": "9727d67e21cc518f8b35a2ffaea0b06dafe789e54e73c816ca35b020501c8a1c"
+        }
+      ]
+    },
+    {
+      "archive": "8-fretline-yamaha-fg820-codex-ready.zip",
+      "sha256": "4bfffc84b3bd02c8bf6872a7826f421640c3d764df8e279483c5ff3990a6d555",
+      "files": [
+        {
+          "path": "8-fretline-yamaha-fg820-codex-ready/yamaha-fg820.json",
+          "bytes": 4289,
+          "sha256": "caa70f6b0fa54477b9232fd635b20a0cc57e982089179a8ed2f80a4bcc550422"
+        },
+        {
+          "path": "8-fretline-yamaha-fg820-codex-ready/CODEX_INSTRUCTIONS_TH.md",
+          "bytes": 3417,
+          "sha256": "4ec4a7e60a5383e899012f52010bc51bd955984882d21c0c83375dfa75b2e458"
+        },
+        {
+          "path": "8-fretline-yamaha-fg820-codex-ready/README.txt",
+          "bytes": 161,
+          "sha256": "8fa07e175dee6cc0f1867602a4dc5386a6be46e2d4ce4eaf8c51f52d9e6d33ce"
+        },
+        {
+          "path": "8-fretline-yamaha-fg820-codex-ready/images/yamaha-fg820-five-colors-black.jpg",
+          "bytes": 357550,
+          "sha256": "2a7df2e63d143d820bc370a79fc1858ee755634ab914af2c007a26b372beda59"
+        }
+      ]
+    },
+    {
+      "archive": "9-Fretline_Yamaha_FGX800C_Codex_Ready.zip",
+      "sha256": "15c4fcf09866b21a2e06c5f77d40f62612a60640a91d3218621f74f69a2411bb",
+      "files": [
+        {
+          "path": "9-Fretline_Yamaha_FGX800C_Codex_Ready/yamaha-fgx800c.json",
+          "bytes": 4929,
+          "sha256": "6e06d3cdb07c8a9373d99f66ee43910e08c45dd3b5d15fd1e45232764bcf53e6"
+        },
+        {
+          "path": "9-Fretline_Yamaha_FGX800C_Codex_Ready/CODEX_INSTRUCTIONS_TH.md",
+          "bytes": 2703,
+          "sha256": "01f44c4be80783a5b5c9275f89fec77cbd331c7644b1082823880fd6205fc79b"
+        },
+        {
+          "path": "9-Fretline_Yamaha_FGX800C_Codex_Ready/README_TH.md",
+          "bytes": 979,
+          "sha256": "e6c931a89e6f57b5f299412aa9ffe9b82327a10d89c34f062ac3bf139baa4d12"
+        },
+        {
+          "path": "9-Fretline_Yamaha_FGX800C_Codex_Ready/images/yamaha-fgx800c-three-colors.jpg",
+          "bytes": 347000,
+          "sha256": "81740bb10106560af9b676d0f8c1265683a8e05ac07b3245d90453387b8b7be9"
+        }
+      ]
+    },
+    {
+      "archive": "10-fretline-yamaha-fg840-codex-ready.zip",
+      "sha256": "a44395d2f139e1b1427fbbfb62de8f09c177e8539d165f1fc86fa8aaff4f92a1",
+      "files": [
+        {
+          "path": "10-fretline-yamaha-fg840-codex-ready/CODEX-INSTRUCTIONS-TH.txt",
+          "bytes": 2573,
+          "sha256": "01a9a71f55275e10dad99c5d92c643864477d840f184c51d847f90485db8faf6"
+        },
+        {
+          "path": "10-fretline-yamaha-fg840-codex-ready/description-th.txt",
+          "bytes": 1974,
+          "sha256": "bd08bbed92def122a9b92ccb4410d2979beb90d146e68099d3fc1aade8013275"
+        },
+        {
+          "path": "10-fretline-yamaha-fg840-codex-ready/product-data.json",
+          "bytes": 2369,
+          "sha256": "a19bf952ef6018609c5a8ea0a5c46782ee4214800984117799bba7f66ca5182f"
+        },
+        {
+          "path": "10-fretline-yamaha-fg840-codex-ready/yamaha-fg840-natural-black-background.webp",
+          "bytes": 123386,
+          "sha256": "f5dc1522c0bf6b0352864221bb3a5c8924c2de845941c13a065b971387e45a91"
+        }
+      ]
+    },
+    {
+      "archive": "11-fretline-yamaha-fg850-codex-ready.zip",
+      "sha256": "f7bec9dcf993f406b892476ebf4a28c4b5a854c3d70b940aa67a40410c84e671",
+      "files": [
+        {
+          "path": "11-fretline-yamaha-fg850-codex-ready/description-th.txt",
+          "bytes": 2484,
+          "sha256": "36d4d3d7f8cde8ee43cd16b3f4e00e82a77c497909d281c80becf5812b3b0ddd"
+        },
+        {
+          "path": "11-fretline-yamaha-fg850-codex-ready/yamaha-fg850-mahogany-black.webp",
+          "bytes": 80840,
+          "sha256": "a666ad8787d43d1b0c0267888ebc4c263a598e07be49029e36310192fd79bb87"
+        },
+        {
+          "path": "11-fretline-yamaha-fg850-codex-ready/product-data.json",
+          "bytes": 1898,
+          "sha256": "501c5ac5eb46732807b6102936acb5da742fa2414f7be7c3c2236f0bfc62f6c6"
+        }
+      ]
+    },
+    {
+      "archive": "12-Fretline_Yamaha_FG800J_Codex_Ready.zip",
+      "sha256": "adfdac076e0a4516838f20ded463245f50b1280b8c535617ed2d9a9b97eb303a",
+      "files": [
+        {
+          "path": "12-Fretline_Yamaha_FG800J_Codex_Ready/FG800J_package/yamaha-fg800j.json",
+          "bytes": 3955,
+          "sha256": "bc2eb0614fa478efe18f4975421e007e916cc246e86ec6225db450a6a2111113"
+        },
+        {
+          "path": "12-Fretline_Yamaha_FG800J_Codex_Ready/FG800J_package/CODEX_INSTRUCTIONS_TH.md",
+          "bytes": 1959,
+          "sha256": "18d81a54659a24af23477d4da44be4351d5fe54513161ba3dc345d771ed19ae1"
+        },
+        {
+          "path": "12-Fretline_Yamaha_FG800J_Codex_Ready/FG800J_package/README_TH.md",
+          "bytes": 433,
+          "sha256": "ac8d411446c2865f04579b41e040021c555397450f4c496e17b7cc14b53c73bc"
+        },
+        {
+          "path": "12-Fretline_Yamaha_FG800J_Codex_Ready/FG800J_package/images/yamaha-fg800j-natural.jpg",
+          "bytes": 138734,
+          "sha256": "b0d4add141aa0567467bf5205fa2b5bb67fe68589bb58e673c5b033b857785be"
+        }
+      ]
+    },
+    {
+      "archive": "13-Yamaha_FG820-12_Fretline_Complete.zip",
+      "sha256": "afda20d818cceea3a4df5b18dafdfc95b47a93d3aa6906ac24d44ad236fc24e7",
+      "files": [
+        {
+          "path": "13-Yamaha_FG820-12_Fretline_Complete/yamaha-fg820-12-natural.png",
+          "bytes": 687803,
+          "sha256": "26e43d1abb550ceb7cefc17c02d93a32f8b8c53e54bd7847d1d5834f8724960a"
+        },
+        {
+          "path": "13-Yamaha_FG820-12_Fretline_Complete/product.json",
+          "bytes": 3877,
+          "sha256": "e60ba6343d0db8b29c7fb44622046b2816bcc8960cf7559374b9a6a9025b4a5c"
+        },
+        {
+          "path": "13-Yamaha_FG820-12_Fretline_Complete/CODEX_PROMPT_TH.txt",
+          "bytes": 2921,
+          "sha256": "f93f85b854ec7017b41f1129c48ef2b4011c8ae7dba2fcb62db1526df71f1a68"
+        },
+        {
+          "path": "13-Yamaha_FG820-12_Fretline_Complete/README_TH.md",
+          "bytes": 3611,
+          "sha256": "325b51fc101b0055e94e7289cc8d3d7cda2370659a6dce4d2a9f3ddfe2c77e08"
+        }
+      ]
+    },
+    {
+      "archive": "14-Fretline_Yamaha_FS850_Codex_Ready.zip",
+      "sha256": "6d929aa9be24389094c8cc70c920ddde077f3488e8a36cdb0e75e500e587df3f",
+      "files": [
+        {
+          "path": "14-Fretline_Yamaha_FS850_Codex_Ready/yamaha-fs850/CODEX_INSTRUCTIONS_TH.md",
+          "bytes": 2691,
+          "sha256": "57413376aa0e15bad00bde8c41a4984c31fd9f67ab086e274618e7bb80d66785"
+        },
+        {
+          "path": "14-Fretline_Yamaha_FS850_Codex_Ready/yamaha-fs850/yamaha-fs850.json",
+          "bytes": 3890,
+          "sha256": "c9a3c0f1cb6b7b2370bf205bfbeb99019b0a482a093cf0ee81b90076e4b3c9aa"
+        },
+        {
+          "path": "14-Fretline_Yamaha_FS850_Codex_Ready/yamaha-fs850/README_TH.md",
+          "bytes": 535,
+          "sha256": "74ef19f929493614d7e3237c919d2127f10a9a19ea17f2933d824272d9cbec43"
+        },
+        {
+          "path": "14-Fretline_Yamaha_FS850_Codex_Ready/yamaha-fs850/images/yamaha-fs850-black-background.png",
+          "bytes": 894864,
+          "sha256": "de3807e2f9593ec5b2ad82ae761efa8fab954a49cd3afe556eb45d65b783863e"
+        }
+      ]
+    },
+    {
+      "archive": "15-fretline-yamaha-fg830-codex-ready.zip",
+      "sha256": "083409b90a16e1fdae1b26b175681496006f81147c5257980108c5f568e078dc",
+      "files": [
+        {
+          "path": "15-fretline-yamaha-fg830-codex-ready/fg830_package/CODEX_INSTRUCTIONS_TH.md",
+          "bytes": 4087,
+          "sha256": "a4c26581ea384b104ec92eec9968aa8ce608bc727e98e23763fe151d06369a96"
+        },
+        {
+          "path": "15-fretline-yamaha-fg830-codex-ready/fg830_package/yamaha-fg830.json",
+          "bytes": 2790,
+          "sha256": "9207a3a88fdfc34cfc96f8899716f1c18ac53d9c1072843b89cdad55afe4467f"
+        },
+        {
+          "path": "15-fretline-yamaha-fg830-codex-ready/fg830_package/images/yamaha-fg830-three-colors.jpg",
+          "bytes": 313258,
+          "sha256": "84d2c59b7121975be18b17a758137d241354e9905d9daf28aedcfb0a2f2d00e5"
+        }
+      ]
+    },
+    {
+      "archive": "16-FSX820C_Fretline_REDOWNLOAD_20261025.zip",
+      "sha256": "fa0405035def2aaa4167487495aaf38951cacee7d476f4a795016abff75043f4",
+      "files": [
+        {
+          "path": "16-FSX820C_Fretline_REDOWNLOAD_20261025/yamaha-fsx820c.json",
+          "bytes": 3544,
+          "sha256": "e758cb9754b1d9afd96566d94cb55ec6d835d3aaecee54b97595f694c91c6c12"
+        },
+        {
+          "path": "16-FSX820C_Fretline_REDOWNLOAD_20261025/CODEX_INSTRUCTIONS_TH.md",
+          "bytes": 2478,
+          "sha256": "fd0f0399747aa67e0d5141467d931889158f05a3863ae36c9345c33874575142"
+        },
+        {
+          "path": "16-FSX820C_Fretline_REDOWNLOAD_20261025/README_TH.md",
+          "bytes": 1030,
+          "sha256": "579beafce0cf4b070f291f4707c99698824d2443b887def62dee1f67967ac7b7"
+        },
+        {
+          "path": "16-FSX820C_Fretline_REDOWNLOAD_20261025/images/yamaha-fsx820c-two-colors.jpg",
+          "bytes": 297658,
+          "sha256": "b8b7535cb02d9eecd5656a6561bf671965149c289daf3205e11d6bfe9e717410"
+        }
+      ]
+    },
+    {
+      "archive": "17-Fretline_Yamaha_FS820_Codex_Ready.zip",
+      "sha256": "18841c5e569a82af89303e65b30ea534f0370a28b9d6008ffc1c021a59dbad76",
+      "files": [
+        {
+          "path": "17-Fretline_Yamaha_FS820_Codex_Ready/yamaha-fs820.json",
+          "bytes": 5451,
+          "sha256": "08b3721dda714db30dd828d9d7ad0c6b15a32c350161bbd881de839e285f9a14"
+        },
+        {
+          "path": "17-Fretline_Yamaha_FS820_Codex_Ready/CODEX_INSTRUCTIONS_TH.md",
+          "bytes": 2947,
+          "sha256": "fa37a79deadf05e146dfc9cec8b776705cfd63580dc15de5feb778476d8f6b77"
+        },
+        {
+          "path": "17-Fretline_Yamaha_FS820_Codex_Ready/README_TH.md",
+          "bytes": 1325,
+          "sha256": "afabd3225d05f5e2a3e1dfc471cad0da11357dcb0963a544acea0bedd1dd9d2c"
+        },
+        {
+          "path": "17-Fretline_Yamaha_FS820_Codex_Ready/images/yamaha-fs820-four-colors.jpg",
+          "bytes": 485075,
+          "sha256": "d2ddcff70245680456b65591f2de90c373293a13f42412fdafad83285bf24a99"
+        }
+      ]
+    },
+    {
+      "archive": "18-fretline-fg800-new-3-images.zip",
+      "sha256": "95900c38a06d8f77306d2c3d6b8100d52f7eab3b6d78abe0e510f14adca7d26e",
+      "files": [
+        {
+          "path": "18-fretline-fg800-new-3-images/images/yamaha-fg800-natural.webp",
+          "bytes": 134412,
+          "sha256": "d571b5ecc4a2a84e387f53b8f0e0bf23a5c3f9c5b6098b56a7b283777f7dab54"
+        },
+        {
+          "path": "18-fretline-fg800-new-3-images/images/yamaha-fg800-black.webp",
+          "bytes": 52698,
+          "sha256": "60af5dd3588bacbebe338ae6f9eddae15bb50c617bc94f389262971257c9dbd4"
+        },
+        {
+          "path": "18-fretline-fg800-new-3-images/images/yamaha-fg800-sunburst.webp",
+          "bytes": 121176,
+          "sha256": "18dab689cd4bcb7fa72da89493fc87eaf20e5aa29cae654f73d1dd1c04fa189e"
+        },
+        {
+          "path": "18-fretline-fg800-new-3-images/description-th.txt",
+          "bytes": 1964,
+          "sha256": "deb48702c175d07d58ff40cbd4e5f80053e71f75ac9978d1cad6953e0a0f5818"
+        },
+        {
+          "path": "18-fretline-fg800-new-3-images/image-manifest.json",
+          "bytes": 487,
+          "sha256": "3f6d0050cc2d3a245d530085c65dba8b17c42f0b15bfb6b0c6ed85551b8f8b74"
+        }
+      ]
+    }
+  ]
+}

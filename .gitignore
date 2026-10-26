@@ -7,3 +7,6 @@ dist/
 __pycache__/
 *.py[cod]
 .local-preview/
+
+# Extracted Yamaha attachments; curated evidence/preview copies are under docs.
+.yamaha-intake/

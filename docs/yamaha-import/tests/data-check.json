@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "exactly 18 accessible archives/models and 20 source images; no invented nineteenth file",
+      "passed": true
+    },
+    {
+      "name": "catalog remains 200 unique stable IDs, 10 brands, 20 per brand",
+      "passed": true
+    },
+    {
+      "name": "every imported record meets the original catalog validator and retains honest partial status",
+      "passed": true
+    },
+    {
+      "name": "all 18 exact model columns match all 30 retained Yamaha specification fields",
+      "passed": true
+    },
+    {
+      "name": "model distinctions stay correct: FG/FS scales, 12 strings, left-handed model and Matt finish",
+      "passed": true
+    },
+    {
+      "name": "17 observed retailer prices are THB, date/source backed; FG800J stays unconfirmed",
+      "passed": true
+    },
+    {
+      "name": "additional source URLs are unique without losing their supported-field lists",
+      "passed": true
+    },
+    {
+      "name": "retained original HTTP evidence hashes match the bodies used for price/specification review",
+      "passed": true
+    },
+    {
+      "name": "every original non-image attachment remains available byte-for-byte as unverified provenance",
+      "passed": true
+    },
+    {
+      "name": "new verified specification keys have shared Detail/Compare definitions and both translations",
+      "passed": true
+    },
+    {
+      "name": "production build contains no newly supplied image bytes or development preview asset routes",
+      "passed": true
+    }
+  ],
+  "count": 11,
+  "importedIds": [
+    "yamaha-fsx830c",
+    "yamaha-fsx800c",
+    "yamaha-fs800",
+    "yamaha-fgx820c",
+    "yamaha-fg800m",
+    "yamaha-fg820l",
+    "yamaha-fs830",
+    "yamaha-fg820",
+    "yamaha-fgx800c",
+    "yamaha-fg840",
+    "yamaha-fg850",
+    "yamaha-fg800j",
+    "yamaha-fg820-12",
+    "yamaha-fs850",
+    "yamaha-fg830",
+    "yamaha-fsx820c",
+    "yamaha-fs820",
+    "yamaha-fg800"
+  ],
+  "observedPricesTHB": {
+    "yamaha-fsx830c": 24000,
+    "yamaha-fsx800c": 15500,
+    "yamaha-fs800": 12400,
+    "yamaha-fgx820c": 20500,
+    "yamaha-fg800m": 12400,
+    "yamaha-fg820l": 18200,
+    "yamaha-fs830": 17500,
+    "yamaha-fg820": 15400,
+    "yamaha-fgx800c": 15500,
+    "yamaha-fg840": 19200,
+    "yamaha-fg850": 19700,
+    "yamaha-fg800j": null,
+    "yamaha-fg820-12": 16500,
+    "yamaha-fs850": 19700,
+    "yamaha-fg830": 17500,
+    "yamaha-fsx820c": 20500,
+    "yamaha-fs820": 15400,
+    "yamaha-fg800": 12400
+  },
+  "sourceSha256": "2cd055173b494fe23c60b71dda66f7eda2dbc04141d49da73d6ace506ea8463c"
+}

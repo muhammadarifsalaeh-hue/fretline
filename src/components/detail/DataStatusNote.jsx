@@ -21,6 +21,7 @@ export default function DataStatusNote({ guitar }) {
   else text = t('note.sample');
   return <div className="data-status-note mb-8 text-sm text-mute">
     <p>{text}</p>
+    {guitar.intake?.batch === 'yamaha-2026-10-26' && <p className="mt-2">{t('import.pending')}</p>}
     {source?.fields && <details className="source-scope">
       <summary>{t('p6.sources.details')}</summary>
       <p>{t(`p6.sources.method.${source.method}`)}</p>

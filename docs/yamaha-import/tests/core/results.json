@@ -1,0 +1,131 @@
+[
+  {
+    "command": [
+      "npm",
+      "run",
+      "catalog:check"
+    ],
+    "exitCode": 0,
+    "seconds": 0.39,
+    "log": "docs/yamaha-import/tests/core/catalog-check.txt",
+    "finalDataRevision": true
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "images:check"
+    ],
+    "exitCode": 0,
+    "seconds": 0.44,
+    "log": "docs/yamaha-import/tests/core/images-check.txt",
+    "finalDataRevision": true
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "practice:check"
+    ],
+    "exitCode": 0,
+    "seconds": 0.49,
+    "log": "docs/yamaha-import/tests/core/practice-check.txt",
+    "finalDataRevision": true
+  },
+  {
+    "command": [
+      "node",
+      "scripts/check-hand-runtime.mjs"
+    ],
+    "exitCode": 0,
+    "seconds": 0.2,
+    "log": "docs/yamaha-import/tests/core/check-hand-runtime.txt",
+    "finalDataRevision": true
+  },
+  {
+    "command": [
+      "node",
+      "scripts/check-yamaha-preview.mjs"
+    ],
+    "exitCode": 0,
+    "seconds": 0.65,
+    "log": "docs/yamaha-import/tests/core/check-yamaha-preview.txt",
+    "finalDataRevision": true
+  },
+  {
+    "command": [
+      "node",
+      "scripts/check-yamaha-import.mjs"
+    ],
+    "exitCode": 0,
+    "seconds": 0.36,
+    "log": "docs/yamaha-import/tests/core/check-yamaha-import.txt",
+    "finalDataRevision": true
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "phase4:check"
+    ],
+    "exitCode": 0,
+    "seconds": 1.27,
+    "log": "docs/yamaha-import/tests/core/phase4-check.txt",
+    "networkEnabledExecutor": true
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "phase5:check"
+    ],
+    "exitCode": 1,
+    "seconds": 1.31,
+    "log": "docs/yamaha-import/tests/core/phase5-check.txt",
+    "networkEnabledExecutor": true
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "phase6:check"
+    ],
+    "exitCode": 1,
+    "seconds": 1.32,
+    "log": "docs/yamaha-import/tests/core/phase6-check.txt",
+    "networkEnabledExecutor": true
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "phase7:check"
+    ],
+    "exitCode": 1,
+    "seconds": 1.31,
+    "log": "docs/yamaha-import/tests/core/phase7-check.txt",
+    "networkEnabledExecutor": true
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "phase8:check"
+    ],
+    "exitCode": 1,
+    "seconds": 0.27,
+    "log": "docs/yamaha-import/tests/core/phase8-check.txt",
+    "networkEnabledExecutor": true
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "phase9:check"
+    ],
+    "exitCode": 1,
+    "seconds": 0.86,
+    "log": "docs/yamaha-import/tests/core/phase9-check.txt",
+    "networkEnabledExecutor": true
+  }
+]

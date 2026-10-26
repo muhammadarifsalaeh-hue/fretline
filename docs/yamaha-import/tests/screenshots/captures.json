@@ -1,0 +1,92 @@
+{
+  "physicalIPadSafariTested": false,
+  "captures": [
+    {
+      "file": "chromium-desktop-catalog-1.png",
+      "url": "http://127.0.0.1:5435/guitars?brand=Yamaha",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "chromium-desktop-catalog-2.png",
+      "url": "http://127.0.0.1:5435/guitars?brand=Yamaha&page=2",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "chromium-desktop-catalog-3.png",
+      "url": "http://127.0.0.1:5435/guitars?brand=Yamaha&page=3",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "chromium-desktop-fsx830c.png",
+      "url": "http://127.0.0.1:5435/guitars/yamaha-fsx830c",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "chromium-desktop-fg800-natural.png",
+      "url": "http://127.0.0.1:5435/guitars/yamaha-fg800",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "chromium-desktop-fg800-black.png",
+      "url": "http://127.0.0.1:5435/guitars/yamaha-fg800",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "chromium-desktop-fg800-sunburst.png",
+      "url": "http://127.0.0.1:5435/guitars/yamaha-fg800",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "chromium-desktop-fg820-12-licensed-primary.png",
+      "url": "http://127.0.0.1:5435/guitars/yamaha-fg820-12",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "chromium-desktop-fg820-12-uploaded-preview.png",
+      "url": "http://127.0.0.1:5435/guitars/yamaha-fg820-12",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "chromium-desktop-fsx830c-specifications.png",
+      "url": "http://127.0.0.1:5435/guitars/yamaha-fsx830c",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "webkit-tablet-catalog-1.png",
+      "url": "http://127.0.0.1:5435/guitars?brand=Yamaha",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "file": "webkit-tablet-fsx830c.png",
+      "url": "http://127.0.0.1:5435/guitars/yamaha-fsx830c",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "file": "webkit-mobile-catalog-1.png",
+      "url": "http://127.0.0.1:5435/guitars?brand=Yamaha",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "file": "webkit-mobile-fsx830c.png",
+      "url": "http://127.0.0.1:5435/guitars/yamaha-fsx830c",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "errors": [],
+  "method": "Scroll actual native lazy images into view; wait for original decode and opacity=1, then return to top. No DOM alteration or compositing.",
+  "passed": true
+}

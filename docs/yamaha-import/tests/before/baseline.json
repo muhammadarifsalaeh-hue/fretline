@@ -1,0 +1,17 @@
+{
+  "url": "http://127.0.0.1:5432",
+  "commit": "decd5544ade430530ac7c1e37ae463f251c90d50",
+  "screenshots": [
+    "yamaha-catalog-desktop.png",
+    "fsx830c-detail-desktop.png",
+    "yamaha-catalog-tablet.png",
+    "fsx830c-detail-tablet.png",
+    "yamaha-catalog-mobile.png",
+    "fsx830c-detail-mobile.png"
+  ],
+  "errors": [],
+  "buildSHA256": {
+    "index-b0dTT6Cf.js": "0a0d9f1e6846b59b04aa864684b735d162321a92b1d001c4448c53b08bf1d741"
+  },
+  "catalogRoute": "/guitars?brand=Yamaha"
+}

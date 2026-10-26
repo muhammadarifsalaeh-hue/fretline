@@ -29,7 +29,7 @@ export default function CompareVerdicts({ guitars }) {
   return (
     <ul className="mb-10 grid gap-3 sm:grid-cols-3">
       {items.map((item) => (
-        <li key={item.label}>
+        <li key={item.label} className="min-w-0">
           <AppLink
             href={guitarUrl(item.guitar.slug)}
             className="group flex items-center gap-4 rounded-2xl border border-line bg-surface p-3 pr-5 transition duration-300 hover:border-gold/60"
