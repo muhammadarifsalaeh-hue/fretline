@@ -1,0 +1,304 @@
+{
+  "chordId": "D",
+  "root": {
+    "positionMm": [
+      17.425375836482523,
+      -55.90082769320184,
+      -126.72721372217619
+    ],
+    "quaternion": [
+      -0.4046603115465916,
+      0.09048235175600142,
+      0.5339005703723577,
+      0.7368942646240298
+    ]
+  },
+  "bones": {
+    "finger2-3.L": {
+      "quaternion": [
+        0.008820338259926811,
+        -3.0012309465845556e-06,
+        -0.021385885508620056,
+        0.9997323869541216
+      ]
+    },
+    "finger2-2.L": {
+      "quaternion": [
+        0.1308153647997815,
+        -0.007127181979593187,
+        -0.36485148846808346,
+        0.9218025466291324
+      ]
+    },
+    "finger2-1.L": {
+      "quaternion": [
+        -0.08301128572451423,
+        -0.025574661037067816,
+        -0.33987899094029556,
+        0.9364493230669818
+      ]
+    },
+    "metacarpal1.L": {
+      "quaternion": [
+        0.26369509100914,
+        0.8013477921485901,
+        0.16547928750514984,
+        0.5108065605163574
+      ]
+    },
+    "finger3-3.L": {
+      "quaternion": [
+        0.10378258330602186,
+        -0.006775046950126363,
+        -0.5038930007359921,
+        0.8574818470092703
+      ]
+    },
+    "finger3-2.L": {
+      "quaternion": [
+        0.1291402691840127,
+        0.012695559606134704,
+        -0.4845627637811496,
+        0.8650783441967217
+      ]
+    },
+    "finger3-1.L": {
+      "quaternion": [
+        0.10620481081410488,
+        -0.0017728988026678165,
+        -0.09225810540305848,
+        0.9900534515758298
+      ]
+    },
+    "metacarpal2.L": {
+      "quaternion": [
+        0.14579230546951294,
+        0.7410261631011963,
+        0.24987778067588806,
+        0.6059587001800537
+      ]
+    },
+    "finger4-3.L": {
+      "quaternion": [
+        -0.021073700916655565,
+        -0.001833396624484679,
+        -0.06632363241815092,
+        0.9975739138376438
+      ]
+    },
+    "finger4-2.L": {
+      "quaternion": [
+        0.048004663896703305,
+        0.005177290210462191,
+        -0.2273639738933853,
+        0.9726121381545931
+      ]
+    },
+    "finger4-1.L": {
+      "quaternion": [
+        0.07137108822817496,
+        -0.021443439238074367,
+        -0.34897288027774814,
+        0.9341650151388787
+      ]
+    },
+    "metacarpal3.L": {
+      "quaternion": [
+        0.18751247227191925,
+        0.7086350321769714,
+        0.26907727122306824,
+        0.6247183084487915
+      ]
+    },
+    "finger5-3.L": {
+      "quaternion": [
+        -0.02320751633528777,
+        -0.0006653636895517501,
+        -0.05350122275880694,
+        0.9982978451544512
+      ]
+    },
+    "finger5-2.L": {
+      "quaternion": [
+        -0.030923401394586433,
+        -0.0017621847627795801,
+        -0.19573285775567695,
+        0.9801679888395902
+      ]
+    },
+    "finger5-1.L": {
+      "quaternion": [
+        -0.019863474921136836,
+        -0.013343186919404454,
+        -0.22584602017342154,
+        0.9738690758509163
+      ]
+    },
+    "metacarpal4.L": {
+      "quaternion": [
+        0.09769730269908905,
+        0.5953862071037292,
+        0.37211430072784424,
+        0.7053378820419312
+      ]
+    },
+    "finger1-3.L": {
+      "quaternion": [
+        -0.03580077026374183,
+        0.0010762509418060571,
+        -0.021378154352874847,
+        0.9991296817975621
+      ]
+    },
+    "finger1-2.L": {
+      "quaternion": [
+        -0.056569950634299294,
+        0.0012183757234835038,
+        -0.09655541530538188,
+        0.99371797207308
+      ]
+    },
+    "finger1-1.L": {
+      "quaternion": [
+        0.2765313517104669,
+        0.9399734816016653,
+        -0.12546625827165325,
+        -0.1556871331939057
+      ]
+    },
+    "wrist.L": {
+      "quaternion": [
+        -0.32130396366119385,
+        0.05413259193301201,
+        -0.04062996432185173,
+        0.9445542097091675
+      ]
+    },
+    "lowerarm02.L": {
+      "quaternion": [
+        -4.284083843231201e-08,
+        5.587935447692871e-09,
+        8.195638656616211e-08,
+        1.0
+      ]
+    },
+    "lowerarm01.L": {
+      "quaternion": [
+        0.5505050420761108,
+        0.5182414054870605,
+        0.6534645557403564,
+        0.03679876774549484
+      ]
+    }
+  },
+  "targets": [
+    {
+      "finger": "index",
+      "string": 3,
+      "fret": 2,
+      "positionMm": [
+        66.69763064506014,
+        1.4737064773033206,
+        -3.6749783520009296
+      ]
+    },
+    {
+      "finger": "middle",
+      "string": 1,
+      "fret": 2,
+      "positionMm": [
+        66.69763064506014,
+        0.800661932583019,
+        -18.374891760004648
+      ]
+    },
+    {
+      "finger": "ring",
+      "string": 2,
+      "fret": 3,
+      "positionMm": [
+        99.099122915593,
+        1.181232571675462,
+        -11.279946800724575
+      ]
+    }
+  ],
+  "audit": {
+    "collisionPassed": false,
+    "contactPassed": false,
+    "anatomyPassed": false,
+    "multiViewReviewed": false
+  },
+  "reviewed": false,
+  "status": "needs-review",
+  "reason": {
+    "en": "Bounded real-skin IK candidate; exact collision/contact and independent anatomy review pending.",
+    "th": "\u0e15\u0e49\u0e19\u0e41\u0e1a\u0e1a IK \u0e1a\u0e19\u0e1c\u0e34\u0e27\u0e21\u0e37\u0e2d\u0e08\u0e23\u0e34\u0e07 \u0e22\u0e31\u0e07\u0e23\u0e2d\u0e01\u0e32\u0e23\u0e15\u0e23\u0e27\u0e08\u0e40\u0e21\u0e0a\u0e41\u0e25\u0e30\u0e17\u0e48\u0e32\u0e08\u0e31\u0e1a\u0e2b\u0e25\u0e32\u0e22\u0e21\u0e38\u0e21"
+  },
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "rigSignature": "finger1-1.L|finger1-2.L|finger1-3.L|finger2-1.L|finger2-2.L|finger2-3.L|finger3-1.L|finger3-2.L|finger3-3.L|finger4-1.L|finger4-2.L|finger4-3.L|finger5-1.L|finger5-2.L|finger5-3.L|lowerarm01.L|lowerarm02.L|metacarpal1.L|metacarpal2.L|metacarpal3.L|metacarpal4.L|wrist.L",
+  "palmarNormalSource": [
+    -0.819485192590992,
+    -0.563421344130725,
+    -0.10488283034907073
+  ],
+  "authoringSource": {
+    "file": "docs/practice-hand-batch-3/D/bounded-signed-3.json",
+    "sha256": "ba43cc1dd72a1f623b1e8a90b86fd21e714149b7a5f6a3480a05fec49f78e995",
+    "method": "One bounded3degree/dof refinement of actual assigned-owner palmar triangles; every runtime string participates; exact acceptance unchanged",
+    "script": "scripts/practice/batches/d-owned-contact-refine.py",
+    "records": [
+      {
+        "finger": "index",
+        "string": 3,
+        "fret": 2,
+        "ownedPalmarClearanceBeforeMm": -0.23,
+        "ownedPalmarClearanceAfterMm": -0.23,
+        "deltaDegrees": [
+          -0.498078775787116,
+          0.11196631050194956,
+          0.20699295491238576,
+          0.19335610138040796
+        ],
+        "evaluations": [
+          22,
+          9
+        ]
+      },
+      {
+        "finger": "middle",
+        "string": 1,
+        "fret": 2,
+        "ownedPalmarClearanceBeforeMm": 0.4073031501406408,
+        "ownedPalmarClearanceAfterMm": 0.012000002887405603,
+        "deltaDegrees": [
+          0.5216416725328087,
+          -0.06080728556063175,
+          0.004071243171022451,
+          -0.21089075451822364
+        ],
+        "evaluations": [
+          22,
+          18
+        ]
+      },
+      {
+        "finger": "ring",
+        "string": 2,
+        "fret": 3,
+        "ownedPalmarClearanceBeforeMm": 1.5452093500821396,
+        "ownedPalmarClearanceAfterMm": 0.6241672674444875,
+        "deltaDegrees": [
+          1.5251968043947328,
+          -1.1872081559614305,
+          -2.5588397937242098,
+          2.491527242321682
+        ],
+        "evaluations": [
+          11,
+          32
+        ]
+      }
+    ]
+  }
+}

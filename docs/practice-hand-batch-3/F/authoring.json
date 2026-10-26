@@ -1,0 +1,20 @@
+{
+  "chord": "F",
+  "stages": [
+    {
+      "weight": 0.4,
+      "evaluations": 22,
+      "cost": 125.16794839016903,
+      "success": true,
+      "termination": "`ftol` termination condition is satisfied."
+    },
+    {
+      "weight": 2.0,
+      "evaluations": 16,
+      "cost": 101.10505189626855,
+      "success": true,
+      "termination": "`ftol` termination condition is satisfied."
+    }
+  ],
+  "status": "needs-review"
+}

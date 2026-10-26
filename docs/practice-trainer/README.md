@@ -1,3 +1,5 @@
+Latest continuation: [Batch 3 — seven geometric candidates, zero teaching approvals](../practice-hand-batch-3/README.md).
+
 # Fretline Guitar Practice Studio — feature delivery
 
 Latest continuation: [Hand repair Batch 2](../practice-hand-batch-2/README.md)

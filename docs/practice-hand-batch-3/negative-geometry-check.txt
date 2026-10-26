@@ -1,0 +1,5 @@
+PASS reject unchanged C hand labelled Cmaj7
+PASS reject a geometrically intact hand inside the neck
+PASS reject fingertips displaced to the wrong fret region
+PASS reject verified status without independent review gates
+4/4 real-mesh negative regressions passed; musical and runtime data untouched.

@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { createHandReveal } from './handReveal.js';
 
 // This module is reachable only through the lazy practice scene. Assets are
 // fetched by the scene, so visiting the catalog never downloads the hand.
@@ -91,6 +92,9 @@ export function createHandPoseEngine({ scene, canvas, chord, nutX, unit, invalid
   let currentChord = chord, reviewMode = false, disposed = false, revision = 0;
   let assetStatus = 'loading', assetSha256 = '', metadata, library, asset, controller;
   let bones = new Map(), rest = new Map();
+  const reveal = createHandReveal(wrapper, { invalidate, onProgress({ phase, progress }) {
+    canvas.dataset.handRevealState = phase; canvas.dataset.handRevealProgress = String(progress);
+  } });
 
   const resetRest = () => {
     bones.forEach((bone, name) => {
@@ -103,6 +107,8 @@ export function createHandPoseEngine({ scene, canvas, chord, nutX, unit, invalid
     if (disposed) return;
     let assessment = { status: 'unavailable', candidate: false, reason: assetStatus === 'loading' ? REASONS.loading : REASONS.error };
     if (assetStatus === 'ready') assessment = assessHandPose({ library, metadata, assetSha256, boneNames: [...bones.keys()], chordId: currentChord.id });
+    const previouslyVisible = wrapper.visible;
+    const previousSignature = canvas.dataset.handPoseSignature;
     wrapper.visible = false;
     if (asset) {
       resetRest();
@@ -115,18 +121,22 @@ export function createHandPoseEngine({ scene, canvas, chord, nutX, unit, invalid
       wrapper.updateMatrixWorld(true);
       asset.traverse((object) => { if (object.isSkinnedMesh) object.skeleton.update(); });
     }
+    const signature = asset ? poseSignature(bones, wrapper) : '';
+    if (!wrapper.visible) reveal.cancel();
+    else if (!previouslyVisible || signature !== previousSignature) reveal.start();
     canvas.dataset.handStatus = assessment.status;
     canvas.dataset.handAssetStatus = assetStatus;
     canvas.dataset.handVisible = String(wrapper.visible);
     canvas.dataset.handModelReady = String(assetStatus === 'ready');
     canvas.dataset.handChordId = currentChord.id;
     canvas.dataset.handReviewMode = String(reviewMode);
-    canvas.dataset.handPoseSignature = asset ? poseSignature(bones, wrapper) : '';
+    canvas.dataset.handPoseSignature = signature;
     canvas.dataset.handModelSha256 = assetSha256;
     onPoseStatus({ chordId: currentChord.id, status: assessment.status, assetStatus, reason: assessment.reason, reviewMode });
     invalidate();
   };
   const clearAsset = () => {
+    wrapper.visible = false; reveal.reset();
     if (asset) disposeHandObject(asset);
     asset = null; bones.clear(); rest.clear(); assetSha256 = '';
   };
@@ -186,7 +196,7 @@ export function createHandPoseEngine({ scene, canvas, chord, nutX, unit, invalid
     retryHand() { if (!disposed) load(); },
     dispose() {
       if (disposed) return;
-      disposed = true; revision++; controller?.abort(); clearAsset(); guitarSpace.removeFromParent(); guitarSpace.clear();
+      disposed = true; revision++; controller?.abort(); clearAsset(); reveal.dispose(); guitarSpace.removeFromParent(); guitarSpace.clear();
     },
   };
 }

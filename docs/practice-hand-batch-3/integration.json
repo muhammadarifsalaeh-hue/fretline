@@ -1,0 +1,32 @@
+{
+  "base": "74c2076",
+  "items": [
+    {
+      "id": "Em7",
+      "candidateSha256": "47d102ab9e10be5a26d84b638d0a81b3a8c83b5965998ae6261fee50e3722688",
+      "transformSha256": "96d65072f92e9349488bc04190910609466da2a5ad931802f39b07789f92c0b4",
+      "evidence": "docs/practice-hand-batch-3/Em7/audit/summary.json"
+    },
+    {
+      "id": "E7",
+      "candidateSha256": "72c4807a26605662e3f7c33337f5cdaf7336e7270f1135a5b5639f6dc44b4d6d",
+      "transformSha256": "bba1268f7d208f15d16b2178414623a1f401454ba8e6fec152e378e9f9621f1f",
+      "evidence": "docs/practice-hand-batch-3/E7/audit/summary.json"
+    },
+    {
+      "id": "Fmaj7",
+      "candidateSha256": "a5bd94b7d93fe3a273a1f878e0676061568cd27494ace5d7fa01f71b1c3d1882",
+      "transformSha256": "7e0af3009f1f3d9295a9ed60fbc84ef2c5f0d7575629ab7c9c607a47f912db57",
+      "evidence": "docs/practice-hand-batch-3/Fmaj7/refined-audit/summary.json"
+    },
+    {
+      "id": "Dm",
+      "candidateSha256": "99ceb12462e2a9f2809f98f49a940471810aecfcbb4e347db8c4ae8894bd8fe1",
+      "transformSha256": "56ff33568eee61559066f036872b086a5a5531a6646aa022e25291449c3fe4db",
+      "evidence": "docs/practice-hand-batch-3/Dm/surgical-audit/summary.json"
+    }
+  ],
+  "librarySha256": "2e2816f7adf533f80fba931e4d73b592a670a614ea014406903da162b5f01aa1",
+  "teachingApprovalsAdded": 0,
+  "otherPosesUnchanged": true
+}

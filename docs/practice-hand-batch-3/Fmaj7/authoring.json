@@ -1,0 +1,32 @@
+{
+  "chord": "Fmaj7",
+  "stages": [
+    {
+      "finger": "middle",
+      "evaluations": 14,
+      "cost": 0.0005082726177907841,
+      "success": true,
+      "termination": "`ftol` termination condition is satisfied.",
+      "angularDeltaDegrees": [
+        -6.019181719923349,
+        5.236851945799554,
+        9.859771656994269,
+        8.418603749266168
+      ]
+    },
+    {
+      "finger": "ring",
+      "evaluations": 13,
+      "cost": 0.0009395627689603709,
+      "success": true,
+      "termination": "`ftol` termination condition is satisfied.",
+      "angularDeltaDegrees": [
+        -9.581156070382837,
+        -1.0543211326345492,
+        10.891599734357452,
+        14.72579840547701
+      ]
+    }
+  ],
+  "status": "needs-review"
+}

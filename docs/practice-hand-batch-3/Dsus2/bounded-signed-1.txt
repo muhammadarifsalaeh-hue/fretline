@@ -1,0 +1,51 @@
+{
+  "chord": "Dsus2",
+  "voicing": "xx0230",
+  "seedSha256": "d727e608374fdf13adc01abfa253738c37361366675217245b28bf7fc1386a70",
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "sourceChordSha256": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+  "evaluations": 34,
+  "residualCalls": 454,
+  "seconds": 10.962939411001571,
+  "optimizerSuccess": true,
+  "cost": 921.7127359910984,
+  "termination": "`ftol` termination condition is satisfied.",
+  "anchorErrorsMm": [
+    1.3073614502237718,
+    1.5099031911616678
+  ],
+  "anglesRestRelativeDegrees": {
+    "index": [
+      1.1736925391319304e-14,
+      -21.623946862190817,
+      33.53600281666134,
+      3.327796927034445
+    ],
+    "middle": [
+      5.0,
+      0.0,
+      25.0,
+      14.999999999999998
+    ],
+    "ring": [
+      18.59810846831032,
+      14.90301203646567,
+      5.000000006083787,
+      19.911590412330717
+    ],
+    "little": [
+      0.0,
+      0.0,
+      14.999999999999998,
+      5.0
+    ],
+    "thumb": [
+      19.252600018508904,
+      -3.551968337238865,
+      -4.598780307715374,
+      -4.041693133805446
+    ]
+  },
+  "scope": "Barycentric real skin anchors; sampled collision priors only. Exact audit not yet run.",
+  "status": "needs-review"
+}

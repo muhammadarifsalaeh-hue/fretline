@@ -1,0 +1,181 @@
+{
+  "baseline": "74c2076",
+  "sources": [
+    {
+      "file": "src/features/practice/data/chords.js",
+      "sha256": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+      "unchanged": true
+    },
+    {
+      "file": "src/features/practice/assets/makehuman-left-arm-sleeved.glb",
+      "sha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+      "unchanged": true
+    },
+    {
+      "file": "src/features/practice/assets/makehuman-left-arm.metadata.json",
+      "sha256": "e14806f1a2f3275e3ae23621afe9c1587fd16db598392abc7c7a16f447e8fc74",
+      "unchanged": true
+    },
+    {
+      "file": "docs/practice-trainer/models/authoring/rig-data.json",
+      "sha256": "6c58c7de471cd50753ce884fc6f0d044d8d5e1e2a39be384815b6be94e896c88",
+      "unchanged": true
+    }
+  ],
+  "otherPoseRecords": [
+    {
+      "id": "C",
+      "unchanged": true
+    },
+    {
+      "id": "D",
+      "unchanged": true
+    },
+    {
+      "id": "E",
+      "unchanged": true
+    },
+    {
+      "id": "F",
+      "unchanged": true
+    },
+    {
+      "id": "G",
+      "unchanged": true
+    },
+    {
+      "id": "A",
+      "unchanged": true
+    },
+    {
+      "id": "B",
+      "unchanged": true
+    },
+    {
+      "id": "Cm",
+      "unchanged": true
+    },
+    {
+      "id": "Em",
+      "unchanged": true
+    },
+    {
+      "id": "Fm",
+      "unchanged": true
+    },
+    {
+      "id": "Gm",
+      "unchanged": true
+    },
+    {
+      "id": "Am",
+      "unchanged": true
+    },
+    {
+      "id": "Bm",
+      "unchanged": true
+    },
+    {
+      "id": "C7",
+      "unchanged": true
+    },
+    {
+      "id": "D7",
+      "unchanged": true
+    },
+    {
+      "id": "F7",
+      "unchanged": true
+    },
+    {
+      "id": "G7",
+      "unchanged": true
+    },
+    {
+      "id": "A7",
+      "unchanged": true
+    },
+    {
+      "id": "B7",
+      "unchanged": true
+    },
+    {
+      "id": "Cmaj7",
+      "unchanged": true
+    },
+    {
+      "id": "Dmaj7",
+      "unchanged": true
+    },
+    {
+      "id": "Emaj7",
+      "unchanged": true
+    },
+    {
+      "id": "Gmaj7",
+      "unchanged": true
+    },
+    {
+      "id": "Amaj7",
+      "unchanged": true
+    },
+    {
+      "id": "Bmaj7",
+      "unchanged": true
+    },
+    {
+      "id": "Cm7",
+      "unchanged": true
+    },
+    {
+      "id": "Dm7",
+      "unchanged": true
+    },
+    {
+      "id": "Fm7",
+      "unchanged": true
+    },
+    {
+      "id": "Gm7",
+      "unchanged": true
+    },
+    {
+      "id": "Am7",
+      "unchanged": true
+    },
+    {
+      "id": "Bm7",
+      "unchanged": true
+    },
+    {
+      "id": "Csus2",
+      "unchanged": true
+    },
+    {
+      "id": "Dsus2",
+      "unchanged": true
+    },
+    {
+      "id": "Asus2",
+      "unchanged": true
+    },
+    {
+      "id": "Csus4",
+      "unchanged": true
+    },
+    {
+      "id": "Dsus4",
+      "unchanged": true
+    },
+    {
+      "id": "Esus4",
+      "unchanged": true
+    },
+    {
+      "id": "Asus4",
+      "unchanged": true
+    }
+  ],
+  "onlyIntegratedPosesChanged": true,
+  "allUnchanged": true
+}

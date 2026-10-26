@@ -1,0 +1,52 @@
+{
+  "chord": "G",
+  "voicing": "320003",
+  "seedSha256": "d727e608374fdf13adc01abfa253738c37361366675217245b28bf7fc1386a70",
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "sourceChordSha256": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+  "evaluations": 52,
+  "residualCalls": 664,
+  "seconds": 5.355268602001161,
+  "optimizerSuccess": true,
+  "cost": 29.119524246440207,
+  "termination": "`xtol` termination condition is satisfied.",
+  "anchorErrorsMm": [
+    0.03859062669425751,
+    0.15362942751847186,
+    0.9855634386581179
+  ],
+  "anglesRestRelativeDegrees": {
+    "index": [
+      14.032063799048078,
+      -24.519745534795543,
+      40.6681895031187,
+      33.287962720599516
+    ],
+    "middle": [
+      35.12223219319609,
+      -7.498344217066178,
+      25.04006789628684,
+      1.4967139256396864
+    ],
+    "ring": [
+      15.412623860380894,
+      21.85003323041302,
+      44.79975881529509,
+      69.99869713798203
+    ],
+    "little": [
+      0.0,
+      0.0,
+      14.999999999999998,
+      5.0
+    ],
+    "thumb": [
+      19.252600018508904,
+      -3.551968337238865,
+      -4.598780307715374,
+      -4.041693133805446
+    ]
+  },
+  "scope": "Barycentric real skin anchors; sampled collision priors only. Exact audit not yet run.",
+  "status": "needs-review"
+}
