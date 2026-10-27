@@ -1,0 +1,21 @@
+/* Layout only for the two retained cards; their images, copy and controls stay intact. */
+.signature-home.premium-home .home-feature-grid { display: grid; grid-template-columns: minmax(0,1.05fr) minmax(0,1fr); grid-template-rows: repeat(2,auto); gap: 18px; }
+.signature-home.premium-home .home-practice-card { grid-row: 1 / 3; display: flex; align-items: center; min-width: 0; }
+.signature-home.premium-home .home-practice-card .home-editorial-inner { width: 100%; min-height: 100%; padding: 36px; }
+.signature-home.premium-home .home-practice-card .home-editorial-copy { max-width: 350px; }
+.signature-home.premium-home .home-practice-card .home-editorial-photo img { object-position: 62% 50%; filter: brightness(.85) saturate(.86); }
+.signature-home.premium-home .home-practice-card::after { background: radial-gradient(ellipse at 90% 0,#c7984026,transparent 65%),linear-gradient(90deg,#080909e8,#080909b0 40%,#08090922),linear-gradient(0deg,#080909bb,transparent 80%); }
+.signature-home.premium-home .home-practice-card h2 { margin-top: 0; color: var(--fl-text); font-size: clamp(32px,3vw,42px); }
+.signature-home.premium-home .home-practice-card .home-editorial-description { max-width: 300px; font-size: 15px; }
+.signature-home.premium-home .home-practice-card .home-editorial-cta { margin-top: 28px; }
+@media (max-width:1023px), (orientation:portrait) and (max-width:1366px) {
+  .signature-home.premium-home .home-feature-grid { grid-template-columns: minmax(0,1fr); grid-template-rows: none; }
+  .signature-home.premium-home .home-practice-card { grid-row: auto; }
+  .signature-home.premium-home .home-practice-card .home-editorial-inner { min-height: 380px; }
+}
+@media (max-width:639px) {
+  .signature-home.premium-home .home-feature-grid { gap: 14px; }
+  .signature-home.premium-home .home-practice-card .home-editorial-inner { min-height: 355px; padding: 27px 23px; }
+  .signature-home.premium-home .home-practice-card h2 { font-size: 31px; }
+  .signature-home.premium-home .home-practice-card .home-editorial-description { max-width: 255px; font-size: 13px; }
+}

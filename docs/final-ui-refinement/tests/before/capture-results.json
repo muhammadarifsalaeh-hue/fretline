@@ -1,0 +1,518 @@
+{
+  "baselineCommit": "985d0c4898bb02961d25752d8ad0d2dc2ccd1588",
+  "physicalIPadSafariTested": false,
+  "screenshots": [
+    "chromium-desktop-home.png",
+    "chromium-desktop-catalog.png",
+    "chromium-desktop-quiz.png",
+    "chromium-desktop-quiz-question.png",
+    "chromium-desktop-compare-empty.png",
+    "chromium-desktop-compare-selected.png",
+    "chromium-desktop-practice.png",
+    "chromium-landscape-home.png",
+    "chromium-landscape-catalog.png",
+    "chromium-landscape-quiz.png",
+    "chromium-landscape-quiz-question.png",
+    "chromium-landscape-compare-empty.png",
+    "chromium-landscape-compare-selected.png",
+    "chromium-landscape-practice.png",
+    "chromium-tablet-home.png",
+    "chromium-tablet-catalog.png",
+    "chromium-tablet-quiz.png",
+    "chromium-tablet-quiz-question.png",
+    "chromium-tablet-compare-empty.png",
+    "chromium-tablet-compare-selected.png",
+    "chromium-tablet-practice.png",
+    "chromium-mobile-home.png",
+    "chromium-mobile-catalog.png",
+    "chromium-mobile-quiz.png",
+    "chromium-mobile-quiz-question.png",
+    "chromium-mobile-compare-empty.png",
+    "chromium-mobile-compare-selected.png",
+    "chromium-mobile-practice.png",
+    "webkit-desktop-home.png",
+    "webkit-desktop-catalog.png",
+    "webkit-desktop-quiz.png",
+    "webkit-desktop-quiz-question.png",
+    "webkit-desktop-compare-empty.png",
+    "webkit-desktop-compare-selected.png",
+    "webkit-desktop-practice.png",
+    "webkit-landscape-home.png",
+    "webkit-landscape-catalog.png",
+    "webkit-landscape-quiz.png",
+    "webkit-landscape-quiz-question.png",
+    "webkit-landscape-compare-empty.png",
+    "webkit-landscape-compare-selected.png",
+    "webkit-landscape-practice.png",
+    "webkit-tablet-home.png",
+    "webkit-tablet-catalog.png",
+    "webkit-tablet-quiz.png",
+    "webkit-tablet-quiz-question.png",
+    "webkit-tablet-compare-empty.png",
+    "webkit-tablet-compare-selected.png",
+    "webkit-tablet-practice.png",
+    "webkit-mobile-home.png",
+    "webkit-mobile-catalog.png",
+    "webkit-mobile-quiz.png",
+    "webkit-mobile-quiz-question.png",
+    "webkit-mobile-compare-empty.png",
+    "webkit-mobile-compare-selected.png",
+    "webkit-mobile-practice.png"
+  ],
+  "errors": [],
+  "observations": [
+    {
+      "engine": "chromium",
+      "viewport": "desktop",
+      "route": "/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "desktop",
+      "route": "/guitars",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "desktop",
+      "route": "/find-my-guitar",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "desktop",
+      "route": "/find-my-guitar?step=1",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "desktop",
+      "route": "/compare?ids=",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "desktop",
+      "route": "/compare?ids=yamaha-fg820-12,martin-d-28",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "desktop",
+      "route": "/practice",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "canvas": true
+    },
+    {
+      "engine": "chromium",
+      "viewport": "landscape",
+      "route": "/",
+      "width": 1194,
+      "scrollWidth": 1194,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "landscape",
+      "route": "/guitars",
+      "width": 1194,
+      "scrollWidth": 1194,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "landscape",
+      "route": "/find-my-guitar",
+      "width": 1194,
+      "scrollWidth": 1194,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "landscape",
+      "route": "/find-my-guitar?step=1",
+      "width": 1194,
+      "scrollWidth": 1194,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "landscape",
+      "route": "/compare?ids=",
+      "width": 1194,
+      "scrollWidth": 1194,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "landscape",
+      "route": "/compare?ids=yamaha-fg820-12,martin-d-28",
+      "width": 1194,
+      "scrollWidth": 1194,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "landscape",
+      "route": "/practice",
+      "width": 1194,
+      "scrollWidth": 1194,
+      "canvas": true
+    },
+    {
+      "engine": "chromium",
+      "viewport": "tablet",
+      "route": "/",
+      "width": 768,
+      "scrollWidth": 768,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "tablet",
+      "route": "/guitars",
+      "width": 768,
+      "scrollWidth": 768,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "tablet",
+      "route": "/find-my-guitar",
+      "width": 768,
+      "scrollWidth": 768,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "tablet",
+      "route": "/find-my-guitar?step=1",
+      "width": 768,
+      "scrollWidth": 768,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "tablet",
+      "route": "/compare?ids=",
+      "width": 768,
+      "scrollWidth": 768,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "tablet",
+      "route": "/compare?ids=yamaha-fg820-12,martin-d-28",
+      "width": 768,
+      "scrollWidth": 768,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "tablet",
+      "route": "/practice",
+      "width": 768,
+      "scrollWidth": 768,
+      "canvas": true
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "route": "/",
+      "width": 390,
+      "scrollWidth": 390,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "route": "/guitars",
+      "width": 390,
+      "scrollWidth": 390,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "route": "/find-my-guitar",
+      "width": 390,
+      "scrollWidth": 390,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "route": "/find-my-guitar?step=1",
+      "width": 390,
+      "scrollWidth": 390,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "route": "/compare?ids=",
+      "width": 390,
+      "scrollWidth": 390,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "route": "/compare?ids=yamaha-fg820-12,martin-d-28",
+      "width": 390,
+      "scrollWidth": 390,
+      "canvas": false
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "route": "/practice",
+      "width": 390,
+      "scrollWidth": 390,
+      "canvas": true
+    },
+    {
+      "engine": "webkit",
+      "viewport": "desktop",
+      "route": "/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "desktop",
+      "route": "/guitars",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "desktop",
+      "route": "/find-my-guitar",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "desktop",
+      "route": "/find-my-guitar?step=1",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "desktop",
+      "route": "/compare?ids=",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "desktop",
+      "route": "/compare?ids=yamaha-fg820-12,martin-d-28",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "desktop",
+      "route": "/practice",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "canvas": true
+    },
+    {
+      "engine": "webkit",
+      "viewport": "landscape",
+      "route": "/",
+      "width": 1194,
+      "scrollWidth": 1194,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "landscape",
+      "route": "/guitars",
+      "width": 1194,
+      "scrollWidth": 1194,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "landscape",
+      "route": "/find-my-guitar",
+      "width": 1194,
+      "scrollWidth": 1194,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "landscape",
+      "route": "/find-my-guitar?step=1",
+      "width": 1194,
+      "scrollWidth": 1194,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "landscape",
+      "route": "/compare?ids=",
+      "width": 1194,
+      "scrollWidth": 1194,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "landscape",
+      "route": "/compare?ids=yamaha-fg820-12,martin-d-28",
+      "width": 1194,
+      "scrollWidth": 1194,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "landscape",
+      "route": "/practice",
+      "width": 1194,
+      "scrollWidth": 1194,
+      "canvas": true
+    },
+    {
+      "engine": "webkit",
+      "viewport": "tablet",
+      "route": "/",
+      "width": 768,
+      "scrollWidth": 768,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "tablet",
+      "route": "/guitars",
+      "width": 768,
+      "scrollWidth": 768,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "tablet",
+      "route": "/find-my-guitar",
+      "width": 768,
+      "scrollWidth": 768,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "tablet",
+      "route": "/find-my-guitar?step=1",
+      "width": 768,
+      "scrollWidth": 768,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "tablet",
+      "route": "/compare?ids=",
+      "width": 768,
+      "scrollWidth": 768,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "tablet",
+      "route": "/compare?ids=yamaha-fg820-12,martin-d-28",
+      "width": 768,
+      "scrollWidth": 768,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "tablet",
+      "route": "/practice",
+      "width": 768,
+      "scrollWidth": 768,
+      "canvas": true
+    },
+    {
+      "engine": "webkit",
+      "viewport": "mobile",
+      "route": "/",
+      "width": 390,
+      "scrollWidth": 390,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "mobile",
+      "route": "/guitars",
+      "width": 390,
+      "scrollWidth": 390,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "mobile",
+      "route": "/find-my-guitar",
+      "width": 390,
+      "scrollWidth": 390,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "mobile",
+      "route": "/find-my-guitar?step=1",
+      "width": 390,
+      "scrollWidth": 390,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "mobile",
+      "route": "/compare?ids=",
+      "width": 390,
+      "scrollWidth": 390,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "mobile",
+      "route": "/compare?ids=yamaha-fg820-12,martin-d-28",
+      "width": 390,
+      "scrollWidth": 390,
+      "canvas": false
+    },
+    {
+      "engine": "webkit",
+      "viewport": "mobile",
+      "route": "/practice",
+      "width": 390,
+      "scrollWidth": 390,
+      "canvas": true
+    }
+  ],
+  "browserVersions": {
+    "chromium": "154.0.8037.57",
+    "webkit": "26.5"
+  },
+  "captureCount": 56
+}

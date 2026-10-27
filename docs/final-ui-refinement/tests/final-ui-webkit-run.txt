@@ -1,0 +1,27 @@
+Skipping host requirements validation logic because `PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS` env variable is set.
+PASS webkit-desktop-home-restored-three-card-group
+PASS webkit-desktop-catalog-interactions
+PASS webkit-desktop-all-pages-layout
+PASS webkit-desktop-practice-library-navigation
+PROGRESS webkit Practice diagrams/strings/instructions 7 /42
+PROGRESS webkit Practice diagrams/strings/instructions 14 /42
+PROGRESS webkit Practice diagrams/strings/instructions 21 /42
+PROGRESS webkit Practice diagrams/strings/instructions 28 /42
+PROGRESS webkit Practice diagrams/strings/instructions 35 /42
+PROGRESS webkit Practice diagrams/strings/instructions 42 /42
+PASS webkit-practice-all42-accuracy
+PASS webkit-practice-camera-controls
+PASS webkit-landscape-home-restored-three-card-group
+PASS webkit-landscape-catalog-interactions
+PASS webkit-landscape-all-pages-layout
+PASS webkit-landscape-practice-library-navigation
+PASS webkit-tablet-home-restored-three-card-group
+PASS webkit-tablet-catalog-interactions
+PASS webkit-tablet-all-pages-layout
+PASS webkit-tablet-practice-library-navigation
+PASS webkit-mobile-home-restored-three-card-group
+PASS webkit-mobile-catalog-interactions
+PASS webkit-mobile-all-pages-layout
+PASS webkit-mobile-practice-library-navigation
+PASS webkit-practice-injected-webgl-fallback
+FINAL 19 / 19 False

@@ -1,0 +1,12 @@
+PASS chromium-desktop-home-restored-three-card-group
+PASS chromium-landscape-home-restored-three-card-group
+PASS chromium-tablet-home-restored-three-card-group
+PASS chromium-mobile-home-restored-three-card-group
+PASS chromium-portrait-edge-home-restored-three-card-group
+Skipping host requirements validation logic because `PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS` env variable is set.
+PASS webkit-desktop-home-restored-three-card-group
+PASS webkit-landscape-home-restored-three-card-group
+PASS webkit-tablet-home-restored-three-card-group
+PASS webkit-mobile-home-restored-three-card-group
+PASS webkit-portrait-edge-home-restored-three-card-group
+FINAL 10 / 10 True

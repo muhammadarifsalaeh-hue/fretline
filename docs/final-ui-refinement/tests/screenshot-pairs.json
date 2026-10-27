@@ -1,0 +1,467 @@
+{
+  "baselineCommit": "985d0c4898bb02961d25752d8ad0d2dc2ccd1588",
+  "pairs": [
+    {
+      "engine": "chromium",
+      "viewport": "desktop",
+      "region": "home",
+      "label": "Featured products",
+      "before": "before/chromium-desktop-home.png",
+      "after": "final-home/chromium-desktop-home.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "desktop",
+      "region": "catalog",
+      "label": "Catalog header",
+      "before": "before/chromium-desktop-catalog.png",
+      "after": "final-ui/chromium-desktop-catalog.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "desktop",
+      "region": "quiz",
+      "label": "Quiz page top",
+      "before": "before/chromium-desktop-quiz.png",
+      "after": "final-ui/chromium-desktop-quiz-top.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "desktop",
+      "region": "quiz-question",
+      "label": "Quiz first question",
+      "before": "before/chromium-desktop-quiz-question.png",
+      "after": "final-ui/chromium-desktop-quiz-question.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "desktop",
+      "region": "compare-empty",
+      "label": "Compare empty workspace",
+      "before": "before/chromium-desktop-compare-empty.png",
+      "after": "final-ui/chromium-desktop-compare-empty.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "desktop",
+      "region": "compare-selected",
+      "label": "Compare selected workspace",
+      "before": "before/chromium-desktop-compare-selected.png",
+      "after": "final-ui/chromium-desktop-compare-selected.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "desktop",
+      "region": "practice",
+      "label": "Practice studio",
+      "before": "before/chromium-desktop-practice.png",
+      "after": "final-ui/chromium-desktop-practice.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "landscape",
+      "region": "home",
+      "label": "Featured products",
+      "before": "before/chromium-landscape-home.png",
+      "after": "final-home/chromium-landscape-home.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "landscape",
+      "region": "catalog",
+      "label": "Catalog header",
+      "before": "before/chromium-landscape-catalog.png",
+      "after": "final-ui/chromium-landscape-catalog.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "landscape",
+      "region": "quiz",
+      "label": "Quiz page top",
+      "before": "before/chromium-landscape-quiz.png",
+      "after": "final-ui/chromium-landscape-quiz-top.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "landscape",
+      "region": "quiz-question",
+      "label": "Quiz first question",
+      "before": "before/chromium-landscape-quiz-question.png",
+      "after": "final-ui/chromium-landscape-quiz-question.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "landscape",
+      "region": "compare-empty",
+      "label": "Compare empty workspace",
+      "before": "before/chromium-landscape-compare-empty.png",
+      "after": "final-ui/chromium-landscape-compare-empty.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "landscape",
+      "region": "compare-selected",
+      "label": "Compare selected workspace",
+      "before": "before/chromium-landscape-compare-selected.png",
+      "after": "final-ui/chromium-landscape-compare-selected.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "landscape",
+      "region": "practice",
+      "label": "Practice studio",
+      "before": "before/chromium-landscape-practice.png",
+      "after": "final-ui/chromium-landscape-practice.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "tablet",
+      "region": "home",
+      "label": "Featured products",
+      "before": "before/chromium-tablet-home.png",
+      "after": "final-home/chromium-tablet-home.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "tablet",
+      "region": "catalog",
+      "label": "Catalog header",
+      "before": "before/chromium-tablet-catalog.png",
+      "after": "final-ui/chromium-tablet-catalog.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "tablet",
+      "region": "quiz",
+      "label": "Quiz page top",
+      "before": "before/chromium-tablet-quiz.png",
+      "after": "final-ui/chromium-tablet-quiz-top.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "tablet",
+      "region": "quiz-question",
+      "label": "Quiz first question",
+      "before": "before/chromium-tablet-quiz-question.png",
+      "after": "final-ui/chromium-tablet-quiz-question.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "tablet",
+      "region": "compare-empty",
+      "label": "Compare empty workspace",
+      "before": "before/chromium-tablet-compare-empty.png",
+      "after": "final-ui/chromium-tablet-compare-empty.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "tablet",
+      "region": "compare-selected",
+      "label": "Compare selected workspace",
+      "before": "before/chromium-tablet-compare-selected.png",
+      "after": "final-ui/chromium-tablet-compare-selected.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "tablet",
+      "region": "practice",
+      "label": "Practice studio",
+      "before": "before/chromium-tablet-practice.png",
+      "after": "final-ui/chromium-tablet-practice.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "region": "home",
+      "label": "Featured products",
+      "before": "before/chromium-mobile-home.png",
+      "after": "final-home/chromium-mobile-home.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "region": "catalog",
+      "label": "Catalog header",
+      "before": "before/chromium-mobile-catalog.png",
+      "after": "final-ui/chromium-mobile-catalog.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "region": "quiz",
+      "label": "Quiz page top",
+      "before": "before/chromium-mobile-quiz.png",
+      "after": "final-ui/chromium-mobile-quiz-top.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "region": "quiz-question",
+      "label": "Quiz first question",
+      "before": "before/chromium-mobile-quiz-question.png",
+      "after": "final-ui/chromium-mobile-quiz-question.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "region": "compare-empty",
+      "label": "Compare empty workspace",
+      "before": "before/chromium-mobile-compare-empty.png",
+      "after": "final-ui/chromium-mobile-compare-empty.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "region": "compare-selected",
+      "label": "Compare selected workspace",
+      "before": "before/chromium-mobile-compare-selected.png",
+      "after": "final-ui/chromium-mobile-compare-selected.png"
+    },
+    {
+      "engine": "chromium",
+      "viewport": "mobile",
+      "region": "practice",
+      "label": "Practice studio",
+      "before": "before/chromium-mobile-practice.png",
+      "after": "final-ui/chromium-mobile-practice.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "desktop",
+      "region": "home",
+      "label": "Featured products",
+      "before": "before/webkit-desktop-home.png",
+      "after": "final-home/webkit-desktop-home.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "desktop",
+      "region": "catalog",
+      "label": "Catalog header",
+      "before": "before/webkit-desktop-catalog.png",
+      "after": "final-ui-webkit/webkit-desktop-catalog.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "desktop",
+      "region": "quiz",
+      "label": "Quiz page top",
+      "before": "before/webkit-desktop-quiz.png",
+      "after": "final-ui-webkit/webkit-desktop-quiz-top.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "desktop",
+      "region": "quiz-question",
+      "label": "Quiz first question",
+      "before": "before/webkit-desktop-quiz-question.png",
+      "after": "final-ui-webkit/webkit-desktop-quiz-question.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "desktop",
+      "region": "compare-empty",
+      "label": "Compare empty workspace",
+      "before": "before/webkit-desktop-compare-empty.png",
+      "after": "final-ui-webkit/webkit-desktop-compare-empty.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "desktop",
+      "region": "compare-selected",
+      "label": "Compare selected workspace",
+      "before": "before/webkit-desktop-compare-selected.png",
+      "after": "final-ui-webkit/webkit-desktop-compare-selected.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "desktop",
+      "region": "practice",
+      "label": "Practice studio",
+      "before": "before/webkit-desktop-practice.png",
+      "after": "final-ui-webkit/webkit-desktop-practice.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "landscape",
+      "region": "home",
+      "label": "Featured products",
+      "before": "before/webkit-landscape-home.png",
+      "after": "final-home/webkit-landscape-home.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "landscape",
+      "region": "catalog",
+      "label": "Catalog header",
+      "before": "before/webkit-landscape-catalog.png",
+      "after": "final-ui-webkit/webkit-landscape-catalog.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "landscape",
+      "region": "quiz",
+      "label": "Quiz page top",
+      "before": "before/webkit-landscape-quiz.png",
+      "after": "final-ui-webkit/webkit-landscape-quiz-top.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "landscape",
+      "region": "quiz-question",
+      "label": "Quiz first question",
+      "before": "before/webkit-landscape-quiz-question.png",
+      "after": "final-ui-webkit/webkit-landscape-quiz-question.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "landscape",
+      "region": "compare-empty",
+      "label": "Compare empty workspace",
+      "before": "before/webkit-landscape-compare-empty.png",
+      "after": "final-ui-webkit/webkit-landscape-compare-empty.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "landscape",
+      "region": "compare-selected",
+      "label": "Compare selected workspace",
+      "before": "before/webkit-landscape-compare-selected.png",
+      "after": "final-ui-webkit/webkit-landscape-compare-selected.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "landscape",
+      "region": "practice",
+      "label": "Practice studio",
+      "before": "before/webkit-landscape-practice.png",
+      "after": "final-ui-webkit/webkit-landscape-practice.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "tablet",
+      "region": "home",
+      "label": "Featured products",
+      "before": "before/webkit-tablet-home.png",
+      "after": "final-home/webkit-tablet-home.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "tablet",
+      "region": "catalog",
+      "label": "Catalog header",
+      "before": "before/webkit-tablet-catalog.png",
+      "after": "final-ui-webkit/webkit-tablet-catalog.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "tablet",
+      "region": "quiz",
+      "label": "Quiz page top",
+      "before": "before/webkit-tablet-quiz.png",
+      "after": "final-ui-webkit/webkit-tablet-quiz-top.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "tablet",
+      "region": "quiz-question",
+      "label": "Quiz first question",
+      "before": "before/webkit-tablet-quiz-question.png",
+      "after": "final-ui-webkit/webkit-tablet-quiz-question.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "tablet",
+      "region": "compare-empty",
+      "label": "Compare empty workspace",
+      "before": "before/webkit-tablet-compare-empty.png",
+      "after": "final-ui-webkit/webkit-tablet-compare-empty.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "tablet",
+      "region": "compare-selected",
+      "label": "Compare selected workspace",
+      "before": "before/webkit-tablet-compare-selected.png",
+      "after": "final-ui-webkit/webkit-tablet-compare-selected.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "tablet",
+      "region": "practice",
+      "label": "Practice studio",
+      "before": "before/webkit-tablet-practice.png",
+      "after": "final-ui-webkit/webkit-tablet-practice.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "mobile",
+      "region": "home",
+      "label": "Featured products",
+      "before": "before/webkit-mobile-home.png",
+      "after": "final-home/webkit-mobile-home.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "mobile",
+      "region": "catalog",
+      "label": "Catalog header",
+      "before": "before/webkit-mobile-catalog.png",
+      "after": "final-ui-webkit/webkit-mobile-catalog.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "mobile",
+      "region": "quiz",
+      "label": "Quiz page top",
+      "before": "before/webkit-mobile-quiz.png",
+      "after": "final-ui-webkit/webkit-mobile-quiz-top.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "mobile",
+      "region": "quiz-question",
+      "label": "Quiz first question",
+      "before": "before/webkit-mobile-quiz-question.png",
+      "after": "final-ui-webkit/webkit-mobile-quiz-question.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "mobile",
+      "region": "compare-empty",
+      "label": "Compare empty workspace",
+      "before": "before/webkit-mobile-compare-empty.png",
+      "after": "final-ui-webkit/webkit-mobile-compare-empty.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "mobile",
+      "region": "compare-selected",
+      "label": "Compare selected workspace",
+      "before": "before/webkit-mobile-compare-selected.png",
+      "after": "final-ui-webkit/webkit-mobile-compare-selected.png"
+    },
+    {
+      "engine": "webkit",
+      "viewport": "mobile",
+      "region": "practice",
+      "label": "Practice studio",
+      "before": "before/webkit-mobile-practice.png",
+      "after": "final-ui-webkit/webkit-mobile-practice.png"
+    }
+  ],
+  "actualCapturePairs": 56,
+  "beforeCaptureCount": 56,
+  "newHomeGroupCaptures": [
+    "final-home/chromium-desktop-home-features-complete.png",
+    "final-home/chromium-landscape-home-features-complete.png",
+    "final-home/chromium-tablet-home-features-complete.png",
+    "final-home/chromium-mobile-home-features-complete.png",
+    "final-home/chromium-portrait-edge-home-features-complete.png",
+    "final-home/webkit-desktop-home-features-complete.png",
+    "final-home/webkit-landscape-home-features-complete.png",
+    "final-home/webkit-tablet-home-features-complete.png",
+    "final-home/webkit-mobile-home-features-complete.png",
+    "final-home/webkit-portrait-edge-home-features-complete.png"
+  ]
+}

@@ -61,7 +61,7 @@
 .premium-compare .pc-empty-slot__hint { margin-top: 6px; color: #a29e92; font-size: 12px; line-height: 1.7; }
 .premium-compare .pc-data-note { margin: 18px 0 22px; padding: 0; background: transparent; border: 0; color: #aaa69a; font-size: 12px; line-height: 1.85; }
 .premium-compare .pc-data-note span { color: #8e8b82; }
-.premium-compare .pc-categories { display: flex; flex-wrap: nowrap; overflow-x: auto; max-width: 100%; gap: 8px; padding: 2px 1px 5px; scrollbar-width: thin; scrollbar-color: #766039 #0d0d0b; overscroll-behavior-x: contain; }
+.premium-compare .pc-categories { display: flex; flex-wrap: nowrap; overflow-x: auto; max-width: 100%; gap: 8px; margin-top: 22px; padding: 2px 1px 5px; scrollbar-width: thin; scrollbar-color: #766039 #0d0d0b; overscroll-behavior-x: contain; }
 .premium-compare .pc-categories button { flex: 1 0 auto; display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 48px; padding: 11px 17px; white-space: nowrap; border: 1px solid #ffffff1b; border-radius: 8px; background: #0c0c0b; color: #b9b6ad; font-size: 14px; transition: color var(--fl-duration-feedback), background var(--fl-duration-feedback), border-color var(--fl-duration-feedback); }
 .premium-compare .pc-categories button:hover { color: #f2dfb8; border-color: #c8a15a69; }
 .premium-compare .pc-categories button[aria-selected='true'] { background: linear-gradient(115deg,#eac47b,#c69a56); border-color: #dab16d; color: #15120b; }

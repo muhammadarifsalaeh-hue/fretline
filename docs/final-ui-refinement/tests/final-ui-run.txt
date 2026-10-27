@@ -1,0 +1,52 @@
+PASS chromium-desktop-home-restored-three-card-group
+PASS chromium-desktop-catalog-interactions
+PASS chromium-desktop-all-pages-layout
+PASS chromium-desktop-practice-library-navigation
+PROGRESS chromium Practice diagrams/strings/instructions 7 /42
+PROGRESS chromium Practice diagrams/strings/instructions 14 /42
+PROGRESS chromium Practice diagrams/strings/instructions 21 /42
+PROGRESS chromium Practice diagrams/strings/instructions 28 /42
+PROGRESS chromium Practice diagrams/strings/instructions 35 /42
+PROGRESS chromium Practice diagrams/strings/instructions 42 /42
+PASS chromium-practice-all42-accuracy
+PASS chromium-practice-camera-controls
+PASS chromium-landscape-home-restored-three-card-group
+PASS chromium-landscape-catalog-interactions
+PASS chromium-landscape-all-pages-layout
+PASS chromium-landscape-practice-library-navigation
+PASS chromium-tablet-home-restored-three-card-group
+PASS chromium-tablet-catalog-interactions
+PASS chromium-tablet-all-pages-layout
+PASS chromium-tablet-practice-library-navigation
+PASS chromium-mobile-home-restored-three-card-group
+PASS chromium-mobile-catalog-interactions
+PASS chromium-mobile-all-pages-layout
+PASS chromium-mobile-practice-library-navigation
+PASS chromium-practice-injected-webgl-fallback
+Traceback (most recent call last):
+  File "/workspace/fretline/docs/final-ui-refinement/tests/refinement-browser.py", line 150, in <module>
+    browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox','--enable-unsafe-swiftshader']) if engine=='chromium' else p.webkit.launch()
+                                                                                                                                                  ^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 16702, in launch
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_browser_type.py", line 97, in launch
+    await self._channel.send(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch: 
+╔══════════════════════════════════════════════════════╗
+║ Host system is missing dependencies to run browsers. ║
+║ Missing libraries:                                   ║
+║     libgtk-4.so.1                                    ║
+║     libgraphene-1.0.so.0                             ║
+║     libharfbuzz-icu.so.0                             ║
+║     libmanette-0.2.so.0                              ║
+║     libhyphen.so.0                                   ║
+║     libGLESv2.so.2                                   ║
+╚══════════════════════════════════════════════════════╝

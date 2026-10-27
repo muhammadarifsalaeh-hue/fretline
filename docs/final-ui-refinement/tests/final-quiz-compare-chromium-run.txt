@@ -1,0 +1,28 @@
+PASS chromium-desktop-quiz-options
+PASS chromium-desktop-quiz-flow
+PASS chromium-desktop-six-result-fixtures
+PASS chromium-desktop-compare-interactions
+PASS chromium-desktop-responsive-320-ipad-landscape
+PASS chromium-desktop-untouched-page-regressions
+PASS chromium-landscape-quiz-options
+PASS chromium-landscape-quiz-flow
+FAIL chromium-landscape-compare-interactions Traceback (most recent call last):
+  File "/workspace/fretline/docs/final-ui-refinement/tests/quiz-compare-browser.py", line 25, in check
+    evidence=fn();report['checks'].append({'case':name,'passed':True,'evidence':evidence});print('PASS',name,flush=True)
+             ^^^^
+  File "/workspace/fretline/docs/final-ui-refinement/tests/quiz-compare-browser.py", line 161, in <lambda>
+    if 'compare' in args.cases:check(f'{engine}-{viewport}-compare-interactions',lambda:compare_case(page,context,engine,viewport),page)
+                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/fretline/docs/final-ui-refinement/tests/quiz-compare-browser.py", line 123, in compare_case
+    region=page.locator('.compare-table-scroll');before=region.evaluate('(e)=>({left:e.scrollLeft,width:e.clientWidth,scroll:e.scrollWidth})');region.evaluate('(e)=>{e.scrollLeft=e.scrollWidth}');after=region.evaluate('(e)=>e.scrollLeft');assert before['scroll']>before['width'] and after>0,(before,after);region.evaluate('(e)=>e.scrollLeft=0')
+                                                                                                                                                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ({'left': 0, 'width': 1112, 'scroll': 1112}, 0)
+
+PASS chromium-tablet-quiz-options
+PASS chromium-tablet-quiz-flow
+PASS chromium-tablet-compare-interactions
+PASS chromium-mobile-quiz-options
+PASS chromium-mobile-quiz-flow
+PASS chromium-mobile-compare-interactions
+PASS chromium-actual-clipboard-success
+RESULT False 15 16

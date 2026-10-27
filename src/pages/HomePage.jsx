@@ -6,7 +6,9 @@ import Categories from '@/components/home/Categories';
 import FeaturedGuitars from '@/components/home/FeaturedGuitars';
 import FindMyGuitar from '@/components/home/FindMyGuitar';
 import Hero from '@/components/home/Hero';
+import GuitarPracticeCard from '@/components/home/GuitarPracticeCard';
 import '@/styles/home-premium.css';
+import '@/styles/home-feature-restoration.css';
 
 /** ลำดับ section ของหน้าแรก — สลับหรือเพิ่มได้ที่นี่ */
 export default function HomePage() {
@@ -16,10 +18,11 @@ export default function HomePage() {
       <Hero />
       <Brands />
       <Categories />
-      <div className="home-editorial-pair container-x">
+      <section id="home-features" className="home-feature-grid container-x" aria-label={t('nav.practice')}>
+        <GuitarPracticeCard />
         <FindMyGuitar />
         <CompareSection />
-      </div>
+      </section>
       <FeaturedGuitars />
     </div>
   );

@@ -1,0 +1,17 @@
+/* Catalog header presentation only; filters, results and product cards retain their contracts. */
+.catalog-page .catalog-cinematic-hero { position: relative; isolation: isolate; background: #080909; }
+.catalog-page .catalog-cinematic-photo { position: absolute; z-index: -2; inset: 0 0 0 30%; overflow: hidden; pointer-events: none; }
+.catalog-page .catalog-cinematic-photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 54%; filter: brightness(.86) saturate(.84); }
+.catalog-page .catalog-cinematic-hero::after { content: ''; position: absolute; z-index: -1; inset: 0; pointer-events: none; background: radial-gradient(ellipse at 78% 20%,#bd8d3529,transparent 60%),linear-gradient(90deg,#080909 0%,#080909f5 22%,#080909a1 45%,#08090917 82%),linear-gradient(0deg,var(--fl-canvas) 0%,#080909c7 24%,transparent 68%); }
+.catalog-page .catalog-cinematic-hero .catalog-heading { position: relative; padding-top: calc(var(--fl-header-height) + 42px); }
+.catalog-page .catalog-cinematic-hero .catalog-heading > .discovery-kicker { color: #c6c0b0; }
+.catalog-page .catalog-cinematic-hero .catalog-search { margin-top: 32px; border-color: #bca16850; background: #101110eb; }
+.catalog-page .catalog-cinematic-hero .catalog-search:focus-within { border-color: var(--fl-focus); }
+.catalog-page .catalog-cinematic-hero .catalog-categories { padding-bottom: 2px; }
+@media (max-width: 639px) {
+  .catalog-page .catalog-cinematic-photo { left: 12%; }
+  .catalog-page .catalog-cinematic-photo img { object-position: 54% 45%; }
+  .catalog-page .catalog-cinematic-hero::after { background: radial-gradient(ellipse at 90% 15%,#bd8d3524,transparent 65%),linear-gradient(90deg,#080909f2 0%,#080909a8 55%,#08090945),linear-gradient(0deg,var(--fl-canvas) 0%,#080909c7 35%,transparent 85%); }
+  .catalog-page .catalog-cinematic-hero .catalog-heading { padding-top: calc(var(--fl-header-height) + 24px); }
+  .catalog-page .catalog-cinematic-hero .catalog-search { margin-top: 25px; }
+}

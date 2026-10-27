@@ -1,12 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import AppLink from '@/components/ui/AppLink';
-import { ArrowRightIcon } from '@/components/ui/Icons';
 import { LANG } from '@/i18n';
 import ChordDiagram from '@/features/practice/components/ChordDiagram';
 import GuitarNeckViewer from '@/features/practice/components/GuitarNeckViewer';
 import { PRACTICE_CHORDS, CHORD_TYPES } from '@/features/practice/data/chords';
 import '@/styles/practice.css';
+import '@/styles/practice-refinement.css';
 
 const COPY = {
   th: {
@@ -90,7 +89,6 @@ export default function PracticePage() {
   const handPose = poseStatus?.chordId === chord.id ? poseStatus : chord.handPose;
   const handStatus = statusValue(handPose?.status);
   const diagramStatus = statusValue(chord.diagramStatus?.status);
-  const statusLabel = (status) => status === 'verified' ? copy.statusVerified : status === 'needs-review' ? copy.statusReview : copy.statusUnavailable;
   const stringsFor = (value) => chord.frets.flatMap((fret, index) => fret === value ? [6 - index] : []).join(', ') || copy.none;
 
   useEffect(() => { document.title = copy.docTitle; }, [copy.docTitle]);
@@ -123,89 +121,59 @@ export default function PracticePage() {
   };
 
   return (
-    <div className="practice-page">
+    <div className="practice-page practice-refined">
       <header className="practice-intro container-x">
-        <nav className="practice-breadcrumb" aria-label={LANG === 'en' ? 'Breadcrumb' : 'เส้นทางนำทาง'}>
-          <AppLink href="/">{copy.home}</AppLink><span aria-hidden="true">/</span><span aria-current="page">{copy.practice}</span>
-        </nav>
-        <div className="practice-intro-grid">
-          <div>
-            <p className="practice-eyebrow" lang="en">{copy.eyebrow}</p>
-            <h1 lang="en">Guitar <span>Practice Studio.</span></h1>
-            <p className="practice-intro-title">{copy.intro}</p>
-            <p className="practice-intro-description">{copy.description}</p>
-          </div>
-          <div className="practice-intro-aside">
-            <p className="practice-stage-label" lang="en">{copy.stage}</p>
-            <h2>{copy.stageTitle}</h2><p>{copy.stageText}</p>
-            <dl className="practice-facts">
-              <div><dd>06</dd><dt>{copy.strings}</dt></div>
-              <div><dd>12</dd><dt>{copy.frets}</dt></div>
-              <div><dd>{String(PRACTICE_CHORDS.length).padStart(2, '0')}</dd><dt>{copy.chords}</dt></div>
-            </dl>
-          </div>
-        </div>
+        <h1>{LANG === 'en' ? <>Guitar <span>Practice Studio</span></> : <>ฝึกคอร์ด<span>กีตาร์</span></>}</h1>
+        <p className="practice-intro-description">{LANG === 'en' ? 'Choose a chord, check each finger, and practice with the 3D neck.' : 'เลือกคอร์ด ดูตำแหน่งนิ้ว และฝึกไปพร้อมกับคอกีตาร์ 3D'}</p>
       </header>
 
       <div className="practice-workspace container-x">
-        <section className="practice-studio" aria-labelledby="practice-studio-title">
-          <div className="practice-section-heading">
-            <div><p className="practice-section-index" lang="en">01 / THE FRETBOARD</p><h2 id="practice-studio-title">{copy.explore}</h2></div>
-            <p>{copy.exploreDescription}</p>
-          </div>
+        <section className="practice-studio" aria-label={copy.explore}>
           <div className="practice-studio-layout">
             <div className="practice-viewer-column">
               <GuitarNeckViewer chord={chord} onPoseStatus={setPoseStatus} />
-              <div className="practice-chord-navigation" role="group" aria-label={copy.navigation}>
-                <button type="button" data-practice-previous disabled={results.length < 2} onClick={() => navigate(-1)}><span aria-hidden="true">←</span>{copy.previous}</button>
-                <span className="practice-navigation-count" aria-live="polite">{resultIndex >= 0 ? (resultIndex + 1) + ' / ' + results.length : copy.currentOutside}</span>
-                <button type="button" data-practice-next disabled={results.length < 2} onClick={() => navigate(1)}>{copy.next}<span aria-hidden="true">→</span></button>
-              </div>
             </div>
-            <aside className="practice-chord-detail" aria-labelledby="practice-selected-title" data-practice-active-chord={chord.id}>
-              <div className="practice-selected-heading"><p>{copy.selected}</p><h3 id="practice-selected-title" lang="en">{chord.name}</h3><span lang="en">{chord.fullName}</span></div>
+            <aside className="practice-chord-detail" aria-labelledby="practice-selected-title" data-practice-active-chord={chord.id}
+              data-diagram-status={diagramStatus} data-hand-pose-status={handStatus}>
+              <div className={`practice-selected-heading${chord.name.length > 3 ? ' has-long-name' : ''}`}><h2 id="practice-selected-title" lang="en">{chord.name}</h2><span lang="en">{chord.fullName}</span></div>
               <p className="practice-sr-only" role="status" aria-live="polite" aria-atomic="true">{copy.selectedAnnouncement}{chord.fullName ?? chord.name}</p>
               <div className="practice-diagram-wrap"><ChordDiagram chord={chord} /></div>
-              <p className="practice-diagram-caption">{copy.diagramView}</p>
-              <div className="practice-status-list">
-                <div data-diagram-status={diagramStatus}><span>{copy.diagramStatus}</span><strong>{statusLabel(diagramStatus)}</strong></div>
-                <div data-hand-pose-status={handStatus}><span>{copy.handStatus}</span><strong>{statusLabel(handStatus)}</strong></div>
-                <p className="practice-hand-status-reason">{localized(handPose?.reason) || copy.handUnavailable}</p>
-              </div>
               <div className="practice-fingering">
-                {chord.voicing && <p className="practice-voicing"><span>{copy.voicing}</span>{localized(chord.voicing)}</p>}
-                <h4>{copy.positioning}</h4>
+                <h3>{copy.positioning}</h3>
                 <ul>{fingerings.map(({ string, fret, finger, note }) => <li key={string} data-finger-instruction={finger} data-string={string} data-fret={fret}>
                   <span className="practice-finger-number" aria-hidden="true">{finger}</span>
                   <span><strong>{copy.fingerNames[finger - 1] ?? copy.finger + ' ' + finger}</strong><span>{copy.string} {string} <span aria-hidden="true">·</span> {copy.fret} {fret}{note && <span lang="en"> · {note}</span>}</span></span>
                 </li>)}</ul>
                 {barres.length > 0 && <div className="practice-barre-instructions">{barres.map((barre, index) => <p key={index} data-barre-instruction={index}><strong>{copy.barre} · {copy.fingerNames[barre.finger - 1]}</strong><span>{copy.fret} {barre.fret} · {copy.stringsRange} {barre.fromString}–{barre.toString}</span></p>)}</div>}
-                <dl className="practice-string-status"><div><dt>{copy.open}</dt><dd>{stringsFor(0)}</dd></div><div><dt>{copy.muted}</dt><dd>{stringsFor(null)}</dd></div></dl>
               </div>
-              {instructions.length > 0 && <details className="practice-instructions"><summary>{copy.instructions}</summary><ol>{instructions.map((instruction, index) => <li key={index}>{instruction}</li>)}</ol></details>}
-              <p className="practice-diagram-legend">{copy.diagramLegend}</p>
+              <div className="practice-playing-notes">
+                <dl className="practice-string-status"><div><dt>{copy.open}</dt><dd>{stringsFor(0)}</dd></div><div><dt>{copy.muted}</dt><dd>{stringsFor(null)}</dd></div></dl>
+                {instructions.length > 0 && <details className="practice-instructions"><summary>{copy.instructions}</summary><ol>{instructions.map((instruction, index) => <li key={index}>{instruction}</li>)}</ol></details>}
+              </div>
             </aside>
+            <div className="practice-chord-navigation" role="group" aria-label={copy.navigation}>
+              <button type="button" data-practice-previous disabled={results.length < 2} onClick={() => navigate(-1)}><span aria-hidden="true">←</span>{copy.previous}</button>
+              <span className="practice-navigation-count" aria-live="polite">{resultIndex >= 0 ? (resultIndex + 1) + ' / ' + results.length : copy.currentOutside}</span>
+              <button type="button" data-practice-next disabled={results.length < 2} onClick={() => navigate(1)}>{copy.next}<span aria-hidden="true">→</span></button>
+            </div>
           </div>
         </section>
 
         <section className="practice-chord-library" aria-labelledby="practice-choose-title">
-          <div className="practice-section-heading">
-            <div><p className="practice-section-index" lang="en">02 / CHORD LIBRARY</p><h2 id="practice-choose-title">{copy.choose}</h2></div>
-            <p>{copy.chooseDescription}</p>
-          </div>
+          <div className="practice-section-heading"><h2 id="practice-choose-title">{copy.chooseLabel}</h2></div>
           <div className="practice-library-toolbar">
             <div className="practice-search-field">
-              <label htmlFor="practice-chord-search">{copy.search}</label>
+              <label className="practice-sr-only" htmlFor="practice-chord-search">{copy.search}</label>
               <div><span aria-hidden="true" className="practice-search-icon">⌕</span><input id="practice-chord-search" type="search" value={query} autoComplete="off" placeholder={copy.searchPlaceholder} onChange={(event) => update({ q: event.target.value }, true)} />
                 {query && <button type="button" className="practice-search-clear" aria-label={copy.clearSearch} onClick={() => update({ q: '' })}><span aria-hidden="true">×</span></button>}
               </div>
             </div>
-            <div className="practice-result-summary"><p role="status" aria-live="polite" aria-atomic="true" data-practice-result-count={results.length}><strong>{results.length}</strong> {copy.results} <span> / {PRACTICE_CHORDS.length}</span></p>{hasFilters && <button type="button" onClick={() => update({ q: '', type: '' })}>{copy.clearFilters}</button>}</div>
+            <div className={`practice-result-summary${hasFilters ? '' : ' practice-sr-only'}`}><p role="status" aria-live="polite" aria-atomic="true" data-practice-result-count={results.length}><strong>{results.length}</strong> {copy.results} <span> / {PRACTICE_CHORDS.length}</span></p>{hasFilters && <button type="button" onClick={() => update({ q: '', type: '' })}>{copy.clearFilters}</button>}</div>
           </div>
           <div className="practice-type-filters" role="group" aria-label={copy.typeFilter}>
             {[{ id: '', label: copy.allTypes }, ...CHORD_TYPES].map((item) => <button key={item.id} type="button" data-practice-type={item.id || 'all'} aria-pressed={type === item.id} onClick={() => update({ type: item.id })}>{localized(item.label)}</button>)}
           </div>
-          <p className="practice-keyboard-hint" id="practice-chord-keyboard">{copy.keyboard}</p>
+          <p className="practice-sr-only" id="practice-chord-keyboard">{copy.keyboard}</p>
           {results.length > 0 ? <div className="practice-chord-options" role="group" aria-labelledby="practice-choose-title" aria-describedby="practice-chord-keyboard">
             {results.map((item, index) => <button key={item.id} type="button" className="practice-chord-option"
               ref={(element) => { if (element) optionRefs.current.set(item.id, element); else optionRefs.current.delete(item.id); }}
@@ -218,17 +186,12 @@ export default function PracticePage() {
             </button>)}
           </div> : <div className="practice-chord-empty"><h3>{copy.empty}</h3><p>{copy.emptyText}</p><button type="button" onClick={() => update({ q: '', type: '' })}>{copy.clearFilters}<span aria-hidden="true">↗</span></button></div>}
         </section>
-
-        <div className="practice-bottom-notes">
-          <div className="practice-version-note"><h2>{copy.preview}</h2><p>{copy.previewText}</p></div>
-          <div className="practice-tuning-note"><p>{copy.tuning}</p><span lang="en">E <span>·</span> A <span>·</span> D <span>·</span> G <span>·</span> B <span>·</span> E</span></div>
-        </div>
-        <div className="practice-model-note"><div><p>{copy.modelNote}</p><p className="practice-model-credit">
+        <details className="practice-model-credits"><summary>{LANG === 'en' ? 'Model credits' : 'สิทธิ์และเครดิตโมเดล'}</summary><p>
           {LANG === 'en' ? 'Hand and skin: ' : 'โมเดลมือและผิว: '}
           <a href="https://www.makehumancommunity.org/content/license.html" target="_blank" rel="noreferrer">MakeHuman · CC0</a>
           {' · '}{LANG === 'en' ? 'Sleeve adapted from ' : 'แขนเสื้อดัดแปลงจาก '}
           <a href="https://static.makehumancommunity.org/assets/assetpacks/shirts02.html" target="_blank" rel="noreferrer">Elvaerwyn · CC-BY</a>
-        </p></div><AppLink href="/guitars">{copy.catalog}<ArrowRightIcon size={16} /></AppLink></div>
+        </p></details>
       </div>
     </div>
   );

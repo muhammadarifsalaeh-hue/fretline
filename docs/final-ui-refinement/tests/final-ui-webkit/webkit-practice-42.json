@@ -1,0 +1,3542 @@
+[
+  {
+    "id": "C",
+    "fullDiagram": {
+      "chord": "C",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        3,
+        2,
+        0,
+        1,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "C3",
+        "E3",
+        "G3",
+        "C4",
+        "E4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "C",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        3,
+        2,
+        0,
+        1,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "C3",
+        "E3",
+        "G3",
+        "C4",
+        "E4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        4,
+        2,
+        2
+      ],
+      [
+        5,
+        3,
+        3
+      ]
+    ],
+    "renderedChordId": "C",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "D",
+    "fullDiagram": {
+      "chord": "D",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        3,
+        2
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "",
+        "D3",
+        "A3",
+        "D4",
+        "F#4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "D",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        3,
+        2
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "",
+        "D3",
+        "A3",
+        "D4",
+        "F#4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        3,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        2,
+        3,
+        3
+      ]
+    ],
+    "renderedChordId": "D",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "E",
+    "fullDiagram": {
+      "chord": "E",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "E2",
+        "B2",
+        "E3",
+        "G#3",
+        "B3",
+        "E4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "E",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "E2",
+        "B2",
+        "E3",
+        "G#3",
+        "B3",
+        "E4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        3,
+        1,
+        1
+      ],
+      [
+        5,
+        2,
+        2
+      ],
+      [
+        4,
+        2,
+        3
+      ]
+    ],
+    "renderedChordId": "E",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "F",
+    "fullDiagram": {
+      "chord": "F",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        1,
+        3,
+        3,
+        2,
+        1,
+        1
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 1,
+          "fromString": 6,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 28,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "F2",
+        "C3",
+        "F3",
+        "A3",
+        "C4",
+        "F4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "F",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        1,
+        3,
+        3,
+        2,
+        1,
+        1
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 1,
+          "fromString": 6,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 28,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "F2",
+        "C3",
+        "F3",
+        "A3",
+        "C4",
+        "F4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        6,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        3,
+        2,
+        2
+      ],
+      [
+        5,
+        3,
+        3
+      ],
+      [
+        4,
+        3,
+        4
+      ]
+    ],
+    "renderedChordId": "F",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "G",
+    "fullDiagram": {
+      "chord": "G",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        3,
+        2,
+        0,
+        0,
+        0,
+        3
+      ],
+      "barres": [],
+      "stringNotes": [
+        "G2",
+        "B2",
+        "D3",
+        "G3",
+        "B3",
+        "G4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "G",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        3,
+        2,
+        0,
+        0,
+        0,
+        3
+      ],
+      "barres": [],
+      "stringNotes": [
+        "G2",
+        "B2",
+        "D3",
+        "G3",
+        "B3",
+        "G4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        5,
+        2,
+        1
+      ],
+      [
+        6,
+        3,
+        2
+      ],
+      [
+        1,
+        3,
+        3
+      ]
+    ],
+    "renderedChordId": "G",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "A",
+    "fullDiagram": {
+      "chord": "A",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        0,
+        2,
+        2,
+        2,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "A2",
+        "E3",
+        "A3",
+        "C#4",
+        "E4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "A",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        0,
+        2,
+        2,
+        2,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "A2",
+        "E3",
+        "A3",
+        "C#4",
+        "E4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        4,
+        2,
+        2
+      ],
+      [
+        3,
+        2,
+        3
+      ],
+      [
+        2,
+        2,
+        4
+      ]
+    ],
+    "renderedChordId": "A",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "B",
+    "fullDiagram": {
+      "chord": "B",
+      "compact": false,
+      "baseFret": 2,
+      "frets": [
+        null,
+        2,
+        4,
+        4,
+        4,
+        2
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 2,
+          "fromString": 5,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 46,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "B2",
+        "F#3",
+        "B3",
+        "D#4",
+        "F#4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "B",
+      "compact": true,
+      "baseFret": 2,
+      "frets": [
+        null,
+        2,
+        4,
+        4,
+        4,
+        2
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 2,
+          "fromString": 5,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 46,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "B2",
+        "F#3",
+        "B3",
+        "D#4",
+        "F#4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        5,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        4,
+        4,
+        2
+      ],
+      [
+        3,
+        4,
+        3
+      ],
+      [
+        2,
+        4,
+        4
+      ]
+    ],
+    "renderedChordId": "B",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Cm",
+    "fullDiagram": {
+      "chord": "Cm",
+      "compact": false,
+      "baseFret": 3,
+      "frets": [
+        null,
+        3,
+        5,
+        5,
+        4,
+        3
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 3,
+          "fromString": 5,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 46,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "C3",
+        "G3",
+        "C4",
+        "Eb4",
+        "G4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Cm",
+      "compact": true,
+      "baseFret": 3,
+      "frets": [
+        null,
+        3,
+        5,
+        5,
+        4,
+        3
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 3,
+          "fromString": 5,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 46,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "C3",
+        "G3",
+        "C4",
+        "Eb4",
+        "G4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        5,
+        3,
+        1
+      ],
+      [
+        1,
+        3,
+        1
+      ],
+      [
+        2,
+        4,
+        2
+      ],
+      [
+        4,
+        5,
+        3
+      ],
+      [
+        3,
+        5,
+        4
+      ]
+    ],
+    "renderedChordId": "Cm",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Dm",
+    "fullDiagram": {
+      "chord": "Dm",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        3,
+        1
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "",
+        "D3",
+        "A3",
+        "D4",
+        "F4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Dm",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        3,
+        1
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "",
+        "D3",
+        "A3",
+        "D4",
+        "F4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        3,
+        2,
+        2
+      ],
+      [
+        2,
+        3,
+        3
+      ]
+    ],
+    "renderedChordId": "Dm",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Em",
+    "fullDiagram": {
+      "chord": "Em",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "E2",
+        "B2",
+        "E3",
+        "G3",
+        "B3",
+        "E4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Em",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "E2",
+        "B2",
+        "E3",
+        "G3",
+        "B3",
+        "E4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        5,
+        2,
+        2
+      ],
+      [
+        4,
+        2,
+        3
+      ]
+    ],
+    "renderedChordId": "Em",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Fm",
+    "fullDiagram": {
+      "chord": "Fm",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        1,
+        3,
+        3,
+        1,
+        1,
+        1
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 1,
+          "fromString": 6,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 28,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "F2",
+        "C3",
+        "F3",
+        "Ab3",
+        "C4",
+        "F4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Fm",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        1,
+        3,
+        3,
+        1,
+        1,
+        1
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 1,
+          "fromString": 6,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 28,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "F2",
+        "C3",
+        "F3",
+        "Ab3",
+        "C4",
+        "F4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        6,
+        1,
+        1
+      ],
+      [
+        3,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        5,
+        3,
+        3
+      ],
+      [
+        4,
+        3,
+        4
+      ]
+    ],
+    "renderedChordId": "Fm",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Gm",
+    "fullDiagram": {
+      "chord": "Gm",
+      "compact": false,
+      "baseFret": 3,
+      "frets": [
+        3,
+        5,
+        5,
+        3,
+        3,
+        3
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 3,
+          "fromString": 6,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 28,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "G2",
+        "D3",
+        "G3",
+        "Bb3",
+        "D4",
+        "G4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Gm",
+      "compact": true,
+      "baseFret": 3,
+      "frets": [
+        3,
+        5,
+        5,
+        3,
+        3,
+        3
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 3,
+          "fromString": 6,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 28,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "G2",
+        "D3",
+        "G3",
+        "Bb3",
+        "D4",
+        "G4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        6,
+        3,
+        1
+      ],
+      [
+        3,
+        3,
+        1
+      ],
+      [
+        2,
+        3,
+        1
+      ],
+      [
+        1,
+        3,
+        1
+      ],
+      [
+        5,
+        5,
+        3
+      ],
+      [
+        4,
+        5,
+        4
+      ]
+    ],
+    "renderedChordId": "Gm",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Am",
+    "fullDiagram": {
+      "chord": "Am",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        0,
+        2,
+        2,
+        1,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "A2",
+        "E3",
+        "A3",
+        "C4",
+        "E4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Am",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        0,
+        2,
+        2,
+        1,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "A2",
+        "E3",
+        "A3",
+        "C4",
+        "E4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        4,
+        2,
+        2
+      ],
+      [
+        3,
+        2,
+        3
+      ]
+    ],
+    "renderedChordId": "Am",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Bm",
+    "fullDiagram": {
+      "chord": "Bm",
+      "compact": false,
+      "baseFret": 2,
+      "frets": [
+        null,
+        2,
+        4,
+        4,
+        3,
+        2
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 2,
+          "fromString": 5,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 46,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "B2",
+        "F#3",
+        "B3",
+        "D4",
+        "F#4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Bm",
+      "compact": true,
+      "baseFret": 2,
+      "frets": [
+        null,
+        2,
+        4,
+        4,
+        3,
+        2
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 2,
+          "fromString": 5,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 46,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "B2",
+        "F#3",
+        "B3",
+        "D4",
+        "F#4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        5,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        3,
+        2
+      ],
+      [
+        4,
+        4,
+        3
+      ],
+      [
+        3,
+        4,
+        4
+      ]
+    ],
+    "renderedChordId": "Bm",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "C7",
+    "fullDiagram": {
+      "chord": "C7",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        3,
+        2,
+        3,
+        1,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "C3",
+        "E3",
+        "Bb3",
+        "C4",
+        "E4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "C7",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        3,
+        2,
+        3,
+        1,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "C3",
+        "E3",
+        "Bb3",
+        "C4",
+        "E4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        4,
+        2,
+        2
+      ],
+      [
+        5,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        4
+      ]
+    ],
+    "renderedChordId": "C7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "D7",
+    "fullDiagram": {
+      "chord": "D7",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        1,
+        2
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "",
+        "D3",
+        "A3",
+        "C4",
+        "F#4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "D7",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        1,
+        2
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "",
+        "D3",
+        "A3",
+        "C4",
+        "F#4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        3,
+        2,
+        2
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "renderedChordId": "D7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "E7",
+    "fullDiagram": {
+      "chord": "E7",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "E2",
+        "B2",
+        "D3",
+        "G#3",
+        "B3",
+        "E4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "E7",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "E2",
+        "B2",
+        "D3",
+        "G#3",
+        "B3",
+        "E4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        3,
+        1,
+        1
+      ],
+      [
+        5,
+        2,
+        2
+      ]
+    ],
+    "renderedChordId": "E7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "F7",
+    "fullDiagram": {
+      "chord": "F7",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        1,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 1,
+          "fromString": 6,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 28,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "F2",
+        "C3",
+        "Eb3",
+        "A3",
+        "C4",
+        "F4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "F7",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        1,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 1,
+          "fromString": 6,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 28,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "F2",
+        "C3",
+        "Eb3",
+        "A3",
+        "C4",
+        "F4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        6,
+        1,
+        1
+      ],
+      [
+        4,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        3,
+        2,
+        2
+      ],
+      [
+        5,
+        3,
+        3
+      ]
+    ],
+    "renderedChordId": "F7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "G7",
+    "fullDiagram": {
+      "chord": "G7",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        3,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      "barres": [],
+      "stringNotes": [
+        "G2",
+        "B2",
+        "D3",
+        "G3",
+        "B3",
+        "F4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "G7",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        3,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      "barres": [],
+      "stringNotes": [
+        "G2",
+        "B2",
+        "D3",
+        "G3",
+        "B3",
+        "F4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        5,
+        2,
+        2
+      ],
+      [
+        6,
+        3,
+        3
+      ]
+    ],
+    "renderedChordId": "G7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "A7",
+    "fullDiagram": {
+      "chord": "A7",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "A2",
+        "E3",
+        "G3",
+        "C#4",
+        "E4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "A7",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "A2",
+        "E3",
+        "G3",
+        "C#4",
+        "E4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        4,
+        2,
+        2
+      ],
+      [
+        2,
+        2,
+        3
+      ]
+    ],
+    "renderedChordId": "A7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "B7",
+    "fullDiagram": {
+      "chord": "B7",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "B2",
+        "D#3",
+        "A3",
+        "B3",
+        "F#4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "B7",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "B2",
+        "D#3",
+        "A3",
+        "B3",
+        "F#4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        4,
+        1,
+        1
+      ],
+      [
+        5,
+        2,
+        2
+      ],
+      [
+        3,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        4
+      ]
+    ],
+    "renderedChordId": "B7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Cmaj7",
+    "fullDiagram": {
+      "chord": "Cmaj7",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        3,
+        2,
+        0,
+        0,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "C3",
+        "E3",
+        "G3",
+        "B3",
+        "E4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Cmaj7",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        3,
+        2,
+        0,
+        0,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "C3",
+        "E3",
+        "G3",
+        "B3",
+        "E4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        4,
+        2,
+        2
+      ],
+      [
+        5,
+        3,
+        3
+      ]
+    ],
+    "renderedChordId": "Cmaj7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Dmaj7",
+    "fullDiagram": {
+      "chord": "Dmaj7",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        2,
+        2
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 2,
+          "fromString": 3,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 82,
+              "x2": 118,
+              "y1": 70,
+              "y2": 70,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "",
+        "D3",
+        "A3",
+        "C#4",
+        "F#4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Dmaj7",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        2,
+        2
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 2,
+          "fromString": 3,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 82,
+              "x2": 118,
+              "y1": 70,
+              "y2": 70,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "",
+        "D3",
+        "A3",
+        "C#4",
+        "F#4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        3,
+        2,
+        1
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        1
+      ]
+    ],
+    "renderedChordId": "Dmaj7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Emaj7",
+    "fullDiagram": {
+      "chord": "Emaj7",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "E2",
+        "B2",
+        "D#3",
+        "G#3",
+        "B3",
+        "E4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Emaj7",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "E2",
+        "B2",
+        "D#3",
+        "G#3",
+        "B3",
+        "E4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        4,
+        1,
+        1
+      ],
+      [
+        3,
+        1,
+        2
+      ],
+      [
+        5,
+        2,
+        3
+      ]
+    ],
+    "renderedChordId": "Emaj7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Fmaj7",
+    "fullDiagram": {
+      "chord": "Fmaj7",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        null,
+        3,
+        2,
+        1,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "",
+        "F3",
+        "A3",
+        "C4",
+        "E4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Fmaj7",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        null,
+        3,
+        2,
+        1,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "",
+        "F3",
+        "A3",
+        "C4",
+        "E4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        3,
+        2,
+        2
+      ],
+      [
+        4,
+        3,
+        3
+      ]
+    ],
+    "renderedChordId": "Fmaj7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Gmaj7",
+    "fullDiagram": {
+      "chord": "Gmaj7",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        3,
+        2,
+        0,
+        0,
+        0,
+        2
+      ],
+      "barres": [],
+      "stringNotes": [
+        "G2",
+        "B2",
+        "D3",
+        "G3",
+        "B3",
+        "F#4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Gmaj7",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        3,
+        2,
+        0,
+        0,
+        0,
+        2
+      ],
+      "barres": [],
+      "stringNotes": [
+        "G2",
+        "B2",
+        "D3",
+        "G3",
+        "B3",
+        "F#4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        5,
+        2,
+        2
+      ],
+      [
+        6,
+        3,
+        3
+      ]
+    ],
+    "renderedChordId": "Gmaj7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Amaj7",
+    "fullDiagram": {
+      "chord": "Amaj7",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        0,
+        2,
+        1,
+        2,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "A2",
+        "E3",
+        "G#3",
+        "C#4",
+        "E4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Amaj7",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        0,
+        2,
+        1,
+        2,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "A2",
+        "E3",
+        "G#3",
+        "C#4",
+        "E4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        3,
+        1,
+        1
+      ],
+      [
+        4,
+        2,
+        2
+      ],
+      [
+        2,
+        2,
+        3
+      ]
+    ],
+    "renderedChordId": "Amaj7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Bmaj7",
+    "fullDiagram": {
+      "chord": "Bmaj7",
+      "compact": false,
+      "baseFret": 2,
+      "frets": [
+        null,
+        2,
+        4,
+        3,
+        4,
+        2
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 2,
+          "fromString": 5,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 46,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "B2",
+        "F#3",
+        "A#3",
+        "D#4",
+        "F#4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Bmaj7",
+      "compact": true,
+      "baseFret": 2,
+      "frets": [
+        null,
+        2,
+        4,
+        3,
+        4,
+        2
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 2,
+          "fromString": 5,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 46,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "B2",
+        "F#3",
+        "A#3",
+        "D#4",
+        "F#4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        5,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        3,
+        3,
+        2
+      ],
+      [
+        4,
+        4,
+        3
+      ],
+      [
+        2,
+        4,
+        4
+      ]
+    ],
+    "renderedChordId": "Bmaj7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Cm7",
+    "fullDiagram": {
+      "chord": "Cm7",
+      "compact": false,
+      "baseFret": 3,
+      "frets": [
+        null,
+        3,
+        5,
+        3,
+        4,
+        3
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 3,
+          "fromString": 5,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 46,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "C3",
+        "G3",
+        "Bb3",
+        "Eb4",
+        "G4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Cm7",
+      "compact": true,
+      "baseFret": 3,
+      "frets": [
+        null,
+        3,
+        5,
+        3,
+        4,
+        3
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 3,
+          "fromString": 5,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 46,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "C3",
+        "G3",
+        "Bb3",
+        "Eb4",
+        "G4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        5,
+        3,
+        1
+      ],
+      [
+        3,
+        3,
+        1
+      ],
+      [
+        1,
+        3,
+        1
+      ],
+      [
+        2,
+        4,
+        2
+      ],
+      [
+        4,
+        5,
+        3
+      ]
+    ],
+    "renderedChordId": "Cm7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Dm7",
+    "fullDiagram": {
+      "chord": "Dm7",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        1,
+        1
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 1,
+          "fromString": 2,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 100,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "",
+        "D3",
+        "A3",
+        "C4",
+        "F4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Dm7",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        1,
+        1
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 1,
+          "fromString": 2,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 100,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "",
+        "D3",
+        "A3",
+        "C4",
+        "F4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        3,
+        2,
+        2
+      ]
+    ],
+    "renderedChordId": "Dm7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Em7",
+    "fullDiagram": {
+      "chord": "Em7",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "E2",
+        "B2",
+        "D3",
+        "G3",
+        "B3",
+        "E4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Em7",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "E2",
+        "B2",
+        "D3",
+        "G3",
+        "B3",
+        "E4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        5,
+        2,
+        2
+      ]
+    ],
+    "renderedChordId": "Em7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Fm7",
+    "fullDiagram": {
+      "chord": "Fm7",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        1,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 1,
+          "fromString": 6,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 28,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "F2",
+        "C3",
+        "Eb3",
+        "Ab3",
+        "C4",
+        "F4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Fm7",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        1,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 1,
+          "fromString": 6,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 28,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "F2",
+        "C3",
+        "Eb3",
+        "Ab3",
+        "C4",
+        "F4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        6,
+        1,
+        1
+      ],
+      [
+        4,
+        1,
+        1
+      ],
+      [
+        3,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        5,
+        3,
+        3
+      ]
+    ],
+    "renderedChordId": "Fm7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Gm7",
+    "fullDiagram": {
+      "chord": "Gm7",
+      "compact": false,
+      "baseFret": 3,
+      "frets": [
+        3,
+        5,
+        3,
+        3,
+        3,
+        3
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 3,
+          "fromString": 6,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 28,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "G2",
+        "D3",
+        "F3",
+        "Bb3",
+        "D4",
+        "G4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Gm7",
+      "compact": true,
+      "baseFret": 3,
+      "frets": [
+        3,
+        5,
+        3,
+        3,
+        3,
+        3
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 3,
+          "fromString": 6,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 28,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "G2",
+        "D3",
+        "F3",
+        "Bb3",
+        "D4",
+        "G4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        6,
+        3,
+        1
+      ],
+      [
+        4,
+        3,
+        1
+      ],
+      [
+        3,
+        3,
+        1
+      ],
+      [
+        2,
+        3,
+        1
+      ],
+      [
+        1,
+        3,
+        1
+      ],
+      [
+        5,
+        5,
+        3
+      ]
+    ],
+    "renderedChordId": "Gm7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Am7",
+    "fullDiagram": {
+      "chord": "Am7",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        0,
+        2,
+        0,
+        1,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "A2",
+        "E3",
+        "G3",
+        "C4",
+        "E4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Am7",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        0,
+        2,
+        0,
+        1,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "A2",
+        "E3",
+        "G3",
+        "C4",
+        "E4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        4,
+        2,
+        2
+      ]
+    ],
+    "renderedChordId": "Am7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Bm7",
+    "fullDiagram": {
+      "chord": "Bm7",
+      "compact": false,
+      "baseFret": 2,
+      "frets": [
+        null,
+        2,
+        4,
+        2,
+        3,
+        2
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 2,
+          "fromString": 5,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 46,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "B2",
+        "F#3",
+        "A3",
+        "D4",
+        "F#4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Bm7",
+      "compact": true,
+      "baseFret": 2,
+      "frets": [
+        null,
+        2,
+        4,
+        2,
+        3,
+        2
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 2,
+          "fromString": 5,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 46,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "B2",
+        "F#3",
+        "A3",
+        "D4",
+        "F#4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        5,
+        2,
+        1
+      ],
+      [
+        3,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        3,
+        2
+      ],
+      [
+        4,
+        4,
+        3
+      ]
+    ],
+    "renderedChordId": "Bm7",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Csus2",
+    "fullDiagram": {
+      "chord": "Csus2",
+      "compact": false,
+      "baseFret": 3,
+      "frets": [
+        null,
+        3,
+        5,
+        5,
+        3,
+        3
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 3,
+          "fromString": 5,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 46,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "C3",
+        "G3",
+        "C4",
+        "D4",
+        "G4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Csus2",
+      "compact": true,
+      "baseFret": 3,
+      "frets": [
+        null,
+        3,
+        5,
+        5,
+        3,
+        3
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 3,
+          "fromString": 5,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 46,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "C3",
+        "G3",
+        "C4",
+        "D4",
+        "G4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        5,
+        3,
+        1
+      ],
+      [
+        2,
+        3,
+        1
+      ],
+      [
+        1,
+        3,
+        1
+      ],
+      [
+        4,
+        5,
+        3
+      ],
+      [
+        3,
+        5,
+        4
+      ]
+    ],
+    "renderedChordId": "Csus2",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Dsus2",
+    "fullDiagram": {
+      "chord": "Dsus2",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        3,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "",
+        "D3",
+        "A3",
+        "D4",
+        "E4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Dsus2",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        3,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "",
+        "D3",
+        "A3",
+        "D4",
+        "E4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        3,
+        2,
+        1
+      ],
+      [
+        2,
+        3,
+        3
+      ]
+    ],
+    "renderedChordId": "Dsus2",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Asus2",
+    "fullDiagram": {
+      "chord": "Asus2",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        0,
+        2,
+        2,
+        0,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "A2",
+        "E3",
+        "A3",
+        "B3",
+        "E4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Asus2",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        0,
+        2,
+        2,
+        0,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "A2",
+        "E3",
+        "A3",
+        "B3",
+        "E4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        4,
+        2,
+        2
+      ],
+      [
+        3,
+        2,
+        3
+      ]
+    ],
+    "renderedChordId": "Asus2",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Csus4",
+    "fullDiagram": {
+      "chord": "Csus4",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        3,
+        3,
+        0,
+        1,
+        1
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 1,
+          "fromString": 2,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 100,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "C3",
+        "F3",
+        "G3",
+        "C4",
+        "F4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Csus4",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        3,
+        3,
+        0,
+        1,
+        1
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 1,
+          "fromString": 2,
+          "toString": 1,
+          "lines": [
+            {
+              "x1": 100,
+              "x2": 118,
+              "y1": 48,
+              "y2": 48,
+              "stroke": 13
+            }
+          ]
+        }
+      ],
+      "stringNotes": [
+        "",
+        "C3",
+        "F3",
+        "G3",
+        "C4",
+        "F4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        5,
+        3,
+        3
+      ],
+      [
+        4,
+        3,
+        4
+      ]
+    ],
+    "renderedChordId": "Csus4",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Dsus4",
+    "fullDiagram": {
+      "chord": "Dsus4",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        3,
+        3
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "",
+        "D3",
+        "A3",
+        "D4",
+        "G4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Dsus4",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        3,
+        3
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "",
+        "D3",
+        "A3",
+        "D4",
+        "G4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        3,
+        2,
+        1
+      ],
+      [
+        2,
+        3,
+        3
+      ],
+      [
+        1,
+        3,
+        4
+      ]
+    ],
+    "renderedChordId": "Dsus4",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Esus4",
+    "fullDiagram": {
+      "chord": "Esus4",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        0,
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "E2",
+        "B2",
+        "E3",
+        "A3",
+        "B3",
+        "E4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Esus4",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        0,
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "E2",
+        "B2",
+        "E3",
+        "A3",
+        "B3",
+        "E4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        5,
+        2,
+        2
+      ],
+      [
+        4,
+        2,
+        3
+      ],
+      [
+        3,
+        2,
+        4
+      ]
+    ],
+    "renderedChordId": "Esus4",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  },
+  {
+    "id": "Asus4",
+    "fullDiagram": {
+      "chord": "Asus4",
+      "compact": false,
+      "baseFret": 1,
+      "frets": [
+        null,
+        0,
+        2,
+        2,
+        3,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "A2",
+        "E3",
+        "A3",
+        "D4",
+        "E4"
+      ]
+    },
+    "compactDiagram": {
+      "chord": "Asus4",
+      "compact": true,
+      "baseFret": 1,
+      "frets": [
+        null,
+        0,
+        2,
+        2,
+        3,
+        0
+      ],
+      "barres": [],
+      "stringNotes": [
+        "",
+        "A2",
+        "E3",
+        "A3",
+        "D4",
+        "E4"
+      ]
+    },
+    "fingerInstructions": [
+      [
+        4,
+        2,
+        2
+      ],
+      [
+        3,
+        2,
+        3
+      ],
+      [
+        2,
+        3,
+        4
+      ]
+    ],
+    "renderedChordId": "Asus4",
+    "handStatus": "needs-review",
+    "handHidden": true,
+    "realWebGLDrawCalls": 81,
+    "realWebGLTriangles": 15542
+  }
+]

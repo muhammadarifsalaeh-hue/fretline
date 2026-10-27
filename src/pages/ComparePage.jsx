@@ -1,7 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { LANG, t } from '@/i18n';
-import CompareEmpty from '@/components/compare/CompareEmpty';
 import CompareTable from '@/components/compare/CompareTable';
 import CompareVerdicts from '@/components/compare/CompareVerdicts';
 import { analyseRows } from '@/components/compare/compareRows';
@@ -106,7 +105,6 @@ export default function ComparePage() {
             <ul className="pc-benefits">{benefits.map((benefit) => <li key={benefit.icon}><span className="pc-benefit-icon"><ComparisonIcon name={benefit.icon} /></span><span className="pc-benefit-title">{benefit.title}</span><span className="pc-benefit-copy">{benefit.text}</span></li>)}</ul>
           </div>
           <p className="pc-hero__signature" aria-hidden="true">Compare.<br />Find your tone.</p>
-          <AppLink href="/image-credits#discovery-photography" className="pc-photo-credits">{english ? 'Atmospheric photography · Credits' : 'ภาพประกอบบรรยากาศ · เครดิตภาพ'}</AppLink>
         </div>
       </header>
       <section ref={contentRef} className="container-x pc-workspace" aria-label={t('p4.compare.title')}>
@@ -119,9 +117,8 @@ export default function ComparePage() {
           <span className="compare-count" role="status" aria-atomic="true">{t('p4.compare.count', { n: selected.length, max: MAX_COMPARE })}</span>
         </div>
         <ComparisonSlots selected={selected} onAdd={() => setPickerOpen(true)} onRemove={removeGuitar} />
-        <p className="phase4-data-note pc-data-note">{t(includeSamples ? 'p4.compare.sampleNote' : 'p4.compare.verifiedNote')} <span>{english ? 'Unconfirmed fields remain unspecified; no prices are inferred from images.' : 'ช่องที่ยังไม่มีแหล่งยืนยันจะแสดงว่ายังไม่ยืนยัน ไม่อนุมานราคาหรือสเปกจากภาพ'}</span></p>
         {selected.some((guitar) => guitar.archived) && <p className="archive-notice" role="note">{t('p7.archive.saved')}</p>}
-        {!ready ? <div className="pc-empty-state"><CompareEmpty selected={selected} onAdd={() => setPickerOpen(true)} onSelect={changeSelection} /></div> : <>
+        {ready && <>
           <div className="pc-categories" role="tablist" aria-label={english ? 'Comparison categories' : 'หมวดหมู่ข้อมูลเปรียบเทียบ'}>
             {COMPARE_CATEGORIES.map((entry, index) => <button key={entry.id} type="button" role="tab" id={`compare-tab-${entry.id}`} aria-selected={category === entry.id} aria-controls="compare-category-panel" tabIndex={category === entry.id ? 0 : -1} data-compare-category={entry.id} ref={(node) => { categoryRefs.current[index] = node; }} onClick={() => setCategory(entry.id)} onKeyDown={(event) => changeCategoryByKey(event, index)}><ComparisonIcon name={entry.icon} size={19} /><span>{english ? entry.en : entry.th}</span></button>)}
           </div>

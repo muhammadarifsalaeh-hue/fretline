@@ -23,12 +23,7 @@ export default function QuizFlow({ answers, index, onNavigate, onFinish }) {
     if (!selected) return;
     activeIndex === QUIZ_STEPS.length - 1 ? onFinish(answers) : onNavigate(answers, activeIndex + 1);
   };
-  const start = () => {
-    if (index < 0) onNavigate(answers, 0);
-    else panelRef.current?.scrollIntoView({ block: 'start', behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
-    headingRef.current?.focus({ preventScroll: true });
-  };
-  return <QuizIntro onStart={start}>
+  return <QuizIntro>
     <section className="container-x quiz-shell" aria-label={quizCopy('แบบทดสอบค้นหากีตาร์', 'Find your guitar questionnaire')}>
       <div className="quiz-studio-panel" id="quiz-questionnaire" ref={panelRef}>
         <QuizProgress index={activeIndex} total={QUIZ_STEPS.length} />

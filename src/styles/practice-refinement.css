@@ -1,0 +1,149 @@
+/* Presentation only. The chord database, renderer, rig and camera math are unchanged. */
+.practice-page.practice-refined { padding-top: calc(var(--fl-header-height) + 24px); padding-bottom: 46px; background: radial-gradient(ellipse at 84% 0,#ad7f2920,transparent 35%),#080909; }
+.practice-page.practice-refined .container-x { max-width: 1400px; }
+.practice-page.practice-refined .practice-intro h1 { max-width: none; margin-top: 0; font-family: var(--fl-font-body); font-size: clamp(30px,3.2vw,45px); font-weight: 500; line-height: 1.55; }
+.practice-page.practice-refined .practice-intro-description { max-width: none; margin-top: 3px; font-size: 15px; color: #c8c4bb; }
+.practice-page.practice-refined .practice-workspace { margin-top: 22px; }
+.practice-page.practice-refined .practice-studio { overflow: hidden; border: 1px solid #c1a0645e; border-radius: 13px; background: linear-gradient(155deg,#a8833210,transparent 40%),#0b0c0b; }
+.practice-page.practice-refined .practice-studio-layout { display: flex; flex-direction: column; gap: 0; align-items: stretch; }
+.practice-page.practice-refined .practice-viewer-column { position: static; min-width: 0; }
+.practice-page.practice-refined .practice-viewer { position: relative; overflow: visible; border: 0; border-radius: 0; background: #080909; padding-top: 70px; }
+.practice-page.practice-refined .practice-camera-views { position: absolute; z-index: 4; top: 13px; left: 18px; max-width: min(610px,calc(100% - 36px)); }
+.practice-page.practice-refined .practice-camera-views summary { display: flex; align-items: center; justify-content: center; gap: 10px; min-height: 44px; padding: 9px 14px; border: 1px solid #c1a06449; border-radius: 7px; color: var(--fl-accent-soft); background: #11120ff5; font-size: 12px; cursor: pointer; list-style: none; }
+.practice-page.practice-refined .practice-camera-views summary::-webkit-details-marker { display: none; }
+.practice-page.practice-refined .practice-camera-views summary::after { content: '⌄'; font-size: 15px; }
+.practice-page.practice-refined .practice-camera-views[open] summary::after { content: '⌃'; }
+.practice-page.practice-refined .practice-viewer-presets { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; padding: 9px; border: 1px solid #c1a06449; border-radius: 8px; background: #10110ffa; box-shadow: 0 12px 35px #0008; }
+.practice-page.practice-refined .practice-viewer-presets button { font-size: 12px; }
+.practice-page.practice-refined .practice-canvas-stage { height: clamp(330px,34vw,475px); background: radial-gradient(ellipse at 70% 47%,#30261b,#0e100e 50%,#070807 95%); border-top: 0; }
+.practice-page.practice-refined .practice-camera-controls { position: absolute; z-index: 3; top: 12px; right: 17px; padding: 0; gap: 8px; flex-wrap: nowrap; }
+.practice-page.practice-refined .practice-camera-controls > div { gap: 0; }
+.practice-page.practice-refined .practice-camera-controls button { min-width: 44px; min-height: 44px; border-radius: 7px; background: #0b0c0be8; color: #e6e0d4; }
+.practice-page.practice-refined .practice-camera-controls .practice-camera-reset { min-width: 44px; padding: 9px 12px; }
+.practice-page.practice-refined .practice-camera-reset > span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.practice-page.practice-refined .practice-control-divider { width: 5px; height: 1px; margin-inline: 0; background: transparent; }
+.practice-page.practice-refined .practice-hand-state { justify-content: flex-end; gap: 14px; padding: 8px 20px; border-top: 1px solid #c1a06420; border-bottom: 0; background: #0c0d0b; }
+.practice-page.practice-refined .practice-hand-state:empty { display: none; }
+.practice-page.practice-refined .practice-hand-state > p { margin: 0; font-size: 12px; color: #c5bca8; }
+.practice-page.practice-refined .practice-hand-state button { font-size: 11px; }
+.practice-page.practice-refined .practice-hand-review-warning { top: 10px; max-width: 520px; }
+.practice-page.practice-refined .practice-chord-detail { display: grid; grid-template-columns: 105px 165px minmax(230px,1.2fr) minmax(170px,1fr); gap: 24px; align-items: start; padding: 27px 28px 18px; border: 0; border-top: 1px solid #c1a06430; border-radius: 0; background: linear-gradient(155deg,#b18b3f08,transparent 60%); }
+.practice-page.practice-refined .practice-selected-heading { grid-column: 1; grid-row: 1; }
+.practice-page.practice-refined .practice-selected-heading h2 { margin: 0; color: var(--fl-accent-soft); font: 400 clamp(54px,5.5vw,76px)/1.12 var(--fl-font-display); overflow-wrap: anywhere; }
+.practice-page.practice-refined .practice-selected-heading > span { display: block; margin-top: 10px; font-size: 12px; color: #c5c2b7; }
+.practice-page.practice-refined .practice-diagram-wrap { grid-column: 2; grid-row: 1; margin: 0; }
+.practice-page.practice-refined .practice-diagram-wrap .practice-chord-diagram { width: 155px; height: auto; }
+.practice-page.practice-refined .practice-fingering { grid-column: 3; grid-row: 1; margin: 0; padding: 0 0 0 24px; border-top: 0; border-left: 1px solid #c1a0642b; }
+.practice-page.practice-refined .practice-fingering h3 { margin-bottom: 16px; color: var(--fl-accent-soft); font-size: 14px; font-weight: 500; }
+.practice-page.practice-refined .practice-fingering ul { gap: 15px; }
+.practice-page.practice-refined .practice-fingering li { gap: 12px; }
+.practice-page.practice-refined .practice-finger-number { width: 29px; height: 29px; border-color: #cfad6970; color: #17130b; background: #ddbc77; font-size: 13px; }
+.practice-page.practice-refined .practice-fingering li > span:last-child { font-size: 13px; line-height: 1.75; }
+.practice-page.practice-refined .practice-fingering li > span:last-child > span { font-size: 12px; color: #bcb8ad; }
+.practice-page.practice-refined .practice-playing-notes { grid-column: 4; grid-row: 1; min-width: 0; padding-left: 23px; border-left: 1px solid #c1a0642b; }
+.practice-page.practice-refined .practice-string-status { margin-top: 0; font-size: 13px; }
+.practice-page.practice-refined .practice-string-status > div { gap: 15px; padding: 9px 0; border-bottom: 1px solid #c1a06420; }
+.practice-page.practice-refined .practice-string-status dd { color: #e5dfd0; }
+.practice-page.practice-refined .practice-instructions { margin-top: 13px; border-top: 0; }
+.practice-page.practice-refined .practice-instructions summary { font-size: 12px; }
+.practice-page.practice-refined .practice-instructions ol { font-size: 12px; }
+.practice-page.practice-refined .practice-chord-navigation { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 0; padding: 0 20px 18px; }
+.practice-page.practice-refined .practice-chord-navigation button { min-height: 48px; min-width: 150px; font-size: 12px; background: #0c0d0c; }
+.practice-page.practice-refined .practice-navigation-count { font-size: 13px; color: #c4bba9; }
+.practice-page.practice-refined .practice-chord-library { margin-top: 31px; }
+.practice-page.practice-refined .practice-section-heading { margin-bottom: 15px; }
+.practice-page.practice-refined .practice-section-heading h2 { margin: 0; font-size: 24px; }
+.practice-page.practice-refined .practice-library-toolbar { align-items: center; gap: 12px; }
+.practice-page.practice-refined .practice-search-field { width: 100%; }
+.practice-page.practice-refined .practice-search-field input { min-height: 50px; font-size: 14px; }
+.practice-page.practice-refined .practice-result-summary { flex: 0 0 auto; gap: 10px; }
+.practice-page.practice-refined .practice-result-summary:not(.practice-sr-only) { min-width: 155px; }
+.practice-page.practice-refined .practice-result-summary.practice-sr-only { min-height: 0; }
+.practice-page.practice-refined .practice-type-filters { gap: 9px; margin-top: 16px; margin-bottom: 19px; }
+.practice-page.practice-refined .practice-type-filters button { padding-inline: 19px; font-size: 12px; }
+.practice-page.practice-refined .practice-type-filters button[aria-pressed='true'] { color: #18140b; background: linear-gradient(120deg,#ebc77d,#d5ad65); border-color: #d4af6a; }
+.practice-page.practice-refined .practice-chord-options { grid-template-columns: repeat(7,minmax(0,1fr)); gap: 12px; }
+.practice-page.practice-refined .practice-chord-option { display: flex; flex-direction: column; align-items: center; min-height: 195px; gap: 0; padding: 16px 9px 17px; text-align: center; background: linear-gradient(150deg,#c0a06409,transparent 55%),#0c0d0c; }
+.practice-page.practice-refined .practice-chord-name { align-self: auto; font-size: 32px; }
+.practice-page.practice-refined .practice-chord-quality { align-self: auto; margin-top: 2px; font-size: 11px; }
+.practice-page.practice-refined .practice-chord-option .practice-chord-diagram { width: 90px; height: auto; max-width: 100%; margin-top: 8px; }
+.practice-page.practice-refined .practice-chord-option[aria-pressed='true'] { border-color: #d6b471; box-shadow: 0 0 0 1px #d6b47120,0 0 18px #ba8a2520; }
+.practice-page.practice-refined .practice-model-credits { margin-top: 23px; border-top: 1px solid #c1a0642b; color: #a8a395; font-size: 11px; }
+.practice-page.practice-refined .practice-model-credits summary { display: inline-flex; align-items: center; min-height: 44px; cursor: pointer; }
+.practice-page.practice-refined .practice-model-credits p { padding-bottom: 14px; line-height: 1.9; }
+.practice-page.practice-refined .practice-model-credits a { color: var(--fl-accent-soft); text-decoration: underline; text-underline-offset: 3px; }
+.practice-page.practice-refined :is(button,a,summary,input):focus-visible { outline: 2px solid var(--fl-focus); outline-offset: 4px; }
+@media (max-width:1199px) {
+  .practice-page.practice-refined .practice-chord-detail { grid-template-columns: 90px 145px minmax(220px,1.2fr) minmax(150px,1fr); gap: 18px; padding-inline: 23px; }
+  .practice-page.practice-refined .practice-fingering,.practice-page.practice-refined .practice-playing-notes { padding-left: 18px; }
+  .practice-page.practice-refined .practice-chord-options { grid-template-columns: repeat(6,minmax(0,1fr)); }
+}
+@media (max-width:1023px) {
+  .practice-page.practice-refined .practice-canvas-stage { height: clamp(340px,44vw,420px); }
+  .practice-page.practice-refined .practice-chord-detail { grid-template-columns: 150px minmax(0,1fr); gap: 0 30px; padding: 24px; }
+  .practice-page.practice-refined .practice-selected-heading { grid-column: 1; grid-row: 1; }
+  .practice-page.practice-refined .practice-selected-heading h2 { font-size: 56px; }
+  .practice-page.practice-refined .practice-diagram-wrap { grid-column: 1; grid-row: 2; margin-top: 12px; }
+  .practice-page.practice-refined .practice-fingering { grid-column: 2; grid-row: 1 / 3; padding-left: 26px; }
+  .practice-page.practice-refined .practice-playing-notes { grid-column: 1 / -1; grid-row: 3; margin-top: 20px; padding: 0; border-left: 0; }
+  .practice-page.practice-refined .practice-string-status { grid-template-columns: 1fr 1fr; gap: 24px; }
+  .practice-page.practice-refined .practice-chord-options { grid-template-columns: repeat(5,minmax(0,1fr)); }
+}
+@media (max-width:639px) {
+  .practice-page.practice-refined { padding-top: calc(var(--fl-header-height) + 18px); padding-bottom: 38px; }
+  .practice-page.practice-refined .practice-intro h1 { font-size: 30px; }
+  .practice-page.practice-refined .practice-intro-description { font-size: 12px; }
+  .practice-page.practice-refined .practice-workspace { margin-top: 18px; }
+  .practice-page.practice-refined .practice-viewer { padding-top: 64px; }
+  .practice-page.practice-refined .practice-camera-views { top: 10px; left: 10px; max-width: calc(100% - 20px); }
+  .practice-page.practice-refined .practice-camera-views summary { padding-inline: 10px; font-size: 11px; }
+  .practice-page.practice-refined .practice-camera-controls { top: 10px; right: 9px; gap: 5px; }
+  .practice-page.practice-refined .practice-camera-controls button { min-width: 44px; min-height: 44px; }
+  .practice-page.practice-refined .practice-camera-controls .practice-camera-reset { min-width: 44px; padding-inline: 9px; }
+  .practice-page.practice-refined .practice-camera-controls .practice-camera-reset svg { width: 17px; }
+  .practice-page.practice-refined .practice-canvas-stage { height: 310px; }
+  .practice-page.practice-refined .practice-chord-detail { grid-template-columns: minmax(0,1fr) 145px; gap: 18px; padding: 22px 17px 18px; }
+  .practice-page.practice-refined .practice-selected-heading { align-self: center; }
+  .practice-page.practice-refined .practice-selected-heading h2 { font-size: 61px; }
+  .practice-page.practice-refined .practice-diagram-wrap { grid-column: 2; grid-row: 1; margin: 0; }
+  .practice-page.practice-refined .practice-diagram-wrap .practice-chord-diagram { width: 140px; }
+  .practice-page.practice-refined .practice-fingering { grid-column: 1 / -1; grid-row: 2; padding: 19px 0 0; border-left: 0; border-top: 1px solid #c1a0642b; }
+  .practice-page.practice-refined .practice-fingering h3 { margin-bottom: 14px; font-size: 14px; }
+  .practice-page.practice-refined .practice-fingering ul { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 15px 12px; }
+  .practice-page.practice-refined .practice-fingering li { align-items: start; gap: 9px; }
+  .practice-page.practice-refined .practice-finger-number { width: 26px; height: 26px; font-size: 12px; }
+  .practice-page.practice-refined .practice-fingering li > span:last-child { font-size: 12px; }
+  .practice-page.practice-refined .practice-fingering li > span:last-child > span { font-size: 11px; }
+  .practice-page.practice-refined .practice-playing-notes { grid-row: 3; margin-top: 0; }
+  .practice-page.practice-refined .practice-string-status { grid-template-columns: 1fr; gap: 0; }
+  .practice-page.practice-refined .practice-chord-navigation { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 0 15px 17px; }
+  .practice-page.practice-refined .practice-chord-navigation button { min-width: 0; padding-inline: 9px; min-height: 46px; font-size: 11px; }
+  .practice-page.practice-refined .practice-navigation-count { grid-column: 1 / -1; grid-row: 2; font-size: 12px; }
+  .practice-page.practice-refined .practice-chord-library { margin-top: 25px; }
+  .practice-page.practice-refined .practice-section-heading h2 { font-size: 22px; }
+  .practice-page.practice-refined .practice-library-toolbar { align-items: stretch; }
+  .practice-page.practice-refined .practice-search-field input { font-size: 13px; }
+  .practice-page.practice-refined .practice-type-filters { gap: 7px; }
+  .practice-page.practice-refined .practice-type-filters button { padding-inline: 13px; font-size: 11px; }
+  .practice-page.practice-refined .practice-chord-options { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 9px; }
+  .practice-page.practice-refined .practice-chord-option { min-height: 180px; padding-inline: 6px; }
+  .practice-page.practice-refined .practice-chord-name { font-size: 29px; }
+  .practice-page.practice-refined .practice-chord-option .practice-chord-diagram { width: 78px; }
+  .practice-page.practice-refined .practice-hand-state { align-items: stretch; padding-inline: 15px; }
+}
+@media (max-width:389px) {
+  .practice-page.practice-refined .practice-viewer { padding-top: 116px; }
+  .practice-page.practice-refined .practice-camera-views { top: 62px; }
+}
+@media (max-width:359px) {
+  .practice-page.practice-refined .practice-camera-views summary { width: 75px; padding-inline: 7px; }
+  .practice-page.practice-refined .practice-chord-detail { grid-template-columns: minmax(0,1fr) 125px; gap: 16px; }
+  .practice-page.practice-refined .practice-diagram-wrap .practice-chord-diagram { width: 122px; }
+  .practice-page.practice-refined .practice-fingering ul { grid-template-columns: minmax(0,1fr); }
+  .practice-page.practice-refined .practice-chord-options { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (prefers-reduced-motion:reduce) {
+  .practice-page.practice-refined .practice-viewer button,.practice-page.practice-refined .practice-type-filters button,.practice-page.practice-refined .practice-chord-option { transition: none; }
+}
+
+.practice-page.practice-refined .practice-selected-heading.has-long-name h2 { font-size: 34px; line-height: 1.4; overflow-wrap: normal; }

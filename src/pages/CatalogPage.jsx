@@ -11,6 +11,8 @@ import MobileFilterDrawer from '@/components/catalog/MobileFilterDrawer';
 import AppLink from '@/components/ui/AppLink';
 import { CloseIcon, SearchIcon } from '@/components/ui/Icons';
 import useCatalogFilters, { HAS_CATALOG_PRICES } from '@/hooks/useCatalogFilters';
+import { HOME_DISCOVERY_ASSETS } from '@/data/homeDiscoveryAssets';
+import '@/styles/catalog-refinement.css';
 
 const PAGE_SIZE = 9;
 
@@ -23,6 +25,7 @@ export default function CatalogPage() {
   const pageCount = Math.max(1, Math.ceil(c.results.length / PAGE_SIZE));
   const page = Math.min(filters.page, pageCount);
   const visible = c.results.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+  const headerPhoto = HOME_DISCOVERY_ASSETS.quizBackdrop;
 
   useEffect(() => { document.title = t('catalog.docTitle'); }, []);
   useEffect(() => {
@@ -52,7 +55,12 @@ export default function CatalogPage() {
 
   return (
     <div className="catalog-page discovery-page">
-      <header className="catalog-heading container-x">
+      <div className="catalog-cinematic-hero">
+        <div className="catalog-cinematic-photo" aria-hidden="true">
+          <img src={headerPhoto.src} srcSet={headerPhoto.srcSet} sizes="(min-width: 640px) 70vw, 100vw"
+            width={headerPhoto.width} height={headerPhoto.height} alt="" loading="eager" fetchpriority="high" decoding="async" />
+        </div>
+        <header className="catalog-heading container-x">
         <nav aria-label={t('common.breadcrumb')} className="discovery-breadcrumb">
           <AppLink href="/">{t('nav.home')}</AppLink><span aria-hidden="true">›</span><span>{t('nav.guitars')}</span>
         </nav>
@@ -68,7 +76,8 @@ export default function CatalogPage() {
           <button type="submit" aria-label={t('search.button')} className="catalog-search-submit rounded-md bg-gold"><SearchIcon size={17} /></button>
         </form>
         <CategoryNavigation types={filters.types} onSelect={(id) => id === 'all' ? c.setTypes([]) : c.toggleType(id)} />
-      </header>
+        </header>
+      </div>
 
       <div className="catalog-body container-x">
         <aside aria-label={t('filters.title')} className="catalog-sidebar">
@@ -85,7 +94,6 @@ export default function CatalogPage() {
             drawerOpen={drawerOpen} activeCount={c.activeCount} onOpenFilters={() => setDrawerOpen(true)} />
           <ActiveFilters filters={filters} priceActive={c.priceActive} onRemoveType={c.toggleType}
             onRemoveBrand={c.toggleBrand} onResetPrice={c.resetPrice} onClearQuery={() => c.setQuery('')} onClearAll={c.clearFilters} />
-          <p className="catalog-data-note">{t('catalog.dataNote')}</p>
           {c.results.length === 0 ? <CatalogEmpty onClear={c.clearFilters}
             title={c.priceActive && !HAS_CATALOG_PRICES ? t('p6.price.empty') : undefined}
             text={c.priceActive && !HAS_CATALOG_PRICES ? t('p6.price.noData') : undefined} /> : (
