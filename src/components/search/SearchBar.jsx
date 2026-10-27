@@ -31,7 +31,7 @@ function Highlight({ text, query }) {
 }
 
 /** ช่องค้นหาใน Hero: autocomplete แบ่งกลุ่ม + ใช้คีย์บอร์ดได้ (↑ ↓ Enter Esc) */
-export default function SearchBar() {
+export default function SearchBar({ showSuggestions = true }) {
   const [query, setQuery] = useState('');
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(-1);
@@ -122,7 +122,7 @@ export default function SearchBar() {
       </div>
 
       {/* ทางลัด */}
-      <ul className="mt-4 flex flex-wrap gap-2">
+      {showSuggestions && <ul className="mt-4 flex flex-wrap gap-2">
         {QUICK_CHIPS.map((chip) => (
           <li key={chip.label}>
             <AppLink
@@ -133,7 +133,7 @@ export default function SearchBar() {
             </AppLink>
           </li>
         ))}
-      </ul>
+      </ul>}
 
       {/* Autocomplete */}
       {showList && (

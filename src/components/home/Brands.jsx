@@ -40,7 +40,6 @@ export default function Brands() {
           </div>
         </div>
       </div>
-      <div className="signature-marquee-footer"><AppLink href="/brands#brand-credits">{t('signature.brand.credits')}</AppLink></div>
     </div>
   </section>;
 }

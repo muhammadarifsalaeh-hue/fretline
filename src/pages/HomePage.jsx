@@ -15,10 +15,12 @@ export default function HomePage() {
     <div className="signature-home premium-home">
       <Hero />
       <Brands />
-      <FeaturedGuitars />
       <Categories />
-      <FindMyGuitar />
-      <CompareSection />
+      <div className="home-editorial-pair container-x">
+        <FindMyGuitar />
+        <CompareSection />
+      </div>
+      <FeaturedGuitars />
     </div>
   );
 }

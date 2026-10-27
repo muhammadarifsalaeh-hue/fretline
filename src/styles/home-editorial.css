@@ -1,0 +1,37 @@
+/* Compact Home gateways. Real Quiz and Compare screens own their tools. */
+.signature-home.premium-home .home-editorial-pair { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; }
+.signature-home.premium-home .home-editorial { position: relative; isolation: isolate; overflow: hidden; border: 1px solid #c2a46b42; border-radius: 12px; background: #080909; }
+.signature-home.premium-home .home-editorial-photo { position: absolute; inset: 0; z-index: -2; pointer-events: none; }
+.signature-home.premium-home .home-editorial-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.signature-home.premium-home .home-editorial::after { content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: linear-gradient(90deg,#080909f5 0%,#080909e0 25%,#08090976 55%,#08090908),linear-gradient(0deg,#08090993,transparent 40%); }
+.signature-home.premium-home .home-editorial-inner { display: flex; align-items: center; min-height: 305px; padding: 28px; }
+.signature-home.premium-home .home-editorial-copy { max-width: 310px; }
+.signature-home.premium-home .home-editorial .signature-section-eyebrow { gap: 8px; font-size: 9px; letter-spacing: .16em; }
+.signature-home.premium-home .home-editorial .signature-section-eyebrow::before { width: 17px; }
+.signature-home.premium-home .home-editorial h2 { margin-top: 16px; font-size: clamp(24px,2.15vw,32px); font-weight: 500; line-height: 1.45; letter-spacing: -.025em; }
+.signature-home.premium-home .home-editorial h2 span { color: var(--fl-accent-soft); }
+.signature-home.premium-home .home-editorial-description { max-width: 260px; margin-top: 15px; color: #d0cdc6; font-size: 13px; line-height: 1.85; text-wrap: pretty; }
+.signature-home.premium-home .home-editorial-cta { min-height: 47px; margin-top: 21px; gap: 17px; padding: 11px 21px; border-radius: 7px; background: linear-gradient(110deg,#edca80,#ddb46b); color: #17130b; font-size: 13px; }
+.signature-home.premium-home .home-editorial-cta:hover { background: #efcb82; }
+.signature-home.premium-home .home-editorial-cta:focus-visible { outline: 2px solid var(--fl-focus); outline-offset: 5px; }
+.signature-home.premium-home .home-editorial--find .home-editorial-photo { left: 22%; }
+.signature-home.premium-home .home-editorial--find .home-editorial-photo img { object-position: 50% 55%; filter: saturate(.85) brightness(.9); }
+.signature-home.premium-home .home-editorial--compare .home-editorial-photo img { object-position: 75% 62%; filter: saturate(.88) brightness(.9); }
+@media (max-width:1023px) {
+  .signature-home.premium-home .home-editorial-pair { grid-template-columns: minmax(0,1fr); gap: 18px; }
+  .signature-home.premium-home .home-editorial-inner { min-height: 330px; padding: 30px; }
+  .signature-home.premium-home .home-editorial h2 { font-size: 32px; }
+  .signature-home.premium-home .home-editorial-copy { max-width: 370px; }
+  .signature-home.premium-home .home-editorial-description { max-width: 310px; font-size: 14px; }
+}
+@media (max-width:639px) {
+  .signature-home.premium-home .home-editorial-pair { gap: 14px; }
+  .signature-home.premium-home .home-editorial-inner { min-height: 330px; padding: 24px 20px; }
+  .signature-home.premium-home .home-editorial-copy { max-width: 100%; }
+  .signature-home.premium-home .home-editorial h2 { font-size: clamp(24px,7.3vw,29px); }
+  .signature-home.premium-home .home-editorial-description { max-width: 238px; font-size: 12px; }
+  .signature-home.premium-home .home-editorial-cta { margin-top: 18px; }
+  .signature-home.premium-home .home-editorial--find .home-editorial-photo { left: 15%; }
+  .signature-home.premium-home .home-editorial--find .home-editorial-photo img { object-position: 58% 40%; }
+  .signature-home.premium-home .home-editorial--compare .home-editorial-photo img { object-position: 83% 50%; }
+}

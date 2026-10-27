@@ -1,5 +1,6 @@
 import { LANG } from '@/i18n';
 import { HOME_DISCOVERY_CREDITS } from '@/data/homeDiscoveryAssets';
+import { HOME_CATEGORY_CREDITS } from '@/data/homeCategoryAssets';
 
 const copy = (th, en) => LANG === 'en' ? en : th;
 
@@ -12,7 +13,7 @@ export default function HomePhotographyCredits() {
       'Atmospheric and category photographs introduce instrument types. They do not establish the model or specifications of a recommendation or comparison. Comparison cards retain their registered model-specific images. Some classical and bass photographs were already isolated by their original publishers.',
     )}</p>
     <ul className="mt-6 grid gap-6 md:grid-cols-2">
-      {HOME_DISCOVERY_CREDITS.map((photo) => <li key={photo.key ?? photo.sourceUrl} className="min-w-0 overflow-hidden rounded-xl border border-line bg-surface">
+      {[...HOME_DISCOVERY_CREDITS, ...HOME_CATEGORY_CREDITS].map((photo) => <li key={photo.sourceUrl} className="min-w-0 overflow-hidden rounded-xl border border-line bg-surface">
         <div className="flex h-52 items-center justify-center bg-[#080807] p-4">
           <img src={photo.src} srcSet={photo.srcSet} sizes="(min-width: 768px) 35vw, 85vw" width={photo.width} height={photo.height}
             alt={photo.alt} loading="lazy" decoding="async" className="h-full w-full object-contain" />

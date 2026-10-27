@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "catalog",
+      "command": "npm run catalog:check",
+      "exitCode": 0,
+      "durationSeconds": 0.515,
+      "passed": true,
+      "log": "catalog.log",
+      "summaryLines": [
+        "Verified reviews    : 0",
+        "Models with images  : 3",
+        "Placeholder models  : 197",
+        "",
+        "No data problems found. Unknown fields remain unknown."
+      ]
+    },
+    {
+      "name": "images",
+      "command": "npm run images:check",
+      "exitCode": 0,
+      "durationSeconds": 0.774,
+      "passed": true,
+      "log": "images.log",
+      "summaryLines": [
+        "- Missing: PRS SE Santana (prs-se-santana)",
+        "- Missing: PRS SE Mark Holcomb (prs-se-mark-holcomb)",
+        "- Missing: PRS SE Paul's Guitar (prs-se-paul-s-guitar)",
+        "- Missing: PRS SE DGT (prs-se-dgt)",
+        "Image registration and file integrity checks passed."
+      ]
+    },
+    {
+      "name": "practice",
+      "command": "npm run practice:check",
+      "exitCode": 0,
+      "durationSeconds": 0.816,
+      "passed": true,
+      "log": "practice.log",
+      "summaryLines": [
+        "PASS Enharmonic note parsing preserves actual octave and rejects non-note labels",
+        "PASS Learning references record actual read dates and specific reviewed facts",
+        "PASS Practice reference data cannot be accidentally mutated by viewer state",
+        "",
+        "Practice data/geometry: 56 passed, 0 failed."
+      ]
+    },
+    {
+      "name": "phase4",
+      "command": "npm run phase4:check",
+      "exitCode": 0,
+      "durationSeconds": 1.663,
+      "passed": true,
+      "log": "phase4.log",
+      "summaryLines": [
+        "PASS sample specs stay hidden unless explicitly enabled",
+        "PASS sample reviews are absent from comparison; sourced reviews can appear",
+        "PASS all real catalog recommendations have finite scores and no review bonus",
+        "",
+        "19/19 checks passed"
+      ]
+    },
+    {
+      "name": "yamaha",
+      "command": "node scripts/check-yamaha-import.mjs",
+      "exitCode": 0,
+      "durationSeconds": 0.697,
+      "passed": true,
+      "log": "yamaha.log",
+      "summaryLines": [
+        "PASS retained original HTTP evidence hashes match the bodies used for price/specification review",
+        "PASS every original non-image attachment remains available byte-for-byte as unverified provenance",
+        "PASS new verified specification keys have shared Detail/Compare definitions and both translations",
+        "PASS production build contains no newly supplied image bytes or development preview asset routes",
+        "11 Yamaha import evidence/isolation checks passed."
+      ]
+    }
+  ],
+  "physicalIPadSafariTested": false,
+  "note": "No build run here; root owns the production build freeze. No historical stale Phase5–9 fixture expectations were rewritten.",
+  "observedProductionBuildAfterChecks": {
+    "indexSHA256": "88fbd6e91c9fec61eac614da0d91837e9411673d9bdd6c5c94570b3ddc7a59d6",
+    "assetCount": 84,
+    "note": "Observed after checks; this script does not claim a before/after build-stability comparison."
+  },
+  "checkTotals": {
+    "practice": {
+      "passed": 56,
+      "failed": 0
+    },
+    "phase4": {
+      "passed": 19,
+      "failed": 0
+    },
+    "yamaha": {
+      "passed": 11,
+      "failed": 0
+    }
+  },
+  "imageLimitations": {
+    "registeredModels": 3,
+    "catalogModels": 200,
+    "existingUnfilledProductImageModels": 197,
+    "note": "Image integrity passed for registered files; this does not mean all 200 catalog models have product photography."
+  }
+}

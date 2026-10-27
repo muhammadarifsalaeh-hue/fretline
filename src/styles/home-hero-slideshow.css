@@ -1,0 +1,18 @@
+/* Decorative images only: all search and navigation controls keep native input. */
+.signature-home.premium-home .signature-hero { touch-action: pan-y pinch-zoom; }
+.signature-home.premium-home .signature-hero .signature-hero-slide { position: absolute; inset: 0; opacity: 0; transition: opacity 800ms ease; pointer-events: none; background: #080909; }
+.signature-home.premium-home .signature-hero .signature-hero-slide.is-active { opacity: 1; }
+.signature-home.premium-home .signature-hero .signature-hero-slide img { display: block; position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; -webkit-user-drag: none; }
+.signature-home.premium-home .signature-hero .signature-hero-slide[data-scene='electric'] img { left: auto; width: 72%; object-position: 50% 58%; }
+.signature-home.premium-home .signature-hero .signature-hero-slide[data-scene='room'] img { object-position: 74% 62%; }
+.signature-home.premium-home .signature-hero .signature-hero-slide[data-scene='collection'] img { object-position: 72% 48%; }
+.signature-home.premium-home .signature-hero[data-hero-dragging='true'] { cursor: grabbing; user-select: none; -webkit-user-select: none; }
+.signature-home.premium-home .signature-hero .signature-hero-shade { z-index: 1; }
+@media (max-width:639px) {
+  .signature-home.premium-home .signature-hero .signature-hero-slide[data-scene='electric'] img { width: 100%; object-position: 60% 55%; }
+  .signature-home.premium-home .signature-hero .signature-hero-slide[data-scene='room'] img { object-position: 82% center; }
+  .signature-home.premium-home .signature-hero .signature-hero-slide[data-scene='collection'] img { object-position: 70% center; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .signature-home.premium-home .signature-hero .signature-hero-slide { transition: none; }
+}

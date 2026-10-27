@@ -1,13 +1,13 @@
-import { t } from '@/i18n';
+import { LANG, t } from '@/i18n';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { GUITARS } from '@/data/guitars';
 import GuitarCard from '@/components/guitar/GuitarCard';
-import Reveal from '@/components/ui/Reveal';
-import SectionHeading from '@/components/ui/SectionHeading';
+import AppLink from '@/components/ui/AppLink';
 import Tabs from '@/components/ui/Tabs';
-import { ChevronLeftIcon, ChevronRightIcon } from '@/components/ui/Icons';
+import { ArrowRightIcon, ChevronLeftIcon, ChevronRightIcon } from '@/components/ui/Icons';
 import { cn } from '@/utils/cn';
 import { preferredScrollBehavior } from '@/utils/dom';
+import { sortGuitars } from '@/utils/guitarSort';
 
 // Presentation order belongs to the homepage; catalogue records stay untouched.
 const COLLECTION_IMAGE_IDS = ['yamaha-pacifica-612viifm', 'martin-d-28', 'yamaha-fg820-12'];
@@ -17,11 +17,15 @@ const COLLECTION = [
 ];
 
 const TABS = [
-  { id: 'all', label: t('common.all') },
-  { id: 'electric', label: t('category.electric') },
-  { id: 'acoustic', label: t('category.acoustic') },
-  { id: 'bass', label: t('category.bass') },
+  { id: 'popular', label: LANG === 'en' ? 'Featured' : 'ยอดนิยม' },
+  { id: 'new', label: LANG === 'en' ? 'Recently added' : 'รุ่นใหม่' },
+  { id: 'price-desc', label: LANG === 'en' ? 'Price: high–low' : 'ราคาสูง–ต่ำ' },
+  { id: 'price-asc', label: LANG === 'en' ? 'Price: low–high' : 'ราคาต่ำ–สูง' },
 ];
+
+// "New" means recently added to this catalog, never an inferred release date.
+const RECENTLY_ADDED = GUITARS.filter((guitar) => guitar.intake?.batch)
+  .sort((a, b) => b.intake.batch.localeCompare(a.intake.batch));
 
 function ArrowButton({ direction, disabled, onClick }) {
   const Icon = direction === 'prev' ? ChevronLeftIcon : ChevronRightIcon;
@@ -42,13 +46,12 @@ function ArrowButton({ direction, disabled, onClick }) {
 }
 
 export default function FeaturedGuitars() {
-  const [tab, setTab] = useState('all');
+  const [tab, setTab] = useState('popular');
   const trackRef = useRef(null);
   const [scroll, setScroll] = useState({ thumb: 1, ratio: 0, atStart: true, atEnd: true });
 
-  // Keep every original featured model and every model in the category tabs.
   const items = useMemo(
-    () => tab === 'all' ? COLLECTION : GUITARS.filter((guitar) => guitar.category === tab),
+    () => tab === 'popular' ? COLLECTION : tab === 'new' ? RECENTLY_ADDED : sortGuitars(GUITARS, tab, { verifiedOnly: true }),
     [tab],
   );
 
@@ -86,15 +89,12 @@ export default function FeaturedGuitars() {
   };
 
   return (
-    <section id="featured" className="featured-section signature-collection bg-ink">
+    <section id="featured" className="featured-section signature-collection bg-ink" aria-labelledby="home-featured-title">
       <div className="container-x">
-        <Reveal className="signature-collection-heading">
-          <p className="signature-section-eyebrow">{t('signature.collection.eyebrow')}</p>
-          <SectionHeading title={t('signature.collection.title')} className="signature-collection-title" action={{ label: t('feat.viewAll'), href: '/guitars' }} />
-        </Reveal>
-
         <div className="signature-collection-controls">
+          <h2 id="home-featured-title">{LANG === 'en' ? 'Guitars to discover' : 'แนะนำกีตาร์ยอดนิยม'}</h2>
           <Tabs tabs={TABS} value={tab} onChange={setTab} label={t('feat.title')} idPrefix="featured-tab" panelId="featured-models" />
+          <AppLink href="/guitars" className="home-featured-view-all">{t('feat.viewAll')}<ArrowRightIcon size={16} /></AppLink>
           <div className="signature-collection-arrows">
             <ArrowButton direction="prev" disabled={scroll.atStart} onClick={() => scrollByPage(-1)} />
             <ArrowButton direction="next" disabled={scroll.atEnd} onClick={() => scrollByPage(1)} />
@@ -117,6 +117,7 @@ export default function FeaturedGuitars() {
               <GuitarCard guitar={guitar} />
             </div>
           ))}
+          {items.length === 0 && <p className="home-featured-empty">{LANG === 'en' ? 'No recently added models are confirmed yet.' : 'ยังไม่มีข้อมูลรุ่นที่เพิ่มใหม่ที่ยืนยันแล้ว'}</p>}
         </div>
 
         {/* progress bar บาง ๆ */}

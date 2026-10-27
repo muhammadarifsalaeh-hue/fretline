@@ -1,0 +1,39 @@
+{
+  "before": {
+    "/assets/index-D0UEm0TH.js": {
+      "bytes": 214176,
+      "gzipBytes": 60948
+    },
+    "/assets/vendor-DU_bXo7n.js": {
+      "bytes": 163333,
+      "gzipBytes": 53137
+    },
+    "/assets/guitar-catalog-BvOHfNeZ.js": {
+      "bytes": 529226,
+      "gzipBytes": 43624
+    },
+    "/assets/index-CHBQhHMg.css": {
+      "bytes": 163922,
+      "gzipBytes": 28312
+    }
+  },
+  "after": {
+    "/assets/index-CkeUMVUb.js": {
+      "bytes": 193933,
+      "gzipBytes": 55426
+    },
+    "/assets/vendor-DU_bXo7n.js": {
+      "bytes": 163333,
+      "gzipBytes": 53137
+    },
+    "/assets/guitar-catalog-BvOHfNeZ.js": {
+      "bytes": 529226,
+      "gzipBytes": 43624
+    },
+    "/assets/index-BCAxBzfa.css": {
+      "bytes": 153352,
+      "gzipBytes": 26634
+    }
+  },
+  "note": "Local production artifacts only; transfer-size comparison is not a field performance, frame-rate or Lighthouse score."
+}

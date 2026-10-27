@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "file": "src/assets/home-categories/electric-150.webp",
+      "decode": true,
+      "dimensionsMatch": true,
+      "hashMatch": true,
+      "hasExpectedAlpha": true,
+      "withinSourceSize": true
+    },
+    {
+      "file": "src/assets/home-categories/electric-300.webp",
+      "decode": true,
+      "dimensionsMatch": true,
+      "hashMatch": true,
+      "hasExpectedAlpha": true,
+      "withinSourceSize": true
+    },
+    {
+      "file": "src/assets/home-categories/acoustic-120.webp",
+      "decode": true,
+      "dimensionsMatch": true,
+      "hashMatch": true,
+      "hasExpectedAlpha": true,
+      "withinSourceSize": true
+    },
+    {
+      "file": "src/assets/home-categories/acoustic-231.webp",
+      "decode": true,
+      "dimensionsMatch": true,
+      "hashMatch": true,
+      "hasExpectedAlpha": true,
+      "withinSourceSize": true
+    }
+  ]
+}

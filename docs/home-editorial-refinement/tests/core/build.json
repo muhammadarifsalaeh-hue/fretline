@@ -1,0 +1,11 @@
+{
+  "command": "npm run build",
+  "passed": true,
+  "log": "build.log",
+  "productionIndexSHA256": "88fbd6e91c9fec61eac614da0d91837e9411673d9bdd6c5c94570b3ddc7a59d6",
+  "newDependencies": 0,
+  "notes": [
+    "Existing lazy-loaded Three.js chunk exceeds500kB; no Practice source or model was changed.",
+    "This build output is the frozen production candidate used by browser QA."
+  ]
+}

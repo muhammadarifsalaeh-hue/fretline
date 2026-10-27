@@ -1,0 +1,70 @@
+[
+  {
+    "key": "electric",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fender_Stratocaster_Relic_FCS_AvR.png",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Fender_Stratocaster_Relic_FCS_AvR.png",
+    "author": "Auge=mit",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceWidth": 1500,
+    "sourceHeight": 4000,
+    "originalSHA256": "acaaded8b781e724c0925b78b207bf4288fb75588db10a1a86db2428d25e061b",
+    "checkedOn": "2026-10-27",
+    "variants": [
+      {
+        "file": "electric-150.webp",
+        "width": 150,
+        "height": 400,
+        "bytes": 16580,
+        "sha256": "c6b851c36808cd74ad1c651afad3b6b93be91cd5ef1d4115a66daf52869411f1"
+      },
+      {
+        "file": "electric-300.webp",
+        "width": 300,
+        "height": 800,
+        "bytes": 42626,
+        "sha256": "7aa37ee09b1802bad2b35d994ef1062c796d42888937ae0957dadff0392be469"
+      }
+    ],
+    "altTh": "กีตาร์ไฟฟ้าทั้งตัวบนพื้นหลังโปร่งใส",
+    "altEn": "A complete electric guitar on a transparent background",
+    "role": "generic-category",
+    "kind": "real-photograph",
+    "productEvidence": false,
+    "changes": "Resized proportionally and encoded as WebP. Source transparency or original black background retained. No background removal, recoloring, generative editing, or model substitution."
+  },
+  {
+    "key": "acoustic",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guitar-jeffyong.png",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Guitar-jeffyong.png",
+    "author": "Fingerstylefreak11",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceWidth": 231,
+    "sourceHeight": 548,
+    "originalSHA256": "31a310347cce216bbc757128ea0b9fd4cb3ebe28af780a3b0bc9450eeb1075d0",
+    "checkedOn": "2026-10-27",
+    "variants": [
+      {
+        "file": "acoustic-120.webp",
+        "width": 120,
+        "height": 285,
+        "bytes": 6152,
+        "sha256": "e08b7fbed12381b9d8449f0aad5672cadb3b3e7f050d4f094e4ca207fd303bda"
+      },
+      {
+        "file": "acoustic-231.webp",
+        "width": 231,
+        "height": 548,
+        "bytes": 15608,
+        "sha256": "602cd39af4ad27a7b7fd12eb41da0ffc60f32d71b69e97f7fa0d616c99dca6ee"
+      }
+    ],
+    "altTh": "กีตาร์โปร่งสายเหล็กทั้งตัวบนพื้นหลังสีดำ",
+    "altEn": "A complete steel-string acoustic guitar against its original black background",
+    "role": "generic-category",
+    "kind": "real-photograph",
+    "productEvidence": false,
+    "changes": "Resized proportionally and encoded as WebP. Source transparency or original black background retained. No background removal, recoloring, generative editing, or model substitution."
+  }
+]

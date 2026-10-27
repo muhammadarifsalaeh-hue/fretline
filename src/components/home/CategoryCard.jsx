@@ -4,14 +4,14 @@ import { categoryUrl } from '@/utils/routes';
 import { ArrowUpRightIcon } from '@/components/ui/Icons';
 import AppLink from '@/components/ui/AppLink';
 import SmartImage from '@/components/ui/SmartImage';
-import { HOME_DISCOVERY_ASSETS } from '@/data/homeDiscoveryAssets';
+import { HOME_CATEGORY_ASSETS } from '@/data/homeCategoryAssets';
 
 export default function CategoryCard({ category, className = '' }) {
-  const photo = HOME_DISCOVERY_ASSETS[category.id];
+  const photo = HOME_CATEGORY_ASSETS[category.id];
   return (
-    <AppLink href={categoryUrl(category.id)} className={cn('signature-category-card', className)}>
+    <AppLink href={categoryUrl(category.id)} className={cn('signature-category-card', `signature-category-card--${category.id}`, className)}>
       <div className="signature-category-art" aria-hidden="true">
-        <SmartImage src={photo.src} srcSet={photo.srcSet} sizes="(min-width: 1024px) 160px, 130px"
+        <SmartImage src={photo.src} srcSet={photo.srcSet} sizes="(min-width: 1024px) 100px, (min-width: 600px) 120px, 80px"
           width={photo.width} height={photo.height} alt="" fit="contain" className="h-full w-full" />
       </div>
       <div className="signature-category-copy">

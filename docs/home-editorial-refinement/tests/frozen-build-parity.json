@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "homeChecks": 44,
+  "standaloneChecks": 25,
+  "deliveryScreenshots": 11,
+  "commonSourceAndBuildFiles": 262,
+  "allCommonHashesMatchCurrentFiles": true,
+  "distIndexSHA256": "88fbd6e91c9fec61eac614da0d91837e9411673d9bdd6c5c94570b3ddc7a59d6",
+  "browserVersions": {
+    "chromium": "154.0.8037.57",
+    "webkit": "26.5"
+  },
+  "physicalIPadSafariTested": false,
+  "homeErrorCounts": {
+    "consoleErrors": 0,
+    "runtimeErrors": 0,
+    "networkErrors": 0,
+    "failedRequests": 0
+  },
+  "standaloneErrorCounts": {
+    "consoleErrors": 0,
+    "runtimeErrors": 0,
+    "networkErrors": 0,
+    "failedRequests": 0
+  }
+}

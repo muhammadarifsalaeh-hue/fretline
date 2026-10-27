@@ -1,0 +1,27 @@
+PASS chromium-desktop-quiz-options
+PASS chromium-desktop-quiz-flow
+PASS chromium-desktop-six-result-fixtures
+PASS chromium-desktop-compare-interactions
+PASS chromium-desktop-responsive-320-ipad-landscape
+PASS chromium-desktop-untouched-page-regressions
+PASS chromium-tablet-quiz-options
+PASS chromium-tablet-quiz-flow
+PASS chromium-tablet-compare-interactions
+PASS chromium-mobile-quiz-options
+PASS chromium-mobile-quiz-flow
+PASS chromium-mobile-compare-interactions
+PASS chromium-actual-clipboard-success
+Skipping host requirements validation logic because `PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS` env variable is set.
+PASS webkit-desktop-quiz-options
+PASS webkit-desktop-quiz-flow
+PASS webkit-desktop-six-result-fixtures
+PASS webkit-desktop-compare-interactions
+PASS webkit-desktop-responsive-320-ipad-landscape
+PASS webkit-desktop-untouched-page-regressions
+PASS webkit-tablet-quiz-options
+PASS webkit-tablet-quiz-flow
+PASS webkit-tablet-compare-interactions
+PASS webkit-mobile-quiz-options
+PASS webkit-mobile-quiz-flow
+PASS webkit-mobile-compare-interactions
+RESULT True 25 25
