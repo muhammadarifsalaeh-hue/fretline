@@ -7,6 +7,7 @@ import { catalogUrlFor, labelOf, rankGuitars } from '@/utils/quizScoring';
 import AppLink from '@/components/ui/AppLink';
 import ShareLink from '@/components/ui/ShareLink';
 import MatchCard from './MatchCard';
+import '@/styles/premium-quiz.css';
 
 export default function QuizResults({ answers, onRetake, onEdit }) {
   const navigate = useNavigate();
@@ -21,7 +22,7 @@ export default function QuizResults({ answers, onRetake, onEdit }) {
     setCompareIds(ids); navigate(`/compare?ids=${ids.join(',')}`);
   };
   return (
-    <div className="quiz-results-page phase4-page">
+    <div className="quiz-results-page phase4-page premium-quiz">
       <header className="container-x phase4-heading">
         <nav aria-label={t('common.breadcrumb')} className="discovery-breadcrumb"><AppLink href="/">{t('nav.home')}</AppLink><span aria-hidden="true">›</span><AppLink href="/find-my-guitar">{t('nav.find')}</AppLink><span aria-hidden="true">›</span><span>{t('p4.quiz.results')}</span></nav>
         <p className="discovery-kicker">FRETLINE / YOUR NEXT GUITAR</p>

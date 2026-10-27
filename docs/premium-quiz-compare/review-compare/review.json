@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "viewport": "desktop",
+      "selected": 0,
+      "metrics": {
+        "viewport": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "viewport": "desktop",
+      "selected": 3,
+      "metrics": {
+        "viewport": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "viewport": "tablet",
+      "selected": 0,
+      "metrics": {
+        "viewport": 768,
+        "width": 768
+      }
+    },
+    {
+      "viewport": "tablet",
+      "selected": 3,
+      "metrics": {
+        "viewport": 768,
+        "width": 768
+      }
+    },
+    {
+      "viewport": "mobile",
+      "selected": 0,
+      "metrics": {
+        "viewport": 390,
+        "width": 390
+      }
+    },
+    {
+      "viewport": "mobile",
+      "selected": 3,
+      "metrics": {
+        "viewport": 390,
+        "width": 390
+      }
+    },
+    {
+      "viewport": "narrow",
+      "selected": 0,
+      "metrics": {
+        "viewport": 320,
+        "width": 320
+      }
+    },
+    {
+      "viewport": "narrow",
+      "selected": 3,
+      "metrics": {
+        "viewport": 320,
+        "width": 320
+      }
+    }
+  ],
+  "errors": []
+}

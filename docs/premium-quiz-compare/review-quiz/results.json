@@ -1,0 +1,68 @@
+{
+  "checks": [
+    {
+      "viewport": "desktop",
+      "width": 1440,
+      "overflow": false,
+      "allFiveSteps": true,
+      "optionCounts": [
+        5,
+        3,
+        5,
+        5,
+        4
+      ],
+      "photoTriptychLoaded": true,
+      "realResults": 3
+    },
+    {
+      "viewport": "tablet",
+      "width": 768,
+      "overflow": false,
+      "allFiveSteps": true,
+      "optionCounts": [
+        5,
+        3,
+        5,
+        5,
+        4
+      ],
+      "photoTriptychLoaded": true,
+      "realResults": 3
+    },
+    {
+      "viewport": "mobile",
+      "width": 390,
+      "overflow": false,
+      "allFiveSteps": true,
+      "optionCounts": [
+        5,
+        3,
+        5,
+        5,
+        4
+      ],
+      "photoTriptychLoaded": true,
+      "realResults": 3
+    },
+    {
+      "viewport": "small",
+      "width": 320,
+      "overflow": false,
+      "allFiveSteps": true,
+      "optionCounts": [
+        5,
+        3,
+        5,
+        5,
+        4
+      ],
+      "photoTriptychLoaded": true,
+      "realResults": 3
+    }
+  ],
+  "errors": [],
+  "physicalIPadSafariTested": false,
+  "mode": "Development source review; final production QA is performed separately by root.",
+  "passed": true
+}

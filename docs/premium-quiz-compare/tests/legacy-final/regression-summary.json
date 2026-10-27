@@ -1,0 +1,23 @@
+{
+  "url": "http://127.0.0.1:5451",
+  "scope": "Existing shared/gallery/camera regressions; no anatomical hand approval",
+  "runs": [
+    {
+      "case": "shared",
+      "returncode": 1,
+      "report": "docs/premium-quiz-compare/tests/legacy-final/shared-regression.json",
+      "checks": 18,
+      "expectedChecks": 18,
+      "passed": false
+    },
+    {
+      "case": "gallery",
+      "returncode": 1,
+      "report": "docs/premium-quiz-compare/tests/legacy-final/regression/browser-practice-trainer.json",
+      "checks": 30,
+      "expectedChecks": 79,
+      "passed": false
+    }
+  ],
+  "passed": false
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "command": "node docs/premium-quiz-compare/tests/check-preservation.mjs",
+    "exitCode": 0,
+    "output": "preservation.txt",
+    "sha256": "bf76e70ddc40bf2bcbb51e1a627c948754d93a0c5d117200ee52030c99acf2b0"
+  },
+  {
+    "command": "npm run catalog:check",
+    "exitCode": 0,
+    "output": "catalog.txt",
+    "sha256": "202e332ad1ada823dd9364c85f63694fe25832839acc942a7154fa33acc29aec"
+  },
+  {
+    "command": "npm run images:check",
+    "exitCode": 0,
+    "output": "images.txt",
+    "sha256": "bbfd963fa8a6f435c3abef36a66c6589598683e99bff4a2ac604f9231c3ceeaa"
+  },
+  {
+    "command": "npm run practice:check",
+    "exitCode": 0,
+    "output": "practice.txt",
+    "sha256": "4a174f3aa73a626ccf8c81cdd567b01bb5e1497c1a2fcf28448ac68bb21afbdd"
+  },
+  {
+    "command": "npm run phase4:check",
+    "exitCode": 0,
+    "output": "phase4.txt",
+    "sha256": "e6f9c8ca941d0b106aefe18f6191865512e936f129f8ed6428577e91e3b6dc4a"
+  },
+  {
+    "command": "node scripts/check-yamaha-import.mjs",
+    "exitCode": 0,
+    "output": "yamaha.txt",
+    "sha256": "726cd07e6f833925cc5cd0d51d65d1baf046bdaeb34213c8b35b4b2ada757468"
+  },
+  {
+    "command": "npm run phase5:check",
+    "exitCode": 1,
+    "output": "phase5.txt",
+    "sha256": "ae3f62af84425bcab6e49de7c67e306991d0b2e3a8f218c5c082b5705c24e3ed"
+  },
+  {
+    "command": "npm run phase6:check",
+    "exitCode": 1,
+    "output": "phase6.txt",
+    "sha256": "3cc6e81f7b71f7f84d16aa8bacf1959023fcac949d5387c7276bcecd40288d31"
+  },
+  {
+    "command": "npm run phase7:check",
+    "exitCode": 1,
+    "output": "phase7.txt",
+    "sha256": "f3d6427bb5df90ba5b89c58f926aee3d9d28d73967bca7164b23928c1a0cb736"
+  },
+  {
+    "command": "npm run phase8:check",
+    "exitCode": 1,
+    "output": "phase8.txt",
+    "sha256": "b91d0e14ede05efda3fff418663a82fe142d4ad3a71bfb31b5c86cdf3ab3e597"
+  },
+  {
+    "command": "npm run phase9:check",
+    "exitCode": 1,
+    "output": "phase9.txt",
+    "sha256": "eab7f175a19a559638493c9905ede7fdd2076a76d56ddb63ce5b7fc7be0db0f1"
+  },
+  {
+    "command": "python docs/premium-quiz-compare/photos/check-photos.py",
+    "exitCode": 0,
+    "output": "photos.txt",
+    "sha256": "99a151ab1005ab7ac451b03edfd7494c637eee7dee8a542f7a757aa1e8b49a52"
+  },
+  {
+    "command": "node scripts/check-hand-runtime.mjs",
+    "exitCode": 0,
+    "output": "hand-runtime.txt",
+    "sha256": "d64f50eab21c37fc697de2f13a602758e9158f46fb2930d16c50ff16529fb46b"
+  },
+  {
+    "command": "node scripts/check-phase8-catalog.mjs",
+    "exitCode": 1,
+    "output": "phase8-catalog.txt",
+    "sha256": "842c139702431f5f515ce52a8326c062cb7b52bb2e5fb10498a7289819772bb1"
+  }
+]

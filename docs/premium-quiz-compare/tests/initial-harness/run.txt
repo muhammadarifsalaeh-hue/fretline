@@ -1,0 +1,101 @@
+PASS chromium-desktop-quiz-options
+PASS chromium-desktop-quiz-flow
+PASS chromium-desktop-six-result-fixtures
+PASS chromium-desktop-compare-interactions
+PASS chromium-desktop-responsive-320-ipad-landscape
+PASS chromium-desktop-untouched-page-regressions
+PASS chromium-tablet-quiz-options
+PASS chromium-tablet-quiz-flow
+PASS chromium-tablet-compare-interactions
+PASS chromium-mobile-quiz-options
+PASS chromium-mobile-quiz-flow
+FAIL chromium-mobile-compare-interactions Traceback (most recent call last):
+  File "/workspace/fretline/docs/premium-quiz-compare/tests/browser.py", line 21, in check
+    evidence=fn();report['checks'].append({'case':name,'passed':True,'evidence':evidence});print('PASS',name,flush=True)
+             ^^^^
+  File "/workspace/fretline/docs/premium-quiz-compare/tests/browser.py", line 155, in <lambda>
+    if 'compare' in args.cases:check(f'{engine}-{viewport}-compare-interactions',lambda:compare_case(page,context,engine,viewport),page)
+                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/fretline/docs/premium-quiz-compare/tests/browser.py", line 104, in compare_case
+    go(page,'/compare?ids=');expect(page.locator('.premium-compare')).to_be_visible();expect(page.locator('[data-compare-remove]')).to_have_count(0);expect(page.locator('[data-compare-empty-slot]')).to_have_count(4);expect(page.get_by_role('button',name='แชร์ลิงก์',exact=True)).to_be_disabled();expect(page.get_by_role('button',name='ล้างการเปรียบเทียบ',exact=True)).to_be_disabled();scene=scene_images(page);assert scene, 'Real atmospheric scene file required';no_marketing(page);metrics(page);shot(page,f'{engine}-{viewport}-compare-empty.png')
+                                                                                                                                                                                                                                                                                                                                                                                                       ^^^^^^^^^^^^^^^^^^
+  File "/workspace/fretline/docs/premium-quiz-compare/tests/browser.py", line 44, in scene_images
+    info=decode_image(im);assert info['fit'] in ['cover','contain'],info;rows.append(info)
+         ^^^^^^^^^^^^^^^^
+  File "/workspace/fretline/docs/premium-quiz-compare/tests/browser.py", line 38, in decode_image
+    im.scroll_into_view_if_needed();expect(im).to_be_visible();im.evaluate('(i)=>i.decode()');expect(im).to_have_css('opacity','1');data=im.evaluate('''i=>({src:i.getAttribute('src'),currentSrc:i.currentSrc,width:i.naturalWidth,height:i.naturalHeight,fit:getComputedStyle(i).objectFit,loading:i.loading,clientWidth:i.clientWidth,clientHeight:i.clientHeight})''');assert data['width']>0 and data['height']>0,data;return data
+                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 22434, in to_have_css
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_assertions.py", line 490, in to_have_css
+    await self._expect_impl(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_assertions.py", line 128, in _expect_impl
+    _record_soft_or_raise(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_assertions.py", line 60, in _record_soft_or_raise
+    raise error
+AssertionError: Locator expected to have CSS '1'
+Actual value: 0.72
+Call log:
+  - Expect "to_have_css" with timeout 5000ms
+  - waiting for locator("main img").first
+    14 × locator resolved to <img width="1600" height="1067" loading="eager" decoding="async" fetchpriority="high" sizes="(min-width: 1024px) 70vw, 100vw" src="/assets/compare-guitars-1600-CatlBLJv.webp" alt="กีตาร์ไฟฟ้าหลายรูปทรงเรียงอยู่ในหน้าร้านดนตรี" srcset="/assets/compare-guitars-480-wt_Joqr0.webp 480w, /assets/compare-guitars-960-C6oZYPNu.webp 960w, /assets/compare-guitars-1600-CatlBLJv.webp 1600w"/>
+       - unexpected value "0.72"
+
+Aria snapshot:
+- img "กีตาร์ไฟฟ้าหลายรูปทรงเรียงอยู่ในหน้าร้านดนตรี"
+
+PASS chromium-actual-clipboard-success
+Skipping host requirements validation logic because `PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS` env variable is set.
+PASS webkit-desktop-quiz-options
+PASS webkit-desktop-quiz-flow
+PASS webkit-desktop-six-result-fixtures
+PASS webkit-desktop-compare-interactions
+PASS webkit-desktop-responsive-320-ipad-landscape
+PASS webkit-desktop-untouched-page-regressions
+PASS webkit-tablet-quiz-options
+PASS webkit-tablet-quiz-flow
+PASS webkit-tablet-compare-interactions
+PASS webkit-mobile-quiz-options
+PASS webkit-mobile-quiz-flow
+FAIL webkit-mobile-compare-interactions Traceback (most recent call last):
+  File "/workspace/fretline/docs/premium-quiz-compare/tests/browser.py", line 21, in check
+    evidence=fn();report['checks'].append({'case':name,'passed':True,'evidence':evidence});print('PASS',name,flush=True)
+             ^^^^
+  File "/workspace/fretline/docs/premium-quiz-compare/tests/browser.py", line 155, in <lambda>
+    if 'compare' in args.cases:check(f'{engine}-{viewport}-compare-interactions',lambda:compare_case(page,context,engine,viewport),page)
+                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/fretline/docs/premium-quiz-compare/tests/browser.py", line 104, in compare_case
+    go(page,'/compare?ids=');expect(page.locator('.premium-compare')).to_be_visible();expect(page.locator('[data-compare-remove]')).to_have_count(0);expect(page.locator('[data-compare-empty-slot]')).to_have_count(4);expect(page.get_by_role('button',name='แชร์ลิงก์',exact=True)).to_be_disabled();expect(page.get_by_role('button',name='ล้างการเปรียบเทียบ',exact=True)).to_be_disabled();scene=scene_images(page);assert scene, 'Real atmospheric scene file required';no_marketing(page);metrics(page);shot(page,f'{engine}-{viewport}-compare-empty.png')
+                                                                                                                                                                                                                                                                                                                                                                                                       ^^^^^^^^^^^^^^^^^^
+  File "/workspace/fretline/docs/premium-quiz-compare/tests/browser.py", line 44, in scene_images
+    info=decode_image(im);assert info['fit'] in ['cover','contain'],info;rows.append(info)
+         ^^^^^^^^^^^^^^^^
+  File "/workspace/fretline/docs/premium-quiz-compare/tests/browser.py", line 38, in decode_image
+    im.scroll_into_view_if_needed();expect(im).to_be_visible();im.evaluate('(i)=>i.decode()');expected_opacity='0.72' if im.evaluate('(i)=>!!i.closest(".pc-hero__photograph") && matchMedia("(max-width:599px)").matches') else '1';expect(im).to_have_css('opacity',expected_opacity);data=im.evaluate('''i=>({src:i.getAttribute('src'),currentSrc:i.currentSrc,width:i.naturalWidth,height:i.naturalHeight,fit:getComputedStyle(i).objectFit,loading:i.loading,clientWidth:i.clientWidth,clientHeight:i.clientHeight})''');assert data['width']>0 and data['height']>0,data;return data
+                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 22434, in to_have_css
+    self._sync(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_assertions.py", line 490, in to_have_css
+    await self._expect_impl(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_assertions.py", line 128, in _expect_impl
+    _record_soft_or_raise(
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_assertions.py", line 60, in _record_soft_or_raise
+    raise error
+AssertionError: Locator expected to have CSS '1'
+Actual value: 0.72
+Call log:
+  - Expect "to_have_css" with timeout 5000ms
+  - waiting for locator("main img").first
+    14 × locator resolved to <img width="1600" height="1067" loading="eager" decoding="async" fetchpriority="high" sizes="(min-width: 1024px) 70vw, 100vw" src="/assets/compare-guitars-1600-CatlBLJv.webp" alt="กีตาร์ไฟฟ้าหลายรูปทรงเรียงอยู่ในหน้าร้านดนตรี" srcset="/assets/compare-guitars-480-wt_Joqr0.webp 480w, /assets/compare-guitars-960-C6oZYPNu.webp 960w, /assets/compare-guitars-1600-CatlBLJv.webp 1600w"/>
+       - unexpected value "0.72"
+
+Aria snapshot:
+- img "กีตาร์ไฟฟ้าหลายรูปทรงเรียงอยู่ในหน้าร้านดนตรี"
+
+RESULT False 23 25

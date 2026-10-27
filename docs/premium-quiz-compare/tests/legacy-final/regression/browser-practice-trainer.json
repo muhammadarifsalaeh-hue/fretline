@@ -1,0 +1,133 @@
+{
+  "mode": "practice-trainer",
+  "url": "http://127.0.0.1:5451",
+  "browser": "Chromium on Linux; physical Safari/iPad not tested",
+  "checks": [
+    {
+      "name": ".catalog-card-image displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "Catalog contains one original model and three color dots",
+      "passed": true
+    },
+    {
+      "name": "Catalog shows no AI badge",
+      "passed": true
+    },
+    {
+      "name": "Catalog image is lazy loaded",
+      "passed": true
+    },
+    {
+      "name": "Catalog desktop has no page horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "Detail defaults to the same black image as Catalog",
+      "passed": true
+    },
+    {
+      "name": "Normal website needs no local file picker",
+      "passed": true
+    },
+    {
+      "name": "Main gallery has no AI badge",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays red uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays blue-teal uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "Color changes do not reload",
+      "passed": true
+    },
+    {
+      "name": "Each color has its own asset",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays red uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays all-colors uncropped",
+      "passed": true
+    },
+    {
+      "name": "Overview is a fourth gallery entry, not a fourth color/model",
+      "passed": true
+    },
+    {
+      "name": "[role=\"dialog\"] > div:nth-child(2) displays all-colors uncropped",
+      "passed": true
+    },
+    {
+      "name": "[role=\"dialog\"] > div:nth-child(2) displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "[role=\"dialog\"] > div:nth-child(2) displays red uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays blue-teal uncropped",
+      "passed": true
+    },
+    {
+      "name": ".gallery-main displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "Keyboard, thumbnail and lightbox selections share one state",
+      "passed": true
+    },
+    {
+      "name": "black ships the unchanged original JPEG",
+      "passed": true
+    },
+    {
+      "name": "red ships the unchanged original JPEG",
+      "passed": true
+    },
+    {
+      "name": "blue-teal ships the unchanged original JPEG",
+      "passed": true
+    },
+    {
+      "name": "all-colors ships the unchanged original JPEG",
+      "passed": true
+    },
+    {
+      "name": "Existing detailed specifications remain available",
+      "passed": true
+    },
+    {
+      "name": ".wishlist-image displays black uncropped",
+      "passed": true
+    },
+    {
+      "name": "Wishlist stores exactly the original ID",
+      "passed": true
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "screenshots": [],
+  "passed": false,
+  "failure": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/signature-redesign/phase-c-final/tests/regression-gallery.py\", line 123, in <module>\n    expect(page.get_by_role('table')).to_contain_text('Gloss Polyurethane')\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py\", line 22016, in to_contain_text\n    self._sync(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_assertions.py\", line 303, in to_contain_text\n    await self._expect_impl(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_assertions.py\", line 128, in _expect_impl\n    _record_soft_or_raise(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_assertions.py\", line 60, in _record_soft_or_raise\n    raise error\nAssertionError: Locator expected to contain text 'Gloss Polyurethane'\nActual value: รุ่นYamahaPacifica 612VIIFMYamahaFG800 Dreadnoughtแบรนด์เหมือนกันYamahaYamahaรุ่นPacifica 612VIIFMFG800 Dreadnoughtประเภทกีตาร์ไฟฟ้ากีตาร์โปร่งราคา฿34,000 · ราคาขายปลีกแนะนำ+฿21,600฿12,400ราคาต่ำสุดตัวกีตาร์Alder with Flamed Maple VeneerDreadnought Style; Solid Spruce top; Nato/Okume back; Nato/Okume sidesคอMapleNatoฟิงเกอร์บอร์ดRosewoodRosewood or Walnutความยาวสเกล648 mm (25.5\")650 mm (25.59\")จำนวนเฟรต22ยังไม่ยืนยันจำนวนสายยังไม่ยืนยันยังไม่ยืนยันปิ๊กอัพSeymour Duncan SSL-1 (neck), SSL-1 RwRp (middle), Custom 5 TB-14 (bridge)Noneบริดจ์Wilkinson VS50-6 VibratoRosewood or Walnutน้ำหนักยังไม่ยืนยันยังไม่ยืนยัน \nCall log:\n  - Expect \"to_contain_text\" with timeout 5000ms\n  - waiting for get_by_role(\"table\")\n    13 × locator resolved to <div role=\"table\" aria-colcount=\"3\" data-compact-comparison=\"true\" aria-label=\"ตารางเปรียบเทียบสเปกกีตาร์\">…</div>\n       - unexpected value \"รุ่นYamahaPacifica 612VIIFMYamahaFG800 Dreadnoughtแบรนด์เหมือนกันYamahaYamahaรุ่นPacifica 612VIIFMFG800 Dreadnoughtประเภทกีตาร์ไฟฟ้ากีตาร์โปร่งราคา฿34,000 · ราคาขายปลีกแนะนำ+฿21,600฿12,400ราคาต่ำสุดตัวกีตาร์Alder with Flamed Maple VeneerDreadnought Style; Solid Spruce top; Nato/Okume back; Nato/Okume sidesคอMapleNatoฟิงเกอร์บอร์ดRosewoodRosewood or Walnutความยาวสเกล648 mm (25.5\")650 mm (25.59\")จำนวนเฟรต22ยังไม่ยืนยันจำนวนสายยังไม่ยืนยันยังไม่ยืนยันปิ๊กอัพSeymour Duncan SSL-1 (neck), SSL-1 RwRp (middle), Custom 5 TB-14 (bridge)Noneบริดจ์Wilkinson VS50-6 VibratoRosewood or Walnutน้ำหนักยังไม่ยืนยันยังไม่ยืนยัน\"\n\nAria snapshot:\n- table \"ตารางเปรียบเทียบสเปกกีตาร์\":\n  - 'row \"รุ่น Yamaha Pacifica 612VIIFM Yamaha FG800 Dreadnought: ภาพประกอบ ยังไม่มีรูปถ่าย Yamaha FG800 Dreadnought\"':\n    - columnheader \"รุ่น\"\n    - columnheader \"Yamaha Pacifica 612VIIFM\":\n      - text: Yamaha\n      - link \"Pacifica 612VIIFM\":\n        - /url: /guitars/yamaha-pacifica-612viifm\n    - 'columnheader \"Yamaha FG800 Dreadnought: ภาพประกอบ ยังไม่มีรูปถ่าย Yamaha FG800 Dreadnought\"':\n      - 'img \"Yamaha FG800 Dreadnought: ภาพประกอบ ยังไม่มีรูปถ่าย\"'\n      - text: Yamaha\n      - link \"FG800 Dreadnought\":\n        - /url: /guitars/yamaha-fg800\n  - rowgroup:\n    - row \"แบรนด์ เหมือนกัน Yamaha Yamaha\":\n      - rowheader \"แบรนด์ เหมือนกัน\"\n      - cell \"Yamaha\"\n      - cell \"Yamaha\"\n    - row \"รุ่น Pacifica 612VIIFM FG800 Dreadnought\":\n      - rowheader \"รุ่น\"\n      - cell \"Pacifica 612VIIFM\"\n      - cell \"FG800 Dreadnought\"\n    - row \"ประเภท กีตาร์ไฟฟ้า กีตาร์โปร่ง\":\n      - rowheader \"ประเภท\"\n      - cell \"กีตาร์ไฟฟ้า\"\n      - cell \"กีตาร์โปร่ง\"\n    - row \"ราคา ฿34,000 · ราคาขายปลีกแนะนำ +฿21,600 ค่าที่ดีที่สุดในแถวนี้ ฿12,400 ราคาต่ำสุด\":\n      - rowheader \"ราคา\"\n      - cell \"฿34,000 · ราคาขายปลีกแนะนำ +฿21,600\"\n      - cell \"ค่าที่ดีที่สุดในแถวนี้ ฿12,400 ราคาต่ำสุด\": ฿12,400 ราคาต่ำสุด\n  - rowgroup:\n    - row \"ตัวกีตาร์ Alder with Flamed Maple Veneer Dreadnought Style; Solid Spruce top; Nato/Okume back; Nato/Okume sides\":\n      - rowheader \"ตัวกีตาร์\"\n      - cell \"Alder with Flamed Maple Veneer\"\n      - cell \"Dreadnought Style; Solid Spruce top; Nato/Okume back; Nato/Okume sides\"\n    - row \"คอ Maple Nato\":\n      - rowheader \"คอ\"\n      - cell \"Maple\"\n      - cell \"Nato\"\n    - row \"ฟิงเกอร์บอร์ด Rosewood Rosewood or Walnut\":\n      - rowheader \"ฟิงเกอร์บอร์ด\"\n      - cell \"Rosewood\"\n      - cell \"Rosewood or Walnut\"\n    - row \"ความยาวสเกล 648 mm (25.5\\\") 650 mm (25.59\\\")\":\n      - rowheader \"ความยาวสเกล\"\n      - cell \"648 mm (25.5\\\")\"\n      - cell \"650 mm (25.59\\\")\"\n    - row \"จำนวนเฟรต 22 ยังไม่ยืนยัน\":\n      - rowheader \"จำนวนเฟรต\"\n      - cell \"22\"\n      - cell \"ยังไม่ยืนยัน\"\n    - row \"จำนวนสาย ยังไม่ยืนยัน ยังไม่ยืนยัน\":\n      - rowheader \"จำนวนสาย\"\n      - cell \"ยังไม่ยืนยัน\"\n      - cell \"ยังไม่ยืนยัน\"\n  - rowgroup:\n    - row \"ปิ๊กอัพ Seymour Duncan SSL-1 (neck), SSL-1 RwRp (middle), Custom 5 TB-14 (bridge) None\":\n      - rowheader \"ปิ๊กอัพ\"\n      - cell \"Seymour Duncan SSL-1 (neck), SSL-1 RwRp (middle), Custom 5 TB-14 (bridge)\"\n      - cell \"None\"\n    - row \"บริดจ์ Wilkinson VS50-6 Vibrato Rosewood or Walnut\":\n      - rowheader \"บริดจ์\"\n      - cell \"Wilkinson VS50-6 Vibrato\"\n      - cell \"Rosewood or Walnut\"\n  - rowgroup:\n    - row \"น้ำหนัก ยังไม่ยืนยัน ยังไม่ยืนยัน\":\n      - rowheader \"น้ำหนัก\"\n      - cell \"ยังไม่ยืนยัน\"\n      - cell \"ยังไม่ยืนยัน\"\n"
+}

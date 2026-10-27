@@ -1,0 +1,385 @@
+
+> fretline@0.1.0 phase7:check
+> node scripts/check-phase7.mjs
+
+WebSocket server error: Port is already in use
+PASS exactly 200 active guitars in the CLI and browser data
+PASS exactly the ten approved brands with 20 models each
+PASS 166 new IDs and 34 retained originals, not colors or duplicate inserts
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Out-of-batch change: yamaha-pacifica-612viifm
++ actual - expected
+... Skipped lines
+
+  {
+    badge: null,
+    brand: 'Yamaha',
+    category: 'electric',
+    colors: [],
++   description: 'Yamaha Pacifica 612VIIFM ผสานบอดี้ Alder กับท็อป Flamed Maple Veneer คอ Maple และฟิงเกอร์บอร์ด Rosewood\n' +
++     '\n' +
++     'ปิ๊กอัพ Seymour Duncan แบบ HSS พร้อม Push/Pull Coil Split และสวิตช์ 5 ตำแหน่ง เปิดทางให้ปรับโทนเสียงได้หลากหลาย\n' +
++     '\n' +
++     'ครบด้วยบริดจ์ Wilkinson VS50-6 Vibrato และลูกบิด Grover Locking สำหรับผู้เล่นที่ต้องการความยืดหยุ่นในกีตาร์ตัวเดียว',
+-   description: 'PAC612VIIFM ใช้ปิกอัพ Seymour Duncan แบบ HSS ฟิงเกอร์บอร์ด Rosewood และบริดจ์ Wilkinson VS50-6',
+    id: 'yamaha-pacifica-612viifm',
+    name: 'Pacifica 612VIIFM',
+    oldPrice: null,
++   price: 34000,
++   priceSource: {
++     currency: 'THB',
++     evidence: {
++       accessedAt: '2026-10-22T18:25:05.767567+00:00',
++       httpStatus: 200,
++       sha256: '9c1b2b7e86c5a1c5596118cc0711f0768498a6df82fda7e2df54b3f70e00c756'
++     },
++     kind: 'manufacturer-recommended-retail',
++     note: 'ราคาขายปลีกที่ Yamaha ประเทศไทยแนะนำ ไม่ใช่การรับประกันราคาขายของร้านค้า ไม่รวมยอดผ่อนชำระ',
++     url: 'https://th.yamaha.com/th/musical-instruments/guitars-basses-amps/products/electric-guitars/pacifica/lineup.html',
++     verifiedOn: '2026-10-22'
++   },
+-   price: null,
+    rating: null,
+    source: {
++     additionalSources: [
++       {
++         evidence: {
++           accessedAt: '2026-10-22T18:25:05.767567+00:00',
++           httpStatus: 200,
++           sha256: '9c1b2b7e86c5a1c5596118cc0711f0768498a6df82fda7e2df54b3f70e00c756'
++         },
++         method: 'http',
++         note: 'Yamaha ประเทศไทย — ราคาแนะนำ ฿34,000, HSS และ Flamed Maple Veneer',
++         url: 'https://th.yamaha.com/th/musical-instruments/guitars-basses-amps/products/electric-guitars/pacifica/lineup.html',
++         verifiedOn: '2026-10-22'
++       },
++       {
++         evidence: {
++           accessedAt: '2026-10-22T18:25:05.770864+00:00',
++           httpStatus: 200,
++           sha256: 'ef3dc4177626936c845143059a4ae8a10fb3c46fe398dc57848dd668624e078a'
++         },
++         method: 'http',
++         note: 'Yamaha USA — เทียบสเปกคอลัมน์ PAC612VIIFM',
++         url: 'https://usa.yamaha.com/products/musical_instruments/guitars_basses/el_guitars/pacifica/specs.html',
++         verifiedOn: '2026-10-22'
++       }
++     ],
++     editionNote: 'ตรวจเฉพาะคอลัมน์ PAC612VIIFM ไม่รวม PAC611, PAC612VIIFMX หรือ PAC612VII; คอเคลือบ Gloss Polyurethane; สีและรายละเอียดของภาพ AI ยังไม่ยืนยัน',
++     evidence: {
++       accessedAt: '2026-10-22T18:25:05.769891+00:00',
++       httpStatus: 200,
++       sha256: '3db4c7a0225f221ceb6d7cce93e9ce5c2d55bd22057199f5929f3a56538ab622'
++     },
+-     editionNote: 'อ้างอิงคอลัมน์ PAC612VIIFM เท่านั้น ไม่ใช้ PAC612VIIFMX/PAC612VII และคง ID Pacifica เดิม',
+      fields: [
+        'brand',
+        'name',
+        'category',
+        'description',
+        'tags',
++       'price',
+        'specs.body',
+        'specs.neck',
+        'specs.fretboard',
+        'specs.pickups',
+        'specs.bridge',
+...
+        'specs.frets',
++       'specs.scaleMm',
++       'specs.series',
++       'specs.neckFinish',
++       'specs.fingerboardRadiusMm',
++       'specs.nut',
++       'specs.pickupConfiguration',
++       'specs.bridgePickup',
++       'specs.middlePickup',
++       'specs.neckPickup',
++       'specs.pickupSelector',
++       'specs.tuners'
+      ],
+      manufacturerModel: 'PAC612VIIFM',
+      method: 'http',
++     note: 'Yamaha ประเทศไทย — Pacifica specifications: PAC612VIIFM',
++     priceNote: 'ราคาขายปลีกที่ Yamaha ประเทศไทยแนะนำ ไม่ใช่การรับประกันราคาขายของร้านค้า ไม่รวมยอดผ่อนชำระ',
++     recheckedFields: [
++       'brand',
++       'name',
++       'category',
++       'description',
++       'tags',
++       'price',
++       'specs.body',
++       'specs.neck',
++       'specs.fretboard',
++       'specs.pickups',
++       'specs.bridge',
++       'specs.controls',
++       'specs.scale',
++       'specs.frets',
++       'specs.scaleMm',
++       'specs.series',
++       'specs.neckFinish',
++       'specs.fingerboardRadiusMm',
++       'specs.nut',
++       'specs.pickupConfiguration',
++       'specs.bridgePickup',
++       'specs.middlePickup',
++       'specs.neckPickup',
++       'specs.pickupSelector',
++       'specs.tuners'
++     ],
++     retainedFields: [],
++     reviewNote: 'ไม่มีคะแนนรีวิวที่ผ่านการยืนยัน',
++     url: 'https://th.yamaha.com/th/musical-instruments/guitars-basses-amps/products/electric-guitars/pacifica/specs.html',
++     verifiedOn: '2026-10-22'
+-     note: 'Yamaha — PAC612VIIFM',
+-     priceNote: 'ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้',
+-     reviewNote: 'ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน',
+-     url: 'https://ph.yamaha.com/en/musical-instruments/guitars-basses-amps/products/electric-guitars/pacifica/specs.html',
+-     verifiedOn: '2026-10-20'
+    },
+    specs: {
++     body: 'Alder with Flamed Maple Veneer',
++     bodyShape: null,
++     bridge: 'Wilkinson VS50-6 Vibrato',
++     bridgePickup: 'Seymour Duncan Custom 5 TB-14 Humbucker',
++     controls: 'Master Volume, Master Tone with Push/Pull Coil Split',
++     fingerboardRadiusMm: 350,
+-     body: 'Alder / flamed maple laminate',
+-     bridge: 'Wilkinson VS50-6',
+-     controls: 'Master volume, push/pull tone coil split, 5-way selector',
+      fretboard: 'Rosewood',
+      frets: 22,
++     middlePickup: 'Seymour Duncan SSL-1 RwRp',
+      neck: 'Maple',
++     neckFinish: 'Gloss Polyurethane',
++     neckPickup: 'Seymour Duncan SSL-1',
++     nut: 'Graph Tech TUSQ',
++     pickupConfiguration: 'HSS',
++     pickupSelector: '5-Position Lever Switch',
++     pickups: 'Seymour Duncan SSL-1 (neck), SSL-1 RwRp (middle), Custom 5 TB-14 (bridge)',
+-     pickups: 'Seymour Duncan SSL-1 (neck), SSL-1 RwRp (middle), TB-14 (bridge)',
+      scale: 25.5,
++     scaleMm: 648,
++     series: 'Pacifica',
+      strings: null,
++     tuners: 'Grover Locking Tuners',
+      weightKg: null
+    },
+    status: 'partial',
+    tags: [
+      'HSS',
+
+    at assertPhase9DataBoundary (file:///workspace/fretline/scripts/lib/phase9.mjs:35:39)
+    at file:///workspace/fretline/scripts/check-phase7.mjs:38:5
+    at check (file:///workspace/fretline/scripts/check-phase7.mjs:10:31)
+    at file:///workspace/fretline/scripts/check-phase7.mjs:37:3 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: {
+    id: 'yamaha-pacifica-612viifm',
+    brand: 'Yamaha',
+    name: 'Pacifica 612VIIFM',
+    status: 'partial',
+    category: 'electric',
+    price: 34000,
+    oldPrice: null,
+    badge: null,
+    rating: null,
+    colors: [],
+    description: 'Yamaha Pacifica 612VIIFM ผสานบอดี้ Alder กับท็อป Flamed Maple Veneer คอ Maple และฟิงเกอร์บอร์ด Rosewood\n' +
+      '\n' +
+      'ปิ๊กอัพ Seymour Duncan แบบ HSS พร้อม Push/Pull Coil Split และสวิตช์ 5 ตำแหน่ง เปิดทางให้ปรับโทนเสียงได้หลากหลาย\n' +
+      '\n' +
+      'ครบด้วยบริดจ์ Wilkinson VS50-6 Vibrato และลูกบิด Grover Locking สำหรับผู้เล่นที่ต้องการความยืดหยุ่นในกีตาร์ตัวเดียว',
+    tags: [ 'HSS', 'Seymour Duncan', '22 frets' ],
+    specs: {
+      body: 'Alder with Flamed Maple Veneer',
+      neck: 'Maple',
+      fretboard: 'Rosewood',
+      pickups: 'Seymour Duncan SSL-1 (neck), SSL-1 RwRp (middle), Custom 5 TB-14 (bridge)',
+      bridge: 'Wilkinson VS50-6 Vibrato',
+      controls: 'Master Volume, Master Tone with Push/Pull Coil Split',
+      scale: 25.5,
+      frets: 22,
+      strings: null,
+      weightKg: null,
+      scaleMm: 648,
+      series: 'Pacifica',
+      bodyShape: null,
+      neckFinish: 'Gloss Polyurethane',
+      fingerboardRadiusMm: 350,
+      nut: 'Graph Tech TUSQ',
+      pickupConfiguration: 'HSS',
+      bridgePickup: 'Seymour Duncan Custom 5 TB-14 Humbucker',
+      middlePickup: 'Seymour Duncan SSL-1 RwRp',
+      neckPickup: 'Seymour Duncan SSL-1',
+      pickupSelector: '5-Position Lever Switch',
+      tuners: 'Grover Locking Tuners'
+    },
+    source: {
+      url: 'https://th.yamaha.com/th/musical-instruments/guitars-basses-amps/products/electric-guitars/pacifica/specs.html',
+      verifiedOn: '2026-10-22',
+      note: 'Yamaha ประเทศไทย — Pacifica specifications: PAC612VIIFM',
+      method: 'http',
+      manufacturerModel: 'PAC612VIIFM',
+      fields: [
+        'brand',
+        'name',
+        'category',
+        'description',
+        'tags',
+        'price',
+        'specs.body',
+        'specs.neck',
+        'specs.fretboard',
+        'specs.pickups',
+        'specs.bridge',
+        'specs.controls',
+        'specs.scale',
+        'specs.frets',
+        'specs.scaleMm',
+        'specs.series',
+        'specs.neckFinish',
+        'specs.fingerboardRadiusMm',
+        'specs.nut',
+        'specs.pickupConfiguration',
+        'specs.bridgePickup',
+        'specs.middlePickup',
+        'specs.neckPickup',
+        'specs.pickupSelector',
+        'specs.tuners'
+      ],
+      editionNote: 'ตรวจเฉพาะคอลัมน์ PAC612VIIFM ไม่รวม PAC611, PAC612VIIFMX หรือ PAC612VII; คอเคลือบ Gloss Polyurethane; สีและรายละเอียดของภาพ AI ยังไม่ยืนยัน',
+      recheckedFields: [
+        'brand',
+        'name',
+        'category',
+        'description',
+        'tags',
+        'price',
+        'specs.body',
+        'specs.neck',
+        'specs.fretboard',
+        'specs.pickups',
+        'specs.bridge',
+        'specs.controls',
+        'specs.scale',
+        'specs.frets',
+        'specs.scaleMm',
+        'specs.series',
+        'specs.neckFinish',
+        'specs.fingerboardRadiusMm',
+        'specs.nut',
+        'specs.pickupConfiguration',
+        'specs.bridgePickup',
+        'specs.middlePickup',
+        'specs.neckPickup',
+        'specs.pickupSelector',
+        'specs.tuners'
+      ],
+      retainedFields: [],
+      evidence: {
+        httpStatus: 200,
+        sha256: '3db4c7a0225f221ceb6d7cce93e9ce5c2d55bd22057199f5929f3a56538ab622',
+        accessedAt: '2026-10-22T18:25:05.769891+00:00'
+      },
+      additionalSources: [
+        {
+          url: 'https://th.yamaha.com/th/musical-instruments/guitars-basses-amps/products/electric-guitars/pacifica/lineup.html',
+          verifiedOn: '2026-10-22',
+          note: 'Yamaha ประเทศไทย — ราคาแนะนำ ฿34,000, HSS และ Flamed Maple Veneer',
+          method: 'http',
+          evidence: {
+            httpStatus: 200,
+            sha256: '9c1b2b7e86c5a1c5596118cc0711f0768498a6df82fda7e2df54b3f70e00c756',
+            accessedAt: '2026-10-22T18:25:05.767567+00:00'
+          }
+        },
+        {
+          url: 'https://usa.yamaha.com/products/musical_instruments/guitars_basses/el_guitars/pacifica/specs.html',
+          verifiedOn: '2026-10-22',
+          note: 'Yamaha USA — เทียบสเปกคอลัมน์ PAC612VIIFM',
+          method: 'http',
+          evidence: {
+            httpStatus: 200,
+            sha256: 'ef3dc4177626936c845143059a4ae8a10fb3c46fe398dc57848dd668624e078a',
+            accessedAt: '2026-10-22T18:25:05.770864+00:00'
+          }
+        }
+      ],
+      priceNote: 'ราคาขายปลีกที่ Yamaha ประเทศไทยแนะนำ ไม่ใช่การรับประกันราคาขายของร้านค้า ไม่รวมยอดผ่อนชำระ',
+      reviewNote: 'ไม่มีคะแนนรีวิวที่ผ่านการยืนยัน'
+    },
+    priceSource: {
+      kind: 'manufacturer-recommended-retail',
+      currency: 'THB',
+      url: 'https://th.yamaha.com/th/musical-instruments/guitars-basses-amps/products/electric-guitars/pacifica/lineup.html',
+      verifiedOn: '2026-10-22',
+      note: 'ราคาขายปลีกที่ Yamaha ประเทศไทยแนะนำ ไม่ใช่การรับประกันราคาขายของร้านค้า ไม่รวมยอดผ่อนชำระ',
+      evidence: {
+        httpStatus: 200,
+        sha256: '9c1b2b7e86c5a1c5596118cc0711f0768498a6df82fda7e2df54b3f70e00c756',
+        accessedAt: '2026-10-22T18:25:05.767567+00:00'
+      }
+    }
+  },
+  expected: {
+    id: 'yamaha-pacifica-612viifm',
+    brand: 'Yamaha',
+    name: 'Pacifica 612VIIFM',
+    status: 'partial',
+    category: 'electric',
+    price: null,
+    oldPrice: null,
+    badge: null,
+    rating: null,
+    colors: [],
+    description: 'PAC612VIIFM ใช้ปิกอัพ Seymour Duncan แบบ HSS ฟิงเกอร์บอร์ด Rosewood และบริดจ์ Wilkinson VS50-6',
+    tags: [ 'HSS', 'Seymour Duncan', '22 frets' ],
+    specs: {
+      body: 'Alder / flamed maple laminate',
+      neck: 'Maple',
+      fretboard: 'Rosewood',
+      pickups: 'Seymour Duncan SSL-1 (neck), SSL-1 RwRp (middle), TB-14 (bridge)',
+      bridge: 'Wilkinson VS50-6',
+      controls: 'Master volume, push/pull tone coil split, 5-way selector',
+      scale: 25.5,
+      frets: 22,
+      strings: null,
+      weightKg: null
+    },
+    source: {
+      url: 'https://ph.yamaha.com/en/musical-instruments/guitars-basses-amps/products/electric-guitars/pacifica/specs.html',
+      verifiedOn: '2026-10-20',
+      note: 'Yamaha — PAC612VIIFM',
+      method: 'http',
+      manufacturerModel: 'PAC612VIIFM',
+      fields: [
+        'brand',          'name',
+        'category',       'description',
+        'tags',           'specs.body',
+        'specs.neck',     'specs.fretboard',
+        'specs.pickups',  'specs.bridge',
+        'specs.controls', 'specs.scale',
+        'specs.frets'
+      ],
+      editionNote: 'อ้างอิงคอลัมน์ PAC612VIIFM เท่านั้น ไม่ใช้ PAC612VIIFMX/PAC612VII และคง ID Pacifica เดิม',
+      priceNote: 'ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้',
+      reviewNote: 'ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน'
+    }
+  },
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

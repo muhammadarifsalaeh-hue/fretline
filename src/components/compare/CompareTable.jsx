@@ -6,7 +6,7 @@ import GuitarImage from '@/components/guitar/GuitarImage';
 import PriceSourceNote from '@/components/guitar/PriceSourceNote';
 import AppLink from '@/components/ui/AppLink';
 import { CloseIcon } from '@/components/ui/Icons';
-import { t } from '@/i18n';
+import { LANG, t } from '@/i18n';
 import { analyseRows, groupRows } from './compareRows';
 
 /** แถว/กลุ่มที่หุบหายด้วย animation (ใช้กับ "Show differences only") */
@@ -25,6 +25,16 @@ function Collapse({ hide, children }) {
   );
 }
 
+function ModelColumnContent({ guitar: g, editorial, includeSamples, compact }) {
+  return <>
+    <AppLink href={guitarUrl(g.slug)} className="line-clamp-2 font-serif text-xl leading-tight transition-colors hover:text-gold">{g.name}</AppLink>
+    {!compact && <p className="mt-1 font-mono text-sm text-gold">{editorial && !includeSamples ? publicPrice(g) : formatPrice(g.price)}</p>}
+    {!compact && <PriceSourceNote guitar={g} />}
+    {g.archived && <p className="archive-label">{t('p7.archive.label')}</p>}
+    {editorial && !compact && <><p className="compare-model-status">{t(`status.${g.dataStatus ?? 'sample'}`)}</p><AppLink href={guitarUrl(g.slug)} className="compare-detail-link">{t('card.view')}</AppLink></>}
+  </>;
+}
+
 /**
  * ตารางเปรียบเทียบ 2–4 ตัว
  *  - แถวที่ "ต่างกัน" ไฮไลต์และข้อความสว่าง, แถวที่เหมือนกันจางลง (หรือซ่อนด้วย diffOnly)
@@ -32,16 +42,17 @@ function Collapse({ hide, children }) {
  *  - Mobile: เลื่อนแนวนอน คอลัมน์ป้ายชื่อ sticky | Desktop (lg+): แถวชื่อรุ่น sticky ใต้ Navbar
  *  - grouped: แสดงหัวข้อกลุ่ม | stickyNames: ให้แถวชื่อรุ่นติดด้านบนตอนเลื่อน
  */
-export default function CompareTable({ guitars, diffOnly = false, onRemove, bg = 'bg-ink', grouped = false, stickyNames = false, includeSamples = true, editorial = false }) {
+export default function CompareTable({ guitars, diffOnly = false, onRemove, bg = 'bg-ink', grouped = false, stickyNames = false, includeSamples = true, editorial = false, compact = false, rowFilter }) {
   const n = guitars.length;
   const columns = `var(--label-w) repeat(${n}, minmax(var(--col-min), 1fr))`;
-  const groups = groupRows(analyseRows(guitars, { includeSamples, includeIdentity: editorial }));
+  const analysed = analyseRows(guitars, { includeSamples, includeIdentity: editorial });
+  const groups = groupRows(rowFilter ? analysed.filter(({ row }) => rowFilter(row)) : analysed);
 
   return (
     <div role="region" aria-label={t('p4.compare.tableRegion')} tabIndex={0} className="compare-table-scroll overflow-x-auto [--col-min:150px] [--label-w:88px] [scrollbar-width:thin] md:[--col-min:190px] md:[--label-w:120px] lg:overflow-visible">
-      <div style={{ minWidth: `calc(var(--label-w) + ${n} * (var(--col-min) + 1rem))` }}>
+      <div style={{ minWidth: compact ? `calc(var(--label-w) + ${n} * var(--col-min))` : `calc(var(--label-w) + ${n} * (var(--col-min) + 1rem))` }}>
         {/* รูป + แบรนด์ */}
-        <div className="grid items-end gap-4 pb-5" style={{ gridTemplateColumns: columns }}>
+        {!compact && <div className="grid items-end gap-4 pb-5" style={{ gridTemplateColumns: columns }}>
           <div className={cn('sticky left-0 z-10 self-stretch', bg)} />
           {guitars.map((g) => (
             <div key={g.id} className="relative min-w-0">
@@ -62,9 +73,9 @@ export default function CompareTable({ guitars, diffOnly = false, onRemove, bg =
               <p className="mt-3 text-xs uppercase tracking-[0.14em] text-mute">{g.brand}</p>
             </div>
           ))}
-        </div>
+        </div>}
 
-        <div role="table" aria-label={t('p4.compare.table')}>
+        <div role="table" aria-label={t('p4.compare.table')} aria-colcount={n + 1} data-compact-comparison={compact ? true : undefined}>
         {/* ชื่อรุ่น + ราคา (sticky บน Desktop) */}
         <div
           role="row"
@@ -76,14 +87,11 @@ export default function CompareTable({ guitars, diffOnly = false, onRemove, bg =
         >
           <div role="columnheader" className={cn('sticky left-0 z-10 text-sm text-mute lg:bg-transparent', bg)}>{t('cmp.model')}</div>
           {guitars.map((g) => (
-            <div key={g.id} role="columnheader" className="min-w-0">
-              <AppLink href={guitarUrl(g.slug)} className="line-clamp-2 font-serif text-xl leading-tight transition-colors hover:text-gold">
-                {g.name}
-              </AppLink>
-              <p className="mt-1 font-mono text-sm text-gold">{editorial && !includeSamples ? publicPrice(g) : formatPrice(g.price)}</p>
-              <PriceSourceNote guitar={g} />
-              {g.archived && <p className="archive-label">{t('p7.archive.label')}</p>}
-              {editorial && <><p className="compare-model-status">{t(`status.${g.dataStatus ?? 'sample'}`)}</p><AppLink href={guitarUrl(g.slug)} className="compare-detail-link">{t('card.view')}</AppLink></>}
+            <div key={g.id} role="columnheader" className={cn('min-w-0', compact && 'pc-table-model')}>
+              {compact ? <>
+                <GuitarImage guitar={g} alt="" size="sm" className="pc-table-model__image" sizes="48px" />
+                <div><span className="pc-table-model__brand">{g.brand}</span><ModelColumnContent guitar={g} editorial={editorial} includeSamples={includeSamples} compact /></div>
+              </> : <ModelColumnContent guitar={g} editorial={editorial} includeSamples={includeSamples} />}
             </div>
           ))}
         </div>
@@ -102,6 +110,7 @@ export default function CompareTable({ guitars, diffOnly = false, onRemove, bg =
                 <Collapse key={row.key} hide={diffOnly && !diff}>
                   <div
                     role="row"
+                    data-compare-row={row.key}
                     className={cn('grid items-start gap-4 border-t border-line py-4 text-sm', diff && 'bg-white/[0.03]')}
                     style={{ gridTemplateColumns: columns }}
                   >
@@ -121,7 +130,7 @@ export default function CompareTable({ guitars, diffOnly = false, onRemove, bg =
                               className="mr-2 inline-block h-1.5 w-1.5 -translate-y-px rounded-full bg-gold align-middle"
                             />
                           )}
-                          {displayOf(g)}
+                          {compact && value == null && allowed(g) ? (LANG === 'en' ? 'Unconfirmed' : 'ยังไม่ยืนยัน') : displayOf(g)}
                           {note && <span className="comparison-value-note mt-1 block text-[13px] leading-relaxed text-mute">{note}</span>}
                         </div>
                       );

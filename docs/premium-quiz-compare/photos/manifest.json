@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-26",
+  "sourcePhotos": 5,
+  "localWebPDerivatives": 15,
+  "images": [
+    {
+      "id": "quizHero",
+      "slug": "quiz-studio",
+      "input": "quiz-studio.jpg",
+      "imageId": "1511379938547-c1f69419868d",
+      "photoId": "MEL-jJnm7RQ",
+      "author": "Wes Hicks",
+      "sourceUrl": "https://unsplash.com/photos/several-guitars-beside-of-side-table-MEL-jJnm7RQ",
+      "altTh": "กีตาร์ไฟฟ้าและกีตาร์โปร่งวางในห้องดนตรีข้างหน้าต่าง",
+      "altEn": "Electric and acoustic guitars in a naturally lit music room",
+      "objectPosition": "72% 53%",
+      "description": "Real music-room photograph with electric and acoustic instruments. The room is naturally lit, not the artificially lit studio in the supplied design reference.",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "credit": "Wes Hicks / Unsplash",
+      "checkedOn": "2026-10-26",
+      "kind": "editorial-photograph",
+      "selectedProductEvidence": false,
+      "endorsementImplied": false,
+      "sourceDownload": {
+        "url": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=max&w=1800&q=90",
+        "httpStatus": 200,
+        "downloadedAt": "2026-10-26T20:28:37.716843+00:00",
+        "format": "JPEG",
+        "width": 1800,
+        "height": 1200,
+        "bytes": 402069,
+        "sha256": "183726a17268e449899ec95b60cabfdf139e42b7887fa68a6714fc19e90a703e",
+        "fullResolutionMasterDownloaded": false,
+        "localFile": "originals/quiz-studio.jpg"
+      },
+      "rightsEvidence": {
+        "method": "publisher-photo-page-and-license-page-web-read",
+        "assertion": "Free to use under the Unsplash License",
+        "photoPageUrl": "https://unsplash.com/photos/several-guitars-beside-of-side-table-MEL-jJnm7RQ",
+        "licensePageUrl": "https://unsplash.com/license",
+        "webToolResponseSha256": "c613d746e4af5d3c6150c28b925ed1544f5d79faa0c6affa428754babebf1379",
+        "executorDirectPhotoPageHTTP": 401,
+        "note": "Publisher photo pages and license were successfully read with the web tool. Direct executor requests to the sample photo page and license page returned 401; the other photo-page executor fetches were not attempted. None is represented as HTTP200 rights evidence. Actual images downloaded via the publisher CDN returned HTTP200."
+      },
+      "changes": "Downloaded 1800px source variant; EXIF orientation applied; metadata stripped; resized proportionally and encoded WebP. No crop, recoloring, retouching, compositing or image generation. Responsive page framing may use CSS cover/gradient overlays.",
+      "variants": [
+        {
+          "file": "quiz-studio-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 23510,
+          "sha256": "e065d84828c38460563f4ac147ab43a3d488287f9ce9c6350f29f031147120ee"
+        },
+        {
+          "file": "quiz-studio-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 67598,
+          "sha256": "78d2e82c59c3f2609a43473ea0507d84ac3d2b133bc17affe08034a89e79c9a3"
+        },
+        {
+          "file": "quiz-studio-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 152294,
+          "sha256": "cdbb236fb2b727746f1c6682fef757e5bde6722a788df0ce80815ead2fa9ddef"
+        }
+      ]
+    },
+    {
+      "id": "compareHero",
+      "slug": "compare-guitars",
+      "input": "compare-window-shop.jpg",
+      "imageId": "1773093219310-711be04f4fa2",
+      "photoId": "YRY0Eo6Yq4s",
+      "author": "Masha",
+      "sourceUrl": "https://unsplash.com/photos/guitars-displayed-in-a-store-window-YRY0Eo6Yq4s",
+      "altTh": "กีตาร์ไฟฟ้าหลายรูปทรงเรียงอยู่ในหน้าร้านดนตรี",
+      "altEn": "A variety of electric guitar shapes displayed in a music shop window",
+      "objectPosition": "65% 52%",
+      "description": "Real shop-window photograph with several distinct electric-guitar shapes. It is not an invented three-guitar studio scene and does not depict the selected comparison models.",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "credit": "Masha / Unsplash",
+      "checkedOn": "2026-10-26",
+      "kind": "editorial-photograph",
+      "selectedProductEvidence": false,
+      "endorsementImplied": false,
+      "sourceDownload": {
+        "url": "https://images.unsplash.com/photo-1773093219310-711be04f4fa2?auto=format&fit=max&w=1800&q=90",
+        "httpStatus": 200,
+        "downloadedAt": "2026-10-26T20:31:29.274117+00:00",
+        "format": "JPEG",
+        "width": 1800,
+        "height": 1200,
+        "bytes": 565453,
+        "sha256": "26117772f2dc9e64452b7647af56f78b2db4083e103ff5c676c527ea10baea11",
+        "fullResolutionMasterDownloaded": false,
+        "localFile": "originals/compare-window-shop.jpg"
+      },
+      "rightsEvidence": {
+        "method": "publisher-photo-page-and-license-page-web-read",
+        "assertion": "Free to use under the Unsplash License",
+        "photoPageUrl": "https://unsplash.com/photos/guitars-displayed-in-a-store-window-YRY0Eo6Yq4s",
+        "licensePageUrl": "https://unsplash.com/license",
+        "webToolResponseSha256": "c613d746e4af5d3c6150c28b925ed1544f5d79faa0c6affa428754babebf1379",
+        "executorDirectPhotoPageHTTP": null,
+        "note": "Publisher photo pages and license were successfully read with the web tool. Direct executor requests to the sample photo page and license page returned 401; the other photo-page executor fetches were not attempted. None is represented as HTTP200 rights evidence. Actual images downloaded via the publisher CDN returned HTTP200."
+      },
+      "changes": "Downloaded 1800px source variant; EXIF orientation applied; metadata stripped; resized proportionally and encoded WebP. No crop, recoloring, retouching, compositing or image generation. Responsive page framing may use CSS cover/gradient overlays.",
+      "variants": [
+        {
+          "file": "compare-guitars-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 45108,
+          "sha256": "3163933e7711a50ba08a6a979d82d74f8a744c894c1a4cc0d6a12b0faa74e091"
+        },
+        {
+          "file": "compare-guitars-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 138924,
+          "sha256": "af86eb9c9529fd972a73d5b1d1581ef27324382e823e0308a31575ed38f94ae9"
+        },
+        {
+          "file": "compare-guitars-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 298154,
+          "sha256": "6b30637e4aa5052dcfdd581216397159a1c8eb36c65c7310a6f8dbf575a657ba"
+        }
+      ]
+    },
+    {
+      "id": "electricPlayer",
+      "slug": "electric-player",
+      "input": "electric-player.jpg",
+      "imageId": "1686895052735-37336c0d5235",
+      "photoId": "gO3BhocajAY",
+      "author": "Mila Vasileva",
+      "sourceUrl": "https://unsplash.com/photos/a-close-up-of-a-person-playing-an-electric-guitar-gO3BhocajAY",
+      "altTh": "มือของผู้เล่นกำลังดีดสายกีตาร์ไฟฟ้า",
+      "altEn": "A musician picking the strings of an electric guitar",
+      "objectPosition": "50% 50%",
+      "description": "Generic editorial playing photograph, not a product illustration or an endorsement.",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "credit": "Mila Vasileva / Unsplash",
+      "checkedOn": "2026-10-26",
+      "kind": "editorial-photograph",
+      "selectedProductEvidence": false,
+      "endorsementImplied": false,
+      "sourceDownload": {
+        "url": "https://images.unsplash.com/photo-1686895052735-37336c0d5235?auto=format&fit=max&w=1800&q=90",
+        "httpStatus": 200,
+        "downloadedAt": "2026-10-26T20:28:38.203952+00:00",
+        "format": "JPEG",
+        "width": 1800,
+        "height": 1200,
+        "bytes": 199100,
+        "sha256": "9d12335ffc1bcca4b6759383286efacad6900149ed68c676b6f7987d161f456d",
+        "fullResolutionMasterDownloaded": false,
+        "localFile": "originals/electric-player.jpg"
+      },
+      "rightsEvidence": {
+        "method": "publisher-photo-page-and-license-page-web-read",
+        "assertion": "Free to use under the Unsplash License",
+        "photoPageUrl": "https://unsplash.com/photos/a-close-up-of-a-person-playing-an-electric-guitar-gO3BhocajAY",
+        "licensePageUrl": "https://unsplash.com/license",
+        "webToolResponseSha256": "c613d746e4af5d3c6150c28b925ed1544f5d79faa0c6affa428754babebf1379",
+        "executorDirectPhotoPageHTTP": null,
+        "note": "Publisher photo pages and license were successfully read with the web tool. Direct executor requests to the sample photo page and license page returned 401; the other photo-page executor fetches were not attempted. None is represented as HTTP200 rights evidence. Actual images downloaded via the publisher CDN returned HTTP200."
+      },
+      "changes": "Downloaded 1800px source variant; EXIF orientation applied; metadata stripped; resized proportionally and encoded WebP. No crop, recoloring, retouching, compositing or image generation. Responsive page framing may use CSS cover/gradient overlays.",
+      "variants": [
+        {
+          "file": "electric-player-360.webp",
+          "width": 360,
+          "height": 240,
+          "bytes": 10576,
+          "sha256": "f020090df9637fdd2ce390fe4795bb51615bbc4b901f7742be74d929d2a12d43"
+        },
+        {
+          "file": "electric-player-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 14776,
+          "sha256": "099b50c1a834c0823660a746764d5e9e89424cdf79f7fa1a3f964abeb7554bb8"
+        },
+        {
+          "file": "electric-player-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 24580,
+          "sha256": "0b8584d647e7081036dcadebf738f34cb03fd1c99966636103f1b0b07fa55b06"
+        }
+      ]
+    },
+    {
+      "id": "acousticPlayer",
+      "slug": "acoustic-player",
+      "input": "acoustic-player.jpg",
+      "imageId": "1771254240340-ae73c5a378ff",
+      "photoId": "fPiy383YBEM",
+      "author": "Alexander Mass",
+      "sourceUrl": "https://unsplash.com/photos/person-playing-an-acoustic-guitar-indoors-fPiy383YBEM",
+      "altTh": "ผู้เล่นกำลังฝึกกีตาร์โปร่งในห้องด้วยแสงอบอุ่น",
+      "altEn": "An acoustic guitarist practicing indoors in warm light",
+      "objectPosition": "50% 50%",
+      "description": "Generic editorial acoustic-playing photograph, not the catalog guitar selected by the recommendation engine.",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "credit": "Alexander Mass / Unsplash",
+      "checkedOn": "2026-10-26",
+      "kind": "editorial-photograph",
+      "selectedProductEvidence": false,
+      "endorsementImplied": false,
+      "sourceDownload": {
+        "url": "https://images.unsplash.com/photo-1771254240340-ae73c5a378ff?auto=format&fit=max&w=1800&q=90",
+        "httpStatus": 200,
+        "downloadedAt": "2026-10-26T20:28:37.955902+00:00",
+        "format": "JPEG",
+        "width": 1800,
+        "height": 1200,
+        "bytes": 265441,
+        "sha256": "cbe49409d2650dd1c2a919512055162f22ae884258dc50f7bc332eb8ae6b2110",
+        "fullResolutionMasterDownloaded": false,
+        "localFile": "originals/acoustic-player.jpg"
+      },
+      "rightsEvidence": {
+        "method": "publisher-photo-page-and-license-page-web-read",
+        "assertion": "Free to use under the Unsplash License",
+        "photoPageUrl": "https://unsplash.com/photos/person-playing-an-acoustic-guitar-indoors-fPiy383YBEM",
+        "licensePageUrl": "https://unsplash.com/license",
+        "webToolResponseSha256": "c613d746e4af5d3c6150c28b925ed1544f5d79faa0c6affa428754babebf1379",
+        "executorDirectPhotoPageHTTP": null,
+        "note": "Publisher photo pages and license were successfully read with the web tool. Direct executor requests to the sample photo page and license page returned 401; the other photo-page executor fetches were not attempted. None is represented as HTTP200 rights evidence. Actual images downloaded via the publisher CDN returned HTTP200."
+      },
+      "changes": "Downloaded 1800px source variant; EXIF orientation applied; metadata stripped; resized proportionally and encoded WebP. No crop, recoloring, retouching, compositing or image generation. Responsive page framing may use CSS cover/gradient overlays.",
+      "variants": [
+        {
+          "file": "acoustic-player-360.webp",
+          "width": 360,
+          "height": 240,
+          "bytes": 7596,
+          "sha256": "aacafe5b4410231d4dff85c68d7582acd45fc264bcb4e01a315cbeff9fddb9c6"
+        },
+        {
+          "file": "acoustic-player-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 10618,
+          "sha256": "2baa189739732b3bb2236acd4f5c63bcf28a689f008c6882fb4a2a31329ea394"
+        },
+        {
+          "file": "acoustic-player-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 17464,
+          "sha256": "ce216477c22fee2169225e340315286a59113a70609aa8c0ab61dfe10d4a54f1"
+        }
+      ]
+    },
+    {
+      "id": "chordHands",
+      "slug": "chord-hands",
+      "input": "chord-hands.jpg",
+      "imageId": "1741229395001-6d8d2a97f05e",
+      "photoId": "2KzBcgEMOgM",
+      "author": "Alex Kolundzija",
+      "sourceUrl": "https://unsplash.com/photos/a-hand-plays-guitar-close-up-2KzBcgEMOgM",
+      "altTh": "ภาพระยะใกล้ของมือที่กำลังจับสายบนคอกีตาร์",
+      "altEn": "Close-up of a fretting hand on a guitar neck",
+      "objectPosition": "48% 50%",
+      "description": "Atmospheric fretting-hand photograph, not a certified chord diagram or an example of the Practice hand solver.",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "credit": "Alex Kolundzija / Unsplash",
+      "checkedOn": "2026-10-26",
+      "kind": "editorial-photograph",
+      "selectedProductEvidence": false,
+      "endorsementImplied": false,
+      "sourceDownload": {
+        "url": "https://images.unsplash.com/photo-1741229395001-6d8d2a97f05e?auto=format&fit=max&w=1800&q=90",
+        "httpStatus": 200,
+        "downloadedAt": "2026-10-26T20:28:37.822984+00:00",
+        "format": "JPEG",
+        "width": 1800,
+        "height": 1200,
+        "bytes": 119692,
+        "sha256": "f587947d54a0a4088de51793e8a6ceba3135cb7bd8e6081f95cb6cd060161465",
+        "fullResolutionMasterDownloaded": false,
+        "localFile": "originals/chord-hands.jpg"
+      },
+      "rightsEvidence": {
+        "method": "publisher-photo-page-and-license-page-web-read",
+        "assertion": "Free to use under the Unsplash License",
+        "photoPageUrl": "https://unsplash.com/photos/a-hand-plays-guitar-close-up-2KzBcgEMOgM",
+        "licensePageUrl": "https://unsplash.com/license",
+        "webToolResponseSha256": "c613d746e4af5d3c6150c28b925ed1544f5d79faa0c6affa428754babebf1379",
+        "executorDirectPhotoPageHTTP": null,
+        "note": "Publisher photo pages and license were successfully read with the web tool. Direct executor requests to the sample photo page and license page returned 401; the other photo-page executor fetches were not attempted. None is represented as HTTP200 rights evidence. Actual images downloaded via the publisher CDN returned HTTP200."
+      },
+      "changes": "Downloaded 1800px source variant; EXIF orientation applied; metadata stripped; resized proportionally and encoded WebP. No crop, recoloring, retouching, compositing or image generation. Responsive page framing may use CSS cover/gradient overlays.",
+      "variants": [
+        {
+          "file": "chord-hands-360.webp",
+          "width": 360,
+          "height": 240,
+          "bytes": 6112,
+          "sha256": "78b29bbd0351a2345a99462ba658517928d28fae3599ca6727c6c4a850977e89"
+        },
+        {
+          "file": "chord-hands-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 8484,
+          "sha256": "539157e7d0895654e2fe96968ad814528522daf27db6829c184f7e649b615f1b"
+        },
+        {
+          "file": "chord-hands-720.webp",
+          "width": 720,
+          "height": 480,
+          "bytes": 13206,
+          "sha256": "ee8e26ee326abba7ef508a9e4094ea9a517248ab99980f011226c62b2757c2ca"
+        }
+      ]
+    }
+  ]
+}

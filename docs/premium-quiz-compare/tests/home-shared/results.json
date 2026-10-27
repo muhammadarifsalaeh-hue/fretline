@@ -1,0 +1,2448 @@
+{
+  "checks": [
+    {
+      "name": "Home full comparison uses original noncompact model header",
+      "passed": true
+    },
+    {
+      "name": "Home remove controls retain all actual selected IDs",
+      "passed": true
+    },
+    {
+      "name": "Navigating Compare loads new scoped page style",
+      "passed": true
+    },
+    {
+      "name": "Home full comparison has identical computed styles after Compare CSS loads",
+      "passed": true
+    },
+    {
+      "name": "Home remains outside premium page CSS scope",
+      "passed": true
+    },
+    {
+      "name": "Shared full-table remove action updates actual selection",
+      "passed": true
+    },
+    {
+      "name": "No page horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "No console/runtime errors",
+      "passed": true
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "physicalIPadSafariTested": false,
+  "before": {
+    "premiumAncestor": false,
+    "compact": 0,
+    "images": 3,
+    "models": [
+      "Pacifica 612VIIFM",
+      "FG820-12",
+      "D-28"
+    ],
+    "styles": [
+      {
+        "text": "",
+        "font": "16px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "contain",
+        "width": 327,
+        "height": 409
+      },
+      {
+        "text": "",
+        "font": "16px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "contain",
+        "width": 327,
+        "height": 409
+      },
+      {
+        "text": "",
+        "font": "16px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "contain",
+        "width": 327,
+        "height": 409
+      },
+      {
+        "text": "Pacifica 612VIIFM",
+        "font": "20px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 25
+      },
+      {
+        "text": "ราคาขายปลีกแนะนำโดย Yamaha ประเทศไทย",
+        "font": "13px",
+        "color": "rgb(200, 161, 90)",
+        "fit": "fill",
+        "width": 235,
+        "height": 17
+      },
+      {
+        "text": "ดูรายละเอียด",
+        "font": "16px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 82,
+        "height": 20
+      },
+      {
+        "text": "FG820-12",
+        "font": "20px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 25
+      },
+      {
+        "text": "Music Arms · ราคาที่ร้านค้าแสดง",
+        "font": "13px",
+        "color": "rgb(200, 161, 90)",
+        "fit": "fill",
+        "width": 177,
+        "height": 17
+      },
+      {
+        "text": "ดูรายละเอียด",
+        "font": "16px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 82,
+        "height": 20
+      },
+      {
+        "text": "D-28",
+        "font": "20px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 25
+      },
+      {
+        "text": "ดูรายละเอียด",
+        "font": "16px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 82,
+        "height": 20
+      },
+      {
+        "text": "Yamaha",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Yamaha",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Martin",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Pacifica 612VIIFM",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "FG820-12",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "D-28",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "กีตาร์ไฟฟ้า",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "กีตาร์โปร่ง",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "กีตาร์โปร่ง",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "฿34,000 · ราคาขายปลีกแนะนำ+฿17,500",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 46
+      },
+      {
+        "text": "฿16,500ราคาต่ำสุด",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 46
+      },
+      {
+        "text": "ยังไม่มีข้อมูลราคา",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Alder with Flamed Maple Veneer",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Dreadnought Style; Solid Spruce top; Mahogany back; Mahogany sides",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 42
+      },
+      {
+        "text": "Spruce top; East Indian Rosewood back and sides",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Maple",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Nato",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Select hardwood; GE Modified Low Oval; High Performance Taper",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 42
+      },
+      {
+        "text": "Rosewood",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Rosewood or Walnut",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Ebony",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "648 mm (25.5\")",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "634 mm (24.96\")",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "25.4\"",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "22",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "20",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "12",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Pacifica",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Dreadnought Style",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Gloss Polyurethane",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Matt",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "350 mm",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "400 mm",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Graph Tech TUSQ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Urea",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Solid Spruce",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Mahogany",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Mahogany",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "505 mm",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "1072 mm",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "412 mm",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "100-118mm (3 15/16”- 4 5/8”)",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "46 mm",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "10 mm",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Urea",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Scalloped Bracing",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Seymour Duncan SSL-1 (neck), SSL-1 RwRp (middle), Custom 5 TB-14 (bridge)",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 42
+      },
+      {
+        "text": "None",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "No electronics",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Wilkinson VS50-6 Vibrato",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Rosewood or Walnut",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Ebony; Golden Era Modern Belly; drop-in saddle",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Master Volume, Master Tone with Push/Pull Coil Split",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "None",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "HSS",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Seymour Duncan Custom 5 TB-14 Humbucker",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Seymour Duncan SSL-1 RwRp",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Seymour Duncan SSL-1",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "5-Position Lever Switch",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "None",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "None",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Grover Locking Tuners",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Die-cast Chrome(TMW28)",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Black ABS with White Dot",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Cream",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Black + White",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Tortoise Pattern",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Gloss",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "D'Addario XT",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Hex Wrench",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "None",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      }
+    ]
+  },
+  "after": {
+    "premiumAncestor": false,
+    "compact": 0,
+    "images": 3,
+    "models": [
+      "Pacifica 612VIIFM",
+      "FG820-12",
+      "D-28"
+    ],
+    "styles": [
+      {
+        "text": "",
+        "font": "16px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "contain",
+        "width": 327,
+        "height": 409
+      },
+      {
+        "text": "",
+        "font": "16px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "contain",
+        "width": 327,
+        "height": 409
+      },
+      {
+        "text": "",
+        "font": "16px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "contain",
+        "width": 327,
+        "height": 409
+      },
+      {
+        "text": "Pacifica 612VIIFM",
+        "font": "20px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 25
+      },
+      {
+        "text": "ราคาขายปลีกแนะนำโดย Yamaha ประเทศไทย",
+        "font": "13px",
+        "color": "rgb(200, 161, 90)",
+        "fit": "fill",
+        "width": 235,
+        "height": 17
+      },
+      {
+        "text": "ดูรายละเอียด",
+        "font": "16px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 82,
+        "height": 20
+      },
+      {
+        "text": "FG820-12",
+        "font": "20px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 25
+      },
+      {
+        "text": "Music Arms · ราคาที่ร้านค้าแสดง",
+        "font": "13px",
+        "color": "rgb(200, 161, 90)",
+        "fit": "fill",
+        "width": 177,
+        "height": 17
+      },
+      {
+        "text": "ดูรายละเอียด",
+        "font": "16px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 82,
+        "height": 20
+      },
+      {
+        "text": "D-28",
+        "font": "20px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 25
+      },
+      {
+        "text": "ดูรายละเอียด",
+        "font": "16px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 82,
+        "height": 20
+      },
+      {
+        "text": "Yamaha",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Yamaha",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Martin",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Pacifica 612VIIFM",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "FG820-12",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "D-28",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "กีตาร์ไฟฟ้า",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "กีตาร์โปร่ง",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "กีตาร์โปร่ง",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "฿34,000 · ราคาขายปลีกแนะนำ+฿17,500",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 46
+      },
+      {
+        "text": "฿16,500ราคาต่ำสุด",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 46
+      },
+      {
+        "text": "ยังไม่มีข้อมูลราคา",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Alder with Flamed Maple Veneer",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Dreadnought Style; Solid Spruce top; Mahogany back; Mahogany sides",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 42
+      },
+      {
+        "text": "Spruce top; East Indian Rosewood back and sides",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Maple",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Nato",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Select hardwood; GE Modified Low Oval; High Performance Taper",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 42
+      },
+      {
+        "text": "Rosewood",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Rosewood or Walnut",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Ebony",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "648 mm (25.5\")",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "634 mm (24.96\")",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "25.4\"",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "22",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "20",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "12",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Pacifica",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Dreadnought Style",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Gloss Polyurethane",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Matt",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "350 mm",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "400 mm",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Graph Tech TUSQ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Urea",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Solid Spruce",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Mahogany",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Mahogany",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "505 mm",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "1072 mm",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "412 mm",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "100-118mm (3 15/16”- 4 5/8”)",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "46 mm",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "10 mm",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Urea",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Scalloped Bracing",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Seymour Duncan SSL-1 (neck), SSL-1 RwRp (middle), Custom 5 TB-14 (bridge)",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 42
+      },
+      {
+        "text": "None",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "No electronics",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Wilkinson VS50-6 Vibrato",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Rosewood or Walnut",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Ebony; Golden Era Modern Belly; drop-in saddle",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Master Volume, Master Tone with Push/Pull Coil Split",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "None",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "HSS",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Seymour Duncan Custom 5 TB-14 Humbucker",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Seymour Duncan SSL-1 RwRp",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Seymour Duncan SSL-1",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "5-Position Lever Switch",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "None",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "None",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Grover Locking Tuners",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Die-cast Chrome(TMW28)",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Black ABS with White Dot",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Cream",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Black + White",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Tortoise Pattern",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Gloss",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "D'Addario XT",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "Hex Wrench",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "None",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      },
+      {
+        "text": "ไม่ระบุ",
+        "font": "13px",
+        "color": "rgb(245, 245, 242)",
+        "fit": "fill",
+        "width": 327,
+        "height": 21
+      }
+    ]
+  },
+  "passed": true
+}

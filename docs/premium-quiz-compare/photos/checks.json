@@ -1,0 +1,145 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "five real editorial sources and fifteen distinct local WebP variants",
+      "passed": true
+    },
+    {
+      "name": "quizHero retained source bytes and dimensions",
+      "passed": true
+    },
+    {
+      "name": "quizHero source is editorial, license/source recorded, not catalog model evidence",
+      "passed": true
+    },
+    {
+      "name": "quizHero responsive widths",
+      "passed": true
+    },
+    {
+      "name": "quiz-studio-480.webp is decoded WebP, checksum-bound, proportional and source-sized",
+      "passed": true
+    },
+    {
+      "name": "quiz-studio-960.webp is decoded WebP, checksum-bound, proportional and source-sized",
+      "passed": true
+    },
+    {
+      "name": "quiz-studio-1600.webp is decoded WebP, checksum-bound, proportional and source-sized",
+      "passed": true
+    },
+    {
+      "name": "compareHero retained source bytes and dimensions",
+      "passed": true
+    },
+    {
+      "name": "compareHero source is editorial, license/source recorded, not catalog model evidence",
+      "passed": true
+    },
+    {
+      "name": "compareHero responsive widths",
+      "passed": true
+    },
+    {
+      "name": "compare-guitars-480.webp is decoded WebP, checksum-bound, proportional and source-sized",
+      "passed": true
+    },
+    {
+      "name": "compare-guitars-960.webp is decoded WebP, checksum-bound, proportional and source-sized",
+      "passed": true
+    },
+    {
+      "name": "compare-guitars-1600.webp is decoded WebP, checksum-bound, proportional and source-sized",
+      "passed": true
+    },
+    {
+      "name": "electricPlayer retained source bytes and dimensions",
+      "passed": true
+    },
+    {
+      "name": "electricPlayer source is editorial, license/source recorded, not catalog model evidence",
+      "passed": true
+    },
+    {
+      "name": "electricPlayer responsive widths",
+      "passed": true
+    },
+    {
+      "name": "electric-player-360.webp is decoded WebP, checksum-bound, proportional and source-sized",
+      "passed": true
+    },
+    {
+      "name": "electric-player-480.webp is decoded WebP, checksum-bound, proportional and source-sized",
+      "passed": true
+    },
+    {
+      "name": "electric-player-720.webp is decoded WebP, checksum-bound, proportional and source-sized",
+      "passed": true
+    },
+    {
+      "name": "acousticPlayer retained source bytes and dimensions",
+      "passed": true
+    },
+    {
+      "name": "acousticPlayer source is editorial, license/source recorded, not catalog model evidence",
+      "passed": true
+    },
+    {
+      "name": "acousticPlayer responsive widths",
+      "passed": true
+    },
+    {
+      "name": "acoustic-player-360.webp is decoded WebP, checksum-bound, proportional and source-sized",
+      "passed": true
+    },
+    {
+      "name": "acoustic-player-480.webp is decoded WebP, checksum-bound, proportional and source-sized",
+      "passed": true
+    },
+    {
+      "name": "acoustic-player-720.webp is decoded WebP, checksum-bound, proportional and source-sized",
+      "passed": true
+    },
+    {
+      "name": "chordHands retained source bytes and dimensions",
+      "passed": true
+    },
+    {
+      "name": "chordHands source is editorial, license/source recorded, not catalog model evidence",
+      "passed": true
+    },
+    {
+      "name": "chordHands responsive widths",
+      "passed": true
+    },
+    {
+      "name": "chord-hands-360.webp is decoded WebP, checksum-bound, proportional and source-sized",
+      "passed": true
+    },
+    {
+      "name": "chord-hands-480.webp is decoded WebP, checksum-bound, proportional and source-sized",
+      "passed": true
+    },
+    {
+      "name": "chord-hands-720.webp is decoded WebP, checksum-bound, proportional and source-sized",
+      "passed": true
+    },
+    {
+      "name": "no stray runtime discovery image is omitted from provenance",
+      "passed": true
+    },
+    {
+      "name": "all fifteen responsive images stay below one MiB combined",
+      "passed": true
+    },
+    {
+      "name": "real runtime module references local variants and never temporary/CDN image URLs",
+      "passed": true
+    }
+  ],
+  "sourcePhotos": 5,
+  "responsiveWebPFiles": 15,
+  "runtimeBytes": 839000,
+  "newCatalogProductImages": 0
+}

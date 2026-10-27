@@ -1,0 +1,506 @@
+{
+  "baselineCommit": "f2168efb6f260194e5732647073b05c8b36fe73a",
+  "locale": "th",
+  "cases": [
+    {
+      "answers": {
+        "type": "acoustic",
+        "level": "beginner",
+        "style": "folk",
+        "budget": "mid",
+        "priority": "value"
+      },
+      "matches": [
+        {
+          "id": "yamaha-fg800",
+          "brand": "Yamaha",
+          "name": "FG800 Dreadnought",
+          "price": 12400,
+          "dataStatus": "partial",
+          "score": 95,
+          "rawScore": 100,
+          "points": {
+            "type": 30,
+            "level": 20,
+            "style": 20,
+            "budget": 20,
+            "priority": 10,
+            "rating": 0
+          },
+          "reasons": [
+            "ประเภทตรงกับที่เลือก: กีตาร์โปร่ง",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับระดับ: เพิ่งเริ่มต้น",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับแนว: โฟล์กและคันทรี",
+            "ราคาที่มีแหล่งข้อมูลอยู่ในช่วง: 10,000–30,000 บาท",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับการเน้นความคุ้มค่า"
+          ],
+          "caveats": [
+            "โปรไฟล์แนวเพลงและระดับผู้เล่นเป็นการประเมิน ไม่ใช่ข้อมูลยืนยันจากผู้ผลิต"
+          ],
+          "typeMatch": true
+        },
+        {
+          "id": "taylor-gs-mini",
+          "brand": "Taylor",
+          "name": "GS Mini Mahogany",
+          "price": null,
+          "dataStatus": "partial",
+          "score": 82,
+          "rawScore": 86,
+          "points": {
+            "type": 30,
+            "level": 20,
+            "style": 20,
+            "budget": 6,
+            "priority": 10,
+            "rating": 0
+          },
+          "reasons": [
+            "ประเภทตรงกับที่เลือก: กีตาร์โปร่ง",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับระดับ: เพิ่งเริ่มต้น",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับแนว: โฟล์กและคันทรี",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับการเน้นความคุ้มค่า"
+          ],
+          "caveats": [
+            "โปรไฟล์แนวเพลงและระดับผู้เล่นเป็นการประเมิน ไม่ใช่ข้อมูลยืนยันจากผู้ผลิต",
+            "ยังยืนยันราคาไม่ได้ จึงตรวจช่วงงบของคุณไม่ได้"
+          ],
+          "typeMatch": true
+        },
+        {
+          "id": "taylor-214ce",
+          "brand": "Taylor",
+          "name": "214ce Grand Auditorium",
+          "price": null,
+          "dataStatus": "partial",
+          "score": 61,
+          "rawScore": 64,
+          "points": {
+            "type": 30,
+            "level": 8,
+            "style": 20,
+            "budget": 6,
+            "priority": 0,
+            "rating": 0
+          },
+          "reasons": [
+            "ประเภทตรงกับที่เลือก: กีตาร์โปร่ง",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับแนว: โฟล์กและคันทรี"
+          ],
+          "caveats": [
+            "โปรไฟล์แนวเพลงและระดับผู้เล่นเป็นการประเมิน ไม่ใช่ข้อมูลยืนยันจากผู้ผลิต",
+            "ยังยืนยันราคาไม่ได้ จึงตรวจช่วงงบของคุณไม่ได้"
+          ],
+          "typeMatch": true
+        }
+      ]
+    },
+    {
+      "answers": {
+        "type": "electric",
+        "level": "beginner",
+        "style": "pop",
+        "budget": "mid",
+        "priority": "versatile"
+      },
+      "matches": [
+        {
+          "id": "yamaha-pacifica-612viifm",
+          "brand": "Yamaha",
+          "name": "Pacifica 612VIIFM",
+          "price": 34000,
+          "dataStatus": "partial",
+          "score": 86,
+          "rawScore": 90,
+          "points": {
+            "type": 30,
+            "level": 20,
+            "style": 20,
+            "budget": 10,
+            "priority": 10,
+            "rating": 0
+          },
+          "reasons": [
+            "ประเภทตรงกับที่เลือก: กีตาร์ไฟฟ้า",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับระดับ: เพิ่งเริ่มต้น",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับแนว: ป็อปและอินดี้",
+            "โปรไฟล์เบื้องต้นเน้นความหลากหลายของเสียง"
+          ],
+          "caveats": [
+            "โปรไฟล์แนวเพลงและระดับผู้เล่นเป็นการประเมิน ไม่ใช่ข้อมูลยืนยันจากผู้ผลิต",
+            "ราคาที่มีแหล่งข้อมูล ฿34,000 สูงกว่างบที่เลือก"
+          ],
+          "typeMatch": true
+        },
+        {
+          "id": "squier-classic-vibe-60s-stratocaster",
+          "brand": "Squier",
+          "name": "Classic Vibe '60s Stratocaster",
+          "price": null,
+          "dataStatus": "partial",
+          "score": 72,
+          "rawScore": 76,
+          "points": {
+            "type": 30,
+            "level": 20,
+            "style": 20,
+            "budget": 6,
+            "priority": 0,
+            "rating": 0
+          },
+          "reasons": [
+            "ประเภทตรงกับที่เลือก: กีตาร์ไฟฟ้า",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับระดับ: เพิ่งเริ่มต้น",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับแนว: ป็อปและอินดี้"
+          ],
+          "caveats": [
+            "โปรไฟล์แนวเพลงและระดับผู้เล่นเป็นการประเมิน ไม่ใช่ข้อมูลยืนยันจากผู้ผลิต",
+            "ยังยืนยันราคาไม่ได้ จึงตรวจช่วงงบของคุณไม่ได้"
+          ],
+          "typeMatch": true
+        },
+        {
+          "id": "fender-american-professional-ii-stratocaster",
+          "brand": "Fender",
+          "name": "American Professional II Stratocaster",
+          "price": null,
+          "dataStatus": "partial",
+          "score": 70,
+          "rawScore": 74,
+          "points": {
+            "type": 30,
+            "level": 8,
+            "style": 20,
+            "budget": 6,
+            "priority": 10,
+            "rating": 0
+          },
+          "reasons": [
+            "ประเภทตรงกับที่เลือก: กีตาร์ไฟฟ้า",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับแนว: ป็อปและอินดี้",
+            "โปรไฟล์เบื้องต้นเน้นความหลากหลายของเสียง"
+          ],
+          "caveats": [
+            "โปรไฟล์แนวเพลงและระดับผู้เล่นเป็นการประเมิน ไม่ใช่ข้อมูลยืนยันจากผู้ผลิต",
+            "ยังยืนยันราคาไม่ได้ จึงตรวจช่วงงบของคุณไม่ได้"
+          ],
+          "typeMatch": true
+        }
+      ]
+    },
+    {
+      "answers": {
+        "type": "bass",
+        "level": "intermediate",
+        "style": "rock",
+        "budget": "low",
+        "priority": "light"
+      },
+      "matches": [
+        {
+          "id": "fender-player-ii-jazz-bass",
+          "brand": "Fender",
+          "name": "Player II Jazz Bass",
+          "price": null,
+          "dataStatus": "partial",
+          "score": 72,
+          "rawScore": 76,
+          "points": {
+            "type": 30,
+            "level": 20,
+            "style": 20,
+            "budget": 6,
+            "priority": 0,
+            "rating": 0
+          },
+          "reasons": [
+            "ประเภทตรงกับที่เลือก: เบส",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับระดับ: เล่นได้คล่องขึ้น",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับแนว: ร็อกและเมทัล"
+          ],
+          "caveats": [
+            "โปรไฟล์แนวเพลงและระดับผู้เล่นเป็นการประเมิน ไม่ใช่ข้อมูลยืนยันจากผู้ผลิต",
+            "ยังยืนยันราคาไม่ได้ จึงตรวจช่วงงบของคุณไม่ได้",
+            "ยังยืนยันน้ำหนักไม่ได้ จึงไม่ได้คะแนนด้านน้ำหนัก"
+          ],
+          "typeMatch": true
+        },
+        {
+          "id": "ibanez-sr300e",
+          "brand": "Ibanez",
+          "name": "SR300E Bass",
+          "price": null,
+          "dataStatus": "partial",
+          "score": 72,
+          "rawScore": 76,
+          "points": {
+            "type": 30,
+            "level": 20,
+            "style": 20,
+            "budget": 6,
+            "priority": 0,
+            "rating": 0
+          },
+          "reasons": [
+            "ประเภทตรงกับที่เลือก: เบส",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับระดับ: เล่นได้คล่องขึ้น",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับแนว: ร็อกและเมทัล"
+          ],
+          "caveats": [
+            "โปรไฟล์แนวเพลงและระดับผู้เล่นเป็นการประเมิน ไม่ใช่ข้อมูลยืนยันจากผู้ผลิต",
+            "ยังยืนยันราคาไม่ได้ จึงตรวจช่วงงบของคุณไม่ได้",
+            "ยังยืนยันน้ำหนักไม่ได้ จึงไม่ได้คะแนนด้านน้ำหนัก"
+          ],
+          "typeMatch": true
+        },
+        {
+          "id": "fender-player-precision-bass",
+          "brand": "Fender",
+          "name": "Player II Precision Bass",
+          "price": null,
+          "dataStatus": "partial",
+          "score": 72,
+          "rawScore": 76,
+          "points": {
+            "type": 30,
+            "level": 20,
+            "style": 20,
+            "budget": 6,
+            "priority": 0,
+            "rating": 0
+          },
+          "reasons": [
+            "ประเภทตรงกับที่เลือก: เบส",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับระดับ: เล่นได้คล่องขึ้น",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับแนว: ร็อกและเมทัล"
+          ],
+          "caveats": [
+            "โปรไฟล์แนวเพลงและระดับผู้เล่นเป็นการประเมิน ไม่ใช่ข้อมูลยืนยันจากผู้ผลิต",
+            "ยังยืนยันราคาไม่ได้ จึงตรวจช่วงงบของคุณไม่ได้",
+            "ยังยืนยันน้ำหนักไม่ได้ จึงไม่ได้คะแนนด้านน้ำหนัก"
+          ],
+          "typeMatch": true
+        }
+      ]
+    },
+    {
+      "answers": {
+        "type": "classical",
+        "level": "advanced",
+        "style": "classical",
+        "budget": "premium",
+        "priority": "premium"
+      },
+      "matches": [
+        {
+          "id": "cordoba-c5",
+          "brand": "Córdoba",
+          "name": "C5 Classical",
+          "price": null,
+          "dataStatus": "partial",
+          "score": 61,
+          "rawScore": 64,
+          "points": {
+            "type": 30,
+            "level": 8,
+            "style": 20,
+            "budget": 6,
+            "priority": 0,
+            "rating": 0
+          },
+          "reasons": [
+            "ประเภทตรงกับที่เลือก: กีตาร์คลาสสิก",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับแนว: คลาสสิกและฟิงเกอร์สไตล์"
+          ],
+          "caveats": [
+            "โปรไฟล์แนวเพลงและระดับผู้เล่นเป็นการประเมิน ไม่ใช่ข้อมูลยืนยันจากผู้ผลิต",
+            "ยังยืนยันราคาไม่ได้ จึงตรวจช่วงงบของคุณไม่ได้"
+          ],
+          "typeMatch": true
+        }
+      ]
+    },
+    {
+      "answers": {
+        "type": "any",
+        "level": "beginner",
+        "style": "blues",
+        "budget": "flex",
+        "priority": "value"
+      },
+      "matches": [
+        {
+          "id": "yamaha-pacifica-612viifm",
+          "brand": "Yamaha",
+          "name": "Pacifica 612VIIFM",
+          "price": 34000,
+          "dataStatus": "partial",
+          "score": 90,
+          "rawScore": 94,
+          "points": {
+            "type": 30,
+            "level": 20,
+            "style": 20,
+            "budget": 14,
+            "priority": 10,
+            "rating": 0
+          },
+          "reasons": [
+            "โปรไฟล์เบื้องต้นสอดคล้องกับระดับ: เพิ่งเริ่มต้น",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับแนว: บลูส์และแจ๊ส",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับการเน้นความคุ้มค่า"
+          ],
+          "caveats": [
+            "โปรไฟล์แนวเพลงและระดับผู้เล่นเป็นการประเมิน ไม่ใช่ข้อมูลยืนยันจากผู้ผลิต"
+          ],
+          "typeMatch": true
+        },
+        {
+          "id": "squier-classic-vibe-60s-stratocaster",
+          "brand": "Squier",
+          "name": "Classic Vibe '60s Stratocaster",
+          "price": null,
+          "dataStatus": "partial",
+          "score": 90,
+          "rawScore": 94,
+          "points": {
+            "type": 30,
+            "level": 20,
+            "style": 20,
+            "budget": 14,
+            "priority": 10,
+            "rating": 0
+          },
+          "reasons": [
+            "โปรไฟล์เบื้องต้นสอดคล้องกับระดับ: เพิ่งเริ่มต้น",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับแนว: บลูส์และแจ๊ส",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับการเน้นความคุ้มค่า"
+          ],
+          "caveats": [
+            "โปรไฟล์แนวเพลงและระดับผู้เล่นเป็นการประเมิน ไม่ใช่ข้อมูลยืนยันจากผู้ผลิต"
+          ],
+          "typeMatch": true
+        },
+        {
+          "id": "epiphone-les-paul-standard-50s",
+          "brand": "Epiphone",
+          "name": "Les Paul Standard 50s",
+          "price": null,
+          "dataStatus": "partial",
+          "score": 90,
+          "rawScore": 94,
+          "points": {
+            "type": 30,
+            "level": 20,
+            "style": 20,
+            "budget": 14,
+            "priority": 10,
+            "rating": 0
+          },
+          "reasons": [
+            "โปรไฟล์เบื้องต้นสอดคล้องกับระดับ: เพิ่งเริ่มต้น",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับแนว: บลูส์และแจ๊ส",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับการเน้นความคุ้มค่า"
+          ],
+          "caveats": [
+            "โปรไฟล์แนวเพลงและระดับผู้เล่นเป็นการประเมิน ไม่ใช่ข้อมูลยืนยันจากผู้ผลิต"
+          ],
+          "typeMatch": true
+        }
+      ]
+    },
+    {
+      "answers": {
+        "type": "acoustic",
+        "level": "advanced",
+        "style": "pop",
+        "budget": "high",
+        "priority": "light"
+      },
+      "matches": [
+        {
+          "id": "taylor-214ce",
+          "brand": "Taylor",
+          "name": "214ce Grand Auditorium",
+          "price": null,
+          "dataStatus": "partial",
+          "score": 72,
+          "rawScore": 76,
+          "points": {
+            "type": 30,
+            "level": 20,
+            "style": 20,
+            "budget": 6,
+            "priority": 0,
+            "rating": 0
+          },
+          "reasons": [
+            "ประเภทตรงกับที่เลือก: กีตาร์โปร่ง",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับระดับ: มีประสบการณ์",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับแนว: ป็อปและอินดี้"
+          ],
+          "caveats": [
+            "โปรไฟล์แนวเพลงและระดับผู้เล่นเป็นการประเมิน ไม่ใช่ข้อมูลยืนยันจากผู้ผลิต",
+            "ยังยืนยันราคาไม่ได้ จึงตรวจช่วงงบของคุณไม่ได้",
+            "ยังยืนยันน้ำหนักไม่ได้ จึงไม่ได้คะแนนด้านน้ำหนัก"
+          ],
+          "typeMatch": true
+        },
+        {
+          "id": "taylor-gs-mini",
+          "brand": "Taylor",
+          "name": "GS Mini Mahogany",
+          "price": null,
+          "dataStatus": "partial",
+          "score": 61,
+          "rawScore": 64,
+          "points": {
+            "type": 30,
+            "level": 8,
+            "style": 20,
+            "budget": 6,
+            "priority": 0,
+            "rating": 0
+          },
+          "reasons": [
+            "ประเภทตรงกับที่เลือก: กีตาร์โปร่ง",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับแนว: ป็อปและอินดี้"
+          ],
+          "caveats": [
+            "โปรไฟล์แนวเพลงและระดับผู้เล่นเป็นการประเมิน ไม่ใช่ข้อมูลยืนยันจากผู้ผลิต",
+            "ยังยืนยันราคาไม่ได้ จึงตรวจช่วงงบของคุณไม่ได้",
+            "ยังยืนยันน้ำหนักไม่ได้ จึงไม่ได้คะแนนด้านน้ำหนัก"
+          ],
+          "typeMatch": true
+        },
+        {
+          "id": "yamaha-fg800",
+          "brand": "Yamaha",
+          "name": "FG800 Dreadnought",
+          "price": 12400,
+          "dataStatus": "partial",
+          "score": 55,
+          "rawScore": 58,
+          "points": {
+            "type": 30,
+            "level": 8,
+            "style": 20,
+            "budget": 0,
+            "priority": 0,
+            "rating": 0
+          },
+          "reasons": [
+            "ประเภทตรงกับที่เลือก: กีตาร์โปร่ง",
+            "โปรไฟล์เบื้องต้นสอดคล้องกับแนว: ป็อปและอินดี้"
+          ],
+          "caveats": [
+            "โปรไฟล์แนวเพลงและระดับผู้เล่นเป็นการประเมิน ไม่ใช่ข้อมูลยืนยันจากผู้ผลิต",
+            "ราคาที่มีแหล่งข้อมูลต่ำกว่าช่วงงบที่เลือก",
+            "ยังยืนยันน้ำหนักไม่ได้ จึงไม่ได้คะแนนด้านน้ำหนัก"
+          ],
+          "typeMatch": true
+        }
+      ]
+    }
+  ]
+}

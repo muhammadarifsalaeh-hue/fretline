@@ -1,0 +1,8 @@
+PASS Home full comparison uses original noncompact model header
+PASS Home remove controls retain all actual selected IDs
+PASS Navigating Compare loads new scoped page style
+PASS Home full comparison has identical computed styles after Compare CSS loads
+PASS Home remains outside premium page CSS scope
+PASS Shared full-table remove action updates actual selection
+PASS No page horizontal overflow
+PASS No console/runtime errors

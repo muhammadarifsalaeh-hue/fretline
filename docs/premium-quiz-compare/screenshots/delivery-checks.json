@@ -1,0 +1,1018 @@
+{
+  "physicalIPadSafariTested": false,
+  "checks": [
+    {
+      "page": "quiz",
+      "viewport": "desktop",
+      "radioKeyboardFocusAndSelection": true,
+      "reducedMotionAnimationDuration": "1e-05s"
+    },
+    {
+      "page": "compare",
+      "viewport": "desktop",
+      "realCreditsRouteAndAllFiveLicenses": true
+    },
+    {
+      "page": "quiz",
+      "viewport": "tablet",
+      "radioKeyboardFocusAndSelection": true,
+      "reducedMotionAnimationDuration": "1e-05s"
+    },
+    {
+      "page": "compare",
+      "viewport": "tablet",
+      "realCreditsRouteAndAllFiveLicenses": true
+    },
+    {
+      "page": "quiz",
+      "viewport": "mobile",
+      "radioKeyboardFocusAndSelection": true,
+      "reducedMotionAnimationDuration": "1e-05s"
+    },
+    {
+      "page": "compare",
+      "viewport": "mobile",
+      "realCreditsRouteAndAllFiveLicenses": true
+    }
+  ],
+  "errors": [],
+  "measurements": [
+    {
+      "page": "quiz",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "cls": 0.0002019196686921296,
+      "navigation": [
+        {
+          "domContentLoadedMs": 282.19999999552965,
+          "loadMs": 286.19999999552965
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "bytes": 216,
+          "durationMs": 58.29999999701977
+        },
+        {
+          "name": "/assets/index-D8j5twRI.js",
+          "bytes": 53666,
+          "durationMs": 86.39999999850988
+        },
+        {
+          "name": "/assets/vendor-DU_bXo7n.js",
+          "bytes": 53225,
+          "durationMs": 100.20000000298023
+        },
+        {
+          "name": "/assets/guitar-catalog-BvOHfNeZ.js",
+          "bytes": 43834,
+          "durationMs": 144.59999999403954
+        },
+        {
+          "name": "/assets/index-D5lYdqiU.css",
+          "bytes": 24369,
+          "durationMs": 74
+        },
+        {
+          "name": "/assets/FindMyGuitarPage-CVar3Vd0.js",
+          "bytes": 6446,
+          "durationMs": 4.600000001490116
+        },
+        {
+          "name": "/assets/discoveryPhotography-BImEMiYk.js",
+          "bytes": 2485,
+          "durationMs": 2.2000000029802322
+        },
+        {
+          "name": "/assets/ShareLink-CGAsayl4.js",
+          "bytes": 824,
+          "durationMs": 37.79999999701977
+        },
+        {
+          "name": "/assets/FindMyGuitarPage-V0Lv1eDi.css",
+          "bytes": 3779,
+          "durationMs": 43.899999998509884
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "bytes": 49052,
+          "durationMs": 197.70000000298023
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "bytes": 32144,
+          "durationMs": 197.69999999552965
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "bytes": 54784,
+          "durationMs": 208.10000000149012
+        },
+        {
+          "name": "/favicon.svg",
+          "bytes": 239,
+          "durationMs": 18.799999997019768
+        },
+        {
+          "name": "/assets/quiz-studio-1600-2fu6lnVH.webp",
+          "bytes": 152294,
+          "durationMs": 18.5
+        },
+        {
+          "name": "/fonts/anuphan-600-normal.woff",
+          "bytes": 54420,
+          "durationMs": 105.19999999552965
+        },
+        {
+          "name": "/assets/electric-player-360-CvwPPJB0.webp",
+          "bytes": 10576,
+          "durationMs": 31.30000000447035
+        },
+        {
+          "name": "/assets/acoustic-player-360-CVqpqq6G.webp",
+          "bytes": 7596,
+          "durationMs": 30.799999997019768
+        },
+        {
+          "name": "/assets/chord-hands-360-BQjSyWyo.webp",
+          "bytes": 6112,
+          "durationMs": 30.700000002980232
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/quiz-studio-1600-2fu6lnVH.webp",
+          "naturalWidth": 1100,
+          "naturalHeight": 733,
+          "width": 1440,
+          "height": 745,
+          "fit": "cover"
+        },
+        {
+          "src": "/assets/electric-player-360-CvwPPJB0.webp",
+          "naturalWidth": 170,
+          "naturalHeight": 113,
+          "width": 183,
+          "height": 511,
+          "fit": "cover"
+        },
+        {
+          "src": "/assets/acoustic-player-360-CVqpqq6G.webp",
+          "naturalWidth": 170,
+          "naturalHeight": 113,
+          "width": 183,
+          "height": 511,
+          "fit": "cover"
+        },
+        {
+          "src": "/assets/chord-hands-360-BQjSyWyo.webp",
+          "naturalWidth": 170,
+          "naturalHeight": 113,
+          "width": 183,
+          "height": 511,
+          "fit": "cover"
+        }
+      ],
+      "breadcrumbTop": 110,
+      "headerBottom": 81
+    },
+    {
+      "page": "compare",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "cls": 0.0001440126687509042,
+      "navigation": [
+        {
+          "domContentLoadedMs": 106.60000000149012,
+          "loadMs": 107.30000000447035
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "bytes": 0,
+          "durationMs": 20.399999998509884
+        },
+        {
+          "name": "/assets/index-D8j5twRI.js",
+          "bytes": 0,
+          "durationMs": 16.899999998509884
+        },
+        {
+          "name": "/assets/vendor-DU_bXo7n.js",
+          "bytes": 0,
+          "durationMs": 17
+        },
+        {
+          "name": "/assets/guitar-catalog-BvOHfNeZ.js",
+          "bytes": 0,
+          "durationMs": 17.19999999552965
+        },
+        {
+          "name": "/assets/index-D5lYdqiU.css",
+          "bytes": 0,
+          "durationMs": 16.5
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "bytes": 49052,
+          "durationMs": 0
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "bytes": 54784,
+          "durationMs": 0
+        },
+        {
+          "name": "/fonts/anuphan-600-normal.woff",
+          "bytes": 54420,
+          "durationMs": 0
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "bytes": 32144,
+          "durationMs": 0
+        },
+        {
+          "name": "/assets/ComparePage-DtIjhg33.js",
+          "bytes": 7217,
+          "durationMs": 31.400000005960464
+        },
+        {
+          "name": "/assets/guitarSort-DofBqax3.js",
+          "bytes": 733,
+          "durationMs": 20.19999999552965
+        },
+        {
+          "name": "/assets/ConfirmDialog-BKeDYx0k.js",
+          "bytes": 567,
+          "durationMs": 31
+        },
+        {
+          "name": "/assets/ShareLink-CGAsayl4.js",
+          "bytes": 0,
+          "durationMs": 14.700000002980232
+        },
+        {
+          "name": "/assets/discoveryPhotography-BImEMiYk.js",
+          "bytes": 0,
+          "durationMs": 19.299999997019768
+        },
+        {
+          "name": "/assets/ComparePage-BvS83tFC.css",
+          "bytes": 3666,
+          "durationMs": 28.600000001490116
+        },
+        {
+          "name": "/favicon.svg",
+          "bytes": 239,
+          "durationMs": 2.5
+        },
+        {
+          "name": "/assets/compare-guitars-1600-CatlBLJv.webp",
+          "bytes": 298154,
+          "durationMs": 9.5
+        },
+        {
+          "name": "/fonts/instrument-serif-400-italic.woff",
+          "bytes": 33416,
+          "durationMs": 36.30000000447035
+        },
+        {
+          "name": "/assets/01-black-4e0ibs0x.jpg",
+          "bytes": 186844,
+          "durationMs": 22.80000000447035
+        },
+        {
+          "name": "/assets/01-front-480-DvNXnlmI.webp",
+          "bytes": 38716,
+          "durationMs": 15.899999998509884
+        },
+        {
+          "name": "/assets/01-front-480-cu5pQ3DA.webp",
+          "bytes": 20114,
+          "durationMs": 14.299999997019768
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/compare-guitars-1600-CatlBLJv.webp",
+          "naturalWidth": 1008,
+          "naturalHeight": 672,
+          "width": 936,
+          "height": 670,
+          "fit": "cover"
+        },
+        {
+          "src": "/assets/01-black-4e0ibs0x.jpg",
+          "naturalWidth": 1024,
+          "naturalHeight": 1280,
+          "width": 288,
+          "height": 229,
+          "fit": "contain"
+        },
+        {
+          "src": "/assets/01-front-480-DvNXnlmI.webp",
+          "naturalWidth": 331,
+          "naturalHeight": 441,
+          "width": 247,
+          "height": 189,
+          "fit": "contain"
+        },
+        {
+          "src": "/assets/01-front-480-cu5pQ3DA.webp",
+          "naturalWidth": 331,
+          "naturalHeight": 440,
+          "width": 247,
+          "height": 189,
+          "fit": "contain"
+        },
+        {
+          "src": "/assets/01-black-4e0ibs0x.jpg",
+          "naturalWidth": 1024,
+          "naturalHeight": 1280,
+          "width": 42,
+          "height": 55,
+          "fit": "contain"
+        },
+        {
+          "src": "/assets/01-front-480-DvNXnlmI.webp",
+          "naturalWidth": 48,
+          "naturalHeight": 64,
+          "width": 37,
+          "height": 50,
+          "fit": "contain"
+        },
+        {
+          "src": "/assets/01-front-480-cu5pQ3DA.webp",
+          "naturalWidth": 48,
+          "naturalHeight": 63,
+          "width": 37,
+          "height": 50,
+          "fit": "contain"
+        },
+        {
+          "src": "/assets/01-front-480-DvNXnlmI.webp",
+          "naturalWidth": 96,
+          "naturalHeight": 128,
+          "width": 56,
+          "height": 56,
+          "fit": "contain"
+        }
+      ],
+      "breadcrumbTop": 102,
+      "headerBottom": 81
+    },
+    {
+      "page": "quiz",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "cls": 9.732699254527688e-05,
+      "navigation": [
+        {
+          "domContentLoadedMs": 325.70000000298023,
+          "loadMs": 326.80000000447035
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "bytes": 216,
+          "durationMs": 62.20000000298023
+        },
+        {
+          "name": "/assets/index-D8j5twRI.js",
+          "bytes": 53666,
+          "durationMs": 103.89999999850988
+        },
+        {
+          "name": "/assets/guitar-catalog-BvOHfNeZ.js",
+          "bytes": 43834,
+          "durationMs": 52
+        },
+        {
+          "name": "/assets/vendor-DU_bXo7n.js",
+          "bytes": 53225,
+          "durationMs": 103.10000000149012
+        },
+        {
+          "name": "/assets/index-D5lYdqiU.css",
+          "bytes": 24369,
+          "durationMs": 42.80000000447035
+        },
+        {
+          "name": "/assets/FindMyGuitarPage-CVar3Vd0.js",
+          "bytes": 6446,
+          "durationMs": 12
+        },
+        {
+          "name": "/assets/discoveryPhotography-BImEMiYk.js",
+          "bytes": 2485,
+          "durationMs": 11.199999995529652
+        },
+        {
+          "name": "/assets/ShareLink-CGAsayl4.js",
+          "bytes": 824,
+          "durationMs": 10.599999994039536
+        },
+        {
+          "name": "/assets/FindMyGuitarPage-V0Lv1eDi.css",
+          "bytes": 3779,
+          "durationMs": 9.899999998509884
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "bytes": 49052,
+          "durationMs": 167
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "bytes": 32144,
+          "durationMs": 167.09999999403954
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "bytes": 54784,
+          "durationMs": 167
+        },
+        {
+          "name": "/favicon.svg",
+          "bytes": 239,
+          "durationMs": 13
+        },
+        {
+          "name": "/assets/quiz-studio-960-CKwqShrP.webp",
+          "bytes": 67598,
+          "durationMs": 2.399999998509884
+        },
+        {
+          "name": "/fonts/anuphan-600-normal.woff",
+          "bytes": 54420,
+          "durationMs": 36.899999998509884
+        },
+        {
+          "name": "/assets/electric-player-360-CvwPPJB0.webp",
+          "bytes": 10576,
+          "durationMs": 7.100000001490116
+        },
+        {
+          "name": "/assets/acoustic-player-360-CVqpqq6G.webp",
+          "bytes": 7596,
+          "durationMs": 6.899999998509884
+        },
+        {
+          "name": "/assets/chord-hands-360-BQjSyWyo.webp",
+          "bytes": 6112,
+          "durationMs": 5.200000002980232
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/quiz-studio-960-CKwqShrP.webp",
+          "naturalWidth": 768,
+          "naturalHeight": 512,
+          "width": 768,
+          "height": 610,
+          "fit": "cover"
+        },
+        {
+          "src": "/assets/electric-player-360-CvwPPJB0.webp",
+          "naturalWidth": 153,
+          "naturalHeight": 102,
+          "width": 96,
+          "height": 507,
+          "fit": "cover"
+        },
+        {
+          "src": "/assets/acoustic-player-360-CVqpqq6G.webp",
+          "naturalWidth": 153,
+          "naturalHeight": 102,
+          "width": 96,
+          "height": 507,
+          "fit": "cover"
+        },
+        {
+          "src": "/assets/chord-hands-360-BQjSyWyo.webp",
+          "naturalWidth": 153,
+          "naturalHeight": 102,
+          "width": 96,
+          "height": 507,
+          "fit": "cover"
+        }
+      ],
+      "breadcrumbTop": 90,
+      "headerBottom": 65
+    },
+    {
+      "page": "compare",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "cls": 0.0003160067343893994,
+      "navigation": [
+        {
+          "domContentLoadedMs": 73.69999999552965,
+          "loadMs": 74.79999999701977
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "bytes": 0,
+          "durationMs": 8.5
+        },
+        {
+          "name": "/assets/index-D8j5twRI.js",
+          "bytes": 0,
+          "durationMs": 8.600000001490116
+        },
+        {
+          "name": "/assets/vendor-DU_bXo7n.js",
+          "bytes": 0,
+          "durationMs": 8.899999998509884
+        },
+        {
+          "name": "/assets/index-D5lYdqiU.css",
+          "bytes": 0,
+          "durationMs": 8.299999997019768
+        },
+        {
+          "name": "/assets/guitar-catalog-BvOHfNeZ.js",
+          "bytes": 0,
+          "durationMs": 9
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "bytes": 49052,
+          "durationMs": 0
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "bytes": 54784,
+          "durationMs": 0
+        },
+        {
+          "name": "/fonts/anuphan-600-normal.woff",
+          "bytes": 54420,
+          "durationMs": 0
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "bytes": 32144,
+          "durationMs": 0
+        },
+        {
+          "name": "/assets/ComparePage-DtIjhg33.js",
+          "bytes": 7217,
+          "durationMs": 10.799999997019768
+        },
+        {
+          "name": "/assets/guitarSort-DofBqax3.js",
+          "bytes": 733,
+          "durationMs": 10.5
+        },
+        {
+          "name": "/assets/ConfirmDialog-BKeDYx0k.js",
+          "bytes": 567,
+          "durationMs": 13
+        },
+        {
+          "name": "/assets/ShareLink-CGAsayl4.js",
+          "bytes": 0,
+          "durationMs": 8.600000001490116
+        },
+        {
+          "name": "/assets/discoveryPhotography-BImEMiYk.js",
+          "bytes": 0,
+          "durationMs": 8.700000002980232
+        },
+        {
+          "name": "/assets/ComparePage-BvS83tFC.css",
+          "bytes": 3666,
+          "durationMs": 12.100000001490116
+        },
+        {
+          "name": "/favicon.svg",
+          "bytes": 239,
+          "durationMs": 3.7000000029802322
+        },
+        {
+          "name": "/assets/compare-guitars-960-C6oZYPNu.webp",
+          "bytes": 138924,
+          "durationMs": 9.699999995529652
+        },
+        {
+          "name": "/fonts/instrument-serif-400-italic.woff",
+          "bytes": 33416,
+          "durationMs": 22.400000005960464
+        },
+        {
+          "name": "/assets/01-black-4e0ibs0x.jpg",
+          "bytes": 186844,
+          "durationMs": 6.899999998509884
+        },
+        {
+          "name": "/assets/01-front-480-DvNXnlmI.webp",
+          "bytes": 38716,
+          "durationMs": 6.5
+        },
+        {
+          "name": "/assets/01-front-480-cu5pQ3DA.webp",
+          "bytes": 20114,
+          "durationMs": 3.2000000029802322
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/compare-guitars-960-C6oZYPNu.webp",
+          "naturalWidth": 768,
+          "naturalHeight": 512,
+          "width": 499,
+          "height": 619,
+          "fit": "cover"
+        },
+        {
+          "src": "/assets/01-black-4e0ibs0x.jpg",
+          "naturalWidth": 1024,
+          "naturalHeight": 1280,
+          "width": 167,
+          "height": 169,
+          "fit": "contain"
+        },
+        {
+          "src": "/assets/01-front-480-DvNXnlmI.webp",
+          "naturalWidth": 184,
+          "naturalHeight": 245,
+          "width": 144,
+          "height": 146,
+          "fit": "contain"
+        },
+        {
+          "src": "/assets/01-front-480-cu5pQ3DA.webp",
+          "naturalWidth": 184,
+          "naturalHeight": 244,
+          "width": 144,
+          "height": 146,
+          "fit": "contain"
+        },
+        {
+          "src": "/assets/01-black-4e0ibs0x.jpg",
+          "naturalWidth": 1024,
+          "naturalHeight": 1280,
+          "width": 42,
+          "height": 55,
+          "fit": "contain"
+        },
+        {
+          "src": "/assets/01-front-480-DvNXnlmI.webp",
+          "naturalWidth": 48,
+          "naturalHeight": 64,
+          "width": 37,
+          "height": 50,
+          "fit": "contain"
+        },
+        {
+          "src": "/assets/01-front-480-cu5pQ3DA.webp",
+          "naturalWidth": 48,
+          "naturalHeight": 63,
+          "width": 37,
+          "height": 50,
+          "fit": "contain"
+        },
+        {
+          "src": "/assets/01-front-480-DvNXnlmI.webp",
+          "naturalWidth": 96,
+          "naturalHeight": 128,
+          "width": 56,
+          "height": 56,
+          "fit": "contain"
+        }
+      ],
+      "breadcrumbTop": 86,
+      "headerBottom": 65
+    },
+    {
+      "page": "quiz",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "cls": 0.0002821271857122741,
+      "navigation": [
+        {
+          "domContentLoadedMs": 254.39999999850988,
+          "loadMs": 255
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "bytes": 216,
+          "durationMs": 41.899999998509884
+        },
+        {
+          "name": "/assets/index-D8j5twRI.js",
+          "bytes": 53666,
+          "durationMs": 71.79999999701977
+        },
+        {
+          "name": "/assets/vendor-DU_bXo7n.js",
+          "bytes": 53225,
+          "durationMs": 81.5
+        },
+        {
+          "name": "/assets/index-D5lYdqiU.css",
+          "bytes": 24369,
+          "durationMs": 80.70000000298023
+        },
+        {
+          "name": "/assets/guitar-catalog-BvOHfNeZ.js",
+          "bytes": 43834,
+          "durationMs": 86.5
+        },
+        {
+          "name": "/assets/FindMyGuitarPage-CVar3Vd0.js",
+          "bytes": 6446,
+          "durationMs": 12.099999994039536
+        },
+        {
+          "name": "/assets/discoveryPhotography-BImEMiYk.js",
+          "bytes": 2485,
+          "durationMs": 11.100000001490116
+        },
+        {
+          "name": "/assets/ShareLink-CGAsayl4.js",
+          "bytes": 824,
+          "durationMs": 47.5
+        },
+        {
+          "name": "/assets/FindMyGuitarPage-V0Lv1eDi.css",
+          "bytes": 3779,
+          "durationMs": 10.100000001490116
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "bytes": 49052,
+          "durationMs": 109.5
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "bytes": 32144,
+          "durationMs": 118.10000000149012
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "bytes": 54784,
+          "durationMs": 117.10000000149012
+        },
+        {
+          "name": "/favicon.svg",
+          "bytes": 239,
+          "durationMs": 12.100000001490116
+        },
+        {
+          "name": "/assets/quiz-studio-480-BrR5vzyE.webp",
+          "bytes": 23510,
+          "durationMs": 6.100000001490116
+        },
+        {
+          "name": "/fonts/anuphan-600-normal.woff",
+          "bytes": 54420,
+          "durationMs": 113.60000000149012
+        },
+        {
+          "name": "/assets/electric-player-360-CvwPPJB0.webp",
+          "bytes": 10576,
+          "durationMs": 20
+        },
+        {
+          "name": "/assets/acoustic-player-360-CVqpqq6G.webp",
+          "bytes": 7596,
+          "durationMs": 12.5
+        },
+        {
+          "name": "/assets/chord-hands-360-BQjSyWyo.webp",
+          "bytes": 6112,
+          "durationMs": 51.29999999701977
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/quiz-studio-480-BrR5vzyE.webp",
+          "naturalWidth": 389,
+          "naturalHeight": 259,
+          "width": 390,
+          "height": 455,
+          "fit": "cover"
+        },
+        {
+          "src": "/assets/electric-player-360-CvwPPJB0.webp",
+          "naturalWidth": 116,
+          "naturalHeight": 78,
+          "width": 99,
+          "height": 183,
+          "fit": "cover"
+        },
+        {
+          "src": "/assets/acoustic-player-360-CVqpqq6G.webp",
+          "naturalWidth": 116,
+          "naturalHeight": 78,
+          "width": 99,
+          "height": 183,
+          "fit": "cover"
+        },
+        {
+          "src": "/assets/chord-hands-360-BQjSyWyo.webp",
+          "naturalWidth": 116,
+          "naturalHeight": 78,
+          "width": 99,
+          "height": 183,
+          "fit": "cover"
+        }
+      ],
+      "breadcrumbTop": 86,
+      "headerBottom": 65
+    },
+    {
+      "page": "compare",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "cls": 0,
+      "navigation": [
+        {
+          "domContentLoadedMs": 63.5,
+          "loadMs": 64.10000000149012
+        }
+      ],
+      "resources": [
+        {
+          "name": "/fonts/fonts.css",
+          "bytes": 0,
+          "durationMs": 8.899999998509884
+        },
+        {
+          "name": "/assets/index-D8j5twRI.js",
+          "bytes": 0,
+          "durationMs": 5
+        },
+        {
+          "name": "/assets/vendor-DU_bXo7n.js",
+          "bytes": 0,
+          "durationMs": 5.200000002980232
+        },
+        {
+          "name": "/assets/index-D5lYdqiU.css",
+          "bytes": 0,
+          "durationMs": 4.700000002980232
+        },
+        {
+          "name": "/assets/guitar-catalog-BvOHfNeZ.js",
+          "bytes": 0,
+          "durationMs": 5.399999998509884
+        },
+        {
+          "name": "/fonts/anuphan-400-normal.woff",
+          "bytes": 49052,
+          "durationMs": 0
+        },
+        {
+          "name": "/fonts/anuphan-500-normal.woff",
+          "bytes": 54784,
+          "durationMs": 0
+        },
+        {
+          "name": "/fonts/anuphan-600-normal.woff",
+          "bytes": 54420,
+          "durationMs": 0
+        },
+        {
+          "name": "/fonts/instrument-serif-400-normal.woff",
+          "bytes": 32144,
+          "durationMs": 0
+        },
+        {
+          "name": "/assets/ComparePage-DtIjhg33.js",
+          "bytes": 7217,
+          "durationMs": 10.399999998509884
+        },
+        {
+          "name": "/assets/guitarSort-DofBqax3.js",
+          "bytes": 733,
+          "durationMs": 8
+        },
+        {
+          "name": "/assets/ConfirmDialog-BKeDYx0k.js",
+          "bytes": 567,
+          "durationMs": 8.200000002980232
+        },
+        {
+          "name": "/assets/ShareLink-CGAsayl4.js",
+          "bytes": 0,
+          "durationMs": 5.5
+        },
+        {
+          "name": "/assets/discoveryPhotography-BImEMiYk.js",
+          "bytes": 0,
+          "durationMs": 5.299999997019768
+        },
+        {
+          "name": "/assets/ComparePage-BvS83tFC.css",
+          "bytes": 3666,
+          "durationMs": 7.5
+        },
+        {
+          "name": "/favicon.svg",
+          "bytes": 239,
+          "durationMs": 4.100000001490116
+        },
+        {
+          "name": "/assets/compare-guitars-480-wt_Joqr0.webp",
+          "bytes": 45108,
+          "durationMs": 3.2000000029802322
+        },
+        {
+          "name": "/assets/01-black-4e0ibs0x.jpg",
+          "bytes": 186844,
+          "durationMs": 4.5
+        },
+        {
+          "name": "/assets/01-front-480-DvNXnlmI.webp",
+          "bytes": 38716,
+          "durationMs": 4.299999997019768
+        },
+        {
+          "name": "/assets/01-front-480-cu5pQ3DA.webp",
+          "bytes": 20114,
+          "durationMs": 7.0999999940395355
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/compare-guitars-480-wt_Joqr0.webp",
+          "naturalWidth": 389,
+          "naturalHeight": 259,
+          "width": 328,
+          "height": 325,
+          "fit": "cover"
+        },
+        {
+          "src": "/assets/01-black-4e0ibs0x.jpg",
+          "naturalWidth": 1024,
+          "naturalHeight": 1280,
+          "width": 168,
+          "height": 179,
+          "fit": "contain"
+        },
+        {
+          "src": "/assets/01-front-480-DvNXnlmI.webp",
+          "naturalWidth": 179,
+          "naturalHeight": 239,
+          "width": 145,
+          "height": 156,
+          "fit": "contain"
+        },
+        {
+          "src": "/assets/01-front-480-cu5pQ3DA.webp",
+          "naturalWidth": 179,
+          "naturalHeight": 238,
+          "width": 145,
+          "height": 156,
+          "fit": "contain"
+        },
+        {
+          "src": "/assets/01-black-4e0ibs0x.jpg",
+          "naturalWidth": 1024,
+          "naturalHeight": 1280,
+          "width": 33,
+          "height": 46,
+          "fit": "contain"
+        },
+        {
+          "src": "/assets/01-front-480-DvNXnlmI.webp",
+          "naturalWidth": 48,
+          "naturalHeight": 64,
+          "width": 29,
+          "height": 42,
+          "fit": "contain"
+        },
+        {
+          "src": "/assets/01-front-480-cu5pQ3DA.webp",
+          "naturalWidth": 48,
+          "naturalHeight": 63,
+          "width": 29,
+          "height": 42,
+          "fit": "contain"
+        },
+        {
+          "src": "/assets/01-front-480-DvNXnlmI.webp",
+          "naturalWidth": 96,
+          "naturalHeight": 128,
+          "width": 56,
+          "height": 56,
+          "fit": "contain"
+        }
+      ],
+      "breadcrumbTop": 82,
+      "headerBottom": 65
+    }
+  ],
+  "passed": true
+}

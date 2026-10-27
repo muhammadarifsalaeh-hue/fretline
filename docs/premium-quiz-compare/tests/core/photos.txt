@@ -1,0 +1,35 @@
+PASS five real editorial sources and fifteen distinct local WebP variants
+PASS quizHero retained source bytes and dimensions
+PASS quizHero source is editorial, license/source recorded, not catalog model evidence
+PASS quizHero responsive widths
+PASS quiz-studio-480.webp is decoded WebP, checksum-bound, proportional and source-sized
+PASS quiz-studio-960.webp is decoded WebP, checksum-bound, proportional and source-sized
+PASS quiz-studio-1600.webp is decoded WebP, checksum-bound, proportional and source-sized
+PASS compareHero retained source bytes and dimensions
+PASS compareHero source is editorial, license/source recorded, not catalog model evidence
+PASS compareHero responsive widths
+PASS compare-guitars-480.webp is decoded WebP, checksum-bound, proportional and source-sized
+PASS compare-guitars-960.webp is decoded WebP, checksum-bound, proportional and source-sized
+PASS compare-guitars-1600.webp is decoded WebP, checksum-bound, proportional and source-sized
+PASS electricPlayer retained source bytes and dimensions
+PASS electricPlayer source is editorial, license/source recorded, not catalog model evidence
+PASS electricPlayer responsive widths
+PASS electric-player-360.webp is decoded WebP, checksum-bound, proportional and source-sized
+PASS electric-player-480.webp is decoded WebP, checksum-bound, proportional and source-sized
+PASS electric-player-720.webp is decoded WebP, checksum-bound, proportional and source-sized
+PASS acousticPlayer retained source bytes and dimensions
+PASS acousticPlayer source is editorial, license/source recorded, not catalog model evidence
+PASS acousticPlayer responsive widths
+PASS acoustic-player-360.webp is decoded WebP, checksum-bound, proportional and source-sized
+PASS acoustic-player-480.webp is decoded WebP, checksum-bound, proportional and source-sized
+PASS acoustic-player-720.webp is decoded WebP, checksum-bound, proportional and source-sized
+PASS chordHands retained source bytes and dimensions
+PASS chordHands source is editorial, license/source recorded, not catalog model evidence
+PASS chordHands responsive widths
+PASS chord-hands-360.webp is decoded WebP, checksum-bound, proportional and source-sized
+PASS chord-hands-480.webp is decoded WebP, checksum-bound, proportional and source-sized
+PASS chord-hands-720.webp is decoded WebP, checksum-bound, proportional and source-sized
+PASS no stray runtime discovery image is omitted from provenance
+PASS all fifteen responsive images stay below one MiB combined
+PASS real runtime module references local variants and never temporary/CDN image URLs
+34 actual photo source/asset checks passed.

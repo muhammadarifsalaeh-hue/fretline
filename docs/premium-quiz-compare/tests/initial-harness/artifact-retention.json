@@ -1,0 +1,160 @@
+{
+  "reason": "After the corrected complete final suite passed25/25, redundant successful screenshots from the initial harness were pruned. Both mobile designed-opacity assertion failure screenshots, the raw initial23/25 report and raw log are retained. No final or before baseline evidence was removed.",
+  "removedSuccessfulDuplicates": [
+    {
+      "file": "chromium-mobile-quiz-step1.png",
+      "bytes": 490343,
+      "sha256": "b105bd95a44acbd931962ed16da05f13d446aa8877efe3f79a691602fd8f2765"
+    },
+    {
+      "file": "chromium-desktop-quiz-results.png",
+      "bytes": 762125,
+      "sha256": "f9bf33cc32969eb5b2fd3090aff9cc1cefaec19867a0a852cdb966df1571b5d3"
+    },
+    {
+      "file": "chromium-tablet-compare-four.png",
+      "bytes": 786911,
+      "sha256": "4b811a55c35ccc410e7b7b3f852fa3ba2a80e8dfcb8de48781c261a776f7fc67"
+    },
+    {
+      "file": "chromium-desktop-quiz-step1.png",
+      "bytes": 1454393,
+      "sha256": "47f3efabb66756b9e77785a3faa9786b78d55f1d9b7b0e79f49d8a900931cf5c"
+    },
+    {
+      "file": "webkit-tablet-quiz-results.png",
+      "bytes": 351130,
+      "sha256": "fb7d5fae81cb025a89c2c487b8ec9504b53c1aeba73310258b3efb40b09ac471"
+    },
+    {
+      "file": "chromium-desktop-compare-three.png",
+      "bytes": 1294833,
+      "sha256": "a59e52c0658db785e573ed78616fbce365eb51f78557f06de3274f8d18763d21"
+    },
+    {
+      "file": "webkit-mobile-quiz-results.png",
+      "bytes": 370948,
+      "sha256": "54ecd10f607f20def1ed6dd6e3cbf7d92edb6a23547c2b59a7eccbbae515ccc8"
+    },
+    {
+      "file": "webkit-tablet-compare-empty.png",
+      "bytes": 605914,
+      "sha256": "be4a4d971eaf37c187b359155bf9cb7fbdd6b7b0387bd59f3b731e54d42ce7ea"
+    },
+    {
+      "file": "webkit-tablet-quiz-welcome.png",
+      "bytes": 662455,
+      "sha256": "19d9621a2c0ad911b5146a21f9d1a065441324da5e64c495bbc6009eed8cd64a"
+    },
+    {
+      "file": "chromium-tablet-quiz-step1.png",
+      "bytes": 777134,
+      "sha256": "7c33b10ce913d06a0e782457ade7578f172429f26120e929eb013724da7fbd74"
+    },
+    {
+      "file": "webkit-desktop-quiz-welcome.png",
+      "bytes": 1169692,
+      "sha256": "87027b687db2233c92a797557bac1a29fed9fad5edc603d0d26d457dddde00fb"
+    },
+    {
+      "file": "webkit-desktop-quiz-step1.png",
+      "bytes": 1175938,
+      "sha256": "86adfb92874085251dc963f066ef8fdf82fd02e6a774fa887d9bcb068eff4e1f"
+    },
+    {
+      "file": "chromium-desktop-quiz-welcome.png",
+      "bytes": 1443710,
+      "sha256": "cdd0823ef7a79b3324a86bb94dc6a4d7f4938ca8545284535211e357ed11101d"
+    },
+    {
+      "file": "webkit-tablet-compare-four.png",
+      "bytes": 845326,
+      "sha256": "420cda5497516daf0b1f92f6a2168df15c11ebdfc10827bb48fd89318538dcfa"
+    },
+    {
+      "file": "chromium-tablet-quiz-results.png",
+      "bytes": 535805,
+      "sha256": "d34629615874fe385989cd13aede8b159542b2e0da445c18a232887c27b40e66"
+    },
+    {
+      "file": "webkit-desktop-compare-empty.png",
+      "bytes": 1067872,
+      "sha256": "ccb3535cdff496519e9bcac0d89a6a9c1f4cd48aeeea27603b766913e6933c65"
+    },
+    {
+      "file": "webkit-tablet-compare-three.png",
+      "bytes": 801797,
+      "sha256": "12477a623b0f23f60dfbe3ea4ccf14c538f892c9800f70c6fbfcc26492abf742"
+    },
+    {
+      "file": "webkit-mobile-quiz-welcome.png",
+      "bytes": 406973,
+      "sha256": "71547ab02578201b4c4ec3df232cce2d4ffffb46af07cb2caeaa1fef639b5105"
+    },
+    {
+      "file": "chromium-mobile-quiz-welcome.png",
+      "bytes": 483599,
+      "sha256": "86e1446760c5ba6dfad4f4f9eceec43656f28244dc8a17e67a482be854f28aee"
+    },
+    {
+      "file": "chromium-tablet-compare-empty.png",
+      "bytes": 625449,
+      "sha256": "23f303ae61b0e87dd89065f770d167699e869bfbe5c2b5a6e2c28b3aea27a0f3"
+    },
+    {
+      "file": "webkit-desktop-quiz-results.png",
+      "bytes": 418767,
+      "sha256": "9dbbba88e991b37a072fe39ae9ca7133964bc4c2545519b0378d65e3f91d005b"
+    },
+    {
+      "file": "webkit-mobile-quiz-step1.png",
+      "bytes": 411897,
+      "sha256": "2dc83c54d3b128e2424feac2d884144765375d214a3ae32c46587a50e7761f30"
+    },
+    {
+      "file": "webkit-desktop-compare-four.png",
+      "bytes": 1419684,
+      "sha256": "6c66bde7be583e9b7eab304291c2d89bda6d6b014649cb4317dd903f95cceb80"
+    },
+    {
+      "file": "chromium-mobile-quiz-results.png",
+      "bytes": 547306,
+      "sha256": "fb1bf7e88dcb523db8144401e18d613661f630b2cf692d6f84ca1bea7c00e4fd"
+    },
+    {
+      "file": "chromium-tablet-quiz-welcome.png",
+      "bytes": 771600,
+      "sha256": "5407d44be3d5e49d68e3ae6ec9303275ff8c4b8934c409bd480c446418ed424f"
+    },
+    {
+      "file": "chromium-desktop-compare-four.png",
+      "bytes": 1349070,
+      "sha256": "de67b1773b1ffc6e4b6670c30170f0fd3a0410e1501aae7d9a330a23596011cb"
+    },
+    {
+      "file": "chromium-tablet-compare-three.png",
+      "bytes": 762268,
+      "sha256": "ff457c32e5e6e144381e68c2e9294b5f40bf8d25af1732da49f5f45fccf9b563"
+    },
+    {
+      "file": "webkit-tablet-quiz-step1.png",
+      "bytes": 667703,
+      "sha256": "2df5971c1a0a0654b34c4d8943ee50066a35f006f88a9d03a6a3da3692a6f660"
+    },
+    {
+      "file": "webkit-desktop-compare-three.png",
+      "bytes": 1322631,
+      "sha256": "c10b674145bb4af8609404f443959ab3bc094bd1a5d6b200cdbd81b0d58d9f21"
+    },
+    {
+      "file": "chromium-desktop-compare-empty.png",
+      "bytes": 1088128,
+      "sha256": "f8e0b6410578c208792ad403a7743b5d4908955706be5c2488eb28a0a6456e92"
+    }
+  ],
+  "retainedPNG": [
+    "webkit-mobile-compare-interactions-FAIL.png",
+    "chromium-mobile-compare-interactions-FAIL.png"
+  ],
+  "finalScreenshotCount": 36
+}

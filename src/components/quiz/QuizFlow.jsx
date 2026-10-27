@@ -2,45 +2,55 @@ import { useEffect, useRef } from 'react';
 import { t } from '@/i18n';
 import { QUIZ_STEPS } from '@/data/quiz';
 import { ArrowRightIcon, ChevronLeftIcon } from '@/components/ui/Icons';
-import AppLink from '@/components/ui/AppLink';
 import QuizIntro from './QuizIntro';
 import QuizOption from './QuizOption';
 import QuizProgress from './QuizProgress';
+import { QuizPhotoTriptych, quizCopy } from './QuizVisuals';
 
-/** Answers and current step live in the URL, including browser Back/Forward snapshots. */
+/** Answers/current step stay in the original URL contract, including browser history. */
 export default function QuizFlow({ answers, index, onNavigate, onFinish }) {
   const headingRef = useRef(null);
-  const step = QUIZ_STEPS[index];
+  const panelRef = useRef(null);
+  const activeIndex = Math.max(0, index);
+  const step = QUIZ_STEPS[activeIndex];
   useEffect(() => {
-    if (index < 0) return;
-    window.scrollTo({ top: 0 }); headingRef.current?.focus({ preventScroll: true });
+    if (index < 0) { window.scrollTo({ top: 0 }); return; }
+    panelRef.current?.scrollIntoView({ block: 'start' });
+    headingRef.current?.focus({ preventScroll: true });
   }, [index]);
-  if (index < 0) return <QuizIntro onStart={() => onNavigate(answers, 0)} />;
   const selected = answers[step.id];
-  const next = () => { if (selected) index === QUIZ_STEPS.length - 1 ? onFinish(answers) : onNavigate(answers, index + 1); };
-
-  return (
-    <div className="quiz-page phase4-page">
-      <section className="container-x quiz-shell phase4-heading">
-        <nav aria-label={t('common.breadcrumb')} className="discovery-breadcrumb"><AppLink href="/">{t('nav.home')}</AppLink><span aria-hidden="true">›</span><span>{t('nav.find')}</span></nav>
-        <h1 className="quiz-page-title">Find My Guitar Quiz</h1>
-        <p className="mt-2 text-sm text-mute">{t('p4.quiz.intro')}</p>
-        <QuizProgress index={index} total={QUIZ_STEPS.length} />
-        <form onSubmit={(event) => { event.preventDefault(); next(); }}>
-          <div key={step.id} className="quiz-question animate-fade-in">
-            <h2 id={`quiz-${step.id}-title`} ref={headingRef} tabIndex={-1} className="text-xl font-medium focus:outline-none md:text-2xl">{step.title}</h2>
-            <p id={`quiz-${step.id}-hint`} className="mt-2 text-sm leading-7 text-mute">{step.hint}</p>
-            <div role="radiogroup" aria-labelledby={`quiz-${step.id}-title`} aria-describedby={`quiz-${step.id}-hint`} className={`quiz-options ${step.id === 'type' ? 'quiz-type-options' : ''}`}>
-              {step.options.map((option) => <QuizOption key={option.value} name={step.id} option={option} checked={selected === option.value}
-                onSelect={(value) => onNavigate({ ...answers, [step.id]: value }, index, { replace: true })} />)}
+  const next = () => {
+    if (!selected) return;
+    activeIndex === QUIZ_STEPS.length - 1 ? onFinish(answers) : onNavigate(answers, activeIndex + 1);
+  };
+  const start = () => {
+    if (index < 0) onNavigate(answers, 0);
+    else panelRef.current?.scrollIntoView({ block: 'start', behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+    headingRef.current?.focus({ preventScroll: true });
+  };
+  return <QuizIntro onStart={start}>
+    <section className="container-x quiz-shell" aria-label={quizCopy('แบบทดสอบค้นหากีตาร์', 'Find your guitar questionnaire')}>
+      <div className="quiz-studio-panel" id="quiz-questionnaire" ref={panelRef}>
+        <QuizProgress index={activeIndex} total={QUIZ_STEPS.length} />
+        <div className="quiz-studio-layout">
+          <QuizPhotoTriptych />
+          <form onSubmit={(event) => { event.preventDefault(); next(); }} className="quiz-question-form">
+            <div key={step.id} className="quiz-question animate-fade-in">
+              <p className="quiz-question-count">{t('p4.quiz.step', { n: activeIndex + 1, total: QUIZ_STEPS.length })}</p>
+              <h2 id={`quiz-${step.id}-title`} ref={headingRef} tabIndex={-1}>{step.title}</h2>
+              <p id={`quiz-${step.id}-hint`} className="quiz-question-hint">{step.hint}</p>
+              <div role="radiogroup" aria-labelledby={`quiz-${step.id}-title`} aria-describedby={`quiz-${step.id}-hint`} className={`quiz-options ${step.id === 'type' ? 'quiz-type-options' : ''}`}>
+                {step.options.map((option, optionIndex) => <QuizOption key={option.value} name={step.id} option={option} checked={selected === option.value}
+                  supplemental={optionIndex === 4} onSelect={(value) => onNavigate({ ...answers, [step.id]: value }, activeIndex, { replace: true })} />)}
+              </div>
             </div>
-          </div>
-          <div className="quiz-step-actions">
-            <button type="button" onClick={() => onNavigate(answers, index - 1, { replace: true })} className="phase4-button"><ChevronLeftIcon size={16} />{t('p4.previous')}</button>
-            <button type="submit" disabled={!selected} className="phase4-button is-gold">{t(index === QUIZ_STEPS.length - 1 ? 'p4.quiz.seeResults' : 'p4.next')}<ArrowRightIcon size={16} /></button>
-          </div>
-        </form>
-      </section>
-    </div>
-  );
+            <div className="quiz-step-actions">
+              <button type="button" onClick={() => onNavigate(answers, activeIndex - 1, { replace: true })} className="phase4-button quiz-previous" disabled={index < 0}><ChevronLeftIcon size={16} />{t('p4.previous')}</button>
+              <button type="submit" disabled={!selected} className="phase4-button is-gold quiz-next">{t(activeIndex === QUIZ_STEPS.length - 1 ? 'p4.quiz.seeResults' : 'p4.next')}<ArrowRightIcon size={18} /></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </QuizIntro>;
 }
