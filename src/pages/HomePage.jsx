@@ -6,12 +6,13 @@ import Categories from '@/components/home/Categories';
 import FeaturedGuitars from '@/components/home/FeaturedGuitars';
 import FindMyGuitar from '@/components/home/FindMyGuitar';
 import Hero from '@/components/home/Hero';
+import '@/styles/home-premium.css';
 
 /** ลำดับ section ของหน้าแรก — สลับหรือเพิ่มได้ที่นี่ */
 export default function HomePage() {
   useEffect(() => { document.title = t('home.docTitle'); }, []);
   return (
-    <div className="signature-home">
+    <div className="signature-home premium-home">
       <Hero />
       <Brands />
       <FeaturedGuitars />

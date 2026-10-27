@@ -1,0 +1,189 @@
+// Real licensed photographs for Home only. Category images are not named-model evidence.
+// Sources, credits, modification notes and source/derivative hashes: docs/home-premium-redesign/photos/.
+import { LANG } from '@/i18n';
+import { DISCOVERY_PHOTOGRAPHY } from '@/data/discoveryPhotography';
+import martinPhoto from '@/assets/guitars/martin-d-28/01-front.webp';
+import martinSmall from '@/assets/guitars/martin-d-28/responsive/01-front-480.webp';
+import martinMedium from '@/assets/guitars/martin-d-28/responsive/01-front-960.webp';
+const files = import.meta.glob('/src/assets/home-discovery/*.webp', { eager: true, query: '?url', import: 'default' });
+const records = [
+  {
+    "key": "quizBackdrop",
+    "file": "electric-candidate.jpg",
+    "slug": "electric-studio",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fender_MiM_Stratocaster.jpg",
+    "author": "Yutaka Tsutano",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "altTh": "ภาพกีตาร์ไฟฟ้าบนผ้าสีเข้ม ใช้ประกอบบรรยากาศการค้นหากีตาร์",
+    "altEn": "A real electric guitar on dark fabric, illustrating guitar discovery",
+    "role": "editorial-atmosphere",
+    "originalBytes": 3909363,
+    "originalSHA256": "181885280870b4cfe0cf6ec9adbe65509d45998516c8c9e70e407f774922b050",
+    "sourceWidth": 3168,
+    "sourceHeight": 4752,
+    "variants": [
+      {
+        "file": "electric-studio-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 28882,
+        "sha256": "e11b698cc2c8a2211637d4ce24f6eb546ac275e3e526de34de5a636fcf909ca2"
+      },
+      {
+        "file": "electric-studio-800.webp",
+        "width": 800,
+        "height": 1200,
+        "bytes": 71178,
+        "sha256": "0820ce8f346fe6de550a19c6e58cb5d1d835027fde3aae8ab1a2fa34e5e94a48"
+      },
+      {
+        "file": "electric-studio-1200.webp",
+        "width": 1200,
+        "height": 1800,
+        "bytes": 142838,
+        "sha256": "644734759f1496a85c3e667a3d9c104126fb081f62d39d2422be31afc891f8e1"
+      }
+    ],
+    "checkedOn": "2026-10-27",
+    "kind": "real-photograph",
+    "productEvidence": false,
+    "changes": "EXIF orientation applied; resized proportionally and encoded as WebP. Original source transparency retained. No crop, background removal, recoloring, retouch or generated content."
+  },
+  {
+    "key": "electric",
+    "file": "electric.jpg",
+    "slug": "category-electric",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fender_strat.jpg",
+    "author": "Joachim Hensel-Losch; retouched versions by Tkgd2007 and Hohum",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "altTh": "ภาพกีตาร์ไฟฟ้าทั้งตัว สำหรับหมวดกีตาร์ไฟฟ้า",
+    "altEn": "A complete electric guitar illustrating the electric category",
+    "role": "generic-category",
+    "originalBytes": 78735,
+    "originalSHA256": "40348bfa9ed2839a7e2444069b8d27e712546ba966a30548560a9559c5df14be",
+    "sourceWidth": 572,
+    "sourceHeight": 1148,
+    "variants": [
+      {
+        "file": "category-electric-160.webp",
+        "width": 160,
+        "height": 321,
+        "bytes": 5042,
+        "sha256": "3e0206c271de3ca40df7db39123fbb5ba1e3e14a49acf6be27d009dbcc130d08"
+      },
+      {
+        "file": "category-electric-320.webp",
+        "width": 320,
+        "height": 642,
+        "bytes": 13098,
+        "sha256": "b0a0081bed8ab483f94a403ae0f22c0e7a411745f93f02222638b44ce1c5b722"
+      }
+    ],
+    "checkedOn": "2026-10-27",
+    "kind": "real-photograph",
+    "productEvidence": false,
+    "changes": "EXIF orientation applied; resized proportionally and encoded as WebP. Original source transparency retained. No crop, background removal, recoloring, retouch or generated content."
+  },
+  {
+    "key": "classical",
+    "file": "GuitareClassique5.png",
+    "slug": "category-classical",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GuitareClassique5.png",
+    "author": "Martin Möller; derivative by Mouh2jijel",
+    "license": "CC BY-SA 2.0 DE",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/",
+    "altTh": "ภาพกีตาร์คลาสสิกสายไนลอนทั้งตัว สำหรับหมวดกีตาร์คลาสสิก",
+    "altEn": "A complete nylon-string classical guitar illustrating the classical category",
+    "role": "generic-category",
+    "originalBytes": 830389,
+    "originalSHA256": "1acc3a30b476da6b53f280f17f8479ce0e75d60b65d44b63c4110c954a5e6622",
+    "sourceWidth": 799,
+    "sourceHeight": 1308,
+    "variants": [
+      {
+        "file": "category-classical-200.webp",
+        "width": 200,
+        "height": 327,
+        "bytes": 13108,
+        "sha256": "feecf4d61acd66c1a68a7fb955039c759790f4b65b2ac0316fe20165b5373783"
+      },
+      {
+        "file": "category-classical-400.webp",
+        "width": 400,
+        "height": 655,
+        "bytes": 35920,
+        "sha256": "ccf17e7aea65ce47f7384e9bcfe6640c3cbd7bdcf0c92aa3c4a52904f41e37e8"
+      }
+    ],
+    "checkedOn": "2026-10-27",
+    "kind": "real-photograph",
+    "productEvidence": false,
+    "changes": "EXIF orientation applied; resized proportionally and encoded as WebP. Original source transparency retained. No crop, background removal, recoloring, retouch or generated content."
+  },
+  {
+    "key": "bass",
+    "file": "70's_Fender_Jazz_Bass.png",
+    "slug": "category-bass",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:70%27s_Fender_Jazz_Bass.png",
+    "author": "Patrick Scales; derivative by Djhé",
+    "license": "Public domain dedication by copyright holders",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:70%27s_Fender_Jazz_Bass.png#Licensing",
+    "altTh": "ภาพกีตาร์เบสทั้งตัว สำหรับหมวดเบส",
+    "altEn": "A complete bass guitar illustrating the bass category",
+    "role": "generic-category",
+    "originalBytes": 280146,
+    "originalSHA256": "87960cb83fdca3db2b89ba1f9bf22299c943cd755a8cf8fa8495e288ba81a5b0",
+    "sourceWidth": 313,
+    "sourceHeight": 980,
+    "variants": [
+      {
+        "file": "category-bass-156.webp",
+        "width": 156,
+        "height": 488,
+        "bytes": 18072,
+        "sha256": "626b3089d65e86b6930f6ab389f8a79563c5b59d9f3702883a3e2b96318f61ea"
+      },
+      {
+        "file": "category-bass-313.webp",
+        "width": 313,
+        "height": 980,
+        "bytes": 45552,
+        "sha256": "f0d41bcbe0db11bc93d63db715bbafe59e803be20f633e8b62287bfe85ff2d10"
+      }
+    ],
+    "checkedOn": "2026-10-27",
+    "kind": "real-photograph",
+    "productEvidence": false,
+    "changes": "EXIF orientation applied; resized proportionally and encoded as WebP. Original source transparency retained. No crop, background removal, recoloring, retouch or generated content."
+  }
+];
+const local = Object.fromEntries(records.map((r) => {
+  const largest = r.variants[r.variants.length - 1];
+  return [r.key, { ...r, src: files[`/src/assets/home-discovery/${largest.file}`],
+    srcSet: r.variants.map((v) => `${files[`/src/assets/home-discovery/${v.file}`]} ${v.width}w`).join(', '),
+    sizes: r.role === 'generic-category' ? '(min-width: 1024px) 100px, 20vw' : '(min-width: 1024px) 50vw, 100vw',
+    width: largest.width, height: largest.height, alt: LANG === 'en' ? r.altEn : r.altTh,
+  }];
+}));
+const room = DISCOVERY_PHOTOGRAPHY.quizHero;
+const acoustic = {
+  src: martinPhoto, srcSet: `${martinSmall} 480w, ${martinMedium} 960w, ${martinPhoto} 1200w`,
+  sizes: '(min-width: 1024px) 100px, 20vw', width: 1200, height: 1594,
+  alt: LANG === 'en' ? 'A real steel-string acoustic guitar illustrating the acoustic category' : 'ภาพกีตาร์โปร่งสายเหล็กทั้งตัว สำหรับหมวดกีตาร์โปร่ง',
+  sourceUrl: 'https://commons.wikimedia.org/wiki/File:Martin_D-28.jpg', author: 'IchiroNakagawa',
+  license: 'CC BY-SA 4.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0/',
+  role: 'generic-category', kind: 'real-photograph', productEvidence: false,
+  changes: 'Reuses the existing licensed Martin D-28 owner photograph and proportional WebP derivatives. Here it illustrates only the acoustic category; it does not establish another guitar model.',
+};
+export const HOME_DISCOVERY_ASSETS = {
+  ...local,
+  acoustic,
+  heroBackdrop: { ...room, role: 'editorial-atmosphere', productEvidence: false },
+  compareBackdrop: { ...room, role: 'editorial-atmosphere', productEvidence: false },
+};
+export const HOME_DISCOVERY_CREDITS = [
+  ...Object.values(local), acoustic,
+  { ...room, role: 'editorial-atmosphere', productEvidence: false, changes: 'Reuses existing licensed responsive WebP photographs. Page darkening and gradients are CSS overlays.' },
+];

@@ -1,0 +1,67 @@
+PASS chromium-desktop-composition
+PASS chromium-desktop-inline-quiz
+PASS chromium-desktop-comparison
+PASS chromium-desktop-reduced-and-keyboard
+PASS chromium-desktop-brand-routes-and-responsive
+PASS chromium-desktop-carousel-motion-input-loop
+PASS chromium-tablet-composition
+PASS chromium-tablet-inline-quiz
+PASS chromium-tablet-comparison
+PASS chromium-tablet-reduced-and-keyboard
+PASS chromium-tablet-carousel-motion-input-loop
+PASS chromium-mobile-composition
+PASS chromium-mobile-inline-quiz
+PASS chromium-mobile-comparison
+PASS chromium-mobile-reduced-and-keyboard
+PASS chromium-mobile-carousel-motion-input-loop
+Skipping host requirements validation logic because `PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS` env variable is set.
+PASS webkit-desktop-composition
+PASS webkit-desktop-inline-quiz
+PASS webkit-desktop-comparison
+PASS webkit-desktop-reduced-and-keyboard
+PASS webkit-desktop-brand-routes-and-responsive
+FAIL webkit-desktop-carousel-motion-input-loop Traceback (most recent call last):
+  File "/workspace/fretline/docs/home-premium-redesign/tests/browser.py", line 25, in check
+    try:r=fn();report['checks'].append({'case':name,'passed':True,'evidence':r});print('PASS',name,flush=True)
+          ^^^^
+  File "/workspace/fretline/docs/home-premium-redesign/tests/browser.py", line 158, in <lambda>
+    elif 'carousel' in args.cases:check(f'{engine}-{viewport}-carousel-motion-input-loop',lambda:carousel(page,context,engine,viewport),page)
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/fretline/docs/home-premium-redesign/tests/browser.py", line 116, in carousel
+    W=rail.locator('[data-marquee-primary]').evaluate('(e)=>e.getBoundingClientRect().width');before=rail.evaluate('(e)=>e.scrollLeft');page.wait_for_timeout(800);after=rail.evaluate('(e)=>e.scrollLeft');delta=(after-before)%W;assert 10<=delta<=40,(before,after,delta)
+                                                                                                                                                                                                                                          ^^^^^^^^^^^^^
+AssertionError: (1840, 1842, 2)
+
+PASS webkit-tablet-composition
+PASS webkit-tablet-inline-quiz
+PASS webkit-tablet-comparison
+PASS webkit-tablet-reduced-and-keyboard
+FAIL webkit-tablet-carousel-motion-input-loop Traceback (most recent call last):
+  File "/workspace/fretline/docs/home-premium-redesign/tests/browser.py", line 25, in check
+    try:r=fn();report['checks'].append({'case':name,'passed':True,'evidence':r});print('PASS',name,flush=True)
+          ^^^^
+  File "/workspace/fretline/docs/home-premium-redesign/tests/browser.py", line 158, in <lambda>
+    elif 'carousel' in args.cases:check(f'{engine}-{viewport}-carousel-motion-input-loop',lambda:carousel(page,context,engine,viewport),page)
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/fretline/docs/home-premium-redesign/tests/browser.py", line 116, in carousel
+    W=rail.locator('[data-marquee-primary]').evaluate('(e)=>e.getBoundingClientRect().width');before=rail.evaluate('(e)=>e.scrollLeft');page.wait_for_timeout(800);after=rail.evaluate('(e)=>e.scrollLeft');delta=(after-before)%W;assert 10<=delta<=40,(before,after,delta)
+                                                                                                                                                                                                                                          ^^^^^^^^^^^^^
+AssertionError: (1840, 1848, 8)
+
+PASS webkit-mobile-composition
+PASS webkit-mobile-inline-quiz
+PASS webkit-mobile-comparison
+PASS webkit-mobile-reduced-and-keyboard
+FAIL webkit-mobile-carousel-motion-input-loop Traceback (most recent call last):
+  File "/workspace/fretline/docs/home-premium-redesign/tests/browser.py", line 25, in check
+    try:r=fn();report['checks'].append({'case':name,'passed':True,'evidence':r});print('PASS',name,flush=True)
+          ^^^^
+  File "/workspace/fretline/docs/home-premium-redesign/tests/browser.py", line 158, in <lambda>
+    elif 'carousel' in args.cases:check(f'{engine}-{viewport}-carousel-motion-input-loop',lambda:carousel(page,context,engine,viewport),page)
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/fretline/docs/home-premium-redesign/tests/browser.py", line 116, in carousel
+    W=rail.locator('[data-marquee-primary]').evaluate('(e)=>e.getBoundingClientRect().width');before=rail.evaluate('(e)=>e.scrollLeft');page.wait_for_timeout(800);after=rail.evaluate('(e)=>e.scrollLeft');delta=(after-before)%W;assert 10<=delta<=40,(before,after,delta)
+                                                                                                                                                                                                                                          ^^^^^^^^^^^^^
+AssertionError: (1520, 1527, 7)
+
+RESULT False 29 32

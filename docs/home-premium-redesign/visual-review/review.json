@@ -1,0 +1,4060 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 715.546875,
+        "top": 0,
+        "right": 1440,
+        "bottom": 715.546875,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "THE ART OF FINDING YOUR SOUND",
+          "width": 590,
+          "scroll": 590,
+          "rect": {
+            "x": 120,
+            "y": 135,
+            "width": 590,
+            "height": 20.390625,
+            "top": 135,
+            "right": 710,
+            "bottom": 155.390625,
+            "left": 120
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "12px"
+        },
+        {
+          "text": "ค้นพบเสียงที่เป็นคุณ",
+          "width": 590,
+          "scroll": 590,
+          "rect": {
+            "x": 120,
+            "y": 179.390625,
+            "width": 590,
+            "height": 181.375,
+            "top": 179.390625,
+            "right": 710,
+            "bottom": 360.765625,
+            "left": 120
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "67.68px"
+        },
+        {
+          "text": "สำรวจกีตาร์ 200 รุ่น จาก 10 แบรนด์\nเปรียบเทียบ แล้วค้นหารุ่นที่เข้ากับคุณ",
+          "width": 420,
+          "scroll": 420,
+          "rect": {
+            "x": 120,
+            "y": 380.765625,
+            "width": 420,
+            "height": 60.78125,
+            "top": 380.765625,
+            "right": 540,
+            "bottom": 441.546875,
+            "left": 120
+          },
+          "color": "rgb(179, 179, 170)",
+          "font": "16px"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "ค้นหา",
+          "rect": {
+            "x": 586.46875,
+            "y": 559.546875,
+            "width": 64.53125,
+            "height": 44,
+            "top": 559.546875,
+            "right": 651,
+            "bottom": 603.546875,
+            "left": 586.46875
+          }
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/discovery/quiz-studio-1600.webp",
+          "width": 1440,
+          "height": 960,
+          "fit": "cover"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#top",
+      "viewport": "desktop"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "rect": {
+        "x": 0,
+        "y": 709.546875,
+        "width": 1440,
+        "height": 290.6875,
+        "top": 709.546875,
+        "right": 1440,
+        "bottom": 1000.234375,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "EXPLORE BY BRAND",
+          "width": 240,
+          "scroll": 240,
+          "rect": {
+            "x": 120,
+            "y": 741.546875,
+            "width": 240.1875,
+            "height": 18.6875,
+            "top": 741.546875,
+            "right": 360.1875,
+            "bottom": 760.234375,
+            "left": 120
+          },
+          "color": "rgb(224, 197, 140)",
+          "font": "11px"
+        },
+        {
+          "text": "แบรนด์ในแคตตาล็อก",
+          "width": 240,
+          "scroll": 240,
+          "rect": {
+            "x": 120,
+            "y": 770.234375,
+            "width": 240.1875,
+            "height": 42,
+            "top": 770.234375,
+            "right": 360.1875,
+            "bottom": 812.234375,
+            "left": 120
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "28px"
+        }
+      ],
+      "buttons": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/yamaha.svg",
+          "width": 1066,
+          "height": 232,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/fender.svg",
+          "width": 1024,
+          "height": 388,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/gibson.svg",
+          "width": 300,
+          "height": 190,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/taylor.svg",
+          "width": 244,
+          "height": 189,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/ibanez.svg",
+          "width": 698,
+          "height": 171,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/prs.svg",
+          "width": 300,
+          "height": 122,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/epiphone.svg",
+          "width": 300,
+          "height": 100,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/martin.svg",
+          "width": 300,
+          "height": 109,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/squier.png",
+          "width": 1222,
+          "height": 552,
+          "fit": "contain"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#brands",
+      "viewport": "desktop"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "rect": {
+        "x": 0,
+        "y": 410.65625,
+        "width": 1440,
+        "height": 274,
+        "top": 410.65625,
+        "right": 1440,
+        "bottom": 684.65625,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "กีตาร์ไฟฟ้า90 รุ่น",
+          "width": 137,
+          "scroll": 137,
+          "rect": {
+            "x": 269.734375,
+            "y": 492.953125,
+            "width": 137.265625,
+            "height": 97.390625,
+            "top": 492.953125,
+            "right": 407,
+            "bottom": 590.34375,
+            "left": 269.734375
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "16px"
+        },
+        {
+          "text": "กีตาร์ไฟฟ้า",
+          "width": 125,
+          "scroll": 125,
+          "rect": {
+            "x": 269.734375,
+            "y": 504.953125,
+            "width": 125.265625,
+            "height": 27,
+            "top": 504.953125,
+            "right": 395,
+            "bottom": 531.953125,
+            "left": 269.734375
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "15px"
+        },
+        {
+          "text": "90 รุ่น",
+          "width": 125,
+          "scroll": 125,
+          "rect": {
+            "x": 269.734375,
+            "y": 536.953125,
+            "width": 125.265625,
+            "height": 23.390625,
+            "top": 536.953125,
+            "right": 395,
+            "bottom": 560.34375,
+            "left": 269.734375
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "13px"
+        },
+        {
+          "text": "กีตาร์โปร่ง73 รุ่น",
+          "width": 137,
+          "scroll": 137,
+          "rect": {
+            "x": 573.734375,
+            "y": 492.953125,
+            "width": 137.265625,
+            "height": 97.390625,
+            "top": 492.953125,
+            "right": 711,
+            "bottom": 590.34375,
+            "left": 573.734375
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "16px"
+        },
+        {
+          "text": "กีตาร์โปร่ง",
+          "width": 125,
+          "scroll": 125,
+          "rect": {
+            "x": 573.734375,
+            "y": 504.953125,
+            "width": 125.265625,
+            "height": 27,
+            "top": 504.953125,
+            "right": 699,
+            "bottom": 531.953125,
+            "left": 573.734375
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "15px"
+        },
+        {
+          "text": "73 รุ่น",
+          "width": 125,
+          "scroll": 125,
+          "rect": {
+            "x": 573.734375,
+            "y": 536.953125,
+            "width": 125.265625,
+            "height": 23.390625,
+            "top": 536.953125,
+            "right": 699,
+            "bottom": 560.34375,
+            "left": 573.734375
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "13px"
+        },
+        {
+          "text": "กีตาร์คลาสสิก20 รุ่น",
+          "width": 137,
+          "scroll": 137,
+          "rect": {
+            "x": 877.734375,
+            "y": 492.953125,
+            "width": 137.265625,
+            "height": 97.390625,
+            "top": 492.953125,
+            "right": 1015,
+            "bottom": 590.34375,
+            "left": 877.734375
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "16px"
+        },
+        {
+          "text": "กีตาร์คลาสสิก",
+          "width": 125,
+          "scroll": 125,
+          "rect": {
+            "x": 877.734375,
+            "y": 504.953125,
+            "width": 125.265625,
+            "height": 27,
+            "top": 504.953125,
+            "right": 1003,
+            "bottom": 531.953125,
+            "left": 877.734375
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "15px"
+        },
+        {
+          "text": "20 รุ่น",
+          "width": 125,
+          "scroll": 125,
+          "rect": {
+            "x": 877.734375,
+            "y": 536.953125,
+            "width": 125.265625,
+            "height": 23.390625,
+            "top": 536.953125,
+            "right": 1003,
+            "bottom": 560.34375,
+            "left": 877.734375
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "13px"
+        },
+        {
+          "text": "เบส17 รุ่น",
+          "width": 137,
+          "scroll": 137,
+          "rect": {
+            "x": 1181.734375,
+            "y": 492.953125,
+            "width": 137.265625,
+            "height": 97.390625,
+            "top": 492.953125,
+            "right": 1319,
+            "bottom": 590.34375,
+            "left": 1181.734375
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "16px"
+        },
+        {
+          "text": "เบส",
+          "width": 125,
+          "scroll": 125,
+          "rect": {
+            "x": 1181.734375,
+            "y": 504.953125,
+            "width": 125.265625,
+            "height": 27,
+            "top": 504.953125,
+            "right": 1307,
+            "bottom": 531.953125,
+            "left": 1181.734375
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "15px"
+        },
+        {
+          "text": "17 รุ่น",
+          "width": 125,
+          "scroll": 125,
+          "rect": {
+            "x": 1181.734375,
+            "y": 536.953125,
+            "width": 125.265625,
+            "height": 23.390625,
+            "top": 536.953125,
+            "right": 1307,
+            "bottom": 560.34375,
+            "left": 1181.734375
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "13px"
+        }
+      ],
+      "buttons": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-electric-160.webp",
+          "width": 160,
+          "height": 321,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/guitars/martin-d-28/responsive/01-front-480.webp",
+          "width": 160,
+          "height": 212,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-classical-200.webp",
+          "width": 160,
+          "height": 261,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-bass-313.webp",
+          "width": 160,
+          "height": 500,
+          "fit": "contain"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#categories",
+      "viewport": "desktop"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "rect": {
+        "x": 0,
+        "y": 94.65625,
+        "width": 1440,
+        "height": 984.59375,
+        "top": 94.65625,
+        "right": 1440,
+        "bottom": 1079.25,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "03 / FIND MY GUITAR",
+          "width": 201,
+          "scroll": 201,
+          "rect": {
+            "x": 120,
+            "y": 317.578125,
+            "width": 200.921875,
+            "height": 20.390625,
+            "top": 317.578125,
+            "right": 320.921875,
+            "bottom": 337.96875,
+            "left": 120
+          },
+          "color": "rgb(199, 191, 174)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์ที่ใช่เริ่มจากตัวคุณ",
+          "width": 290,
+          "scroll": 290,
+          "rect": {
+            "x": 120,
+            "y": 367.96875,
+            "width": 289.71875,
+            "height": 149.1875,
+            "top": 367.96875,
+            "right": 409.71875,
+            "bottom": 517.15625,
+            "left": 120
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "53.28px"
+        },
+        {
+          "text": "5 คำถามเกี่ยวกับวิธีเล่นและสิ่งที่คุณชอบ เพื่อค้นหากีตาร์ที่เข้ากับสไตล์ของคุณ",
+          "width": 385,
+          "scroll": 385,
+          "rect": {
+            "x": 120,
+            "y": 539.15625,
+            "width": 385,
+            "height": 62.375,
+            "top": 539.15625,
+            "right": 505,
+            "bottom": 601.53125,
+            "left": 120
+          },
+          "color": "rgb(208, 204, 193)",
+          "font": "16px"
+        },
+        {
+          "text": "คุณอยากเล่นกีตาร์ประเภทไหน?",
+          "width": 496,
+          "scroll": 496,
+          "rect": {
+            "x": 792.6875,
+            "y": 295.84375,
+            "width": 496.3125,
+            "height": 38.015625,
+            "top": 295.84375,
+            "right": 1289,
+            "bottom": 333.859375,
+            "left": 792.6875
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "23.76px"
+        },
+        {
+          "text": "เลือกประเภทที่สนใจ หรือให้เราช่วยสำรวจทุกประเภท",
+          "width": 496,
+          "scroll": 496,
+          "rect": {
+            "x": 792.6875,
+            "y": 338.859375,
+            "width": 496.3125,
+            "height": 21.59375,
+            "top": 338.859375,
+            "right": 1289,
+            "bottom": 360.453125,
+            "left": 792.6875
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์ไฟฟ้า",
+          "width": 335,
+          "scroll": 335,
+          "rect": {
+            "x": 888.6875,
+            "y": 406.0625,
+            "width": 335.3125,
+            "height": 22.390625,
+            "top": 406.0625,
+            "right": 1224,
+            "bottom": 428.453125,
+            "left": 888.6875
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "14px"
+        },
+        {
+          "text": "เสียงผ่านแอมป์ ตั้งแต่คลีนไปจนถึงดิสทอร์ชัน",
+          "width": 335,
+          "scroll": 335,
+          "rect": {
+            "x": 888.6875,
+            "y": 431.453125,
+            "width": 335.3125,
+            "height": 20.390625,
+            "top": 431.453125,
+            "right": 1224,
+            "bottom": 451.84375,
+            "left": 888.6875
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์โปร่ง",
+          "width": 335,
+          "scroll": 335,
+          "rect": {
+            "x": 888.6875,
+            "y": 509.0625,
+            "width": 335.3125,
+            "height": 22.390625,
+            "top": 509.0625,
+            "right": 1224,
+            "bottom": 531.453125,
+            "left": 888.6875
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "14px"
+        },
+        {
+          "text": "เสียงอะคูสติกจากตัวกีตาร์โดยตรง",
+          "width": 335,
+          "scroll": 335,
+          "rect": {
+            "x": 888.6875,
+            "y": 534.453125,
+            "width": 335.3125,
+            "height": 20.390625,
+            "top": 534.453125,
+            "right": 1224,
+            "bottom": 554.84375,
+            "left": 888.6875
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์คลาสสิก",
+          "width": 335,
+          "scroll": 335,
+          "rect": {
+            "x": 888.6875,
+            "y": 612.0625,
+            "width": 335.3125,
+            "height": 22.390625,
+            "top": 612.0625,
+            "right": 1224,
+            "bottom": 634.453125,
+            "left": 888.6875
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "14px"
+        },
+        {
+          "text": "สายไนลอนสำหรับแนวคลาสสิกและการเล่นเดี่ยว",
+          "width": 335,
+          "scroll": 335,
+          "rect": {
+            "x": 888.6875,
+            "y": 637.453125,
+            "width": 335.3125,
+            "height": 20.390625,
+            "top": 637.453125,
+            "right": 1224,
+            "bottom": 657.84375,
+            "left": 888.6875
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์เบส",
+          "width": 335,
+          "scroll": 335,
+          "rect": {
+            "x": 888.6875,
+            "y": 715.0625,
+            "width": 335.3125,
+            "height": 22.390625,
+            "top": 715.0625,
+            "right": 1224,
+            "bottom": 737.453125,
+            "left": 888.6875
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "14px"
+        },
+        {
+          "text": "ย่านเสียงต่ำและจังหวะที่เชื่อมวงเข้าด้วยกัน",
+          "width": 335,
+          "scroll": 335,
+          "rect": {
+            "x": 888.6875,
+            "y": 740.453125,
+            "width": 335.3125,
+            "height": 20.390625,
+            "top": 740.453125,
+            "right": 1224,
+            "bottom": 760.84375,
+            "left": 888.6875
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "ยังไม่แน่ใจ",
+          "width": 420,
+          "scroll": 420,
+          "rect": {
+            "x": 808.6875,
+            "y": 811.859375,
+            "width": 420.3125,
+            "height": 19.1875,
+            "top": 811.859375,
+            "right": 1229,
+            "bottom": 831.046875,
+            "left": 808.6875
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "12px"
+        },
+        {
+          "text": "คำแนะนำเบื้องต้นจากคำตอบของคุณ ข้อมูลที่ยังไม่ยืนยันจะแจ้งในผลลัพธ์",
+          "width": 496,
+          "scroll": 496,
+          "rect": {
+            "x": 792.6875,
+            "y": 931.453125,
+            "width": 496.3125,
+            "height": 19.796875,
+            "top": 931.453125,
+            "right": 1289,
+            "bottom": 951.25,
+            "left": 792.6875
+          },
+          "color": "rgb(155, 153, 143)",
+          "font": "11px"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "เริ่มค้นหากีตาร์",
+          "rect": {
+            "x": 120,
+            "y": 631.53125,
+            "width": 235,
+            "height": 58,
+            "top": 631.53125,
+            "right": 355,
+            "bottom": 689.53125,
+            "left": 120
+          }
+        },
+        {
+          "text": "ก่อนหน้า",
+          "rect": {
+            "x": 792.6875,
+            "y": 869.453125,
+            "width": 101.890625,
+            "height": 47,
+            "top": 869.453125,
+            "right": 894.578125,
+            "bottom": 916.453125,
+            "left": 792.6875
+          }
+        },
+        {
+          "text": "ถัดไป",
+          "rect": {
+            "x": 904.578125,
+            "y": 869.453125,
+            "width": 384.421875,
+            "height": 47,
+            "top": 869.453125,
+            "right": 1289,
+            "bottom": 916.453125,
+            "left": 904.578125
+          }
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/electric-studio-1200.webp",
+          "width": 935,
+          "height": 1404,
+          "fit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-electric-160.webp",
+          "width": 88,
+          "height": 176,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/guitars/martin-d-28/responsive/01-front-480.webp",
+          "width": 88,
+          "height": 116,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-classical-200.webp",
+          "width": 88,
+          "height": 143,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-bass-156.webp",
+          "width": 88,
+          "height": 275,
+          "fit": "contain"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#find",
+      "viewport": "desktop"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "rect": {
+        "x": 0,
+        "y": -2.75,
+        "width": 1440,
+        "height": 1123.78125,
+        "top": -2.75,
+        "right": 1440,
+        "bottom": 1121.03125,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "04 / SIDE BY SIDE",
+          "width": 583,
+          "scroll": 583,
+          "rect": {
+            "x": 120,
+            "y": 166.25,
+            "width": 582.5,
+            "height": 19.1875,
+            "top": 166.25,
+            "right": 702.5,
+            "bottom": 185.4375,
+            "left": 120
+          },
+          "color": "rgb(207, 203, 192)",
+          "font": "12px"
+        },
+        {
+          "text": "มองเห็นความต่างก่อนตัดสินใจ",
+          "width": 490,
+          "scroll": 490,
+          "rect": {
+            "x": 120,
+            "y": 213.4375,
+            "width": 490,
+            "height": 124.96875,
+            "top": 213.4375,
+            "right": 610,
+            "bottom": 338.40625,
+            "left": 120
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "44.64px"
+        },
+        {
+          "text": "เลือก 2–4 รุ่น แล้ววางรายละเอียดข้างกัน ค่อย ๆ ดูว่าอะไรสำคัญกับการเล่นของคุณ",
+          "width": 365,
+          "scroll": 365,
+          "rect": {
+            "x": 120,
+            "y": 362.40625,
+            "width": 365,
+            "height": 62.375,
+            "top": 362.40625,
+            "right": 485,
+            "bottom": 424.78125,
+            "left": 120
+          },
+          "color": "rgb(208, 205, 195)",
+          "font": "16px"
+        },
+        {
+          "text": "นี่คือตัวอย่างการเปรียบเทียบ กดปุ่ม + บนการ์ดกีตาร์เพื่อเลือกรุ่นของคุณเอง",
+          "width": 360,
+          "scroll": 360,
+          "rect": {
+            "x": 120,
+            "y": 528.78125,
+            "width": 360,
+            "height": 22.1875,
+            "top": 528.78125,
+            "right": 480,
+            "bottom": 550.96875,
+            "left": 120
+          },
+          "color": "rgb(184, 179, 165)",
+          "font": "12px"
+        },
+        {
+          "text": "ตัวอย่างการเปรียบเทียบ",
+          "width": 115,
+          "scroll": 115,
+          "rect": {
+            "x": 760.5,
+            "y": 129.046875,
+            "width": 114.5,
+            "height": 20.390625,
+            "top": 129.046875,
+            "right": 875,
+            "bottom": 149.4375,
+            "left": 760.5
+          },
+          "color": "rgb(194, 188, 174)",
+          "font": "12px"
+        },
+        {
+          "text": "FG820-12",
+          "width": 199,
+          "scroll": 199,
+          "rect": {
+            "x": 850.5,
+            "y": 384.75,
+            "width": 199.25,
+            "height": 44,
+            "top": 384.75,
+            "right": 1049.75,
+            "bottom": 428.75,
+            "left": 850.5
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "15px"
+        },
+        {
+          "text": "D-28",
+          "width": 199,
+          "scroll": 199,
+          "rect": {
+            "x": 1081.75,
+            "y": 384.75,
+            "width": 199.25,
+            "height": 44,
+            "top": 384.75,
+            "right": 1281,
+            "bottom": 428.75,
+            "left": 1081.75
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "15px"
+        },
+        {
+          "text": "แสดงเฉพาะข้อมูลที่มีแหล่งอ้างอิง ข้อมูลที่ยังขาดจะแสดงว่าไม่ระบุ",
+          "width": 537,
+          "scroll": 537,
+          "rect": {
+            "x": 760.5,
+            "y": 863.4375,
+            "width": 536.5,
+            "height": 35.59375,
+            "top": 863.4375,
+            "right": 1297,
+            "bottom": 899.03125,
+            "left": 760.5
+          },
+          "color": "rgb(169, 163, 149)",
+          "font": "12px"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "แสดงเฉพาะส่วนที่ต่างกัน",
+          "rect": {
+            "x": 1124.578125,
+            "y": 117.25,
+            "width": 172.421875,
+            "height": 44,
+            "top": 117.25,
+            "right": 1297,
+            "bottom": 161.25,
+            "left": 1124.578125
+          }
+        },
+        {
+          "text": "ดูตารางเปรียบเทียบทั้งหมด",
+          "rect": {
+            "x": 760.5,
+            "y": 913.03125,
+            "width": 536.5,
+            "height": 47,
+            "top": 913.03125,
+            "right": 1297,
+            "bottom": 960.03125,
+            "left": 760.5
+          }
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/discovery/quiz-studio-960.webp",
+          "width": 691,
+          "height": 460,
+          "fit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/guitars/yamaha-fg820-12/responsive/01-front-480.webp",
+          "width": 200,
+          "height": 266,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/guitars/martin-d-28/responsive/01-front-480.webp",
+          "width": 200,
+          "height": 265,
+          "fit": "contain"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#compare",
+      "viewport": "desktop"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 659,
+        "top": 0,
+        "right": 768,
+        "bottom": 659,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "THE ART OF FINDING YOUR SOUND",
+          "width": 520,
+          "scroll": 520,
+          "rect": {
+            "x": 32,
+            "y": 112,
+            "width": 520,
+            "height": 20.390625,
+            "top": 112,
+            "right": 552,
+            "bottom": 132.390625,
+            "left": 32
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "12px"
+        },
+        {
+          "text": "ค้นพบเสียงที่เป็นคุณ",
+          "width": 520,
+          "scroll": 520,
+          "rect": {
+            "x": 32,
+            "y": 156.390625,
+            "width": 520,
+            "height": 128.625,
+            "top": 156.390625,
+            "right": 552,
+            "bottom": 285.015625,
+            "left": 32
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "48px"
+        },
+        {
+          "text": "สำรวจกีตาร์ 200 รุ่น จาก 10 แบรนด์\nเปรียบเทียบ แล้วค้นหารุ่นที่เข้ากับคุณ",
+          "width": 420,
+          "scroll": 420,
+          "rect": {
+            "x": 32,
+            "y": 305.015625,
+            "width": 420,
+            "height": 60.78125,
+            "top": 305.015625,
+            "right": 452,
+            "bottom": 365.796875,
+            "left": 32
+          },
+          "color": "rgb(179, 179, 170)",
+          "font": "16px"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "ค้นหา",
+          "rect": {
+            "x": 478.46875,
+            "y": 483.796875,
+            "width": 64.53125,
+            "height": 44,
+            "top": 483.796875,
+            "right": 543,
+            "bottom": 527.796875,
+            "left": 478.46875
+          }
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/discovery/quiz-studio-960.webp",
+          "width": 768,
+          "height": 512,
+          "fit": "cover"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#top",
+      "viewport": "tablet"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "rect": {
+        "x": 0,
+        "y": 740.78125,
+        "width": 768,
+        "height": 283.1875,
+        "top": 740.78125,
+        "right": 768,
+        "bottom": 1023.96875,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "EXPLORE BY BRAND",
+          "width": 197,
+          "scroll": 197,
+          "rect": {
+            "x": 32,
+            "y": 772.78125,
+            "width": 197.296875,
+            "height": 18.6875,
+            "top": 772.78125,
+            "right": 229.296875,
+            "bottom": 791.46875,
+            "left": 32
+          },
+          "color": "rgb(224, 197, 140)",
+          "font": "11px"
+        },
+        {
+          "text": "แบรนด์ในแคตตาล็อก",
+          "width": 197,
+          "scroll": 197,
+          "rect": {
+            "x": 32,
+            "y": 801.46875,
+            "width": 197.296875,
+            "height": 34.5,
+            "top": 801.46875,
+            "right": 229.296875,
+            "bottom": 835.96875,
+            "left": 32
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "23px"
+        }
+      ],
+      "buttons": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/yamaha.svg",
+          "width": 1066,
+          "height": 232,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/fender.svg",
+          "width": 1024,
+          "height": 388,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/gibson.svg",
+          "width": 300,
+          "height": 190,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/taylor.svg",
+          "width": 244,
+          "height": 189,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/ibanez.svg",
+          "width": 698,
+          "height": 171,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/prs.svg",
+          "width": 300,
+          "height": 122,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/epiphone.svg",
+          "width": 300,
+          "height": 100,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/martin.svg",
+          "width": 300,
+          "height": 109,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/squier.png",
+          "width": 1222,
+          "height": 552,
+          "fit": "contain"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#brands",
+      "viewport": "tablet"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "rect": {
+        "x": 0,
+        "y": 319.734375,
+        "width": 768,
+        "height": 464,
+        "top": 319.734375,
+        "right": 768,
+        "bottom": 783.734375,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "กีตาร์ไฟฟ้า90 รุ่น",
+          "width": 164,
+          "scroll": 164,
+          "rect": {
+            "x": 210.84375,
+            "y": 395.234375,
+            "width": 164.15625,
+            "height": 100.984375,
+            "top": 395.234375,
+            "right": 375,
+            "bottom": 496.21875,
+            "left": 210.84375
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "16px"
+        },
+        {
+          "text": "กีตาร์ไฟฟ้า",
+          "width": 152,
+          "scroll": 152,
+          "rect": {
+            "x": 210.84375,
+            "y": 407.234375,
+            "width": 152.15625,
+            "height": 30.59375,
+            "top": 407.234375,
+            "right": 363,
+            "bottom": 437.828125,
+            "left": 210.84375
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "17px"
+        },
+        {
+          "text": "90 รุ่น",
+          "width": 152,
+          "scroll": 152,
+          "rect": {
+            "x": 210.84375,
+            "y": 442.828125,
+            "width": 152.15625,
+            "height": 23.390625,
+            "top": 442.828125,
+            "right": 363,
+            "bottom": 466.21875,
+            "left": 210.84375
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "13px"
+        },
+        {
+          "text": "กีตาร์โปร่ง73 รุ่น",
+          "width": 164,
+          "scroll": 164,
+          "rect": {
+            "x": 570.84375,
+            "y": 395.234375,
+            "width": 164.15625,
+            "height": 100.984375,
+            "top": 395.234375,
+            "right": 735,
+            "bottom": 496.21875,
+            "left": 570.84375
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "16px"
+        },
+        {
+          "text": "กีตาร์โปร่ง",
+          "width": 152,
+          "scroll": 152,
+          "rect": {
+            "x": 570.84375,
+            "y": 407.234375,
+            "width": 152.15625,
+            "height": 30.59375,
+            "top": 407.234375,
+            "right": 723,
+            "bottom": 437.828125,
+            "left": 570.84375
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "17px"
+        },
+        {
+          "text": "73 รุ่น",
+          "width": 152,
+          "scroll": 152,
+          "rect": {
+            "x": 570.84375,
+            "y": 442.828125,
+            "width": 152.15625,
+            "height": 23.390625,
+            "top": 442.828125,
+            "right": 723,
+            "bottom": 466.21875,
+            "left": 570.84375
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "13px"
+        },
+        {
+          "text": "กีตาร์คลาสสิก20 รุ่น",
+          "width": 164,
+          "scroll": 164,
+          "rect": {
+            "x": 210.84375,
+            "y": 595.234375,
+            "width": 164.15625,
+            "height": 100.984375,
+            "top": 595.234375,
+            "right": 375,
+            "bottom": 696.21875,
+            "left": 210.84375
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "16px"
+        },
+        {
+          "text": "กีตาร์คลาสสิก",
+          "width": 152,
+          "scroll": 152,
+          "rect": {
+            "x": 210.84375,
+            "y": 607.234375,
+            "width": 152.15625,
+            "height": 30.59375,
+            "top": 607.234375,
+            "right": 363,
+            "bottom": 637.828125,
+            "left": 210.84375
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "17px"
+        },
+        {
+          "text": "20 รุ่น",
+          "width": 152,
+          "scroll": 152,
+          "rect": {
+            "x": 210.84375,
+            "y": 642.828125,
+            "width": 152.15625,
+            "height": 23.390625,
+            "top": 642.828125,
+            "right": 363,
+            "bottom": 666.21875,
+            "left": 210.84375
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "13px"
+        },
+        {
+          "text": "เบส17 รุ่น",
+          "width": 164,
+          "scroll": 164,
+          "rect": {
+            "x": 570.84375,
+            "y": 595.234375,
+            "width": 164.15625,
+            "height": 100.984375,
+            "top": 595.234375,
+            "right": 735,
+            "bottom": 696.21875,
+            "left": 570.84375
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "16px"
+        },
+        {
+          "text": "เบส",
+          "width": 152,
+          "scroll": 152,
+          "rect": {
+            "x": 570.84375,
+            "y": 607.234375,
+            "width": 152.15625,
+            "height": 30.59375,
+            "top": 607.234375,
+            "right": 723,
+            "bottom": 637.828125,
+            "left": 570.84375
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "17px"
+        },
+        {
+          "text": "17 รุ่น",
+          "width": 152,
+          "scroll": 152,
+          "rect": {
+            "x": 570.84375,
+            "y": 642.828125,
+            "width": 152.15625,
+            "height": 23.390625,
+            "top": 642.828125,
+            "right": 723,
+            "bottom": 666.21875,
+            "left": 570.84375
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "13px"
+        }
+      ],
+      "buttons": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-electric-160.webp",
+          "width": 129,
+          "height": 260,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/guitars/martin-d-28/responsive/01-front-480.webp",
+          "width": 130,
+          "height": 172,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-classical-200.webp",
+          "width": 130,
+          "height": 212,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-bass-156.webp",
+          "width": 130,
+          "height": 406,
+          "fit": "contain"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#categories",
+      "viewport": "tablet"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "rect": {
+        "x": 0,
+        "y": 126.734375,
+        "width": 768,
+        "height": 898.015625,
+        "top": 126.734375,
+        "right": 768,
+        "bottom": 1024.75,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "03 / FIND MY GUITAR",
+          "width": 201,
+          "scroll": 201,
+          "rect": {
+            "x": 32,
+            "y": 343.5,
+            "width": 200.921875,
+            "height": 20.390625,
+            "top": 343.5,
+            "right": 232.921875,
+            "bottom": 363.890625,
+            "left": 32
+          },
+          "color": "rgb(199, 191, 174)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์ที่ใช่เริ่มจากตัวคุณ",
+          "width": 174,
+          "scroll": 174,
+          "rect": {
+            "x": 32,
+            "y": 393.890625,
+            "width": 174.0625,
+            "height": 89.59375,
+            "top": 393.890625,
+            "right": 206.0625,
+            "bottom": 483.484375,
+            "left": 32
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "32px"
+        },
+        {
+          "text": "5 คำถามเกี่ยวกับวิธีเล่นและสิ่งที่คุณชอบ เพื่อค้นหากีตาร์ที่เข้ากับสไตล์ของคุณ",
+          "width": 324,
+          "scroll": 324,
+          "rect": {
+            "x": 32,
+            "y": 505.484375,
+            "width": 323.796875,
+            "height": 54.59375,
+            "top": 505.484375,
+            "right": 355.796875,
+            "bottom": 560.078125,
+            "left": 32
+          },
+          "color": "rgb(208, 204, 193)",
+          "font": "14px"
+        },
+        {
+          "text": "คุณอยากเล่นกีตาร์ประเภทไหน?",
+          "width": 316,
+          "scroll": 316,
+          "rect": {
+            "x": 399.796875,
+            "y": 288.921875,
+            "width": 316.203125,
+            "height": 29.4375,
+            "top": 288.921875,
+            "right": 716,
+            "bottom": 318.359375,
+            "left": 399.796875
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "18.4px"
+        },
+        {
+          "text": "เลือกประเภทที่สนใจ หรือให้เราช่วยสำรวจทุกประเภท",
+          "width": 316,
+          "scroll": 316,
+          "rect": {
+            "x": 399.796875,
+            "y": 323.359375,
+            "width": 316.203125,
+            "height": 21.59375,
+            "top": 323.359375,
+            "right": 716,
+            "bottom": 344.953125,
+            "left": 399.796875
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์ไฟฟ้า",
+          "width": 199,
+          "scroll": 199,
+          "rect": {
+            "x": 468.796875,
+            "y": 381.15625,
+            "width": 199.203125,
+            "height": 20.796875,
+            "top": 381.15625,
+            "right": 668,
+            "bottom": 401.953125,
+            "left": 468.796875
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "13px"
+        },
+        {
+          "text": "เสียงผ่านแอมป์ ตั้งแต่คลีนไปจนถึงดิสทอร์ชัน",
+          "width": 199,
+          "scroll": 199,
+          "rect": {
+            "x": 468.796875,
+            "y": 404.953125,
+            "width": 199.203125,
+            "height": 40.78125,
+            "top": 404.953125,
+            "right": 668,
+            "bottom": 445.734375,
+            "left": 468.796875
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์โปร่ง",
+          "width": 199,
+          "scroll": 199,
+          "rect": {
+            "x": 468.796875,
+            "y": 494.359375,
+            "width": 199.203125,
+            "height": 20.796875,
+            "top": 494.359375,
+            "right": 668,
+            "bottom": 515.15625,
+            "left": 468.796875
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "13px"
+        },
+        {
+          "text": "เสียงอะคูสติกจากตัวกีตาร์โดยตรง",
+          "width": 199,
+          "scroll": 199,
+          "rect": {
+            "x": 468.796875,
+            "y": 518.15625,
+            "width": 199.203125,
+            "height": 20.390625,
+            "top": 518.15625,
+            "right": 668,
+            "bottom": 538.546875,
+            "left": 468.796875
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์คลาสสิก",
+          "width": 199,
+          "scroll": 199,
+          "rect": {
+            "x": 468.796875,
+            "y": 587.15625,
+            "width": 199.203125,
+            "height": 20.796875,
+            "top": 587.15625,
+            "right": 668,
+            "bottom": 607.953125,
+            "left": 468.796875
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "13px"
+        },
+        {
+          "text": "สายไนลอนสำหรับแนวคลาสสิกและการเล่นเดี่ยว",
+          "width": 199,
+          "scroll": 199,
+          "rect": {
+            "x": 468.796875,
+            "y": 610.953125,
+            "width": 199.203125,
+            "height": 40.78125,
+            "top": 610.953125,
+            "right": 668,
+            "bottom": 651.734375,
+            "left": 468.796875
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์เบส",
+          "width": 199,
+          "scroll": 199,
+          "rect": {
+            "x": 468.796875,
+            "y": 690.15625,
+            "width": 199.203125,
+            "height": 20.796875,
+            "top": 690.15625,
+            "right": 668,
+            "bottom": 710.953125,
+            "left": 468.796875
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "13px"
+        },
+        {
+          "text": "ย่านเสียงต่ำและจังหวะที่เชื่อมวงเข้าด้วยกัน",
+          "width": 199,
+          "scroll": 199,
+          "rect": {
+            "x": 468.796875,
+            "y": 713.953125,
+            "width": 199.203125,
+            "height": 40.78125,
+            "top": 713.953125,
+            "right": 668,
+            "bottom": 754.734375,
+            "left": 468.796875
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "ยังไม่แน่ใจ",
+          "width": 255,
+          "scroll": 255,
+          "rect": {
+            "x": 410.796875,
+            "y": 796.359375,
+            "width": 255.203125,
+            "height": 19.1875,
+            "top": 796.359375,
+            "right": 666,
+            "bottom": 815.546875,
+            "left": 410.796875
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "12px"
+        },
+        {
+          "text": "คำแนะนำเบื้องต้นจากคำตอบของคุณ ข้อมูลที่ยังไม่ยืนยันจะแจ้งในผลลัพธ์",
+          "width": 316,
+          "scroll": 316,
+          "rect": {
+            "x": 399.796875,
+            "y": 915.953125,
+            "width": 316.203125,
+            "height": 19.796875,
+            "top": 915.953125,
+            "right": 716,
+            "bottom": 935.75,
+            "left": 399.796875
+          },
+          "color": "rgb(155, 153, 143)",
+          "font": "11px"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "เริ่มค้นหากีตาร์",
+          "rect": {
+            "x": 32,
+            "y": 590.078125,
+            "width": 235,
+            "height": 58,
+            "top": 590.078125,
+            "right": 267,
+            "bottom": 648.078125,
+            "left": 32
+          }
+        },
+        {
+          "text": "ก่อนหน้า",
+          "rect": {
+            "x": 399.796875,
+            "y": 853.953125,
+            "width": 101.890625,
+            "height": 47,
+            "top": 853.953125,
+            "right": 501.6875,
+            "bottom": 900.953125,
+            "left": 399.796875
+          }
+        },
+        {
+          "text": "ถัดไป",
+          "rect": {
+            "x": 511.6875,
+            "y": 853.953125,
+            "width": 204.3125,
+            "height": 47,
+            "top": 853.953125,
+            "right": 716,
+            "bottom": 900.953125,
+            "left": 511.6875
+          }
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/electric-studio-800.webp",
+          "width": 768,
+          "height": 1152,
+          "fit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-electric-160.webp",
+          "width": 88,
+          "height": 176,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/guitars/martin-d-28/responsive/01-front-480.webp",
+          "width": 88,
+          "height": 116,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-classical-200.webp",
+          "width": 88,
+          "height": 143,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-bass-156.webp",
+          "width": 88,
+          "height": 275,
+          "fit": "contain"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#find",
+      "viewport": "tablet"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "rect": {
+        "x": 0,
+        "y": 15.75,
+        "width": 768,
+        "height": 1670.375,
+        "top": 15.75,
+        "right": 768,
+        "bottom": 1686.125,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "04 / SIDE BY SIDE",
+          "width": 704,
+          "scroll": 704,
+          "rect": {
+            "x": 32,
+            "y": 115.75,
+            "width": 704,
+            "height": 19.1875,
+            "top": 115.75,
+            "right": 736,
+            "bottom": 134.9375,
+            "left": 32
+          },
+          "color": "rgb(207, 203, 192)",
+          "font": "12px"
+        },
+        {
+          "text": "มองเห็นความต่างก่อนตัดสินใจ",
+          "width": 440,
+          "scroll": 440,
+          "rect": {
+            "x": 32,
+            "y": 162.9375,
+            "width": 440,
+            "height": 106.375,
+            "top": 162.9375,
+            "right": 472,
+            "bottom": 269.3125,
+            "left": 32
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "38px"
+        },
+        {
+          "text": "เลือก 2–4 รุ่น แล้ววางรายละเอียดข้างกัน ค่อย ๆ ดูว่าอะไรสำคัญกับการเล่นของคุณ",
+          "width": 310,
+          "scroll": 310,
+          "rect": {
+            "x": 32,
+            "y": 293.3125,
+            "width": 310,
+            "height": 58.5,
+            "top": 293.3125,
+            "right": 342,
+            "bottom": 351.8125,
+            "left": 32
+          },
+          "color": "rgb(208, 205, 195)",
+          "font": "15px"
+        },
+        {
+          "text": "นี่คือตัวอย่างการเปรียบเทียบ กดปุ่ม + บนการ์ดกีตาร์เพื่อเลือกรุ่นของคุณเอง",
+          "width": 360,
+          "scroll": 360,
+          "rect": {
+            "x": 32,
+            "y": 455.8125,
+            "width": 360,
+            "height": 22.1875,
+            "top": 455.8125,
+            "right": 392,
+            "bottom": 478,
+            "left": 32
+          },
+          "color": "rgb(184, 179, 165)",
+          "font": "12px"
+        },
+        {
+          "text": "ตัวอย่างการเปรียบเทียบ",
+          "width": 115,
+          "scroll": 115,
+          "rect": {
+            "x": 57,
+            "y": 726.578125,
+            "width": 114.5,
+            "height": 20.390625,
+            "top": 726.578125,
+            "right": 171.5,
+            "bottom": 746.96875,
+            "left": 57
+          },
+          "color": "rgb(194, 188, 174)",
+          "font": "12px"
+        },
+        {
+          "text": "FG820-12",
+          "width": 258,
+          "scroll": 258,
+          "rect": {
+            "x": 147,
+            "y": 997.28125,
+            "width": 258,
+            "height": 44,
+            "top": 997.28125,
+            "right": 405,
+            "bottom": 1041.28125,
+            "left": 147
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "15px"
+        },
+        {
+          "text": "D-28",
+          "width": 258,
+          "scroll": 258,
+          "rect": {
+            "x": 437,
+            "y": 997.28125,
+            "width": 258,
+            "height": 44,
+            "top": 997.28125,
+            "right": 695,
+            "bottom": 1041.28125,
+            "left": 437
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "15px"
+        },
+        {
+          "text": "แสดงเฉพาะข้อมูลที่มีแหล่งอ้างอิง ข้อมูลที่ยังขาดจะแสดงว่าไม่ระบุ",
+          "width": 654,
+          "scroll": 654,
+          "rect": {
+            "x": 57,
+            "y": 1454.53125,
+            "width": 654,
+            "height": 35.59375,
+            "top": 1454.53125,
+            "right": 711,
+            "bottom": 1490.125,
+            "left": 57
+          },
+          "color": "rgb(169, 163, 149)",
+          "font": "12px"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "แสดงเฉพาะส่วนที่ต่างกัน",
+          "rect": {
+            "x": 538.578125,
+            "y": 714.78125,
+            "width": 172.421875,
+            "height": 44,
+            "top": 714.78125,
+            "right": 711,
+            "bottom": 758.78125,
+            "left": 538.578125
+          }
+        },
+        {
+          "text": "ดูตารางเปรียบเทียบทั้งหมด",
+          "rect": {
+            "x": 57,
+            "y": 1504.125,
+            "width": 654,
+            "height": 47,
+            "top": 1504.125,
+            "right": 711,
+            "bottom": 1551.125,
+            "left": 57
+          }
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/discovery/quiz-studio-960.webp",
+          "width": 768,
+          "height": 512,
+          "fit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/guitars/yamaha-fg820-12/responsive/01-front-480.webp",
+          "width": 153,
+          "height": 204,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/guitars/martin-d-28/responsive/01-front-480.webp",
+          "width": 153,
+          "height": 204,
+          "fit": "contain"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#compare",
+      "viewport": "tablet"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 626.84375,
+        "top": 0,
+        "right": 390,
+        "bottom": 626.84375,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "THE ART OF FINDING YOUR SOUND",
+          "width": 350,
+          "scroll": 350,
+          "rect": {
+            "x": 20,
+            "y": 99,
+            "width": 350,
+            "height": 17,
+            "top": 99,
+            "right": 370,
+            "bottom": 116,
+            "left": 20
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "10px"
+        },
+        {
+          "text": "ค้นพบเสียงที่เป็นคุณ",
+          "width": 350,
+          "scroll": 350,
+          "rect": {
+            "x": 20,
+            "y": 140,
+            "width": 350,
+            "height": 121.84375,
+            "top": 140,
+            "right": 370,
+            "bottom": 261.84375,
+            "left": 20
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "42.9px"
+        },
+        {
+          "text": "สำรวจกีตาร์ 200 รุ่น จาก 10 แบรนด์\nเปรียบเทียบ แล้วค้นหารุ่นที่เข้ากับคุณ",
+          "width": 310,
+          "scroll": 310,
+          "rect": {
+            "x": 20,
+            "y": 287.84375,
+            "width": 310,
+            "height": 57,
+            "top": 287.84375,
+            "right": 330,
+            "bottom": 344.84375,
+            "left": 20
+          },
+          "color": "rgb(179, 179, 170)",
+          "font": "15px"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "ค้นหา",
+          "rect": {
+            "x": 296.46875,
+            "y": 458.84375,
+            "width": 64.53125,
+            "height": 44,
+            "top": 458.84375,
+            "right": 361,
+            "bottom": 502.84375,
+            "left": 296.46875
+          }
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/discovery/quiz-studio-480.webp",
+          "width": 389,
+          "height": 259,
+          "fit": "cover"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#top",
+      "viewport": "mobile"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "rect": {
+        "x": 0,
+        "y": 581.015625,
+        "width": 390,
+        "height": 262.5,
+        "top": 581.015625,
+        "right": 390,
+        "bottom": 843.515625,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "EXPLORE BY BRAND",
+          "width": 180,
+          "scroll": 180,
+          "rect": {
+            "x": 20,
+            "y": 613.015625,
+            "width": 180.140625,
+            "height": 17,
+            "top": 613.015625,
+            "right": 200.140625,
+            "bottom": 630.015625,
+            "left": 20
+          },
+          "color": "rgb(224, 197, 140)",
+          "font": "10px"
+        },
+        {
+          "text": "แบรนด์ในแคตตาล็อก",
+          "width": 180,
+          "scroll": 180,
+          "rect": {
+            "x": 20,
+            "y": 640.015625,
+            "width": 180.140625,
+            "height": 31.5,
+            "top": 640.015625,
+            "right": 200.140625,
+            "bottom": 671.515625,
+            "left": 20
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "21px"
+        }
+      ],
+      "buttons": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/yamaha.svg",
+          "width": 1066,
+          "height": 232,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/fender.svg",
+          "width": 1024,
+          "height": 388,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/gibson.svg",
+          "width": 300,
+          "height": 190,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/taylor.svg",
+          "width": 244,
+          "height": 189,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/ibanez.svg",
+          "width": 698,
+          "height": 171,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/prs.svg",
+          "width": 300,
+          "height": 122,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/epiphone.svg",
+          "width": 300,
+          "height": 100,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/martin.svg",
+          "width": 300,
+          "height": 109,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/squier.png",
+          "width": 1222,
+          "height": 552,
+          "fit": "contain"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#brands",
+      "viewport": "mobile"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "rect": {
+        "x": 0,
+        "y": 203.578125,
+        "width": 390,
+        "height": 516,
+        "top": 203.578125,
+        "right": 390,
+        "bottom": 719.578125,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "กีตาร์ไฟฟ้า90 รุ่น",
+          "width": 139,
+          "scroll": 139,
+          "rect": {
+            "x": 35,
+            "y": 390.59375,
+            "width": 139,
+            "height": 46.984375,
+            "top": 390.59375,
+            "right": 174,
+            "bottom": 437.578125,
+            "left": 35
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "16px"
+        },
+        {
+          "text": "กีตาร์ไฟฟ้า",
+          "width": 114,
+          "scroll": 114,
+          "rect": {
+            "x": 35,
+            "y": 390.59375,
+            "width": 114,
+            "height": 23.390625,
+            "top": 390.59375,
+            "right": 149,
+            "bottom": 413.984375,
+            "left": 35
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "13px"
+        },
+        {
+          "text": "90 รุ่น",
+          "width": 114,
+          "scroll": 114,
+          "rect": {
+            "x": 35,
+            "y": 415.984375,
+            "width": 114,
+            "height": 21.59375,
+            "top": 415.984375,
+            "right": 149,
+            "bottom": 437.578125,
+            "left": 35
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์โปร่ง73 รุ่น",
+          "width": 139,
+          "scroll": 139,
+          "rect": {
+            "x": 216,
+            "y": 390.59375,
+            "width": 139,
+            "height": 46.984375,
+            "top": 390.59375,
+            "right": 355,
+            "bottom": 437.578125,
+            "left": 216
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "16px"
+        },
+        {
+          "text": "กีตาร์โปร่ง",
+          "width": 114,
+          "scroll": 114,
+          "rect": {
+            "x": 216,
+            "y": 390.59375,
+            "width": 114,
+            "height": 23.390625,
+            "top": 390.59375,
+            "right": 330,
+            "bottom": 413.984375,
+            "left": 216
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "13px"
+        },
+        {
+          "text": "73 รุ่น",
+          "width": 114,
+          "scroll": 114,
+          "rect": {
+            "x": 216,
+            "y": 415.984375,
+            "width": 114,
+            "height": 21.59375,
+            "top": 415.984375,
+            "right": 330,
+            "bottom": 437.578125,
+            "left": 216
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์คลาสสิก20 รุ่น",
+          "width": 139,
+          "scroll": 139,
+          "rect": {
+            "x": 35,
+            "y": 627.59375,
+            "width": 139,
+            "height": 46.984375,
+            "top": 627.59375,
+            "right": 174,
+            "bottom": 674.578125,
+            "left": 35
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "16px"
+        },
+        {
+          "text": "กีตาร์คลาสสิก",
+          "width": 114,
+          "scroll": 114,
+          "rect": {
+            "x": 35,
+            "y": 627.59375,
+            "width": 114,
+            "height": 23.390625,
+            "top": 627.59375,
+            "right": 149,
+            "bottom": 650.984375,
+            "left": 35
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "13px"
+        },
+        {
+          "text": "20 รุ่น",
+          "width": 114,
+          "scroll": 114,
+          "rect": {
+            "x": 35,
+            "y": 652.984375,
+            "width": 114,
+            "height": 21.59375,
+            "top": 652.984375,
+            "right": 149,
+            "bottom": 674.578125,
+            "left": 35
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "12px"
+        },
+        {
+          "text": "เบส17 รุ่น",
+          "width": 139,
+          "scroll": 139,
+          "rect": {
+            "x": 216,
+            "y": 627.59375,
+            "width": 139,
+            "height": 46.984375,
+            "top": 627.59375,
+            "right": 355,
+            "bottom": 674.578125,
+            "left": 216
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "16px"
+        },
+        {
+          "text": "เบส",
+          "width": 114,
+          "scroll": 114,
+          "rect": {
+            "x": 216,
+            "y": 627.59375,
+            "width": 114,
+            "height": 23.390625,
+            "top": 627.59375,
+            "right": 330,
+            "bottom": 650.984375,
+            "left": 216
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "13px"
+        },
+        {
+          "text": "17 รุ่น",
+          "width": 114,
+          "scroll": 114,
+          "rect": {
+            "x": 216,
+            "y": 652.984375,
+            "width": 114,
+            "height": 21.59375,
+            "top": 652.984375,
+            "right": 330,
+            "bottom": 674.578125,
+            "left": 216
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "12px"
+        }
+      ],
+      "buttons": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-electric-160.webp",
+          "width": 129,
+          "height": 260,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/guitars/martin-d-28/responsive/01-front-480.webp",
+          "width": 130,
+          "height": 172,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-classical-200.webp",
+          "width": 130,
+          "height": 212,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-bass-156.webp",
+          "width": 130,
+          "height": 406,
+          "fit": "contain"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#categories",
+      "viewport": "mobile"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "rect": {
+        "x": 0,
+        "y": -400.421875,
+        "width": 390,
+        "height": 1384.5625,
+        "top": -400.421875,
+        "right": 390,
+        "bottom": 984.140625,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "03 / FIND MY GUITAR",
+          "width": 188,
+          "scroll": 188,
+          "rect": {
+            "x": 20,
+            "y": -315.421875,
+            "width": 187.6875,
+            "height": 18.6875,
+            "top": -315.421875,
+            "right": 207.6875,
+            "bottom": -296.734375,
+            "left": 20
+          },
+          "color": "rgb(199, 191, 174)",
+          "font": "11px"
+        },
+        {
+          "text": "กีตาร์ที่ใช่เริ่มจากตัวคุณ",
+          "width": 178,
+          "scroll": 178,
+          "rect": {
+            "x": 20,
+            "y": -272.734375,
+            "width": 178.125,
+            "height": 91.71875,
+            "top": -272.734375,
+            "right": 198.125,
+            "bottom": -181.015625,
+            "left": 20
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "32.76px"
+        },
+        {
+          "text": "5 คำถามเกี่ยวกับวิธีเล่นและสิ่งที่คุณชอบ เพื่อค้นหากีตาร์ที่เข้ากับสไตล์ของคุณ",
+          "width": 300,
+          "scroll": 300,
+          "rect": {
+            "x": 20,
+            "y": -163.015625,
+            "width": 300,
+            "height": 54.59375,
+            "top": -163.015625,
+            "right": 320,
+            "bottom": -108.421875,
+            "left": 20
+          },
+          "color": "rgb(208, 204, 193)",
+          "font": "14px"
+        },
+        {
+          "text": "คุณอยากเล่นกีตาร์ประเภทไหน?",
+          "width": 310,
+          "scroll": 310,
+          "rect": {
+            "x": 40,
+            "y": 234.359375,
+            "width": 310,
+            "height": 33.59375,
+            "top": 234.359375,
+            "right": 350,
+            "bottom": 267.953125,
+            "left": 40
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "21px"
+        },
+        {
+          "text": "เลือกประเภทที่สนใจ หรือให้เราช่วยสำรวจทุกประเภท",
+          "width": 310,
+          "scroll": 310,
+          "rect": {
+            "x": 40,
+            "y": 272.953125,
+            "width": 310,
+            "height": 21.59375,
+            "top": 272.953125,
+            "right": 350,
+            "bottom": 294.546875,
+            "left": 40
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์ไฟฟ้า",
+          "width": 174,
+          "scroll": 174,
+          "rect": {
+            "x": 117,
+            "y": 328.453125,
+            "width": 174,
+            "height": 22.390625,
+            "top": 328.453125,
+            "right": 291,
+            "bottom": 350.84375,
+            "left": 117
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "14px"
+        },
+        {
+          "text": "เสียงผ่านแอมป์ ตั้งแต่คลีนไปจนถึงดิสทอร์ชัน",
+          "width": 174,
+          "scroll": 174,
+          "rect": {
+            "x": 117,
+            "y": 353.84375,
+            "width": 174,
+            "height": 40.78125,
+            "top": 353.84375,
+            "right": 291,
+            "bottom": 394.625,
+            "left": 117
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์โปร่ง",
+          "width": 174,
+          "scroll": 174,
+          "rect": {
+            "x": 117,
+            "y": 438.65625,
+            "width": 174,
+            "height": 22.390625,
+            "top": 438.65625,
+            "right": 291,
+            "bottom": 461.046875,
+            "left": 117
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "14px"
+        },
+        {
+          "text": "เสียงอะคูสติกจากตัวกีตาร์โดยตรง",
+          "width": 174,
+          "scroll": 174,
+          "rect": {
+            "x": 117,
+            "y": 464.046875,
+            "width": 174,
+            "height": 20.390625,
+            "top": 464.046875,
+            "right": 291,
+            "bottom": 484.4375,
+            "left": 117
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์คลาสสิก",
+          "width": 174,
+          "scroll": 174,
+          "rect": {
+            "x": 117,
+            "y": 528.453125,
+            "width": 174,
+            "height": 22.390625,
+            "top": 528.453125,
+            "right": 291,
+            "bottom": 550.84375,
+            "left": 117
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "14px"
+        },
+        {
+          "text": "สายไนลอนสำหรับแนวคลาสสิกและการเล่นเดี่ยว",
+          "width": 174,
+          "scroll": 174,
+          "rect": {
+            "x": 117,
+            "y": 553.84375,
+            "width": 174,
+            "height": 40.78125,
+            "top": 553.84375,
+            "right": 291,
+            "bottom": 594.625,
+            "left": 117
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์เบส",
+          "width": 174,
+          "scroll": 174,
+          "rect": {
+            "x": 117,
+            "y": 628.453125,
+            "width": 174,
+            "height": 22.390625,
+            "top": 628.453125,
+            "right": 291,
+            "bottom": 650.84375,
+            "left": 117
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "14px"
+        },
+        {
+          "text": "ย่านเสียงต่ำและจังหวะที่เชื่อมวงเข้าด้วยกัน",
+          "width": 174,
+          "scroll": 174,
+          "rect": {
+            "x": 117,
+            "y": 653.84375,
+            "width": 174,
+            "height": 40.78125,
+            "top": 653.84375,
+            "right": 291,
+            "bottom": 694.625,
+            "left": 117
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "ยังไม่แน่ใจ",
+          "width": 243,
+          "scroll": 243,
+          "rect": {
+            "x": 53,
+            "y": 733.953125,
+            "width": 243,
+            "height": 19.1875,
+            "top": 733.953125,
+            "right": 296,
+            "bottom": 753.140625,
+            "left": 53
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "12px"
+        },
+        {
+          "text": "คำแนะนำเบื้องต้นจากคำตอบของคุณ ข้อมูลที่ยังไม่ยืนยันจะแจ้งในผลลัพธ์",
+          "width": 310,
+          "scroll": 310,
+          "rect": {
+            "x": 40,
+            "y": 853.546875,
+            "width": 310,
+            "height": 39.59375,
+            "top": 853.546875,
+            "right": 350,
+            "bottom": 893.140625,
+            "left": 40
+          },
+          "color": "rgb(155, 153, 143)",
+          "font": "11px"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "เริ่มค้นหากีตาร์",
+          "rect": {
+            "x": 20,
+            "y": -85.421875,
+            "width": 210,
+            "height": 57,
+            "top": -85.421875,
+            "right": 230,
+            "bottom": -28.421875,
+            "left": 20
+          }
+        },
+        {
+          "text": "ก่อนหน้า",
+          "rect": {
+            "x": 40,
+            "y": 791.546875,
+            "width": 101.890625,
+            "height": 47,
+            "top": 791.546875,
+            "right": 141.890625,
+            "bottom": 838.546875,
+            "left": 40
+          }
+        },
+        {
+          "text": "ถัดไป",
+          "rect": {
+            "x": 151.890625,
+            "y": 791.546875,
+            "width": 198.109375,
+            "height": 47,
+            "top": 791.546875,
+            "right": 350,
+            "bottom": 838.546875,
+            "left": 151.890625
+          }
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/electric-studio-480.webp",
+          "width": 389,
+          "height": 584,
+          "fit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-electric-160.webp",
+          "width": 88,
+          "height": 176,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/guitars/martin-d-28/responsive/01-front-480.webp",
+          "width": 88,
+          "height": 116,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-classical-200.webp",
+          "width": 88,
+          "height": 143,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-bass-156.webp",
+          "width": 88,
+          "height": 275,
+          "fit": "contain"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#find",
+      "viewport": "mobile"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "rect": {
+        "x": 0,
+        "y": -74.859375,
+        "width": 390,
+        "height": 1710.84375,
+        "top": -74.859375,
+        "right": 390,
+        "bottom": 1635.984375,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "04 / SIDE BY SIDE",
+          "width": 350,
+          "scroll": 350,
+          "rect": {
+            "x": 20,
+            "y": 29.140625,
+            "width": 350,
+            "height": 17.59375,
+            "top": 29.140625,
+            "right": 370,
+            "bottom": 46.734375,
+            "left": 20
+          },
+          "color": "rgb(207, 203, 192)",
+          "font": "11px"
+        },
+        {
+          "text": "มองเห็นความต่างก่อนตัดสินใจ",
+          "width": 340,
+          "scroll": 340,
+          "rect": {
+            "x": 20,
+            "y": 69.734375,
+            "width": 340,
+            "height": 96.0625,
+            "top": 69.734375,
+            "right": 360,
+            "bottom": 165.796875,
+            "left": 20
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "34.32px"
+        },
+        {
+          "text": "เลือก 2–4 รุ่น แล้ววางรายละเอียดข้างกัน ค่อย ๆ ดูว่าอะไรสำคัญกับการเล่นของคุณ",
+          "width": 275,
+          "scroll": 275,
+          "rect": {
+            "x": 20,
+            "y": 189.796875,
+            "width": 275,
+            "height": 54.59375,
+            "top": 189.796875,
+            "right": 295,
+            "bottom": 244.390625,
+            "left": 20
+          },
+          "color": "rgb(208, 205, 195)",
+          "font": "14px"
+        },
+        {
+          "text": "นี่คือตัวอย่างการเปรียบเทียบ กดปุ่ม + บนการ์ดกีตาร์เพื่อเลือกรุ่นของคุณเอง",
+          "width": 350,
+          "scroll": 350,
+          "rect": {
+            "x": 20,
+            "y": 348.390625,
+            "width": 350,
+            "height": 44.375,
+            "top": 348.390625,
+            "right": 370,
+            "bottom": 392.765625,
+            "left": 20
+          },
+          "color": "rgb(184, 179, 165)",
+          "font": "12px"
+        },
+        {
+          "text": "ตัวอย่างการเปรียบเทียบ",
+          "width": 115,
+          "scroll": 115,
+          "rect": {
+            "x": 34,
+            "y": 623.140625,
+            "width": 114.5,
+            "height": 20.390625,
+            "top": 623.140625,
+            "right": 148.5,
+            "bottom": 643.53125,
+            "left": 34
+          },
+          "color": "rgb(194, 188, 174)",
+          "font": "12px"
+        },
+        {
+          "text": "FG820-12",
+          "width": 109,
+          "scroll": 109,
+          "rect": {
+            "x": 106,
+            "y": 874.640625,
+            "width": 109,
+            "height": 44,
+            "top": 874.640625,
+            "right": 215,
+            "bottom": 918.640625,
+            "left": 106
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "13px"
+        },
+        {
+          "text": "D-28",
+          "width": 109,
+          "scroll": 109,
+          "rect": {
+            "x": 239,
+            "y": 874.640625,
+            "width": 109,
+            "height": 44,
+            "top": 874.640625,
+            "right": 348,
+            "bottom": 918.640625,
+            "left": 239
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "13px"
+        },
+        {
+          "text": "แสดงเฉพาะข้อมูลที่มีแหล่งอ้างอิง ข้อมูลที่ยังขาดจะแสดงว่าไม่ระบุ",
+          "width": 322,
+          "scroll": 322,
+          "rect": {
+            "x": 34,
+            "y": 1414.390625,
+            "width": 322,
+            "height": 35.59375,
+            "top": 1414.390625,
+            "right": 356,
+            "bottom": 1449.984375,
+            "left": 34
+          },
+          "color": "rgb(169, 163, 149)",
+          "font": "12px"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "แสดงเฉพาะส่วนที่ต่างกัน",
+          "rect": {
+            "x": 185.578125,
+            "y": 623.140625,
+            "width": 170.421875,
+            "height": 44,
+            "top": 623.140625,
+            "right": 356,
+            "bottom": 667.140625,
+            "left": 185.578125
+          }
+        },
+        {
+          "text": "ดูตารางเปรียบเทียบทั้งหมด",
+          "rect": {
+            "x": 34,
+            "y": 1463.984375,
+            "width": 322,
+            "height": 47,
+            "top": 1463.984375,
+            "right": 356,
+            "bottom": 1510.984375,
+            "left": 34
+          }
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/discovery/quiz-studio-480.webp",
+          "width": 389,
+          "height": 259,
+          "fit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/guitars/yamaha-fg820-12/responsive/01-front-480.webp",
+          "width": 156,
+          "height": 208,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/guitars/martin-d-28/responsive/01-front-480.webp",
+          "width": 156,
+          "height": 207,
+          "fit": "contain"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#compare",
+      "viewport": "mobile"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 718.59375,
+        "top": 0,
+        "right": 320,
+        "bottom": 718.59375,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "THE ART OF FINDING YOUR SOUND",
+          "width": 280,
+          "scroll": 280,
+          "rect": {
+            "x": 20,
+            "y": 99,
+            "width": 280,
+            "height": 17,
+            "top": 99,
+            "right": 300,
+            "bottom": 116,
+            "left": 20
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "10px"
+        },
+        {
+          "text": "ค้นพบเสียงที่เป็นคุณ",
+          "width": 280,
+          "scroll": 280,
+          "rect": {
+            "x": 20,
+            "y": 140,
+            "width": 280,
+            "height": 113.59375,
+            "top": 140,
+            "right": 300,
+            "bottom": 253.59375,
+            "left": 20
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "40px"
+        },
+        {
+          "text": "สำรวจกีตาร์ 200 รุ่น จาก 10 แบรนด์\nเปรียบเทียบ แล้วค้นหารุ่นที่เข้ากับคุณ",
+          "width": 280,
+          "scroll": 280,
+          "rect": {
+            "x": 20,
+            "y": 279.59375,
+            "width": 280,
+            "height": 57,
+            "top": 279.59375,
+            "right": 300,
+            "bottom": 336.59375,
+            "left": 20
+          },
+          "color": "rgb(179, 179, 170)",
+          "font": "15px"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "ค้นหา",
+          "rect": {
+            "x": 226.46875,
+            "y": 506.59375,
+            "width": 64.53125,
+            "height": 44,
+            "top": 506.59375,
+            "right": 291,
+            "bottom": 550.59375,
+            "left": 226.46875
+          }
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/discovery/quiz-studio-480.webp",
+          "width": 320,
+          "height": 213,
+          "fit": "cover"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#top",
+      "viewport": "narrow"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "rect": {
+        "x": 0,
+        "y": 278.765625,
+        "width": 320,
+        "height": 262.5,
+        "top": 278.765625,
+        "right": 320,
+        "bottom": 541.265625,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "EXPLORE BY BRAND",
+          "width": 180,
+          "scroll": 180,
+          "rect": {
+            "x": 20,
+            "y": 310.765625,
+            "width": 180.140625,
+            "height": 17,
+            "top": 310.765625,
+            "right": 200.140625,
+            "bottom": 327.765625,
+            "left": 20
+          },
+          "color": "rgb(224, 197, 140)",
+          "font": "10px"
+        },
+        {
+          "text": "แบรนด์ในแคตตาล็อก",
+          "width": 180,
+          "scroll": 180,
+          "rect": {
+            "x": 20,
+            "y": 337.765625,
+            "width": 180.140625,
+            "height": 31.5,
+            "top": 337.765625,
+            "right": 200.140625,
+            "bottom": 369.265625,
+            "left": 20
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "21px"
+        }
+      ],
+      "buttons": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/yamaha.svg",
+          "width": 1066,
+          "height": 232,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/fender.svg",
+          "width": 1024,
+          "height": 388,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/gibson.svg",
+          "width": 300,
+          "height": 190,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/taylor.svg",
+          "width": 244,
+          "height": 189,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/ibanez.svg",
+          "width": 698,
+          "height": 171,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/prs.svg",
+          "width": 300,
+          "height": 122,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/epiphone.svg",
+          "width": 300,
+          "height": 100,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/martin.svg",
+          "width": 300,
+          "height": 109,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-brands/logos/squier.png",
+          "width": 1222,
+          "height": 552,
+          "fit": "contain"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#brands",
+      "viewport": "narrow"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "rect": {
+        "x": 0,
+        "y": 151.8125,
+        "width": 320,
+        "height": 516,
+        "top": 151.8125,
+        "right": 320,
+        "bottom": 667.8125,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "กีตาร์ไฟฟ้า90 รุ่น",
+          "width": 104,
+          "scroll": 104,
+          "rect": {
+            "x": 35,
+            "y": 338.828125,
+            "width": 104,
+            "height": 46.984375,
+            "top": 338.828125,
+            "right": 139,
+            "bottom": 385.8125,
+            "left": 35
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "16px"
+        },
+        {
+          "text": "กีตาร์ไฟฟ้า",
+          "width": 79,
+          "scroll": 79,
+          "rect": {
+            "x": 35,
+            "y": 338.828125,
+            "width": 79,
+            "height": 23.390625,
+            "top": 338.828125,
+            "right": 114,
+            "bottom": 362.21875,
+            "left": 35
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "13px"
+        },
+        {
+          "text": "90 รุ่น",
+          "width": 79,
+          "scroll": 79,
+          "rect": {
+            "x": 35,
+            "y": 364.21875,
+            "width": 79,
+            "height": 21.59375,
+            "top": 364.21875,
+            "right": 114,
+            "bottom": 385.8125,
+            "left": 35
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์โปร่ง73 รุ่น",
+          "width": 104,
+          "scroll": 104,
+          "rect": {
+            "x": 181,
+            "y": 338.828125,
+            "width": 104,
+            "height": 46.984375,
+            "top": 338.828125,
+            "right": 285,
+            "bottom": 385.8125,
+            "left": 181
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "16px"
+        },
+        {
+          "text": "กีตาร์โปร่ง",
+          "width": 79,
+          "scroll": 79,
+          "rect": {
+            "x": 181,
+            "y": 338.828125,
+            "width": 79,
+            "height": 23.390625,
+            "top": 338.828125,
+            "right": 260,
+            "bottom": 362.21875,
+            "left": 181
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "13px"
+        },
+        {
+          "text": "73 รุ่น",
+          "width": 79,
+          "scroll": 79,
+          "rect": {
+            "x": 181,
+            "y": 364.21875,
+            "width": 79,
+            "height": 21.59375,
+            "top": 364.21875,
+            "right": 260,
+            "bottom": 385.8125,
+            "left": 181
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์คลาสสิก20 รุ่น",
+          "width": 104,
+          "scroll": 104,
+          "rect": {
+            "x": 35,
+            "y": 575.828125,
+            "width": 104,
+            "height": 46.984375,
+            "top": 575.828125,
+            "right": 139,
+            "bottom": 622.8125,
+            "left": 35
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "16px"
+        },
+        {
+          "text": "กีตาร์คลาสสิก",
+          "width": 79,
+          "scroll": 79,
+          "rect": {
+            "x": 35,
+            "y": 575.828125,
+            "width": 79,
+            "height": 23.390625,
+            "top": 575.828125,
+            "right": 114,
+            "bottom": 599.21875,
+            "left": 35
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "13px"
+        },
+        {
+          "text": "20 รุ่น",
+          "width": 79,
+          "scroll": 79,
+          "rect": {
+            "x": 35,
+            "y": 601.21875,
+            "width": 79,
+            "height": 21.59375,
+            "top": 601.21875,
+            "right": 114,
+            "bottom": 622.8125,
+            "left": 35
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "12px"
+        },
+        {
+          "text": "เบส17 รุ่น",
+          "width": 104,
+          "scroll": 104,
+          "rect": {
+            "x": 181,
+            "y": 575.828125,
+            "width": 104,
+            "height": 46.984375,
+            "top": 575.828125,
+            "right": 285,
+            "bottom": 622.8125,
+            "left": 181
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "16px"
+        },
+        {
+          "text": "เบส",
+          "width": 79,
+          "scroll": 79,
+          "rect": {
+            "x": 181,
+            "y": 575.828125,
+            "width": 79,
+            "height": 23.390625,
+            "top": 575.828125,
+            "right": 260,
+            "bottom": 599.21875,
+            "left": 181
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "13px"
+        },
+        {
+          "text": "17 รุ่น",
+          "width": 79,
+          "scroll": 79,
+          "rect": {
+            "x": 181,
+            "y": 601.21875,
+            "width": 79,
+            "height": 21.59375,
+            "top": 601.21875,
+            "right": 260,
+            "bottom": 622.8125,
+            "left": 181
+          },
+          "color": "rgb(150, 150, 142)",
+          "font": "12px"
+        }
+      ],
+      "buttons": [],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-electric-160.webp",
+          "width": 129,
+          "height": 260,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/guitars/martin-d-28/responsive/01-front-480.webp",
+          "width": 130,
+          "height": 172,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-classical-200.webp",
+          "width": 130,
+          "height": 212,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-bass-156.webp",
+          "width": 130,
+          "height": 406,
+          "fit": "contain"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#categories",
+      "viewport": "narrow"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "rect": {
+        "x": 0,
+        "y": -391.1875,
+        "width": 320,
+        "height": 1416.03125,
+        "top": -391.1875,
+        "right": 320,
+        "bottom": 1024.84375,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "03 / FIND MY GUITAR",
+          "width": 188,
+          "scroll": 188,
+          "rect": {
+            "x": 20,
+            "y": -306.1875,
+            "width": 187.6875,
+            "height": 18.6875,
+            "top": -306.1875,
+            "right": 207.6875,
+            "bottom": -287.5,
+            "left": 20
+          },
+          "color": "rgb(199, 191, 174)",
+          "font": "11px"
+        },
+        {
+          "text": "กีตาร์ที่ใช่เริ่มจากตัวคุณ",
+          "width": 174,
+          "scroll": 174,
+          "rect": {
+            "x": 20,
+            "y": -263.5,
+            "width": 174.0625,
+            "height": 89.59375,
+            "top": -263.5,
+            "right": 194.0625,
+            "bottom": -173.90625,
+            "left": 20
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "32px"
+        },
+        {
+          "text": "5 คำถามเกี่ยวกับวิธีเล่นและสิ่งที่คุณชอบ เพื่อค้นหากีตาร์ที่เข้ากับสไตล์ของคุณ",
+          "width": 280,
+          "scroll": 280,
+          "rect": {
+            "x": 20,
+            "y": -155.90625,
+            "width": 280,
+            "height": 54.59375,
+            "top": -155.90625,
+            "right": 300,
+            "bottom": -101.3125,
+            "left": 20
+          },
+          "color": "rgb(208, 204, 193)",
+          "font": "14px"
+        },
+        {
+          "text": "คุณอยากเล่นกีตาร์ประเภทไหน?",
+          "width": 248,
+          "scroll": 248,
+          "rect": {
+            "x": 36,
+            "y": 241.46875,
+            "width": 248,
+            "height": 67.1875,
+            "top": 241.46875,
+            "right": 284,
+            "bottom": 308.65625,
+            "left": 36
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "21px"
+        },
+        {
+          "text": "เลือกประเภทที่สนใจ หรือให้เราช่วยสำรวจทุกประเภท",
+          "width": 248,
+          "scroll": 248,
+          "rect": {
+            "x": 36,
+            "y": 313.65625,
+            "width": 248,
+            "height": 21.59375,
+            "top": 313.65625,
+            "right": 284,
+            "bottom": 335.25,
+            "left": 36
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์ไฟฟ้า",
+          "width": 130,
+          "scroll": 130,
+          "rect": {
+            "x": 107,
+            "y": 369.15625,
+            "width": 130,
+            "height": 22.390625,
+            "top": 369.15625,
+            "right": 237,
+            "bottom": 391.546875,
+            "left": 107
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "14px"
+        },
+        {
+          "text": "เสียงผ่านแอมป์ ตั้งแต่คลีนไปจนถึงดิสทอร์ชัน",
+          "width": 130,
+          "scroll": 130,
+          "rect": {
+            "x": 107,
+            "y": 394.546875,
+            "width": 130,
+            "height": 40.78125,
+            "top": 394.546875,
+            "right": 237,
+            "bottom": 435.328125,
+            "left": 107
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์โปร่ง",
+          "width": 130,
+          "scroll": 130,
+          "rect": {
+            "x": 107,
+            "y": 469.15625,
+            "width": 130,
+            "height": 22.390625,
+            "top": 469.15625,
+            "right": 237,
+            "bottom": 491.546875,
+            "left": 107
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "14px"
+        },
+        {
+          "text": "เสียงอะคูสติกจากตัวกีตาร์โดยตรง",
+          "width": 130,
+          "scroll": 130,
+          "rect": {
+            "x": 107,
+            "y": 494.546875,
+            "width": 130,
+            "height": 40.78125,
+            "top": 494.546875,
+            "right": 237,
+            "bottom": 535.328125,
+            "left": 107
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์คลาสสิก",
+          "width": 130,
+          "scroll": 130,
+          "rect": {
+            "x": 107,
+            "y": 569.15625,
+            "width": 130,
+            "height": 22.390625,
+            "top": 569.15625,
+            "right": 237,
+            "bottom": 591.546875,
+            "left": 107
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "14px"
+        },
+        {
+          "text": "สายไนลอนสำหรับแนวคลาสสิกและการเล่นเดี่ยว",
+          "width": 130,
+          "scroll": 130,
+          "rect": {
+            "x": 107,
+            "y": 594.546875,
+            "width": 130,
+            "height": 40.78125,
+            "top": 594.546875,
+            "right": 237,
+            "bottom": 635.328125,
+            "left": 107
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "กีตาร์เบส",
+          "width": 130,
+          "scroll": 130,
+          "rect": {
+            "x": 107,
+            "y": 669.15625,
+            "width": 130,
+            "height": 22.390625,
+            "top": 669.15625,
+            "right": 237,
+            "bottom": 691.546875,
+            "left": 107
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "14px"
+        },
+        {
+          "text": "ย่านเสียงต่ำและจังหวะที่เชื่อมวงเข้าด้วยกัน",
+          "width": 130,
+          "scroll": 130,
+          "rect": {
+            "x": 107,
+            "y": 694.546875,
+            "width": 130,
+            "height": 40.78125,
+            "top": 694.546875,
+            "right": 237,
+            "bottom": 735.328125,
+            "left": 107
+          },
+          "color": "rgb(170, 169, 159)",
+          "font": "12px"
+        },
+        {
+          "text": "ยังไม่แน่ใจ",
+          "width": 190,
+          "scroll": 190,
+          "rect": {
+            "x": 46,
+            "y": 774.65625,
+            "width": 190,
+            "height": 19.1875,
+            "top": 774.65625,
+            "right": 236,
+            "bottom": 793.84375,
+            "left": 46
+          },
+          "color": "rgb(238, 234, 222)",
+          "font": "12px"
+        },
+        {
+          "text": "คำแนะนำเบื้องต้นจากคำตอบของคุณ ข้อมูลที่ยังไม่ยืนยันจะแจ้งในผลลัพธ์",
+          "width": 248,
+          "scroll": 248,
+          "rect": {
+            "x": 36,
+            "y": 894.25,
+            "width": 248,
+            "height": 39.59375,
+            "top": 894.25,
+            "right": 284,
+            "bottom": 933.84375,
+            "left": 36
+          },
+          "color": "rgb(155, 153, 143)",
+          "font": "11px"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "เริ่มค้นหากีตาร์",
+          "rect": {
+            "x": 20,
+            "y": -78.3125,
+            "width": 210,
+            "height": 57,
+            "top": -78.3125,
+            "right": 230,
+            "bottom": -21.3125,
+            "left": 20
+          }
+        },
+        {
+          "text": "ก่อนหน้า",
+          "rect": {
+            "x": 36,
+            "y": 832.25,
+            "width": 101.890625,
+            "height": 47,
+            "top": 832.25,
+            "right": 137.890625,
+            "bottom": 879.25,
+            "left": 36
+          }
+        },
+        {
+          "text": "ถัดไป",
+          "rect": {
+            "x": 147.890625,
+            "y": 832.25,
+            "width": 136.109375,
+            "height": 47,
+            "top": 832.25,
+            "right": 284,
+            "bottom": 879.25,
+            "left": 147.890625
+          }
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/electric-studio-480.webp",
+          "width": 320,
+          "height": 480,
+          "fit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-electric-160.webp",
+          "width": 88,
+          "height": 176,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/guitars/martin-d-28/responsive/01-front-480.webp",
+          "width": 88,
+          "height": 116,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-classical-200.webp",
+          "width": 88,
+          "height": 143,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/home-discovery/category-bass-156.webp",
+          "width": 88,
+          "height": 275,
+          "fit": "contain"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#find",
+      "viewport": "narrow"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "rect": {
+        "x": 0,
+        "y": -462.15625,
+        "width": 320,
+        "height": 1765.40625,
+        "top": -462.15625,
+        "right": 320,
+        "bottom": 1303.25,
+        "left": 0
+      },
+      "texts": [
+        {
+          "text": "04 / SIDE BY SIDE",
+          "width": 280,
+          "scroll": 280,
+          "rect": {
+            "x": 20,
+            "y": -358.15625,
+            "width": 280,
+            "height": 17.59375,
+            "top": -358.15625,
+            "right": 300,
+            "bottom": -340.5625,
+            "left": 20
+          },
+          "color": "rgb(207, 203, 192)",
+          "font": "11px"
+        },
+        {
+          "text": "มองเห็นความต่างก่อนตัดสินใจ",
+          "width": 280,
+          "scroll": 280,
+          "rect": {
+            "x": 20,
+            "y": -317.5625,
+            "width": 280,
+            "height": 82.84375,
+            "top": -317.5625,
+            "right": 300,
+            "bottom": -234.71875,
+            "left": 20
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "29.6px"
+        },
+        {
+          "text": "เลือก 2–4 รุ่น แล้ววางรายละเอียดข้างกัน ค่อย ๆ ดูว่าอะไรสำคัญกับการเล่นของคุณ",
+          "width": 275,
+          "scroll": 275,
+          "rect": {
+            "x": 20,
+            "y": -210.71875,
+            "width": 275,
+            "height": 54.59375,
+            "top": -210.71875,
+            "right": 295,
+            "bottom": -156.125,
+            "left": 20
+          },
+          "color": "rgb(208, 205, 195)",
+          "font": "14px"
+        },
+        {
+          "text": "นี่คือตัวอย่างการเปรียบเทียบ กดปุ่ม + บนการ์ดกีตาร์เพื่อเลือกรุ่นของคุณเอง",
+          "width": 280,
+          "scroll": 280,
+          "rect": {
+            "x": 20,
+            "y": -52.125,
+            "width": 280,
+            "height": 44.375,
+            "top": -52.125,
+            "right": 300,
+            "bottom": -7.75,
+            "left": 20
+          },
+          "color": "rgb(184, 179, 165)",
+          "font": "12px"
+        },
+        {
+          "text": "ตัวอย่างการเปรียบเทียบ",
+          "width": 115,
+          "scroll": 115,
+          "rect": {
+            "x": 34,
+            "y": 240.421875,
+            "width": 114.5,
+            "height": 20.390625,
+            "top": 240.421875,
+            "right": 148.5,
+            "bottom": 260.8125,
+            "left": 34
+          },
+          "color": "rgb(194, 188, 174)",
+          "font": "12px"
+        },
+        {
+          "text": "FG820-12",
+          "width": 109,
+          "scroll": 109,
+          "rect": {
+            "x": 36,
+            "y": 520.3125,
+            "width": 109,
+            "height": 44,
+            "top": 520.3125,
+            "right": 145,
+            "bottom": 564.3125,
+            "left": 36
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "13px"
+        },
+        {
+          "text": "D-28",
+          "width": 109,
+          "scroll": 109,
+          "rect": {
+            "x": 169,
+            "y": 520.3125,
+            "width": 109,
+            "height": 44,
+            "top": 520.3125,
+            "right": 278,
+            "bottom": 564.3125,
+            "left": 169
+          },
+          "color": "rgb(245, 245, 242)",
+          "font": "13px"
+        },
+        {
+          "text": "แสดงเฉพาะข้อมูลที่มีแหล่งอ้างอิง ข้อมูลที่ยังขาดจะแสดงว่าไม่ระบุ",
+          "width": 252,
+          "scroll": 252,
+          "rect": {
+            "x": 34,
+            "y": 1060.0625,
+            "width": 252,
+            "height": 57.1875,
+            "top": 1060.0625,
+            "right": 286,
+            "bottom": 1117.25,
+            "left": 34
+          },
+          "color": "rgb(169, 163, 149)",
+          "font": "12px"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "แสดงเฉพาะส่วนที่ต่างกัน",
+          "rect": {
+            "x": 34,
+            "y": 268.8125,
+            "width": 170.421875,
+            "height": 44,
+            "top": 268.8125,
+            "right": 204.421875,
+            "bottom": 312.8125,
+            "left": 34
+          }
+        },
+        {
+          "text": "ดูตารางเปรียบเทียบทั้งหมด",
+          "rect": {
+            "x": 34,
+            "y": 1131.25,
+            "width": 252,
+            "height": 47,
+            "top": 1131.25,
+            "right": 286,
+            "bottom": 1178.25,
+            "left": 34
+          }
+        }
+      ],
+      "images": [
+        {
+          "src": "http://127.0.0.1:5454/src/assets/discovery/quiz-studio-480.webp",
+          "width": 320,
+          "height": 213,
+          "fit": "cover"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/guitars/yamaha-fg820-12/responsive/01-front-480.webp",
+          "width": 128,
+          "height": 170,
+          "fit": "contain"
+        },
+        {
+          "src": "http://127.0.0.1:5454/src/assets/guitars/martin-d-28/responsive/01-front-480.webp",
+          "width": 128,
+          "height": 170,
+          "fit": "contain"
+        }
+      ],
+      "textOverflow": [],
+      "viewportTextOverflow": [],
+      "smallButtons": [],
+      "region": "#compare",
+      "viewport": "narrow"
+    }
+  ],
+  "errors": [],
+  "physicalIPadSafariTested": false,
+  "mode": "Chromium development-source independent read-only review",
+  "passed": true
+}

@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "autoSpeedPxPerSecond": 30.585523431283757,
+      "noControlButtons": true,
+      "tenAccessibleBrands": true
+    },
+    {
+      "mouseDragPixels": 180,
+      "autoResumedPixels": 21,
+      "dragDidNotNavigate": true
+    },
+    {
+      "wrapsObserved": 1,
+      "maxVisualFrameDelta": 1,
+      "groupWidth": 1840
+    },
+    {
+      "keyboardFocusStopsMovementAndNavigatesBrand": true
+    },
+    {
+      "reducedMotionNoAutoMovement": true,
+      "uniqueVisibleRow": true,
+      "manualScrollAvailable": true
+    }
+  ],
+  "errors": [],
+  "note": "Focused development-source probe, not physical iPad Safari certification.",
+  "passed": true
+}

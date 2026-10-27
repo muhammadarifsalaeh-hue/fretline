@@ -1,0 +1,8 @@
+PASS chromium-desktop-carousel-motion-input-loop
+PASS chromium-tablet-carousel-motion-input-loop
+PASS chromium-mobile-carousel-motion-input-loop
+Skipping host requirements validation logic because `PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS` env variable is set.
+PASS webkit-desktop-carousel-motion-input-loop
+PASS webkit-tablet-carousel-motion-input-loop
+PASS webkit-mobile-carousel-motion-input-loop
+RESULT True 6 6

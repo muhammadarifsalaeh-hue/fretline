@@ -1,0 +1,18 @@
+{
+  "phase": "First full source-frozen production run before WebKit fix",
+  "observedPasses": 29,
+  "observedScenarios": 32,
+  "failedCases": [
+    "webkit-desktop-carousel-motion-input-loop",
+    "webkit-tablet-carousel-motion-input-loop",
+    "webkit-mobile-carousel-motion-input-loop"
+  ],
+  "reportedBrowserErrors": 0,
+  "filesSHA256": {
+    "browser-results.json": "e27c4454f8219932f132ebcc5e3af77347b6307ce6a6b35672ddeb1dd5ca38a8",
+    "webkit-tablet-carousel-motion-input-loop-FAIL.png": "f300b6582f91fda7eaca8fefd65ea3219756780bc8038d5ddf5fad7b014f434a",
+    "webkit-mobile-carousel-motion-input-loop-FAIL.png": "eef386179e39ca2b8cb93c8b021ace1e79d5090bb6ca4f2f1362825da5bed732",
+    "webkit-desktop-carousel-motion-input-loop-FAIL.png": "e62df97828cee7be6c61af68472d8ce93524daa898a2f4bbbbeef06694ac3182",
+    "run.txt": "9fd863d21a44bf08d1d3d7eb7396e857640a24ce6fa932de1e2e37a14f3a04d7"
+  }
+}

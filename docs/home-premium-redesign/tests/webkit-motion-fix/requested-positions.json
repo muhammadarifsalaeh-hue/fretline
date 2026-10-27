@@ -1,0 +1,135 @@
+{
+  "writes": [
+    {
+      "now": 762,
+      "target": 1840,
+      "native": 0,
+      "mode": null
+    },
+    {
+      "now": 879,
+      "target": 1840,
+      "native": 1840,
+      "mode": "auto"
+    },
+    {
+      "now": 997,
+      "target": 1843.51,
+      "native": 1840,
+      "mode": "auto"
+    },
+    {
+      "now": 998,
+      "target": 1843.51,
+      "native": 1843,
+      "mode": "auto"
+    },
+    {
+      "now": 2010,
+      "target": 1873.81,
+      "native": 1843,
+      "mode": "auto"
+    },
+    {
+      "now": 2510,
+      "target": 1888.9299999999998,
+      "native": 1873,
+      "mode": "auto"
+    },
+    {
+      "now": 2891,
+      "target": 1900.33,
+      "native": 1888,
+      "mode": "auto"
+    },
+    {
+      "now": 2917,
+      "target": 1901.11,
+      "native": 1900,
+      "mode": "auto"
+    },
+    {
+      "now": 3021,
+      "target": 1904.26,
+      "native": 1901,
+      "mode": "auto"
+    },
+    {
+      "now": 3199,
+      "target": 1909.57,
+      "native": 1904,
+      "mode": "auto"
+    },
+    {
+      "now": 3497,
+      "target": 1918.51,
+      "native": 1909,
+      "mode": "auto"
+    },
+    {
+      "now": 3630,
+      "target": 1922.53,
+      "native": 1918,
+      "mode": "auto"
+    },
+    {
+      "now": 3671,
+      "target": 1923.76,
+      "native": 1922,
+      "mode": "auto"
+    },
+    {
+      "now": 3690,
+      "target": 1924.3,
+      "native": 1923,
+      "mode": "auto"
+    }
+  ],
+  "raf": [
+    {
+      "t": 996,
+      "now": 997
+    },
+    {
+      "t": 2006,
+      "now": 2010
+    },
+    {
+      "t": 2510,
+      "now": 2510
+    },
+    {
+      "t": 2890,
+      "now": 2891
+    },
+    {
+      "t": 2916,
+      "now": 2917
+    },
+    {
+      "t": 3021,
+      "now": 3021
+    },
+    {
+      "t": 3198,
+      "now": 3199
+    },
+    {
+      "t": 3496,
+      "now": 3497
+    },
+    {
+      "t": 3630,
+      "now": 3630
+    },
+    {
+      "t": 3671,
+      "now": 3671
+    },
+    {
+      "t": 3689,
+      "now": 3690
+    }
+  ],
+  "now": 3706
+}

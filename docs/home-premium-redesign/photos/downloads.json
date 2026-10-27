@@ -1,0 +1,57 @@
+[
+  {
+    "key": "electric",
+    "file": "electric.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Fender_strat.jpg",
+    "httpStatus": 200,
+    "bytes": 78735,
+    "sha256": "40348bfa9ed2839a7e2444069b8d27e712546ba966a30548560a9559c5df14be",
+    "width": 572,
+    "height": 1148,
+    "acquiredAt": "2026-10-27T01:50:16.584258+00:00"
+  },
+  {
+    "key": "electric-candidate",
+    "file": "electric-candidate.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Fender_MiM_Stratocaster.jpg",
+    "httpStatus": 200,
+    "bytes": 3909363,
+    "sha256": "181885280870b4cfe0cf6ec9adbe65509d45998516c8c9e70e407f774922b050",
+    "width": 3168,
+    "height": 4752,
+    "acquiredAt": "2026-10-27T01:50:17.211344+00:00"
+  },
+  {
+    "key": "classical",
+    "file": "classical.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Classical_Guitar.jpg",
+    "httpStatus": 200,
+    "bytes": 435396,
+    "sha256": "2e36525f8e9102637adc37c9447dbc6a8f7c355d6af8c22a5e666bf8dbcee879",
+    "width": 573,
+    "height": 1448,
+    "acquiredAt": "2026-10-27T01:50:20.554134+00:00"
+  },
+  {
+    "key": "bass",
+    "file": "bass.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Fender_Jazz_Bass_Standard.jpeg",
+    "httpStatus": 200,
+    "bytes": 74099,
+    "sha256": "ee854915d4ba5c62e393fb2a26d7a265ab24dc693469b0181cd127f2b0d66a4c",
+    "width": 575,
+    "height": 1024,
+    "acquiredAt": "2026-10-27T01:50:20.634721+00:00"
+  },
+  {
+    "key": "acoustic",
+    "file": "acoustic.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Acoustic_guitar.jpg",
+    "httpStatus": 200,
+    "bytes": 360258,
+    "sha256": "b5c53090eb163f73919022f3a6543348ae2dba97e6adbcf61bcc9c79e6c4bab3",
+    "width": 1600,
+    "height": 1200,
+    "acquiredAt": "2026-10-27T01:50:20.990294+00:00"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "viewport": "desktop",
+    "before": {
+      "t": 2343,
+      "now": 2348,
+      "x": 1878,
+      "mode": "auto"
+    },
+    "after": {
+      "t": 3314,
+      "now": 3316,
+      "x": 1907,
+      "mode": "auto"
+    },
+    "actualAnimationSpanMs": 971,
+    "delta": 29,
+    "rate": 29.866117404737384
+  },
+  {
+    "viewport": "tablet",
+    "before": {
+      "t": 2193,
+      "now": 2198,
+      "x": 1875,
+      "mode": "auto"
+    },
+    "after": {
+      "t": 3015,
+      "now": 3016,
+      "x": 1900,
+      "mode": "auto"
+    },
+    "actualAnimationSpanMs": 822,
+    "delta": 25,
+    "rate": 30.413625304136254
+  },
+  {
+    "viewport": "mobile",
+    "before": {
+      "t": 2208,
+      "now": 2212,
+      "x": 1557,
+      "mode": "auto"
+    },
+    "after": {
+      "t": 3039,
+      "now": 3040,
+      "x": 1582,
+      "mode": "auto"
+    },
+    "actualAnimationSpanMs": 831,
+    "delta": 25,
+    "rate": 30.084235860409144
+  }
+]

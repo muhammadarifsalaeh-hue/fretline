@@ -1,0 +1,25 @@
+{
+  "reason": "After final Home32/32 acceptance, remove stale failure PNGs from final/ only; every original failure and raw run report remains in its clearly named initial evidence folder. No successful final screenshots were removed.",
+  "removedStaleFinalFailureImages": [
+    {
+      "file": "final/chromium-desktop-carousel-motion-input-loop-FAIL.png",
+      "sha256": "6f0c511fe515ce68324fb5de7fb6736b1c1ce11ed6914d4dbfe71e16edef0614",
+      "retainedAt": "initial-passive-wheel-sampling/chromium-desktop-carousel-motion-input-loop-FAIL.png"
+    },
+    {
+      "file": "final/webkit-tablet-carousel-motion-input-loop-FAIL.png",
+      "sha256": "06b7b2e331a51b1f85def8351fcac9067b6d6bcdee22181b3ab9f201eed2aa52",
+      "retainedAt": "initial-webkit-wheel/webkit-tablet-carousel-motion-input-loop-FAIL.png"
+    },
+    {
+      "file": "final/webkit-mobile-carousel-motion-input-loop-FAIL.png",
+      "sha256": "7ea3cd70688d81fca4762938d59c421ead0a24d220b18a79e416d5460786f321",
+      "retainedAt": "initial-webkit-wheel/webkit-mobile-carousel-motion-input-loop-FAIL.png"
+    },
+    {
+      "file": "final/webkit-desktop-carousel-motion-input-loop-FAIL.png",
+      "sha256": "caf25f3ab98619c89a06724c0ea5fefeebb89431dab71be0e2dc4335585fc14d",
+      "retainedAt": "initial-webkit-wheel/webkit-desktop-carousel-motion-input-loop-FAIL.png"
+    }
+  ]
+}

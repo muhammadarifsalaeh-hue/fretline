@@ -10,6 +10,7 @@ import DiscoveryHeading from '@/components/ui/DiscoveryHeading';
 import GuitarImage from '@/components/guitar/GuitarImage';
 import ImageAttribution from '@/components/detail/ImageAttribution';
 import DiscoveryPhotographyCredits from '@/components/detail/DiscoveryPhotographyCredits';
+import HomePhotographyCredits from '@/components/detail/HomePhotographyCredits';
 
 const photos = Object.entries(IMAGE_RIGHTS).flatMap(([id, entries]) => entries.filter((entry) => hasImageRights(entry, id)).map((rights) => ({ guitar: GUITARS_BY_ID[id], rights }))).filter((item) => item.guitar);
 const artworks = Object.keys(PROJECT_ARTWORK).map((id) => GUITARS_BY_ID[id]).filter(Boolean);
@@ -44,6 +45,7 @@ export default function ImageCreditsPage() {
         </div>)}
       </section>}
       <DiscoveryPhotographyCredits />
+      <HomePhotographyCredits />
       <p className="phase5-note mt-6">{t('p6.images.assetOnly')} {t('p6.images.fallback')}</p>
     </section>
   </div>;

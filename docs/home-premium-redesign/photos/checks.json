@@ -1,0 +1,166 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "Four acquired real photographic sources",
+      "passed": true
+    },
+    {
+      "name": "quizBackdrop retained source hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "quizBackdrop license source and attribution present",
+      "passed": true
+    },
+    {
+      "name": "quizBackdrop is never named-model evidence",
+      "passed": true
+    },
+    {
+      "name": "electric-studio-480.webp decoded WebP hash dimensions size",
+      "passed": true
+    },
+    {
+      "name": "electric-studio-480.webp preserves proportions without upscaling",
+      "passed": true
+    },
+    {
+      "name": "electric-studio-800.webp decoded WebP hash dimensions size",
+      "passed": true
+    },
+    {
+      "name": "electric-studio-800.webp preserves proportions without upscaling",
+      "passed": true
+    },
+    {
+      "name": "electric-studio-1200.webp decoded WebP hash dimensions size",
+      "passed": true
+    },
+    {
+      "name": "electric-studio-1200.webp preserves proportions without upscaling",
+      "passed": true
+    },
+    {
+      "name": "electric retained source hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "electric license source and attribution present",
+      "passed": true
+    },
+    {
+      "name": "electric is never named-model evidence",
+      "passed": true
+    },
+    {
+      "name": "category-electric-160.webp decoded WebP hash dimensions size",
+      "passed": true
+    },
+    {
+      "name": "category-electric-160.webp preserves proportions without upscaling",
+      "passed": true
+    },
+    {
+      "name": "category-electric-320.webp decoded WebP hash dimensions size",
+      "passed": true
+    },
+    {
+      "name": "category-electric-320.webp preserves proportions without upscaling",
+      "passed": true
+    },
+    {
+      "name": "classical retained source hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "classical license source and attribution present",
+      "passed": true
+    },
+    {
+      "name": "classical is never named-model evidence",
+      "passed": true
+    },
+    {
+      "name": "category-classical-200.webp decoded WebP hash dimensions size",
+      "passed": true
+    },
+    {
+      "name": "category-classical-200.webp preserves proportions without upscaling",
+      "passed": true
+    },
+    {
+      "name": "category-classical-200.webp preserves publisher transparency",
+      "passed": true
+    },
+    {
+      "name": "category-classical-400.webp decoded WebP hash dimensions size",
+      "passed": true
+    },
+    {
+      "name": "category-classical-400.webp preserves proportions without upscaling",
+      "passed": true
+    },
+    {
+      "name": "category-classical-400.webp preserves publisher transparency",
+      "passed": true
+    },
+    {
+      "name": "bass retained source hash and dimensions",
+      "passed": true
+    },
+    {
+      "name": "bass license source and attribution present",
+      "passed": true
+    },
+    {
+      "name": "bass is never named-model evidence",
+      "passed": true
+    },
+    {
+      "name": "category-bass-156.webp decoded WebP hash dimensions size",
+      "passed": true
+    },
+    {
+      "name": "category-bass-156.webp preserves proportions without upscaling",
+      "passed": true
+    },
+    {
+      "name": "category-bass-156.webp preserves publisher transparency",
+      "passed": true
+    },
+    {
+      "name": "category-bass-313.webp decoded WebP hash dimensions size",
+      "passed": true
+    },
+    {
+      "name": "category-bass-313.webp preserves proportions without upscaling",
+      "passed": true
+    },
+    {
+      "name": "category-bass-313.webp preserves publisher transparency",
+      "passed": true
+    },
+    {
+      "name": "Nine actual runtime derivatives",
+      "passed": true
+    },
+    {
+      "name": "No untracked runtime file lacks provenance",
+      "passed": true
+    },
+    {
+      "name": "All new variants combined below 400 KiB",
+      "passed": true
+    },
+    {
+      "name": "New module uses local assets and keeps generic category boundary",
+      "passed": true
+    }
+  ],
+  "count": 39,
+  "newRuntimeBytes": 373690,
+  "manualLicenseReview": "Source/license pages actually read on 2026-10-27; see README and license-observations.json.",
+  "modelDataModified": false,
+  "physicalIPadSafariTested": false
+}

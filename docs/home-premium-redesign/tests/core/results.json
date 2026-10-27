@@ -1,0 +1,61 @@
+[
+  {
+    "name": "catalog",
+    "command": [
+      "npm",
+      "run",
+      "catalog:check"
+    ],
+    "startedAtUTC": "2026-10-27T02:05:09.509732+00:00",
+    "exitCode": 0,
+    "passed": true,
+    "phase": "final-source-frozen-after-build"
+  },
+  {
+    "name": "images",
+    "command": [
+      "npm",
+      "run",
+      "images:check"
+    ],
+    "startedAtUTC": "2026-10-27T02:05:09.510049+00:00",
+    "exitCode": 0,
+    "passed": true,
+    "phase": "final-source-frozen-after-build"
+  },
+  {
+    "name": "practice",
+    "command": [
+      "npm",
+      "run",
+      "practice:check"
+    ],
+    "startedAtUTC": "2026-10-27T02:05:09.510606+00:00",
+    "exitCode": 0,
+    "passed": true,
+    "phase": "final-source-frozen-after-build"
+  },
+  {
+    "name": "phase4",
+    "command": [
+      "npm",
+      "run",
+      "phase4:check"
+    ],
+    "startedAtUTC": "2026-10-27T02:05:09.510790+00:00",
+    "exitCode": 0,
+    "passed": true,
+    "phase": "final-source-frozen-after-build"
+  },
+  {
+    "name": "yamaha",
+    "command": [
+      "node",
+      "scripts/check-yamaha-import.mjs"
+    ],
+    "startedAtUTC": "2026-10-27T02:05:09.513957+00:00",
+    "exitCode": 0,
+    "passed": true,
+    "phase": "final-source-frozen-after-build"
+  }
+]

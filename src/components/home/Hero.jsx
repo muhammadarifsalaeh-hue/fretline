@@ -1,34 +1,30 @@
-import { HERO } from '@/data/hero';
 import { BRANDS } from '@/data/brands';
 import { GUITARS } from '@/data/guitars';
+import { HOME_DISCOVERY_ASSETS } from '@/data/homeDiscoveryAssets';
 import AppLink from '@/components/ui/AppLink';
 import Button from '@/components/ui/Button';
 import { ArrowRightIcon } from '@/components/ui/Icons';
-import { t } from '@/i18n';
+import { LANG, t } from '@/i18n';
 import SmartImage from '@/components/ui/SmartImage';
 import SearchBar from '@/components/search/SearchBar';
-import HeroArt from './HeroArt';
-import HeroHotspot from './HeroHotspot';
 import HeroStats from './HeroStats';
 
 export default function Hero() {
+  const photo = HOME_DISCOVERY_ASSETS.heroBackdrop;
   return (
     <>
       <section id="top" className="home-hero signature-hero relative isolate z-10 bg-ink">
         <div className="hero-visual signature-hero-visual">
-          {HERO.image ? (
-            <>
-              <SmartImage
-                src={HERO.image}
-                srcSet="/images/hero/acoustic-studio-mobile.webp 900w, /images/hero/acoustic-studio.webp 1536w"
-                sizes="100vw"
-                alt={HERO.imageAlt}
-                priority
-                className="absolute inset-0"
-              />
-              {HERO.showHotspots && HERO.hotspots.map((spot) => <HeroHotspot key={spot.id} {...spot} />)}
-            </>
-          ) : <HeroArt />}
+          <SmartImage
+            src={photo.src}
+            srcSet={photo.srcSet}
+            sizes="100vw"
+            alt={photo.alt}
+            width={photo.width}
+            height={photo.height}
+            priority
+            className="absolute inset-0"
+          />
           <div aria-hidden="true" className="signature-hero-shade" />
         </div>
 
@@ -55,7 +51,7 @@ export default function Hero() {
             <div className="signature-hero-search"><SearchBar /></div>
           </div>
         </div>
-        <p className="hero-art-note signature-hero-caption">{t('hero.artNote')}</p>
+        <AppLink href="/image-credits#home-photography" className="hero-art-note signature-hero-caption">{LANG === 'en' ? 'Editorial photography · Credits' : 'ภาพประกอบบรรยากาศ · เครดิตภาพ'}</AppLink>
       </section>
       <HeroStats />
     </>

@@ -1,0 +1,34 @@
+PASS chromium-desktop-composition
+PASS chromium-desktop-inline-quiz
+PASS chromium-desktop-comparison
+PASS chromium-desktop-reduced-and-keyboard
+PASS chromium-desktop-brand-routes-and-responsive
+PASS chromium-desktop-carousel-motion-input-loop
+PASS chromium-tablet-composition
+PASS chromium-tablet-inline-quiz
+PASS chromium-tablet-comparison
+PASS chromium-tablet-reduced-and-keyboard
+PASS chromium-tablet-carousel-motion-input-loop
+PASS chromium-mobile-composition
+PASS chromium-mobile-inline-quiz
+PASS chromium-mobile-comparison
+PASS chromium-mobile-reduced-and-keyboard
+PASS chromium-mobile-carousel-motion-input-loop
+Skipping host requirements validation logic because `PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS` env variable is set.
+PASS webkit-desktop-composition
+PASS webkit-desktop-inline-quiz
+PASS webkit-desktop-comparison
+PASS webkit-desktop-reduced-and-keyboard
+PASS webkit-desktop-brand-routes-and-responsive
+PASS webkit-desktop-carousel-motion-input-loop
+PASS webkit-tablet-composition
+PASS webkit-tablet-inline-quiz
+PASS webkit-tablet-comparison
+PASS webkit-tablet-reduced-and-keyboard
+PASS webkit-tablet-carousel-motion-input-loop
+PASS webkit-mobile-composition
+PASS webkit-mobile-inline-quiz
+PASS webkit-mobile-comparison
+PASS webkit-mobile-reduced-and-keyboard
+PASS webkit-mobile-carousel-motion-input-loop
+RESULT True 32 32

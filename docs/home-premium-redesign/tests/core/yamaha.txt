@@ -1,0 +1,12 @@
+PASS exactly 18 accessible archives/models and 20 source images; no invented nineteenth file
+PASS catalog remains 200 unique stable IDs, 10 brands, 20 per brand
+PASS every imported record meets the original catalog validator and retains honest partial status
+PASS all 18 exact model columns match all 30 retained Yamaha specification fields
+PASS model distinctions stay correct: FG/FS scales, 12 strings, left-handed model and Matt finish
+PASS 17 observed retailer prices are THB, date/source backed; FG800J stays unconfirmed
+PASS additional source URLs are unique without losing their supported-field lists
+PASS retained original HTTP evidence hashes match the bodies used for price/specification review
+PASS every original non-image attachment remains available byte-for-byte as unverified provenance
+PASS new verified specification keys have shared Detail/Compare definitions and both translations
+PASS production build contains no newly supplied image bytes or development preview asset routes
+11 Yamaha import evidence/isolation checks passed.

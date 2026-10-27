@@ -1,0 +1,45 @@
+PASS chromium-desktop-composition
+PASS chromium-desktop-inline-quiz
+PASS chromium-desktop-comparison
+PASS chromium-desktop-reduced-and-keyboard
+PASS chromium-desktop-brand-routes-and-responsive
+FAIL chromium-desktop-carousel-motion-input-loop Traceback (most recent call last):
+  File "/workspace/fretline/docs/home-premium-redesign/tests/browser.py", line 25, in check
+    try:r=fn();report['checks'].append({'case':name,'passed':True,'evidence':r});print('PASS',name,flush=True)
+          ^^^^
+  File "/workspace/fretline/docs/home-premium-redesign/tests/browser.py", line 180, in <lambda>
+    elif 'carousel' in args.cases:check(f'{engine}-{viewport}-carousel-motion-input-loop',lambda:carousel(page,context,engine,viewport),page)
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/fretline/docs/home-premium-redesign/tests/browser.py", line 148, in carousel
+    wheel_evidence=page.evaluate('__homeWheelProbe');assert wheel_evidence['outcome']=='native-movement-passed',wheel_evidence
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'event': {'time': 4284.80000000447, 'left': 2222, 'deltaX': 180, 'deltaY': 0, 'trusted': True}, 'samples': [{'time': 4286.60000000149, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4302.5, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4317.10000000149, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4334, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4350.60000000149, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4367, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4383.9000000059605, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4400.70000000298, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4417.30000000447, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4434, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4450.80000000447, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4467.9000000059605, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4483.9000000059605, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4500.4000000059605, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4517.10000000149, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4534, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4550.80000000447, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4567.30000000447, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4583.80000000447, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4600.5, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4617.10000000149, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4633.70000000298, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4650.80000000447, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4667.4000000059605, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4683.70000000298, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4700.4000000059605, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4717.10000000149, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4733.80000000447, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4750.80000000447, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4767.20000000298, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4783.80000000447, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4800.60000000149, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4817.10000000149, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4833.80000000447, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4850.4000000059605, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4867.30000000447, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4883.80000000447, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4900.5, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4917.10000000149, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4933.60000000149, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4950.30000000447, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4967, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 4983.70000000298, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 5000.4000000059605, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 5017, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 5033.70000000298, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 5050.4000000059605, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 5067, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 5083.70000000298, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 5100.4000000059605, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 5117, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 5133.60000000149, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 5150.5, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 5167.10000000149, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 5183.60000000149, 'left': 2222, 'delta': 0, 'mode': 'manual'}, {'time': 5200.4000000059605, 'left': 2222, 'delta': 0, 'mode': 'auto'}], 'seenManual': True, 'outcome': 'autoplay-resumed-before-native-movement'}
+
+PASS chromium-tablet-composition
+PASS chromium-tablet-inline-quiz
+PASS chromium-tablet-comparison
+PASS chromium-tablet-reduced-and-keyboard
+PASS chromium-tablet-carousel-motion-input-loop
+PASS chromium-mobile-composition
+PASS chromium-mobile-inline-quiz
+PASS chromium-mobile-comparison
+PASS chromium-mobile-reduced-and-keyboard
+PASS chromium-mobile-carousel-motion-input-loop
+Skipping host requirements validation logic because `PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS` env variable is set.
+PASS webkit-desktop-composition
+PASS webkit-desktop-inline-quiz
+PASS webkit-desktop-comparison
+PASS webkit-desktop-reduced-and-keyboard
+PASS webkit-desktop-brand-routes-and-responsive
+PASS webkit-desktop-carousel-motion-input-loop
+PASS webkit-tablet-composition
+PASS webkit-tablet-inline-quiz
+PASS webkit-tablet-comparison
+PASS webkit-tablet-reduced-and-keyboard
+PASS webkit-tablet-carousel-motion-input-loop
+PASS webkit-mobile-composition
+PASS webkit-mobile-inline-quiz
+PASS webkit-mobile-comparison
+PASS webkit-mobile-reduced-and-keyboard
+PASS webkit-mobile-carousel-motion-input-loop
+RESULT False 31 32

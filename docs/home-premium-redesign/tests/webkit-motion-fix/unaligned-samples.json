@@ -1,0 +1,53 @@
+[
+  {
+    "viewport": "desktop",
+    "before": {
+      "t": 2146,
+      "x": 1842,
+      "mode": "auto"
+    },
+    "after": {
+      "t": 2960,
+      "x": 1888,
+      "mode": "auto"
+    },
+    "hostSpanMs": 815.8565199992154,
+    "browserSpanMs": 814,
+    "delta": 46,
+    "rate": 56.51105651105651
+  },
+  {
+    "viewport": "tablet",
+    "before": {
+      "t": 1844,
+      "x": 1843,
+      "mode": "auto"
+    },
+    "after": {
+      "t": 2655,
+      "x": 1891,
+      "mode": "auto"
+    },
+    "hostSpanMs": 812.4014689965406,
+    "browserSpanMs": 811,
+    "delta": 48,
+    "rate": 59.1861898890259
+  },
+  {
+    "viewport": "mobile",
+    "before": {
+      "t": 1909,
+      "x": 1523,
+      "mode": "auto"
+    },
+    "after": {
+      "t": 2721,
+      "x": 1571,
+      "mode": "auto"
+    },
+    "hostSpanMs": 813.3212369939429,
+    "browserSpanMs": 812,
+    "delta": 48,
+    "rate": 59.11330049261084
+  }
+]

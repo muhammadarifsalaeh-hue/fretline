@@ -1,0 +1,48 @@
+{
+  "checkedOn": "2026-10-27",
+  "method": "Source pages and their licensing sections actually read using the available web-reading tool. Downloads then inspected as real photographic files. This records observations, not a grant invented by the application.",
+  "sources": [
+    {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fender_MiM_Stratocaster.jpg",
+      "license": "CC BY 2.0",
+      "author": "Yutaka Tsutano",
+      "observation": "The source page identifies a real Fender Mexico Stratocaster photograph and carries a CC attribution2.0 license; the Flickr license was reviewed at Commons upload."
+    },
+    {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fender_strat.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Joachim Hensel-Losch; Tkgd2007 and Hohum derivatives",
+      "observation": "The source page permits CCshare-alike3.0 under its multiple-license choice and identifies the photographer and retouched history."
+    },
+    {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GuitareClassique5.png",
+      "license": "CC BY-SA 2.0 DE",
+      "author": "Martin Möller; derivative by Mouh2jijel",
+      "observation": "The source page identifies the derivative from a real classical-guitar photograph and assigns CCshare-alike2.0Germany. Source file RGBA transparency was inspected."
+    },
+    {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:70%27s_Fender_Jazz_Bass.png",
+      "license": "Public-domain dedication",
+      "author": "Patrick Scales; derivative by Djhé",
+      "observation": "The source page dedicates the derivative and underlying photo to the public domain, identifies a 1970s Jazz Bass photograph and records a prior publisher color/PNG alteration."
+    }
+  ],
+  "cordobaLogo": {
+    "sourceUrl": "https://yamahaguitargroup.com/trademark-guidelines/",
+    "pageUpdatedOn": "2025-09-09",
+    "pressPage": "https://cordobaguitars.com/press/",
+    "availableAsPermittedStandaloneLogo": false,
+    "observation": "The guidelines distinguish textual product references from designed logos; designed-mark use requires a suitable agreement, and promotional use is restricted. No suitable agreement or unrestricted logo grant was available. Existing honest typography remains; no official mark is fabricated."
+  },
+  "reusedSources": {
+    "room": {
+      "sourceUrl": "https://unsplash.com/photos/several-guitars-beside-of-side-table-MEL-jJnm7RQ",
+      "reviewReport": "docs/premium-quiz-compare/photos/license-evidence.json"
+    },
+    "acoustic": {
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Martin_D-28.jpg",
+      "reviewReport": "src/data/catalog/imageRights.json"
+    }
+  },
+  "catalogDataModified": false
+}
