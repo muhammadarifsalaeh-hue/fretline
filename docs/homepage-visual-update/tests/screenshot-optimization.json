@@ -1,0 +1,2282 @@
+{
+  "format": "lossless WebP",
+  "pixelValidation": "Every distinct original PNG SHA-256 group compared using ImageMagick AE and required exactly zero changed pixels.",
+  "screenshotCount": 223,
+  "distinctPNGGroups": 144,
+  "originalPNGBytes": 199028075,
+  "losslessWebPBytes": 136280736,
+  "records": [
+    {
+      "originalPNG": "after/chromium-desktop-categories.png",
+      "originalPNGBytes": 997124,
+      "originalPNGSHA256": "35273f9c7d9971f817a09645daf9b7ce24131237014e77c0895f06409c000c49",
+      "losslessWebP": "after/chromium-desktop-categories.webp",
+      "losslessWebPBytes": 756626,
+      "losslessWebPSHA256": "6458926b9085efee1c4c0de6c68874f5566501495610be2af38012ab5f212740",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-desktop-compare-card.png",
+      "originalPNGBytes": 224223,
+      "originalPNGSHA256": "3f87f094c1df4f5ffc62d1479d91e54bb2ba93f60929a2bbd1732a5c88ed06de",
+      "losslessWebP": "after/chromium-desktop-compare-card.webp",
+      "losslessWebPBytes": 156830,
+      "losslessWebPSHA256": "144bab9e33cec6b1c11f1b2a29a8be8b954ba84f828afd1678d1c810967ce97c",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-desktop-features.png",
+      "originalPNGBytes": 967646,
+      "originalPNGSHA256": "1c7011e50d5a70fec247169b46f266150e2ca4ae65cb6c75119bae93a29854d5",
+      "losslessWebP": "after/chromium-desktop-features.webp",
+      "losslessWebPBytes": 697094,
+      "losslessWebPSHA256": "cc915ba72ab9dbb4c29d712d5e919abed59af0152bb6768d864ab84a054ee70f",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-desktop-find-card.png",
+      "originalPNGBytes": 174462,
+      "originalPNGSHA256": "fc0e54e97c282d83dd58cac1192c84aa8dc6b2af94a4a2f37703ec18a56de7dc",
+      "losslessWebP": "after/chromium-desktop-find-card.webp",
+      "losslessWebPBytes": 121102,
+      "losslessWebPSHA256": "c065f7d44ff28a203705fc42cd7155de18972d17f6dc5eef487f19e8b5f90301",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-desktop-home-practice-card.png",
+      "originalPNGBytes": 546048,
+      "originalPNGSHA256": "912f0df104a10f8f698084647bef39384d84f4eb5a90f47f716c091a29da5202",
+      "losslessWebP": "after/chromium-desktop-home-practice-card.webp",
+      "losslessWebPBytes": 389184,
+      "losslessWebPSHA256": "432fc0424980975cd0aede7cb7227c238a2f6457f345fe68029c54b206b93c22",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-desktop-home.png",
+      "originalPNGBytes": 2911740,
+      "originalPNGSHA256": "2683db72ae7e92a0f8f6d5dbca4535108be4473b30512de3f3cffb788b174cb2",
+      "losslessWebP": "after/chromium-desktop-home.webp",
+      "losslessWebPBytes": 2094756,
+      "losslessWebPSHA256": "e662ec9ab5bf2471ba77db0dc0a4667d606c7eb41f4835e5968ac385dd4e7333",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-landscape-categories.png",
+      "originalPNGBytes": 869137,
+      "originalPNGSHA256": "934b98b1a6dd6735a945bb90f5dbdd6199de2e877f326c2cf55ec7faf646fcde",
+      "losslessWebP": "after/chromium-landscape-categories.webp",
+      "losslessWebPBytes": 668308,
+      "losslessWebPSHA256": "e90ad9b6f4e21af4f866ff616bbf958735c57a555cbd1c27117d5a72a9186878",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-landscape-compare-card.png",
+      "originalPNGBytes": 205791,
+      "originalPNGSHA256": "b20c04de772d5ed356af54fe80610f1daaa9a280e03db03b0a6584bab63aa74b",
+      "losslessWebP": "after/chromium-landscape-compare-card.webp",
+      "losslessWebPBytes": 143856,
+      "losslessWebPSHA256": "fae3b4debbbc033c66839aced30af316e59b04d611fe2ec99b39e46351c7040e",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-landscape-features.png",
+      "originalPNGBytes": 888841,
+      "originalPNGSHA256": "8c65852dc008fcbdf44855d07a7db9b8599fbc78682aa812b96fecf69d9bfdff",
+      "losslessWebP": "after/chromium-landscape-features.webp",
+      "losslessWebPBytes": 622698,
+      "losslessWebPSHA256": "fb9cc2410c164eca4a1e5deb2a620d3f44be7f7b6f98fe43a8badfa776b426b3",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-landscape-find-card.png",
+      "originalPNGBytes": 161986,
+      "originalPNGSHA256": "115c4b494aee927ccf7173814d5c1ce8b0261f20323a118e749d788aa5ba75f6",
+      "losslessWebP": "after/chromium-landscape-find-card.webp",
+      "losslessWebPBytes": 111942,
+      "losslessWebPSHA256": "5c870cf5c12299f2bb2ae30c3786091832ec769ce514e4296fbcebf2f3c74acb",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-landscape-home-practice-card.png",
+      "originalPNGBytes": 500032,
+      "originalPNGSHA256": "7108518dec87517e87b85079fe269e950c9843612384c3d5dd63b6d125f5d617",
+      "losslessWebP": "after/chromium-landscape-home-practice-card.webp",
+      "losslessWebPBytes": 356282,
+      "losslessWebPSHA256": "009a83b1f558a8343633ad26dc6b6bc58690baf69480e729f1ca0c989d335cd7",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-landscape-home.png",
+      "originalPNGBytes": 2717923,
+      "originalPNGSHA256": "b6a6a367447b71c3782dae57877a7a22f98022733c83d99aca4987da51c57ebb",
+      "losslessWebP": "after/chromium-landscape-home.webp",
+      "losslessWebPBytes": 1969932,
+      "losslessWebPSHA256": "0549aa121fec30b79904d9c53dc6449037de0978f9ed37d1c506b3250908d4ae",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-mobile-categories.png",
+      "originalPNGBytes": 414579,
+      "originalPNGSHA256": "b1685912b9cfcacfe94035b66fed1f1d784dbe2fa42fbd9e0da80782cd5446e7",
+      "losslessWebP": "after/chromium-mobile-categories.webp",
+      "losslessWebPBytes": 301740,
+      "losslessWebPSHA256": "d646e97308b14218d1ef2efaff348d373a8d4430642501f61c7e977e51af946d",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-mobile-compare-card.png",
+      "originalPNGBytes": 141275,
+      "originalPNGSHA256": "e6566d80163ce665c9e134c2a1ec05ee8786bf0b9a3314d0d86665b5314258b5",
+      "losslessWebP": "after/chromium-mobile-compare-card.webp",
+      "losslessWebPBytes": 98860,
+      "losslessWebPSHA256": "d07f4b9050b01da8840ab2245d4d6ff9f60335c6e5bf37833ff46000e7909d15",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-mobile-features.png",
+      "originalPNGBytes": 512283,
+      "originalPNGSHA256": "db683c16791354432b25ba9f3769033bbacf5f9f4d508e01eed950b0a6603aa2",
+      "losslessWebP": "after/chromium-mobile-features.webp",
+      "losslessWebPBytes": 357720,
+      "losslessWebPSHA256": "72b7394fabe523daa60c1e4cc6e9aea6ecd5f112444493293df55bf14f92ed09",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-mobile-find-card.png",
+      "originalPNGBytes": 116803,
+      "originalPNGSHA256": "da18ac0215cf9833b83287c607adbfda5b47ec16b84fd78ead27b803dea28b93",
+      "losslessWebP": "after/chromium-mobile-find-card.webp",
+      "losslessWebPBytes": 80930,
+      "losslessWebPSHA256": "c14cbf71a85c4eb287761e2cec171bed0d351c7ed2fb1815dad46ee04b49b08e",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-mobile-home-practice-card.png",
+      "originalPNGBytes": 294494,
+      "originalPNGSHA256": "86de6880a75eb1a133d32e3870fa8e646ce40c275bdf16b4ba3ec849b1e0b784",
+      "losslessWebP": "after/chromium-mobile-home-practice-card.webp",
+      "losslessWebPBytes": 209570,
+      "losslessWebPSHA256": "0336ccef995262df010e62ed433663a302131b70112deb0fc433307ea5b33a42",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-mobile-home.png",
+      "originalPNGBytes": 1349659,
+      "originalPNGSHA256": "d9adc4c5cf3f9b96b38c755942bec17ecf76a450359fde4323f570d26635c4d4",
+      "losslessWebP": "after/chromium-mobile-home.webp",
+      "losslessWebPBytes": 965084,
+      "losslessWebPSHA256": "69b3b496ebe36920cbe16689197469ca11399e7e2ebc24baff1d88dc4a3766be",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-narrow-categories.png",
+      "originalPNGBytes": 322129,
+      "originalPNGSHA256": "ea0618557b85b6d6b71972a1b3c6b941bef550ba32292e7f709eda182cc64794",
+      "losslessWebP": "after/chromium-narrow-categories.webp",
+      "losslessWebPBytes": 234300,
+      "losslessWebPSHA256": "531be5d43d340d23eaf4193585d5d7806b16815a2b2dd8c14ed35bd6a2e98997",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-narrow-compare-card.png",
+      "originalPNGBytes": 112261,
+      "originalPNGSHA256": "b9f13f30fe0c3844fbe0edca5d0da4e2de56d9742179f3cb62b190a0db097b8a",
+      "losslessWebP": "after/chromium-narrow-compare-card.webp",
+      "losslessWebPBytes": 79308,
+      "losslessWebPSHA256": "4e9610ec2b5190d6a821cfe46d5d76b6ed2092ce839ff9c3e4b9f1d700803e82",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-narrow-features.png",
+      "originalPNGBytes": 423128,
+      "originalPNGSHA256": "bbfd7b73f749c13ccee10bf10a6a89041fa845d98a6f95b504b03df5250ceee7",
+      "losslessWebP": "after/chromium-narrow-features.webp",
+      "losslessWebPBytes": 297736,
+      "losslessWebPSHA256": "39137dcef471f0de4fc6d550d966cff2ca10f1c2a7bbdde01709bdacf12799e6",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-narrow-find-card.png",
+      "originalPNGBytes": 92567,
+      "originalPNGSHA256": "7dba8703d8ccbfc638aabe81290d536e7ba9bb9f049574681c75e4b54d56458f",
+      "losslessWebP": "after/chromium-narrow-find-card.webp",
+      "losslessWebPBytes": 64740,
+      "losslessWebPSHA256": "0c3e6609995c84c995ad763d62906fa4f93ea47c8d27c36d90c17de60a3d2e7e",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-narrow-home-practice-card.png",
+      "originalPNGBytes": 230398,
+      "originalPNGSHA256": "956f2a66c916114e1996524b6e71cded98219a435feb62be58b95fe9a09df54c",
+      "losslessWebP": "after/chromium-narrow-home-practice-card.webp",
+      "losslessWebPBytes": 164584,
+      "losslessWebPSHA256": "02a00392c892724b41394bb4557c1df545b4a7d1c945df93fdb691959a91f49d",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-narrow-home.png",
+      "originalPNGBytes": 1108485,
+      "originalPNGSHA256": "21485c0725a8d76db397c80ff0c602565c9bb6d35db591a6528285fe3228e306",
+      "losslessWebP": "after/chromium-narrow-home.webp",
+      "losslessWebPBytes": 793824,
+      "losslessWebPSHA256": "4a9af6fcfb34658df12c49ded3b5bb0c10623c5ea7b988880fe6a4e2990dfe19",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-portrait-categories.png",
+      "originalPNGBytes": 475174,
+      "originalPNGSHA256": "e445a3a887e9181f3dd0f49934d1d2acccf43a01506a67fda4fd70e7e252a26a",
+      "losslessWebP": "after/chromium-portrait-categories.webp",
+      "losslessWebPBytes": 345472,
+      "losslessWebPSHA256": "c18222b77d6bf04bf9f1191ad350eb3e32def7e79dd5381c19271dd7b852f91f",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-portrait-compare-card.png",
+      "originalPNGBytes": 266658,
+      "originalPNGSHA256": "6c7a5f42465d16b693757eb4fe35df4d181368fb6e5991e93aa78c1302e9e559",
+      "losslessWebP": "after/chromium-portrait-compare-card.webp",
+      "losslessWebPBytes": 184722,
+      "losslessWebPSHA256": "87bb51cb2fa601160df14af1f94df68ee260264cb25b6b1d81e5b09359f55feb",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-portrait-edge-categories.png",
+      "originalPNGBytes": 720097,
+      "originalPNGSHA256": "836aeb0dff64a43dc241765b452c6f6da335b178970327a6b2d7ccc2f901ac73",
+      "losslessWebP": "after/chromium-portrait-edge-categories.webp",
+      "losslessWebPBytes": 541004,
+      "losslessWebPSHA256": "baf1472635c8f0aa63954c952aab71991a22fe22bb28d515f81bd69eaab5d626",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-portrait-edge-compare-card.png",
+      "originalPNGBytes": 320764,
+      "originalPNGSHA256": "463698182ece689cb5c877726c035ca6ddc4c9029b61923a7f7dbb06eb518f5b",
+      "losslessWebP": "after/chromium-portrait-edge-compare-card.webp",
+      "losslessWebPBytes": 223270,
+      "losslessWebPSHA256": "913e413875526f0cc74e1c58dcd0bce6c7a34836bc5c914e223c3401fef9bfd6",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-portrait-edge-features.png",
+      "originalPNGBytes": 1335956,
+      "originalPNGSHA256": "9494b4bb2acd89627db8a7bde3e920561039906480075084df29cbb075ac7551",
+      "losslessWebP": "after/chromium-portrait-edge-features.webp",
+      "losslessWebPBytes": 978090,
+      "losslessWebPSHA256": "6ce398a86789e69baf1b68f2bae71085b2e91769cc9145aefbc69c07dd6064ca",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-portrait-edge-find-card.png",
+      "originalPNGBytes": 248126,
+      "originalPNGSHA256": "d1cf1051f44aa58308e784dfe0d0dd3ca0ebfc85097f58431036f8246643893f",
+      "losslessWebP": "after/chromium-portrait-edge-find-card.webp",
+      "losslessWebPBytes": 173272,
+      "losslessWebPSHA256": "f264b3679cf7ef32bf25909e31b273be6f1d36209b4034960f89fcee1af9aa73",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-portrait-edge-home-practice-card.png",
+      "originalPNGBytes": 754632,
+      "originalPNGSHA256": "2d415a722ea81b6931422ae23ffdaa688684a669af3329b26e591afe4cd20d11",
+      "losslessWebP": "after/chromium-portrait-edge-home-practice-card.webp",
+      "losslessWebPBytes": 536136,
+      "losslessWebPSHA256": "80281e483c3688e3bd4be61251bcc7762598a60ddf073ceda186ea24f87f4c9a",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-portrait-edge-home.png",
+      "originalPNGBytes": 2861279,
+      "originalPNGSHA256": "7462f3206e88b54be843f1564111a819726d921d4b29f0daf01057068a67daab",
+      "losslessWebP": "after/chromium-portrait-edge-home.webp",
+      "losslessWebPBytes": 2071172,
+      "losslessWebPSHA256": "68045c25de7e39018dc85c7ee3562090621c044414d82d80033301b538f184d6",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-portrait-features.png",
+      "originalPNGBytes": 945653,
+      "originalPNGSHA256": "7b163d9246e895563cd63f23f592407d32d47ecc640e29557f094b544752d645",
+      "losslessWebP": "after/chromium-portrait-features.webp",
+      "losslessWebPBytes": 662226,
+      "losslessWebPSHA256": "355cc086da2a3d976702840ab9095b2aba8ca87ced9587eda170cb5bd9938af5",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-portrait-find-card.png",
+      "originalPNGBytes": 206102,
+      "originalPNGSHA256": "316cb88f8013089c7be9710e667a1d6b8992ae3e17fd0ad49213c81641a77229",
+      "losslessWebP": "after/chromium-portrait-find-card.webp",
+      "losslessWebPBytes": 143814,
+      "losslessWebPSHA256": "fa874590fe4cf898e748265dbb92d55ff52cd876043011ef57bee04fcc352a1e",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-portrait-home-practice-card.png",
+      "originalPNGBytes": 562059,
+      "originalPNGSHA256": "b0640ef0df65ddcb4b958408dd8cbe45a7e7c01e0c2007521e385c33d246a63f",
+      "losslessWebP": "after/chromium-portrait-home-practice-card.webp",
+      "losslessWebPBytes": 396624,
+      "losslessWebPSHA256": "91b3bce6f153a0c84e0115528097c777f2dde7e428e5b9b9882ecaea9605f6aa",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/chromium-portrait-home.png",
+      "originalPNGBytes": 2100420,
+      "originalPNGSHA256": "dfc8fd0654119326fdeb50bdb3da20e2a67dfa9f25e60fb039394924071c50fa",
+      "losslessWebP": "after/chromium-portrait-home.webp",
+      "losslessWebPBytes": 1491916,
+      "losslessWebPSHA256": "4cc5a86b9eb3c55d09bd7cbd80e363c6f5f975400af3ca64947b676427c82c2c",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-desktop-categories.png",
+      "originalPNGBytes": 1018876,
+      "originalPNGSHA256": "540549275fdee4f30546d91edf382f5ff9456125eda62d1874c0316db05a44ba",
+      "losslessWebP": "after/webkit-desktop-categories.webp",
+      "losslessWebPBytes": 714554,
+      "losslessWebPSHA256": "06a446976cde97dece622d88789182ffd0a4f92eeb310720a081568b7dd1fb6f",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-desktop-compare-card.png",
+      "originalPNGBytes": 239881,
+      "originalPNGSHA256": "cc01bd38dd3e20ab12d2830350e76924c49631f77cdb029bd7db1b6ef7a35e83",
+      "losslessWebP": "after/webkit-desktop-compare-card.webp",
+      "losslessWebPBytes": 151862,
+      "losslessWebPSHA256": "b9af43cfe4667f7e352536761b5e7f8d4d44afd8281a04e9e4f27a9446ed99c2",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-desktop-features.png",
+      "originalPNGBytes": 1010334,
+      "originalPNGSHA256": "5a3b2d03d1712585262ea678c7eaa26024bedb846c6c94926ce865e8fc134855",
+      "losslessWebP": "after/webkit-desktop-features.webp",
+      "losslessWebPBytes": 638570,
+      "losslessWebPSHA256": "606dd6d19dc60242d3f6062eb40fe5c2a9ae865d64a5e592320864d50957c5bd",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-desktop-find-card.png",
+      "originalPNGBytes": 187959,
+      "originalPNGSHA256": "e4fcd0f5f3b78c923dc4603d54ce68a080d51df7d8b2d8a8437056c0be1bfa88",
+      "losslessWebP": "after/webkit-desktop-find-card.webp",
+      "losslessWebPBytes": 114886,
+      "losslessWebPSHA256": "97379c15071943a22d0d4f66ccff2324ea110f3d34b2b4b802a208b572ab340c",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-desktop-home-practice-card.png",
+      "originalPNGBytes": 561487,
+      "originalPNGSHA256": "a757f58b9c47348344d4eae4181fc00ba989943db0cb07dada8db9e04f0f2d03",
+      "losslessWebP": "after/webkit-desktop-home-practice-card.webp",
+      "losslessWebPBytes": 353364,
+      "losslessWebPSHA256": "673defaac42e01443b6b7557f3a6ad7d4ba6aa35d6d2b1c3e11f6f9a40131d06",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-desktop-home.png",
+      "originalPNGBytes": 2880950,
+      "originalPNGSHA256": "bd8491fef44e791ec649c9c8884f7eff00be11c8000c0f4d76a1aa8cd2f0a00e",
+      "losslessWebP": "after/webkit-desktop-home.webp",
+      "losslessWebPBytes": 1888232,
+      "losslessWebPSHA256": "3d532ce98615565acfea3d49533cdd02d2cf9401a9c3a143bbfa613db55393cd",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-landscape-categories.png",
+      "originalPNGBytes": 897031,
+      "originalPNGSHA256": "9595592ab3ec80aaeef79f80546f65c9affbf04b41b5db61aa08b113072dc235",
+      "losslessWebP": "after/webkit-landscape-categories.webp",
+      "losslessWebPBytes": 633790,
+      "losslessWebPSHA256": "fc0a47731d23dbe36cacc80cc9eea5192aa8bb90be4942e476b6e90d41d73b24",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-landscape-compare-card.png",
+      "originalPNGBytes": 227718,
+      "originalPNGSHA256": "7d5acd801a752cfd1604690b3d5ec9e0c89cedbbed6c8650dad1e1195a0ee99e",
+      "losslessWebP": "after/webkit-landscape-compare-card.webp",
+      "losslessWebPBytes": 144316,
+      "losslessWebPSHA256": "f9f95ba5472fb44e24ef3fe672331e3771ad190a48d4aeb719d143ce93a7a2ee",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-landscape-features.png",
+      "originalPNGBytes": 935447,
+      "originalPNGSHA256": "33c8888ad936d2bcf744d620a6cdd7f4395ad5c7882b3dafe83659561443d471",
+      "losslessWebP": "after/webkit-landscape-features.webp",
+      "losslessWebPBytes": 591782,
+      "losslessWebPSHA256": "28139ba24c4e7dacc0d171b269088049e76272bf99092b408d07daaa938e2e6f",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-landscape-find-card.png",
+      "originalPNGBytes": 170212,
+      "originalPNGSHA256": "2a36c8928b19a74ad70ad39cbb1132e1d222e2087806b106aede9e9714eafc01",
+      "losslessWebP": "after/webkit-landscape-find-card.webp",
+      "losslessWebPBytes": 104078,
+      "losslessWebPSHA256": "0effeed1d57c4e20995ce4516de712da350819f178bccc7d9d9ce47bde85ec1a",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-landscape-home-practice-card.png",
+      "originalPNGBytes": 517884,
+      "originalPNGSHA256": "4bb9de97f87290113493b8234c9b167cf0c9303e940f1399f2bc6bd4e6857521",
+      "losslessWebP": "after/webkit-landscape-home-practice-card.webp",
+      "losslessWebPBytes": 325680,
+      "losslessWebPSHA256": "08099af9597eae0a094d4a8776ce4b6f2546dbb0e427d45c709142201c8993c7",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-landscape-home.png",
+      "originalPNGBytes": 2764675,
+      "originalPNGSHA256": "941c83745732b05ac45143bbf69d224bf14cb6c72fb0980f7648d824d71d775d",
+      "losslessWebP": "after/webkit-landscape-home.webp",
+      "losslessWebPBytes": 1810150,
+      "losslessWebPSHA256": "f644b4108078f7bc0b7df71b89846914e81fe5b057afa83401386023c55e6844",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-mobile-categories.png",
+      "originalPNGBytes": 450716,
+      "originalPNGSHA256": "35ed6797ac8be9ae995509676ac5b4fa04b54a64caf3274f59f9ae80709330a7",
+      "losslessWebP": "after/webkit-mobile-categories.webp",
+      "losslessWebPBytes": 298486,
+      "losslessWebPSHA256": "06275a37571b58a815158b1bd9647a41425f3c8f1adadfd894f7c7f81c6b5133",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-mobile-compare-card.png",
+      "originalPNGBytes": 133123,
+      "originalPNGSHA256": "43220a021272617eaf110be0f384ab92ab7ea34b09bcdb9b24d4152d3c0a0aad",
+      "losslessWebP": "after/webkit-mobile-compare-card.webp",
+      "losslessWebPBytes": 81402,
+      "losslessWebPSHA256": "e75a3117a80a95c4366fc988cd4bca309475f4678ea1755486b0bb0320f13186",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-mobile-features.png",
+      "originalPNGBytes": 515301,
+      "originalPNGSHA256": "4a19add8d3fc83819eef91e452178764b77232f5b73b3d41b09be88064bc0811",
+      "losslessWebP": "after/webkit-mobile-features.webp",
+      "losslessWebPBytes": 321590,
+      "losslessWebPSHA256": "2cf96e03476b39b5dedb007aca2726122cd71c038acc56229da2b308b23c3363",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-mobile-find-card.png",
+      "originalPNGBytes": 109173,
+      "originalPNGSHA256": "16e82b8989266d03dc0d3f21f13c9b9440d665667e1ed5aedfb68a871bcfc079",
+      "losslessWebP": "after/webkit-mobile-find-card.webp",
+      "losslessWebPBytes": 67216,
+      "losslessWebPSHA256": "9f73c2d640247e17128df22b58a92f4142751461e3636863b46b39af3fe5d781",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-mobile-home-practice-card.png",
+      "originalPNGBytes": 296319,
+      "originalPNGSHA256": "5b57a6cf707e59bbb92451e37b74990f2952f59147186651683f6bbb7a130477",
+      "losslessWebP": "after/webkit-mobile-home-practice-card.webp",
+      "losslessWebPBytes": 187958,
+      "losslessWebPSHA256": "c2802bd27d3687d9a3382de92977b05f714cf40aa526e18e507acd0e53d12fb0",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-mobile-home.png",
+      "originalPNGBytes": 1363744,
+      "originalPNGSHA256": "fcca9054ff0d035bc2ab95af5dc899fb1a6109f73796a3e01307ecf1fce68f6b",
+      "losslessWebP": "after/webkit-mobile-home.webp",
+      "losslessWebPBytes": 887064,
+      "losslessWebPSHA256": "2d95a2bcc3f7bbf50073848111b3a7ca06b8c69338cc2c4266988058c0dc9f9b",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-narrow-categories.png",
+      "originalPNGBytes": 360065,
+      "originalPNGSHA256": "0f679b9abbea828aff57cdd618b4464e64c3410e601cc864dea4af74bde9b029",
+      "losslessWebP": "after/webkit-narrow-categories.webp",
+      "losslessWebPBytes": 237246,
+      "losslessWebPSHA256": "30be93ad8eccf9a78ec23b808f1ca8f9a8e05aeaad064a8fe4c8bfec4977768d",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-narrow-compare-card.png",
+      "originalPNGBytes": 107398,
+      "originalPNGSHA256": "55526e13aba5112c497f22e7e52facff837be48d8e6d2dab3b3316dc25abed18",
+      "losslessWebP": "after/webkit-narrow-compare-card.webp",
+      "losslessWebPBytes": 65840,
+      "losslessWebPSHA256": "92870d6b291ee00b103c3d751ea12cbbab296a97e4ac6921336c56a118a506f3",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-narrow-features.png",
+      "originalPNGBytes": 426189,
+      "originalPNGSHA256": "083867ae514c34d871bdac3ef81d9630706d908bd224ee43907dc2862851b3f0",
+      "losslessWebP": "after/webkit-narrow-features.webp",
+      "losslessWebPBytes": 266164,
+      "losslessWebPSHA256": "e332d6180b8821754ec9ce68240a14eddaaedf66fbfeec7aa6d5352b51e283b4",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-narrow-find-card.png",
+      "originalPNGBytes": 92799,
+      "originalPNGSHA256": "9ba456a741df2acd0160c75b3fcf181286ad5e6b1ae54f9d7723645901d711c9",
+      "losslessWebP": "after/webkit-narrow-find-card.webp",
+      "losslessWebPBytes": 57688,
+      "losslessWebPSHA256": "473f604ec8b34a0b885e4ab6105d4917164cc1dc086c5942f3980ac3961000ff",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-narrow-home-practice-card.png",
+      "originalPNGBytes": 231739,
+      "originalPNGSHA256": "cf12fd826c65b5fb99624123ffbef1e2cf997e78d234f5f2c147e85bd8c228f8",
+      "losslessWebP": "after/webkit-narrow-home-practice-card.webp",
+      "losslessWebPBytes": 148360,
+      "losslessWebPSHA256": "24f4f1da50b9d944b9911e0636ef59b1f5aa95cc4e68d9db33c0ae640edacc81",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-narrow-home.png",
+      "originalPNGBytes": 1130531,
+      "originalPNGSHA256": "f0337bd2c9f68c976c26f4ff3e63e7e96b1274636bdb01fd7f709d984d70dff9",
+      "losslessWebP": "after/webkit-narrow-home.webp",
+      "losslessWebPBytes": 734554,
+      "losslessWebPSHA256": "90af015b268dae8f28aceb5f99e5d0595e120288f48eac6bea28c5860701fc67",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-portrait-categories.png",
+      "originalPNGBytes": 468731,
+      "originalPNGSHA256": "1d19df8ec9f57bb20dddc861547db3e67c588d6aa461bad1344d2063327a0588",
+      "losslessWebP": "after/webkit-portrait-categories.webp",
+      "losslessWebPBytes": 308042,
+      "losslessWebPSHA256": "93aedb870f1b4016107d16c4f90ffce5b6a1c8a53619c4109f3e3f7ca09fd0a2",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-portrait-compare-card.png",
+      "originalPNGBytes": 262419,
+      "originalPNGSHA256": "ae72745618b3dd692dabb1a8feadc47a120a365ec24ce30b5769650cad7782a3",
+      "losslessWebP": "after/webkit-portrait-compare-card.webp",
+      "losslessWebPBytes": 163802,
+      "losslessWebPSHA256": "02cce7fceef0ee1e8b7fd173a90dda9f2f79be167bc2c18128c0e567570d8306",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-portrait-edge-categories.png",
+      "originalPNGBytes": 747534,
+      "originalPNGSHA256": "f61e0a7e5887266ac36f95d30f605244bc8210c0625f140d91db98ac3df758b9",
+      "losslessWebP": "after/webkit-portrait-edge-categories.webp",
+      "losslessWebPBytes": 521294,
+      "losslessWebPSHA256": "4aa2ee669635e24529319488166bb3271ca07accc43402440907f7f8c5730613",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-portrait-edge-compare-card.png",
+      "originalPNGBytes": 313843,
+      "originalPNGSHA256": "cf9cc194e0af6c09f76a0c939decfa0f2ec48257526640050f2a9f752efa717c",
+      "losslessWebP": "after/webkit-portrait-edge-compare-card.webp",
+      "losslessWebPBytes": 198158,
+      "losslessWebPSHA256": "a6bc613789071c1942ef75487a1f65a55fb82716fcd0b71f37e536fa996617f5",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-portrait-edge-features.png",
+      "originalPNGBytes": 1316736,
+      "originalPNGSHA256": "ffdeada8c1c8fa596a4ea74ddc21892b9716bfed9cb0823e7e2c74ac0c6da892",
+      "losslessWebP": "after/webkit-portrait-edge-features.webp",
+      "losslessWebPBytes": 845796,
+      "losslessWebPSHA256": "1b0ba195075c31a83360b81140e6dab4edbe953d12d34a2c9be5b63a6b412370",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-portrait-edge-find-card.png",
+      "originalPNGBytes": 221007,
+      "originalPNGSHA256": "ef689c4d33fba8cc8df0f54f0d18ff1d08e4a6484e35637e6ddd4438471e73f0",
+      "losslessWebP": "after/webkit-portrait-edge-find-card.webp",
+      "losslessWebPBytes": 133114,
+      "losslessWebPSHA256": "203c517ad1b3cdc7540d95dcd5750b3bf68ca5a9205c9f3a2343a6c6a5831f6f",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-portrait-edge-home-practice-card.png",
+      "originalPNGBytes": 777171,
+      "originalPNGSHA256": "0dc3405a17fac298565879fb1d4d43efea6e446dbf1fa6bf4916bb73baf79281",
+      "losslessWebP": "after/webkit-portrait-edge-home-practice-card.webp",
+      "losslessWebPBytes": 492380,
+      "losslessWebPSHA256": "6b1066d181ea588488c28477c0dee98115623478c538454d0d6bc3168ed1e6bd",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-portrait-edge-home.png",
+      "originalPNGBytes": 2826433,
+      "originalPNGSHA256": "e25ba262d878bc6d7011f79423e3cd4b3f94a2cfbc47b264ba7223c7911ef0d3",
+      "losslessWebP": "after/webkit-portrait-edge-home.webp",
+      "losslessWebPBytes": 1858966,
+      "losslessWebPSHA256": "42487558b8b73659270f9eb641b19da809e7dab413711c1b830140e01ba33f11",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-portrait-features.png",
+      "originalPNGBytes": 978820,
+      "originalPNGSHA256": "ae9e25f0e879db16ce46b4d8dd04ea8d7db7d74c8d5a7951a4f0db1d5bfdde9c",
+      "losslessWebP": "after/webkit-portrait-features.webp",
+      "losslessWebPBytes": 620868,
+      "losslessWebPSHA256": "a1e9d19d4883016438a9ad88e97c18323df6aa688c58aac97b7fe4476aa67f20",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-portrait-find-card.png",
+      "originalPNGBytes": 185284,
+      "originalPNGSHA256": "d082fde3122f01acfca458ba2255b10382a4698a1c9ca89c4e5a7fda59cdd89f",
+      "losslessWebP": "after/webkit-portrait-find-card.webp",
+      "losslessWebPBytes": 112440,
+      "losslessWebPSHA256": "264b91ffc76288b70c41ed43dd05c37267e287ce5ea711d3b43ff18e78ba15c4",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-portrait-home-practice-card.png",
+      "originalPNGBytes": 576254,
+      "originalPNGSHA256": "6174db127c56022563b23f012a2c8847fcabe9d5c07788a94e4b5d222ac1d177",
+      "losslessWebP": "after/webkit-portrait-home-practice-card.webp",
+      "losslessWebPBytes": 359884,
+      "losslessWebPSHA256": "b521b182a67c68e8746c4190456ccaecf3c48464945b3769393b9a47e216ca2e",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "after/webkit-portrait-home.png",
+      "originalPNGBytes": 2150190,
+      "originalPNGSHA256": "050f8c15f70721bef5fa21a1ac661c54c920933098105b1994f0c3c4739f621e",
+      "losslessWebP": "after/webkit-portrait-home.webp",
+      "losslessWebPBytes": 1386100,
+      "losslessWebPSHA256": "a7d11c518867487bab656f3f682d54bba9bab8703a457bfd1a556267d4518dec",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "before/chromium-desktop-categories.png",
+      "originalPNGBytes": 104157,
+      "originalPNGSHA256": "3fb51d5db8a331aa19fda1808a567c79a67ef40a3330412bbdc966196efe6dbc",
+      "losslessWebP": "before/chromium-desktop-categories.webp",
+      "losslessWebPBytes": 77956,
+      "losslessWebPSHA256": "790a684320f0a4bce46aa151d73bc87c9c593d99de6af99be458df080e686e86",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "before/chromium-desktop-features.png",
+      "originalPNGBytes": 822056,
+      "originalPNGSHA256": "ef5893c7ad77580d8a129ddc08f914ba59a2b1001dc3c8fee4f0bd4cf5cff210",
+      "losslessWebP": "before/chromium-desktop-features.webp",
+      "losslessWebPBytes": 560200,
+      "losslessWebPSHA256": "4a2cc14bcc8f7c8f862ec5bdf63febc3efc6d3d9c16a3d5ffbfa9f24340abf81",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "before/chromium-desktop-home.png",
+      "originalPNGBytes": 1849221,
+      "originalPNGSHA256": "2769cca8b168bc1b1289b1e5bc939dbf8e8d48776f191e44efcf1c50effa1546",
+      "losslessWebP": "before/chromium-desktop-home.webp",
+      "losslessWebPBytes": 1271188,
+      "losslessWebPSHA256": "054daca0366d1cecfe97cfc327a1607bdb504b3cbca7aa5d0946903c2a91b536",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "before/chromium-landscape-categories.png",
+      "originalPNGBytes": 92087,
+      "originalPNGSHA256": "746800e6dbe54237906238d676799eb42ceee7c7714e7705cc70d5e72d11309f",
+      "losslessWebP": "before/chromium-landscape-categories.webp",
+      "losslessWebPBytes": 77476,
+      "losslessWebPSHA256": "66f966ee7d49179f959e9df8d098d813e9d6926db408ea21333cb2fc9ec4f531",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "before/chromium-landscape-features.png",
+      "originalPNGBytes": 731313,
+      "originalPNGSHA256": "6007d4073466e1ee759e56fc6370f5cda1f6d7aa75ee14fe6698d8b273199b15",
+      "losslessWebP": "before/chromium-landscape-features.webp",
+      "losslessWebPBytes": 527144,
+      "losslessWebPSHA256": "1fa149f1d2876e007d98937664468b3212efcfe73fd0c682442488960b30baa4",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "before/chromium-landscape-home.png",
+      "originalPNGBytes": 1751871,
+      "originalPNGSHA256": "6c8cabf9f907520031a2b0b1b4ed98064810e06331bb533dc809c06e2d56db20",
+      "losslessWebP": "before/chromium-landscape-home.webp",
+      "losslessWebPBytes": 1213498,
+      "losslessWebPSHA256": "4c829f227bae13338e2c8e64ed00a437a664f8d4bca0527eeeabf9830b8840be",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "before/chromium-mobile-categories.png",
+      "originalPNGBytes": 76834,
+      "originalPNGSHA256": "9bd361f0e5c00a7290628813c2ee24c1d40c7f229fe51da19c6339d02635256c",
+      "losslessWebP": "before/chromium-mobile-categories.webp",
+      "losslessWebPBytes": 55490,
+      "losslessWebPSHA256": "1114649e13ea7e456ec8e32e4893fb27d6b3b0f17b339c75f86a86eb97e4db4d",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "before/chromium-mobile-features.png",
+      "originalPNGBytes": 354082,
+      "originalPNGSHA256": "34e1fc077596f96b632e5dd68086f8351033c0e3b2a9176e3b128874d78f0b08",
+      "losslessWebP": "before/chromium-mobile-features.webp",
+      "losslessWebPBytes": 249768,
+      "losslessWebPSHA256": "3984bbc2cb25d162b2fe5e3a648853afc977d2d0991ca0828140c25ac341a2a3",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "before/chromium-mobile-home.png",
+      "originalPNGBytes": 786001,
+      "originalPNGSHA256": "f8158f1e6361c56d82d60cba534475cc89463bf4cb13c338406c82e9be5bd6a9",
+      "losslessWebP": "before/chromium-mobile-home.webp",
+      "losslessWebPBytes": 549938,
+      "losslessWebPSHA256": "3823bc6c214019c126375dcfe1401388072fbf735de40a16bb446fe71246d9ab",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "before/chromium-narrow-categories.png",
+      "originalPNGBytes": 66486,
+      "originalPNGSHA256": "3db9f5839d344e9b4bf43d2514d90e60a40b78d61fb7351a2e7a9f1328a2da4c",
+      "losslessWebP": "before/chromium-narrow-categories.webp",
+      "losslessWebPBytes": 49866,
+      "losslessWebPSHA256": "0cbde9773333cc31f608f709470e4799b09af971caa46c9f5254b93a53b908a2",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "before/chromium-narrow-features.png",
+      "originalPNGBytes": 306356,
+      "originalPNGSHA256": "8c58ec6540aa6fa6b48611ed17b514c016b56e1f402c30ca98379398768d829d",
+      "losslessWebP": "before/chromium-narrow-features.webp",
+      "losslessWebPBytes": 219380,
+      "losslessWebPSHA256": "988f110a5f0b47a6fd984937bb96a06cc95bf61f20a1f6be4bf9b22076ac5602",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "before/chromium-narrow-home.png",
+      "originalPNGBytes": 657532,
+      "originalPNGSHA256": "b7cd82c2ee2107482ba57ce50b3edf3881a9eba38018d5ecdd461927b1a6815b",
+      "losslessWebP": "before/chromium-narrow-home.webp",
+      "losslessWebPBytes": 461218,
+      "losslessWebPSHA256": "e562c024e8b187e7a2b8ee6376dc7f64ccada4dc03a61ecf1bdbf16a9bcb855b",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "before/chromium-portrait-categories.png",
+      "originalPNGBytes": 115216,
+      "originalPNGSHA256": "c9ec456d7ae091e4f89eb0500e24b26f186351f770505f64b280efd4564e26f9",
+      "losslessWebP": "before/chromium-portrait-categories.webp",
+      "losslessWebPBytes": 83722,
+      "losslessWebPSHA256": "fc609b5be021e47c77f4ff4a769c956c48b1894fecac273a0b4fbf109325e64c",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "before/chromium-portrait-edge-categories.png",
+      "originalPNGBytes": 94008,
+      "originalPNGSHA256": "3cde92522df485561cfc33e6530ae1be229776d1d57e9167c8845c969c208af5",
+      "losslessWebP": "before/chromium-portrait-edge-categories.webp",
+      "losslessWebPBytes": 71508,
+      "losslessWebPSHA256": "817cf983421026ce7f0b68950d86c4707fe3809174f2e293d3973d26434677ee",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "before/chromium-portrait-edge-features.png",
+      "originalPNGBytes": 921580,
+      "originalPNGSHA256": "093483bdd71d3a7ef67aadab9b3e1ff9f7997bb2227fa7de9aca82ca60396832",
+      "losslessWebP": "before/chromium-portrait-edge-features.webp",
+      "losslessWebPBytes": 636756,
+      "losslessWebPSHA256": "ab36af64d8683e0a8788d266b76b4d0203c3f600eee1dd8df099323179df106e",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "before/chromium-portrait-edge-home.png",
+      "originalPNGBytes": 1800867,
+      "originalPNGSHA256": "7f8b1ec165f5c907fe82bf63052568e00030e190acd90e55f72546366d1cad63",
+      "losslessWebP": "before/chromium-portrait-edge-home.webp",
+      "losslessWebPBytes": 1254628,
+      "losslessWebPSHA256": "4b691a0c5bb07aa95224e70efc2e798dd9d71f88d1fc01afc3ac7d2ae1d348ed",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "before/chromium-portrait-features.png",
+      "originalPNGBytes": 674477,
+      "originalPNGSHA256": "2292efa362827126950ae6248c5f62d7ed1eb78f91e8024637f93bb2e951c27b",
+      "losslessWebP": "before/chromium-portrait-features.webp",
+      "losslessWebPBytes": 463064,
+      "losslessWebPSHA256": "cdf3a085be0e4ff97b3823b143ca2573058421e59cd296e612c27d0da2a20c91",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "before/chromium-portrait-home.png",
+      "originalPNGBytes": 1413921,
+      "originalPNGSHA256": "124f49a34a8ccf3ee5deefeed9f72e9445efd7aac59da584178d7d159c7faedc",
+      "losslessWebP": "before/chromium-portrait-home.webp",
+      "losslessWebPBytes": 979150,
+      "losslessWebPSHA256": "80e64a4ce6f606931b0effbda86d7b0807c2e58ad4bdd5571b631d515d3c7b0b",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-desktop-features.png",
+      "originalPNGBytes": 967646,
+      "originalPNGSHA256": "1c7011e50d5a70fec247169b46f266150e2ca4ae65cb6c75119bae93a29854d5",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-desktop-features.webp",
+      "losslessWebPBytes": 697094,
+      "losslessWebPSHA256": "cc915ba72ab9dbb4c29d712d5e919abed59af0152bb6768d864ab84a054ee70f",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-desktop-fullbleed-category-grid-FAIL.png",
+      "originalPNGBytes": 2886751,
+      "originalPNGSHA256": "9dc34f21f9fa307b81542063d88c2a2167622276c0eb2e4a93154f2985f676fb",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-desktop-fullbleed-category-grid-FAIL.webp",
+      "losslessWebPBytes": 2078338,
+      "losslessWebPSHA256": "58308e12b2bff046f01b9dca143b46e67b93e3cb9f9e838279d10ab01c0501f2",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-desktop-home.png",
+      "originalPNGBytes": 2911740,
+      "originalPNGSHA256": "2683db72ae7e92a0f8f6d5dbca4535108be4473b30512de3f3cffb788b174cb2",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-desktop-home.webp",
+      "losslessWebPBytes": 2094756,
+      "losslessWebPSHA256": "e662ec9ab5bf2471ba77db0dc0a4667d606c7eb41f4835e5968ac385dd4e7333",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-landscape-features.png",
+      "originalPNGBytes": 888841,
+      "originalPNGSHA256": "8c65852dc008fcbdf44855d07a7db9b8599fbc78682aa812b96fecf69d9bfdff",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-landscape-features.webp",
+      "losslessWebPBytes": 622698,
+      "losslessWebPSHA256": "fb9cc2410c164eca4a1e5deb2a620d3f44be7f7b6f98fe43a8badfa776b426b3",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-landscape-fullbleed-category-grid-FAIL.png",
+      "originalPNGBytes": 2715503,
+      "originalPNGSHA256": "4dfbfa8072a753b6f71560103a5a5bf29b7660d9034c94683744bae9be5ddee8",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-landscape-fullbleed-category-grid-FAIL.webp",
+      "losslessWebPBytes": 1969284,
+      "losslessWebPSHA256": "0b77a19e037bedf3e1c2db996fd6e6a2391efa1002ef6b6d036ba493912841be",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-landscape-home.png",
+      "originalPNGBytes": 2717923,
+      "originalPNGSHA256": "b6a6a367447b71c3782dae57877a7a22f98022733c83d99aca4987da51c57ebb",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-landscape-home.webp",
+      "losslessWebPBytes": 1969932,
+      "losslessWebPSHA256": "0549aa121fec30b79904d9c53dc6449037de0978f9ed37d1c506b3250908d4ae",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-mobile-features.png",
+      "originalPNGBytes": 512234,
+      "originalPNGSHA256": "0773ccd7c68242712ebdede01469c8aa627a3567554fdec69ec8ded6aefeac86",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-mobile-features.webp",
+      "losslessWebPBytes": 358372,
+      "losslessWebPSHA256": "066a1bf2ab58aa5c175073122cb0ec8b53bab2a05ca28874ff55cda0d6113915",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-mobile-fullbleed-category-grid-FAIL.png",
+      "originalPNGBytes": 1288395,
+      "originalPNGSHA256": "05594b207c51740e372991fb21d3b3673714b305e0c25e25828b571be7f39f99",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-mobile-fullbleed-category-grid-FAIL.webp",
+      "losslessWebPBytes": 914598,
+      "losslessWebPSHA256": "781d145e12497e2603af40865a0ff5df63cb611141cb0763840a3cefbb31f79d",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-mobile-home.png",
+      "originalPNGBytes": 1416105,
+      "originalPNGSHA256": "33d9a5f26ab2106557085350647df9cb93d57495039cfb36dd2a347edcc1eb46",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-mobile-home.webp",
+      "losslessWebPBytes": 1010876,
+      "losslessWebPSHA256": "39d51b5bcc33c62cc0e179bcecf72bc34dfc444b0abd6bc83a58a327ff283f70",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-mobile-preserved-home-sections-FAIL.png",
+      "originalPNGBytes": 1416105,
+      "originalPNGSHA256": "33d9a5f26ab2106557085350647df9cb93d57495039cfb36dd2a347edcc1eb46",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-mobile-preserved-home-sections-FAIL.webp",
+      "losslessWebPBytes": 1010876,
+      "losslessWebPSHA256": "39d51b5bcc33c62cc0e179bcecf72bc34dfc444b0abd6bc83a58a327ff283f70",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-mobile-three-mode-card-layout-FAIL.png",
+      "originalPNGBytes": 1390358,
+      "originalPNGSHA256": "1426b615d5f59e0012f6776d682ad0f33f3ec9d28ddd7f4bb9f726673ca82c77",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-mobile-three-mode-card-layout-FAIL.webp",
+      "losslessWebPBytes": 990898,
+      "losslessWebPSHA256": "a3d45ec06e9c42c4d94c04358ec40b4f8dcf1a39aa1593483ea69d53b170372f",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-narrow-features.png",
+      "originalPNGBytes": 423099,
+      "originalPNGSHA256": "8bcf8622a4235ac84a671f53d5225792050e7473855ac5aca399a78372d76dbd",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-narrow-features.webp",
+      "losslessWebPBytes": 298008,
+      "losslessWebPSHA256": "8d7a974b31879d6b51f19ed97c97bf10bb00e8bb517b7c3779584ae0ccfea396",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-narrow-fullbleed-category-grid-FAIL.png",
+      "originalPNGBytes": 1134827,
+      "originalPNGSHA256": "70f0f986ddfc78dc1f3308f297ddf960e09779e70118cbb8689c906acc98dc8a",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-narrow-fullbleed-category-grid-FAIL.webp",
+      "losslessWebPBytes": 802040,
+      "losslessWebPSHA256": "c072a123066ef657fe02dba31bcce9ba77060de233eef9f8e54d528e935100d2",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-narrow-home.png",
+      "originalPNGBytes": 1264752,
+      "originalPNGSHA256": "a261d0962de39512423f2b1ef6be9314c58dfef44424dca7a3581212e48a68d6",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-narrow-home.webp",
+      "losslessWebPBytes": 900300,
+      "losslessWebPSHA256": "b24ff198687e87f9c42a0f76b583764df5dba5c9d6938adf8cc570bbe8995cde",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-narrow-preserved-home-sections-FAIL.png",
+      "originalPNGBytes": 1264752,
+      "originalPNGSHA256": "a261d0962de39512423f2b1ef6be9314c58dfef44424dca7a3581212e48a68d6",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-narrow-preserved-home-sections-FAIL.webp",
+      "losslessWebPBytes": 900300,
+      "losslessWebPSHA256": "b24ff198687e87f9c42a0f76b583764df5dba5c9d6938adf8cc570bbe8995cde",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-narrow-three-mode-card-layout-FAIL.png",
+      "originalPNGBytes": 1245917,
+      "originalPNGSHA256": "4bd01eabc916b141d212dbef3e4199689a9cc52688f68aff7418df1cafeb05be",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-narrow-three-mode-card-layout-FAIL.webp",
+      "losslessWebPBytes": 885286,
+      "losslessWebPSHA256": "d14e906c12b069964f98e413a9b64180a24a27bac7a025465203c8a86abe73b4",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-portrait-edge-features.png",
+      "originalPNGBytes": 1335923,
+      "originalPNGSHA256": "32ceef031708de82e1000f3578c3e7f7543ba2df959e4dd8ee7f4ca580903847",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-portrait-edge-features.webp",
+      "losslessWebPBytes": 977848,
+      "losslessWebPSHA256": "f8767397202f209b14dd960facc0ad549c6134d42acd856bca7072746c091321",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-portrait-edge-fullbleed-category-grid-FAIL.png",
+      "originalPNGBytes": 2713623,
+      "originalPNGSHA256": "b36841622aeecc6267d8824820ef029476186c4054e72f81fbc22d7206f4fa04",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-portrait-edge-fullbleed-category-grid-FAIL.webp",
+      "losslessWebPBytes": 1960962,
+      "losslessWebPSHA256": "f0a7df877fbc30bc186aea99820f8c5cad0b329860b94b32a5c630f6011c3dee",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-portrait-edge-home.png",
+      "originalPNGBytes": 2915569,
+      "originalPNGSHA256": "a39c5add0d6a2c8c588cc9682e382009713917eee144e81fb29e18679c27248a",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-portrait-edge-home.webp",
+      "losslessWebPBytes": 2111662,
+      "losslessWebPSHA256": "ac5905fab9735da3138325c3bead329fc35940a3833a35c6b9dd7532d6141556",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-portrait-edge-preserved-home-sections-FAIL.png",
+      "originalPNGBytes": 2915569,
+      "originalPNGSHA256": "a39c5add0d6a2c8c588cc9682e382009713917eee144e81fb29e18679c27248a",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-portrait-edge-preserved-home-sections-FAIL.webp",
+      "losslessWebPBytes": 2111662,
+      "losslessWebPSHA256": "ac5905fab9735da3138325c3bead329fc35940a3833a35c6b9dd7532d6141556",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-portrait-edge-three-mode-card-layout-FAIL.png",
+      "originalPNGBytes": 2812343,
+      "originalPNGSHA256": "99160baec60d866a6f725a2318a65215c023d81faa2ea61e9410c73c877d8e25",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-portrait-edge-three-mode-card-layout-FAIL.webp",
+      "losslessWebPBytes": 2030540,
+      "losslessWebPSHA256": "1ef926ed26bb32460cb237fc33f9de8b4a6e84f13b6e4af68562acacd79bd683",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-portrait-features.png",
+      "originalPNGBytes": 945624,
+      "originalPNGSHA256": "4571eeaf60865b41bb2ff60a2c0d9407e28b6110cffa4ae3957dc21b25db8a61",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-portrait-features.webp",
+      "losslessWebPBytes": 662018,
+      "losslessWebPSHA256": "a925c908bb15780137c58b2edd6ef3bc73c3d77e99cf140c3d4dfcee78814c5b",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-portrait-fullbleed-category-grid-FAIL.png",
+      "originalPNGBytes": 2126485,
+      "originalPNGSHA256": "55eb7e48773cbdcc329c2e10bb7f3ee2d6019b268c76747b841e01d6737c6ac6",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-portrait-fullbleed-category-grid-FAIL.webp",
+      "losslessWebPBytes": 1506626,
+      "losslessWebPSHA256": "9a37b078369e7eccdf35610384f885b0076ae20a6a511591d4fe1bd7e6997431",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-portrait-home.png",
+      "originalPNGBytes": 2198577,
+      "originalPNGSHA256": "7a73f12ae20eee49e81138e7689f6450e94b5b2a358c98681abdc8a845f11b0a",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-portrait-home.webp",
+      "losslessWebPBytes": 1559570,
+      "losslessWebPSHA256": "e5f96e8051daebea2468b3160352a37f193622f1a6cba0a0629b241a3310e499",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-portrait-preserved-home-sections-FAIL.png",
+      "originalPNGBytes": 2198577,
+      "originalPNGSHA256": "7a73f12ae20eee49e81138e7689f6450e94b5b2a358c98681abdc8a845f11b0a",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-portrait-preserved-home-sections-FAIL.webp",
+      "losslessWebPBytes": 1559570,
+      "losslessWebPSHA256": "e5f96e8051daebea2468b3160352a37f193622f1a6cba0a0629b241a3310e499",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/chromium-portrait-three-mode-card-layout-FAIL.png",
+      "originalPNGBytes": 2149173,
+      "originalPNGSHA256": "bfc87c17df3c5796a98698e8682b86e4294c3796d50ed42fe3823d3abe69bd46",
+      "losslessWebP": "diagnostic-before-category-fix/chromium-portrait-three-mode-card-layout-FAIL.webp",
+      "losslessWebPBytes": 1524490,
+      "losslessWebPSHA256": "601f8d18d659ddc161d8072cdd4a936fa28215010aa3dadc131c9e239f1c45f2",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/webkit-desktop-features.png",
+      "originalPNGBytes": 1010334,
+      "originalPNGSHA256": "5a3b2d03d1712585262ea678c7eaa26024bedb846c6c94926ce865e8fc134855",
+      "losslessWebP": "diagnostic-before-category-fix/webkit-desktop-features.webp",
+      "losslessWebPBytes": 638570,
+      "losslessWebPSHA256": "606dd6d19dc60242d3f6062eb40fe5c2a9ae865d64a5e592320864d50957c5bd",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/webkit-desktop-fullbleed-category-grid-FAIL.png",
+      "originalPNGBytes": 2846426,
+      "originalPNGSHA256": "0b07797e0ebe70d95aeba6df9b5be642af4d7c27b27d286437b403316ff3c9a8",
+      "losslessWebP": "diagnostic-before-category-fix/webkit-desktop-fullbleed-category-grid-FAIL.webp",
+      "losslessWebPBytes": 1867052,
+      "losslessWebPSHA256": "4df9875e6d44ec90cd40794deb241ff1e48715575543d82029b7b2be9d3f4a08",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-before-category-fix/webkit-desktop-home.png",
+      "originalPNGBytes": 2881899,
+      "originalPNGSHA256": "660b580f53963cd79e301ba256f538237bb0a4fd555d7940e5af4cd2c56a434e",
+      "losslessWebP": "diagnostic-before-category-fix/webkit-desktop-home.webp",
+      "losslessWebPBytes": 1888108,
+      "losslessWebPSHA256": "931ea060adc5dbd63218328460a4b804602d3adc21bfa5d9508289e7b7ea96fd",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-desktop-categories.png",
+      "originalPNGBytes": 999150,
+      "originalPNGSHA256": "b2f5c31c39cf4781770452a934513f11c7ffcb63dfc5db7e78222fa91a46472e",
+      "losslessWebP": "diagnostic-font-navigation/chromium-desktop-categories.webp",
+      "losslessWebPBytes": 758040,
+      "losslessWebPSHA256": "3a6a95b49e3af16ce54cfd3ab7923b60b40ac01184b2c112b323ab9c75321655",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-desktop-compare-card.png",
+      "originalPNGBytes": 224223,
+      "originalPNGSHA256": "3f87f094c1df4f5ffc62d1479d91e54bb2ba93f60929a2bbd1732a5c88ed06de",
+      "losslessWebP": "diagnostic-font-navigation/chromium-desktop-compare-card.webp",
+      "losslessWebPBytes": 156830,
+      "losslessWebPSHA256": "144bab9e33cec6b1c11f1b2a29a8be8b954ba84f828afd1678d1c810967ce97c",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-desktop-features.png",
+      "originalPNGBytes": 967646,
+      "originalPNGSHA256": "1c7011e50d5a70fec247169b46f266150e2ca4ae65cb6c75119bae93a29854d5",
+      "losslessWebP": "diagnostic-font-navigation/chromium-desktop-features.webp",
+      "losslessWebPBytes": 697094,
+      "losslessWebPSHA256": "cc915ba72ab9dbb4c29d712d5e919abed59af0152bb6768d864ab84a054ee70f",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-desktop-find-card.png",
+      "originalPNGBytes": 174462,
+      "originalPNGSHA256": "fc0e54e97c282d83dd58cac1192c84aa8dc6b2af94a4a2f37703ec18a56de7dc",
+      "losslessWebP": "diagnostic-font-navigation/chromium-desktop-find-card.webp",
+      "losslessWebPBytes": 121102,
+      "losslessWebPSHA256": "c065f7d44ff28a203705fc42cd7155de18972d17f6dc5eef487f19e8b5f90301",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-desktop-home-practice-card.png",
+      "originalPNGBytes": 546048,
+      "originalPNGSHA256": "912f0df104a10f8f698084647bef39384d84f4eb5a90f47f716c091a29da5202",
+      "losslessWebP": "diagnostic-font-navigation/chromium-desktop-home-practice-card.webp",
+      "losslessWebPBytes": 389184,
+      "losslessWebPSHA256": "432fc0424980975cd0aede7cb7227c238a2f6457f345fe68029c54b206b93c22",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-desktop-home.png",
+      "originalPNGBytes": 2911740,
+      "originalPNGSHA256": "2683db72ae7e92a0f8f6d5dbca4535108be4473b30512de3f3cffb788b174cb2",
+      "losslessWebP": "diagnostic-font-navigation/chromium-desktop-home.webp",
+      "losslessWebPBytes": 2094756,
+      "losslessWebPSHA256": "e662ec9ab5bf2471ba77db0dc0a4667d606c7eb41f4835e5968ac385dd4e7333",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-landscape-categories.png",
+      "originalPNGBytes": 871007,
+      "originalPNGSHA256": "f62c933ec9a51a085e85c01c2780567e9948e456a966f784fa4ed2672b158ab7",
+      "losslessWebP": "diagnostic-font-navigation/chromium-landscape-categories.webp",
+      "losslessWebPBytes": 669306,
+      "losslessWebPSHA256": "50d5ed649d801b1c6c158c71482901c80ee18c3957eb36504c7ce53319cb702a",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-landscape-compare-card.png",
+      "originalPNGBytes": 205791,
+      "originalPNGSHA256": "b20c04de772d5ed356af54fe80610f1daaa9a280e03db03b0a6584bab63aa74b",
+      "losslessWebP": "diagnostic-font-navigation/chromium-landscape-compare-card.webp",
+      "losslessWebPBytes": 143856,
+      "losslessWebPSHA256": "fae3b4debbbc033c66839aced30af316e59b04d611fe2ec99b39e46351c7040e",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-landscape-features.png",
+      "originalPNGBytes": 888841,
+      "originalPNGSHA256": "8c65852dc008fcbdf44855d07a7db9b8599fbc78682aa812b96fecf69d9bfdff",
+      "losslessWebP": "diagnostic-font-navigation/chromium-landscape-features.webp",
+      "losslessWebPBytes": 622698,
+      "losslessWebPSHA256": "fb9cc2410c164eca4a1e5deb2a620d3f44be7f7b6f98fe43a8badfa776b426b3",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-landscape-find-card.png",
+      "originalPNGBytes": 161986,
+      "originalPNGSHA256": "115c4b494aee927ccf7173814d5c1ce8b0261f20323a118e749d788aa5ba75f6",
+      "losslessWebP": "diagnostic-font-navigation/chromium-landscape-find-card.webp",
+      "losslessWebPBytes": 111942,
+      "losslessWebPSHA256": "5c870cf5c12299f2bb2ae30c3786091832ec769ce514e4296fbcebf2f3c74acb",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-landscape-home-practice-card.png",
+      "originalPNGBytes": 500032,
+      "originalPNGSHA256": "7108518dec87517e87b85079fe269e950c9843612384c3d5dd63b6d125f5d617",
+      "losslessWebP": "diagnostic-font-navigation/chromium-landscape-home-practice-card.webp",
+      "losslessWebPBytes": 356282,
+      "losslessWebPSHA256": "009a83b1f558a8343633ad26dc6b6bc58690baf69480e729f1ca0c989d335cd7",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-landscape-home.png",
+      "originalPNGBytes": 2717923,
+      "originalPNGSHA256": "b6a6a367447b71c3782dae57877a7a22f98022733c83d99aca4987da51c57ebb",
+      "losslessWebP": "diagnostic-font-navigation/chromium-landscape-home.webp",
+      "losslessWebPBytes": 1969932,
+      "losslessWebPSHA256": "0549aa121fec30b79904d9c53dc6449037de0978f9ed37d1c506b3250908d4ae",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-mobile-categories.png",
+      "originalPNGBytes": 416190,
+      "originalPNGSHA256": "817f4a4e69f8ee0eb9152491831e70df460fccb3e76929c5ec3125de9a93057f",
+      "losslessWebP": "diagnostic-font-navigation/chromium-mobile-categories.webp",
+      "losslessWebPBytes": 302746,
+      "losslessWebPSHA256": "9f720d0d0205740dbfc597ceb242a5885f4caf73bf34cdbe7d40750fe2aeaa0d",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-mobile-compare-card.png",
+      "originalPNGBytes": 141275,
+      "originalPNGSHA256": "e6566d80163ce665c9e134c2a1ec05ee8786bf0b9a3314d0d86665b5314258b5",
+      "losslessWebP": "diagnostic-font-navigation/chromium-mobile-compare-card.webp",
+      "losslessWebPBytes": 98860,
+      "losslessWebPSHA256": "d07f4b9050b01da8840ab2245d4d6ff9f60335c6e5bf37833ff46000e7909d15",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-mobile-features.png",
+      "originalPNGBytes": 512283,
+      "originalPNGSHA256": "db683c16791354432b25ba9f3769033bbacf5f9f4d508e01eed950b0a6603aa2",
+      "losslessWebP": "diagnostic-font-navigation/chromium-mobile-features.webp",
+      "losslessWebPBytes": 357720,
+      "losslessWebPSHA256": "72b7394fabe523daa60c1e4cc6e9aea6ecd5f112444493293df55bf14f92ed09",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-mobile-find-card.png",
+      "originalPNGBytes": 116803,
+      "originalPNGSHA256": "da18ac0215cf9833b83287c607adbfda5b47ec16b84fd78ead27b803dea28b93",
+      "losslessWebP": "diagnostic-font-navigation/chromium-mobile-find-card.webp",
+      "losslessWebPBytes": 80930,
+      "losslessWebPSHA256": "c14cbf71a85c4eb287761e2cec171bed0d351c7ed2fb1815dad46ee04b49b08e",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-mobile-home-practice-card.png",
+      "originalPNGBytes": 294494,
+      "originalPNGSHA256": "86de6880a75eb1a133d32e3870fa8e646ce40c275bdf16b4ba3ec849b1e0b784",
+      "losslessWebP": "diagnostic-font-navigation/chromium-mobile-home-practice-card.webp",
+      "losslessWebPBytes": 209570,
+      "losslessWebPSHA256": "0336ccef995262df010e62ed433663a302131b70112deb0fc433307ea5b33a42",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-mobile-home.png",
+      "originalPNGBytes": 1349659,
+      "originalPNGSHA256": "d9adc4c5cf3f9b96b38c755942bec17ecf76a450359fde4323f570d26635c4d4",
+      "losslessWebP": "diagnostic-font-navigation/chromium-mobile-home.webp",
+      "losslessWebPBytes": 965084,
+      "losslessWebPSHA256": "69b3b496ebe36920cbe16689197469ca11399e7e2ebc24baff1d88dc4a3766be",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-narrow-categories.png",
+      "originalPNGBytes": 323650,
+      "originalPNGSHA256": "acb7813a2ba1db08525cae8e811a76e46aa50c7d0273d49dfcf73a3af0c3e5b8",
+      "losslessWebP": "diagnostic-font-navigation/chromium-narrow-categories.webp",
+      "losslessWebPBytes": 235188,
+      "losslessWebPSHA256": "39baddd9fd2c993cdd192b3dbd0bc08989cc227b047c30dea188e3dbed35a881",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-narrow-compare-card.png",
+      "originalPNGBytes": 112261,
+      "originalPNGSHA256": "b9f13f30fe0c3844fbe0edca5d0da4e2de56d9742179f3cb62b190a0db097b8a",
+      "losslessWebP": "diagnostic-font-navigation/chromium-narrow-compare-card.webp",
+      "losslessWebPBytes": 79308,
+      "losslessWebPSHA256": "4e9610ec2b5190d6a821cfe46d5d76b6ed2092ce839ff9c3e4b9f1d700803e82",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-narrow-features.png",
+      "originalPNGBytes": 423128,
+      "originalPNGSHA256": "bbfd7b73f749c13ccee10bf10a6a89041fa845d98a6f95b504b03df5250ceee7",
+      "losslessWebP": "diagnostic-font-navigation/chromium-narrow-features.webp",
+      "losslessWebPBytes": 297736,
+      "losslessWebPSHA256": "39137dcef471f0de4fc6d550d966cff2ca10f1c2a7bbdde01709bdacf12799e6",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-narrow-find-card.png",
+      "originalPNGBytes": 92567,
+      "originalPNGSHA256": "7dba8703d8ccbfc638aabe81290d536e7ba9bb9f049574681c75e4b54d56458f",
+      "losslessWebP": "diagnostic-font-navigation/chromium-narrow-find-card.webp",
+      "losslessWebPBytes": 64740,
+      "losslessWebPSHA256": "0c3e6609995c84c995ad763d62906fa4f93ea47c8d27c36d90c17de60a3d2e7e",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-narrow-home-practice-card.png",
+      "originalPNGBytes": 230398,
+      "originalPNGSHA256": "956f2a66c916114e1996524b6e71cded98219a435feb62be58b95fe9a09df54c",
+      "losslessWebP": "diagnostic-font-navigation/chromium-narrow-home-practice-card.webp",
+      "losslessWebPBytes": 164584,
+      "losslessWebPSHA256": "02a00392c892724b41394bb4557c1df545b4a7d1c945df93fdb691959a91f49d",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-narrow-home.png",
+      "originalPNGBytes": 1108485,
+      "originalPNGSHA256": "21485c0725a8d76db397c80ff0c602565c9bb6d35db591a6528285fe3228e306",
+      "losslessWebP": "diagnostic-font-navigation/chromium-narrow-home.webp",
+      "losslessWebPBytes": 793824,
+      "losslessWebPSHA256": "4a9af6fcfb34658df12c49ded3b5bb0c10623c5ea7b988880fe6a4e2990dfe19",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-portrait-categories.png",
+      "originalPNGBytes": 477521,
+      "originalPNGSHA256": "5814b8981e5da7ae9c4b3a239a63019809f178cf7c2434db0944626cafaa9c05",
+      "losslessWebP": "diagnostic-font-navigation/chromium-portrait-categories.webp",
+      "losslessWebPBytes": 346750,
+      "losslessWebPSHA256": "ce8ab3d3db4ed8b958bce6cdad882abf8843e1ab44748832b30525d8b6e3d934",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-portrait-compare-card.png",
+      "originalPNGBytes": 266658,
+      "originalPNGSHA256": "6c7a5f42465d16b693757eb4fe35df4d181368fb6e5991e93aa78c1302e9e559",
+      "losslessWebP": "diagnostic-font-navigation/chromium-portrait-compare-card.webp",
+      "losslessWebPBytes": 184722,
+      "losslessWebPSHA256": "87bb51cb2fa601160df14af1f94df68ee260264cb25b6b1d81e5b09359f55feb",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-portrait-edge-categories.png",
+      "originalPNGBytes": 722486,
+      "originalPNGSHA256": "24209167ab78d2d892081ffb8c093783b4b186b5bf1a8fe9576b8e97a7634226",
+      "losslessWebP": "diagnostic-font-navigation/chromium-portrait-edge-categories.webp",
+      "losslessWebPBytes": 542092,
+      "losslessWebPSHA256": "354384377815afcb5bab9f242d506fe7895cb974f2b62ef154532f0df6255fb0",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-portrait-edge-compare-card.png",
+      "originalPNGBytes": 320764,
+      "originalPNGSHA256": "463698182ece689cb5c877726c035ca6ddc4c9029b61923a7f7dbb06eb518f5b",
+      "losslessWebP": "diagnostic-font-navigation/chromium-portrait-edge-compare-card.webp",
+      "losslessWebPBytes": 223270,
+      "losslessWebPSHA256": "913e413875526f0cc74e1c58dcd0bce6c7a34836bc5c914e223c3401fef9bfd6",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-portrait-edge-features.png",
+      "originalPNGBytes": 1335956,
+      "originalPNGSHA256": "9494b4bb2acd89627db8a7bde3e920561039906480075084df29cbb075ac7551",
+      "losslessWebP": "diagnostic-font-navigation/chromium-portrait-edge-features.webp",
+      "losslessWebPBytes": 978090,
+      "losslessWebPSHA256": "6ce398a86789e69baf1b68f2bae71085b2e91769cc9145aefbc69c07dd6064ca",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-portrait-edge-find-card.png",
+      "originalPNGBytes": 248126,
+      "originalPNGSHA256": "d1cf1051f44aa58308e784dfe0d0dd3ca0ebfc85097f58431036f8246643893f",
+      "losslessWebP": "diagnostic-font-navigation/chromium-portrait-edge-find-card.webp",
+      "losslessWebPBytes": 173272,
+      "losslessWebPSHA256": "f264b3679cf7ef32bf25909e31b273be6f1d36209b4034960f89fcee1af9aa73",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-portrait-edge-home-practice-card.png",
+      "originalPNGBytes": 754632,
+      "originalPNGSHA256": "2d415a722ea81b6931422ae23ffdaa688684a669af3329b26e591afe4cd20d11",
+      "losslessWebP": "diagnostic-font-navigation/chromium-portrait-edge-home-practice-card.webp",
+      "losslessWebPBytes": 536136,
+      "losslessWebPSHA256": "80281e483c3688e3bd4be61251bcc7762598a60ddf073ceda186ea24f87f4c9a",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-portrait-edge-home.png",
+      "originalPNGBytes": 2861279,
+      "originalPNGSHA256": "7462f3206e88b54be843f1564111a819726d921d4b29f0daf01057068a67daab",
+      "losslessWebP": "diagnostic-font-navigation/chromium-portrait-edge-home.webp",
+      "losslessWebPBytes": 2071172,
+      "losslessWebPSHA256": "68045c25de7e39018dc85c7ee3562090621c044414d82d80033301b538f184d6",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-portrait-features.png",
+      "originalPNGBytes": 945653,
+      "originalPNGSHA256": "7b163d9246e895563cd63f23f592407d32d47ecc640e29557f094b544752d645",
+      "losslessWebP": "diagnostic-font-navigation/chromium-portrait-features.webp",
+      "losslessWebPBytes": 662226,
+      "losslessWebPSHA256": "355cc086da2a3d976702840ab9095b2aba8ca87ced9587eda170cb5bd9938af5",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-portrait-find-card.png",
+      "originalPNGBytes": 206102,
+      "originalPNGSHA256": "316cb88f8013089c7be9710e667a1d6b8992ae3e17fd0ad49213c81641a77229",
+      "losslessWebP": "diagnostic-font-navigation/chromium-portrait-find-card.webp",
+      "losslessWebPBytes": 143814,
+      "losslessWebPSHA256": "fa874590fe4cf898e748265dbb92d55ff52cd876043011ef57bee04fcc352a1e",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-portrait-home-practice-card.png",
+      "originalPNGBytes": 562059,
+      "originalPNGSHA256": "b0640ef0df65ddcb4b958408dd8cbe45a7e7c01e0c2007521e385c33d246a63f",
+      "losslessWebP": "diagnostic-font-navigation/chromium-portrait-home-practice-card.webp",
+      "losslessWebPBytes": 396624,
+      "losslessWebPSHA256": "91b3bce6f153a0c84e0115528097c777f2dde7e428e5b9b9882ecaea9605f6aa",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/chromium-portrait-home.png",
+      "originalPNGBytes": 2100420,
+      "originalPNGSHA256": "dfc8fd0654119326fdeb50bdb3da20e2a67dfa9f25e60fb039394924071c50fa",
+      "losslessWebP": "diagnostic-font-navigation/chromium-portrait-home.webp",
+      "losslessWebPBytes": 1491916,
+      "losslessWebPSHA256": "4cc5a86b9eb3c55d09bd7cbd80e363c6f5f975400af3ca64947b676427c82c2c",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-desktop-categories.png",
+      "originalPNGBytes": 1021591,
+      "originalPNGSHA256": "a64d29159ffe4eddc9f5eb0c541ce179059a95bfecc8e63b9bde83efec08b58a",
+      "losslessWebP": "diagnostic-font-navigation/webkit-desktop-categories.webp",
+      "losslessWebPBytes": 715734,
+      "losslessWebPSHA256": "88d092ff1b8c9571a02473cc2a1209fb8d01a3b6a776a5670cc1f37834afb399",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-desktop-compare-card.png",
+      "originalPNGBytes": 239881,
+      "originalPNGSHA256": "cc01bd38dd3e20ab12d2830350e76924c49631f77cdb029bd7db1b6ef7a35e83",
+      "losslessWebP": "diagnostic-font-navigation/webkit-desktop-compare-card.webp",
+      "losslessWebPBytes": 151862,
+      "losslessWebPSHA256": "b9af43cfe4667f7e352536761b5e7f8d4d44afd8281a04e9e4f27a9446ed99c2",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-desktop-features.png",
+      "originalPNGBytes": 1010334,
+      "originalPNGSHA256": "5a3b2d03d1712585262ea678c7eaa26024bedb846c6c94926ce865e8fc134855",
+      "losslessWebP": "diagnostic-font-navigation/webkit-desktop-features.webp",
+      "losslessWebPBytes": 638570,
+      "losslessWebPSHA256": "606dd6d19dc60242d3f6062eb40fe5c2a9ae865d64a5e592320864d50957c5bd",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-desktop-find-card.png",
+      "originalPNGBytes": 187959,
+      "originalPNGSHA256": "e4fcd0f5f3b78c923dc4603d54ce68a080d51df7d8b2d8a8437056c0be1bfa88",
+      "losslessWebP": "diagnostic-font-navigation/webkit-desktop-find-card.webp",
+      "losslessWebPBytes": 114886,
+      "losslessWebPSHA256": "97379c15071943a22d0d4f66ccff2324ea110f3d34b2b4b802a208b572ab340c",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-desktop-home-practice-card.png",
+      "originalPNGBytes": 561487,
+      "originalPNGSHA256": "a757f58b9c47348344d4eae4181fc00ba989943db0cb07dada8db9e04f0f2d03",
+      "losslessWebP": "diagnostic-font-navigation/webkit-desktop-home-practice-card.webp",
+      "losslessWebPBytes": 353364,
+      "losslessWebPSHA256": "673defaac42e01443b6b7557f3a6ad7d4ba6aa35d6d2b1c3e11f6f9a40131d06",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-desktop-home.png",
+      "originalPNGBytes": 2880950,
+      "originalPNGSHA256": "bd8491fef44e791ec649c9c8884f7eff00be11c8000c0f4d76a1aa8cd2f0a00e",
+      "losslessWebP": "diagnostic-font-navigation/webkit-desktop-home.webp",
+      "losslessWebPBytes": 1888232,
+      "losslessWebPSHA256": "3d532ce98615565acfea3d49533cdd02d2cf9401a9c3a143bbfa613db55393cd",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-landscape-categories.png",
+      "originalPNGBytes": 899226,
+      "originalPNGSHA256": "852791e72a8af75473137540e5316f6eee859c396d18f786c26bf2098ce21ccb",
+      "losslessWebP": "diagnostic-font-navigation/webkit-landscape-categories.webp",
+      "losslessWebPBytes": 634670,
+      "losslessWebPSHA256": "680379faa648ca44d2423d827cdd71004c2d9f8e90de63e4f9984a80ee42da2f",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-landscape-compare-card.png",
+      "originalPNGBytes": 227718,
+      "originalPNGSHA256": "7d5acd801a752cfd1604690b3d5ec9e0c89cedbbed6c8650dad1e1195a0ee99e",
+      "losslessWebP": "diagnostic-font-navigation/webkit-landscape-compare-card.webp",
+      "losslessWebPBytes": 144316,
+      "losslessWebPSHA256": "f9f95ba5472fb44e24ef3fe672331e3771ad190a48d4aeb719d143ce93a7a2ee",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-landscape-features.png",
+      "originalPNGBytes": 935447,
+      "originalPNGSHA256": "33c8888ad936d2bcf744d620a6cdd7f4395ad5c7882b3dafe83659561443d471",
+      "losslessWebP": "diagnostic-font-navigation/webkit-landscape-features.webp",
+      "losslessWebPBytes": 591782,
+      "losslessWebPSHA256": "28139ba24c4e7dacc0d171b269088049e76272bf99092b408d07daaa938e2e6f",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-landscape-find-card.png",
+      "originalPNGBytes": 170212,
+      "originalPNGSHA256": "2a36c8928b19a74ad70ad39cbb1132e1d222e2087806b106aede9e9714eafc01",
+      "losslessWebP": "diagnostic-font-navigation/webkit-landscape-find-card.webp",
+      "losslessWebPBytes": 104078,
+      "losslessWebPSHA256": "0effeed1d57c4e20995ce4516de712da350819f178bccc7d9d9ce47bde85ec1a",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-landscape-home-practice-card.png",
+      "originalPNGBytes": 517884,
+      "originalPNGSHA256": "4bb9de97f87290113493b8234c9b167cf0c9303e940f1399f2bc6bd4e6857521",
+      "losslessWebP": "diagnostic-font-navigation/webkit-landscape-home-practice-card.webp",
+      "losslessWebPBytes": 325680,
+      "losslessWebPSHA256": "08099af9597eae0a094d4a8776ce4b6f2546dbb0e427d45c709142201c8993c7",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-landscape-home.png",
+      "originalPNGBytes": 2764675,
+      "originalPNGSHA256": "941c83745732b05ac45143bbf69d224bf14cb6c72fb0980f7648d824d71d775d",
+      "losslessWebP": "diagnostic-font-navigation/webkit-landscape-home.webp",
+      "losslessWebPBytes": 1810150,
+      "losslessWebPSHA256": "f644b4108078f7bc0b7df71b89846914e81fe5b057afa83401386023c55e6844",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-mobile-categories.png",
+      "originalPNGBytes": 452734,
+      "originalPNGSHA256": "4050d2e3d32cb84a3401436cc70865fd22d1a716e9f84f4cffe6faf144edbb7f",
+      "losslessWebP": "diagnostic-font-navigation/webkit-mobile-categories.webp",
+      "losslessWebPBytes": 303576,
+      "losslessWebPSHA256": "910c41623aac4b0db8e249c508a1850b24dbd35ed5eedb09064f73cd9c7929b7",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-mobile-compare-card.png",
+      "originalPNGBytes": 133123,
+      "originalPNGSHA256": "43220a021272617eaf110be0f384ab92ab7ea34b09bcdb9b24d4152d3c0a0aad",
+      "losslessWebP": "diagnostic-font-navigation/webkit-mobile-compare-card.webp",
+      "losslessWebPBytes": 81402,
+      "losslessWebPSHA256": "e75a3117a80a95c4366fc988cd4bca309475f4678ea1755486b0bb0320f13186",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-mobile-features.png",
+      "originalPNGBytes": 515301,
+      "originalPNGSHA256": "4a19add8d3fc83819eef91e452178764b77232f5b73b3d41b09be88064bc0811",
+      "losslessWebP": "diagnostic-font-navigation/webkit-mobile-features.webp",
+      "losslessWebPBytes": 321590,
+      "losslessWebPSHA256": "2cf96e03476b39b5dedb007aca2726122cd71c038acc56229da2b308b23c3363",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-mobile-find-card.png",
+      "originalPNGBytes": 109173,
+      "originalPNGSHA256": "16e82b8989266d03dc0d3f21f13c9b9440d665667e1ed5aedfb68a871bcfc079",
+      "losslessWebP": "diagnostic-font-navigation/webkit-mobile-find-card.webp",
+      "losslessWebPBytes": 67216,
+      "losslessWebPSHA256": "9f73c2d640247e17128df22b58a92f4142751461e3636863b46b39af3fe5d781",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-mobile-home-practice-card.png",
+      "originalPNGBytes": 296319,
+      "originalPNGSHA256": "5b57a6cf707e59bbb92451e37b74990f2952f59147186651683f6bbb7a130477",
+      "losslessWebP": "diagnostic-font-navigation/webkit-mobile-home-practice-card.webp",
+      "losslessWebPBytes": 187958,
+      "losslessWebPSHA256": "c2802bd27d3687d9a3382de92977b05f714cf40aa526e18e507acd0e53d12fb0",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-mobile-home.png",
+      "originalPNGBytes": 1363744,
+      "originalPNGSHA256": "fcca9054ff0d035bc2ab95af5dc899fb1a6109f73796a3e01307ecf1fce68f6b",
+      "losslessWebP": "diagnostic-font-navigation/webkit-mobile-home.webp",
+      "losslessWebPBytes": 887064,
+      "losslessWebPSHA256": "2d95a2bcc3f7bbf50073848111b3a7ca06b8c69338cc2c4266988058c0dc9f9b",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-narrow-categories.png",
+      "originalPNGBytes": 361907,
+      "originalPNGSHA256": "4ed3800d8e33428441491af7e0ee9a13063e5339a78cd79dbe433341d5090ecf",
+      "losslessWebP": "diagnostic-font-navigation/webkit-narrow-categories.webp",
+      "losslessWebPBytes": 238156,
+      "losslessWebPSHA256": "246f6c468a2874cd8e56eed91b8352f246b053206143e0711d05b91da6146e34",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-narrow-compare-card.png",
+      "originalPNGBytes": 107398,
+      "originalPNGSHA256": "55526e13aba5112c497f22e7e52facff837be48d8e6d2dab3b3316dc25abed18",
+      "losslessWebP": "diagnostic-font-navigation/webkit-narrow-compare-card.webp",
+      "losslessWebPBytes": 65840,
+      "losslessWebPSHA256": "92870d6b291ee00b103c3d751ea12cbbab296a97e4ac6921336c56a118a506f3",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-narrow-features.png",
+      "originalPNGBytes": 426189,
+      "originalPNGSHA256": "083867ae514c34d871bdac3ef81d9630706d908bd224ee43907dc2862851b3f0",
+      "losslessWebP": "diagnostic-font-navigation/webkit-narrow-features.webp",
+      "losslessWebPBytes": 266164,
+      "losslessWebPSHA256": "e332d6180b8821754ec9ce68240a14eddaaedf66fbfeec7aa6d5352b51e283b4",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-narrow-find-card.png",
+      "originalPNGBytes": 92799,
+      "originalPNGSHA256": "9ba456a741df2acd0160c75b3fcf181286ad5e6b1ae54f9d7723645901d711c9",
+      "losslessWebP": "diagnostic-font-navigation/webkit-narrow-find-card.webp",
+      "losslessWebPBytes": 57688,
+      "losslessWebPSHA256": "473f604ec8b34a0b885e4ab6105d4917164cc1dc086c5942f3980ac3961000ff",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-narrow-home-practice-card.png",
+      "originalPNGBytes": 231739,
+      "originalPNGSHA256": "cf12fd826c65b5fb99624123ffbef1e2cf997e78d234f5f2c147e85bd8c228f8",
+      "losslessWebP": "diagnostic-font-navigation/webkit-narrow-home-practice-card.webp",
+      "losslessWebPBytes": 148360,
+      "losslessWebPSHA256": "24f4f1da50b9d944b9911e0636ef59b1f5aa95cc4e68d9db33c0ae640edacc81",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-narrow-home.png",
+      "originalPNGBytes": 1130531,
+      "originalPNGSHA256": "f0337bd2c9f68c976c26f4ff3e63e7e96b1274636bdb01fd7f709d984d70dff9",
+      "losslessWebP": "diagnostic-font-navigation/webkit-narrow-home.webp",
+      "losslessWebPBytes": 734554,
+      "losslessWebPSHA256": "90af015b268dae8f28aceb5f99e5d0595e120288f48eac6bea28c5860701fc67",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-portrait-categories.png",
+      "originalPNGBytes": 471462,
+      "originalPNGSHA256": "e9e08e274a739970152317f734fba1180cb4b08bdc87c391712fed60d6d4cfc1",
+      "losslessWebP": "diagnostic-font-navigation/webkit-portrait-categories.webp",
+      "losslessWebPBytes": 309364,
+      "losslessWebPSHA256": "bf79a4c110303733147f4d9558d88edd81dbadd7fa53ba4f0ced5c3e914ed408",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-portrait-compare-card.png",
+      "originalPNGBytes": 262419,
+      "originalPNGSHA256": "ae72745618b3dd692dabb1a8feadc47a120a365ec24ce30b5769650cad7782a3",
+      "losslessWebP": "diagnostic-font-navigation/webkit-portrait-compare-card.webp",
+      "losslessWebPBytes": 163802,
+      "losslessWebPSHA256": "02cce7fceef0ee1e8b7fd173a90dda9f2f79be167bc2c18128c0e567570d8306",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-portrait-edge-categories.png",
+      "originalPNGBytes": 750193,
+      "originalPNGSHA256": "496d2218d4fab77bb6a9403dd0ccab84b0f38ad3707891bd6742fee74cee19f4",
+      "losslessWebP": "diagnostic-font-navigation/webkit-portrait-edge-categories.webp",
+      "losslessWebPBytes": 523088,
+      "losslessWebPSHA256": "5f7a234efc27eefe70c9fd10abc5830406385f50a5a756444a347ed016a21e3e",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-portrait-edge-compare-card.png",
+      "originalPNGBytes": 313843,
+      "originalPNGSHA256": "cf9cc194e0af6c09f76a0c939decfa0f2ec48257526640050f2a9f752efa717c",
+      "losslessWebP": "diagnostic-font-navigation/webkit-portrait-edge-compare-card.webp",
+      "losslessWebPBytes": 198158,
+      "losslessWebPSHA256": "a6bc613789071c1942ef75487a1f65a55fb82716fcd0b71f37e536fa996617f5",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-portrait-edge-features.png",
+      "originalPNGBytes": 1316736,
+      "originalPNGSHA256": "ffdeada8c1c8fa596a4ea74ddc21892b9716bfed9cb0823e7e2c74ac0c6da892",
+      "losslessWebP": "diagnostic-font-navigation/webkit-portrait-edge-features.webp",
+      "losslessWebPBytes": 845796,
+      "losslessWebPSHA256": "1b0ba195075c31a83360b81140e6dab4edbe953d12d34a2c9be5b63a6b412370",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-portrait-edge-find-card.png",
+      "originalPNGBytes": 221007,
+      "originalPNGSHA256": "ef689c4d33fba8cc8df0f54f0d18ff1d08e4a6484e35637e6ddd4438471e73f0",
+      "losslessWebP": "diagnostic-font-navigation/webkit-portrait-edge-find-card.webp",
+      "losslessWebPBytes": 133114,
+      "losslessWebPSHA256": "203c517ad1b3cdc7540d95dcd5750b3bf68ca5a9205c9f3a2343a6c6a5831f6f",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-portrait-edge-home-practice-card.png",
+      "originalPNGBytes": 777171,
+      "originalPNGSHA256": "0dc3405a17fac298565879fb1d4d43efea6e446dbf1fa6bf4916bb73baf79281",
+      "losslessWebP": "diagnostic-font-navigation/webkit-portrait-edge-home-practice-card.webp",
+      "losslessWebPBytes": 492380,
+      "losslessWebPSHA256": "6b1066d181ea588488c28477c0dee98115623478c538454d0d6bc3168ed1e6bd",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-portrait-edge-home.png",
+      "originalPNGBytes": 2826433,
+      "originalPNGSHA256": "e25ba262d878bc6d7011f79423e3cd4b3f94a2cfbc47b264ba7223c7911ef0d3",
+      "losslessWebP": "diagnostic-font-navigation/webkit-portrait-edge-home.webp",
+      "losslessWebPBytes": 1858966,
+      "losslessWebPSHA256": "42487558b8b73659270f9eb641b19da809e7dab413711c1b830140e01ba33f11",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-portrait-features.png",
+      "originalPNGBytes": 978820,
+      "originalPNGSHA256": "ae9e25f0e879db16ce46b4d8dd04ea8d7db7d74c8d5a7951a4f0db1d5bfdde9c",
+      "losslessWebP": "diagnostic-font-navigation/webkit-portrait-features.webp",
+      "losslessWebPBytes": 620868,
+      "losslessWebPSHA256": "a1e9d19d4883016438a9ad88e97c18323df6aa688c58aac97b7fe4476aa67f20",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-portrait-find-card.png",
+      "originalPNGBytes": 185284,
+      "originalPNGSHA256": "d082fde3122f01acfca458ba2255b10382a4698a1c9ca89c4e5a7fda59cdd89f",
+      "losslessWebP": "diagnostic-font-navigation/webkit-portrait-find-card.webp",
+      "losslessWebPBytes": 112440,
+      "losslessWebPSHA256": "264b91ffc76288b70c41ed43dd05c37267e287ce5ea711d3b43ff18e78ba15c4",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-portrait-home-practice-card.png",
+      "originalPNGBytes": 576254,
+      "originalPNGSHA256": "6174db127c56022563b23f012a2c8847fcabe9d5c07788a94e4b5d222ac1d177",
+      "losslessWebP": "diagnostic-font-navigation/webkit-portrait-home-practice-card.webp",
+      "losslessWebPBytes": 359884,
+      "losslessWebPSHA256": "b521b182a67c68e8746c4190456ccaecf3c48464945b3769393b9a47e216ca2e",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-font-navigation/webkit-portrait-home.png",
+      "originalPNGBytes": 2150190,
+      "originalPNGSHA256": "050f8c15f70721bef5fa21a1ac661c54c920933098105b1994f0c3c4739f621e",
+      "losslessWebP": "diagnostic-font-navigation/webkit-portrait-home.webp",
+      "losslessWebPBytes": 1386100,
+      "losslessWebPSHA256": "a7d11c518867487bab656f3f682d54bba9bab8703a457bfd1a556267d4518dec",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-incomplete-quiz-compare/chromium-desktop-compare-empty.png",
+      "originalPNGBytes": 951795,
+      "originalPNGSHA256": "b0340bd83805bf397760cd7e2b5f3bc9d6078a405c7c9bf923bf56072edc258b",
+      "losslessWebP": "diagnostic-incomplete-quiz-compare/chromium-desktop-compare-empty.webp",
+      "losslessWebPBytes": 653830,
+      "losslessWebPSHA256": "596d08da30f6b5fba3b39b0afed4d3001c4d6f80cc2370f7318db7a55307aa54",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-incomplete-quiz-compare/chromium-desktop-compare-four.png",
+      "originalPNGBytes": 1335180,
+      "originalPNGSHA256": "6aba86ef66579434d4e9f9dd649f8d3b2a9f49f237330f0a443bde03da565eaa",
+      "losslessWebP": "diagnostic-incomplete-quiz-compare/chromium-desktop-compare-four.webp",
+      "losslessWebPBytes": 893294,
+      "losslessWebPSHA256": "11f0ab9e7c28f777bfe2c087e2073708aa3862a3e076aa9cde8c36cfe687fba0",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-incomplete-quiz-compare/chromium-desktop-compare-three.png",
+      "originalPNGBytes": 1279796,
+      "originalPNGSHA256": "6706539e734347794e3d5444e86c0ce0dd9b209cac83acc1e8894b67eae8fbda",
+      "losslessWebP": "diagnostic-incomplete-quiz-compare/chromium-desktop-compare-three.webp",
+      "losslessWebPBytes": 847242,
+      "losslessWebPSHA256": "68ea827f0fab8fb72fcf38f091ca53954dfb89678d534c3be7b24f0fd2b39820",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-incomplete-quiz-compare/chromium-desktop-quiz-results.png",
+      "originalPNGBytes": 762125,
+      "originalPNGSHA256": "f9bf33cc32969eb5b2fd3090aff9cc1cefaec19867a0a852cdb966df1571b5d3",
+      "losslessWebP": "diagnostic-incomplete-quiz-compare/chromium-desktop-quiz-results.webp",
+      "losslessWebPBytes": 445154,
+      "losslessWebPSHA256": "ef89d17e9e3c4f31c115fd1198f695f0c0023449276a88087eee689b8b6943eb",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-incomplete-quiz-compare/chromium-desktop-quiz-step1.png",
+      "originalPNGBytes": 1313702,
+      "originalPNGSHA256": "30f493dd3ce2b12d9fce1483c93d27601ee7f7a197ac36132169a478f8c5f805",
+      "losslessWebP": "diagnostic-incomplete-quiz-compare/chromium-desktop-quiz-step1.webp",
+      "losslessWebPBytes": 894560,
+      "losslessWebPSHA256": "f6be780e970fab2d06ed1153bdbc0c8d9f0bdbc55db0bbf8518e73dabf34f365",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-incomplete-quiz-compare/chromium-mobile-compare-empty.png",
+      "originalPNGBytes": 221651,
+      "originalPNGSHA256": "5ebdcb628e71aa6dcdfa2bb27d61c094e69b0c628ef992ba15b2fa172e837c0d",
+      "losslessWebP": "diagnostic-incomplete-quiz-compare/chromium-mobile-compare-empty.webp",
+      "losslessWebPBytes": 153254,
+      "losslessWebPSHA256": "8fa7b23ff1496454f59cfcab6d4ed7dc91836ca0297dd618f329ed81d2d30f58",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-incomplete-quiz-compare/chromium-mobile-compare-four.png",
+      "originalPNGBytes": 414472,
+      "originalPNGSHA256": "409d9c3e6d0e37b0cd55cb0d41489fe07a804b76e2130450793ed27c13509340",
+      "losslessWebP": "diagnostic-incomplete-quiz-compare/chromium-mobile-compare-four.webp",
+      "losslessWebPBytes": 269998,
+      "losslessWebPSHA256": "a49d66ddd2c780227d23cfa25b784fcd0c806086e2e4d6e49848fc291a7d4048",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-incomplete-quiz-compare/chromium-mobile-compare-three.png",
+      "originalPNGBytes": 377635,
+      "originalPNGSHA256": "3287e59f745a591ce0d061acec462da880f5c11b553e36245db7f83e84c66827",
+      "losslessWebP": "diagnostic-incomplete-quiz-compare/chromium-mobile-compare-three.webp",
+      "losslessWebPBytes": 241406,
+      "losslessWebPSHA256": "a4dcc543b6e21095f65a718ace8a03b92f8233cd5d14a01bb7f9a3d545649387",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-incomplete-quiz-compare/chromium-mobile-quiz-results.png",
+      "originalPNGBytes": 547306,
+      "originalPNGSHA256": "fb1bf7e88dcb523db8144401e18d613661f630b2cf692d6f84ca1bea7c00e4fd",
+      "losslessWebP": "diagnostic-incomplete-quiz-compare/chromium-mobile-quiz-results.webp",
+      "losslessWebPBytes": 316796,
+      "losslessWebPSHA256": "18ce804abd194a0e8c35003f690a184bc5fa1e7219d8bc945f4fe393341edd6c",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-incomplete-quiz-compare/chromium-mobile-quiz-step1.png",
+      "originalPNGBytes": 456708,
+      "originalPNGSHA256": "2cbdb130b320410e2b80fd90bad03f14ea44d05be18de718001b40ff29a8c353",
+      "losslessWebP": "diagnostic-incomplete-quiz-compare/chromium-mobile-quiz-step1.webp",
+      "losslessWebPBytes": 315408,
+      "losslessWebPSHA256": "ab7f2f93cd63584168deefe835e546d06a9d3f7faba79855cdc1fb0d60a417c7",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-incomplete-quiz-compare/webkit-desktop-quiz-results.png",
+      "originalPNGBytes": 418767,
+      "originalPNGSHA256": "9dbbba88e991b37a072fe39ae9ca7133964bc4c2545519b0378d65e3f91d005b",
+      "losslessWebP": "diagnostic-incomplete-quiz-compare/webkit-desktop-quiz-results.webp",
+      "losslessWebPBytes": 188170,
+      "losslessWebPSHA256": "ee8506dfa82fba76b43ba7959063e9cdd2d9ce3fe3cc7c0979c25a1b61c40bd9",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "diagnostic-incomplete-quiz-compare/webkit-desktop-quiz-step1.png",
+      "originalPNGBytes": 1057953,
+      "originalPNGSHA256": "5a8b46fa43851cef339f645f902f89f9b0f38c9de5141de0bda2c75afbf0f027",
+      "losslessWebP": "diagnostic-incomplete-quiz-compare/webkit-desktop-quiz-step1.webp",
+      "losslessWebPBytes": 646300,
+      "losslessWebPSHA256": "c839fb9d3806b4f9083c8c493359da70e7bfa439e69c23260ed6235b5b1e1ef4",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/chromium-desktop-compare-empty.png",
+      "originalPNGBytes": 951795,
+      "originalPNGSHA256": "b0340bd83805bf397760cd7e2b5f3bc9d6078a405c7c9bf923bf56072edc258b",
+      "losslessWebP": "quiz-compare/chromium-desktop-compare-empty.webp",
+      "losslessWebPBytes": 653830,
+      "losslessWebPSHA256": "596d08da30f6b5fba3b39b0afed4d3001c4d6f80cc2370f7318db7a55307aa54",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/chromium-desktop-compare-four.png",
+      "originalPNGBytes": 1335181,
+      "originalPNGSHA256": "b78ae2e77db6bb48e2064fc579ed4cfc79f0f5d133ef2a83a7b79aabc586e0e5",
+      "losslessWebP": "quiz-compare/chromium-desktop-compare-four.webp",
+      "losslessWebPBytes": 893294,
+      "losslessWebPSHA256": "0e7a1ba5aebb01c68720ed816a421bb41d0df49e51ce91e85d8c59670b7021ee",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/chromium-desktop-compare-three.png",
+      "originalPNGBytes": 1279796,
+      "originalPNGSHA256": "6706539e734347794e3d5444e86c0ce0dd9b209cac83acc1e8894b67eae8fbda",
+      "losslessWebP": "quiz-compare/chromium-desktop-compare-three.webp",
+      "losslessWebPBytes": 847242,
+      "losslessWebPSHA256": "68ea827f0fab8fb72fcf38f091ca53954dfb89678d534c3be7b24f0fd2b39820",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/chromium-desktop-quiz-results.png",
+      "originalPNGBytes": 762125,
+      "originalPNGSHA256": "f9bf33cc32969eb5b2fd3090aff9cc1cefaec19867a0a852cdb966df1571b5d3",
+      "losslessWebP": "quiz-compare/chromium-desktop-quiz-results.webp",
+      "losslessWebPBytes": 445154,
+      "losslessWebPSHA256": "ef89d17e9e3c4f31c115fd1198f695f0c0023449276a88087eee689b8b6943eb",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/chromium-desktop-quiz-step1.png",
+      "originalPNGBytes": 1313702,
+      "originalPNGSHA256": "30f493dd3ce2b12d9fce1483c93d27601ee7f7a197ac36132169a478f8c5f805",
+      "losslessWebP": "quiz-compare/chromium-desktop-quiz-step1.webp",
+      "losslessWebPBytes": 894560,
+      "losslessWebPSHA256": "f6be780e970fab2d06ed1153bdbc0c8d9f0bdbc55db0bbf8518e73dabf34f365",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/chromium-mobile-compare-empty.png",
+      "originalPNGBytes": 221651,
+      "originalPNGSHA256": "5ebdcb628e71aa6dcdfa2bb27d61c094e69b0c628ef992ba15b2fa172e837c0d",
+      "losslessWebP": "quiz-compare/chromium-mobile-compare-empty.webp",
+      "losslessWebPBytes": 153254,
+      "losslessWebPSHA256": "8fa7b23ff1496454f59cfcab6d4ed7dc91836ca0297dd618f329ed81d2d30f58",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/chromium-mobile-compare-four.png",
+      "originalPNGBytes": 414472,
+      "originalPNGSHA256": "409d9c3e6d0e37b0cd55cb0d41489fe07a804b76e2130450793ed27c13509340",
+      "losslessWebP": "quiz-compare/chromium-mobile-compare-four.webp",
+      "losslessWebPBytes": 269998,
+      "losslessWebPSHA256": "a49d66ddd2c780227d23cfa25b784fcd0c806086e2e4d6e49848fc291a7d4048",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/chromium-mobile-compare-three.png",
+      "originalPNGBytes": 377635,
+      "originalPNGSHA256": "3287e59f745a591ce0d061acec462da880f5c11b553e36245db7f83e84c66827",
+      "losslessWebP": "quiz-compare/chromium-mobile-compare-three.webp",
+      "losslessWebPBytes": 241406,
+      "losslessWebPSHA256": "a4dcc543b6e21095f65a718ace8a03b92f8233cd5d14a01bb7f9a3d545649387",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/chromium-mobile-quiz-results.png",
+      "originalPNGBytes": 547306,
+      "originalPNGSHA256": "fb1bf7e88dcb523db8144401e18d613661f630b2cf692d6f84ca1bea7c00e4fd",
+      "losslessWebP": "quiz-compare/chromium-mobile-quiz-results.webp",
+      "losslessWebPBytes": 316796,
+      "losslessWebPSHA256": "18ce804abd194a0e8c35003f690a184bc5fa1e7219d8bc945f4fe393341edd6c",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/chromium-mobile-quiz-step1.png",
+      "originalPNGBytes": 456705,
+      "originalPNGSHA256": "d5881dcfef9dc68cda19b5141fc0df77025692c587e2ee8376b5b7c5e0e7a48b",
+      "losslessWebP": "quiz-compare/chromium-mobile-quiz-step1.webp",
+      "losslessWebPBytes": 315540,
+      "losslessWebPSHA256": "1a877cdfe64a7aa0dbd99187b53ec5eabb31a5dcfd25fae91fa7c69c69d04d24",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/webkit-desktop-compare-empty.png",
+      "originalPNGBytes": 993050,
+      "originalPNGSHA256": "44f2110aa30608301d31198f34a595b0d2c0ff6da07c91bdbd2635dbaa14bebe",
+      "losslessWebP": "quiz-compare/webkit-desktop-compare-empty.webp",
+      "losslessWebPBytes": 609872,
+      "losslessWebPSHA256": "3bae6d60308f4da4c555eef66154103787254ba1d1bf9aa891d2f514b5454f6d",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/webkit-desktop-compare-four.png",
+      "originalPNGBytes": 1401715,
+      "originalPNGSHA256": "35809b5d20e61f59c0b955cda067a89801e7283d6b1ccf0e9329daa8cc245340",
+      "losslessWebP": "quiz-compare/webkit-desktop-compare-four.webp",
+      "losslessWebPBytes": 832752,
+      "losslessWebPSHA256": "a0ee51a96b8a48976945ad503c4b0ea2371c4c7803b0d1330e36abf5f5e1d8f7",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/webkit-desktop-compare-three.png",
+      "originalPNGBytes": 1302491,
+      "originalPNGSHA256": "2c5c94e76b9b4e6c68ddd5a8b030b3745593584f3661b52667a15acb57581bd6",
+      "losslessWebP": "quiz-compare/webkit-desktop-compare-three.webp",
+      "losslessWebPBytes": 769138,
+      "losslessWebPSHA256": "48f0ab846e645df4c4edf444bab67f91333eb203e260fbcd9972c32654a0e3db",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/webkit-desktop-quiz-results.png",
+      "originalPNGBytes": 418767,
+      "originalPNGSHA256": "9dbbba88e991b37a072fe39ae9ca7133964bc4c2545519b0378d65e3f91d005b",
+      "losslessWebP": "quiz-compare/webkit-desktop-quiz-results.webp",
+      "losslessWebPBytes": 188170,
+      "losslessWebPSHA256": "ee8506dfa82fba76b43ba7959063e9cdd2d9ce3fe3cc7c0979c25a1b61c40bd9",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/webkit-desktop-quiz-step1.png",
+      "originalPNGBytes": 1057953,
+      "originalPNGSHA256": "5a8b46fa43851cef339f645f902f89f9b0f38c9de5141de0bda2c75afbf0f027",
+      "losslessWebP": "quiz-compare/webkit-desktop-quiz-step1.webp",
+      "losslessWebPBytes": 646300,
+      "losslessWebPSHA256": "c839fb9d3806b4f9083c8c493359da70e7bfa439e69c23260ed6235b5b1e1ef4",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/webkit-mobile-compare-empty.png",
+      "originalPNGBytes": 234859,
+      "originalPNGSHA256": "c2da82c9fecbf390d4e66da964c89078731a6b1bbdc52b6f7018d67a8e044c5f",
+      "losslessWebP": "quiz-compare/webkit-mobile-compare-empty.webp",
+      "losslessWebPBytes": 136376,
+      "losslessWebPSHA256": "dd89c2d7555b2c89f687261c5b4e52d6d7b1ae979325c550ceac9b5f3038ed82",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/webkit-mobile-compare-four.png",
+      "originalPNGBytes": 455437,
+      "originalPNGSHA256": "b06c94ec925dc377f02a04ab3e35a3df2afb8d9f9259cf4f4f07c7b250495737",
+      "losslessWebP": "quiz-compare/webkit-mobile-compare-four.webp",
+      "losslessWebPBytes": 256948,
+      "losslessWebPSHA256": "96cc5d02109cc8d980a7d981a26a4518f19248bfa233a2fdd3a6362f3e81d800",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/webkit-mobile-compare-three.png",
+      "originalPNGBytes": 402990,
+      "originalPNGSHA256": "b6cfb80c02099b4278b8e3e010cc8f136354754a964cfe33aebe4cdc5e587246",
+      "losslessWebP": "quiz-compare/webkit-mobile-compare-three.webp",
+      "losslessWebPBytes": 223316,
+      "losslessWebPSHA256": "8ba10bea0687e3a72d8b5ae8dd813aad104d7745791d82055721f8cebf7b310a",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/webkit-mobile-quiz-results.png",
+      "originalPNGBytes": 370948,
+      "originalPNGSHA256": "54ecd10f607f20def1ed6dd6e3cbf7d92edb6a23547c2b59a7eccbbae515ccc8",
+      "losslessWebP": "quiz-compare/webkit-mobile-quiz-results.webp",
+      "losslessWebPBytes": 150124,
+      "losslessWebPSHA256": "39c11924d47b026f0e54965c1f99862f743e3bb939bd326dd630b0dc28b0e8cc",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    },
+    {
+      "originalPNG": "quiz-compare/webkit-mobile-quiz-step1.png",
+      "originalPNGBytes": 385534,
+      "originalPNGSHA256": "c98c23b4ae36b15be435c786de276aa1ef54508b7731e853d4654938bcc2aa5f",
+      "losslessWebP": "quiz-compare/webkit-mobile-quiz-step1.webp",
+      "losslessWebPBytes": 228322,
+      "losslessWebPSHA256": "3db8330a64780f0a88d77a125124d5a565682f1ce57094c8635d4d557fa680c6",
+      "absoluteErrorPixels": 0,
+      "validation": "ImageMagick compare -metric AE = 0; byte-identical PNG inputs share this validated encoding"
+    }
+  ],
+  "rawReportArchives": [
+    {
+      "deliveredJSON": "after/browser-results.json",
+      "originalRawJSONArchive": "raw-reports/after/browser-results.json.gz",
+      "originalRawJSONSHA256": "cdbc6b8cfff2ccd3e1a6c939ecb4aa7f26286a6a717190bae2c66f0e682cd5eb",
+      "onlyChanges": "Screenshot filename references from .png to .webp; all assertions, results, error events, source/build fingerprint keys and values retained"
+    },
+    {
+      "deliveredJSON": "before/capture-results.json",
+      "originalRawJSONArchive": "raw-reports/before/capture-results.json.gz",
+      "originalRawJSONSHA256": "5c07ae30de2e88f2b6ab81cbbdaac4fe808415f7114b20f6171e9cb0e8d557d5",
+      "onlyChanges": "Screenshot filename references from .png to .webp; all assertions, results, error events, source/build fingerprint keys and values retained"
+    },
+    {
+      "deliveredJSON": "diagnostic-before-category-fix/browser-results.json",
+      "originalRawJSONArchive": "raw-reports/diagnostic-before-category-fix/browser-results.json.gz",
+      "originalRawJSONSHA256": "8ef5685ffe48da164e479d3486b4858f627e68fe221077f077d9829de669c2fe",
+      "onlyChanges": "Screenshot filename references from .png to .webp; all assertions, results, error events, source/build fingerprint keys and values retained"
+    },
+    {
+      "deliveredJSON": "diagnostic-font-navigation/browser-results.json",
+      "originalRawJSONArchive": "raw-reports/diagnostic-font-navigation/browser-results.json.gz",
+      "originalRawJSONSHA256": "f09d0474ca07a25b284a0848b0f34f07bb2156541788884eac9fc30ce84ed889",
+      "onlyChanges": "Screenshot filename references from .png to .webp; all assertions, results, error events, source/build fingerprint keys and values retained"
+    },
+    {
+      "deliveredJSON": "diagnostic-incomplete-quiz-compare/browser-results.json",
+      "originalRawJSONArchive": "raw-reports/diagnostic-incomplete-quiz-compare/browser-results.json.gz",
+      "originalRawJSONSHA256": "9dee9b64f700cdd464d3f6b466d90c5ce9697f1236ccf4950a11d47b0c133089",
+      "onlyChanges": "Screenshot filename references from .png to .webp; all assertions, results, error events, source/build fingerprint keys and values retained"
+    },
+    {
+      "deliveredJSON": "quiz-compare/browser-results.json",
+      "originalRawJSONArchive": "raw-reports/quiz-compare/browser-results.json.gz",
+      "originalRawJSONSHA256": "3e9faa284f472091f0f3f0049353e20f3c05b5f8843a86ccc8746e74776d5b98",
+      "onlyChanges": "Screenshot filename references from .png to .webp; all assertions, results, error events, source/build fingerprint keys and values retained"
+    }
+  ],
+  "scope": "Only new docs/homepage-visual-update/tests artifacts. No pre-existing docs, application code, product/editorial images, tests/assertions/results or source/build fingerprint paths changed.",
+  "uniqueOriginalPNGBytes": 128598672,
+  "uniqueLosslessWebPBytes": 88269030,
+  "distinctLosslessWebPGroups": 144
+}

@@ -1,0 +1,1 @@
+The unchanged historical Quiz/Compare checker was interrupted before completion because a Homepage category CSS fix required a new frozen source/build snapshot. This is incomplete diagnostic evidence, not a complete passing suite. The original checker will be rerun after the fix.

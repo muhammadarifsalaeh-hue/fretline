@@ -1,0 +1,30 @@
+{
+  "role": "homepage practice illustration; never a catalog/product photo",
+  "source": "Image 3 attached by the user in PREMIUM HOMEPAGE VISUAL UPDATE",
+  "sourceFile": "sources/practice-player-original.jpg",
+  "sourceSHA256": "c22920d26d555ea2d5e639c331f0512c690fd3a0c88d79e52245487cb2ede9fb",
+  "sourceDimensions": [
+    1280,
+    853
+  ],
+  "permissionContext": "User explicitly supplied this photograph and instructed its use as the Practice background. No separate author, attribution requirement or license document was supplied. No manufacturer endorsement is asserted.",
+  "changes": "Only proportional resize and WebP compression; photographic content not regenerated or retouched. Layout gradients and responsive framing are CSS, not baked into the image.",
+  "replacedAsset": "DISCOVERY_PHOTOGRAPHY.electricPlayer is left intact for Quiz and its existing credits.",
+  "variants": [
+    {
+      "path": "src/assets/home-scenes/practice-long-haired-guitarist-1280.webp",
+      "bytes": 164364,
+      "sha256": "6b7109ab9ad48df076eccdef8fe7b554312e85112ba60af995b662145b8f7df1"
+    },
+    {
+      "path": "src/assets/home-scenes/practice-long-haired-guitarist-480.webp",
+      "bytes": 38740,
+      "sha256": "6513d40286a6af79156b2852140f641d577ba8ffab59807feb01abaefd84027b"
+    },
+    {
+      "path": "src/assets/home-scenes/practice-long-haired-guitarist-960.webp",
+      "bytes": 106418,
+      "sha256": "b408db859526b5214cd25e051107560ee79a7c8481557a87c3102ca95056584e"
+    }
+  ]
+}

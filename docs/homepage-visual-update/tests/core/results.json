@@ -1,0 +1,22 @@
+[
+  {
+    "command": "npm run catalog:check",
+    "exitCode": 0,
+    "durationSeconds": 0.28
+  },
+  {
+    "command": "npm run images:check",
+    "exitCode": 0,
+    "durationSeconds": 0.26
+  },
+  {
+    "command": "npm run practice:check",
+    "exitCode": 0,
+    "durationSeconds": 0.28
+  },
+  {
+    "command": "npm run phase4:check",
+    "exitCode": 0,
+    "durationSeconds": 2.21
+  }
+]

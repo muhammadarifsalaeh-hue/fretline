@@ -1,0 +1,389 @@
+{
+  "baseURL": "http://127.0.0.1:5451",
+  "physicalIPadSafariTested": false,
+  "checks": [
+    {
+      "name": "chromium-desktop-fullbleed-category-grid",
+      "passed": false,
+      "error": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 35, in check\n    evidence = function()\n               ^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 253, in <lambda>\n    check(f'{engine}-{size}-fullbleed-category-grid', lambda: categories(page, engine, size), page)\n                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 98, in categories\n    assert r[0]['y'] + r[0]['height'] < r[2]['y'], r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: [{'x': 120, 'y': 738, 'width': 591, 'height': 262.65625}, {'x': 729, 'y': 738, 'width': 591, 'height': 262.65625}, {'x': 120, 'y': 416.65625, 'width': 591, 'height': 262.65625}, {'x': 729, 'y': 416.65625, 'width': 591, 'height': 262.65625}]\n",
+      "url": "http://127.0.0.1:5451/",
+      "screenshot": "chromium-desktop-fullbleed-category-grid-FAIL.webp"
+    },
+    {
+      "name": "chromium-desktop-three-mode-card-layout",
+      "passed": true,
+      "evidence": {
+        "stacked": false,
+        "cards": [
+          {
+            "id": "home-practice",
+            "rect": {
+              "x": 120,
+              "y": 330.3125,
+              "width": 605.40625,
+              "height": 670.828125
+            }
+          },
+          {
+            "id": "find",
+            "rect": {
+              "x": 743.40625,
+              "y": 330.3125,
+              "width": 576.59375,
+              "height": 326.40625
+            }
+          },
+          {
+            "id": "compare",
+            "rect": {
+              "x": 743.40625,
+              "y": 674.71875,
+              "width": 576.59375,
+              "height": 326.421875
+            }
+          }
+        ],
+        "practicePhoto": {
+          "src": "http://127.0.0.1:5451/assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp",
+          "width": 1100,
+          "height": 733,
+          "fit": "cover",
+          "loading": "lazy",
+          "srcset": "/assets/practice-long-haired-guitarist-480-CmUXeQrM.webp 480w, /assets/practice-long-haired-guitarist-960-DbsC5006.webp 960w, /assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp 1280w",
+          "sizes": "(min-width:1440px) 1100px, (min-width:1024px) 1000px, (min-width:640px) 960px, 920px"
+        },
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "chromium-desktop-preserved-home-sections",
+      "passed": true,
+      "evidence": {
+        "heroSlides": 3,
+        "brandLinks": 10,
+        "featuredTabs": 4,
+        "featuredScroll": true,
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "chromium-desktop-navigation-real-data-state",
+      "passed": true,
+      "evidence": {
+        "categoryRoutes": [
+          {
+            "category": "electric",
+            "actualCatalogCount": 90
+          },
+          {
+            "category": "acoustic",
+            "actualCatalogCount": 73
+          },
+          {
+            "category": "classical",
+            "actualCatalogCount": 20
+          },
+          {
+            "category": "bass",
+            "actualCatalogCount": 17
+          }
+        ],
+        "allThreeModeCTAs": true,
+        "practice42AndChordSelection": true,
+        "quizFirstQuestion": true,
+        "compareFourSlots": true,
+        "heroSearchWishlistCompare": true
+      }
+    },
+    {
+      "name": "chromium-landscape-fullbleed-category-grid",
+      "passed": false,
+      "error": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 35, in check\n    evidence = function()\n               ^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 253, in <lambda>\n    check(f'{engine}-{size}-fullbleed-category-grid', lambda: categories(page, engine, size), page)\n                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 98, in categories\n    assert r[0]['y'] + r[0]['height'] < r[2]['y'], r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: [{'x': 40, 'y': 591, 'width': 548, 'height': 243.546875}, {'x': 606, 'y': 591, 'width': 548, 'height': 243.546875}, {'x': 40, 'y': 343.546875, 'width': 548, 'height': 243.546875}, {'x': 606, 'y': 343.546875, 'width': 548, 'height': 243.546875}]\n",
+      "url": "http://127.0.0.1:5451/",
+      "screenshot": "chromium-landscape-fullbleed-category-grid-FAIL.webp"
+    },
+    {
+      "name": "chromium-landscape-three-mode-card-layout",
+      "passed": true,
+      "evidence": {
+        "stacked": false,
+        "cards": [
+          {
+            "id": "home-practice",
+            "rect": {
+              "x": 40,
+              "y": 180.09375,
+              "width": 561.359375,
+              "height": 655.171875
+            }
+          },
+          {
+            "id": "find",
+            "rect": {
+              "x": 619.359375,
+              "y": 180.09375,
+              "width": 534.640625,
+              "height": 318.578125
+            }
+          },
+          {
+            "id": "compare",
+            "rect": {
+              "x": 619.359375,
+              "y": 516.671875,
+              "width": 534.640625,
+              "height": 318.59375
+            }
+          }
+        ],
+        "practicePhoto": {
+          "src": "http://127.0.0.1:5451/assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp",
+          "width": 1000,
+          "height": 666,
+          "fit": "cover",
+          "loading": "lazy",
+          "srcset": "/assets/practice-long-haired-guitarist-480-CmUXeQrM.webp 480w, /assets/practice-long-haired-guitarist-960-DbsC5006.webp 960w, /assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp 1280w",
+          "sizes": "(min-width:1440px) 1100px, (min-width:1024px) 1000px, (min-width:640px) 960px, 920px"
+        },
+        "width": 1194,
+        "scrollWidth": 1194
+      }
+    },
+    {
+      "name": "chromium-landscape-preserved-home-sections",
+      "passed": true,
+      "evidence": {
+        "heroSlides": 3,
+        "brandLinks": 10,
+        "featuredTabs": 4,
+        "featuredScroll": true,
+        "width": 1194,
+        "scrollWidth": 1194
+      }
+    },
+    {
+      "name": "chromium-portrait-fullbleed-category-grid",
+      "passed": false,
+      "error": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 35, in check\n    evidence = function()\n               ^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 253, in <lambda>\n    check(f'{engine}-{size}-fullbleed-category-grid', lambda: categories(page, engine, size), page)\n                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 97, in categories\n    assert abs(r[0]['x'] - r[2]['x']) < 2 and r[0]['x'] + r[0]['width'] < r[1]['x'], r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: [{'x': 32, 'y': 803, 'width': 461.25, 'height': 205}, {'x': 308, 'y': 803, 'width': 461.25, 'height': 205}, {'x': -1, 'y': 449, 'width': 461.25, 'height': 205}, {'x': 308, 'y': 449, 'width': 461.25, 'height': 205}]\n",
+      "url": "http://127.0.0.1:5451/",
+      "screenshot": "chromium-portrait-fullbleed-category-grid-FAIL.webp"
+    },
+    {
+      "name": "chromium-portrait-three-mode-card-layout",
+      "passed": false,
+      "error": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 35, in check\n    evidence = function()\n               ^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 254, in <lambda>\n    check(f'{engine}-{size}-three-mode-card-layout', lambda: mode_cards(page, engine, size), page)\n                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 154, in mode_cards\n    return {'stacked': stack, 'cards': card_rows, 'practicePhoto': practice_photo, **metrics(page)}\n                                                                                     ^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 57, in metrics\n    assert data['scrollWidth'] <= data['width'] + 1, data\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'width': 768, 'scrollWidth': 854}\n",
+      "url": "http://127.0.0.1:5451/",
+      "screenshot": "chromium-portrait-three-mode-card-layout-FAIL.webp"
+    },
+    {
+      "name": "chromium-portrait-preserved-home-sections",
+      "passed": false,
+      "error": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 35, in check\n    evidence = function()\n               ^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 255, in <lambda>\n    check(f'{engine}-{size}-preserved-home-sections', lambda: preserved_home(page, engine, size), page)\n                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 178, in preserved_home\n    return {'heroSlides': 3, 'brandLinks': 10, 'featuredTabs': 4, 'featuredScroll': True, **metrics(page)}\n                                                                                            ^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 57, in metrics\n    assert data['scrollWidth'] <= data['width'] + 1, data\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'width': 768, 'scrollWidth': 854}\n",
+      "url": "http://127.0.0.1:5451/",
+      "screenshot": "chromium-portrait-preserved-home-sections-FAIL.webp"
+    },
+    {
+      "name": "chromium-mobile-fullbleed-category-grid",
+      "passed": false,
+      "error": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 35, in check\n    evidence = function()\n               ^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 253, in <lambda>\n    check(f'{engine}-{size}-fullbleed-category-grid', lambda: categories(page, engine, size), page)\n                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 100, in categories\n    assert all(r[i]['y'] + r[i]['height'] < r[i + 1]['y'] for i in range(3)), r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: [{'x': -1, 'y': 655.1875, 'width': 408.5, 'height': 190}, {'x': -1, 'y': 367.1875, 'width': 408.5, 'height': 190}, {'x': -1, 'y': 571.1875, 'width': 408.5, 'height': 190}, {'x': -1, 'y': 655.1875, 'width': 408.5, 'height': 190}]\n",
+      "url": "http://127.0.0.1:5451/",
+      "screenshot": "chromium-mobile-fullbleed-category-grid-FAIL.webp"
+    },
+    {
+      "name": "chromium-mobile-three-mode-card-layout",
+      "passed": false,
+      "error": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 35, in check\n    evidence = function()\n               ^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 254, in <lambda>\n    check(f'{engine}-{size}-three-mode-card-layout', lambda: mode_cards(page, engine, size), page)\n                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 154, in mode_cards\n    return {'stacked': stack, 'cards': card_rows, 'practicePhoto': practice_photo, **metrics(page)}\n                                                                                     ^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 57, in metrics\n    assert data['scrollWidth'] <= data['width'] + 1, data\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'width': 390, 'scrollWidth': 429}\n",
+      "url": "http://127.0.0.1:5451/",
+      "screenshot": "chromium-mobile-three-mode-card-layout-FAIL.webp"
+    },
+    {
+      "name": "chromium-mobile-preserved-home-sections",
+      "passed": false,
+      "error": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 35, in check\n    evidence = function()\n               ^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 255, in <lambda>\n    check(f'{engine}-{size}-preserved-home-sections', lambda: preserved_home(page, engine, size), page)\n                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 178, in preserved_home\n    return {'heroSlides': 3, 'brandLinks': 10, 'featuredTabs': 4, 'featuredScroll': True, **metrics(page)}\n                                                                                            ^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 57, in metrics\n    assert data['scrollWidth'] <= data['width'] + 1, data\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'width': 390, 'scrollWidth': 429}\n",
+      "url": "http://127.0.0.1:5451/",
+      "screenshot": "chromium-mobile-preserved-home-sections-FAIL.webp"
+    },
+    {
+      "name": "chromium-mobile-navigation-real-data-state",
+      "passed": true,
+      "evidence": {
+        "categoryRoutes": [
+          {
+            "category": "electric",
+            "actualCatalogCount": 90
+          },
+          {
+            "category": "acoustic",
+            "actualCatalogCount": 73
+          },
+          {
+            "category": "classical",
+            "actualCatalogCount": 20
+          },
+          {
+            "category": "bass",
+            "actualCatalogCount": 17
+          }
+        ],
+        "allThreeModeCTAs": true,
+        "practice42AndChordSelection": true,
+        "quizFirstQuestion": true,
+        "compareFourSlots": true,
+        "heroSearchWishlistCompare": true
+      }
+    },
+    {
+      "name": "chromium-narrow-fullbleed-category-grid",
+      "passed": false,
+      "error": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 35, in check\n    evidence = function()\n               ^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 253, in <lambda>\n    check(f'{engine}-{size}-fullbleed-category-grid', lambda: categories(page, engine, size), page)\n                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 100, in categories\n    assert all(r[i]['y'] + r[i]['height'] < r[i + 1]['y'] for i in range(3)), r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: [{'x': -1, 'y': 315.1875, 'width': 408.5, 'height': 190}, {'x': -1, 'y': 519.1875, 'width': 408.5, 'height': 190}, {'x': -1, 'y': 551.1875, 'width': 408.5, 'height': 190}, {'x': -1, 'y': 315.1875, 'width': 408.5, 'height': 190}]\n",
+      "url": "http://127.0.0.1:5451/",
+      "screenshot": "chromium-narrow-fullbleed-category-grid-FAIL.webp"
+    },
+    {
+      "name": "chromium-narrow-three-mode-card-layout",
+      "passed": false,
+      "error": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 35, in check\n    evidence = function()\n               ^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 254, in <lambda>\n    check(f'{engine}-{size}-three-mode-card-layout', lambda: mode_cards(page, engine, size), page)\n                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 154, in mode_cards\n    return {'stacked': stack, 'cards': card_rows, 'practicePhoto': practice_photo, **metrics(page)}\n                                                                                     ^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 57, in metrics\n    assert data['scrollWidth'] <= data['width'] + 1, data\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'width': 320, 'scrollWidth': 429}\n",
+      "url": "http://127.0.0.1:5451/",
+      "screenshot": "chromium-narrow-three-mode-card-layout-FAIL.webp"
+    },
+    {
+      "name": "chromium-narrow-preserved-home-sections",
+      "passed": false,
+      "error": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 35, in check\n    evidence = function()\n               ^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 255, in <lambda>\n    check(f'{engine}-{size}-preserved-home-sections', lambda: preserved_home(page, engine, size), page)\n                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 178, in preserved_home\n    return {'heroSlides': 3, 'brandLinks': 10, 'featuredTabs': 4, 'featuredScroll': True, **metrics(page)}\n                                                                                            ^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 57, in metrics\n    assert data['scrollWidth'] <= data['width'] + 1, data\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'width': 320, 'scrollWidth': 429}\n",
+      "url": "http://127.0.0.1:5451/",
+      "screenshot": "chromium-narrow-preserved-home-sections-FAIL.webp"
+    },
+    {
+      "name": "chromium-portrait-edge-fullbleed-category-grid",
+      "passed": false,
+      "error": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 35, in check\n    evidence = function()\n               ^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 253, in <lambda>\n    check(f'{engine}-{size}-fullbleed-category-grid', lambda: categories(page, engine, size), page)\n                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 97, in categories\n    assert abs(r[0]['x'] - r[2]['x']) < 2 and r[0]['x'] + r[0]['width'] < r[1]['x'], r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: [{'x': 40, 'y': 819, 'width': 517.5, 'height': 230}, {'x': 507, 'y': 819, 'width': 517.5, 'height': 230}, {'x': 26, 'y': 1067, 'width': 517.5, 'height': 230}, {'x': 507, 'y': 1067, 'width': 517.5, 'height': 230}]\n",
+      "url": "http://127.0.0.1:5451/",
+      "screenshot": "chromium-portrait-edge-fullbleed-category-grid-FAIL.webp"
+    },
+    {
+      "name": "chromium-portrait-edge-three-mode-card-layout",
+      "passed": false,
+      "error": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 35, in check\n    evidence = function()\n               ^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 254, in <lambda>\n    check(f'{engine}-{size}-three-mode-card-layout', lambda: mode_cards(page, engine, size), page)\n                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 154, in mode_cards\n    return {'stacked': stack, 'cards': card_rows, 'practicePhoto': practice_photo, **metrics(page)}\n                                                                                     ^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 57, in metrics\n    assert data['scrollWidth'] <= data['width'] + 1, data\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'width': 1024, 'scrollWidth': 1039}\n",
+      "url": "http://127.0.0.1:5451/",
+      "screenshot": "chromium-portrait-edge-three-mode-card-layout-FAIL.webp"
+    },
+    {
+      "name": "chromium-portrait-edge-preserved-home-sections",
+      "passed": false,
+      "error": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 35, in check\n    evidence = function()\n               ^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 255, in <lambda>\n    check(f'{engine}-{size}-preserved-home-sections', lambda: preserved_home(page, engine, size), page)\n                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 178, in preserved_home\n    return {'heroSlides': 3, 'brandLinks': 10, 'featuredTabs': 4, 'featuredScroll': True, **metrics(page)}\n                                                                                            ^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 57, in metrics\n    assert data['scrollWidth'] <= data['width'] + 1, data\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'width': 1024, 'scrollWidth': 1039}\n",
+      "url": "http://127.0.0.1:5451/",
+      "screenshot": "chromium-portrait-edge-preserved-home-sections-FAIL.webp"
+    },
+    {
+      "name": "chromium-normal-motion-hero-brand",
+      "passed": true,
+      "evidence": {
+        "heroBefore": "0",
+        "heroAfter": "1",
+        "brandAuto": [
+          2037,
+          2053
+        ],
+        "brandDrag": 2534,
+        "brandAutoResumed": 2552
+      }
+    },
+    {
+      "name": "webkit-desktop-fullbleed-category-grid",
+      "passed": false,
+      "error": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 35, in check\n    evidence = function()\n               ^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 253, in <lambda>\n    check(f'{engine}-{size}-fullbleed-category-grid', lambda: categories(page, engine, size), page)\n                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/fretline/docs/homepage-visual-update/tests/browser-visual-update.py\", line 98, in categories\n    assert r[0]['y'] + r[0]['height'] < r[2]['y'], r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: [{'x': 120, 'y': 738, 'width': 591, 'height': 262.65625}, {'x': 729, 'y': 738, 'width': 591, 'height': 262.65625}, {'x': 120, 'y': 737.65625, 'width': 591, 'height': 262.65625}, {'x': 729, 'y': 737.65625, 'width': 591, 'height': 262.65625}]\n",
+      "url": "http://127.0.0.1:5451/",
+      "screenshot": "webkit-desktop-fullbleed-category-grid-FAIL.webp"
+    },
+    {
+      "name": "webkit-desktop-three-mode-card-layout",
+      "passed": true,
+      "evidence": {
+        "stacked": false,
+        "cards": [
+          {
+            "id": "home-practice",
+            "rect": {
+              "x": 120,
+              "y": 301.3125,
+              "width": 605.40625,
+              "height": 699.328125
+            }
+          },
+          {
+            "id": "find",
+            "rect": {
+              "x": 743.40625,
+              "y": 301.3125,
+              "width": 576.59375,
+              "height": 340.65625
+            }
+          },
+          {
+            "id": "compare",
+            "rect": {
+              "x": 743.40625,
+              "y": 659.96875,
+              "width": 576.59375,
+              "height": 340.671875
+            }
+          }
+        ],
+        "practicePhoto": {
+          "src": "http://127.0.0.1:5451/assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp",
+          "width": 1100,
+          "height": 733,
+          "fit": "cover",
+          "loading": "lazy",
+          "srcset": "/assets/practice-long-haired-guitarist-480-CmUXeQrM.webp 480w, /assets/practice-long-haired-guitarist-960-DbsC5006.webp 960w, /assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp 1280w",
+          "sizes": "(min-width:1440px) 1100px, (min-width:1024px) 1000px, (min-width:640px) 960px, 920px"
+        },
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "webkit-desktop-preserved-home-sections",
+      "passed": true,
+      "evidence": {
+        "heroSlides": 3,
+        "brandLinks": 10,
+        "featuredTabs": 4,
+        "featuredScroll": true,
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "networkErrors": [],
+  "failedRequests": [],
+  "screenshots": [
+    "chromium-desktop-features.webp",
+    "chromium-desktop-home.webp",
+    "chromium-landscape-features.webp",
+    "chromium-landscape-home.webp",
+    "chromium-portrait-features.webp",
+    "chromium-portrait-home.webp",
+    "chromium-mobile-features.webp",
+    "chromium-mobile-home.webp",
+    "chromium-narrow-features.webp",
+    "chromium-narrow-home.webp",
+    "chromium-portrait-edge-features.webp",
+    "chromium-portrait-edge-home.webp",
+    "webkit-desktop-features.webp",
+    "webkit-desktop-home.webp"
+  ],
+  "servedHTMLSHA256": "a0009a9f20c3eb6158198eba6a37aa8679bd8a79d0a5aef50197e347824adb8a",
+  "notes": [
+    "Linux WebKit with synthetic touch does not certify native iPad Safari.",
+    "Category scenes are generic illustrations and never named-product evidence."
+  ],
+  "browserVersions": {
+    "chromium": "154.0.8037.57",
+    "webkit": "26.5"
+  }
+}

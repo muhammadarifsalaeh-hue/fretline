@@ -1,0 +1,147 @@
+/* Full-bleed category scenes. Extra scope keeps existing Home CSS unchanged. */
+.signature-home.premium-home #categories .signature-category-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.signature-home.premium-home .signature-category-card.signature-category-scene {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0;
+  align-self: stretch;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 230px;
+  aspect-ratio: 2.25;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #c3a16862;
+  border-radius: 15px;
+  background: #080807;
+  box-shadow: 0 12px 28px #00000030;
+  transition: border-color 220ms ease, box-shadow 220ms ease;
+}
+
+.signature-home.premium-home .signature-category-scene .signature-category-art {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.signature-home.premium-home .signature-category-scene .signature-category-art > div {
+  width: 100%;
+  height: 100%;
+  background: #080807;
+}
+
+.signature-home.premium-home .signature-category-scene .signature-category-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  object-fit: cover;
+  object-position: 43% 50%;
+  transition: transform 650ms cubic-bezier(.2,.7,.2,1), opacity 300ms ease;
+}
+
+.signature-home.premium-home .signature-category-card.signature-category-scene::after {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  content: '';
+  pointer-events: none;
+  background: linear-gradient(90deg,transparent 30%,#03040319 47%,#0304038c 100%),linear-gradient(0deg,#00000038,transparent 48%);
+}
+
+.signature-home.premium-home .signature-category-scene .signature-category-copy {
+  position: relative;
+  width: 44%;
+  min-width: 0;
+  margin-left: auto;
+  padding: 0 30px 7px 0;
+}
+
+.signature-home.premium-home .signature-category-scene .signature-category-copy h3 {
+  color: #f7f5ef;
+  font-size: clamp(21px,2.2vw,30px);
+  font-weight: 500;
+  line-height: 1.55;
+  text-wrap: balance;
+  text-shadow: 0 2px 16px #000;
+}
+
+.signature-home.premium-home .signature-category-scene .signature-category-copy p {
+  margin-top: 9px;
+  color: #d5d0c5;
+  font-size: 16px;
+  line-height: 1.5;
+  text-shadow: 0 2px 10px #000;
+}
+
+.signature-home.premium-home .signature-category-scene .signature-category-arrow {
+  position: absolute;
+  right: 22px;
+  bottom: 20px;
+  width: 44px;
+  height: 44px;
+  padding: 11px;
+  border: 1px solid #d0a75bba;
+  border-radius: 50%;
+  background: #08090755;
+  color: #e9c77e;
+  transition: color 220ms ease, background-color 220ms ease;
+}
+
+.signature-home.premium-home .signature-category-card.signature-category-scene:focus-visible {
+  outline: 2px solid var(--fl-focus);
+  outline-offset: 5px;
+  border-color: #ecc778;
+}
+
+@media (hover:hover) {
+  .signature-home.premium-home .signature-category-card.signature-category-scene:hover {
+    border-color: #d9b36ba6;
+    box-shadow: 0 12px 32px #00000050,0 0 20px #c59d3c12;
+  }
+  .signature-home.premium-home .signature-category-scene:hover .signature-category-art img {
+    transform: scale(1.035);
+  }
+  .signature-home.premium-home .signature-category-scene:hover .signature-category-arrow {
+    background: #d4ad62;
+    color: #151109;
+  }
+}
+
+@media (max-width:1023px) {
+  .signature-home.premium-home .signature-category-card.signature-category-scene { min-height: 205px; }
+  .signature-home.premium-home .signature-category-scene .signature-category-copy { width: 47%; padding-right: 18px; }
+  .signature-home.premium-home .signature-category-scene .signature-category-copy h3 { font-size: 23px; }
+  .signature-home.premium-home .signature-category-scene .signature-category-copy p { font-size: 14px; }
+  .signature-home.premium-home .signature-category-scene .signature-category-arrow { right: 17px; bottom: 15px; }
+}
+
+@media (max-width:639px) {
+  .signature-home.premium-home #categories .signature-category-grid { grid-template-columns: minmax(0,1fr); gap: 14px; }
+  .signature-home.premium-home .signature-category-card.signature-category-scene { min-height: 190px; aspect-ratio: 2.15; border-radius: 12px; }
+  .signature-home.premium-home .signature-category-scene .signature-category-copy { width: 47%; padding: 0 18px 7px 0; }
+  .signature-home.premium-home .signature-category-scene .signature-category-copy h3 { font-size: clamp(20px,5.6vw,25px); }
+  .signature-home.premium-home .signature-category-scene .signature-category-copy p { margin-top: 7px; font-size: 14px; }
+  .signature-home.premium-home .signature-category-scene .signature-category-arrow { right: 17px; bottom: 14px; }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .signature-home.premium-home .signature-category-card.signature-category-scene,
+  .signature-home.premium-home .signature-category-scene .signature-category-art img,
+  .signature-home.premium-home .signature-category-scene .signature-category-arrow { transition: none; }
+  .signature-home.premium-home .signature-category-scene:hover .signature-category-art img { transform: none; }
+}

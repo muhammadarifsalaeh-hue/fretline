@@ -4,15 +4,16 @@ import { categoryUrl } from '@/utils/routes';
 import { ArrowUpRightIcon } from '@/components/ui/Icons';
 import AppLink from '@/components/ui/AppLink';
 import SmartImage from '@/components/ui/SmartImage';
-import { HOME_CATEGORY_ASSETS } from '@/data/homeCategoryAssets';
+import { HOME_CATEGORY_SCENES } from '@/data/homeCategoryScenes';
+import '@/styles/home-category-scenes.css';
 
 export default function CategoryCard({ category, className = '' }) {
-  const photo = HOME_CATEGORY_ASSETS[category.id];
+  const photo = HOME_CATEGORY_SCENES[category.id];
   return (
-    <AppLink href={categoryUrl(category.id)} className={cn('signature-category-card', `signature-category-card--${category.id}`, className)}>
+    <AppLink href={categoryUrl(category.id)} className={cn('signature-category-card signature-category-scene', `signature-category-card--${category.id}`, className)}>
       <div className="signature-category-art" aria-hidden="true">
-        <SmartImage src={photo.src} srcSet={photo.srcSet} sizes="(min-width: 1024px) 100px, (min-width: 600px) 120px, 80px"
-          width={photo.width} height={photo.height} alt="" fit="contain" className="h-full w-full" />
+        <SmartImage src={photo.src} srcSet={photo.srcSet} sizes="(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+          width={photo.width} height={photo.height} alt="" fit="cover" className="h-full w-full" />
       </div>
       <div className="signature-category-copy">
         <h3>{category.name}</h3>

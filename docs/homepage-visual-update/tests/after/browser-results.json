@@ -1,0 +1,2267 @@
+{
+  "baseURL": "http://127.0.0.1:5451",
+  "physicalIPadSafariTested": false,
+  "checks": [
+    {
+      "name": "chromium-desktop-fullbleed-category-grid",
+      "passed": true,
+      "evidence": {
+        "actualCategoryCounts": [
+          {
+            "category": "electric",
+            "count": 90,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-electric-960-rv-QdHl2.webp",
+              "width": 640,
+              "height": 284,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-electric-480-C2ICIM6e.webp 480w, /assets/category-electric-960-rv-QdHl2.webp 960w, /assets/category-electric-1440-D5-OP41k.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 120,
+              "y": 819,
+              "width": 591,
+              "height": 262.65625
+            },
+            "copyRect": {
+              "x": 450.84375,
+              "y": 907.078125,
+              "width": 259.15625,
+              "height": 86.5
+            }
+          },
+          {
+            "category": "acoustic",
+            "count": 73,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-acoustic-960-DxgIMhvy.webp",
+              "width": 640,
+              "height": 284,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-acoustic-480-Cg1TRGcB.webp 480w, /assets/category-acoustic-960-DxgIMhvy.webp 960w, /assets/category-acoustic-1440-CWfULLq1.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 729,
+              "y": 819,
+              "width": 591,
+              "height": 262.65625
+            },
+            "copyRect": {
+              "x": 1059.84375,
+              "y": 907.078125,
+              "width": 259.15625,
+              "height": 86.5
+            }
+          },
+          {
+            "category": "classical",
+            "count": 20,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-classical-960-yyOmJ-bK.webp",
+              "width": 640,
+              "height": 284,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-classical-480-BCV1-_Ui.webp 480w, /assets/category-classical-960-yyOmJ-bK.webp 960w, /assets/category-classical-1440-DrZ5Y91j.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 120,
+              "y": 1099.65625,
+              "width": 591,
+              "height": 262.65625
+            },
+            "copyRect": {
+              "x": 450.84375,
+              "y": 1187.734375,
+              "width": 259.15625,
+              "height": 86.5
+            }
+          },
+          {
+            "category": "bass",
+            "count": 17,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-bass-960-CfYAlbzS.webp",
+              "width": 640,
+              "height": 284,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-bass-480-vCy-b6iO.webp 480w, /assets/category-bass-960-CfYAlbzS.webp 960w, /assets/category-bass-1440-BuxcaM0_.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 729,
+              "y": 1099.65625,
+              "width": 591,
+              "height": 262.65625
+            },
+            "copyRect": {
+              "x": 1059.84375,
+              "y": 1187.734375,
+              "width": 259.15625,
+              "height": 86.5
+            }
+          }
+        ],
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "chromium-desktop-three-mode-card-layout",
+      "passed": true,
+      "evidence": {
+        "stacked": false,
+        "cards": [
+          {
+            "id": "home-practice",
+            "rect": {
+              "x": 120,
+              "y": 1385.3125,
+              "width": 605.40625,
+              "height": 670.828125
+            }
+          },
+          {
+            "id": "find",
+            "rect": {
+              "x": 743.40625,
+              "y": 1385.3125,
+              "width": 576.59375,
+              "height": 326.40625
+            }
+          },
+          {
+            "id": "compare",
+            "rect": {
+              "x": 743.40625,
+              "y": 1729.71875,
+              "width": 576.59375,
+              "height": 326.421875
+            }
+          }
+        ],
+        "practicePhoto": {
+          "src": "http://127.0.0.1:5451/assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp",
+          "width": 1100,
+          "height": 733,
+          "fit": "cover",
+          "loading": "lazy",
+          "srcset": "/assets/practice-long-haired-guitarist-480-CmUXeQrM.webp 480w, /assets/practice-long-haired-guitarist-960-DbsC5006.webp 960w, /assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp 1280w",
+          "sizes": "(min-width:1440px) 1100px, (min-width:1024px) 1000px, (min-width:640px) 960px, 920px"
+        },
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "chromium-desktop-preserved-home-sections",
+      "passed": true,
+      "evidence": {
+        "heroSlides": 3,
+        "brandLinks": 10,
+        "featuredTabs": 4,
+        "featuredScroll": true,
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "chromium-desktop-navigation-real-data-state",
+      "passed": true,
+      "evidence": {
+        "categoryRoutes": [
+          {
+            "category": "electric",
+            "actualCatalogCount": 90
+          },
+          {
+            "category": "acoustic",
+            "actualCatalogCount": 73
+          },
+          {
+            "category": "classical",
+            "actualCatalogCount": 20
+          },
+          {
+            "category": "bass",
+            "actualCatalogCount": 17
+          }
+        ],
+        "allThreeModeCTAs": true,
+        "practice42AndChordSelection": true,
+        "quizFirstQuestion": true,
+        "compareFourSlots": true,
+        "heroSearchWishlistCompare": true
+      }
+    },
+    {
+      "name": "chromium-landscape-fullbleed-category-grid",
+      "passed": true,
+      "evidence": {
+        "actualCategoryCounts": [
+          {
+            "category": "electric",
+            "count": 90,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-electric-960-rv-QdHl2.webp",
+              "width": 573,
+              "height": 254,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-electric-480-C2ICIM6e.webp 480w, /assets/category-electric-960-rv-QdHl2.webp 960w, /assets/category-electric-1440-D5-OP41k.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 40,
+              "y": 819,
+              "width": 548,
+              "height": 243.546875
+            },
+            "copyRect": {
+              "x": 346.765625,
+              "y": 900.421875,
+              "width": 240.234375,
+              "height": 80.703125
+            }
+          },
+          {
+            "category": "acoustic",
+            "count": 73,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-acoustic-960-DxgIMhvy.webp",
+              "width": 573,
+              "height": 254,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-acoustic-480-Cg1TRGcB.webp 480w, /assets/category-acoustic-960-DxgIMhvy.webp 960w, /assets/category-acoustic-1440-CWfULLq1.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 606,
+              "y": 819,
+              "width": 548,
+              "height": 243.546875
+            },
+            "copyRect": {
+              "x": 912.765625,
+              "y": 900.421875,
+              "width": 240.234375,
+              "height": 80.703125
+            }
+          },
+          {
+            "category": "classical",
+            "count": 20,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-classical-960-yyOmJ-bK.webp",
+              "width": 573,
+              "height": 254,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-classical-480-BCV1-_Ui.webp 480w, /assets/category-classical-960-yyOmJ-bK.webp 960w, /assets/category-classical-1440-DrZ5Y91j.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 40,
+              "y": 1080.546875,
+              "width": 548,
+              "height": 243.546875
+            },
+            "copyRect": {
+              "x": 346.765625,
+              "y": 1161.96875,
+              "width": 240.234375,
+              "height": 80.703125
+            }
+          },
+          {
+            "category": "bass",
+            "count": 17,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-bass-960-CfYAlbzS.webp",
+              "width": 573,
+              "height": 254,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-bass-480-vCy-b6iO.webp 480w, /assets/category-bass-960-CfYAlbzS.webp 960w, /assets/category-bass-1440-BuxcaM0_.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 606,
+              "y": 1080.546875,
+              "width": 548,
+              "height": 243.546875
+            },
+            "copyRect": {
+              "x": 912.765625,
+              "y": 1161.96875,
+              "width": 240.234375,
+              "height": 80.703125
+            }
+          }
+        ],
+        "width": 1194,
+        "scrollWidth": 1194
+      }
+    },
+    {
+      "name": "chromium-landscape-three-mode-card-layout",
+      "passed": true,
+      "evidence": {
+        "stacked": false,
+        "cards": [
+          {
+            "id": "home-practice",
+            "rect": {
+              "x": 40,
+              "y": 1347.09375,
+              "width": 561.359375,
+              "height": 655.171875
+            }
+          },
+          {
+            "id": "find",
+            "rect": {
+              "x": 619.359375,
+              "y": 1347.09375,
+              "width": 534.640625,
+              "height": 318.578125
+            }
+          },
+          {
+            "id": "compare",
+            "rect": {
+              "x": 619.359375,
+              "y": 1683.671875,
+              "width": 534.640625,
+              "height": 318.59375
+            }
+          }
+        ],
+        "practicePhoto": {
+          "src": "http://127.0.0.1:5451/assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp",
+          "width": 1000,
+          "height": 666,
+          "fit": "cover",
+          "loading": "lazy",
+          "srcset": "/assets/practice-long-haired-guitarist-480-CmUXeQrM.webp 480w, /assets/practice-long-haired-guitarist-960-DbsC5006.webp 960w, /assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp 1280w",
+          "sizes": "(min-width:1440px) 1100px, (min-width:1024px) 1000px, (min-width:640px) 960px, 920px"
+        },
+        "width": 1194,
+        "scrollWidth": 1194
+      }
+    },
+    {
+      "name": "chromium-landscape-preserved-home-sections",
+      "passed": true,
+      "evidence": {
+        "heroSlides": 3,
+        "brandLinks": 10,
+        "featuredTabs": 4,
+        "featuredScroll": true,
+        "width": 1194,
+        "scrollWidth": 1194
+      }
+    },
+    {
+      "name": "chromium-portrait-fullbleed-category-grid",
+      "passed": true,
+      "evidence": {
+        "actualCategoryCounts": [
+          {
+            "category": "electric",
+            "count": 90,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-electric-480-C2ICIM6e.webp",
+              "width": 368,
+              "height": 163,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-electric-480-C2ICIM6e.webp 480w, /assets/category-electric-960-rv-QdHl2.webp 960w, /assets/category-electric-1440-D5-OP41k.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 32,
+              "y": 803,
+              "width": 343,
+              "height": 205
+            },
+            "copyRect": {
+              "x": 213.734375,
+              "y": 869.171875,
+              "width": 160.265625,
+              "height": 72.640625
+            }
+          },
+          {
+            "category": "acoustic",
+            "count": 73,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-acoustic-480-Cg1TRGcB.webp",
+              "width": 368,
+              "height": 163,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-acoustic-480-Cg1TRGcB.webp 480w, /assets/category-acoustic-960-DxgIMhvy.webp 960w, /assets/category-acoustic-1440-CWfULLq1.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 393,
+              "y": 803,
+              "width": 343,
+              "height": 205
+            },
+            "copyRect": {
+              "x": 574.734375,
+              "y": 869.171875,
+              "width": 160.265625,
+              "height": 72.640625
+            }
+          },
+          {
+            "category": "classical",
+            "count": 20,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-classical-480-BCV1-_Ui.webp",
+              "width": 368,
+              "height": 163,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-classical-480-BCV1-_Ui.webp 480w, /assets/category-classical-960-yyOmJ-bK.webp 960w, /assets/category-classical-1440-DrZ5Y91j.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 32,
+              "y": 1026,
+              "width": 343,
+              "height": 205
+            },
+            "copyRect": {
+              "x": 213.734375,
+              "y": 1092.171875,
+              "width": 160.265625,
+              "height": 72.640625
+            }
+          },
+          {
+            "category": "bass",
+            "count": 17,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-bass-480-vCy-b6iO.webp",
+              "width": 368,
+              "height": 163,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-bass-480-vCy-b6iO.webp 480w, /assets/category-bass-960-CfYAlbzS.webp 960w, /assets/category-bass-1440-BuxcaM0_.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 393,
+              "y": 1026,
+              "width": 343,
+              "height": 205
+            },
+            "copyRect": {
+              "x": 574.734375,
+              "y": 1092.171875,
+              "width": 160.265625,
+              "height": 72.640625
+            }
+          }
+        ],
+        "width": 768,
+        "scrollWidth": 768
+      }
+    },
+    {
+      "name": "chromium-portrait-three-mode-card-layout",
+      "passed": true,
+      "evidence": {
+        "stacked": true,
+        "cards": [
+          {
+            "id": "home-practice",
+            "rect": {
+              "x": 32,
+              "y": 1254,
+              "width": 704,
+              "height": 602.796875
+            }
+          },
+          {
+            "id": "find",
+            "rect": {
+              "x": 32,
+              "y": 1874.796875,
+              "width": 704,
+              "height": 332
+            }
+          },
+          {
+            "id": "compare",
+            "rect": {
+              "x": 32,
+              "y": 2224.796875,
+              "width": 704,
+              "height": 332
+            }
+          }
+        ],
+        "practicePhoto": {
+          "src": "http://127.0.0.1:5451/assets/practice-long-haired-guitarist-960-DbsC5006.webp",
+          "width": 960,
+          "height": 640,
+          "fit": "cover",
+          "loading": "lazy",
+          "srcset": "/assets/practice-long-haired-guitarist-480-CmUXeQrM.webp 480w, /assets/practice-long-haired-guitarist-960-DbsC5006.webp 960w, /assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp 1280w",
+          "sizes": "(min-width:1440px) 1100px, (min-width:1024px) 1000px, (min-width:640px) 960px, 920px"
+        },
+        "width": 768,
+        "scrollWidth": 768
+      }
+    },
+    {
+      "name": "chromium-portrait-preserved-home-sections",
+      "passed": true,
+      "evidence": {
+        "heroSlides": 3,
+        "brandLinks": 10,
+        "featuredTabs": 4,
+        "featuredScroll": true,
+        "width": 768,
+        "scrollWidth": 768
+      }
+    },
+    {
+      "name": "chromium-mobile-fullbleed-category-grid",
+      "passed": true,
+      "evidence": {
+        "actualCategoryCounts": [
+          {
+            "category": "electric",
+            "count": 90,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-electric-480-C2ICIM6e.webp",
+              "width": 389,
+              "height": 173,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-electric-480-C2ICIM6e.webp 480w, /assets/category-electric-960-rv-QdHl2.webp 960w, /assets/category-electric-1440-D5-OP41k.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 20,
+              "y": 796.1875,
+              "width": 350,
+              "height": 190
+            },
+            "copyRect": {
+              "x": 205.453125,
+              "y": 856.765625,
+              "width": 163.546875,
+              "height": 68.84375
+            }
+          },
+          {
+            "category": "acoustic",
+            "count": 73,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-acoustic-480-Cg1TRGcB.webp",
+              "width": 389,
+              "height": 173,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-acoustic-480-Cg1TRGcB.webp 480w, /assets/category-acoustic-960-DxgIMhvy.webp 960w, /assets/category-acoustic-1440-CWfULLq1.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 20,
+              "y": 1000.1875,
+              "width": 350,
+              "height": 190
+            },
+            "copyRect": {
+              "x": 205.453125,
+              "y": 1060.765625,
+              "width": 163.546875,
+              "height": 68.84375
+            }
+          },
+          {
+            "category": "classical",
+            "count": 20,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-classical-480-BCV1-_Ui.webp",
+              "width": 389,
+              "height": 173,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-classical-480-BCV1-_Ui.webp 480w, /assets/category-classical-960-yyOmJ-bK.webp 960w, /assets/category-classical-1440-DrZ5Y91j.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 20,
+              "y": 1204.1875,
+              "width": 350,
+              "height": 190
+            },
+            "copyRect": {
+              "x": 205.453125,
+              "y": 1264.765625,
+              "width": 163.546875,
+              "height": 68.84375
+            }
+          },
+          {
+            "category": "bass",
+            "count": 17,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-bass-480-vCy-b6iO.webp",
+              "width": 389,
+              "height": 173,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-bass-480-vCy-b6iO.webp 480w, /assets/category-bass-960-CfYAlbzS.webp 960w, /assets/category-bass-1440-BuxcaM0_.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 20,
+              "y": 1408.1875,
+              "width": 350,
+              "height": 190
+            },
+            "copyRect": {
+              "x": 205.453125,
+              "y": 1468.765625,
+              "width": 163.546875,
+              "height": 68.84375
+            }
+          }
+        ],
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "chromium-mobile-three-mode-card-layout",
+      "passed": true,
+      "evidence": {
+        "stacked": true,
+        "cards": [
+          {
+            "id": "home-practice",
+            "rect": {
+              "x": 20,
+              "y": 1618.1875,
+              "width": 350,
+              "height": 612
+            }
+          },
+          {
+            "id": "find",
+            "rect": {
+              "x": 20,
+              "y": 2244.1875,
+              "width": 350,
+              "height": 332
+            }
+          },
+          {
+            "id": "compare",
+            "rect": {
+              "x": 20,
+              "y": 2590.1875,
+              "width": 350,
+              "height": 332
+            }
+          }
+        ],
+        "practicePhoto": {
+          "src": "http://127.0.0.1:5451/assets/practice-long-haired-guitarist-960-DbsC5006.webp",
+          "width": 920,
+          "height": 613,
+          "fit": "cover",
+          "loading": "lazy",
+          "srcset": "/assets/practice-long-haired-guitarist-480-CmUXeQrM.webp 480w, /assets/practice-long-haired-guitarist-960-DbsC5006.webp 960w, /assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp 1280w",
+          "sizes": "(min-width:1440px) 1100px, (min-width:1024px) 1000px, (min-width:640px) 960px, 920px"
+        },
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "chromium-mobile-preserved-home-sections",
+      "passed": true,
+      "evidence": {
+        "heroSlides": 3,
+        "brandLinks": 10,
+        "featuredTabs": 4,
+        "featuredScroll": true,
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "chromium-mobile-navigation-real-data-state",
+      "passed": true,
+      "evidence": {
+        "categoryRoutes": [
+          {
+            "category": "electric",
+            "actualCatalogCount": 90
+          },
+          {
+            "category": "acoustic",
+            "actualCatalogCount": 73
+          },
+          {
+            "category": "classical",
+            "actualCatalogCount": 20
+          },
+          {
+            "category": "bass",
+            "actualCatalogCount": 17
+          }
+        ],
+        "allThreeModeCTAs": true,
+        "practice42AndChordSelection": true,
+        "quizFirstQuestion": true,
+        "compareFourSlots": true,
+        "heroSearchWishlistCompare": true
+      }
+    },
+    {
+      "name": "chromium-narrow-fullbleed-category-grid",
+      "passed": true,
+      "evidence": {
+        "actualCategoryCounts": [
+          {
+            "category": "electric",
+            "count": 90,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-electric-480-C2ICIM6e.webp",
+              "width": 320,
+              "height": 142,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-electric-480-C2ICIM6e.webp 480w, /assets/category-electric-960-rv-QdHl2.webp 960w, /assets/category-electric-1440-D5-OP41k.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 20,
+              "y": 796.1875,
+              "width": 280,
+              "height": 190
+            },
+            "copyRect": {
+              "x": 168.34375,
+              "y": 858.1875,
+              "width": 130.65625,
+              "height": 66
+            }
+          },
+          {
+            "category": "acoustic",
+            "count": 73,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-acoustic-480-Cg1TRGcB.webp",
+              "width": 320,
+              "height": 142,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-acoustic-480-Cg1TRGcB.webp 480w, /assets/category-acoustic-960-DxgIMhvy.webp 960w, /assets/category-acoustic-1440-CWfULLq1.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 20,
+              "y": 1000.1875,
+              "width": 280,
+              "height": 190
+            },
+            "copyRect": {
+              "x": 168.34375,
+              "y": 1062.1875,
+              "width": 130.65625,
+              "height": 66
+            }
+          },
+          {
+            "category": "classical",
+            "count": 20,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-classical-480-BCV1-_Ui.webp",
+              "width": 320,
+              "height": 142,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-classical-480-BCV1-_Ui.webp 480w, /assets/category-classical-960-yyOmJ-bK.webp 960w, /assets/category-classical-1440-DrZ5Y91j.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 20,
+              "y": 1204.1875,
+              "width": 280,
+              "height": 190
+            },
+            "copyRect": {
+              "x": 168.34375,
+              "y": 1250.6875,
+              "width": 130.65625,
+              "height": 97
+            }
+          },
+          {
+            "category": "bass",
+            "count": 17,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-bass-480-vCy-b6iO.webp",
+              "width": 320,
+              "height": 142,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-bass-480-vCy-b6iO.webp 480w, /assets/category-bass-960-CfYAlbzS.webp 960w, /assets/category-bass-1440-BuxcaM0_.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 20,
+              "y": 1408.1875,
+              "width": 280,
+              "height": 190
+            },
+            "copyRect": {
+              "x": 168.34375,
+              "y": 1470.1875,
+              "width": 130.65625,
+              "height": 66
+            }
+          }
+        ],
+        "width": 320,
+        "scrollWidth": 320
+      }
+    },
+    {
+      "name": "chromium-narrow-three-mode-card-layout",
+      "passed": true,
+      "evidence": {
+        "stacked": true,
+        "cards": [
+          {
+            "id": "home-practice",
+            "rect": {
+              "x": 20,
+              "y": 1618.1875,
+              "width": 280,
+              "height": 612
+            }
+          },
+          {
+            "id": "find",
+            "rect": {
+              "x": 20,
+              "y": 2244.1875,
+              "width": 280,
+              "height": 332
+            }
+          },
+          {
+            "id": "compare",
+            "rect": {
+              "x": 20,
+              "y": 2590.1875,
+              "width": 280,
+              "height": 332
+            }
+          }
+        ],
+        "practicePhoto": {
+          "src": "http://127.0.0.1:5451/assets/practice-long-haired-guitarist-960-DbsC5006.webp",
+          "width": 920,
+          "height": 613,
+          "fit": "cover",
+          "loading": "lazy",
+          "srcset": "/assets/practice-long-haired-guitarist-480-CmUXeQrM.webp 480w, /assets/practice-long-haired-guitarist-960-DbsC5006.webp 960w, /assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp 1280w",
+          "sizes": "(min-width:1440px) 1100px, (min-width:1024px) 1000px, (min-width:640px) 960px, 920px"
+        },
+        "width": 320,
+        "scrollWidth": 320
+      }
+    },
+    {
+      "name": "chromium-narrow-preserved-home-sections",
+      "passed": true,
+      "evidence": {
+        "heroSlides": 3,
+        "brandLinks": 10,
+        "featuredTabs": 4,
+        "featuredScroll": true,
+        "width": 320,
+        "scrollWidth": 320
+      }
+    },
+    {
+      "name": "chromium-portrait-edge-fullbleed-category-grid",
+      "passed": true,
+      "evidence": {
+        "actualCategoryCounts": [
+          {
+            "category": "electric",
+            "count": 90,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-electric-960-rv-QdHl2.webp",
+              "width": 491,
+              "height": 218,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-electric-480-C2ICIM6e.webp 480w, /assets/category-electric-960-rv-QdHl2.webp 960w, /assets/category-electric-1440-D5-OP41k.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 40,
+              "y": 819,
+              "width": 463,
+              "height": 230
+            },
+            "copyRect": {
+              "x": 299.171875,
+              "y": 896.53125,
+              "width": 202.828125,
+              "height": 74.921875
+            }
+          },
+          {
+            "category": "acoustic",
+            "count": 73,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-acoustic-960-DxgIMhvy.webp",
+              "width": 491,
+              "height": 218,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-acoustic-480-Cg1TRGcB.webp 480w, /assets/category-acoustic-960-DxgIMhvy.webp 960w, /assets/category-acoustic-1440-CWfULLq1.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 521,
+              "y": 819,
+              "width": 463,
+              "height": 230
+            },
+            "copyRect": {
+              "x": 780.171875,
+              "y": 896.53125,
+              "width": 202.828125,
+              "height": 74.921875
+            }
+          },
+          {
+            "category": "classical",
+            "count": 20,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-classical-960-yyOmJ-bK.webp",
+              "width": 491,
+              "height": 218,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-classical-480-BCV1-_Ui.webp 480w, /assets/category-classical-960-yyOmJ-bK.webp 960w, /assets/category-classical-1440-DrZ5Y91j.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 40,
+              "y": 1067,
+              "width": 463,
+              "height": 230
+            },
+            "copyRect": {
+              "x": 299.171875,
+              "y": 1144.53125,
+              "width": 202.828125,
+              "height": 74.921875
+            }
+          },
+          {
+            "category": "bass",
+            "count": 17,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-bass-960-CfYAlbzS.webp",
+              "width": 491,
+              "height": 218,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-bass-480-vCy-b6iO.webp 480w, /assets/category-bass-960-CfYAlbzS.webp 960w, /assets/category-bass-1440-BuxcaM0_.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 521,
+              "y": 1067,
+              "width": 463,
+              "height": 230
+            },
+            "copyRect": {
+              "x": 780.171875,
+              "y": 1144.53125,
+              "width": 202.828125,
+              "height": 74.921875
+            }
+          }
+        ],
+        "width": 1024,
+        "scrollWidth": 1024
+      }
+    },
+    {
+      "name": "chromium-portrait-edge-three-mode-card-layout",
+      "passed": true,
+      "evidence": {
+        "stacked": true,
+        "cards": [
+          {
+            "id": "home-practice",
+            "rect": {
+              "x": 40,
+              "y": 1320,
+              "width": 944,
+              "height": 602.796875
+            }
+          },
+          {
+            "id": "find",
+            "rect": {
+              "x": 40,
+              "y": 1940.796875,
+              "width": 944,
+              "height": 307
+            }
+          },
+          {
+            "id": "compare",
+            "rect": {
+              "x": 40,
+              "y": 2265.796875,
+              "width": 944,
+              "height": 307
+            }
+          }
+        ],
+        "practicePhoto": {
+          "src": "http://127.0.0.1:5451/assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp",
+          "width": 1000,
+          "height": 666,
+          "fit": "cover",
+          "loading": "lazy",
+          "srcset": "/assets/practice-long-haired-guitarist-480-CmUXeQrM.webp 480w, /assets/practice-long-haired-guitarist-960-DbsC5006.webp 960w, /assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp 1280w",
+          "sizes": "(min-width:1440px) 1100px, (min-width:1024px) 1000px, (min-width:640px) 960px, 920px"
+        },
+        "width": 1024,
+        "scrollWidth": 1024
+      }
+    },
+    {
+      "name": "chromium-portrait-edge-preserved-home-sections",
+      "passed": true,
+      "evidence": {
+        "heroSlides": 3,
+        "brandLinks": 10,
+        "featuredTabs": 4,
+        "featuredScroll": true,
+        "width": 1024,
+        "scrollWidth": 1024
+      }
+    },
+    {
+      "name": "chromium-normal-motion-hero-brand",
+      "passed": true,
+      "evidence": {
+        "heroBefore": "0",
+        "heroAfter": "1",
+        "brandAuto": [
+          2026,
+          2041
+        ],
+        "brandDrag": 2522,
+        "brandAutoResumed": 2540
+      }
+    },
+    {
+      "name": "webkit-desktop-fullbleed-category-grid",
+      "passed": true,
+      "evidence": {
+        "actualCategoryCounts": [
+          {
+            "category": "electric",
+            "count": 90,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-electric-960-rv-QdHl2.webp",
+              "width": 640,
+              "height": 284,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-electric-480-C2ICIM6e.webp 480w, /assets/category-electric-960-rv-QdHl2.webp 960w, /assets/category-electric-1440-D5-OP41k.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 120,
+              "y": 819,
+              "width": 591,
+              "height": 262.65625
+            },
+            "copyRect": {
+              "x": 450.84375,
+              "y": 907.078125,
+              "width": 259.15625,
+              "height": 86.5
+            }
+          },
+          {
+            "category": "acoustic",
+            "count": 73,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-acoustic-960-DxgIMhvy.webp",
+              "width": 640,
+              "height": 284,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-acoustic-480-Cg1TRGcB.webp 480w, /assets/category-acoustic-960-DxgIMhvy.webp 960w, /assets/category-acoustic-1440-CWfULLq1.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 729,
+              "y": 819,
+              "width": 591,
+              "height": 262.65625
+            },
+            "copyRect": {
+              "x": 1059.84375,
+              "y": 907.078125,
+              "width": 259.15625,
+              "height": 86.5
+            }
+          },
+          {
+            "category": "classical",
+            "count": 20,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-classical-960-yyOmJ-bK.webp",
+              "width": 640,
+              "height": 284,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-classical-480-BCV1-_Ui.webp 480w, /assets/category-classical-960-yyOmJ-bK.webp 960w, /assets/category-classical-1440-DrZ5Y91j.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 120,
+              "y": 1099.65625,
+              "width": 591,
+              "height": 262.65625
+            },
+            "copyRect": {
+              "x": 450.84375,
+              "y": 1187.734375,
+              "width": 259.15625,
+              "height": 86.5
+            }
+          },
+          {
+            "category": "bass",
+            "count": 17,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-bass-960-CfYAlbzS.webp",
+              "width": 640,
+              "height": 284,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-bass-480-vCy-b6iO.webp 480w, /assets/category-bass-960-CfYAlbzS.webp 960w, /assets/category-bass-1440-BuxcaM0_.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 729,
+              "y": 1099.65625,
+              "width": 591,
+              "height": 262.65625
+            },
+            "copyRect": {
+              "x": 1059.84375,
+              "y": 1187.734375,
+              "width": 259.15625,
+              "height": 86.5
+            }
+          }
+        ],
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "webkit-desktop-three-mode-card-layout",
+      "passed": true,
+      "evidence": {
+        "stacked": false,
+        "cards": [
+          {
+            "id": "home-practice",
+            "rect": {
+              "x": 120,
+              "y": 1385.3125,
+              "width": 605.40625,
+              "height": 699.328125
+            }
+          },
+          {
+            "id": "find",
+            "rect": {
+              "x": 743.40625,
+              "y": 1385.3125,
+              "width": 576.59375,
+              "height": 340.65625
+            }
+          },
+          {
+            "id": "compare",
+            "rect": {
+              "x": 743.40625,
+              "y": 1743.96875,
+              "width": 576.59375,
+              "height": 340.671875
+            }
+          }
+        ],
+        "practicePhoto": {
+          "src": "http://127.0.0.1:5451/assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp",
+          "width": 1100,
+          "height": 733,
+          "fit": "cover",
+          "loading": "lazy",
+          "srcset": "/assets/practice-long-haired-guitarist-480-CmUXeQrM.webp 480w, /assets/practice-long-haired-guitarist-960-DbsC5006.webp 960w, /assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp 1280w",
+          "sizes": "(min-width:1440px) 1100px, (min-width:1024px) 1000px, (min-width:640px) 960px, 920px"
+        },
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "webkit-desktop-preserved-home-sections",
+      "passed": true,
+      "evidence": {
+        "heroSlides": 3,
+        "brandLinks": 10,
+        "featuredTabs": 4,
+        "featuredScroll": true,
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "webkit-desktop-navigation-real-data-state",
+      "passed": true,
+      "evidence": {
+        "categoryRoutes": [
+          {
+            "category": "electric",
+            "actualCatalogCount": 90
+          },
+          {
+            "category": "acoustic",
+            "actualCatalogCount": 73
+          },
+          {
+            "category": "classical",
+            "actualCatalogCount": 20
+          },
+          {
+            "category": "bass",
+            "actualCatalogCount": 17
+          }
+        ],
+        "allThreeModeCTAs": true,
+        "practice42AndChordSelection": true,
+        "quizFirstQuestion": true,
+        "compareFourSlots": true,
+        "heroSearchWishlistCompare": true
+      }
+    },
+    {
+      "name": "webkit-landscape-fullbleed-category-grid",
+      "passed": true,
+      "evidence": {
+        "actualCategoryCounts": [
+          {
+            "category": "electric",
+            "count": 90,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-electric-960-rv-QdHl2.webp",
+              "width": 573,
+              "height": 254,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-electric-480-C2ICIM6e.webp 480w, /assets/category-electric-960-rv-QdHl2.webp 960w, /assets/category-electric-1440-D5-OP41k.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 40,
+              "y": 819,
+              "width": 548,
+              "height": 243.546875
+            },
+            "copyRect": {
+              "x": 346.765625,
+              "y": 900.421875,
+              "width": 240.234375,
+              "height": 80.703125
+            }
+          },
+          {
+            "category": "acoustic",
+            "count": 73,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-acoustic-960-DxgIMhvy.webp",
+              "width": 573,
+              "height": 254,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-acoustic-480-Cg1TRGcB.webp 480w, /assets/category-acoustic-960-DxgIMhvy.webp 960w, /assets/category-acoustic-1440-CWfULLq1.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 606,
+              "y": 819,
+              "width": 548,
+              "height": 243.546875
+            },
+            "copyRect": {
+              "x": 912.765625,
+              "y": 900.421875,
+              "width": 240.234375,
+              "height": 80.703125
+            }
+          },
+          {
+            "category": "classical",
+            "count": 20,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-classical-960-yyOmJ-bK.webp",
+              "width": 573,
+              "height": 254,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-classical-480-BCV1-_Ui.webp 480w, /assets/category-classical-960-yyOmJ-bK.webp 960w, /assets/category-classical-1440-DrZ5Y91j.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 40,
+              "y": 1080.546875,
+              "width": 548,
+              "height": 243.546875
+            },
+            "copyRect": {
+              "x": 346.765625,
+              "y": 1161.96875,
+              "width": 240.234375,
+              "height": 80.703125
+            }
+          },
+          {
+            "category": "bass",
+            "count": 17,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-bass-960-CfYAlbzS.webp",
+              "width": 573,
+              "height": 254,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-bass-480-vCy-b6iO.webp 480w, /assets/category-bass-960-CfYAlbzS.webp 960w, /assets/category-bass-1440-BuxcaM0_.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 606,
+              "y": 1080.546875,
+              "width": 548,
+              "height": 243.546875
+            },
+            "copyRect": {
+              "x": 912.765625,
+              "y": 1161.96875,
+              "width": 240.234375,
+              "height": 80.703125
+            }
+          }
+        ],
+        "width": 1194,
+        "scrollWidth": 1194
+      }
+    },
+    {
+      "name": "webkit-landscape-three-mode-card-layout",
+      "passed": true,
+      "evidence": {
+        "stacked": false,
+        "cards": [
+          {
+            "id": "home-practice",
+            "rect": {
+              "x": 40,
+              "y": 1347.09375,
+              "width": 561.359375,
+              "height": 683.640625
+            }
+          },
+          {
+            "id": "find",
+            "rect": {
+              "x": 619.359375,
+              "y": 1347.09375,
+              "width": 534.640625,
+              "height": 322.40625
+            }
+          },
+          {
+            "id": "compare",
+            "rect": {
+              "x": 619.359375,
+              "y": 1687.5,
+              "width": 534.640625,
+              "height": 343.234375
+            }
+          }
+        ],
+        "practicePhoto": {
+          "src": "http://127.0.0.1:5451/assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp",
+          "width": 1000,
+          "height": 666,
+          "fit": "cover",
+          "loading": "lazy",
+          "srcset": "/assets/practice-long-haired-guitarist-480-CmUXeQrM.webp 480w, /assets/practice-long-haired-guitarist-960-DbsC5006.webp 960w, /assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp 1280w",
+          "sizes": "(min-width:1440px) 1100px, (min-width:1024px) 1000px, (min-width:640px) 960px, 920px"
+        },
+        "width": 1194,
+        "scrollWidth": 1194
+      }
+    },
+    {
+      "name": "webkit-landscape-preserved-home-sections",
+      "passed": true,
+      "evidence": {
+        "heroSlides": 3,
+        "brandLinks": 10,
+        "featuredTabs": 4,
+        "featuredScroll": true,
+        "width": 1194,
+        "scrollWidth": 1194
+      }
+    },
+    {
+      "name": "webkit-portrait-fullbleed-category-grid",
+      "passed": true,
+      "evidence": {
+        "actualCategoryCounts": [
+          {
+            "category": "electric",
+            "count": 90,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-electric-480-C2ICIM6e.webp",
+              "width": 368,
+              "height": 163,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-electric-480-C2ICIM6e.webp 480w, /assets/category-electric-960-rv-QdHl2.webp 960w, /assets/category-electric-1440-D5-OP41k.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 32,
+              "y": 803,
+              "width": 343,
+              "height": 205
+            },
+            "copyRect": {
+              "x": 213.734375,
+              "y": 869.171875,
+              "width": 160.265625,
+              "height": 72.640625
+            }
+          },
+          {
+            "category": "acoustic",
+            "count": 73,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-acoustic-480-Cg1TRGcB.webp",
+              "width": 368,
+              "height": 163,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-acoustic-480-Cg1TRGcB.webp 480w, /assets/category-acoustic-960-DxgIMhvy.webp 960w, /assets/category-acoustic-1440-CWfULLq1.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 393,
+              "y": 803,
+              "width": 343,
+              "height": 205
+            },
+            "copyRect": {
+              "x": 574.734375,
+              "y": 869.171875,
+              "width": 160.265625,
+              "height": 72.640625
+            }
+          },
+          {
+            "category": "classical",
+            "count": 20,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-classical-480-BCV1-_Ui.webp",
+              "width": 368,
+              "height": 163,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-classical-480-BCV1-_Ui.webp 480w, /assets/category-classical-960-yyOmJ-bK.webp 960w, /assets/category-classical-1440-DrZ5Y91j.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 32,
+              "y": 1026,
+              "width": 343,
+              "height": 205
+            },
+            "copyRect": {
+              "x": 213.734375,
+              "y": 1092.171875,
+              "width": 160.265625,
+              "height": 72.640625
+            }
+          },
+          {
+            "category": "bass",
+            "count": 17,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-bass-480-vCy-b6iO.webp",
+              "width": 368,
+              "height": 163,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-bass-480-vCy-b6iO.webp 480w, /assets/category-bass-960-CfYAlbzS.webp 960w, /assets/category-bass-1440-BuxcaM0_.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 393,
+              "y": 1026,
+              "width": 343,
+              "height": 205
+            },
+            "copyRect": {
+              "x": 574.734375,
+              "y": 1092.171875,
+              "width": 160.265625,
+              "height": 72.640625
+            }
+          }
+        ],
+        "width": 768,
+        "scrollWidth": 768
+      }
+    },
+    {
+      "name": "webkit-portrait-three-mode-card-layout",
+      "passed": true,
+      "evidence": {
+        "stacked": true,
+        "cards": [
+          {
+            "id": "home-practice",
+            "rect": {
+              "x": 32,
+              "y": 1254,
+              "width": 704,
+              "height": 631.296875
+            }
+          },
+          {
+            "id": "find",
+            "rect": {
+              "x": 32,
+              "y": 1903.296875,
+              "width": 704,
+              "height": 332
+            }
+          },
+          {
+            "id": "compare",
+            "rect": {
+              "x": 32,
+              "y": 2253.296875,
+              "width": 704,
+              "height": 355.75
+            }
+          }
+        ],
+        "practicePhoto": {
+          "src": "http://127.0.0.1:5451/assets/practice-long-haired-guitarist-960-DbsC5006.webp",
+          "width": 960,
+          "height": 640,
+          "fit": "cover",
+          "loading": "lazy",
+          "srcset": "/assets/practice-long-haired-guitarist-480-CmUXeQrM.webp 480w, /assets/practice-long-haired-guitarist-960-DbsC5006.webp 960w, /assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp 1280w",
+          "sizes": "(min-width:1440px) 1100px, (min-width:1024px) 1000px, (min-width:640px) 960px, 920px"
+        },
+        "width": 768,
+        "scrollWidth": 768
+      }
+    },
+    {
+      "name": "webkit-portrait-preserved-home-sections",
+      "passed": true,
+      "evidence": {
+        "heroSlides": 3,
+        "brandLinks": 10,
+        "featuredTabs": 4,
+        "featuredScroll": true,
+        "width": 768,
+        "scrollWidth": 768
+      }
+    },
+    {
+      "name": "webkit-mobile-fullbleed-category-grid",
+      "passed": true,
+      "evidence": {
+        "actualCategoryCounts": [
+          {
+            "category": "electric",
+            "count": 90,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-electric-480-C2ICIM6e.webp",
+              "width": 389,
+              "height": 173,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-electric-480-C2ICIM6e.webp 480w, /assets/category-electric-960-rv-QdHl2.webp 960w, /assets/category-electric-1440-D5-OP41k.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 20,
+              "y": 796.1875,
+              "width": 350,
+              "height": 190
+            },
+            "copyRect": {
+              "x": 205.453125,
+              "y": 856.765625,
+              "width": 163.546875,
+              "height": 68.828125
+            }
+          },
+          {
+            "category": "acoustic",
+            "count": 73,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-acoustic-480-Cg1TRGcB.webp",
+              "width": 389,
+              "height": 173,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-acoustic-480-Cg1TRGcB.webp 480w, /assets/category-acoustic-960-DxgIMhvy.webp 960w, /assets/category-acoustic-1440-CWfULLq1.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 20,
+              "y": 1000.1875,
+              "width": 350,
+              "height": 190
+            },
+            "copyRect": {
+              "x": 205.453125,
+              "y": 1060.765625,
+              "width": 163.546875,
+              "height": 68.828125
+            }
+          },
+          {
+            "category": "classical",
+            "count": 20,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-classical-480-BCV1-_Ui.webp",
+              "width": 389,
+              "height": 173,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-classical-480-BCV1-_Ui.webp 480w, /assets/category-classical-960-yyOmJ-bK.webp 960w, /assets/category-classical-1440-DrZ5Y91j.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 20,
+              "y": 1204.1875,
+              "width": 350,
+              "height": 190
+            },
+            "copyRect": {
+              "x": 205.453125,
+              "y": 1264.765625,
+              "width": 163.546875,
+              "height": 68.828125
+            }
+          },
+          {
+            "category": "bass",
+            "count": 17,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-bass-480-vCy-b6iO.webp",
+              "width": 389,
+              "height": 173,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-bass-480-vCy-b6iO.webp 480w, /assets/category-bass-960-CfYAlbzS.webp 960w, /assets/category-bass-1440-BuxcaM0_.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 20,
+              "y": 1408.1875,
+              "width": 350,
+              "height": 190
+            },
+            "copyRect": {
+              "x": 205.453125,
+              "y": 1468.765625,
+              "width": 163.546875,
+              "height": 68.828125
+            }
+          }
+        ],
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "webkit-mobile-three-mode-card-layout",
+      "passed": true,
+      "evidence": {
+        "stacked": true,
+        "cards": [
+          {
+            "id": "home-practice",
+            "rect": {
+              "x": 20,
+              "y": 1618.1875,
+              "width": 350,
+              "height": 612
+            }
+          },
+          {
+            "id": "find",
+            "rect": {
+              "x": 20,
+              "y": 2244.1875,
+              "width": 350,
+              "height": 332
+            }
+          },
+          {
+            "id": "compare",
+            "rect": {
+              "x": 20,
+              "y": 2590.1875,
+              "width": 350,
+              "height": 332
+            }
+          }
+        ],
+        "practicePhoto": {
+          "src": "http://127.0.0.1:5451/assets/practice-long-haired-guitarist-960-DbsC5006.webp",
+          "width": 920,
+          "height": 613,
+          "fit": "cover",
+          "loading": "lazy",
+          "srcset": "/assets/practice-long-haired-guitarist-480-CmUXeQrM.webp 480w, /assets/practice-long-haired-guitarist-960-DbsC5006.webp 960w, /assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp 1280w",
+          "sizes": "(min-width:1440px) 1100px, (min-width:1024px) 1000px, (min-width:640px) 960px, 920px"
+        },
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "webkit-mobile-preserved-home-sections",
+      "passed": true,
+      "evidence": {
+        "heroSlides": 3,
+        "brandLinks": 10,
+        "featuredTabs": 4,
+        "featuredScroll": true,
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "webkit-mobile-navigation-real-data-state",
+      "passed": true,
+      "evidence": {
+        "categoryRoutes": [
+          {
+            "category": "electric",
+            "actualCatalogCount": 90
+          },
+          {
+            "category": "acoustic",
+            "actualCatalogCount": 73
+          },
+          {
+            "category": "classical",
+            "actualCatalogCount": 20
+          },
+          {
+            "category": "bass",
+            "actualCatalogCount": 17
+          }
+        ],
+        "allThreeModeCTAs": true,
+        "practice42AndChordSelection": true,
+        "quizFirstQuestion": true,
+        "compareFourSlots": true,
+        "heroSearchWishlistCompare": true
+      }
+    },
+    {
+      "name": "webkit-narrow-fullbleed-category-grid",
+      "passed": true,
+      "evidence": {
+        "actualCategoryCounts": [
+          {
+            "category": "electric",
+            "count": 90,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-electric-480-C2ICIM6e.webp",
+              "width": 320,
+              "height": 142,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-electric-480-C2ICIM6e.webp 480w, /assets/category-electric-960-rv-QdHl2.webp 960w, /assets/category-electric-1440-D5-OP41k.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 20,
+              "y": 796.1875,
+              "width": 280,
+              "height": 190
+            },
+            "copyRect": {
+              "x": 168.34375,
+              "y": 858.1875,
+              "width": 130.65625,
+              "height": 66
+            }
+          },
+          {
+            "category": "acoustic",
+            "count": 73,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-acoustic-480-Cg1TRGcB.webp",
+              "width": 320,
+              "height": 142,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-acoustic-480-Cg1TRGcB.webp 480w, /assets/category-acoustic-960-DxgIMhvy.webp 960w, /assets/category-acoustic-1440-CWfULLq1.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 20,
+              "y": 1000.1875,
+              "width": 280,
+              "height": 190
+            },
+            "copyRect": {
+              "x": 168.34375,
+              "y": 1062.1875,
+              "width": 130.65625,
+              "height": 66
+            }
+          },
+          {
+            "category": "classical",
+            "count": 20,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-classical-480-BCV1-_Ui.webp",
+              "width": 320,
+              "height": 142,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-classical-480-BCV1-_Ui.webp 480w, /assets/category-classical-960-yyOmJ-bK.webp 960w, /assets/category-classical-1440-DrZ5Y91j.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 20,
+              "y": 1204.1875,
+              "width": 280,
+              "height": 190
+            },
+            "copyRect": {
+              "x": 168.34375,
+              "y": 1250.6875,
+              "width": 130.65625,
+              "height": 97
+            }
+          },
+          {
+            "category": "bass",
+            "count": 17,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-bass-480-vCy-b6iO.webp",
+              "width": 320,
+              "height": 142,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-bass-480-vCy-b6iO.webp 480w, /assets/category-bass-960-CfYAlbzS.webp 960w, /assets/category-bass-1440-BuxcaM0_.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 20,
+              "y": 1408.1875,
+              "width": 280,
+              "height": 190
+            },
+            "copyRect": {
+              "x": 168.34375,
+              "y": 1470.1875,
+              "width": 130.65625,
+              "height": 66
+            }
+          }
+        ],
+        "width": 320,
+        "scrollWidth": 320
+      }
+    },
+    {
+      "name": "webkit-narrow-three-mode-card-layout",
+      "passed": true,
+      "evidence": {
+        "stacked": true,
+        "cards": [
+          {
+            "id": "home-practice",
+            "rect": {
+              "x": 20,
+              "y": 1618.1875,
+              "width": 280,
+              "height": 612
+            }
+          },
+          {
+            "id": "find",
+            "rect": {
+              "x": 20,
+              "y": 2244.1875,
+              "width": 280,
+              "height": 332
+            }
+          },
+          {
+            "id": "compare",
+            "rect": {
+              "x": 20,
+              "y": 2590.1875,
+              "width": 280,
+              "height": 332
+            }
+          }
+        ],
+        "practicePhoto": {
+          "src": "http://127.0.0.1:5451/assets/practice-long-haired-guitarist-960-DbsC5006.webp",
+          "width": 920,
+          "height": 613,
+          "fit": "cover",
+          "loading": "lazy",
+          "srcset": "/assets/practice-long-haired-guitarist-480-CmUXeQrM.webp 480w, /assets/practice-long-haired-guitarist-960-DbsC5006.webp 960w, /assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp 1280w",
+          "sizes": "(min-width:1440px) 1100px, (min-width:1024px) 1000px, (min-width:640px) 960px, 920px"
+        },
+        "width": 320,
+        "scrollWidth": 320
+      }
+    },
+    {
+      "name": "webkit-narrow-preserved-home-sections",
+      "passed": true,
+      "evidence": {
+        "heroSlides": 3,
+        "brandLinks": 10,
+        "featuredTabs": 4,
+        "featuredScroll": true,
+        "width": 320,
+        "scrollWidth": 320
+      }
+    },
+    {
+      "name": "webkit-portrait-edge-fullbleed-category-grid",
+      "passed": true,
+      "evidence": {
+        "actualCategoryCounts": [
+          {
+            "category": "electric",
+            "count": 90,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-electric-960-rv-QdHl2.webp",
+              "width": 491,
+              "height": 218,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-electric-480-C2ICIM6e.webp 480w, /assets/category-electric-960-rv-QdHl2.webp 960w, /assets/category-electric-1440-D5-OP41k.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 40,
+              "y": 819,
+              "width": 463,
+              "height": 230
+            },
+            "copyRect": {
+              "x": 299.171875,
+              "y": 896.546875,
+              "width": 202.828125,
+              "height": 74.890625
+            }
+          },
+          {
+            "category": "acoustic",
+            "count": 73,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-acoustic-960-DxgIMhvy.webp",
+              "width": 491,
+              "height": 218,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-acoustic-480-Cg1TRGcB.webp 480w, /assets/category-acoustic-960-DxgIMhvy.webp 960w, /assets/category-acoustic-1440-CWfULLq1.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 521,
+              "y": 819,
+              "width": 463,
+              "height": 230
+            },
+            "copyRect": {
+              "x": 780.171875,
+              "y": 896.546875,
+              "width": 202.828125,
+              "height": 74.890625
+            }
+          },
+          {
+            "category": "classical",
+            "count": 20,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-classical-960-yyOmJ-bK.webp",
+              "width": 491,
+              "height": 218,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-classical-480-BCV1-_Ui.webp 480w, /assets/category-classical-960-yyOmJ-bK.webp 960w, /assets/category-classical-1440-DrZ5Y91j.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 40,
+              "y": 1067,
+              "width": 463,
+              "height": 230
+            },
+            "copyRect": {
+              "x": 299.171875,
+              "y": 1144.546875,
+              "width": 202.828125,
+              "height": 74.890625
+            }
+          },
+          {
+            "category": "bass",
+            "count": 17,
+            "image": {
+              "src": "http://127.0.0.1:5451/assets/category-bass-960-CfYAlbzS.webp",
+              "width": 491,
+              "height": 218,
+              "fit": "cover",
+              "loading": "lazy",
+              "srcset": "/assets/category-bass-480-vCy-b6iO.webp 480w, /assets/category-bass-960-CfYAlbzS.webp 960w, /assets/category-bass-1440-BuxcaM0_.webp 1440w",
+              "sizes": "(min-width: 1440px) 640px, (min-width: 640px) 48vw, 100vw"
+            },
+            "rect": {
+              "x": 521,
+              "y": 1067,
+              "width": 463,
+              "height": 230
+            },
+            "copyRect": {
+              "x": 780.171875,
+              "y": 1144.546875,
+              "width": 202.828125,
+              "height": 74.890625
+            }
+          }
+        ],
+        "width": 1024,
+        "scrollWidth": 1024
+      }
+    },
+    {
+      "name": "webkit-portrait-edge-three-mode-card-layout",
+      "passed": true,
+      "evidence": {
+        "stacked": true,
+        "cards": [
+          {
+            "id": "home-practice",
+            "rect": {
+              "x": 40,
+              "y": 1320,
+              "width": 944,
+              "height": 631.296875
+            }
+          },
+          {
+            "id": "find",
+            "rect": {
+              "x": 40,
+              "y": 1969.296875,
+              "width": 944,
+              "height": 307
+            }
+          },
+          {
+            "id": "compare",
+            "rect": {
+              "x": 40,
+              "y": 2294.296875,
+              "width": 944,
+              "height": 323.03125
+            }
+          }
+        ],
+        "practicePhoto": {
+          "src": "http://127.0.0.1:5451/assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp",
+          "width": 1000,
+          "height": 666,
+          "fit": "cover",
+          "loading": "lazy",
+          "srcset": "/assets/practice-long-haired-guitarist-480-CmUXeQrM.webp 480w, /assets/practice-long-haired-guitarist-960-DbsC5006.webp 960w, /assets/practice-long-haired-guitarist-1280-FWCsaLt3.webp 1280w",
+          "sizes": "(min-width:1440px) 1100px, (min-width:1024px) 1000px, (min-width:640px) 960px, 920px"
+        },
+        "width": 1024,
+        "scrollWidth": 1024
+      }
+    },
+    {
+      "name": "webkit-portrait-edge-preserved-home-sections",
+      "passed": true,
+      "evidence": {
+        "heroSlides": 3,
+        "brandLinks": 10,
+        "featuredTabs": 4,
+        "featuredScroll": true,
+        "width": 1024,
+        "scrollWidth": 1024
+      }
+    },
+    {
+      "name": "webkit-normal-motion-hero-brand",
+      "passed": true,
+      "evidence": {
+        "heroBefore": "0",
+        "heroAfter": "1",
+        "brandAuto": [
+          2026,
+          2042
+        ],
+        "brandDrag": 2526,
+        "brandAutoResumed": 2543
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "networkErrors": [],
+  "failedRequests": [],
+  "screenshots": [
+    "chromium-desktop-categories.webp",
+    "chromium-desktop-features.webp",
+    "chromium-desktop-home-practice-card.webp",
+    "chromium-desktop-find-card.webp",
+    "chromium-desktop-compare-card.webp",
+    "chromium-desktop-home.webp",
+    "chromium-landscape-categories.webp",
+    "chromium-landscape-features.webp",
+    "chromium-landscape-home-practice-card.webp",
+    "chromium-landscape-find-card.webp",
+    "chromium-landscape-compare-card.webp",
+    "chromium-landscape-home.webp",
+    "chromium-portrait-categories.webp",
+    "chromium-portrait-features.webp",
+    "chromium-portrait-home-practice-card.webp",
+    "chromium-portrait-find-card.webp",
+    "chromium-portrait-compare-card.webp",
+    "chromium-portrait-home.webp",
+    "chromium-mobile-categories.webp",
+    "chromium-mobile-features.webp",
+    "chromium-mobile-home-practice-card.webp",
+    "chromium-mobile-find-card.webp",
+    "chromium-mobile-compare-card.webp",
+    "chromium-mobile-home.webp",
+    "chromium-narrow-categories.webp",
+    "chromium-narrow-features.webp",
+    "chromium-narrow-home-practice-card.webp",
+    "chromium-narrow-find-card.webp",
+    "chromium-narrow-compare-card.webp",
+    "chromium-narrow-home.webp",
+    "chromium-portrait-edge-categories.webp",
+    "chromium-portrait-edge-features.webp",
+    "chromium-portrait-edge-home-practice-card.webp",
+    "chromium-portrait-edge-find-card.webp",
+    "chromium-portrait-edge-compare-card.webp",
+    "chromium-portrait-edge-home.webp",
+    "webkit-desktop-categories.webp",
+    "webkit-desktop-features.webp",
+    "webkit-desktop-home-practice-card.webp",
+    "webkit-desktop-find-card.webp",
+    "webkit-desktop-compare-card.webp",
+    "webkit-desktop-home.webp",
+    "webkit-landscape-categories.webp",
+    "webkit-landscape-features.webp",
+    "webkit-landscape-home-practice-card.webp",
+    "webkit-landscape-find-card.webp",
+    "webkit-landscape-compare-card.webp",
+    "webkit-landscape-home.webp",
+    "webkit-portrait-categories.webp",
+    "webkit-portrait-features.webp",
+    "webkit-portrait-home-practice-card.webp",
+    "webkit-portrait-find-card.webp",
+    "webkit-portrait-compare-card.webp",
+    "webkit-portrait-home.webp",
+    "webkit-mobile-categories.webp",
+    "webkit-mobile-features.webp",
+    "webkit-mobile-home-practice-card.webp",
+    "webkit-mobile-find-card.webp",
+    "webkit-mobile-compare-card.webp",
+    "webkit-mobile-home.webp",
+    "webkit-narrow-categories.webp",
+    "webkit-narrow-features.webp",
+    "webkit-narrow-home-practice-card.webp",
+    "webkit-narrow-find-card.webp",
+    "webkit-narrow-compare-card.webp",
+    "webkit-narrow-home.webp",
+    "webkit-portrait-edge-categories.webp",
+    "webkit-portrait-edge-features.webp",
+    "webkit-portrait-edge-home-practice-card.webp",
+    "webkit-portrait-edge-find-card.webp",
+    "webkit-portrait-edge-compare-card.webp",
+    "webkit-portrait-edge-home.webp"
+  ],
+  "servedHTMLSHA256": "37ad79d1e4f440d7244bee226cef5ff4805e18694695df1d411919fa4b887765",
+  "notes": [
+    "Linux WebKit with synthetic touch does not certify native iPad Safari.",
+    "Category scenes are generic illustrations and never named-product evidence."
+  ],
+  "browserVersions": {
+    "chromium": "154.0.8037.57",
+    "webkit": "26.5"
+  },
+  "sourceAndBuildUnchangedDuringRun": true,
+  "passed": true
+}

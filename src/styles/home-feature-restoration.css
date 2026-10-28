@@ -1,21 +1,44 @@
-/* Layout only for the two retained cards; their images, copy and controls stay intact. */
+/* Home feature composition. Existing Find/Compare photos and tool routes stay intact. */
 .signature-home.premium-home .home-feature-grid { display: grid; grid-template-columns: minmax(0,1.05fr) minmax(0,1fr); grid-template-rows: repeat(2,auto); gap: 18px; }
-.signature-home.premium-home .home-practice-card { grid-row: 1 / 3; display: flex; align-items: center; min-width: 0; }
-.signature-home.premium-home .home-practice-card .home-editorial-inner { width: 100%; min-height: 100%; padding: 36px; }
-.signature-home.premium-home .home-practice-card .home-editorial-copy { max-width: 350px; }
-.signature-home.premium-home .home-practice-card .home-editorial-photo img { object-position: 62% 50%; filter: brightness(.85) saturate(.86); }
-.signature-home.premium-home .home-practice-card::after { background: radial-gradient(ellipse at 90% 0,#c7984026,transparent 65%),linear-gradient(90deg,#080909e8,#080909b0 40%,#08090922),linear-gradient(0deg,#080909bb,transparent 80%); }
-.signature-home.premium-home .home-practice-card h2 { margin-top: 0; color: var(--fl-text); font-size: clamp(32px,3vw,42px); }
-.signature-home.premium-home .home-practice-card .home-editorial-description { max-width: 300px; font-size: 15px; }
-.signature-home.premium-home .home-practice-card .home-editorial-cta { margin-top: 28px; }
+.signature-home.premium-home .home-practice-card { grid-row: 1 / 3; display: flex; align-items: flex-end; min-width: 0; }
+.signature-home.premium-home .home-practice-card .home-editorial-inner { width: 100%; min-height: 100%; align-items: flex-end; padding: 40px 36px; }
+.signature-home.premium-home .home-practice-card .home-editorial-copy { max-width: 100%; padding-top: 140px; }
+.signature-home.premium-home .home-practice-card .home-editorial-photo img { object-position: 36% 45%; }
+.signature-home.premium-home .home-practice-card::after { background: linear-gradient(90deg,#080909bb 0%,#08090955 43%,transparent 78%),linear-gradient(0deg,#080909e8 0%,#08090999 27%,transparent 75%); }
+.signature-home.premium-home .home-practice-card .signature-section-eyebrow { color: #e1d8c8; font-size: 9px; letter-spacing: .13em; }
+.signature-home.premium-home .home-practice-card h2 { margin-top: 18px; color: var(--fl-text); font-size: clamp(42px,4.8vw,64px); font-weight: 600; line-height: 1.17; letter-spacing: -.035em; }
+.signature-home.premium-home .home-practice-card h2 span { color: #edc770; }
+.signature-home.premium-home .home-practice-card .home-editorial-description { max-width: 400px; font-size: 15px; color: #e5dfd5; line-height: 1.9; }
+.signature-home.premium-home .home-practice-features { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 17px; max-width: 370px; margin-top: 27px; }
+.signature-home.premium-home .home-practice-features li { display: flex; flex-direction: column; align-items: center; min-width: 0; text-align: center; }
+.signature-home.premium-home .home-practice-features svg { flex-shrink: 0; margin-bottom: 9px; color: #edc770; }
+.signature-home.premium-home .home-practice-features strong { color: #f4f1e9; font-size: 13px; font-weight: 500; line-height: 1.7; }
+.signature-home.premium-home .home-practice-features span { margin-top: 2px; color: #d4cdc1; font-size: 11px; line-height: 1.7; }
+.signature-home.premium-home .home-practice-card .home-editorial-cta { min-height: 54px; margin-top: 29px; padding: 13px 25px; gap: 29px; font-size: 14px; }
+@media (hover:hover) {
+  .signature-home.premium-home .home-practice-card .home-editorial-photo img { transition: transform 700ms var(--fl-ease); }
+  .signature-home.premium-home .home-practice-card:hover .home-editorial-photo img { transform: scale(1.025); }
+}
 @media (max-width:1023px), (orientation:portrait) and (max-width:1366px) {
   .signature-home.premium-home .home-feature-grid { grid-template-columns: minmax(0,1fr); grid-template-rows: none; }
   .signature-home.premium-home .home-practice-card { grid-row: auto; }
-  .signature-home.premium-home .home-practice-card .home-editorial-inner { min-height: 380px; }
+  .signature-home.premium-home .home-practice-card .home-editorial-inner { min-height: 590px; padding: 38px; }
+  .signature-home.premium-home .home-practice-card .home-editorial-copy { padding-top: 90px; }
+  .signature-home.premium-home .home-practice-card .home-editorial-photo img { object-position: 50% 40%; }
+  .signature-home.premium-home .home-practice-card h2 { font-size: 58px; }
 }
 @media (max-width:639px) {
   .signature-home.premium-home .home-feature-grid { gap: 14px; }
-  .signature-home.premium-home .home-practice-card .home-editorial-inner { min-height: 355px; padding: 27px 23px; }
-  .signature-home.premium-home .home-practice-card h2 { font-size: 31px; }
-  .signature-home.premium-home .home-practice-card .home-editorial-description { max-width: 255px; font-size: 13px; }
+  .signature-home.premium-home .home-practice-card .home-editorial-inner { min-height: 610px; padding: 30px 23px; }
+  .signature-home.premium-home .home-practice-card .home-editorial-copy { padding-top: 140px; }
+  .signature-home.premium-home .home-practice-card .home-editorial-photo img { object-position: 36% 30%; }
+  .signature-home.premium-home .home-practice-card h2 { font-size: clamp(39px,11.6vw,49px); }
+  .signature-home.premium-home .home-practice-card .home-editorial-description { max-width: 330px; font-size: 12px; }
+  .signature-home.premium-home .home-practice-features { gap: 10px; margin-top: 24px; }
+  .signature-home.premium-home .home-practice-features strong { font-size: 11px; }
+  .signature-home.premium-home .home-practice-features span { font-size: 10px; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .signature-home.premium-home .home-practice-card .home-editorial-photo img { transition: none; }
+  .signature-home.premium-home .home-practice-card:hover .home-editorial-photo img { transform: none; }
 }

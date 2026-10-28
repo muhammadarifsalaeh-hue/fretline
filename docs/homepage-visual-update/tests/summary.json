@@ -1,0 +1,375 @@
+{
+  "passed": true,
+  "passedChecks": 55,
+  "totalUniqueChecks": 55,
+  "suites": [
+    {
+      "name": "homepage-focused",
+      "report": "after/browser-results.json",
+      "passed": true,
+      "passedChecks": 42,
+      "totalChecks": 42
+    },
+    {
+      "name": "original-quiz-compare",
+      "report": "quiz-compare/browser-results.json",
+      "passed": true,
+      "passedChecks": 13,
+      "totalChecks": 13,
+      "originalCheckerChanged": false
+    }
+  ],
+  "checks": [
+    {
+      "name": "chromium-desktop-fullbleed-category-grid",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-desktop-three-mode-card-layout",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-desktop-preserved-home-sections",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-desktop-navigation-real-data-state",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-landscape-fullbleed-category-grid",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-landscape-three-mode-card-layout",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-landscape-preserved-home-sections",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-portrait-fullbleed-category-grid",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-portrait-three-mode-card-layout",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-portrait-preserved-home-sections",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-mobile-fullbleed-category-grid",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-mobile-three-mode-card-layout",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-mobile-preserved-home-sections",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-mobile-navigation-real-data-state",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-narrow-fullbleed-category-grid",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-narrow-three-mode-card-layout",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-narrow-preserved-home-sections",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-portrait-edge-fullbleed-category-grid",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-portrait-edge-three-mode-card-layout",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-portrait-edge-preserved-home-sections",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-normal-motion-hero-brand",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-desktop-fullbleed-category-grid",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-desktop-three-mode-card-layout",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-desktop-preserved-home-sections",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-desktop-navigation-real-data-state",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-landscape-fullbleed-category-grid",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-landscape-three-mode-card-layout",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-landscape-preserved-home-sections",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-portrait-fullbleed-category-grid",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-portrait-three-mode-card-layout",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-portrait-preserved-home-sections",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-mobile-fullbleed-category-grid",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-mobile-three-mode-card-layout",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-mobile-preserved-home-sections",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-mobile-navigation-real-data-state",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-narrow-fullbleed-category-grid",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-narrow-three-mode-card-layout",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-narrow-preserved-home-sections",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-portrait-edge-fullbleed-category-grid",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-portrait-edge-three-mode-card-layout",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-portrait-edge-preserved-home-sections",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "webkit-normal-motion-hero-brand",
+      "suite": "homepage-focused",
+      "passed": true
+    },
+    {
+      "name": "chromium-desktop-quiz-flow",
+      "suite": "original-quiz-compare",
+      "passed": true
+    },
+    {
+      "name": "chromium-desktop-six-result-fixtures",
+      "suite": "original-quiz-compare",
+      "passed": true
+    },
+    {
+      "name": "chromium-desktop-compare-interactions",
+      "suite": "original-quiz-compare",
+      "passed": true
+    },
+    {
+      "name": "chromium-desktop-responsive-320-ipad-landscape",
+      "suite": "original-quiz-compare",
+      "passed": true
+    },
+    {
+      "name": "chromium-mobile-quiz-flow",
+      "suite": "original-quiz-compare",
+      "passed": true
+    },
+    {
+      "name": "chromium-mobile-compare-interactions",
+      "suite": "original-quiz-compare",
+      "passed": true
+    },
+    {
+      "name": "chromium-actual-clipboard-success",
+      "suite": "original-quiz-compare",
+      "passed": true
+    },
+    {
+      "name": "webkit-desktop-quiz-flow",
+      "suite": "original-quiz-compare",
+      "passed": true
+    },
+    {
+      "name": "webkit-desktop-six-result-fixtures",
+      "suite": "original-quiz-compare",
+      "passed": true
+    },
+    {
+      "name": "webkit-desktop-compare-interactions",
+      "suite": "original-quiz-compare",
+      "passed": true
+    },
+    {
+      "name": "webkit-desktop-responsive-320-ipad-landscape",
+      "suite": "original-quiz-compare",
+      "passed": true
+    },
+    {
+      "name": "webkit-mobile-quiz-flow",
+      "suite": "original-quiz-compare",
+      "passed": true
+    },
+    {
+      "name": "webkit-mobile-compare-interactions",
+      "suite": "original-quiz-compare",
+      "passed": true
+    }
+  ],
+  "browserVersions": {
+    "chromium": "154.0.8037.57",
+    "webkit": "26.5"
+  },
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "name": "landscape",
+      "width": 1194,
+      "height": 834
+    },
+    {
+      "name": "portrait",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "narrow",
+      "width": 320,
+      "height": 740
+    },
+    {
+      "name": "portrait-edge",
+      "width": 1024,
+      "height": 1366
+    }
+  ],
+  "physicalIPadSafariTested": false,
+  "unexpectedEvents": {
+    "consoleErrors": 0,
+    "runtimeErrors": 0,
+    "networkErrors": 0,
+    "failedRequests": 0
+  },
+  "sourceAndBuildUnchangedDuringFinalRuns": true,
+  "frozenBuildHTMLSHA256": "37ad79d1e4f440d7244bee226cef5ff4805e18694695df1d411919fa4b887765",
+  "beforeBuildHTMLSHA256": "c462802a6f4b51b37cd043b678c44a501943649cf47d5ebdcd841ceb49f7b3d8",
+  "beforeAfterGallery": "before-after.html",
+  "diagnostics": [
+    {
+      "report": "diagnostic-before-category-fix/browser-results.json",
+      "status": "incomplete diagnostic, real minimum-width overflow fixed in application CSS; coordinate-measurement harness issue fixed without reducing geometry criteria"
+    },
+    {
+      "report": "diagnostic-incomplete-quiz-compare/browser-results.json",
+      "status": "interrupted diagnostic before application rebuild; original checker rerun fully and passed13/13"
+    },
+    {
+      "report": "diagnostic-font-navigation/browser-results.json",
+      "status": "42/42 functional groups passed but overall failed due one cancelled WebKit font; harness now waits actual paint/fonts before navigation, zero-cancellation criterion unchanged; same application build rerun fully42/42 with zero events"
+    }
+  ],
+  "notes": [
+    "All final browser cases were actually executed. No physical iPad or iPadOS Safari certification is claimed.",
+    "Screenshot storage compression does not alter pixels or test assertions/results."
+  ],
+  "screenshotStorage": {
+    "manifest": "screenshot-optimization.json",
+    "format": "lossless WebP",
+    "count": 223,
+    "originalPNGBytes": 199028075,
+    "losslessWebPBytes": 136280736,
+    "uniqueOriginalPNGBytes": 128598672,
+    "uniqueLosslessWebPBytes": 88269030,
+    "allPixelComparisonsAEZero": true,
+    "rawReportArchivesPreserved": true
+  }
+}

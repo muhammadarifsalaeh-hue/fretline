@@ -1,0 +1,79 @@
+{
+  "base": "http://127.0.0.1:5451",
+  "commit": "3c1d70ec5bb2b7f2568ba2b061388a1a251ac540",
+  "servedHTMLSHA256": "c462802a6f4b51b37cd043b678c44a501943649cf47d5ebdcd841ceb49f7b3d8",
+  "captures": [
+    {
+      "viewport": "desktop",
+      "size": [
+        1440,
+        1000
+      ],
+      "files": [
+        "chromium-desktop-categories.webp",
+        "chromium-desktop-features.webp",
+        "chromium-desktop-home.webp"
+      ]
+    },
+    {
+      "viewport": "landscape",
+      "size": [
+        1194,
+        834
+      ],
+      "files": [
+        "chromium-landscape-categories.webp",
+        "chromium-landscape-features.webp",
+        "chromium-landscape-home.webp"
+      ]
+    },
+    {
+      "viewport": "portrait",
+      "size": [
+        768,
+        1024
+      ],
+      "files": [
+        "chromium-portrait-categories.webp",
+        "chromium-portrait-features.webp",
+        "chromium-portrait-home.webp"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "size": [
+        390,
+        844
+      ],
+      "files": [
+        "chromium-mobile-categories.webp",
+        "chromium-mobile-features.webp",
+        "chromium-mobile-home.webp"
+      ]
+    },
+    {
+      "viewport": "narrow",
+      "size": [
+        320,
+        740
+      ],
+      "files": [
+        "chromium-narrow-categories.webp",
+        "chromium-narrow-features.webp",
+        "chromium-narrow-home.webp"
+      ]
+    },
+    {
+      "viewport": "portrait-edge",
+      "size": [
+        1024,
+        1366
+      ],
+      "files": [
+        "chromium-portrait-edge-categories.webp",
+        "chromium-portrait-edge-features.webp",
+        "chromium-portrait-edge-home.webp"
+      ]
+    }
+  ]
+}

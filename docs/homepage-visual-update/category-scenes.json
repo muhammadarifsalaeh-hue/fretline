@@ -1,0 +1,158 @@
+{
+  "createdAt": "2026-10-28",
+  "purpose": "Generic homepage category artwork only; never selected-model product photography or specification evidence.",
+  "sourceReference": {
+    "path": "/tmp/codex-remote-attachments/01a15521-033d-759e-ab27-ff17a129a08c/46D50389-15E0-42D9-AB52-AED9C28D3D74/1-รูปภาพ-1.jpg",
+    "sha256": "8e779c3563520a421550245b095b6f0f6b1fa96d4f6ef382951825258c9e8539",
+    "usage": "User-supplied four-card visual reference; reconstructed into four separate background scenes without the reference text, count, arrows, UI or borders."
+  },
+  "creation": {
+    "tool": "image_gen.imagegen",
+    "process": "Each reference scene was reconstructed separately with the image generation editing tool; electric headstock and bass drum lettering were removed in a second targeted edit. Generic six-string electric, steel-string acoustic, nylon-string classical and four-string bass subjects are retained.",
+    "requestedByUser": true,
+    "legal": "Generated category atmosphere supplied at the user’s request. No third-party photograph author or manufacturer affiliation is claimed. Original licensed images used elsewhere in the site and their credits remain unchanged."
+  },
+  "review": {
+    "noBakedInterface": true,
+    "noBakedCounts": true,
+    "noBakedHeadings": true,
+    "noBakedArrowButtons": true,
+    "realProductEvidence": false,
+    "observedSubjects": {
+      "electric": "Six-string sunburst solid-body electric guitar with three single-coil pickups, white pickguard and an unbranded maple headstock in an amber-lit amplifier room.",
+      "acoustic": "Six-string steel-string acoustic guitar with dark pickguard in a golden sunlit room.",
+      "classical": "Six-string nylon classical guitar with rosette and tie-block bridge, no pickguard, in a daylight music room.",
+      "bass": "Four-string sunburst electric bass with black pickguard in a red-lit stage setting."
+    }
+  },
+  "images": [
+    {
+      "category": "electric",
+      "source": {
+        "file": "/workspace/generated_images/exec-6403116c-3895-4581-b6d3-f2eef0db5d51.png",
+        "width": 1882,
+        "height": 836,
+        "sha256": "d1c1813c10c5ba72330efa95f0a427a78eb39c97bb20470df10446e3d008016a"
+      },
+      "variants": [
+        {
+          "file": "src/assets/home-scenes/category-electric-480.webp",
+          "width": 480,
+          "height": 213,
+          "bytes": 21716,
+          "sha256": "87932e79d79cca4c1e5133aab316176768e82be811349b540abc9cb5c0b73e9b"
+        },
+        {
+          "file": "src/assets/home-scenes/category-electric-960.webp",
+          "width": 960,
+          "height": 426,
+          "bytes": 60184,
+          "sha256": "9629de6b3f2f498d14db821753af12e7eb6c8647c7e0cbc7f65d530e3277e152"
+        },
+        {
+          "file": "src/assets/home-scenes/category-electric-1440.webp",
+          "width": 1440,
+          "height": 640,
+          "bytes": 105826,
+          "sha256": "6b6c664c7e7d87de6bcb6de065213e185ebc0d9bcd2bb25c01d3c6a0b1f5681f"
+        }
+      ]
+    },
+    {
+      "category": "acoustic",
+      "source": {
+        "file": "/workspace/generated_images/exec-f9fb153c-0ad1-4b13-81bf-dc93e66c8d99.png",
+        "width": 1881,
+        "height": 836,
+        "sha256": "d8ffd0176caec98f4a5ae5d5bebd42bbeb6d0357b5185e6b2a046041242e4060"
+      },
+      "variants": [
+        {
+          "file": "src/assets/home-scenes/category-acoustic-480.webp",
+          "width": 480,
+          "height": 213,
+          "bytes": 25240,
+          "sha256": "7a5bc1d98f685b42d15ce35049a798a8f9a6f3082383c37767d042a8388ae279"
+        },
+        {
+          "file": "src/assets/home-scenes/category-acoustic-960.webp",
+          "width": 960,
+          "height": 427,
+          "bytes": 72730,
+          "sha256": "9a44598ca84433c6d0f9651eab3270cd7ab479b6d81562ddfa6d0dea1e01249e"
+        },
+        {
+          "file": "src/assets/home-scenes/category-acoustic-1440.webp",
+          "width": 1440,
+          "height": 640,
+          "bytes": 130068,
+          "sha256": "84fe4b6dacb8a837eb3853c3d849f1ca332dc3d78756614f883b5a69386cd4bf"
+        }
+      ]
+    },
+    {
+      "category": "classical",
+      "source": {
+        "file": "/workspace/generated_images/exec-38bc925e-b728-40f7-bb9e-e8d4dbd21dd7.png",
+        "width": 1881,
+        "height": 836,
+        "sha256": "e5dc3eaeab8605bf6697ba740114e1763a865652d5fb379aafee1248f3e9e710"
+      },
+      "variants": [
+        {
+          "file": "src/assets/home-scenes/category-classical-480.webp",
+          "width": 480,
+          "height": 213,
+          "bytes": 21776,
+          "sha256": "d33a9b1b9de9dfd2cc598fdbbde4fabf827572ceeff165ab1c96120c5ec135ef"
+        },
+        {
+          "file": "src/assets/home-scenes/category-classical-960.webp",
+          "width": 960,
+          "height": 427,
+          "bytes": 58162,
+          "sha256": "7ec25fa6c7645bff18ef1c72ca1d98a03ce3bea1b70dc717b2c83b271f7521c0"
+        },
+        {
+          "file": "src/assets/home-scenes/category-classical-1440.webp",
+          "width": 1440,
+          "height": 640,
+          "bytes": 103566,
+          "sha256": "b3954476c1e126e83dfe82828938442c80253e5a865d28b9805ac20da329891e"
+        }
+      ]
+    },
+    {
+      "category": "bass",
+      "source": {
+        "file": "/workspace/generated_images/exec-436fd8f8-788e-4126-b360-71558f439ec4.png",
+        "width": 1882,
+        "height": 836,
+        "sha256": "9e2948e071068fcd04cc692412701fbe209072452b12bb14788d97cba3ad182e"
+      },
+      "variants": [
+        {
+          "file": "src/assets/home-scenes/category-bass-480.webp",
+          "width": 480,
+          "height": 213,
+          "bytes": 20040,
+          "sha256": "7fbd68676dcccf86a67dd898bc38d4e29f33c336b8e13f4a455599ee383b0200"
+        },
+        {
+          "file": "src/assets/home-scenes/category-bass-960.webp",
+          "width": 960,
+          "height": 426,
+          "bytes": 57176,
+          "sha256": "7ff0b43c1b97c0fff91bb7922d0d9e6ddece6af57266a7531309fb6fbfed226c"
+        },
+        {
+          "file": "src/assets/home-scenes/category-bass-1440.webp",
+          "width": 1440,
+          "height": 640,
+          "bytes": 99470,
+          "sha256": "cf5e34a17d125db504c104a44cd320850201323fe70e45cb0d002d1d40602ec0"
+        }
+      ]
+    }
+  ]
+}
