@@ -1,0 +1,249 @@
+{
+  "batch": "catalog-prices-2026-10-29",
+  "baselineCommit": "edc293f",
+  "changes": [
+    {
+      "id": "fender-player-ii-telecaster",
+      "field": "price",
+      "before": null,
+      "after": 30600,
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-telecaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+      "verifiedOn": "2026-10-29"
+    },
+    {
+      "id": "fender-player-ii-telecaster-hh",
+      "field": "price",
+      "before": null,
+      "after": 31500,
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-telecaster-hh/",
+      "verifiedOn": "2026-10-29"
+    },
+    {
+      "id": "fender-player-ii-stratocaster",
+      "field": "price",
+      "before": null,
+      "after": 30600,
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+      "verifiedOn": "2026-10-29"
+    },
+    {
+      "id": "fender-player-ii-mustang",
+      "field": "price",
+      "before": null,
+      "after": 30600,
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-mustang/",
+      "verifiedOn": "2026-10-29"
+    },
+    {
+      "id": "fender-player-ii-stratocaster-hss",
+      "field": "price",
+      "before": null,
+      "after": 31500,
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-stratocaster-hss-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+      "verifiedOn": "2026-10-29"
+    },
+    {
+      "id": "fender-player-ii-jaguar",
+      "field": "price",
+      "before": null,
+      "after": 31500,
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-jaguar/",
+      "verifiedOn": "2026-10-29"
+    },
+    {
+      "id": "fender-player-ii-modified-stratocaster-hss",
+      "field": "price",
+      "before": null,
+      "after": 39600,
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss/",
+      "verifiedOn": "2026-10-29"
+    },
+    {
+      "id": "fender-player-ii-modified-stratocaster-hss-floyd-rose",
+      "field": "price",
+      "before": null,
+      "after": 43200,
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss-floyd-rose/",
+      "verifiedOn": "2026-10-29"
+    },
+    {
+      "id": "fender-player-ii-modified-telecaster",
+      "field": "price",
+      "before": null,
+      "after": 37800,
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-modified-telecaster/",
+      "verifiedOn": "2026-10-29"
+    },
+    {
+      "id": "yamaha-fgx830c",
+      "field": "specs.bodyShape",
+      "before": null,
+      "after": "Dreadnought Cutaway Style",
+      "sourceURL": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+      "verifiedOn": "2026-10-29",
+      "sourceKind": "manufacturer-exact-model-specification-table"
+    },
+    {
+      "id": "yamaha-fgx830c",
+      "field": "specs.top",
+      "before": null,
+      "after": "Solid Spruce",
+      "sourceURL": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+      "verifiedOn": "2026-10-29",
+      "sourceKind": "manufacturer-exact-model-specification-table"
+    },
+    {
+      "id": "yamaha-fgx830c",
+      "field": "specs.back",
+      "before": null,
+      "after": "Rosewood",
+      "sourceURL": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+      "verifiedOn": "2026-10-29",
+      "sourceKind": "manufacturer-exact-model-specification-table"
+    },
+    {
+      "id": "yamaha-fgx830c",
+      "field": "specs.sides",
+      "before": null,
+      "after": "Rosewood",
+      "sourceURL": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+      "verifiedOn": "2026-10-29",
+      "sourceKind": "manufacturer-exact-model-specification-table"
+    },
+    {
+      "id": "yamaha-fgx830c",
+      "field": "specs.electronics",
+      "before": null,
+      "after": "SYSTEM66",
+      "sourceURL": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+      "verifiedOn": "2026-10-29",
+      "sourceKind": "manufacturer-exact-model-specification-table"
+    },
+    {
+      "id": "fender-player-ii-stratocaster",
+      "field": "specs.bodyShape",
+      "before": null,
+      "after": "Stratocaster",
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+      "verifiedOn": "2026-10-29",
+      "sourceKind": "retailer-specifications"
+    },
+    {
+      "id": "fender-player-ii-stratocaster",
+      "field": "specs.pickupConfiguration",
+      "before": null,
+      "after": "SSS",
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+      "verifiedOn": "2026-10-29",
+      "sourceKind": "retailer-specifications"
+    },
+    {
+      "id": "fender-player-ii-stratocaster",
+      "field": "specs.nutWidthMm",
+      "before": null,
+      "after": 42,
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+      "verifiedOn": "2026-10-29",
+      "sourceKind": "retailer-specifications"
+    },
+    {
+      "id": "fender-player-ii-stratocaster",
+      "field": "specs.fingerboardRadiusMm",
+      "before": null,
+      "after": 241,
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+      "verifiedOn": "2026-10-29",
+      "sourceKind": "retailer-specifications"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "fender-player-ii-stratocaster",
+      "field": "specs.strings",
+      "reason": "Missing, invalid, unsupported or unverified field evidence"
+    }
+  ],
+  "categoryConflicts": [
+    {
+      "id": "epiphone-thunderbird-64-with-rosewood-fretboard",
+      "incoming": "electric",
+      "preserved": "bass"
+    }
+  ],
+  "priceConflicts": [
+    {
+      "id": "yamaha-fg820-12",
+      "incoming": 18200,
+      "preserved": 16500,
+      "sourceURL": "https://www.musiclifethailand.com/category/167784",
+      "reason": "Existing source-backed primary price is retained; a different retailer amount is not silently substituted."
+    }
+  ],
+  "policy": "Only verified missing fields are filled; identities, existing nonempty values, primary manufacturer evidence, statuses, descriptions and images are preserved.",
+  "pricedModelsBefore": 18,
+  "changedModelIDs": [
+    "yamaha-fgx830c",
+    "fender-player-ii-telecaster",
+    "fender-player-ii-telecaster-hh",
+    "fender-player-ii-stratocaster",
+    "fender-player-ii-mustang",
+    "fender-player-ii-stratocaster-hss",
+    "fender-player-ii-jaguar",
+    "fender-player-ii-modified-stratocaster-hss",
+    "fender-player-ii-modified-stratocaster-hss-floyd-rose",
+    "fender-player-ii-modified-telecaster"
+  ],
+  "changedModels": 10,
+  "newPrices": 9,
+  "newSpecificationFields": 9,
+  "pricedModelsAfter": 27,
+  "preservedExistingPriceDespiteIncomingNull": [
+    "yamaha-pacifica-612viifm",
+    "yamaha-fg800",
+    "yamaha-fs850",
+    "yamaha-fs830",
+    "yamaha-fs820",
+    "yamaha-fgx820c",
+    "yamaha-fgx800c",
+    "yamaha-fsx830c",
+    "yamaha-fsx820c",
+    "yamaha-fsx800c"
+  ],
+  "mode": "apply",
+  "intakeCheck": {
+    "models": 200,
+    "brands": {
+      "Yamaha": 20,
+      "Fender": 20,
+      "Epiphone": 20,
+      "Ibanez": 20,
+      "Taylor": 20,
+      "Córdoba": 20,
+      "Gibson": 20,
+      "Martin": 20,
+      "PRS": 20,
+      "Squier": 20
+    }
+  },
+  "archiveRepresentations": {
+    "perBrandJSONFiles": 10,
+    "priceCSVFiles": 10,
+    "aggregateMatches": true
+  },
+  "dataFiles": [
+    {
+      "path": "src/data/catalog/reviewedGuitars.json",
+      "beforeSHA256": "2cd055173b494fe23c60b71dda66f7eda2dbc04141d49da73d6ace506ea8463c",
+      "plannedSHA256": "0f88b83636c56ab7de9709b0cb784214fa51f56165c97c63226f587a2c97b905",
+      "changed": true,
+      "written": true
+    },
+    {
+      "path": "src/data/catalog/phase7Guitars.json",
+      "beforeSHA256": "ed8e16264d499c6a7c3bf3823e98a16cc28a4dd9a82d0024a3106f16cebeb433",
+      "plannedSHA256": "467a22a1a2a9bb2badabcad4c543f16e937d75db25db81d60a60a6e2311e6274",
+      "changed": true,
+      "written": true
+    }
+  ]
+}

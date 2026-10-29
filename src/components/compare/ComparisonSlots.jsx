@@ -1,6 +1,6 @@
 import { LANG, t } from '@/i18n';
 import { MAX_COMPARE } from '@/context/ShopContext';
-import { publicPrice, trustedPrice } from '@/utils/dataTrust';
+import { publicPrice } from '@/utils/dataTrust';
 import { guitarUrl } from '@/utils/routes';
 import AppLink from '@/components/ui/AppLink';
 import GuitarImage from '@/components/guitar/GuitarImage';
@@ -20,7 +20,7 @@ export default function ComparisonSlots({ selected, onAdd, onRemove }) {
         <div className="pc-model-card__copy">
           <p className="pc-model-card__brand">{guitar.brand}</p>
           <h2><AppLink href={guitarUrl(guitar.slug)}>{guitar.name}</AppLink></h2>
-          <p className="pc-model-card__price">{trustedPrice(guitar) == null ? (LANG === 'en' ? 'Unconfirmed' : 'ยังไม่ยืนยัน') : publicPrice(guitar)}</p>
+          <p className="pc-model-card__price">{publicPrice(guitar)}</p>
           <PriceSourceNote guitar={guitar} />
           {guitar.archived && <p className="archive-label">{t('p7.archive.label')}</p>}
         </div>

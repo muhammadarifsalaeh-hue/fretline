@@ -1,0 +1,9 @@
+{
+  "command": "node docs/catalog-update-2026-10-29/tests/check-compare-fields.mjs",
+  "exitCode": 0,
+  "passedChecks": 15,
+  "expectedChecks": 15,
+  "durationSeconds": 1.59,
+  "passed": true,
+  "earlierAttempt": "Before the shared requested price label was integrated, ten checks passed and the next correctly failed on the old wording. The final run uses the integrated source and retains the exact requested wording assertion."
+}

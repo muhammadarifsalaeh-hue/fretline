@@ -1,0 +1,17 @@
+PASS every requested comparison field remains visible in Overview even when absent
+PASS null, undefined, empty and whitespace specifications show no data and are not equal/different
+PASS a known absence of electronics is preserved and never invented for unknowns
+PASS one known value plus unknowns is incomplete, not a proven difference
+PASS known equal values plus an unknown do not claim all models are the same
+PASS two genuinely different known values are highlighted even when another model is unknown
+PASS case and whitespace alone do not create false technical differences
+PASS equivalent inch and millimetre scales compare equally without changing source display
+PASS invalid scale values cannot render as zero or poison a valid alternate unit
+PASS zero frets is a valid sourced fretless count, while zero strings is unknown
+PASS unverified or non-THB prices cannot win the cheapest comparison
+PASS unknown, zero, negative, non-finite and incorrectly typed prices never display zero baht
+PASS sample specification protection remains enabled for public comparisons
+PASS unrequested optional rows remain hidden until sourced data exists
+PASS a genuine verified zero-star rating remains a known rating
+
+15/15 comparison data checks passed

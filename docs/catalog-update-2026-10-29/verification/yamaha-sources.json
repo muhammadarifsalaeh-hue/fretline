@@ -1,0 +1,851 @@
+{
+  "checkedOn": "2026-10-29",
+  "scope": "Only Yamaha incoming candidates; no application files edited. Baseline is exported effective public catalog, not raw illustrative data.",
+  "summary": {
+    "modelsReviewed": 20,
+    "incomingPriceCandidates": 8,
+    "priceCandidatesObservedExactly": 8,
+    "newPrimaryPricesRecommended": 0,
+    "differentRetailerAlternatePrices": 1,
+    "acceptedMissingSpecificationFills": 5,
+    "modelsWithAcceptedMissingSpecificationFills": 1,
+    "manufacturerModelsInCurrentMYTable": 19,
+    "fieldsPerMYModel": 30
+  },
+  "acceptedSpecs": [
+    {
+      "id": "yamaha-fgx830c",
+      "canonicalKey": "bodyShape",
+      "fieldPath": "specs.bodyShape",
+      "value": "Dreadnought Cutaway Style",
+      "incomingField": "comparison_specs.body_shape",
+      "incomingValue": "Dreadnought Cutaway",
+      "baselineValue": null,
+      "sourceURL": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+      "checkedOn": "2026-10-29",
+      "manufacturerModel": "FGX830C",
+      "quote": "FGX830C column — Body Shape: Dreadnought Cutaway Style",
+      "sourceKind": "manufacturer-exact-model-specification-table",
+      "evidence": {
+        "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+        "finalUrl": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+        "status": 200,
+        "bytes": 117393,
+        "sha256": "24f232ed17e0462b44aa271d970585172d7054e82aff8225c7ade8393327bb7d",
+        "rawFile": "docs/catalog-update-2026-10-29/verification/yamaha-my-specs.html.gz",
+        "accessedAt": "2026-10-29T06:50:07.041008+00:00"
+      },
+      "note": "Incoming Dreadnought Cutaway normalized to the exact manufacturer wording."
+    },
+    {
+      "id": "yamaha-fgx830c",
+      "canonicalKey": "top",
+      "fieldPath": "specs.top",
+      "value": "Solid Spruce",
+      "incomingField": "comparison_specs.top_wood",
+      "incomingValue": "Solid spruce",
+      "baselineValue": null,
+      "sourceURL": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+      "checkedOn": "2026-10-29",
+      "manufacturerModel": "FGX830C",
+      "quote": "FGX830C column — Top Material: Solid Spruce",
+      "sourceKind": "manufacturer-exact-model-specification-table",
+      "evidence": {
+        "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+        "finalUrl": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+        "status": 200,
+        "bytes": 117393,
+        "sha256": "24f232ed17e0462b44aa271d970585172d7054e82aff8225c7ade8393327bb7d",
+        "rawFile": "docs/catalog-update-2026-10-29/verification/yamaha-my-specs.html.gz",
+        "accessedAt": "2026-10-29T06:50:07.041008+00:00"
+      },
+      "note": "Case normalized to the exact manufacturer wording."
+    },
+    {
+      "id": "yamaha-fgx830c",
+      "canonicalKey": "back",
+      "fieldPath": "specs.back",
+      "value": "Rosewood",
+      "incomingField": "comparison_specs.back_sides",
+      "incomingValue": "Rosewood",
+      "baselineValue": null,
+      "sourceURL": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+      "checkedOn": "2026-10-29",
+      "manufacturerModel": "FGX830C",
+      "quote": "FGX830C column — Back Material: Rosewood",
+      "sourceKind": "manufacturer-exact-model-specification-table",
+      "evidence": {
+        "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+        "finalUrl": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+        "status": 200,
+        "bytes": 117393,
+        "sha256": "24f232ed17e0462b44aa271d970585172d7054e82aff8225c7ade8393327bb7d",
+        "rawFile": "docs/catalog-update-2026-10-29/verification/yamaha-my-specs.html.gz",
+        "accessedAt": "2026-10-29T06:50:07.041008+00:00"
+      },
+      "note": "Combined incoming back_sides is split only because the exact model table independently states Rosewood for Back Material."
+    },
+    {
+      "id": "yamaha-fgx830c",
+      "canonicalKey": "sides",
+      "fieldPath": "specs.sides",
+      "value": "Rosewood",
+      "incomingField": "comparison_specs.back_sides",
+      "incomingValue": "Rosewood",
+      "baselineValue": null,
+      "sourceURL": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+      "checkedOn": "2026-10-29",
+      "manufacturerModel": "FGX830C",
+      "quote": "FGX830C column — Side Material: Rosewood",
+      "sourceKind": "manufacturer-exact-model-specification-table",
+      "evidence": {
+        "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+        "finalUrl": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+        "status": 200,
+        "bytes": 117393,
+        "sha256": "24f232ed17e0462b44aa271d970585172d7054e82aff8225c7ade8393327bb7d",
+        "rawFile": "docs/catalog-update-2026-10-29/verification/yamaha-my-specs.html.gz",
+        "accessedAt": "2026-10-29T06:50:07.041008+00:00"
+      },
+      "note": "Combined incoming back_sides is split only because the exact model table independently states Rosewood for Side Material."
+    },
+    {
+      "id": "yamaha-fgx830c",
+      "canonicalKey": "electronics",
+      "fieldPath": "specs.electronics",
+      "value": "SYSTEM66",
+      "incomingField": "comparison_specs.electronics",
+      "incomingValue": "Acoustic-electric",
+      "baselineValue": null,
+      "sourceURL": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+      "checkedOn": "2026-10-29",
+      "manufacturerModel": "FGX830C",
+      "quote": "FGX830C column — Electronics: SYSTEM66",
+      "sourceKind": "manufacturer-exact-model-specification-table",
+      "evidence": {
+        "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+        "finalUrl": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+        "status": 200,
+        "bytes": 117393,
+        "sha256": "24f232ed17e0462b44aa271d970585172d7054e82aff8225c7ade8393327bb7d",
+        "rawFile": "docs/catalog-update-2026-10-29/verification/yamaha-my-specs.html.gz",
+        "accessedAt": "2026-10-29T06:50:07.041008+00:00"
+      },
+      "note": "Incoming broad Acoustic-electric label is normalized to the exact sourced preamp system; existing nonempty pickups SYSTEM66 remains unchanged."
+    }
+  ],
+  "priceCandidates": [
+    {
+      "id": "yamaha-fg850",
+      "amountTHB": 19700,
+      "currency": "THB",
+      "candidateAcceptedAsObservedListing": true,
+      "sourceURL": "https://www.musicarms.net/yamaha-fg850/",
+      "observedURL": "https://www.musicarms.net/yamaha-fg850/",
+      "discoveredProductURL": "https://www.musicarms.net/yamaha-fg850/",
+      "productURLIndependentlyFetched": true,
+      "checkedOn": "2026-10-29",
+      "quote": "Yamaha FG850 — ราคา : 19,700 บาท; JSON-LD Product name Yamaha FG850, model FG850, offers.priceCurrency THB, offers.price 19700.",
+      "sourceKind": "retailer-listed",
+      "evidence": {
+        "url": "https://www.musicarms.net/yamaha-fg850/",
+        "finalUrl": "https://www.musicarms.net/yamaha-fg850/",
+        "status": 200,
+        "bytes": 342154,
+        "sha256": "f7accdf87055b8c7225f14fe37ca0aa5abd960f7c9938fd13db64b6dc42c4068",
+        "rawFile": "docs/catalog-update-2026-10-29/verification/music-arms-fg850.html.gz",
+        "accessedAt": "2026-10-29T06:50:13.267684+00:00"
+      },
+      "baselinePrimaryAmountTHB": 19700,
+      "baselinePrimarySourceURL": "https://www.musicarms.net/yamaha-fg850/",
+      "amountMatchesBaseline": true,
+      "applyPrimaryPriceChange": false,
+      "decision": "retain_existing_equal_primary_and_source",
+      "reason": "The amount is already present in the sourced website record; do not replace the existing complete source with a category URL."
+    },
+    {
+      "id": "yamaha-fg840",
+      "amountTHB": 19200,
+      "currency": "THB",
+      "candidateAcceptedAsObservedListing": true,
+      "sourceURL": "https://www.musiclifethailand.com/category/167784",
+      "observedURL": "https://www.musiclifethailand.com/category/167784",
+      "discoveredProductURL": "https://www.musiclifethailand.com/product/591522",
+      "productURLIndependentlyFetched": false,
+      "checkedOn": "2026-10-29",
+      "quote": "YAMAHA FG-840 — 19,200.00 THB",
+      "sourceKind": "retailer-listed",
+      "evidence": {
+        "url": "https://www.musiclifethailand.com/category/167784",
+        "finalUrl": "https://www.musiclifethailand.com/category/167784",
+        "status": 200,
+        "bytes": 200863,
+        "sha256": "b7ca4374a3a87b7e3d88d15951879bd05c657dc492404a6f28b15412bf9e540c",
+        "rawFile": "docs/catalog-update-2026-10-29/verification/music-life-category.html.gz",
+        "accessedAt": "2026-10-29T06:50:08.246164+00:00"
+      },
+      "baselinePrimaryAmountTHB": 19200,
+      "baselinePrimarySourceURL": "https://www.musicarms.net/yamaha-fg840/",
+      "amountMatchesBaseline": true,
+      "applyPrimaryPriceChange": false,
+      "decision": "retain_existing_equal_primary_and_source",
+      "reason": "The amount is already present in the sourced website record; do not replace the existing complete source with a category URL."
+    },
+    {
+      "id": "yamaha-fg830",
+      "amountTHB": 17500,
+      "currency": "THB",
+      "candidateAcceptedAsObservedListing": true,
+      "sourceURL": "https://www.musiclifethailand.com/category/167784",
+      "observedURL": "https://www.musiclifethailand.com/category/167784",
+      "discoveredProductURL": "https://www.musiclifethailand.com/product/591500",
+      "productURLIndependentlyFetched": false,
+      "checkedOn": "2026-10-29",
+      "quote": "YAMAHA FG-830 — 17,500.00 THB",
+      "sourceKind": "retailer-listed",
+      "evidence": {
+        "url": "https://www.musiclifethailand.com/category/167784",
+        "finalUrl": "https://www.musiclifethailand.com/category/167784",
+        "status": 200,
+        "bytes": 200863,
+        "sha256": "b7ca4374a3a87b7e3d88d15951879bd05c657dc492404a6f28b15412bf9e540c",
+        "rawFile": "docs/catalog-update-2026-10-29/verification/music-life-category.html.gz",
+        "accessedAt": "2026-10-29T06:50:08.246164+00:00"
+      },
+      "baselinePrimaryAmountTHB": 17500,
+      "baselinePrimarySourceURL": "https://www.musicarms.net/yamaha-fg830/",
+      "amountMatchesBaseline": true,
+      "applyPrimaryPriceChange": false,
+      "decision": "retain_existing_equal_primary_and_source",
+      "reason": "The amount is already present in the sourced website record; do not replace the existing complete source with a category URL."
+    },
+    {
+      "id": "yamaha-fg820",
+      "amountTHB": 15400,
+      "currency": "THB",
+      "candidateAcceptedAsObservedListing": true,
+      "sourceURL": "https://www.musiclifethailand.com/category/167784",
+      "observedURL": "https://www.musiclifethailand.com/category/167784",
+      "discoveredProductURL": "https://www.musiclifethailand.com/product/591056",
+      "productURLIndependentlyFetched": false,
+      "checkedOn": "2026-10-29",
+      "quote": "YAMAHA FG-820 — 15,400.00 THB",
+      "sourceKind": "retailer-listed",
+      "evidence": {
+        "url": "https://www.musiclifethailand.com/category/167784",
+        "finalUrl": "https://www.musiclifethailand.com/category/167784",
+        "status": 200,
+        "bytes": 200863,
+        "sha256": "b7ca4374a3a87b7e3d88d15951879bd05c657dc492404a6f28b15412bf9e540c",
+        "rawFile": "docs/catalog-update-2026-10-29/verification/music-life-category.html.gz",
+        "accessedAt": "2026-10-29T06:50:08.246164+00:00"
+      },
+      "baselinePrimaryAmountTHB": 15400,
+      "baselinePrimarySourceURL": "https://www.musicarms.net/yamaha-fg820/",
+      "amountMatchesBaseline": true,
+      "applyPrimaryPriceChange": false,
+      "decision": "retain_existing_equal_primary_and_source",
+      "reason": "The amount is already present in the sourced website record; do not replace the existing complete source with a category URL."
+    },
+    {
+      "id": "yamaha-fg820-12",
+      "amountTHB": 18200,
+      "currency": "THB",
+      "candidateAcceptedAsObservedListing": true,
+      "sourceURL": "https://www.musiclifethailand.com/category/167784",
+      "observedURL": "https://www.musiclifethailand.com/category/167784",
+      "discoveredProductURL": "https://www.musiclifethailand.com/product/591080",
+      "productURLIndependentlyFetched": false,
+      "checkedOn": "2026-10-29",
+      "quote": "YAMAHA FG-820 (12 Strings) — 18,200.00 THB",
+      "sourceKind": "retailer-listed",
+      "evidence": {
+        "url": "https://www.musiclifethailand.com/category/167784",
+        "finalUrl": "https://www.musiclifethailand.com/category/167784",
+        "status": 200,
+        "bytes": 200863,
+        "sha256": "b7ca4374a3a87b7e3d88d15951879bd05c657dc492404a6f28b15412bf9e540c",
+        "rawFile": "docs/catalog-update-2026-10-29/verification/music-life-category.html.gz",
+        "accessedAt": "2026-10-29T06:50:08.246164+00:00"
+      },
+      "baselinePrimaryAmountTHB": 16500,
+      "baselinePrimarySourceURL": "https://www.musicarms.net/yamaha-fg820-12/",
+      "amountMatchesBaseline": false,
+      "applyPrimaryPriceChange": false,
+      "decision": "retain_existing_primary_record_alternate",
+      "reason": "A different retailer listing is not proof that the previous sourced primary listing is wrong. Preserve the existing more specific source and price; report the newly observed alternate."
+    },
+    {
+      "id": "yamaha-fg820l",
+      "amountTHB": 18200,
+      "currency": "THB",
+      "candidateAcceptedAsObservedListing": true,
+      "sourceURL": "https://www.musiclifethailand.com/category/167784",
+      "observedURL": "https://www.musiclifethailand.com/category/167784",
+      "discoveredProductURL": "https://www.musiclifethailand.com/product/591110",
+      "productURLIndependentlyFetched": false,
+      "checkedOn": "2026-10-29",
+      "quote": "YAMAHA FG-820L (LEFT HAND) — 18,200.00 THB",
+      "sourceKind": "retailer-listed",
+      "evidence": {
+        "url": "https://www.musiclifethailand.com/category/167784",
+        "finalUrl": "https://www.musiclifethailand.com/category/167784",
+        "status": 200,
+        "bytes": 200863,
+        "sha256": "b7ca4374a3a87b7e3d88d15951879bd05c657dc492404a6f28b15412bf9e540c",
+        "rawFile": "docs/catalog-update-2026-10-29/verification/music-life-category.html.gz",
+        "accessedAt": "2026-10-29T06:50:08.246164+00:00"
+      },
+      "baselinePrimaryAmountTHB": 18200,
+      "baselinePrimarySourceURL": "https://www.musicarms.net/yamaha-fg820l/",
+      "amountMatchesBaseline": true,
+      "applyPrimaryPriceChange": false,
+      "decision": "retain_existing_equal_primary_and_source",
+      "reason": "The amount is already present in the sourced website record; do not replace the existing complete source with a category URL."
+    },
+    {
+      "id": "yamaha-fg800m",
+      "amountTHB": 12400,
+      "currency": "THB",
+      "candidateAcceptedAsObservedListing": true,
+      "sourceURL": "https://www.musiclifethailand.com/category/167784",
+      "observedURL": "https://www.musiclifethailand.com/category/167784",
+      "discoveredProductURL": "https://www.musiclifethailand.com/product/591032",
+      "productURLIndependentlyFetched": false,
+      "checkedOn": "2026-10-29",
+      "quote": "YAMAHA FG-800M — 12,400.00 THB",
+      "sourceKind": "retailer-listed",
+      "evidence": {
+        "url": "https://www.musiclifethailand.com/category/167784",
+        "finalUrl": "https://www.musiclifethailand.com/category/167784",
+        "status": 200,
+        "bytes": 200863,
+        "sha256": "b7ca4374a3a87b7e3d88d15951879bd05c657dc492404a6f28b15412bf9e540c",
+        "rawFile": "docs/catalog-update-2026-10-29/verification/music-life-category.html.gz",
+        "accessedAt": "2026-10-29T06:50:08.246164+00:00"
+      },
+      "baselinePrimaryAmountTHB": 12400,
+      "baselinePrimarySourceURL": "https://www.musicarms.net/yamaha-fg800m/",
+      "amountMatchesBaseline": true,
+      "applyPrimaryPriceChange": false,
+      "decision": "retain_existing_equal_primary_and_source",
+      "reason": "The amount is already present in the sourced website record; do not replace the existing complete source with a category URL."
+    },
+    {
+      "id": "yamaha-fs800",
+      "amountTHB": 12400,
+      "currency": "THB",
+      "candidateAcceptedAsObservedListing": true,
+      "sourceURL": "https://www.musiclifethailand.com/category/167784",
+      "observedURL": "https://www.musiclifethailand.com/category/167784",
+      "discoveredProductURL": "https://www.musiclifethailand.com/product/590847",
+      "productURLIndependentlyFetched": false,
+      "checkedOn": "2026-10-29",
+      "quote": "YAMAHA FS-800 — 12,400.00 THB",
+      "sourceKind": "retailer-listed",
+      "evidence": {
+        "url": "https://www.musiclifethailand.com/category/167784",
+        "finalUrl": "https://www.musiclifethailand.com/category/167784",
+        "status": 200,
+        "bytes": 200863,
+        "sha256": "b7ca4374a3a87b7e3d88d15951879bd05c657dc492404a6f28b15412bf9e540c",
+        "rawFile": "docs/catalog-update-2026-10-29/verification/music-life-category.html.gz",
+        "accessedAt": "2026-10-29T06:50:08.246164+00:00"
+      },
+      "baselinePrimaryAmountTHB": 12400,
+      "baselinePrimarySourceURL": "https://www.musicarms.net/yamaha-fs800/",
+      "amountMatchesBaseline": true,
+      "applyPrimaryPriceChange": false,
+      "decision": "retain_existing_equal_primary_and_source",
+      "reason": "The amount is already present in the sourced website record; do not replace the existing complete source with a category URL."
+    }
+  ],
+  "modelReview": [
+    {
+      "id": "yamaha-pacifica-612viifm",
+      "incomingPrimaryPrice": null,
+      "baselinePrimaryPrice": 34000,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {},
+      "sourceTableModel": null,
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": null,
+      "stringCountDecision": "not_provided",
+      "currentBack": null,
+      "currentSides": null,
+      "manufacturerBack": null,
+      "manufacturerSides": null
+    },
+    {
+      "id": "yamaha-fg800",
+      "incomingPrimaryPrice": null,
+      "baselinePrimaryPrice": 12400,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {},
+      "sourceTableModel": "FG800",
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": 6,
+      "stringCountDecision": "not_imported_without_explicit_exact_model_count",
+      "currentBack": "Nato/Okume",
+      "currentSides": "Nato/Okume",
+      "manufacturerBack": "Nato/Okume",
+      "manufacturerSides": "Nato/Okume"
+    },
+    {
+      "id": "yamaha-fg850",
+      "incomingPrimaryPrice": 19700,
+      "baselinePrimaryPrice": 19700,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table",
+        "top_wood": "manufacturer_product_page",
+        "back_sides": "manufacturer_product_page"
+      },
+      "sourceTableModel": "FG850",
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": 6,
+      "stringCountDecision": "not_imported_without_explicit_exact_model_count",
+      "currentBack": "Mahogany",
+      "currentSides": "Mahogany",
+      "manufacturerBack": "Mahogany",
+      "manufacturerSides": "Mahogany"
+    },
+    {
+      "id": "yamaha-fg840",
+      "incomingPrimaryPrice": 19200,
+      "baselinePrimaryPrice": 19200,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table",
+        "top_wood": "manufacturer_product_page",
+        "back_sides": "manufacturer_product_page"
+      },
+      "sourceTableModel": "FG840",
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": 6,
+      "stringCountDecision": "not_imported_without_explicit_exact_model_count",
+      "currentBack": "Flamed Maple",
+      "currentSides": "Flamed Maple",
+      "manufacturerBack": "Flamed Maple",
+      "manufacturerSides": "Flamed Maple"
+    },
+    {
+      "id": "yamaha-fg830",
+      "incomingPrimaryPrice": 17500,
+      "baselinePrimaryPrice": 17500,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table",
+        "top_wood": "manufacturer_product_page",
+        "back_sides": "manufacturer_product_page"
+      },
+      "sourceTableModel": "FG830",
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": 6,
+      "stringCountDecision": "not_imported_without_explicit_exact_model_count",
+      "currentBack": "Rosewood",
+      "currentSides": "Rosewood",
+      "manufacturerBack": "Rosewood",
+      "manufacturerSides": "Rosewood"
+    },
+    {
+      "id": "yamaha-fg820",
+      "incomingPrimaryPrice": 15400,
+      "baselinePrimaryPrice": 15400,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "sourceTableModel": "FG820",
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": 6,
+      "stringCountDecision": "not_imported_without_explicit_exact_model_count",
+      "currentBack": "Mahogany",
+      "currentSides": "Mahogany",
+      "manufacturerBack": "Mahogany",
+      "manufacturerSides": "Mahogany"
+    },
+    {
+      "id": "yamaha-fg820-12",
+      "incomingPrimaryPrice": 18200,
+      "baselinePrimaryPrice": 16500,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "sourceTableModel": "FG820-12",
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": 12,
+      "stringCountDecision": "already_verified_12_retained",
+      "currentBack": "Mahogany",
+      "currentSides": "Mahogany",
+      "manufacturerBack": "Mahogany",
+      "manufacturerSides": "Mahogany"
+    },
+    {
+      "id": "yamaha-fg820l",
+      "incomingPrimaryPrice": 18200,
+      "baselinePrimaryPrice": 18200,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "sourceTableModel": "FG820L",
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": 6,
+      "stringCountDecision": "not_imported_without_explicit_exact_model_count",
+      "currentBack": "Mahogany",
+      "currentSides": "Mahogany",
+      "manufacturerBack": "Mahogany",
+      "manufacturerSides": "Mahogany"
+    },
+    {
+      "id": "yamaha-fg800j",
+      "incomingPrimaryPrice": null,
+      "baselinePrimaryPrice": null,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "sourceTableModel": "FG800J",
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": 6,
+      "stringCountDecision": "not_imported_without_explicit_exact_model_count",
+      "currentBack": "Nato/Mahogany",
+      "currentSides": "Nato/Mahogany",
+      "manufacturerBack": "Nato/Mahogany",
+      "manufacturerSides": "Nato/Mahogany"
+    },
+    {
+      "id": "yamaha-fg800m",
+      "incomingPrimaryPrice": 12400,
+      "baselinePrimaryPrice": 12400,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "sourceTableModel": "FG800M",
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": 6,
+      "stringCountDecision": "not_imported_without_explicit_exact_model_count",
+      "currentBack": "Nato/Okume",
+      "currentSides": "Nato/Okume",
+      "manufacturerBack": "Nato/Okume",
+      "manufacturerSides": "Nato/Okume"
+    },
+    {
+      "id": "yamaha-fs850",
+      "incomingPrimaryPrice": null,
+      "baselinePrimaryPrice": 19700,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "sourceTableModel": "FS850",
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": 6,
+      "stringCountDecision": "not_imported_without_explicit_exact_model_count",
+      "currentBack": "Mahogany",
+      "currentSides": "Mahogany",
+      "manufacturerBack": "Mahogany",
+      "manufacturerSides": "Mahogany"
+    },
+    {
+      "id": "yamaha-fs830",
+      "incomingPrimaryPrice": null,
+      "baselinePrimaryPrice": 17500,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "sourceTableModel": "FS830",
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": 6,
+      "stringCountDecision": "not_imported_without_explicit_exact_model_count",
+      "currentBack": "Rosewood",
+      "currentSides": "Rosewood",
+      "manufacturerBack": "Rosewood",
+      "manufacturerSides": "Rosewood"
+    },
+    {
+      "id": "yamaha-fs820",
+      "incomingPrimaryPrice": null,
+      "baselinePrimaryPrice": 15400,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "sourceTableModel": "FS820",
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": 6,
+      "stringCountDecision": "not_imported_without_explicit_exact_model_count",
+      "currentBack": "Mahogany",
+      "currentSides": "Mahogany",
+      "manufacturerBack": "Mahogany",
+      "manufacturerSides": "Mahogany"
+    },
+    {
+      "id": "yamaha-fs800",
+      "incomingPrimaryPrice": 12400,
+      "baselinePrimaryPrice": 12400,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "sourceTableModel": "FS800",
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": 6,
+      "stringCountDecision": "not_imported_without_explicit_exact_model_count",
+      "currentBack": "Nato/Okume",
+      "currentSides": "Nato/Okume",
+      "manufacturerBack": "Nato/Okume",
+      "manufacturerSides": "Nato/Okume"
+    },
+    {
+      "id": "yamaha-fgx830c",
+      "incomingPrimaryPrice": null,
+      "baselinePrimaryPrice": null,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "sourceTableModel": "FGX830C",
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": 6,
+      "stringCountDecision": "not_imported_without_explicit_exact_model_count",
+      "currentBack": null,
+      "currentSides": null,
+      "manufacturerBack": "Rosewood",
+      "manufacturerSides": "Rosewood"
+    },
+    {
+      "id": "yamaha-fgx820c",
+      "incomingPrimaryPrice": null,
+      "baselinePrimaryPrice": 20500,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "sourceTableModel": "FGX820C",
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": 6,
+      "stringCountDecision": "not_imported_without_explicit_exact_model_count",
+      "currentBack": "Mahogany",
+      "currentSides": "Mahogany",
+      "manufacturerBack": "Mahogany",
+      "manufacturerSides": "Mahogany"
+    },
+    {
+      "id": "yamaha-fgx800c",
+      "incomingPrimaryPrice": null,
+      "baselinePrimaryPrice": 15500,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "sourceTableModel": "FGX800C",
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": 6,
+      "stringCountDecision": "not_imported_without_explicit_exact_model_count",
+      "currentBack": "Nato/Okume",
+      "currentSides": "Nato/Okume",
+      "manufacturerBack": "Nato/Okume",
+      "manufacturerSides": "Nato/Okume"
+    },
+    {
+      "id": "yamaha-fsx830c",
+      "incomingPrimaryPrice": null,
+      "baselinePrimaryPrice": 24000,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "sourceTableModel": "FSX830C",
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": 6,
+      "stringCountDecision": "not_imported_without_explicit_exact_model_count",
+      "currentBack": "Rosewood",
+      "currentSides": "Rosewood",
+      "manufacturerBack": "Rosewood",
+      "manufacturerSides": "Rosewood"
+    },
+    {
+      "id": "yamaha-fsx820c",
+      "incomingPrimaryPrice": null,
+      "baselinePrimaryPrice": 20500,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "sourceTableModel": "FSX820C",
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": 6,
+      "stringCountDecision": "not_imported_without_explicit_exact_model_count",
+      "currentBack": "Mahogany",
+      "currentSides": "Mahogany",
+      "manufacturerBack": "Mahogany",
+      "manufacturerSides": "Mahogany"
+    },
+    {
+      "id": "yamaha-fsx800c",
+      "incomingPrimaryPrice": null,
+      "baselinePrimaryPrice": 15500,
+      "primaryPriceRetained": true,
+      "incomingVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "sourceTableModel": "FSX800C",
+      "existingDescriptionRetained": true,
+      "existingNonemptySpecsRetained": true,
+      "incomingStringCount": 6,
+      "stringCountDecision": "not_imported_without_explicit_exact_model_count",
+      "currentBack": "Nato/Okume",
+      "currentSides": "Nato/Okume",
+      "manufacturerBack": "Nato/Okume",
+      "manufacturerSides": "Nato/Okume"
+    }
+  ],
+  "additionalEvidenceNotNewFills": [
+    {
+      "id": "yamaha-fg820-12",
+      "canonicalKey": "strings",
+      "value": 12,
+      "sourceURL": "https://asia-oceania.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html#d2013958",
+      "quote": "12-string version of the FG820. Available in a Natural finish. / 12-strings Model",
+      "decision": "Already sourced in baseline-effective.json; retain, no new update."
+    },
+    {
+      "id": "yamaha-fg820l",
+      "field": "orientation",
+      "value": "Left-handed",
+      "sourceURL": "https://asia-oceania.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html#d2015976",
+      "quote": "Lefty Model",
+      "decision": "Verified supplementary context; no new optional orientation schema is required for this import."
+    }
+  ],
+  "blockedOrConflictingClaims": [
+    {
+      "id": "yamaha-fg800j",
+      "incomingField": "comparison_specs.back_sides",
+      "incomingValue": "Nato/Okume (varies by market/model)",
+      "currentManufacturerBack": "Nato/Mahogany",
+      "currentManufacturerSides": "Nato/Mahogany",
+      "decision": "reject conflicting incoming value; preserve existing exact-model official specifications",
+      "sourceURL": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+      "quote": "FG800J column — Back Material: Nato/Mahogany; Side Material: Nato/Mahogany"
+    },
+    {
+      "id": "yamaha-fg820-12",
+      "incomingField": "price_reference.amount_thb",
+      "incomingValue": 18200,
+      "baselineValue": 16500,
+      "decision": "valid alternate Music Life listing, not a primary replacement; existing Music Arms source retained"
+    },
+    {
+      "scope": "Yamaha six-string counts",
+      "decision": "No count 6 is inferred from the factory string brand row, product photos, model names or category. Only explicit exact-model count evidence may support count."
+    },
+    {
+      "scope": "All editorial descriptions/highlights",
+      "decision": "Generic rewritten description and highlights_from_model_name are not model-specific manufacturer evidence; preserve existing more complete sourced descriptions."
+    },
+    {
+      "scope": "Yamaha Thailand linked specification page",
+      "url": "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+      "httpStatus": 200,
+      "decision": "Contains model headings but no specification body cells in fetched response. HTTP 200 alone does not verify any field. Exact values above were independently read from the current manufacturer Malaysia table."
+    }
+  ],
+  "sourceObservations": {
+    "music-arms-fg850": {
+      "url": "https://www.musicarms.net/yamaha-fg850/",
+      "finalUrl": "https://www.musicarms.net/yamaha-fg850/",
+      "status": 200,
+      "bytes": 342154,
+      "sha256": "f7accdf87055b8c7225f14fe37ca0aa5abd960f7c9938fd13db64b6dc42c4068",
+      "rawFile": "docs/catalog-update-2026-10-29/verification/music-arms-fg850.html.gz",
+      "accessedAt": "2026-10-29T06:50:13.267684+00:00"
+    },
+    "music-life-category": {
+      "url": "https://www.musiclifethailand.com/category/167784",
+      "finalUrl": "https://www.musiclifethailand.com/category/167784",
+      "status": 200,
+      "bytes": 200863,
+      "sha256": "b7ca4374a3a87b7e3d88d15951879bd05c657dc492404a6f28b15412bf9e540c",
+      "rawFile": "docs/catalog-update-2026-10-29/verification/music-life-category.html.gz",
+      "accessedAt": "2026-10-29T06:50:08.246164+00:00"
+    },
+    "yamaha-th-specs": {
+      "url": "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+      "finalUrl": "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+      "status": 200,
+      "bytes": 74359,
+      "sha256": "1fbf72a6ffaa7d2f5ed4990968d5ce03b7a72e81f4f182ce965bb90f1ff12c4b",
+      "rawFile": "docs/catalog-update-2026-10-29/verification/yamaha-th-specs.html.gz",
+      "accessedAt": "2026-10-29T06:50:07.869348+00:00"
+    },
+    "yamaha-my-specs": {
+      "url": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+      "finalUrl": "https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+      "status": 200,
+      "bytes": 117393,
+      "sha256": "24f232ed17e0462b44aa271d970585172d7054e82aff8225c7ade8393327bb7d",
+      "rawFile": "docs/catalog-update-2026-10-29/verification/yamaha-my-specs.html.gz",
+      "accessedAt": "2026-10-29T06:50:07.041008+00:00"
+    },
+    "yamaha-lineup": {
+      "url": "https://asia-oceania.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "finalUrl": "https://asia-oceania.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "status": 200,
+      "bytes": 490188,
+      "sha256": "aaf4e6f655a95c678c5db876e5d968d5d03da30b58e6eb3c0b9ee6be21e66cfa",
+      "rawFile": "docs/catalog-update-2026-10-29/verification/yamaha-lineup.html.gz",
+      "accessedAt": "2026-10-29T06:50:09.490349+00:00"
+    }
+  },
+  "sourceTableFile": "docs/catalog-update-2026-10-29/verification/yamaha-official-table.json",
+  "notes": [
+    "Source region is Yamaha Malaysia; retain original region/model/edition caveats and manufacturer material alternatives such as Rosewood or Walnut.",
+    "Confirmed None for electronics means no built-in electronics, not unknown. Do not convert confirmed absence to null.",
+    "FG820-12 manufacturer row states634mm (25in); preserve explicit634mm as authoritative rather than replacing it with a conversion from rounded quoted inches.",
+    "Incoming acoustic-electric category is a subtype hint; retain existing acoustic catalog category and represent built-in electronics through sourced specification fields.",
+    "FSX830C current exact model table states Rosewood independently for both Back Material and Side Material."
+  ]
+}

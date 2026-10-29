@@ -67,7 +67,7 @@
     "name": "Player II Telecaster HH",
     "category": "electric",
     "status": "partial",
-    "price": null,
+    "price": 31500,
     "oldPrice": null,
     "rating": null,
     "badge": null,
@@ -111,15 +111,46 @@
         "specs.controls",
         "specs.scale",
         "specs.scaleMm",
-        "specs.frets"
+        "specs.frets",
+        "price"
       ],
       "editionNote": "อ้างอิง Player II Telecaster® HH; หน้าสินค้าอาจรวมหลายตัวเลือก วัสดุที่คั่นด้วย / คือทางเลือกตามข้อมูลในหน้า ไม่ยืนยันว่าเป็นสเปกเดียวกันทุกสี ไม่นับสีเป็นรุ่นเพิ่ม",
-      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "priceNote": "Music Arms — ราคาขายที่ร้านแสดง ตรวจ 2026-10-29; ราคาอาจเปลี่ยนแปลงได้ ไม่ยืนยันสต็อก",
       "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน",
       "evidence": {
         "retrievedUrl": "https://www.fender.com/products/player-ii-telecaster-hh",
         "sha256": "05934aa3e369f7ceab7ef54570fed5e6ae617ea67064a691fb9494f5fac8387f",
         "httpStatus": 200
+      },
+      "additionalSources": [
+        {
+          "batch": "catalog-prices-2026-10-29",
+          "url": "https://www.musicarms.net/fender-player-ii-telecaster-hh/",
+          "verifiedOn": "2026-10-29",
+          "method": "http",
+          "kind": "retailer-listed",
+          "fields": [
+            "price"
+          ],
+          "quotes": [
+            "{\"name\":\"Fender Player II Telecaster HH กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-telecaster-hh/\",\"offers\":{\"price\":31500,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-telecaster-hh/\"}}"
+          ]
+        }
+      ]
+    },
+    "priceSource": {
+      "currency": "THB",
+      "url": "https://www.musicarms.net/fender-player-ii-telecaster-hh/",
+      "verifiedOn": "2026-10-29",
+      "kind": "retailer-listed",
+      "label": "Music Arms",
+      "retailer": "Music Arms",
+      "availability": "unknown",
+      "note": "ราคาขายที่ร้านแสดง อาจเปลี่ยนแปลงได้ ไม่ใช่ราคาขายปลีกแนะนำจากผู้ผลิต และไม่ยืนยันสต็อก",
+      "evidence": {
+        "httpStatus": 200,
+        "quote": "{\"name\":\"Fender Player II Telecaster HH กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-telecaster-hh/\",\"offers\":{\"price\":31500,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-telecaster-hh/\"}}",
+        "file": "docs/catalog-update-2026-10-29/verification/fender-player-ii-telecaster-hh-evidence.json"
       }
     }
   },
@@ -191,7 +222,7 @@
     "name": "Player II Stratocaster",
     "category": "electric",
     "status": "partial",
-    "price": null,
+    "price": 30600,
     "oldPrice": null,
     "rating": null,
     "badge": null,
@@ -213,7 +244,11 @@
       "scaleMm": 648,
       "frets": 22,
       "strings": null,
-      "weightKg": null
+      "weightKg": null,
+      "bodyShape": "Stratocaster",
+      "pickupConfiguration": "SSS",
+      "nutWidthMm": 42,
+      "fingerboardRadiusMm": 241
     },
     "source": {
       "url": "https://www.fender.com/products/player-ii-stratocaster",
@@ -235,15 +270,78 @@
         "specs.controls",
         "specs.scale",
         "specs.scaleMm",
-        "specs.frets"
+        "specs.frets",
+        "price",
+        "specs.bodyShape",
+        "specs.pickupConfiguration",
+        "specs.nutWidthMm",
+        "specs.fingerboardRadiusMm"
       ],
       "editionNote": "อ้างอิง Player II Stratocaster®; หน้าสินค้าอาจรวมหลายตัวเลือก วัสดุที่คั่นด้วย / คือทางเลือกตามข้อมูลในหน้า ไม่ยืนยันว่าเป็นสเปกเดียวกันทุกสี ไม่นับสีเป็นรุ่นเพิ่ม",
-      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "priceNote": "Music Arms — ราคาขายที่ร้านแสดง ตรวจ 2026-10-29; ราคาอาจเปลี่ยนแปลงได้ ไม่ยืนยันสต็อก",
       "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน",
       "evidence": {
         "retrievedUrl": "https://www.fender.com/products/player-ii-stratocaster",
         "sha256": "89716990cad8dca293d060badd9510d8a725ce7ecf859c011465fe8087950e64",
         "httpStatus": 200
+      },
+      "additionalSources": [
+        {
+          "batch": "catalog-prices-2026-10-29",
+          "url": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+          "verifiedOn": "2026-10-29",
+          "method": "http",
+          "kind": "retailer-listed",
+          "fields": [
+            "price"
+          ],
+          "quotes": [
+            "{\"name\":\"Fender Player II Stratocaster กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/\",\"offers\":{\"price\":30600,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/\"}}"
+          ]
+        },
+        {
+          "batch": "catalog-prices-2026-10-29",
+          "url": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+          "verifiedOn": "2026-10-29",
+          "method": "http",
+          "kind": "retailer-specifications",
+          "fields": [
+            "specs.bodyShape",
+            "specs.pickupConfiguration",
+            "specs.nutWidthMm",
+            "specs.fingerboardRadiusMm"
+          ],
+          "quotes": [
+            "Body Shape Stratocaster®",
+            "Configuration SSS",
+            "Nut Width 1.650″ (42 mm)",
+            "Fingerboard Radius 9.5″ (241 mm)"
+          ],
+          "scope": "Standard Fender Player II Stratocaster SSS model; distinct from Player II Stratocaster HSS and Modified series. Retailer prose explicitly covers Maple or Rosewood fretboards and multiple body woods; these accepted fields do not select a finish, body wood or fretboard variant.",
+          "evidenceFile": "docs/catalog-update-2026-10-29/verification/fender-specs.json",
+          "evidence": {
+            "url": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+            "httpStatus": 200,
+            "title": "Fender Player II Stratocaster กีตาร์ไฟฟ้า",
+            "responseSHA256": "fd6ee13ab5ef6cce5a7336e6baf2cb2f223c361ea09f00887fb13ea86a9270a6",
+            "sourceKind": "retailer-specifications"
+          }
+        }
+      ]
+    },
+    "priceSource": {
+      "currency": "THB",
+      "url": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+      "verifiedOn": "2026-10-29",
+      "kind": "retailer-listed",
+      "label": "Music Arms",
+      "retailer": "Music Arms",
+      "availability": "unknown",
+      "note": "ราคาขายที่ร้านแสดง อาจเปลี่ยนแปลงได้ ไม่ใช่ราคาขายปลีกแนะนำจากผู้ผลิต และไม่ยืนยันสต็อก",
+      "evidence": {
+        "httpStatus": 200,
+        "quote": "{\"name\":\"Fender Player II Stratocaster กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/\",\"offers\":{\"price\":30600,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/\"}}",
+        "file": "docs/catalog-update-2026-10-29/verification/fender-player-ii-stratocaster-evidence.json"
       }
     }
   },
@@ -253,7 +351,7 @@
     "name": "Player II Mustang",
     "category": "electric",
     "status": "partial",
-    "price": null,
+    "price": 30600,
     "oldPrice": null,
     "rating": null,
     "badge": null,
@@ -271,7 +369,7 @@
       "pickups": "Neck Pickup: Player Series Alnico 5 Mustang Single-Coil; Bridge Pickup: Player Series Alnico 5 Mustang Single-Coil",
       "bridge": "6-Saddle Strings-Through-Body Strat Hardtail with Bent Steel Saddles",
       "controls": "Master Volume, Master Tone",
-      "scale": 24.0,
+      "scale": 24,
       "scaleMm": 610,
       "frets": 22,
       "strings": null,
@@ -297,15 +395,46 @@
         "specs.controls",
         "specs.scale",
         "specs.scaleMm",
-        "specs.frets"
+        "specs.frets",
+        "price"
       ],
       "editionNote": "อ้างอิง Player II Mustang®; หน้าสินค้าอาจรวมหลายตัวเลือก วัสดุที่คั่นด้วย / คือทางเลือกตามข้อมูลในหน้า ไม่ยืนยันว่าเป็นสเปกเดียวกันทุกสี ไม่นับสีเป็นรุ่นเพิ่ม",
-      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "priceNote": "Music Arms — ราคาขายที่ร้านแสดง ตรวจ 2026-10-29; ราคาอาจเปลี่ยนแปลงได้ ไม่ยืนยันสต็อก",
       "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน",
       "evidence": {
         "retrievedUrl": "https://www.fender.com/products/player-ii-mustang",
         "sha256": "cb6563215fae1ff591e2d3a6914c7398317e963742100b76519c057f48196a1f",
         "httpStatus": 200
+      },
+      "additionalSources": [
+        {
+          "batch": "catalog-prices-2026-10-29",
+          "url": "https://www.musicarms.net/fender-player-ii-mustang/",
+          "verifiedOn": "2026-10-29",
+          "method": "http",
+          "kind": "retailer-listed",
+          "fields": [
+            "price"
+          ],
+          "quotes": [
+            "{\"name\":\"Fender Player II Mustang กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-mustang/\",\"offers\":{\"price\":30600,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-mustang/\"}}"
+          ]
+        }
+      ]
+    },
+    "priceSource": {
+      "currency": "THB",
+      "url": "https://www.musicarms.net/fender-player-ii-mustang/",
+      "verifiedOn": "2026-10-29",
+      "kind": "retailer-listed",
+      "label": "Music Arms",
+      "retailer": "Music Arms",
+      "availability": "unknown",
+      "note": "ราคาขายที่ร้านแสดง อาจเปลี่ยนแปลงได้ ไม่ใช่ราคาขายปลีกแนะนำจากผู้ผลิต และไม่ยืนยันสต็อก",
+      "evidence": {
+        "httpStatus": 200,
+        "quote": "{\"name\":\"Fender Player II Mustang กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-mustang/\",\"offers\":{\"price\":30600,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-mustang/\"}}",
+        "file": "docs/catalog-update-2026-10-29/verification/fender-player-ii-mustang-evidence.json"
       }
     }
   },
@@ -315,7 +444,7 @@
     "name": "Player II Stratocaster HSS",
     "category": "electric",
     "status": "partial",
-    "price": null,
+    "price": 31500,
     "oldPrice": null,
     "rating": null,
     "badge": null,
@@ -359,15 +488,46 @@
         "specs.controls",
         "specs.scale",
         "specs.scaleMm",
-        "specs.frets"
+        "specs.frets",
+        "price"
       ],
       "editionNote": "อ้างอิง Player II Stratocaster® HSS; หน้าสินค้าอาจรวมหลายตัวเลือก วัสดุที่คั่นด้วย / คือทางเลือกตามข้อมูลในหน้า ไม่ยืนยันว่าเป็นสเปกเดียวกันทุกสี ไม่นับสีเป็นรุ่นเพิ่ม",
-      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "priceNote": "Music Arms — ราคาขายที่ร้านแสดง ตรวจ 2026-10-29; ราคาอาจเปลี่ยนแปลงได้ ไม่ยืนยันสต็อก",
       "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน",
       "evidence": {
         "retrievedUrl": "https://www.fender.com/products/player-ii-stratocaster-hss",
         "sha256": "b2003b1e62961c3d841e9cd5d788c9ea0677b80122b2d3ccd89aaee0f01fdece",
         "httpStatus": 200
+      },
+      "additionalSources": [
+        {
+          "batch": "catalog-prices-2026-10-29",
+          "url": "https://www.musicarms.net/fender-player-ii-stratocaster-hss-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+          "verifiedOn": "2026-10-29",
+          "method": "http",
+          "kind": "retailer-listed",
+          "fields": [
+            "price"
+          ],
+          "quotes": [
+            "{\"name\":\"Fender Player II Stratocaster HSS กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-stratocaster-hss-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/\",\"offers\":{\"price\":31500,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-stratocaster-hss-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/\"}}"
+          ]
+        }
+      ]
+    },
+    "priceSource": {
+      "currency": "THB",
+      "url": "https://www.musicarms.net/fender-player-ii-stratocaster-hss-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+      "verifiedOn": "2026-10-29",
+      "kind": "retailer-listed",
+      "label": "Music Arms",
+      "retailer": "Music Arms",
+      "availability": "unknown",
+      "note": "ราคาขายที่ร้านแสดง อาจเปลี่ยนแปลงได้ ไม่ใช่ราคาขายปลีกแนะนำจากผู้ผลิต และไม่ยืนยันสต็อก",
+      "evidence": {
+        "httpStatus": 200,
+        "quote": "{\"name\":\"Fender Player II Stratocaster HSS กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-stratocaster-hss-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/\",\"offers\":{\"price\":31500,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-stratocaster-hss-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/\"}}",
+        "file": "docs/catalog-update-2026-10-29/verification/fender-player-ii-stratocaster-hss-evidence.json"
       }
     }
   },
@@ -377,7 +537,7 @@
     "name": "Player II Jaguar",
     "category": "electric",
     "status": "partial",
-    "price": null,
+    "price": 31500,
     "oldPrice": null,
     "rating": null,
     "badge": null,
@@ -395,7 +555,7 @@
       "pickups": "Neck Pickup: Player Series Alnico 2 Jaguar Single-Coil; Bridge Pickup: Player Series Alnico 5 Jaguar Single-Coil",
       "bridge": "Jaguar Bridge with Mustang Saddles and Vintage Style \"Floating\" Tremolo Tailpiece",
       "controls": "Master Volume, Master Tone",
-      "scale": 24.0,
+      "scale": 24,
       "scaleMm": 610,
       "frets": 22,
       "strings": null,
@@ -421,15 +581,46 @@
         "specs.controls",
         "specs.scale",
         "specs.scaleMm",
-        "specs.frets"
+        "specs.frets",
+        "price"
       ],
       "editionNote": "อ้างอิง Player II Jaguar®; หน้าสินค้าอาจรวมหลายตัวเลือก วัสดุที่คั่นด้วย / คือทางเลือกตามข้อมูลในหน้า ไม่ยืนยันว่าเป็นสเปกเดียวกันทุกสี ไม่นับสีเป็นรุ่นเพิ่ม",
-      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "priceNote": "Music Arms — ราคาขายที่ร้านแสดง ตรวจ 2026-10-29; ราคาอาจเปลี่ยนแปลงได้ ไม่ยืนยันสต็อก",
       "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน",
       "evidence": {
         "retrievedUrl": "https://www.fender.com/products/player-ii-jaguar",
         "sha256": "1887685bedc086924a081d354eadc6aee5206c3f7b6b52e73c7b0e668109df4c",
         "httpStatus": 200
+      },
+      "additionalSources": [
+        {
+          "batch": "catalog-prices-2026-10-29",
+          "url": "https://www.musicarms.net/fender-player-ii-jaguar/",
+          "verifiedOn": "2026-10-29",
+          "method": "http",
+          "kind": "retailer-listed",
+          "fields": [
+            "price"
+          ],
+          "quotes": [
+            "{\"name\":\"Fender Player II Jaguar กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-jaguar/\",\"offers\":{\"price\":31500,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-jaguar/\"}}"
+          ]
+        }
+      ]
+    },
+    "priceSource": {
+      "currency": "THB",
+      "url": "https://www.musicarms.net/fender-player-ii-jaguar/",
+      "verifiedOn": "2026-10-29",
+      "kind": "retailer-listed",
+      "label": "Music Arms",
+      "retailer": "Music Arms",
+      "availability": "unknown",
+      "note": "ราคาขายที่ร้านแสดง อาจเปลี่ยนแปลงได้ ไม่ใช่ราคาขายปลีกแนะนำจากผู้ผลิต และไม่ยืนยันสต็อก",
+      "evidence": {
+        "httpStatus": 200,
+        "quote": "{\"name\":\"Fender Player II Jaguar กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-jaguar/\",\"offers\":{\"price\":31500,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-jaguar/\"}}",
+        "file": "docs/catalog-update-2026-10-29/verification/fender-player-ii-jaguar-evidence.json"
       }
     }
   },
@@ -457,7 +648,7 @@
       "pickups": "Middle Pickup: Player Series Alnico 5 Split Single-Coil Precision Bass; Bridge Pickup: Player Series Alnico 5 Single-Coil Jazz Bass",
       "bridge": "4-Saddle Standard",
       "controls": "Master Volume, Master Tone",
-      "scale": 30.0,
+      "scale": 30,
       "scaleMm": 762,
       "frets": 19,
       "strings": null,
@@ -643,7 +834,7 @@
       "pickups": "Middle Pickup: Player II Modified Precision Bass; Bridge Pickup: Player II Noiseless Jazz Bass",
       "bridge": "Fender HiMass with Chrome-Plated Zinc Saddles",
       "controls": "Master Volume, Pan Pot (Pickup Selector), Treble Boost/Cut, Midrange Boost/Cut, Bass Boost/Cut, Active/Passive Tone, Active/Passive Mini Toggle",
-      "scale": 34.0,
+      "scale": 34,
       "scaleMm": 864,
       "frets": 20,
       "strings": null,
@@ -687,7 +878,7 @@
     "name": "Player II Modified Stratocaster HSS",
     "category": "electric",
     "status": "partial",
-    "price": null,
+    "price": 39600,
     "oldPrice": null,
     "rating": null,
     "badge": null,
@@ -731,15 +922,46 @@
         "specs.controls",
         "specs.scale",
         "specs.scaleMm",
-        "specs.frets"
+        "specs.frets",
+        "price"
       ],
       "editionNote": "อ้างอิง Player II Modified Stratocaster® HSS; หน้าสินค้าอาจรวมหลายตัวเลือก วัสดุที่คั่นด้วย / คือทางเลือกตามข้อมูลในหน้า ไม่ยืนยันว่าเป็นสเปกเดียวกันทุกสี ไม่นับสีเป็นรุ่นเพิ่ม",
-      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "priceNote": "Music Arms — ราคาขายที่ร้านแสดง ตรวจ 2026-10-29; ราคาอาจเปลี่ยนแปลงได้ ไม่ยืนยันสต็อก",
       "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน",
       "evidence": {
         "retrievedUrl": "https://www.fender.com/products/player-ii-modified-stratocaster-hss",
         "sha256": "19bc4829fe73d862d17936dafa1e4fe9a70aee4b096805e6d5cab47da9474f0a",
         "httpStatus": 200
+      },
+      "additionalSources": [
+        {
+          "batch": "catalog-prices-2026-10-29",
+          "url": "https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss/",
+          "verifiedOn": "2026-10-29",
+          "method": "http",
+          "kind": "retailer-listed",
+          "fields": [
+            "price"
+          ],
+          "quotes": [
+            "{\"name\":\"Fender Player II Modified Stratocaster HSS กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss/\",\"offers\":{\"price\":39600,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss/\"}}"
+          ]
+        }
+      ]
+    },
+    "priceSource": {
+      "currency": "THB",
+      "url": "https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss/",
+      "verifiedOn": "2026-10-29",
+      "kind": "retailer-listed",
+      "label": "Music Arms",
+      "retailer": "Music Arms",
+      "availability": "unknown",
+      "note": "ราคาขายที่ร้านแสดง อาจเปลี่ยนแปลงได้ ไม่ใช่ราคาขายปลีกแนะนำจากผู้ผลิต และไม่ยืนยันสต็อก",
+      "evidence": {
+        "httpStatus": 200,
+        "quote": "{\"name\":\"Fender Player II Modified Stratocaster HSS กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss/\",\"offers\":{\"price\":39600,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss/\"}}",
+        "file": "docs/catalog-update-2026-10-29/verification/fender-player-ii-modified-stratocaster-hss-evidence.json"
       }
     }
   },
@@ -749,7 +971,7 @@
     "name": "Player II Modified Stratocaster HSS Floyd Rose",
     "category": "electric",
     "status": "partial",
-    "price": null,
+    "price": 43200,
     "oldPrice": null,
     "rating": null,
     "badge": null,
@@ -793,15 +1015,46 @@
         "specs.controls",
         "specs.scale",
         "specs.scaleMm",
-        "specs.frets"
+        "specs.frets",
+        "price"
       ],
       "editionNote": "อ้างอิง Player II Modified Stratocaster® HSS Floyd Rose®; หน้าสินค้าอาจรวมหลายตัวเลือก วัสดุที่คั่นด้วย / คือทางเลือกตามข้อมูลในหน้า ไม่ยืนยันว่าเป็นสเปกเดียวกันทุกสี ไม่นับสีเป็นรุ่นเพิ่ม",
-      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "priceNote": "Music Arms — ราคาขายที่ร้านแสดง ตรวจ 2026-10-29; ราคาอาจเปลี่ยนแปลงได้ ไม่ยืนยันสต็อก",
       "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน",
       "evidence": {
         "retrievedUrl": "https://www.fender.com/products/player-ii-modified-stratocaster-hss-floyd-rose",
         "sha256": "15dd51b7a3b1abdacf55f2e69acc65c8d19524e65f3edc6a8346a66a3fec4c82",
         "httpStatus": 200
+      },
+      "additionalSources": [
+        {
+          "batch": "catalog-prices-2026-10-29",
+          "url": "https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss-floyd-rose/",
+          "verifiedOn": "2026-10-29",
+          "method": "http",
+          "kind": "retailer-listed",
+          "fields": [
+            "price"
+          ],
+          "quotes": [
+            "{\"name\":\"Fender Player II Modified Stratocaster HSS Floyd Rose กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss-floyd-rose/\",\"offers\":{\"price\":43200,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss-floyd-rose/\"}}"
+          ]
+        }
+      ]
+    },
+    "priceSource": {
+      "currency": "THB",
+      "url": "https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss-floyd-rose/",
+      "verifiedOn": "2026-10-29",
+      "kind": "retailer-listed",
+      "label": "Music Arms",
+      "retailer": "Music Arms",
+      "availability": "unknown",
+      "note": "ราคาขายที่ร้านแสดง อาจเปลี่ยนแปลงได้ ไม่ใช่ราคาขายปลีกแนะนำจากผู้ผลิต และไม่ยืนยันสต็อก",
+      "evidence": {
+        "httpStatus": 200,
+        "quote": "{\"name\":\"Fender Player II Modified Stratocaster HSS Floyd Rose กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss-floyd-rose/\",\"offers\":{\"price\":43200,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss-floyd-rose/\"}}",
+        "file": "docs/catalog-update-2026-10-29/verification/fender-player-ii-modified-stratocaster-hss-floyd-rose-evidence.json"
       }
     }
   },
@@ -811,7 +1064,7 @@
     "name": "Player II Modified Telecaster",
     "category": "electric",
     "status": "partial",
-    "price": null,
+    "price": 37800,
     "oldPrice": null,
     "rating": null,
     "badge": null,
@@ -855,15 +1108,46 @@
         "specs.controls",
         "specs.scale",
         "specs.scaleMm",
-        "specs.frets"
+        "specs.frets",
+        "price"
       ],
       "editionNote": "อ้างอิง Player II Modified Telecaster®; หน้าสินค้าอาจรวมหลายตัวเลือก วัสดุที่คั่นด้วย / คือทางเลือกตามข้อมูลในหน้า ไม่ยืนยันว่าเป็นสเปกเดียวกันทุกสี ไม่นับสีเป็นรุ่นเพิ่ม",
-      "priceNote": "ยังไม่มีราคาเงินบาทที่ตรวจสอบแหล่งข้อมูลและวันที่ได้",
+      "priceNote": "Music Arms — ราคาขายที่ร้านแสดง ตรวจ 2026-10-29; ราคาอาจเปลี่ยนแปลงได้ ไม่ยืนยันสต็อก",
       "reviewNote": "ไม่มีข้อมูลรีวิวที่ได้รับการยืนยัน",
       "evidence": {
         "retrievedUrl": "https://www.fender.com/products/player-ii-modified-telecaster",
         "sha256": "422738b189e7fce20864ba78d79a925b59839eb78c7f56cfdc59b2d1c5f4a250",
         "httpStatus": 200
+      },
+      "additionalSources": [
+        {
+          "batch": "catalog-prices-2026-10-29",
+          "url": "https://www.musicarms.net/fender-player-ii-modified-telecaster/",
+          "verifiedOn": "2026-10-29",
+          "method": "http",
+          "kind": "retailer-listed",
+          "fields": [
+            "price"
+          ],
+          "quotes": [
+            "{\"name\":\"Fender Player II Modified Telecaster กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-modified-telecaster/\",\"offers\":{\"price\":37800,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-modified-telecaster/\"}}"
+          ]
+        }
+      ]
+    },
+    "priceSource": {
+      "currency": "THB",
+      "url": "https://www.musicarms.net/fender-player-ii-modified-telecaster/",
+      "verifiedOn": "2026-10-29",
+      "kind": "retailer-listed",
+      "label": "Music Arms",
+      "retailer": "Music Arms",
+      "availability": "unknown",
+      "note": "ราคาขายที่ร้านแสดง อาจเปลี่ยนแปลงได้ ไม่ใช่ราคาขายปลีกแนะนำจากผู้ผลิต และไม่ยืนยันสต็อก",
+      "evidence": {
+        "httpStatus": 200,
+        "quote": "{\"name\":\"Fender Player II Modified Telecaster กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-modified-telecaster/\",\"offers\":{\"price\":37800,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-modified-telecaster/\"}}",
+        "file": "docs/catalog-update-2026-10-29/verification/fender-player-ii-modified-telecaster-evidence.json"
       }
     }
   },
@@ -891,7 +1175,7 @@
       "pickups": "Middle Pickup: Player II Noiseless Jazz Bass V; Bridge Pickup: Player II Noiseless Jazz Bass V",
       "bridge": "Fender HiMass with Chrome-Plated Zinc Saddles",
       "controls": "Master Volume, Pan Pot (Pickup Selector), Treble Boost/Cut, Midrange Boost/Cut, Bass Boost/Cut, Active/Passive Tone, Active/Passive Mini Toggle",
-      "scale": 34.0,
+      "scale": 34,
       "scaleMm": 864,
       "frets": 20,
       "strings": null,
@@ -953,7 +1237,7 @@
       "pickups": "Middle Pickup: Player II Noiseless Jazz Bass; Bridge Pickup: Player II Noiseless Jazz Bass",
       "bridge": "Fender HiMass with Chrome-Plated Zinc Saddles",
       "controls": "Master Volume, Pan Pot (Pickup Selector), Treble Boost/Cut, Midrange Boost/Cut, Bass Boost/Cut, Active/Passive Tone, Active/Passive Mini Toggle",
-      "scale": 34.0,
+      "scale": 34,
       "scaleMm": 864,
       "frets": 20,
       "strings": null,
@@ -1200,7 +1484,7 @@
       "pickups": "Neck Pickup: Ceramic Single-Coil Jazz Bass; Bridge Pickup: Ceramic Single-Coil Jazz Bass",
       "bridge": "4-Saddle Standard",
       "controls": "Volume 1. (Neck Pickup), Volume 2. (Bridge Pickup), Master Tone",
-      "scale": 34.0,
+      "scale": 34,
       "scaleMm": 864,
       "frets": 20,
       "strings": null,
@@ -1262,7 +1546,7 @@
       "pickups": "Neck Pickup: Ceramic Split Single-Coil; Bridge Pickup: Ceramic Single-Coil Jazz Bass",
       "bridge": "4-Saddle Standard",
       "controls": "Volume 1. (Neck Pickup), Volume 2. (Bridge Pickup), Master Tone",
-      "scale": 34.0,
+      "scale": 34,
       "scaleMm": 864,
       "frets": 20,
       "strings": null,
@@ -1324,7 +1608,7 @@
       "pickups": "Neck Pickup: Fender Designed Alnico Split Single-Coil; Bridge Pickup: Fender Designed Alnico Single-Coil",
       "bridge": "4-Saddle Vintage-Style",
       "controls": "Stacked Concentric Controls Volume 1. (Neck Pickup), Tone 1. (Neck Pickup), Volume 2. (Bridge Pickup), Tone 2. (Bridge Pickup)",
-      "scale": 32.0,
+      "scale": 32,
       "scaleMm": 813,
       "frets": 20,
       "strings": null,
@@ -1572,7 +1856,7 @@
       "pickups": "Neck Pickup: Fender Designed Alnico Single-Coil; Bridge Pickup: Fender Designed Alnico Humbucking",
       "bridge": "6-Saddle String-Through-Body Hardtail with Bent Steel Saddles",
       "controls": "Master Volume, Master Tone",
-      "scale": 24.0,
+      "scale": 24,
       "scaleMm": 610,
       "frets": 21,
       "strings": null,
@@ -1634,7 +1918,7 @@
       "pickups": "Neck Pickup: Fender Designed Alnico Noiseless; Bridge Pickup: Fender Designed Alnico Noiseless",
       "bridge": "HiMass",
       "controls": "Master Volume, Pan, Master Tone, Treble/Bass Boost",
-      "scale": 34.0,
+      "scale": 34,
       "scaleMm": 864,
       "frets": 20,
       "strings": null,
@@ -1696,7 +1980,7 @@
       "pickups": "Neck Pickup: Fender Designed Alnico Noiseless; Bridge Pickup: Fender Designed Alnico Noiseless",
       "bridge": "HiMass",
       "controls": "Master Volume, Pan, Master Tone, Treble/Bass Boost",
-      "scale": 34.0,
+      "scale": 34,
       "scaleMm": 864,
       "frets": 20,
       "strings": null,
@@ -1820,7 +2104,7 @@
       "pickups": "Neck Pickup: Fender Designed Alnico Wide Range Humbucking Bass",
       "bridge": "4-Saddle Vintage-Style with Barrel Saddles",
       "controls": "Master Volume, Master Tone",
-      "scale": 34.0,
+      "scale": 34,
       "scaleMm": 864,
       "frets": 20,
       "strings": null,
@@ -1882,7 +2166,7 @@
       "pickups": "Neck Pickup: Fender Designed Alnico Single-Coil",
       "bridge": "4-Saddle Vintage-Style",
       "controls": "Master Volume, Master Tone",
-      "scale": 34.0,
+      "scale": 34,
       "scaleMm": 864,
       "frets": 20,
       "strings": null,
@@ -2006,7 +2290,7 @@
       "pickups": "Neck Pickup: Fender Designed Alnico Single-Coil; Middle Pickup: N/A; Bridge Pickup: Fender Designed Alnico Single-Coil",
       "bridge": "Floating Bridge with Dynamic Vibrato Tailpiece",
       "controls": "Master Volume, Master Tone",
-      "scale": 24.0,
+      "scale": 24,
       "scaleMm": 610,
       "frets": 22,
       "strings": null,
@@ -2130,7 +2414,7 @@
       "pickups": "Neck Pickup: Fender Designed Alnico Single-Coil; Bridge Pickup: Fender Designed Alnico Single-Coil",
       "bridge": "3-Saddle Vintage-Style Strings-Through-Body Tele with Chrome Barrel Saddles",
       "controls": "Master Volume, Master Tone",
-      "scale": 27.0,
+      "scale": 27,
       "scaleMm": 686,
       "frets": 21,
       "strings": null,
@@ -3245,7 +3529,7 @@
       "pickups": "Neck Pickup: ELEV8; Bridge Pickup: ELEV8",
       "bridge": "Nashville Tune-O-Matic",
       "controls": "1 volume with push/pull coil-splitting, 1 tone with push/pull inner/outer coil selection when split",
-      "scale": 28.0,
+      "scale": 28,
       "scaleMm": 711.2,
       "frets": 24,
       "strings": null,
@@ -3551,7 +3835,7 @@
       "pickups": "Neck Pickup: Sidewinder humbucker; Bridge Pickup: NYT Bass mini humbucker",
       "bridge": "3-point adjustable",
       "controls": "2 volume, 2 tone",
-      "scale": 34.0,
+      "scale": 34,
       "scaleMm": 863.6,
       "frets": 20,
       "strings": null,
@@ -3613,7 +3897,7 @@
       "pickups": "Neck Pickup: ProBucker 760 Bass Humbucker; Bridge Pickup: ProBucker 760 Bass Humbucker",
       "bridge": "Epiphone Vintage Bass Tune-O-Matic",
       "controls": "2 volume, 1 tone",
-      "scale": 34.0,
+      "scale": 34,
       "scaleMm": 863.6,
       "frets": 20,
       "strings": null,
@@ -3923,7 +4207,7 @@
       "pickups": "Neck Pickup: ProBucker Bass 760; Bridge Pickup: ProBucker Bass 760",
       "bridge": "Historic Bass Tune-O-Matic",
       "controls": "1 volume, 1 pickup blend, 1 tone",
-      "scale": 34.0,
+      "scale": 34,
       "scaleMm": 863.6,
       "frets": 20,
       "strings": null,
@@ -8234,7 +8518,7 @@
       "pickups": "neck pickup: Essentials (S) neck pickupPassive/Ceramic; middle pickup: Essentials (S) middle pickupPassive/Ceramic; bridge pickup: Essentials (S) bridge pickupPassive/Ceramic",
       "bridge": "F106 bridge w/ Comfort round Steel saddles",
       "controls": null,
-      "scale": 25.0,
+      "scale": 25,
       "scaleMm": 635,
       "frets": 22,
       "strings": 6,
@@ -8790,7 +9074,7 @@
       "pickups": "neck pickup: Fishman Fluence Modern Humbucker Alnico 9 (H) neck pickupActive/Alnico; bridge pickup: Fishman Fluence Modern Humbucker Ceramic 9 (H) bridge pickupActive/Ceramic",
       "bridge": "Gibraltar Standard II-9 bridge",
       "controls": null,
-      "scale": 28.0,
+      "scale": 28,
       "scaleMm": 712,
       "frets": 24,
       "strings": 9,

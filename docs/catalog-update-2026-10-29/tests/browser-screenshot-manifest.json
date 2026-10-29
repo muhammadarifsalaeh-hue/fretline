@@ -1,0 +1,114 @@
+{
+  "format": "lossless WebP",
+  "pixelComparison": "ImageMagick absolute error (AE) = 0 for every capture",
+  "files": [
+    {
+      "originalPNG": "browser-chromium/chromium-landscape-catalog-verified-prices.png",
+      "originalBytes": 290476,
+      "originalSHA256": "bc3260ce3f043ddb4d5f62956a43224f8baec9d76cf1df00f508a874155321c1",
+      "file": "browser-chromium/chromium-landscape-catalog-verified-prices.webp",
+      "bytes": 208144,
+      "sha256": "a9d40edaf2c4b0a9cd8a1e542782fe65c0f47513ec223994a6a093a07b9f16a7",
+      "AE": 0
+    },
+    {
+      "originalPNG": "browser-chromium/chromium-landscape-compare-prices.png",
+      "originalBytes": 104655,
+      "originalSHA256": "d34b561ed5ba64948c39141d3a0d216956b00befd266c27fc0abf9fa639ac5ee",
+      "file": "browser-chromium/chromium-landscape-compare-prices.webp",
+      "bytes": 42458,
+      "sha256": "b3f29201c12f994d951726a8920d9d6ddba684f6594c0c15e063aa558321d4a1",
+      "AE": 0
+    },
+    {
+      "originalPNG": "browser-chromium/chromium-landscape-detail-new-specs.png",
+      "originalBytes": 71976,
+      "originalSHA256": "4ae33a5a67e9dfc4cea793e04f975917eb5f06f6acbd302d22d09bb306d24e17",
+      "file": "browser-chromium/chromium-landscape-detail-new-specs.webp",
+      "bytes": 30278,
+      "sha256": "3b9b4bda4510fb8e2e62076b342a035d0d536414ba550de245d37d165a048c5a",
+      "AE": 0
+    },
+    {
+      "originalPNG": "browser-chromium/chromium-mobile-compare-materials.png",
+      "originalBytes": 46087,
+      "originalSHA256": "7c54fa998a0254bb39432de2d4e95f51b1db4ffef5ce39710649f4b2fe2b24f6",
+      "file": "browser-chromium/chromium-mobile-compare-materials.webp",
+      "bytes": 21584,
+      "sha256": "d5fc20f0574b94efb6ae7d63e9f7d8f1eb988aa69933b2516ab8465591e0f068",
+      "AE": 0
+    },
+    {
+      "originalPNG": "browser-chromium/chromium-portrait-compare-prices.png",
+      "originalBytes": 80679,
+      "originalSHA256": "9d9924bc805445e3e2cb93789449e56544e694bdb84655c495d92a90fdf95c22",
+      "file": "browser-chromium/chromium-portrait-compare-prices.webp",
+      "bytes": 32900,
+      "sha256": "e6760174f9c4d43fb9a3347390acc623909f17a1760ceb79d1c600558e046640",
+      "AE": 0
+    },
+    {
+      "originalPNG": "browser-chromium/chromium-portrait-detail-unknown-price.png",
+      "originalBytes": 289171,
+      "originalSHA256": "a0db80a33bb01c4a02c82b7dc5d622875b80be587e8518e7de3b1b18e6ecd730",
+      "file": "browser-chromium/chromium-portrait-detail-unknown-price.webp",
+      "bytes": 170530,
+      "sha256": "8c4efd7654e37eb9781d8c2bdd1e95065acbf15d54d2072954ba222ddce4048f",
+      "AE": 0
+    },
+    {
+      "originalPNG": "browser-webkit/webkit-landscape-catalog-verified-prices.png",
+      "originalBytes": 125764,
+      "originalSHA256": "fa1854c97b7fecf7886473e04510973534c740c19f56fe09ff26f9e927b9433c",
+      "file": "browser-webkit/webkit-landscape-catalog-verified-prices.webp",
+      "bytes": 52970,
+      "sha256": "e1339591b15eecb6f6c1f9b10295489a0e17c6c28a807f22c3c5a2828107d5fd",
+      "AE": 0
+    },
+    {
+      "originalPNG": "browser-webkit/webkit-landscape-compare-prices.png",
+      "originalBytes": 119130,
+      "originalSHA256": "b353d4b2eab92a40495c4f96be6ba752705c282c69a981fefc8300d1e0a6e906",
+      "file": "browser-webkit/webkit-landscape-compare-prices.webp",
+      "bytes": 40270,
+      "sha256": "536665673adb18701c12be6c5f698c49a60fa1aa7bd83690325f3aaa7ab7f92f",
+      "AE": 0
+    },
+    {
+      "originalPNG": "browser-webkit/webkit-landscape-detail-new-specs.png",
+      "originalBytes": 78280,
+      "originalSHA256": "0aa7caacae67ccef7722d6c2dff6730b5a9350bba1d4da6e629fb9dc4e7473e2",
+      "file": "browser-webkit/webkit-landscape-detail-new-specs.webp",
+      "bytes": 28156,
+      "sha256": "46418e637e4aa650c196b5343d40d10c043ead401c5a78b48067383a2a8fc7d3",
+      "AE": 0
+    },
+    {
+      "originalPNG": "browser-webkit/webkit-mobile-compare-materials.png",
+      "originalBytes": 51082,
+      "originalSHA256": "c6cc182f5c142bd55bdfca87feeb93b780df0d548bdc7aee0c5f2d945ee6c3c2",
+      "file": "browser-webkit/webkit-mobile-compare-materials.webp",
+      "bytes": 20416,
+      "sha256": "c8e53efc509b6ba2fd6d66b162353a1e7ccd3efef041b70b7b96872b1e678d5e",
+      "AE": 0
+    },
+    {
+      "originalPNG": "browser-webkit/webkit-portrait-compare-prices.png",
+      "originalBytes": 93971,
+      "originalSHA256": "2713b9cdd69f8333a525425d13a2d1f3cf90ab7730661db4fd0c8b2e8050ea74",
+      "file": "browser-webkit/webkit-portrait-compare-prices.webp",
+      "bytes": 32492,
+      "sha256": "e3034123e085d5356ec3980257992aeb866c978c1c6f3813482eb2bb662c6422",
+      "AE": 0
+    },
+    {
+      "originalPNG": "browser-webkit/webkit-portrait-detail-unknown-price.png",
+      "originalBytes": 142677,
+      "originalSHA256": "2366b70cf50e1393eccb75d5bd402527ea677a9720ebd1da012072dfdd78e768",
+      "file": "browser-webkit/webkit-portrait-detail-unknown-price.webp",
+      "bytes": 61232,
+      "sha256": "3156c51fcb6d0ce95f076889a06db8bac21d4c849e20c4be1604a09ea5498ab7",
+      "AE": 0
+    }
+  ]
+}

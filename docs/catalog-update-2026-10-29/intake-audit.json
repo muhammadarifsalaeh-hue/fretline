@@ -1,0 +1,948 @@
+{
+  "baselineCommit": "edc293f",
+  "intakeReadOnly": true,
+  "records": 200,
+  "uniqueIDs": 200,
+  "brands": {
+    "Yamaha": 20,
+    "Fender": 20,
+    "Epiphone": 20,
+    "Ibanez": 20,
+    "Taylor": 20,
+    "Córdoba": 20,
+    "Gibson": 20,
+    "Martin": 20,
+    "PRS": 20,
+    "Squier": 20
+  },
+  "allBrandsHave20": true,
+  "incomingCategories": {
+    "electric": 91,
+    "acoustic": 51,
+    "acoustic-electric": 22,
+    "bass": 16,
+    "classical": 20
+  },
+  "existingCategories": {
+    "electric": 90,
+    "acoustic": 73,
+    "classical": 20,
+    "bass": 17
+  },
+  "incomingOnlyIDs": [],
+  "existingOnlyIDs": [],
+  "identityConflictsAfterAcousticElectricNormalization": [
+    {
+      "id": "epiphone-thunderbird-64-with-rosewood-fretboard",
+      "field": "category",
+      "incoming": "electric",
+      "existing": "bass",
+      "recommendation": "preserve existing"
+    }
+  ],
+  "normalizeAcousticElectricToExistingAcoustic": 22,
+  "perBrandJSON": [
+    {
+      "file": "cordoba_20_models_with_prices.json",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateExactly": true
+    },
+    {
+      "file": "epiphone_20_models_with_prices.json",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateExactly": true
+    },
+    {
+      "file": "fender_20_models_with_prices.json",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateExactly": true
+    },
+    {
+      "file": "gibson_20_models_with_prices.json",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateExactly": true
+    },
+    {
+      "file": "ibanez_20_models_with_prices.json",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateExactly": true
+    },
+    {
+      "file": "martin_20_models_with_prices.json",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateExactly": true
+    },
+    {
+      "file": "prs_20_models_with_prices.json",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateExactly": true
+    },
+    {
+      "file": "squier_20_models_with_prices.json",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateExactly": true
+    },
+    {
+      "file": "taylor_20_models_with_prices.json",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateExactly": true
+    },
+    {
+      "file": "yamaha_20_models_with_prices.json",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateExactly": true
+    }
+  ],
+  "priceCSVs": [
+    {
+      "file": "cordoba_20_prices.csv",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateFields": true,
+      "conflicts": []
+    },
+    {
+      "file": "epiphone_20_prices.csv",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateFields": true,
+      "conflicts": []
+    },
+    {
+      "file": "fender_20_prices.csv",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateFields": true,
+      "conflicts": []
+    },
+    {
+      "file": "gibson_20_prices.csv",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateFields": true,
+      "conflicts": []
+    },
+    {
+      "file": "ibanez_20_prices.csv",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateFields": true,
+      "conflicts": []
+    },
+    {
+      "file": "martin_20_prices.csv",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateFields": true,
+      "conflicts": []
+    },
+    {
+      "file": "prs_20_prices.csv",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateFields": true,
+      "conflicts": []
+    },
+    {
+      "file": "squier_20_prices.csv",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateFields": true,
+      "conflicts": []
+    },
+    {
+      "file": "taylor_20_prices.csv",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateFields": true,
+      "conflicts": []
+    },
+    {
+      "file": "yamaha_20_prices.csv",
+      "records": 20,
+      "idsUnique": true,
+      "matchesAggregateFields": true,
+      "conflicts": []
+    }
+  ],
+  "aggregatePricesMatchPriceReferenceAmounts": true,
+  "incomingPricedModels": 17,
+  "existingPricedModels": 18,
+  "newPriceCandidates": 9,
+  "samePriceCandidates": 7,
+  "priceConflicts": 1,
+  "priceCandidates": [
+    {
+      "id": "yamaha-fg850",
+      "incomingTHB": 19700,
+      "existingTHB": 19700,
+      "sourceURL": "https://www.musicarms.net/yamaha-fg850/",
+      "claimedCheckedOn": "2026-10-29",
+      "status": "same as existing"
+    },
+    {
+      "id": "yamaha-fg840",
+      "incomingTHB": 19200,
+      "existingTHB": 19200,
+      "sourceURL": "https://www.musiclifethailand.com/category/167784",
+      "claimedCheckedOn": "2026-10-29",
+      "status": "same as existing"
+    },
+    {
+      "id": "yamaha-fg830",
+      "incomingTHB": 17500,
+      "existingTHB": 17500,
+      "sourceURL": "https://www.musiclifethailand.com/category/167784",
+      "claimedCheckedOn": "2026-10-29",
+      "status": "same as existing"
+    },
+    {
+      "id": "yamaha-fg820",
+      "incomingTHB": 15400,
+      "existingTHB": 15400,
+      "sourceURL": "https://www.musiclifethailand.com/category/167784",
+      "claimedCheckedOn": "2026-10-29",
+      "status": "same as existing"
+    },
+    {
+      "id": "yamaha-fg820-12",
+      "incomingTHB": 18200,
+      "existingTHB": 16500,
+      "sourceURL": "https://www.musiclifethailand.com/category/167784",
+      "claimedCheckedOn": "2026-10-29",
+      "status": "conflict; preserve existing exact product quote unless independently justified"
+    },
+    {
+      "id": "yamaha-fg820l",
+      "incomingTHB": 18200,
+      "existingTHB": 18200,
+      "sourceURL": "https://www.musiclifethailand.com/category/167784",
+      "claimedCheckedOn": "2026-10-29",
+      "status": "same as existing"
+    },
+    {
+      "id": "yamaha-fg800m",
+      "incomingTHB": 12400,
+      "existingTHB": 12400,
+      "sourceURL": "https://www.musiclifethailand.com/category/167784",
+      "claimedCheckedOn": "2026-10-29",
+      "status": "same as existing"
+    },
+    {
+      "id": "yamaha-fs800",
+      "incomingTHB": 12400,
+      "existingTHB": 12400,
+      "sourceURL": "https://www.musiclifethailand.com/category/167784",
+      "claimedCheckedOn": "2026-10-29",
+      "status": "same as existing"
+    },
+    {
+      "id": "fender-player-ii-telecaster",
+      "incomingTHB": 30600,
+      "existingTHB": null,
+      "sourceURL": "https://www.musicarms.net/category/ma/สินค้าเครื่องดนตรี-ราคา/musical-instrument/กีต้าร์/กีต้าร์ไฟฟ้า/fender-กีต้าร์ไฟฟ้า-electric-guitar/player/",
+      "claimedCheckedOn": "2026-10-29",
+      "status": "new price candidate requiring retailer/model/value verification"
+    },
+    {
+      "id": "fender-player-ii-telecaster-hh",
+      "incomingTHB": 31500,
+      "existingTHB": null,
+      "sourceURL": "https://www.musicarms.net/category/ma/สินค้าเครื่องดนตรี-ราคา/musical-instrument/กีต้าร์/กีต้าร์ไฟฟ้า/fender-กีต้าร์ไฟฟ้า-electric-guitar/player/",
+      "claimedCheckedOn": "2026-10-29",
+      "status": "new price candidate requiring retailer/model/value verification"
+    },
+    {
+      "id": "fender-player-ii-stratocaster",
+      "incomingTHB": 30600,
+      "existingTHB": null,
+      "sourceURL": "https://www.musicarms.net/category/ma/สินค้าเครื่องดนตรี-ราคา/musical-instrument/กีต้าร์/กีต้าร์ไฟฟ้า/fender-กีต้าร์ไฟฟ้า-electric-guitar/player/",
+      "claimedCheckedOn": "2026-10-29",
+      "status": "new price candidate requiring retailer/model/value verification"
+    },
+    {
+      "id": "fender-player-ii-mustang",
+      "incomingTHB": 30600,
+      "existingTHB": null,
+      "sourceURL": "https://www.musicarms.net/category/ma/สินค้าเครื่องดนตรี-ราคา/musical-instrument/กีต้าร์/กีต้าร์ไฟฟ้า/fender-กีต้าร์ไฟฟ้า-electric-guitar/player/",
+      "claimedCheckedOn": "2026-10-29",
+      "status": "new price candidate requiring retailer/model/value verification"
+    },
+    {
+      "id": "fender-player-ii-stratocaster-hss",
+      "incomingTHB": 31500,
+      "existingTHB": null,
+      "sourceURL": "https://www.musicarms.net/category/ma/สินค้าเครื่องดนตรี-ราคา/musical-instrument/กีต้าร์/กีต้าร์ไฟฟ้า/fender-กีต้าร์ไฟฟ้า-electric-guitar/player/",
+      "claimedCheckedOn": "2026-10-29",
+      "status": "new price candidate requiring retailer/model/value verification"
+    },
+    {
+      "id": "fender-player-ii-jaguar",
+      "incomingTHB": 31500,
+      "existingTHB": null,
+      "sourceURL": "https://www.musicarms.net/category/ma/สินค้าเครื่องดนตรี-ราคา/musical-instrument/กีต้าร์/กีต้าร์ไฟฟ้า/fender-กีต้าร์ไฟฟ้า-electric-guitar/player/",
+      "claimedCheckedOn": "2026-10-29",
+      "status": "new price candidate requiring retailer/model/value verification"
+    },
+    {
+      "id": "fender-player-ii-modified-stratocaster-hss",
+      "incomingTHB": 39600,
+      "existingTHB": null,
+      "sourceURL": "https://www.musicarms.net/category/ma/สินค้าเครื่องดนตรี-ราคา/musical-instrument/กีต้าร์/กีต้าร์ไฟฟ้า/fender-กีต้าร์ไฟฟ้า-electric-guitar/player/",
+      "claimedCheckedOn": "2026-10-29",
+      "status": "new price candidate requiring retailer/model/value verification"
+    },
+    {
+      "id": "fender-player-ii-modified-stratocaster-hss-floyd-rose",
+      "incomingTHB": 43200,
+      "existingTHB": null,
+      "sourceURL": "https://www.musicarms.net/category/ma/สินค้าเครื่องดนตรี-ราคา/musical-instrument/กีต้าร์/กีต้าร์ไฟฟ้า/fender-กีต้าร์ไฟฟ้า-electric-guitar/player/",
+      "claimedCheckedOn": "2026-10-29",
+      "status": "new price candidate requiring retailer/model/value verification"
+    },
+    {
+      "id": "fender-player-ii-modified-telecaster",
+      "incomingTHB": 37800,
+      "existingTHB": null,
+      "sourceURL": "https://www.musicarms.net/category/ma/สินค้าเครื่องดนตรี-ราคา/musical-instrument/กีต้าร์/กีต้าร์ไฟฟ้า/fender-กีต้าร์ไฟฟ้า-electric-guitar/player/",
+      "claimedCheckedOn": "2026-10-29",
+      "status": "new price candidate requiring retailer/model/value verification"
+    }
+  ],
+  "existingPricesThatIncomingNullMustNotErase": [
+    {
+      "id": "yamaha-pacifica-612viifm",
+      "existingTHB": 34000
+    },
+    {
+      "id": "yamaha-fg800",
+      "existingTHB": 12400
+    },
+    {
+      "id": "yamaha-fs850",
+      "existingTHB": 19700
+    },
+    {
+      "id": "yamaha-fs830",
+      "existingTHB": 17500
+    },
+    {
+      "id": "yamaha-fs820",
+      "existingTHB": 15400
+    },
+    {
+      "id": "yamaha-fgx820c",
+      "existingTHB": 20500
+    },
+    {
+      "id": "yamaha-fgx800c",
+      "existingTHB": 15500
+    },
+    {
+      "id": "yamaha-fsx830c",
+      "existingTHB": 24000
+    },
+    {
+      "id": "yamaha-fsx820c",
+      "existingTHB": 20500
+    },
+    {
+      "id": "yamaha-fsx800c",
+      "existingTHB": 15500
+    }
+  ],
+  "comparisonSpecNonEmptyModels": 21,
+  "comparisonSpecFieldCoverage": {
+    "pickup_configuration": 2,
+    "body_shape": 20,
+    "top_wood": 19,
+    "back_sides": 19,
+    "scale_length_mm": 20,
+    "strings": 20,
+    "electronics": 19,
+    "orientation": 2,
+    "body_wood": 1,
+    "neck_wood": 1,
+    "fretboard_wood": 1,
+    "frets": 1,
+    "pickup_models": 1,
+    "bridge": 1,
+    "nut_width_mm": 1,
+    "fingerboard_radius_inches": 1
+  },
+  "declaredVerifiedFieldModels": 19,
+  "declaredVerifiedFieldCoverage": {
+    "body_shape": 19,
+    "scale_length_mm": 19,
+    "top_wood": 3,
+    "back_sides": 3,
+    "body_wood": 1,
+    "neck_wood": 1,
+    "fretboard_wood": 1,
+    "frets": 1,
+    "strings": 1,
+    "pickup_configuration": 1,
+    "pickup_models": 1,
+    "bridge": 1,
+    "fingerboard_radius_inches": 1,
+    "nut_width_mm": 1,
+    "orientation": 1
+  },
+  "specRecords": [
+    {
+      "id": "yamaha-pacifica-612viifm",
+      "comparisonSpecs": {
+        "pickup_configuration": "HSS"
+      },
+      "declaredVerifiedFields": {},
+      "comparisonSourceURLs": [],
+      "missingEvidenceFields": [
+        "pickup_configuration"
+      ]
+    },
+    {
+      "id": "yamaha-fg800",
+      "comparisonSpecs": {
+        "body_shape": "Dreadnought",
+        "top_wood": "Solid spruce",
+        "back_sides": "Nato/Okume (varies by market/model)",
+        "scale_length_mm": 650,
+        "strings": 6,
+        "electronics": "Acoustic, no built-in electronics"
+      },
+      "declaredVerifiedFields": {},
+      "comparisonSourceURLs": [],
+      "missingEvidenceFields": [
+        "back_sides",
+        "body_shape",
+        "electronics",
+        "scale_length_mm",
+        "strings",
+        "top_wood"
+      ]
+    },
+    {
+      "id": "yamaha-fg850",
+      "comparisonSpecs": {
+        "body_shape": "Dreadnought",
+        "top_wood": "Solid mahogany",
+        "back_sides": "Mahogany",
+        "scale_length_mm": 650,
+        "strings": 6,
+        "electronics": "Acoustic, no built-in electronics"
+      },
+      "declaredVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table",
+        "top_wood": "manufacturer_product_page",
+        "back_sides": "manufacturer_product_page"
+      },
+      "comparisonSourceURLs": [
+        "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+        "https://asia-oceania.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html"
+      ],
+      "missingEvidenceFields": [
+        "electronics",
+        "strings"
+      ]
+    },
+    {
+      "id": "yamaha-fg840",
+      "comparisonSpecs": {
+        "body_shape": "Dreadnought",
+        "top_wood": "Solid spruce",
+        "back_sides": "Flamed maple",
+        "scale_length_mm": 650,
+        "strings": 6,
+        "electronics": "Acoustic, no built-in electronics"
+      },
+      "declaredVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table",
+        "top_wood": "manufacturer_product_page",
+        "back_sides": "manufacturer_product_page"
+      },
+      "comparisonSourceURLs": [
+        "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+        "https://asia-oceania.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html"
+      ],
+      "missingEvidenceFields": [
+        "electronics",
+        "strings"
+      ]
+    },
+    {
+      "id": "yamaha-fg830",
+      "comparisonSpecs": {
+        "body_shape": "Dreadnought",
+        "top_wood": "Solid spruce",
+        "back_sides": "Rosewood",
+        "scale_length_mm": 650,
+        "strings": 6,
+        "electronics": "Acoustic, no built-in electronics"
+      },
+      "declaredVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table",
+        "top_wood": "manufacturer_product_page",
+        "back_sides": "manufacturer_product_page"
+      },
+      "comparisonSourceURLs": [
+        "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html",
+        "https://asia-oceania.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html"
+      ],
+      "missingEvidenceFields": [
+        "electronics",
+        "strings"
+      ]
+    },
+    {
+      "id": "yamaha-fg820",
+      "comparisonSpecs": {
+        "body_shape": "Dreadnought",
+        "top_wood": "Solid spruce",
+        "back_sides": "Mahogany",
+        "scale_length_mm": 650,
+        "strings": 6,
+        "electronics": "Acoustic, no built-in electronics"
+      },
+      "declaredVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "comparisonSourceURLs": [
+        "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html"
+      ],
+      "missingEvidenceFields": [
+        "back_sides",
+        "electronics",
+        "strings",
+        "top_wood"
+      ]
+    },
+    {
+      "id": "yamaha-fg820-12",
+      "comparisonSpecs": {
+        "body_shape": "Dreadnought",
+        "top_wood": "Solid spruce",
+        "back_sides": "Mahogany",
+        "scale_length_mm": 634,
+        "strings": 12,
+        "electronics": "Acoustic, no built-in electronics"
+      },
+      "declaredVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "comparisonSourceURLs": [
+        "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html"
+      ],
+      "missingEvidenceFields": [
+        "back_sides",
+        "electronics",
+        "strings",
+        "top_wood"
+      ]
+    },
+    {
+      "id": "yamaha-fg820l",
+      "comparisonSpecs": {
+        "body_shape": "Dreadnought",
+        "top_wood": "Solid spruce",
+        "back_sides": "Mahogany",
+        "scale_length_mm": 650,
+        "strings": 6,
+        "electronics": "Acoustic, no built-in electronics",
+        "orientation": "Left-handed"
+      },
+      "declaredVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "comparisonSourceURLs": [
+        "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html"
+      ],
+      "missingEvidenceFields": [
+        "back_sides",
+        "electronics",
+        "orientation",
+        "strings",
+        "top_wood"
+      ]
+    },
+    {
+      "id": "yamaha-fg800j",
+      "comparisonSpecs": {
+        "body_shape": "Dreadnought",
+        "top_wood": "Solid spruce",
+        "back_sides": "Nato/Okume (varies by market/model)",
+        "scale_length_mm": 634,
+        "strings": 6,
+        "electronics": "Acoustic, no built-in electronics"
+      },
+      "declaredVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "comparisonSourceURLs": [
+        "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html"
+      ],
+      "missingEvidenceFields": [
+        "back_sides",
+        "electronics",
+        "strings",
+        "top_wood"
+      ]
+    },
+    {
+      "id": "yamaha-fg800m",
+      "comparisonSpecs": {
+        "body_shape": "Dreadnought",
+        "top_wood": "Solid spruce",
+        "back_sides": "Nato/Okume (varies by market/model)",
+        "scale_length_mm": 650,
+        "strings": 6,
+        "electronics": "Acoustic, no built-in electronics"
+      },
+      "declaredVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "comparisonSourceURLs": [
+        "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html"
+      ],
+      "missingEvidenceFields": [
+        "back_sides",
+        "electronics",
+        "strings",
+        "top_wood"
+      ]
+    },
+    {
+      "id": "yamaha-fs850",
+      "comparisonSpecs": {
+        "body_shape": "Concert",
+        "top_wood": "Solid mahogany",
+        "back_sides": "Mahogany",
+        "scale_length_mm": 634,
+        "strings": 6,
+        "electronics": "Acoustic, no built-in electronics"
+      },
+      "declaredVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "comparisonSourceURLs": [
+        "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html"
+      ],
+      "missingEvidenceFields": [
+        "back_sides",
+        "electronics",
+        "strings",
+        "top_wood"
+      ]
+    },
+    {
+      "id": "yamaha-fs830",
+      "comparisonSpecs": {
+        "body_shape": "Concert",
+        "top_wood": "Solid spruce",
+        "back_sides": "Rosewood",
+        "scale_length_mm": 634,
+        "strings": 6,
+        "electronics": "Acoustic, no built-in electronics"
+      },
+      "declaredVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "comparisonSourceURLs": [
+        "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html"
+      ],
+      "missingEvidenceFields": [
+        "back_sides",
+        "electronics",
+        "strings",
+        "top_wood"
+      ]
+    },
+    {
+      "id": "yamaha-fs820",
+      "comparisonSpecs": {
+        "body_shape": "Concert",
+        "top_wood": "Solid spruce",
+        "back_sides": "Mahogany",
+        "scale_length_mm": 634,
+        "strings": 6,
+        "electronics": "Acoustic, no built-in electronics"
+      },
+      "declaredVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "comparisonSourceURLs": [
+        "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html"
+      ],
+      "missingEvidenceFields": [
+        "back_sides",
+        "electronics",
+        "strings",
+        "top_wood"
+      ]
+    },
+    {
+      "id": "yamaha-fs800",
+      "comparisonSpecs": {
+        "body_shape": "Concert",
+        "top_wood": "Solid spruce",
+        "back_sides": "Nato/Okume (varies by market/model)",
+        "scale_length_mm": 634,
+        "strings": 6,
+        "electronics": "Acoustic, no built-in electronics"
+      },
+      "declaredVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "comparisonSourceURLs": [
+        "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html"
+      ],
+      "missingEvidenceFields": [
+        "back_sides",
+        "electronics",
+        "strings",
+        "top_wood"
+      ]
+    },
+    {
+      "id": "yamaha-fgx830c",
+      "comparisonSpecs": {
+        "body_shape": "Dreadnought Cutaway",
+        "top_wood": "Solid spruce",
+        "back_sides": "Rosewood",
+        "scale_length_mm": 650,
+        "strings": 6,
+        "electronics": "Acoustic-electric"
+      },
+      "declaredVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "comparisonSourceURLs": [
+        "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html"
+      ],
+      "missingEvidenceFields": [
+        "back_sides",
+        "electronics",
+        "strings",
+        "top_wood"
+      ]
+    },
+    {
+      "id": "yamaha-fgx820c",
+      "comparisonSpecs": {
+        "body_shape": "Dreadnought Cutaway",
+        "top_wood": "Solid spruce",
+        "back_sides": "Mahogany",
+        "scale_length_mm": 650,
+        "strings": 6,
+        "electronics": "Acoustic-electric"
+      },
+      "declaredVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "comparisonSourceURLs": [
+        "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html"
+      ],
+      "missingEvidenceFields": [
+        "back_sides",
+        "electronics",
+        "strings",
+        "top_wood"
+      ]
+    },
+    {
+      "id": "yamaha-fgx800c",
+      "comparisonSpecs": {
+        "body_shape": "Dreadnought Cutaway",
+        "top_wood": "Solid spruce",
+        "back_sides": "Nato/Okume (varies by market/model)",
+        "scale_length_mm": 650,
+        "strings": 6,
+        "electronics": "Acoustic-electric"
+      },
+      "declaredVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "comparisonSourceURLs": [
+        "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html"
+      ],
+      "missingEvidenceFields": [
+        "back_sides",
+        "electronics",
+        "strings",
+        "top_wood"
+      ]
+    },
+    {
+      "id": "yamaha-fsx830c",
+      "comparisonSpecs": {
+        "body_shape": "Concert Cutaway",
+        "top_wood": "Solid spruce",
+        "back_sides": "Rosewood",
+        "scale_length_mm": 634,
+        "strings": 6,
+        "electronics": "Acoustic-electric"
+      },
+      "declaredVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "comparisonSourceURLs": [
+        "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html"
+      ],
+      "missingEvidenceFields": [
+        "back_sides",
+        "electronics",
+        "strings",
+        "top_wood"
+      ]
+    },
+    {
+      "id": "yamaha-fsx820c",
+      "comparisonSpecs": {
+        "body_shape": "Concert Cutaway",
+        "top_wood": "Solid spruce",
+        "back_sides": "Mahogany",
+        "scale_length_mm": 634,
+        "strings": 6,
+        "electronics": "Acoustic-electric"
+      },
+      "declaredVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "comparisonSourceURLs": [
+        "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html"
+      ],
+      "missingEvidenceFields": [
+        "back_sides",
+        "electronics",
+        "strings",
+        "top_wood"
+      ]
+    },
+    {
+      "id": "yamaha-fsx800c",
+      "comparisonSpecs": {
+        "body_shape": "Concert Cutaway",
+        "top_wood": "Solid spruce",
+        "back_sides": "Nato/Okume (varies by market/model)",
+        "scale_length_mm": 634,
+        "strings": 6,
+        "electronics": "Acoustic-electric"
+      },
+      "declaredVerifiedFields": {
+        "body_shape": "manufacturer_series_table",
+        "scale_length_mm": "manufacturer_series_table"
+      },
+      "comparisonSourceURLs": [
+        "https://th.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html"
+      ],
+      "missingEvidenceFields": [
+        "back_sides",
+        "electronics",
+        "strings",
+        "top_wood"
+      ]
+    },
+    {
+      "id": "fender-player-ii-stratocaster",
+      "comparisonSpecs": {
+        "body_shape": "Stratocaster solidbody",
+        "body_wood": "Alder (Black / Maple Fingerboard variant)",
+        "neck_wood": "Maple",
+        "fretboard_wood": "Maple",
+        "scale_length_mm": 648,
+        "frets": 22,
+        "strings": 6,
+        "pickup_configuration": "SSS",
+        "pickup_models": "Player Series Alnico 5 Strat single-coil",
+        "bridge": "2-Point Synchronized Tremolo",
+        "nut_width_mm": 42,
+        "fingerboard_radius_inches": 9.5,
+        "orientation": "Right-handed"
+      },
+      "declaredVerifiedFields": {
+        "body_shape": "manufacturer_specific_variant",
+        "body_wood": "manufacturer_specific_variant",
+        "neck_wood": "manufacturer_specific_variant",
+        "fretboard_wood": "manufacturer_specific_variant",
+        "scale_length_mm": "manufacturer_specific_variant",
+        "frets": "manufacturer_specific_variant",
+        "strings": "manufacturer_specific_variant",
+        "pickup_configuration": "manufacturer_specific_variant",
+        "pickup_models": "manufacturer_specific_variant",
+        "bridge": "manufacturer_specific_variant",
+        "fingerboard_radius_inches": "manufacturer_specific_variant",
+        "nut_width_mm": "manufacturer_specific_variant",
+        "orientation": "manufacturer_specific_variant"
+      },
+      "comparisonSourceURLs": [
+        "https://www.fender.com/products/player-ii-stratocaster?variant=45947062911198"
+      ],
+      "missingEvidenceFields": []
+    }
+  ],
+  "materialConflicts": [
+    {
+      "id": "yamaha-fg800j",
+      "field": "back",
+      "incoming": "Nato/Okume (varies by market/model)",
+      "existing": "Nato/Mahogany",
+      "recommendation": "preserve existing source-backed model-specific/material-options data"
+    },
+    {
+      "id": "yamaha-fg800j",
+      "field": "sides",
+      "incoming": "Nato/Okume (varies by market/model)",
+      "existing": "Nato/Mahogany",
+      "recommendation": "preserve existing source-backed model-specific/material-options data"
+    },
+    {
+      "id": "fender-player-ii-stratocaster",
+      "field": "body",
+      "incoming": "Alder (Black / Maple Fingerboard variant)",
+      "existing": "Alder / Chambered Ash / Chambered Mahogany",
+      "recommendation": "preserve existing source-backed model-specific/material-options data"
+    },
+    {
+      "id": "fender-player-ii-stratocaster",
+      "field": "fretboard",
+      "incoming": "Maple",
+      "existing": "Slab Rosewood / Maple",
+      "recommendation": "preserve existing source-backed model-specific/material-options data"
+    }
+  ],
+  "sourceAdmissibility": {
+    "externalPagesFetchedByThisAudit": false,
+    "priceCandidatesNeedIndependentConfirmation": "Known retailer category/listing URLs are candidates, not standalone per-model price proof until model and exact amount can be located. Most Yamaha product-specific sources in existing records are more precise than incoming category URLs.",
+    "googleSearchURLs": "manufacturer_search_url and image_search_url are discovery links only and must never become specification or image-rights evidence.",
+    "descriptions": "All200carry editorial_note saying general descriptions are rewritten, not verified manufacturer specs. Do not replace stronger existing descriptions or promote named-model highlights into technical facts.",
+    "verifiedFields": "Only named fields with credible matching manufacturer source may be candidates. A string such as manufacturer_series_table is a claim of provenance, not independently checked proof. In particular most Yamaha strings/electronics values are not present in verified_fields.",
+    "variantOptions": "Incoming Player II Stratocaster fields apply to Black/Maple SKU45947062911198; do not generalize Maple-only or Alder-only to the existing generic model record, which preserves other official variants.",
+    "missingValues": "183incoming null prices, empty colors/image_files, absent specs and generic descriptions must not erase old values."
+  }
+}

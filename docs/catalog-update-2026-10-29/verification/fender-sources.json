@@ -1,0 +1,252 @@
+{
+  "checkedOn": "2026-10-29",
+  "scope": "Nine incoming Fender prices only; no manufacturer RRP or stock availability is asserted.",
+  "sourceKind": "retailer-listed",
+  "results": [
+    {
+      "id": "fender-player-ii-telecaster",
+      "model": "Player II Telecaster",
+      "candidateAmountTHB": 30600,
+      "currency": "THB",
+      "sourceKind": "retailer-listed",
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-telecaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+      "categorySourceURL": "https://www.musicarms.net/category/ma/สินค้าเครื่องดนตรี-ราคา/musical-instrument/กีต้าร์/กีต้าร์ไฟฟ้า/fender-กีต้าร์ไฟฟ้า-electric-guitar/player/",
+      "httpStatus": 200,
+      "checkedOn": "2026-10-29",
+      "accepted": true,
+      "acceptedAmountTHB": 30600,
+      "title": [
+        "Fender Player II Telecaster กีตาร์ไฟฟ้า"
+      ],
+      "categoryQuote": "Fender Player II Telecaster กีตาร์ไฟฟ้า 30,600 บาท ลด10% ราคา 34,000 บาท",
+      "quote": "{\"name\":\"Fender Player II Telecaster กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-telecaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/\",\"offers\":{\"price\":30600,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-telecaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/\"}}",
+      "evidenceFile": "fender-player-ii-telecaster-evidence.json",
+      "reason": "Exact model h1 and Product JSON-LD Offer currency/amount match the incoming retailer sale price. Category card independently matches. This is not a manufacturer RRP; crossed-out shop amounts are not imported.",
+      "productPriceObserved": {
+        "price": 30600,
+        "priceCurrency": "THB",
+        "url": "https://www.musicarms.net/fender-player-ii-telecaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/"
+      },
+      "sourceLabel": "Music Arms",
+      "priceType": "retailer-sale-price"
+    },
+    {
+      "id": "fender-player-ii-telecaster-hh",
+      "model": "Player II Telecaster HH",
+      "candidateAmountTHB": 31500,
+      "currency": "THB",
+      "sourceKind": "retailer-listed",
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-telecaster-hh/",
+      "categorySourceURL": "https://www.musicarms.net/category/ma/สินค้าเครื่องดนตรี-ราคา/musical-instrument/กีต้าร์/กีต้าร์ไฟฟ้า/fender-กีต้าร์ไฟฟ้า-electric-guitar/player/",
+      "httpStatus": 200,
+      "checkedOn": "2026-10-29",
+      "accepted": true,
+      "acceptedAmountTHB": 31500,
+      "title": [
+        "Fender Player II Telecaster HH กีตาร์ไฟฟ้า"
+      ],
+      "categoryQuote": "Fender Player II Telecaster HH กีตาร์ไฟฟ้า 31,500 บาท ลด10% ราคา 35,000 บาท",
+      "quote": "{\"name\":\"Fender Player II Telecaster HH กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-telecaster-hh/\",\"offers\":{\"price\":31500,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-telecaster-hh/\"}}",
+      "evidenceFile": "fender-player-ii-telecaster-hh-evidence.json",
+      "reason": "Exact model h1 and Product JSON-LD Offer currency/amount match the incoming retailer sale price. Category card independently matches. This is not a manufacturer RRP; crossed-out shop amounts are not imported.",
+      "productPriceObserved": {
+        "price": 31500,
+        "priceCurrency": "THB",
+        "url": "https://www.musicarms.net/fender-player-ii-telecaster-hh/"
+      },
+      "sourceLabel": "Music Arms",
+      "priceType": "retailer-sale-price"
+    },
+    {
+      "id": "fender-player-ii-stratocaster",
+      "model": "Player II Stratocaster",
+      "candidateAmountTHB": 30600,
+      "currency": "THB",
+      "sourceKind": "retailer-listed",
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+      "categorySourceURL": "https://www.musicarms.net/category/ma/สินค้าเครื่องดนตรี-ราคา/musical-instrument/กีต้าร์/กีต้าร์ไฟฟ้า/fender-กีต้าร์ไฟฟ้า-electric-guitar/player/",
+      "httpStatus": 200,
+      "checkedOn": "2026-10-29",
+      "accepted": true,
+      "acceptedAmountTHB": 30600,
+      "title": [
+        "Fender Player II Stratocaster กีตาร์ไฟฟ้า"
+      ],
+      "categoryQuote": "Fender Player II Stratocaster กีตาร์ไฟฟ้า 30,600 บาท ลด10% ราคา 34,000 บาท",
+      "quote": "{\"name\":\"Fender Player II Stratocaster กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/\",\"offers\":{\"price\":30600,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/\"}}",
+      "evidenceFile": "fender-player-ii-stratocaster-evidence.json",
+      "reason": "Exact model h1 and Product JSON-LD Offer currency/amount match the incoming retailer sale price. Category card independently matches. This is not a manufacturer RRP; crossed-out shop amounts are not imported.",
+      "productPriceObserved": {
+        "price": 30600,
+        "priceCurrency": "THB",
+        "url": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/"
+      },
+      "sourceLabel": "Music Arms",
+      "priceType": "retailer-sale-price"
+    },
+    {
+      "id": "fender-player-ii-mustang",
+      "model": "Player II Mustang",
+      "candidateAmountTHB": 30600,
+      "currency": "THB",
+      "sourceKind": "retailer-listed",
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-mustang/",
+      "categorySourceURL": "https://www.musicarms.net/category/ma/สินค้าเครื่องดนตรี-ราคา/musical-instrument/กีต้าร์/กีต้าร์ไฟฟ้า/fender-กีต้าร์ไฟฟ้า-electric-guitar/player/",
+      "httpStatus": 200,
+      "checkedOn": "2026-10-29",
+      "accepted": true,
+      "acceptedAmountTHB": 30600,
+      "title": [
+        "Fender Player II Mustang กีตาร์ไฟฟ้า"
+      ],
+      "categoryQuote": "Fender Player II Mustang กีตาร์ไฟฟ้า 30,600 บาท ลด10% ราคา 34,000 บาท",
+      "quote": "{\"name\":\"Fender Player II Mustang กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-mustang/\",\"offers\":{\"price\":30600,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-mustang/\"}}",
+      "evidenceFile": "fender-player-ii-mustang-evidence.json",
+      "reason": "Exact model h1 and Product JSON-LD Offer currency/amount match the incoming retailer sale price. Category card independently matches. This is not a manufacturer RRP; crossed-out shop amounts are not imported.",
+      "productPriceObserved": {
+        "price": 30600,
+        "priceCurrency": "THB",
+        "url": "https://www.musicarms.net/fender-player-ii-mustang/"
+      },
+      "sourceLabel": "Music Arms",
+      "priceType": "retailer-sale-price"
+    },
+    {
+      "id": "fender-player-ii-stratocaster-hss",
+      "model": "Player II Stratocaster HSS",
+      "candidateAmountTHB": 31500,
+      "currency": "THB",
+      "sourceKind": "retailer-listed",
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-stratocaster-hss-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+      "categorySourceURL": "https://www.musicarms.net/category/ma/สินค้าเครื่องดนตรี-ราคา/musical-instrument/กีต้าร์/กีต้าร์ไฟฟ้า/fender-กีต้าร์ไฟฟ้า-electric-guitar/player/",
+      "httpStatus": 200,
+      "checkedOn": "2026-10-29",
+      "accepted": true,
+      "acceptedAmountTHB": 31500,
+      "title": [
+        "Fender Player II Stratocaster HSS กีตาร์ไฟฟ้า"
+      ],
+      "categoryQuote": "Fender Player II Stratocaster HSS กีตาร์ไฟฟ้า 31,500 บาท ลด10% ราคา 35,000 บาท",
+      "quote": "{\"name\":\"Fender Player II Stratocaster HSS กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-stratocaster-hss-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/\",\"offers\":{\"price\":31500,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-stratocaster-hss-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/\"}}",
+      "evidenceFile": "fender-player-ii-stratocaster-hss-evidence.json",
+      "reason": "Exact model h1 and Product JSON-LD Offer currency/amount match the incoming retailer sale price. Category card independently matches. This is not a manufacturer RRP; crossed-out shop amounts are not imported.",
+      "productPriceObserved": {
+        "price": 31500,
+        "priceCurrency": "THB",
+        "url": "https://www.musicarms.net/fender-player-ii-stratocaster-hss-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/"
+      },
+      "sourceLabel": "Music Arms",
+      "priceType": "retailer-sale-price"
+    },
+    {
+      "id": "fender-player-ii-jaguar",
+      "model": "Player II Jaguar",
+      "candidateAmountTHB": 31500,
+      "currency": "THB",
+      "sourceKind": "retailer-listed",
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-jaguar/",
+      "categorySourceURL": "https://www.musicarms.net/category/ma/สินค้าเครื่องดนตรี-ราคา/musical-instrument/กีต้าร์/กีต้าร์ไฟฟ้า/fender-กีต้าร์ไฟฟ้า-electric-guitar/player/",
+      "httpStatus": 200,
+      "checkedOn": "2026-10-29",
+      "accepted": true,
+      "acceptedAmountTHB": 31500,
+      "title": [
+        "Fender Player II Jaguar กีตาร์ไฟฟ้า"
+      ],
+      "categoryQuote": "Fender Player II Jaguar กีตาร์ไฟฟ้า 31,500 บาท ลด10% ราคา 35,000 บาท",
+      "quote": "{\"name\":\"Fender Player II Jaguar กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-jaguar/\",\"offers\":{\"price\":31500,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-jaguar/\"}}",
+      "evidenceFile": "fender-player-ii-jaguar-evidence.json",
+      "reason": "Exact model h1 and Product JSON-LD Offer currency/amount match the incoming retailer sale price. Category card independently matches. This is not a manufacturer RRP; crossed-out shop amounts are not imported.",
+      "productPriceObserved": {
+        "price": 31500,
+        "priceCurrency": "THB",
+        "url": "https://www.musicarms.net/fender-player-ii-jaguar/"
+      },
+      "sourceLabel": "Music Arms",
+      "priceType": "retailer-sale-price"
+    },
+    {
+      "id": "fender-player-ii-modified-stratocaster-hss",
+      "model": "Player II Modified Stratocaster HSS",
+      "candidateAmountTHB": 39600,
+      "currency": "THB",
+      "sourceKind": "retailer-listed",
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss/",
+      "categorySourceURL": "https://www.musicarms.net/category/ma/สินค้าเครื่องดนตรี-ราคา/musical-instrument/กีต้าร์/กีต้าร์ไฟฟ้า/fender-กีต้าร์ไฟฟ้า-electric-guitar/player/",
+      "httpStatus": 200,
+      "checkedOn": "2026-10-29",
+      "accepted": true,
+      "acceptedAmountTHB": 39600,
+      "title": [
+        "Fender Player II Modified Stratocaster HSS กีตาร์ไฟฟ้า"
+      ],
+      "categoryQuote": "Fender Player II Modified Stratocaster HSS กีตาร์ไฟฟ้า 39,600 บาท ลด10% ราคา 44,000 บาท",
+      "quote": "{\"name\":\"Fender Player II Modified Stratocaster HSS กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss/\",\"offers\":{\"price\":39600,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss/\"}}",
+      "evidenceFile": "fender-player-ii-modified-stratocaster-hss-evidence.json",
+      "reason": "Exact model h1 and Product JSON-LD Offer currency/amount match the incoming retailer sale price. Category card independently matches. This is not a manufacturer RRP; crossed-out shop amounts are not imported.",
+      "productPriceObserved": {
+        "price": 39600,
+        "priceCurrency": "THB",
+        "url": "https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss/"
+      },
+      "sourceLabel": "Music Arms",
+      "priceType": "retailer-sale-price"
+    },
+    {
+      "id": "fender-player-ii-modified-stratocaster-hss-floyd-rose",
+      "model": "Player II Modified Stratocaster HSS Floyd Rose",
+      "candidateAmountTHB": 43200,
+      "currency": "THB",
+      "sourceKind": "retailer-listed",
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss-floyd-rose/",
+      "categorySourceURL": "https://www.musicarms.net/category/ma/สินค้าเครื่องดนตรี-ราคา/musical-instrument/กีต้าร์/กีต้าร์ไฟฟ้า/fender-กีต้าร์ไฟฟ้า-electric-guitar/player/",
+      "httpStatus": 200,
+      "checkedOn": "2026-10-29",
+      "accepted": true,
+      "acceptedAmountTHB": 43200,
+      "title": [
+        "Fender Player II Modified Stratocaster HSS Floyd Rose กีตาร์ไฟฟ้า"
+      ],
+      "categoryQuote": "Fender Player II Modified Stratocaster HSS Floyd Rose กีตาร์ไฟฟ้า 43,200 บาท ลด10% ราคา 48,000 บาท",
+      "quote": "{\"name\":\"Fender Player II Modified Stratocaster HSS Floyd Rose กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss-floyd-rose/\",\"offers\":{\"price\":43200,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss-floyd-rose/\"}}",
+      "evidenceFile": "fender-player-ii-modified-stratocaster-hss-floyd-rose-evidence.json",
+      "reason": "Exact model h1 and Product JSON-LD Offer currency/amount match the incoming retailer sale price. Category card independently matches. This is not a manufacturer RRP; crossed-out shop amounts are not imported.",
+      "productPriceObserved": {
+        "price": 43200,
+        "priceCurrency": "THB",
+        "url": "https://www.musicarms.net/fender-player-ii-modified-stratocaster-hss-floyd-rose/"
+      },
+      "sourceLabel": "Music Arms",
+      "priceType": "retailer-sale-price"
+    },
+    {
+      "id": "fender-player-ii-modified-telecaster",
+      "model": "Player II Modified Telecaster",
+      "candidateAmountTHB": 37800,
+      "currency": "THB",
+      "sourceKind": "retailer-listed",
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-modified-telecaster/",
+      "categorySourceURL": "https://www.musicarms.net/category/ma/สินค้าเครื่องดนตรี-ราคา/musical-instrument/กีต้าร์/กีต้าร์ไฟฟ้า/fender-กีต้าร์ไฟฟ้า-electric-guitar/player/",
+      "httpStatus": 200,
+      "checkedOn": "2026-10-29",
+      "accepted": true,
+      "acceptedAmountTHB": 37800,
+      "title": [
+        "Fender Player II Modified Telecaster กีตาร์ไฟฟ้า"
+      ],
+      "categoryQuote": "Fender Player II Modified Telecaster กีตาร์ไฟฟ้า 37,800 บาท ลด10% ราคา 42,000 บาท",
+      "quote": "{\"name\":\"Fender Player II Modified Telecaster กีตาร์ไฟฟ้า\",\"url\":\"https://www.musicarms.net/fender-player-ii-modified-telecaster/\",\"offers\":{\"price\":37800,\"priceCurrency\":\"THB\",\"url\":\"https://www.musicarms.net/fender-player-ii-modified-telecaster/\"}}",
+      "evidenceFile": "fender-player-ii-modified-telecaster-evidence.json",
+      "reason": "Exact model h1 and Product JSON-LD Offer currency/amount match the incoming retailer sale price. Category card independently matches. This is not a manufacturer RRP; crossed-out shop amounts are not imported.",
+      "productPriceObserved": {
+        "price": 37800,
+        "priceCurrency": "THB",
+        "url": "https://www.musicarms.net/fender-player-ii-modified-telecaster/"
+      },
+      "sourceLabel": "Music Arms",
+      "priceType": "retailer-sale-price"
+    }
+  ],
+  "acceptedCount": 9,
+  "blockedCount": 0
+}

@@ -1,0 +1,127 @@
+{
+  "passed": true,
+  "passedChecks": 30,
+  "totalChecks": 30,
+  "tests": [
+    {
+      "name": "Pure merge leaves its complete input objects unchanged",
+      "passed": true
+    },
+    {
+      "name": "New THB price gets precise retailer/date/evidence without manufacturer promotion",
+      "passed": true
+    },
+    {
+      "name": "Retailer evidence does not alter identities, category, descriptions, photos, colors or reviews",
+      "passed": true
+    },
+    {
+      "name": "Incoming null, blank and zero prices cannot erase an existing source-backed price",
+      "passed": true
+    },
+    {
+      "name": "An existing primary price/source wins even over a newer different valid quote",
+      "passed": true
+    },
+    {
+      "name": "Zero, negative and nonnumeric new prices remain unknown, never become THB0",
+      "passed": true
+    },
+    {
+      "name": "Unaccepted, non-THB, missing quote and HTTP403 price evidence are refused",
+      "passed": true
+    },
+    {
+      "name": "Wrong model, mismatch amount and mismatched observed Offer are refused",
+      "passed": true
+    },
+    {
+      "name": "Search URLs and retailer category pages cannot be precise primary price evidence",
+      "passed": true
+    },
+    {
+      "name": "Invalid source dates are refused; verifiedOn aliases remain stored correctly",
+      "passed": true
+    },
+    {
+      "name": "Unknown evidence IDs never create a product",
+      "passed": true
+    },
+    {
+      "name": "Incoming duplicate, missing and replaced IDs abort rather than silently changing inventory",
+      "passed": true
+    },
+    {
+      "name": "A matching ID cannot rename a brand or model",
+      "passed": true
+    },
+    {
+      "name": "Only accepted missing specifications fill; raw editorial strings are never technical evidence",
+      "passed": true
+    },
+    {
+      "name": "Narrower SKU woods and fretboard values never replace broader existing options",
+      "passed": true
+    },
+    {
+      "name": "Null, blank and invalid numeric specifications cannot erase or fabricate existing values",
+      "passed": true
+    },
+    {
+      "name": "A sourced fretless zero is a valid fact; numeric zero remains invalid for price/scale/strings",
+      "passed": true
+    },
+    {
+      "name": "Existing fretless zero is retained when another source proposes frets",
+      "passed": true
+    },
+    {
+      "name": "Unaccepted, unsupported and HTTP403 specifications are refused",
+      "passed": true
+    },
+    {
+      "name": "Retailer specification evidence stays explicitly retailer-sourced, without verified status",
+      "passed": true
+    },
+    {
+      "name": "Evidence adapters honor explicit rejected fields and canonical keys",
+      "passed": true
+    },
+    {
+      "name": "Reviewed datastore wins over a duplicate phase7 backing row",
+      "passed": true
+    },
+    {
+      "name": "Phase7-only records update in place without reordering or introducing a reviewed override",
+      "passed": true
+    },
+    {
+      "name": "Applying an already-merged result is idempotent, including sources and field arrays",
+      "passed": true
+    },
+    {
+      "name": "CSV reader handles BOM, quoted commas, escaped quotes and CRLF",
+      "passed": true
+    },
+    {
+      "name": "Actual archive covers exactly original200 IDs,10 brands×20, and all JSON/CSV representations agree",
+      "passed": true
+    },
+    {
+      "name": "Actual import plan is exactly nine verified new prices plus nine missing fields on ten models",
+      "passed": true
+    },
+    {
+      "name": "Actual null prices keep all18 old prices, FG820-12 quote and broader manufacturer fields",
+      "passed": true
+    },
+    {
+      "name": "Actual Thunderbird category and full200 inventory/order/status stay unchanged",
+      "passed": true
+    },
+    {
+      "name": "Actual complete import is idempotent with zero repeated data changes",
+      "passed": true
+    }
+  ]
+}

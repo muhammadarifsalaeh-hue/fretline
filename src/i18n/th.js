@@ -503,7 +503,7 @@ export const th = {
   "price.maxAria": "ราคาสูงสุด",
   "price.min": "ต่ำสุด",
   "price.minAria": "ราคาต่ำสุด",
-  "price.onRequest": "ยังไม่มีข้อมูลราคา",
+  "price.onRequest": "สอบถามราคา",
   "rating.none": "ยังไม่มีรีวิว",
   "row.body": "ตัวกีตาร์",
   "row.bridge": "บริดจ์",

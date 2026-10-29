@@ -6,7 +6,7 @@ import GuitarImage from '@/components/guitar/GuitarImage';
 import PriceSourceNote from '@/components/guitar/PriceSourceNote';
 import AppLink from '@/components/ui/AppLink';
 import { CloseIcon } from '@/components/ui/Icons';
-import { LANG, t } from '@/i18n';
+import { t } from '@/i18n';
 import { analyseRows, groupRows } from './compareRows';
 
 /** แถว/กลุ่มที่หุบหายด้วย animation (ใช้กับ "Show differences only") */
@@ -106,11 +106,13 @@ export default function CompareTable({ guitars, diffOnly = false, onRemove, bg =
                   <div role="row"><h3 role="columnheader" aria-colspan={n + 1} className="sticky left-0 w-max pb-3 pt-10 font-serif text-2xl text-bone">{group.title}</h3></div>
                 </Collapse>
               )}
-              {group.rows.map(({ row, same, diff, best, valueOf, displayOf, allowed }) => (
+              {group.rows.map(({ row, same, diff, incomplete, best, valueOf, displayOf, allowed }) => (
                 <Collapse key={row.key} hide={diffOnly && !diff}>
                   <div
                     role="row"
                     data-compare-row={row.key}
+                    data-compare-different={diff || undefined}
+                    data-compare-incomplete={incomplete || undefined}
                     className={cn('grid items-start gap-4 border-t border-line py-4 text-sm', diff && 'bg-white/[0.03]')}
                     style={{ gridTemplateColumns: columns }}
                   >
@@ -121,16 +123,16 @@ export default function CompareTable({ guitars, diffOnly = false, onRemove, bg =
                     {guitars.map((g) => {
                       const value = valueOf(g);
                       const isBest = best !== null && value === best;
-                      const note = diff && row.note && allowed(g) ? row.note(g, guitars.filter(allowed)) : null;
+                      const note = value != null && diff && row.note && allowed(g) ? row.note(g, guitars.filter((item) => allowed(item) && valueOf(item) != null)) : null;
                       return (
-                        <div key={g.id} role="cell" className={cn('comparison-value min-w-0 break-words font-mono text-[13px] leading-relaxed', diff ? 'text-bone' : 'text-secondary')}>
+                        <div key={g.id} role="cell" className={cn('comparison-value min-w-0 break-words font-mono text-[13px] leading-relaxed', value == null ? 'text-mute' : diff ? 'text-bone' : 'text-secondary')}>
                           {isBest && (
                             <span
                               title={t('cmp.bestTitle')}
                               className="mr-2 inline-block h-1.5 w-1.5 -translate-y-px rounded-full bg-gold align-middle"
                             />
                           )}
-                          {compact && value == null && allowed(g) ? (LANG === 'en' ? 'Unconfirmed' : 'ยังไม่ยืนยัน') : displayOf(g)}
+                          {displayOf(g)}
                           {note && <span className="comparison-value-note mt-1 block text-[13px] leading-relaxed text-mute">{note}</span>}
                         </div>
                       );

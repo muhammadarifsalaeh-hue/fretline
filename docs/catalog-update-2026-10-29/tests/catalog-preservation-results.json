@@ -1,0 +1,75 @@
+{
+  "baselineCommit": "edc293f",
+  "passed": true,
+  "passedChecks": 9,
+  "totalChecks": 9,
+  "checks": [
+    {
+      "name": "The exact 200 original IDs and their editorial order remain unchanged",
+      "passed": true
+    },
+    {
+      "name": "All ten original brands retain exactly twenty models",
+      "passed": true,
+      "evidence": {
+        "Fender": 20,
+        "Gibson": 20,
+        "Ibanez": 20,
+        "Yamaha": 20,
+        "PRS": 20,
+        "Epiphone": 20,
+        "Taylor": 20,
+        "Martin": 20,
+        "Córdoba": 20,
+        "Squier": 20
+      }
+    },
+    {
+      "name": "Names, categories, descriptions, colors, photos, tags, stable slugs and review/status fields are preserved",
+      "passed": true
+    },
+    {
+      "name": "Every pre-existing nonempty specification remains exactly unchanged",
+      "passed": true,
+      "evidence": {
+        "preservedSpecificationValues": 2144
+      }
+    },
+    {
+      "name": "Every original eighteen known prices and their primary source objects remain unchanged",
+      "passed": true
+    },
+    {
+      "name": "Exactly the nine independently verified Fender prices are newly exposed",
+      "passed": true
+    },
+    {
+      "name": "Exactly nine verified missing fields are added and every other specification including null remains unchanged",
+      "passed": true,
+      "evidence": {
+        "additions": [
+          "yamaha-fgx830c.bodyShape",
+          "yamaha-fgx830c.top",
+          "yamaha-fgx830c.back",
+          "yamaha-fgx830c.sides",
+          "yamaha-fgx830c.electronics",
+          "fender-player-ii-stratocaster.bodyShape",
+          "fender-player-ii-stratocaster.fingerboardRadiusMm",
+          "fender-player-ii-stratocaster.pickupConfiguration",
+          "fender-player-ii-stratocaster.nutWidthMm"
+        ]
+      }
+    },
+    {
+      "name": "New field evidence is recorded without rewriting original manufacturer URLs, dates or verification statuses",
+      "passed": true
+    },
+    {
+      "name": "All tracked Home, navigation, brand, Quiz, Practice, image/model assets and other protected source files are byte-identical",
+      "passed": true,
+      "evidence": {
+        "protectedTrackedFilesCompared": 329
+      }
+    }
+  ]
+}

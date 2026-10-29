@@ -1,5 +1,5 @@
 /** Presentation-only row filters. The catalog and comparison calculations are unchanged. */
-const main = new Set(['brand', 'model', 'type', 'price', 'body', 'neck', 'fretboard', 'pickups', 'bridge', 'frets', 'scale', 'strings', 'weight']);
+const main = new Set(['brand', 'model', 'type', 'price', 'bodyShape', 'body', 'top', 'back', 'sides', 'neck', 'fretboard', 'pickups', 'pickupConfiguration', 'electronics', 'bridge', 'frets', 'scale', 'strings', 'weight']);
 const sound = new Set(['pickups', 'controls', 'electronics', 'pickupConfiguration', 'bridgePickup', 'middlePickup', 'neckPickup', 'pickupSelector', 'connections']);
 const materials = new Set(['body', 'neck', 'fretboard', 'series', 'bodyShape', 'top', 'back', 'sides', 'bodyFinish', 'neckFinish', 'bracing', 'bodyBinding', 'soundholeInlay', 'pickguard']);
 const hardware = new Set(['bridge', 'tuners', 'nut', 'saddle', 'bridgePins', 'factoryStrings', 'accessories', 'case']);

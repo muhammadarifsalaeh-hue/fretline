@@ -1,0 +1,276 @@
+{
+  "passed": true,
+  "passedChecks": 38,
+  "totalChecks": 38,
+  "suites": [
+    {
+      "engine": "chromium",
+      "report": "browser-chromium/browser-results.json",
+      "passed": true,
+      "checks": 19,
+      "physicalIPadSafariTested": false
+    },
+    {
+      "engine": "webkit",
+      "report": "browser-webkit/browser-results.json",
+      "passed": true,
+      "checks": 19,
+      "physicalIPadSafariTested": false
+    }
+  ],
+  "checks": [
+    {
+      "name": "chromium-desktop-catalog",
+      "passed": true
+    },
+    {
+      "name": "chromium-desktop-detail",
+      "passed": true
+    },
+    {
+      "name": "chromium-desktop-compare-prices",
+      "passed": true
+    },
+    {
+      "name": "chromium-desktop-compare-materials",
+      "passed": true
+    },
+    {
+      "name": "chromium-all-200-ids-and-brand-counts",
+      "passed": true
+    },
+    {
+      "name": "chromium-actual-picker-share-selection",
+      "passed": true
+    },
+    {
+      "name": "chromium-home-brands-quiz-practice-wishlist",
+      "passed": true
+    },
+    {
+      "name": "chromium-landscape-catalog",
+      "passed": true
+    },
+    {
+      "name": "chromium-landscape-detail",
+      "passed": true
+    },
+    {
+      "name": "chromium-landscape-compare-prices",
+      "passed": true
+    },
+    {
+      "name": "chromium-landscape-compare-materials",
+      "passed": true
+    },
+    {
+      "name": "chromium-portrait-catalog",
+      "passed": true
+    },
+    {
+      "name": "chromium-portrait-detail",
+      "passed": true
+    },
+    {
+      "name": "chromium-portrait-compare-prices",
+      "passed": true
+    },
+    {
+      "name": "chromium-portrait-compare-materials",
+      "passed": true
+    },
+    {
+      "name": "chromium-mobile-catalog",
+      "passed": true
+    },
+    {
+      "name": "chromium-mobile-detail",
+      "passed": true
+    },
+    {
+      "name": "chromium-mobile-compare-prices",
+      "passed": true
+    },
+    {
+      "name": "chromium-mobile-compare-materials",
+      "passed": true
+    },
+    {
+      "name": "webkit-desktop-catalog",
+      "passed": true
+    },
+    {
+      "name": "webkit-desktop-detail",
+      "passed": true
+    },
+    {
+      "name": "webkit-desktop-compare-prices",
+      "passed": true
+    },
+    {
+      "name": "webkit-desktop-compare-materials",
+      "passed": true
+    },
+    {
+      "name": "webkit-all-200-ids-and-brand-counts",
+      "passed": true
+    },
+    {
+      "name": "webkit-actual-picker-share-selection",
+      "passed": true
+    },
+    {
+      "name": "webkit-home-brands-quiz-practice-wishlist",
+      "passed": true
+    },
+    {
+      "name": "webkit-landscape-catalog",
+      "passed": true
+    },
+    {
+      "name": "webkit-landscape-detail",
+      "passed": true
+    },
+    {
+      "name": "webkit-landscape-compare-prices",
+      "passed": true
+    },
+    {
+      "name": "webkit-landscape-compare-materials",
+      "passed": true
+    },
+    {
+      "name": "webkit-portrait-catalog",
+      "passed": true
+    },
+    {
+      "name": "webkit-portrait-detail",
+      "passed": true
+    },
+    {
+      "name": "webkit-portrait-compare-prices",
+      "passed": true
+    },
+    {
+      "name": "webkit-portrait-compare-materials",
+      "passed": true
+    },
+    {
+      "name": "webkit-mobile-catalog",
+      "passed": true
+    },
+    {
+      "name": "webkit-mobile-detail",
+      "passed": true
+    },
+    {
+      "name": "webkit-mobile-compare-prices",
+      "passed": true
+    },
+    {
+      "name": "webkit-mobile-compare-materials",
+      "passed": true
+    }
+  ],
+  "browserVersions": {
+    "chromium": "154.0.8037.57",
+    "webkit": "26.5"
+  },
+  "viewports": {
+    "desktop": [
+      1440,
+      1000
+    ],
+    "landscape": [
+      1194,
+      834
+    ],
+    "portrait": [
+      768,
+      1024
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "unexpectedEvents": {
+    "consoleErrors": 0,
+    "runtimeErrors": 0,
+    "networkErrors": 0,
+    "failedRequests": 0
+  },
+  "sourceAndBuildUnchangedDuringBothRuns": true,
+  "servedHTMLSHA256": "530349624ebd042cedf55c3a217f8017421195bc47027b0a9294486f51761d84",
+  "physicalIPadSafariTested": false,
+  "actualPractice3DNeckStatus": {
+    "chromium": "ready",
+    "webkit": "ready"
+  },
+  "counts": {
+    "stableModelIDsVisitedViaCatalogPagination": 200,
+    "brands": 10,
+    "modelsPerBrand": 20,
+    "knownPrices": 27,
+    "quoteOnlyPrices": 173,
+    "newPrices": 9,
+    "newSourcedSpecificationFields": 9
+  },
+  "screenshotCount": 12,
+  "screenshotManifest": "browser-screenshot-manifest.json",
+  "screenshots": [
+    {
+      "engine": "chromium",
+      "file": "browser-chromium/chromium-landscape-catalog-verified-prices.webp"
+    },
+    {
+      "engine": "chromium",
+      "file": "browser-chromium/chromium-landscape-detail-new-specs.webp"
+    },
+    {
+      "engine": "chromium",
+      "file": "browser-chromium/chromium-landscape-compare-prices.webp"
+    },
+    {
+      "engine": "chromium",
+      "file": "browser-chromium/chromium-portrait-detail-unknown-price.webp"
+    },
+    {
+      "engine": "chromium",
+      "file": "browser-chromium/chromium-portrait-compare-prices.webp"
+    },
+    {
+      "engine": "chromium",
+      "file": "browser-chromium/chromium-mobile-compare-materials.webp"
+    },
+    {
+      "engine": "webkit",
+      "file": "browser-webkit/webkit-landscape-catalog-verified-prices.webp"
+    },
+    {
+      "engine": "webkit",
+      "file": "browser-webkit/webkit-landscape-detail-new-specs.webp"
+    },
+    {
+      "engine": "webkit",
+      "file": "browser-webkit/webkit-landscape-compare-prices.webp"
+    },
+    {
+      "engine": "webkit",
+      "file": "browser-webkit/webkit-portrait-detail-unknown-price.webp"
+    },
+    {
+      "engine": "webkit",
+      "file": "browser-webkit/webkit-portrait-compare-prices.webp"
+    },
+    {
+      "engine": "webkit",
+      "file": "browser-webkit/webkit-mobile-compare-materials.webp"
+    }
+  ],
+  "limits": [
+    "Linux WebKit and synthetic touch are not a physical iPad Safari certification.",
+    "New prices legitimately change data-dependent recommendations; no scoring algorithm was modified and old recommendation fixture snapshots were not rewritten.",
+    "Budget slider lower bound zero is legitimate; zero-price assertions are restricted to product cards, detail prices and Compare price cells."
+  ]
+}

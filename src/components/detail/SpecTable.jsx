@@ -52,7 +52,7 @@ const GROUPS = [
           </ul>
         ),
       ],
-      [t('row.price'), (g) => <>{g.price == null && g.intake?.batch === 'yamaha-2026-10-26' ? unknown(g) : formatPrice(g.price)}<PriceSourceNote guitar={g} /></>],
+      [t('row.price'), (g) => <>{formatPrice(g.price)}<PriceSourceNote guitar={g} /></>],
     ],
   },
 ];

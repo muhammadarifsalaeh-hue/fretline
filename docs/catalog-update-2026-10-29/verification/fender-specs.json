@@ -1,0 +1,87 @@
+{
+  "id": "fender-player-ii-stratocaster",
+  "checkedOn": "2026-10-29",
+  "officialCandidate": {
+    "url": "https://www.fender.com/products/player-ii-stratocaster?variant=45947062911198",
+    "httpStatus": 403,
+    "responseSHA256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+    "verified": false,
+    "reason": "Manufacturer page returned HTTP 403; incoming manufacturer_specific_variant labels are not treated as independently verified evidence."
+  },
+  "accessibleSource": {
+    "url": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+    "httpStatus": 200,
+    "title": "Fender Player II Stratocaster กีตาร์ไฟฟ้า",
+    "responseSHA256": "fd6ee13ab5ef6cce5a7336e6baf2cb2f223c361ea09f00887fb13ea86a9270a6",
+    "sourceKind": "retailer-specifications"
+  },
+  "variantScopeEvidence": [
+    "9.5”-radius slab rosewood or maple fingerboard with smooth rolled edges and 22 medium jumbo frets.",
+    "Choose from alder, chambered ash or chambered mahogany bodies available in both classic Fender finishes and never-before-seen colors unearthed from the archives."
+  ],
+  "fields": {
+    "bodyShape": {
+      "incomingField": "body_shape",
+      "incomingValue": "Stratocaster solidbody",
+      "accepted": true,
+      "value": "Stratocaster",
+      "quote": "Body Shape Stratocaster®",
+      "normalization": "Remove trademark glyph for display. Do not import the extra word solidbody: no explicit Body Construction or solid-body statement was observed on the accessible table.",
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+      "sourceKind": "retailer-specifications",
+      "checkedOn": "2026-10-29",
+      "modelScope": "Standard Fender Player II Stratocaster SSS model; distinct from Player II Stratocaster HSS and Modified series. Retailer prose explicitly covers Maple or Rosewood fretboards and multiple body woods; these accepted fields do not select a finish, body wood or fretboard variant."
+    },
+    "pickupConfiguration": {
+      "incomingField": "pickup_configuration",
+      "incomingValue": "SSS",
+      "accepted": true,
+      "value": "SSS",
+      "quote": "Configuration SSS",
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+      "sourceKind": "retailer-specifications",
+      "checkedOn": "2026-10-29",
+      "modelScope": "Standard Fender Player II Stratocaster SSS model; distinct from Player II Stratocaster HSS and Modified series. Retailer prose explicitly covers Maple or Rosewood fretboards and multiple body woods; these accepted fields do not select a finish, body wood or fretboard variant."
+    },
+    "nutWidthMm": {
+      "incomingField": "nut_width_mm",
+      "incomingValue": 42,
+      "accepted": true,
+      "value": 42,
+      "quote": "Nut Width 1.650″ (42 mm)",
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+      "sourceKind": "retailer-specifications",
+      "checkedOn": "2026-10-29",
+      "modelScope": "Standard Fender Player II Stratocaster SSS model; distinct from Player II Stratocaster HSS and Modified series. Retailer prose explicitly covers Maple or Rosewood fretboards and multiple body woods; these accepted fields do not select a finish, body wood or fretboard variant."
+    },
+    "fingerboardRadiusMm": {
+      "incomingField": "fingerboard_radius_inches",
+      "incomingValue": 9.5,
+      "incomingUnit": "inches",
+      "accepted": true,
+      "value": 241,
+      "unit": "mm",
+      "quote": "Fingerboard Radius 9.5″ (241 mm)",
+      "conversionNote": "Incoming 9.5 inches × 25.4 = 241.3 mm mathematically. The accessible product table explicitly rounds its metric value to 241 mm; accepted canonical value uses the stated 241 mm, without asserting 0.1 mm manufacturing precision.",
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+      "sourceKind": "retailer-specifications",
+      "checkedOn": "2026-10-29",
+      "modelScope": "Standard Fender Player II Stratocaster SSS model; distinct from Player II Stratocaster HSS and Modified series. Retailer prose explicitly covers Maple or Rosewood fretboards and multiple body woods; these accepted fields do not select a finish, body wood or fretboard variant."
+    },
+    "strings": {
+      "incomingField": "strings",
+      "incomingValue": 6,
+      "accepted": false,
+      "value": null,
+      "quote": "Strings Fender® USA 250L Nickel Plated Steel (.009-.042 Gauges), PN 0730250403",
+      "reason": "No explicit Number of Strings, 6-string, six-string, จำนวนสาย or 6 สาย statement was found on this precise product page. A factory string-gauge range is not evidence of the count; photographs/pickup configuration are not used to infer it. Preserve an existing sourced count if one exists; otherwise leave unknown.",
+      "sourceURL": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+      "sourceKind": "retailer-specifications",
+      "checkedOn": "2026-10-29",
+      "modelScope": "Standard Fender Player II Stratocaster SSS model; distinct from Player II Stratocaster HSS and Modified series. Retailer prose explicitly covers Maple or Rosewood fretboards and multiple body woods; these accepted fields do not select a finish, body wood or fretboard variant."
+    }
+  },
+  "acceptedMissingFieldCount": 4,
+  "rejectedFieldCount": 1,
+  "preservationRule": "Fill missing accepted fields only. Keep existing sourced broader materials/fretboard/neck/pickups/bridge/scale/fret information unchanged. No finish-specific Maple, Alder, orientation or other variant restriction is approved by this audit."
+}

@@ -1,0 +1,76 @@
+PASS The exact 200 original IDs and their editorial order remain unchanged
+PASS All ten original brands retain exactly twenty models
+PASS Names, categories, descriptions, colors, photos, tags, stable slugs and review/status fields are preserved
+PASS Every pre-existing nonempty specification remains exactly unchanged
+PASS Every original eighteen known prices and their primary source objects remain unchanged
+PASS Exactly the nine independently verified Fender prices are newly exposed
+PASS Exactly nine verified missing fields are added and every other specification including null remains unchanged
+PASS New field evidence is recorded without rewriting original manufacturer URLs, dates or verification statuses
+PASS All tracked Home, navigation, brand, Quiz, Practice, image/model assets and other protected source files are byte-identical
+{
+  "baselineCommit": "edc293f",
+  "passed": true,
+  "passedChecks": 9,
+  "totalChecks": 9,
+  "metrics": {
+    "models": 200,
+    "priced": 27,
+    "priceOnRequest": 173,
+    "strictSpecsComplete": 0,
+    "typeAwareSpecsComplete": 0,
+    "fields": {
+      "bodyShape": {
+        "known": 20,
+        "missing": 180
+      },
+      "body": {
+        "known": 200,
+        "missing": 0
+      },
+      "top": {
+        "known": 19,
+        "missing": 181
+      },
+      "back": {
+        "known": 19,
+        "missing": 181
+      },
+      "sides": {
+        "known": 19,
+        "missing": 181
+      },
+      "neck": {
+        "known": 198,
+        "missing": 2
+      },
+      "fretboard": {
+        "known": 200,
+        "missing": 0
+      },
+      "strings": {
+        "known": 51,
+        "missing": 149
+      },
+      "frets": {
+        "known": 159,
+        "missing": 41
+      },
+      "scale": {
+        "known": 200,
+        "missing": 0
+      },
+      "pickups": {
+        "known": 199,
+        "missing": 1
+      },
+      "electronics": {
+        "known": 19,
+        "missing": 181
+      },
+      "bridge": {
+        "known": 200,
+        "missing": 0
+      }
+    }
+  }
+}

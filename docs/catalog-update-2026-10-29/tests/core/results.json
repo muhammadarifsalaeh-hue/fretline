@@ -1,0 +1,51 @@
+[
+  {
+    "command": "npm run build",
+    "exitCode": 0,
+    "durationSeconds": 4.56,
+    "log": "build.log",
+    "indexSHA256": "530349624ebd042cedf55c3a217f8017421195bc47027b0a9294486f51761d84"
+  },
+  {
+    "command": "npm run catalog:check",
+    "exitCode": 0,
+    "durationSeconds": 0.26,
+    "log": "catalog-check.log"
+  },
+  {
+    "command": "npm run images:check",
+    "exitCode": 0,
+    "durationSeconds": 0.24,
+    "log": "images-check.log"
+  },
+  {
+    "command": "npm run practice:check",
+    "exitCode": 0,
+    "durationSeconds": 0.23,
+    "log": "practice-check.log"
+  },
+  {
+    "command": "npm run phase4:check",
+    "exitCode": 0,
+    "durationSeconds": 1.17,
+    "log": "phase4-check.log"
+  },
+  {
+    "command": "node docs/catalog-update-2026-10-29/tests/check-compare-fields.mjs",
+    "exitCode": 0,
+    "durationSeconds": 1.44,
+    "log": "check-compare-fields.log"
+  },
+  {
+    "command": "node docs/catalog-update-2026-10-29/tests/check-public-prices.mjs",
+    "exitCode": 0,
+    "durationSeconds": 0.5,
+    "log": "check-public-prices.log"
+  },
+  {
+    "command": "node docs/catalog-update-2026-10-29/tests/importer.test.mjs",
+    "exitCode": 0,
+    "durationSeconds": 0.09,
+    "log": "importer.test.log"
+  }
+]

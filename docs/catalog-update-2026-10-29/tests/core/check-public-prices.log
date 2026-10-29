@@ -1,0 +1,7 @@
+PASS a verified THB retailer listing is displayed without requiring the old Yamaha import batch
+PASS missing, zero, negative, non-finite and string product prices become a quote request
+PASS unverified, foreign-currency and unsourced prices are not exposed
+PASS manufacturer RRP and retailer sale prices remain distinct
+PASS a legitimate zero budget boundary is retained while null product prices request a quote
+
+5/5 public price checks passed

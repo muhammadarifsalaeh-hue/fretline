@@ -1,0 +1,31 @@
+PASS Pure merge leaves its complete input objects unchanged
+PASS New THB price gets precise retailer/date/evidence without manufacturer promotion
+PASS Retailer evidence does not alter identities, category, descriptions, photos, colors or reviews
+PASS Incoming null, blank and zero prices cannot erase an existing source-backed price
+PASS An existing primary price/source wins even over a newer different valid quote
+PASS Zero, negative and nonnumeric new prices remain unknown, never become THB0
+PASS Unaccepted, non-THB, missing quote and HTTP403 price evidence are refused
+PASS Wrong model, mismatch amount and mismatched observed Offer are refused
+PASS Search URLs and retailer category pages cannot be precise primary price evidence
+PASS Invalid source dates are refused; verifiedOn aliases remain stored correctly
+PASS Unknown evidence IDs never create a product
+PASS Incoming duplicate, missing and replaced IDs abort rather than silently changing inventory
+PASS A matching ID cannot rename a brand or model
+PASS Only accepted missing specifications fill; raw editorial strings are never technical evidence
+PASS Narrower SKU woods and fretboard values never replace broader existing options
+PASS Null, blank and invalid numeric specifications cannot erase or fabricate existing values
+PASS A sourced fretless zero is a valid fact; numeric zero remains invalid for price/scale/strings
+PASS Existing fretless zero is retained when another source proposes frets
+PASS Unaccepted, unsupported and HTTP403 specifications are refused
+PASS Retailer specification evidence stays explicitly retailer-sourced, without verified status
+PASS Evidence adapters honor explicit rejected fields and canonical keys
+PASS Reviewed datastore wins over a duplicate phase7 backing row
+PASS Phase7-only records update in place without reordering or introducing a reviewed override
+PASS Applying an already-merged result is idempotent, including sources and field arrays
+PASS CSV reader handles BOM, quoted commas, escaped quotes and CRLF
+PASS Actual archive covers exactly original200 IDs,10 brands×20, and all JSON/CSV representations agree
+PASS Actual import plan is exactly nine verified new prices plus nine missing fields on ten models
+PASS Actual null prices keep all18 old prices, FG820-12 quote and broader manufacturer fields
+PASS Actual Thunderbird category and full200 inventory/order/status stay unchanged
+PASS Actual complete import is idempotent with zero repeated data changes
+30/30 importer checks passed

@@ -1,0 +1,174 @@
+{
+  "batch": "catalog-prices-2026-10-29",
+  "baselineCommit": "edc293f",
+  "changes": [],
+  "skipped": [
+    {
+      "id": "fender-player-ii-telecaster",
+      "field": "price",
+      "reason": "Existing primary price/source is preserved"
+    },
+    {
+      "id": "fender-player-ii-telecaster-hh",
+      "field": "price",
+      "reason": "Existing primary price/source is preserved"
+    },
+    {
+      "id": "fender-player-ii-stratocaster",
+      "field": "price",
+      "reason": "Existing primary price/source is preserved"
+    },
+    {
+      "id": "fender-player-ii-mustang",
+      "field": "price",
+      "reason": "Existing primary price/source is preserved"
+    },
+    {
+      "id": "fender-player-ii-stratocaster-hss",
+      "field": "price",
+      "reason": "Existing primary price/source is preserved"
+    },
+    {
+      "id": "fender-player-ii-jaguar",
+      "field": "price",
+      "reason": "Existing primary price/source is preserved"
+    },
+    {
+      "id": "fender-player-ii-modified-stratocaster-hss",
+      "field": "price",
+      "reason": "Existing primary price/source is preserved"
+    },
+    {
+      "id": "fender-player-ii-modified-stratocaster-hss-floyd-rose",
+      "field": "price",
+      "reason": "Existing primary price/source is preserved"
+    },
+    {
+      "id": "fender-player-ii-modified-telecaster",
+      "field": "price",
+      "reason": "Existing primary price/source is preserved"
+    },
+    {
+      "id": "yamaha-fgx830c",
+      "field": "specs.bodyShape",
+      "reason": "Existing nonempty specification is preserved"
+    },
+    {
+      "id": "yamaha-fgx830c",
+      "field": "specs.top",
+      "reason": "Existing nonempty specification is preserved"
+    },
+    {
+      "id": "yamaha-fgx830c",
+      "field": "specs.back",
+      "reason": "Existing nonempty specification is preserved"
+    },
+    {
+      "id": "yamaha-fgx830c",
+      "field": "specs.sides",
+      "reason": "Existing nonempty specification is preserved"
+    },
+    {
+      "id": "yamaha-fgx830c",
+      "field": "specs.electronics",
+      "reason": "Existing nonempty specification is preserved"
+    },
+    {
+      "id": "fender-player-ii-stratocaster",
+      "field": "specs.bodyShape",
+      "reason": "Existing nonempty specification is preserved"
+    },
+    {
+      "id": "fender-player-ii-stratocaster",
+      "field": "specs.pickupConfiguration",
+      "reason": "Existing nonempty specification is preserved"
+    },
+    {
+      "id": "fender-player-ii-stratocaster",
+      "field": "specs.nutWidthMm",
+      "reason": "Existing nonempty specification is preserved"
+    },
+    {
+      "id": "fender-player-ii-stratocaster",
+      "field": "specs.fingerboardRadiusMm",
+      "reason": "Existing nonempty specification is preserved"
+    },
+    {
+      "id": "fender-player-ii-stratocaster",
+      "field": "specs.strings",
+      "reason": "Missing, invalid, unsupported or unverified field evidence"
+    }
+  ],
+  "categoryConflicts": [
+    {
+      "id": "epiphone-thunderbird-64-with-rosewood-fretboard",
+      "incoming": "electric",
+      "preserved": "bass"
+    }
+  ],
+  "priceConflicts": [
+    {
+      "id": "yamaha-fg820-12",
+      "incoming": 18200,
+      "preserved": 16500,
+      "sourceURL": "https://www.musiclifethailand.com/category/167784",
+      "reason": "Existing source-backed primary price is retained; a different retailer amount is not silently substituted."
+    }
+  ],
+  "policy": "Only verified missing fields are filled; identities, existing nonempty values, primary manufacturer evidence, statuses, descriptions and images are preserved.",
+  "pricedModelsBefore": 27,
+  "changedModelIDs": [],
+  "changedModels": 0,
+  "newPrices": 0,
+  "newSpecificationFields": 0,
+  "pricedModelsAfter": 27,
+  "preservedExistingPriceDespiteIncomingNull": [
+    "yamaha-pacifica-612viifm",
+    "yamaha-fg800",
+    "yamaha-fs850",
+    "yamaha-fs830",
+    "yamaha-fs820",
+    "yamaha-fgx820c",
+    "yamaha-fgx800c",
+    "yamaha-fsx830c",
+    "yamaha-fsx820c",
+    "yamaha-fsx800c"
+  ],
+  "mode": "dry-run",
+  "intakeCheck": {
+    "models": 200,
+    "brands": {
+      "Yamaha": 20,
+      "Fender": 20,
+      "Epiphone": 20,
+      "Ibanez": 20,
+      "Taylor": 20,
+      "Córdoba": 20,
+      "Gibson": 20,
+      "Martin": 20,
+      "PRS": 20,
+      "Squier": 20
+    }
+  },
+  "archiveRepresentations": {
+    "perBrandJSONFiles": 10,
+    "priceCSVFiles": 10,
+    "aggregateMatches": true
+  },
+  "dataFiles": [
+    {
+      "path": "src/data/catalog/reviewedGuitars.json",
+      "beforeSHA256": "0f88b83636c56ab7de9709b0cb784214fa51f56165c97c63226f587a2c97b905",
+      "plannedSHA256": "0f88b83636c56ab7de9709b0cb784214fa51f56165c97c63226f587a2c97b905",
+      "changed": false,
+      "written": false
+    },
+    {
+      "path": "src/data/catalog/phase7Guitars.json",
+      "beforeSHA256": "467a22a1a2a9bb2badabcad4c543f16e937d75db25db81d60a60a6e2311e6274",
+      "plannedSHA256": "467a22a1a2a9bb2badabcad4c543f16e937d75db25db81d60a60a6e2311e6274",
+      "changed": false,
+      "written": false
+    }
+  ]
+}
