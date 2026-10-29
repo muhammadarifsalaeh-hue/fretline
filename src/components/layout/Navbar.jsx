@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { NAV_LINKS } from '@/data/navigation';
 import { useShop } from '@/context/ShopContext';
+import { useAdminAccess } from '@/context/AdminAccessContext';
 import useScrolled from '@/hooks/useScrolled';
 import { t } from '@/i18n';
 import { cn } from '@/utils/cn';
@@ -18,6 +19,8 @@ export default function Navbar() {
   const handleSearch = useSearchNavigation();
   const scrolled = useScrolled(24);
   const { wishlist, compare } = useShop();
+  const isAdmin = useAdminAccess();
+  const links = isAdmin ? [...NAV_LINKS, { label: 'Admin Studio', href: '/admin' }] : NAV_LINKS;
   const { pathname } = useLocation();
   const [mega, setMega] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -69,6 +72,7 @@ export default function Navbar() {
         style={{ zIndex: 'var(--fl-layer-navigation, 50)' }}
         className={cn(
           'site-header fixed inset-x-0 top-0 border-b transition-[background-color,border-color,backdrop-filter] duration-300 ease-premium motion-reduce:transition-none',
+          isAdmin && 'site-header--admin',
           solid ? 'border-line bg-ink/80 backdrop-blur-xl' : 'border-transparent bg-transparent',
         )}
       >
@@ -76,7 +80,7 @@ export default function Navbar() {
           <Logo />
 
           <nav aria-label={t('nav.main')} className="site-nav hidden items-center gap-5 lg:flex">
-            {NAV_LINKS.map((link) => (
+            {links.map((link) => (
               <div key={link.href} className="site-nav-item flex items-center gap-0.5">
                 <AppLink href={link.href} className="nav-link nav-link-content inline-flex min-h-11 items-center"
                   aria-current={isActive(link) ? 'page' : undefined}
@@ -114,7 +118,7 @@ export default function Navbar() {
         <MegaMenu open={mega} onClose={() => setMega(false)} />
       </header>
 
-      <MobileMenu open={mobileOpen} onClose={closeMobile} />
+      <MobileMenu open={mobileOpen} onClose={closeMobile} isAdmin={isAdmin} />
     </>
   );
 }

@@ -32,8 +32,12 @@ export function installPublishedCatalog(rows, signed) {
 export async function hydratePublishedCatalog() {
   if (!remoteCatalogEnabled()) return;
   const client=await getSupabase();
-  const {data,error}=await client.rpc('get_published_catalog').abortSignal(AbortSignal.timeout(20000));
-  if (error || !data?.ready) throw new Error('ยังโหลด Catalog ไม่สำเร็จ กรุณาลองอีกครั้ง');
-  const images=await signedImages(client,data.guitars);
-  installPublishedCatalog(data.guitars,images);
+  const controller=new AbortController();
+  const timer=setTimeout(()=>controller.abort(),20000);
+  try {
+    const {data,error}=await client.rpc('get_published_catalog').abortSignal(controller.signal);
+    if (error || data?.ready!==true || !Array.isArray(data.guitars)) throw new Error('ยังโหลด Catalog ไม่สำเร็จ กรุณาลองอีกครั้ง');
+    const images=await signedImages(client,data.guitars);
+    installPublishedCatalog(data.guitars,images);
+  } finally { clearTimeout(timer); }
 }

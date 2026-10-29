@@ -1,0 +1,440 @@
+{
+  "scope": "production builds on local Vercel-rule emulator; Supabase Auth/catalog HTTP fixtures only",
+  "realSupabaseTested": false,
+  "realVercelTested": false,
+  "physicalIPadTested": false,
+  "databaseChanged": false,
+  "checks": [
+    {
+      "name": "chromium-desktop-anonymous-and-spa-admin",
+      "passed": true,
+      "evidence": {
+        "deepLinkStatus": 200,
+        "adminMenuForAnonymous": false
+      }
+    },
+    {
+      "name": "chromium-desktop-verified-admin-and-logout",
+      "passed": true,
+      "evidence": {
+        "getUserVerified": true,
+        "membershipVerified": true,
+        "nonAdminDenied": true,
+        "revokedRoleHidden": true,
+        "logoutHidden": true
+      }
+    },
+    {
+      "name": "chromium-desktop-published-catalog-and-existing-features",
+      "passed": true,
+      "evidence": {
+        "publishedFixtureCount": 200,
+        "brands": 10,
+        "search": true,
+        "brand": true,
+        "detail": true,
+        "compareFour": true,
+        "quiz": true,
+        "practice": true
+      }
+    },
+    {
+      "name": "chromium-desktop-qr-download-and-independent-decode",
+      "passed": true,
+      "evidence": {
+        "downloadDecoded": true,
+        "url": "fixture production URL only; not a deployed site",
+        "dimensions": [
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "name": "chromium-landscape-anonymous-and-spa-admin",
+      "passed": true,
+      "evidence": {
+        "deepLinkStatus": 200,
+        "adminMenuForAnonymous": false
+      }
+    },
+    {
+      "name": "chromium-landscape-verified-admin-and-logout",
+      "passed": true,
+      "evidence": {
+        "getUserVerified": true,
+        "membershipVerified": true,
+        "nonAdminDenied": true,
+        "revokedRoleHidden": true,
+        "logoutHidden": true
+      }
+    },
+    {
+      "name": "chromium-landscape-published-catalog-and-existing-features",
+      "passed": true,
+      "evidence": {
+        "publishedFixtureCount": 200,
+        "brands": 10,
+        "search": true,
+        "brand": true,
+        "detail": true,
+        "compareFour": true,
+        "quiz": true,
+        "practice": true
+      }
+    },
+    {
+      "name": "chromium-landscape-qr-download-and-independent-decode",
+      "passed": true,
+      "evidence": {
+        "downloadDecoded": true,
+        "url": "fixture production URL only; not a deployed site",
+        "dimensions": [
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "name": "chromium-portrait-anonymous-and-spa-admin",
+      "passed": true,
+      "evidence": {
+        "deepLinkStatus": 200,
+        "adminMenuForAnonymous": false
+      }
+    },
+    {
+      "name": "chromium-portrait-verified-admin-and-logout",
+      "passed": true,
+      "evidence": {
+        "getUserVerified": true,
+        "membershipVerified": true,
+        "nonAdminDenied": true,
+        "revokedRoleHidden": true,
+        "logoutHidden": true
+      }
+    },
+    {
+      "name": "chromium-portrait-published-catalog-and-existing-features",
+      "passed": true,
+      "evidence": {
+        "publishedFixtureCount": 200,
+        "brands": 10,
+        "search": true,
+        "brand": true,
+        "detail": true,
+        "compareFour": true,
+        "quiz": true,
+        "practice": true
+      }
+    },
+    {
+      "name": "chromium-portrait-qr-download-and-independent-decode",
+      "passed": true,
+      "evidence": {
+        "downloadDecoded": true,
+        "url": "fixture production URL only; not a deployed site",
+        "dimensions": [
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "name": "chromium-portrait-published-refresh",
+      "passed": true,
+      "evidence": "Refresh consumes changed Published HTTP fixture; no database write"
+    },
+    {
+      "name": "chromium-mobile-anonymous-and-spa-admin",
+      "passed": true,
+      "evidence": {
+        "deepLinkStatus": 200,
+        "adminMenuForAnonymous": false
+      }
+    },
+    {
+      "name": "chromium-mobile-verified-admin-and-logout",
+      "passed": true,
+      "evidence": {
+        "getUserVerified": true,
+        "membershipVerified": true,
+        "nonAdminDenied": true,
+        "revokedRoleHidden": true,
+        "logoutHidden": true
+      }
+    },
+    {
+      "name": "chromium-mobile-published-catalog-and-existing-features",
+      "passed": true,
+      "evidence": {
+        "publishedFixtureCount": 200,
+        "brands": 10,
+        "search": true,
+        "brand": true,
+        "detail": true,
+        "compareFour": true,
+        "quiz": true,
+        "practice": true
+      }
+    },
+    {
+      "name": "chromium-mobile-qr-download-and-independent-decode",
+      "passed": true,
+      "evidence": {
+        "downloadDecoded": true,
+        "url": "fixture production URL only; not a deployed site",
+        "dimensions": [
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "name": "chromium-catalog-outage-and-recovery-routes",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "chromium-unconfigured-qr-stays-unavailable",
+      "passed": true,
+      "evidence": "No production URL configured: no QR from localhost/Codespaces"
+    },
+    {
+      "name": "webkit-desktop-anonymous-and-spa-admin",
+      "passed": true,
+      "evidence": {
+        "deepLinkStatus": 200,
+        "adminMenuForAnonymous": false
+      }
+    },
+    {
+      "name": "webkit-desktop-verified-admin-and-logout",
+      "passed": true,
+      "evidence": {
+        "getUserVerified": true,
+        "membershipVerified": true,
+        "nonAdminDenied": true,
+        "revokedRoleHidden": true,
+        "logoutHidden": true
+      }
+    },
+    {
+      "name": "webkit-desktop-published-catalog-and-existing-features",
+      "passed": true,
+      "evidence": {
+        "publishedFixtureCount": 200,
+        "brands": 10,
+        "search": true,
+        "brand": true,
+        "detail": true,
+        "compareFour": true,
+        "quiz": true,
+        "practice": true
+      }
+    },
+    {
+      "name": "webkit-desktop-qr-download-and-independent-decode",
+      "passed": true,
+      "evidence": {
+        "downloadDecoded": true,
+        "url": "fixture production URL only; not a deployed site",
+        "dimensions": [
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "name": "webkit-landscape-anonymous-and-spa-admin",
+      "passed": true,
+      "evidence": {
+        "deepLinkStatus": 200,
+        "adminMenuForAnonymous": false
+      }
+    },
+    {
+      "name": "webkit-landscape-verified-admin-and-logout",
+      "passed": true,
+      "evidence": {
+        "getUserVerified": true,
+        "membershipVerified": true,
+        "nonAdminDenied": true,
+        "revokedRoleHidden": true,
+        "logoutHidden": true
+      }
+    },
+    {
+      "name": "webkit-landscape-published-catalog-and-existing-features",
+      "passed": true,
+      "evidence": {
+        "publishedFixtureCount": 200,
+        "brands": 10,
+        "search": true,
+        "brand": true,
+        "detail": true,
+        "compareFour": true,
+        "quiz": true,
+        "practice": true
+      }
+    },
+    {
+      "name": "webkit-landscape-qr-download-and-independent-decode",
+      "passed": true,
+      "evidence": {
+        "downloadDecoded": true,
+        "url": "fixture production URL only; not a deployed site",
+        "dimensions": [
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "name": "webkit-portrait-anonymous-and-spa-admin",
+      "passed": true,
+      "evidence": {
+        "deepLinkStatus": 200,
+        "adminMenuForAnonymous": false
+      }
+    },
+    {
+      "name": "webkit-portrait-verified-admin-and-logout",
+      "passed": true,
+      "evidence": {
+        "getUserVerified": true,
+        "membershipVerified": true,
+        "nonAdminDenied": true,
+        "revokedRoleHidden": true,
+        "logoutHidden": true
+      }
+    },
+    {
+      "name": "webkit-portrait-published-catalog-and-existing-features",
+      "passed": true,
+      "evidence": {
+        "publishedFixtureCount": 200,
+        "brands": 10,
+        "search": true,
+        "brand": true,
+        "detail": true,
+        "compareFour": true,
+        "quiz": true,
+        "practice": true
+      }
+    },
+    {
+      "name": "webkit-portrait-qr-download-and-independent-decode",
+      "passed": true,
+      "evidence": {
+        "downloadDecoded": true,
+        "url": "fixture production URL only; not a deployed site",
+        "dimensions": [
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "name": "webkit-portrait-published-refresh",
+      "passed": true,
+      "evidence": "Refresh consumes changed Published HTTP fixture; no database write"
+    },
+    {
+      "name": "webkit-mobile-anonymous-and-spa-admin",
+      "passed": true,
+      "evidence": {
+        "deepLinkStatus": 200,
+        "adminMenuForAnonymous": false
+      }
+    },
+    {
+      "name": "webkit-mobile-verified-admin-and-logout",
+      "passed": true,
+      "evidence": {
+        "getUserVerified": true,
+        "membershipVerified": true,
+        "nonAdminDenied": true,
+        "revokedRoleHidden": true,
+        "logoutHidden": true
+      }
+    },
+    {
+      "name": "webkit-mobile-published-catalog-and-existing-features",
+      "passed": true,
+      "evidence": {
+        "publishedFixtureCount": 200,
+        "brands": 10,
+        "search": true,
+        "brand": true,
+        "detail": true,
+        "compareFour": true,
+        "quiz": true,
+        "practice": true
+      }
+    },
+    {
+      "name": "webkit-mobile-qr-download-and-independent-decode",
+      "passed": true,
+      "evidence": {
+        "downloadDecoded": true,
+        "url": "fixture production URL only; not a deployed site",
+        "dimensions": [
+          1024,
+          1024
+        ]
+      }
+    },
+    {
+      "name": "webkit-catalog-outage-and-recovery-routes",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "webkit-unconfigured-qr-stays-unavailable",
+      "passed": true,
+      "evidence": "No production URL configured: no QR from localhost/Codespaces"
+    },
+    {
+      "name": "http-spa-/admin",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "http-spa-/qr",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "http-spa-/brands/fender",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "http-spa-/guitars/yamaha-pacifica-612viifm",
+      "passed": true,
+      "evidence": null
+    }
+  ],
+  "runtimeErrors": [],
+  "consoleErrors": [],
+  "screenshots": [
+    "chromium-desktop-admin-menu.png",
+    "chromium-desktop-fixture-qr.png",
+    "chromium-landscape-admin-menu.png",
+    "chromium-landscape-fixture-qr.png",
+    "chromium-portrait-admin-menu.png",
+    "chromium-portrait-fixture-qr.png",
+    "chromium-mobile-admin-menu.png",
+    "chromium-mobile-fixture-qr.png",
+    "webkit-desktop-admin-menu.png",
+    "webkit-desktop-fixture-qr.png",
+    "webkit-landscape-admin-menu.png",
+    "webkit-landscape-fixture-qr.png",
+    "webkit-portrait-admin-menu.png",
+    "webkit-portrait-fixture-qr.png",
+    "webkit-mobile-admin-menu.png",
+    "webkit-mobile-fixture-qr.png"
+  ],
+  "passed": true
+}

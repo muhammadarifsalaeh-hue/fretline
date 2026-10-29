@@ -1,11 +1,15 @@
-import { defineConfig } from 'vite';
+import { defineConfig, loadEnv } from 'vite';
+import { publicCredentialProblems } from './scripts/lib/deployment.mjs';
 import react from '@vitejs/plugin-react';
 import { fileURLToPath, URL } from 'node:url';
 import { developmentImagePreview } from './scripts/vite/developmentImagePreview.mjs';
 import { practiceSceneModule } from './scripts/vite/practiceSceneModule.mjs';
 import { yamahaImportPreview } from './scripts/vite/yamahaImportPreview.mjs';
 
-export default defineConfig(({ command, mode }) => ({
+export default defineConfig(({ command, mode }) => {
+  const problems = publicCredentialProblems({ ...loadEnv(mode, process.cwd(), ''), ...process.env });
+  if (problems.length) throw new Error('Private credentials must not be exposed through VITE_ variables. Remove them before building or serving.');
+  return ({
   plugins: [react(), practiceSceneModule(), developmentImagePreview({
     enabled: command === 'serve' && mode === 'pacifica-preview',
     root: fileURLToPath(new URL('.', import.meta.url)),
@@ -34,4 +38,5 @@ export default defineConfig(({ command, mode }) => ({
       },
     },
   },
-}));
+});
+});

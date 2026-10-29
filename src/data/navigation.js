@@ -35,6 +35,7 @@ export const FOOTER_COLUMNS = [
       { label: t('nav.compare'), href: '/compare' },
       { label: t('nav.wishlist'), href: '/wishlist' },
       { label: t('nav.find'), href: '/find-my-guitar' },
+      { label: 'QR Code', href: '/qr' },
     ],
   },
 ];

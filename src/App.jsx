@@ -1,7 +1,9 @@
 import { lazy } from 'react';
 import DiscoveryRoute from '@/components/ui/DiscoveryRoute';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
+import CatalogUnavailable from '@/components/ui/CatalogUnavailable';
 import { ShopProvider } from '@/context/ShopContext';
+import { AdminAccessProvider } from '@/context/AdminAccessContext';
 import BottomBar from '@/components/layout/BottomBar';
 import CompareBar from '@/components/layout/CompareBar';
 import Footer from '@/components/layout/Footer';
@@ -23,17 +25,20 @@ const CatalogPage = lazy(() => import('@/pages/CatalogPage'));
 const GuitarDetailPage = lazy(() => import('@/pages/GuitarDetailPage'));
 const PracticePage = lazy(() => import('@/pages/PracticePage'));
 const AdminStudioPage = lazy(() => import('@/pages/AdminStudioPage'));
+const QRCodePage = lazy(() => import('@/pages/QRCodePage'));
 
-export default function App() {
+export default function App({ catalogUnavailable = false }) {
+  const { pathname } = useLocation();
+  const recoveryRoute = ['/admin', '/qr'].includes(pathname.replace(/\/$/, ''));
   return (
-    <ShopProvider>
+    <AdminAccessProvider><ShopProvider>
       <a href="#main-content" className="skip-link">{t('a11y.skip')}</a>
       <ScrollManager />
       <Navbar />
       {/* pb ด้านล่างเว้นที่ให้ BottomBar บนมือถือ */}
       <div className="app-content">
         <main id="main-content" tabIndex={-1}>
-          <Routes>
+          {catalogUnavailable && !recoveryRoute ? <CatalogUnavailable /> : <Routes>
             <Route path="/" element={<DiscoveryRoute><HomePage /></DiscoveryRoute>} />
             <Route path="/guitars" element={<DiscoveryRoute><CatalogPage /></DiscoveryRoute>} />
             <Route path="/brands" element={<DiscoveryRoute><BrandsPage /></DiscoveryRoute>} />
@@ -44,15 +49,16 @@ export default function App() {
             <Route path="/find-my-guitar" element={<DiscoveryRoute><FindMyGuitarPage /></DiscoveryRoute>} />
             <Route path="/practice" element={<DiscoveryRoute><PracticePage /></DiscoveryRoute>} />
             <Route path="/admin" element={<DiscoveryRoute><AdminStudioPage /></DiscoveryRoute>} />
+            <Route path="/qr" element={<DiscoveryRoute><QRCodePage /></DiscoveryRoute>} />
             <Route path="/guitars/:slug" element={<DiscoveryRoute><GuitarDetailPage /></DiscoveryRoute>} />
             <Route path="*" element={<NotFoundPage />} />
-          </Routes>
+          </Routes>}
         </main>
         <Footer />
       </div>
       <CompareBar />
       <BottomBar />
       <Toast />
-    </ShopProvider>
+    </ShopProvider></AdminAccessProvider>
   );
 }

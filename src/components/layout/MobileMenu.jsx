@@ -10,7 +10,7 @@ import IconButton from './IconButton';
 import Logo from './Logo';
 
 /** เมนูเต็มจอสำหรับ Mobile/Tablet พร้อม focus management */
-export default function MobileMenu({ open, onClose }) {
+export default function MobileMenu({ open, onClose, isAdmin = false }) {
   const dialogRef = useRef(null);
   const { pathname } = useLocation();
   useDialogFocus(dialogRef, open, onClose);
@@ -38,7 +38,7 @@ export default function MobileMenu({ open, onClose }) {
       </div>
 
       <nav aria-label={t('nav.main')} className="container-x flex min-h-0 flex-1 flex-col justify-center gap-1 overflow-y-auto">
-        {NAV_LINKS.map((link) => (
+        {(isAdmin ? [...NAV_LINKS, { label: 'Admin Studio', href: '/admin' }] : NAV_LINKS).map((link) => (
           <AppLink
             key={link.label}
             href={link.href}

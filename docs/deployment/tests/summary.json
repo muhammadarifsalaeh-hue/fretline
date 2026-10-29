@@ -1,0 +1,69 @@
+{
+  "branch": "feature/fretline-admin-studio",
+  "baseCommit": "894522a",
+  "mergeToMaster": false,
+  "productionDeployed": false,
+  "productionURL": null,
+  "hostedSupabaseVerified": false,
+  "setupSQLExecuted": false,
+  "databaseChanged": false,
+  "missingConfiguration": [
+    "VITE_SUPABASE_URL",
+    "VITE_SUPABASE_PUBLISHABLE_KEY",
+    "VITE_CATALOG_SOURCE=supabase",
+    "VITE_SITE_URL (after real production deployment)"
+  ],
+  "build": {
+    "normal": "passed",
+    "vercelWithExplicitPublicHTTPFixture": "passed",
+    "configuredProductionBuild": "not run: real public settings unavailable",
+    "warning": "existing 709 kB Three.js chunk"
+  },
+  "tests": {
+    "deploymentSecurityUnit": 7,
+    "adminDataUnit": 9,
+    "catalog": "200 unique models, 10 brands x 20; 27 sourced prices; 173 quote; zero zero-prices",
+    "quizAndCompareLogic": 19,
+    "practiceDataGeometry": 56,
+    "setupApprovalSafeguardsOffline": 13,
+    "browser": {
+      "passed": 42,
+      "total": 42,
+      "engines": [
+        "Chromium",
+        "WebKit"
+      ],
+      "viewports": {
+        "desktop": [
+          1440,
+          1000
+        ],
+        "ipadLandscape": [
+          1194,
+          834
+        ],
+        "ipadPortrait": [
+          768,
+          1024
+        ],
+        "mobile": [
+          390,
+          844
+        ]
+      },
+      "consoleErrors": 0,
+      "runtimeErrors": 0,
+      "qrDownloadedAndDecoded": true,
+      "physicalIPadTested": false,
+      "supabase": "HTTP contract fixtures, no real database",
+      "routing": "local Vercel-rule emulator, not hosted Vercel"
+    }
+  },
+  "preservation": {
+    "checkedFiles": 138,
+    "changedProtectedFiles": [],
+    "setupSQLSHA256": "b824dfb085f5371d013b8168bf5b5fbd6e9b70e1672c65415980de8ba7bdda96"
+  },
+  "deploymentCheckWithoutSettings": "Expected blocked before network; no credentials printed",
+  "screenshots": "docs/deployment/tests/*-admin-menu.png; *-fixture-qr.png (test URL only)"
+}
