@@ -1,0 +1,20 @@
+{
+  "baselineCommit": "27f5209",
+  "protectedFiles": 277,
+  "unexpectedChanges": [],
+  "originalDataAndImagesPreserved": true,
+  "products": 200,
+  "brands": 10,
+  "priced": 27,
+  "priceOnRequest": 173,
+  "hostedSupabaseConnected": false,
+  "hostedSupabaseImportedProducts": null,
+  "allowedExistingSourceChanges": [
+    "src/data/additionalSpecifications.js",
+    "src/i18n/en.js",
+    "src/i18n/th.js",
+    "src/main.jsx",
+    "src/pages/AdminStudioPage.jsx",
+    "src/styles/admin-studio.css"
+  ]
+}

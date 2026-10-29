@@ -25,6 +25,7 @@ export default defineConfig(({ command, mode }) => ({
       output: {
         // Cache catalog facts separately from the UI and framework as data grows.
         manualChunks(id) {
+          if (id.includes('/node_modules/@supabase/')) return 'supabase-sdk';
           // Keep the WebGL engine out of the shared framework/Home bundle.
           if (id.includes('/node_modules/three/') || id.includes('/src/features/practice/scene/')) return 'practice-three';
           if (id.includes('/node_modules/')) return 'vendor';

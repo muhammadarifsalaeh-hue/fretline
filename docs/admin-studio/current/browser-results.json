@@ -1,0 +1,105 @@
+{
+  "scope": "actual browser + local real PostgreSQL/PostgREST; Auth/Storage HTTP use fixtures",
+  "hostedSupabaseTested": false,
+  "physicalIPadTested": false,
+  "checks": [
+    {
+      "name": "chromium-login-logout-and-nonadmin-guard",
+      "passed": true
+    },
+    {
+      "name": "chromium-draft-price-spec-two-images-cover-publish-real-sql",
+      "passed": true
+    },
+    {
+      "name": "chromium-four-responsive-sizes",
+      "passed": true
+    },
+    {
+      "name": "chromium-published-refresh-catalog-detail-compare-new-id",
+      "passed": true
+    },
+    {
+      "name": "chromium-remove-draft-image-keeps-published-then-purge-unused",
+      "passed": true
+    },
+    {
+      "name": "chromium-draft-isolation-and-hide-public",
+      "passed": true
+    },
+    {
+      "name": "webkit-login-logout-and-nonadmin-guard",
+      "passed": true
+    },
+    {
+      "name": "webkit-draft-price-spec-two-images-cover-publish-real-sql",
+      "passed": true
+    },
+    {
+      "name": "webkit-four-responsive-sizes",
+      "passed": true
+    },
+    {
+      "name": "webkit-published-refresh-catalog-detail-compare-new-id",
+      "passed": true
+    },
+    {
+      "name": "webkit-remove-draft-image-keeps-published-then-purge-unused",
+      "passed": true
+    },
+    {
+      "name": "webkit-draft-isolation-and-hide-public",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "uploads": [
+    {
+      "path": "qa-browser-chromium/d81f7b03-2ab1-4dfb-b00e-4cd51f28a79f.webp",
+      "size": 4420,
+      "dimensions": [
+        1800,
+        1200
+      ],
+      "format": "WEBP"
+    },
+    {
+      "path": "qa-browser-chromium/8055035d-5550-4f99-8bee-1dc46293420b.webp",
+      "size": 4420,
+      "dimensions": [
+        1800,
+        1200
+      ],
+      "format": "WEBP"
+    },
+    {
+      "path": "qa-browser-webkit/dccf9812-1d26-4df8-a70a-325b88f64bcb.webp",
+      "size": 4420,
+      "dimensions": [
+        1800,
+        1200
+      ],
+      "format": "WEBP"
+    },
+    {
+      "path": "qa-browser-webkit/9b5b84a5-816c-4dc9-b4c1-d5d5549c00d9.webp",
+      "size": 4420,
+      "dimensions": [
+        1800,
+        1200
+      ],
+      "format": "WEBP"
+    }
+  ],
+  "screenshots": [
+    "chromium-admin-images-desktop.png",
+    "chromium-admin-images-landscape.png",
+    "chromium-admin-images-portrait.png",
+    "chromium-admin-images-mobile.png",
+    "webkit-admin-images-desktop.png",
+    "webkit-admin-images-landscape.png",
+    "webkit-admin-images-portrait.png",
+    "webkit-admin-images-mobile.png"
+  ],
+  "passed": true
+}

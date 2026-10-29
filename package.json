@@ -13,6 +13,8 @@
     "practice:check": "node scripts/check-practice.mjs",
     "catalog:check": "node scripts/validate-catalog.mjs",
     "catalog:import": "node scripts/import-csv.mjs",
+    "admin:seed": "node scripts/build-admin-seed.mjs",
+    "admin:check": "node scripts/check-admin.mjs",
     "phase4:check": "node scripts/check-phase4.mjs",
     "phase5:check": "node scripts/check-phase5.mjs",
     "phase6:check": "node scripts/check-phase6.mjs",
@@ -21,6 +23,7 @@
     "phase9:check": "node scripts/check-phase9.mjs"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",

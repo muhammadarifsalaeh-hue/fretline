@@ -1,5 +1,7 @@
 # Fretline Admin Studio — Phase 0–1 และจุดรอตั้งค่า Supabase
 
+> เอกสารนี้เป็นสถานะ Phase 0–1 เดิม ดู [งาน Admin Studio รอบปัจจุบันและขั้นตอนตั้งค่า](current/README.md) สำหรับโค้ดที่พัฒนาต่อแล้วและผลทดสอบล่าสุด
+
 ## สถานะที่ยืนยันได้
 
 - งาน Catalog ก่อนหน้า Commit `a620d5e31948cd9ea063ad188a314d8c4e092d16` ถูก Push แล้วจริง: SHA บน `origin/feature/catalog-prices-2026-10-29` ตรงกับเครื่องนี้

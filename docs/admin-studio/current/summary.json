@@ -1,0 +1,24 @@
+{
+  "branch": "feature/fretline-admin-studio",
+  "baselineCommit": "27f5209",
+  "buildPassed": true,
+  "buildIndexSHA256": "4a4b1e78b027df8205b78a4790d332bd3c706f1ca1464c4667c35c9ff710c4f1",
+  "databaseChecks": 37,
+  "adminUnitChecks": 9,
+  "adminBrowserChecks": 12,
+  "regressionBrowserChecks": 38,
+  "browserTotal": 50,
+  "protectedFilesUnchanged": 277,
+  "staticCatalogModels": 200,
+  "staticCatalogBrands": 10,
+  "hostedSupabaseConnected": false,
+  "hostedImportCount": null,
+  "productionDeployed": false,
+  "physicalIPadSafariTested": false,
+  "remaining": [
+    "Owner Supabase SQL setup and admin account creation",
+    "Hosted Auth, Storage, RLS and import verification",
+    "Production public configuration and deployment",
+    "Physical iPad Safari acceptance"
+  ]
+}

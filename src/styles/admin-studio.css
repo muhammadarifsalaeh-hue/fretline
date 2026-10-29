@@ -68,3 +68,77 @@
 @media (prefers-reduced-motion: reduce) {
   .admin-setup-actions a { transition: none; }
 }
+
+.admin-studio { padding-top: calc(var(--fl-header-height) + 36px); padding-bottom: 48px; min-height: 70svh; }
+.admin-studio * { min-width: 0; }
+.admin-studio h1 { font-family: var(--fl-font-display); font-size: clamp(2.7rem,6vw,4.5rem); line-height: 1.2; margin-top: 8px; }
+.admin-studio h2 { font-size: 1.3rem; line-height: 1.5; }
+.admin-studio h3 { font-size: 1.1rem; margin-bottom: 18px; color: var(--fl-accent-soft); }
+.admin-header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; margin-bottom: 32px; }
+.admin-eyebrow { color: var(--fl-accent); letter-spacing: .12em; font-size: .72rem; }
+.admin-muted { color: var(--fl-text-secondary); font-size: .85rem; line-height: 1.8; overflow-wrap: anywhere; }
+.admin-panel { background: var(--fl-surface); border: 1px solid rgb(var(--fl-color-accent) / .28); border-radius: 16px; padding: clamp(20px,3vw,32px); margin-block: 24px; }
+.admin-panel > h2 { margin-bottom: 18px; }
+.admin-studio label { display: grid; align-content: start; gap: 8px; color: var(--fl-text-secondary); font-size: .875rem; margin-block: 16px; }
+.admin-studio input:not([type=checkbox]), .admin-studio select, .admin-studio textarea {
+  width: 100%; min-height: 48px; border: 1px solid var(--fl-border-strong); border-radius: 8px;
+  padding: 12px; color: var(--fl-text); background: var(--fl-canvas); font-size: 16px; line-height: 1.5;
+}
+.admin-studio input[type=file] { overflow: hidden; }
+.admin-studio textarea { resize: vertical; }
+.admin-studio input[readonly] { color: var(--fl-text-muted); }
+.admin-studio button, .admin-studio .admin-actions a, .admin-save-bar a {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 10px 18px;
+  border: 1px solid var(--fl-border-strong); border-radius: 8px; font-size: .875rem; color: var(--fl-text); line-height: 1.5; text-align: center;
+}
+.admin-studio button:disabled { opacity: .45; cursor: not-allowed; }
+.admin-studio .admin-primary { background: var(--fl-accent-soft); color: var(--fl-canvas); border-color: var(--fl-accent-soft); }
+.admin-studio .admin-danger { color: #eeb2a4; }
+.admin-studio :is(button,input,select,textarea,a,summary):focus-visible { outline: 2px solid var(--fl-focus); outline-offset: 3px; }
+.admin-studio .admin-checkbox { display: flex; align-items: start; gap: 12px; min-height: 44px; }
+.admin-checkbox input { width: 22px; height: 22px; flex-shrink: 0; margin-top: 2px; accent-color: var(--fl-accent); }
+.admin-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+.admin-login { max-width: 620px; }
+.admin-login > button + button { margin-left: 12px; }
+.admin-alert, .admin-notice { border-radius: 8px; padding: 14px 18px; margin-block: 16px; line-height: 1.8; overflow-wrap: anywhere; }
+.admin-alert { background: #562e2840; border: 1px solid #a76b5a; color: #ffd5c9; }
+.admin-notice { background: rgb(var(--fl-color-accent) / .08); border: 1px solid rgb(var(--fl-color-accent) / .3); color: var(--fl-accent-soft); }
+.admin-stats { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 12px; }
+.admin-stats > div { display: grid; padding: 20px; gap: 6px; background: var(--fl-surface); border: 1px solid var(--fl-border); border-radius: 10px; }
+.admin-stats strong { font-size: 1.9rem; font-weight: 500; color: var(--fl-accent-soft); }
+.admin-stats span { font-size: .8rem; color: var(--fl-text-secondary); }
+.admin-toolbar { margin-block: 24px; }
+.admin-filters { display: grid; grid-template-columns: 2fr repeat(3,minmax(0,1fr)); gap: 16px; }
+.admin-products { display: grid; gap: 12px; margin-block: 20px; }
+.admin-products > li { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px; border: 1px solid var(--fl-border); background: var(--fl-surface); border-radius: 12px; }
+.admin-products h2 { font-family: var(--fl-font-display); font-size: 1.5rem; overflow-wrap: anywhere; }
+.admin-products > li > button { flex-shrink: 0; }
+.admin-fields { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 0 24px; }
+.admin-spec-group { padding-bottom: 20px; margin-bottom: 24px; border-bottom: 1px solid var(--fl-border); }
+.admin-editor-title { margin-block: 20px; overflow-wrap: anywhere; }
+.admin-tabs { display: flex; flex-wrap: wrap; gap: 8px; }
+.admin-tabs button[aria-pressed=true] { border-color: var(--fl-accent); color: var(--fl-accent-soft); background: rgb(var(--fl-color-accent) / .08); }
+.admin-save-bar { position: sticky; bottom: calc(var(--fl-bottom-navigation-height) + env(safe-area-inset-bottom) + 12px); display: flex; flex-wrap: wrap; gap: 10px; padding: 16px; background: rgb(var(--fl-color-canvas) / .97); border: 1px solid var(--fl-border-strong); border-radius: 12px; z-index: 5; margin-top: 24px; }
+.admin-images { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px; margin-block: 24px; }
+.admin-images li { padding: 16px; border: 1px solid var(--fl-border); border-radius: 10px; }
+.admin-images img { width: 100%; height: 240px; object-fit: contain; margin-bottom: 16px; background: var(--fl-canvas); }
+.admin-images .admin-actions { margin-top: 16px; }
+.admin-history li { padding-block: 12px; border-bottom: 1px solid var(--fl-border); font-size: .875rem; color: var(--fl-text-secondary); }
+.admin-history { margin-bottom: 24px; }
+.admin-history a { color: var(--fl-accent-soft); }
+.admin-help { margin-top: 40px; }
+.admin-studio summary { min-height: 48px; padding-block: 12px; cursor: pointer; color: var(--fl-accent-soft); line-height: 1.8; }
+.admin-setup-guide ol { list-style: decimal; padding-inline-start: 22px; }
+.admin-setup-guide li { padding-inline-start: 6px; margin-bottom: 24px; line-height: 1.8; }
+.admin-setup-guide p { color: var(--fl-text-secondary); margin-block: 10px; overflow-wrap: anywhere; }
+.admin-footnote { margin-top: 24px; }
+@media (hover:hover) { .admin-studio button:not(:disabled):hover, .admin-studio .admin-actions a:hover { border-color: var(--fl-accent); } }
+@media (max-width: 900px) { .admin-filters { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (max-width: 600px) {
+  .admin-stats { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .admin-fields, .admin-filters, .admin-images { grid-template-columns: minmax(0,1fr); }
+  .admin-products > li { padding: 16px; }
+  .admin-save-bar { padding: 12px; gap: 8px; }
+  .admin-save-bar button { flex: 1 1 auto; }
+}
+@media (min-width: 1024px) { .admin-save-bar { bottom: 12px; } }

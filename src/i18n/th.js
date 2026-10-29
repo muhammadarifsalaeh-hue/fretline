@@ -1,5 +1,10 @@
 /** ข้อความภาษาไทย (ภาษาหลักของเว็บ) */
 export const th = {
+  "spec.orientation": "การวางมือ",
+  "spec.bodyConstruction": "โครงสร้างบอดี้",
+  "spec.neckProfile": "ทรงคอ",
+  "spec.colorOptions": "สีที่มี",
+  "spec.countryOfManufacture": "ประเทศผู้ผลิต",
   "spec.bracing": "โครงค้ำยันภายใน",
   "pricing.discontinued": "หน้าร้านระบุว่ายกเลิกจำหน่าย ราคานี้ใช้เป็นข้อมูลอ้างอิง",
 

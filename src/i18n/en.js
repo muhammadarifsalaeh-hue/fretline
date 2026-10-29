@@ -1,5 +1,10 @@
 /** English strings (ใช้เป็นค่าสำรองและในการทดสอบ) */
 export const en = {
+  "spec.orientation": "Orientation",
+  "spec.bodyConstruction": "Body construction",
+  "spec.neckProfile": "Neck profile",
+  "spec.colorOptions": "Color options",
+  "spec.countryOfManufacture": "Country of manufacture",
   "spec.bracing": "Bracing",
   "pricing.discontinued": "Retailer marks this model discontinued; the listed price is for reference.",
 

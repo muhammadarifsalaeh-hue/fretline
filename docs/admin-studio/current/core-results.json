@@ -1,0 +1,98 @@
+{
+  "checks": [
+    {
+      "command": "npm run catalog:check",
+      "exitCode": 0,
+      "seconds": 0.42,
+      "outputTail": [
+        "Fully verified      : 0",
+        "Partially verified  : 200",
+        "Price on request    : 173",
+        "Verified reviews    : 0",
+        "Models with images  : 3",
+        "Placeholder models  : 197",
+        "",
+        "No data problems found. Unknown fields remain unknown."
+      ]
+    },
+    {
+      "command": "npm run images:check",
+      "exitCode": 0,
+      "seconds": 0.36,
+      "outputTail": [
+        "- Missing: PRS SE Hollowbody II Piezo (prs-se-hollowbody-ii-piezo)",
+        "- Missing: PRS SE Silver Sky (prs-se-silver-sky)",
+        "- Missing: PRS SE Zach Myers (prs-se-zach-myers)",
+        "- Missing: PRS SE Santana (prs-se-santana)",
+        "- Missing: PRS SE Mark Holcomb (prs-se-mark-holcomb)",
+        "- Missing: PRS SE Paul's Guitar (prs-se-paul-s-guitar)",
+        "- Missing: PRS SE DGT (prs-se-dgt)",
+        "Image registration and file integrity checks passed."
+      ]
+    },
+    {
+      "command": "npm run practice:check",
+      "exitCode": 0,
+      "seconds": 0.36,
+      "outputTail": [
+        "PASS Fifths are omitted only for the documented conventional open C7",
+        "PASS A barre correctly permits higher notes on covered strings",
+        "PASS Validator rejects wrong notes, omitted essential tones, finger reuse and blocked strings",
+        "PASS Enharmonic note parsing preserves actual octave and rejects non-note labels",
+        "PASS Learning references record actual read dates and specific reviewed facts",
+        "PASS Practice reference data cannot be accidentally mutated by viewer state",
+        "",
+        "Practice data/geometry: 56 passed, 0 failed."
+      ]
+    },
+    {
+      "command": "npm run phase4:check",
+      "exitCode": 0,
+      "seconds": 2.1,
+      "outputTail": [
+        "PASS catalog URL uses existing type and budget boundaries",
+        "PASS stored/shared ids deduplicate, reject unknowns and cap four",
+        "PASS all-null specs are empty, not equal or different",
+        "PASS sample specs stay hidden unless explicitly enabled",
+        "PASS sample reviews are absent from comparison; sourced reviews can appear",
+        "PASS all real catalog recommendations have finite scores and no review bonus",
+        "",
+        "19/19 checks passed"
+      ]
+    },
+    {
+      "command": "node docs/catalog-update-2026-10-29/tests/check-public-prices.mjs",
+      "exitCode": 0,
+      "seconds": 1.82,
+      "outputTail": [
+        "PASS a verified THB retailer listing is displayed without requiring the old Yamaha import batch",
+        "PASS missing, zero, negative, non-finite and string product prices become a quote request",
+        "PASS unverified, foreign-currency and unsourced prices are not exposed",
+        "PASS manufacturer RRP and retailer sale prices remain distinct",
+        "PASS a legitimate zero budget boundary is retained while null product prices request a quote",
+        "",
+        "5/5 public price checks passed"
+      ]
+    },
+    {
+      "command": "node docs/catalog-update-2026-10-29/tests/check-compare-fields.mjs",
+      "exitCode": 0,
+      "seconds": 1.01,
+      "outputTail": [
+        "PASS zero frets is a valid sourced fretless count, while zero strings is unknown",
+        "PASS unverified or non-THB prices cannot win the cheapest comparison",
+        "PASS unknown, zero, negative, non-finite and incorrectly typed prices never display zero baht",
+        "PASS sample specification protection remains enabled for public comparisons",
+        "PASS unrequested optional rows remain hidden until sourced data exists",
+        "PASS a genuine verified zero-star rating remains a known rating",
+        "",
+        "15/15 comparison data checks passed"
+      ]
+    }
+  ],
+  "buildPassed": true,
+  "buildWarning": "existing practice-three chunk exceeds 500 kB",
+  "buildIndexSHA256": "4a4b1e78b027df8205b78a4790d332bd3c706f1ca1464c4667c35c9ff710c4f1",
+  "hostedSupabaseTested": false,
+  "physicalIPadTested": false
+}

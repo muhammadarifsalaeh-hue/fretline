@@ -1,5 +1,10 @@
 /** Optional sourced fields: absent keys never add rows to another guitar. */
 export const ADDITIONAL_SPECIFICATIONS = [
+  { key: 'orientation', label: 'spec.orientation', group: 'construction', type: 'text' },
+  { key: 'bodyConstruction', label: 'spec.bodyConstruction', group: 'construction', type: 'text' },
+  { key: 'neckProfile', label: 'spec.neckProfile', group: 'construction', type: 'text' },
+  { key: 'colorOptions', label: 'spec.colorOptions', group: 'details', type: 'text' },
+  { key: 'countryOfManufacture', label: 'spec.countryOfManufacture', group: 'details', type: 'text' },
   { key: 'series', label: 'spec.series', group: 'construction', type: 'text' },
   { key: 'bodyShape', label: 'spec.bodyShape', group: 'construction', type: 'text' },
   { key: 'neckFinish', label: 'spec.neckFinish', group: 'construction', type: 'text' },
