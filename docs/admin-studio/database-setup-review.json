@@ -1,0 +1,49 @@
+{
+  "source_file": "supabase/setup.sql",
+  "source_sha256": "b824dfb085f5371d013b8168bf5b5fbd6e9b70e1672c65415980de8ba7bdda96",
+  "bytes": 587474,
+  "models": 200,
+  "unique_ids": 200,
+  "brands": 10,
+  "models_per_brand": {
+    "Fender": 20,
+    "Gibson": 20,
+    "Ibanez": 20,
+    "Yamaha": 20,
+    "PRS": 20,
+    "Epiphone": 20,
+    "Taylor": 20,
+    "Martin": 20,
+    "Córdoba": 20,
+    "Squier": 20
+  },
+  "priced": 27,
+  "price_on_request": 173,
+  "zero_prices": 0,
+  "transaction_groups_in_original": 2,
+  "original_file_changed": false,
+  "sql_executed": false,
+  "database_changed": false,
+  "atomic_sha256": "b4dccdfc0b4a19b7c00d0784deae243f28fd6304121f0b937b4279287515f359",
+  "base_commit": "4fbcd4071ba1186eae1de8de7492c58c1acfed15",
+  "connection_status": "not_configured",
+  "project_requests_sent": 0,
+  "sql_statements_executed": 0,
+  "offline_safeguard_tests": {
+    "passed": 13,
+    "total": 13
+  },
+  "offline_parser": {
+    "package": "pglast",
+    "version": "8.7",
+    "original_statements": 60,
+    "atomic_statements": 62,
+    "sql_executed": false
+  },
+  "missing_setting_names": [
+    "FRETLINE_SUPABASE_PROJECT_REF",
+    "FRETLINE_SUPABASE_ACCESS_TOKEN"
+  ],
+  "frontend_changed": false,
+  "master_merged": false
+}
