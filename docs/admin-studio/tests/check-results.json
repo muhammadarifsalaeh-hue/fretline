@@ -1,0 +1,42 @@
+{
+  "scope": "phase0 and unconfigured phase1 entry only",
+  "checks": [
+    {
+      "name": "build",
+      "exitCode": 0
+    },
+    {
+      "name": "catalog",
+      "exitCode": 0
+    },
+    {
+      "name": "images",
+      "exitCode": 0
+    },
+    {
+      "name": "practice",
+      "exitCode": 0
+    },
+    {
+      "name": "prices",
+      "exitCode": 0
+    },
+    {
+      "name": "compare",
+      "exitCode": 0
+    },
+    {
+      "name": "pre-admin catalog preservation",
+      "exitCode": 0,
+      "passed": 9,
+      "total": 9
+    }
+  ],
+  "browser": {
+    "passed": 8,
+    "total": 8,
+    "report": "browser-results.json"
+  },
+  "supabaseConnected": false,
+  "physicalIPadTested": false
+}

@@ -22,6 +22,7 @@ const FindMyGuitarPage = lazy(() => import('@/pages/FindMyGuitarPage'));
 const CatalogPage = lazy(() => import('@/pages/CatalogPage'));
 const GuitarDetailPage = lazy(() => import('@/pages/GuitarDetailPage'));
 const PracticePage = lazy(() => import('@/pages/PracticePage'));
+const AdminStudioPage = lazy(() => import('@/pages/AdminStudioPage'));
 
 export default function App() {
   return (
@@ -42,6 +43,7 @@ export default function App() {
             <Route path="/compare" element={<DiscoveryRoute><ComparePage /></DiscoveryRoute>} />
             <Route path="/find-my-guitar" element={<DiscoveryRoute><FindMyGuitarPage /></DiscoveryRoute>} />
             <Route path="/practice" element={<DiscoveryRoute><PracticePage /></DiscoveryRoute>} />
+            <Route path="/admin" element={<DiscoveryRoute><AdminStudioPage /></DiscoveryRoute>} />
             <Route path="/guitars/:slug" element={<DiscoveryRoute><GuitarDetailPage /></DiscoveryRoute>} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>

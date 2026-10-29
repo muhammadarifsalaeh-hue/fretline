@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-29T12:01:41.357388+00:00",
+  "baselineCommit": "a620d5e31948cd9ea063ad188a314d8c4e092d16",
+  "sourceBranch": "feature/catalog-prices-2026-10-29",
+  "targetBranch": "feature/fretline-admin-studio",
+  "sourceBranchPushed": true,
+  "workingTreeCleanAtStart": true,
+  "masterCommit": "9f7b35d7a0daea8a579976a5534ffb67d90f06a9",
+  "catalog": {
+    "models": 200,
+    "brands": 10,
+    "modelsPerBrand": 20,
+    "sourcedTHBPrices": 27,
+    "priceOnRequest": 173,
+    "newPriceFieldsFromPriorImport": 9,
+    "newSpecificationFieldsFromPriorImport": 9,
+    "strictCompleteSpecificationModels": 0,
+    "modelsWithExistingImages": 3,
+    "modelsWithoutExistingImages": 197
+  },
+  "supabase": {
+    "configured": false,
+    "projectURLProvided": false,
+    "publishableKeyProvided": false,
+    "connected": false,
+    "migrationsApplied": false,
+    "importedProducts": 0,
+    "authTested": false,
+    "storageTested": false,
+    "rlsTested": false
+  },
+  "phaseStatus": {
+    "phase0": "complete",
+    "phase1": "routing and responsive setup entry prepared; full admin UI awaits authentication",
+    "phase2": "blocked on user-owned Supabase project configuration; migration not yet created",
+    "phase3Through10": "not started"
+  },
+  "masterMerged": false,
+  "priorCatalogPreservationChecksPassed": 9,
+  "priorCatalogPreservationChecksTotal": 9
+}

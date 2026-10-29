@@ -1,0 +1,54 @@
+{
+  "scope": "Phase 1 setup entry and existing Catalog navigation only",
+  "supabaseConnected": false,
+  "physicalIPadTested": false,
+  "checks": [
+    {
+      "name": "chromium-desktop-setup-and-catalog-return",
+      "passed": true
+    },
+    {
+      "name": "chromium-ipad-landscape-setup-and-catalog-return",
+      "passed": true
+    },
+    {
+      "name": "chromium-ipad-portrait-setup-and-catalog-return",
+      "passed": true
+    },
+    {
+      "name": "chromium-mobile-setup-and-catalog-return",
+      "passed": true
+    },
+    {
+      "name": "webkit-desktop-setup-and-catalog-return",
+      "passed": true
+    },
+    {
+      "name": "webkit-ipad-landscape-setup-and-catalog-return",
+      "passed": true
+    },
+    {
+      "name": "webkit-ipad-portrait-setup-and-catalog-return",
+      "passed": true
+    },
+    {
+      "name": "webkit-mobile-setup-and-catalog-return",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "admin-setup-ipad-landscape.png",
+    "admin-setup-ipad-portrait.png"
+  ],
+  "productionIndexSHA256": "d10a3408e0f40722c29faa58c56ffc66e8730ca773f6d7c3681ad1cb88d6afc7",
+  "browserVersions": {
+    "chromium": "154.0.8037.57",
+    "webkit": "26.5"
+  },
+  "existingFilesChanged": [
+    "src/App.jsx"
+  ],
+  "protectedExistingSourceAndAssetFiles": 280,
+  "passed": true
+}
