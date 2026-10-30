@@ -1,4 +1,4 @@
-import { t } from '@/i18n';
+import { LANG, t } from '@/i18n';
 import { BRANDS } from '@/data/brands';
 import { HOME_BRAND_ORDER } from '@/data/homeBrandAssets';
 import { brandCatalogUrl } from '@/utils/routes';
@@ -27,7 +27,7 @@ export default function Brands() {
   return <section id="brands" className="signature-brand-marquee" aria-labelledby="home-brands-title">
     <div className="container-x">
       <div className="signature-marquee-heading">
-        <div><p className="signature-section-eyebrow">EXPLORE BY BRAND</p>
+        <div><p className="signature-section-eyebrow">{LANG === 'en' ? 'EXPLORE BY BRAND' : 'เอกลักษณ์จากทุกแบรนด์'}</p>
           <h2 id="home-brands-title">{t('brand.homeTitle')}</h2></div>
         <AppLink href="/brands" className="signature-marquee-view-all">{t('brand.viewAll')}<ArrowRightIcon size={16} /></AppLink>
       </div>

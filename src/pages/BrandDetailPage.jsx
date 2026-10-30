@@ -39,7 +39,7 @@ function BrandContent({ brand }) {
 
   return (
     <div className="phase5-page brand-detail-page">
-      <DiscoveryHeading eyebrow="THE BRAND COLLECTION" title={brand.name} serif
+      <DiscoveryHeading eyebrow="กีตาร์จากแบรนด์นี้" title={brand.name} serif
         description={t('p5.detail.intro', { n: guitars.length, brand: brand.name })}
         breadcrumbs={[{ label: t('nav.brands'), href: '/brands' }, { label: brand.name }]}
         aside={<AppLink href={brandCatalogUrl(brand.name)} className="phase4-button is-gold">{t('p5.detail.catalog')}<ArrowRightIcon size={16} /></AppLink>}>
@@ -92,7 +92,7 @@ function BrandContent({ brand }) {
 function MissingBrand() {
   useEffect(() => { document.title = `${t('p5.detail.notFound')} — Fretline`; }, []);
   return <div className="phase5-page">
-    <DiscoveryHeading eyebrow="404 / BRAND NOT FOUND" title={t('p5.detail.notFound')} breadcrumbs={[{ label: t('nav.brands'), href: '/brands' }, { label: '404' }]} />
+    <DiscoveryHeading eyebrow="404 / ไม่พบแบรนด์" title={t('p5.detail.notFound')} breadcrumbs={[{ label: t('nav.brands'), href: '/brands' }, { label: '404' }]} />
     <section className="container-x phase5-body">
       <CatalogEmpty title={t('p5.detail.notFound')} text={t('p5.detail.notFoundText')}>
         <AppLink href="/brands" className="phase4-button is-gold mt-6">{t('p5.detail.back')}<ArrowRightIcon size={16} /></AppLink>
@@ -105,7 +105,7 @@ function ArchivedBrand({ guitars }) {
   const name = guitars[0].brand;
   useEffect(() => { document.title = `${name} — ${t('p7.archive.label')} — Fretline`; }, [name]);
   return <div className="phase5-page">
-    <DiscoveryHeading eyebrow="ARCHIVED BRAND" title={name} serif description={t('p7.archive.brand')}
+    <DiscoveryHeading eyebrow="แบรนด์ในข้อมูลที่เก็บไว้" title={name} serif description={t('p7.archive.brand')}
       breadcrumbs={[{ label: t('nav.brands'), href: '/brands' }, { label: name }]} />
     <section className="container-x phase5-body">
       <p className="archive-notice" role="note">{t('p7.archive.brandText')}</p>

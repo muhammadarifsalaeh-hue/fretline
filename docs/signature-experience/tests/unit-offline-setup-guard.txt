@@ -1,0 +1,18 @@
+test_apply_requires_exact_approval_before_network (__main__.SetupSafeguards.test_apply_requires_exact_approval_before_network) ... ok
+test_atomic_payload_has_one_outer_transaction (__main__.SetupSafeguards.test_atomic_payload_has_one_outer_transaction) ... ok
+test_changed_source_fails_before_network (__main__.SetupSafeguards.test_changed_source_fails_before_network) ... ok
+test_connection_check_is_metadata_only (__main__.SetupSafeguards.test_connection_check_is_metadata_only) ... ok
+test_default_inspects_only_and_preserves_catalog (__main__.SetupSafeguards.test_default_inspects_only_and_preserves_catalog) ... ok
+test_existing_schema_blocks_setup_submission (__main__.SetupSafeguards.test_existing_schema_blocks_setup_submission) ... ok
+test_frontend_secret_and_service_keys_are_not_management_tokens (__main__.SetupSafeguards.test_frontend_secret_and_service_keys_are_not_management_tokens) ... ok
+test_http_failure_is_sanitized_and_never_retried (__main__.SetupSafeguards.test_http_failure_is_sanitized_and_never_retried) ... ok
+test_invalid_arguments_do_not_echo_sensitive_values (__main__.SetupSafeguards.test_invalid_arguments_do_not_echo_sensitive_values) ... ok
+test_invalid_reference_does_not_echo_connection_input (__main__.SetupSafeguards.test_invalid_reference_does_not_echo_connection_input) ... ok
+test_missing_settings_do_not_connect (__main__.SetupSafeguards.test_missing_settings_do_not_connect) ... ok
+test_redirect_and_unknown_endpoints_are_refused (__main__.SetupSafeguards.test_redirect_and_unknown_endpoints_are_refused) ... ok
+test_wrong_project_and_unhealthy_database_are_blocked (__main__.SetupSafeguards.test_wrong_project_and_unhealthy_database_are_blocked) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.185s
+
+OK

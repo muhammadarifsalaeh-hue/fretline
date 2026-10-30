@@ -34,11 +34,11 @@ export default function GuitarPracticeCard() {
     </div>
     <div className="home-editorial-inner">
       <div className="home-editorial-copy">
-        <p className="signature-section-eyebrow">01 / GUITAR PRACTICE STUDIO</p>
+        <p className="signature-section-eyebrow">{english ? 'GUITAR PRACTICE STUDIO' : 'พื้นที่ฝึกของคุณ'}</p>
         <h2 id="home-practice-title">{english ? 'Guitar' : 'โหมด'}<br /><span>{english ? 'Practice Studio' : 'ฝึกกีตาร์'}</span></h2>
         <p className="home-editorial-description">{english
-          ? <>Practice chords with engaging guitar lessons,<br />from the basics to advanced playing.</>
-          : <>ฝึกจับคอร์ด เล่นกีตาร์ไปกับบทเรียนที่สนุก<br />ตั้งแต่พื้นฐาน จนถึงขั้นสูง</>}</p>
+          ? <>Practice chords and learn finger positions.<br />Rotate and zoom the existing 3D fretboard.</>
+          : <>ฝึกจับคอร์ดและเรียนรู้ตำแหน่งนิ้ว<br />พร้อมคอกีตาร์ 3D ที่หมุนและซูมได้</>}</p>
         <ul className="home-practice-features">
           {features.map(({ icon: Icon, title, detail }) => <li key={title}>
             <Icon size={30} /><strong>{title}</strong><span>{detail}</span>

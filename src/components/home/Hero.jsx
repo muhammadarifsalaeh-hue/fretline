@@ -3,7 +3,7 @@ import { DISCOVERY_PHOTOGRAPHY } from '@/data/discoveryPhotography';
 import AppLink from '@/components/ui/AppLink';
 import Button from '@/components/ui/Button';
 import { ArrowRightIcon } from '@/components/ui/Icons';
-import { t } from '@/i18n';
+import { LANG, t } from '@/i18n';
 import SearchBar from '@/components/search/SearchBar';
 import useHeroSlideshow from '@/hooks/useHeroSlideshow';
 import HeroStats from './HeroStats';
@@ -33,7 +33,7 @@ export default function Hero() {
 
         <div className="hero-content signature-hero-content container-x relative z-10">
           <div className="signature-hero-copy">
-            <p className="signature-section-eyebrow">{t('signature.hero.eyebrow')}</p>
+            <p className="signature-section-eyebrow">{LANG === 'en' ? 'DISCOVER · COMPARE · PLAY' : 'ค้นหา · เปรียบเทียบ · ฝึกกีตาร์'}</p>
             <h1 className="signature-hero-title">
               <span>{t('hero.title1')}</span>
               <span>{t('hero.title2')}</span>

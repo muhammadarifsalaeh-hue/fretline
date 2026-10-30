@@ -14,7 +14,7 @@ export default function DiscoveryHeading({ eyebrow, title, description, breadcru
           </span>
         ))}
       </nav>
-      <p className="discovery-kicker" lang="en">{eyebrow}</p>
+      <p className="discovery-kicker">{eyebrow}</p>
       <div className="phase5-title-row">
         <div>
           <h1 className={serif ? 'font-serif phase5-brand-name' : ''}>{title}</h1>

@@ -10,7 +10,7 @@ try {
   const { filterBrands } = await server.ssrLoadModule('/src/utils/brandFilters.js');
   const { sortGuitars } = await server.ssrLoadModule('/src/utils/guitarSort.js');
   const { normalizeGuitarIds } = await server.ssrLoadModule('/src/utils/selection.js');
-  const { publicPrice } = await server.ssrLoadModule('/src/utils/dataTrust.js');
+  const { publicPrice, trustedPrice } = await server.ssrLoadModule('/src/utils/dataTrust.js');
   const { en } = await server.ssrLoadModule('/src/i18n/en.js');
   const { th } = await server.ssrLoadModule('/src/i18n/th.js');
   // Fixtures are test-only and are never added to the shipped guitar catalog.
@@ -42,8 +42,16 @@ try {
     const [brand] = buildBrands([sample], {}, {});
     assert.equal(brand.priceMin, null); assert.equal(brand.priceMax, null); assert.equal(brand.sourceModels, 0);
   });
-  check('current catalog has no source-backed price range or licensed logo file', () => {
-    assert.ok(BRANDS.every((brand) => brand.priceMin === null && brand.priceMax === null && !brand.logo));
+  check('brand price ranges use the current source-backed catalog and retain unknown ranges', () => {
+    // Phase 5 predates the approved price import and brand artwork. Requiring
+    // every brand to have no price/logo would now reject correct existing data.
+    for (const brand of BRANDS) {
+      const prices = GUITARS.filter((guitar) => guitar.brand === brand.name).map(trustedPrice).filter((price) => price != null);
+      assert.equal(brand.pricedModels, prices.length, brand.name);
+      assert.equal(brand.priceMin, prices.length ? Math.min(...prices) : null, brand.name);
+      assert.equal(brand.priceMax, prices.length ? Math.max(...prices) : null, brand.name);
+      assert.ok(prices.every((price) => price > 0), brand.name);
+    }
   });
   check('brand search is trimmed and case-insensitive', () => {
     assert.deepEqual(filterBrands(BRANDS, { q: ' YaMaHa ' }).map((b) => b.id), ['yamaha']);
@@ -57,7 +65,14 @@ try {
     const before = BRANDS.map((b) => b.id);
     const names = filterBrands(BRANDS, { sort: 'name' }).map((b) => b.name);
     assert.deepEqual(names, [...names].sort((a, b) => a.localeCompare(b)));
-    assert.deepEqual(filterBrands(BRANDS, { sort: 'price' }).map((b) => b.name), names);
+    const fixtures = [
+      { name: 'Unknown Z', priceMin: null }, { name: 'Higher', priceMin: 50000 },
+      { name: 'Unknown A', priceMin: null }, { name: 'Lower B', priceMin: 20000 },
+      { name: 'Lower A', priceMin: 20000 },
+    ];
+    const unchanged = structuredClone(fixtures);
+    assert.deepEqual(filterBrands(fixtures, { sort: 'price' }).map((b) => b.name), ['Lower A', 'Lower B', 'Higher', 'Unknown A', 'Unknown Z']);
+    assert.deepEqual(fixtures, unchanged);
     assert.deepEqual(BRANDS.map((b) => b.id), before);
   });
   check('verified-only price sorts put sample and missing prices last in both directions', () => {

@@ -64,8 +64,8 @@ export default function CatalogPage() {
         <nav aria-label={t('common.breadcrumb')} className="discovery-breadcrumb">
           <AppLink href="/">{t('nav.home')}</AppLink><span aria-hidden="true">›</span><span>{t('nav.guitars')}</span>
         </nav>
-        <p className="discovery-kicker">FRETLINE / GUITAR DISCOVERY</p>
-        <h1 className="font-serif text-5xl md:text-6xl">Catalog</h1>
+        <p className="discovery-kicker">FRETLINE / กีตาร์ทั้งหมด</p>
+        <h1 className="font-serif text-5xl md:text-6xl">แคตตาล็อกกีตาร์</h1>
         <p className="mt-1 text-sm text-gold">{t('catalog.tagline')}</p>
         <form role="search" className="catalog-search" onSubmit={submitSearch}>
           <SearchIcon size={19} className="shrink-0 text-gold" />

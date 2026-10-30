@@ -1,0 +1,236 @@
+{
+  "checks": [
+    {
+      "name": "chromium-desktop-home-and-collections",
+      "passed": true,
+      "evidence": {
+        "threeOriginalScenes": true,
+        "fourDataDrivenCategories": true,
+        "threeModeDestinations": true,
+        "fourWorkingTabs": true,
+        "horizontalProductScroll": true
+      }
+    },
+    {
+      "name": "chromium-desktop-brands-and-filtering",
+      "passed": true,
+      "evidence": {
+        "tenRealBrandMarks": true,
+        "searchAndBrandCatalog": true,
+        "brandDetailCategoryFilter": true
+      }
+    },
+    {
+      "name": "chromium-desktop-personal-collection",
+      "passed": true,
+      "evidence": {
+        "saveFromCatalog": true,
+        "persistRefresh": true,
+        "compareSaved": true,
+        "cancelClear": true,
+        "removeAndConfirmClear": true
+      }
+    },
+    {
+      "name": "chromium-desktop-full-product-gallery",
+      "passed": true,
+      "evidence": {
+        "allOriginalImages": 4,
+        "thumbnails": true,
+        "lightboxKeyboard": true,
+        "specificationsAccessible": true
+      }
+    },
+    {
+      "name": "chromium-desktop-practice-controls-and-finger-data",
+      "passed": true,
+      "evidence": {
+        "all42Chords": true,
+        "sixVoicingsFingerDataVerified": true,
+        "existing3DLoaded": true,
+        "cameraControls": true,
+        "search": true
+      }
+    },
+    {
+      "name": "chromium-mobile-home-and-collections",
+      "passed": true,
+      "evidence": {
+        "threeOriginalScenes": true,
+        "fourDataDrivenCategories": true,
+        "threeModeDestinations": true,
+        "fourWorkingTabs": true,
+        "horizontalProductScroll": true
+      }
+    },
+    {
+      "name": "chromium-mobile-brands-and-filtering",
+      "passed": true,
+      "evidence": {
+        "tenRealBrandMarks": true,
+        "searchAndBrandCatalog": true,
+        "brandDetailCategoryFilter": true
+      }
+    },
+    {
+      "name": "chromium-mobile-personal-collection",
+      "passed": true,
+      "evidence": {
+        "saveFromCatalog": true,
+        "persistRefresh": true,
+        "compareSaved": true,
+        "cancelClear": true,
+        "removeAndConfirmClear": true
+      }
+    },
+    {
+      "name": "chromium-mobile-full-product-gallery",
+      "passed": true,
+      "evidence": {
+        "allOriginalImages": 4,
+        "thumbnails": true,
+        "lightboxKeyboard": true,
+        "specificationsAccessible": true
+      }
+    },
+    {
+      "name": "chromium-mobile-practice-controls-and-finger-data",
+      "passed": true,
+      "evidence": {
+        "all42Chords": true,
+        "sixVoicingsFingerDataVerified": true,
+        "existing3DLoaded": true,
+        "cameraControls": true,
+        "search": true
+      }
+    },
+    {
+      "name": "chromium-restrained-motion-and-marquee",
+      "passed": true,
+      "evidence": {
+        "automaticHero": true,
+        "continuousMarquee": true,
+        "dragAndAutoResume": true
+      }
+    },
+    {
+      "name": "webkit-desktop-home-and-collections",
+      "passed": true,
+      "evidence": {
+        "threeOriginalScenes": true,
+        "fourDataDrivenCategories": true,
+        "threeModeDestinations": true,
+        "fourWorkingTabs": true,
+        "horizontalProductScroll": true
+      }
+    },
+    {
+      "name": "webkit-desktop-brands-and-filtering",
+      "passed": true,
+      "evidence": {
+        "tenRealBrandMarks": true,
+        "searchAndBrandCatalog": true,
+        "brandDetailCategoryFilter": true
+      }
+    },
+    {
+      "name": "webkit-desktop-personal-collection",
+      "passed": true,
+      "evidence": {
+        "saveFromCatalog": true,
+        "persistRefresh": true,
+        "compareSaved": true,
+        "cancelClear": true,
+        "removeAndConfirmClear": true
+      }
+    },
+    {
+      "name": "webkit-desktop-full-product-gallery",
+      "passed": true,
+      "evidence": {
+        "allOriginalImages": 4,
+        "thumbnails": true,
+        "lightboxKeyboard": true,
+        "specificationsAccessible": true
+      }
+    },
+    {
+      "name": "webkit-desktop-practice-controls-and-finger-data",
+      "passed": true,
+      "evidence": {
+        "all42Chords": true,
+        "sixVoicingsFingerDataVerified": true,
+        "existing3DLoaded": true,
+        "cameraControls": true,
+        "search": true
+      }
+    },
+    {
+      "name": "webkit-mobile-home-and-collections",
+      "passed": true,
+      "evidence": {
+        "threeOriginalScenes": true,
+        "fourDataDrivenCategories": true,
+        "threeModeDestinations": true,
+        "fourWorkingTabs": true,
+        "horizontalProductScroll": true
+      }
+    },
+    {
+      "name": "webkit-mobile-brands-and-filtering",
+      "passed": true,
+      "evidence": {
+        "tenRealBrandMarks": true,
+        "searchAndBrandCatalog": true,
+        "brandDetailCategoryFilter": true
+      }
+    },
+    {
+      "name": "webkit-mobile-personal-collection",
+      "passed": true,
+      "evidence": {
+        "saveFromCatalog": true,
+        "persistRefresh": true,
+        "compareSaved": true,
+        "cancelClear": true,
+        "removeAndConfirmClear": true
+      }
+    },
+    {
+      "name": "webkit-mobile-full-product-gallery",
+      "passed": true,
+      "evidence": {
+        "allOriginalImages": 4,
+        "thumbnails": true,
+        "lightboxKeyboard": true,
+        "specificationsAccessible": true
+      }
+    },
+    {
+      "name": "webkit-mobile-practice-controls-and-finger-data",
+      "passed": true,
+      "evidence": {
+        "all42Chords": true,
+        "sixVoicingsFingerDataVerified": true,
+        "existing3DLoaded": true,
+        "cameraControls": true,
+        "search": true
+      }
+    },
+    {
+      "name": "webkit-restrained-motion-and-marquee",
+      "passed": true,
+      "evidence": {
+        "automaticHero": true,
+        "continuousMarquee": true,
+        "dragAndAutoResume": true
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "realSupabaseTested": false,
+  "physicalIPadSafariTested": false,
+  "data": "original project catalog, unchanged source and configuration; no HTTP mocks",
+  "passed": true
+}

@@ -1,0 +1,105 @@
+/* FRETLINE SIGNATURE EXPERIENCE — isolated from Admin and the database layer.
+   Anuphan for Thai reading; Instrument Serif for model names and editorial scale. */
+.fretline-signature {
+  --fl-color-canvas: 9 10 10;
+  --fl-color-surface: 18 19 18;
+  --fl-color-raised: 27 28 26;
+  --fl-color-text: 244 241 233;
+  --fl-color-secondary: 186 185 177;
+  --fl-color-muted: 158 159 150;
+  --fl-color-accent: 202 178 128;
+  --fl-color-champagne: 230 212 175;
+  --fl-color-border: 43 44 39;
+  --fl-color-border-strong: 75 75 62;
+  --fl-content-width: 1440px;
+  --fl-radius-card: 4px;
+  --fl-radius-control: 6px;
+  --fl-radius-dialog: 16px;
+  --signature-section-space: clamp(56px, 7vw, 112px);
+  min-height: 100svh;
+  background: #090a0a;
+  color: var(--fl-text);
+  font-family: var(--fl-font-body);
+  -webkit-font-smoothing: antialiased;
+}
+.fretline-signature ::selection { background: #cab280; color: #090a0a; }
+.fretline-signature :is(h1,h2,h3,h4) { text-wrap: balance; }
+.fretline-signature h1 { letter-spacing: -.035em; }
+.fretline-signature :is(a,button,input,select,summary,textarea):focus-visible { outline: 2px solid #e6d4af; outline-offset: 5px; }
+.fretline-signature :is(button,a) { -webkit-tap-highlight-color: transparent; }
+.fretline-signature .site-header { background: #0a0b0ac9; border-bottom-color: #d5c39e20; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
+.fretline-signature[data-experience-page='home'] .site-header.bg-transparent { background: linear-gradient(#080909b0,#08090922); border-bottom-color: #ffffff18; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+.fretline-signature .site-header-inner { max-width: 1520px; }
+.fretline-signature .site-logo { font-size: 36px; letter-spacing: -.04em; }
+.fretline-signature .site-nav { gap: 24px; }
+.fretline-signature .nav-link { font-size: 13px; color: #d4d2c9; }
+.fretline-signature .nav-link[aria-current='page'] { color: var(--fl-accent-soft); }
+.fretline-signature .nav-link::after { height: 1px; }
+.fretline-signature .site-icon-button { border-radius: 50%; }
+.fretline-signature .site-icon-button:hover { background: #ffffff09; color: var(--fl-accent-soft); }
+.fretline-signature .mobile-navigation { background: #0d0e0d; }
+.fretline-signature .mobile-navigation nav { gap: 8px; }
+.fretline-signature .mobile-navigation-link { font-weight: 400; font-size: clamp(26px,5vw,42px); padding-block: 10px; }
+.fretline-signature .mobile-navigation-link[aria-current='page'] { color: var(--fl-accent-soft); }
+.fretline-signature .site-bottom-nav { background: #111210f0; border-color: #d5c39e30; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
+.fretline-signature .quick-nav-item { gap: 5px; margin: 7px 4px 5px; min-height: 52px; border-radius: 8px; font-size: 11px; }
+.fretline-signature .quick-nav-item[aria-current='page'] { color: var(--fl-accent-soft); background: #cab28012; }
+.fretline-signature .quick-nav-item[aria-current='page']::after { display: none; }
+.fretline-signature .site-footer { border-color: #cab28026; background: #0d0e0d; }
+.fretline-signature .site-footer-inner { padding-top: 64px; }
+.fretline-signature .site-footer-brand .site-logo { font-size: 46px; }
+.fretline-signature .site-footer-heading { color: var(--fl-accent-soft); font-size: 12px; }
+.fretline-signature .site-footer-link { font-size: 13px; }
+.fretline-signature .footer-watermark { opacity: .55; color: #23241f; }
+.fretline-signature .discovery-kicker,
+.fretline-signature .signature-section-eyebrow { color: #c6ba9c; font-size: 11px; line-height: 1.9; letter-spacing: .12em; font-weight: 400; }
+.fretline-signature .discovery-breadcrumb { color: #aaa99f; font-size: 12px; gap: 12px; }
+.fretline-signature .discovery-breadcrumb a:hover { color: var(--fl-accent-soft); }
+.fretline-signature .phase5-heading { padding-top: calc(var(--fl-header-height) + 50px); padding-bottom: 48px; }
+.fretline-signature .phase5-heading .discovery-kicker { margin-top: 48px; }
+.fretline-signature .phase5-title-row { margin-top: 18px; gap: 32px; align-items: flex-end; }
+.fretline-signature .phase5-heading h1 { font-size: clamp(38px,4.5vw,64px); font-weight: 400; line-height: 1.3; }
+.fretline-signature .phase5-heading h1.phase5-brand-name { font-size: clamp(64px,8vw,108px); line-height: 1; }
+.fretline-signature .phase5-intro { max-width: 580px; color: #b9b9ad; font-size: 15px; line-height: 1.9; margin-top: 20px; }
+.fretline-signature .phase5-body { padding-top: 12px; padding-bottom: 80px; }
+.fretline-signature :is(.phase4-button,.fl-button,.detail-action,.home-featured-view-all) { border-radius: 5px; min-height: 48px; font-size: 13px; font-weight: 500; transition: background-color 180ms,color 180ms,border-color 180ms,box-shadow 180ms; }
+.fretline-signature :is(.phase4-button.is-gold,.fl-button.bg-gold,.home-featured-view-all) { background: var(--fl-accent-soft); color: #16160f; border-color: var(--fl-accent-soft); box-shadow: inset 0 1px #ffffff60; }
+.fretline-signature :is(.phase4-button.is-gold,.fl-button.bg-gold,.home-featured-view-all):hover { background: #f1e4c8; color: #090a0a; }
+.fretline-signature :is(.phase4-button,.detail-action):not(.is-gold):hover { border-color: #cab28099; background: #cab2800b; }
+.fretline-signature :is(input,select,textarea) { accent-color: var(--fl-accent); }
+.fretline-signature input::placeholder { color: #96988f; }
+.fretline-signature :is(.catalog-search,.practice-search-field>div,.brands-search) { border-color: #cab28040; background: #141512e8; box-shadow: 0 12px 28px #0002; }
+.fretline-signature :is(.catalog-search,.practice-search-field>div):focus-within { border-color: var(--fl-accent); box-shadow: 0 0 0 1px #cab28050; }
+.fretline-signature :is(.discovery-card,.brand-directory-card,.practice-chord-option) { transition: border-color 220ms,background-color 220ms,box-shadow 220ms; }
+.fretline-signature :is(.guitar-picker,.confirm-dialog,.product-lightbox) { background-color: #0e100fee; }
+.fretline-signature [role='dialog'] { border-color: #cab28045; }
+.fretline-signature .route-loading { min-height: 85svh; }
+.fretline-signature .route-loading [aria-hidden='true']>div { border-radius: 4px; background: linear-gradient(110deg,#141613 30%,#21241e 48%,#141613 65%); background-size: 250% 100%; animation: signature-skeleton 2s linear infinite; }
+.fretline-signature main > :is(.discovery-page,.phase5-page,.premium-compare,.premium-quiz,.practice-page,.qr-page) { animation: signature-page-enter 420ms ease-out; }
+.fretline-signature .compare-tray { background: #151711ed; border-color: #cab28050; box-shadow: 0 10px 36px #0007; border-radius: 12px; }
+.fretline-signature .compare-tray-positioner { padding-inline: 12px; }
+.fretline-signature :is(.phase5-empty,.catalog-empty,.review-empty) { border: 1px solid #cab28026; border-radius: 8px; background: radial-gradient(ellipse at 50% 0,#cab28009,transparent 70%),#10120f; padding: clamp(32px,6vw,72px); }
+.fretline-signature .qr-card { background: #10120f; border-radius: 8px; border-color: #cab28045; box-shadow: 0 24px 80px #0004; }
+.fretline-signature .qr-card h1 { font-weight: 400; }
+.fretline-signature .signature-not-found { min-height: 85svh; position: relative; }
+.fretline-signature .signature-not-found>p:first-child { font: 400 clamp(90px,16vw,200px)/1 var(--fl-font-display); color: #cab28055; }
+.fretline-signature .signature-not-found h1 { max-width: 740px; font-family: var(--fl-font-body); font-size: clamp(30px,5vw,60px); font-weight: 400; line-height: 1.4; }
+@keyframes signature-page-enter { from { opacity: .35; } to { opacity: 1; } }
+@keyframes signature-skeleton { to { background-position: -250% 0; } }
+@media (min-width:1600px) { .fretline-signature .container-x { max-width: 1440px; } }
+@media (max-width:1279px) { .fretline-signature .site-nav { gap: 14px; } }
+@media (max-width:1023px) { .fretline-signature .site-logo { font-size: 32px; } .fretline-signature .phase5-heading { padding-top: calc(var(--fl-header-height) + 32px); } }
+@media (max-width:639px) {
+  .fretline-signature { --signature-section-space: 56px; }
+  .fretline-signature .phase5-heading { padding-bottom: 32px; }
+  .fretline-signature .phase5-heading .discovery-kicker { margin-top: 32px; }
+  .fretline-signature .phase5-title-row { gap: 16px; }
+  .fretline-signature .phase5-intro { font-size: 14px; }
+  .fretline-signature .site-footer-inner { padding-top: 48px; }
+  .fretline-signature .site-footer-columns { gap: 24px; }
+  .fretline-signature .site-footer-brand .site-logo { font-size: 42px; }
+  .fretline-signature:has(.compare-tray-positioner) .app-content { padding-bottom: calc(var(--fl-bottom-navigation-height) + 100px + env(safe-area-inset-bottom)); }
+}
+@media (prefers-reduced-motion:reduce) {
+  .fretline-signature *, .fretline-signature *::before, .fretline-signature *::after { animation: none !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}

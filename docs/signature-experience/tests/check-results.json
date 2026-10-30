@@ -1,0 +1,78 @@
+{
+  "verifiedOn": "2026-10-30",
+  "branch": "feature/fretline-signature-experience",
+  "baseCommit": "302ce43def126e4785460c4b0297eae973dbccfb",
+  "cloudDatabaseWrites": false,
+  "hostedSupabaseVerified": false,
+  "physicalIPadSafariVerified": false,
+  "pushed": false,
+  "merged": false,
+  "deployed": false,
+  "checks": {
+    "build": {
+      "command": "npm run build",
+      "passed": true,
+      "count": null
+    },
+    "dataSafety": {
+      "command": "node scripts/check-signature-safety.mjs",
+      "passed": true,
+      "count": null
+    },
+    "catalog": {
+      "command": "npm run catalog:check",
+      "passed": true,
+      "count": null
+    },
+    "images": {
+      "command": "npm run images:check",
+      "passed": true,
+      "count": null
+    },
+    "adminUnit": {
+      "command": "npm run admin:check",
+      "passed": true,
+      "count": 9
+    },
+    "quizCompareUnit": {
+      "command": "npm run phase4:check",
+      "passed": true,
+      "count": 19
+    },
+    "brandsUnit": {
+      "command": "npm run phase5:check",
+      "passed": true,
+      "count": 15
+    },
+    "practiceUnit": {
+      "command": "npm run practice:check",
+      "passed": true,
+      "count": 56
+    },
+    "deploymentAccessUnit": {
+      "command": "npm run deploy:test",
+      "passed": true,
+      "count": 7
+    },
+    "offlineSetupGuards": {
+      "command": "python scripts/test-supabase-setup.py",
+      "passed": true,
+      "count": 13
+    }
+  },
+  "note": "Admin tests validate local normalization, validation and fixtures, not hosted Auth/Storage/Publish. Setup guard tests use local HTTP mocks only.",
+  "browserChecksPassed": 229,
+  "browserConsoleErrors": 0,
+  "browserRuntimeErrors": 0,
+  "browserSuites": {
+    "routes-browser.json": 130,
+    "interactions-browser.json": 22,
+    "accessibility-browser.json": 8,
+    "catalog-browser.json": 38,
+    "quiz-compare-browser.json": 31
+  },
+  "adminPixelComparison": {
+    "chromiumDesktop": true,
+    "chromiumMobile": true
+  }
+}

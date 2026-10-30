@@ -1,0 +1,89 @@
+/* Learning interface; fret geometry, chord data and the scene stay untouched. */
+.fretline-signature .practice-page.practice-refined { padding-top:calc(var(--fl-header-height) + 44px); padding-bottom:80px; background:radial-gradient(ellipse at 80% 0,#cab2800a,transparent 40%),#090a0a; }
+.fretline-signature .practice-page.practice-refined .practice-intro { display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:20px 40px; }
+.fretline-signature .practice-page.practice-refined .practice-intro h1 { font-size:clamp(38px,4.5vw,62px); font-weight:400; line-height:1.4; letter-spacing:-.035em; }
+.fretline-signature .practice-page.practice-refined .practice-intro h1 span { color:#e6d4af; }
+.fretline-signature .practice-page.practice-refined .practice-intro-description { max-width:460px; font-size:14px; line-height:1.9; padding-bottom:8px; color:#b8bcad; }
+.fretline-signature .practice-page.practice-refined .practice-workspace { margin-top:36px; }
+.fretline-signature .practice-page.practice-refined .practice-studio { border:1px solid #cab28035; border-radius:8px; background:#10140e; box-shadow:0 20px 65px #0003; }
+.fretline-signature .practice-page.practice-refined .practice-viewer { padding-top:76px; background:#0e120b; }
+.fretline-signature .practice-page.practice-refined .practice-canvas-stage { height:clamp(380px,42vw,600px); background:radial-gradient(ellipse at 65% 45%,#2e2b22,#131410 55%,#090a08 95%); }
+.fretline-signature .practice-page.practice-refined .practice-camera-controls { top:16px; right:20px; }
+.fretline-signature .practice-page.practice-refined .practice-camera-controls button { border-color:#cab28040; background:#12170feb; color:#e6d4af; border-radius:5px; }
+.fretline-signature .practice-page.practice-refined .practice-camera-views { top:16px; left:20px; }
+.fretline-signature .practice-page.practice-refined .practice-camera-views summary { border-radius:5px; background:#12170f; border-color:#cab28040; color:#dedacb; }
+.fretline-signature .practice-page.practice-refined .practice-chord-detail { grid-template-columns:110px 170px minmax(210px,1fr) minmax(160px,.8fr); gap:28px; padding:34px; background:linear-gradient(100deg,#cab28007,transparent); border-top:1px solid #cab28030; }
+.fretline-signature .practice-page.practice-refined .practice-selected-heading h2 { font-size:82px; line-height:1.05; color:#e6d4af; }
+.fretline-signature .practice-page.practice-refined .practice-selected-heading>span { color:#bdc0b1; line-height:1.7; }
+.fretline-signature .practice-page.practice-refined .practice-fingering { padding-left:28px; border-color:#cab28026; }
+.fretline-signature .practice-page.practice-refined .practice-fingering h3 { color:#d9cba9; font-weight:400; }
+.fretline-signature .practice-page.practice-refined .practice-finger-number { background:#e6d4af; color:#15180e; width:30px; height:30px; border-color:#e6d4af; }
+.fretline-signature .practice-page.practice-refined .practice-fingering li { gap:14px; }
+.fretline-signature .practice-page.practice-refined .practice-playing-notes { border-color:#cab28026; }
+.fretline-signature .practice-page.practice-refined .practice-chord-navigation { padding:16px 30px 28px; }
+.fretline-signature .practice-page.practice-refined .practice-chord-navigation button { min-height:48px; border-color:#cab28040; border-radius:5px; background:#151a10; }
+.fretline-signature .practice-page.practice-refined .practice-chord-library { margin-top:60px; }
+.fretline-signature .practice-page.practice-refined .practice-section-heading h2 { font-size:30px; font-weight:400; }
+.fretline-signature .practice-page.practice-refined .practice-search-field input { min-height:58px; font-size:15px; }
+.fretline-signature .practice-page.practice-refined .practice-search-field>div { border-radius:5px; }
+.fretline-signature .practice-page.practice-refined .practice-type-filters { margin-block:22px 26px; gap:10px; }
+.fretline-signature .practice-page.practice-refined .practice-type-filters button { min-height:44px; font-size:12px; padding-inline:20px; border-color:#cab28032; background:#11160e; color:#c4c7b8; }
+.fretline-signature .practice-page.practice-refined .practice-type-filters button[aria-pressed='true'] { background:#e6d4af; border-color:#e6d4af; color:#13160c; }
+.fretline-signature .practice-page.practice-refined .practice-chord-options { grid-template-columns:repeat(7,minmax(0,1fr)); gap:16px; }
+.fretline-signature .practice-page.practice-refined .practice-chord-option { min-height:218px; padding:22px 12px; background:#11160d; border:1px solid #cab28020; border-radius:5px; }
+.fretline-signature .practice-page.practice-refined .practice-chord-option[aria-pressed='true'] { border-color:#d8c69b; background:radial-gradient(ellipse at 50% 0,#cab2801a,transparent 90%),#11160d; box-shadow:0 0 0 1px #cab28050; }
+.fretline-signature .practice-page.practice-refined .practice-chord-option:hover { border-color:#cab28088; background-color:#171d11; }
+.fretline-signature .practice-page.practice-refined .practice-chord-name { font-size:38px; color:#ece6d7; }
+.fretline-signature .practice-page.practice-refined .practice-chord-quality { color:#bec1b1; }
+.fretline-signature .practice-page.practice-refined .practice-chord-option .practice-chord-diagram { margin-top:12px; }
+.fretline-signature .practice-page.practice-refined .practice-model-credits { margin-top:32px; padding-top:22px; border-top:1px solid #cab28024; font-size:12px; color:#aeb29e; }
+.fretline-signature .image-credits-page .phase5-body>ul>li, .fretline-signature .image-credits-page .phase5-body>section>div { border-radius:5px; border-color:#cab28025; background:#11150e; padding:28px; }
+.fretline-signature .image-credits-page .image-attribution { line-height:1.9; }
+.fretline-signature .image-credits-page a { overflow-wrap:anywhere; }
+.fretline-signature .image-credits-page .phase5-body>section { margin-top:42px; }
+@media (max-width:1199px) {
+  .fretline-signature .practice-page.practice-refined .practice-chord-detail { grid-template-columns:90px 140px minmax(180px,1fr) minmax(150px,.8fr); gap:20px; padding:28px; }
+  .fretline-signature .practice-page.practice-refined .practice-selected-heading h2 { font-size:68px; }
+  .fretline-signature .practice-page.practice-refined .practice-chord-options { gap:12px; }
+}
+@media (max-width:1023px) {
+  .fretline-signature .practice-page.practice-refined .practice-chord-detail { grid-template-columns:110px 160px minmax(0,1fr); gap:25px; }
+  .fretline-signature .practice-page.practice-refined .practice-playing-notes { grid-column:1/-1; grid-row:auto; display:grid; grid-template-columns:1fr 1fr; border-left:0; border-top:1px solid #cab28025; padding:18px 0 0; gap:26px; }
+  .fretline-signature .practice-page.practice-refined .practice-chord-options { grid-template-columns:repeat(5,minmax(0,1fr)); }
+}
+@media (max-width:639px) {
+  .fretline-signature .practice-page.practice-refined { padding-top:calc(var(--fl-header-height) + 30px); }
+  .fretline-signature .practice-page.practice-refined .practice-intro { gap:12px; }
+  .fretline-signature .practice-page.practice-refined .practice-intro h1 { font-size:38px; }
+  .fretline-signature .practice-page.practice-refined .practice-intro-description { font-size:13px; }
+  .fretline-signature .practice-page.practice-refined .practice-workspace { margin-top:26px; }
+  .fretline-signature .practice-page.practice-refined .practice-viewer { padding-top:76px; }
+  .fretline-signature .practice-page.practice-refined .practice-canvas-stage { height:360px; }
+  .fretline-signature .practice-page.practice-refined .practice-camera-controls { right:10px; gap:4px; }
+  .fretline-signature .practice-page.practice-refined .practice-camera-controls button { min-width:44px; }
+  .fretline-signature .practice-page.practice-refined .practice-camera-views { left:10px; }
+  .fretline-signature .practice-page.practice-refined .practice-camera-views summary { padding-inline:10px; }
+  .fretline-signature .practice-page.practice-refined .practice-chord-detail { grid-template-columns:90px minmax(0,1fr); gap:20px; padding:24px 20px; }
+  .fretline-signature .practice-page.practice-refined .practice-selected-heading { grid-column:1; grid-row:1; }
+  .fretline-signature .practice-page.practice-refined .practice-selected-heading h2 { font-size:64px; }
+  .fretline-signature .practice-page.practice-refined .practice-diagram-wrap { grid-column:2; grid-row:1; }
+  .fretline-signature .practice-page.practice-refined .practice-fingering { grid-column:1/-1; grid-row:auto; border-left:0; border-top:1px solid #cab28025; padding:22px 0 0; }
+  .fretline-signature .practice-page.practice-refined .practice-fingering ul { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px 12px; }
+  .fretline-signature .practice-page.practice-refined .practice-fingering li { gap:9px; align-items:flex-start; }
+  .fretline-signature .practice-page.practice-refined .practice-playing-notes { display:block; }
+  .fretline-signature .practice-page.practice-refined .practice-chord-navigation { padding:0 16px 24px; gap:10px; }
+  .fretline-signature .practice-page.practice-refined .practice-chord-navigation button { min-width:0; padding-inline:12px; font-size:11px; gap:8px; }
+  .fretline-signature .practice-page.practice-refined .practice-navigation-count { font-size:11px; }
+  .fretline-signature .practice-page.practice-refined .practice-chord-library { margin-top:42px; }
+  .fretline-signature .practice-page.practice-refined .practice-section-heading h2 { font-size:27px; }
+  .fretline-signature .practice-page.practice-refined .practice-type-filters { flex-wrap:nowrap; overflow-x:auto; padding:5px; margin-inline:-5px; margin-top:16px; }
+  .fretline-signature .practice-page.practice-refined .practice-type-filters button { flex-shrink:0; padding-inline:17px; }
+  .fretline-signature .practice-page.practice-refined .practice-chord-options { grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+  .fretline-signature .practice-page.practice-refined .practice-chord-option { min-height:195px; padding:18px 8px; }
+  .fretline-signature .practice-page.practice-refined .practice-chord-name { font-size:34px; }
+  .fretline-signature .image-credits-page .phase5-body>ul>li, .fretline-signature .image-credits-page .phase5-body>section>div { padding:20px; }
+}
+@media (max-width:359px) {
+  .fretline-signature .practice-page.practice-refined .practice-viewer { padding-top:130px; }
+  .fretline-signature .practice-page.practice-refined .practice-camera-controls { top:70px; left:10px; right:10px; justify-content:center; }
+}

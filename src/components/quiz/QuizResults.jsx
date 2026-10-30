@@ -25,7 +25,7 @@ export default function QuizResults({ answers, onRetake, onEdit }) {
     <div className="quiz-results-page phase4-page premium-quiz">
       <header className="container-x phase4-heading">
         <nav aria-label={t('common.breadcrumb')} className="discovery-breadcrumb"><AppLink href="/">{t('nav.home')}</AppLink><span aria-hidden="true">›</span><AppLink href="/find-my-guitar">{t('nav.find')}</AppLink><span aria-hidden="true">›</span><span>{t('p4.quiz.results')}</span></nav>
-        <p className="discovery-kicker">FRETLINE / YOUR NEXT GUITAR</p>
+        <p className="discovery-kicker">FRETLINE / ผลการค้นหาของคุณ</p>
         <div className="phase4-title-row"><div><h1 ref={headingRef} tabIndex={-1}>{t('p4.quiz.results')}</h1><p>{t('p4.quiz.resultIntro')}</p></div><ShareLink url={shareUrl} /></div>
         <ul className="quiz-answer-chips" aria-label={t('p4.quiz.yourAnswers')}>{QUIZ_STEPS.map((step) => <li key={step.id}>{labelOf(step.id, answers[step.id])}</li>)}</ul>
         <div className="mb-6 flex flex-wrap gap-3"><button type="button" onClick={onEdit} className="phase4-button">{t('p4.quiz.edit')}</button><button type="button" onClick={onRetake} className="phase4-button">{t('p4.quiz.retake')}</button></div>

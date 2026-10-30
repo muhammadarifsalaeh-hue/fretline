@@ -1,0 +1,105 @@
+{
+  "checks": [
+    {
+      "name": "chromium-desktop",
+      "passed": true,
+      "evidence": {
+        "keyboardSkipLink": true,
+        "reducedMotion": true,
+        "mobileMenuAndAdminProtection": true,
+        "responsiveThreeModeComposition": true,
+        "originalRightsCreditsPreserved": true,
+        "publicLabelsClean": true
+      }
+    },
+    {
+      "name": "chromium-landscape",
+      "passed": true,
+      "evidence": {
+        "keyboardSkipLink": true,
+        "reducedMotion": true,
+        "mobileMenuAndAdminProtection": true,
+        "responsiveThreeModeComposition": true,
+        "originalRightsCreditsPreserved": true,
+        "publicLabelsClean": true
+      }
+    },
+    {
+      "name": "chromium-portrait",
+      "passed": true,
+      "evidence": {
+        "keyboardSkipLink": true,
+        "reducedMotion": true,
+        "mobileMenuAndAdminProtection": true,
+        "responsiveThreeModeComposition": true,
+        "originalRightsCreditsPreserved": true,
+        "publicLabelsClean": true
+      }
+    },
+    {
+      "name": "chromium-mobile",
+      "passed": true,
+      "evidence": {
+        "keyboardSkipLink": true,
+        "reducedMotion": true,
+        "mobileMenuAndAdminProtection": true,
+        "responsiveThreeModeComposition": true,
+        "originalRightsCreditsPreserved": true,
+        "publicLabelsClean": true
+      }
+    },
+    {
+      "name": "webkit-desktop",
+      "passed": true,
+      "evidence": {
+        "keyboardSkipLink": true,
+        "reducedMotion": true,
+        "mobileMenuAndAdminProtection": true,
+        "responsiveThreeModeComposition": true,
+        "originalRightsCreditsPreserved": true,
+        "publicLabelsClean": true
+      }
+    },
+    {
+      "name": "webkit-landscape",
+      "passed": true,
+      "evidence": {
+        "keyboardSkipLink": true,
+        "reducedMotion": true,
+        "mobileMenuAndAdminProtection": true,
+        "responsiveThreeModeComposition": true,
+        "originalRightsCreditsPreserved": true,
+        "publicLabelsClean": true
+      }
+    },
+    {
+      "name": "webkit-portrait",
+      "passed": true,
+      "evidence": {
+        "keyboardSkipLink": true,
+        "reducedMotion": true,
+        "mobileMenuAndAdminProtection": true,
+        "responsiveThreeModeComposition": true,
+        "originalRightsCreditsPreserved": true,
+        "publicLabelsClean": true
+      }
+    },
+    {
+      "name": "webkit-mobile",
+      "passed": true,
+      "evidence": {
+        "keyboardSkipLink": true,
+        "reducedMotion": true,
+        "mobileMenuAndAdminProtection": true,
+        "responsiveThreeModeComposition": true,
+        "originalRightsCreditsPreserved": true,
+        "publicLabelsClean": true
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "physicalIPadSafariTested": false,
+  "realSupabaseTested": false,
+  "passed": true
+}
