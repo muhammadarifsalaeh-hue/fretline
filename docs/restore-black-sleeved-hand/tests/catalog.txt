@@ -1,0 +1,31 @@
+
+> fretline@0.1.0 catalog:check
+> node scripts/validate-catalog.mjs
+
+
+=== Effective catalog report ===
+Total models        : 200 / 200 (0 to go)
+Brands              : 10
+Legacy stable IDs   : 18 (18 reviewed overrides)
+Imported stable IDs : 18
+Phase 7 additions   : 166
+Archived (not counted): 2
+  Córdoba     : 20 / 20
+  Epiphone    : 20 / 20
+  Fender      : 20 / 20
+  Gibson      : 20 / 20
+  Ibanez      : 20 / 20
+  Martin      : 20 / 20
+  PRS         : 20 / 20
+  Squier      : 20 / 20
+  Taylor      : 20 / 20
+  Yamaha      : 20 / 20
+Sample              : 0
+Fully verified      : 0
+Partially verified  : 200
+Price on request    : 173
+Verified reviews    : 0
+Models with images  : 20
+Placeholder models  : 180
+
+No data problems found. Unknown fields remain unknown.

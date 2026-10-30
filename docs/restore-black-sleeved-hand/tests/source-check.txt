@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "baselineCommit": "cb6d8195c1fcb18da10429e9991365e7497e0b4c",
+  "originalPracticeBranchCommit": "decd5544ade430530ac7c1e37ae463f251c90d50",
+  "originalModelAndSceneFilesIdentical": 13,
+  "sourceModelSHA256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "modelBytes": 1012288,
+  "meshes": [
+    "Black_LongSleeve_ForearmMesh",
+    "MakeHuman_Left_Hand_ForearmMesh"
+  ],
+  "materials": [
+    "Black_Cotton_LongSleeve_Elvaerwyn",
+    "HumanSkin_PBR_CC0"
+  ],
+  "poseLibrarySHA256": "2e2816f7adf533f80fba931e4d73b592a670a614ea014406903da162b5f01aa1",
+  "chords": 42,
+  "inspectablePoses": [
+    "Am7",
+    "C",
+    "Cmaj7",
+    "Dm",
+    "E7",
+    "Em7",
+    "Fmaj7"
+  ],
+  "rejectedPosesKeptHidden": 35,
+  "verifiedTeachingPoses": 0,
+  "models": 200,
+  "brands": 10,
+  "counts": {
+    "Córdoba": 20,
+    "Epiphone": 20,
+    "Fender": 20,
+    "Gibson": 20,
+    "Ibanez": 20,
+    "Martin": 20,
+    "PRS": 20,
+    "Squier": 20,
+    "Taylor": 20,
+    "Yamaha": 20
+  },
+  "allProductAndChordDataIdentical": true,
+  "unrelatedFilesChanged": false,
+  "databaseWrites": 0,
+  "hostedSupabaseVerified": false
+}

@@ -1,0 +1,82 @@
+{
+  "checks": [
+    {
+      "name": "desktop-camera-and-touch-controls",
+      "passed": true,
+      "evidence": {
+        "presets": 7,
+        "rotateZoomReset": true,
+        "pointerDrag": true,
+        "twoTouchPinch": false,
+        "guitarAndAppliedPoseUnchanged": true,
+        "layout": {
+          "x": 85.796875,
+          "y": 358.03125,
+          "width": 1268.40625,
+          "height": 531.796875
+        }
+      }
+    },
+    {
+      "name": "landscape-camera-and-touch-controls",
+      "passed": true,
+      "evidence": {
+        "presets": 7,
+        "rotateZoomReset": true,
+        "pointerDrag": true,
+        "twoTouchPinch": true,
+        "guitarAndAppliedPoseUnchanged": true,
+        "layout": {
+          "x": 54.71875,
+          "y": 331.703125,
+          "width": 1084.5625,
+          "height": 440.765625
+        }
+      }
+    },
+    {
+      "name": "portrait-camera-and-touch-controls",
+      "passed": true,
+      "evidence": {
+        "presets": 7,
+        "rotateZoomReset": true,
+        "pointerDrag": true,
+        "twoTouchPinch": true,
+        "guitarAndAppliedPoseUnchanged": true,
+        "layout": {
+          "x": 35.546875,
+          "y": 317.640625,
+          "width": 696.90625,
+          "height": 419
+        }
+      }
+    },
+    {
+      "name": "mobile-camera-and-touch-controls",
+      "passed": true,
+      "evidence": {
+        "presets": 7,
+        "rotateZoomReset": true,
+        "pointerDrag": true,
+        "twoTouchPinch": true,
+        "guitarAndAppliedPoseUnchanged": true,
+        "layout": {
+          "x": 21,
+          "y": 288.640625,
+          "width": 348,
+          "height": 349
+        }
+      }
+    }
+  ],
+  "engine": "Chromium",
+  "physicalIPadSafariTested": false,
+  "databaseWrites": 0,
+  "realGLB": true,
+  "mockHandUsed": false,
+  "teachingApprovalClaimed": false,
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "unexpectedNetworkFailures": [],
+  "passed": true
+}

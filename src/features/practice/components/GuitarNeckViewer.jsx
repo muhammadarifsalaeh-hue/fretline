@@ -14,9 +14,9 @@ const TH = {
   keyboard: 'คีย์บอร์ด: เลือกภาพแล้วกดลูกศรเพื่อหมุน + / − เพื่อซูม และ 0 เพื่อรีเซ็ต',
   model: 'แบบจำลองคอทั่วไป · 6 สาย · 12 เฟรต', caption: 'จุดทองแสดงหมายเลขนิ้วบนสาย ใช้ร่วมกับผังคอร์ดด้านข้าง',
   handLoading: 'กำลังโหลดโมเดลมือ…', handError: 'โมเดลมือโหลดไม่สำเร็จ',
-  handUnavailable: 'ท่ามือยังไม่พร้อม · ใช้ผังคอร์ดและจุดทอง', handReview: 'ท่ามือรอตรวจทาน · ซ่อนไว้สำหรับการฝึก', handVerified: 'ท่ามือผ่านการตรวจทาน',
-  review: 'ตรวจต้นแบบมือ (ยังไม่ใช่ท่าฝึก)', hideReview: 'ปิดต้นแบบมือ กลับไปดูผัง', retryHand: 'ลองโหลดโมเดลมืออีกครั้ง',
-  reviewWarning: 'ต้นแบบรอตรวจทาน — ห้ามใช้ฝึกตาม', reviewDetail: 'ตำแหน่งนิ้วอาจยังผิด ใช้ผังคอร์ดสำหรับฝึก',
+  handUnavailable: 'ท่ามือยังตรวจไม่ผ่าน · ใช้ผังคอร์ดและจุดวางนิ้ว', handReview: 'ท่ามือ 3D ยังรอตรวจทาน', handVerified: 'ท่ามือผ่านการตรวจทาน',
+  review: 'แสดงมือ 3D', hideReview: 'ซ่อนมือ 3D', retryHand: 'ลองโหลดโมเดลมืออีกครั้ง',
+  reviewWarning: 'ท่ามือ 3D ยังรอตรวจทาน', reviewDetail: 'ใช้ผังคอร์ดเป็นหลัก ยังไม่ยืนยันความถูกต้องของท่ามือสำหรับฝึกตาม',
 };
 const EN = {
   title: 'Explore the neck in 3D', hint: 'Find your angle. See the chord positions.',
@@ -28,9 +28,9 @@ const EN = {
   keyboard: 'Keyboard: focus the canvas, use arrows to rotate, + / − to zoom, and 0 to reset.',
   model: 'Generic study neck · 6 strings · 12 frets', caption: 'Gold markers show finger numbers on the strings. Use them with the chord diagram.',
   handLoading: 'Loading the hand model…', handError: 'The hand model could not load',
-  handUnavailable: 'Hand pose unavailable · use the diagram and gold markers', handReview: 'Hand pose needs review · hidden for practice', handVerified: 'Reviewed hand pose',
-  review: 'Inspect prototype hand (not a practice pose)', hideReview: 'Hide the prototype hand', retryHand: 'Try loading the hand model again',
-  reviewWarning: 'UNREVIEWED PROTOTYPE — DO NOT USE FOR PRACTICE', reviewDetail: 'Finger positions may be incorrect. Use the chord diagram for practice.',
+  handUnavailable: 'Hand pose has not passed checks · use the diagram and finger markers', handReview: '3D hand pose needs review', handVerified: 'Reviewed hand pose',
+  review: 'Show 3D hand', hideReview: 'Hide 3D hand', retryHand: 'Try loading the hand model again',
+  reviewWarning: '3D hand pose needs review', reviewDetail: 'Use the chord diagram for practice. The hand pose is not an approved teaching example.',
 };
 const copy = LANG === 'en' ? EN : TH;
 // Keep UI metadata local so camera controls do not import the lazy 3D module.
@@ -52,6 +52,7 @@ export default function GuitarNeckViewer({ chord, onPoseStatus }) {
   const [view, setView] = useState('angle');
   const [moduleFailed, setModuleFailed] = useState(false);
   const [handState, setHandState] = useState(null);
+  const [showHand, setShowHand] = useState(true);
   chordRef.current = chord;
   poseCallbackRef.current = onPoseStatus;
 
@@ -104,9 +105,17 @@ export default function GuitarNeckViewer({ chord, onPoseStatus }) {
   const handStatus = currentHand?.status ?? 'unavailable';
   const inspectionAllowed = currentHand?.inspectionAllowed === true;
   const reviewing = reviewMode && inspectionAllowed && handStatus === 'needs-review' && assetStatus === 'ready';
-  const toggleReview = () => {
-    if (status === 'ready' && assetStatus === 'ready' && handStatus === 'needs-review' && inspectionAllowed) sceneRef.current?.setHandReviewMode(!reviewMode);
-  };
+  const handMessage = assetStatus === 'loading' ? copy.handLoading : assetStatus === 'error' ? copy.handError
+    : handStatus === 'verified' ? copy.handVerified : inspectionAllowed ? copy.handReview : copy.handUnavailable;
+
+  // Restore the original rig's inspection path without approving any pose or
+  // weakening its geometry/hash gates. The preference survives chord changes;
+  // rejected candidates still stay hidden inside the engine.
+  useLayoutEffect(() => {
+    if (status === 'ready' && assetStatus === 'ready' && handStatus === 'needs-review' && inspectionAllowed && reviewMode !== showHand) {
+      sceneRef.current?.setHandReviewMode(showHand);
+    }
+  }, [status, assetStatus, handStatus, inspectionAllowed, reviewMode, showHand, chord.id]);
 
   return (
     <section className="practice-viewer" data-practice-status={status} aria-labelledby="practice-viewer-title">
@@ -129,6 +138,13 @@ export default function GuitarNeckViewer({ chord, onPoseStatus }) {
           <button data-practice-retry type="button" onClick={retry}><ReturnIcon size={17} />{copy.retry}</button>
         </div>}
       </div>
+      {status === 'ready' && <div className="practice-hand-state" data-hand-asset-status={assetStatus}
+        data-hand-pose-status={handStatus} data-hand-inspection-allowed={inspectionAllowed} data-hand-display-preference={showHand}>
+        <div role="status" aria-live="polite" aria-atomic="true"><strong>{handMessage}</strong></div>
+        {assetStatus === 'error' && <button type="button" data-practice-hand-retry onClick={() => sceneRef.current?.retryHand()}><ReturnIcon size={16} />{copy.retryHand}</button>}
+        {assetStatus === 'ready' && handStatus === 'needs-review' && inspectionAllowed && <button type="button" data-practice-hand-review
+          aria-pressed={reviewMode} onClick={() => setShowHand((value) => !value)}>{reviewMode ? copy.hideReview : copy.review}</button>}
+      </div>}
       <div className="practice-camera-controls" role="group" aria-label={LANG === 'en' ? 'Camera controls' : 'ควบคุมกล้อง'}>
         <div>
           <button type="button" aria-label={copy.left} disabled={status !== 'ready'} onClick={() => action((api) => api.rotate(-.2))}><span aria-hidden="true">↶</span></button>

@@ -22,6 +22,11 @@
 .practice-page .practice-hand-state p { margin-top: 3px; color: var(--fl-text-muted); font-size: 11px; line-height: 1.8; }
 .practice-page .practice-hand-state button { flex: 0 0 auto; display: inline-flex; align-items: center; justify-content: center; gap: 7px; max-width: 250px; min-height: 44px; padding: 8px 12px; border: 1px solid #b99a5c69; border-radius: 6px; color: var(--fl-accent-soft); font-size: 11px; line-height: 1.7; }
 .practice-page .practice-hand-state button[aria-pressed='true'] { border-color: #e8b56e; background: #e8b56e15; color: #f3d4a0; }
+.practice-page.practice-refined .practice-hand-state { justify-content: space-between; }
+/* An expanded view menu must not intercept controls behind its empty header. */
+.practice-page.practice-refined .practice-camera-views { pointer-events: none; }
+.practice-page.practice-refined .practice-camera-views > summary { width: max-content; pointer-events: auto; }
+.practice-page.practice-refined .practice-camera-views .practice-viewer-presets { pointer-events: auto; }
 .practice-page .practice-scene-state { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; padding: 28px; text-align: center; background: #0e0f0d; color: var(--fl-text-secondary); }
 .practice-page .practice-scene-state > svg { color: var(--fl-accent); }
 .practice-page .practice-scene-state h3 { font-size: 19px; color: var(--fl-text); }
