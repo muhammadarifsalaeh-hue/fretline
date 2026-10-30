@@ -1,0 +1,146 @@
+/* Existing tools and verified 3D renderer: presentation changes only. */
+.fretline-experience .premium-compare { background: var(--fl-canvas); }
+.fretline-experience .premium-compare .pc-hero__inner { min-height: 540px; padding-top: calc(var(--fl-header-height) + 25px); padding-bottom: 70px; }
+.fretline-experience .premium-compare .pc-hero .discovery-breadcrumb { margin-bottom: 35px; }
+.fretline-experience .premium-compare .pc-hero__copy { width: 60%; max-width: 740px; }
+.fretline-experience .premium-compare .pc-hero h1 { font-family: var(--fl-font-body); font-size: clamp(38px,4.5vw,64px); font-weight: 400; line-height: 1.4; }
+.fretline-experience .premium-compare .pc-hero h1 em { color: #dfcba5; }
+.fretline-experience .premium-compare .pc-hero h2 { font-size: 17px; font-weight: 400; }
+.fretline-experience .premium-compare .pc-hero__description { font-size: 13px; color: #b7bbac; }
+.fretline-experience .premium-compare .pc-benefits { gap: 25px; margin-top: 25px; max-width: 590px; }
+.fretline-experience .premium-compare .pc-benefit-icon { border-color: #d3b88445; color: #d8bf94; background: #14151099; width: 39px; height: 39px; }
+.fretline-experience .premium-compare .pc-benefit-title { font-size: 12px; }
+.fretline-experience .premium-compare .pc-benefit-copy { font-size: 11px; }
+.fretline-experience .premium-compare .pc-hero__signature { right: 6%; top: 170px; font-size: 24px; line-height: 1.6; color: #d7c39d; transform: none; font-style: normal; }
+.fretline-experience .premium-compare .pc-hero__shade { background: linear-gradient(90deg,#0b0c0c 5%,#0b0c0cf2 29%,#0b0c0c4a 75%),linear-gradient(0deg,#0b0c0c,transparent 75%); }
+.fretline-experience .premium-compare .pc-workspace { margin-top: 0; padding-top: 10px; padding-bottom: 80px; }
+.fretline-experience .premium-compare .pc-actions { padding-bottom: 21px; border-bottom: 1px solid var(--experience-line); margin-bottom: 25px; }
+.fretline-experience .premium-compare .pc-actions .phase4-button { border-color: #d3b88440; background: #161713; border-radius: 8px; font-size: 13px; }
+.fretline-experience .premium-compare .pc-actions .phase4-button.is-gold { background: #d8bf94; color: #1b1c15; box-shadow: none; }
+.fretline-experience .premium-compare .compare-count { color: #dfcba5; background: #d3b88408; border: 1px solid #d3b88430; border-radius: 7px; }
+.fretline-experience .premium-compare .pc-selection-grid { gap: 18px; }
+.fretline-experience .premium-compare .pc-model-card { border-color: #d3b88435; border-radius: 14px; background: #151612; }
+.fretline-experience .premium-compare .pc-model-card__image { height: 235px; background: #151612; }
+.fretline-experience .premium-compare .pc-model-card h2 { min-height: 0; font-family: var(--fl-font-display); font-size: 24px; font-weight: 400; line-height: 1.3; }
+.fretline-experience .premium-compare .pc-model-card h2 a { display: block; overflow: visible; -webkit-line-clamp: unset; }
+.fretline-experience .premium-compare .pc-model-card__copy { padding: 17px; }
+.fretline-experience .premium-compare .pc-model-card__brand { font-size: 10px; color: #c8b690; letter-spacing: .1em; text-transform: uppercase; }
+.fretline-experience .premium-compare .pc-model-card__price { font: 400 17px/1.5 var(--fl-font-body); margin-top: 14px; }
+.fretline-experience .premium-compare .pc-empty-slot { min-height: 270px; border-color: #d3b88445; background: radial-gradient(ellipse at 50% 35%,#d3b88406,transparent 65%),#121310; }
+.fretline-experience .premium-compare .pc-empty-slot__plus { border-color: #d3b88480; color: #d8bf94; width: 52px; height: 52px; }
+.fretline-experience .premium-compare .pc-categories { margin-top: 32px; gap: 9px; padding-block: 4px 12px; }
+.fretline-experience .premium-compare .pc-categories button { padding: 13px 19px; color: #b7baac; background: #161713; border-color: #d3b88424; }
+.fretline-experience .premium-compare .pc-categories button[aria-selected='true'] { color: #e7d5b5; background: #d3b88414; border-color: #d3b88480; }
+.fretline-experience .premium-compare.comparison-page .compare-table-scroll { border-radius: 13px; border-color: #d3b88440; background: #12130f; }
+.fretline-experience .premium-compare.comparison-page .compare-table-scroll [role='columnheader'] { border-top-color: #d3b88465; background: #1d1e1a; padding-block: 20px; }
+.fretline-experience .premium-compare.comparison-page .compare-table-scroll [role='columnheader']:first-child { background: #1d1e1a; }
+.fretline-experience .premium-compare.comparison-page .compare-table-scroll .comparison-row-label { background: #191a16; border-right-color: #d3b88420; }
+.fretline-experience .premium-compare.comparison-page .compare-table-scroll [role='cell'] { padding-block: 17px; font-size: 13px; }
+.fretline-experience .premium-compare [data-compare-different] { background: #d3b8840a; }
+.fretline-experience .premium-compare [data-compare-different] .comparison-row-label { box-shadow: inset 3px 0 #d3b884b0; color: #ead8b8; }
+.fretline-experience .premium-compare .comparison-value-note { color: #bfc4ae; font-size: 11px; }
+.fretline-experience .premium-quiz { background: var(--fl-canvas); --quiz-gold: #dfcba5; }
+.fretline-experience .premium-quiz .quiz-cinematic-hero { min-height: 520px; background: #0b0c0c; }
+.fretline-experience .premium-quiz .quiz-cinematic-hero::after { background: linear-gradient(90deg,#0b0c0c 2%,#0b0c0ce0 30%,#0b0c0c20 80%),linear-gradient(0deg,#0b0c0c,transparent 50%); }
+.fretline-experience .premium-quiz .quiz-hero-inner { padding-top: calc(var(--fl-header-height) + 26px); padding-bottom: 55px; }
+.fretline-experience .premium-quiz .quiz-hero-copy { width: 59%; padding-top: 35px; }
+.fretline-experience .premium-quiz .quiz-page-title { font: 400 clamp(42px,5vw,70px)/1.33 var(--fl-font-body); }
+.fretline-experience .premium-quiz .quiz-hero-copy h2 { margin-top: 19px; font-size: 17px; font-weight: 400; }
+.fretline-experience .premium-quiz .quiz-hero-description { font-size: 13px; color: #b9bdad; }
+.fretline-experience .premium-quiz .quiz-five-factors { padding-top: 10px; padding-bottom: 32px; gap: 20px; }
+.fretline-experience .premium-quiz .quiz-factor-icon { width: 46px; height: 46px; border-color: #d3b88445; background: #d3b88405; }
+.fretline-experience .premium-quiz .quiz-five-factors h2 { font-size: 12px; }
+.fretline-experience .premium-quiz .quiz-five-factors p { font-size: 11px; }
+.fretline-experience .premium-quiz .quiz-shell { padding-bottom: 70px; }
+.fretline-experience .premium-quiz .quiz-studio-panel { padding: 30px; border-radius: 18px; border-color: #d3b88445; background: linear-gradient(140deg,#1e1f17,#131410 60%); box-shadow: 0 20px 60px #0003; }
+.fretline-experience .premium-quiz .quiz-progress { padding-bottom: 27px; }
+.fretline-experience .premium-quiz .quiz-step-disc { border-color: #d3b88450; color: #b9bba9; background: #131410; width: 35px; height: 35px; }
+.fretline-experience .premium-quiz .is-current .quiz-step-disc { color: #171a12; background: #d8bf94; border-color: #d8bf94; box-shadow: 0 0 0 5px #d3b8840b; }
+.fretline-experience .premium-quiz .is-complete .quiz-step-disc { background: #54482d; border-color: #a68c59; }
+.fretline-experience .premium-quiz .quiz-studio-layout { gap: 32px; }
+.fretline-experience .premium-quiz .quiz-question h2 { font-size: clamp(24px,2.4vw,33px); font-weight: 450; }
+.fretline-experience .premium-quiz .quiz-options { gap: 10px; }
+.fretline-experience .premium-quiz .quiz-option { border-radius: 10px; min-height: 80px; border-color: #d3b88426; background: #11120e; padding: 16px; transition: border-color 180ms,background-color 180ms,transform 180ms; }
+.fretline-experience .premium-quiz .quiz-option.is-selected { border-color: #d3b884b0; background: #d3b88410; box-shadow: inset 3px 0 #d3b884; }
+.fretline-experience .premium-quiz .quiz-option-title { font-size: 14px; color: #ebe9dc; }
+.fretline-experience .premium-quiz .quiz-option-description { color: #b9bdad; font-size: 12px; line-height: 1.8; }
+.fretline-experience .premium-quiz .quiz-step-actions { margin-top: 24px; gap: 12px; }
+.fretline-experience .premium-quiz .quiz-next { min-width: 190px; }
+.fretline-experience .quiz-results-page .phase4-heading { padding-top: calc(var(--fl-header-height) + 35px); }
+.fretline-experience .quiz-results-page h1 { font-size: var(--fl-type-page); font-weight: 400; }
+.fretline-experience .quiz-results-page .match-card { background: #151610; border: 1px solid #d3b88440; border-radius: 17px; }
+.fretline-experience .quiz-results-page .quiz-answer-chips li { background: #d3b88408; border-color: #d3b88430; border-radius: 7px; font-size: 12px; }
+.fretline-experience .practice-page.practice-refined { background: radial-gradient(ellipse at 75% 10%,#d3b8840a,transparent 45%),var(--fl-canvas); padding-top: var(--fl-header-height); }
+.fretline-experience .practice-page.practice-refined .practice-intro { padding-top: 39px; padding-bottom: 27px; }
+.fretline-experience .practice-page.practice-refined .practice-intro h1 { font-size: clamp(35px,4.3vw,59px); font-weight: 400; line-height: 1.35; }
+.fretline-experience .practice-page.practice-refined .practice-intro h1 span { color: #dfcba5; }
+.fretline-experience .practice-page.practice-refined .practice-intro-description { font-size: 13px; margin-top: 12px; color: #b7bbac; }
+.fretline-experience .practice-page.practice-refined .practice-studio { border-radius: 19px; border-color: #d3b88455; box-shadow: 0 20px 70px #0004; overflow: hidden; }
+.fretline-experience .practice-page.practice-refined .practice-canvas-stage { height: clamp(390px,37vw,535px); background: radial-gradient(ellipse at 65% 50%,#493724,#1d1c18 48%,#0b0c0b 90%); }
+.fretline-experience .practice-page.practice-refined .practice-camera-controls { top: 16px; right: 20px; }
+.fretline-experience .practice-page.practice-refined .practice-camera-controls button { border: 1px solid #d3b88435; border-radius: 8px; background: #10150dee; color: #dfd7c5; }
+.fretline-experience .practice-page.practice-refined .practice-chord-detail { background: #151610; border-top: 1px solid #d3b88435; padding-block: 28px; }
+.fretline-experience .practice-page.practice-refined .practice-selected-heading h2 { color: #e4cda3; }
+.fretline-experience .practice-page.practice-refined .practice-finger-number { color: #1b1e14; background: #dcc499; border-color: #dcc499; }
+.fretline-experience .practice-page.practice-refined .practice-chord-navigation { padding: 15px 22px; background: #14150f; border-top: 1px solid #d3b88426; }
+.fretline-experience .practice-page.practice-refined .practice-chord-navigation button { border-color: #d3b88445; background: #d3b88406; border-radius: 8px; }
+.fretline-experience .practice-page.practice-refined .practice-chord-library { margin-top: 44px; }
+.fretline-experience .practice-page.practice-refined .practice-section-heading h2 { font-size: 28px; font-weight: 400; }
+.fretline-experience .practice-page.practice-refined .practice-search-field input { border-radius: 9px; background: #171812; border-color: #d3b88440; min-height: 54px; }
+.fretline-experience .practice-page.practice-refined .practice-type-filters { gap: 9px; margin-top: 17px; margin-bottom: 24px; }
+.fretline-experience .practice-page.practice-refined .practice-type-filters button { border-color: #d3b88430; background: #151610; font-size: 12px; padding-inline: 19px; }
+.fretline-experience .practice-page.practice-refined .practice-type-filters button[aria-pressed='true'] { color: #e9d9ba; background: #d3b88418; border-color: #d3b884a0; }
+.fretline-experience .practice-page.practice-refined .practice-chord-options { gap: 15px; }
+.fretline-experience .practice-page.practice-refined .practice-chord-option { border-radius: 12px; background: radial-gradient(ellipse at 50% 0,#d3b88407,transparent 60%),#14150f; border-color: #d3b88426; min-height: 204px; transition: border-color 200ms,background-color 200ms,transform 200ms; }
+.fretline-experience .practice-page.practice-refined .practice-chord-option[aria-pressed='true'] { border-color: #d3b884d0; background-color: #201f17; box-shadow: 0 0 0 1px #d3b88420; }
+.fretline-experience .practice-page.practice-refined .practice-chord-quality { color: #aeb59f; }
+@media (hover:hover) and (pointer:fine) {
+  .fretline-experience .premium-quiz .quiz-option:hover { border-color: #d3b88490; background-color: #1d1e16; }
+  .fretline-experience .practice-page.practice-refined .practice-chord-option:hover { transform: translateY(-3px); border-color: #d3b88490; }
+}
+@media (max-width:1199px) {
+  .fretline-experience .premium-compare .pc-selection-grid { gap: 12px; }
+  .fretline-experience .premium-compare .pc-model-card__image { height: 205px; }
+}
+@media (max-width:1023px) {
+  .fretline-experience .premium-compare .pc-hero__copy { width: 70%; }
+  .fretline-experience .premium-compare .pc-hero__signature { right: 4%; font-size: 21px; }
+  .fretline-experience .premium-compare .pc-model-card h2 { font-size: 21px; }
+  .fretline-experience .premium-quiz .quiz-hero-copy { width: 68%; }
+  .fretline-experience .premium-quiz .quiz-studio-panel { padding: 24px; }
+  .fretline-experience .practice-page.practice-refined .practice-canvas-stage { height: 420px; }
+}
+@media (max-width:639px) {
+  .fretline-experience .premium-compare .pc-hero__inner { min-height: 0; padding-bottom: 38px; }
+  .fretline-experience .premium-compare .pc-hero__copy { width: 100%; }
+  .fretline-experience .premium-compare .pc-hero h1 { font-size: clamp(35px,9.7vw,48px); }
+  .fretline-experience .premium-compare .pc-hero h2 { font-size: 15px; }
+  .fretline-experience .premium-compare .pc-hero__signature { display: none; }
+  .fretline-experience .premium-compare .pc-benefits { gap: 10px; }
+  .fretline-experience .premium-compare .pc-selection-grid { gap: 10px; }
+  .fretline-experience .premium-compare .pc-model-card__image { height: 180px; }
+  .fretline-experience .premium-compare .pc-model-card__copy { padding: 13px; }
+  .fretline-experience .premium-compare .pc-model-card h2 { font-size: 23px; }
+  .fretline-experience .premium-compare .pc-empty-slot { min-height: 235px; }
+  .fretline-experience .premium-compare .pc-categories button { min-height: 50px; font-size: 12px; padding-inline: 14px; }
+  .fretline-experience .premium-quiz .quiz-cinematic-hero { min-height: 0; }
+  .fretline-experience .premium-quiz .quiz-hero-copy { width: 100%; padding-top: 39px; }
+  .fretline-experience .premium-quiz .quiz-page-title { font-size: 43px; }
+  .fretline-experience .premium-quiz .quiz-hero-copy h2 { font-size: 15px; }
+  .fretline-experience .premium-quiz .quiz-five-factors { gap: 10px; }
+  .fretline-experience .premium-quiz .quiz-five-factors h2 { font-size: 10px; }
+  .fretline-experience .premium-quiz .quiz-studio-panel { padding: 19px 16px; }
+  .fretline-experience .premium-quiz .quiz-studio-layout { gap: 22px; }
+  .fretline-experience .premium-quiz .quiz-option { padding: 13px; min-height: 86px; }
+  .fretline-experience .premium-quiz .quiz-question h2 { font-size: 25px; }
+  .fretline-experience .premium-quiz .quiz-next { min-width: 150px; }
+  .fretline-experience .premium-quiz .quiz-previous { min-width: 0; }
+  .fretline-experience .practice-page.practice-refined .practice-intro { padding-top: 28px; }
+  .fretline-experience .practice-page.practice-refined .practice-canvas-stage { height: 350px; }
+  .fretline-experience .practice-page.practice-refined .practice-camera-controls { top: 12px; right: 10px; gap: 5px; }
+  .fretline-experience .practice-page.practice-refined .practice-chord-detail { padding: 22px 18px; }
+  .fretline-experience .practice-page.practice-refined .practice-chord-navigation { padding: 13px 12px; gap: 8px; }
+  .fretline-experience .practice-page.practice-refined .practice-chord-navigation button { min-width: 0; font-size: 11px; padding-inline: 10px; }
+  .fretline-experience .practice-page.practice-refined .practice-chord-options { gap: 10px; }
+  .fretline-experience .practice-page.practice-refined .practice-chord-option { min-height: 180px; padding-inline: 6px; }
+}

@@ -17,6 +17,14 @@ const slides = [
 
 export default function Hero() {
   const { sectionRef, active, dragging, handlers } = useHeroSlideshow(slides.length);
+  const [preloadScenes, setPreloadScenes] = useState(false);
+  useEffect(() => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return undefined;
+    // Give the first photograph and Thai font the initial network budget. The
+    // remaining two original scenes load before the six-second slide change.
+    const timer = window.setTimeout(() => setPreloadScenes(true), 2500);
+    return () => window.clearTimeout(timer);
+  }, []);
   return (
     <>
       <section ref={sectionRef} id="top" className="home-hero signature-hero relative isolate z-10 bg-ink"
@@ -24,15 +32,15 @@ export default function Hero() {
         <div className="hero-visual signature-hero-visual" aria-hidden="true">
           {slides.map((photo, index) => <div key={photo.scene}
             className={`signature-hero-slide${index === active ? ' is-active' : ''}`} data-scene={photo.scene}>
-            <img src={photo.src} srcSet={photo.srcSet} sizes={photo.scene === 'electric' ? '(min-width:640px) 72vw, 100vw' : '100vw'}
+            {(index === 0 || active === index || preloadScenes) && <img src={photo.src} srcSet={photo.srcSet} sizes={photo.scene === 'electric' ? '(min-width:640px) 76vw, 100vw' : '100vw'}
               alt="" width={photo.width} height={photo.height} loading={index === 0 ? 'eager' : 'lazy'}
-              fetchpriority={index === 0 ? 'high' : undefined} decoding="async" draggable="false" />
+              fetchpriority={index === 0 ? 'high' : 'low'} decoding="async" draggable="false" />}
           </div>)}
           <div aria-hidden="true" className="signature-hero-shade" />
         </div>
 
         <div className="hero-content signature-hero-content container-x relative z-10">
-          <div className="signature-hero-copy">
+          <div className="signature-hero-copy experience-hero-copy">
             <p className="signature-section-eyebrow">{t('signature.hero.eyebrow')}</p>
             <h1 className="signature-hero-title">
               <span>{t('hero.title1')}</span>
@@ -47,7 +55,7 @@ export default function Hero() {
               </AppLink>
             </div>
 
-            <div className="signature-hero-search"><SearchBar showSuggestions={false} /></div>
+            <div className="signature-hero-search experience-hero-search"><SearchBar showSuggestions={false} /></div>
           </div>
         </div>
       </section>
@@ -55,3 +63,4 @@ export default function Hero() {
     </>
   );
 }
+import { useEffect, useState } from 'react';

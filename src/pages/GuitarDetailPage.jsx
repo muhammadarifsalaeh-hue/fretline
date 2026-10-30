@@ -75,16 +75,18 @@ function DetailContent({ guitar }) {
           <span className="text-bone/80">{guitar.brand} {guitar.name}</span>
         </nav>
         <div className="detail-main-grid">
-          {developmentPreview ? <div>
+          <div className="detail-gallery-stage">{developmentPreview ? <div>
             {gallery}
             <LocalPreviewImagePicker guitar={guitar} onApply={() => setSelectionIndex(0)} />
-          </div> : gallery}
+          </div> : gallery}</div>
           <div className="detail-summary">
+            <div className="detail-model-heading">
             <AppLink href={brandUrl(guitar.brand)} className="discovery-kicker hover:text-gold">{guitar.brand}</AppLink>
             <h1 className="mt-2 font-serif text-[clamp(2rem,3.7vw,3.5rem)]">{guitar.name}</h1>
             <div className="mt-3 flex flex-wrap gap-2">
               <AppLink href={categoryUrl(guitar.category)} className="detail-pill">{categoryName}</AppLink>
               <span className="detail-pill text-gold">{t(`status.${guitar.dataStatus ?? 'sample'}`)}</span>
+            </div>
             </div>
             <div className="detail-price-block">
               {sample && <p className="mb-1 text-xs text-gold">{t('detail.samplePrice')}</p>}

@@ -1,0 +1,172 @@
+/* Gallery surfaces, not replacement product imagery. */
+.fretline-experience .catalog-page { background: var(--fl-canvas); }
+.fretline-experience .catalog-page .catalog-cinematic-hero { background: #0c0e0d; border-bottom: 1px solid var(--experience-line); }
+.fretline-experience .catalog-page .catalog-cinematic-photo { left: 45%; }
+.fretline-experience .catalog-page .catalog-cinematic-photo img { object-position: 50% 42%; filter: saturate(.68) brightness(.75); }
+.fretline-experience .catalog-page .catalog-cinematic-hero::after { background: linear-gradient(90deg,#0c0e0d 5%,#0c0e0dea 34%,#0c0e0d15 85%),linear-gradient(0deg,#0c0e0d 0%,transparent 70%); }
+.fretline-experience .catalog-page .catalog-heading { padding-top: calc(var(--fl-header-height) + 34px); padding-bottom: 26px; }
+.fretline-experience .catalog-page .catalog-heading h1 { margin-top: 12px; font: 400 var(--fl-type-page)/1.35 var(--fl-font-body); }
+.fretline-experience .catalog-page .catalog-heading > .discovery-kicker { margin-top: 30px; color: #d6bf97; }
+.fretline-experience .catalog-page .catalog-heading > p:last-of-type { margin-top: 10px; color: #c9c9bc; font-size: 14px; }
+.fretline-experience .catalog-page .catalog-search { width: min(100%,720px); min-height: 60px; border: 1px solid #d3b88450; background: #161713e8; border-radius: 10px; padding: 7px 8px 7px 18px; margin-top: 28px; }
+.fretline-experience .catalog-page .catalog-search input { font-size: 14px; background: transparent; }
+.fretline-experience .catalog-page .catalog-search-submit { min-width: 45px; min-height: 44px; background: #d8bf94; color: #181912; border-radius: 7px; }
+.fretline-experience .catalog-page .catalog-categories { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 23px; }
+.fretline-experience .catalog-page .catalog-categories button { min-height: 49px; min-width: 0; flex: 0 1 auto; padding: 9px 17px; flex-direction: row; gap: 10px; border-radius: 8px; background: #161713d9; border-color: #ffffff15; font-size: 12px; }
+.fretline-experience .catalog-page .catalog-categories svg { width: 18px; height: 22px; }
+.fretline-experience .catalog-page .catalog-categories button[aria-pressed='true'] { color: #ead9ba; border-color: #d3b88490; background: #d3b88412; }
+.fretline-experience .catalog-body { padding-top: 36px; padding-bottom: 85px; gap: 34px; }
+.fretline-experience .catalog-sidebar { width: auto; border-right: 1px solid var(--fl-border); padding-right: 19px; }
+.fretline-experience .catalog-sidebar > div { top: calc(var(--fl-header-height) + 20px); }
+.fretline-experience .catalog-toolbar { padding-bottom: 19px; border-bottom: 1px solid var(--experience-line); margin-bottom: 22px; }
+.fretline-experience .catalog-result-count > p:first-child { font-size: 19px; }
+.fretline-experience .catalog-result-count > p + p { font-size: 11px; margin-top: 5px; }
+.fretline-experience .catalog-toolbar select { min-height: 46px; border-color: #d3b88440; background: #141710; }
+.fretline-experience .catalog-grid { gap: 23px; }
+.fretline-experience .discovery-card { border: 1px solid #d3b88422; border-radius: 14px; background: #141512; box-shadow: none; animation: none; transition: border-color 240ms,box-shadow 300ms,transform 300ms var(--experience-ease); }
+.fretline-experience .catalog-product-card .catalog-card-image { aspect-ratio: 4/4.35; background: radial-gradient(ellipse at 50% 40%,#30352a,#141810 75%); border-bottom: 1px solid #d3b88414; }
+.fretline-experience .catalog-product-card .catalog-product-art { background: radial-gradient(ellipse at 50% 35%,#262c21,#121310 80%); }
+.fretline-experience .catalog-card-copy { padding: 21px; }
+.fretline-experience .catalog-card-brand { font-size: 10px; color: #c9bd9f; letter-spacing: .14em; }
+.fretline-experience .catalog-card-category { font-size: 10px; }
+.fretline-experience .catalog-card-copy h3 { margin-top: 9px; font-size: clamp(23px,2vw,29px); font-weight: 400; line-height: 1.22; }
+.fretline-experience .catalog-card-copy > p.text-gold { font-size: 11px; color: #aeb09f; }
+.fretline-experience .catalog-card-tags { margin-top: 13px; }
+.fretline-experience .catalog-card-tags li { font-size: 10px; border-color: #d3b88422; border-radius: 5px; padding: 4px 7px; }
+.fretline-experience .catalog-card-price { padding-top: 22px; }
+.fretline-experience .catalog-card-price > span:first-child { font-family: var(--fl-font-body); color: #dfcba5; font-size: 19px; font-weight: 400; }
+.fretline-experience .catalog-card-actions { margin-top: 19px; gap: 8px; }
+.fretline-experience .catalog-card-actions :is(a,button) { min-height: 46px; height: auto; border-radius: 6px; font-size: 11px; padding: 9px 10px; }
+.fretline-experience .catalog-card-actions > a { color: #e5e2d4; background: #ffffff08; border: 1px solid #ffffff20; }
+.fretline-experience .price-source-note { font-size: 11px; line-height: 1.8; }
+.fretline-experience .guitar-card .card-copy { padding: 23px; gap: 10px; }
+.fretline-experience .guitar-card .card-copy h3 { font-size: 28px; line-height: 1.25; }
+.fretline-experience .guitar-card .card-copy li { padding: 3px 7px; border-radius: 5px; font-size: 10px; }
+.fretline-experience .guitar-card > div:first-child { aspect-ratio: 4/4.4; }
+.fretline-experience .detail-page { background: radial-gradient(ellipse at 65% 5%,#d3b88408,transparent 35%),var(--fl-canvas); }
+.fretline-experience .detail-hero { padding-top: calc(var(--fl-header-height) + 30px); padding-bottom: 60px; }
+.fretline-experience .detail-hero > .discovery-breadcrumb { margin-bottom: 30px; }
+.fretline-experience .detail-main-grid { grid-template-columns: minmax(0,1.18fr) minmax(0,1fr); gap: clamp(32px,5vw,76px); align-items: start; }
+.fretline-experience .detail-gallery-stage { position: sticky; top: calc(var(--fl-header-height) + 20px); min-width: 0; }
+.fretline-experience .gallery-layout { gap: 13px; }
+.fretline-experience .gallery-main { min-height: 460px; aspect-ratio: 1/1.05; border: 1px solid #d3b88435; border-radius: 17px; background: radial-gradient(ellipse at 50% 35%,#2c3325,#0f130e 75%); }
+.fretline-experience .gallery-main img { transition: opacity 300ms var(--experience-ease); }
+.fretline-experience .gallery-thumbnails { gap: 9px; }
+.fretline-experience .gallery-thumbnail { border-radius: 9px; border-color: #d3b88422; background: #141810; transition: border-color 180ms,opacity 180ms; }
+.fretline-experience .gallery-thumbnail.is-active { border-color: #d3b884; box-shadow: 0 0 0 1px #d3b88430; }
+.fretline-experience .detail-model-heading { padding-block: 7px 24px; border-bottom: 1px solid var(--experience-line); }
+.fretline-experience .detail-summary h1 { font-size: clamp(35px,4.3vw,60px); line-height: 1.14; font-weight: 400; }
+.fretline-experience .detail-summary .discovery-kicker { color: #d3b884; font-size: 12px; }
+.fretline-experience .detail-pill { background: #d3b88405; border: 1px solid #d3b88430; border-radius: 5px; font-size: 10px; }
+.fretline-experience .detail-price-block { margin-top: 23px; padding-block: 0 6px; }
+.fretline-experience .detail-price-block .text-3xl { color: #dfcba5; font-size: 29px; font-family: var(--fl-font-body); }
+.fretline-experience .detail-source-note { margin-top: 21px; }
+.fretline-experience .detail-actions { gap: 11px; margin-top: 27px; }
+.fretline-experience .detail-action { min-height: 52px; border-radius: 8px; border-color: #d3b88460; background: #d3b88408; font-size: 13px; }
+.fretline-experience .detail-action:first-child { color: #1e1e17; background: #d8bf94; border-color: #d8bf94; }
+.fretline-experience .detail-action:first-child svg { color: currentColor; }
+.fretline-experience .detail-action.is-active { color: #ead6b1; background: #53472a; border-color: #c6aa75; }
+.fretline-experience .detail-facts { gap: 16px; border-color: var(--experience-line); padding-block: 23px; }
+.fretline-experience .detail-facts dt { font-size: 11px; color: #a8ac9e; }
+.fretline-experience .detail-facts dd { margin-top: 7px; font-size: 14px; }
+.fretline-experience .detail-information { padding-bottom: 70px; }
+.fretline-experience .detail-tabs { gap: 30px; border-color: var(--experience-line); }
+.fretline-experience .detail-tabs button { min-height: 60px; font-size: 14px; padding-inline: 5px; }
+.fretline-experience .detail-tabs button[aria-selected='true'] { color: #e0c9a0; border-bottom-color: #d3b884; }
+.fretline-experience .detail-tab-panel { padding-top: 33px; }
+.fretline-experience .detail-key-features { padding: 24px; border-radius: 12px; border: 1px solid #d3b88426; background: #d3b88404; }
+.fretline-experience .detail-key-features dt { color: #d3b884; }
+.fretline-experience .spec-table th, .fretline-experience .spec-table td { padding-block: 16px; font-size: 13px; line-height: 1.9; }
+.fretline-experience .spec-table .spec-group { padding-top: 31px; color: #d8bf94; font-size: 16px; font-weight: 500; }
+.fretline-experience .product-lightbox { background: #080b08fa; backdrop-filter: blur(16px); }
+.fretline-experience .product-lightbox .lightbox-thumbnail { border-radius: 8px; }
+.fretline-experience .brands-page { background: #0b0c0c; }
+.fretline-experience .brands-page .brand-directory-atmosphere { opacity: .65; }
+.fretline-experience .brands-page .phase5-heading { padding-top: calc(var(--fl-header-height) + 34px); padding-bottom: 36px; }
+.fretline-experience .brands-page .brand-directory-grid { gap: 20px; grid-template-columns: repeat(4,minmax(0,1fr)); }
+.fretline-experience .brands-page .brand-directory-card { border-radius: 14px; border-color: #d3b88440; }
+.fretline-experience .brands-page .brand-directory-card::before { padding-top: 116%; }
+.fretline-experience .brands-page .brand-card-mark { top: 19%; }
+.fretline-experience .brands-page .brand-directory-caption { padding-bottom: 8px; }
+.fretline-experience .brand-detail-stats { border-block-color: var(--experience-line); padding-block: 22px; }
+.fretline-experience .brand-detail-stats dd:not(.is-text) { color: #d8bf94; font-family: var(--fl-font-display); font-size: 45px; }
+.fretline-experience .brand-model-grid { gap: 23px; }
+.fretline-experience .brand-models-heading { margin-top: 38px; margin-bottom: 20px; }
+.fretline-experience .brands-search { border-color: #d3b88440; background: #141810; border-radius: 9px; }
+.fretline-experience .phase5-chip { border-color: #d3b88430; border-radius: 7px; font-size: 12px; padding-inline: 17px; }
+.fretline-experience .phase5-chip.is-active { color: #e7d4b4; background: #d3b88414; border-color: #d3b88488; }
+.fretline-experience .wishlist-page { background: radial-gradient(ellipse at 80% 0%,#d3b8840a,transparent 45%),var(--fl-canvas); }
+.fretline-experience .wishlist-page .phase5-heading { padding-top: calc(var(--fl-header-height) + 38px); }
+.fretline-experience .wishlist-toolbar { padding-block: 20px; border-top: 1px solid var(--experience-line); }
+.fretline-experience .wishlist-row { border-radius: 14px; border: 1px solid #d3b88430; padding: 18px; background: #141512; margin-bottom: 14px; }
+.fretline-experience .wishlist-image { width: 122px; height: 150px; border-radius: 9px; }
+.fretline-experience .wishlist-copy h2 { font-size: 28px; font-weight: 400; line-height: 1.25; }
+.fretline-experience .wishlist-brand { color: #c8b690; font-size: 11px; }
+.fretline-experience .wishlist-meta { font-size: 11px; }
+.fretline-experience .wishlist-price { font-size: 18px; color: #dfcba5; }
+.fretline-experience .wishlist-row-actions :is(a,button) { border-radius: 7px; }
+.fretline-experience .qr-card { border-color: #d3b88445; border-radius: 20px; background: radial-gradient(ellipse at 0 0,#d3b88410,transparent 70%),#121310; }
+.fretline-experience .qr-card h1 { font-size: clamp(29px,4.2vw,44px); line-height: 1.5; }
+.fretline-experience .qr-image { box-shadow: 0 18px 50px #0005; border-radius: 12px; overflow: hidden; }
+.fretline-experience .credits-page .image-credit { border-color: #d3b88430; border-radius: 12px; }
+@media (hover:hover) and (pointer:fine) {
+  .fretline-experience .discovery-card:hover { transform: translateY(-4px); border-color: #d3b88480; box-shadow: 0 18px 45px #0004; }
+  .fretline-experience .discovery-card:hover .catalog-product-art > img { transform: scale(1.035); }
+  .fretline-experience .catalog-card-actions > a:hover { background: #d3b88420; border-color: #d3b88470; }
+  .fretline-experience .brands-page .brand-directory-card:hover { border-color: #d3b884aa; box-shadow: 0 15px 40px #0005; }
+}
+@media (min-width:1024px) { .fretline-experience .catalog-body { grid-template-columns: 205px minmax(0,1fr); } }
+@media (min-width:1280px) { .fretline-experience .brands-page .brand-directory-grid { grid-template-columns: repeat(5,minmax(0,1fr)); } }
+@media (max-width:1199px) {
+  .fretline-experience .catalog-grid { gap: 16px; }
+  .fretline-experience .catalog-card-copy { padding: 17px; }
+  .fretline-experience .catalog-card-actions { flex-wrap: wrap; }
+  .fretline-experience .catalog-card-actions > a { flex-basis: 100%; }
+  .fretline-experience .catalog-card-actions > button { flex: 1; justify-content: center; }
+  .fretline-experience .brands-page .brand-directory-grid { grid-template-columns: repeat(3,minmax(0,1fr)); }
+}
+@media (max-width:1023px) {
+  .fretline-experience .catalog-body { gap: 0; }
+  .fretline-experience .detail-main-grid { gap: 30px; }
+  .fretline-experience .gallery-main { min-height: 380px; }
+  .fretline-experience .detail-summary h1 { font-size: 36px; }
+  .fretline-experience .detail-actions { flex-wrap: wrap; }
+  .fretline-experience .detail-action { flex-basis: 100%; }
+}
+@media (max-width:767px) {
+  .fretline-experience .detail-main-grid { grid-template-columns: minmax(0,1fr); }
+  .fretline-experience .detail-gallery-stage { position: static; }
+  .fretline-experience .gallery-main { min-height: 0; max-height: none; aspect-ratio: 1/1.1; }
+  .fretline-experience .detail-summary h1 { font-size: 42px; }
+  .fretline-experience .detail-action { flex-basis: auto; }
+}
+@media (max-width:639px) {
+  .fretline-experience .catalog-page .catalog-heading h1 { font-size: 41px; }
+  .fretline-experience .catalog-page .catalog-cinematic-photo { left: 20%; opacity: .65; }
+  .fretline-experience .catalog-page .catalog-categories { gap: 7px; }
+  .fretline-experience .catalog-page .catalog-categories button { padding: 8px 11px; font-size: 11px; }
+  .fretline-experience .catalog-body { padding-top: 24px; }
+  .fretline-experience .catalog-grid { gap: 14px; }
+  .fretline-experience .catalog-card-copy { padding: 14px; }
+  .fretline-experience .catalog-card-copy h3 { font-size: 23px; }
+  .fretline-experience .catalog-card-brand { font-size: 9px; }
+  .fretline-experience .catalog-card-category { font-size: 9px; }
+  .fretline-experience .catalog-card-copy > div:first-child { gap: 7px; flex-wrap: wrap; }
+  .fretline-experience .catalog-card-price > span:first-child { font-size: 16px; }
+  .fretline-experience .catalog-card-actions :is(a,button) { font-size: 11px; }
+  .fretline-experience .detail-hero { padding-bottom: 35px; }
+  .fretline-experience .detail-summary h1 { font-size: 36px; }
+  .fretline-experience .detail-action { flex-basis: 100%; }
+  .fretline-experience .detail-tabs { gap: 19px; }
+  .fretline-experience .detail-tabs button { font-size: 12px; }
+  .fretline-experience .brands-page .brand-directory-grid { gap: 12px; grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .fretline-experience .brands-page .brand-directory-card::before { padding-top: 135%; }
+  .fretline-experience .wishlist-row { padding: 14px; gap: 14px; }
+  .fretline-experience .wishlist-image { width: 88px; height: 120px; }
+  .fretline-experience .wishlist-copy h2 { font-size: 24px; }
+}
+@media (max-width:379px) {
+  .fretline-experience .catalog-grid { grid-template-columns: minmax(0,1fr); }
+  .fretline-experience .catalog-card-copy h3 { font-size: 29px; }
+  .fretline-experience .catalog-product-card .catalog-card-image { aspect-ratio: 4/4.2; }
+}

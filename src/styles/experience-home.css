@@ -1,0 +1,128 @@
+/* A cinematic first frame, followed by the existing discovery tools. */
+.fretline-experience .signature-home.premium-home { background: var(--fl-canvas); }
+.fretline-experience .signature-home.premium-home .signature-hero { min-height: 660px; height: min(800px,86svh); padding-top: var(--fl-header-height); background: #090b0b; }
+.fretline-experience .signature-home.premium-home .signature-hero-visual { inset: 0; }
+.fretline-experience .signature-home.premium-home .signature-hero-slide[data-scene='electric'] img { width: 76%; margin-left: auto; object-position: 52% 48%; filter: brightness(.98) saturate(.85); }
+.fretline-experience .signature-home.premium-home .signature-hero-shade { background: linear-gradient(90deg,#090b0b 0%,#090b0bee 23%,#090b0b66 53%,transparent 77%),linear-gradient(0deg,#0b0c0c 0%,transparent 24%,#0002 100%); }
+.fretline-experience .signature-home.premium-home .signature-hero-content { display: flex; align-items: center; height: 100%; padding-top: 36px; padding-bottom: 42px; }
+.fretline-experience .signature-home.premium-home .signature-hero-copy { width: 59%; max-width: 690px; padding: 0; }
+.fretline-experience .signature-home.premium-home .signature-hero-copy > .signature-section-eyebrow { margin: 0 0 25px; font-size: 12px; color: #d0b98d; }
+.fretline-experience .signature-home.premium-home .signature-hero-title { margin: 0; font-size: clamp(60px,7.2vw,104px); font-family: var(--fl-font-body); font-weight: 350; line-height: 1.27; letter-spacing: -.045em; }
+.fretline-experience .signature-home.premium-home .signature-hero-title span + span { color: #dfcba5; }
+.fretline-experience .signature-home.premium-home .signature-hero-actions { margin-top: 32px; gap: 28px; flex-wrap: wrap; }
+.fretline-experience .signature-home.premium-home .signature-hero-primary { min-width: 155px; min-height: 53px; gap: 24px; }
+.fretline-experience .signature-home.premium-home .signature-hero-quiz { min-height: 48px; color: #e4e0d4; font-size: 13px; }
+.fretline-experience .signature-home.premium-home .signature-hero-search { max-width: 500px; margin-top: 29px; }
+.fretline-experience .signature-home.premium-home .signature-hero-search form { min-height: 56px; border: 1px solid #d3b88440; border-radius: 8px; background: #181913a8; backdrop-filter: blur(10px); }
+.fretline-experience .signature-home.premium-home .signature-stats { position: relative; background: #0b0c0c; border-bottom: 1px solid var(--experience-line); padding-block: 27px; }
+.fretline-experience .signature-home.premium-home .signature-stats-list { gap: 0; width: 100%; }
+.fretline-experience .signature-home.premium-home .signature-stat-icon { position: static; transform: none; width: 16px; height: 16px; }
+.fretline-experience .signature-home.premium-home .signature-stats-list dt { display: flex; align-items: center; gap: 8px; }
+.fretline-experience .signature-home.premium-home .signature-stats-list > div { display: flex; flex-direction: row-reverse; align-items: center; justify-content: center; gap: 18px; min-height: 66px; padding: 0 18px; border-color: var(--experience-line); }
+.fretline-experience .signature-home.premium-home .signature-stats-list dt { font-size: 12px; color: #aaa99b; }
+.fretline-experience .signature-home.premium-home .signature-stats-list dd { margin: 0; color: #f2eee3; font: 400 49px/1.1 var(--fl-font-display); }
+.fretline-experience .signature-home.premium-home .signature-brand-marquee { padding-block: var(--experience-section-space) 38px; border: 0; background: transparent; }
+.fretline-experience .signature-home.premium-home .signature-marquee-heading { margin-bottom: 30px; align-items: end; }
+.fretline-experience .signature-home.premium-home .signature-marquee-heading h2 { position: static; width: auto; height: auto; overflow: visible; clip-path: none; white-space: normal; margin-top: 7px; font-size: var(--fl-type-section); font-weight: 450; }
+.fretline-experience .signature-home.premium-home .signature-marquee-view-all { font-size: 12px; color: #d9ccb1; }
+.fretline-experience .signature-home.premium-home .signature-marquee-rail { margin-inline: -10px; padding-block: 5px; }
+.fretline-experience .signature-home.premium-home .signature-marquee-viewport { mask-image: linear-gradient(90deg,transparent,#000 2%,#000 98%,transparent); -webkit-mask-image: linear-gradient(90deg,transparent,#000 2%,#000 98%,transparent); }
+.fretline-experience .signature-home.premium-home .signature-marquee-group { gap: 14px; padding-right: 14px; }
+.fretline-experience .signature-home.premium-home .signature-marquee-link { position: relative; flex: 0 0 228px; width: 228px; min-width: 228px; height: 150px; padding: 20px 26px 15px; border: 1px solid #d3b88435; border-radius: 12px; background: radial-gradient(ellipse at 50% 0%,#d3b88409,transparent 80%),#121412; transition: border-color 200ms,background-color 200ms,box-shadow 200ms; }
+.fretline-experience .signature-home.premium-home .signature-marquee-mark { display: flex; align-items: center; justify-content: center; width: 100%; height: 83px; }
+.fretline-experience .signature-home.premium-home .signature-marquee-mark img { width: 174px; height: 76px; max-width: 100%; max-height: 76px; object-fit: contain; }
+.fretline-experience .signature-home.premium-home .signature-marquee-mark [data-brand-fallback] { font: 400 32px/1.2 var(--fl-font-display); }
+.fretline-experience .signature-home.premium-home .signature-marquee-count { margin-top: 9px; color: #a8aa9e; font-size: 11px; letter-spacing: .03em; }
+.fretline-experience .signature-home.premium-home .signature-marquee-link:focus-visible { outline-offset: -4px; }
+.fretline-experience .signature-home.premium-home #categories { padding-block: 30px var(--experience-section-space); }
+.fretline-experience .signature-home.premium-home .experience-category-heading { margin-bottom: 22px; font-size: 16px; color: #c3c3b6; font-weight: 400; }
+.fretline-experience .signature-home.premium-home #categories .signature-category-grid { gap: 15px; }
+.fretline-experience .signature-home.premium-home .signature-category-card.signature-category-pill { min-height: 116px; border-color: #d3b88455; background: radial-gradient(ellipse at 25% 5%,#c1994820,transparent 68%),#0d0e0d; transition: border-color 240ms,background-color 240ms,transform 300ms var(--experience-ease); }
+.fretline-experience .signature-home.premium-home .signature-category-pill .category-pill-art { transition: transform 500ms var(--experience-ease); }
+.fretline-experience .signature-home.premium-home .signature-category-pill .signature-category-arrow { color: #d8c19b; background: transparent; border-color: #d3b88455; }
+.fretline-experience .signature-home.premium-home .home-feature-grid { gap: 20px; padding-block: 0 var(--experience-section-space); grid-template-columns: minmax(0,1.2fr) minmax(0,1fr); }
+.fretline-experience .signature-home.premium-home .home-editorial { border-radius: 18px; border: 1px solid #d3b88440; overflow: hidden; box-shadow: 0 16px 60px #0002; }
+.fretline-experience .signature-home.premium-home .home-editorial h2 { font-weight: 450; line-height: 1.4; }
+.fretline-experience .signature-home.premium-home .home-editorial-inner { padding: 30px; min-height: 326px; }
+.fretline-experience .signature-home.premium-home .home-editorial-copy { max-width: 70%; }
+.fretline-experience .signature-home.premium-home .home-editorial .home-editorial-description { margin-top: 14px; font-size: 13px; line-height: 1.85; color: #d5d5c8; }
+.fretline-experience .signature-home.premium-home .home-editorial-cta { margin-top: 24px; padding: 12px 21px; gap: 24px; min-height: 49px; height: auto; font-size: 13px; }
+.fretline-experience .signature-home.premium-home .home-practice-black-gold { background: radial-gradient(ellipse at 88% 50%,#94672425,transparent 55%),linear-gradient(105deg,#100e09,#030504 60%); }
+.fretline-experience .signature-home.premium-home .home-practice-black-gold .home-editorial-photo { inset: 32px 2px 32px 49%; }
+.fretline-experience .signature-home.premium-home .home-practice-black-gold .home-editorial-photo img { object-fit: contain; object-position: center; transform: none; }
+.fretline-experience .signature-home.premium-home .home-practice-black-gold .home-editorial-inner { min-height: 674px; align-items: center; padding: 34px; }
+.fretline-experience .signature-home.premium-home .home-practice-black-gold .home-editorial-copy { width: 48%; max-width: 48%; padding: 0; }
+.fretline-experience .signature-home.premium-home .home-practice-black-gold h2 { margin-top: 21px; font-size: clamp(36px,4.1vw,58px); line-height: 1.3; }
+.fretline-experience .signature-home.premium-home .home-practice-black-gold h2 span { color: #dfcba5; }
+.fretline-experience .signature-home.premium-home .home-practice-features { gap: 8px; margin-top: 30px; }
+.fretline-experience .signature-home.premium-home .home-practice-features svg { color: #d3b884; width: 27px; height: 27px; }
+.fretline-experience .signature-home.premium-home .home-practice-features strong { font-size: 11px; }
+.fretline-experience .signature-home.premium-home .home-practice-features span { font-size: 10px; color: #b5b4a6; }
+.fretline-experience .signature-home.premium-home .signature-collection { padding-top: 0; padding-bottom: var(--experience-section-space); }
+.fretline-experience .signature-home.premium-home .signature-collection-controls { gap: 22px; align-items: center; padding-bottom: 30px; }
+.fretline-experience .signature-home.premium-home .signature-collection-controls h2 { font-size: var(--fl-type-section); }
+.fretline-experience .signature-home.premium-home .signature-collection-track { gap: 22px; padding-bottom: 32px; }
+.fretline-experience .signature-home.premium-home .signature-collection .guitar-card .card-copy { padding: 23px; gap: 10px; }
+.fretline-experience .signature-home.premium-home .signature-collection .guitar-card h3 { font: 400 28px/1.25 var(--fl-font-display); }
+.fretline-experience .signature-home.premium-home .signature-collection .guitar-card .card-copy > ul { display: flex; }
+.fretline-experience .signature-home.premium-home .signature-collection .guitar-card .card-copy > p.mt-auto { padding-top: 14px; }
+.fretline-experience .signature-home.premium-home .signature-collection .guitar-card .card-copy > p.mt-auto > span { font-size: 19px; }
+.fretline-experience .signature-home.premium-home .signature-collection-item { flex: 0 0 calc((100% - 44px)/3); }
+.fretline-experience .signature-home.premium-home .signature-collection-progress { background: #d3b88424; }
+@media (hover:hover) and (pointer:fine) {
+  .fretline-experience .signature-home.premium-home .signature-marquee-link:hover { border-color: #d3b884a0; background-color: #1a1d15; box-shadow: inset 0 0 34px #d3b8840a; }
+  .fretline-experience .signature-home.premium-home .signature-category-pill:hover { transform: translateY(-3px); }
+  .fretline-experience .signature-home.premium-home .signature-category-pill:hover .category-pill-art { transform: translate(2px,-2px); }
+}
+@media (max-width:1199px) and (min-width:1024px) {
+  .fretline-experience .signature-home.premium-home .home-feature-grid { grid-template-columns: minmax(0,1.1fr) minmax(0,1fr); }
+  .fretline-experience .signature-home.premium-home .home-editorial-inner { padding: 25px; }
+  .fretline-experience .signature-home.premium-home .home-practice-black-gold .home-editorial-inner { padding: 25px; }
+  .fretline-experience .signature-home.premium-home .home-practice-black-gold h2 { font-size: 41px; }
+}
+@media (max-width:1023px), (orientation:portrait) and (max-width:1366px) {
+  .fretline-experience .signature-home.premium-home .home-feature-grid { grid-template-columns: minmax(0,1fr); }
+  .fretline-experience .signature-home.premium-home .home-practice-card { grid-row: auto; }
+  .fretline-experience .signature-home.premium-home .home-practice-black-gold .home-editorial-inner { min-height: 530px; padding: 42px; }
+  .fretline-experience .signature-home.premium-home .home-practice-black-gold h2 { font-size: 57px; }
+  .fretline-experience .signature-home.premium-home .home-practice-features strong { font-size: 13px; }
+  .fretline-experience .signature-home.premium-home .home-editorial-inner { min-height: 320px; }
+  .fretline-experience .signature-home.premium-home .signature-hero { height: 720px; min-height: 640px; }
+  .fretline-experience .signature-home.premium-home .signature-hero-copy { width: 70%; }
+  .fretline-experience .signature-home.premium-home .signature-hero-title { font-size: clamp(64px,8.8vw,90px); }
+  .fretline-experience .signature-home.premium-home .signature-stats-list > div { gap: 12px; }
+  .fretline-experience .signature-home.premium-home .signature-collection-item { flex-basis: calc((100% - 22px)/2); }
+}
+@media (max-width:639px) {
+  .fretline-experience .signature-home.premium-home .signature-hero { height: auto; min-height: 720px; }
+  .fretline-experience .signature-home.premium-home .signature-hero-content { padding-top: 55px; padding-bottom: 38px; min-height: 650px; align-items: flex-end; }
+  .fretline-experience .signature-home.premium-home .signature-hero-slide[data-scene='electric'] img { width: 100%; height: 64%; object-position: 66% 48%; }
+  .fretline-experience .signature-home.premium-home .signature-hero-shade { background: linear-gradient(0deg,#0b0c0c 3%,#0b0c0cee 31%,#0b0c0c4d 65%,#0b0c0c30); }
+  .fretline-experience .signature-home.premium-home .signature-hero-copy { width: 100%; max-width: none; }
+  .fretline-experience .signature-home.premium-home .signature-hero-copy > .signature-section-eyebrow { margin-bottom: 14px; font-size: 10px; }
+  .fretline-experience .signature-home.premium-home .signature-hero-title { font-size: clamp(46px,12.4vw,74px); line-height: 1.3; }
+  .fretline-experience .signature-home.premium-home .signature-hero-actions { gap: 12px 18px; margin-top: 23px; }
+  .fretline-experience .signature-home.premium-home .signature-hero-quiz { font-size: 12px; }
+  .fretline-experience .signature-home.premium-home .signature-hero-search { margin-top: 24px; }
+  .fretline-experience .signature-home.premium-home .signature-stats { padding-block: 18px; }
+  .fretline-experience .signature-home.premium-home .signature-stats-list { grid-template-columns: repeat(2,minmax(0,1fr)); row-gap: 19px; }
+  .fretline-experience .signature-home.premium-home .signature-stats-list > div { min-height: 56px; gap: 13px; padding: 0 8px; }
+  .fretline-experience .signature-home.premium-home .signature-stats-list > div:nth-child(3) { border-left: 0; }
+  .fretline-experience .signature-home.premium-home .signature-stats-list dd { font-size: 41px; }
+  .fretline-experience .signature-home.premium-home .signature-stats-list dt { font-size: 10px; }
+  .fretline-experience .signature-home.premium-home .signature-marquee-link { flex-basis: 202px; width: 202px; min-width: 202px; height: 137px; padding: 16px 23px 12px; }
+  .fretline-experience .signature-home.premium-home .signature-marquee-mark { height: 75px; }
+  .fretline-experience .signature-home.premium-home .signature-marquee-mark img { width: 156px; height: 67px; }
+  .fretline-experience .signature-home.premium-home .signature-marquee-heading { gap: 14px; }
+  .fretline-experience .signature-home.premium-home .signature-marquee-heading h2 { font-size: 25px; }
+  .fretline-experience .signature-home.premium-home .home-editorial-copy { max-width: 78%; }
+  .fretline-experience .signature-home.premium-home .home-editorial-inner { min-height: 340px; padding: 28px 24px; }
+  .fretline-experience .signature-home.premium-home .home-editorial h2 { font-size: clamp(26px,7.7vw,34px); }
+  .fretline-experience .signature-home.premium-home .home-practice-black-gold .home-editorial-inner { min-height: 720px; padding: 288px 25px 32px; align-items: flex-start; }
+  .fretline-experience .signature-home.premium-home .home-practice-black-gold .home-editorial-copy { max-width: 100%; width: 100%; }
+  .fretline-experience .signature-home.premium-home .home-practice-black-gold .home-editorial-photo { inset: 15px 18px auto auto; width: 70%; height: 253px; }
+  .fretline-experience .signature-home.premium-home .home-practice-black-gold h2 { font-size: 44px; }
+  .fretline-experience .signature-home.premium-home .home-practice-features strong { font-size: 12px; }
+  .fretline-experience .signature-home.premium-home .signature-collection-item { flex-basis: 85%; }
+  .fretline-experience .signature-home.premium-home .signature-collection-controls { gap: 18px 12px; }
+}

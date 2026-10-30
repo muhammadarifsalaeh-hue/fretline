@@ -1,0 +1,115 @@
+/* Visitor-only tokens. /admin keeps the preceding, unmodified design system. */
+.fretline-experience {
+  --fl-color-canvas: 10 11 11;
+  --fl-color-surface: 20 21 19;
+  --fl-color-raised: 28 29 26;
+  --fl-color-text: 242 239 231;
+  --fl-color-secondary: 186 184 173;
+  --fl-color-muted: 162 164 153;
+  --fl-color-accent: 211 184 132;
+  --fl-color-champagne: 235 217 183;
+  --fl-color-border: 47 50 44;
+  --fl-color-border-strong: 83 79 64;
+  --fl-canvas: rgb(var(--fl-color-canvas));
+  --fl-surface: rgb(var(--fl-color-surface));
+  --fl-surface-raised: rgb(var(--fl-color-raised));
+  --fl-text: rgb(var(--fl-color-text));
+  --fl-text-secondary: rgb(var(--fl-color-secondary));
+  --fl-text-muted: rgb(var(--fl-color-muted));
+  --fl-accent: rgb(var(--fl-color-accent));
+  --fl-accent-soft: rgb(var(--fl-color-champagne));
+  --fl-border: rgb(var(--fl-color-border));
+  --fl-border-strong: rgb(var(--fl-color-border-strong));
+  --fl-focus: var(--fl-accent-soft);
+  --fl-header-height: 76px;
+  --fl-control-height: 50px;
+  --fl-radius-card: 18px;
+  --fl-radius-control: 8px;
+  --fl-type-page: clamp(2.5rem,5vw,4.75rem);
+  --fl-type-section: clamp(1.65rem,2.7vw,2.4rem);
+  --experience-section-space: clamp(60px,7.2vw,108px);
+  --experience-line: #d3b88430;
+  --experience-ease: cubic-bezier(.22,.8,.24,1);
+  color: var(--fl-text);
+  background: var(--fl-canvas);
+  font-family: var(--fl-font-body);
+  min-height: 100svh;
+}
+.fretline-experience .container-x { width: 100%; max-width: 1424px; padding-inline: clamp(20px,4.5vw,72px); }
+.fretline-experience :is(h1,h2,h3) { font-weight: 450; }
+.fretline-experience :is(input,select,textarea) { accent-color: var(--fl-accent); }
+.fretline-experience :is(a,button,input,select,textarea,summary):focus-visible { outline: 2px solid var(--fl-focus); outline-offset: 5px; }
+.fretline-experience :is(input,select,textarea) { border-color: var(--fl-border); background-color: var(--fl-surface); }
+.fretline-experience :is(input,select,textarea):focus { border-color: var(--fl-accent); }
+.fretline-experience .site-header { border-bottom-color: #d3b88424; background: #0b0c0ce8; backdrop-filter: blur(18px); }
+.fretline-experience .site-header-inner { gap: 20px; }
+.fretline-experience .site-nav { gap: clamp(12px,1.5vw,25px); }
+.fretline-experience .nav-link { font-size: 13px; color: #d8d7cc; }
+.fretline-experience .nav-link[aria-current='page'] { color: var(--fl-accent-soft); }
+.fretline-experience .nav-link::after { bottom: 0; background: var(--fl-accent); }
+.fretline-experience .site-header-actions { gap: 3px; }
+.fretline-experience .site-header-actions :is(a,button) { border-radius: 50%; }
+.fretline-experience .site-header-actions :is(a,button):hover { background: #d3b8840c; }
+.fretline-experience .mobile-navigation { background: radial-gradient(ellipse at 100% 15%,#38302130,transparent 65%),#0b0c0cfc; }
+.fretline-experience .mobile-navigation nav { align-items: flex-start; justify-content: center; gap: 6px; }
+.fretline-experience .mobile-navigation-link { min-height: 58px; font-size: clamp(24px,4.5vw,36px); font-weight: 400; }
+.fretline-experience .mobile-navigation-link[aria-current='page'] { color: var(--fl-accent-soft); }
+.fretline-experience .mobile-navigation-link[aria-current='page']::before { content: ''; width: 22px; height: 1px; margin-right: 16px; background: var(--fl-accent); }
+.fretline-experience .fl-button,
+.fretline-experience .phase4-button { min-height: 50px; border-radius: 8px; font-size: 14px; line-height: 1.7; transition: background-color 180ms,color 180ms,border-color 180ms,transform 180ms var(--experience-ease); }
+.fretline-experience :is(.fl-button.bg-gold,.phase4-button.is-gold) { color: #1b1b15; background: linear-gradient(112deg,#e6d1a7,#c9aa72); border-color: #d6bd8d; box-shadow: 0 4px 24px #d5b57f0a; }
+.fretline-experience :is(.fl-button,.phase4-button):active:not(:disabled) { transform: translateY(1px); }
+.fretline-experience .discovery-breadcrumb { gap: 11px; color: #b0b3a7; font-size: 12px; }
+.fretline-experience :is(.discovery-kicker,.signature-section-eyebrow) { color: var(--fl-accent); font-size: 11px; letter-spacing: .075em; line-height: 1.8; }
+.fretline-experience :is(.phase5-heading,.discovery-heading) { padding-top: 38px; padding-bottom: 38px; }
+.fretline-experience :is(.phase5-heading,.discovery-heading) h1 { font-size: var(--fl-type-page); font-weight: 400; line-height: 1.35; }
+.fretline-experience :is(.phase5-heading,.discovery-heading) .discovery-kicker { margin-top: 28px; }
+.fretline-experience .phase5-heading-meta { color: var(--fl-text-secondary); font-size: 13px; }
+.fretline-experience .site-footer { background: linear-gradient(180deg,#10120f,#0b0c0c); border-color: var(--experience-line); }
+.fretline-experience .site-footer-inner { padding-top: 66px; }
+.fretline-experience .site-footer-note { font-size: 12px; }
+.fretline-experience .site-footer-link { font-size: 13px; }
+.fretline-experience .site-footer-columns ul { margin-top: 12px; }
+.fretline-experience .site-footer-columns li + li { margin-top: 3px; }
+.fretline-experience .site-footer-copyright { font-size: 11px; color: var(--fl-text-muted); }
+.fretline-experience .footer-watermark { max-width: 1230px; color: #d3b8840b; }
+.fretline-experience .route-loading { padding-top: 145px; }
+.fretline-experience .route-loading [aria-hidden] > div { border-radius: 14px; background: linear-gradient(120deg,#171b16,#24281e,#171b16); }
+.fretline-experience .compare-tray { border-color: #d3b88445; background: #10120fef; border-radius: 14px; }
+/* Reserve the fixed tray's space without changing comparison state or actions. */
+.fretline-experience:has(.compare-tray-positioner[aria-hidden='false']) .app-content { padding-bottom: 110px; }
+.fretline-experience .site-bottom-nav { inset: auto 10px calc(8px + env(safe-area-inset-bottom)); padding-bottom: 0; border: 1px solid #d3b88435; border-radius: 18px; box-shadow: 0 6px 32px #0009; background: #141512f0; }
+.fretline-experience .quick-nav-item { min-height: 64px; font-size: 11px; }
+.fretline-experience .quick-nav-item[aria-current='page'] { color: var(--fl-accent-soft); background: #d3b88408; border-radius: 18px; }
+.fretline-experience .quick-nav-item[aria-current='page']::after { content: ''; position: absolute; bottom: 5px; left: calc(50% - 10px); width: 20px; height: 2px; border-radius: 2px; background: var(--fl-accent); }
+.fretline-experience [data-experience-reveal] { opacity: 0; transform: translateY(14px); transition: opacity 550ms var(--experience-ease),transform 550ms var(--experience-ease); }
+.fretline-experience [data-experience-visible] { opacity: 1; transform: none; }
+@keyframes experience-enter { from { opacity: .01; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+.fretline-experience main h1 { animation: experience-enter 600ms var(--experience-ease) both; }
+@media (hover:hover) and (pointer:fine) {
+  .fretline-experience :is(.fl-button.bg-gold,.phase4-button.is-gold):hover:not(:disabled) { background: #ecdcba; }
+  .fretline-experience .site-footer-link:hover { color: var(--fl-accent-soft); }
+}
+@media (min-width:1024px) { .fretline-experience { --fl-header-height: 84px; } }
+@media (max-width:1023px) {
+  .fretline-experience .app-content { padding-bottom: calc(92px + env(safe-area-inset-bottom)); }
+  .fretline-experience .compare-tray-positioner { bottom: calc(85px + env(safe-area-inset-bottom)); }
+  .fretline-experience:has(.compare-tray-positioner[aria-hidden='false']) .app-content { padding-bottom: calc(185px + env(safe-area-inset-bottom)); }
+  .fretline-experience .site-header-inner { gap: 10px; }
+}
+@media (max-width:639px) {
+  .fretline-experience { --fl-header-height: 68px; }
+  .fretline-experience .site-header-inner { padding-inline: 20px; }
+  .fretline-experience :is(.phase5-heading,.discovery-heading) h1 { font-size: clamp(32px,8.8vw,46px); }
+  .fretline-experience .site-footer-inner { padding-top: 44px; }
+  .fretline-experience .site-footer-columns { gap: 22px; }
+}
+@media (max-height:560px) and (orientation:landscape) {
+  .fretline-experience .mobile-navigation nav { justify-content: flex-start; gap: 0; }
+  .fretline-experience .mobile-navigation-link { font-size: 22px; min-height: 46px; }
+  .fretline-experience .mobile-navigation-footer { padding-block: 8px; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .fretline-experience *, .fretline-experience *::before, .fretline-experience *::after { animation: none !important; transition-duration: 0s !important; scroll-behavior: auto !important; }
+  .fretline-experience [data-experience-reveal] { opacity: 1; transform: none; }
+}

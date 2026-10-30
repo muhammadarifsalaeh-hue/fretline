@@ -6,8 +6,7 @@ export default function Categories() {
   return (
     <section id="categories" className="signature-categories bg-ink" aria-labelledby="home-categories-title">
       <div className="container-x">
-        <h2 id="home-categories-title" className="sr-only">{t('cat.title')}</h2>
-        <p className="home-category-eyebrow" aria-hidden="true">{t('targeted.home.categories')}</p>
+        <h2 id="home-categories-title" className="experience-category-heading">{t('cat.title')}</h2>
         <div className="signature-category-grid">
           {CATEGORIES.map((category) => <CategoryCard key={category.id} category={category} />)}
         </div>

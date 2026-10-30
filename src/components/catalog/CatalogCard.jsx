@@ -35,7 +35,7 @@ export default function CatalogCard({ guitar, index = 0, onRemove, compact = fal
           <GuitarImage
             guitar={guitar}
             sizes={compact ? '(min-width: 1024px) 25vw, (min-width: 380px) 46vw, 90vw' : '(min-width: 1280px) 30vw, (min-width: 640px) 45vw, 92vw'}
-            className="absolute inset-0"
+            className="absolute inset-0 catalog-product-art"
           />
         </AppLink>
         <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-t from-surface/40 via-transparent to-transparent" />
@@ -73,8 +73,8 @@ export default function CatalogCard({ guitar, index = 0, onRemove, compact = fal
 
       <div className="catalog-card-copy flex flex-1 flex-col p-5 sm:p-6">
         <div className="flex items-center justify-between gap-3 text-xs">
-          <p className="uppercase tracking-[0.14em] text-mute">{guitar.brand}</p>
-          <p className="text-mute">{CATEGORY_LABEL[guitar.category]}</p>
+          <p className="catalog-card-brand uppercase tracking-[0.14em] text-mute">{guitar.brand}</p>
+          <p className="catalog-card-category text-mute">{CATEGORY_LABEL[guitar.category]}</p>
         </div>
 
         <h3 className="mt-2 font-serif text-[1.75rem] leading-[1.08]">

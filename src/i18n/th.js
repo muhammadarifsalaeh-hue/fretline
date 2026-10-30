@@ -593,7 +593,7 @@ export const th = {
   "wl.saveAria": "บันทึก {name} ในรายการโปรด",
   "signature.hero.eyebrow": "ค้นหา · เปรียบเทียบ · ฝึกกีตาร์",
   "signature.hero.description": "สำรวจกีตาร์ {models} รุ่น จาก {brands} แบรนด์\nเปรียบเทียบ แล้วค้นหารุ่นที่เข้ากับคุณ",
-  "signature.collection.eyebrow": "01 / SELECTED COLLECTION",
+  "signature.collection.eyebrow": "กีตาร์ที่คัดสรร",
   "signature.collection.title": "กีตาร์ที่น่าสำรวจ",
   "signature.stats.note": "ข้อมูลสำหรับค้นหาและเปรียบเทียบ · ไม่มีระบบซื้อขาย",
   "signature.find.titleLead": "กีตาร์ที่ใช่",

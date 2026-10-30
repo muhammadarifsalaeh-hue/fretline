@@ -9,10 +9,10 @@ import '@/styles/practice-refinement.css';
 
 const COPY = {
   th: {
-    docTitle: 'Guitar Practice Studio — ฝึกคอร์ด 3D | Fretline', home: 'หน้าหลัก', practice: 'ฝึกกีตาร์',
-    eyebrow: 'THE ART OF YOUR NEXT CHORD', intro: 'ฝึกทีละคอร์ด เข้าใจทุกตำแหน่ง',
+    docTitle: 'ฝึกคอร์ดกีตาร์ 3D | Fretline', home: 'หน้าหลัก', practice: 'ฝึกกีตาร์',
+    eyebrow: 'ฝึกคอร์ดทีละขั้น', intro: 'ฝึกทีละคอร์ด เข้าใจทุกตำแหน่ง',
     description: 'สำรวจคอกีตาร์ 3D พร้อมผังคอร์ด 42 แบบ เลือกมุมที่ถนัด แล้วค่อย ๆ วางนิ้วตามผัง',
-    stage: 'YOUR PRACTICE SPACE', stageTitle: 'มองให้ชัด ฝึกให้มั่นใจ', stageText: 'หมุน ซูม และเปลี่ยนคอร์ดได้ตามจังหวะของคุณ',
+    stage: 'พื้นที่ฝึกกีตาร์', stageTitle: 'มองให้ชัด ฝึกให้มั่นใจ', stageText: 'หมุน ซูม และเปลี่ยนคอร์ดได้ตามจังหวะของคุณ',
     strings: 'สาย', frets: 'เฟรต', chords: 'คอร์ด', choose: 'ค้นหาคอร์ดถัดไป',
     chooseDescription: 'ค้นหาชื่อคอร์ด หรือเลือกประเภทเพื่อจัดชุดฝึกของคุณ', chooseLabel: 'เลือกคอร์ด',
     explore: 'คอร์ดเดียวกัน มองได้ทุกมุม', exploreDescription: 'ลากเพื่อหมุน · จีบนิ้วเพื่อซูม · มีปุ่มปรับมุมมองให้เลือก',
