@@ -21,19 +21,6 @@
 .fretline-experience .signature-home.premium-home .signature-stats-list > div { display: flex; flex-direction: row-reverse; align-items: center; justify-content: center; gap: 18px; min-height: 66px; padding: 0 18px; border-color: var(--experience-line); }
 .fretline-experience .signature-home.premium-home .signature-stats-list dt { font-size: 12px; color: #aaa99b; }
 .fretline-experience .signature-home.premium-home .signature-stats-list dd { margin: 0; color: #f2eee3; font: 400 49px/1.1 var(--fl-font-display); }
-.fretline-experience .signature-home.premium-home .signature-brand-marquee { padding-block: var(--experience-section-space) 38px; border: 0; background: transparent; }
-.fretline-experience .signature-home.premium-home .signature-marquee-heading { margin-bottom: 30px; align-items: end; }
-.fretline-experience .signature-home.premium-home .signature-marquee-heading h2 { position: static; width: auto; height: auto; overflow: visible; clip-path: none; white-space: normal; margin-top: 7px; font-size: var(--fl-type-section); font-weight: 450; }
-.fretline-experience .signature-home.premium-home .signature-marquee-view-all { font-size: 12px; color: #d9ccb1; }
-.fretline-experience .signature-home.premium-home .signature-marquee-rail { margin-inline: -10px; padding-block: 5px; }
-.fretline-experience .signature-home.premium-home .signature-marquee-viewport { mask-image: linear-gradient(90deg,transparent,#000 2%,#000 98%,transparent); -webkit-mask-image: linear-gradient(90deg,transparent,#000 2%,#000 98%,transparent); }
-.fretline-experience .signature-home.premium-home .signature-marquee-group { gap: 14px; padding-right: 14px; }
-.fretline-experience .signature-home.premium-home .signature-marquee-link { position: relative; flex: 0 0 228px; width: 228px; min-width: 228px; height: 150px; padding: 20px 26px 15px; border: 1px solid #d3b88435; border-radius: 12px; background: radial-gradient(ellipse at 50% 0%,#d3b88409,transparent 80%),#121412; transition: border-color 200ms,background-color 200ms,box-shadow 200ms; }
-.fretline-experience .signature-home.premium-home .signature-marquee-mark { display: flex; align-items: center; justify-content: center; width: 100%; height: 83px; }
-.fretline-experience .signature-home.premium-home .signature-marquee-mark img { width: 174px; height: 76px; max-width: 100%; max-height: 76px; object-fit: contain; }
-.fretline-experience .signature-home.premium-home .signature-marquee-mark [data-brand-fallback] { font: 400 32px/1.2 var(--fl-font-display); }
-.fretline-experience .signature-home.premium-home .signature-marquee-count { margin-top: 9px; color: #a8aa9e; font-size: 11px; letter-spacing: .03em; }
-.fretline-experience .signature-home.premium-home .signature-marquee-link:focus-visible { outline-offset: -4px; }
 .fretline-experience .signature-home.premium-home #categories { padding-block: 30px var(--experience-section-space); }
 .fretline-experience .signature-home.premium-home .experience-category-heading { margin-bottom: 22px; font-size: 16px; color: #c3c3b6; font-weight: 400; }
 .fretline-experience .signature-home.premium-home #categories .signature-category-grid { gap: 15px; }
@@ -70,7 +57,6 @@
 .fretline-experience .signature-home.premium-home .signature-collection-item { flex: 0 0 calc((100% - 44px)/3); }
 .fretline-experience .signature-home.premium-home .signature-collection-progress { background: #d3b88424; }
 @media (hover:hover) and (pointer:fine) {
-  .fretline-experience .signature-home.premium-home .signature-marquee-link:hover { border-color: #d3b884a0; background-color: #1a1d15; box-shadow: inset 0 0 34px #d3b8840a; }
   .fretline-experience .signature-home.premium-home .signature-category-pill:hover { transform: translateY(-3px); }
   .fretline-experience .signature-home.premium-home .signature-category-pill:hover .category-pill-art { transform: translate(2px,-2px); }
 }
@@ -110,11 +96,6 @@
   .fretline-experience .signature-home.premium-home .signature-stats-list > div:nth-child(3) { border-left: 0; }
   .fretline-experience .signature-home.premium-home .signature-stats-list dd { font-size: 41px; }
   .fretline-experience .signature-home.premium-home .signature-stats-list dt { font-size: 10px; }
-  .fretline-experience .signature-home.premium-home .signature-marquee-link { flex-basis: 202px; width: 202px; min-width: 202px; height: 137px; padding: 16px 23px 12px; }
-  .fretline-experience .signature-home.premium-home .signature-marquee-mark { height: 75px; }
-  .fretline-experience .signature-home.premium-home .signature-marquee-mark img { width: 156px; height: 67px; }
-  .fretline-experience .signature-home.premium-home .signature-marquee-heading { gap: 14px; }
-  .fretline-experience .signature-home.premium-home .signature-marquee-heading h2 { font-size: 25px; }
   .fretline-experience .signature-home.premium-home .home-editorial-copy { max-width: 78%; }
   .fretline-experience .signature-home.premium-home .home-editorial-inner { min-height: 340px; padding: 28px 24px; }
   .fretline-experience .signature-home.premium-home .home-editorial h2 { font-size: clamp(26px,7.7vw,34px); }

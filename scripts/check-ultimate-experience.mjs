@@ -14,6 +14,9 @@ assert.equal(execFileSync('git', ['rev-parse', 'master'], { encoding: 'utf8' }).
 assert.match(execFileSync('git', ['branch', '--show-current'], { encoding: 'utf8' }).trim(), /^feature\//);
 const routes = [...fs.readFileSync('src/App.jsx', 'utf8').matchAll(/<Route path="([^"]+)"/g)].map((match) => match[1]);
 assert.deepEqual(routes, baseline.routes);
+for (const path of ['src/components/home/Brands.jsx', 'src/hooks/useBrandMarquee.js', 'src/styles/home-brands.css']) {
+  assert.equal(fs.readFileSync(path, 'utf8'), execFileSync('git', ['show', `${baseline.baseCommit}:${path}`], { encoding: 'utf8' }), `Original Home brand rail not restored: ${path}`);
+}
 // Exact reversal of the only permitted copy changes in the learning page.
 const practice = fs.readFileSync('src/pages/PracticePage.jsx', 'utf8')
   .replace("docTitle: 'ฝึกคอร์ดกีตาร์ 3D | Fretline'", "docTitle: 'Guitar Practice Studio — ฝึกคอร์ด 3D | Fretline'")

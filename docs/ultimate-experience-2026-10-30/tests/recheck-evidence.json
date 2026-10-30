@@ -1,0 +1,137 @@
+{
+  "initialRouteFailureNames": [
+    "webkit-desktop-admin-isolation",
+    "webkit-landscape-admin-isolation",
+    "webkit-portrait-admin-isolation",
+    "webkit-portrait-navigation",
+    "webkit-mobile-admin-isolation",
+    "webkit-mobile-navigation",
+    "webkit-narrow-admin-isolation",
+    "webkit-narrow-navigation",
+    "webkit-all-ten-brand-touch-links"
+  ],
+  "routeRecheck": {
+    "checks": [
+      {
+        "name": "webkit-desktop-admin-isolation",
+        "passed": true,
+        "evidence": {
+          "originalAdminComputedStylesIdentical": true,
+          "loginConfigUntouched": true,
+          "liveAuthNotConfigured": true
+        }
+      },
+      {
+        "name": "webkit-landscape-admin-isolation",
+        "passed": true,
+        "evidence": {
+          "originalAdminComputedStylesIdentical": true,
+          "loginConfigUntouched": true,
+          "liveAuthNotConfigured": true
+        }
+      },
+      {
+        "name": "webkit-portrait-admin-isolation",
+        "passed": true,
+        "evidence": {
+          "originalAdminComputedStylesIdentical": true,
+          "loginConfigUntouched": true,
+          "liveAuthNotConfigured": true
+        }
+      },
+      {
+        "name": "webkit-portrait-navigation",
+        "passed": true,
+        "evidence": {
+          "openAndClose": true,
+          "touchTargets": true
+        }
+      },
+      {
+        "name": "webkit-mobile-admin-isolation",
+        "passed": true,
+        "evidence": {
+          "originalAdminComputedStylesIdentical": true,
+          "loginConfigUntouched": true,
+          "liveAuthNotConfigured": true
+        }
+      },
+      {
+        "name": "webkit-mobile-navigation",
+        "passed": true,
+        "evidence": {
+          "openAndClose": true,
+          "touchTargets": true
+        }
+      },
+      {
+        "name": "webkit-narrow-admin-isolation",
+        "passed": true,
+        "evidence": {
+          "originalAdminComputedStylesIdentical": true,
+          "loginConfigUntouched": true,
+          "liveAuthNotConfigured": true
+        }
+      },
+      {
+        "name": "webkit-narrow-navigation",
+        "passed": true,
+        "evidence": {
+          "openAndClose": true,
+          "touchTargets": true
+        }
+      },
+      {
+        "name": "webkit-all-ten-brand-touch-links",
+        "passed": true,
+        "evidence": {
+          "allTenActualBrandLinks": [
+            "http://127.0.0.1:4184/guitars?brand=Yamaha",
+            "http://127.0.0.1:4184/guitars?brand=Fender",
+            "http://127.0.0.1:4184/guitars?brand=Gibson",
+            "http://127.0.0.1:4184/guitars?brand=Taylor",
+            "http://127.0.0.1:4184/guitars?brand=Ibanez",
+            "http://127.0.0.1:4184/guitars?brand=PRS",
+            "http://127.0.0.1:4184/guitars?brand=Epiphone",
+            "http://127.0.0.1:4184/guitars?brand=Martin",
+            "http://127.0.0.1:4184/guitars?brand=Squier",
+            "http://127.0.0.1:4184/guitars?brand=C%C3%B3rdoba"
+          ],
+          "reducedMotionNoAutoscroll": true,
+          "nativeTouchTap": true
+        }
+      }
+    ],
+    "consoleErrors": [],
+    "runtimeErrors": [],
+    "failedImages": [],
+    "source": "original real project catalog; no mock records, SQL or database writes",
+    "physicalIPadSafariTested": false,
+    "hostedSupabaseTested": false,
+    "passed": true
+  },
+  "initialInteractionFailureNames": [
+    "webkit-mobile-home-and-collections"
+  ],
+  "interactionRecheck": {
+    "checks": [
+      {
+        "name": "webkit-mobile-home-and-collections",
+        "passed": true,
+        "evidence": {
+          "threeOriginalScenes": true,
+          "fourDataDrivenCategories": true,
+          "threeModeDestinations": true,
+          "fourWorkingTabs": true,
+          "horizontalProductScroll": true
+        }
+      }
+    ],
+    "consoleErrors": [],
+    "runtimeErrors": [],
+    "realSupabaseTested": false,
+    "physicalIPadSafariTested": false,
+    "data": "original project catalog, unchanged source and configuration; no HTTP mocks",
+    "passed": true
+  }
+}

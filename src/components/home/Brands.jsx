@@ -32,7 +32,7 @@ export default function Brands() {
         <AppLink href="/brands" className="signature-marquee-view-all">{t('brand.viewAll')}<ArrowRightIcon size={16} /></AppLink>
       </div>
       <div className="signature-marquee-rail">
-        <div ref={viewport} className="signature-marquee-viewport" data-marquee-viewport role="region" aria-label={t('brand.homeTitle')}>
+        <div ref={viewport} className="signature-marquee-viewport" data-marquee-viewport>
           <div id="home-brand-track" className="signature-marquee-track">
             <BrandGroup decorative />
             <BrandGroup />

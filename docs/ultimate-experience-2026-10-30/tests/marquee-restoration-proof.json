@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "originalMarqueeSourceCommit": "f8084ef8f1cf8db65d150bc500c4ea9b6f851c35",
+  "checkpointBeforeMarqueeRestore": "4902be0",
+  "changedProductionFilesSinceCheckpoint": [
+    "src/components/home/Brands.jsx",
+    "src/components/layout/VisitorExperience.jsx",
+    "src/hooks/useBrandMarquee.js",
+    "src/styles/experience-home.css"
+  ],
+  "removedBrandOnlyCSSRules": 19,
+  "allOtherHomeCSSExact": true,
+  "heroCategoryPracticeCatalogAdminKeptFromCheckpoint": true,
+  "brandComponentHookAndOriginalStylesExact": true,
+  "noDatabaseWrites": true,
+  "noDeployPushMerge": true
+}

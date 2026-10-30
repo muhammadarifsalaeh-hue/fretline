@@ -22,7 +22,6 @@ export default function useBrandMarquee() {
     let previousTime = 0;
     let visible = true;
     let focused = false;
-    let hovered = false;
     let pointer = null;
     let touching = false;
     let lastInteraction = -Infinity;
@@ -60,8 +59,8 @@ export default function useBrandMarquee() {
       const elapsed = previousTime ? Math.max(0, time - previousTime) : 0;
       previousTime = time;
       const resume = Math.max(0, Math.min(1, (time - lastInteraction - RESUME_DELAY) / RESUME_RAMP));
-      const manual = pointer !== null || touching || focused || hovered || resume === 0;
-      setMode(focused ? 'keyboard' : hovered ? 'hover' : manual ? 'manual' : 'auto');
+      const manual = pointer !== null || touching || focused || resume === 0;
+      setMode(focused ? 'keyboard' : manual ? 'manual' : 'auto');
       if (!manual) writePosition(position + SPEED * elapsed / 1000 * resume);
       frame = requestAnimationFrame(tick);
     };
@@ -115,16 +114,6 @@ export default function useBrandMarquee() {
     };
     const onDragStart = (event) => event.preventDefault();
     const onWheel = () => { lastInteraction = performance.now(); };
-    const onPointerEnter = (event) => {
-      if (event.pointerType !== 'mouse') return;
-      hovered = true;
-      setMode(reduced ? 'reduced' : 'hover');
-    };
-    const onPointerLeave = (event) => {
-      if (event.pointerType !== 'mouse') return;
-      hovered = false;
-      lastInteraction = performance.now();
-    };
     // Native panning cancels its PointerEvent early, before the finger lifts.
     // Keep a passive touch lifecycle so a held finger never fights autoplay.
     const onTouchStart = () => { touching = true; lastInteraction = performance.now(); };
@@ -133,6 +122,7 @@ export default function useBrandMarquee() {
       lastInteraction = performance.now();
     };
     const onFocus = (event) => {
+      if (!event.target.matches(':focus-visible')) return;
       focused = true;
       setMode('keyboard');
       const link = event.target.closest('a');
@@ -171,8 +161,6 @@ export default function useBrandMarquee() {
     resize.observe(primary);
     viewport.addEventListener('scroll', onScroll, { passive: true });
     viewport.addEventListener('pointerdown', onPointerDown);
-    viewport.addEventListener('pointerenter', onPointerEnter);
-    viewport.addEventListener('pointerleave', onPointerLeave);
     viewport.addEventListener('pointermove', onPointerMove);
     viewport.addEventListener('pointerup', onPointerEnd);
     viewport.addEventListener('pointercancel', onPointerEnd);
@@ -198,8 +186,6 @@ export default function useBrandMarquee() {
       observer.disconnect(); resize.disconnect();
       viewport.removeEventListener('scroll', onScroll);
       viewport.removeEventListener('pointerdown', onPointerDown);
-      viewport.removeEventListener('pointerenter', onPointerEnter);
-      viewport.removeEventListener('pointerleave', onPointerLeave);
       viewport.removeEventListener('pointermove', onPointerMove);
       viewport.removeEventListener('pointerup', onPointerEnd);
       viewport.removeEventListener('pointercancel', onPointerEnd);

@@ -1,0 +1,2324 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "chromium-desktop-home",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 63,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-desktop-catalog",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/guitars",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 28,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-desktop-brands",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/brands",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 11,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-desktop-brand",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/brands/yamaha",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 72,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-desktop-favorites",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/wishlist",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 3,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-desktop-credits",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/image-credits",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 4,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-desktop-compare",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg820-12",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 8,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-desktop-quiz",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/find-my-guitar",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-desktop-practice",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/practice",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 0,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-desktop-admin",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/admin",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": false
+      }
+    },
+    {
+      "name": "chromium-desktop-qr",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/qr",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-desktop-detail",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/guitars/yamaha-pacifica-612viifm",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 15,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-desktop-missing",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/route-not-found",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 2,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-desktop-admin-isolation",
+      "passed": true,
+      "evidence": {
+        "originalAdminComputedStylesIdentical": true,
+        "loginConfigUntouched": true,
+        "liveAuthNotConfigured": true
+      }
+    },
+    {
+      "name": "chromium-landscape-home",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 63,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-landscape-catalog",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/guitars",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 28,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-landscape-brands",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/brands",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 11,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-landscape-brand",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/brands/yamaha",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 72,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-landscape-favorites",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/wishlist",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 3,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-landscape-credits",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/image-credits",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 4,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-landscape-compare",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg820-12",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 8,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-landscape-quiz",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/find-my-guitar",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-landscape-practice",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/practice",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 0,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-landscape-admin",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/admin",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": false
+      }
+    },
+    {
+      "name": "chromium-landscape-qr",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/qr",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-landscape-detail",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/guitars/yamaha-pacifica-612viifm",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 15,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-landscape-missing",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/route-not-found",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 2,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-landscape-admin-isolation",
+      "passed": true,
+      "evidence": {
+        "originalAdminComputedStylesIdentical": true,
+        "loginConfigUntouched": true,
+        "liveAuthNotConfigured": true
+      }
+    },
+    {
+      "name": "chromium-portrait-home",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 63,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-portrait-catalog",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/guitars",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 28,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-portrait-brands",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/brands",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 11,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-portrait-brand",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/brands/yamaha",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 72,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-portrait-favorites",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/wishlist",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 3,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-portrait-credits",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/image-credits",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 4,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-portrait-compare",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg820-12",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 8,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-portrait-quiz",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/find-my-guitar",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-portrait-practice",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/practice",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 0,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-portrait-admin",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/admin",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": false
+      }
+    },
+    {
+      "name": "chromium-portrait-qr",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/qr",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-portrait-detail",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/guitars/yamaha-pacifica-612viifm",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 15,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-portrait-missing",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/route-not-found",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 2,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-portrait-admin-isolation",
+      "passed": true,
+      "evidence": {
+        "originalAdminComputedStylesIdentical": true,
+        "loginConfigUntouched": true,
+        "liveAuthNotConfigured": true
+      }
+    },
+    {
+      "name": "chromium-portrait-navigation",
+      "passed": true,
+      "evidence": {
+        "openAndClose": true,
+        "touchTargets": true
+      }
+    },
+    {
+      "name": "chromium-mobile-home",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 63,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-catalog",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/guitars",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 28,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-brands",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/brands",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 11,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-brand",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/brands/yamaha",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 72,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-favorites",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/wishlist",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 3,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-credits",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/image-credits",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 4,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-compare",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg820-12",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 8,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-quiz",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/find-my-guitar",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-practice",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/practice",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 0,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-admin",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/admin",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": false
+      }
+    },
+    {
+      "name": "chromium-mobile-qr",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/qr",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-detail",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/guitars/yamaha-pacifica-612viifm",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 15,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-missing",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/route-not-found",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 2,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-admin-isolation",
+      "passed": true,
+      "evidence": {
+        "originalAdminComputedStylesIdentical": true,
+        "loginConfigUntouched": true,
+        "liveAuthNotConfigured": true
+      }
+    },
+    {
+      "name": "chromium-mobile-navigation",
+      "passed": true,
+      "evidence": {
+        "openAndClose": true,
+        "touchTargets": true
+      }
+    },
+    {
+      "name": "chromium-narrow-home",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 63,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-narrow-catalog",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/guitars",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 28,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-narrow-brands",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/brands",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 11,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-narrow-brand",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/brands/yamaha",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 72,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-narrow-favorites",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/wishlist",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 3,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-narrow-credits",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/image-credits",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 4,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-narrow-compare",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg820-12",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 8,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-narrow-quiz",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/find-my-guitar",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-narrow-practice",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/practice",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 0,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-narrow-admin",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/admin",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": false
+      }
+    },
+    {
+      "name": "chromium-narrow-qr",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/qr",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-narrow-detail",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/guitars/yamaha-pacifica-612viifm",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 15,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-narrow-missing",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/route-not-found",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 2,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-narrow-admin-isolation",
+      "passed": true,
+      "evidence": {
+        "originalAdminComputedStylesIdentical": true,
+        "loginConfigUntouched": true,
+        "liveAuthNotConfigured": true
+      }
+    },
+    {
+      "name": "chromium-narrow-navigation",
+      "passed": true,
+      "evidence": {
+        "openAndClose": true,
+        "touchTargets": true
+      }
+    },
+    {
+      "name": "chromium-original-marquee-motion",
+      "passed": true,
+      "evidence": {
+        "realBrands": 10,
+        "realLogoFiles": 9,
+        "unchangedCordobaNameFallback": true,
+        "noIndividualFrames": true,
+        "rightToLeftAutomatic": true,
+        "seamDeltasPx": [
+          5,
+          5,
+          5,
+          6,
+          5,
+          5,
+          5
+        ],
+        "dragAndResume": true,
+        "keyboardPause": true
+      }
+    },
+    {
+      "name": "chromium-all-ten-brand-touch-links",
+      "passed": true,
+      "evidence": {
+        "allTenActualBrandLinks": [
+          "http://127.0.0.1:4184/guitars?brand=Yamaha",
+          "http://127.0.0.1:4184/guitars?brand=Fender",
+          "http://127.0.0.1:4184/guitars?brand=Gibson",
+          "http://127.0.0.1:4184/guitars?brand=Taylor",
+          "http://127.0.0.1:4184/guitars?brand=Ibanez",
+          "http://127.0.0.1:4184/guitars?brand=PRS",
+          "http://127.0.0.1:4184/guitars?brand=Epiphone",
+          "http://127.0.0.1:4184/guitars?brand=Martin",
+          "http://127.0.0.1:4184/guitars?brand=Squier",
+          "http://127.0.0.1:4184/guitars?brand=C%C3%B3rdoba"
+        ],
+        "reducedMotionNoAutoscroll": true,
+        "nativeTouchTap": true
+      }
+    },
+    {
+      "name": "webkit-desktop-home",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 63,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-desktop-catalog",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/guitars",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 28,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-desktop-brands",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/brands",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 11,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-desktop-brand",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/brands/yamaha",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 72,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-desktop-favorites",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/wishlist",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 3,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-desktop-credits",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/image-credits",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 4,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-desktop-compare",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg820-12",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 8,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-desktop-quiz",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/find-my-guitar",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-desktop-practice",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/practice",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 0,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-desktop-admin",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/admin",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": false
+      }
+    },
+    {
+      "name": "webkit-desktop-qr",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/qr",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-desktop-detail",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/guitars/yamaha-pacifica-612viifm",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 15,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-desktop-missing",
+      "passed": true,
+      "evidence": {
+        "viewport": "desktop",
+        "route": "/route-not-found",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 2,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-desktop-admin-isolation",
+      "passed": true,
+      "evidence": {
+        "originalAdminComputedStylesIdentical": true,
+        "loginConfigUntouched": true,
+        "liveAuthNotConfigured": true
+      }
+    },
+    {
+      "name": "webkit-landscape-home",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 63,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-landscape-catalog",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/guitars",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 28,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-landscape-brands",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/brands",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 11,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-landscape-brand",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/brands/yamaha",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 72,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-landscape-favorites",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/wishlist",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 3,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-landscape-credits",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/image-credits",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 4,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-landscape-compare",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg820-12",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 8,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-landscape-quiz",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/find-my-guitar",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-landscape-practice",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/practice",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 0,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-landscape-admin",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/admin",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": false
+      }
+    },
+    {
+      "name": "webkit-landscape-qr",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/qr",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-landscape-detail",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/guitars/yamaha-pacifica-612viifm",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 15,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-landscape-missing",
+      "passed": true,
+      "evidence": {
+        "viewport": "landscape",
+        "route": "/route-not-found",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 2,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-landscape-admin-isolation",
+      "passed": true,
+      "evidence": {
+        "originalAdminComputedStylesIdentical": true,
+        "loginConfigUntouched": true,
+        "liveAuthNotConfigured": true
+      }
+    },
+    {
+      "name": "webkit-portrait-home",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 63,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-portrait-catalog",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/guitars",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 28,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-portrait-brands",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/brands",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 11,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-portrait-brand",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/brands/yamaha",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 72,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-portrait-favorites",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/wishlist",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 3,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-portrait-credits",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/image-credits",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 4,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-portrait-compare",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg820-12",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 8,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-portrait-quiz",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/find-my-guitar",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-portrait-practice",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/practice",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 0,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-portrait-admin",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/admin",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": false
+      }
+    },
+    {
+      "name": "webkit-portrait-qr",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/qr",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-portrait-detail",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/guitars/yamaha-pacifica-612viifm",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 15,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-portrait-missing",
+      "passed": true,
+      "evidence": {
+        "viewport": "portrait",
+        "route": "/route-not-found",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 2,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-portrait-admin-isolation",
+      "passed": true,
+      "evidence": {
+        "originalAdminComputedStylesIdentical": true,
+        "loginConfigUntouched": true,
+        "liveAuthNotConfigured": true
+      }
+    },
+    {
+      "name": "webkit-portrait-navigation",
+      "passed": true,
+      "evidence": {
+        "openAndClose": true,
+        "touchTargets": true
+      }
+    },
+    {
+      "name": "webkit-mobile-home",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 63,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-catalog",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/guitars",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 28,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-brands",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/brands",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 11,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-brand",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/brands/yamaha",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 72,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-favorites",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/wishlist",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 3,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-credits",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/image-credits",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 4,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-compare",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg820-12",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 8,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-quiz",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/find-my-guitar",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-practice",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/practice",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 0,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-admin",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/admin",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": false
+      }
+    },
+    {
+      "name": "webkit-mobile-qr",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/qr",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-detail",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/guitars/yamaha-pacifica-612viifm",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 15,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-missing",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile",
+        "route": "/route-not-found",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 2,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-admin-isolation",
+      "passed": true,
+      "evidence": {
+        "originalAdminComputedStylesIdentical": true,
+        "loginConfigUntouched": true,
+        "liveAuthNotConfigured": true
+      }
+    },
+    {
+      "name": "webkit-mobile-navigation",
+      "passed": true,
+      "evidence": {
+        "openAndClose": true,
+        "touchTargets": true
+      }
+    },
+    {
+      "name": "webkit-narrow-home",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 63,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-narrow-catalog",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/guitars",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 28,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-narrow-brands",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/brands",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 11,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-narrow-brand",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/brands/yamaha",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 72,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-narrow-favorites",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/wishlist",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 3,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-narrow-credits",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/image-credits",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 4,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-narrow-compare",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg820-12",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 8,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-narrow-quiz",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/find-my-guitar",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-narrow-practice",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/practice",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 0,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-narrow-admin",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/admin",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": false
+      }
+    },
+    {
+      "name": "webkit-narrow-qr",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/qr",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-narrow-detail",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/guitars/yamaha-pacifica-612viifm",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 15,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-narrow-missing",
+      "passed": true,
+      "evidence": {
+        "viewport": "narrow",
+        "route": "/route-not-found",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 2,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-narrow-admin-isolation",
+      "passed": true,
+      "evidence": {
+        "originalAdminComputedStylesIdentical": true,
+        "loginConfigUntouched": true,
+        "liveAuthNotConfigured": true
+      }
+    },
+    {
+      "name": "webkit-narrow-navigation",
+      "passed": true,
+      "evidence": {
+        "openAndClose": true,
+        "touchTargets": true
+      }
+    },
+    {
+      "name": "webkit-original-marquee-motion",
+      "passed": true,
+      "evidence": {
+        "realBrands": 10,
+        "realLogoFiles": 9,
+        "unchangedCordobaNameFallback": true,
+        "noIndividualFrames": true,
+        "rightToLeftAutomatic": true,
+        "seamDeltasPx": [
+          6,
+          4,
+          6,
+          6,
+          5,
+          6,
+          5
+        ],
+        "dragAndResume": true,
+        "keyboardPause": true
+      }
+    },
+    {
+      "name": "webkit-all-ten-brand-touch-links",
+      "passed": true,
+      "evidence": {
+        "allTenActualBrandLinks": [
+          "http://127.0.0.1:4184/guitars?brand=Yamaha",
+          "http://127.0.0.1:4184/guitars?brand=Fender",
+          "http://127.0.0.1:4184/guitars?brand=Gibson",
+          "http://127.0.0.1:4184/guitars?brand=Taylor",
+          "http://127.0.0.1:4184/guitars?brand=Ibanez",
+          "http://127.0.0.1:4184/guitars?brand=PRS",
+          "http://127.0.0.1:4184/guitars?brand=Epiphone",
+          "http://127.0.0.1:4184/guitars?brand=Martin",
+          "http://127.0.0.1:4184/guitars?brand=Squier",
+          "http://127.0.0.1:4184/guitars?brand=C%C3%B3rdoba"
+        ],
+        "reducedMotionNoAutoscroll": true,
+        "nativeTouchTap": true
+      }
+    },
+    {
+      "name": "chromium-mobile-landscape-home",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 63,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-landscape-catalog",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/guitars",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 28,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-landscape-brands",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/brands",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 11,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-landscape-brand",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/brands/yamaha",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 72,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-landscape-favorites",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/wishlist",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 3,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-landscape-credits",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/image-credits",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 4,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-landscape-compare",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg820-12",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 8,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-landscape-quiz",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/find-my-guitar",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-landscape-practice",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/practice",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 0,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-landscape-admin",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/admin",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": false
+      }
+    },
+    {
+      "name": "chromium-mobile-landscape-qr",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/qr",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-landscape-detail",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/guitars/yamaha-pacifica-612viifm",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 15,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-landscape-missing",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/route-not-found",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 2,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "chromium-mobile-landscape-admin-isolation",
+      "passed": true,
+      "evidence": {
+        "originalAdminComputedStylesIdentical": true,
+        "loginConfigUntouched": true,
+        "liveAuthNotConfigured": true
+      }
+    },
+    {
+      "name": "chromium-mobile-landscape-navigation",
+      "passed": true,
+      "evidence": {
+        "openAndClose": true,
+        "touchTargets": true
+      }
+    },
+    {
+      "name": "webkit-mobile-landscape-home",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 63,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-landscape-catalog",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/guitars",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 28,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-landscape-brands",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/brands",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 11,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-landscape-brand",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/brands/yamaha",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 72,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-landscape-favorites",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/wishlist",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 3,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-landscape-credits",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/image-credits",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 4,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-landscape-compare",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/compare?ids=yamaha-pacifica-612viifm,yamaha-fg820-12",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 8,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-landscape-quiz",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/find-my-guitar",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-landscape-practice",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/practice",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 0,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-landscape-admin",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/admin",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": false
+      }
+    },
+    {
+      "name": "webkit-mobile-landscape-qr",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/qr",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 1,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-landscape-detail",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/guitars/yamaha-pacifica-612viifm",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 15,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-landscape-missing",
+      "passed": true,
+      "evidence": {
+        "viewport": "mobile-landscape",
+        "route": "/route-not-found",
+        "oneHeading": true,
+        "noOverflow": true,
+        "noBrokenImages": true,
+        "internalLinks": 2,
+        "publicStyling": true
+      }
+    },
+    {
+      "name": "webkit-mobile-landscape-admin-isolation",
+      "passed": true,
+      "evidence": {
+        "originalAdminComputedStylesIdentical": true,
+        "loginConfigUntouched": true,
+        "liveAuthNotConfigured": true
+      }
+    },
+    {
+      "name": "webkit-mobile-landscape-navigation",
+      "passed": true,
+      "evidence": {
+        "openAndClose": true,
+        "touchTargets": true
+      }
+    }
+  ],
+  "engines": [
+    "Chromium",
+    "Linux WebKit"
+  ],
+  "viewports": {
+    "desktop": [
+      1440,
+      1000
+    ],
+    "ipadLandscape": [
+      1194,
+      834
+    ],
+    "ipadPortrait": [
+      768,
+      1024
+    ],
+    "mobilePortrait": [
+      390,
+      844
+    ],
+    "narrowMobile": [
+      320,
+      740
+    ],
+    "mobileLandscape": [
+      844,
+      390
+    ]
+  },
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "hostedSupabaseTested": false,
+  "physicalIPadSafariTested": false,
+  "recheckNote": "Nine initial WebKit harness failures asserted HTTP 200 only. WebKit exposes successful cached navigation as 304. The nine same checks passed after permitting 200/304; no application change. Phone landscape adds thirty distinct checks plus four repeated motion/link checks."
+}

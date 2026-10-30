@@ -17,7 +17,7 @@ export default function VisitorExperience({ children }) {
     const media = window.matchMedia('(prefers-reduced-motion: reduce)');
     const element = root.current;
     const targets = new Set();
-    const selector = '.signature-marquee-heading, .signature-category-grid, .home-editorial-copy, .signature-collection-controls, .brand-directory-card, .detail-key-features, .wishlist-empty';
+    const selector = '.signature-category-grid, .home-editorial-copy, .signature-collection-controls, .brand-directory-card, .detail-key-features, .wishlist-empty';
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) return;

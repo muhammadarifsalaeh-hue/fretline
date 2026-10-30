@@ -1,0 +1,25 @@
+
+> fretline@0.1.0 admin:check
+> node scripts/check-admin.mjs
+
+WebSocket server error:
+Error: listen EPERM: operation not permitted 0.0.0.0:24678
+    at Server.setupListenHandle [as _listen2] (node:net:2145:21)
+    at listenInCluster (node:net:2224:12)
+    at Server.listen (node:net:2344:7)
+    at Object.listen (file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:59516:21)
+    at file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64101:45
+    at Array.forEach (<anonymous>)
+    at Object.listen (file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64101:16)
+    at _createServer (file:///workspace/fretline/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:63423:11)
+    at async file:///workspace/fretline/scripts/check-admin.mjs:4:14
+PASS Exactly 200 stable IDs and 10 x 20 remain in static rollback catalog
+PASS Seed keeps every original record including nulls and image provenance
+PASS Import never uses an upsert that overwrites existing guitar rows
+PASS Unknown price becomes null, not zero
+PASS Zero, negative, non-finite, unreferenced and future prices fail
+PASS Published specs require evidence; numeric counts remain numeric
+PASS Invalid or negative and fractional counts are rejected
+PASS Existing unsupported-by-editor specs, images, profile and source metadata survive edits
+PASS Service keys, URL credentials and foreign domains cannot become browser config
+9/9 admin data checks passed

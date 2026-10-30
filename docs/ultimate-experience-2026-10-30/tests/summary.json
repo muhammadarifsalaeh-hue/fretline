@@ -1,0 +1,66 @@
+{
+  "branch": "feature/fretline-ultimate-experience",
+  "baseCommit": "f8084ef8f1cf8db65d150bc500c4ea9b6f851c35",
+  "checkpointBeforeBrandRestoration": "4902be0",
+  "buildPassed": true,
+  "unitTestsPassed": 106,
+  "browserCheckGroupsPassed": 271,
+  "allVisitorRoutes": 13,
+  "testedEngines": [
+    "Chromium",
+    "Linux WebKit"
+  ],
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      1194,
+      834
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      320,
+      740
+    ],
+    [
+      844,
+      390
+    ]
+  ],
+  "models": 200,
+  "brands": 10,
+  "modelsPerBrand": 20,
+  "chords": 42,
+  "protectedExistingRuntimeFiles": 302,
+  "originalMarqueeRestoredFrom": "f8084ef",
+  "allOriginalProductFieldsAndPhotosPreserved": true,
+  "masterUnchanged": true,
+  "pushPerformed": false,
+  "deployPerformed": false,
+  "mergePerformed": false,
+  "sqlOrDatabaseWritesPerformed": false,
+  "physicalIPadSafariVerified": false,
+  "liveSupabaseAuthPublishStorageVerified": false,
+  "performanceLab": {
+    "before": {
+      "medianLcpMs": 1592,
+      "medianCLS": 0,
+      "maxObservedLabEventMs": 72
+    },
+    "after": {
+      "medianLcpMs": 1532,
+      "medianCLS": 0,
+      "maxObservedLabEventMs": 56
+    }
+  },
+  "performanceIsFieldCertification": false
+}
