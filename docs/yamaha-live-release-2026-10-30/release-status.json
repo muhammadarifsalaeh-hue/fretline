@@ -1,0 +1,19 @@
+{
+  "status": "blocked_before_merge_and_deploy",
+  "reason": "Supabase production connection is not configured. Production deployment preflight fails; real Admin transactions and Published catalog cannot be verified.",
+  "requiredEnvironmentVariableNames": [
+    "VITE_SUPABASE_URL",
+    "VITE_SUPABASE_PUBLISHABLE_KEY",
+    "VITE_CATALOG_SOURCE"
+  ],
+  "hostingEnvironmentEntryCount": 0,
+  "previousLiveUrl": "https://fretline-signature-review.vocalwolf36.chatgpt.site",
+  "previousApplicationCommit": "a3e770d7d07f6a10dac9788cd6765c6bf6f028dc",
+  "previousSiteVersion": 3,
+  "previousMaster": "9f7b35d7a0daea8a579976a5534ffb67d90f06a9",
+  "siteAudienceUnchanged": "owner-private",
+  "merged": false,
+  "deployed": false,
+  "publicationAuthorizedByOwner": true,
+  "willNotRequireAnotherPublicationConfirmation": true
+}

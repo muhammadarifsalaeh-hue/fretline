@@ -80,8 +80,11 @@ export function getGuitarImages(id) {
       srcSet: [...variants, `${src} ${rights.width}w`].join(', ') }];
   });
   const overrides = (IMAGE_OVERRIDES[id] ?? []).filter((photo) => hasImageRights(photo.attribution, id));
-  // Rights-unverified imports exist only in the explicitly selected development mode.
-  // The existing licensed FG820-12 photograph remains first. Production exports {}.
-  const gallery = [...(overrides.length ? overrides : fromFiles), ...(YAMAHA_IMPORT_PREVIEW[id]?.images ?? [])];
+  // Owner-requested project artwork uses the normal asset registry in every build.
+  // Keep original photos first; opt-in review must not append the same file twice.
+  const published = overrides.length ? overrides : fromFiles;
+  const publishedFiles = new Set(published.map((image) => image.file).filter(Boolean));
+  const reviewOnly = (YAMAHA_IMPORT_PREVIEW[id]?.images ?? []).filter((image) => !publishedFiles.has(image.file));
+  const gallery = [...published, ...reviewOnly];
   return { primary: gallery[0]?.src ?? null, gallery, hasPhotos: gallery.length > 0 };
 }

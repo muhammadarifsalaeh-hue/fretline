@@ -1,0 +1,45 @@
+{
+  "checks": [
+    {
+      "name": "desktop-quiz",
+      "passed": true,
+      "evidence": {
+        "originalFiveQuestionsCompleted": true,
+        "actualCatalogResults": true
+      }
+    },
+    {
+      "name": "landscape-quiz",
+      "passed": true,
+      "evidence": {
+        "originalFiveQuestionsCompleted": true,
+        "actualCatalogResults": true
+      }
+    },
+    {
+      "name": "portrait-quiz",
+      "passed": true,
+      "evidence": {
+        "originalFiveQuestionsCompleted": true,
+        "actualCatalogResults": true
+      }
+    },
+    {
+      "name": "mobile-quiz",
+      "passed": true,
+      "evidence": {
+        "originalFiveQuestionsCompleted": true,
+        "actualCatalogResults": true
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "imageResponseErrors": [],
+  "physicalIPadSafariTested": false,
+  "engine": "Chromium",
+  "databaseWrites": false,
+  "adminBackendVerified": false,
+  "livePublishedCatalogVerified": false,
+  "passed": true
+}

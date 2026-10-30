@@ -1,0 +1,37 @@
+[
+  {
+    "command": "npm run catalog:check",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "command": "npm run images:check",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "command": "npm run admin:check",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "command": "npm run deploy:test",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "command": "npm run phase4:check",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "command": "npm run phase5:check",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "command": "npm run practice:check",
+    "passed": true,
+    "exitCode": 0
+  }
+]

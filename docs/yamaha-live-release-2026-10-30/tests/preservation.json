@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "originalTrackedFilesChecked": 4907,
+  "approvedOriginalFilesChanged": [
+    "src/data/catalog/projectArtwork.json",
+    "src/data/guitarImages.js"
+  ],
+  "deletedOriginalFiles": [],
+  "allOtherOriginalFilesByteIdentical": true,
+  "allAccessibleBranchWorkIncluded": true,
+  "branchRefs": {
+    "refs/heads/feature/catalog-prices-2026-10-29": {
+      "commit": "a620d5e31948cd9ea063ad188a314d8c4e092d16",
+      "includedInLatest": true
+    },
+    "refs/heads/feature/fretline-admin-studio": {
+      "commit": "302ce43def126e4785460c4b0297eae973dbccfb",
+      "includedInLatest": true
+    },
+    "refs/heads/feature/fretline-signature-experience": {
+      "commit": "b4c0bbad9781a8d138ec7246686a49e95cfae72e",
+      "includedInLatest": true
+    },
+    "refs/heads/feature/fretline-ultimate-experience": {
+      "commit": "a3e770d7d07f6a10dac9788cd6765c6bf6f028dc",
+      "includedInLatest": true
+    },
+    "refs/heads/feature/guitar-practice-3d": {
+      "commit": "decd5544ade430530ac7c1e37ae463f251c90d50",
+      "includedInLatest": true
+    },
+    "refs/heads/feature/premium-quiz-compare": {
+      "commit": "edc293f7a7b5a6fc06b306118bd61faced5dcdbe",
+      "includedInLatest": true
+    },
+    "refs/heads/feature/recover-yamaha-files-20261030": {
+      "commit": "7bb93474eb8c24d64e6cfbe9e6e734068c098066",
+      "includedInLatest": true
+    },
+    "refs/heads/feature/release-yamaha-live-20261030": {
+      "commit": "7bb93474eb8c24d64e6cfbe9e6e734068c098066",
+      "includedInLatest": true
+    },
+    "refs/heads/feature/restore-original-experience": {
+      "commit": "d8b91b67eb89404dc9be0d2243e8ac6472a4a93f",
+      "includedInLatest": true
+    },
+    "refs/heads/feature/targeted-premium-ui-thai": {
+      "commit": "f8084ef8f1cf8db65d150bc500c4ea9b6f851c35",
+      "includedInLatest": true
+    },
+    "refs/heads/feature/yamaha-19-import": {
+      "commit": "f2168efb6f260194e5732647073b05c8b36fe73a",
+      "includedInLatest": true
+    },
+    "refs/heads/master": {
+      "commit": "9f7b35d7a0daea8a579976a5534ffb67d90f06a9",
+      "includedInLatest": true
+    },
+    "refs/remotes/origin/HEAD": {
+      "commit": "9f7b35d7a0daea8a579976a5534ffb67d90f06a9",
+      "includedInLatest": true
+    },
+    "refs/remotes/origin/feature/catalog-prices-2026-10-29": {
+      "commit": "a620d5e31948cd9ea063ad188a314d8c4e092d16",
+      "includedInLatest": true
+    },
+    "refs/remotes/origin/feature/fretline-admin-studio": {
+      "commit": "302ce43def126e4785460c4b0297eae973dbccfb",
+      "includedInLatest": true
+    },
+    "refs/remotes/origin/feature/fretline-ultimate-experience": {
+      "commit": "a3e770d7d07f6a10dac9788cd6765c6bf6f028dc",
+      "includedInLatest": true
+    },
+    "refs/remotes/origin/feature/guitar-practice-3d": {
+      "commit": "decd5544ade430530ac7c1e37ae463f251c90d50",
+      "includedInLatest": true
+    },
+    "refs/remotes/origin/feature/premium-quiz-compare": {
+      "commit": "edc293f7a7b5a6fc06b306118bd61faced5dcdbe",
+      "includedInLatest": true
+    },
+    "refs/remotes/origin/feature/yamaha-19-import": {
+      "commit": "f2168efb6f260194e5732647073b05c8b36fe73a",
+      "includedInLatest": true
+    },
+    "refs/remotes/origin/master": {
+      "commit": "9f7b35d7a0daea8a579976a5534ffb67d90f06a9",
+      "includedInLatest": true
+    }
+  },
+  "originalYamahaImagesAdded": 20,
+  "databaseWrites": false
+}
