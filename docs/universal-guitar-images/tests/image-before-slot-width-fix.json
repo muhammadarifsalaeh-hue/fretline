@@ -1,0 +1,376 @@
+{
+  "checks": [
+    {
+      "name": "desktop-matching-before-after-captures",
+      "passed": true,
+      "evidence": {
+        "catalogFrames": [
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          }
+        ],
+        "detailFrame": {
+          "w": 582.65625,
+          "h": 582.65625,
+          "bg": "rgb(0, 0, 0)"
+        }
+      }
+    },
+    {
+      "name": "desktop-lightbox-and-no-cropping",
+      "passed": true,
+      "evidence": {
+        "containedSquareInsideViewport": {
+          "x": 338,
+          "y": 76,
+          "width": 764,
+          "height": 764
+        },
+        "noAutomaticHoverZoom": true,
+        "keyboardNavigation": true
+      }
+    },
+    {
+      "name": "desktop-missing-model-placeholder",
+      "passed": true,
+      "evidence": {
+        "blackSquare": {
+          "w": 661.65625,
+          "h": 661.65625,
+          "bg": "rgb(0, 0, 0)"
+        },
+        "wrongModelArt": false,
+        "brokenImageElement": false
+      }
+    },
+    {
+      "name": "four-category-filters-and-true-placeholders",
+      "passed": true,
+      "evidence": {
+        "electric": 90,
+        "acoustic": 73,
+        "classical": 20,
+        "bass": 17
+      }
+    },
+    {
+      "name": "lazy-loading-and-page-size",
+      "passed": true,
+      "evidence": {
+        "pageImageElements": 9,
+        "priorityImages": 3,
+        "remainingLazyImages": 6,
+        "responsiveSizes": true,
+        "doesNotRender200FullImages": true
+      }
+    },
+    {
+      "name": "landscape-matching-before-after-captures",
+      "passed": true,
+      "evidence": {
+        "catalogFrames": [
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          }
+        ],
+        "detailFrame": {
+          "w": 476.828125,
+          "h": 476.828125,
+          "bg": "rgb(0, 0, 0)"
+        }
+      }
+    },
+    {
+      "name": "landscape-lightbox-and-no-cropping",
+      "passed": true,
+      "evidence": {
+        "containedSquareInsideViewport": {
+          "x": 298,
+          "y": 76,
+          "width": 598,
+          "height": 598
+        },
+        "noAutomaticHoverZoom": true,
+        "keyboardNavigation": true
+      }
+    },
+    {
+      "name": "landscape-missing-model-placeholder",
+      "passed": true,
+      "evidence": {
+        "blackSquare": {
+          "w": 555.828125,
+          "h": 555.828125,
+          "bg": "rgb(0, 0, 0)"
+        },
+        "wrongModelArt": false,
+        "brokenImageElement": false
+      }
+    },
+    {
+      "name": "portrait-matching-before-after-captures",
+      "passed": true,
+      "evidence": {
+        "catalogFrames": [
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          }
+        ],
+        "detailFrame": {
+          "w": 283.0625,
+          "h": 283.0625,
+          "bg": "rgb(0, 0, 0)"
+        }
+      }
+    },
+    {
+      "name": "portrait-lightbox-and-no-cropping",
+      "passed": true,
+      "evidence": {
+        "containedSquareInsideViewport": {
+          "x": 80,
+          "y": 166,
+          "width": 608,
+          "height": 608
+        },
+        "noAutomaticHoverZoom": true,
+        "keyboardNavigation": true
+      }
+    },
+    {
+      "name": "portrait-missing-model-placeholder",
+      "passed": true,
+      "evidence": {
+        "blackSquare": {
+          "w": 362.0625,
+          "h": 362.0625,
+          "bg": "rgb(0, 0, 0)"
+        },
+        "wrongModelArt": false,
+        "brokenImageElement": false
+      }
+    },
+    {
+      "name": "mobile-matching-before-after-captures",
+      "passed": true,
+      "evidence": {
+        "catalogFrames": [
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "bg": "rgb(0, 0, 0)"
+          }
+        ],
+        "detailFrame": {
+          "w": 350,
+          "h": 350,
+          "bg": "rgb(0, 0, 0)"
+        }
+      }
+    },
+    {
+      "name": "mobile-lightbox-and-no-cropping",
+      "passed": true,
+      "evidence": {
+        "containedSquareInsideViewport": {
+          "x": 16,
+          "y": 209,
+          "width": 358,
+          "height": 358
+        },
+        "noAutomaticHoverZoom": true,
+        "keyboardNavigation": true
+      }
+    },
+    {
+      "name": "mobile-missing-model-placeholder",
+      "passed": true,
+      "evidence": {
+        "blackSquare": {
+          "w": 350,
+          "h": 350,
+          "bg": "rgb(0, 0, 0)"
+        },
+        "wrongModelArt": false,
+        "brokenImageElement": false
+      }
+    },
+    {
+      "name": "controlled-image-failure-and-layout-stability",
+      "passed": false,
+      "error": "Traceback (most recent call last):\n  File \"/workspace/fretline/docs/universal-guitar-images/browser-image-checks.py\", line 15, in check\n    evidence = fn()\n               ^^^^\n  File \"/workspace/fretline/docs/universal-guitar-images/browser-image-checks.py\", line 140, in failed_image\n    expect(page.locator('.gallery-main .image-placeholder')).to_be_visible()\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/sync_api/_generated.py\", line 23332, in to_be_visible\n    self._sync(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_assertions.py\", line 852, in to_be_visible\n    await self._expect_impl(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_assertions.py\", line 128, in _expect_impl\n    _record_soft_or_raise(\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/playwright/_impl/_assertions.py\", line 60, in _record_soft_or_raise\n    raise error\nAssertionError: Locator expected to be visible\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_be_visible\" with timeout 5000ms\n  - waiting for locator(\".gallery-main .image-placeholder\")\n\nAria snapshot:\n- link \"ข้ามไปยังเนื้อหาหลัก\":\n  - /url: \"#main-content\"\n- banner:\n  - link \"Fretline หน้าหลัก\":\n    - /url: /\n    - text: Fretline\n  - link \"รายการโปรด 0 รุ่น\":\n    - /url: /wishlist\n  - link \"เปรียบเทียบ 0 รุ่น\":\n    - /url: /compare\n  - button \"เปิดเมนู\"\n- main:\n  - navigation \"เส้นทางหน้า\":\n    - link \"หน้าหลัก\":\n      - /url: /\n    - link \"กีตาร์\":\n      - /url: /guitars\n    - link \"กีตาร์โปร่ง\":\n      - /url: /guitars?type=acoustic\n    - text: Yamaha FG820-12\n  - img \"Yamaha FG820-12, Front view — owner photograph\"\n  - button \"เปิดดูรูปขนาดใหญ่\"\n  - status: 1 / 2\n  - button \"รูปก่อนหน้า\"\n  - button \"รูปถัดไป\"\n  - list \"รูปกีตาร์แต่ละมุม\":\n    - listitem:\n      - button \"ดู Front view — owner photograph\"\n    - listitem:\n      - button \"ดู ภาพประกอบจากไฟล์ผู้ใช้\"\n  - paragraph: ภาพ FG820-12 ของผู้ใช้ ซึ่งใส่สายไว้ 6 เส้นตามข้อมูลผู้ถ่าย ไม่ใช่ภาพสต็อกจากผู้ผลิต\n  - paragraph:\n    - link \"Peternick2468 · หน้าต้นทาง\":\n      - /url: https://commons.wikimedia.org/wiki/File:12_string_Yamaha_acoustic_guitar.jpg\n    - text: ·\n    - link \"CC-BY-SA-4.0\":\n      - /url: https://creativecommons.org/licenses/by-sa/4.0/\n  - group: การปรับไฟล์\n  - link \"Yamaha\":\n    - /url: /brands/yamaha\n  - heading \"FG820-12\" [level=1]\n  - link \"กีตาร์โปร่ง\":\n    - /url: /guitars?type=acoustic\n  - text: ตรวจสอบบางส่วน\n  - paragraph: ฿16,500\n  - paragraph:\n    - link \"Music Arms · ราคาที่ร้านค้าแสดง\":\n      - /url: https://www.musicarms.net/yamaha-fg820-12/\n    - text: ราคาจากหน้าร้าน ณ วันที่ตรวจสอบ ราคาและสถานะสินค้าสามารถเปลี่ยนแปลงได้ ตรวจสอบเมื่อ 2026-10-26 หน้าร้านระบุว่ายกเลิกจำหน่าย ราคานี้ใช้เป็นข้อมูลอ้างอิง\n  - paragraph: FG820-12 เป็นกีตาร์โปร่งทรง Dreadnought Style ท็อป Solid Spruce ด้านหลังและข้าง Mahogany ตามตารางผู้ผลิต Yamaha\n  - paragraph:\n    - text: \"ตรวจข้อมูลอ้างอิงบางส่วนเมื่อ 2026-10-26 (แหล่งที่มา:\"\n    - link \"Yamaha Malaysia — FG820-12; ตรวจคอลัมน์แยกจากรุ่นอื่น วันที่ 26 ตุลาคม 2026\":\n      - /url: https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html\n    - text: ) ช่องที่แสดง “ไม่ระบุ” ยังไม่มีข้อมูลที่ตรวจได้ ไม่ได้ยืนยันว่าข้อมูลทุกรายการครบถ้วน\n  - paragraph: รายการที่ไม่มีข้อมูลยืนยันจะแสดงว่า “ยังไม่ยืนยัน” ไม่ได้อนุมานจากภาพหรือรุ่นใกล้เคียง\n  - group: ขอบเขตและข้อจำกัดของแหล่งข้อมูล\n  - button \"เพิ่มในการเปรียบเทียบ\"\n  - button \"บันทึกในรายการโปรด\"\n  - term: ประเภท\n  - definition: กีตาร์โปร่ง\n  - term: จำนวนสาย\n  - definition: \"12\"\n  - term: น้ำหนัก\n  - definition: ไม่ระบุ\n  - region \"เกี่ยวกับกีตาร์รุ่นนี้\":\n    - tablist \"เกี่ยวกับกีตาร์รุ่นนี้\":\n      - tab \"รายละเอียด\" [selected]\n      - tab \"สเปก\"\n      - tab \"รีวิว\"\n    - tabpanel \"รายละเอียด\":\n      - heading \"เกี่ยวกับกีตาร์รุ่นนี้ FG820-12\" [level=2]\n      - paragraph:\n        - text: \"ตรวจข้อมูลอ้างอิงบางส่วนเมื่อ 2026-10-26 (แหล่งที่มา:\"\n        - link \"Yamaha Malaysia — FG820-12; ตรวจคอลัมน์แยกจากรุ่นอื่น วันที่ 26 ตุลาคม 2026\":\n          - /url: https://my.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/specs.html\n        - text: ) ช่องที่แสดง “ไม่ระบุ” ยังไม่มีข้อมูลที่ตรวจได้ ไม่ได้ยืนยันว่าข้อมูลทุกรายการครบถ้วน\n      - paragraph: รายการที่ไม่มีข้อมูลยืนยันจะแสดงว่า “ยังไม่ยืนยัน” ไม่ได้อนุมานจากภาพหรือรุ่นใกล้เคียง\n      - group: ขอบเขตและข้อจำกัดของแหล่งข้อมูล\n      - paragraph: FG820-12 เป็นกีตาร์โปร่งทรง Dreadnought Style ท็อป Solid Spruce ด้านหลังและข้าง Mahogany ตามตารางผู้ผลิต Yamaha\n      - term: โทนเสียง\n      - definition: None\n      - term: ความรู้สึกตอนเล่น\n      - definition: ความยาวสเกล 634 mm (24.96\")\n      - term: โครงสร้าง\n      - definition: Dreadnought Style; Solid Spruce top; Mahogany back; Mahogany sides\n  - heading \"กีตาร์ที่คุณอาจสนใจ\" [level=2]\n  - link \"ดูทั้งหมด\":\n    - /url: /guitars\n  - article:\n    - img \"Yamaha FG830 — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่\"\n    - button \"บันทึก FG830 ในรายการโปรด\"\n    - button \"เพิ่ม FG830 ในการเปรียบเทียบ\"\n    - link \"ดูรายละเอียด\":\n      - /url: /guitars/yamaha-fg830\n    - paragraph: ตรวจสอบบางส่วน\n    - paragraph: Yamaha\n    - heading \"Yamaha FG830\" [level=3]:\n      - link \"Yamaha FG830\":\n        - /url: /guitars/yamaha-fg830\n    - list:\n      - listitem: Dreadnought Style\n      - listitem: Solid Spruce top\n    - paragraph: ฿17,500\n    - paragraph:\n      - link \"Music Arms · ราคาที่ร้านค้าแสดง\":\n        - /url: https://www.musicarms.net/yamaha-fg830/\n  - article:\n    - img \"Yamaha FS830 — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่\"\n    - button \"บันทึก FS830 ในรายการโปรด\"\n    - button \"เพิ่ม FS830 ในการเปรียบเทียบ\"\n    - link \"ดูรายละเอียด\":\n      - /url: /guitars/yamaha-fs830\n    - paragraph: ตรวจสอบบางส่วน\n    - paragraph: Yamaha\n    - heading \"Yamaha FS830\" [level=3]:\n      - link \"Yamaha FS830\":\n        - /url: /guitars/yamaha-fs830\n    - list:\n      - listitem: Concert Style\n      - listitem: Solid Spruce top\n    - paragraph: ฿17,500\n    - paragraph:\n      - link \"Music Arms · ราคาที่ร้านค้าแสดง\":\n        - /url: https://www.musicarms.net/yamaha-fs830/\n  - article:\n    - img \"Yamaha FGX800C — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่\"\n    - button \"บันทึก FGX800C ในรายการโปรด\"\n    - button \"เพิ่ม FGX800C ในการเปรียบเทียบ\"\n    - link \"ดูรายละเอียด\":\n      - /url: /guitars/yamaha-fgx800c\n    - paragraph: ตรวจสอบบางส่วน\n    - paragraph: Yamaha\n    - heading \"Yamaha FGX800C\" [level=3]:\n      - link \"Yamaha FGX800C\":\n        - /url: /guitars/yamaha-fgx800c\n    - list:\n      - listitem: Dreadnought Cutaway Style\n      - listitem: Solid Spruce top\n    - paragraph: ฿15,500\n    - paragraph:\n      - link \"Music Arms · ราคาที่ร้านค้าแสดง\":\n        - /url: https://www.musicarms.net/yamaha-fgx800c-natural/\n  - article:\n    - img \"Yamaha FSX800C — ภาพประกอบจากผู้ใช้ ยังไม่ยืนยันความตรงรุ่นและสิทธิ์เผยแพร่\"\n    - button \"บันทึก FSX800C ในรายการโปรด\"\n    - button \"เพิ่ม FSX800C ในการเปรียบเทียบ\"\n    - link \"ดูรายละเอียด\":\n      - /url: /guitars/yamaha-fsx800c\n    - paragraph: ตรวจสอบบางส่วน\n    - paragraph: Yamaha\n    - heading \"Yamaha FSX800C\" [level=3]:\n      - link \"Yamaha FSX800C\":\n        - /url: /guitars/yamaha-fsx800c\n    - list:\n      - listitem: Concert Cutaway Style\n      - listitem: Solid Spruce top\n    - paragraph: ฿15,500\n    - paragraph:\n      - link \"Music Arms · ราคาที่ร้านค้าแสดง\":\n        - /url: https://www.musicarms.net/yamaha-fsx800c-natural/\n- contentinfo:\n  - link \"Fretline หน้าหลัก\":\n    - /url: /\n    - text: Fretline\n  - paragraph: แคตตาล็อกกีตาร์สำหรับค้นหา เปรียบเทียบ และเลือกกีตาร์ที่เหมาะกับสไตล์การเล่นของคุณ\n  - paragraph: ตรวจสถานะและขอบเขตแหล่งข้อมูลได้ในหน้ารายละเอียด ไม่ประมาณราคา สเปก หรือรีวิวที่ยังไม่มีหลักฐาน\n  - link \"เครดิตและสิทธิ์ภาพกีตาร์\":\n    - /url: /image-credits\n  - navigation \"เลือกดูตามประเภท\":\n    - heading \"เลือกดูตามประเภท\" [level=2]\n    - list:\n      - listitem:\n        - link \"กีตาร์ไฟฟ้า\":\n          - /url: /guitars?type=electric\n      - listitem:\n        - link \"กีตาร์โปร่ง\":\n          - /url: /guitars?type=acoustic\n      - listitem:\n        - link \"กีตาร์คลาสสิก\":\n          - /url: /guitars?type=classical\n      - listitem:\n        - link \"เบส\":\n          - /url: /guitars?type=bass\n  - navigation \"สำรวจ\":\n    - heading \"สำรวจ\" [level=2]\n    - list:\n      - listitem:\n        - link \"แบรนด์\":\n          - /url: /brands\n      - listitem:\n        - link \"เปรียบเทียบ\":\n          - /url: /compare\n      - listitem:\n        - link \"รายการโปรด\":\n          - /url: /wishlist\n      - listitem:\n        - link \"ค้นหากีตาร์ที่ใช่\":\n          - /url: /find-my-guitar\n      - listitem:\n        - link \"QR Code\":\n          - /url: /qr\n  - paragraph: © 2026 Fretline · เว็บไซต์ข้อมูลและเปรียบเทียบกีตาร์\n- navigation \"เมนูลัด\":\n  - link \"หน้าหลัก\":\n    - /url: /\n  - button \"ค้นหา\"\n  - link \"เปรียบเทียบ\":\n    - /url: /compare\n  - link \"รายการโปรด\":\n    - /url: /wishlist\n"
+    }
+  ],
+  "engine": "Chromium",
+  "databaseWrites": 0,
+  "physicalIPadSafariTested": false,
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "passed": false
+}

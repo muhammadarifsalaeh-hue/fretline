@@ -30,15 +30,15 @@ export default function CatalogCard({ guitar, index = 0, onRemove, compact = fal
       style={{ animationDelay: `${(index % 9) * 60}ms` }}
       className={cn('discovery-card group flex h-full flex-col overflow-hidden bg-surface', compact && 'catalog-product-card')}
     >
-      <div className="catalog-card-image relative aspect-[4/5] overflow-hidden bg-gradient-to-b from-[#2b2b2b] to-[#171717]">
+      <div data-product-image-slot="square" className="product-image-slot catalog-card-image relative aspect-square overflow-hidden bg-black">
         <AppLink href={href} tabIndex={-1} aria-hidden="true" className="absolute inset-0 block">
           <GuitarImage
             guitar={guitar}
+            priority={index < 3}
             sizes={compact ? '(min-width: 1024px) 25vw, (min-width: 380px) 46vw, 90vw' : '(min-width: 1280px) 30vw, (min-width: 640px) 45vw, 92vw'}
             className="absolute inset-0 catalog-product-art"
           />
         </AppLink>
-        <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-t from-surface/40 via-transparent to-transparent" />
 
         {guitar.badge && !verifiedOnly && (
           <div className="absolute left-4 top-4">

@@ -1,0 +1,19 @@
+
+> fretline@0.1.0 deploy:test
+> node scripts/test-deployment.mjs
+
+✔ only server-verified user AND boolean membership reveal Admin (3.103461ms)
+✔ unverified identity cannot call the membership RPC (0.258934ms)
+✔ logout invalidates an in-flight positive result; listeners cleaned up (11.315606ms)
+✔ QR URL never derives from a preview/current origin or accepts credentials (0.808008ms)
+✔ Vercel build requires published Supabase data, not a stale static fallback (1.617217ms)
+✔ browser secrets are rejected in every Vite mode without leaking values (0.367274ms)
+✔ Vercel routes cover deep links while preserving static paths and cache policy (0.416547ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 25.304765

@@ -1,0 +1,133 @@
+{
+  "scope": "actual image UI/codec with explicit in-memory service fixtures",
+  "hostedSupabaseTested": false,
+  "physicalIPadTested": false,
+  "realDatabaseWrites": 0,
+  "checks": [
+    {
+      "name": "selection-is-local-and-formats",
+      "passed": true,
+      "evidence": {
+        "inputFormats": [
+          "WebP",
+          "PNG",
+          "JPEG"
+        ],
+        "preparedDimensions": [
+          1200,
+          1200
+        ],
+        "uploadRequestsBeforeConfirmation": 0,
+        "stagedFilesSurviveTabSwitch": true
+      }
+    },
+    {
+      "name": "preview-responsive-four-types",
+      "passed": true,
+      "evidence": {
+        "viewports": 4,
+        "types": [
+          "electric",
+          "acoustic",
+          "classical",
+          "bass"
+        ],
+        "categoryImagesUsedOnlyInIsolatedComponentTest": true
+      }
+    },
+    {
+      "name": "upload-id-cache-and-no-overwrite",
+      "passed": true,
+      "evidence": [
+        {
+          "path": "qa-image-upload/247d4cea-853e-463a-9a68-02d368ffa4dd.webp",
+          "type": "image/webp",
+          "w": 1200,
+          "h": 1200,
+          "options": {
+            "contentType": "image/webp",
+            "cacheControl": "86400",
+            "upsert": false
+          }
+        },
+        {
+          "path": "qa-image-upload/8bac599d-a135-4c70-8e92-124afd78036c.webp",
+          "type": "image/webp",
+          "w": 1200,
+          "h": 1200,
+          "options": {
+            "contentType": "image/webp",
+            "cacheControl": "86400",
+            "upsert": false
+          }
+        },
+        {
+          "path": "qa-image-upload/2523dac6-11d1-40b4-94cd-8dce15c25d8a.webp",
+          "type": "image/webp",
+          "w": 1200,
+          "h": 1200,
+          "options": {
+            "contentType": "image/webp",
+            "cacheControl": "86400",
+            "upsert": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "cover-save-draft-publish-and-catalog",
+      "passed": true,
+      "evidence": {
+        "draftHiddenUntilPublish": true,
+        "coverOrderPreserved": true,
+        "realPublicResolverUsed": true,
+        "catalogPlaceholderReplaced": true,
+        "priceAndSpecsUnchanged": true,
+        "fixtureOnly": true
+      }
+    },
+    {
+      "name": "invalid-format-rejected-before-storage",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "aspect-warning-and-explicit-black-padding",
+      "passed": true,
+      "evidence": {
+        "w": 1200,
+        "h": 1200,
+        "border": [
+          0,
+          0,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "name": "registration-failure-cleans-only-new-file-and-retry-has-no-duplicates",
+      "passed": true,
+      "evidence": {
+        "registrationFailureIsSimulated": true,
+        "onlyFailedNewObjectRemoved": true,
+        "originalsNotRemoved": true,
+        "retryUniqueImages": 4
+      }
+    },
+    {
+      "name": "small-source-not-upscaled-and-removable-after-rights-unchecked",
+      "passed": true,
+      "evidence": {
+        "smallDeliverySize": [
+          800,
+          800
+        ],
+        "noSourceUpscale": true,
+        "localPreviewURLsReleased": true
+      }
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

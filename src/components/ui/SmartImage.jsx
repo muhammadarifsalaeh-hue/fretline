@@ -21,11 +21,11 @@ function GuitarFallback() {
  * <img> ที่ fade-in เมื่อโหลดเสร็จ และมี fallback เมื่อโหลดไม่ได้
  * ใส่ className ที่ container (เช่น "absolute inset-0") และ imgClassName ที่ตัวรูป
  */
-export default function SmartImage({ src, alt = '', className = '', imgClassName = '', priority = false, srcSet, sizes, width, height, fit = 'cover', fallback }) {
+export default function SmartImage({ src, alt = '', className = '', imgClassName = '', imageStyle, containerStyle, priority = false, srcSet, sizes, width, height, fit = 'cover', fallback }) {
   const [status, setStatus] = useState('loading');
 
   return (
-    <div className={cn('overflow-hidden bg-[#1a1a1a]', className)}>
+    <div style={containerStyle} className={cn('overflow-hidden bg-[#1a1a1a]', className)}>
       {status === 'error' || !src ? (
         fallback ?? <GuitarFallback />
       ) : (
@@ -36,6 +36,7 @@ export default function SmartImage({ src, alt = '', className = '', imgClassName
           alt={alt}
           width={width}
           height={height}
+          style={imageStyle}
           loading={priority ? 'eager' : 'lazy'}
           fetchpriority={priority ? 'high' : undefined}
           decoding="async"

@@ -16,23 +16,16 @@ export default function GuitarGallery({ guitar, activeIndex, onIndexChange }) {
   const name = `${guitar.brand} ${guitar.name}`;
   const [localIndex, setLocalIndex] = useState(0);
   const index = activeIndex ?? localIndex;
-  const [zoom, setZoom] = useState(null);
   const [lightbox, setLightbox] = useState(false);
   const setIndex = useCallback((value) => {
     if (onIndexChange) onIndexChange(value);
     else setLocalIndex(value);
-    setZoom(null);
   }, [onIndexChange]);
   const closeLightbox = useCallback(() => setLightbox(false), []);
   const touchX = useRef(null);
   const count = images.length;
   const current = images[index];
   const go = (direction) => { if (count > 1) setIndex((index + direction + count) % count); };
-  const onMove = (event) => {
-    if (developmentPreview || current?.kind === 'illustration' || !count || !window.matchMedia('(hover: hover)').matches || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    const rect = event.currentTarget.getBoundingClientRect();
-    setZoom({ x: ((event.clientX - rect.left) / rect.width) * 100, y: ((event.clientY - rect.top) / rect.height) * 100 });
-  };
   const onTouchEnd = (event) => {
     if (touchX.current === null) return;
     const distance = event.changedTouches[0].clientX - touchX.current;
@@ -43,11 +36,11 @@ export default function GuitarGallery({ guitar, activeIndex, onIndexChange }) {
   return (
     <div className="guitar-gallery">
       <div className={cn('gallery-layout', !count && 'is-placeholder')}>
-        <div className="gallery-main group" onMouseMove={onMove} onMouseLeave={() => setZoom(null)}
+        <div data-product-image-slot="square" className="product-image-slot gallery-main group"
           onTouchStart={(event) => { touchX.current = event.touches[0].clientX; }} onTouchEnd={onTouchEnd}>
           {current ? (
             <>
-              <div className="absolute inset-0 transition-transform duration-200" style={{ transform: zoom ? 'scale(1.8)' : 'scale(1)', transformOrigin: zoom ? `${zoom.x}% ${zoom.y}%` : 'center' }}>
+              <div className="absolute inset-0">
                 <GuitarImage key={current.src} guitar={guitar} src={current.src} alt={`${name}, ${current.label}`}
                   sizes="(min-width: 1024px) 40vw, (min-width: 768px) 45vw, 90vw" priority className="absolute inset-0" />
               </div>
@@ -68,7 +61,7 @@ export default function GuitarGallery({ guitar, activeIndex, onIndexChange }) {
           {images.map((image, value) => (
             <li key={image.src}>
               <button type="button" aria-label={t('gallery.show', { label: image.label })} aria-current={value === index ? 'true' : undefined}
-                onClick={() => { setIndex(value); setZoom(null); }} className={cn('gallery-thumbnail', value === index && 'is-active')}>
+                onClick={() => setIndex(value)} className={cn('gallery-thumbnail', value === index && 'is-active')}>
                 <GuitarImage guitar={guitar} src={image.src} alt="" size="sm" className="h-full w-full" />
               </button>
             </li>
@@ -76,7 +69,6 @@ export default function GuitarGallery({ guitar, activeIndex, onIndexChange }) {
         </ul>}
       </div>
       {(developmentPreview || current?.kind === 'illustration') && current && <p className="mt-3 text-center text-xs tracking-wide text-gold" aria-live="polite" data-preview-selection={developmentPreview ? true : undefined} data-gallery-selection>{current.label}</p>}
-      {!count && !developmentPreview && <p className="mt-3 text-xs leading-relaxed text-mute">{t('gallery.soon')}</p>}
       <ImageAttribution image={current} />
       {lightbox && <ImageLightbox images={images} index={index} onIndex={setIndex} onClose={closeLightbox} name={name} guitar={guitar} />}
     </div>

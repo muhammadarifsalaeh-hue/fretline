@@ -1,13 +1,11 @@
-import { cn } from '@/utils/cn';
-import SmartImage from '@/components/ui/SmartImage';
-import ImagePlaceholder from './ImagePlaceholder';
+import ProductImage from './ProductImage';
 import DevelopmentImagePreview from './DevelopmentImagePreview';
 import { getDevelopmentPreviewImage } from '@/utils/developmentImagePreview';
 import useDevelopmentImagePreview from '@/hooks/useDevelopmentImagePreview';
 
 /**
  * รูปสินค้ากีตาร์ (ใช้ทุกที่ที่แสดงรูปรุ่นใดรุ่นหนึ่ง)
- *  - object-contain + padding: เห็นกีตาร์ครบทั้งตัว ไม่ถูกยืด/ตัด/บิดเบี้ยว ในกรอบสัดส่วนเดียวกันทุกใบ
+ *  - square, black, contained: no crop, fixed zoom or extra image padding
  *  - ไม่มีรูป หรือรูปโหลดไม่ได้ → แสดง ImagePlaceholder (ไม่เอารูปรุ่นอื่นมาแทน)
  *  props: guitar, src (ไม่ใส่ = ใช้รูปหลักของ guitar), alt, size ('md' | 'sm'), className, imgClassName
  */
@@ -15,13 +13,12 @@ export default function GuitarImage({ guitar, src, alt, size = 'md', priority = 
   useDevelopmentImagePreview(guitar);
   const url = src === undefined ? guitar?.image : src;
   const compact = size === 'sm';
-  const fallback = <ImagePlaceholder guitar={guitar} compact={compact} />;
   const photo = guitar?.gallery?.find((entry) => entry.src === url);
 
   if (getDevelopmentPreviewImage(guitar, src)) return <DevelopmentImagePreview guitar={guitar} src={src} alt={alt} compact={compact} priority={priority} className={className} />;
 
   return (
-    <SmartImage
+    <ProductImage
       key={url ?? 'placeholder'}
       src={url}
       srcSet={srcSet ?? photo?.srcSet}
@@ -29,11 +26,11 @@ export default function GuitarImage({ guitar, src, alt, size = 'md', priority = 
       alt={alt ?? photo?.alt ?? (guitar ? `${guitar.brand} ${guitar.name}` : '')}
       width={photo?.width}
       height={photo?.height}
-      fit="contain"
       priority={priority}
-      fallback={fallback}
-      className={cn(!className.includes('absolute') && 'relative', photo?.kind === 'illustration' ? 'bg-[#080807]' : 'bg-gradient-to-b from-[#2b2b2b] to-[#171717]', className)}
-      imgClassName={cn(photo?.kind === 'illustration' ? 'p-0' : compact ? 'p-[6%]' : 'p-[7%]', imgClassName)}
+      guitar={guitar}
+      compact={compact}
+      className={className}
+      imgClassName={imgClassName}
     />
   );
 }

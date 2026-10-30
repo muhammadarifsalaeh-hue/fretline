@@ -121,7 +121,7 @@
 .admin-save-bar { position: sticky; bottom: calc(var(--fl-bottom-navigation-height) + env(safe-area-inset-bottom) + 12px); display: flex; flex-wrap: wrap; gap: 10px; padding: 16px; background: rgb(var(--fl-color-canvas) / .97); border: 1px solid var(--fl-border-strong); border-radius: 12px; z-index: 5; margin-top: 24px; }
 .admin-images { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px; margin-block: 24px; }
 .admin-images li { padding: 16px; border: 1px solid var(--fl-border); border-radius: 10px; }
-.admin-images img { width: 100%; height: 240px; object-fit: contain; margin-bottom: 16px; background: var(--fl-canvas); }
+.admin-images .admin-image-preview { width: 100%; aspect-ratio: 1; margin-bottom: 16px; background: #000000; }
 .admin-images .admin-actions { margin-top: 16px; }
 .admin-history li { padding-block: 12px; border-bottom: 1px solid var(--fl-border); font-size: .875rem; color: var(--fl-text-secondary); }
 .admin-history { margin-bottom: 24px; }

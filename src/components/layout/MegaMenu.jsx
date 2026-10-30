@@ -45,7 +45,7 @@ export default function MegaMenu({ open, onClose }) {
         <div className="col-span-6 grid grid-cols-2 gap-5">
           {featured.map((g) => (
             <AppLink key={g.id} href={guitarUrl(g.slug)} onClick={onClose} tabIndex={open ? 0 : -1} className="group block">
-              <GuitarImage guitar={g} className="aspect-[4/3] rounded-xl" />
+              <GuitarImage guitar={g} className="aspect-square rounded-xl" />
               <p className="mt-3 text-[13px] text-mute">{g.brand}</p>
               <p lang="en" className="font-serif text-xl leading-snug">{g.name}</p>
               <p className="mt-1 font-mono text-sm text-gold">{formatPrice(g.price)}</p>

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "protectedFiles": 203,
+  "models": 200,
+  "brands": 10,
+  "counts": {
+    "Córdoba": 20,
+    "Epiphone": 20,
+    "Fender": 20,
+    "Gibson": 20,
+    "Ibanez": 20,
+    "Martin": 20,
+    "PRS": 20,
+    "Squier": 20,
+    "Taylor": 20,
+    "Yamaha": 20
+  },
+  "chords": 42,
+  "modelsWithRegisteredImages": 20,
+  "modelsUsingPlaceholder": 180,
+  "allOriginalDataAndImagesIdentical": true,
+  "databaseWrites": false,
+  "hostedSupabaseVerified": false
+}

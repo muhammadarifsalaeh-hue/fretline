@@ -50,7 +50,7 @@ export default function GuitarPicker({ open, onClose, onSelectionChange }) {
             const added = compare.includes(guitar.id);
             return <li key={guitar.id}><button type="button" disabled={full && !added} onClick={() => toggle(guitar)} aria-pressed={added}
               className="picker-model-row">
-              <GuitarImage guitar={guitar} size="sm" alt="" className="h-16 w-14 shrink-0 rounded-lg" />
+              <GuitarImage guitar={guitar} size="sm" alt="" className="h-16 w-16 shrink-0 rounded-lg" />
               <span className="min-w-0 flex-1"><span className="block text-[10px] text-mute">{guitar.brand}</span><span className="block font-serif text-xl">{guitar.name}</span>
                 <span className="block text-xs text-gold">{publicPrice(guitar)}</span><span className="block text-[10px] text-mute">{t(`status.${guitar.dataStatus ?? 'sample'}`)}</span></span>
               <span className={cn('grid h-9 w-9 shrink-0 place-items-center rounded-full border', added ? 'border-gold text-gold' : 'border-line text-mute')}>{added ? <CheckIcon size={16} /> : <PlusIcon size={16} />}</span>

@@ -1,0 +1,31 @@
+{
+  "baseCommit": "a350919285fb098d7e870948b503bcad215f9bc4",
+  "originalTrackedFiles": 4955,
+  "unchangedOriginalFiles": 4935,
+  "deletedOriginalFiles": [],
+  "modifiedOriginalFiles": [
+    "src/components/catalog/CatalogCard.jsx",
+    "src/components/compare/CompareTable.jsx",
+    "src/components/compare/ComparisonSlots.jsx",
+    "src/components/compare/GuitarPicker.jsx",
+    "src/components/detail/GuitarGallery.jsx",
+    "src/components/detail/ImageLightbox.jsx",
+    "src/components/guitar/DevelopmentImagePreview.jsx",
+    "src/components/guitar/GuitarCard.jsx",
+    "src/components/guitar/GuitarImage.jsx",
+    "src/components/guitar/ImagePlaceholder.jsx",
+    "src/components/layout/MegaMenu.jsx",
+    "src/components/quiz/MatchCard.jsx",
+    "src/components/ui/SmartImage.jsx",
+    "src/components/wishlist/WishlistRow.jsx",
+    "src/features/admin/AdminEditor.jsx",
+    "src/features/admin/images.js",
+    "src/i18n/en.js",
+    "src/i18n/th.js",
+    "src/pages/ImageCreditsPage.jsx",
+    "src/styles/admin-studio.css"
+  ],
+  "sourceAssetsChanged": false,
+  "databaseFilesChanged": false,
+  "homeAndMarqueeChanged": false
+}

@@ -1,0 +1,71 @@
+{
+  "sourceBranch": "feature/universal-guitar-images",
+  "baseCommit": "a350919285fb098d7e870948b503bcad215f9bc4",
+  "rollbackTag": "backup/fretline-before-universal-images-a350919",
+  "testedAppSourceSHA256": "332267bd10270437ae9bf9d75e8f14bc6dac4fad66bca996082bf8f463f6ce43",
+  "testedBuildSHA256": "f140d8f0d7306b56b1f8a27975d779893c9b99fedb8de2bb0b9c6a0d4302c542",
+  "productionBuildPassed": true,
+  "existingUnitChecks": 106,
+  "newImageUnitChecks": 8,
+  "unitChecksPassed": 114,
+  "catalogAndImageRegistryValidatorsPassed": true,
+  "publicBrowserGroupsPassed": 98,
+  "imageBrowserGroupsPassed": 15,
+  "adminFixtureBrowserGroupsPassed": 8,
+  "browserGroupsPassed": 121,
+  "browserEngine": "Chromium",
+  "consoleErrors": 0,
+  "runtimeErrors": 0,
+  "unexpectedBrokenImageRequests": 0,
+  "controlledImageFailureTestedSeparately": true,
+  "responsiveViewports": {
+    "desktop": [
+      1440,
+      1000
+    ],
+    "iPadLandscape": [
+      1194,
+      834
+    ],
+    "iPadPortrait": [
+      768,
+      1024
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "physicalIPadSafariVerified": false,
+  "webKitVerified": false,
+  "hostedSupabaseVerified": false,
+  "adminLoginRLSStorageVerifiedOnRealBackend": false,
+  "realDatabaseWrites": 0,
+  "originalProductDataAndSourceImagesUnchanged": true,
+  "models": 200,
+  "brands": 10,
+  "modelsPerBrand": 20,
+  "chords": 42,
+  "modelsWithExistingRegisteredImages": 20,
+  "modelsUsingPlaceholder": 180,
+  "productionConfigurationGuardPassed": false,
+  "hostingEnvironmentVariableCount": 0,
+  "hostingEnvironmentRevision": 0,
+  "existingSiteVersion": 3,
+  "existingSiteAccess": "owner-only",
+  "mergedToMaster": false,
+  "deployed": false,
+  "releaseBlockers": [
+    "Missing public Supabase build/hosting configuration",
+    "Read-only verification of actual Published catalog and gallery references still required",
+    "Authenticated Admin upload/save/publish with real Supabase still unverified"
+  ],
+  "requiredConfigurationNames": [
+    "VITE_SUPABASE_URL",
+    "VITE_SUPABASE_PUBLISHABLE_KEY",
+    "VITE_CATALOG_SOURCE=supabase"
+  ],
+  "qrSiteOriginVariable": "VITE_SITE_URL",
+  "noSecretsIncluded": true,
+  "lintOrTypecheckScriptAvailable": false
+}

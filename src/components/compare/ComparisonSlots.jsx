@@ -13,7 +13,7 @@ export default function ComparisonSlots({ selected, onAdd, onRemove }) {
     {Array.from({ length: MAX_COMPARE }, (_, index) => {
       const guitar = selected[index];
       return guitar ? <li key={guitar.id} className="pc-model-card" data-comparison-slot={guitar.id} data-compare-card={guitar.id}>
-        <AppLink href={guitarUrl(guitar.slug)} className="pc-model-card__image" aria-label={t('cmp.viewAria', { name: `${guitar.brand} ${guitar.name}` })}>
+        <AppLink href={guitarUrl(guitar.slug)} data-product-image-slot="square" className="product-image-slot pc-model-card__image" aria-label={t('cmp.viewAria', { name: `${guitar.brand} ${guitar.name}` })}>
           <GuitarImage guitar={guitar} priority={index < 2} sizes="(min-width: 1024px) 23vw, (min-width: 600px) 24vw, 46vw" className="absolute inset-0" />
         </AppLink>
         <button type="button" data-compare-remove={guitar.id} onClick={() => onRemove(guitar.id)} aria-label={t('cmp.removeAria', { name: guitar.name })} className="pc-model-card__remove"><CloseIcon size={18} /></button>

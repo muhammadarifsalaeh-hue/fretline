@@ -1,0 +1,7 @@
+
+> fretline@0.1.0 deploy:check
+> node scripts/check-deployment.mjs
+
+Fretline deployment configuration is incomplete:
+- Set VITE_CATALOG_SOURCE to supabase; public deployment must use Published data.
+- Configure a valid VITE_SUPABASE_URL and VITE_SUPABASE_PUBLISHABLE_KEY (publishable key only).

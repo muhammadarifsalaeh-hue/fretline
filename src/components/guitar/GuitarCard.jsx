@@ -36,14 +36,13 @@ export default function GuitarCard({ guitar }) {
 
   return (
     <article data-guitar-id={guitar.id} className="guitar-card discovery-card group relative flex h-full flex-col overflow-hidden bg-surface text-bone">
-      {/* พื้นที่รูป 4:5 */}
-      <div className="relative aspect-[4/5] overflow-hidden bg-gradient-to-b from-[#191919] to-[#101010]">
+      {/* Shared square product frame. */}
+      <div data-product-image-slot="square" className="product-image-slot relative aspect-square overflow-hidden bg-black">
         <GuitarImage
           guitar={guitar}
           sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 82vw"
           className="absolute inset-0"
         />
-        <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-t from-surface/50 via-transparent to-transparent" />
 
         {guitar.badge && (
           <div className="absolute left-4 top-4 z-10">

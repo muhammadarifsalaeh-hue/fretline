@@ -57,7 +57,7 @@ export default function CompareTable({ guitars, diffOnly = false, onRemove, bg =
           {guitars.map((g) => (
             <div key={g.id} className="relative min-w-0">
               <AppLink href={guitarUrl(g.slug)} className="block" aria-label={t('cmp.viewAria', { name: `${g.brand} ${g.name}` })}>
-                <GuitarImage guitar={g} sizes="(min-width: 768px) 190px, 150px" className="aspect-[4/5] rounded-2xl" />
+                <GuitarImage guitar={g} sizes="(min-width: 768px) 190px, 150px" className="aspect-square rounded-2xl" />
               </AppLink>
               {onRemove && (
                 <button

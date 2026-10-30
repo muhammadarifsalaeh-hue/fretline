@@ -1,0 +1,16 @@
+✔ 1200 square keeps every source pixel and has no padding or upscale (1.460896ms)
+✔ large square is reduced to the delivery standard (0.209881ms)
+✔ portrait and landscape require the explicit padding choice (0.352552ms)
+✔ padding keeps the complete neck and body centered in either orientation (0.945792ms)
+✔ small originals are never enlarged to simulate resolution (0.151325ms)
+✔ all four instrument silhouette proportions fit, without stretching or clipping (0.251634ms)
+✔ invalid dimensions and unknown layout modes cannot reach a canvas (0.193978ms)
+✔ JPG, PNG and WebP are accepted; unsupported or oversized files are rejected (0.280486ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 61.555332

@@ -24,7 +24,7 @@ export default function ImageCreditsPage() {
       <p className="mb-5 text-sm text-gold">{t('p6.images.count', { n: photos.length })}</p>
       <ul className="grid gap-6">
         {photos.map(({ guitar, rights }) => <li key={`${guitar.id}/${rights.file}`} className="grid gap-6 rounded-lg border border-line bg-surface p-5 sm:grid-cols-[180px_1fr]">
-          <GuitarImage guitar={guitar} className="aspect-[3/4] rounded-md" sizes="180px" />
+          <GuitarImage guitar={guitar} className="aspect-square rounded-md" sizes="180px" />
           <div className="min-w-0">
             <h2 className="font-serif text-3xl">{guitar.brand} {guitar.name}</h2>
             <ImageAttribution image={{ attribution: rights }} />
@@ -37,7 +37,7 @@ export default function ImageCreditsPage() {
       {artworks.length > 0 && <section className="mt-8" aria-labelledby="project-artwork-title">
         <h2 id="project-artwork-title" className="mb-5 font-serif text-2xl">{t('artwork.title')}</h2>
         {artworks.map((guitar) => <div key={guitar.id} className="grid gap-6 rounded-lg border border-line bg-surface p-5 sm:grid-cols-[180px_1fr]">
-          <GuitarImage guitar={guitar} className="aspect-[3/4] rounded-md" sizes="180px" />
+          <GuitarImage guitar={guitar} className="aspect-square rounded-md" sizes="180px" />
           <div className="min-w-0">
             <h3 className="font-serif text-3xl">{guitar.brand} {guitar.name}</h3>
             <details className="image-attribution mt-3 text-xs leading-6 text-mute"><summary>{t('artwork.details')}</summary><p>{t('targeted.artwork.provenance')}</p></details>

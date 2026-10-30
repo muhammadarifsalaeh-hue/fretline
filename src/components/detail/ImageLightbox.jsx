@@ -42,7 +42,7 @@ export default function ImageLightbox({ images, index, onIndex, onClose, name, g
         </button>
       </div>
 
-      <div className="relative min-h-0 flex-1 px-4 md:px-20">
+      <div className="lightbox-image-stage relative grid min-h-0 flex-1 place-items-center px-4 md:px-20">
         <GuitarImage
           key={current.src}
           guitar={guitar}
@@ -50,7 +50,7 @@ export default function ImageLightbox({ images, index, onIndex, onClose, name, g
           alt={`${name}, ${current.label}`}
           sizes="100vw"
           priority
-          className="h-full w-full !bg-none !bg-transparent"
+          className="lightbox-product-image"
           imgClassName="!p-0"
         />
         {count > 1 && (

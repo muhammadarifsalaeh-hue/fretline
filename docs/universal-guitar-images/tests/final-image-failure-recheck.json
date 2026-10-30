@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "name": "controlled-image-failure-and-layout-stability",
+      "passed": true,
+      "evidence": {
+        "inducedImageNetworkFailure": true,
+        "squareFrameStable": true,
+        "before": {
+          "w": 283.0625,
+          "h": 283.0625,
+          "bg": "rgb(0, 0, 0)"
+        },
+        "after": {
+          "w": 283.0625,
+          "h": 283.0625,
+          "bg": "rgb(0, 0, 0)"
+        },
+        "noBrokenImageIcon": true
+      }
+    }
+  ],
+  "engine": "Chromium",
+  "databaseWrites": 0,
+  "physicalIPadSafariTested": false,
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "passed": true
+}

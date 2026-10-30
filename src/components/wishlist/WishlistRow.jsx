@@ -13,7 +13,7 @@ export default function WishlistRow({ guitar, onRemove }) {
   const full = !selected && compare.length >= MAX_COMPARE;
   return (
     <li className="wishlist-row" data-guitar-id={guitar.id}>
-      <AppLink href={guitarUrl(guitar.slug)} tabIndex={-1} aria-hidden="true" className="wishlist-image">
+      <AppLink href={guitarUrl(guitar.slug)} tabIndex={-1} aria-hidden="true" data-product-image-slot="square" className="product-image-slot wishlist-image">
         <GuitarImage guitar={guitar} size="sm" className="absolute inset-0" sizes="100px" />
       </AppLink>
       <div className="wishlist-copy">

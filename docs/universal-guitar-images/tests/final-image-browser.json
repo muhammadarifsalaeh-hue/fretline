@@ -1,0 +1,390 @@
+{
+  "checks": [
+    {
+      "name": "desktop-matching-before-after-captures",
+      "passed": true,
+      "evidence": {
+        "catalogFrames": [
+          {
+            "w": 334.46875,
+            "h": 334.46875,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 334.46875,
+            "h": 334.46875,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 334.46875,
+            "h": 334.46875,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 334.46875,
+            "h": 334.46875,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 334.46875,
+            "h": 334.46875,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 334.46875,
+            "h": 334.46875,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 334.46875,
+            "h": 334.46875,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 334.46875,
+            "h": 334.46875,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 334.46875,
+            "h": 334.46875,
+            "bg": "rgb(0, 0, 0)"
+          }
+        ],
+        "detailFrame": {
+          "w": 582.65625,
+          "h": 582.65625,
+          "bg": "rgb(0, 0, 0)"
+        }
+      }
+    },
+    {
+      "name": "desktop-lightbox-and-no-cropping",
+      "passed": true,
+      "evidence": {
+        "containedSquareInsideViewport": {
+          "x": 338,
+          "y": 76,
+          "width": 764,
+          "height": 764
+        },
+        "noAutomaticHoverZoom": true,
+        "keyboardNavigation": true
+      }
+    },
+    {
+      "name": "desktop-missing-model-placeholder",
+      "passed": true,
+      "evidence": {
+        "blackSquare": {
+          "w": 661.65625,
+          "h": 661.65625,
+          "bg": "rgb(0, 0, 0)"
+        },
+        "wrongModelArt": false,
+        "brokenImageElement": false
+      }
+    },
+    {
+      "name": "four-category-filters-and-true-placeholders",
+      "passed": true,
+      "evidence": {
+        "electric": 90,
+        "acoustic": 73,
+        "classical": 20,
+        "bass": 17
+      }
+    },
+    {
+      "name": "lazy-loading-and-page-size",
+      "passed": true,
+      "evidence": {
+        "pageImageElements": 9,
+        "priorityImages": 3,
+        "remainingLazyImages": 6,
+        "responsiveSizes": true,
+        "doesNotRender200FullImages": true
+      }
+    },
+    {
+      "name": "landscape-matching-before-after-captures",
+      "passed": true,
+      "evidence": {
+        "catalogFrames": [
+          {
+            "w": 269.84375,
+            "h": 269.84375,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 269.859375,
+            "h": 269.859375,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 269.84375,
+            "h": 269.84375,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 269.84375,
+            "h": 269.84375,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 269.859375,
+            "h": 269.859375,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 269.84375,
+            "h": 269.84375,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 269.84375,
+            "h": 269.84375,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 269.859375,
+            "h": 269.859375,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 269.84375,
+            "h": 269.84375,
+            "bg": "rgb(0, 0, 0)"
+          }
+        ],
+        "detailFrame": {
+          "w": 476.828125,
+          "h": 476.828125,
+          "bg": "rgb(0, 0, 0)"
+        }
+      }
+    },
+    {
+      "name": "landscape-lightbox-and-no-cropping",
+      "passed": true,
+      "evidence": {
+        "containedSquareInsideViewport": {
+          "x": 298,
+          "y": 76,
+          "width": 598,
+          "height": 598
+        },
+        "noAutomaticHoverZoom": true,
+        "keyboardNavigation": true
+      }
+    },
+    {
+      "name": "landscape-missing-model-placeholder",
+      "passed": true,
+      "evidence": {
+        "blackSquare": {
+          "w": 555.828125,
+          "h": 555.828125,
+          "bg": "rgb(0, 0, 0)"
+        },
+        "wrongModelArt": false,
+        "brokenImageElement": false
+      }
+    },
+    {
+      "name": "portrait-matching-before-after-captures",
+      "passed": true,
+      "evidence": {
+        "catalogFrames": [
+          {
+            "w": 220.296875,
+            "h": 220.296875,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 220.296875,
+            "h": 220.296875,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 220.296875,
+            "h": 220.296875,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 220.296875,
+            "h": 220.296875,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 220.296875,
+            "h": 220.296875,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 220.296875,
+            "h": 220.296875,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 220.296875,
+            "h": 220.296875,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 220.296875,
+            "h": 220.296875,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 220.296875,
+            "h": 220.296875,
+            "bg": "rgb(0, 0, 0)"
+          }
+        ],
+        "detailFrame": {
+          "w": 283.0625,
+          "h": 283.0625,
+          "bg": "rgb(0, 0, 0)"
+        }
+      }
+    },
+    {
+      "name": "portrait-lightbox-and-no-cropping",
+      "passed": true,
+      "evidence": {
+        "containedSquareInsideViewport": {
+          "x": 80,
+          "y": 166,
+          "width": 608,
+          "height": 608
+        },
+        "noAutomaticHoverZoom": true,
+        "keyboardNavigation": true
+      }
+    },
+    {
+      "name": "portrait-missing-model-placeholder",
+      "passed": true,
+      "evidence": {
+        "blackSquare": {
+          "w": 362.0625,
+          "h": 362.0625,
+          "bg": "rgb(0, 0, 0)"
+        },
+        "wrongModelArt": false,
+        "brokenImageElement": false
+      }
+    },
+    {
+      "name": "mobile-matching-before-after-captures",
+      "passed": true,
+      "evidence": {
+        "catalogFrames": [
+          {
+            "w": 166,
+            "h": 166,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 166,
+            "h": 166,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 166,
+            "h": 166,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 166,
+            "h": 166,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 166,
+            "h": 166,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 166,
+            "h": 166,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 166,
+            "h": 166,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 166,
+            "h": 166,
+            "bg": "rgb(0, 0, 0)"
+          },
+          {
+            "w": 166,
+            "h": 166,
+            "bg": "rgb(0, 0, 0)"
+          }
+        ],
+        "detailFrame": {
+          "w": 350,
+          "h": 350,
+          "bg": "rgb(0, 0, 0)"
+        }
+      }
+    },
+    {
+      "name": "mobile-lightbox-and-no-cropping",
+      "passed": true,
+      "evidence": {
+        "containedSquareInsideViewport": {
+          "x": 16,
+          "y": 209,
+          "width": 358,
+          "height": 358
+        },
+        "noAutomaticHoverZoom": true,
+        "keyboardNavigation": true
+      }
+    },
+    {
+      "name": "mobile-missing-model-placeholder",
+      "passed": true,
+      "evidence": {
+        "blackSquare": {
+          "w": 350,
+          "h": 350,
+          "bg": "rgb(0, 0, 0)"
+        },
+        "wrongModelArt": false,
+        "brokenImageElement": false
+      }
+    },
+    {
+      "name": "controlled-image-failure-and-layout-stability",
+      "passed": true,
+      "evidence": {
+        "inducedImageNetworkFailure": true,
+        "squareFrameStable": true,
+        "before": {
+          "w": 283.0625,
+          "h": 283.0625,
+          "bg": "rgb(0, 0, 0)"
+        },
+        "after": {
+          "w": 283.0625,
+          "h": 283.0625,
+          "bg": "rgb(0, 0, 0)"
+        },
+        "noBrokenImageIcon": true
+      }
+    }
+  ],
+  "engine": "Chromium",
+  "databaseWrites": 0,
+  "physicalIPadSafariTested": false,
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "passed": true
+}

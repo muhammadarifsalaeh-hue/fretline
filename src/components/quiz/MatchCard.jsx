@@ -10,7 +10,7 @@ export default function MatchCard({ match, rank, featured = false }) {
   const { guitar, score, reasons, caveats } = match;
   return (
     <article className={`match-card ${featured ? 'match-card-featured' : ''}`} data-guitar-id={guitar.id}>
-      <AppLink href={guitarUrl(guitar.slug)} className="match-image" aria-label={t('cmp.viewAria', { name: `${guitar.brand} ${guitar.name}` })}>
+      <AppLink href={guitarUrl(guitar.slug)} data-product-image-slot="square" className="product-image-slot match-image" aria-label={t('cmp.viewAria', { name: `${guitar.brand} ${guitar.name}` })}>
         <GuitarImage guitar={guitar} sizes={featured ? '(min-width: 768px) 40vw, 90vw' : '(min-width: 768px) 40vw, 90vw'} priority={featured} className="absolute inset-0" />
         <span className="match-rank">#{rank} {featured && t('p4.quiz.topMatch')}</span>
       </AppLink>
