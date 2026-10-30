@@ -9,6 +9,7 @@ import Hero from '@/components/home/Hero';
 import GuitarPracticeCard from '@/components/home/GuitarPracticeCard';
 import '@/styles/home-premium.css';
 import '@/styles/home-feature-restoration.css';
+import '@/styles/home-targeted-refinement.css';
 
 /** ลำดับ section ของหน้าแรก — สลับหรือเพิ่มได้ที่นี่ */
 export default function HomePage() {

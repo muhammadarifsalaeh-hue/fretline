@@ -12,8 +12,8 @@ export default function QuizHero() {
     <div className="container-x quiz-hero-inner">
       <nav aria-label={t('common.breadcrumb')} className="discovery-breadcrumb"><AppLink href="/">{t('nav.home')}</AppLink><span aria-hidden="true">›</span><span>{t('nav.find')}</span></nav>
       <div className="quiz-hero-copy">
-        <p className="discovery-kicker">FRETLINE / FIND YOUR SOUND</p>
-        <h1 className="quiz-page-title"><span>Find My</span>{' '}<em>Guitar Quiz</em></h1>
+        <p className="discovery-kicker">{t('targeted.quiz.kicker')}</p>
+        <h1 className="quiz-page-title"><span>{t('targeted.quiz.titleLead')}</span>{' '}<em>{t('targeted.quiz.titleEnd')}</em></h1>
         <h2>{quizCopy('ค้นหากีตาร์ที่ใช่ สำหรับสไตล์ของคุณ', 'Find the guitar that feels like you.')}</h2>
         <p className="quiz-hero-description">{t('p4.quiz.intro')}</p>
       </div>

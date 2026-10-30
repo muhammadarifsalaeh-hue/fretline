@@ -1,0 +1,1040 @@
+{
+  "baseURL": "http://127.0.0.1:4184",
+  "checks": [
+    {
+      "name": "chromium-desktop-catalog",
+      "passed": true,
+      "evidence": {
+        "searchAndUnknownPrice": true,
+        "preservedPrimaryPrices": {
+          "Pacifica": 34000,
+          "FG820-12": 16500
+        },
+        "newFenderBudgetIDs": [
+          "fender-player-ii-telecaster",
+          "fender-player-ii-stratocaster",
+          "fender-player-ii-mustang",
+          "fender-player-ii-telecaster-hh",
+          "fender-player-ii-stratocaster-hss",
+          "fender-player-ii-jaguar",
+          "fender-player-ii-modified-telecaster",
+          "fender-player-ii-modified-stratocaster-hss"
+        ],
+        "incorrectIncomingThunderbirdCategoryRejected": true,
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "chromium-desktop-detail",
+      "passed": true,
+      "evidence": {
+        "newFenderSource": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+        "checkedOn": "2026-10-29",
+        "fourNewFenderFields": {
+          "ทรงบอดี้": "Stratocaster",
+          "รูปแบบปิ๊กอัพ": "SSS",
+          "ความกว้างนัต": "42 mm",
+          "รัศมีฟิงเกอร์บอร์ด": "241 mm"
+        },
+        "fiveNewYamahaFields": {
+          "ทรงบอดี้": "Dreadnought Cutaway Style",
+          "ไม้หน้า": "Solid Spruce",
+          "ไม้หลัง": "Rosewood",
+          "ไม้ข้าง": "Rosewood",
+          "ระบบไฟฟ้า": "SYSTEM66"
+        },
+        "broaderMaterialsRetained": true,
+        "unknownPricesNotZero": true,
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "chromium-desktop-compare-prices",
+      "passed": true,
+      "evidence": {
+        "selection": [
+          "fender-player-ii-stratocaster",
+          "fender-player-ii-telecaster-hh",
+          "yamaha-pacifica-612viifm",
+          "martin-d-18"
+        ],
+        "requiredVisibleKeys": [
+          "back",
+          "body",
+          "bodyShape",
+          "brand",
+          "bridge",
+          "electronics",
+          "fretboard",
+          "frets",
+          "model",
+          "neck",
+          "pickups",
+          "price",
+          "scale",
+          "sides",
+          "strings",
+          "top",
+          "type"
+        ],
+        "newPrices": [
+          30600,
+          31500,
+          34000,
+          null
+        ],
+        "cheapestKnownOnly": true,
+        "unknownSpecLabel": "ไม่มีข้อมูล",
+        "unknownPriceLabel": "สอบถามราคา",
+        "tableHorizontalScroll": {
+          "width": 1198,
+          "scroll": 1198
+        },
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "chromium-desktop-compare-materials",
+      "passed": true,
+      "evidence": {
+        "sourceBackWoodDiff": [
+          "Rosewood",
+          "Mahogany"
+        ],
+        "equalKnownTopWithUnknownsNotFalseDifference": true,
+        "missingElectronicsNotNone": true,
+        "differencesOnlyPreserved": true,
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "chromium-all-200-ids-and-brand-counts",
+      "passed": true,
+      "evidence": {
+        "all200StableIDsVisitedViaPagination": true,
+        "brands": {
+          "Fender": 20,
+          "Gibson": 20,
+          "Ibanez": 20,
+          "Yamaha": 20,
+          "Taylor": 20,
+          "Martin": 20,
+          "Córdoba": 20,
+          "PRS": 20,
+          "Epiphone": 20,
+          "Squier": 20
+        },
+        "all27KnownPricesFilterAndSort": true,
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "chromium-actual-picker-share-selection",
+      "passed": true,
+      "evidence": {
+        "addFourFifthDisabled": true,
+        "sharedURL": "http://127.0.0.1:4184/compare?ids=fender-player-ii-stratocaster,fender-player-ii-telecaster-hh,yamaha-pacifica-612viifm,martin-d-18",
+        "removeReloadClearCancelConfirm": true,
+        "invalidDuplicateOversizedShareIDsRejected": true,
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "chromium-home-brands-quiz-practice-wishlist",
+      "passed": true,
+      "evidence": {
+        "homeHeroBrandCategoryFeaturesFeaturedPreserved": true,
+        "brandDirectoryTenByTwenty": true,
+        "heroSearchAndWishlist": true,
+        "fiveQuestionQuizResultsValidForNewData": [
+          "yamaha-pacifica-612viifm",
+          "squier-classic-vibe-60s-stratocaster",
+          "epiphone-les-paul-standard-50s"
+        ],
+        "practice42AndChordSelection": true,
+        "actualPracticeStatus": "ready"
+      }
+    },
+    {
+      "name": "chromium-landscape-catalog",
+      "passed": true,
+      "evidence": {
+        "searchAndUnknownPrice": true,
+        "preservedPrimaryPrices": {
+          "Pacifica": 34000,
+          "FG820-12": 16500
+        },
+        "newFenderBudgetIDs": [
+          "fender-player-ii-telecaster",
+          "fender-player-ii-stratocaster",
+          "fender-player-ii-mustang",
+          "fender-player-ii-telecaster-hh",
+          "fender-player-ii-stratocaster-hss",
+          "fender-player-ii-jaguar",
+          "fender-player-ii-modified-telecaster",
+          "fender-player-ii-modified-stratocaster-hss"
+        ],
+        "incorrectIncomingThunderbirdCategoryRejected": true,
+        "width": 1194,
+        "scrollWidth": 1194
+      }
+    },
+    {
+      "name": "chromium-landscape-detail",
+      "passed": true,
+      "evidence": {
+        "newFenderSource": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+        "checkedOn": "2026-10-29",
+        "fourNewFenderFields": {
+          "ทรงบอดี้": "Stratocaster",
+          "รูปแบบปิ๊กอัพ": "SSS",
+          "ความกว้างนัต": "42 mm",
+          "รัศมีฟิงเกอร์บอร์ด": "241 mm"
+        },
+        "fiveNewYamahaFields": {
+          "ทรงบอดี้": "Dreadnought Cutaway Style",
+          "ไม้หน้า": "Solid Spruce",
+          "ไม้หลัง": "Rosewood",
+          "ไม้ข้าง": "Rosewood",
+          "ระบบไฟฟ้า": "SYSTEM66"
+        },
+        "broaderMaterialsRetained": true,
+        "unknownPricesNotZero": true,
+        "width": 1194,
+        "scrollWidth": 1194
+      }
+    },
+    {
+      "name": "chromium-landscape-compare-prices",
+      "passed": true,
+      "evidence": {
+        "selection": [
+          "fender-player-ii-stratocaster",
+          "fender-player-ii-telecaster-hh",
+          "yamaha-pacifica-612viifm",
+          "martin-d-18"
+        ],
+        "requiredVisibleKeys": [
+          "back",
+          "body",
+          "bodyShape",
+          "brand",
+          "bridge",
+          "electronics",
+          "fretboard",
+          "frets",
+          "model",
+          "neck",
+          "pickups",
+          "price",
+          "scale",
+          "sides",
+          "strings",
+          "top",
+          "type"
+        ],
+        "newPrices": [
+          30600,
+          31500,
+          34000,
+          null
+        ],
+        "cheapestKnownOnly": true,
+        "unknownSpecLabel": "ไม่มีข้อมูล",
+        "unknownPriceLabel": "สอบถามราคา",
+        "tableHorizontalScroll": {
+          "width": 1112,
+          "scroll": 1112
+        },
+        "width": 1194,
+        "scrollWidth": 1194
+      }
+    },
+    {
+      "name": "chromium-landscape-compare-materials",
+      "passed": true,
+      "evidence": {
+        "sourceBackWoodDiff": [
+          "Rosewood",
+          "Mahogany"
+        ],
+        "equalKnownTopWithUnknownsNotFalseDifference": true,
+        "missingElectronicsNotNone": true,
+        "differencesOnlyPreserved": true,
+        "width": 1194,
+        "scrollWidth": 1194
+      }
+    },
+    {
+      "name": "chromium-portrait-catalog",
+      "passed": true,
+      "evidence": {
+        "searchAndUnknownPrice": true,
+        "preservedPrimaryPrices": {
+          "Pacifica": 34000,
+          "FG820-12": 16500
+        },
+        "newFenderBudgetIDs": [
+          "fender-player-ii-telecaster",
+          "fender-player-ii-stratocaster",
+          "fender-player-ii-mustang",
+          "fender-player-ii-telecaster-hh",
+          "fender-player-ii-stratocaster-hss",
+          "fender-player-ii-jaguar",
+          "fender-player-ii-modified-telecaster",
+          "fender-player-ii-modified-stratocaster-hss"
+        ],
+        "incorrectIncomingThunderbirdCategoryRejected": true,
+        "width": 768,
+        "scrollWidth": 768
+      }
+    },
+    {
+      "name": "chromium-portrait-detail",
+      "passed": true,
+      "evidence": {
+        "newFenderSource": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+        "checkedOn": "2026-10-29",
+        "fourNewFenderFields": {
+          "ทรงบอดี้": "Stratocaster",
+          "รูปแบบปิ๊กอัพ": "SSS",
+          "ความกว้างนัต": "42 mm",
+          "รัศมีฟิงเกอร์บอร์ด": "241 mm"
+        },
+        "fiveNewYamahaFields": {
+          "ทรงบอดี้": "Dreadnought Cutaway Style",
+          "ไม้หน้า": "Solid Spruce",
+          "ไม้หลัง": "Rosewood",
+          "ไม้ข้าง": "Rosewood",
+          "ระบบไฟฟ้า": "SYSTEM66"
+        },
+        "broaderMaterialsRetained": true,
+        "unknownPricesNotZero": true,
+        "width": 768,
+        "scrollWidth": 768
+      }
+    },
+    {
+      "name": "chromium-portrait-compare-prices",
+      "passed": true,
+      "evidence": {
+        "selection": [
+          "fender-player-ii-stratocaster",
+          "fender-player-ii-telecaster-hh",
+          "yamaha-pacifica-612viifm",
+          "martin-d-18"
+        ],
+        "requiredVisibleKeys": [
+          "back",
+          "body",
+          "bodyShape",
+          "brand",
+          "bridge",
+          "electronics",
+          "fretboard",
+          "frets",
+          "model",
+          "neck",
+          "pickups",
+          "price",
+          "scale",
+          "sides",
+          "strings",
+          "top",
+          "type"
+        ],
+        "newPrices": [
+          30600,
+          31500,
+          34000,
+          null
+        ],
+        "cheapestKnownOnly": true,
+        "unknownSpecLabel": "ไม่มีข้อมูล",
+        "unknownPriceLabel": "สอบถามราคา",
+        "tableHorizontalScroll": {
+          "width": 702,
+          "scroll": 825
+        },
+        "width": 768,
+        "scrollWidth": 768
+      }
+    },
+    {
+      "name": "chromium-portrait-compare-materials",
+      "passed": true,
+      "evidence": {
+        "sourceBackWoodDiff": [
+          "Rosewood",
+          "Mahogany"
+        ],
+        "equalKnownTopWithUnknownsNotFalseDifference": true,
+        "missingElectronicsNotNone": true,
+        "differencesOnlyPreserved": true,
+        "width": 768,
+        "scrollWidth": 768
+      }
+    },
+    {
+      "name": "chromium-mobile-catalog",
+      "passed": true,
+      "evidence": {
+        "searchAndUnknownPrice": true,
+        "preservedPrimaryPrices": {
+          "Pacifica": 34000,
+          "FG820-12": 16500
+        },
+        "newFenderBudgetIDs": [
+          "fender-player-ii-telecaster",
+          "fender-player-ii-stratocaster",
+          "fender-player-ii-mustang",
+          "fender-player-ii-telecaster-hh",
+          "fender-player-ii-stratocaster-hss",
+          "fender-player-ii-jaguar",
+          "fender-player-ii-modified-telecaster",
+          "fender-player-ii-modified-stratocaster-hss"
+        ],
+        "incorrectIncomingThunderbirdCategoryRejected": true,
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "chromium-mobile-detail",
+      "passed": true,
+      "evidence": {
+        "newFenderSource": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+        "checkedOn": "2026-10-29",
+        "fourNewFenderFields": {
+          "ทรงบอดี้": "Stratocaster",
+          "รูปแบบปิ๊กอัพ": "SSS",
+          "ความกว้างนัต": "42 mm",
+          "รัศมีฟิงเกอร์บอร์ด": "241 mm"
+        },
+        "fiveNewYamahaFields": {
+          "ทรงบอดี้": "Dreadnought Cutaway Style",
+          "ไม้หน้า": "Solid Spruce",
+          "ไม้หลัง": "Rosewood",
+          "ไม้ข้าง": "Rosewood",
+          "ระบบไฟฟ้า": "SYSTEM66"
+        },
+        "broaderMaterialsRetained": true,
+        "unknownPricesNotZero": true,
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "chromium-mobile-compare-prices",
+      "passed": true,
+      "evidence": {
+        "selection": [
+          "fender-player-ii-stratocaster",
+          "fender-player-ii-telecaster-hh",
+          "yamaha-pacifica-612viifm",
+          "martin-d-18"
+        ],
+        "requiredVisibleKeys": [
+          "back",
+          "body",
+          "bodyShape",
+          "brand",
+          "bridge",
+          "electronics",
+          "fretboard",
+          "frets",
+          "model",
+          "neck",
+          "pickups",
+          "price",
+          "scale",
+          "sides",
+          "strings",
+          "top",
+          "type"
+        ],
+        "newPrices": [
+          30600,
+          31500,
+          34000,
+          null
+        ],
+        "cheapestKnownOnly": true,
+        "unknownSpecLabel": "ไม่มีข้อมูล",
+        "unknownPriceLabel": "สอบถามราคา",
+        "tableHorizontalScroll": {
+          "width": 348,
+          "scroll": 753
+        },
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "chromium-mobile-compare-materials",
+      "passed": true,
+      "evidence": {
+        "sourceBackWoodDiff": [
+          "Rosewood",
+          "Mahogany"
+        ],
+        "equalKnownTopWithUnknownsNotFalseDifference": true,
+        "missingElectronicsNotNone": true,
+        "differencesOnlyPreserved": true,
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "webkit-desktop-catalog",
+      "passed": true,
+      "evidence": {
+        "searchAndUnknownPrice": true,
+        "preservedPrimaryPrices": {
+          "Pacifica": 34000,
+          "FG820-12": 16500
+        },
+        "newFenderBudgetIDs": [
+          "fender-player-ii-telecaster",
+          "fender-player-ii-stratocaster",
+          "fender-player-ii-mustang",
+          "fender-player-ii-telecaster-hh",
+          "fender-player-ii-stratocaster-hss",
+          "fender-player-ii-jaguar",
+          "fender-player-ii-modified-telecaster",
+          "fender-player-ii-modified-stratocaster-hss"
+        ],
+        "incorrectIncomingThunderbirdCategoryRejected": true,
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "webkit-desktop-detail",
+      "passed": true,
+      "evidence": {
+        "newFenderSource": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+        "checkedOn": "2026-10-29",
+        "fourNewFenderFields": {
+          "ทรงบอดี้": "Stratocaster",
+          "รูปแบบปิ๊กอัพ": "SSS",
+          "ความกว้างนัต": "42 mm",
+          "รัศมีฟิงเกอร์บอร์ด": "241 mm"
+        },
+        "fiveNewYamahaFields": {
+          "ทรงบอดี้": "Dreadnought Cutaway Style",
+          "ไม้หน้า": "Solid Spruce",
+          "ไม้หลัง": "Rosewood",
+          "ไม้ข้าง": "Rosewood",
+          "ระบบไฟฟ้า": "SYSTEM66"
+        },
+        "broaderMaterialsRetained": true,
+        "unknownPricesNotZero": true,
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "webkit-desktop-compare-prices",
+      "passed": true,
+      "evidence": {
+        "selection": [
+          "fender-player-ii-stratocaster",
+          "fender-player-ii-telecaster-hh",
+          "yamaha-pacifica-612viifm",
+          "martin-d-18"
+        ],
+        "requiredVisibleKeys": [
+          "back",
+          "body",
+          "bodyShape",
+          "brand",
+          "bridge",
+          "electronics",
+          "fretboard",
+          "frets",
+          "model",
+          "neck",
+          "pickups",
+          "price",
+          "scale",
+          "sides",
+          "strings",
+          "top",
+          "type"
+        ],
+        "newPrices": [
+          30600,
+          31500,
+          34000,
+          null
+        ],
+        "cheapestKnownOnly": true,
+        "unknownSpecLabel": "ไม่มีข้อมูล",
+        "unknownPriceLabel": "สอบถามราคา",
+        "tableHorizontalScroll": {
+          "width": 1198,
+          "scroll": 1198
+        },
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "webkit-desktop-compare-materials",
+      "passed": true,
+      "evidence": {
+        "sourceBackWoodDiff": [
+          "Rosewood",
+          "Mahogany"
+        ],
+        "equalKnownTopWithUnknownsNotFalseDifference": true,
+        "missingElectronicsNotNone": true,
+        "differencesOnlyPreserved": true,
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "webkit-all-200-ids-and-brand-counts",
+      "passed": true,
+      "evidence": {
+        "all200StableIDsVisitedViaPagination": true,
+        "brands": {
+          "Fender": 20,
+          "Gibson": 20,
+          "Ibanez": 20,
+          "Yamaha": 20,
+          "Taylor": 20,
+          "Martin": 20,
+          "Córdoba": 20,
+          "PRS": 20,
+          "Epiphone": 20,
+          "Squier": 20
+        },
+        "all27KnownPricesFilterAndSort": true,
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "webkit-actual-picker-share-selection",
+      "passed": true,
+      "evidence": {
+        "addFourFifthDisabled": true,
+        "sharedURL": "http://127.0.0.1:4184/compare?ids=fender-player-ii-stratocaster,fender-player-ii-telecaster-hh,yamaha-pacifica-612viifm,martin-d-18",
+        "removeReloadClearCancelConfirm": true,
+        "invalidDuplicateOversizedShareIDsRejected": true,
+        "width": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "name": "webkit-home-brands-quiz-practice-wishlist",
+      "passed": true,
+      "evidence": {
+        "homeHeroBrandCategoryFeaturesFeaturedPreserved": true,
+        "brandDirectoryTenByTwenty": true,
+        "heroSearchAndWishlist": true,
+        "fiveQuestionQuizResultsValidForNewData": [
+          "yamaha-pacifica-612viifm",
+          "squier-classic-vibe-60s-stratocaster",
+          "epiphone-les-paul-standard-50s"
+        ],
+        "practice42AndChordSelection": true,
+        "actualPracticeStatus": "ready"
+      }
+    },
+    {
+      "name": "webkit-landscape-catalog",
+      "passed": true,
+      "evidence": {
+        "searchAndUnknownPrice": true,
+        "preservedPrimaryPrices": {
+          "Pacifica": 34000,
+          "FG820-12": 16500
+        },
+        "newFenderBudgetIDs": [
+          "fender-player-ii-telecaster",
+          "fender-player-ii-stratocaster",
+          "fender-player-ii-mustang",
+          "fender-player-ii-telecaster-hh",
+          "fender-player-ii-stratocaster-hss",
+          "fender-player-ii-jaguar",
+          "fender-player-ii-modified-telecaster",
+          "fender-player-ii-modified-stratocaster-hss"
+        ],
+        "incorrectIncomingThunderbirdCategoryRejected": true,
+        "width": 1194,
+        "scrollWidth": 1194
+      }
+    },
+    {
+      "name": "webkit-landscape-detail",
+      "passed": true,
+      "evidence": {
+        "newFenderSource": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+        "checkedOn": "2026-10-29",
+        "fourNewFenderFields": {
+          "ทรงบอดี้": "Stratocaster",
+          "รูปแบบปิ๊กอัพ": "SSS",
+          "ความกว้างนัต": "42 mm",
+          "รัศมีฟิงเกอร์บอร์ด": "241 mm"
+        },
+        "fiveNewYamahaFields": {
+          "ทรงบอดี้": "Dreadnought Cutaway Style",
+          "ไม้หน้า": "Solid Spruce",
+          "ไม้หลัง": "Rosewood",
+          "ไม้ข้าง": "Rosewood",
+          "ระบบไฟฟ้า": "SYSTEM66"
+        },
+        "broaderMaterialsRetained": true,
+        "unknownPricesNotZero": true,
+        "width": 1194,
+        "scrollWidth": 1194
+      }
+    },
+    {
+      "name": "webkit-landscape-compare-prices",
+      "passed": true,
+      "evidence": {
+        "selection": [
+          "fender-player-ii-stratocaster",
+          "fender-player-ii-telecaster-hh",
+          "yamaha-pacifica-612viifm",
+          "martin-d-18"
+        ],
+        "requiredVisibleKeys": [
+          "back",
+          "body",
+          "bodyShape",
+          "brand",
+          "bridge",
+          "electronics",
+          "fretboard",
+          "frets",
+          "model",
+          "neck",
+          "pickups",
+          "price",
+          "scale",
+          "sides",
+          "strings",
+          "top",
+          "type"
+        ],
+        "newPrices": [
+          30600,
+          31500,
+          34000,
+          null
+        ],
+        "cheapestKnownOnly": true,
+        "unknownSpecLabel": "ไม่มีข้อมูล",
+        "unknownPriceLabel": "สอบถามราคา",
+        "tableHorizontalScroll": {
+          "width": 1112,
+          "scroll": 1112
+        },
+        "width": 1194,
+        "scrollWidth": 1194
+      }
+    },
+    {
+      "name": "webkit-landscape-compare-materials",
+      "passed": true,
+      "evidence": {
+        "sourceBackWoodDiff": [
+          "Rosewood",
+          "Mahogany"
+        ],
+        "equalKnownTopWithUnknownsNotFalseDifference": true,
+        "missingElectronicsNotNone": true,
+        "differencesOnlyPreserved": true,
+        "width": 1194,
+        "scrollWidth": 1194
+      }
+    },
+    {
+      "name": "webkit-portrait-catalog",
+      "passed": true,
+      "evidence": {
+        "searchAndUnknownPrice": true,
+        "preservedPrimaryPrices": {
+          "Pacifica": 34000,
+          "FG820-12": 16500
+        },
+        "newFenderBudgetIDs": [
+          "fender-player-ii-telecaster",
+          "fender-player-ii-stratocaster",
+          "fender-player-ii-mustang",
+          "fender-player-ii-telecaster-hh",
+          "fender-player-ii-stratocaster-hss",
+          "fender-player-ii-jaguar",
+          "fender-player-ii-modified-telecaster",
+          "fender-player-ii-modified-stratocaster-hss"
+        ],
+        "incorrectIncomingThunderbirdCategoryRejected": true,
+        "width": 768,
+        "scrollWidth": 768
+      }
+    },
+    {
+      "name": "webkit-portrait-detail",
+      "passed": true,
+      "evidence": {
+        "newFenderSource": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+        "checkedOn": "2026-10-29",
+        "fourNewFenderFields": {
+          "ทรงบอดี้": "Stratocaster",
+          "รูปแบบปิ๊กอัพ": "SSS",
+          "ความกว้างนัต": "42 mm",
+          "รัศมีฟิงเกอร์บอร์ด": "241 mm"
+        },
+        "fiveNewYamahaFields": {
+          "ทรงบอดี้": "Dreadnought Cutaway Style",
+          "ไม้หน้า": "Solid Spruce",
+          "ไม้หลัง": "Rosewood",
+          "ไม้ข้าง": "Rosewood",
+          "ระบบไฟฟ้า": "SYSTEM66"
+        },
+        "broaderMaterialsRetained": true,
+        "unknownPricesNotZero": true,
+        "width": 768,
+        "scrollWidth": 768
+      }
+    },
+    {
+      "name": "webkit-portrait-compare-prices",
+      "passed": true,
+      "evidence": {
+        "selection": [
+          "fender-player-ii-stratocaster",
+          "fender-player-ii-telecaster-hh",
+          "yamaha-pacifica-612viifm",
+          "martin-d-18"
+        ],
+        "requiredVisibleKeys": [
+          "back",
+          "body",
+          "bodyShape",
+          "brand",
+          "bridge",
+          "electronics",
+          "fretboard",
+          "frets",
+          "model",
+          "neck",
+          "pickups",
+          "price",
+          "scale",
+          "sides",
+          "strings",
+          "top",
+          "type"
+        ],
+        "newPrices": [
+          30600,
+          31500,
+          34000,
+          null
+        ],
+        "cheapestKnownOnly": true,
+        "unknownSpecLabel": "ไม่มีข้อมูล",
+        "unknownPriceLabel": "สอบถามราคา",
+        "tableHorizontalScroll": {
+          "width": 702,
+          "scroll": 825
+        },
+        "width": 768,
+        "scrollWidth": 768
+      }
+    },
+    {
+      "name": "webkit-portrait-compare-materials",
+      "passed": true,
+      "evidence": {
+        "sourceBackWoodDiff": [
+          "Rosewood",
+          "Mahogany"
+        ],
+        "equalKnownTopWithUnknownsNotFalseDifference": true,
+        "missingElectronicsNotNone": true,
+        "differencesOnlyPreserved": true,
+        "width": 768,
+        "scrollWidth": 768
+      }
+    },
+    {
+      "name": "webkit-mobile-catalog",
+      "passed": true,
+      "evidence": {
+        "searchAndUnknownPrice": true,
+        "preservedPrimaryPrices": {
+          "Pacifica": 34000,
+          "FG820-12": 16500
+        },
+        "newFenderBudgetIDs": [
+          "fender-player-ii-telecaster",
+          "fender-player-ii-stratocaster",
+          "fender-player-ii-mustang",
+          "fender-player-ii-telecaster-hh",
+          "fender-player-ii-stratocaster-hss",
+          "fender-player-ii-jaguar",
+          "fender-player-ii-modified-telecaster",
+          "fender-player-ii-modified-stratocaster-hss"
+        ],
+        "incorrectIncomingThunderbirdCategoryRejected": true,
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "webkit-mobile-detail",
+      "passed": true,
+      "evidence": {
+        "newFenderSource": "https://www.musicarms.net/fender-player-ii-stratocaster-%e0%b8%81%e0%b8%b5%e0%b8%95%e0%b8%b2%e0%b8%a3%e0%b9%8c%e0%b9%84%e0%b8%9f%e0%b8%9f%e0%b9%89%e0%b8%b2/",
+        "checkedOn": "2026-10-29",
+        "fourNewFenderFields": {
+          "ทรงบอดี้": "Stratocaster",
+          "รูปแบบปิ๊กอัพ": "SSS",
+          "ความกว้างนัต": "42 mm",
+          "รัศมีฟิงเกอร์บอร์ด": "241 mm"
+        },
+        "fiveNewYamahaFields": {
+          "ทรงบอดี้": "Dreadnought Cutaway Style",
+          "ไม้หน้า": "Solid Spruce",
+          "ไม้หลัง": "Rosewood",
+          "ไม้ข้าง": "Rosewood",
+          "ระบบไฟฟ้า": "SYSTEM66"
+        },
+        "broaderMaterialsRetained": true,
+        "unknownPricesNotZero": true,
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "webkit-mobile-compare-prices",
+      "passed": true,
+      "evidence": {
+        "selection": [
+          "fender-player-ii-stratocaster",
+          "fender-player-ii-telecaster-hh",
+          "yamaha-pacifica-612viifm",
+          "martin-d-18"
+        ],
+        "requiredVisibleKeys": [
+          "back",
+          "body",
+          "bodyShape",
+          "brand",
+          "bridge",
+          "electronics",
+          "fretboard",
+          "frets",
+          "model",
+          "neck",
+          "pickups",
+          "price",
+          "scale",
+          "sides",
+          "strings",
+          "top",
+          "type"
+        ],
+        "newPrices": [
+          30600,
+          31500,
+          34000,
+          null
+        ],
+        "cheapestKnownOnly": true,
+        "unknownSpecLabel": "ไม่มีข้อมูล",
+        "unknownPriceLabel": "สอบถามราคา",
+        "tableHorizontalScroll": {
+          "width": 348,
+          "scroll": 753
+        },
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "webkit-mobile-compare-materials",
+      "passed": true,
+      "evidence": {
+        "sourceBackWoodDiff": [
+          "Rosewood",
+          "Mahogany"
+        ],
+        "equalKnownTopWithUnknownsNotFalseDifference": true,
+        "missingElectronicsNotNone": true,
+        "differencesOnlyPreserved": true,
+        "width": 390,
+        "scrollWidth": 390
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "networkErrors": [],
+  "failedRequests": [],
+  "screenshots": [
+    "chromium-landscape-catalog-verified-prices.png",
+    "chromium-landscape-detail-new-specs.png",
+    "chromium-landscape-compare-prices.png",
+    "chromium-portrait-detail-unknown-price.png",
+    "chromium-portrait-compare-prices.png",
+    "chromium-mobile-compare-materials.png",
+    "webkit-landscape-catalog-verified-prices.png",
+    "webkit-landscape-detail-new-specs.png",
+    "webkit-landscape-compare-prices.png",
+    "webkit-portrait-detail-unknown-price.png",
+    "webkit-portrait-compare-prices.png",
+    "webkit-mobile-compare-materials.png"
+  ],
+  "physicalIPadSafariTested": false,
+  "servedHTMLSHA256": "233d8f7efe935bc58219ad1fd08d68ac3d4e06c804e21d5d012558ae518e19fe",
+  "viewports": {
+    "desktop": [
+      1440,
+      1000
+    ],
+    "landscape": [
+      1194,
+      834
+    ],
+    "portrait": [
+      768,
+      1024
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "independentExpectedNewPrices": {
+    "fender-player-ii-telecaster": 30600,
+    "fender-player-ii-telecaster-hh": 31500,
+    "fender-player-ii-stratocaster": 30600,
+    "fender-player-ii-mustang": 30600,
+    "fender-player-ii-stratocaster-hss": 31500,
+    "fender-player-ii-jaguar": 31500,
+    "fender-player-ii-modified-stratocaster-hss": 39600,
+    "fender-player-ii-modified-stratocaster-hss-floyd-rose": 43200,
+    "fender-player-ii-modified-telecaster": 37800
+  },
+  "browserVersions": {
+    "chromium": "154.0.8037.57",
+    "webkit": "26.5"
+  },
+  "sourceAndBuildUnchangedDuringRun": true,
+  "passed": true
+}

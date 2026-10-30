@@ -38,7 +38,7 @@ export default function MobileMenu({ open, onClose, isAdmin = false }) {
       </div>
 
       <nav aria-label={t('nav.main')} className="container-x flex min-h-0 flex-1 flex-col justify-center gap-1 overflow-y-auto">
-        {(isAdmin ? [...NAV_LINKS, { label: 'Admin Studio', href: '/admin' }] : NAV_LINKS).map((link) => (
+        {(isAdmin ? [...NAV_LINKS, { label: t('nav.admin'), href: '/admin' }] : NAV_LINKS).map((link) => (
           <AppLink
             key={link.label}
             href={link.href}

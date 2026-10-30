@@ -1,10 +1,8 @@
-import { LANG } from '@/i18n';
+import { LANG, t } from '@/i18n';
 import { PRACTICE_CHORDS } from '@/features/practice/data/chords';
 import Button from '@/components/ui/Button';
 import { ArrowRightIcon, GuitarIcon } from '@/components/ui/Icons';
-import playerSmall from '@/assets/home-scenes/practice-long-haired-guitarist-480.webp';
-import playerMedium from '@/assets/home-scenes/practice-long-haired-guitarist-960.webp';
-import playerLarge from '@/assets/home-scenes/practice-long-haired-guitarist-1280.webp';
+import practiceGuitar from '@/assets/home-practice/practice-black-gold-les-paul.jpg';
 
 function ViewIcon() {
   return <svg width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden="true">
@@ -27,14 +25,13 @@ export default function GuitarPracticeCard() {
     { icon: ViewIcon, title: english ? '3D view' : 'มุมมอง 3D', detail: english ? 'Rotate and zoom freely' : 'หมุน ซูม ได้อิสระ' },
     { icon: StepsIcon, title: english ? 'Step by step' : 'เรียนรู้ทีละขั้น', detail: english ? 'Keep progressing' : 'พัฒนาต่อเนื่อง' },
   ];
-  return <article id="home-practice" className="home-editorial home-practice-card" data-home-practice-card aria-labelledby="home-practice-title">
+  return <article id="home-practice" className="home-editorial home-practice-card home-practice-black-gold" data-home-practice-card aria-labelledby="home-practice-title">
     <div className="home-editorial-photo" aria-hidden="true">
-      <img src={playerLarge} srcSet={`${playerSmall} 480w, ${playerMedium} 960w, ${playerLarge} 1280w`} sizes="(min-width:1440px) 1100px, (min-width:1024px) 1000px, (min-width:640px) 960px, 920px"
-        width={1280} height={853} alt="" loading="lazy" decoding="async" />
+      <img src={practiceGuitar} width={1061} height={1280} alt="" loading="lazy" decoding="async" />
     </div>
     <div className="home-editorial-inner">
       <div className="home-editorial-copy">
-        <p className="signature-section-eyebrow">01 / GUITAR PRACTICE STUDIO</p>
+        <p className="signature-section-eyebrow">{t('targeted.home.practice')}</p>
         <h2 id="home-practice-title">{english ? 'Guitar' : 'โหมด'}<br /><span>{english ? 'Practice Studio' : 'ฝึกกีตาร์'}</span></h2>
         <p className="home-editorial-description">{english
           ? <>Practice chords with engaging guitar lessons,<br />from the basics to advanced playing.</>

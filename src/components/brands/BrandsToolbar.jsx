@@ -1,4 +1,5 @@
 import { t } from '@/i18n';
+import { countryLabel } from './displayLabels';
 import { useRef } from 'react';
 import { BRAND_SORTS } from '@/utils/brandFilters';
 import { cn } from '@/utils/cn';
@@ -33,11 +34,11 @@ export default function BrandsToolbar({ query, onQuery, sort, onSort, type, onTy
       </div>
       {countries.length > 1 && (
         <details className="brands-extra-filters" open={country ? true : undefined}>
-          <summary>{t('p5.brands.moreFilters')}{country ? ` · ${country}` : ''}</summary>
+          <summary>{t('p5.brands.moreFilters')}{country ? ` · ${countryLabel(country)}` : ''}</summary>
           <div role="group" aria-label={t('p5.brands.country')} className="mt-3 flex flex-wrap gap-2">
             <span className="w-full text-xs text-mute">{t('p5.brands.country')}</span>
             <Chip active={!country} onClick={() => onCountry('')}>{t('p5.all')}</Chip>
-            {countries.map((item) => <Chip key={item} active={country === item} onClick={() => onCountry(country === item ? '' : item)}>{item}</Chip>)}
+            {countries.map((item) => <Chip key={item} active={country === item} onClick={() => onCountry(country === item ? '' : item)}>{countryLabel(item)}</Chip>)}
           </div>
           <p className="mt-3 text-xs leading-6 text-mute">{t('p5.brands.countryNote')}</p>
         </details>

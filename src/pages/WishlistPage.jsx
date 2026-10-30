@@ -57,7 +57,7 @@ export default function WishlistPage() {
 
   return (
     <div className="phase5-page wishlist-page">
-      <DiscoveryHeading eyebrow="YOUR PERSONAL COLLECTION" title={t('p5.wish.title')} description={t('p5.wish.intro')}
+      <DiscoveryHeading eyebrow={t('targeted.wishlist.kicker')} title={t('p5.wish.title')} description={t('p5.wish.intro')}
         breadcrumbs={[{ label: t('nav.wishlist') }]}
         aside={<p className="phase5-heading-meta"><HeartIcon size={15} />{t('p5.wish.local')}</p>} />
       <section className="container-x phase5-body" aria-label={t('p5.wish.title')}>

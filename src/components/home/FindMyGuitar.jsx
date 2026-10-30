@@ -6,7 +6,7 @@ import HomeEditorialSection from './HomeEditorialSection';
 export default function FindMyGuitar() {
   return <HomeEditorialSection
     id="find"
-    eyebrow="03 / FIND MY GUITAR"
+    eyebrow={t('targeted.home.find')}
     title={LANG === 'en' ? 'The right guitar.' : 'กีตาร์ที่ใช่'}
     accent={LANG === 'en' ? 'Starts with you.' : 'เริ่มจากตัวคุณ'}
     description={LANG === 'en'

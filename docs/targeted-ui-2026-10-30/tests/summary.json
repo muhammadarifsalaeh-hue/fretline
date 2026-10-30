@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-30",
+  "branch": "feature/targeted-premium-ui-thai",
+  "baseCommit": "d8b91b67eb89404dc9be0d2243e8ac6472a4a93f",
+  "buildPassed": true,
+  "unitChecksPassed": 106,
+  "fullRouteChecksPassed": 130,
+  "functionalBrowserChecksPassed": 91,
+  "finalHomeRechecksPassed": 10,
+  "dataSafety": {
+    "passed": true,
+    "protectedFiles": 282,
+    "displayOnlyModulesChecked": 22,
+    "models": 200,
+    "uniqueIds": 200,
+    "brands": 10,
+    "modelsPerBrand": 20,
+    "chords": 42,
+    "allProductFieldsIdentical": true,
+    "existingHeroSourceAndStylesUnchanged": true,
+    "suppliedPracticeImageIdentical": true,
+    "routesUnchanged": 13,
+    "sqlExecuted": false,
+    "deployed": false,
+    "hostedSupabaseVerified": false
+  },
+  "physicalIPadSafariTested": false,
+  "hostedSupabaseTested": false,
+  "pushed": false,
+  "deployed": false,
+  "merged": false,
+  "note": "The final Home recheck validates the isolated background polish after the full route matrix. Other routes/data/logic remained unchanged."
+}

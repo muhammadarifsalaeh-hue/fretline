@@ -1,0 +1,128 @@
+{
+  "checks": [
+    {
+      "name": "chromium-desktop-home",
+      "passed": true,
+      "evidence": {
+        "viewport": 1440,
+        "pageWidth": 1440,
+        "heroNavStatsGeometryUnchanged": true,
+        "categoryColumns": 4,
+        "practiceImageTextSeparated": true,
+        "modelCountsFromBaseline": true
+      }
+    },
+    {
+      "name": "chromium-landscape-home",
+      "passed": true,
+      "evidence": {
+        "viewport": 1194,
+        "pageWidth": 1194,
+        "heroNavStatsGeometryUnchanged": true,
+        "categoryColumns": 4,
+        "practiceImageTextSeparated": true,
+        "modelCountsFromBaseline": true
+      }
+    },
+    {
+      "name": "chromium-portrait-home",
+      "passed": true,
+      "evidence": {
+        "viewport": 768,
+        "pageWidth": 768,
+        "heroNavStatsGeometryUnchanged": true,
+        "categoryColumns": 2,
+        "practiceImageTextSeparated": true,
+        "modelCountsFromBaseline": true
+      }
+    },
+    {
+      "name": "chromium-mobile-home",
+      "passed": true,
+      "evidence": {
+        "viewport": 390,
+        "pageWidth": 390,
+        "heroNavStatsGeometryUnchanged": true,
+        "categoryColumns": 1,
+        "practiceImageTextSeparated": true,
+        "modelCountsFromBaseline": true
+      }
+    },
+    {
+      "name": "chromium-narrow-home",
+      "passed": true,
+      "evidence": {
+        "viewport": 320,
+        "pageWidth": 320,
+        "categoryColumns": 1,
+        "practiceImageTextSeparated": true,
+        "modelCountsFromBaseline": true
+      }
+    },
+    {
+      "name": "webkit-desktop-home",
+      "passed": true,
+      "evidence": {
+        "viewport": 1440,
+        "pageWidth": 1440,
+        "heroNavStatsGeometryUnchanged": true,
+        "categoryColumns": 4,
+        "practiceImageTextSeparated": true,
+        "modelCountsFromBaseline": true
+      }
+    },
+    {
+      "name": "webkit-landscape-home",
+      "passed": true,
+      "evidence": {
+        "viewport": 1194,
+        "pageWidth": 1194,
+        "heroNavStatsGeometryUnchanged": true,
+        "categoryColumns": 4,
+        "practiceImageTextSeparated": true,
+        "modelCountsFromBaseline": true
+      }
+    },
+    {
+      "name": "webkit-portrait-home",
+      "passed": true,
+      "evidence": {
+        "viewport": 768,
+        "pageWidth": 768,
+        "heroNavStatsGeometryUnchanged": true,
+        "categoryColumns": 2,
+        "practiceImageTextSeparated": true,
+        "modelCountsFromBaseline": true
+      }
+    },
+    {
+      "name": "webkit-mobile-home",
+      "passed": true,
+      "evidence": {
+        "viewport": 390,
+        "pageWidth": 390,
+        "heroNavStatsGeometryUnchanged": true,
+        "categoryColumns": 1,
+        "practiceImageTextSeparated": true,
+        "modelCountsFromBaseline": true
+      }
+    },
+    {
+      "name": "webkit-narrow-home",
+      "passed": true,
+      "evidence": {
+        "viewport": 320,
+        "pageWidth": 320,
+        "categoryColumns": 1,
+        "practiceImageTextSeparated": true,
+        "modelCountsFromBaseline": true
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "physicalIPadSafariTested": false,
+  "hostedSupabaseTested": false,
+  "dataSource": "unchanged project data; no mocks or database writes",
+  "passed": true
+}

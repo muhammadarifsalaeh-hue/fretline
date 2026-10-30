@@ -20,7 +20,7 @@ export default function Navbar() {
   const scrolled = useScrolled(24);
   const { wishlist, compare } = useShop();
   const isAdmin = useAdminAccess();
-  const links = isAdmin ? [...NAV_LINKS, { label: 'Admin Studio', href: '/admin' }] : NAV_LINKS;
+  const links = isAdmin ? [...NAV_LINKS, { label: t('nav.admin'), href: '/admin' }] : NAV_LINKS;
   const { pathname } = useLocation();
   const [mega, setMega] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);

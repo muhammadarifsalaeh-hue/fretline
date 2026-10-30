@@ -1,0 +1,26 @@
+
+> fretline@0.1.0 phase5:check
+> node scripts/check-phase5.mjs
+
+PASS brand names and model counts exactly partition the existing catalog
+PASS brand category membership comes only from its real catalog entries
+PASS unknown, inherited-object and uppercase brand routes are safe
+PASS empty brand catalog yields an empty index
+PASS brand summary excludes sample prices and counts source-backed models
+PASS sample-only brand has no asserted price range
+PASS brand price ranges use the current source-backed catalog and retain unknown ranges
+PASS brand search is trimmed and case-insensitive
+PASS type and explicitly unverified legacy country filters intersect
+PASS brand sorting is deterministic without mutating the input
+PASS verified-only price sorts put sample and missing prices last in both directions
+PASS recently saved order is reversed on a copy
+PASS wishlist migration removes duplicate, stale and invalid IDs
+PASS public wishlist prices cannot expose legacy sample amounts
+PASS Thai and English Phase 5 text keys and interpolation fields match
+
+15/15 checks passed
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

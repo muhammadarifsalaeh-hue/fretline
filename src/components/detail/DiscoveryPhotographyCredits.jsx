@@ -3,8 +3,8 @@ import { DISCOVERY_PHOTOGRAPHY } from '@/data/discoveryPhotography';
 
 const copy = (th, en) => LANG === 'en' ? en : th;
 const labels = {
-  quizHero: ['หน้าปก Find My Guitar', 'Find My Guitar cover'],
-  compareHero: ['หน้าปก Compare Guitars', 'Compare Guitars cover'],
+  quizHero: ['หน้าปกค้นหากีตาร์ที่ใช่', 'Find My Guitar cover'],
+  compareHero: ['หน้าปกเปรียบเทียบกีตาร์', 'Compare Guitars cover'],
   electricPlayer: ['การเล่นกีตาร์ไฟฟ้า', 'Electric guitar playing'],
   acousticPlayer: ['การเล่นกีตาร์โปร่ง', 'Acoustic guitar playing'],
   chordHands: ['การจับคอร์ด', 'Fretting a chord'],
@@ -13,9 +13,9 @@ const labels = {
 /** Editorial atmosphere has its own attribution; it is never model-match evidence. */
 export default function DiscoveryPhotographyCredits() {
   return <section id="discovery-photography" className="mt-12 scroll-mt-28" aria-labelledby="discovery-photography-title">
-    <h2 id="discovery-photography-title" className="font-serif text-3xl text-bone">{copy('ภาพถ่ายสำหรับ Quiz และ Compare', 'Quiz & Compare photography')}</h2>
+    <h2 id="discovery-photography-title" className="font-serif text-3xl text-bone">{copy('ภาพถ่ายสำหรับแบบทดสอบและการเปรียบเทียบ', 'Quiz & Compare photography')}</h2>
     <p className="mt-3 max-w-3xl text-sm leading-7 text-mute">{copy(
-      'ภาพเหล่านี้ใช้ประกอบบรรยากาศและการเล่นกีตาร์ ไม่ใช่ภาพยืนยันรุ่น สเปก หรือภาพของกีตาร์ที่แนะนำและเลือกเปรียบเทียบ การ์ดสินค้ายังคงใช้ภาพที่ผูกกับ Guitar ID ของแต่ละรุ่น',
+      'ภาพเหล่านี้ใช้ประกอบบรรยากาศและการเล่นกีตาร์ ไม่ใช่ภาพยืนยันรุ่น สเปก หรือภาพของกีตาร์ที่แนะนำและเลือกเปรียบเทียบ การ์ดสินค้ายังคงใช้ภาพที่ผูกกับ รหัสกีตาร์ของแต่ละรุ่น',
       'These photographs illustrate atmosphere and playing. They do not establish a catalog model, specification, recommendation or selected comparison guitar. Product cards continue to use each guitar’s own registered images.',
     )}</p>
     <ul className="mt-6 grid gap-6 md:grid-cols-2">

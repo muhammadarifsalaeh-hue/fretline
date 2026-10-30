@@ -1,4 +1,4 @@
-import { t } from '@/i18n';
+import { LANG, t } from '@/i18n';
 import AppLink from './AppLink';
 
 /** Compact editorial heading shared by the Phase 5 discovery pages. */
@@ -14,7 +14,7 @@ export default function DiscoveryHeading({ eyebrow, title, description, breadcru
           </span>
         ))}
       </nav>
-      <p className="discovery-kicker" lang="en">{eyebrow}</p>
+      <p className="discovery-kicker" lang={LANG}>{eyebrow}</p>
       <div className="phase5-title-row">
         <div>
           <h1 className={serif ? 'font-serif phase5-brand-name' : ''}>{title}</h1>

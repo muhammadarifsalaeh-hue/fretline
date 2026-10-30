@@ -1,0 +1,124 @@
+/* Only the two Home elements requested in this refinement. No global theme. */
+.signature-home.premium-home #categories .signature-category-grid {
+  grid-template-columns: minmax(0,1fr);
+  gap: 14px;
+}
+.signature-home.premium-home .signature-category-card.signature-category-pill {
+  display: grid;
+  grid-template-columns: minmax(0,1.25fr) minmax(0,1fr) 32px;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  min-height: 112px;
+  padding: 8px 15px 8px 3px;
+  border: 1px solid #c8a86985;
+  border-radius: 999px;
+  background: radial-gradient(ellipse at 28% 0,#b48b4123,transparent 65%),#030403;
+  box-shadow: inset 0 0 24px #b48b4108;
+  transition: border-color 200ms,box-shadow 200ms,background-color 200ms;
+}
+.signature-home.premium-home .signature-category-pill .category-pill-art {
+  display: block;
+  width: 100%;
+  height: 94px;
+  overflow: visible;
+  filter: drop-shadow(0 5px 6px #0008);
+  pointer-events: none;
+}
+.signature-home.premium-home .signature-category-card--acoustic .category-pill-art { mix-blend-mode: screen; }
+.signature-home.premium-home .signature-category-pill .signature-category-copy {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+.signature-home.premium-home .signature-category-pill .signature-category-copy h3 {
+  color: #f5f1e9;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  text-wrap: balance;
+}
+.signature-home.premium-home .signature-category-pill .signature-category-copy p {
+  margin-top: 3px;
+  color: #c3b69c;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.signature-home.premium-home .signature-category-pill .signature-category-arrow {
+  position: static;
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  padding: 7px;
+  border-color: #c9aa7185;
+  color: #e6ca90;
+  background: #bd91460a;
+}
+.signature-home.premium-home .home-practice-card.home-practice-black-gold {
+  background: radial-gradient(ellipse at 88% 88%,#9b70261f,transparent 52%),linear-gradient(105deg,#090706,#030504 60%);
+}
+.signature-home.premium-home .home-practice-black-gold .home-editorial-photo {
+  inset: 38px 10px 38px 51%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signature-home.premium-home .home-practice-black-gold .home-editorial-photo img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: center;
+  transform: none;
+  mask-image: linear-gradient(90deg,transparent,#000 10%,#000 96%,transparent),linear-gradient(0deg,transparent,#000 1%,#000 96%,transparent);
+  mask-composite: intersect;
+  -webkit-mask-image: linear-gradient(90deg,transparent,#000 10%,#000 96%,transparent),linear-gradient(0deg,transparent,#000 1%,#000 96%,transparent);
+  -webkit-mask-composite: source-in;
+}
+.signature-home.premium-home .home-practice-black-gold::after {
+  background: linear-gradient(90deg,#03040422,transparent 65%),linear-gradient(0deg,#03040470,transparent 28%);
+}
+.signature-home.premium-home .home-practice-black-gold .home-editorial-inner {
+  min-height: 670px;
+  align-items: center;
+}
+.signature-home.premium-home .home-practice-black-gold .home-editorial-copy {
+  width: 48%;
+  max-width: 48%;
+  padding-top: 0;
+}
+.signature-home.premium-home .home-practice-black-gold .home-practice-features { gap: 10px; }
+@media (min-width:640px) {
+  .signature-home.premium-home #categories .signature-category-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (min-width:1024px) {
+  .signature-home.premium-home #categories .signature-category-grid { grid-template-columns: repeat(4,minmax(0,1fr)); }
+  .signature-home.premium-home .signature-category-pill .signature-category-copy h3 { font-size: clamp(13px,1.1vw,16px); }
+}
+@media (min-width:1024px) and (max-width:1279px) {
+  .signature-home.premium-home .signature-category-card.signature-category-pill { grid-template-columns: minmax(0,1.05fr) minmax(0,1fr) 28px; gap: 5px; padding-right: 12px; }
+  .signature-home.premium-home .signature-category-pill .signature-category-arrow { width: 28px; height: 28px; padding: 6px; }
+  .signature-home.premium-home .home-practice-black-gold .home-editorial-inner { min-height: 654px; }
+  .signature-home.premium-home .home-practice-black-gold .home-practice-features strong { font-size: 12px; }
+}
+@media (max-width:1023px), (orientation:portrait) and (max-width:1366px) {
+  .signature-home.premium-home .home-practice-black-gold .home-editorial-inner { min-height: 600px; }
+  .signature-home.premium-home .home-practice-black-gold .home-editorial-copy { padding-top: 0; }
+}
+@media (max-width:639px) {
+  .signature-home.premium-home .signature-category-card.signature-category-pill { min-height: 106px; }
+  .signature-home.premium-home .home-practice-black-gold .home-editorial-photo { inset: 12px 18px auto auto; width: 65%; height: 240px; }
+  .signature-home.premium-home .home-practice-black-gold .home-editorial-inner { min-height: 720px; padding-top: 272px; align-items: flex-start; }
+  .signature-home.premium-home .home-practice-black-gold .home-editorial-copy { width: 100%; max-width: 100%; padding-top: 0; }
+}
+@media (hover:hover) and (pointer:fine) {
+  .signature-home.premium-home .signature-category-pill:hover { border-color: #e6ca90; box-shadow: inset 0 0 28px #b48b4110,0 0 20px #b48b4110; }
+  .signature-home.premium-home .signature-category-pill:hover .signature-category-arrow { color: #f7dfac; background: #bd914622; }
+  .signature-home.premium-home .home-practice-black-gold:hover .home-editorial-photo img { transform: none; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .signature-home.premium-home .signature-category-pill,
+  .signature-home.premium-home .signature-category-pill .signature-category-arrow { transition: none; }
+}

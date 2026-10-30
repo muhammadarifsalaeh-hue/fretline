@@ -1,0 +1,235 @@
+{
+  "baseCommit": "d8b91b67eb89404dc9be0d2243e8ac6472a4a93f",
+  "categoryCounts": {
+    "electric": 90,
+    "acoustic": 73,
+    "classical": 20,
+    "bass": 17
+  },
+  "metrics": {
+    "desktop": {
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 81
+      },
+      "#top": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 510
+      },
+      "#top h1": {
+        "x": 120,
+        "y": 153.390625,
+        "width": 540,
+        "height": 161.25
+      },
+      ".signature-hero-actions": {
+        "x": 120,
+        "y": 338.640625,
+        "width": 540,
+        "height": 48
+      },
+      ".signature-hero-search": {
+        "x": 120,
+        "y": 408.640625,
+        "width": 540,
+        "height": 56
+      },
+      ".signature-stats": {
+        "x": 0,
+        "y": 510,
+        "width": 1440,
+        "height": 92
+      },
+      "#home-practice": {
+        "x": 120,
+        "y": 1385.3125,
+        "width": 605.40625,
+        "height": 670.828125
+      },
+      "#find": {
+        "x": 743.40625,
+        "y": 1385.3125,
+        "width": 576.59375,
+        "height": 326.40625
+      },
+      "#compare": {
+        "x": 743.40625,
+        "y": 1729.71875,
+        "width": 576.59375,
+        "height": 326.421875
+      }
+    },
+    "landscape": {
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 1194,
+        "height": 81
+      },
+      "#top": {
+        "x": 0,
+        "y": 0,
+        "width": 1194,
+        "height": 510
+      },
+      "#top h1": {
+        "x": 40,
+        "y": 153.390625,
+        "width": 540,
+        "height": 134.46875
+      },
+      ".signature-hero-actions": {
+        "x": 40,
+        "y": 311.859375,
+        "width": 540,
+        "height": 48
+      },
+      ".signature-hero-search": {
+        "x": 40,
+        "y": 381.859375,
+        "width": 540,
+        "height": 56
+      },
+      ".signature-stats": {
+        "x": 0,
+        "y": 510,
+        "width": 1194,
+        "height": 92
+      },
+      "#home-practice": {
+        "x": 40,
+        "y": 1347.09375,
+        "width": 561.359375,
+        "height": 655.171875
+      },
+      "#find": {
+        "x": 619.359375,
+        "y": 1347.09375,
+        "width": 534.640625,
+        "height": 318.578125
+      },
+      "#compare": {
+        "x": 619.359375,
+        "y": 1683.671875,
+        "width": 534.640625,
+        "height": 318.59375
+      }
+    },
+    "portrait": {
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 65
+      },
+      "#top": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 494
+      },
+      "#top h1": {
+        "x": 32,
+        "y": 142.390625,
+        "width": 495,
+        "height": 138.21875
+      },
+      ".signature-hero-actions": {
+        "x": 32,
+        "y": 304.609375,
+        "width": 495,
+        "height": 48
+      },
+      ".signature-hero-search": {
+        "x": 32,
+        "y": 374.609375,
+        "width": 495,
+        "height": 56
+      },
+      ".signature-stats": {
+        "x": 0,
+        "y": 494,
+        "width": 768,
+        "height": 92
+      },
+      "#home-practice": {
+        "x": 32,
+        "y": 1254,
+        "width": 704,
+        "height": 602.796875
+      },
+      "#find": {
+        "x": 32,
+        "y": 1874.796875,
+        "width": 704,
+        "height": 332
+      },
+      "#compare": {
+        "x": 32,
+        "y": 2224.796875,
+        "width": 704,
+        "height": 332
+      }
+    },
+    "mobile": {
+      ".site-header": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 65
+      },
+      "#top": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 480
+      },
+      "#top h1": {
+        "x": 20,
+        "y": 129,
+        "width": 350,
+        "height": 104.8125
+      },
+      ".signature-hero-actions": {
+        "x": 20,
+        "y": 255.8125,
+        "width": 350,
+        "height": 48
+      },
+      ".signature-hero-search": {
+        "x": 20,
+        "y": 323.8125,
+        "width": 350,
+        "height": 56
+      },
+      ".signature-stats": {
+        "x": 0,
+        "y": 480,
+        "width": 390,
+        "height": 100.1875
+      },
+      "#home-practice": {
+        "x": 20,
+        "y": 1618.1875,
+        "width": 350,
+        "height": 612
+      },
+      "#find": {
+        "x": 20,
+        "y": 2244.1875,
+        "width": 350,
+        "height": 332
+      },
+      "#compare": {
+        "x": 20,
+        "y": 2590.1875,
+        "width": 350,
+        "height": 332
+      }
+    }
+  }
+}
