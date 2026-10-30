@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "protectedFiles": 302,
+  "models": 200,
+  "uniqueIds": 200,
+  "brands": 10,
+  "modelsPerBrand": {
+    "Córdoba": 20,
+    "Epiphone": 20,
+    "Fender": 20,
+    "Gibson": 20,
+    "Ibanez": 20,
+    "Martin": 20,
+    "PRS": 20,
+    "Squier": 20,
+    "Taylor": 20,
+    "Yamaha": 20
+  },
+  "categories": {
+    "electric": 90,
+    "acoustic": 73,
+    "classical": 20,
+    "bass": 17
+  },
+  "chords": 42,
+  "allOriginalDataAndImageRelationsIdentical": true,
+  "learningPageBehaviorIdentical": true,
+  "adminSourceIdentical": true,
+  "existingRoutes": 13,
+  "originalPracticePhotoIdentical": true,
+  "publicStylesScoped": true,
+  "databaseWrites": false,
+  "hostedSupabaseVerified": false
+}
