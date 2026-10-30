@@ -8,7 +8,6 @@ import BottomBar from '@/components/layout/BottomBar';
 import CompareBar from '@/components/layout/CompareBar';
 import Footer from '@/components/layout/Footer';
 import Navbar from '@/components/layout/Navbar';
-import PublicExperience from '@/components/layout/PublicExperience';
 import ScrollManager from '@/components/layout/ScrollManager';
 import Toast from '@/components/layout/Toast';
 import HomePage from '@/pages/HomePage';
@@ -32,7 +31,7 @@ export default function App({ catalogUnavailable = false }) {
   const { pathname } = useLocation();
   const recoveryRoute = ['/admin', '/qr'].includes(pathname.replace(/\/$/, ''));
   return (
-    <AdminAccessProvider><ShopProvider><PublicExperience>
+    <AdminAccessProvider><ShopProvider>
       <a href="#main-content" className="skip-link">{t('a11y.skip')}</a>
       <ScrollManager />
       <Navbar />
@@ -60,6 +59,6 @@ export default function App({ catalogUnavailable = false }) {
       <CompareBar />
       <BottomBar />
       <Toast />
-    </PublicExperience></ShopProvider></AdminAccessProvider>
+    </ShopProvider></AdminAccessProvider>
   );
 }

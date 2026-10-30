@@ -6,7 +6,7 @@ import HomeEditorialSection from '@/components/home/HomeEditorialSection';
 export default function CompareSection() {
   return <HomeEditorialSection
     id="compare"
-    eyebrow={LANG === 'en' ? 'SIDE BY SIDE' : 'เปรียบเทียบกีตาร์'}
+    eyebrow="04 / SIDE BY SIDE"
     title={t('signature.compare.titleLead')}
     accent={t('signature.compare.titleEnd')}
     description={LANG === 'en'

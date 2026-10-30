@@ -43,7 +43,7 @@ export default function BrandsPage() {
         {showAtmosphere && <img src={HOME_BRAND_ASSETS.fender.photo} alt="" width="1200" height="700" decoding="async"
           onError={() => setShowAtmosphere(false)} />}
       </div>
-      <DiscoveryHeading eyebrow="ค้นพบเอกลักษณ์ของแต่ละแบรนด์" title={t('p5.brands.title')} description={t('p5.brands.intro')}
+      <DiscoveryHeading eyebrow="BRAND DIRECTORY" title={t('p5.brands.title')} description={t('p5.brands.intro')}
         breadcrumbs={[{ label: t('nav.brands') }]}
         aside={<p className="phase5-heading-meta">{t('p5.brands.summary', { brands: BRANDS.length, n: GUITARS.length })}</p>} />
       <section className="container-x phase5-body" aria-label={t('p5.brands.title')}>

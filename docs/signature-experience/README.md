@@ -1,5 +1,7 @@
 # Fretline — Signature Experience
 
+> งาน Signature นี้ถูกยกเลิกตามคำขอเจ้าของ และคืนดีไซน์ก่อนเริ่มแล้ว ดู [บันทึกการคืนดีไซน์](RESTORATION.md) รายงานด้านล่างเป็นประวัติของงาน Signature
+
 ปรับดีไซน์ฝั่งผู้เข้าชมบน `feature/fretline-signature-experience` จากฐาน `302ce43def126e4785460c4b0297eae973dbccfb` ของ `feature/fretline-admin-studio` ไม่ Push, Merge หรือ Deploy งานนี้
 
 ## สิ่งที่เปลี่ยน

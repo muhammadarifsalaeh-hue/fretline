@@ -17,7 +17,7 @@ const artworks = Object.keys(PROJECT_ARTWORK).map((id) => GUITARS_BY_ID[id]).fil
 export default function ImageCreditsPage() {
   useEffect(() => { document.title = `${t('p6.images.title')} — Fretline`; }, []);
   return <div className="phase5-page image-credits-page">
-    <DiscoveryHeading eyebrow="แหล่งที่มาและสิทธิ์การใช้งาน" title={t('p6.images.title')} description={t('p6.images.intro')}
+    <DiscoveryHeading eyebrow="IMAGE SOURCES & LICENSES" title={t('p6.images.title')} description={t('p6.images.intro')}
       breadcrumbs={[{ label: t('p6.images.indexLink') }]} />
     <section className="container-x phase5-body">
       <p className="mb-5 text-sm text-gold">{t('p6.images.count', { n: photos.length })}</p>
@@ -39,7 +39,7 @@ export default function ImageCreditsPage() {
           <GuitarImage guitar={guitar} className="aspect-[3/4] rounded-md" sizes="180px" />
           <div className="min-w-0">
             <h3 className="font-serif text-3xl">{guitar.brand} {guitar.name}</h3>
-            <details className="image-attribution mt-3 text-xs leading-6 text-mute"><summary>{t('artwork.details')}</summary><p>{t('artwork.publicProvenance')}</p></details>
+            <details className="image-attribution mt-3 text-xs leading-6 text-mute"><summary>{t('artwork.details')}</summary><p>{t('artwork.provenance')}</p></details>
             <AppLink href={guitarUrl(guitar.slug)} className="phase4-button mt-5">{t('p6.images.viewModel')}</AppLink>
           </div>
         </div>)}

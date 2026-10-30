@@ -98,12 +98,13 @@ export default function ComparePage() {
         <div className="container-x pc-hero__inner">
           <nav aria-label={t('common.breadcrumb')} className="discovery-breadcrumb"><AppLink href="/">{t('nav.home')}</AppLink><span aria-hidden="true">›</span><span>{t('nav.compare')}</span></nav>
           <div className="pc-hero__copy">
-            <p className="discovery-kicker">FRETLINE / เปรียบเทียบกีตาร์</p>
+            <p className="discovery-kicker">FRETLINE / SIDE BY SIDE</p>
             <h1>{english ? <>Compare <em>Guitars</em></> : <>เปรียบเทียบ<em>กีตาร์</em></>}</h1>
             <h2>{english ? 'A clearer view of your next guitar.' : 'เลือกกีตาร์ 2–4 รุ่น แล้วสำรวจความแตกต่าง'}</h2>
             <p className="pc-hero__description">{english ? 'Compare specifications, materials and source-backed prices. Find the details that matter to your playing.' : 'เปรียบเทียบสเปก เสียง วัสดุ และราคาที่ตรวจสอบได้ เพื่อช่วยให้คุณเลือกกีตาร์ที่ใช่ได้ง่ายขึ้น'}</p>
             <ul className="pc-benefits">{benefits.map((benefit) => <li key={benefit.icon}><span className="pc-benefit-icon"><ComparisonIcon name={benefit.icon} /></span><span className="pc-benefit-title">{benefit.title}</span><span className="pc-benefit-copy">{benefit.text}</span></li>)}</ul>
           </div>
+          <p className="pc-hero__signature" aria-hidden="true">Compare.<br />Find your tone.</p>
         </div>
       </header>
       <section ref={contentRef} className="container-x pc-workspace" aria-label={t('p4.compare.title')}>
