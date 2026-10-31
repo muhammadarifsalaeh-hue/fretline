@@ -1,0 +1,392 @@
+{
+  "chord": "G7",
+  "selectedCandidate": true,
+  "notAnAcceptanceGate": true,
+  "samples": [
+    {
+      "liftMm": 0.0,
+      "ownedContacts": [
+        {
+          "finger": 3,
+          "string": 6,
+          "fret": 3,
+          "kind": "tip",
+          "clearanceMm": -0.09094355767832096
+        },
+        {
+          "finger": 2,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "clearanceMm": 0.004044762771494237
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 1,
+          "kind": "tip",
+          "clearanceMm": -0.007486977641308332
+        }
+      ],
+      "wholeSkinStringClearances": {
+        "6": -0.09094355767832185,
+        "5": 0.004044762771494237,
+        "4": 0.16775717028772408,
+        "3": 5.298171377376681,
+        "2": 0.17659771734327293,
+        "1": -0.05138208565271232
+      },
+      "clearancesPassed": false
+    },
+    {
+      "liftMm": 0.01,
+      "ownedContacts": [
+        {
+          "finger": 3,
+          "string": 6,
+          "fret": 3,
+          "kind": "tip",
+          "clearanceMm": -0.08121158010665386
+        },
+        {
+          "finger": 2,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "clearanceMm": 0.013609745400672668
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 1,
+          "kind": "tip",
+          "clearanceMm": 0.0016931952854870591
+        }
+      ],
+      "wholeSkinStringClearances": {
+        "6": -0.08121158010665408,
+        "5": 0.013609745400672668,
+        "4": 0.17565864194662156,
+        "3": 5.304528628671404,
+        "2": 0.18439722365243558,
+        "1": -0.0420421082861506
+      },
+      "clearancesPassed": false
+    },
+    {
+      "liftMm": 0.02,
+      "ownedContacts": [
+        {
+          "finger": 3,
+          "string": 6,
+          "fret": 3,
+          "kind": "tip",
+          "clearanceMm": -0.07147960253498675
+        },
+        {
+          "finger": 2,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "clearanceMm": 0.023174728029851432
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 1,
+          "kind": "tip",
+          "clearanceMm": 0.0108733682122798
+        }
+      ],
+      "wholeSkinStringClearances": {
+        "6": -0.07147960253498675,
+        "5": 0.023174728029851432,
+        "4": 0.18356011360551944,
+        "3": 5.3108858799661265,
+        "2": 0.19219672996159873,
+        "1": -0.03270213091959015
+      },
+      "clearancesPassed": false
+    },
+    {
+      "liftMm": 0.03,
+      "ownedContacts": [
+        {
+          "finger": 3,
+          "string": 6,
+          "fret": 3,
+          "kind": "tip",
+          "clearanceMm": -0.06174762496332087
+        },
+        {
+          "finger": 2,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "clearanceMm": 0.03273971065903014
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 1,
+          "kind": "tip",
+          "clearanceMm": 0.020053541139075398
+        }
+      ],
+      "wholeSkinStringClearances": {
+        "6": -0.06174762496331987,
+        "5": 0.03273971065903014,
+        "4": 0.19146158526441687,
+        "3": 5.317243131260851,
+        "2": 0.1999962362707617,
+        "1": -0.023362153553027967
+      },
+      "clearancesPassed": false
+    },
+    {
+      "liftMm": 0.04,
+      "ownedContacts": [
+        {
+          "finger": 3,
+          "string": 6,
+          "fret": 3,
+          "kind": "tip",
+          "clearanceMm": -0.05201564739165354
+        },
+        {
+          "finger": 2,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "clearanceMm": 0.04230469328820968
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 1,
+          "kind": "tip",
+          "clearanceMm": 0.029233714065869637
+        }
+      ],
+      "wholeSkinStringClearances": {
+        "6": -0.05201564739165343,
+        "5": 0.04230469328820918,
+        "4": 0.19936305692331485,
+        "3": 5.323600382555573,
+        "2": 0.20779574257992386,
+        "1": -0.014022176186466798
+      },
+      "clearancesPassed": false
+    },
+    {
+      "liftMm": 0.05,
+      "ownedContacts": [
+        {
+          "finger": 3,
+          "string": 6,
+          "fret": 3,
+          "kind": "tip",
+          "clearanceMm": -0.04228366981998555
+        },
+        {
+          "finger": 2,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "clearanceMm": 0.051869675917388725
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 1,
+          "kind": "tip",
+          "clearanceMm": 0.038413886992663626
+        }
+      ],
+      "wholeSkinStringClearances": {
+        "6": -0.042283669819985326,
+        "5": 0.051869675917388725,
+        "4": 0.2072645285822125,
+        "3": 5.329957633850296,
+        "2": 0.2155952488890874,
+        "1": -0.004682198819904906
+      },
+      "clearancesPassed": false
+    },
+    {
+      "liftMm": 0.06,
+      "ownedContacts": [
+        {
+          "finger": 3,
+          "string": 6,
+          "fret": 3,
+          "kind": "tip",
+          "clearanceMm": -0.03255169224831933
+        },
+        {
+          "finger": 2,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "clearanceMm": 0.06143465854656688
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 1,
+          "kind": "tip",
+          "clearanceMm": 0.04759405991945781
+        }
+      ],
+      "wholeSkinStringClearances": {
+        "6": -0.03255169224831933,
+        "5": 0.06143465854656688,
+        "4": 0.21516600024111027,
+        "3": 5.336314885145019,
+        "2": 0.2233947551982499,
+        "1": 0.0046577785466556665
+      },
+      "clearancesPassed": false
+    },
+    {
+      "liftMm": 0.07,
+      "ownedContacts": [
+        {
+          "finger": 3,
+          "string": 6,
+          "fret": 3,
+          "kind": "tip",
+          "clearanceMm": -0.022819714676652114
+        },
+        {
+          "finger": 2,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "clearanceMm": 0.07099964117574559
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 1,
+          "kind": "tip",
+          "clearanceMm": 0.05677423284625202
+        }
+      ],
+      "wholeSkinStringClearances": {
+        "6": -0.022819714676652003,
+        "5": 0.07099964117574559,
+        "4": 0.22306747190000747,
+        "3": 5.3426721364397425,
+        "2": 0.23119426150741249,
+        "1": 0.013997755913218057
+      },
+      "clearancesPassed": false
+    },
+    {
+      "liftMm": 0.08,
+      "ownedContacts": [
+        {
+          "finger": 3,
+          "string": 6,
+          "fret": 3,
+          "kind": "tip",
+          "clearanceMm": -0.013087737104985009
+        },
+        {
+          "finger": 2,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "clearanceMm": 0.0805646238049244
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 1,
+          "kind": "tip",
+          "clearanceMm": 0.06595440577304756
+        }
+      ],
+      "wholeSkinStringClearances": {
+        "6": -0.013087737104984898,
+        "5": 0.0805646238049244,
+        "4": 0.23096894355890557,
+        "3": 5.349029387734465,
+        "2": 0.2389937678165753,
+        "1": 0.023337733279779532
+      },
+      "clearancesPassed": false
+    },
+    {
+      "liftMm": 0.09,
+      "ownedContacts": [
+        {
+          "finger": 3,
+          "string": 6,
+          "fret": 3,
+          "kind": "tip",
+          "clearanceMm": -0.0033557595333180146
+        },
+        {
+          "finger": 2,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "clearanceMm": 0.09012960643410334
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 1,
+          "kind": "tip",
+          "clearanceMm": 0.07513457869984178
+        }
+      ],
+      "wholeSkinStringClearances": {
+        "6": -0.0033557595333180146,
+        "5": 0.09012960643410334,
+        "4": 0.238870415217803,
+        "3": 5.355386639029188,
+        "2": 0.24679327412573873,
+        "1": 0.03267771064633962
+      },
+      "clearancesPassed": false
+    },
+    {
+      "liftMm": 0.1,
+      "ownedContacts": [
+        {
+          "finger": 3,
+          "string": 6,
+          "fret": 3,
+          "kind": "tip",
+          "clearanceMm": 0.006376218038349202
+        },
+        {
+          "finger": 2,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "clearanceMm": 0.0996945890632826
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 1,
+          "kind": "tip",
+          "clearanceMm": 0.08431475162663579
+        }
+      ],
+      "wholeSkinStringClearances": {
+        "6": 0.006376218038349202,
+        "5": 0.0996945890632826,
+        "4": 0.24677188687670054,
+        "3": 5.36174389032391,
+        "2": 0.25459278043490174,
+        "1": 0.0420176880129024
+      },
+      "clearancesPassed": true
+    }
+  ]
+}

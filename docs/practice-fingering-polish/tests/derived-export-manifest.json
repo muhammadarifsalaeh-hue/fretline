@@ -1,0 +1,75 @@
+{
+  "scope": "Derived study-guitar mesh exports only; no original source model or product image moved",
+  "exports": [
+    {
+      "formerPath": "docs/practice-fingering-polish/solver/g7-lift/G7-guitar.json",
+      "sha256": "35526f1baa3be68c5e1d5abe3ba58d90dbdc7e9be0fd9aa99f259458416d7ccd",
+      "bytes": 934291,
+      "recreateWith": "node scripts/practice/export-guitar-collision-mesh.mjs CHORD OUTPUT",
+      "retainedLocally": ".local-preview/practice-fingering/derived-exports/solver/g7-lift/G7-guitar.json"
+    },
+    {
+      "formerPath": "docs/practice-fingering-polish/solver/am-guitar-refine/Am/Am-guitar.json",
+      "sha256": "8e5eedaa0f10796e399e66f117765d1c76e8f6869a65c6a6ba58093e5470baf3",
+      "bytes": 934299,
+      "recreateWith": "node scripts/practice/export-guitar-collision-mesh.mjs CHORD OUTPUT",
+      "retainedLocally": ".local-preview/practice-fingering/derived-exports/solver/am-guitar-refine/Am/Am-guitar.json"
+    },
+    {
+      "formerPath": "docs/practice-fingering-polish/solver/am-exact-polish/Am/Am-guitar.json",
+      "sha256": "8e5eedaa0f10796e399e66f117765d1c76e8f6869a65c6a6ba58093e5470baf3",
+      "bytes": 934299,
+      "recreateWith": "node scripts/practice/export-guitar-collision-mesh.mjs CHORD OUTPUT",
+      "retainedLocally": ".local-preview/practice-fingering/derived-exports/solver/am-exact-polish/Am/Am-guitar.json"
+    },
+    {
+      "formerPath": "docs/practice-fingering-polish/solver/am-yaw75-local/Am/Am-guitar.json",
+      "sha256": "8e5eedaa0f10796e399e66f117765d1c76e8f6869a65c6a6ba58093e5470baf3",
+      "bytes": 934299,
+      "recreateWith": "node scripts/practice/export-guitar-collision-mesh.mjs CHORD OUTPUT",
+      "retainedLocally": ".local-preview/practice-fingering/derived-exports/solver/am-yaw75-local/Am/Am-guitar.json"
+    },
+    {
+      "formerPath": "docs/practice-fingering-polish/solver/g7-exact-polish/G7/G7-guitar.json",
+      "sha256": "35526f1baa3be68c5e1d5abe3ba58d90dbdc7e9be0fd9aa99f259458416d7ccd",
+      "bytes": 934291,
+      "recreateWith": "node scripts/practice/export-guitar-collision-mesh.mjs CHORD OUTPUT",
+      "retainedLocally": ".local-preview/practice-fingering/derived-exports/solver/g7-exact-polish/G7/G7-guitar.json"
+    },
+    {
+      "formerPath": "docs/practice-fingering-polish/solver/am-fixed/Am/Am-guitar.json",
+      "sha256": "8e5eedaa0f10796e399e66f117765d1c76e8f6869a65c6a6ba58093e5470baf3",
+      "bytes": 934299,
+      "recreateWith": "node scripts/practice/export-guitar-collision-mesh.mjs CHORD OUTPUT",
+      "retainedLocally": ".local-preview/practice-fingering/derived-exports/solver/am-fixed/Am/Am-guitar.json"
+    },
+    {
+      "formerPath": "docs/practice-fingering-polish/solver/am-sat-refine/Am/Am-guitar.json",
+      "sha256": "8e5eedaa0f10796e399e66f117765d1c76e8f6869a65c6a6ba58093e5470baf3",
+      "bytes": 934299,
+      "recreateWith": "node scripts/practice/export-guitar-collision-mesh.mjs CHORD OUTPUT",
+      "retainedLocally": ".local-preview/practice-fingering/derived-exports/solver/am-sat-refine/Am/Am-guitar.json"
+    },
+    {
+      "formerPath": "docs/practice-fingering-polish/solver/g7-sidepad/G7/G7-guitar.json",
+      "sha256": "35526f1baa3be68c5e1d5abe3ba58d90dbdc7e9be0fd9aa99f259458416d7ccd",
+      "bytes": 934291,
+      "recreateWith": "node scripts/practice/export-guitar-collision-mesh.mjs CHORD OUTPUT",
+      "retainedLocally": ".local-preview/practice-fingering/derived-exports/solver/g7-sidepad/G7/G7-guitar.json"
+    },
+    {
+      "formerPath": "docs/practice-fingering-polish/solver/am-fixed-local/Am/Am-guitar.json",
+      "sha256": "8e5eedaa0f10796e399e66f117765d1c76e8f6869a65c6a6ba58093e5470baf3",
+      "bytes": 934299,
+      "recreateWith": "node scripts/practice/export-guitar-collision-mesh.mjs CHORD OUTPUT",
+      "retainedLocally": ".local-preview/practice-fingering/derived-exports/solver/am-fixed-local/Am/Am-guitar.json"
+    },
+    {
+      "formerPath": "docs/practice-fingering-polish/solver/am-yaw75/Am/Am-guitar.json",
+      "sha256": "8e5eedaa0f10796e399e66f117765d1c76e8f6869a65c6a6ba58093e5470baf3",
+      "bytes": 934299,
+      "recreateWith": "node scripts/practice/export-guitar-collision-mesh.mjs CHORD OUTPUT",
+      "retainedLocally": ".local-preview/practice-fingering/derived-exports/solver/am-yaw75/Am/Am-guitar.json"
+    }
+  ]
+}

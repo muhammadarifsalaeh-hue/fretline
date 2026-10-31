@@ -1,0 +1,156 @@
+{
+  "id": "Asus4",
+  "selected": false,
+  "teachingApproved": false,
+  "modelSHA256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "chordDataSHA256": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+  "proposalFile": ".local-preview/practice-fingering/batches/cluster-v2/Asus4/round-2/proposal-library.json",
+  "auditReport": ".local-preview/practice-fingering/batches/cluster-v2/Asus4/round-2/audit/summary.json",
+  "history": [
+    {
+      "round": 0,
+      "metrics": {
+        "chord": "Asus4",
+        "seedChord": "C7",
+        "yawDegrees": 70,
+        "rootFree": true,
+        "controlledDigits": [
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "optimizedVariables": 29,
+        "evaluations": 19,
+        "residualCalls": 455,
+        "seconds": 40.29616411299867,
+        "initialCost": 1215426.4973185626,
+        "finalCost": 417993.27794712054,
+        "converged": false,
+        "stoppedForAudit": false,
+        "stoppedForBudget": true,
+        "sampledResidualMax": 207.598666670602,
+        "exactSelfPairsUsedForRefinement": 0,
+        "exactGuitarPairsUsedForRefinement": 0,
+        "exactDistancePolish": false,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "b58499a3057d80b7ddd5461135fbd5b0ca049b3e6627a58e57a6b3670fdcd0bf",
+      "exactRow": {
+        "id": "Asus4",
+        "voicing": "x02230",
+        "poseTransformSha256": "4613cfcfea3a8760c4b4f047340c91bf5036f9b2cc461aa33f21bbcb316e408c",
+        "skinAndClothSelfCrossingPairs": 307,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 965,
+        "maximumWoodDepthMm": 10.326360920047577,
+        "guitar": {
+          "status": "not-run"
+        },
+        "contacts": [],
+        "strings": [],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "Asus4-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/cluster-v2/Asus4/round-0/audit/summary.json"
+    },
+    {
+      "round": 1,
+      "metrics": {
+        "chord": "Asus4",
+        "seedChord": "Asus4",
+        "yawDegrees": 0,
+        "rootFree": true,
+        "controlledDigits": [
+          "middle",
+          "ring",
+          "little"
+        ],
+        "optimizedVariables": 24,
+        "evaluations": 21,
+        "residualCalls": 526,
+        "seconds": 40.84299284900044,
+        "initialCost": 550374.9348363455,
+        "finalCost": 417484.01417307754,
+        "converged": false,
+        "stoppedForAudit": false,
+        "stoppedForBudget": true,
+        "sampledResidualMax": 191.3635130484136,
+        "exactSelfPairsUsedForRefinement": 307,
+        "exactGuitarPairsUsedForRefinement": 0,
+        "exactDistancePolish": false,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "b58499a3057d80b7ddd5461135fbd5b0ca049b3e6627a58e57a6b3670fdcd0bf",
+      "exactRow": {
+        "id": "Asus4",
+        "voicing": "x02230",
+        "poseTransformSha256": "83e9e7150ff1091e69b3b5b59e9c4037ed6ae7f2ba373ddc42eee5f4311a20ad",
+        "skinAndClothSelfCrossingPairs": 295,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 930,
+        "maximumWoodDepthMm": 10.219727566928153,
+        "guitar": {
+          "status": "not-run"
+        },
+        "contacts": [],
+        "strings": [],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "Asus4-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/cluster-v2/Asus4/round-1/audit/summary.json"
+    },
+    {
+      "round": 2,
+      "metrics": {
+        "chord": "Asus4",
+        "seedChord": "Asus4",
+        "yawDegrees": 0,
+        "rootFree": true,
+        "controlledDigits": [
+          "middle",
+          "ring",
+          "little"
+        ],
+        "optimizedVariables": 24,
+        "evaluations": 20,
+        "residualCalls": 357,
+        "seconds": 28.07677391100151,
+        "initialCost": 526095.9074724849,
+        "finalCost": 433898.9213182543,
+        "converged": true,
+        "stoppedForAudit": false,
+        "stoppedForBudget": false,
+        "sampledResidualMax": 188.1065386312285,
+        "exactSelfPairsUsedForRefinement": 558,
+        "exactGuitarPairsUsedForRefinement": 0,
+        "exactDistancePolish": false,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "b58499a3057d80b7ddd5461135fbd5b0ca049b3e6627a58e57a6b3670fdcd0bf",
+      "exactRow": {
+        "id": "Asus4",
+        "voicing": "x02230",
+        "poseTransformSha256": "5b8fd5d0a2161fffc44fb55ff9a93c6858eec4ca4a7dcc6052343b2057fda73c",
+        "skinAndClothSelfCrossingPairs": 297,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 1003,
+        "maximumWoodDepthMm": 10.489111787071854,
+        "guitar": {
+          "status": "not-run"
+        },
+        "contacts": [],
+        "strings": [],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "Asus4-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/cluster-v2/Asus4/round-2/audit/summary.json"
+    }
+  ]
+}

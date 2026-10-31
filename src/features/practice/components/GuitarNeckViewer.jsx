@@ -13,10 +13,8 @@ const TH = {
   help: 'ลากเพื่อหมุน · จีบสองนิ้วเพื่อซูม · เลื่อนหน้าเว็บจากพื้นที่นอกภาพ',
   keyboard: 'คีย์บอร์ด: เลือกภาพแล้วกดลูกศรเพื่อหมุน + / − เพื่อซูม และ 0 เพื่อรีเซ็ต',
   model: 'แบบจำลองคอทั่วไป · 6 สาย · 12 เฟรต', caption: 'จุดทองแสดงหมายเลขนิ้วบนสาย ใช้ร่วมกับผังคอร์ดด้านข้าง',
-  handLoading: 'กำลังโหลดโมเดลมือ…', handError: 'โมเดลมือโหลดไม่สำเร็จ',
-  handUnavailable: 'ท่ามือยังตรวจไม่ผ่าน · ใช้ผังคอร์ดและจุดวางนิ้ว', handReview: 'ท่ามือ 3D ยังรอตรวจทาน', handVerified: 'ท่ามือผ่านการตรวจทาน',
-  review: 'แสดงมือ 3D', hideReview: 'ซ่อนมือ 3D', retryHand: 'ลองโหลดโมเดลมืออีกครั้ง',
-  reviewWarning: 'ท่ามือ 3D ยังรอตรวจทาน', reviewDetail: 'ใช้ผังคอร์ดเป็นหลัก ยังไม่ยืนยันความถูกต้องของท่ามือสำหรับฝึกตาม',
+  handLoading: 'กำลังโหลดมือ…', handError: 'โหลดมือไม่สำเร็จ',
+  review: 'แสดงมือ', hideReview: 'ซ่อนมือ', retryHand: 'ลองใหม่',
 };
 const EN = {
   title: 'Explore the neck in 3D', hint: 'Find your angle. See the chord positions.',
@@ -27,10 +25,8 @@ const EN = {
   help: 'Drag to rotate · Pinch to zoom · Scroll the page outside the canvas',
   keyboard: 'Keyboard: focus the canvas, use arrows to rotate, + / − to zoom, and 0 to reset.',
   model: 'Generic study neck · 6 strings · 12 frets', caption: 'Gold markers show finger numbers on the strings. Use them with the chord diagram.',
-  handLoading: 'Loading the hand model…', handError: 'The hand model could not load',
-  handUnavailable: 'Hand pose has not passed checks · use the diagram and finger markers', handReview: '3D hand pose needs review', handVerified: 'Reviewed hand pose',
-  review: 'Show 3D hand', hideReview: 'Hide 3D hand', retryHand: 'Try loading the hand model again',
-  reviewWarning: '3D hand pose needs review', reviewDetail: 'Use the chord diagram for practice. The hand pose is not an approved teaching example.',
+  handLoading: 'Loading the hand…', handError: 'The hand could not load',
+  review: 'Show hand', hideReview: 'Hide hand', retryHand: 'Try again',
 };
 const copy = LANG === 'en' ? EN : TH;
 // Keep UI metadata local so camera controls do not import the lazy 3D module.
@@ -104,10 +100,6 @@ export default function GuitarNeckViewer({ chord, onPoseStatus }) {
   const assetStatus = currentHand?.assetStatus ?? 'loading';
   const handStatus = currentHand?.status ?? 'unavailable';
   const inspectionAllowed = currentHand?.inspectionAllowed === true;
-  const reviewing = reviewMode && inspectionAllowed && handStatus === 'needs-review' && assetStatus === 'ready';
-  const handMessage = assetStatus === 'loading' ? copy.handLoading : assetStatus === 'error' ? copy.handError
-    : handStatus === 'verified' ? copy.handVerified : inspectionAllowed ? copy.handReview : copy.handUnavailable;
-
   // Restore the original rig's inspection path without approving any pose or
   // weakening its geometry/hash gates. The preference survives chord changes;
   // rejected candidates still stay hidden inside the engine.
@@ -127,9 +119,6 @@ export default function GuitarNeckViewer({ chord, onPoseStatus }) {
       </div></details>
       <div className="practice-canvas-stage">
         <div ref={hostRef} className="practice-canvas-host" aria-hidden={status === 'error' ? true : undefined} />
-        {reviewing && <div className="practice-hand-review-warning" role="status" data-hand-review-warning>
-          <strong>{copy.reviewWarning}</strong><span>{copy.reviewDetail}</span>
-        </div>}
         {status === 'loading' && <div className="practice-scene-state" role="status" aria-live="polite">
           <GuitarIcon size={42} /><p>{copy.loading}</p><span className="practice-loading-track" aria-hidden="true" />
         </div>}
@@ -140,7 +129,7 @@ export default function GuitarNeckViewer({ chord, onPoseStatus }) {
       </div>
       {status === 'ready' && <div className="practice-hand-state" data-hand-asset-status={assetStatus}
         data-hand-pose-status={handStatus} data-hand-inspection-allowed={inspectionAllowed} data-hand-display-preference={showHand}>
-        <div role="status" aria-live="polite" aria-atomic="true"><strong>{handMessage}</strong></div>
+        {assetStatus === 'error' && <p className="practice-hand-load-error" role="alert">{copy.handError}</p>}
         {assetStatus === 'error' && <button type="button" data-practice-hand-retry onClick={() => sceneRef.current?.retryHand()}><ReturnIcon size={16} />{copy.retryHand}</button>}
         {assetStatus === 'ready' && handStatus === 'needs-review' && inspectionAllowed && <button type="button" data-practice-hand-review
           aria-pressed={reviewMode} onClick={() => setShowHand((value) => !value)}>{reviewMode ? copy.hideReview : copy.review}</button>}

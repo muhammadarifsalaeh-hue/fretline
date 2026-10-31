@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "baselineCommit": "218eab5a1b72125b7981b01ebe8aa417dd58fef7",
+  "rollbackTag": "backup/fretline-before-practice-fingering-218eab5",
+  "allProductAndChordDataIdentical": true,
+  "effectiveDataSHA256": "3db84c9266dcefd514add330090bc00b2d25d7b3f8f8b7a2d7b351e19841b657",
+  "originalModelAndSceneUnchanged": true,
+  "originalSevenPosesUnchanged": true,
+  "models": 200,
+  "brands": 10,
+  "counts": {
+    "Córdoba": 20,
+    "Epiphone": 20,
+    "Fender": 20,
+    "Gibson": 20,
+    "Ibanez": 20,
+    "Martin": 20,
+    "PRS": 20,
+    "Squier": 20,
+    "Taylor": 20,
+    "Yamaha": 20
+  },
+  "chords": 42,
+  "acceptedGeometrically": [
+    "Am7",
+    "B7",
+    "C",
+    "C7",
+    "Cmaj7",
+    "Dm",
+    "Dm7",
+    "Dsus2",
+    "E7",
+    "Em7",
+    "Fmaj7",
+    "G7",
+    "Gmaj7"
+  ],
+  "verifiedTeachingHands": 0,
+  "databaseWrites": 0,
+  "unrelatedChanges": false
+}

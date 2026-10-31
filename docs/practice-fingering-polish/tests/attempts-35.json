@@ -1,0 +1,329 @@
+{
+  "attempted": 35,
+  "rows": [
+    {
+      "id": "A",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/A/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/A/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/cluster-v2/A/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "A7",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/A7/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/A7/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/cluster-v2/A7/result.json",
+      "rounds": 4,
+      "teachingApproved": false
+    },
+    {
+      "id": "Am",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Am/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Am/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/cluster-v2/Am/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "Amaj7",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Amaj7/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Amaj7/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/cluster-v2/Amaj7/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "Asus2",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Asus2/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Asus2/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/cluster-v2/Asus2/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "Asus4",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Asus4/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Asus4/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/cluster-v2/Asus4/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "B",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/B/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/B/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/barre-v2/B/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "B7",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/B7/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/B7/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/cluster-v2/B7/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "Bm",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Bm/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Bm/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/barre-v2/Bm/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "Bm7",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Bm7/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Bm7/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/barre-v2/Bm7/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "Bmaj7",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Bmaj7/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Bmaj7/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/barre-v2/Bmaj7/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "C7",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/C7/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/C7/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/open-v2/C7/result.json",
+      "rounds": 4,
+      "teachingApproved": false
+    },
+    {
+      "id": "Cm",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Cm/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Cm/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/barre-v2/Cm/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "Cm7",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Cm7/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Cm7/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/barre-v2/Cm7/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "Csus2",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Csus2/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Csus2/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/barre-v2/Csus2/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "Csus4",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Csus4/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Csus4/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/barre-v2/Csus4/result.json",
+      "rounds": 5,
+      "teachingApproved": false
+    },
+    {
+      "id": "D",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/D/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/D/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/open-v2/D/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "D7",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/D7/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/D7/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/open-v2/D7/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "Dm7",
+      "authoringSelectedInBatch": true,
+      "report": "docs/practice-fingering-polish/attempts/Dm7/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Dm7/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/open-v2/Dm7/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "Dmaj7",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Dmaj7/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Dmaj7/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/barre-v2/Dmaj7/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "Dsus2",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Dsus2/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Dsus2/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/open-v2/Dsus2/result.json",
+      "rounds": 4,
+      "teachingApproved": false
+    },
+    {
+      "id": "Dsus4",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Dsus4/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Dsus4/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/open-v2/Dsus4/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "E",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/E/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/E/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/cluster-v2/E/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "Em",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Em/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Em/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/cluster-v2/Em/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "Emaj7",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Emaj7/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Emaj7/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/cluster-v2/Emaj7/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "Esus4",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Esus4/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Esus4/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/cluster-v2/Esus4/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "F",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/F/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/F/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/barre-v2/F/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "F7",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/F7/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/F7/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/barre-v2/F7/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "Fm",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Fm/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Fm/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/barre-v2/Fm/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "Fm7",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Fm7/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Fm7/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/barre-v2/Fm7/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "G",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/G/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/G/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/open-v2/G/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "G7",
+      "authoringSelectedInBatch": true,
+      "report": "docs/practice-fingering-polish/attempts/G7/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/G7/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/open-v2/G7/result.json",
+      "rounds": 1,
+      "teachingApproved": false
+    },
+    {
+      "id": "Gm",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Gm/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Gm/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/barre-v2/Gm/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "Gm7",
+      "authoringSelectedInBatch": false,
+      "report": "docs/practice-fingering-polish/attempts/Gm7/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Gm7/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/barre-v2/Gm7/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    },
+    {
+      "id": "Gmaj7",
+      "authoringSelectedInBatch": true,
+      "report": "docs/practice-fingering-polish/attempts/Gmaj7/summary.json",
+      "candidate": "docs/practice-fingering-polish/attempts/Gmaj7/candidate.json",
+      "sourceResult": ".local-preview/practice-fingering/batches/open-v2/Gmaj7/result.json",
+      "rounds": 3,
+      "teachingApproved": false
+    }
+  ],
+  "runtimeWrittenByPackaging": false,
+  "sourceSnapshots": {
+    "90a70edf25e24acd0d946bd10d14224ec3837fe262a93f3e29d86a2beed722dc": "docs/practice-fingering-polish/authoring-sources/90a70edf25e24acd0d946bd10d14224ec3837fe262a93f3e29d86a2beed722dc.py.txt",
+    "af31312a416fadb38c1db812ba596d23bc850ea304231321e626eef811159038": "docs/practice-fingering-polish/authoring-sources/af31312a416fadb38c1db812ba596d23bc850ea304231321e626eef811159038.py.txt",
+    "91cac55a05d5ae30f5cf9d1f2ee9be80d54b9d56396dcd4172be6697761e2cc4": "docs/practice-fingering-polish/authoring-sources/91cac55a05d5ae30f5cf9d1f2ee9be80d54b9d56396dcd4172be6697761e2cc4.py.txt",
+    "49cbdeab9482a3c0599cec42cce02e4c2fb3abf5268cae362147c9bcfc1993ee": "docs/practice-fingering-polish/authoring-sources/49cbdeab9482a3c0599cec42cce02e4c2fb3abf5268cae362147c9bcfc1993ee.py.txt",
+    "6ccaaf5458965e248e292c38df90a99850a09614ff8f60b2b471fc1de7b9653c": "docs/practice-fingering-polish/authoring-sources/6ccaaf5458965e248e292c38df90a99850a09614ff8f60b2b471fc1de7b9653c.py.txt",
+    "2c497bec06da7a4be9a9e2e471cfbc01c432cf223dbf928eaccbb0a042da1ef9": "docs/practice-fingering-polish/authoring-sources/2c497bec06da7a4be9a9e2e471cfbc01c432cf223dbf928eaccbb0a042da1ef9.py.txt"
+  }
+}

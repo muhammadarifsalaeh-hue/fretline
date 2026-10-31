@@ -1,0 +1,251 @@
+{
+  "id": "Csus2",
+  "selected": false,
+  "teachingApproved": false,
+  "modelSHA256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "chordDataSHA256": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+  "proposalFile": ".local-preview/practice-fingering/batches/barre-v2/Csus2/round-2/proposal-library.json",
+  "auditReport": ".local-preview/practice-fingering/batches/barre-v2/Csus2/round-2/audit/summary.json",
+  "history": [
+    {
+      "round": 0,
+      "metrics": {
+        "chord": "Csus2",
+        "seedChord": "Dsus2",
+        "yawDegrees": 0,
+        "rootFree": true,
+        "controlledDigits": [
+          "index",
+          "ring",
+          "little"
+        ],
+        "optimizedVariables": 24,
+        "evaluations": 37,
+        "residualCalls": 854,
+        "seconds": 40.01132368600156,
+        "initialCost": 7173723.937429324,
+        "finalCost": 255.27961090190254,
+        "converged": false,
+        "stoppedForAudit": false,
+        "stoppedForBudget": true,
+        "sampledResidualMax": 12.805345705404152,
+        "exactSelfPairsUsedForRefinement": 0,
+        "exactGuitarPairsUsedForRefinement": 0,
+        "exactDistancePolish": false,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "f198aae95391eb35b17e0bc264e56dcb900506fa17fa6f0b32dcc49fcff55bb4",
+      "exactRow": {
+        "id": "Csus2",
+        "voicing": "x35533",
+        "poseTransformSha256": "9c470ea494862668aa1b6f3dbc7bb803193f9918ede8a82e1d9159b4a98c85fc",
+        "skinAndClothSelfCrossingPairs": 0,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 0,
+        "maximumWoodDepthMm": 0.0,
+        "guitar": {
+          "status": "tested",
+          "crossingPairs": 192,
+          "runtimeExportSha256": "f198aae95391eb35b17e0bc264e56dcb900506fa17fa6f0b32dcc49fcff55bb4"
+        },
+        "contacts": [
+          {
+            "finger": 1,
+            "string": 5,
+            "fret": 3,
+            "kind": "barre",
+            "actualOwnerPalmarSkinClearanceMm": 0.15529423252901425,
+            "passed": false
+          },
+          {
+            "finger": 1,
+            "string": 4,
+            "fret": 3,
+            "kind": "barre",
+            "actualOwnerPalmarSkinClearanceMm": -0.33,
+            "passed": false
+          },
+          {
+            "finger": 1,
+            "string": 3,
+            "fret": 3,
+            "kind": "barre",
+            "actualOwnerPalmarSkinClearanceMm": 0.19947182794745047,
+            "passed": false
+          },
+          {
+            "finger": 1,
+            "string": 2,
+            "fret": 3,
+            "kind": "barre",
+            "actualOwnerPalmarSkinClearanceMm": -0.165,
+            "passed": false
+          },
+          {
+            "finger": 1,
+            "string": 1,
+            "fret": 3,
+            "kind": "barre",
+            "actualOwnerPalmarSkinClearanceMm": -0.05601379901951585,
+            "passed": false
+          },
+          {
+            "finger": 3,
+            "string": 4,
+            "fret": 5,
+            "kind": "tip",
+            "actualOwnerPalmarSkinClearanceMm": 0.03148216042479285,
+            "passed": true
+          },
+          {
+            "finger": 4,
+            "string": 3,
+            "fret": 5,
+            "kind": "tip",
+            "actualOwnerPalmarSkinClearanceMm": 0.03522909728309029,
+            "passed": true
+          }
+        ],
+        "strings": [
+          {
+            "number": 1,
+            "fret": 3,
+            "wholeSkinClearanceMm": -0.056013799019516045,
+            "openStringPassed": null
+          },
+          {
+            "number": 2,
+            "fret": 3,
+            "wholeSkinClearanceMm": -0.165,
+            "openStringPassed": null
+          },
+          {
+            "number": 3,
+            "fret": 5,
+            "wholeSkinClearanceMm": -0.23,
+            "openStringPassed": null
+          },
+          {
+            "number": 4,
+            "fret": 5,
+            "wholeSkinClearanceMm": -0.33,
+            "openStringPassed": null
+          },
+          {
+            "number": 5,
+            "fret": 3,
+            "wholeSkinClearanceMm": 0.1552792365646128,
+            "openStringPassed": null
+          },
+          {
+            "number": 6,
+            "fret": null,
+            "wholeSkinClearanceMm": 2.4415886754587404,
+            "openStringPassed": null
+          }
+        ],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "Csus2-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/barre-v2/Csus2/round-0/audit/summary.json"
+    },
+    {
+      "round": 1,
+      "metrics": {
+        "chord": "Csus2",
+        "seedChord": "Csus2",
+        "yawDegrees": 0,
+        "rootFree": true,
+        "controlledDigits": [
+          "index",
+          "ring",
+          "little"
+        ],
+        "optimizedVariables": 10,
+        "evaluations": 15,
+        "residualCalls": 156,
+        "seconds": 42.98165346300084,
+        "initialCost": 11028.73097759251,
+        "finalCost": 1372.7384815032967,
+        "converged": false,
+        "stoppedForAudit": false,
+        "stoppedForBudget": true,
+        "sampledResidualMax": 30.59766907446088,
+        "exactSelfPairsUsedForRefinement": 0,
+        "exactGuitarPairsUsedForRefinement": 192,
+        "exactDistancePolish": true,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "f198aae95391eb35b17e0bc264e56dcb900506fa17fa6f0b32dcc49fcff55bb4",
+      "exactRow": {
+        "id": "Csus2",
+        "voicing": "x35533",
+        "poseTransformSha256": "01576b06db4bbac45a87c5afb87793f2e0a399bc7c6de0fe1a1ba4162dc2909a",
+        "skinAndClothSelfCrossingPairs": 24,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 0,
+        "maximumWoodDepthMm": 0.0,
+        "guitar": {
+          "status": "not-run"
+        },
+        "contacts": [],
+        "strings": [],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "Csus2-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/barre-v2/Csus2/round-1/audit/summary.json"
+    },
+    {
+      "round": 2,
+      "metrics": {
+        "chord": "Csus2",
+        "seedChord": "Csus2",
+        "yawDegrees": 0,
+        "rootFree": true,
+        "controlledDigits": [
+          "index",
+          "ring",
+          "little"
+        ],
+        "optimizedVariables": 24,
+        "evaluations": 20,
+        "residualCalls": 477,
+        "seconds": 40.440218158997595,
+        "initialCost": 5351.044132016968,
+        "finalCost": 675.4149744241078,
+        "converged": false,
+        "stoppedForAudit": false,
+        "stoppedForBudget": true,
+        "sampledResidualMax": 26.1313167635101,
+        "exactSelfPairsUsedForRefinement": 24,
+        "exactGuitarPairsUsedForRefinement": 192,
+        "exactDistancePolish": false,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "f198aae95391eb35b17e0bc264e56dcb900506fa17fa6f0b32dcc49fcff55bb4",
+      "exactRow": {
+        "id": "Csus2",
+        "voicing": "x35533",
+        "poseTransformSha256": "0902cc58523e0368741861ad745907f7eb45bb77cf7f4b3c0ba58c0448fe554d",
+        "skinAndClothSelfCrossingPairs": 20,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 0,
+        "maximumWoodDepthMm": 0.0,
+        "guitar": {
+          "status": "not-run"
+        },
+        "contacts": [],
+        "strings": [],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "Csus2-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/barre-v2/Csus2/round-2/audit/summary.json"
+    }
+  ]
+}

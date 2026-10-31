@@ -50,7 +50,7 @@ await check('Actual 42-record library permits inspection only for independently 
   const metadata = JSON.parse(readFileSync(new URL('../src/features/practice/assets/makehuman-left-arm.metadata.json', import.meta.url)));
   const actualHash = createHash('sha256').update(readFileSync(new URL('../src/features/practice/assets/makehuman-left-arm-sleeved.glb', import.meta.url))).digest('hex');
   const libraryHash = createHash('sha256').update(libraryBytes).digest('hex');
-  const reports = ['../docs/practice-final-delivery/geometry/summary.json', '../docs/practice-hand-batch-3/geometry/summary.json']
+  const reports = ['../docs/practice-fingering-polish/tests/geometry/summary.json', '../docs/practice-final-delivery/geometry/summary.json', '../docs/practice-hand-batch-3/geometry/summary.json']
     .map((path) => new URL(path, import.meta.url)).filter(existsSync).map((path) => JSON.parse(readFileSync(path)));
   const audit = reports.find((report) => report.librarySnapshotSha256 === libraryHash);
   assert.ok(audit, 'A completed actual mesh report must bind the current library before inspection tests can pass');

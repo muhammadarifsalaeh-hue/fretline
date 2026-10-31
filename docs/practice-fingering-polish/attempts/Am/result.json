@@ -1,0 +1,155 @@
+{
+  "id": "Am",
+  "selected": false,
+  "teachingApproved": false,
+  "modelSHA256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "chordDataSHA256": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+  "proposalFile": ".local-preview/practice-fingering/batches/cluster-v2/Am/round-2/proposal-library.json",
+  "auditReport": ".local-preview/practice-fingering/batches/cluster-v2/Am/round-2/audit/summary.json",
+  "history": [
+    {
+      "round": 0,
+      "metrics": {
+        "chord": "Am",
+        "seedChord": "Am7",
+        "yawDegrees": 70,
+        "rootFree": true,
+        "controlledDigits": [
+          "index",
+          "middle",
+          "ring"
+        ],
+        "optimizedVariables": 24,
+        "evaluations": 18,
+        "residualCalls": 451,
+        "seconds": 41.42610780599716,
+        "initialCost": 1629591.2954881045,
+        "finalCost": 446.66673760256197,
+        "converged": false,
+        "stoppedForAudit": false,
+        "stoppedForBudget": true,
+        "sampledResidualMax": 11.464790517345183,
+        "exactSelfPairsUsedForRefinement": 0,
+        "exactGuitarPairsUsedForRefinement": 0,
+        "exactDistancePolish": false,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "8e5eedaa0f10796e399e66f117765d1c76e8f6869a65c6a6ba58093e5470baf3",
+      "exactRow": {
+        "id": "Am",
+        "voicing": "x02210",
+        "poseTransformSha256": "d29ffa75e64a32be0f78e18d54346b7ae30f2c59b26c37be0e8f668bda5f2576",
+        "skinAndClothSelfCrossingPairs": 90,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 33,
+        "maximumWoodDepthMm": 0.7988864128758877,
+        "guitar": {
+          "status": "not-run"
+        },
+        "contacts": [],
+        "strings": [],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "Am-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/cluster-v2/Am/round-0/audit/summary.json"
+    },
+    {
+      "round": 1,
+      "metrics": {
+        "chord": "Am",
+        "seedChord": "Am",
+        "yawDegrees": 0,
+        "rootFree": true,
+        "controlledDigits": [
+          "index",
+          "middle",
+          "ring"
+        ],
+        "optimizedVariables": 24,
+        "evaluations": 17,
+        "residualCalls": 426,
+        "seconds": 42.58599276500172,
+        "initialCost": 30582.25262802843,
+        "finalCost": 3172.3306557168394,
+        "converged": false,
+        "stoppedForAudit": false,
+        "stoppedForBudget": true,
+        "sampledResidualMax": 34.117188355742464,
+        "exactSelfPairsUsedForRefinement": 90,
+        "exactGuitarPairsUsedForRefinement": 0,
+        "exactDistancePolish": false,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "8e5eedaa0f10796e399e66f117765d1c76e8f6869a65c6a6ba58093e5470baf3",
+      "exactRow": {
+        "id": "Am",
+        "voicing": "x02210",
+        "poseTransformSha256": "775aabadeee7ea6769c4939006776e8407576e027bebf592456f0ba93cc105dc",
+        "skinAndClothSelfCrossingPairs": 88,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 26,
+        "maximumWoodDepthMm": 0.7418597664865914,
+        "guitar": {
+          "status": "not-run"
+        },
+        "contacts": [],
+        "strings": [],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "Am-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/cluster-v2/Am/round-1/audit/summary.json"
+    },
+    {
+      "round": 2,
+      "metrics": {
+        "chord": "Am",
+        "seedChord": "Am",
+        "yawDegrees": 0,
+        "rootFree": true,
+        "controlledDigits": [
+          "index",
+          "middle",
+          "ring"
+        ],
+        "optimizedVariables": 24,
+        "evaluations": 22,
+        "residualCalls": 551,
+        "seconds": 41.64532767499986,
+        "initialCost": 16968.378628291248,
+        "finalCost": 4935.197343055806,
+        "converged": false,
+        "stoppedForAudit": false,
+        "stoppedForBudget": true,
+        "sampledResidualMax": 36.291951529715845,
+        "exactSelfPairsUsedForRefinement": 168,
+        "exactGuitarPairsUsedForRefinement": 0,
+        "exactDistancePolish": false,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "8e5eedaa0f10796e399e66f117765d1c76e8f6869a65c6a6ba58093e5470baf3",
+      "exactRow": {
+        "id": "Am",
+        "voicing": "x02210",
+        "poseTransformSha256": "f83777e6c22924650fb8d27742c8ef1aca05555626ec8394b0b113448f5cca2e",
+        "skinAndClothSelfCrossingPairs": 90,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 14,
+        "maximumWoodDepthMm": 0.5029814194136275,
+        "guitar": {
+          "status": "not-run"
+        },
+        "contacts": [],
+        "strings": [],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "Am-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/cluster-v2/Am/round-2/audit/summary.json"
+    }
+  ]
+}

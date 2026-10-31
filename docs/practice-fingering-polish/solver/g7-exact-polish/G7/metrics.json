@@ -1,0 +1,22 @@
+{
+  "chord": "G7",
+  "seedChord": "G7",
+  "yawDegrees": 0,
+  "rootFree": true,
+  "controlledDigits": [
+    "index",
+    "middle",
+    "ring"
+  ],
+  "evaluations": 80,
+  "residualCalls": 1737,
+  "seconds": 195.39257487600116,
+  "initialCost": 495.7712691477646,
+  "finalCost": 1.2789410860992697e-07,
+  "converged": false,
+  "sampledResidualMax": 0.0003589805101163338,
+  "exactSelfPairsUsedForRefinement": 0,
+  "exactGuitarPairsUsedForRefinement": 20,
+  "exactDistancePolish": true,
+  "notAnAcceptanceGate": true
+}

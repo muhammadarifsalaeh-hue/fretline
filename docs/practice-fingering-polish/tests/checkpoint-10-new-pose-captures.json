@@ -1,0 +1,88 @@
+{
+  "actualGLB": true,
+  "productionBuild": true,
+  "physicalIPad": false,
+  "rows": [
+    {
+      "chord": "C7",
+      "view": "front",
+      "screenshot": "docs/practice-fingering-polish/screenshots/new-C7-front.png",
+      "sha256": "56573ddfbb55cd6298363d2300b84a096331b3010b2faa3cc576f182e6e605be",
+      "transformSignature": "1e087701",
+      "handVisible": true,
+      "teachingApprovalClaimed": false
+    },
+    {
+      "chord": "C7",
+      "view": "side",
+      "screenshot": "docs/practice-fingering-polish/screenshots/new-C7-side.png",
+      "sha256": "ac488c5d0f2526f208d8d925419b9134401e8c3d21688a8bc318f581886bcd4b",
+      "transformSignature": "1e087701",
+      "handVisible": true,
+      "teachingApprovalClaimed": false
+    },
+    {
+      "chord": "C7",
+      "view": "player",
+      "screenshot": "docs/practice-fingering-polish/screenshots/new-C7-player.png",
+      "sha256": "f24820a29a95c46b37fd47c6ad8395b505470cc0a30b5ebad9600a4f58773fae",
+      "transformSignature": "1e087701",
+      "handVisible": true,
+      "teachingApprovalClaimed": false
+    },
+    {
+      "chord": "G7",
+      "view": "front",
+      "screenshot": "docs/practice-fingering-polish/screenshots/new-G7-front.png",
+      "sha256": "9aa77b00ae8056fe2884d8818462f651a4dc304bb0e3095f4167eea8d8cd5f15",
+      "transformSignature": "389da23f",
+      "handVisible": true,
+      "teachingApprovalClaimed": false
+    },
+    {
+      "chord": "G7",
+      "view": "side",
+      "screenshot": "docs/practice-fingering-polish/screenshots/new-G7-side.png",
+      "sha256": "73b28334a18c2389ddee3d537916cacf3f9f9deebadc26c41aafff5380d83dd7",
+      "transformSignature": "389da23f",
+      "handVisible": true,
+      "teachingApprovalClaimed": false
+    },
+    {
+      "chord": "G7",
+      "view": "player",
+      "screenshot": "docs/practice-fingering-polish/screenshots/new-G7-player.png",
+      "sha256": "092c3f82f933f10ad2ff933ac4790501038a8890ccdca0d6c9bb6ae3c9f63ada",
+      "transformSignature": "389da23f",
+      "handVisible": true,
+      "teachingApprovalClaimed": false
+    },
+    {
+      "chord": "Gmaj7",
+      "view": "front",
+      "screenshot": "docs/practice-fingering-polish/screenshots/new-Gmaj7-front.png",
+      "sha256": "3355e508f0a69a4c2768dc8b3993a40cd34bf9c77f79363ea26758fd28d82b03",
+      "transformSignature": "7130e374",
+      "handVisible": true,
+      "teachingApprovalClaimed": false
+    },
+    {
+      "chord": "Gmaj7",
+      "view": "side",
+      "screenshot": "docs/practice-fingering-polish/screenshots/new-Gmaj7-side.png",
+      "sha256": "8d48becba8c6fff91238e9b998ef4eefa6bbda6558f978c5c0762b39e9ad5194",
+      "transformSignature": "7130e374",
+      "handVisible": true,
+      "teachingApprovalClaimed": false
+    },
+    {
+      "chord": "Gmaj7",
+      "view": "player",
+      "screenshot": "docs/practice-fingering-polish/screenshots/new-Gmaj7-player.png",
+      "sha256": "b153e4c4314085e025e379facdbed62c29e80774a6d8aaf9ffbc9578ac9cf1ca",
+      "transformSignature": "7130e374",
+      "handVisible": true,
+      "teachingApprovalClaimed": false
+    }
+  ]
+}

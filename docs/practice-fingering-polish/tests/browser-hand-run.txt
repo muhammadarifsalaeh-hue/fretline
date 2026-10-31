@@ -1,0 +1,24 @@
+PASS desktop-black-sleeved-model-on-real-route
+PASS desktop-all-42-chords-and-strict-gates
+PASS desktop-real-canvas-pixels-and-hand-toggle
+PASS desktop-camera-and-touch-controls
+PASS desktop-reduced-motion-and-idle
+PASS landscape-black-sleeved-model-on-real-route
+PASS landscape-all-42-chords-and-strict-gates
+PASS landscape-real-canvas-pixels-and-hand-toggle
+PASS landscape-camera-and-touch-controls
+PASS landscape-reduced-motion-and-idle
+PASS portrait-black-sleeved-model-on-real-route
+PASS portrait-all-42-chords-and-strict-gates
+PASS portrait-real-canvas-pixels-and-hand-toggle
+PASS portrait-camera-and-touch-controls
+PASS portrait-reduced-motion-and-idle
+PASS mobile-black-sleeved-model-on-real-route
+PASS mobile-all-42-chords-and-strict-gates
+PASS mobile-real-canvas-pixels-and-hand-toggle
+PASS mobile-camera-and-touch-controls
+PASS mobile-reduced-motion-and-idle
+PASS original-transition-animation-without-false-approval
+PASS hand-download-error-and-real-retry
+PASS webgl-context-loss-and-recovery
+{"passed": true, "checks": 23, "consoleErrors": 0, "runtimeErrors": 0}

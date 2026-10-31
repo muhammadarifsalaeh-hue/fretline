@@ -1,0 +1,97 @@
+{
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "librarySnapshotSha256": "3c0b14bb6fbfc374e63887f4d217c71bbf7b594182a8c01a0419d529be9b868f",
+  "sourceChordSha256": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+  "count": 1,
+  "geometricPassed": 0,
+  "verifiedTeachingHands": 0,
+  "requiredBatch": [],
+  "testSuitePassed": true,
+  "all42GeometricPassed": false,
+  "errors": [],
+  "scope": "Actual FK/LBS skin and garment triangle crossings, dense wood rejection, actual runtime exported string paths and assigned-digit palmar contact. No anatomical or physical iPad approval.",
+  "rows": [
+    {
+      "id": "Am",
+      "voicing": "x02210",
+      "poseTransformSha256": "57b28173df4764a6e77dc4725f42af59ba500193a4e930bc741fc931bd57ed0c",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 76,
+        "runtimeExportSha256": "8e5eedaa0f10796e399e66f117765d1c76e8f6869a65c6a6ba58093e5470baf3"
+      },
+      "contacts": [
+        {
+          "finger": 2,
+          "string": 4,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.2754324222119087,
+          "passed": false
+        },
+        {
+          "finger": 3,
+          "string": 3,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.1405629199546862,
+          "passed": false
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 1,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.11677471492666361,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.2387002740280496,
+          "openStringPassed": true
+        },
+        {
+          "number": 2,
+          "fret": 1,
+          "wholeSkinClearanceMm": -0.09248825315084779,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 2,
+          "wholeSkinClearanceMm": -0.14179697553731863,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 2,
+          "wholeSkinClearanceMm": -0.1547591924379514,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 0,
+          "wholeSkinClearanceMm": 1.262687547889303,
+          "openStringPassed": true
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 6.893660379031761,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": false,
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Am-raw.json.gz"
+    }
+  ]
+}

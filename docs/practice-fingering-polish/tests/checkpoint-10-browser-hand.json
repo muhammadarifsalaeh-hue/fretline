@@ -1,0 +1,1450 @@
+{
+  "checks": [
+    {
+      "name": "desktop-black-sleeved-model-on-real-route",
+      "passed": true,
+      "evidence": {
+        "actualRig": {
+          "chord": "C",
+          "visible": "true",
+          "status": "needs-review",
+          "review": "true",
+          "allowed": "true",
+          "signature": "1ce0a568",
+          "asset": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+          "render": {
+            "calls": 77,
+            "triangles": 31630,
+            "geometries": 73,
+            "textures": 18
+          },
+          "camera": {
+            "position": [
+              -5.1819575,
+              10.3804778,
+              2.5141433
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 10.9088895,
+            "fov": 38,
+            "aspect": 2.385132951373586
+          },
+          "geometry": "94ba3b06",
+          "strings": "6",
+          "frets": "12"
+        },
+        "layout": {
+          "x": 85.796875,
+          "y": 358.03125,
+          "width": 1268.40625,
+          "height": 531.796875
+        },
+        "developmentWarningVisible": false
+      }
+    },
+    {
+      "name": "desktop-all-42-chords-and-strict-gates",
+      "passed": true,
+      "evidence": {
+        "chords": 42,
+        "renderedHands": 10,
+        "rejectedHandsHidden": 32,
+        "verifiedTeachingHands": 0,
+        "rows": [
+          {
+            "chord": "C",
+            "handVisible": "true",
+            "signature": "1ce0a568",
+            "status": "needs-review"
+          },
+          {
+            "chord": "D",
+            "handVisible": "false",
+            "signature": "9252b96c",
+            "status": "needs-review"
+          },
+          {
+            "chord": "E",
+            "handVisible": "false",
+            "signature": "d05159a8",
+            "status": "needs-review"
+          },
+          {
+            "chord": "F",
+            "handVisible": "false",
+            "signature": "0803a230",
+            "status": "needs-review"
+          },
+          {
+            "chord": "G",
+            "handVisible": "false",
+            "signature": "4ce219a6",
+            "status": "needs-review"
+          },
+          {
+            "chord": "A",
+            "handVisible": "false",
+            "signature": "33b15d0d",
+            "status": "needs-review"
+          },
+          {
+            "chord": "B",
+            "handVisible": "false",
+            "signature": "1d842f78",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Cm",
+            "handVisible": "false",
+            "signature": "4ec13c8e",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dm",
+            "handVisible": "true",
+            "signature": "f8923c92",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Em",
+            "handVisible": "false",
+            "signature": "27f4eec4",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Fm",
+            "handVisible": "false",
+            "signature": "a1da1c0c",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Gm",
+            "handVisible": "false",
+            "signature": "be6f16d2",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Am",
+            "handVisible": "false",
+            "signature": "7235226c",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Bm",
+            "handVisible": "false",
+            "signature": "c916951f",
+            "status": "needs-review"
+          },
+          {
+            "chord": "C7",
+            "handVisible": "true",
+            "signature": "1e087701",
+            "status": "needs-review"
+          },
+          {
+            "chord": "D7",
+            "handVisible": "false",
+            "signature": "05457593",
+            "status": "needs-review"
+          },
+          {
+            "chord": "E7",
+            "handVisible": "true",
+            "signature": "7753a6f9",
+            "status": "needs-review"
+          },
+          {
+            "chord": "F7",
+            "handVisible": "false",
+            "signature": "7acaa971",
+            "status": "needs-review"
+          },
+          {
+            "chord": "G7",
+            "handVisible": "true",
+            "signature": "389da23f",
+            "status": "needs-review"
+          },
+          {
+            "chord": "A7",
+            "handVisible": "false",
+            "signature": "532785f2",
+            "status": "needs-review"
+          },
+          {
+            "chord": "B7",
+            "handVisible": "false",
+            "signature": "dc0af881",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Cmaj7",
+            "handVisible": "true",
+            "signature": "dd9b927d",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dmaj7",
+            "handVisible": "false",
+            "signature": "491c58b5",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Emaj7",
+            "handVisible": "false",
+            "signature": "aa8bb71e",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Fmaj7",
+            "handVisible": "true",
+            "signature": "20167e00",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Gmaj7",
+            "handVisible": "true",
+            "signature": "7130e374",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Amaj7",
+            "handVisible": "false",
+            "signature": "4790b6ef",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Bmaj7",
+            "handVisible": "false",
+            "signature": "660afb95",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Cm7",
+            "handVisible": "false",
+            "signature": "a10937c9",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dm7",
+            "handVisible": "false",
+            "signature": "24c8ec6b",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Em7",
+            "handVisible": "true",
+            "signature": "d25523f8",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Fm7",
+            "handVisible": "false",
+            "signature": "60bccca6",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Gm7",
+            "handVisible": "false",
+            "signature": "ea2fc938",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Am7",
+            "handVisible": "true",
+            "signature": "69643940",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Bm7",
+            "handVisible": "false",
+            "signature": "8b3e516a",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Csus2",
+            "handVisible": "false",
+            "signature": "8b20dc37",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dsus2",
+            "handVisible": "false",
+            "signature": "8b8b3da7",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Asus2",
+            "handVisible": "false",
+            "signature": "704fde40",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Csus4",
+            "handVisible": "false",
+            "signature": "f2a0dc94",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dsus4",
+            "handVisible": "false",
+            "signature": "9136e065",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Esus4",
+            "handVisible": "false",
+            "signature": "71b5686b",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Asus4",
+            "handVisible": "false",
+            "signature": "54c23401",
+            "status": "needs-review"
+          }
+        ]
+      }
+    },
+    {
+      "name": "desktop-real-canvas-pixels-and-hand-toggle",
+      "passed": true,
+      "evidence": {
+        "canvasPixelsChangedByRealHandToggle": 29872,
+        "cameraUnchanged": true,
+        "hiddenPreferenceRespectedAcrossChords": true
+      }
+    },
+    {
+      "name": "desktop-camera-and-touch-controls",
+      "passed": true,
+      "evidence": {
+        "presets": 7,
+        "rotateZoomReset": true,
+        "pointerDrag": true,
+        "twoTouchPinch": false,
+        "guitarAndAppliedPoseUnchanged": true,
+        "layout": {
+          "x": 85.796875,
+          "y": 358.03125,
+          "width": 1268.40625,
+          "height": 531.796875
+        }
+      }
+    },
+    {
+      "name": "desktop-reduced-motion-and-idle",
+      "passed": true,
+      "evidence": {
+        "reducedMotionImmediate": true,
+        "noPermanentRenderLoop": true
+      }
+    },
+    {
+      "name": "landscape-black-sleeved-model-on-real-route",
+      "passed": true,
+      "evidence": {
+        "actualRig": {
+          "chord": "C",
+          "visible": "true",
+          "status": "needs-review",
+          "review": "true",
+          "allowed": "true",
+          "signature": "1ce0a568",
+          "asset": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+          "render": {
+            "calls": 77,
+            "triangles": 31630,
+            "geometries": 73,
+            "textures": 18
+          },
+          "camera": {
+            "position": [
+              -5.1819575,
+              10.3804778,
+              2.5141433
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 10.9088895,
+            "fov": 38,
+            "aspect": 2.460633131270162
+          },
+          "geometry": "94ba3b06",
+          "strings": "6",
+          "frets": "12"
+        },
+        "layout": {
+          "x": 54.71875,
+          "y": 331.703125,
+          "width": 1084.5625,
+          "height": 440.765625
+        },
+        "developmentWarningVisible": false
+      }
+    },
+    {
+      "name": "landscape-all-42-chords-and-strict-gates",
+      "passed": true,
+      "evidence": {
+        "chords": 42,
+        "renderedHands": 10,
+        "rejectedHandsHidden": 32,
+        "verifiedTeachingHands": 0,
+        "rows": [
+          {
+            "chord": "C",
+            "handVisible": "true",
+            "signature": "1ce0a568",
+            "status": "needs-review"
+          },
+          {
+            "chord": "D",
+            "handVisible": "false",
+            "signature": "9252b96c",
+            "status": "needs-review"
+          },
+          {
+            "chord": "E",
+            "handVisible": "false",
+            "signature": "d05159a8",
+            "status": "needs-review"
+          },
+          {
+            "chord": "F",
+            "handVisible": "false",
+            "signature": "0803a230",
+            "status": "needs-review"
+          },
+          {
+            "chord": "G",
+            "handVisible": "false",
+            "signature": "4ce219a6",
+            "status": "needs-review"
+          },
+          {
+            "chord": "A",
+            "handVisible": "false",
+            "signature": "33b15d0d",
+            "status": "needs-review"
+          },
+          {
+            "chord": "B",
+            "handVisible": "false",
+            "signature": "1d842f78",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Cm",
+            "handVisible": "false",
+            "signature": "4ec13c8e",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dm",
+            "handVisible": "true",
+            "signature": "f8923c92",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Em",
+            "handVisible": "false",
+            "signature": "27f4eec4",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Fm",
+            "handVisible": "false",
+            "signature": "a1da1c0c",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Gm",
+            "handVisible": "false",
+            "signature": "be6f16d2",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Am",
+            "handVisible": "false",
+            "signature": "7235226c",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Bm",
+            "handVisible": "false",
+            "signature": "c916951f",
+            "status": "needs-review"
+          },
+          {
+            "chord": "C7",
+            "handVisible": "true",
+            "signature": "1e087701",
+            "status": "needs-review"
+          },
+          {
+            "chord": "D7",
+            "handVisible": "false",
+            "signature": "05457593",
+            "status": "needs-review"
+          },
+          {
+            "chord": "E7",
+            "handVisible": "true",
+            "signature": "7753a6f9",
+            "status": "needs-review"
+          },
+          {
+            "chord": "F7",
+            "handVisible": "false",
+            "signature": "7acaa971",
+            "status": "needs-review"
+          },
+          {
+            "chord": "G7",
+            "handVisible": "true",
+            "signature": "389da23f",
+            "status": "needs-review"
+          },
+          {
+            "chord": "A7",
+            "handVisible": "false",
+            "signature": "532785f2",
+            "status": "needs-review"
+          },
+          {
+            "chord": "B7",
+            "handVisible": "false",
+            "signature": "dc0af881",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Cmaj7",
+            "handVisible": "true",
+            "signature": "dd9b927d",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dmaj7",
+            "handVisible": "false",
+            "signature": "491c58b5",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Emaj7",
+            "handVisible": "false",
+            "signature": "aa8bb71e",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Fmaj7",
+            "handVisible": "true",
+            "signature": "20167e00",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Gmaj7",
+            "handVisible": "true",
+            "signature": "7130e374",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Amaj7",
+            "handVisible": "false",
+            "signature": "4790b6ef",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Bmaj7",
+            "handVisible": "false",
+            "signature": "660afb95",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Cm7",
+            "handVisible": "false",
+            "signature": "a10937c9",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dm7",
+            "handVisible": "false",
+            "signature": "24c8ec6b",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Em7",
+            "handVisible": "true",
+            "signature": "d25523f8",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Fm7",
+            "handVisible": "false",
+            "signature": "60bccca6",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Gm7",
+            "handVisible": "false",
+            "signature": "ea2fc938",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Am7",
+            "handVisible": "true",
+            "signature": "69643940",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Bm7",
+            "handVisible": "false",
+            "signature": "8b3e516a",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Csus2",
+            "handVisible": "false",
+            "signature": "8b20dc37",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dsus2",
+            "handVisible": "false",
+            "signature": "8b8b3da7",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Asus2",
+            "handVisible": "false",
+            "signature": "704fde40",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Csus4",
+            "handVisible": "false",
+            "signature": "f2a0dc94",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dsus4",
+            "handVisible": "false",
+            "signature": "9136e065",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Esus4",
+            "handVisible": "false",
+            "signature": "71b5686b",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Asus4",
+            "handVisible": "false",
+            "signature": "54c23401",
+            "status": "needs-review"
+          }
+        ]
+      }
+    },
+    {
+      "name": "landscape-real-canvas-pixels-and-hand-toggle",
+      "passed": true,
+      "evidence": {
+        "canvasPixelsChangedByRealHandToggle": 20172,
+        "cameraUnchanged": true,
+        "hiddenPreferenceRespectedAcrossChords": true
+      }
+    },
+    {
+      "name": "landscape-camera-and-touch-controls",
+      "passed": true,
+      "evidence": {
+        "presets": 7,
+        "rotateZoomReset": true,
+        "pointerDrag": true,
+        "twoTouchPinch": true,
+        "guitarAndAppliedPoseUnchanged": true,
+        "layout": {
+          "x": 54.71875,
+          "y": 331.703125,
+          "width": 1084.5625,
+          "height": 440.765625
+        }
+      }
+    },
+    {
+      "name": "landscape-reduced-motion-and-idle",
+      "passed": true,
+      "evidence": {
+        "reducedMotionImmediate": true,
+        "noPermanentRenderLoop": true
+      }
+    },
+    {
+      "name": "portrait-black-sleeved-model-on-real-route",
+      "passed": true,
+      "evidence": {
+        "actualRig": {
+          "chord": "C",
+          "visible": "true",
+          "status": "needs-review",
+          "review": "true",
+          "allowed": "true",
+          "signature": "1ce0a568",
+          "asset": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+          "render": {
+            "calls": 73,
+            "triangles": 31372,
+            "geometries": 69,
+            "textures": 18
+          },
+          "camera": {
+            "position": [
+              -5.1819575,
+              10.3804778,
+              2.5141433
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 10.9088895,
+            "fov": 38,
+            "aspect": 1.663260739856802
+          },
+          "geometry": "94ba3b06",
+          "strings": "6",
+          "frets": "12"
+        },
+        "layout": {
+          "x": 35.546875,
+          "y": 317.640625,
+          "width": 696.90625,
+          "height": 419
+        },
+        "developmentWarningVisible": false
+      }
+    },
+    {
+      "name": "portrait-all-42-chords-and-strict-gates",
+      "passed": true,
+      "evidence": {
+        "chords": 42,
+        "renderedHands": 10,
+        "rejectedHandsHidden": 32,
+        "verifiedTeachingHands": 0,
+        "rows": [
+          {
+            "chord": "C",
+            "handVisible": "true",
+            "signature": "1ce0a568",
+            "status": "needs-review"
+          },
+          {
+            "chord": "D",
+            "handVisible": "false",
+            "signature": "9252b96c",
+            "status": "needs-review"
+          },
+          {
+            "chord": "E",
+            "handVisible": "false",
+            "signature": "d05159a8",
+            "status": "needs-review"
+          },
+          {
+            "chord": "F",
+            "handVisible": "false",
+            "signature": "0803a230",
+            "status": "needs-review"
+          },
+          {
+            "chord": "G",
+            "handVisible": "false",
+            "signature": "4ce219a6",
+            "status": "needs-review"
+          },
+          {
+            "chord": "A",
+            "handVisible": "false",
+            "signature": "33b15d0d",
+            "status": "needs-review"
+          },
+          {
+            "chord": "B",
+            "handVisible": "false",
+            "signature": "1d842f78",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Cm",
+            "handVisible": "false",
+            "signature": "4ec13c8e",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dm",
+            "handVisible": "true",
+            "signature": "f8923c92",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Em",
+            "handVisible": "false",
+            "signature": "27f4eec4",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Fm",
+            "handVisible": "false",
+            "signature": "a1da1c0c",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Gm",
+            "handVisible": "false",
+            "signature": "be6f16d2",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Am",
+            "handVisible": "false",
+            "signature": "7235226c",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Bm",
+            "handVisible": "false",
+            "signature": "c916951f",
+            "status": "needs-review"
+          },
+          {
+            "chord": "C7",
+            "handVisible": "true",
+            "signature": "1e087701",
+            "status": "needs-review"
+          },
+          {
+            "chord": "D7",
+            "handVisible": "false",
+            "signature": "05457593",
+            "status": "needs-review"
+          },
+          {
+            "chord": "E7",
+            "handVisible": "true",
+            "signature": "7753a6f9",
+            "status": "needs-review"
+          },
+          {
+            "chord": "F7",
+            "handVisible": "false",
+            "signature": "7acaa971",
+            "status": "needs-review"
+          },
+          {
+            "chord": "G7",
+            "handVisible": "true",
+            "signature": "389da23f",
+            "status": "needs-review"
+          },
+          {
+            "chord": "A7",
+            "handVisible": "false",
+            "signature": "532785f2",
+            "status": "needs-review"
+          },
+          {
+            "chord": "B7",
+            "handVisible": "false",
+            "signature": "dc0af881",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Cmaj7",
+            "handVisible": "true",
+            "signature": "dd9b927d",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dmaj7",
+            "handVisible": "false",
+            "signature": "491c58b5",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Emaj7",
+            "handVisible": "false",
+            "signature": "aa8bb71e",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Fmaj7",
+            "handVisible": "true",
+            "signature": "20167e00",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Gmaj7",
+            "handVisible": "true",
+            "signature": "7130e374",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Amaj7",
+            "handVisible": "false",
+            "signature": "4790b6ef",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Bmaj7",
+            "handVisible": "false",
+            "signature": "660afb95",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Cm7",
+            "handVisible": "false",
+            "signature": "a10937c9",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dm7",
+            "handVisible": "false",
+            "signature": "24c8ec6b",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Em7",
+            "handVisible": "true",
+            "signature": "d25523f8",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Fm7",
+            "handVisible": "false",
+            "signature": "60bccca6",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Gm7",
+            "handVisible": "false",
+            "signature": "ea2fc938",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Am7",
+            "handVisible": "true",
+            "signature": "69643940",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Bm7",
+            "handVisible": "false",
+            "signature": "8b3e516a",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Csus2",
+            "handVisible": "false",
+            "signature": "8b20dc37",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dsus2",
+            "handVisible": "false",
+            "signature": "8b8b3da7",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Asus2",
+            "handVisible": "false",
+            "signature": "704fde40",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Csus4",
+            "handVisible": "false",
+            "signature": "f2a0dc94",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dsus4",
+            "handVisible": "false",
+            "signature": "9136e065",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Esus4",
+            "handVisible": "false",
+            "signature": "71b5686b",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Asus4",
+            "handVisible": "false",
+            "signature": "54c23401",
+            "status": "needs-review"
+          }
+        ]
+      }
+    },
+    {
+      "name": "portrait-real-canvas-pixels-and-hand-toggle",
+      "passed": true,
+      "evidence": {
+        "canvasPixelsChangedByRealHandToggle": 18255,
+        "cameraUnchanged": true,
+        "hiddenPreferenceRespectedAcrossChords": true
+      }
+    },
+    {
+      "name": "portrait-camera-and-touch-controls",
+      "passed": true,
+      "evidence": {
+        "presets": 7,
+        "rotateZoomReset": true,
+        "pointerDrag": true,
+        "twoTouchPinch": true,
+        "guitarAndAppliedPoseUnchanged": true,
+        "layout": {
+          "x": 35.546875,
+          "y": 317.640625,
+          "width": 696.90625,
+          "height": 419
+        }
+      }
+    },
+    {
+      "name": "portrait-reduced-motion-and-idle",
+      "passed": true,
+      "evidence": {
+        "reducedMotionImmediate": true,
+        "noPermanentRenderLoop": true
+      }
+    },
+    {
+      "name": "mobile-black-sleeved-model-on-real-route",
+      "passed": true,
+      "evidence": {
+        "actualRig": {
+          "chord": "C",
+          "visible": "true",
+          "status": "needs-review",
+          "review": "true",
+          "allowed": "true",
+          "signature": "1ce0a568",
+          "asset": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+          "render": {
+            "calls": 68,
+            "triangles": 30912,
+            "geometries": 65,
+            "textures": 17
+          },
+          "camera": {
+            "position": [
+              -5.85433,
+              15.9835815,
+              4.1950745
+            ],
+            "target": [
+              -3.9363002,
+              0,
+              -0.6
+            ],
+            "up": [
+              -0.2571262,
+              -0.3058642,
+              0.9166969
+            ],
+            "distance": 16.7972157,
+            "fov": 38,
+            "aspect": 0.997134670487106
+          },
+          "geometry": "94ba3b06",
+          "strings": "6",
+          "frets": "12"
+        },
+        "layout": {
+          "x": 21,
+          "y": 288.640625,
+          "width": 348,
+          "height": 349
+        },
+        "developmentWarningVisible": false
+      }
+    },
+    {
+      "name": "mobile-all-42-chords-and-strict-gates",
+      "passed": true,
+      "evidence": {
+        "chords": 42,
+        "renderedHands": 10,
+        "rejectedHandsHidden": 32,
+        "verifiedTeachingHands": 0,
+        "rows": [
+          {
+            "chord": "C",
+            "handVisible": "true",
+            "signature": "1ce0a568",
+            "status": "needs-review"
+          },
+          {
+            "chord": "D",
+            "handVisible": "false",
+            "signature": "9252b96c",
+            "status": "needs-review"
+          },
+          {
+            "chord": "E",
+            "handVisible": "false",
+            "signature": "d05159a8",
+            "status": "needs-review"
+          },
+          {
+            "chord": "F",
+            "handVisible": "false",
+            "signature": "0803a230",
+            "status": "needs-review"
+          },
+          {
+            "chord": "G",
+            "handVisible": "false",
+            "signature": "4ce219a6",
+            "status": "needs-review"
+          },
+          {
+            "chord": "A",
+            "handVisible": "false",
+            "signature": "33b15d0d",
+            "status": "needs-review"
+          },
+          {
+            "chord": "B",
+            "handVisible": "false",
+            "signature": "1d842f78",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Cm",
+            "handVisible": "false",
+            "signature": "4ec13c8e",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dm",
+            "handVisible": "true",
+            "signature": "f8923c92",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Em",
+            "handVisible": "false",
+            "signature": "27f4eec4",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Fm",
+            "handVisible": "false",
+            "signature": "a1da1c0c",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Gm",
+            "handVisible": "false",
+            "signature": "be6f16d2",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Am",
+            "handVisible": "false",
+            "signature": "7235226c",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Bm",
+            "handVisible": "false",
+            "signature": "c916951f",
+            "status": "needs-review"
+          },
+          {
+            "chord": "C7",
+            "handVisible": "true",
+            "signature": "1e087701",
+            "status": "needs-review"
+          },
+          {
+            "chord": "D7",
+            "handVisible": "false",
+            "signature": "05457593",
+            "status": "needs-review"
+          },
+          {
+            "chord": "E7",
+            "handVisible": "true",
+            "signature": "7753a6f9",
+            "status": "needs-review"
+          },
+          {
+            "chord": "F7",
+            "handVisible": "false",
+            "signature": "7acaa971",
+            "status": "needs-review"
+          },
+          {
+            "chord": "G7",
+            "handVisible": "true",
+            "signature": "389da23f",
+            "status": "needs-review"
+          },
+          {
+            "chord": "A7",
+            "handVisible": "false",
+            "signature": "532785f2",
+            "status": "needs-review"
+          },
+          {
+            "chord": "B7",
+            "handVisible": "false",
+            "signature": "dc0af881",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Cmaj7",
+            "handVisible": "true",
+            "signature": "dd9b927d",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dmaj7",
+            "handVisible": "false",
+            "signature": "491c58b5",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Emaj7",
+            "handVisible": "false",
+            "signature": "aa8bb71e",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Fmaj7",
+            "handVisible": "true",
+            "signature": "20167e00",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Gmaj7",
+            "handVisible": "true",
+            "signature": "7130e374",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Amaj7",
+            "handVisible": "false",
+            "signature": "4790b6ef",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Bmaj7",
+            "handVisible": "false",
+            "signature": "660afb95",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Cm7",
+            "handVisible": "false",
+            "signature": "a10937c9",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dm7",
+            "handVisible": "false",
+            "signature": "24c8ec6b",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Em7",
+            "handVisible": "true",
+            "signature": "d25523f8",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Fm7",
+            "handVisible": "false",
+            "signature": "60bccca6",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Gm7",
+            "handVisible": "false",
+            "signature": "ea2fc938",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Am7",
+            "handVisible": "true",
+            "signature": "69643940",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Bm7",
+            "handVisible": "false",
+            "signature": "8b3e516a",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Csus2",
+            "handVisible": "false",
+            "signature": "8b20dc37",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dsus2",
+            "handVisible": "false",
+            "signature": "8b8b3da7",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Asus2",
+            "handVisible": "false",
+            "signature": "704fde40",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Csus4",
+            "handVisible": "false",
+            "signature": "f2a0dc94",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Dsus4",
+            "handVisible": "false",
+            "signature": "9136e065",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Esus4",
+            "handVisible": "false",
+            "signature": "71b5686b",
+            "status": "needs-review"
+          },
+          {
+            "chord": "Asus4",
+            "handVisible": "false",
+            "signature": "54c23401",
+            "status": "needs-review"
+          }
+        ]
+      }
+    },
+    {
+      "name": "mobile-real-canvas-pixels-and-hand-toggle",
+      "passed": true,
+      "evidence": {
+        "canvasPixelsChangedByRealHandToggle": 4496,
+        "cameraUnchanged": true,
+        "hiddenPreferenceRespectedAcrossChords": true
+      }
+    },
+    {
+      "name": "mobile-camera-and-touch-controls",
+      "passed": true,
+      "evidence": {
+        "presets": 7,
+        "rotateZoomReset": true,
+        "pointerDrag": true,
+        "twoTouchPinch": true,
+        "guitarAndAppliedPoseUnchanged": true,
+        "layout": {
+          "x": 21,
+          "y": 288.640625,
+          "width": 348,
+          "height": 349
+        }
+      }
+    },
+    {
+      "name": "mobile-reduced-motion-and-idle",
+      "passed": true,
+      "evidence": {
+        "reducedMotionImmediate": true,
+        "noPermanentRenderLoop": true
+      }
+    },
+    {
+      "name": "original-transition-animation-without-false-approval",
+      "passed": true,
+      "evidence": {
+        "originalBoundedFadeUsed": true,
+        "actualAppliedFingerTransformsChanged": true,
+        "uncheckedBoneInterpolationAdded": false,
+        "samples": [
+          {
+            "phase": "revealing",
+            "progress": 0
+          },
+          {
+            "phase": "revealing",
+            "progress": 0.2237500000046566
+          },
+          {
+            "phase": "idle",
+            "progress": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "hand-download-error-and-real-retry",
+      "passed": true,
+      "evidence": {
+        "inducedAssetFailure": true,
+        "diagramRemainsAvailable": true,
+        "realModelReloaded": true
+      }
+    },
+    {
+      "name": "webgl-context-loss-and-recovery",
+      "passed": true,
+      "evidence": {
+        "inducedWebGLContextLoss": true,
+        "newCanvasAndRigRecovered": true
+      }
+    }
+  ],
+  "engine": "Chromium",
+  "physicalIPadSafariTested": false,
+  "databaseWrites": 0,
+  "realGLB": true,
+  "mockHandUsed": false,
+  "teachingApprovalClaimed": false,
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "unexpectedNetworkFailures": [],
+  "passed": true
+}

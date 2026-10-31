@@ -1,0 +1,264 @@
+{
+  "id": "Em",
+  "selected": false,
+  "teachingApproved": false,
+  "modelSHA256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "chordDataSHA256": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+  "proposalFile": ".local-preview/practice-fingering/batches/cluster-v2/Em/round-2/proposal-library.json",
+  "auditReport": ".local-preview/practice-fingering/batches/cluster-v2/Em/round-2/audit/summary.json",
+  "history": [
+    {
+      "round": 0,
+      "metrics": {
+        "chord": "Em",
+        "seedChord": "Em7",
+        "yawDegrees": 70,
+        "rootFree": true,
+        "controlledDigits": [
+          "middle",
+          "ring"
+        ],
+        "optimizedVariables": 18,
+        "evaluations": 17,
+        "residualCalls": 306,
+        "seconds": 41.29457508199994,
+        "initialCost": 1005542.1258511028,
+        "finalCost": 118.1519031668233,
+        "converged": false,
+        "stoppedForAudit": false,
+        "stoppedForBudget": true,
+        "sampledResidualMax": 6.4912601511617165,
+        "exactSelfPairsUsedForRefinement": 0,
+        "exactGuitarPairsUsedForRefinement": 0,
+        "exactDistancePolish": false,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "531a0cb9b7956bf8829959e67ec7870914e7044e577e1daabee69c25afe7716b",
+      "exactRow": {
+        "id": "Em",
+        "voicing": "022000",
+        "poseTransformSha256": "5720e01ea96b920b2fc0afbc025eea660a58f96c3e61b32b74a9bd81f17af039",
+        "skinAndClothSelfCrossingPairs": 24,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 96,
+        "maximumWoodDepthMm": 2.323917052088934,
+        "guitar": {
+          "status": "not-run"
+        },
+        "contacts": [],
+        "strings": [],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "Em-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/cluster-v2/Em/round-0/audit/summary.json"
+    },
+    {
+      "round": 1,
+      "metrics": {
+        "chord": "Em",
+        "seedChord": "Em",
+        "yawDegrees": 0,
+        "rootFree": true,
+        "controlledDigits": [
+          "middle",
+          "ring"
+        ],
+        "optimizedVariables": 18,
+        "evaluations": 16,
+        "residualCalls": 251,
+        "seconds": 42.85708135200184,
+        "initialCost": 2616.4323603373214,
+        "finalCost": 28.677342819527816,
+        "converged": false,
+        "stoppedForAudit": false,
+        "stoppedForBudget": true,
+        "sampledResidualMax": 3.4122730668592576,
+        "exactSelfPairsUsedForRefinement": 24,
+        "exactGuitarPairsUsedForRefinement": 0,
+        "exactDistancePolish": false,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "531a0cb9b7956bf8829959e67ec7870914e7044e577e1daabee69c25afe7716b",
+      "exactRow": {
+        "id": "Em",
+        "voicing": "022000",
+        "poseTransformSha256": "47c50aac73212134a687c5a782fdfecb7f05334466bdc845fb8619776d0de256",
+        "skinAndClothSelfCrossingPairs": 0,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 90,
+        "maximumWoodDepthMm": 2.3399472154402865,
+        "guitar": {
+          "status": "tested",
+          "crossingPairs": 565,
+          "runtimeExportSha256": "531a0cb9b7956bf8829959e67ec7870914e7044e577e1daabee69c25afe7716b"
+        },
+        "contacts": [
+          {
+            "finger": 2,
+            "string": 5,
+            "fret": 2,
+            "kind": "tip",
+            "actualOwnerPalmarSkinClearanceMm": 0.05436907496054949,
+            "passed": true
+          },
+          {
+            "finger": 3,
+            "string": 4,
+            "fret": 2,
+            "kind": "tip",
+            "actualOwnerPalmarSkinClearanceMm": 0.033273176086281886,
+            "passed": true
+          }
+        ],
+        "strings": [
+          {
+            "number": 1,
+            "fret": 0,
+            "wholeSkinClearanceMm": 0.231654598355288,
+            "openStringPassed": true
+          },
+          {
+            "number": 2,
+            "fret": 0,
+            "wholeSkinClearanceMm": 2.8004764329826535,
+            "openStringPassed": true
+          },
+          {
+            "number": 3,
+            "fret": 0,
+            "wholeSkinClearanceMm": -0.030624028212164922,
+            "openStringPassed": false
+          },
+          {
+            "number": 4,
+            "fret": 2,
+            "wholeSkinClearanceMm": -0.24405445975150725,
+            "openStringPassed": null
+          },
+          {
+            "number": 5,
+            "fret": 2,
+            "wholeSkinClearanceMm": -0.30600149135015803,
+            "openStringPassed": null
+          },
+          {
+            "number": 6,
+            "fret": 0,
+            "wholeSkinClearanceMm": 0.12417639779771639,
+            "openStringPassed": false
+          }
+        ],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "Em-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/cluster-v2/Em/round-1/audit/summary.json"
+    },
+    {
+      "round": 2,
+      "metrics": {
+        "chord": "Em",
+        "seedChord": "Em",
+        "yawDegrees": 0,
+        "rootFree": true,
+        "controlledDigits": [
+          "middle",
+          "ring"
+        ],
+        "optimizedVariables": 7,
+        "evaluations": 16,
+        "residualCalls": 122,
+        "seconds": 27.119388934999733,
+        "initialCost": 1623260.886258982,
+        "finalCost": 1617931.4278341716,
+        "converged": true,
+        "stoppedForAudit": false,
+        "stoppedForBudget": false,
+        "sampledResidualMax": 361.5765215546636,
+        "exactSelfPairsUsedForRefinement": 24,
+        "exactGuitarPairsUsedForRefinement": 565,
+        "exactDistancePolish": true,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "531a0cb9b7956bf8829959e67ec7870914e7044e577e1daabee69c25afe7716b",
+      "exactRow": {
+        "id": "Em",
+        "voicing": "022000",
+        "poseTransformSha256": "cc1d62eb207a57780c6a0d3c280fafd4d9be3222f4da8de99529f7b3edf93380",
+        "skinAndClothSelfCrossingPairs": 0,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 89,
+        "maximumWoodDepthMm": 2.3397094848173516,
+        "guitar": {
+          "status": "tested",
+          "crossingPairs": 514,
+          "runtimeExportSha256": "531a0cb9b7956bf8829959e67ec7870914e7044e577e1daabee69c25afe7716b"
+        },
+        "contacts": [
+          {
+            "finger": 2,
+            "string": 5,
+            "fret": 2,
+            "kind": "tip",
+            "actualOwnerPalmarSkinClearanceMm": 0.4427542079759111,
+            "passed": false
+          },
+          {
+            "finger": 3,
+            "string": 4,
+            "fret": 2,
+            "kind": "tip",
+            "actualOwnerPalmarSkinClearanceMm": 0.17522199640971353,
+            "passed": false
+          }
+        ],
+        "strings": [
+          {
+            "number": 1,
+            "fret": 0,
+            "wholeSkinClearanceMm": 0.23776573231943332,
+            "openStringPassed": true
+          },
+          {
+            "number": 2,
+            "fret": 0,
+            "wholeSkinClearanceMm": 3.073123505356489,
+            "openStringPassed": true
+          },
+          {
+            "number": 3,
+            "fret": 0,
+            "wholeSkinClearanceMm": 0.3021080892727628,
+            "openStringPassed": true
+          },
+          {
+            "number": 4,
+            "fret": 2,
+            "wholeSkinClearanceMm": -0.002957608447094473,
+            "openStringPassed": null
+          },
+          {
+            "number": 5,
+            "fret": 2,
+            "wholeSkinClearanceMm": -0.04260106842634537,
+            "openStringPassed": null
+          },
+          {
+            "number": 6,
+            "fret": 0,
+            "wholeSkinClearanceMm": 0.17737444667200442,
+            "openStringPassed": false
+          }
+        ],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "Em-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/cluster-v2/Em/round-2/audit/summary.json"
+    }
+  ]
+}

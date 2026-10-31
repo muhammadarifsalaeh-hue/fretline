@@ -13,16 +13,17 @@
 .practice-page .practice-canvas-host canvas { display: block; width: 100%; height: 100%; touch-action: none; cursor: grab; outline-offset: -4px; }
 .practice-page .practice-canvas-host canvas:active { cursor: grabbing; }
 .practice-page .practice-canvas-model-note { position: absolute; right: 20px; bottom: 14px; left: 20px; text-align: center; pointer-events: none; color: var(--fl-text-muted); font-size: 11px; letter-spacing: .025em; }
-.practice-page .practice-hand-review-warning { position: absolute; top: 14px; right: 14px; left: 14px; z-index: 1; display: grid; gap: 4px; padding: 12px 15px; border: 1px solid #e8b56e80; border-radius: 6px; background: #21190cf2; color: #f3d4a0; pointer-events: none; box-shadow: 0 4px 18px #0005; }
-.practice-page .practice-hand-review-warning strong { font-size: 11px; font-weight: 600; letter-spacing: .025em; }
-.practice-page .practice-hand-review-warning span { color: #d7c5a7; font-size: 11px; line-height: 1.7; }
 .practice-page .practice-hand-state { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 15px 24px; border-bottom: 1px solid #ffffff0b; background: #15140f; }
 .practice-page .practice-hand-state > div { min-width: 0; }
 .practice-page .practice-hand-state strong { display: block; color: var(--fl-text-secondary); font-size: 12px; font-weight: 500; line-height: 1.8; }
 .practice-page .practice-hand-state p { margin-top: 3px; color: var(--fl-text-muted); font-size: 11px; line-height: 1.8; }
 .practice-page .practice-hand-state button { flex: 0 0 auto; display: inline-flex; align-items: center; justify-content: center; gap: 7px; max-width: 250px; min-height: 44px; padding: 8px 12px; border: 1px solid #b99a5c69; border-radius: 6px; color: var(--fl-accent-soft); font-size: 11px; line-height: 1.7; }
 .practice-page .practice-hand-state button[aria-pressed='true'] { border-color: #e8b56e; background: #e8b56e15; color: #f3d4a0; }
-.practice-page.practice-refined .practice-hand-state { justify-content: space-between; }
+.practice-page.practice-refined .practice-hand-state { justify-content: flex-end; padding: 6px 14px; border: 0; background: transparent; }
+.practice-page.practice-refined .practice-hand-state:empty { display: none; }
+.practice-page.practice-refined .practice-hand-load-error { margin-right: auto; color: var(--fl-text-muted); font-size: 12px; line-height: 1.6; }
+.practice-page.practice-refined .practice-hand-state button { border-color: #c8a15a30; background: transparent; }
+.practice-page.practice-refined .practice-hand-state button[aria-pressed='true'] { background: #c8a15a08; border-color: #c8a15a40; }
 /* An expanded view menu must not intercept controls behind its empty header. */
 .practice-page.practice-refined .practice-camera-views { pointer-events: none; }
 .practice-page.practice-refined .practice-camera-views > summary { width: max-content; pointer-events: auto; }
@@ -50,11 +51,10 @@
   .practice-page .practice-viewer-presets { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; padding-inline: 12px; padding-bottom: 12px; }
   .practice-page .practice-viewer-presets button { min-width: 0; padding-inline: 4px; font-size: 11px; }
   .practice-page .practice-canvas-stage { height: 420px; }
-  .practice-page .practice-hand-review-warning { inset: 10px 10px auto; padding: 10px 12px; }
-  .practice-page .practice-hand-review-warning strong { font-size: 10px; }
-  .practice-page .practice-hand-review-warning span { font-size: 10px; }
   .practice-page .practice-hand-state { flex-direction: column; align-items: stretch; gap: 10px; padding: 13px 16px; }
   .practice-page .practice-hand-state button { max-width: none; width: 100%; }
+  .practice-page.practice-refined .practice-hand-state { flex-direction: row; align-items: center; }
+  .practice-page.practice-refined .practice-hand-state button { width: auto; }
   .practice-page .practice-camera-controls { padding: 14px 12px 10px; flex-wrap: wrap; }
   .practice-page .practice-camera-controls > div { gap: 3px; }
   .practice-page .practice-camera-controls .practice-camera-reset { padding-inline: 10px; }

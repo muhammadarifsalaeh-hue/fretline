@@ -1,0 +1,23 @@
+[
+  {
+    "chord": "Am",
+    "seedChord": "Am",
+    "yawDegrees": 0,
+    "rootFree": true,
+    "controlledDigits": [
+      "index",
+      "middle",
+      "ring"
+    ],
+    "evaluations": 98,
+    "residualCalls": 2235,
+    "seconds": 100.49232889699852,
+    "initialCost": 5270.118612886234,
+    "finalCost": 124.73268285606828,
+    "converged": true,
+    "sampledResidualMax": 9.490580280629146,
+    "exactSelfPairsUsedForRefinement": 0,
+    "exactGuitarPairsUsedForRefinement": 76,
+    "notAnAcceptanceGate": true
+  }
+]

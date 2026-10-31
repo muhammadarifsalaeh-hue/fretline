@@ -1,0 +1,208 @@
+{
+  "id": "Asus2",
+  "selected": false,
+  "teachingApproved": false,
+  "modelSHA256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "chordDataSHA256": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+  "proposalFile": ".local-preview/practice-fingering/batches/cluster-v2/Asus2/round-2/proposal-library.json",
+  "auditReport": ".local-preview/practice-fingering/batches/cluster-v2/Asus2/round-2/audit/summary.json",
+  "history": [
+    {
+      "round": 0,
+      "metrics": {
+        "chord": "Asus2",
+        "seedChord": "Cmaj7",
+        "yawDegrees": 70,
+        "rootFree": true,
+        "controlledDigits": [
+          "middle",
+          "ring"
+        ],
+        "optimizedVariables": 18,
+        "evaluations": 35,
+        "residualCalls": 540,
+        "seconds": 42.08823154399943,
+        "initialCost": 713384.1387795524,
+        "finalCost": 2.823141429776909,
+        "converged": false,
+        "stoppedForAudit": false,
+        "stoppedForBudget": true,
+        "sampledResidualMax": 1.4497707181998334,
+        "exactSelfPairsUsedForRefinement": 0,
+        "exactGuitarPairsUsedForRefinement": 0,
+        "exactDistancePolish": false,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "82d2f1800de58bec340ca04b817c113b03fc51ff41b59a241b607a5f8b388626",
+      "exactRow": {
+        "id": "Asus2",
+        "voicing": "x02200",
+        "poseTransformSha256": "34539f2cf8cf1bdcf5596895ff1c359f23a654b3a37dcc11b8362db243b7a489",
+        "skinAndClothSelfCrossingPairs": 0,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 20,
+        "maximumWoodDepthMm": 1.0183594861501994,
+        "guitar": {
+          "status": "tested",
+          "crossingPairs": 444,
+          "runtimeExportSha256": "82d2f1800de58bec340ca04b817c113b03fc51ff41b59a241b607a5f8b388626"
+        },
+        "contacts": [
+          {
+            "finger": 2,
+            "string": 4,
+            "fret": 2,
+            "kind": "tip",
+            "actualOwnerPalmarSkinClearanceMm": -0.004078920817068454,
+            "passed": false
+          },
+          {
+            "finger": 3,
+            "string": 3,
+            "fret": 2,
+            "kind": "tip",
+            "actualOwnerPalmarSkinClearanceMm": 0.0010601683394355355,
+            "passed": true
+          }
+        ],
+        "strings": [
+          {
+            "number": 1,
+            "fret": 0,
+            "wholeSkinClearanceMm": 0.2758221403952167,
+            "openStringPassed": true
+          },
+          {
+            "number": 2,
+            "fret": 0,
+            "wholeSkinClearanceMm": 0.17163071280270378,
+            "openStringPassed": false
+          },
+          {
+            "number": 3,
+            "fret": 2,
+            "wholeSkinClearanceMm": -0.1368397906871645,
+            "openStringPassed": null
+          },
+          {
+            "number": 4,
+            "fret": 2,
+            "wholeSkinClearanceMm": -0.09898422224048034,
+            "openStringPassed": null
+          },
+          {
+            "number": 5,
+            "fret": 0,
+            "wholeSkinClearanceMm": 0.25646200392950097,
+            "openStringPassed": true
+          },
+          {
+            "number": 6,
+            "fret": null,
+            "wholeSkinClearanceMm": 0.7671425292089983,
+            "openStringPassed": null
+          }
+        ],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "Asus2-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/cluster-v2/Asus2/round-0/audit/summary.json"
+    },
+    {
+      "round": 1,
+      "metrics": {
+        "chord": "Asus2",
+        "seedChord": "Asus2",
+        "yawDegrees": 0,
+        "rootFree": true,
+        "controlledDigits": [
+          "middle",
+          "ring"
+        ],
+        "optimizedVariables": 7,
+        "evaluations": 24,
+        "residualCalls": 151,
+        "seconds": 40.95466772600048,
+        "initialCost": 1111051.9071471794,
+        "finalCost": 1109804.2836105379,
+        "converged": false,
+        "stoppedForAudit": false,
+        "stoppedForBudget": true,
+        "sampledResidualMax": 291.18904562610857,
+        "exactSelfPairsUsedForRefinement": 0,
+        "exactGuitarPairsUsedForRefinement": 444,
+        "exactDistancePolish": true,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "82d2f1800de58bec340ca04b817c113b03fc51ff41b59a241b607a5f8b388626",
+      "exactRow": {
+        "id": "Asus2",
+        "voicing": "x02200",
+        "poseTransformSha256": "7498aa893225815537bc818bb38b529cc79294fde5409d830d2cc41669bdf556",
+        "skinAndClothSelfCrossingPairs": 12,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 20,
+        "maximumWoodDepthMm": 1.0183594861501852,
+        "guitar": {
+          "status": "not-run"
+        },
+        "contacts": [],
+        "strings": [],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "Asus2-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/cluster-v2/Asus2/round-1/audit/summary.json"
+    },
+    {
+      "round": 2,
+      "metrics": {
+        "chord": "Asus2",
+        "seedChord": "Asus2",
+        "yawDegrees": 0,
+        "rootFree": true,
+        "controlledDigits": [
+          "middle",
+          "ring"
+        ],
+        "optimizedVariables": 18,
+        "evaluations": 18,
+        "residualCalls": 343,
+        "seconds": 42.56896013699952,
+        "initialCost": 1111477.7719701605,
+        "finalCost": 215861.54913167784,
+        "converged": false,
+        "stoppedForAudit": false,
+        "stoppedForBudget": true,
+        "sampledResidualMax": 151.62145421853467,
+        "exactSelfPairsUsedForRefinement": 12,
+        "exactGuitarPairsUsedForRefinement": 444,
+        "exactDistancePolish": false,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "82d2f1800de58bec340ca04b817c113b03fc51ff41b59a241b607a5f8b388626",
+      "exactRow": {
+        "id": "Asus2",
+        "voicing": "x02200",
+        "poseTransformSha256": "176260f77cfe0ca0f528a04cf8236c10ff420a61494b6fecf2781bfec88a600e",
+        "skinAndClothSelfCrossingPairs": 104,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 76,
+        "maximumWoodDepthMm": 0.7077601367630585,
+        "guitar": {
+          "status": "not-run"
+        },
+        "contacts": [],
+        "strings": [],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "Asus2-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/cluster-v2/Asus2/round-2/audit/summary.json"
+    }
+  ]
+}

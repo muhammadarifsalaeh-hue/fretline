@@ -1,0 +1,158 @@
+{
+  "id": "B",
+  "selected": false,
+  "teachingApproved": false,
+  "modelSHA256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "chordDataSHA256": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+  "proposalFile": ".local-preview/practice-fingering/batches/barre-v2/B/round-2/proposal-library.json",
+  "auditReport": ".local-preview/practice-fingering/batches/barre-v2/B/round-2/audit/summary.json",
+  "history": [
+    {
+      "round": 0,
+      "metrics": {
+        "chord": "B",
+        "seedChord": "Am7",
+        "yawDegrees": 0,
+        "rootFree": true,
+        "controlledDigits": [
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "optimizedVariables": 30,
+        "evaluations": 16,
+        "residualCalls": 497,
+        "seconds": 40.10113127099976,
+        "initialCost": 6838429.536764766,
+        "finalCost": 571.5314746148148,
+        "converged": false,
+        "stoppedForAudit": false,
+        "stoppedForBudget": true,
+        "sampledResidualMax": 13.513167229435492,
+        "exactSelfPairsUsedForRefinement": 0,
+        "exactGuitarPairsUsedForRefinement": 0,
+        "exactDistancePolish": false,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "7d1a90d5a006c9fd6c60971b09d786e2ff2066646a059955fe5c6719fe497f51",
+      "exactRow": {
+        "id": "B",
+        "voicing": "x24442",
+        "poseTransformSha256": "ba5f5aa59643a8fa3219fc3c0bf653b54c9271eb58d6d78a4863799a6f61a7e7",
+        "skinAndClothSelfCrossingPairs": 56,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 1,
+        "maximumWoodDepthMm": 0.05727972226686234,
+        "guitar": {
+          "status": "not-run"
+        },
+        "contacts": [],
+        "strings": [],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "B-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/barre-v2/B/round-0/audit/summary.json"
+    },
+    {
+      "round": 1,
+      "metrics": {
+        "chord": "B",
+        "seedChord": "B",
+        "yawDegrees": 0,
+        "rootFree": true,
+        "controlledDigits": [
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "optimizedVariables": 30,
+        "evaluations": 16,
+        "residualCalls": 437,
+        "seconds": 42.57522850600071,
+        "initialCost": 9364.302626828416,
+        "finalCost": 976.5454791806361,
+        "converged": false,
+        "stoppedForAudit": false,
+        "stoppedForBudget": true,
+        "sampledResidualMax": 15.926496141902021,
+        "exactSelfPairsUsedForRefinement": 56,
+        "exactGuitarPairsUsedForRefinement": 0,
+        "exactDistancePolish": false,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "7d1a90d5a006c9fd6c60971b09d786e2ff2066646a059955fe5c6719fe497f51",
+      "exactRow": {
+        "id": "B",
+        "voicing": "x24442",
+        "poseTransformSha256": "c53041604329084bfd6ddaef6fc4cd911a246a85eca0a67af31633fa6eac4426",
+        "skinAndClothSelfCrossingPairs": 32,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 0,
+        "maximumWoodDepthMm": 0.0,
+        "guitar": {
+          "status": "not-run"
+        },
+        "contacts": [],
+        "strings": [],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "B-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/barre-v2/B/round-1/audit/summary.json"
+    },
+    {
+      "round": 2,
+      "metrics": {
+        "chord": "B",
+        "seedChord": "B",
+        "yawDegrees": 0,
+        "rootFree": true,
+        "controlledDigits": [
+          "index",
+          "middle",
+          "ring",
+          "little"
+        ],
+        "optimizedVariables": 30,
+        "evaluations": 18,
+        "residualCalls": 439,
+        "seconds": 41.181894448000094,
+        "initialCost": 6810.637665274213,
+        "finalCost": 366.905824104527,
+        "converged": false,
+        "stoppedForAudit": false,
+        "stoppedForBudget": true,
+        "sampledResidualMax": 12.401143809536643,
+        "exactSelfPairsUsedForRefinement": 76,
+        "exactGuitarPairsUsedForRefinement": 0,
+        "exactDistancePolish": false,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "7d1a90d5a006c9fd6c60971b09d786e2ff2066646a059955fe5c6719fe497f51",
+      "exactRow": {
+        "id": "B",
+        "voicing": "x24442",
+        "poseTransformSha256": "60710112fe986a61749a68bdbd5234918a407d13a1905055ae8fc8bf6029d441",
+        "skinAndClothSelfCrossingPairs": 4,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 0,
+        "maximumWoodDepthMm": 0.0,
+        "guitar": {
+          "status": "not-run"
+        },
+        "contacts": [],
+        "strings": [],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "B-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/barre-v2/B/round-2/audit/summary.json"
+    }
+  ]
+}

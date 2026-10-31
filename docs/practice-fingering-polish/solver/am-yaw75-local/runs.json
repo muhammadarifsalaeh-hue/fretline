@@ -1,0 +1,21 @@
+[
+  {
+    "chord": "Am",
+    "seedChord": "Am7",
+    "yawDegrees": 75.0,
+    "rootFree": true,
+    "controlledDigits": [
+      "index",
+      "middle",
+      "ring"
+    ],
+    "evaluations": 130,
+    "residualCalls": 2105,
+    "seconds": 94.96257183700072,
+    "initialCost": 458379.2542342687,
+    "finalCost": 6.7840752862388705,
+    "converged": false,
+    "sampledResidualMax": 2.0849112658519156,
+    "notAnAcceptanceGate": true
+  }
+]

@@ -1,0 +1,286 @@
+{
+  "id": "Dsus2",
+  "selected": false,
+  "teachingApproved": false,
+  "modelSHA256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "chordDataSHA256": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+  "proposalFile": ".local-preview/practice-fingering/batches/open-v2/Dsus2/round-2/proposal-library.json",
+  "auditReport": ".local-preview/practice-fingering/batches/open-v2/Dsus2/round-2/audit/summary.json",
+  "history": [
+    {
+      "round": 0,
+      "metrics": {
+        "chord": "Dsus2",
+        "seedChord": "Dm",
+        "yawDegrees": 0,
+        "rootFree": true,
+        "controlledDigits": [
+          "index",
+          "middle"
+        ],
+        "optimizedVariables": 18,
+        "evaluations": 39,
+        "residualCalls": 598,
+        "seconds": 41.29882374999943,
+        "initialCost": 914521.3953744911,
+        "finalCost": 18.542638963433827,
+        "converged": false,
+        "stoppedForAudit": false,
+        "stoppedForBudget": true,
+        "sampledResidualMax": 3.356238360608245,
+        "exactSelfPairsUsedForRefinement": 0,
+        "exactGuitarPairsUsedForRefinement": 0,
+        "exactDistancePolish": false,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "2156fae62ca2e85218424cf57d620e5c434786cd826c67c7409a5dd5f07cc7df",
+      "exactRow": {
+        "id": "Dsus2",
+        "voicing": "xx0230",
+        "poseTransformSha256": "9dac36d54c90928c14c41784df8b69c6e6ec3f3cf61d4487deeead70be2a4b88",
+        "skinAndClothSelfCrossingPairs": 70,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 28,
+        "maximumWoodDepthMm": 0.1762967027468947,
+        "guitar": {
+          "status": "not-run"
+        },
+        "contacts": [],
+        "strings": [],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "Dsus2-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/open-v2/Dsus2/round-0/audit/summary.json"
+    },
+    {
+      "round": 1,
+      "metrics": {
+        "chord": "Dsus2",
+        "seedChord": "Dsus2",
+        "yawDegrees": 0,
+        "rootFree": true,
+        "controlledDigits": [
+          "index",
+          "ring"
+        ],
+        "optimizedVariables": 18,
+        "evaluations": 29,
+        "residualCalls": 462,
+        "seconds": 40.905646188999526,
+        "initialCost": 14094.988695378588,
+        "finalCost": 2.4699059435648762,
+        "converged": false,
+        "stoppedForAudit": false,
+        "stoppedForBudget": true,
+        "sampledResidualMax": 1.3664524635511524,
+        "exactSelfPairsUsedForRefinement": 70,
+        "exactGuitarPairsUsedForRefinement": 0,
+        "exactDistancePolish": false,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "2156fae62ca2e85218424cf57d620e5c434786cd826c67c7409a5dd5f07cc7df",
+      "exactRow": {
+        "id": "Dsus2",
+        "voicing": "xx0230",
+        "poseTransformSha256": "64fa43ec81d0c562416f4f0e010fb9bce22c9854b38ca2604c93713b50c3b6af",
+        "skinAndClothSelfCrossingPairs": 18,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 6,
+        "maximumWoodDepthMm": 0.09645340368053346,
+        "guitar": {
+          "status": "not-run"
+        },
+        "contacts": [],
+        "strings": [],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "Dsus2-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/open-v2/Dsus2/round-1/audit/summary.json"
+    },
+    {
+      "round": 2,
+      "metrics": {
+        "chord": "Dsus2",
+        "seedChord": "Dsus2",
+        "yawDegrees": 0,
+        "rootFree": true,
+        "controlledDigits": [
+          "index",
+          "ring"
+        ],
+        "optimizedVariables": 18,
+        "evaluations": 38,
+        "residualCalls": 525,
+        "seconds": 41.01501757399819,
+        "initialCost": 1528.0685069503945,
+        "finalCost": 1.5614519888701748,
+        "converged": false,
+        "stoppedForAudit": false,
+        "stoppedForBudget": true,
+        "sampledResidualMax": 1.1698480332759926,
+        "exactSelfPairsUsedForRefinement": 88,
+        "exactGuitarPairsUsedForRefinement": 0,
+        "exactDistancePolish": false,
+        "notAnAcceptanceGate": true
+      },
+      "runtimeGuitarSHA256": "2156fae62ca2e85218424cf57d620e5c434786cd826c67c7409a5dd5f07cc7df",
+      "exactRow": {
+        "id": "Dsus2",
+        "voicing": "xx0230",
+        "poseTransformSha256": "74890702ffd30813a0fdafbf0866173fa23690a6e2fcf57d7f40f131b5b1bfd4",
+        "skinAndClothSelfCrossingPairs": 0,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 3,
+        "maximumWoodDepthMm": 0.06499469761392246,
+        "guitar": {
+          "status": "tested",
+          "crossingPairs": 118,
+          "runtimeExportSha256": "2156fae62ca2e85218424cf57d620e5c434786cd826c67c7409a5dd5f07cc7df"
+        },
+        "contacts": [
+          {
+            "finger": 1,
+            "string": 3,
+            "fret": 2,
+            "kind": "tip",
+            "actualOwnerPalmarSkinClearanceMm": -0.037415545724450466,
+            "passed": false
+          },
+          {
+            "finger": 3,
+            "string": 2,
+            "fret": 3,
+            "kind": "tip",
+            "actualOwnerPalmarSkinClearanceMm": -0.02147924072217236,
+            "passed": false
+          }
+        ],
+        "strings": [
+          {
+            "number": 1,
+            "fret": 0,
+            "wholeSkinClearanceMm": 4.434963484065113,
+            "openStringPassed": true
+          },
+          {
+            "number": 2,
+            "fret": 3,
+            "wholeSkinClearanceMm": -0.11144368012595332,
+            "openStringPassed": null
+          },
+          {
+            "number": 3,
+            "fret": 2,
+            "wholeSkinClearanceMm": -0.04133671409614445,
+            "openStringPassed": null
+          },
+          {
+            "number": 4,
+            "fret": 0,
+            "wholeSkinClearanceMm": 4.581242835460003,
+            "openStringPassed": true
+          },
+          {
+            "number": 5,
+            "fret": null,
+            "wholeSkinClearanceMm": 11.845827274007542,
+            "openStringPassed": null
+          },
+          {
+            "number": 6,
+            "fret": null,
+            "wholeSkinClearanceMm": 19.061771743593823,
+            "openStringPassed": null
+          }
+        ],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "Dsus2-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/open-v2/Dsus2/round-2/audit/summary.json"
+    },
+    {
+      "round": "2-rigid-clearance",
+      "exactRow": {
+        "id": "Dsus2",
+        "voicing": "xx0230",
+        "poseTransformSha256": "993dc75334d1364ffc4c557916b012d3dc6d7f5a06228ab4fdbc676a164734f4",
+        "skinAndClothSelfCrossingPairs": 0,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 0,
+        "maximumWoodDepthMm": 0.0,
+        "guitar": {
+          "status": "tested",
+          "crossingPairs": 60,
+          "runtimeExportSha256": "2156fae62ca2e85218424cf57d620e5c434786cd826c67c7409a5dd5f07cc7df"
+        },
+        "contacts": [
+          {
+            "finger": 1,
+            "string": 3,
+            "fret": 2,
+            "kind": "tip",
+            "actualOwnerPalmarSkinClearanceMm": 0.0681376327537169,
+            "passed": true
+          },
+          {
+            "finger": 3,
+            "string": 2,
+            "fret": 3,
+            "kind": "tip",
+            "actualOwnerPalmarSkinClearanceMm": 0.09470991144773247,
+            "passed": true
+          }
+        ],
+        "strings": [
+          {
+            "number": 1,
+            "fret": 0,
+            "wholeSkinClearanceMm": 4.516155405071156,
+            "openStringPassed": true
+          },
+          {
+            "number": 2,
+            "fret": 3,
+            "wholeSkinClearanceMm": 0.009224171423655614,
+            "openStringPassed": null
+          },
+          {
+            "number": 3,
+            "fret": 2,
+            "wholeSkinClearanceMm": 0.0681376327537169,
+            "openStringPassed": null
+          },
+          {
+            "number": 4,
+            "fret": 0,
+            "wholeSkinClearanceMm": 4.608792734212769,
+            "openStringPassed": true
+          },
+          {
+            "number": 5,
+            "fret": null,
+            "wholeSkinClearanceMm": 11.857517794898994,
+            "openStringPassed": null
+          },
+          {
+            "number": 6,
+            "fret": null,
+            "wholeSkinClearanceMm": 19.073039409453337,
+            "openStringPassed": null
+          }
+        ],
+        "geometricPassed": false,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "Dsus2-raw.json.gz"
+      },
+      "report": ".local-preview/practice-fingering/batches/open-v2/Dsus2/round-2/rigid-clearance/audit/summary.json"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "G7",
+  "selected": true,
+  "teachingApproved": false,
+  "modelSHA256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "chordDataSHA256": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+  "proposalFile": "docs/practice-fingering-polish/solver/g7-exact-polish/proposal-library.json",
+  "auditReport": "docs/practice-fingering-polish/solver/g7-exact-polish/exact-audit/summary.json",
+  "history": [
+    {
+      "round": "prebatch-exact-polish",
+      "exactRow": {
+        "id": "G7",
+        "voicing": "320001",
+        "poseTransformSha256": "400fd5eed0671a2fd299beb354a57a18bd39dd3d17fdbbb0e9752d3e218f71bb",
+        "skinAndClothSelfCrossingPairs": 0,
+        "woodSamples": 72878,
+        "woodSamplesInsideOver002Mm": 0,
+        "maximumWoodDepthMm": 0.0,
+        "guitar": {
+          "status": "tested",
+          "crossingPairs": 0,
+          "runtimeExportSha256": "35526f1baa3be68c5e1d5abe3ba58d90dbdc7e9be0fd9aa99f259458416d7ccd"
+        },
+        "contacts": [
+          {
+            "finger": 3,
+            "string": 6,
+            "fret": 3,
+            "kind": "tip",
+            "actualOwnerPalmarSkinClearanceMm": 0.0349999999383267,
+            "passed": true
+          },
+          {
+            "finger": 2,
+            "string": 5,
+            "fret": 2,
+            "kind": "tip",
+            "actualOwnerPalmarSkinClearanceMm": 0.03499999998076364,
+            "passed": true
+          },
+          {
+            "finger": 1,
+            "string": 1,
+            "fret": 1,
+            "kind": "tip",
+            "actualOwnerPalmarSkinClearanceMm": 0.0350001270078025,
+            "passed": true
+          }
+        ],
+        "strings": [
+          {
+            "number": 1,
+            "fret": 1,
+            "wholeSkinClearanceMm": 0.03467960708397741,
+            "openStringPassed": null
+          },
+          {
+            "number": 2,
+            "fret": 0,
+            "wholeSkinClearanceMm": 0.26602987181271576,
+            "openStringPassed": true
+          },
+          {
+            "number": 3,
+            "fret": 0,
+            "wholeSkinClearanceMm": 5.37487613244853,
+            "openStringPassed": true
+          },
+          {
+            "number": 4,
+            "fret": 0,
+            "wholeSkinClearanceMm": 0.2600418723325983,
+            "openStringPassed": true
+          },
+          {
+            "number": 5,
+            "fret": 2,
+            "wholeSkinClearanceMm": 0.03499999998076364,
+            "openStringPassed": null
+          },
+          {
+            "number": 6,
+            "fret": 3,
+            "wholeSkinClearanceMm": 0.03499999993832603,
+            "openStringPassed": null
+          }
+        ],
+        "geometricPassed": true,
+        "teachingStatus": "needs-review",
+        "anatomicalApproval": false,
+        "rawEvidence": "G7-raw.json.gz"
+      }
+    }
+  ],
+  "reusedExistingExactAudit": true
+}
