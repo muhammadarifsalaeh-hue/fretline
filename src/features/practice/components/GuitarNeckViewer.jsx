@@ -1,7 +1,9 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { LANG } from '@/i18n';
-import { GuitarIcon, ReturnIcon, PlusIcon } from '@/components/ui/Icons';
+import { GuitarIcon, ReturnIcon } from '@/components/ui/Icons';
 import { loadPracticeScene, retryFailedSceneModule } from '../loadScene';
+import PracticeControlBar from './PracticeControlBar';
+import PracticeIcon from './PracticeIcons';
 import './viewer.css';
 
 const TH = {
@@ -40,8 +42,8 @@ const CAMERA_PRESETS = [
   { id: 'overview', th: 'คอทั้งหมด', en: 'Full neck' },
 ];
 
-export default function GuitarNeckViewer({ chord, onPoseStatus }) {
-  const hostRef = useRef(null), sceneRef = useRef(null), chordRef = useRef(chord);
+export default function GuitarNeckViewer({ chord, audio, onPoseStatus }) {
+  const hostRef = useRef(null), sceneRef = useRef(null), chordRef = useRef(chord), menuRef = useRef(null);
   const poseCallbackRef = useRef(onPoseStatus);
   const [status, setStatus] = useState('loading');
   const [attempt, setAttempt] = useState(0);
@@ -49,6 +51,8 @@ export default function GuitarNeckViewer({ chord, onPoseStatus }) {
   const [moduleFailed, setModuleFailed] = useState(false);
   const [handState, setHandState] = useState(null);
   const [showHand, setShowHand] = useState(true);
+  const [markersVisible, setMarkersVisible] = useState(true);
+  const markersRef = useRef(true); markersRef.current = markersVisible;
   chordRef.current = chord;
   poseCallbackRef.current = onPoseStatus;
 
@@ -71,25 +75,37 @@ export default function GuitarNeckViewer({ chord, onPoseStatus }) {
       if (cancelled) return;
       let failed = false;
       sceneRef.current = createNeckScene(hostRef.current, {
-        chord: chordRef.current,
+        chord: chordRef.current, cameraSlopeDegrees: 3, cameraFocusZ: -1.0,
         canvasLabel: `${copy.title}. ${copy.keyboard}`,
         onError: () => { failed = true; reportFailure(); },
         onInteraction: () => { if (!cancelled) setView('custom'); },
         onPoseStatus: reportHand,
       });
-      if (!failed) setStatus('ready');
+      if (!failed) { sceneRef.current?.setFingerMarkersVisible(markersRef.current); setStatus('ready'); }
     }, () => {
       if (!cancelled) { setModuleFailed(true); reportFailure(); }
     }).catch(reportFailure);
     return () => { cancelled = true; sceneRef.current?.dispose(); sceneRef.current = null; };
   }, [attempt]);
 
+  useEffect(() => {
+    const close = event => {
+      if (!menuRef.current?.open) return;
+      if (event.type === 'keydown' && event.key === 'Escape') {
+        menuRef.current.open = false; menuRef.current.querySelector('summary')?.focus();
+      } else if (event.type === 'pointerdown' && !menuRef.current.contains(event.target)) menuRef.current.open = false;
+    };
+    document.addEventListener('pointerdown', close); document.addEventListener('keydown', close);
+    return () => { document.removeEventListener('pointerdown', close); document.removeEventListener('keydown', close); };
+  }, []);
+  useLayoutEffect(() => { sceneRef.current?.setFingerMarkersVisible(markersVisible); }, [markersVisible, status]);
+
   // Close the previous inspection and synchronize its rig before the next UI paint.
   useLayoutEffect(() => { sceneRef.current?.setChord(chord); }, [chord]);
-  const action = (callback) => { if (status !== 'ready' || !sceneRef.current) return; setView('custom'); callback(sceneRef.current); };
   const changeView = (name) => {
     if (status !== 'ready' || !sceneRef.current) return;
     sceneRef.current.preset(name); setView(name);
+    if (menuRef.current?.open) { menuRef.current.open = false; menuRef.current.querySelector('summary')?.focus({ preventScroll: true }); }
   };
   const retry = () => {
     if (moduleFailed) retryFailedSceneModule();
@@ -112,38 +128,25 @@ export default function GuitarNeckViewer({ chord, onPoseStatus }) {
   return (
     <section className="practice-viewer" data-practice-status={status} aria-labelledby="practice-viewer-title">
       <h2 id="practice-viewer-title" className="practice-sr-only">{copy.title}</h2>
-      <details className="practice-camera-views"><summary>{LANG === 'en' ? 'Camera views' : 'มุมมอง'}</summary>
-      <div className="practice-viewer-presets" role="group" aria-label={LANG === 'en' ? 'Camera view' : 'มุมมองกล้อง'}>
-        {CAMERA_PRESETS.map(({ id, th, en }) => <button type="button" key={id} data-camera-preset={id}
-          disabled={status !== 'ready'} aria-pressed={view === id} onClick={() => changeView(id)}>{LANG === 'en' ? en : th}</button>)}
-      </div></details>
+      <div className="practice-model-toolbar">
+        <p><span className="practice-desktop-hint">{LANG === 'en' ? 'Drag to rotate · Scroll to zoom' : 'ลากเพื่อหมุน · เลื่อนเพื่อซูม'}</span><span className="practice-touch-hint">{LANG === 'en' ? 'Drag to rotate · Pinch to zoom' : 'ลากเพื่อหมุน · จีบเพื่อซูม'}</span></p>
+        <details className="practice-camera-views" ref={menuRef}><summary>{LANG === 'en' ? 'Views' : 'มุมมอง'}<PracticeIcon name="chevron" size={14} /></summary>
+          <div className="practice-viewer-presets" role="group" aria-label={LANG === 'en' ? 'Camera view' : 'มุมมองกล้อง'}>
+            {CAMERA_PRESETS.filter(item => item.id !== 'angle').map(({ id, th, en }) => <button type="button" key={id} data-camera-preset={id} disabled={status !== 'ready'} aria-pressed={view === id} onClick={() => changeView(id)}>{LANG === 'en' ? en : th}</button>)}
+            {assetStatus === 'ready' && handStatus === 'needs-review' && inspectionAllowed && <button type="button" className="practice-menu-hand" data-practice-hand-review aria-pressed={reviewMode} onClick={() => setShowHand(value => !value)}><PracticeIcon name="eye" size={15} />{LANG === 'en' ? '3D hand' : 'มือ 3D'}</button>}
+          </div>
+        </details>
+      </div>
       <div className="practice-canvas-stage">
         <div ref={hostRef} className="practice-canvas-host" aria-hidden={status === 'error' ? true : undefined} />
-        {status === 'loading' && <div className="practice-scene-state" role="status" aria-live="polite">
-          <GuitarIcon size={42} /><p>{copy.loading}</p><span className="practice-loading-track" aria-hidden="true" />
-        </div>}
-        {status === 'error' && <div className="practice-scene-state practice-scene-error" role="alert">
-          <GuitarIcon size={38} /><h3>{copy.failed}</h3><p>{copy.failureText}</p>
-          <button data-practice-retry type="button" onClick={retry}><ReturnIcon size={17} />{copy.retry}</button>
-        </div>}
+        {status === 'loading' && <div className="practice-scene-state" role="status" aria-live="polite"><GuitarIcon size={34} /><p>{copy.loading}</p><span className="practice-loading-track" aria-hidden="true" /></div>}
+        {status === 'error' && <div className="practice-scene-state practice-scene-error" role="alert"><GuitarIcon size={34} /><h3>{copy.failed}</h3><p>{copy.failureText}</p><button data-practice-retry type="button" onClick={retry}><ReturnIcon size={17} />{copy.retry}</button></div>}
       </div>
-      {status === 'ready' && <div className="practice-hand-state" data-hand-asset-status={assetStatus}
-        data-hand-pose-status={handStatus} data-hand-inspection-allowed={inspectionAllowed} data-hand-display-preference={showHand}>
-        {assetStatus === 'error' && <p className="practice-hand-load-error" role="alert">{copy.handError}</p>}
-        {assetStatus === 'error' && <button type="button" data-practice-hand-retry onClick={() => sceneRef.current?.retryHand()}><ReturnIcon size={16} />{copy.retryHand}</button>}
-        {assetStatus === 'ready' && handStatus === 'needs-review' && inspectionAllowed && <button type="button" data-practice-hand-review
-          aria-pressed={reviewMode} onClick={() => setShowHand((value) => !value)}>{reviewMode ? copy.hideReview : copy.review}</button>}
-      </div>}
-      <div className="practice-camera-controls" role="group" aria-label={LANG === 'en' ? 'Camera controls' : 'ควบคุมกล้อง'}>
-        <div>
-          <button type="button" aria-label={copy.left} disabled={status !== 'ready'} onClick={() => action((api) => api.rotate(-.2))}><span aria-hidden="true">↶</span></button>
-          <button type="button" aria-label={copy.right} disabled={status !== 'ready'} onClick={() => action((api) => api.rotate(.2))}><span aria-hidden="true">↷</span></button>
-          <span className="practice-control-divider" aria-hidden="true" />
-          <button type="button" aria-label={copy.zoomOut} disabled={status !== 'ready'} onClick={() => action((api) => api.zoom(1.18))}><span aria-hidden="true">−</span></button>
-          <button type="button" aria-label={copy.zoomIn} disabled={status !== 'ready'} onClick={() => action((api) => api.zoom(.85))}><PlusIcon size={19} /></button>
-        </div>
-        <button className="practice-camera-reset" type="button" aria-label={copy.reset} disabled={status !== 'ready'} onClick={() => changeView('angle')}><ReturnIcon size={17} /><span>{copy.reset}</span></button>
+      <div className="practice-hand-state" data-hand-asset-status={assetStatus} data-hand-pose-status={handStatus} data-hand-inspection-allowed={inspectionAllowed} data-hand-display-preference={showHand}>
+        {status === 'ready' && assetStatus === 'error' && <><p className="practice-hand-load-error" role="alert">{copy.handError}</p><button type="button" data-practice-hand-retry onClick={() => sceneRef.current?.retryHand()}><ReturnIcon size={16} />{copy.retryHand}</button></>}
       </div>
+      <PracticeControlBar audio={audio} ready={status === 'ready'} markersVisible={markersVisible} onMarkersChange={() => setMarkersVisible(value => !value)} onReset={() => changeView('angle')} />
+      {audio.error && <p className="practice-audio-error" role="alert">{LANG === 'en' ? 'Sound is unavailable. Tap Listen to try again.' : 'ยังเล่นเสียงไม่ได้ แตะฟังเสียงเพื่อลองอีกครั้ง'}</p>}
       <p className="practice-sr-only" id="practice-camera-help">{copy.keyboard}</p>
     </section>
   );

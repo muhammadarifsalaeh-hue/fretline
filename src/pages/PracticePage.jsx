@@ -1,198 +1,185 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { LANG } from '@/i18n';
 import ChordDiagram from '@/features/practice/components/ChordDiagram';
 import GuitarNeckViewer from '@/features/practice/components/GuitarNeckViewer';
-import { PRACTICE_CHORDS, CHORD_TYPES } from '@/features/practice/data/chords';
+import PracticeIcon from '@/features/practice/components/PracticeIcons';
+import { useChordAudio } from '@/features/practice/hooks/useChordAudio';
+import { PRACTICE_CHORDS, CHORD_TYPES, PRACTICE_CHORD_BY_ID } from '@/features/practice/data/chords';
 import '@/styles/practice.css';
-import '@/styles/practice-refinement.css';
+import '@/styles/practice-minimal.css';
 
-const COPY = {
-  th: {
-    docTitle: 'ฝึกคอร์ดกีตาร์ 3D | Fretline', home: 'หน้าหลัก', practice: 'ฝึกกีตาร์',
-    eyebrow: 'ฝึกคอร์ดทีละขั้น', intro: 'ฝึกทีละคอร์ด เข้าใจทุกตำแหน่ง',
-    description: 'สำรวจคอกีตาร์ 3D พร้อมผังคอร์ด 42 แบบ เลือกมุมที่ถนัด แล้วค่อย ๆ วางนิ้วตามผัง',
-    stage: 'พื้นที่ฝึกกีตาร์', stageTitle: 'มองให้ชัด ฝึกให้มั่นใจ', stageText: 'หมุน ซูม และเปลี่ยนคอร์ดได้ตามจังหวะของคุณ',
-    strings: 'สาย', frets: 'เฟรต', chords: 'คอร์ด', choose: 'ค้นหาคอร์ดถัดไป',
-    chooseDescription: 'ค้นหาชื่อคอร์ด หรือเลือกประเภทเพื่อจัดชุดฝึกของคุณ', chooseLabel: 'เลือกคอร์ด',
-    explore: 'คอร์ดเดียวกัน มองได้ทุกมุม', exploreDescription: 'ลากเพื่อหมุน · จีบนิ้วเพื่อซูม · มีปุ่มปรับมุมมองให้เลือก',
-    selected: 'คอร์ดที่เลือก', positioning: 'ตำแหน่งวางนิ้ว', finger: 'นิ้ว', string: 'สาย', fret: 'เฟรต',
-    fingerNames: ['นิ้วชี้', 'นิ้วกลาง', 'นิ้วนาง', 'นิ้วก้อย'], barre: 'ทาบสาย', stringsRange: 'สาย',
-    open: 'สายเปิด', muted: 'ไม่เล่นสาย', none: 'ไม่มี', diagramView: 'มองตรงเข้าหาฟิงเกอร์บอร์ด สาย 6 (E ต่ำ) อยู่ซ้าย',
-    diagramLegend: 'เลขบนจุดคือหมายเลขนิ้ว · แถบทองคือทาบสาย · ○ สายเปิด · × ไม่เล่นสาย',
-    tuning: 'การตั้งสายมาตรฐาน', preview: 'ฝึกจากผังทีละขั้น',
-    previewText: 'เริ่มจากสายที่ต้องกด ตรวจสายเปิดและสายที่ไม่เล่น แล้วดีดช้า ๆ ทีละสาย ผังคอร์ดและสถานะการตรวจท่ามือแสดงแยกกันสำหรับแต่ละคอร์ด',
-    modelNote: 'แบบจำลองเพื่อศึกษาโครงสร้างคอกีตาร์ ไม่ได้แสดงกีตาร์รุ่นใดในแคตตาล็อก', catalog: 'สำรวจกีตาร์ในแคตตาล็อก',
-    search: 'ค้นหาคอร์ด', searchPlaceholder: 'เช่น C, Am, dominant 7…', clearSearch: 'ล้างคำค้น', allTypes: 'ทุกประเภท', typeFilter: 'ประเภทคอร์ด',
-    results: 'คอร์ดที่พบ', clearFilters: 'ล้างตัวกรอง', empty: 'ยังไม่พบคอร์ดที่ตรงกัน', emptyText: 'ลองใช้ชื่อสั้น ๆ เช่น C หรือ Am หรือเลือกประเภทอื่น',
-    previous: 'คอร์ดก่อนหน้า', next: 'คอร์ดถัดไป', navigation: 'เปลี่ยนคอร์ดในผลการค้นหา', currentOutside: 'คอร์ดที่เลือกอยู่นอกผลการค้นหา',
-    keyboard: 'คีย์บอร์ด: ใช้ลูกศรเลือกคอร์ด · Home / End ไปคอร์ดแรก / สุดท้าย',
-    diagramStatus: 'ผังคอร์ด', handStatus: 'ท่ามือ 3D', voicing: 'รูปแบบการจับ', instructions: 'แนวทางฝึก',
-    statusVerified: 'ตรวจแล้ว', statusReview: 'ต้องตรวจทาน', statusUnavailable: 'ยังไม่พร้อม',
-    handUnavailable: 'ยังไม่มีท่ามือที่ผ่านการตรวจสำหรับคอร์ดนี้', selectedAnnouncement: 'คอร์ดที่เลือก: ',
-  },
-  en: {
-    docTitle: 'Guitar Practice Studio — 3D Chords | Fretline', home: 'Home', practice: 'Practice',
-    eyebrow: 'THE ART OF YOUR NEXT CHORD', intro: 'One chord at a time. Every position, understood.',
-    description: 'Explore a 3D guitar neck and 42 chord diagrams. Find your angle, then work through each finger position.',
-    stage: 'YOUR PRACTICE SPACE', stageTitle: 'See clearly. Practice with purpose.', stageText: 'Rotate, zoom and change chords at your own pace',
-    strings: 'strings', frets: 'frets', chords: 'chords', choose: 'Find your next chord',
-    chooseDescription: 'Search by chord name or choose a type to shape your practice.', chooseLabel: 'Choose chord',
-    explore: 'One chord. Every perspective.', exploreDescription: 'Drag to rotate · Pinch to zoom · Camera buttons also available',
-    selected: 'Selected chord', positioning: 'Finger positions', finger: 'Finger', string: 'String', fret: 'Fret',
-    fingerNames: ['Index finger', 'Middle finger', 'Ring finger', 'Little finger'], barre: 'Barre', stringsRange: 'strings',
-    open: 'Open strings', muted: 'Muted strings', none: 'None', diagramView: 'Front view of the fingerboard. String 6 (low E) is on the left.',
-    diagramLegend: 'Dot numbers are fingers · Gold bars are barres · ○ open string · × do not play',
-    tuning: 'Standard tuning', preview: 'Work through the diagram',
-    previewText: 'Start with the fretted notes, check the open and muted strings, then pick slowly through each string. Diagram accuracy and 3D hand review are shown separately for every chord.',
-    modelNote: 'A generic study model of a guitar neck; it does not represent a catalog model.', catalog: 'Explore the guitar catalog',
-    search: 'Search chords', searchPlaceholder: 'Try C, Am, dominant 7…', clearSearch: 'Clear search', allTypes: 'All types', typeFilter: 'Chord type',
-    results: 'chords found', clearFilters: 'Clear filters', empty: 'No matching chords', emptyText: 'Try a short name such as C or Am, or choose another chord type.',
-    previous: 'Previous chord', next: 'Next chord', navigation: 'Browse chords in search results', currentOutside: 'Selected chord is outside these results',
-    keyboard: 'Keyboard: arrows choose a chord · Home / End go to the first / last chord',
-    diagramStatus: 'Chord diagram', handStatus: '3D hand pose', voicing: 'Voicing', instructions: 'Practice notes',
-    statusVerified: 'Verified', statusReview: 'Needs review', statusUnavailable: 'Unavailable',
-    handUnavailable: 'A reviewed hand pose is not available for this chord', selectedAnnouncement: 'Selected chord: ',
-  },
+const EN = LANG === 'en';
+const localized = value => typeof value === 'string' ? value : value?.[LANG] ?? value?.th ?? value?.en ?? '';
+const normalize = value => value.toLocaleLowerCase().normalize('NFKC').replaceAll('♯', '#').replaceAll('♭', 'b').replace(/\s+/g, ' ').trim();
+const BASIC_IDS = new Set(['C', 'D', 'E', 'F', 'G', 'A', 'Dm', 'Em', 'Am']);
+const POPULAR = ['C', 'G', 'D', 'Am', 'Em', 'F', 'Dm', 'E7'].map(id => PRACTICE_CHORD_BY_ID[id]);
+const FILTERS = [
+  { id: '', label: EN ? 'All' : 'ทั้งหมด' }, { id: 'basic', label: EN ? 'Basics' : 'พื้นฐาน' },
+  { id: 'major', label: 'Major' }, { id: 'minor', label: 'Minor' }, { id: 'dominant7', label: '7' },
+  { id: 'major7', label: 'Maj7' }, { id: 'minor7', label: 'm7' }, { id: 'suspended', label: 'Sus' },
+];
+const COPY = EN ? {
+  title: 'Guitar practice', subtitle: 'Choose a chord. Find your angle. Make it yours.', choose: 'Choose chord', search: 'Search chords', placeholder: 'Search C, Am…',
+  types: 'Chord type', clear: 'Clear search', results: 'chords', clearFilters: 'Clear filters', empty: 'No matching chords', emptyText: 'Try another name or chord type.',
+  previous: 'Previous chord', next: 'Next chord', outside: 'Outside these results', selected: 'Selected chord', positions: 'Finger positions', string: 'String', fret: 'Fret',
+  fingers: ['Index', 'Middle', 'Ring', 'Little'], barre: 'Barre', open: 'Open strings', muted: 'Muted strings', none: 'None', notes: 'Practice notes',
+  listen: 'Listen to chord', stop: 'Stop chord', popular: 'Popular chords', left: 'Previous popular chords', right: 'Next popular chords',
+  keyboard: 'Arrow keys select a chord. Home and End go to the first and last chord.', announcement: 'Selected chord: ', credits: 'Model credits',
+} : {
+  title: 'ฝึกกีตาร์', subtitle: 'เลือกคอร์ด แล้วค่อย ๆ ฝึกในมุมที่ถนัด', choose: 'เลือกคอร์ด', search: 'ค้นหาคอร์ด', placeholder: 'ค้นหา เช่น C, Am…',
+  types: 'ประเภทคอร์ด', clear: 'ล้างคำค้น', results: 'คอร์ด', clearFilters: 'ล้างตัวกรอง', empty: 'ยังไม่พบคอร์ด', emptyText: 'ลองค้นหาชื่อหรือเลือกประเภทอื่น',
+  previous: 'คอร์ดก่อนหน้า', next: 'คอร์ดถัดไป', outside: 'อยู่นอกผลค้นหา', selected: 'คอร์ดที่เลือก', positions: 'ตำแหน่งนิ้ว', string: 'สาย', fret: 'เฟรต',
+  fingers: ['นิ้วชี้', 'นิ้วกลาง', 'นิ้วนาง', 'นิ้วก้อย'], barre: 'ทาบสาย', open: 'สายเปิด', muted: 'ไม่เล่นสาย', none: 'ไม่มี', notes: 'แนวทางฝึก',
+  listen: 'ฟังเสียงคอร์ด', stop: 'หยุดเสียงคอร์ด', popular: 'คอร์ดยอดนิยม', left: 'เลื่อนคอร์ดยอดนิยมไปทางซ้าย', right: 'เลื่อนคอร์ดยอดนิยมไปทางขวา',
+  keyboard: 'ใช้ลูกศรเลือกคอร์ด · Home / End ไปคอร์ดแรก / สุดท้าย', announcement: 'คอร์ดที่เลือก: ', credits: 'สิทธิ์และเครดิตโมเดล',
 };
-
-const localized = (value) => typeof value === 'string' ? value : value?.[LANG] ?? value?.en ?? value?.th ?? '';
-const normalizeSearch = (value) => value.toLocaleLowerCase().normalize('NFKC').replaceAll('♯', '#').replaceAll('♭', 'b').replace(/\s+/g, ' ').trim();
-const statusValue = (value) => ['verified', 'needs-review', 'unavailable'].includes(value) ? value : 'unavailable';
+const ChordOption = memo(function ChordOption({ item, selected, index, focusable, onChoose, onKeyDown, optionRefs }) {
+  return <button type="button" className="practice-chord-option" data-practice-chord={item.id} aria-pressed={selected}
+    aria-label={COPY.choose + ' ' + item.fullName} tabIndex={focusable ? 0 : -1}
+    ref={node => { if (node) optionRefs.current.set(item.id, node); else optionRefs.current.delete(item.id); }}
+    onClick={() => onChoose(item.id)} onKeyDown={event => onKeyDown(event, index)}>
+    <ChordDiagram chord={item} compact />
+    <span className="practice-chord-option-text"><strong lang="en">{item.name}</strong><span lang="en">{item.fullName}</span></span>
+    <span className="practice-option-indicator" aria-hidden="true" />
+  </button>;
+});
 
 export default function PracticePage() {
-  const copy = COPY[LANG] ?? COPY.th;
   const [params, setParams] = useSearchParams();
   const [poseStatus, setPoseStatus] = useState(null);
-  const optionRefs = useRef(new Map());
+  const [popularEdges, setPopularEdges] = useState({ start: true, end: false });
+  const optionRefs = useRef(new Map()), libraryRef = useRef(null), popularRef = useRef(null);
   const query = params.get('q') ?? '';
-  const type = CHORD_TYPES.some((item) => item.id === params.get('type')) ? params.get('type') : '';
-  const chord = PRACTICE_CHORDS.find((item) => item.id === params.get('chord')) ?? PRACTICE_CHORDS.find((item) => item.id === 'C') ?? PRACTICE_CHORDS[0];
+  const type = FILTERS.some(item => item.id === params.get('type')) ? params.get('type') : '';
+  const chord = PRACTICE_CHORD_BY_ID[params.get('chord')] ?? PRACTICE_CHORD_BY_ID.C;
+  const audio = useChordAudio(chord);
   const results = useMemo(() => {
-    const normalizedQuery = normalizeSearch(query);
-    const terms = normalizedQuery.split(' ').filter(Boolean);
-    const rootOnly = /^[a-g](?:#|b)?$/.test(normalizedQuery);
-    return PRACTICE_CHORDS.filter((item) => {
-      if (type && item.type !== type) return false;
-      if (rootOnly) return normalizeSearch(item.root) === normalizedQuery;
-      const chordType = CHORD_TYPES.find((entry) => entry.id === item.type);
-      const searchable = normalizeSearch([item.id, item.name, item.fullName, item.root, item.quality, item.type, localized(item.voicing), chordType?.label?.th, chordType?.label?.en].filter(Boolean).join(' '));
-      return terms.every((term) => searchable.includes(term));
+    const terms = normalize(query).split(' ').filter(Boolean), rootOnly = /^[a-g](?:#|b)?$/.test(normalize(query));
+    return PRACTICE_CHORDS.filter(item => {
+      if (type === 'basic' && !BASIC_IDS.has(item.id)) return false;
+      if (type && type !== 'basic' && item.type !== type) return false;
+      if (rootOnly) return normalize(item.root) === normalize(query);
+      const quality = CHORD_TYPES.find(entry => entry.id === item.type);
+      const text = normalize([item.id, item.name, item.fullName, item.quality, item.type, quality?.label.th, quality?.label.en].join(' '));
+      return terms.every(term => text.includes(term));
     });
   }, [query, type]);
-  const resultIndex = results.findIndex((item) => item.id === chord.id);
-  const hasFilters = Boolean(query || type);
-  const fingerings = chord.frets.flatMap((fret, index) => fret > 0 ? [{ string: 6 - index, fret, finger: chord.fingers[index], note: chord.notes?.[index] }] : [])
-    .sort((a, b) => a.finger - b.finger || b.string - a.string);
-  const barres = chord.barres ?? [];
-  const instructions = chord.instructions?.[LANG] ?? chord.instructions?.en ?? [];
-  const handPose = poseStatus?.chordId === chord.id ? poseStatus : chord.handPose;
-  const handStatus = statusValue(handPose?.status);
-  const diagramStatus = statusValue(chord.diagramStatus?.status);
-  const stringsFor = (value) => chord.frets.flatMap((fret, index) => fret === value ? [6 - index] : []).join(', ') || copy.none;
-
-  useEffect(() => { document.title = copy.docTitle; }, [copy.docTitle]);
-
-  // Selection and filters have one source of truth, so shared URLs and history agree.
-  const update = (patch, replace = false) => {
-    const next = { chord: chord.id, q: query, type, ...patch };
-    const search = new URLSearchParams(params);
+  const resultIndex = results.findIndex(item => item.id === chord.id);
+  const update = useCallback(patch => {
+    const next = { chord: chord.id, q: query, type, ...patch }, search = new URLSearchParams(params);
     search.set('chord', next.chord);
-    if (next.q) search.set('q', next.q); else search.delete('q');
-    if (next.type) search.set('type', next.type); else search.delete('type');
-    setParams(search, { replace, preventScrollReset: true });
-  };
-  const choose = (id) => update({ chord: id });
-  const navigate = (direction) => {
+    for (const name of ['q', 'type']) { if (next[name]) search.set(name, next[name]); else search.delete(name); }
+    setParams(search, { replace: Boolean(patch.replace), preventScrollReset: true });
+  }, [params, setParams, chord.id, query, type]);
+  const choose = useCallback(id => update({ chord: id }), [update]);
+  const choosePopular = id => update({ chord: id, q: '', type: '' });
+  const navigate = direction => {
     if (results.length < 2) return;
-    const index = resultIndex < 0 ? (direction > 0 ? 0 : results.length - 1) : (resultIndex + direction + results.length) % results.length;
-    choose(results[index].id);
+    choose(results[resultIndex < 0 ? direction > 0 ? 0 : results.length - 1 : (resultIndex + direction + results.length) % results.length].id);
   };
-  const onOptionKeyDown = (event, index) => {
-    let nextIndex;
-    if (event.key === 'ArrowRight' || event.key === 'ArrowDown') nextIndex = (index + 1) % results.length;
-    else if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') nextIndex = (index - 1 + results.length) % results.length;
-    else if (event.key === 'Home') nextIndex = 0;
-    else if (event.key === 'End') nextIndex = results.length - 1;
+  const onOptionKeyDown = useCallback((event, index) => {
+    if (event.ctrlKey || event.metaKey || event.altKey) return;
+    let next;
+    if (['ArrowRight', 'ArrowDown'].includes(event.key)) next = (index + 1) % results.length;
+    else if (['ArrowLeft', 'ArrowUp'].includes(event.key)) next = (index - 1 + results.length) % results.length;
+    else if (event.key === 'Home') next = 0;
+    else if (event.key === 'End') next = results.length - 1;
     else return;
-    event.preventDefault();
-    choose(results[nextIndex].id);
-    optionRefs.current.get(results[nextIndex].id)?.focus({ preventScroll: true });
+    event.preventDefault(); choose(results[next].id); optionRefs.current.get(results[next].id)?.focus({ preventScroll: true });
+  }, [results, choose]);
+  useEffect(() => { document.title = EN ? 'Guitar Practice 3D | Fretline' : 'ฝึกกีตาร์ 3D | Fretline'; }, []);
+  useEffect(() => {
+    // Scroll only the library itself; choosing a chord must not jump the page.
+    const list = libraryRef.current, node = optionRefs.current.get(chord.id);
+    if (!list || !node) return;
+    const box = list.getBoundingClientRect(), selected = node.getBoundingClientRect();
+    if (getComputedStyle(list).flexDirection === 'row') {
+      if (selected.left < box.left || selected.right > box.right) list.scrollLeft += selected.left - box.left - (box.width - selected.width) / 2;
+    } else if (selected.top < box.top || selected.bottom > box.bottom) list.scrollTop += selected.top - box.top - (box.height - selected.height) / 2;
+  }, [chord.id, results]);
+  useEffect(() => {
+    const list = popularRef.current;
+    if (!list) return;
+    let frame = 0;
+    const measure = () => {
+      frame = 0;
+      const start = list.scrollLeft <= 2, end = list.scrollLeft + list.clientWidth >= list.scrollWidth - 2;
+      setPopularEdges(previous => previous.start === start && previous.end === end ? previous : { start, end });
+    };
+    const schedule = () => { if (!frame) frame = requestAnimationFrame(measure); };
+    const observer = new ResizeObserver(schedule); observer.observe(list);
+    list.addEventListener('scroll', schedule, { passive: true }); measure();
+    return () => { observer.disconnect(); list.removeEventListener('scroll', schedule); cancelAnimationFrame(frame); };
+  }, []);
+  const slidePopular = direction => {
+    const list = popularRef.current;
+    if (list) list.scrollBy({ left: direction * Math.max(160, list.clientWidth * .7), behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
   };
+  const fingerings = chord.frets.flatMap((fret, index) => fret > 0 ? [{ string: 6 - index, fret, finger: chord.fingers[index], note: chord.notes[index] }] : [])
+    .sort((a, b) => a.finger - b.finger || b.string - a.string);
+  const stringsFor = value => chord.frets.flatMap((fret, index) => fret === value ? [6 - index] : []).join(', ') || COPY.none;
+  const instructions = chord.instructions?.[LANG] ?? chord.instructions.en;
+  const handStatus = poseStatus?.chordId === chord.id ? poseStatus.status : chord.handPose.status;
 
-  return (
-    <div className="practice-page practice-refined">
-      <header className="practice-intro container-x">
-        <h1>{LANG === 'en' ? <>Guitar <span>Practice Studio</span></> : <>ฝึกคอร์ด<span>กีตาร์</span></>}</h1>
-        <p className="practice-intro-description">{LANG === 'en' ? 'Choose a chord, check each finger, and practice with the 3D neck.' : 'เลือกคอร์ด ดูตำแหน่งนิ้ว และฝึกไปพร้อมกับคอกีตาร์ 3D'}</p>
-      </header>
-
-      <div className="practice-workspace container-x">
-        <section className="practice-studio" aria-label={copy.explore}>
-          <div className="practice-studio-layout">
-            <div className="practice-viewer-column">
-              <GuitarNeckViewer chord={chord} onPoseStatus={setPoseStatus} />
-            </div>
-            <aside className="practice-chord-detail" aria-labelledby="practice-selected-title" data-practice-active-chord={chord.id}
-              data-diagram-status={diagramStatus} data-hand-pose-status={handStatus}>
-              <div className={`practice-selected-heading${chord.name.length > 3 ? ' has-long-name' : ''}`}><h2 id="practice-selected-title" lang="en">{chord.name}</h2><span lang="en">{chord.fullName}</span></div>
-              <p className="practice-sr-only" role="status" aria-live="polite" aria-atomic="true">{copy.selectedAnnouncement}{chord.fullName ?? chord.name}</p>
-              <div className="practice-diagram-wrap"><ChordDiagram chord={chord} /></div>
-              <div className="practice-fingering">
-                <h3>{copy.positioning}</h3>
-                <ul>{fingerings.map(({ string, fret, finger, note }) => <li key={string} data-finger-instruction={finger} data-string={string} data-fret={fret}>
-                  <span className="practice-finger-number" aria-hidden="true">{finger}</span>
-                  <span><strong>{copy.fingerNames[finger - 1] ?? copy.finger + ' ' + finger}</strong><span>{copy.string} {string} <span aria-hidden="true">·</span> {copy.fret} {fret}{note && <span lang="en"> · {note}</span>}</span></span>
-                </li>)}</ul>
-                {barres.length > 0 && <div className="practice-barre-instructions">{barres.map((barre, index) => <p key={index} data-barre-instruction={index}><strong>{copy.barre} · {copy.fingerNames[barre.finger - 1]}</strong><span>{copy.fret} {barre.fret} · {copy.stringsRange} {barre.fromString}–{barre.toString}</span></p>)}</div>}
-              </div>
-              <div className="practice-playing-notes">
-                <dl className="practice-string-status"><div><dt>{copy.open}</dt><dd>{stringsFor(0)}</dd></div><div><dt>{copy.muted}</dt><dd>{stringsFor(null)}</dd></div></dl>
-                {instructions.length > 0 && <details className="practice-instructions"><summary>{copy.instructions}</summary><ol>{instructions.map((instruction, index) => <li key={index}>{instruction}</li>)}</ol></details>}
-              </div>
-            </aside>
-            <div className="practice-chord-navigation" role="group" aria-label={copy.navigation}>
-              <button type="button" data-practice-previous disabled={results.length < 2} onClick={() => navigate(-1)}><span aria-hidden="true">←</span>{copy.previous}</button>
-              <span className="practice-navigation-count" aria-live="polite">{resultIndex >= 0 ? (resultIndex + 1) + ' / ' + results.length : copy.currentOutside}</span>
-              <button type="button" data-practice-next disabled={results.length < 2} onClick={() => navigate(1)}>{copy.next}<span aria-hidden="true">→</span></button>
-            </div>
-          </div>
-        </section>
+  return <div className="practice-page practice-minimal" data-practice-edition="premium-minimal" data-audio-status={audio.state.status}
+    data-audio-rate={audio.rate} data-audio-tones={audio.state.tones ? JSON.stringify(audio.state.tones) : undefined}>
+    <div className="practice-shell container-x">
+      <div className="practice-main-grid">
+        <header className="practice-intro">
+          <p className="practice-minimal-eyebrow">PRACTICE 3D</p>
+          <h1>{COPY.title} <span>3D</span></h1>
+          <p className="practice-intro-description">{COPY.subtitle}</p>
+        </header>
 
         <section className="practice-chord-library" aria-labelledby="practice-choose-title">
-          <div className="practice-section-heading"><h2 id="practice-choose-title">{copy.chooseLabel}</h2></div>
+          <div className="practice-library-heading"><h2 id="practice-choose-title">{COPY.choose}</h2><span>{PRACTICE_CHORDS.length} {COPY.results}</span></div>
           <div className="practice-library-toolbar">
-            <div className="practice-search-field">
-              <label className="practice-sr-only" htmlFor="practice-chord-search">{copy.search}</label>
-              <div><span aria-hidden="true" className="practice-search-icon">⌕</span><input id="practice-chord-search" type="search" value={query} autoComplete="off" placeholder={copy.searchPlaceholder} onChange={(event) => update({ q: event.target.value }, true)} />
-                {query && <button type="button" className="practice-search-clear" aria-label={copy.clearSearch} onClick={() => update({ q: '' })}><span aria-hidden="true">×</span></button>}
-              </div>
+            <div className="practice-search-field"><label htmlFor="practice-chord-search" className="practice-sr-only">{COPY.search}</label>
+              <PracticeIcon name="search" size={16} /><input id="practice-chord-search" type="search" value={query} autoComplete="off" placeholder={COPY.placeholder} onChange={event => update({ q: event.target.value, replace: true })} />
+              {query && <button type="button" aria-label={COPY.clear} onClick={() => update({ q: '' })}>×</button>}
             </div>
-            <div className={`practice-result-summary${hasFilters ? '' : ' practice-sr-only'}`}><p role="status" aria-live="polite" aria-atomic="true" data-practice-result-count={results.length}><strong>{results.length}</strong> {copy.results} <span> / {PRACTICE_CHORDS.length}</span></p>{hasFilters && <button type="button" onClick={() => update({ q: '', type: '' })}>{copy.clearFilters}</button>}</div>
+            <label className="practice-mobile-type"><span className="practice-sr-only">{COPY.types}</span><select aria-label={COPY.types} value={type} onChange={event => update({ type: event.target.value })}>{FILTERS.map(item => <option key={item.id} value={item.id}>{item.label}</option>)}</select><PracticeIcon name="chevron" size={14} /></label>
           </div>
-          <div className="practice-type-filters" role="group" aria-label={copy.typeFilter}>
-            {[{ id: '', label: copy.allTypes }, ...CHORD_TYPES].map((item) => <button key={item.id} type="button" data-practice-type={item.id || 'all'} aria-pressed={type === item.id} onClick={() => update({ type: item.id })}>{localized(item.label)}</button>)}
+          <div className="practice-type-filters" role="group" aria-label={COPY.types}>{FILTERS.map(item => <button type="button" key={item.id} data-practice-type={item.id || 'all'} aria-pressed={type === item.id} onClick={() => update({ type: item.id })}>{item.label}</button>)}</div>
+          <p className="practice-sr-only" id="practice-chord-keyboard">{COPY.keyboard}</p>
+          <div ref={libraryRef} className="practice-chord-options" role="group" aria-labelledby="practice-choose-title" aria-describedby="practice-chord-keyboard">
+            {results.map((item, index) => <ChordOption key={item.id} item={item} selected={item.id === chord.id} index={index} focusable={resultIndex < 0 ? index === 0 : index === resultIndex}
+              onChoose={choose} onKeyDown={onOptionKeyDown} optionRefs={optionRefs} />)}
+            {!results.length && <div className="practice-chord-empty"><h3>{COPY.empty}</h3><p>{COPY.emptyText}</p><button type="button" onClick={() => update({ q: '', type: '' })}>{COPY.clearFilters}</button></div>}
           </div>
-          <p className="practice-sr-only" id="practice-chord-keyboard">{copy.keyboard}</p>
-          {results.length > 0 ? <div className="practice-chord-options" role="group" aria-labelledby="practice-choose-title" aria-describedby="practice-chord-keyboard">
-            {results.map((item, index) => <button key={item.id} type="button" className="practice-chord-option"
-              ref={(element) => { if (element) optionRefs.current.set(item.id, element); else optionRefs.current.delete(item.id); }}
-              aria-pressed={chord.id === item.id} aria-label={copy.chooseLabel + ' ' + (item.fullName ?? item.name)}
-              data-practice-chord={item.id} onClick={() => choose(item.id)} onKeyDown={(event) => onOptionKeyDown(event, index)}>
-              <span className="practice-chord-name" lang="en">{item.name}</span>
-              <span className="practice-chord-quality" lang="en">{item.quality}</span>
-              <ChordDiagram chord={item} compact />
-              <span className="practice-chord-selection-line" aria-hidden="true" />
-            </button>)}
-          </div> : <div className="practice-chord-empty"><h3>{copy.empty}</h3><p>{copy.emptyText}</p><button type="button" onClick={() => update({ q: '', type: '' })}>{copy.clearFilters}<span aria-hidden="true">↗</span></button></div>}
+          <div className="practice-chord-navigation" role="group" aria-label={COPY.choose}>
+            <button type="button" data-practice-previous onClick={() => navigate(-1)} disabled={results.length < 2} aria-label={COPY.previous}><PracticeIcon name="left" size={16} /></button>
+            <span className="practice-navigation-count" data-practice-result-count={results.length} aria-live="polite">{resultIndex >= 0 ? `${resultIndex + 1} / ${results.length}` : results.length ? COPY.outside : `0 / ${PRACTICE_CHORDS.length}`}</span>
+            <button type="button" data-practice-next onClick={() => navigate(1)} disabled={results.length < 2} aria-label={COPY.next}><PracticeIcon name="right" size={16} /></button>
+          </div>
         </section>
-        <details className="practice-model-credits"><summary>{LANG === 'en' ? 'Model credits' : 'สิทธิ์และเครดิตโมเดล'}</summary><p>
-          {LANG === 'en' ? 'Hand and skin: ' : 'โมเดลมือและผิว: '}
-          <a href="https://www.makehumancommunity.org/content/license.html" target="_blank" rel="noreferrer">MakeHuman · CC0</a>
-          {' · '}{LANG === 'en' ? 'Sleeve adapted from ' : 'แขนเสื้อดัดแปลงจาก '}
-          <a href="https://static.makehumancommunity.org/assets/assetpacks/shirts02.html" target="_blank" rel="noreferrer">Elvaerwyn · CC-BY</a>
-        </p></details>
+
+        <section className="practice-viewer-column" aria-label={EN ? '3D guitar experience' : 'พื้นที่ฝึกกีตาร์ 3D'}>
+          <GuitarNeckViewer chord={chord} audio={audio} onPoseStatus={setPoseStatus} />
+        </section>
+
+        <aside className="practice-chord-detail" aria-labelledby="practice-selected-title" data-practice-active-chord={chord.id} data-diagram-status={chord.diagramStatus.status} data-hand-pose-status={handStatus}>
+          <p className="practice-detail-eyebrow">{COPY.selected}</p>
+          <div className="practice-selected-heading"><h2 id="practice-selected-title" lang="en">{chord.fullName}</h2><span lang="en">{chord.name}</span></div>
+          <p className="practice-sr-only" role="status" aria-live="polite" aria-atomic="true">{COPY.announcement}{chord.fullName}</p>
+          <div className="practice-diagram-wrap"><ChordDiagram chord={chord} /></div>
+          <div className="practice-fingering"><h3>{COPY.positions}</h3><ul>{fingerings.map(({ string, fret, finger, note }) => <li key={string} data-finger-instruction={finger} data-string={string} data-fret={fret}>
+            <span className="practice-finger-number" aria-hidden="true">{finger}</span><span><strong>{COPY.fingers[finger - 1]}</strong><span>{COPY.string} {string} · {COPY.fret} {fret}<span lang="en"> · {note}</span></span></span>
+          </li>)}</ul>{chord.barres.length > 0 && <div className="practice-barre-instructions">{chord.barres.map((barre, index) => <p key={index} data-barre-instruction={index}><strong>{COPY.barre} · {COPY.fingers[barre.finger - 1]}</strong><span>{COPY.fret} {barre.fret} · {COPY.string} {barre.fromString}–{barre.toString}</span></p>)}</div>}</div>
+          <dl className="practice-string-status"><div><dt><span aria-hidden="true">○</span> {COPY.open}</dt><dd>{stringsFor(0)}</dd></div><div><dt><span aria-hidden="true">×</span> {COPY.muted}</dt><dd>{stringsFor(null)}</dd></div></dl>
+          <details className="practice-instructions"><summary>{COPY.notes}</summary><ol>{instructions.map((text, index) => <li key={index}>{text}</li>)}</ol></details>
+          <button type="button" className="practice-detail-listen" data-practice-detail-play onClick={audio.toggle} aria-pressed={audio.playing}><PracticeIcon name={audio.playing ? 'stop' : 'sound'} size={17} />{audio.playing ? COPY.stop : COPY.listen}</button>
+        </aside>
       </div>
+
+      <section className="practice-popular" aria-labelledby="practice-popular-title">
+        <div className="practice-popular-heading"><h2 id="practice-popular-title">{COPY.popular}</h2><div><button type="button" onClick={() => slidePopular(-1)} disabled={popularEdges.start} aria-label={COPY.left}><PracticeIcon name="left" /></button><button type="button" onClick={() => slidePopular(1)} disabled={popularEdges.end} aria-label={COPY.right}><PracticeIcon name="right" /></button></div></div>
+        <div className="practice-popular-track" ref={popularRef}>{POPULAR.map(item => <button key={item.id} type="button" className="practice-popular-chord" data-popular-chord={item.id} onClick={() => choosePopular(item.id)} aria-pressed={chord.id === item.id} aria-label={COPY.choose + ' ' + item.fullName}>
+          <ChordDiagram chord={item} compact /><span><strong lang="en">{item.name}</strong><span>{localized(CHORD_TYPES.find(type => type.id === item.type).label)}</span></span>
+        </button>)}</div>
+      </section>
+      <details className="practice-model-credits"><summary>{COPY.credits}</summary><p>{EN ? 'Hand and skin: ' : 'โมเดลมือและผิว: '}<a href="https://www.makehumancommunity.org/content/license.html" target="_blank" rel="noreferrer">MakeHuman · CC0</a>{' · '}{EN ? 'Sleeve adapted from ' : 'แขนเสื้อดัดแปลงจาก '}<a href="https://static.makehumancommunity.org/assets/assetpacks/shirts02.html" target="_blank" rel="noreferrer">Elvaerwyn · CC-BY</a></p></details>
     </div>
-  );
+  </div>;
 }

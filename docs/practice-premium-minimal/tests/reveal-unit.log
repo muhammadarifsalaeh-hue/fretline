@@ -1,0 +1,12 @@
+PASS Only appearance changes; actual bone/root pose remains exact throughout the reveal
+PASS Completion restores each original alpha/transparent state without changing depth settings
+PASS No render or animation work remains after the bounded transition
+PASS Reduced motion reveals immediately and schedules zero frames
+PASS Reduced-motion change before the next reveal is respected
+PASS Enabling reduced motion during a reveal finishes on its next frame and leaves none queued
+PASS Rapid toggle cancellation removes every queued frame and restores original material state
+PASS Retry/reset releases the previous material snapshots before a replacement asset appears
+PASS Dispose cancels the outstanding frame, restores materials and rejects later starts/cancels
+PASS A runtime without animation-frame support uses the immediate fallback
+
+Hand reveal: 10 passed, 0 failed.

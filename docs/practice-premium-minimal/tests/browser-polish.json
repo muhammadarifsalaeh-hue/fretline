@@ -1,0 +1,359 @@
+{
+  "checks": [
+    {
+      "name": "desktop-final-polish",
+      "passed": true,
+      "evidence": {
+        "viewport": [
+          1440,
+          1000
+        ],
+        "touchTargets": [
+          {
+            "x": 540.984375,
+            "y": 774.5,
+            "width": 104,
+            "height": 44
+          },
+          {
+            "x": 657.984375,
+            "y": 775.5,
+            "width": 34,
+            "height": 42
+          },
+          {
+            "x": 734.984375,
+            "y": 775.5,
+            "width": 34,
+            "height": 42
+          },
+          {
+            "x": 798.984375,
+            "y": 774.5,
+            "width": 45,
+            "height": 44
+          },
+          {
+            "x": 853.984375,
+            "y": 774.5,
+            "width": 45,
+            "height": 44
+          }
+        ],
+        "reducedMotion": {
+          "transition": "0s",
+          "animation": "none"
+        },
+        "keyboardFocusOutline": "solid",
+        "idleRenderCountStable": true,
+        "fullPage": true
+      }
+    },
+    {
+      "name": "ipad-landscape-final-polish",
+      "passed": true,
+      "evidence": {
+        "viewport": [
+          1194,
+          834
+        ],
+        "touchTargets": [
+          {
+            "x": 407.984375,
+            "y": 774.5,
+            "width": 104,
+            "height": 44
+          },
+          {
+            "x": 524.984375,
+            "y": 774.5,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "x": 611.984375,
+            "y": 774.5,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "x": 685.984375,
+            "y": 774.5,
+            "width": 45,
+            "height": 44
+          },
+          {
+            "x": 740.984375,
+            "y": 774.5,
+            "width": 45,
+            "height": 44
+          }
+        ],
+        "reducedMotion": {
+          "transition": "0s",
+          "animation": "none"
+        },
+        "keyboardFocusOutline": "solid",
+        "idleRenderCountStable": true,
+        "fullPage": true
+      }
+    },
+    {
+      "name": "ipad-portrait-final-polish",
+      "passed": true,
+      "evidence": {
+        "viewport": [
+          768,
+          1024
+        ],
+        "touchTargets": [
+          {
+            "x": 207.171875,
+            "y": 973.046875,
+            "width": 91.640625,
+            "height": 44
+          },
+          {
+            "x": 308.8125,
+            "y": 973.046875,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "x": 395.8125,
+            "y": 973.046875,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "x": 463.8125,
+            "y": 973.046875,
+            "width": 45,
+            "height": 44
+          },
+          {
+            "x": 515.8125,
+            "y": 973.046875,
+            "width": 45,
+            "height": 44
+          }
+        ],
+        "reducedMotion": {
+          "transition": "0s",
+          "animation": "none"
+        },
+        "keyboardFocusOutline": "solid",
+        "idleRenderCountStable": true,
+        "fullPage": true
+      }
+    },
+    {
+      "name": "mobile-final-polish",
+      "passed": true,
+      "evidence": {
+        "viewport": [
+          390,
+          844
+        ],
+        "touchTargets": [
+          {
+            "x": 52.5,
+            "y": 906.953125,
+            "width": 46,
+            "height": 44
+          },
+          {
+            "x": 106.5,
+            "y": 906.953125,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "x": 186.5,
+            "y": 906.953125,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "x": 244.5,
+            "y": 906.953125,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "x": 293.5,
+            "y": 906.953125,
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "reducedMotion": {
+          "transition": "0s",
+          "animation": "none"
+        },
+        "keyboardFocusOutline": "solid",
+        "idleRenderCountStable": true,
+        "fullPage": true
+      }
+    },
+    {
+      "name": "small-mobile-final-polish",
+      "passed": true,
+      "evidence": {
+        "viewport": [
+          320,
+          740
+        ],
+        "touchTargets": [
+          {
+            "x": 29.5,
+            "y": 906.953125,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "x": 77.5,
+            "y": 906.953125,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "x": 151.5,
+            "y": 906.953125,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "x": 199.5,
+            "y": 906.953125,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "x": 246.5,
+            "y": 906.953125,
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "reducedMotion": {
+          "transition": "0s",
+          "animation": "none"
+        },
+        "keyboardFocusOutline": "solid",
+        "idleRenderCountStable": true,
+        "fullPage": true
+      }
+    },
+    {
+      "name": "tablet-final-polish",
+      "passed": true,
+      "evidence": {
+        "viewport": [
+          1024,
+          768
+        ],
+        "touchTargets": [
+          {
+            "x": 151.875,
+            "y": 1036.84375,
+            "width": 91.640625,
+            "height": 44
+          },
+          {
+            "x": 253.515625,
+            "y": 1036.84375,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "x": 340.515625,
+            "y": 1036.84375,
+            "width": 44,
+            "height": 44
+          },
+          {
+            "x": 408.515625,
+            "y": 1036.84375,
+            "width": 45,
+            "height": 44
+          },
+          {
+            "x": 460.515625,
+            "y": 1036.84375,
+            "width": 45,
+            "height": 44
+          }
+        ],
+        "reducedMotion": {
+          "transition": "0s",
+          "animation": "none"
+        },
+        "keyboardFocusOutline": "solid",
+        "idleRenderCountStable": true,
+        "fullPage": true
+      }
+    },
+    {
+      "name": "wide-desktop-final-polish",
+      "passed": true,
+      "evidence": {
+        "viewport": [
+          1920,
+          1080
+        ],
+        "touchTargets": [
+          {
+            "x": 781,
+            "y": 824.5,
+            "width": 104,
+            "height": 44
+          },
+          {
+            "x": 898,
+            "y": 825.5,
+            "width": 34,
+            "height": 42
+          },
+          {
+            "x": 975,
+            "y": 825.5,
+            "width": 34,
+            "height": 42
+          },
+          {
+            "x": 1039,
+            "y": 824.5,
+            "width": 45,
+            "height": 44
+          },
+          {
+            "x": 1094,
+            "y": 824.5,
+            "width": 45,
+            "height": 44
+          }
+        ],
+        "reducedMotion": {
+          "transition": "0s",
+          "animation": "none"
+        },
+        "keyboardFocusOutline": "solid",
+        "idleRenderCountStable": true,
+        "fullPage": true
+      }
+    },
+    {
+      "name": "normal-motion-real-hand-change-and-idle",
+      "passed": true,
+      "evidence": {
+        "realBoneSignatureChanged": true,
+        "idleAfterTransition": true,
+        "heavyAnimationDependencyAdded": false
+      }
+    }
+  ],
+  "errors": [],
+  "physicalIPadSafariTested": false,
+  "passed": true
+}

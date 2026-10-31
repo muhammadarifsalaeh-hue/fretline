@@ -1,0 +1,180 @@
+{
+  "checks": [
+    {
+      "name": "desktop-real-audio-and-speed",
+      "passed": true,
+      "evidence": {
+        "nativeAudioSignal": {
+          "rms": 0.04742213261832864,
+          "peak": 0.14165949821472168,
+          "notes": [
+            {
+              "frequency": 130.8127899169922,
+              "start": 0.025
+            },
+            {
+              "frequency": 164.81378173828125,
+              "start": 0.145
+            },
+            {
+              "frequency": 195.99771118164062,
+              "start": 0.265
+            },
+            {
+              "frequency": 261.6255798339844,
+              "start": 0.385
+            },
+            {
+              "frequency": 329.6275634765625,
+              "start": 0.505
+            }
+          ],
+          "contexts": 1,
+          "state": "running"
+        },
+        "slowerChangesActualSchedule": true,
+        "pitchUnchanged": true,
+        "bothPlayButtonsSynchronized": true,
+        "chordChangeStopsAudio": true,
+        "rateBounds": true,
+        "fingerPoseUnchangedBySound": true,
+        "naturalPlaybackEnds": true,
+        "spaUnmountClosesNativeContext": true
+      }
+    },
+    {
+      "name": "ipad-landscape-real-audio-and-speed",
+      "passed": true,
+      "evidence": {
+        "nativeAudioSignal": {
+          "rms": 0.05236786862492081,
+          "peak": 0.14165949821472168,
+          "notes": [
+            {
+              "frequency": 130.8127899169922,
+              "start": 0.025
+            },
+            {
+              "frequency": 164.81378173828125,
+              "start": 0.145
+            },
+            {
+              "frequency": 195.99771118164062,
+              "start": 0.265
+            },
+            {
+              "frequency": 261.6255798339844,
+              "start": 0.385
+            },
+            {
+              "frequency": 329.6275634765625,
+              "start": 0.505
+            }
+          ],
+          "contexts": 1,
+          "state": "running"
+        },
+        "slowerChangesActualSchedule": true,
+        "pitchUnchanged": true,
+        "bothPlayButtonsSynchronized": true,
+        "chordChangeStopsAudio": true,
+        "rateBounds": true,
+        "fingerPoseUnchangedBySound": true,
+        "naturalPlaybackEnds": true,
+        "spaUnmountClosesNativeContext": true
+      }
+    },
+    {
+      "name": "ipad-portrait-real-audio-and-speed",
+      "passed": true,
+      "evidence": {
+        "nativeAudioSignal": {
+          "rms": 0.057529864286702356,
+          "peak": 0.14165948331356049,
+          "notes": [
+            {
+              "frequency": 130.8127899169922,
+              "start": 0.025
+            },
+            {
+              "frequency": 164.81378173828125,
+              "start": 0.145
+            },
+            {
+              "frequency": 195.99771118164062,
+              "start": 0.265
+            },
+            {
+              "frequency": 261.6255798339844,
+              "start": 0.385
+            },
+            {
+              "frequency": 329.6275634765625,
+              "start": 0.505
+            }
+          ],
+          "contexts": 1,
+          "state": "running"
+        },
+        "slowerChangesActualSchedule": true,
+        "pitchUnchanged": true,
+        "bothPlayButtonsSynchronized": true,
+        "chordChangeStopsAudio": true,
+        "rateBounds": true,
+        "fingerPoseUnchangedBySound": true,
+        "naturalPlaybackEnds": true,
+        "spaUnmountClosesNativeContext": true
+      }
+    },
+    {
+      "name": "mobile-real-audio-and-speed",
+      "passed": true,
+      "evidence": {
+        "nativeAudioSignal": {
+          "rms": 0.05282671518387219,
+          "peak": 0.14165949821472168,
+          "notes": [
+            {
+              "frequency": 130.8127899169922,
+              "start": 0.025
+            },
+            {
+              "frequency": 164.81378173828125,
+              "start": 0.145
+            },
+            {
+              "frequency": 195.99771118164062,
+              "start": 0.265
+            },
+            {
+              "frequency": 261.6255798339844,
+              "start": 0.385
+            },
+            {
+              "frequency": 329.6275634765625,
+              "start": 0.505
+            }
+          ],
+          "contexts": 1,
+          "state": "running"
+        },
+        "slowerChangesActualSchedule": true,
+        "pitchUnchanged": true,
+        "bothPlayButtonsSynchronized": true,
+        "chordChangeStopsAudio": true,
+        "rateBounds": true,
+        "fingerPoseUnchangedBySound": true,
+        "naturalPlaybackEnds": true,
+        "spaUnmountClosesNativeContext": true
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "brokenImages": [],
+  "realGLB": true,
+  "nativeWebAudioTested": true,
+  "physicalIPadSafariTested": false,
+  "databaseWrites": 0,
+  "passed": true
+}

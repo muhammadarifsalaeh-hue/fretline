@@ -1,0 +1,35 @@
+{
+  "commit": "fb65ad182043fbdf2c2b0f522a7d4ea9d4c1d41f",
+  "fullPage": true,
+  "realGLB": true,
+  "captures": [
+    {
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "sha256": "38f06dd777862f0caaa06572915a18f8ba5454fb38eafbdc184651809468a2f3",
+      "file": "docs/practice-premium-minimal/screenshots/before-desktop.png"
+    },
+    {
+      "device": "ipad-landscape",
+      "width": 1194,
+      "height": 834,
+      "sha256": "c85083660a627f5b2eb44ee09c7254b27f6dc14584ef1fc22799423cc3bf4f1c",
+      "file": "docs/practice-premium-minimal/screenshots/before-ipad-landscape.png"
+    },
+    {
+      "device": "ipad-portrait",
+      "width": 768,
+      "height": 1024,
+      "sha256": "7a389d36a4f84e81b535f3c5031e8ce91be695825e6dfc9974a68879ee3335df",
+      "file": "docs/practice-premium-minimal/screenshots/before-ipad-portrait.png"
+    },
+    {
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "sha256": "337d7a68b00a42513f3401531fc19cf5927f9ad041ce7bc70a9ac460e54448f2",
+      "file": "docs/practice-premium-minimal/screenshots/before-mobile.png"
+    }
+  ]
+}

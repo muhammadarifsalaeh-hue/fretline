@@ -50,7 +50,7 @@ function disposeObject(root) {
 }
 
 /** Real WebGL, rendered on demand. The model never changes when a camera moves. */
-export function createNeckScene(host, { chord, canvasLabel, onError, onInteraction, onPoseStatus }) {
+export function createNeckScene(host, { chord, canvasLabel, onError, onInteraction, onPoseStatus, cameraSlopeDegrees = 15, cameraFocusZ = -.6 }) {
   const canvas = document.createElement('canvas');
   canvas.setAttribute('data-practice-canvas', '');
   canvas.setAttribute('aria-label', canvasLabel);
@@ -86,6 +86,7 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
   const neck = model.group;
   neck.scale.setScalar(1 / UNIT); neck.position.x = NUT_X;
   const markers = new THREE.Group(), fretLabels = new THREE.Group();
+  let fingerMarkersVisible = true;
   scene.add(neck, markers, fretLabels);
   for (const fret of [3, 5, 7, 9, 12]) {
     const mm = (getFretPosition(fret - 1) + getFretPosition(fret)) / 2;
@@ -104,10 +105,11 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
     new THREE.Vector3(xAt(getFretPosition(6)), fullBounds.max.y, fullBounds.max.z),
   );
   let bounds = teachingBounds;
-  const target = new THREE.Vector3(bounds.getCenter(new THREE.Vector3()).x, 0, -.6);
+  const focusZ = Number.isFinite(cameraFocusZ) ? cameraFocusZ : -.6;
+  const target = new THREE.Vector3(bounds.getCenter(new THREE.Vector3()).x, 0, focusZ);
   const camera = new THREE.PerspectiveCamera(38, 1, .1, 100);
   // OrbitControls caches this up-axis in its constructor. Set it first, once.
-  camera.up.copy(referenceCameraUp());
+  camera.up.copy(referenceCameraUp(CAMERA_DIRECTIONS.angle, Number.isFinite(cameraSlopeDegrees) ? cameraSlopeDegrees : 15));
   camera.position.copy(target).addScaledVector(new THREE.Vector3(...CAMERA_DIRECTIONS.angle).normalize(), 15);
   const controls = new OrbitControls(camera, canvas);
   controls.target.copy(target);
@@ -153,7 +155,7 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
   function preset(name = 'angle') {
     if (disposed) return;
     bounds = name === 'overview' ? fullBounds : teachingBounds;
-    target.set(bounds.getCenter(new THREE.Vector3()).x, 0, name === 'overview' ? 0 : -.6);
+    target.set(bounds.getCenter(new THREE.Vector3()).x, 0, name === 'overview' ? 0 : focusZ);
     const direction = new THREE.Vector3(...(CAMERA_DIRECTIONS[name] ?? CAMERA_DIRECTIONS.angle)).normalize();
     controls.target.copy(target);
     setDistanceLimits(fitPerspectiveDistance(camera, bounds, target, direction));
@@ -240,7 +242,7 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
   hand = createHandPoseEngine({ scene, canvas, chord, nutX: NUT_X, unit: UNIT, invalidate,
     onPoseStatus: (next) => {
       const visible = canvas.dataset.handVisible === 'true';
-      strings.update(activeChord, visible); markers.visible = !visible;
+      strings.update(activeChord, visible); markers.visible = fingerMarkersVisible;
       canvas.dataset.stringPose = strings.state;
       onPoseStatus?.(next);
     },
@@ -248,6 +250,11 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
   resize(); preset(); setChord(chord); cancelAnimationFrame(frame); render();
   return {
     preset, rotate, zoom, setChord,
+    setFingerMarkersVisible(enabled) {
+      if (disposed) return;
+      fingerMarkersVisible = enabled === true; markers.visible = fingerMarkersVisible;
+      canvas.dataset.fingerMarkersVisible = String(fingerMarkersVisible); invalidate();
+    },
     setHandReviewMode: (enabled) => hand.setHandReviewMode(enabled),
     retryHand: () => hand.retryHand(),
     dispose,

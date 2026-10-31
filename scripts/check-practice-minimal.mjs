@@ -1,0 +1,31 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import { execFileSync } from 'node:child_process';
+import { createServer } from 'vite';
+const base='fb65ad182043fbdf2c2b0f522a7d4ea9d4c1d41f',out='docs/practice-premium-minimal/tests';
+const hash=value=>crypto.createHash('sha256').update(value).digest('hex');
+const git=(...args)=>execFileSync('git',args,{encoding:'utf8',maxBuffer:64*1024*1024}).trim();
+const allowed=new Set(['src/pages/PracticePage.jsx','src/styles/practice-minimal.css','src/features/practice/components/GuitarNeckViewer.jsx','src/features/practice/components/PracticeControlBar.jsx','src/features/practice/components/PracticeIcons.jsx','src/features/practice/scene/createNeckScene.js','src/features/practice/audio/chordAudio.js','src/features/practice/hooks/useChordAudio.js','scripts/check-practice-minimal.mjs','scripts/check-practice-audio.mjs']);
+const changed=[...git('diff','--name-only',base).split('\n'),...git('ls-files','--others','--exclude-standard').split('\n')].filter(Boolean);
+assert.ok(changed.every(file=>allowed.has(file)||file.startsWith('docs/practice-premium-minimal/')),`Unrelated edits: ${changed.filter(f=>!allowed.has(f)&&!f.startsWith('docs/practice-premium-minimal/'))}`);
+const protectedFiles=git('ls-tree','-r','--name-only',base,'--','src/features/practice/assets','src/features/practice/data','src/features/practice/scene').split('\n').filter(file=>file&&!allowed.has(file));
+for(const file of protectedFiles)assert.equal(hash(fs.readFileSync(file)),hash(execFileSync('git',['show',`${base}:${file}`],{maxBuffer:64*1024*1024})),`Protected model/music/gates changed: ${file}`);
+const library=JSON.parse(fs.readFileSync('src/features/practice/assets/hand-poses.json'));
+const meshAudit=JSON.parse(fs.readFileSync('docs/practice-fingering-polish/tests/geometry/summary.json'));
+assert.equal(meshAudit.librarySnapshotSha256,hash(fs.readFileSync('src/features/practice/assets/hand-poses.json')));
+const accepted=Object.entries(library.poses).filter(([,p])=>p.audit.collisionPassed&&p.audit.contactPassed).map(([id])=>id).sort();
+assert.deepEqual(accepted,meshAudit.rows.filter(r=>r.geometricPassed).map(r=>r.id).sort());assert.equal(accepted.length,13);
+assert.ok(Object.values(library.poses).every(p=>p.status==='needs-review'&&p.reviewed===false&&p.audit.anatomyPassed===false&&p.audit.multiViewReviewed===false));
+const server=await createServer({logLevel:'error',server:{middlewareMode:true,hmr:false},appType:'custom'});
+try{
+ const {GUITARS,SAVED_GUITARS_BY_ID}=await server.ssrLoadModule('/src/data/guitars.js');
+ const {BRANDS}=await server.ssrLoadModule('/src/data/brands.js');
+ const {PRACTICE_CHORDS}=await server.ssrLoadModule('/src/features/practice/data/chords.js');
+ const effective=hash(JSON.stringify({guitars:GUITARS,saved:SAVED_GUITARS_BY_ID,brands:BRANDS,chords:PRACTICE_CHORDS}));
+ assert.equal(effective,JSON.parse(fs.readFileSync('docs/universal-guitar-images/baseline.json')).effectiveDataSHA256);
+ assert.equal(GUITARS.length,200);assert.equal(new Set(GUITARS.map(g=>g.id)).size,200);assert.equal(BRANDS.length,10);assert.equal(PRACTICE_CHORDS.length,42);
+ const counts=Object.fromEntries(BRANDS.map(b=>[b.name,GUITARS.filter(g=>g.brand===b.name).length]));assert.ok(Object.values(counts).every(n=>n===20));
+ const report={passed:true,baselineCommit:base,rollbackTag:'backup/practice-before-premium-minimal-fb65ad1',models:200,brands:10,counts,chords:42,effectiveDataSHA256:effective,allProductAndChordDataIdentical:true,protectedPracticeFilesIdentical:protectedFiles.length,sourceModelSHA256:hash(fs.readFileSync('src/features/practice/assets/makehuman-left-arm-sleeved.glb')),poseLibrarySHA256:hash(fs.readFileSync('src/features/practice/assets/hand-poses.json')),displayableHands:accepted,rejectedHandsRemainHidden:29,verifiedTeachingHands:0,homeCatalogAdminAndDatabaseUnchanged:true,databaseWrites:0,changedSourceFiles:changed.filter(file=>!file.startsWith('docs/'))};
+ fs.mkdirSync(out,{recursive:true});fs.writeFileSync(`${out}/data-safety.json`,JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));
+}finally{await server.close();}
