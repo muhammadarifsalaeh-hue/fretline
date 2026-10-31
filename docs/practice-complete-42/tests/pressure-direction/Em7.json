@@ -1,0 +1,36 @@
+{
+  "id": "Em7",
+  "poseTransformSHA256": "96d65072f92e9349488bc04190910609466da2a5ad931802f39b07789f92c0b4",
+  "allPressedContactsFromAbove": true,
+  "contacts": [
+    {
+      "finger": 2,
+      "string": 5,
+      "fret": 2,
+      "kind": "tip",
+      "distanceMm": 0.462999998728239,
+      "centerlinePointMm": [
+        66.67781521507898,
+        1.3064745013728567,
+        11.02477910122979
+      ],
+      "palmarSkinPointMm": [
+        66.68062617402191,
+        1.7693027489284663,
+        11.01248639620714
+      ],
+      "skinMinusCenterYmm": 0.4628282475556096,
+      "outwardFraction": 0.99962904714233,
+      "ownedTriangleVertexIndices": [
+        6273,
+        4428,
+        301
+      ],
+      "pressureComesFromAbove": true,
+      "boardOutwardComponentMm": 0.46221178632405363,
+      "downwardPressurePossible": true
+    }
+  ],
+  "teachingApproval": false,
+  "contactDirectionPassed": true
+}

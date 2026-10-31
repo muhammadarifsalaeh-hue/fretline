@@ -7,6 +7,7 @@ import { CAMERA_DIRECTIONS, referenceCameraUp, fitPerspectiveDistance } from './
 import { createHandPoseEngine } from './handPoseEngine';
 import { createFrettedStringController } from './frettedStrings';
 import { createGeometryFingerprint } from './geometryFingerprint';
+import { pressureX } from './pressureContacts.js';
 
 // Generic study geometry, never a catalog guitar or a validated anatomical pose.
 // World scale: 40 mm/unit. Nut -> body is +X, board face +Y, low E +Z.
@@ -86,7 +87,8 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
   const neck = model.group;
   neck.scale.setScalar(1 / UNIT); neck.position.x = NUT_X;
   const markers = new THREE.Group(), fretLabels = new THREE.Group();
-  let fingerMarkersVisible = true;
+  let fingerMarkersVisible = true, markerLayoutKey = '';
+
   scene.add(neck, markers, fretLabels);
   for (const fret of [3, 5, 7, 9, 12]) {
     const mm = (getFretPosition(fret - 1) + getFretPosition(fret)) / 2;
@@ -186,23 +188,26 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
     const distance = THREE.MathUtils.clamp(offset.length() * factor, controls.minDistance, controls.maxDistance);
     camera.position.copy(controls.target).add(offset.setLength(distance)); controls.update(); updateDiagnostics(); invalidate();
   };
-  function setChord(nextChord) {
-    if (disposed) return;
-    activeChord = nextChord;
+  function updateMarkers(nextChord, offsets) {
+    const key = `${nextChord.id}:${offsets ? JSON.stringify(Object.entries(offsets).sort()) : ''}`;
+    if (key === markerLayoutKey) return;
+    markerLayoutKey = key;
     disposeObject(markers);
     canvas.dataset.chordId = nextChord.id;
     nextChord.frets.forEach((fret, index) => {
       const number = 6 - index;
       // Schematic labels near the fret, never a claim of fingertip contact.
-      const mm = fret > 0 ? getFretPosition(fret) - Math.min(4, (getFretPosition(fret) - getFretPosition(fret - 1)) * .25) : -10;
+      const mm = fret > 0 ? pressureX(number, fret, offsets) : -10;
       const z = model.surfaces.stringZ(number, Math.max(0, mm));
       const y = model.surfaces.openStringCenterY(Math.max(0, mm), number);
       const marker = label(fret === null ? '×' : fret === 0 ? '○' : String(nextChord.fingers[index]), { gold: fret > 0, size: fret > 0 ? .29 : .23 });
       marker.position.set(xAt(mm), y / UNIT + .13, z / UNIT);
       markers.add(marker);
     });
-    hand?.setChord(nextChord);
-    invalidate();
+  }
+  function setChord(nextChord) {
+    if (disposed) return;
+    activeChord = nextChord; updateMarkers(nextChord); hand?.setChord(nextChord); invalidate();
   }
   const keydown = (event) => {
     if (event.ctrlKey || event.metaKey || event.altKey) return;
@@ -242,7 +247,8 @@ export function createNeckScene(host, { chord, canvasLabel, onError, onInteracti
   hand = createHandPoseEngine({ scene, canvas, chord, nutX: NUT_X, unit: UNIT, invalidate,
     onPoseStatus: (next) => {
       const visible = canvas.dataset.handVisible === 'true';
-      strings.update(activeChord, visible); markers.visible = fingerMarkersVisible;
+      strings.update(activeChord, visible, next.pressOffsetsMm);
+      updateMarkers(activeChord, visible ? next.pressOffsetsMm : undefined); markers.visible = fingerMarkersVisible;
       canvas.dataset.stringPose = strings.state;
       onPoseStatus?.(next);
     },

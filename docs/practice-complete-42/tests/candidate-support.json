@@ -1,0 +1,1236 @@
+[
+  {
+    "id": "Em7",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        11.011739350293631,
+        -14.0273042869606,
+        -18.555645791705114
+      ],
+      "neckBackPointMm": [
+        11.014419645939446,
+        -13.881134300634207,
+        -18.38651518327893
+      ],
+      "distanceMm": 0.22355762477271476
+    },
+    "thumbSupportPassed": true,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 56.04121420340938,
+        "DIPDegrees": 26.926429332877845
+      },
+      "middle": {
+        "PIPDegrees": 56.21264389122567,
+        "DIPDegrees": 40.36375140820698
+      },
+      "ring": {
+        "PIPDegrees": 37.22662789297071,
+        "DIPDegrees": 24.706620158666418
+      },
+      "little": {
+        "PIPDegrees": 22.858785723958647,
+        "DIPDegrees": 6.6865462439479515
+      },
+      "thumb": {
+        "PIPDegrees": 14.256656606871331,
+        "DIPDegrees": 5.379428255119891
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": "baseline"
+  },
+  {
+    "id": "Dm",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        10.076644536379787,
+        -12.845624574511731,
+        -19.43016502859431
+      ],
+      "neckBackPointMm": [
+        10.078388364154826,
+        -12.780396649870397,
+        -19.318476123007486
+      ],
+      "distanceMm": 0.12935275304185495
+    },
+    "thumbSupportPassed": true,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 74.36053713184855,
+        "DIPDegrees": 29.12926699421671
+      },
+      "middle": {
+        "PIPDegrees": 77.1963695728629,
+        "DIPDegrees": 35.42226159701193
+      },
+      "ring": {
+        "PIPDegrees": 68.68953140620437,
+        "DIPDegrees": 64.59571825020079
+      },
+      "little": {
+        "PIPDegrees": 22.858785953539527,
+        "DIPDegrees": 6.68654628240988
+      },
+      "thumb": {
+        "PIPDegrees": 12.850483868423686,
+        "DIPDegrees": 4.779597945930015
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": "baseline"
+  },
+  {
+    "id": "Gmaj7",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        17.88473671160831,
+        -7.718218188940636,
+        -25.196194075013196
+      ],
+      "neckBackPointMm": [
+        17.944988257408756,
+        -7.332367600257296,
+        -21.62622097530618
+      ],
+      "distanceMm": 3.591269811388494
+    },
+    "thumbSupportPassed": false,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 72.13875436328411,
+        "DIPDegrees": 52.360112329274855
+      },
+      "middle": {
+        "PIPDegrees": 60.758610305538014,
+        "DIPDegrees": 25.3879363213035
+      },
+      "ring": {
+        "PIPDegrees": 27.813392254706596,
+        "DIPDegrees": 35.45654637501718
+      },
+      "little": {
+        "PIPDegrees": 22.858785953539495,
+        "DIPDegrees": 6.686546282409825
+      },
+      "thumb": {
+        "PIPDegrees": 12.850483868423714,
+        "DIPDegrees": 4.779597945930091
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": "baseline"
+  },
+  {
+    "id": "G7",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        10.61169543968865,
+        -12.900753647388445,
+        -19.45925156385153
+      ],
+      "neckBackPointMm": [
+        10.613931116489335,
+        -12.796939687288141,
+        -19.317176319136895
+      ],
+      "distanceMm": 0.17597645218377483
+    },
+    "thumbSupportPassed": true,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 69.09625661153271,
+        "DIPDegrees": 27.846547182079114
+      },
+      "middle": {
+        "PIPDegrees": 65.27354672186142,
+        "DIPDegrees": 26.940272143965743
+      },
+      "ring": {
+        "PIPDegrees": 27.164794547650096,
+        "DIPDegrees": 34.616216467505524
+      },
+      "little": {
+        "PIPDegrees": 22.858785953539513,
+        "DIPDegrees": 6.686546282409771
+      },
+      "thumb": {
+        "PIPDegrees": 12.850483868423657,
+        "DIPDegrees": 4.779597945929939
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": "baseline"
+  },
+  {
+    "id": "Fmaj7",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        10.076644536379787,
+        -12.845624574511731,
+        -19.43016502859431
+      ],
+      "neckBackPointMm": [
+        10.078388364154826,
+        -12.780396649870397,
+        -19.318476123007486
+      ],
+      "distanceMm": 0.12935275304185495
+    },
+    "thumbSupportPassed": true,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 64.33153758235912,
+        "DIPDegrees": 20.791726019582143
+      },
+      "middle": {
+        "PIPDegrees": 77.1963695728629,
+        "DIPDegrees": 35.42226159701193
+      },
+      "ring": {
+        "PIPDegrees": 42.197846459742394,
+        "DIPDegrees": 52.89133207547653
+      },
+      "little": {
+        "PIPDegrees": 22.858785953539527,
+        "DIPDegrees": 6.68654628240988
+      },
+      "thumb": {
+        "PIPDegrees": 12.850483868423686,
+        "DIPDegrees": 4.779597945930015
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": "baseline"
+  },
+  {
+    "id": "Am7",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        11.011739350293631,
+        -14.0273042869606,
+        -18.555645791705114
+      ],
+      "neckBackPointMm": [
+        11.014419645939446,
+        -13.881134300634207,
+        -18.38651518327893
+      ],
+      "distanceMm": 0.22355762477271476
+    },
+    "thumbSupportPassed": true,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 71.0799442552055,
+        "DIPDegrees": 30.077521225179513
+      },
+      "middle": {
+        "PIPDegrees": 76.77777423896772,
+        "DIPDegrees": 34.060956437249395
+      },
+      "ring": {
+        "PIPDegrees": 37.22662789297071,
+        "DIPDegrees": 24.706620158666418
+      },
+      "little": {
+        "PIPDegrees": 22.858785723958647,
+        "DIPDegrees": 6.6865462439479515
+      },
+      "thumb": {
+        "PIPDegrees": 14.256656606871331,
+        "DIPDegrees": 5.379428255119891
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": "baseline"
+  },
+  {
+    "id": "E7",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        11.011739350293631,
+        -14.0273042869606,
+        -18.555645791705114
+      ],
+      "neckBackPointMm": [
+        11.014419645939446,
+        -13.881134300634207,
+        -18.38651518327893
+      ],
+      "distanceMm": 0.22355762477271476
+    },
+    "thumbSupportPassed": true,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 40.17789614062444,
+        "DIPDegrees": 44.87960977116099
+      },
+      "middle": {
+        "PIPDegrees": 56.21264389122567,
+        "DIPDegrees": 40.36375140820698
+      },
+      "ring": {
+        "PIPDegrees": 37.22662789297071,
+        "DIPDegrees": 24.706620158666418
+      },
+      "little": {
+        "PIPDegrees": 22.858785723958647,
+        "DIPDegrees": 6.6865462439479515
+      },
+      "thumb": {
+        "PIPDegrees": 14.256656606871331,
+        "DIPDegrees": 5.379428255119891
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": "baseline"
+  },
+  {
+    "id": "Dsus2",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        16.481083179007705,
+        -20.996779780129877,
+        -16.483059289306972
+      ],
+      "neckBackPointMm": [
+        16.504075057860625,
+        -17.293006990629046,
+        -14.313748040098538
+      ],
+      "distanceMm": 4.292362146730191
+    },
+    "thumbSupportPassed": false,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 60.42839522639223,
+        "DIPDegrees": 39.444667403674984
+      },
+      "middle": {
+        "PIPDegrees": 73.97757424662483,
+        "DIPDegrees": 55.148441902906534
+      },
+      "ring": {
+        "PIPDegrees": 68.84230081589314,
+        "DIPDegrees": 51.12027782610653
+      },
+      "little": {
+        "PIPDegrees": 22.858785953539513,
+        "DIPDegrees": 6.686546282409825
+      },
+      "thumb": {
+        "PIPDegrees": 12.850483868423714,
+        "DIPDegrees": 4.779597945930015
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": "baseline"
+  },
+  {
+    "id": "C",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        10.076644536379787,
+        -12.845624574511731,
+        -19.43016502859431
+      ],
+      "neckBackPointMm": [
+        10.078388364154826,
+        -12.780396649870397,
+        -19.318476123007486
+      ],
+      "distanceMm": 0.12935275304185495
+    },
+    "thumbSupportPassed": true,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 64.33153758235912,
+        "DIPDegrees": 20.791726019582143
+      },
+      "middle": {
+        "PIPDegrees": 67.34965120202584,
+        "DIPDegrees": 27.01467439036679
+      },
+      "ring": {
+        "PIPDegrees": 31.346299247267435,
+        "DIPDegrees": 37.97744297135724
+      },
+      "little": {
+        "PIPDegrees": 22.858785953539527,
+        "DIPDegrees": 6.68654628240988
+      },
+      "thumb": {
+        "PIPDegrees": 12.850483868423686,
+        "DIPDegrees": 4.779597945930015
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": "baseline"
+  },
+  {
+    "id": "C7",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        8.208178704097937,
+        -13.01788173568182,
+        -19.172603534909708
+      ],
+      "neckBackPointMm": [
+        8.208945152257023,
+        -12.976083467230259,
+        -19.124239525635
+      ],
+      "distanceMm": 0.06392777237987625
+    },
+    "thumbSupportPassed": true,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 64.73956820489133,
+        "DIPDegrees": 21.037689886803292
+      },
+      "middle": {
+        "PIPDegrees": 67.6478402740414,
+        "DIPDegrees": 29.218407536561553
+      },
+      "ring": {
+        "PIPDegrees": 37.268781293407564,
+        "DIPDegrees": 37.833568205697574
+      },
+      "little": {
+        "PIPDegrees": 17.681637227771954,
+        "DIPDegrees": 25.53984352037381
+      },
+      "thumb": {
+        "PIPDegrees": 12.850483868423686,
+        "DIPDegrees": 4.779597945930091
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": "baseline"
+  },
+  {
+    "id": "Cmaj7",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        11.011739350293631,
+        -14.0273042869606,
+        -18.555645791705114
+      ],
+      "neckBackPointMm": [
+        11.014419645939446,
+        -13.881134300634207,
+        -18.38651518327893
+      ],
+      "distanceMm": 0.22355762477271476
+    },
+    "thumbSupportPassed": true,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 67.08790661642976,
+        "DIPDegrees": 30.07752108607865
+      },
+      "middle": {
+        "PIPDegrees": 76.77777423896772,
+        "DIPDegrees": 34.060956437249395
+      },
+      "ring": {
+        "PIPDegrees": 46.90086355901929,
+        "DIPDegrees": 46.42596771754623
+      },
+      "little": {
+        "PIPDegrees": 22.858785723958647,
+        "DIPDegrees": 6.6865462439479515
+      },
+      "thumb": {
+        "PIPDegrees": 14.256656606871331,
+        "DIPDegrees": 5.379428255119891
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": "baseline"
+  },
+  {
+    "id": "Dm7",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        11.089985179591448,
+        -13.954414848433313,
+        -18.399209298232257
+      ],
+      "neckBackPointMm": [
+        11.090663906042366,
+        -13.917400485407814,
+        -18.356380658123946
+      ],
+      "distanceMm": 0.05661109567307306
+    },
+    "thumbSupportPassed": true,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 72.51318414832613,
+        "DIPDegrees": 27.50828438862135
+      },
+      "middle": {
+        "PIPDegrees": 77.07018033517865,
+        "DIPDegrees": 35.395960380197884
+      },
+      "ring": {
+        "PIPDegrees": 68.68964879786961,
+        "DIPDegrees": 64.59596065510192
+      },
+      "little": {
+        "PIPDegrees": 22.858785953539513,
+        "DIPDegrees": 6.686546282409825
+      },
+      "thumb": {
+        "PIPDegrees": 12.850483868423686,
+        "DIPDegrees": 4.779597945930015
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": "baseline"
+  },
+  {
+    "id": "B7",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        0.358709177216917,
+        -36.633624414286366,
+        -49.05088570890591
+      ],
+      "neckBackPointMm": [
+        0.5296511031143591,
+        -12.790968569839457,
+        -19.208937470539812
+      ],
+      "distanceMm": 38.197425744676686
+    },
+    "thumbSupportPassed": false,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 28.324505108646886,
+        "DIPDegrees": 46.51435150474735
+      },
+      "middle": {
+        "PIPDegrees": 43.718153591605315,
+        "DIPDegrees": 7.1322329812854734
+      },
+      "ring": {
+        "PIPDegrees": 56.22987036280345,
+        "DIPDegrees": 30.890371701578886
+      },
+      "little": {
+        "PIPDegrees": 30.244248864244813,
+        "DIPDegrees": 33.429922817044066
+      },
+      "thumb": {
+        "PIPDegrees": 14.256656606871358,
+        "DIPDegrees": 5.379428255119891
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": "baseline"
+  },
+  {
+    "id": "Am",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        0.2773773182477362,
+        -51.81512404594636,
+        -35.233605191894824
+      ],
+      "neckBackPointMm": [
+        0.37412535006535386,
+        -17.069911122438334,
+        -14.531586757760836
+      ],
+      "distanceMm": 40.44518201873733
+    },
+    "thumbSupportPassed": false,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 59.85418123331772,
+        "DIPDegrees": 2.1422038603605227
+      },
+      "middle": {
+        "PIPDegrees": 44.46804063661984,
+        "DIPDegrees": 16.92296664123693
+      },
+      "ring": {
+        "PIPDegrees": 13.224201646308051,
+        "DIPDegrees": 44.19523136719464
+      },
+      "little": {
+        "PIPDegrees": 22.858785723958665,
+        "DIPDegrees": 6.6865462439479515
+      },
+      "thumb": {
+        "PIPDegrees": 14.256656606871408,
+        "DIPDegrees": 5.37942825511996
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": ".local-preview/practice-complete-42/pressure-open/Am/result.json",
+    "proposal": ".local-preview/practice-complete-42/pressure-open/Am/round-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/pressure-open/Am/round-1/audit/summary.json"
+  },
+  {
+    "id": "E",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        0.06810719591085901,
+        -36.71524626553069,
+        -50.580803946990365
+      ],
+      "neckBackPointMm": [
+        0.24747804077920854,
+        -12.790883638642288,
+        -19.20738897172739
+      ],
+      "distanceMm": 39.45501828934943
+    },
+    "thumbSupportPassed": false,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 31.832256830090188,
+        "DIPDegrees": 57.91975260744218
+      },
+      "middle": {
+        "PIPDegrees": 41.931947080754526,
+        "DIPDegrees": 14.278068661180185
+      },
+      "ring": {
+        "PIPDegrees": 54.88735562261303,
+        "DIPDegrees": 27.927845804125635
+      },
+      "little": {
+        "PIPDegrees": 30.14383950935218,
+        "DIPDegrees": 32.04953231096347
+      },
+      "thumb": {
+        "PIPDegrees": 14.256656606871331,
+        "DIPDegrees": 5.379428255119824
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": ".local-preview/practice-complete-42/pressure-open/E/result.json",
+    "proposal": ".local-preview/practice-complete-42/pressure-open/E/round-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/pressure-open/E/round-1/audit/summary.json"
+  },
+  {
+    "id": "Em",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        0.14401295876457343,
+        -39.13786187772306,
+        -44.40049309251624
+      ],
+      "neckBackPointMm": [
+        0.2843821284086543,
+        -14.839077551466808,
+        -17.44012847629249
+      ],
+      "distanceMm": 36.29479140975235
+    },
+    "thumbSupportPassed": false,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 27.784276886374265,
+        "DIPDegrees": 45.969761941203735
+      },
+      "middle": {
+        "PIPDegrees": 44.504052899857136,
+        "DIPDegrees": 17.600207062909185
+      },
+      "ring": {
+        "PIPDegrees": 54.93760034934408,
+        "DIPDegrees": 24.82467948337745
+      },
+      "little": {
+        "PIPDegrees": 31.744415071721317,
+        "DIPDegrees": 40.098009787623646
+      },
+      "thumb": {
+        "PIPDegrees": 14.256656606871331,
+        "DIPDegrees": 5.379428255119891
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": ".local-preview/practice-complete-42/pressure-open/Em/result.json",
+    "proposal": ".local-preview/practice-complete-42/pressure-open/Em/round-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/pressure-open/Em/round-1/audit/summary.json"
+  },
+  {
+    "id": "Am",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        7.649289162329627,
+        -20.29979437868969,
+        6.60878739500947
+      ],
+      "neckBackPointMm": [
+        7.6492955564099185,
+        -20.293047043055463,
+        6.607697870491547
+      ],
+      "distanceMm": 0.006834737940866932
+    },
+    "thumbSupportPassed": true,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 59.85418123331772,
+        "DIPDegrees": 2.1422038603605227
+      },
+      "middle": {
+        "PIPDegrees": 44.46804063661984,
+        "DIPDegrees": 16.92296664123693
+      },
+      "ring": {
+        "PIPDegrees": 13.224201646308051,
+        "DIPDegrees": 44.19523136719464
+      },
+      "little": {
+        "PIPDegrees": 22.858785723958665,
+        "DIPDegrees": 6.6865462439479515
+      },
+      "thumb": {
+        "PIPDegrees": 0.020130292027096812,
+        "DIPDegrees": 9.809581510444223
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": ".local-preview/practice-complete-42/thumb-final/Am/result.json",
+    "proposal": ".local-preview/practice-complete-42/thumb-final/Am/round-2/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-final/Am/round-2/audit/summary.json"
+  },
+  {
+    "id": "Gmaj7",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        22.85639548512351,
+        -14.472871630635675,
+        -18.077339475490355
+      ],
+      "neckBackPointMm": [
+        22.85666492742361,
+        -14.456249877956026,
+        -18.05856302196165
+      ],
+      "distanceMm": 0.025078087415353806
+    },
+    "thumbSupportPassed": true,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 72.13875436328411,
+        "DIPDegrees": 52.360112329274855
+      },
+      "middle": {
+        "PIPDegrees": 60.758610305538014,
+        "DIPDegrees": 25.3879363213035
+      },
+      "ring": {
+        "PIPDegrees": 27.813392254706596,
+        "DIPDegrees": 35.45654637501718
+      },
+      "little": {
+        "PIPDegrees": 22.858785953539495,
+        "DIPDegrees": 6.686546282409825
+      },
+      "thumb": {
+        "PIPDegrees": 0.0003422535653491319,
+        "DIPDegrees": 5.471067353451963
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": ".local-preview/practice-complete-42/thumb-final/Gmaj7/result.json",
+    "proposal": ".local-preview/practice-complete-42/thumb-final/Gmaj7/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-final/Gmaj7/round-0/audit/summary.json"
+  },
+  {
+    "id": "B7",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        8.692948936199953,
+        -20.782597238841092,
+        -3.95659075331967
+      ],
+      "neckBackPointMm": [
+        8.692973414627572,
+        -20.728734059467897,
+        -3.947893208433552
+      ],
+      "distanceMm": 0.05456088322624972
+    },
+    "thumbSupportPassed": true,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 28.324505108646886,
+        "DIPDegrees": 46.51435150474735
+      },
+      "middle": {
+        "PIPDegrees": 43.718153591605315,
+        "DIPDegrees": 7.1322329812854734
+      },
+      "ring": {
+        "PIPDegrees": 56.22987036280345,
+        "DIPDegrees": 30.890371701578886
+      },
+      "little": {
+        "PIPDegrees": 30.244248864244813,
+        "DIPDegrees": 33.429922817044066
+      },
+      "thumb": {
+        "PIPDegrees": 15.509664197767686,
+        "DIPDegrees": 7.0975253050356315
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": ".local-preview/practice-complete-42/thumb-final/B7/result.json",
+    "proposal": ".local-preview/practice-complete-42/thumb-final/B7/round-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-final/B7/round-1/audit/summary.json"
+  },
+  {
+    "id": "Dsus2",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        19.283433467326677,
+        -16.920599633786804,
+        -15.037028470700985
+      ],
+      "neckBackPointMm": [
+        19.283624471076223,
+        -16.89534358008465,
+        -15.022235921449042
+      ],
+      "distanceMm": 0.029269852141915936
+    },
+    "thumbSupportPassed": true,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 60.42839522639223,
+        "DIPDegrees": 39.444667403674984
+      },
+      "middle": {
+        "PIPDegrees": 73.97757424662483,
+        "DIPDegrees": 55.148441902906534
+      },
+      "ring": {
+        "PIPDegrees": 68.84230081589314,
+        "DIPDegrees": 51.12027782610653
+      },
+      "little": {
+        "PIPDegrees": 22.858785953539513,
+        "DIPDegrees": 6.686546282409825
+      },
+      "thumb": {
+        "PIPDegrees": 13.549849129814596,
+        "DIPDegrees": 4.123175537689361
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": ".local-preview/practice-complete-42/thumb-final/Dsus2/result.json",
+    "proposal": ".local-preview/practice-complete-42/thumb-final/Dsus2/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-final/Dsus2/round-0/audit/summary.json"
+  },
+  {
+    "id": "E",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        7.5561372577870545,
+        -20.8877102095646,
+        -3.842838728646047
+      ],
+      "neckBackPointMm": [
+        7.55620038496747,
+        -20.748802976810133,
+        -3.820408714191871
+      ],
+      "distanceMm": 0.14070653447853393
+    },
+    "thumbSupportPassed": true,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 31.832256830090188,
+        "DIPDegrees": 57.91975260744218
+      },
+      "middle": {
+        "PIPDegrees": 41.931947080754526,
+        "DIPDegrees": 14.278068661180185
+      },
+      "ring": {
+        "PIPDegrees": 54.88735562261303,
+        "DIPDegrees": 27.927845804125635
+      },
+      "little": {
+        "PIPDegrees": 30.14383950935218,
+        "DIPDegrees": 32.04953231096347
+      },
+      "thumb": {
+        "PIPDegrees": 19.59893774156528,
+        "DIPDegrees": 7.162909220118768
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": ".local-preview/practice-complete-42/thumb-final/E/result.json",
+    "proposal": ".local-preview/practice-complete-42/thumb-final/E/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-final/E/round-0/audit/summary.json"
+  },
+  {
+    "id": "Em",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        8.857152348983703,
+        -21.021106587639824,
+        -0.15478574528433597
+      ],
+      "neckBackPointMm": [
+        8.857152348983693,
+        -20.991906553462634,
+        -0.15324356690599206
+      ],
+      "distanceMm": 0.0292407303277417
+    },
+    "thumbSupportPassed": true,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 27.784276886374265,
+        "DIPDegrees": 45.969761941203735
+      },
+      "middle": {
+        "PIPDegrees": 44.504052899857136,
+        "DIPDegrees": 17.600207062909185
+      },
+      "ring": {
+        "PIPDegrees": 54.93760034934408,
+        "DIPDegrees": 24.82467948337745
+      },
+      "little": {
+        "PIPDegrees": 31.744415071721317,
+        "DIPDegrees": 40.098009787623646
+      },
+      "thumb": {
+        "PIPDegrees": 0.0056404454999509175,
+        "DIPDegrees": 22.057383245474906
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": ".local-preview/practice-complete-42/thumb-final/Em/result.json",
+    "proposal": ".local-preview/practice-complete-42/thumb-final/Em/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-final/Em/round-0/audit/summary.json"
+  },
+  {
+    "id": "Esus4",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        0.18273126653097252,
+        -21.31957708945606,
+        1.8218238665015856
+      ],
+      "neckBackPointMm": [
+        0.18275659971913205,
+        -20.903408163228324,
+        1.7995554117780306
+      ],
+      "distanceMm": 0.41676427375087355
+    },
+    "thumbSupportPassed": true,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 28.324384710499412,
+        "DIPDegrees": 46.51082744977472
+      },
+      "middle": {
+        "PIPDegrees": 67.1370538304583,
+        "DIPDegrees": 5.153066565813802
+      },
+      "ring": {
+        "PIPDegrees": 58.963180929293806,
+        "DIPDegrees": 44.0680224852816
+      },
+      "little": {
+        "PIPDegrees": 28.751178736340666,
+        "DIPDegrees": 47.10852560159651
+      },
+      "thumb": {
+        "PIPDegrees": 15.541679799488078,
+        "DIPDegrees": 6.850856548628322
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": ".local-preview/practice-complete-42/robust-open/Esus4/result.json",
+    "proposal": ".local-preview/practice-complete-42/robust-open/Esus4/round-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/robust-open/Esus4/round-1/audit/summary.json"
+  },
+  {
+    "id": "Dsus4",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        6.658250164149079,
+        -25.8946063208487,
+        -13.423354227527756
+      ],
+      "neckBackPointMm": [
+        6.689406644288652,
+        -19.084468386524218,
+        -10.548981250160635
+      ],
+      "distanceMm": 7.3919530182353235
+    },
+    "thumbSupportPassed": false,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 51.51006805690132,
+        "DIPDegrees": 24.73331867586539
+      },
+      "middle": {
+        "PIPDegrees": 73.81401796416633,
+        "DIPDegrees": 61.16920191800956
+      },
+      "ring": {
+        "PIPDegrees": 69.50495507318756,
+        "DIPDegrees": 47.07312616057596
+      },
+      "little": {
+        "PIPDegrees": 35.585653438725735,
+        "DIPDegrees": 15.81559595583176
+      },
+      "thumb": {
+        "PIPDegrees": 13.54984912981465,
+        "DIPDegrees": 4.1231755376892725
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": ".local-preview/practice-complete-42/robust-open/Dsus4/result.json",
+    "proposal": ".local-preview/practice-complete-42/robust-open/Dsus4/round-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/robust-open/Dsus4/round-1/audit/summary.json"
+  },
+  {
+    "id": "A7",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        0.00808853996608147,
+        -51.733374488311824,
+        -37.968581953601394
+      ],
+      "neckBackPointMm": [
+        0.1137167062559783,
+        -16.64561440908457,
+        -15.242487758611968
+      ],
+      "distanceMm": 41.80475358193682
+    },
+    "thumbSupportPassed": false,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 59.95244743592018,
+        "DIPDegrees": 2.1241414249470676
+      },
+      "middle": {
+        "PIPDegrees": 44.5664620863316,
+        "DIPDegrees": 17.187368641925747
+      },
+      "ring": {
+        "PIPDegrees": 13.294136864661635,
+        "DIPDegrees": 44.54321666858718
+      },
+      "little": {
+        "PIPDegrees": 22.858785723958682,
+        "DIPDegrees": 6.686546243948006
+      },
+      "thumb": {
+        "PIPDegrees": 14.256656606871358,
+        "DIPDegrees": 5.379428255119824
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": ".local-preview/practice-complete-42/robust-open/A7/result.json",
+    "proposal": ".local-preview/practice-complete-42/robust-open/A7/round-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/robust-open/A7/round-1/audit/summary.json"
+  },
+  {
+    "id": "Amaj7",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        0.827078032852956,
+        -51.48998444084558,
+        -35.5657005548121
+      ],
+      "neckBackPointMm": [
+        0.9235613857563933,
+        -16.83982590817856,
+        -14.920317771631474
+      ],
+      "distanceMm": 40.33453390880321
+    },
+    "thumbSupportPassed": false,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 59.71208651613193,
+        "DIPDegrees": 1.488020835193477
+      },
+      "middle": {
+        "PIPDegrees": 44.81652347885936,
+        "DIPDegrees": 17.304062849587087
+      },
+      "ring": {
+        "PIPDegrees": 13.556131417433802,
+        "DIPDegrees": 44.29575520359216
+      },
+      "little": {
+        "PIPDegrees": 22.858785723958682,
+        "DIPDegrees": 6.6865462439479515
+      },
+      "thumb": {
+        "PIPDegrees": 14.256656606871331,
+        "DIPDegrees": 5.379428255119756
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": ".local-preview/practice-complete-42/robust-open/Amaj7/result.json",
+    "proposal": ".local-preview/practice-complete-42/robust-open/Amaj7/round-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/robust-open/Amaj7/round-1/audit/summary.json"
+  },
+  {
+    "id": "Asus2",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        0.2744301497752022,
+        -52.68762643960471,
+        -32.24782643455153
+      ],
+      "neckBackPointMm": [
+        0.3498243466097941,
+        -18.17364516531564,
+        -12.671231830650232
+      ],
+      "distanceMm": 39.67951163979202
+    },
+    "thumbSupportPassed": false,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 59.26558883710195,
+        "DIPDegrees": 2.2069813566494045
+      },
+      "middle": {
+        "PIPDegrees": 44.75348067671448,
+        "DIPDegrees": 17.176336138037055
+      },
+      "ring": {
+        "PIPDegrees": 13.30809184098109,
+        "DIPDegrees": 43.6866079123031
+      },
+      "little": {
+        "PIPDegrees": 22.858785723958682,
+        "DIPDegrees": 6.686546243947896
+      },
+      "thumb": {
+        "PIPDegrees": 14.256656606871331,
+        "DIPDegrees": 5.379428255119891
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": ".local-preview/practice-complete-42/robust-open/Asus2/result.json",
+    "proposal": ".local-preview/practice-complete-42/robust-open/Asus2/round-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/robust-open/Asus2/round-1/audit/summary.json"
+  },
+  {
+    "id": "D",
+    "supportRegion": "actual-neck-back-at-or-after-nut",
+    "thumbSupportWitness": {
+      "palmarSkinPointMm": [
+        12.377545822091106,
+        -17.106008417210695,
+        -16.891696296178957
+      ],
+      "neckBackPointMm": [
+        12.388098005049187,
+        -16.077654923440825,
+        -16.05769113794517
+      ],
+      "distanceMm": 1.324079627769585
+    },
+    "thumbSupportPassed": false,
+    "jointAngles": {
+      "index": {
+        "PIPDegrees": 56.10515623822131,
+        "DIPDegrees": 17.208975184331667
+      },
+      "middle": {
+        "PIPDegrees": 80.28306701792444,
+        "DIPDegrees": 61.166204842731425
+      },
+      "ring": {
+        "PIPDegrees": 69.17074190910766,
+        "DIPDegrees": 52.22258827568184
+      },
+      "little": {
+        "PIPDegrees": 22.858785953539527,
+        "DIPDegrees": 6.686546282409825
+      },
+      "thumb": {
+        "PIPDegrees": 13.549849129814596,
+        "DIPDegrees": 4.1231755376892725
+      }
+    },
+    "jointPlausibilityPassed": true,
+    "independentTeachingApproval": false,
+    "source": ".local-preview/practice-complete-42/robust-open/D/result.json",
+    "proposal": ".local-preview/practice-complete-42/robust-open/D/round-2/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/robust-open/D/round-2/audit/summary.json"
+  }
+]

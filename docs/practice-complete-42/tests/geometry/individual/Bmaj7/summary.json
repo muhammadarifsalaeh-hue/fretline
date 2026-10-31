@@ -1,0 +1,152 @@
+{
+  "assetSha256": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+  "librarySnapshotSha256": "427b3453637db62099ef28a37d0292871321e08d4c68ab18e6759944df9bbeec",
+  "sourceChordSha256": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+  "count": 1,
+  "geometricPassed": 1,
+  "verifiedTeachingHands": 0,
+  "requiredBatch": [
+    "Bmaj7"
+  ],
+  "testSuitePassed": true,
+  "all42GeometricPassed": false,
+  "errors": [],
+  "checkerSHA256": "a232e520b15b55f5e9da73fb4f2f6087934ac1d660e8f37fda53777d4a3819b9",
+  "originalTriangleCheckerSHA256": "586e7eab9b86f80a08ffcbd2574535236fa93a62a10688d9e7ffbd1ef3a45f28",
+  "scope": "Actual FK/LBS skin and garment triangle crossings, dense wood rejection, actual runtime exported string paths and assigned-digit palmar contact. No anatomical or physical iPad approval.",
+  "rows": [
+    {
+      "id": "Bmaj7",
+      "voicing": "x24342",
+      "poseTransformSha256": "10c110717800c56c49388eb627df15ff720aac9f1c8978e507ec2911f1e3d9cb",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "1ca52803a59c5cfaebe08c4293fc1b7b55d9fad952f4c0c32d0bef4faad66d6e"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 5,
+          "fret": 2,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500010710195878,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 4,
+          "fret": 4,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499975016739998,
+          "passed": true
+        },
+        {
+          "finger": 2,
+          "string": 3,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500001972094438,
+          "passed": true
+        },
+        {
+          "finger": 4,
+          "string": 2,
+          "fret": 4,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499966222257925,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 2,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.035000011814641935,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.012422591632274521,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 4,
+          "wholeSkinClearanceMm": 0.017628838933676977,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.011893252028763623,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 4,
+          "wholeSkinClearanceMm": 0.011999954814004454,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.035000107101959,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 1.9287608451676412,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "8dfa02aa333b69a23edc32a6fc0544ef5d7675088d89123696ca4bf0f3bcac1c",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [
+        {
+          "finger": 1,
+          "string": 4,
+          "fret": 2,
+          "kind": "barre",
+          "effectiveFinger": 3,
+          "effectiveFret": 4,
+          "palmarClearanceMm": 0.0123161627223346,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 2,
+          "kind": "barre",
+          "effectiveFinger": 2,
+          "effectiveFret": 3,
+          "palmarClearanceMm": 1.3535327935821957,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 2,
+          "kind": "barre",
+          "effectiveFinger": 4,
+          "effectiveFret": 4,
+          "palmarClearanceMm": 0.6548184111748323,
+          "passed": true
+        }
+      ],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Bmaj7-raw.json.gz"
+    }
+  ]
+}

@@ -1,0 +1,2025 @@
+{
+  "realGLB": true,
+  "publicGateModified": false,
+  "poseSource": "runtime-baseline",
+  "sourceSHA256": "add2baeb95d5cf50f52ac82f568a95415958a38a91d72404ddc73874848f7b95",
+  "rows": [
+    {
+      "id": "C",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/C-front.png",
+      "imageSHA256": "8558e42e6c2b7e442cf81858add3c77076b040c4ea6ca08c91d632ee440c7170",
+      "actual": {
+        "signature": "1ce0a568",
+        "triangles": 26278,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "C",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/C-side.png",
+      "imageSHA256": "8a9bcaafff6b20972a17c17ee228becb0d6a2b547bb6e066619b923081ae7e84",
+      "actual": {
+        "signature": "1ce0a568",
+        "triangles": 28300,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "C",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/C-back.png",
+      "imageSHA256": "903bb5adfbc427487578a8fe02257b6bfb8087bc8e419c7c883e8d6756f60a7f",
+      "actual": {
+        "signature": "1ce0a568",
+        "triangles": 28928,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "C",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/C-player.png",
+      "imageSHA256": "6f3f5ca4300918f967bfedf8a72dd0c36c6a881b2ffb98e49a2966beab12dbd5",
+      "actual": {
+        "signature": "1ce0a568",
+        "triangles": 28402,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "D",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/D-front.png",
+      "imageSHA256": "aa17f97512f9e71bb733bd8dec7677661c8440b904a3b1d2ff45b97782c01fde",
+      "actual": {
+        "signature": "9252b96c",
+        "triangles": 26278,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "D",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/D-side.png",
+      "imageSHA256": "f43559b480a127a187d49a8182656cbf48d3ec3dd2d9e21c7ae19de34a03a2ba",
+      "actual": {
+        "signature": "9252b96c",
+        "triangles": 28300,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "D",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/D-back.png",
+      "imageSHA256": "f3fb3144d68d42bec296d80d353b06b9818ba35b1cfd1fda316ad37d82d2decc",
+      "actual": {
+        "signature": "9252b96c",
+        "triangles": 28928,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "D",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/D-player.png",
+      "imageSHA256": "6a9179858a3267d494e5ba244d5d77567a792c2287ca6645ecc36b8d84c0ff72",
+      "actual": {
+        "signature": "9252b96c",
+        "triangles": 28402,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "E",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/E-front.png",
+      "imageSHA256": "518410a9ce3075f92fb248b40e798e2580fed90bd7d59c1d21708d1afb14a586",
+      "actual": {
+        "signature": "d05159a8",
+        "triangles": 26278,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "E",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/E-side.png",
+      "imageSHA256": "eb0d1c4c48fc739d8416abc1103c981b466c97b50c1de99c11b320b9291ffcf6",
+      "actual": {
+        "signature": "d05159a8",
+        "triangles": 28300,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "E",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/E-back.png",
+      "imageSHA256": "9a6b22b47dfa22a35a417f14971717ab5e9cfa7f2f655d086567394ed37e723f",
+      "actual": {
+        "signature": "d05159a8",
+        "triangles": 28928,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "E",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/E-player.png",
+      "imageSHA256": "e249e6509145376a5a01b5453e827d15db48855632ddeea83d0d05e5bda81707",
+      "actual": {
+        "signature": "d05159a8",
+        "triangles": 28402,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "F",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/F-front.png",
+      "imageSHA256": "a26297d0c27c2dfef57f3a3f15b60b1ae30f86504a719563a9155dfee4aa64b9",
+      "actual": {
+        "signature": "0803a230",
+        "triangles": 26326,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "F",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/F-side.png",
+      "imageSHA256": "00f0e030cfcd1e22d0d8b28e60e5d05493c158767eaa5e056cb4ee4dcf4ec70e",
+      "actual": {
+        "signature": "0803a230",
+        "triangles": 28348,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "F",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/F-back.png",
+      "imageSHA256": "2c804684a178fa2bcb4b0c49dd6c27b46e2193d43f5d183abf9eca2bf723c33d",
+      "actual": {
+        "signature": "0803a230",
+        "triangles": 28976,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "F",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/F-player.png",
+      "imageSHA256": "179dbb8a3b805dfb5b36ee358a97e0efd76437ee66de592c944932ef1fe9d020",
+      "actual": {
+        "signature": "0803a230",
+        "triangles": 28450,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "G",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/G-front.png",
+      "imageSHA256": "1484b896b0f6a42ec7fbe513755e47ee0dcfeac4f62f78d7f8c83f23dbdf954f",
+      "actual": {
+        "signature": "4ce219a6",
+        "triangles": 26278,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "G",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/G-side.png",
+      "imageSHA256": "921672faa1f5fe58b8f914f9609e3e0447f10f25e3c286cefb64ec434b11d799",
+      "actual": {
+        "signature": "4ce219a6",
+        "triangles": 28300,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "G",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/G-back.png",
+      "imageSHA256": "bde2e9be871a29df597e978a83efe428656ca3c452435d01db598f077688ded9",
+      "actual": {
+        "signature": "4ce219a6",
+        "triangles": 28928,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "G",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/G-player.png",
+      "imageSHA256": "c76de9c1f61b19a50a3e1f206ce05755d524443833d2fe7a5193c522b20fa312",
+      "actual": {
+        "signature": "4ce219a6",
+        "triangles": 28402,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "A",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/A-front.png",
+      "imageSHA256": "7ceaa5d1ddde8b258a752af0bbd79138526a4ed6d16a301abf36e7545071d59d",
+      "actual": {
+        "signature": "33b15d0d",
+        "triangles": 26278,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "A",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/A-side.png",
+      "imageSHA256": "6f332cbb69d6d30a68b51734da2951f18e1a7b5e168abd0d03c2325980e5f2d7",
+      "actual": {
+        "signature": "33b15d0d",
+        "triangles": 28300,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "A",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/A-back.png",
+      "imageSHA256": "963548067e33f31d39ee5fd3c12cda3c405b31244d9e14aea6093a2ef37a3cc6",
+      "actual": {
+        "signature": "33b15d0d",
+        "triangles": 28928,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "A",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/A-player.png",
+      "imageSHA256": "41f073d45b751f9ba96684e9925a20a0beb98f52c6e021895c4aa94d8da407f3",
+      "actual": {
+        "signature": "33b15d0d",
+        "triangles": 28402,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "B",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/B-front.png",
+      "imageSHA256": "b8185ecbe7968f8d29109217e2f62390d0a3c472260d7fd2bf69d03aace04e8b",
+      "actual": {
+        "signature": "1d842f78",
+        "triangles": 26338,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "B",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/B-side.png",
+      "imageSHA256": "ce987ac07066ea4a669235f19e10b735ac2cfaabb46969426bd5d4c708e7d51c",
+      "actual": {
+        "signature": "1d842f78",
+        "triangles": 28360,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "B",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/B-back.png",
+      "imageSHA256": "82282a3ccf4d0b6eef991346e9bbf9c01344d7475deb494e35a5f89d346e8ee3",
+      "actual": {
+        "signature": "1d842f78",
+        "triangles": 28988,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "B",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/B-player.png",
+      "imageSHA256": "b1f9962ab05ec5d8f0e5d6056763fdef6996bbcb445e483d012227b348e9536b",
+      "actual": {
+        "signature": "1d842f78",
+        "triangles": 28462,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Cm",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Cm-front.png",
+      "imageSHA256": "4677ee36ace4af85696580412affcca778e570fe94727fbbd1d0ff4f466b5b18",
+      "actual": {
+        "signature": "4ec13c8e",
+        "triangles": 26314,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Cm",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Cm-side.png",
+      "imageSHA256": "a16ea3598dcba5a3a7628076ea9b5397ea80cb2fe6b9cfc7c2ca4fc6d2d287bd",
+      "actual": {
+        "signature": "4ec13c8e",
+        "triangles": 28336,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Cm",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Cm-back.png",
+      "imageSHA256": "20d8a7f36901292fbc54f429b5c2ceef936cc91ad036b850de6c77da3c73284e",
+      "actual": {
+        "signature": "4ec13c8e",
+        "triangles": 28964,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Cm",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Cm-player.png",
+      "imageSHA256": "9c3d9f2997bca123c02b8d630c8667eca16f781fb59e8f312f70ba762b73a325",
+      "actual": {
+        "signature": "4ec13c8e",
+        "triangles": 28438,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dm",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dm-front.png",
+      "imageSHA256": "be09f7b599c226ad241f705e5cf13c68db116910b5ae6f44c8d111b596ea9961",
+      "actual": {
+        "signature": "f8923c92",
+        "triangles": 26278,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dm",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dm-side.png",
+      "imageSHA256": "a61cf44641a6f5561dfb343f0a69b37d375d91f7b44729a2609efd6c3674eb45",
+      "actual": {
+        "signature": "f8923c92",
+        "triangles": 28300,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dm",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dm-back.png",
+      "imageSHA256": "87719ef439aa2eef903076bb1d0537c0d19e3b57d77d2967a167073a138a97c3",
+      "actual": {
+        "signature": "f8923c92",
+        "triangles": 28928,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dm",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dm-player.png",
+      "imageSHA256": "5b08f521baca79e5b6b8c6575adbb5e6242cca68cfaf365da8f12e9519b0c767",
+      "actual": {
+        "signature": "f8923c92",
+        "triangles": 28402,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Em",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Em-front.png",
+      "imageSHA256": "2c64f01d5b6260dfbda8ca846aa3c9c0df4d809e16280504e1ff6c30fbf98de4",
+      "actual": {
+        "signature": "27f4eec4",
+        "triangles": 26266,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Em",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Em-side.png",
+      "imageSHA256": "0278246fdbe5025ca0c07b8c77efb0120bd8008cc8a0d28341f29f4d7fb12b6d",
+      "actual": {
+        "signature": "27f4eec4",
+        "triangles": 28288,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Em",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Em-back.png",
+      "imageSHA256": "abb4e90220fbd3e0df30b5ebba0e0aabfd365ad49723b6543f55945196a9407b",
+      "actual": {
+        "signature": "27f4eec4",
+        "triangles": 28916,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Em",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Em-player.png",
+      "imageSHA256": "3b8560ccb15f5ea019b8e99763dc8cf62eae647fbe1b558bc327ee4f70c81d9a",
+      "actual": {
+        "signature": "27f4eec4",
+        "triangles": 28390,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Fm",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Fm-front.png",
+      "imageSHA256": "c86879686324c6259c259c93e4bc1ed6ac67abdbdf48839cf526bfe25bb7d30c",
+      "actual": {
+        "signature": "a1da1c0c",
+        "triangles": 26314,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Fm",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Fm-side.png",
+      "imageSHA256": "11bd7ba95f5b2d1d040448a9413efa12df67021c677f27e99b3efa927c705edd",
+      "actual": {
+        "signature": "a1da1c0c",
+        "triangles": 28336,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Fm",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Fm-back.png",
+      "imageSHA256": "af5f6b8c7509a4644aaecd369ed7893ae0ef165259ed3e477d4a8a29e3c6b1a8",
+      "actual": {
+        "signature": "a1da1c0c",
+        "triangles": 28964,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Fm",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Fm-player.png",
+      "imageSHA256": "95682460ea0f9f62f175e4331bbc6e3040217a7919e18846e5d5622c7901db26",
+      "actual": {
+        "signature": "a1da1c0c",
+        "triangles": 28438,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Gm",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Gm-front.png",
+      "imageSHA256": "beac0645787227b8a35e7bc79b529519b867e89bacda9f229deb42e17e03204e",
+      "actual": {
+        "signature": "be6f16d2",
+        "triangles": 26314,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Gm",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Gm-side.png",
+      "imageSHA256": "6311e55b8ced40ab3d7cf6d1b60601c1c74a78926e3303f7049bbbbf2d16ce24",
+      "actual": {
+        "signature": "be6f16d2",
+        "triangles": 28336,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Gm",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Gm-back.png",
+      "imageSHA256": "975f7ae807cdc41b93519bba0a36eac90fbfeefb759de2f45ed948b4383e9e74",
+      "actual": {
+        "signature": "be6f16d2",
+        "triangles": 28964,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Gm",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Gm-player.png",
+      "imageSHA256": "76405983a56d75114503a1cc568233e7220d78a1edbdacca28f5b80b2f2ab8bc",
+      "actual": {
+        "signature": "be6f16d2",
+        "triangles": 28438,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Am",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Am-front.png",
+      "imageSHA256": "501bab3877d7afde505c9d2e63f16d88cce9472e0894267c94e4521bb26e3cb3",
+      "actual": {
+        "signature": "7235226c",
+        "triangles": 26278,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Am",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Am-side.png",
+      "imageSHA256": "bad5acd8a31037915d957350414528706eaaea2450af26751fe425443e8b4588",
+      "actual": {
+        "signature": "7235226c",
+        "triangles": 28300,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Am",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Am-back.png",
+      "imageSHA256": "4d69583e3343e3cc1368cab594e8cba7339b586d6e4963866238ed453d99bf30",
+      "actual": {
+        "signature": "7235226c",
+        "triangles": 28928,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Am",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Am-player.png",
+      "imageSHA256": "a2c9a33376450cac9d0a9b06d434805e51aabf172a3de2258d06523467ecb781",
+      "actual": {
+        "signature": "7235226c",
+        "triangles": 28402,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Bm",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Bm-front.png",
+      "imageSHA256": "55931d97911f9dcad07477b77675114e63c69bb274ec418aaba35fd817a2a3e8",
+      "actual": {
+        "signature": "c916951f",
+        "triangles": 26338,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Bm",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Bm-side.png",
+      "imageSHA256": "e390b0475e18b11660fc6709ff903b2e739037bf36e4010563697d2397aba946",
+      "actual": {
+        "signature": "c916951f",
+        "triangles": 28360,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Bm",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Bm-back.png",
+      "imageSHA256": "83eeef8c805532f0aab7affd5f012419bb1acd56bcec6e1673c26c53d9da847f",
+      "actual": {
+        "signature": "c916951f",
+        "triangles": 28988,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Bm",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Bm-player.png",
+      "imageSHA256": "64e8e224baca9915a56f082b6efa479808ccca3b4bf533e7901b1c7f4eb391bf",
+      "actual": {
+        "signature": "c916951f",
+        "triangles": 28462,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "C7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/C7-front.png",
+      "imageSHA256": "ceac947fb285db72b73985510fdd1d467bb0db21bc8be2cf7d0bb6eac3c86f9c",
+      "actual": {
+        "signature": "1e087701",
+        "triangles": 26290,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "C7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/C7-side.png",
+      "imageSHA256": "ff7a8490ddcdf69b5583cf17bef04f8dbe74bccf7fb147a9fa2c9fd6facb4c2d",
+      "actual": {
+        "signature": "1e087701",
+        "triangles": 28312,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "C7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/C7-back.png",
+      "imageSHA256": "2f5733b928d66ca4dd55493ec9417ed30033baa5b408fa64830a23293c9da70f",
+      "actual": {
+        "signature": "1e087701",
+        "triangles": 28940,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "C7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/C7-player.png",
+      "imageSHA256": "b61021e341820880ba7ac9de23bd7bc33621a62201e986ff0c6c8125cd7fcde5",
+      "actual": {
+        "signature": "1e087701",
+        "triangles": 28414,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "D7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/D7-front.png",
+      "imageSHA256": "d073039dabaa4a046f8d6284d572e6ad86e3c5bd08c18e20661359895e96cae4",
+      "actual": {
+        "signature": "05457593",
+        "triangles": 26278,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "D7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/D7-side.png",
+      "imageSHA256": "5ecdc30017547071295ca659c145b1ae918858b3e0c9129be51c986c49c3ab06",
+      "actual": {
+        "signature": "05457593",
+        "triangles": 28300,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "D7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/D7-back.png",
+      "imageSHA256": "d992c08ed0815a890bd97394a0ed5e864d7658875a7fece7bb4b42fd7328484b",
+      "actual": {
+        "signature": "05457593",
+        "triangles": 28928,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "D7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/D7-player.png",
+      "imageSHA256": "220269b3398950d86549b08c704b653c44c4dcb8d9107bb6e74017fdc4fa21e9",
+      "actual": {
+        "signature": "05457593",
+        "triangles": 28402,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "E7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/E7-front.png",
+      "imageSHA256": "909df2bd0335fcffd318843cb93470003f25f6ce7dddc8b42a79d068bbd95d8f",
+      "actual": {
+        "signature": "7753a6f9",
+        "triangles": 26266,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "E7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/E7-side.png",
+      "imageSHA256": "b115b155320ecc7bfc35fa8af36c5a54e2a1532d0e452b9f81553074fda5f08c",
+      "actual": {
+        "signature": "7753a6f9",
+        "triangles": 28288,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "E7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/E7-back.png",
+      "imageSHA256": "0910652aab46c41ec71c4afaef2e7c80fca5901f1ac57056ba912b8c6f927d37",
+      "actual": {
+        "signature": "7753a6f9",
+        "triangles": 28916,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "E7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/E7-player.png",
+      "imageSHA256": "c547650868eb886d7b2b0c95eec625ecb23dbd1d666af44092db6a7646cdff1a",
+      "actual": {
+        "signature": "7753a6f9",
+        "triangles": 28390,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "F7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/F7-front.png",
+      "imageSHA256": "62fb11845799a728d2d438bc652251302f00895dc105ceb5e8c28d98c7b7d318",
+      "actual": {
+        "signature": "7acaa971",
+        "triangles": 26326,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "F7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/F7-side.png",
+      "imageSHA256": "63bc86390eec656423dd3f7fd4eb10bd445efa91d545a4476f7b8f83d769d59a",
+      "actual": {
+        "signature": "7acaa971",
+        "triangles": 28348,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "F7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/F7-back.png",
+      "imageSHA256": "da77f2c8a876afb229dfe10c57462bf06c1befcb7e32aa0a754de8c8c1e6f363",
+      "actual": {
+        "signature": "7acaa971",
+        "triangles": 28976,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "F7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/F7-player.png",
+      "imageSHA256": "5bc54bb5da801b6f44c024888d42d5f3a257de146b5604f18666bbe0791c8425",
+      "actual": {
+        "signature": "7acaa971",
+        "triangles": 28450,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "G7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/G7-front.png",
+      "imageSHA256": "ee03723be413d867929207301ba79ec060796f0cf86084bc72a644687622d3c2",
+      "actual": {
+        "signature": "389da23f",
+        "triangles": 26278,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "G7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/G7-side.png",
+      "imageSHA256": "01703494d38f5ac4d1d60b61a9b5416955eb1ea803bd9a1c54d6a177b3938ea1",
+      "actual": {
+        "signature": "389da23f",
+        "triangles": 28300,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "G7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/G7-back.png",
+      "imageSHA256": "db92e66e4f8c6d3a91da72b766590462f9784b41b813ebf17947071b4ca0e154",
+      "actual": {
+        "signature": "389da23f",
+        "triangles": 28928,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "G7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/G7-player.png",
+      "imageSHA256": "834561fc3a89f8ca202478be663419a636d1b7d66fcdbfe4735cc21a58669a87",
+      "actual": {
+        "signature": "389da23f",
+        "triangles": 28402,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "A7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/A7-front.png",
+      "imageSHA256": "8249521f5669536e48d97b4588e4fe78b63a3a8d4331ac1651aee146dd50e552",
+      "actual": {
+        "signature": "532785f2",
+        "triangles": 26266,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "A7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/A7-side.png",
+      "imageSHA256": "4263e81d9290a25c6f74258bc206c0ba70f0052397288d56fec2922eab188bc9",
+      "actual": {
+        "signature": "532785f2",
+        "triangles": 28288,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "A7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/A7-back.png",
+      "imageSHA256": "ad68d06127b9d85c273a5efbb98e6087a8cd3cad18bad6c225d85e9fd8fbd7bc",
+      "actual": {
+        "signature": "532785f2",
+        "triangles": 28916,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "A7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/A7-player.png",
+      "imageSHA256": "f61931629e8cae6ab1cb9fa970d4269f82661dc3e2c01634d270211ab7b07914",
+      "actual": {
+        "signature": "532785f2",
+        "triangles": 28390,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "B7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/B7-front.png",
+      "imageSHA256": "0563bb92c33f1afe399904c91a3f79f7db7ec256715e8dfa02075da5b31ab7b7",
+      "actual": {
+        "signature": "51e39d14",
+        "triangles": 26290,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "B7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/B7-side.png",
+      "imageSHA256": "88a6c81db997966ce2ac0ae935be1d118b2d268258e281f66265fe3c869f8a2f",
+      "actual": {
+        "signature": "51e39d14",
+        "triangles": 28312,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "B7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/B7-back.png",
+      "imageSHA256": "e03df6a3569d36cf62fbe0d4f411dd5c1f890638bd5179c8193b74c4393ae4e4",
+      "actual": {
+        "signature": "51e39d14",
+        "triangles": 28940,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "B7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/B7-player.png",
+      "imageSHA256": "b25b942dad53fbc7e4d78034da55dd0614a6fa81cc9ea0364222aeb6a7e3e4c7",
+      "actual": {
+        "signature": "51e39d14",
+        "triangles": 28414,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Cmaj7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Cmaj7-front.png",
+      "imageSHA256": "13ea5f3880c5290369ab1eb56436602901fa1711fe1e0f5cf130cee8a66a0db8",
+      "actual": {
+        "signature": "dd9b927d",
+        "triangles": 26266,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Cmaj7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Cmaj7-side.png",
+      "imageSHA256": "971abf2ecd18368302591a0828f451224ef05de98bc6a27cdfc5cd374c9052b0",
+      "actual": {
+        "signature": "dd9b927d",
+        "triangles": 28288,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Cmaj7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Cmaj7-back.png",
+      "imageSHA256": "73665715145600291e4bcae16c807e65e2cc69ac99e2205d220dde35e481fcea",
+      "actual": {
+        "signature": "dd9b927d",
+        "triangles": 28916,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Cmaj7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Cmaj7-player.png",
+      "imageSHA256": "05a0deba6c8b7405fba853d19d6fac61637dc3b5802b04113cb1fc61680550e3",
+      "actual": {
+        "signature": "dd9b927d",
+        "triangles": 28390,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dmaj7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dmaj7-front.png",
+      "imageSHA256": "a36bf6a1691fa6a19e3d662f59042c9a25139b83ab2d200ff849991d0188870d",
+      "actual": {
+        "signature": "491c58b5",
+        "triangles": 26278,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dmaj7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dmaj7-side.png",
+      "imageSHA256": "9e93dcb558e47cba98af38b4b353ef4a8eb16aa03df19cf596e6f79ca5c60b76",
+      "actual": {
+        "signature": "491c58b5",
+        "triangles": 28300,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dmaj7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dmaj7-back.png",
+      "imageSHA256": "015072b0bd8ee37cd38c24a11f3757875603a61ca9e0bf9ccde103683f98ab30",
+      "actual": {
+        "signature": "491c58b5",
+        "triangles": 28928,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dmaj7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dmaj7-player.png",
+      "imageSHA256": "aba84905f561bd241ed93609c130625c3ad416bb391f9f24433e4b518704e3c7",
+      "actual": {
+        "signature": "491c58b5",
+        "triangles": 28402,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Emaj7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Emaj7-front.png",
+      "imageSHA256": "5add2d89a17caeba92d3b261866bec1ac45e712b2648a64e0c68e8b1313155c6",
+      "actual": {
+        "signature": "aa8bb71e",
+        "triangles": 26278,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Emaj7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Emaj7-side.png",
+      "imageSHA256": "8a00017f21986be616d6473e91d56195ee4893880a7d6d4f3e06a4be50b01ecb",
+      "actual": {
+        "signature": "aa8bb71e",
+        "triangles": 28300,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Emaj7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Emaj7-back.png",
+      "imageSHA256": "73452bd2ea89e3ccdf03c872e698bdc251571cdcbb0bcc708ce05e2077a0f73b",
+      "actual": {
+        "signature": "aa8bb71e",
+        "triangles": 28928,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Emaj7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Emaj7-player.png",
+      "imageSHA256": "275c2c0522c822ee7a92eb7ed56515e7d3823024c3906b5af1f7c333c2720a5e",
+      "actual": {
+        "signature": "aa8bb71e",
+        "triangles": 28402,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Fmaj7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Fmaj7-front.png",
+      "imageSHA256": "f9f77801f64e330e73f757cebf10eabb8170c4bd7cd51f6dffe77409b411452e",
+      "actual": {
+        "signature": "20167e00",
+        "triangles": 26278,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Fmaj7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Fmaj7-side.png",
+      "imageSHA256": "eb04c327f9185a39a07e09002515d557da0bf7fe054c6cc6b69b3fccbb54b271",
+      "actual": {
+        "signature": "20167e00",
+        "triangles": 28300,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Fmaj7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Fmaj7-back.png",
+      "imageSHA256": "bc362f6af6df92323ec7660a56c18ba9f36df009620d21662ffdde5c81bb3f9e",
+      "actual": {
+        "signature": "20167e00",
+        "triangles": 28928,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Fmaj7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Fmaj7-player.png",
+      "imageSHA256": "35f5149994f75d608b9e91b5c66824869ef181a0b2da28c6c52a362df346ff6f",
+      "actual": {
+        "signature": "20167e00",
+        "triangles": 28402,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Gmaj7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Gmaj7-front.png",
+      "imageSHA256": "7e9f064e90606f67919072df2b8ebc394bb7307c243e8c776a0a95c4360c50f2",
+      "actual": {
+        "signature": "7130e374",
+        "triangles": 26278,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Gmaj7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Gmaj7-side.png",
+      "imageSHA256": "3fa312154f3d3b1df7ce8070c7db3ac09940e42036c935cac00b5a9cbabab6ef",
+      "actual": {
+        "signature": "7130e374",
+        "triangles": 28300,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Gmaj7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Gmaj7-back.png",
+      "imageSHA256": "633cd2dff15827cb8bfe39f98cd0a9ebeb4a92f14aaac58b4c119953ed3daa51",
+      "actual": {
+        "signature": "7130e374",
+        "triangles": 28928,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Gmaj7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Gmaj7-player.png",
+      "imageSHA256": "0e2585309a878569639d9e127476ec009bd4b6122f0aefe149eb6c72d22badd9",
+      "actual": {
+        "signature": "7130e374",
+        "triangles": 28402,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Amaj7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Amaj7-front.png",
+      "imageSHA256": "86db4c0c990aafb51c44bcf968f3d7c7edf97856cfc87aeb8df875d8dfe86c88",
+      "actual": {
+        "signature": "4790b6ef",
+        "triangles": 26278,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Amaj7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Amaj7-side.png",
+      "imageSHA256": "2a348933dbf871d6bf81e81524c3996073fd2ffb3aa14f0117e7cfd3441a5432",
+      "actual": {
+        "signature": "4790b6ef",
+        "triangles": 28300,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Amaj7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Amaj7-back.png",
+      "imageSHA256": "1cdc0ab69d3d958c04710eba6a1f9cf7c913f5326216ffd2446f7c81a88032f5",
+      "actual": {
+        "signature": "4790b6ef",
+        "triangles": 28928,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Amaj7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Amaj7-player.png",
+      "imageSHA256": "e1cf6e9ea98901f6f51809eeacba647af9647c6dca884b631f4f2bb84de5c09a",
+      "actual": {
+        "signature": "4790b6ef",
+        "triangles": 28402,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Bmaj7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Bmaj7-front.png",
+      "imageSHA256": "bef711f5c6e029fcb675dc4388d4de4040044ae31612bb87a2e77d4bfd2210ed",
+      "actual": {
+        "signature": "660afb95",
+        "triangles": 26338,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Bmaj7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Bmaj7-side.png",
+      "imageSHA256": "d1a0d9591f37e69dd1a862f3121664a128e71cfc82d2260ff21c9b598032c6af",
+      "actual": {
+        "signature": "660afb95",
+        "triangles": 28360,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Bmaj7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Bmaj7-back.png",
+      "imageSHA256": "2763a2b197c3ee38d19f52bc76321835e257874de21e1c0286919022bcb3ce50",
+      "actual": {
+        "signature": "660afb95",
+        "triangles": 28988,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Bmaj7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Bmaj7-player.png",
+      "imageSHA256": "c164a300ad63606d2a03717626f282943523590baca32c3f3c157d52c6e07b2d",
+      "actual": {
+        "signature": "660afb95",
+        "triangles": 28462,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Cm7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Cm7-front.png",
+      "imageSHA256": "c235fbf53f56b2941f690e07f831347f8c458ac7310610c5e02afa8c4107c4c5",
+      "actual": {
+        "signature": "a10937c9",
+        "triangles": 26314,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Cm7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Cm7-side.png",
+      "imageSHA256": "235fc26bc640ec2af5f8dcc878563881f136468d7a04dae8a02299a683e808fc",
+      "actual": {
+        "signature": "a10937c9",
+        "triangles": 28336,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Cm7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Cm7-back.png",
+      "imageSHA256": "5e504994bd9bf499a7b4790fdd7668a0facb2f95ff7c17d5027e36b43a28d84e",
+      "actual": {
+        "signature": "a10937c9",
+        "triangles": 28964,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Cm7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Cm7-player.png",
+      "imageSHA256": "ebdfc6c81c20ddf6bf9608e36485a8b4802cf8111ff63ce6cec3053a2d56b95f",
+      "actual": {
+        "signature": "a10937c9",
+        "triangles": 28438,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dm7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dm7-front.png",
+      "imageSHA256": "96c9bc2a4e2c779587b1c43e888748be47bd18c855147e9a8e26fcb850b8d23f",
+      "actual": {
+        "signature": "452b1dc0",
+        "triangles": 26278,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dm7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dm7-side.png",
+      "imageSHA256": "e95d0b21ce6538f748799ecf96a8da7b555c966d67437915a6ebb405aa64e364",
+      "actual": {
+        "signature": "452b1dc0",
+        "triangles": 28300,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dm7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dm7-back.png",
+      "imageSHA256": "eb4a6d6642d87c3edd264cb00a8ce1144cca8be852642d3a73bc3908bc82ac11",
+      "actual": {
+        "signature": "452b1dc0",
+        "triangles": 28928,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dm7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dm7-player.png",
+      "imageSHA256": "3c7a79cd51fbb673275684f14144fa5a5b3a664c0338da3aabd01ffa0ee24e13",
+      "actual": {
+        "signature": "452b1dc0",
+        "triangles": 28402,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Em7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Em7-front.png",
+      "imageSHA256": "d00255a5ea8df47dd82338247d5bb1028d58394408795eb4a0d0a3cee96a24c4",
+      "actual": {
+        "signature": "d25523f8",
+        "triangles": 26254,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Em7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Em7-side.png",
+      "imageSHA256": "21217aef1821616a738a5b68ead427646d3b566d972c5b9bf2777a8ee37f4486",
+      "actual": {
+        "signature": "d25523f8",
+        "triangles": 28276,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Em7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Em7-back.png",
+      "imageSHA256": "ba1200fa2ef23d6c2cd407ce6a50e14ca02f592f57759cdf4cba80139b2ed60b",
+      "actual": {
+        "signature": "d25523f8",
+        "triangles": 28904,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Em7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Em7-player.png",
+      "imageSHA256": "dec2eb1392b48a29de711129cda061debd09abe3c33c4dee5fc9910a61c689bf",
+      "actual": {
+        "signature": "d25523f8",
+        "triangles": 28378,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Fm7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Fm7-front.png",
+      "imageSHA256": "2bc54c220c18c9b7c702a48cc4b31bf1e0ed787e67122b7b845210aeed23bec7",
+      "actual": {
+        "signature": "60bccca6",
+        "triangles": 26314,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Fm7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Fm7-side.png",
+      "imageSHA256": "79a72fe27d50076331a41a952fd9ec5f1f8469f9422f112ba308f32a6c8d976d",
+      "actual": {
+        "signature": "60bccca6",
+        "triangles": 28336,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Fm7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Fm7-back.png",
+      "imageSHA256": "87dfbb5f92c8fe78761e528e2ed304d6a11bc296b979d2a2718a06aa6d023ce0",
+      "actual": {
+        "signature": "60bccca6",
+        "triangles": 28964,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Fm7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Fm7-player.png",
+      "imageSHA256": "bf8f84852f1000e456fc2e4257c8bb4ad8c976635abba77eeaf5359c8f25fc42",
+      "actual": {
+        "signature": "60bccca6",
+        "triangles": 28438,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Gm7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Gm7-front.png",
+      "imageSHA256": "2340ffe8bebb8efb990fd6828a6ff76a511c65348bb9e4eb365b69505e1120ac",
+      "actual": {
+        "signature": "ea2fc938",
+        "triangles": 26314,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Gm7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Gm7-side.png",
+      "imageSHA256": "8184563e373dda0f3dd8be3df14719fb01b7109c65d62a0752c1d9f6ec6c6679",
+      "actual": {
+        "signature": "ea2fc938",
+        "triangles": 28336,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Gm7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Gm7-back.png",
+      "imageSHA256": "55eedbfd5976eb5fd553a4ee346bbe464785de65d35f19ea50b2b6ae39425d1f",
+      "actual": {
+        "signature": "ea2fc938",
+        "triangles": 28964,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Gm7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Gm7-player.png",
+      "imageSHA256": "871ef1dcb2fe91d96815e11b004796c2d9f118069ca8b6cd6bfb97b4fa3f50a7",
+      "actual": {
+        "signature": "ea2fc938",
+        "triangles": 28438,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Am7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Am7-front.png",
+      "imageSHA256": "28630e83e69985b6601c7cfb20a5262415a2cd5ccff2ab4dfeb948179331062c",
+      "actual": {
+        "signature": "69643940",
+        "triangles": 26266,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Am7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Am7-side.png",
+      "imageSHA256": "baad46a2ac4f42a5bf0cecd6f31fad5bb36c9fa318016b273f921c81bcc8c303",
+      "actual": {
+        "signature": "69643940",
+        "triangles": 28288,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Am7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Am7-back.png",
+      "imageSHA256": "e0c1099b693f3e868ec3777bfe5c5e1a21156e5641fc225d636f97f38697a2f9",
+      "actual": {
+        "signature": "69643940",
+        "triangles": 28916,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Am7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Am7-player.png",
+      "imageSHA256": "f08136b35fde527b7ace4aec44e075efe47a496fa7e829108f2f3861b7b7c095",
+      "actual": {
+        "signature": "69643940",
+        "triangles": 28390,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Bm7",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Bm7-front.png",
+      "imageSHA256": "dcbad3554cd03087507f4d3bed88430ff2f90ed4e14feb75cc549ee52607f9b9",
+      "actual": {
+        "signature": "8b3e516a",
+        "triangles": 26326,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Bm7",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Bm7-side.png",
+      "imageSHA256": "847476d826c08e3e827a00f2e4e4ddd35c97eb4bc42e294a0ba868a1223e4210",
+      "actual": {
+        "signature": "8b3e516a",
+        "triangles": 28348,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Bm7",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Bm7-back.png",
+      "imageSHA256": "cf1fee83dea5a634cafa7103e5a1d435079c02474cdedd5b59f5c3f79cc5be80",
+      "actual": {
+        "signature": "8b3e516a",
+        "triangles": 28976,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Bm7",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Bm7-player.png",
+      "imageSHA256": "6f808a4e34964da1f6b9ca58e4aa9e208d80dad53e66434c6b312cdca82acc66",
+      "actual": {
+        "signature": "8b3e516a",
+        "triangles": 28450,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Csus2",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Csus2-front.png",
+      "imageSHA256": "cab896977b02ef6257ad8f6e76536f63f08aed956371eb09893e1a41ea4cd3a2",
+      "actual": {
+        "signature": "8b20dc37",
+        "triangles": 26302,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Csus2",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Csus2-side.png",
+      "imageSHA256": "88fb215f74da44438444719b8ecda9db004a551bc05cb8cba796ece4b5323f61",
+      "actual": {
+        "signature": "8b20dc37",
+        "triangles": 28324,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Csus2",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Csus2-back.png",
+      "imageSHA256": "25af5485f9a7a280720f204abd65a152db773f819c9ef970140e7937b9e38997",
+      "actual": {
+        "signature": "8b20dc37",
+        "triangles": 28952,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Csus2",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Csus2-player.png",
+      "imageSHA256": "181c337091057aadc8d997678ce18619c625684e4b946167894b3bbb95126f60",
+      "actual": {
+        "signature": "8b20dc37",
+        "triangles": 28426,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dsus2",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dsus2-front.png",
+      "imageSHA256": "8cdf1e94012b384c4514af3d94eee4be2ea046e884394427bffe2e6a262fcb73",
+      "actual": {
+        "signature": "e8c21237",
+        "triangles": 26266,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dsus2",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dsus2-side.png",
+      "imageSHA256": "39c93c98188a56797e728694fb926060e0dadb44acd2ad38a0c50854f69336bf",
+      "actual": {
+        "signature": "e8c21237",
+        "triangles": 28288,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dsus2",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dsus2-back.png",
+      "imageSHA256": "24fe21564ccf4f54057611ec6f04f5627b5ecc4878af7dbd2c1fab759409fb99",
+      "actual": {
+        "signature": "e8c21237",
+        "triangles": 28916,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dsus2",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dsus2-player.png",
+      "imageSHA256": "7ee5050557159105abff4adeb3362fd8332201cd812083428ed3bbe8f7338959",
+      "actual": {
+        "signature": "e8c21237",
+        "triangles": 28390,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Asus2",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Asus2-front.png",
+      "imageSHA256": "4c5987421b19de4c92a5b44f388a1a739a4be1c55c730a54473a05fa0159dadd",
+      "actual": {
+        "signature": "704fde40",
+        "triangles": 26266,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Asus2",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Asus2-side.png",
+      "imageSHA256": "6ff89b8e3cec51701e9cb3fc1bacdea7e4d814db23990cc2520b27e76da82349",
+      "actual": {
+        "signature": "704fde40",
+        "triangles": 28288,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Asus2",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Asus2-back.png",
+      "imageSHA256": "40756a7ad3a32c44951b5d783ab8e36ed777b6634118e910d8d065a91c314555",
+      "actual": {
+        "signature": "704fde40",
+        "triangles": 28916,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Asus2",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Asus2-player.png",
+      "imageSHA256": "4aa79fba9cd50eddf458b4c439c652b9ae3e5045088a94644edcec53bab7abfc",
+      "actual": {
+        "signature": "704fde40",
+        "triangles": 28390,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Csus4",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Csus4-front.png",
+      "imageSHA256": "b7607f7fdb725bdae33af7193ed6b0b0205b79f17aced2928673f359c84c22df",
+      "actual": {
+        "signature": "f2a0dc94",
+        "triangles": 26290,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Csus4",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Csus4-side.png",
+      "imageSHA256": "12998d1cf7aefbfa32589fb9cd3b721f44775c1ff27d1460472724cf102c6a05",
+      "actual": {
+        "signature": "f2a0dc94",
+        "triangles": 28312,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Csus4",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Csus4-back.png",
+      "imageSHA256": "999b8d3b6ed9af4936441c70aaab4528a5a7115ee5223a18905c44fa88810cc0",
+      "actual": {
+        "signature": "f2a0dc94",
+        "triangles": 28940,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Csus4",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Csus4-player.png",
+      "imageSHA256": "8e621424b9325b014f155e1f7720a5d31a1e65f1f878a924091c1c9a563d4c94",
+      "actual": {
+        "signature": "f2a0dc94",
+        "triangles": 28414,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dsus4",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dsus4-front.png",
+      "imageSHA256": "bf07e10a218848e9c460140f6ee4fa37af29b2252f62b73f685cc01fcd875dcc",
+      "actual": {
+        "signature": "9136e065",
+        "triangles": 26278,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dsus4",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dsus4-side.png",
+      "imageSHA256": "a96eecd377c778c9d24bc930bc9636436949272165917688039c6ba268cefe8a",
+      "actual": {
+        "signature": "9136e065",
+        "triangles": 28300,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dsus4",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dsus4-back.png",
+      "imageSHA256": "933d8594e34e7b70e859342e330ad548c785a72864b8c3e558e08962ab594218",
+      "actual": {
+        "signature": "9136e065",
+        "triangles": 28928,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Dsus4",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Dsus4-player.png",
+      "imageSHA256": "9e01e45123f3df189c9acd2429bfa6e7fae7843454cca41567bc95944965d8ba",
+      "actual": {
+        "signature": "9136e065",
+        "triangles": 28402,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Esus4",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Esus4-front.png",
+      "imageSHA256": "972a0f904252727b58f747439cd63384faa32d3f20fe215cca92bcb2e7989cf5",
+      "actual": {
+        "signature": "71b5686b",
+        "triangles": 26278,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Esus4",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Esus4-side.png",
+      "imageSHA256": "08ae6783471c1666a550967526035faf6fecb1b1ecbb4c8e0d80a068dc3bb92a",
+      "actual": {
+        "signature": "71b5686b",
+        "triangles": 28300,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Esus4",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Esus4-back.png",
+      "imageSHA256": "b9b6f4d7339e9abf19983376235ac36361b9ce81db5075d998da5d24bf4c9e15",
+      "actual": {
+        "signature": "71b5686b",
+        "triangles": 28928,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Esus4",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Esus4-player.png",
+      "imageSHA256": "6073e25b970344d69c39ba7502590bbab4ca67ec04516304586436c1f3c7eba7",
+      "actual": {
+        "signature": "71b5686b",
+        "triangles": 28402,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Asus4",
+      "view": "front",
+      "file": "docs/practice-complete-42/screenshots/baseline/Asus4-front.png",
+      "imageSHA256": "4bf4176c271472437077dd6fc5062f248021c3d088c8fec392f7f5414801b8bd",
+      "actual": {
+        "signature": "54c23401",
+        "triangles": 26278,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Asus4",
+      "view": "side",
+      "file": "docs/practice-complete-42/screenshots/baseline/Asus4-side.png",
+      "imageSHA256": "5a72c3b2f4f2dff73a951624527e0791a08f797949f1a85f229db555c8faa19c",
+      "actual": {
+        "signature": "54c23401",
+        "triangles": 28300,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Asus4",
+      "view": "back",
+      "file": "docs/practice-complete-42/screenshots/baseline/Asus4-back.png",
+      "imageSHA256": "c8e94a2788454bdbe22fdd356d56cb52c993a34087f3c737f287fdba292a4634",
+      "actual": {
+        "signature": "54c23401",
+        "triangles": 28928,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    },
+    {
+      "id": "Asus4",
+      "view": "player",
+      "file": "docs/practice-complete-42/screenshots/baseline/Asus4-player.png",
+      "imageSHA256": "9cd9557cd1abcf0a82454c7f753fd9d2436f64afd31ae31dcc776de5950bb9b5",
+      "actual": {
+        "signature": "54c23401",
+        "triangles": 28402,
+        "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+      },
+      "notTeachingApproval": true
+    }
+  ],
+  "errors": []
+}

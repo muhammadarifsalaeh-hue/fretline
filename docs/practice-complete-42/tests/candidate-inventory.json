@@ -1,0 +1,5973 @@
+[
+  {
+    "id": "C",
+    "row": {
+      "id": "C",
+      "voicing": "x32010",
+      "poseTransformSha256": "60fec80ad0cb42f3e228cc06ee916eab1c48c334dcf239ee3bee33f3c2613393",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "ea21de12dec1a5c67975678aba537df8496d1ab1dcb0b96865894ad1f5890102"
+      },
+      "contacts": [
+        {
+          "finger": 3,
+          "string": 5,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.008002691473372014,
+          "passed": true
+        },
+        {
+          "finger": 2,
+          "string": 4,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.00800147030843068,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 1,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.028867648455603162,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 0,
+          "wholeSkinClearanceMm": 1.8347640552526627,
+          "openStringPassed": true
+        },
+        {
+          "number": 2,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.008002537707762963,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 0,
+          "wholeSkinClearanceMm": 2.780195705901251,
+          "openStringPassed": true
+        },
+        {
+          "number": 4,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.00800147030843068,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.00800269147337207,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 4.22491357179037,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "C-raw.json.gz"
+    },
+    "source": "baseline:1f2836b",
+    "audit": "docs/practice-fingering-polish/tests/geometry/summary.json",
+    "support": {
+      "id": "C",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          10.076644536379787,
+          -12.845624574511731,
+          -19.43016502859431
+        ],
+        "neckBackPointMm": [
+          10.078388364154826,
+          -12.780396649870397,
+          -19.318476123007486
+        ],
+        "distanceMm": 0.12935275304185495
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 64.33153758235912,
+          "DIPDegrees": 20.791726019582143
+        },
+        "middle": {
+          "PIPDegrees": 67.34965120202584,
+          "DIPDegrees": 27.01467439036679
+        },
+        "ring": {
+          "PIPDegrees": 31.346299247267435,
+          "DIPDegrees": 37.97744297135724
+        },
+        "little": {
+          "PIPDegrees": 22.858785953539527,
+          "DIPDegrees": 6.68654628240988
+        },
+        "thumb": {
+          "PIPDegrees": 12.850483868423686,
+          "DIPDegrees": 4.779597945930015
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 0,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "D",
+    "row": {
+      "id": "D",
+      "voicing": "xx0232",
+      "poseTransformSha256": "7ee2741602001621322e52fa4bf090ba8d48e01fa0b547825bd507b7b19a036c",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 2.950674016233279e-08,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "d9813603170cc6216de295c3c819e2d32949a8f5422a99c741b2c47fcbf82739"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03498956833478736,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 2,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.035000402913055256,
+          "passed": true
+        },
+        {
+          "finger": 2,
+          "string": 1,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500746634798829,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.011993968761990909,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.011999826091779547,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.011995318813481787,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 0,
+          "wholeSkinClearanceMm": 4.464718306293376,
+          "openStringPassed": true
+        },
+        {
+          "number": 5,
+          "fret": null,
+          "wholeSkinClearanceMm": 11.490091676016803,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 18.512437756717194,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "233130bf9748e0ff42d677a0d24a0f78c7ab203c14dfedfd589e661674d8c75d",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "D-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/thumb-final/D/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-final/D/round-0/audit/summary.json",
+    "support": {
+      "id": "D",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          18.686121523543427,
+          -17.43455407037984,
+          -14.201075439535316
+        ],
+        "neckBackPointMm": [
+          18.68640812620796,
+          -17.388385109726,
+          -14.174034135599358
+        ],
+        "distanceMm": 0.0535059546919785
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 56.10515623822131,
+          "DIPDegrees": 17.208975184331667
+        },
+        "middle": {
+          "PIPDegrees": 80.28306701792444,
+          "DIPDegrees": 61.166204842731425
+        },
+        "ring": {
+          "PIPDegrees": 69.17074190910766,
+          "DIPDegrees": 52.22258827568184
+        },
+        "little": {
+          "PIPDegrees": 22.858785953539527,
+          "DIPDegrees": 6.686546282409825
+        },
+        "thumb": {
+          "PIPDegrees": 14.309736563373308,
+          "DIPDegrees": 4.444007847706492
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 7,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "E",
+    "row": {
+      "id": "E",
+      "voicing": "022100",
+      "poseTransformSha256": "8ec9aa73474eda021f7b13ffab81678b4291834178036639bd701c4f8641302d",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 2.569634052207448e-06,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "86f0254ef37b0d8a16bceb36f0ceb8ba7b7a0e92d5c83660ac2b80dd728029f0"
+      },
+      "contacts": [
+        {
+          "finger": 2,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.034978390354925504,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 4,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03505620909127427,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 1,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03503057258798378,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.6524441732883077,
+          "openStringPassed": true
+        },
+        {
+          "number": 2,
+          "fret": 0,
+          "wholeSkinClearanceMm": 3.2820797645992417,
+          "openStringPassed": true
+        },
+        {
+          "number": 3,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.011917399047045224,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.011699745443666143,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.012011383887707117,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": 0,
+          "wholeSkinClearanceMm": 1.0415693549077694,
+          "openStringPassed": true
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "08e536d017348c669b7c4c35a6e916fd42f97141f2a8a7030ae712c844392974",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "E-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/thumb-final/E/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-final/E/round-0/audit/summary.json",
+    "support": {
+      "id": "E",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          7.5561372577870545,
+          -20.8877102095646,
+          -3.842838728646047
+        ],
+        "neckBackPointMm": [
+          7.55620038496747,
+          -20.748802976810133,
+          -3.820408714191871
+        ],
+        "distanceMm": 0.14070653447853393
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 31.832256830090188,
+          "DIPDegrees": 57.91975260744218
+        },
+        "middle": {
+          "PIPDegrees": 41.931947080754526,
+          "DIPDegrees": 14.278068661180185
+        },
+        "ring": {
+          "PIPDegrees": 54.88735562261303,
+          "DIPDegrees": 27.927845804125635
+        },
+        "little": {
+          "PIPDegrees": 30.14383950935218,
+          "DIPDegrees": 32.04953231096347
+        },
+        "thumb": {
+          "PIPDegrees": 19.59893774156528,
+          "DIPDegrees": 7.162909220118768
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 3,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "F",
+    "row": {
+      "id": "F",
+      "voicing": "133211",
+      "poseTransformSha256": "df09ed14bf231365aac764572ecb33c6d5cda370df10acf59b8836a967404688",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "c929d490baf04daf413d5a68fd9314cdf4ac903a5d7f167c700d4a3193956d02"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 6,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03485624118225328,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 5,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.035163944732793107,
+          "passed": true
+        },
+        {
+          "finger": 4,
+          "string": 4,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.035965773862085715,
+          "passed": true
+        },
+        {
+          "finger": 2,
+          "string": 3,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.034771775237863095,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.034762501466173684,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.034585206637681276,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.01790518822511336,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.0338285670927847,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.011631237408482265,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.0031923497550672697,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 3,
+          "wholeSkinClearanceMm": -0.0003352101082866321,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.03485624118225328,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "8a1a866c65997bf28fb45992e249089c6592292292f6eeb19f95a370d6cfffc5",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [
+        {
+          "finger": 1,
+          "string": 5,
+          "fret": 1,
+          "kind": "barre",
+          "effectiveFinger": 3,
+          "effectiveFret": 3,
+          "palmarClearanceMm": 0.017929553488204797,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 4,
+          "fret": 1,
+          "kind": "barre",
+          "effectiveFinger": 4,
+          "effectiveFret": 3,
+          "palmarClearanceMm": 1.3769726039810337,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 1,
+          "kind": "barre",
+          "effectiveFinger": 2,
+          "effectiveFret": 2,
+          "palmarClearanceMm": 1.0968202306593384,
+          "passed": true
+        }
+      ],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "F-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/thumb-final/F/round-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-final/F/round-1/audit/summary.json",
+    "support": {
+      "id": "F",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          21.973223380596988,
+          -21.333820630076136,
+          -0.4222414493688138
+        ],
+        "neckBackPointMm": [
+          21.973223380596988,
+          -20.978951482047552,
+          -0.40374079310465316
+        ],
+        "distanceMm": 0.35535107500152247
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 15.75041235147153,
+          "DIPDegrees": 21.538508499070105
+        },
+        "middle": {
+          "PIPDegrees": 89.30467066452555,
+          "DIPDegrees": 58.81508964581941
+        },
+        "ring": {
+          "PIPDegrees": 45.47123649778436,
+          "DIPDegrees": 47.58898143074368
+        },
+        "little": {
+          "PIPDegrees": 14.285329296392456,
+          "DIPDegrees": 28.630869086440764
+        },
+        "thumb": {
+          "PIPDegrees": 0.008015614542118013,
+          "DIPDegrees": 7.952648452426058
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 22,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "G",
+    "row": {
+      "id": "G",
+      "voicing": "320003",
+      "poseTransformSha256": "ae4f34a304b8c454ea255660e00eb8a8699031d29df1b47d6dd98dc7e422b2a7",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 9.65565209298802e-06,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "28b317ac24e2196c664f47b0568dd6d5c3fb91f269b08384bd551b0ee5f0a1c3"
+      },
+      "contacts": [
+        {
+          "finger": 2,
+          "string": 6,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03516089424561297,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500027976161979,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 1,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.035001142310839395,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.033499190031543974,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.26008104809019306,
+          "openStringPassed": true
+        },
+        {
+          "number": 3,
+          "fret": 0,
+          "wholeSkinClearanceMm": 2.644118432913801,
+          "openStringPassed": true
+        },
+        {
+          "number": 4,
+          "fret": 0,
+          "wholeSkinClearanceMm": 1.117718327665049,
+          "openStringPassed": true
+        },
+        {
+          "number": 5,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.019345597646471258,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.013167128593030486,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "ca84c76ff56277ed36a1a107ea780addfbb5e79fadd930ff56a0a322f9d0adb5",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "G-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/thumb-final-G/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-final-G/round-0/audit/summary.json",
+    "support": {
+      "id": "G",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          9.653571060219138,
+          -20.956050459689283,
+          -1.6759915903022673
+        ],
+        "neckBackPointMm": [
+          9.65357858234761,
+          -20.91120873789226,
+          -1.6735921899899602
+        ],
+        "distanceMm": 0.04490587035302622
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 29.204687977082816,
+          "DIPDegrees": 33.93312647202762
+        },
+        "middle": {
+          "PIPDegrees": 27.845008307063544,
+          "DIPDegrees": 7.4474177020849615
+        },
+        "ring": {
+          "PIPDegrees": 74.52919147102007,
+          "DIPDegrees": 25.490258487046447
+        },
+        "little": {
+          "PIPDegrees": 33.58000738659858,
+          "DIPDegrees": 39.08361312896566
+        },
+        "thumb": {
+          "PIPDegrees": 16.648107863532932,
+          "DIPDegrees": 12.357304195022433
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 13,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "A",
+    "row": {
+      "id": "A",
+      "voicing": "x02220",
+      "poseTransformSha256": "c878b29318ce72cc20ba23a8d4f48df52b0798a8491666eb0ae66424a798424c",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 3.542809552925519e-05,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "87e89ef01fd77c3ae2fd7ee1cbe74c4eba4eb454887be0e7bc3ab9bf881ac3f0"
+      },
+      "contacts": [
+        {
+          "finger": 2,
+          "string": 4,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499916805790543,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 3,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499646491711536,
+          "passed": true
+        },
+        {
+          "finger": 4,
+          "string": 2,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.035000136457611214,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.3878778057893325,
+          "openStringPassed": true
+        },
+        {
+          "number": 2,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.017160386573452036,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.03084108676955158,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.011997936617166416,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.2727481615760082,
+          "openStringPassed": true
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 5.433902013481599,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "8bd5985f93ee33922a1601f604299f972302407730c67b1367e53858449abb36",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "A-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/nearby/A/support/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/nearby/A/support/round-0/audit/summary.json",
+    "support": {
+      "id": "A",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          8.421301322254486,
+          -20.90745682220154,
+          -2.427060065024275
+        ],
+        "neckBackPointMm": [
+          8.42130747300785,
+          -20.870790289295577,
+          -2.4250981044442597
+        ],
+        "distanceMm": 0.03671898640340245
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 28.32438471049905,
+          "DIPDegrees": 46.51082744977456
+        },
+        "middle": {
+          "PIPDegrees": 67.13434752932311,
+          "DIPDegrees": 5.123451809623954
+        },
+        "ring": {
+          "PIPDegrees": 59.02441052806403,
+          "DIPDegrees": 44.115044478055445
+        },
+        "little": {
+          "PIPDegrees": 28.852864619591607,
+          "DIPDegrees": 47.065120024160336
+        },
+        "thumb": {
+          "PIPDegrees": 15.855428594668869,
+          "DIPDegrees": 9.541775069300824
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 14,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "B",
+    "row": {
+      "id": "B",
+      "voicing": "x24442",
+      "poseTransformSha256": "dfaf20baead9e2c8f997accf05ad0d6075aff728829972fb69cc42926fb5c1ee",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 9.000546086213035e-08,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "74dca5396f4ac2e85ec6d035574c264bd4704c08adda08a51a49a5e009408621"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 5,
+          "fret": 2,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499992424892845,
+          "passed": true
+        },
+        {
+          "finger": 2,
+          "string": 4,
+          "fret": 4,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499993353257119,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 3,
+          "fret": 4,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500550764902302,
+          "passed": true
+        },
+        {
+          "finger": 4,
+          "string": 2,
+          "fret": 4,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.0350000896226417,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 2,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499989660521352,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.03499989660521352,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 4,
+          "wholeSkinClearanceMm": 0.013842681700790477,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 4,
+          "wholeSkinClearanceMm": 0.0274630371817097,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 4,
+          "wholeSkinClearanceMm": 0.012000001981395059,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.01199994645232405,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 1.8700508863512209,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "45d16856d13aa32ed9c893110ba9133686ad384f6e8857c456ea8871a04274d2",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [
+        {
+          "finger": 1,
+          "string": 4,
+          "fret": 2,
+          "kind": "barre",
+          "effectiveFinger": 2,
+          "effectiveFret": 4,
+          "palmarClearanceMm": 0.012000001981395003,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 2,
+          "kind": "barre",
+          "effectiveFinger": 3,
+          "effectiveFret": 4,
+          "palmarClearanceMm": 1.3207587407465438,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 2,
+          "kind": "barre",
+          "effectiveFinger": 4,
+          "effectiveFret": 4,
+          "palmarClearanceMm": 0.5511052207312073,
+          "passed": true
+        }
+      ],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "B-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/family-v2/B/support/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/family-v2/B/support/round-0/audit/summary.json",
+    "support": {
+      "id": "B",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          44.98711157508232,
+          -20.237664636132337,
+          -7.175467556829871
+        ],
+        "neckBackPointMm": [
+          44.9871598031885,
+          -20.206220002125715,
+          -7.166889618933105
+        ],
+        "distanceMm": 0.03259368577380299
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 14.821194559721743,
+          "DIPDegrees": 15.079320427151995
+        },
+        "middle": {
+          "PIPDegrees": 70.22356705607902,
+          "DIPDegrees": 5.321106511233775
+        },
+        "ring": {
+          "PIPDegrees": 60.95159983515435,
+          "DIPDegrees": 43.440593327795085
+        },
+        "little": {
+          "PIPDegrees": 28.871722725470466,
+          "DIPDegrees": 52.64092821704583
+        },
+        "thumb": {
+          "PIPDegrees": 1.248128636883502,
+          "DIPDegrees": 10.696034968760637
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 13,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Cm",
+    "row": {
+      "id": "Cm",
+      "voicing": "x35543",
+      "poseTransformSha256": "d680c31657b34696e8aa257903446ed430c511cd248065984ac62986e48013d6",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.000351352551525963,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "91bd529c34e67f8db92154c2510db92aa2c446b7e4c362994c83bb0aaf5f493a"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 5,
+          "fret": 3,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03521089166395386,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 4,
+          "fret": 5,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499969447546941,
+          "passed": true
+        },
+        {
+          "finger": 4,
+          "string": 3,
+          "fret": 5,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500134676505237,
+          "passed": true
+        },
+        {
+          "finger": 2,
+          "string": 2,
+          "fret": 4,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.0349995837086369,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 3,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500079732056788,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.03500079732056788,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 4,
+          "wholeSkinClearanceMm": 0.01199940882518466,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 5,
+          "wholeSkinClearanceMm": 0.014372119198225619,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 5,
+          "wholeSkinClearanceMm": 0.011999672250817883,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.020073631616186693,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 2.5481508243152793,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "8bafb7699f14ce0c0a8e6c9c568b5c11d623662dcc14d962ba30778dce55bd3f",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [
+        {
+          "finger": 1,
+          "string": 4,
+          "fret": 3,
+          "kind": "barre",
+          "effectiveFinger": 3,
+          "effectiveFret": 5,
+          "palmarClearanceMm": 0.012582825564779299,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 3,
+          "kind": "barre",
+          "effectiveFinger": 4,
+          "effectiveFret": 5,
+          "palmarClearanceMm": 1.5304986151807483,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 3,
+          "kind": "barre",
+          "effectiveFinger": 2,
+          "effectiveFret": 4,
+          "palmarClearanceMm": 1.1004130272905583,
+          "passed": true
+        }
+      ],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Cm-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/nearby/Cm/support/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/nearby/Cm/support/round-0/audit/summary.json",
+    "support": {
+      "id": "Cm",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          92.48292413476814,
+          -20.866331103661103,
+          -3.3559659430950823
+        ],
+        "neckBackPointMm": [
+          92.48292923775651,
+          -20.834231228240274,
+          -3.354375642626964
+        ],
+        "distanceMm": 0.0321392452253032
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 16.66907953716567,
+          "DIPDegrees": 22.174552231137188
+        },
+        "middle": {
+          "PIPDegrees": 87.74980734183357,
+          "DIPDegrees": 59.303626204337945
+        },
+        "ring": {
+          "PIPDegrees": 45.57961446787174,
+          "DIPDegrees": 49.60878978266454
+        },
+        "little": {
+          "PIPDegrees": 16.56387436616272,
+          "DIPDegrees": 26.886340731060024
+        },
+        "thumb": {
+          "PIPDegrees": 2.207394922506842,
+          "DIPDegrees": 8.699071386516435
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 17,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Dm",
+    "row": {
+      "id": "Dm",
+      "voicing": "xx0231",
+      "poseTransformSha256": "56ff33568eee61559066f036872b086a5a5531a6646aa022e25291449c3fe4db",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "9e23ac1de2ba9a9232ad4f2e21d8614044aa51daf6f4bed8edd670f359e7dcdc"
+      },
+      "contacts": [
+        {
+          "finger": 2,
+          "string": 3,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.01786103639597003,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 2,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.009999997968636792,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 1,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.06001738080826269,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.0049997222483253445,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.009999997968636792,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.01786103639597003,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 0,
+          "wholeSkinClearanceMm": 2.0795179444970056,
+          "openStringPassed": true
+        },
+        {
+          "number": 5,
+          "fret": null,
+          "wholeSkinClearanceMm": 9.12988846269493,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 16.253621015434142,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Dm-raw.json.gz"
+    },
+    "source": "baseline:1f2836b",
+    "audit": "docs/practice-fingering-polish/tests/geometry/summary.json",
+    "support": {
+      "id": "Dm",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          10.076644536379787,
+          -12.845624574511731,
+          -19.43016502859431
+        ],
+        "neckBackPointMm": [
+          10.078388364154826,
+          -12.780396649870397,
+          -19.318476123007486
+        ],
+        "distanceMm": 0.12935275304185495
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 74.36053713184855,
+          "DIPDegrees": 29.12926699421671
+        },
+        "middle": {
+          "PIPDegrees": 77.1963695728629,
+          "DIPDegrees": 35.42226159701193
+        },
+        "ring": {
+          "PIPDegrees": 68.68953140620437,
+          "DIPDegrees": 64.59571825020079
+        },
+        "little": {
+          "PIPDegrees": 22.858785953539527,
+          "DIPDegrees": 6.68654628240988
+        },
+        "thumb": {
+          "PIPDegrees": 12.850483868423686,
+          "DIPDegrees": 4.779597945930015
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 0,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Em",
+    "row": {
+      "id": "Em",
+      "voicing": "022000",
+      "poseTransformSha256": "b084058c09dc31ec87871649afe4c66ed60f220a5d88033d701ac0e273941214",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "37a36c8d26f4a510cec56f57044a78ca3ce8171a356bbdd5bb99fe109d4b465c"
+      },
+      "contacts": [
+        {
+          "finger": 2,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499957763176864,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 4,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.035000026621889,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.2996524758924661,
+          "openStringPassed": true
+        },
+        {
+          "number": 2,
+          "fret": 0,
+          "wholeSkinClearanceMm": 4.183727462580299,
+          "openStringPassed": true
+        },
+        {
+          "number": 3,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.3107748176952295,
+          "openStringPassed": true
+        },
+        {
+          "number": 4,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.011992661586647857,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.01199931147671296,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.29052695429532405,
+          "openStringPassed": true
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "6570b0a86dba2cd671c967c63bba7f0792d1db54201f5fd33953cb024c2ee889",
+      "pressureDomain": "bounded-assigned-fret",
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Em-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/thumb-final/Em/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-final/Em/round-0/audit/summary.json",
+    "support": {
+      "id": "Em",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          8.857152348983703,
+          -21.021106587639824,
+          -0.15478574528433597
+        ],
+        "neckBackPointMm": [
+          8.857152348983693,
+          -20.991906553462634,
+          -0.15324356690599206
+        ],
+        "distanceMm": 0.0292407303277417
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 27.784276886374265,
+          "DIPDegrees": 45.969761941203735
+        },
+        "middle": {
+          "PIPDegrees": 44.504052899857136,
+          "DIPDegrees": 17.600207062909185
+        },
+        "ring": {
+          "PIPDegrees": 54.93760034934408,
+          "DIPDegrees": 24.82467948337745
+        },
+        "little": {
+          "PIPDegrees": 31.744415071721317,
+          "DIPDegrees": 40.098009787623646
+        },
+        "thumb": {
+          "PIPDegrees": 0.0056404454999509175,
+          "DIPDegrees": 22.057383245474906
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 5,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Fm",
+    "row": {
+      "id": "Fm",
+      "voicing": "133111",
+      "poseTransformSha256": "ec9ac4ef98f7b89b630f0e3b514d94b529992ea9a0a44a64dc3031bba56ff1ad",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.011326595481460089,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "fd25958f46ee9970b40e80926746ae6275124f8d6633b9e9d1f3c8e7e260e17e"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 6,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499943897558666,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 5,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.0350338770016288,
+          "passed": true
+        },
+        {
+          "finger": 4,
+          "string": 4,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499991655824608,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500055691945711,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499997777149713,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500017716688758,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.01737117258072629,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.011999948589355908,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.013037013337228537,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.0349999165582463,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.03482964938876465,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.012000016549817305,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "b3711febb6f45b9b8c27c5eadf455117b6a778aa93f377f80a79afbc244b7bf3",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [
+        {
+          "finger": 1,
+          "string": 5,
+          "fret": 1,
+          "kind": "barre",
+          "effectiveFinger": 3,
+          "effectiveFret": 3,
+          "palmarClearanceMm": 0.16000598229800772,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 4,
+          "fret": 1,
+          "kind": "barre",
+          "effectiveFinger": 4,
+          "effectiveFret": 3,
+          "palmarClearanceMm": 0.958632647054593,
+          "passed": true
+        }
+      ],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Fm-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/family/Fm/global-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/family/Fm/global-1/audit/summary.json",
+    "support": {
+      "id": "Fm",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          10.388621549521432,
+          -21.008129768260762,
+          -0.7689989963795831
+        ],
+        "neckBackPointMm": [
+          10.388621549521426,
+          -20.959521467694387,
+          -0.7664317846535056
+        ],
+        "distanceMm": 0.048676046059613065
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 17.440965458754086,
+          "DIPDegrees": 9.401246381327866
+        },
+        "middle": {
+          "PIPDegrees": 56.25528781007191,
+          "DIPDegrees": 26.83313006899405
+        },
+        "ring": {
+          "PIPDegrees": 48.34274563808738,
+          "DIPDegrees": 58.20544137100622
+        },
+        "little": {
+          "PIPDegrees": 10.299989795318728,
+          "DIPDegrees": 29.021733486297304
+        },
+        "thumb": {
+          "PIPDegrees": 0.20025890318644401,
+          "DIPDegrees": 9.49365787628237
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 7,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Gm",
+    "row": {
+      "id": "Gm",
+      "voicing": "355333",
+      "poseTransformSha256": "cf409949fb4b5aa21330485e7715936bac668b018248a1e779afc329390f3379",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "e4ba63f126046bca27b60378fad79f135ce50ceb7ab9ed48ea8fb11af545de77"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 6,
+          "fret": 3,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03515228890450284,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 5,
+          "fret": 5,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03506012511717321,
+          "passed": true
+        },
+        {
+          "finger": 4,
+          "string": 4,
+          "fret": 5,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03589865513266893,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 3,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.034556784316336825,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 3,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03676422186728365,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 3,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03437364653736236,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.029056345911824905,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.01573868972519757,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.011190397937568125,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 5,
+          "wholeSkinClearanceMm": 0.03589865513266871,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 5,
+          "wholeSkinClearanceMm": 0.028542111863262276,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.03515228890450284,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "39222321cb518eba8cb8a2b81841a8d67278ea72e57f8ee5717086ba63ac6e54",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [
+        {
+          "finger": 1,
+          "string": 5,
+          "fret": 3,
+          "kind": "barre",
+          "effectiveFinger": 3,
+          "effectiveFret": 5,
+          "palmarClearanceMm": 0.033595073942096765,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 4,
+          "fret": 3,
+          "kind": "barre",
+          "effectiveFinger": 4,
+          "effectiveFret": 5,
+          "palmarClearanceMm": 0.7662144279155771,
+          "passed": true
+        }
+      ],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Gm-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/thumb-contact-polish/Gm/trials/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-contact-polish/Gm/trials/round-0/audit/summary.json",
+    "support": {
+      "id": "Gm",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          77.29090655139727,
+          -21.293004585263326,
+          -0.9587295604787158
+        ],
+        "neckBackPointMm": [
+          77.29096107828703,
+          -20.95300239678952,
+          -0.941671259508805
+        ],
+        "distanceMm": 0.34042984118925324
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 18.99743779243081,
+          "DIPDegrees": 8.186929768309739
+        },
+        "middle": {
+          "PIPDegrees": 56.255287810071955,
+          "DIPDegrees": 26.83313006899385
+        },
+        "ring": {
+          "PIPDegrees": 48.1923174460729,
+          "DIPDegrees": 59.19233806982469
+        },
+        "little": {
+          "PIPDegrees": 10.802456755254877,
+          "DIPDegrees": 30.59006209788263
+        },
+        "thumb": {
+          "PIPDegrees": 0.008246468084441861,
+          "DIPDegrees": 9.584163222644637
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 13,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Am",
+    "row": {
+      "id": "Am",
+      "voicing": "x02210",
+      "poseTransformSha256": "3fe60ab1c5999b043ef424f041419ca22ee0c64b9161ad558460d6555012fcf4",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.005866362517615187,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "a8a1420c87922719f534a5c725e5b380301886e6074fa8632f204b24f3aa3ca1"
+      },
+      "contacts": [
+        {
+          "finger": 2,
+          "string": 4,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.034998840123260044,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 3,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03494048326557128,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 1,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499432241564998,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.3265715685015339,
+          "openStringPassed": true
+        },
+        {
+          "number": 2,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.0349943224156499,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.023048369655662676,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.034998840123260044,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 0,
+          "wholeSkinClearanceMm": 1.4366052022632159,
+          "openStringPassed": true
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 6.9873914676127,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "ef147f1bac1f63b55502bb19243e343beb157c92038627fa865c95b549d14f6d",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Am-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/thumb-final/Am/round-2/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-final/Am/round-2/audit/summary.json",
+    "support": {
+      "id": "Am",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          7.649289162329627,
+          -20.29979437868969,
+          6.60878739500947
+        ],
+        "neckBackPointMm": [
+          7.6492955564099185,
+          -20.293047043055463,
+          6.607697870491547
+        ],
+        "distanceMm": 0.006834737940866932
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 59.85418123331772,
+          "DIPDegrees": 2.1422038603605227
+        },
+        "middle": {
+          "PIPDegrees": 44.46804063661984,
+          "DIPDegrees": 16.92296664123693
+        },
+        "ring": {
+          "PIPDegrees": 13.224201646308051,
+          "DIPDegrees": 44.19523136719464
+        },
+        "little": {
+          "PIPDegrees": 22.858785723958665,
+          "DIPDegrees": 6.6865462439479515
+        },
+        "thumb": {
+          "PIPDegrees": 0.020130292027096812,
+          "DIPDegrees": 9.809581510444223
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 5,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Bm",
+    "row": {
+      "id": "Bm",
+      "voicing": "x24432",
+      "poseTransformSha256": "f5aa23e57553eddb97c55d02ea9ffe8bb861f564c4f8e29ead2460bd0703f1a4",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 2.192990962157637e-07,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "4673bacca8cb1686ff323cb580a5336d8d248c11ee2539cdfbded639d4d7684b"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 5,
+          "fret": 2,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03521732029222108,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 4,
+          "fret": 4,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500020161814227,
+          "passed": true
+        },
+        {
+          "finger": 4,
+          "string": 3,
+          "fret": 4,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500184205193732,
+          "passed": true
+        },
+        {
+          "finger": 2,
+          "string": 2,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03480764890333296,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 2,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500189636473927,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.03500189636473949,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.03480764890333296,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 4,
+          "wholeSkinClearanceMm": 0.011999652968618768,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 4,
+          "wholeSkinClearanceMm": 0.011993036994832451,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.03345163198758794,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 2.3407678914041954,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "8edf16fda45bb2dc0e1de7fa4a482faa89fed44001ec1ed3965de91a2086928c",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [
+        {
+          "finger": 1,
+          "string": 4,
+          "fret": 2,
+          "kind": "barre",
+          "effectiveFinger": 3,
+          "effectiveFret": 4,
+          "palmarClearanceMm": 0.011993036994832451,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 2,
+          "kind": "barre",
+          "effectiveFinger": 4,
+          "effectiveFret": 4,
+          "palmarClearanceMm": 1.406986035716232,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 2,
+          "kind": "barre",
+          "effectiveFinger": 2,
+          "effectiveFret": 3,
+          "palmarClearanceMm": 1.0000628984202302,
+          "passed": true
+        }
+      ],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Bm-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/spatial-transfer/Bm/support/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/spatial-transfer/Bm/support/round-0/audit/summary.json",
+    "support": {
+      "id": "Bm",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          56.47428502657668,
+          -20.78519611282581,
+          -3.8422957619050955
+        ],
+        "neckBackPointMm": [
+          56.4742917459882,
+          -20.769897608513844,
+          -3.8399186570005623
+        ],
+        "distanceMm": 0.015482083421194788
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 15.420189313218202,
+          "DIPDegrees": 20.934551675908335
+        },
+        "middle": {
+          "PIPDegrees": 89.58742747198933,
+          "DIPDegrees": 60.184336978110856
+        },
+        "ring": {
+          "PIPDegrees": 45.51149906838842,
+          "DIPDegrees": 47.58797344500466
+        },
+        "little": {
+          "PIPDegrees": 14.27630108679767,
+          "DIPDegrees": 28.647099433492738
+        },
+        "thumb": {
+          "PIPDegrees": 1.3455219453493985,
+          "DIPDegrees": 8.055438726438899
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 15,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "C7",
+    "row": {
+      "id": "C7",
+      "voicing": "x32310",
+      "poseTransformSha256": "acf0d8ff0bd3ec6296f418677c9aa82fc027210ee484f713c1fddb02108aea61",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "d490f8d199a37bb8e504705c8a62e6f81425eb1b1b6420c5df6342aca1482dcd"
+      },
+      "contacts": [
+        {
+          "finger": 3,
+          "string": 5,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.034998175398735065,
+          "passed": true
+        },
+        {
+          "finger": 2,
+          "string": 4,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499740670012247,
+          "passed": true
+        },
+        {
+          "finger": 4,
+          "string": 3,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499925114720023,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 1,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499727966752894,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 0,
+          "wholeSkinClearanceMm": 3.325523018887669,
+          "openStringPassed": true
+        },
+        {
+          "number": 2,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.0349972796675288,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.03499925114720051,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.03499740670012236,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.02088307244206561,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 1.5181086966091462,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "C7-raw.json.gz"
+    },
+    "source": "baseline:1f2836b",
+    "audit": "docs/practice-fingering-polish/tests/geometry/summary.json",
+    "support": {
+      "id": "C7",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          8.208178704097937,
+          -13.01788173568182,
+          -19.172603534909708
+        ],
+        "neckBackPointMm": [
+          8.208945152257023,
+          -12.976083467230259,
+          -19.124239525635
+        ],
+        "distanceMm": 0.06392777237987625
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 64.73956820489133,
+          "DIPDegrees": 21.037689886803292
+        },
+        "middle": {
+          "PIPDegrees": 67.6478402740414,
+          "DIPDegrees": 29.218407536561553
+        },
+        "ring": {
+          "PIPDegrees": 37.268781293407564,
+          "DIPDegrees": 37.833568205697574
+        },
+        "little": {
+          "PIPDegrees": 17.681637227771954,
+          "DIPDegrees": 25.53984352037381
+        },
+        "thumb": {
+          "PIPDegrees": 12.850483868423686,
+          "DIPDegrees": 4.779597945930091
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 0,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "D7",
+    "row": {
+      "id": "D7",
+      "voicing": "xx0212",
+      "poseTransformSha256": "b54b5b66d5feb161a0e16570f8300d0a15dc27b34ac0e2607d8127fde8366bbd",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "132461d9fbc167a10b0a41259a38693e27489417bdc00343db9b56bdb963d391"
+      },
+      "contacts": [
+        {
+          "finger": 2,
+          "string": 3,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500098660385173,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 1,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500003063806306,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 1,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500001089794372,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.011708307905586413,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.012313389614265619,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.011999962846712758,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 0,
+          "wholeSkinClearanceMm": 2.2990936574446206,
+          "openStringPassed": true
+        },
+        {
+          "number": 5,
+          "fret": null,
+          "wholeSkinClearanceMm": 8.364423289152858,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 15.07612299742416,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "bc7a71ae094726dd954ddc737489dbbe9932e30894dfe512078c9c10fd6a32b5",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "D7-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/nearby/D7/support/round-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/nearby/D7/support/round-1/audit/summary.json",
+    "support": {
+      "id": "D7",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          16.58828771592338,
+          -14.635293293412904,
+          -17.852238946782983
+        ],
+        "neckBackPointMm": [
+          16.588647834815227,
+          -14.613320312555091,
+          -17.827119168406405
+        ],
+        "distanceMm": 0.03337581218610924
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 28.522141235512567,
+          "DIPDegrees": 46.739954405722536
+        },
+        "middle": {
+          "PIPDegrees": 43.86383717177239,
+          "DIPDegrees": 7.5897083419733855
+        },
+        "ring": {
+          "PIPDegrees": 57.28980329804217,
+          "DIPDegrees": 32.5407131626472
+        },
+        "little": {
+          "PIPDegrees": 30.246865883763412,
+          "DIPDegrees": 33.430509800311924
+        },
+        "thumb": {
+          "PIPDegrees": 15.012111064410558,
+          "DIPDegrees": 4.560988954202956
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 11,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "E7",
+    "row": {
+      "id": "E7",
+      "voicing": "020100",
+      "poseTransformSha256": "bba1268f7d208f15d16b2178414623a1f401454ba8e6fec152e378e9f9621f1f",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "d6c525e6d32eeede89cb075f2af6a334a27d3ae3461cc40af430fc3405439a72"
+      },
+      "contacts": [
+        {
+          "finger": 2,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.00799999872823659,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 1,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.007999997810294646,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.5572413871509996,
+          "openStringPassed": true
+        },
+        {
+          "number": 2,
+          "fret": 0,
+          "wholeSkinClearanceMm": 1.327904902427182,
+          "openStringPassed": true
+        },
+        {
+          "number": 3,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.007999997810294757,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 0,
+          "wholeSkinClearanceMm": 2.261846811795398,
+          "openStringPassed": true
+        },
+        {
+          "number": 5,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.00799999872823659,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": 0,
+          "wholeSkinClearanceMm": 2.6402912692393423,
+          "openStringPassed": true
+        }
+      ],
+      "geometricPassed": true,
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "E7-raw.json.gz"
+    },
+    "source": "baseline:1f2836b",
+    "audit": "docs/practice-fingering-polish/tests/geometry/summary.json",
+    "support": {
+      "id": "E7",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          11.011739350293631,
+          -14.0273042869606,
+          -18.555645791705114
+        ],
+        "neckBackPointMm": [
+          11.014419645939446,
+          -13.881134300634207,
+          -18.38651518327893
+        ],
+        "distanceMm": 0.22355762477271476
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 40.17789614062444,
+          "DIPDegrees": 44.87960977116099
+        },
+        "middle": {
+          "PIPDegrees": 56.21264389122567,
+          "DIPDegrees": 40.36375140820698
+        },
+        "ring": {
+          "PIPDegrees": 37.22662789297071,
+          "DIPDegrees": 24.706620158666418
+        },
+        "little": {
+          "PIPDegrees": 22.858785723958647,
+          "DIPDegrees": 6.6865462439479515
+        },
+        "thumb": {
+          "PIPDegrees": 14.256656606871331,
+          "DIPDegrees": 5.379428255119891
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 0,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "F7",
+    "row": {
+      "id": "F7",
+      "voicing": "131211",
+      "poseTransformSha256": "928edd4c748c4b988a185264386905649f7a988cae417cd4bb3fa34da75a443f",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 84,
+        "runtimeExportSha256": "95dacb40b41ed17bbcef35f365095a45bd6244ccc6fe26a52b180db47b233f42"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 6,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.07217333003337711,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 5,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03627357377297974,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 4,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.07979235615996844,
+          "passed": true
+        },
+        {
+          "finger": 2,
+          "string": 3,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03507380027546672,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03239226303480494,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.06367139245737474,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.06367139245737441,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 1,
+          "wholeSkinClearanceMm": -0.165,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.03507380027546672,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.07979235615996838,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 3,
+          "wholeSkinClearanceMm": -0.455,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.07217333003337711,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": false,
+      "pressureSHA256": "39ce90d5bf3625874360b34707265b258368bc57f4327cbd407cd9286f6ac31f",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [
+        {
+          "finger": 1,
+          "string": 5,
+          "fret": 1,
+          "kind": "barre",
+          "effectiveFinger": 3,
+          "effectiveFret": 3,
+          "palmarClearanceMm": -0.455,
+          "passed": false
+        },
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 1,
+          "kind": "barre",
+          "effectiveFinger": 2,
+          "effectiveFret": 2,
+          "palmarClearanceMm": 0.04290392772691007,
+          "passed": true
+        }
+      ],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "F7-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/family/F7/global-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/family/F7/global-1/audit/summary.json",
+    "support": null,
+    "attemptsAudited": 10,
+    "safeGeometryAndSupport": false,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "G7",
+    "row": {
+      "id": "G7",
+      "voicing": "320001",
+      "poseTransformSha256": "400fd5eed0671a2fd299beb354a57a18bd39dd3d17fdbbb0e9752d3e218f71bb",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "35526f1baa3be68c5e1d5abe3ba58d90dbdc7e9be0fd9aa99f259458416d7ccd"
+      },
+      "contacts": [
+        {
+          "finger": 3,
+          "string": 6,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.0349999999383267,
+          "passed": true
+        },
+        {
+          "finger": 2,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499999998076364,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 1,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.0350001270078025,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.03467960708397741,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.26602987181271576,
+          "openStringPassed": true
+        },
+        {
+          "number": 3,
+          "fret": 0,
+          "wholeSkinClearanceMm": 5.37487613244853,
+          "openStringPassed": true
+        },
+        {
+          "number": 4,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.2600418723325983,
+          "openStringPassed": true
+        },
+        {
+          "number": 5,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.03499999998076364,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.03499999993832603,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "G7-raw.json.gz"
+    },
+    "source": "baseline:1f2836b",
+    "audit": "docs/practice-fingering-polish/tests/geometry/summary.json",
+    "support": {
+      "id": "G7",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          10.61169543968865,
+          -12.900753647388445,
+          -19.45925156385153
+        ],
+        "neckBackPointMm": [
+          10.613931116489335,
+          -12.796939687288141,
+          -19.317176319136895
+        ],
+        "distanceMm": 0.17597645218377483
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 69.09625661153271,
+          "DIPDegrees": 27.846547182079114
+        },
+        "middle": {
+          "PIPDegrees": 65.27354672186142,
+          "DIPDegrees": 26.940272143965743
+        },
+        "ring": {
+          "PIPDegrees": 27.164794547650096,
+          "DIPDegrees": 34.616216467505524
+        },
+        "little": {
+          "PIPDegrees": 22.858785953539513,
+          "DIPDegrees": 6.686546282409771
+        },
+        "thumb": {
+          "PIPDegrees": 12.850483868423657,
+          "DIPDegrees": 4.779597945929939
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 0,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "A7",
+    "row": {
+      "id": "A7",
+      "voicing": "x02020",
+      "poseTransformSha256": "5822d3e37c004dddbd46a54a1abdc3c2b4d4308d915764f6e5bf6f4f03e13a2e",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "335fdd721df274149727fbd674f48b423447a92ca4eaa3385b44b14b7b50912a"
+      },
+      "contacts": [
+        {
+          "finger": 2,
+          "string": 4,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499891884558842,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 2,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.034999219663596814,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.5615400874305168,
+          "openStringPassed": true
+        },
+        {
+          "number": 2,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.011999332701859156,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.25999981441152253,
+          "openStringPassed": true
+        },
+        {
+          "number": 4,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.03499891884558842,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 0,
+          "wholeSkinClearanceMm": 2.926689103349378,
+          "openStringPassed": true
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 8.87686903907537,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "b472e6dcaa61695dffa9b9eeccb9eded91b0fdb74daac7a5da12e166a81ee8c8",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "A7-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/thumb-contact-polish/A7/trials/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-contact-polish/A7/trials/round-0/audit/summary.json",
+    "support": {
+      "id": "A7",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          6.294354018608151,
+          -20.91057517839335,
+          5.01400958537951
+        ],
+        "neckBackPointMm": [
+          6.294514672461367,
+          -20.561382352320457,
+          4.956885217478709
+        ],
+        "distanceMm": 0.35383449379406334
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 59.95244743592018,
+          "DIPDegrees": 2.1241414249470676
+        },
+        "middle": {
+          "PIPDegrees": 44.5664620863316,
+          "DIPDegrees": 17.187368641925747
+        },
+        "ring": {
+          "PIPDegrees": 13.294136864661635,
+          "DIPDegrees": 44.54321666858718
+        },
+        "little": {
+          "PIPDegrees": 22.858785723958682,
+          "DIPDegrees": 6.686546243948006
+        },
+        "thumb": {
+          "PIPDegrees": 0.12530138173045616,
+          "DIPDegrees": 6.523693986375885
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 8,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "B7",
+    "row": {
+      "id": "B7",
+      "voicing": "x21202",
+      "poseTransformSha256": "8d1bc3eaf430f1c85c1b35a3b96edbebf8e123886af748e62dd6373a53af3ec6",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "4407f9573599563b59c6ec094543cecacea629007d096c6a5ec1707666b81322"
+      },
+      "contacts": [
+        {
+          "finger": 2,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.045357078866487266,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 4,
+          "fret": 1,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499223910333654,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 3,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.047793940211135005,
+          "passed": true
+        },
+        {
+          "finger": 4,
+          "string": 1,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.034985865380277786,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.03498586538027745,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 0,
+          "wholeSkinClearanceMm": 2.12430954829777,
+          "openStringPassed": true
+        },
+        {
+          "number": 3,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.0007189074083910063,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.03499223910333654,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.02362054331425245,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 2.1840583517992105,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pressureDomain": "legacy",
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "B7-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/thumb-final/B7/round-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-final/B7/round-1/audit/summary.json",
+    "support": {
+      "id": "B7",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          8.692948936199953,
+          -20.782597238841092,
+          -3.95659075331967
+        ],
+        "neckBackPointMm": [
+          8.692973414627572,
+          -20.728734059467897,
+          -3.947893208433552
+        ],
+        "distanceMm": 0.05456088322624972
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 28.324505108646886,
+          "DIPDegrees": 46.51435150474735
+        },
+        "middle": {
+          "PIPDegrees": 43.718153591605315,
+          "DIPDegrees": 7.1322329812854734
+        },
+        "ring": {
+          "PIPDegrees": 56.22987036280345,
+          "DIPDegrees": 30.890371701578886
+        },
+        "little": {
+          "PIPDegrees": 30.244248864244813,
+          "DIPDegrees": 33.429922817044066
+        },
+        "thumb": {
+          "PIPDegrees": 15.509664197767686,
+          "DIPDegrees": 7.0975253050356315
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 2,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Cmaj7",
+    "row": {
+      "id": "Cmaj7",
+      "voicing": "x32000",
+      "poseTransformSha256": "c46c954aa85d3323f42c33e9a59b8117a2c76f6645467d1e8af1090f5ec553bb",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "a1da37ba9dd5478e1700f892334b31c6c2c8786cb10d3efbd2c82c61436e232a"
+      },
+      "contacts": [
+        {
+          "finger": 3,
+          "string": 5,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.00800300086587935,
+          "passed": true
+        },
+        {
+          "finger": 2,
+          "string": 4,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.008002018031291414,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.5572413871509996,
+          "openStringPassed": true
+        },
+        {
+          "number": 2,
+          "fret": 0,
+          "wholeSkinClearanceMm": 1.327904902427182,
+          "openStringPassed": true
+        },
+        {
+          "number": 3,
+          "fret": 0,
+          "wholeSkinClearanceMm": 2.6826427209589325,
+          "openStringPassed": true
+        },
+        {
+          "number": 4,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.008002018031291414,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.00800300086587935,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 4.213400322417753,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Cmaj7-raw.json.gz"
+    },
+    "source": "baseline:1f2836b",
+    "audit": "docs/practice-fingering-polish/tests/geometry/summary.json",
+    "support": {
+      "id": "Cmaj7",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          11.011739350293631,
+          -14.0273042869606,
+          -18.555645791705114
+        ],
+        "neckBackPointMm": [
+          11.014419645939446,
+          -13.881134300634207,
+          -18.38651518327893
+        ],
+        "distanceMm": 0.22355762477271476
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 67.08790661642976,
+          "DIPDegrees": 30.07752108607865
+        },
+        "middle": {
+          "PIPDegrees": 76.77777423896772,
+          "DIPDegrees": 34.060956437249395
+        },
+        "ring": {
+          "PIPDegrees": 46.90086355901929,
+          "DIPDegrees": 46.42596771754623
+        },
+        "little": {
+          "PIPDegrees": 22.858785723958647,
+          "DIPDegrees": 6.6865462439479515
+        },
+        "thumb": {
+          "PIPDegrees": 14.256656606871331,
+          "DIPDegrees": 5.379428255119891
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 0,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Dmaj7",
+    "row": {
+      "id": "Dmaj7",
+      "voicing": "xx0222",
+      "poseTransformSha256": "c460d5863fba8b8ed17bbda3c59c27f3cb61259ede6c3912dde52185e5f8b3b4",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "1ca93c2eb7e0045ee8a852abf0aeabe52201c70292bdba6c066185687860a41a"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 2,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03506093530253976,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 2,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.0350025301044965,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 2,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03496532055359819,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.012032232089014716,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.03500253010449647,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.03506093530253976,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.3634085717054863,
+          "openStringPassed": true
+        },
+        {
+          "number": 5,
+          "fret": null,
+          "wholeSkinClearanceMm": 0.015079403920674417,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 0.19808462312253527,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "3ac8bc253590eee1b83f0dc1a741310bce465f63b093b5a8b1094ec2b98533c4",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Dmaj7-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/nearby/Dmaj7/global-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/nearby/Dmaj7/global-1/audit/summary.json",
+    "support": {
+      "id": "Dmaj7",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          44.910480409073145,
+          -21.658489775729127,
+          -0.3617181042058135
+        ],
+        "neckBackPointMm": [
+          44.910480409073145,
+          -20.983172341476482,
+          -0.3269617062505275
+        ],
+        "distanceMm": 0.6762112422937085
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 18.7892435969501,
+          "DIPDegrees": 4.792282675479245
+        },
+        "middle": {
+          "PIPDegrees": 56.25528781007365,
+          "DIPDegrees": 26.83313006899468
+        },
+        "ring": {
+          "PIPDegrees": 47.97779049699917,
+          "DIPDegrees": 58.74895773610028
+        },
+        "little": {
+          "PIPDegrees": 10.790132249657962,
+          "DIPDegrees": 30.484585868237236
+        },
+        "thumb": {
+          "PIPDegrees": 0.008246468040245397,
+          "DIPDegrees": 9.584163222645056
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 19,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Emaj7",
+    "row": {
+      "id": "Emaj7",
+      "voicing": "021100",
+      "poseTransformSha256": "c37582ef62181b3f90deea1bcbfad77c59cdd55481f32801c1de86068194e395",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 106,
+        "runtimeExportSha256": "7fdddc2d781193b2b79d5ee28c7a0690bd5ca4afc7acd404249b1209721fc6f2"
+      },
+      "contacts": [
+        {
+          "finger": 3,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.05763540724924582,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 4,
+          "fret": 1,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.0741002149647082,
+          "passed": true
+        },
+        {
+          "finger": 2,
+          "string": 3,
+          "fret": 1,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.23533847564856034,
+          "passed": false
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 0,
+          "wholeSkinClearanceMm": 8.314177309680016,
+          "openStringPassed": true
+        },
+        {
+          "number": 2,
+          "fret": 0,
+          "wholeSkinClearanceMm": 2.4241806758448203,
+          "openStringPassed": true
+        },
+        {
+          "number": 3,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.010403808604481313,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 1,
+          "wholeSkinClearanceMm": -0.04344864370122831,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.05761925325762701,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": 0,
+          "wholeSkinClearanceMm": 6.751400095682934,
+          "openStringPassed": true
+        }
+      ],
+      "geometricPassed": false,
+      "pressureSHA256": "7615276db905607bed9a31d9277cea364ccbf154d00a36522cd99583ded8255c",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Emaj7-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/final-global/Emaj7/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/final-global/Emaj7/round-0/audit/summary.json",
+    "support": null,
+    "attemptsAudited": 9,
+    "safeGeometryAndSupport": false,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Fmaj7",
+    "row": {
+      "id": "Fmaj7",
+      "voicing": "xx3210",
+      "poseTransformSha256": "7e0af3009f1f3d9295a9ed60fbc84ef2c5f0d7575629ab7c9c607a47f912db57",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "bbb81079b5177435b39a3ed56b1a3390930c5c14a72c834b07af6721e254928c"
+      },
+      "contacts": [
+        {
+          "finger": 3,
+          "string": 4,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.01425810256345511,
+          "passed": true
+        },
+        {
+          "finger": 2,
+          "string": 3,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.01786103639597003,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 1,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.028867648455603162,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 0,
+          "wholeSkinClearanceMm": 1.8347640552526627,
+          "openStringPassed": true
+        },
+        {
+          "number": 2,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.008002537707762963,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.01786103639597003,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.007999995905329405,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": null,
+          "wholeSkinClearanceMm": 4.123743159824716,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 11.446419101345933,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Fmaj7-raw.json.gz"
+    },
+    "source": "baseline:1f2836b",
+    "audit": "docs/practice-fingering-polish/tests/geometry/summary.json",
+    "support": {
+      "id": "Fmaj7",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          10.076644536379787,
+          -12.845624574511731,
+          -19.43016502859431
+        ],
+        "neckBackPointMm": [
+          10.078388364154826,
+          -12.780396649870397,
+          -19.318476123007486
+        ],
+        "distanceMm": 0.12935275304185495
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 64.33153758235912,
+          "DIPDegrees": 20.791726019582143
+        },
+        "middle": {
+          "PIPDegrees": 77.1963695728629,
+          "DIPDegrees": 35.42226159701193
+        },
+        "ring": {
+          "PIPDegrees": 42.197846459742394,
+          "DIPDegrees": 52.89133207547653
+        },
+        "little": {
+          "PIPDegrees": 22.858785953539527,
+          "DIPDegrees": 6.68654628240988
+        },
+        "thumb": {
+          "PIPDegrees": 12.850483868423686,
+          "DIPDegrees": 4.779597945930015
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 0,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Gmaj7",
+    "row": {
+      "id": "Gmaj7",
+      "voicing": "320002",
+      "poseTransformSha256": "de1b9c2b1671f1deecfeb0ddcc260980e60e021c3066e8a3b373e2614e91a187",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.014989456055754857,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "8ebc18895c52ffdd97db5cb35f7b75737531a78aa230c288e50b205700f78e69"
+      },
+      "contacts": [
+        {
+          "finger": 3,
+          "string": 6,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.0349999959884324,
+          "passed": true
+        },
+        {
+          "finger": 2,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03519867764546192,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03497298562067214,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.011874065860445981,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 0,
+          "wholeSkinClearanceMm": 3.6778850505961125,
+          "openStringPassed": true
+        },
+        {
+          "number": 3,
+          "fret": 0,
+          "wholeSkinClearanceMm": 5.365853095524856,
+          "openStringPassed": true
+        },
+        {
+          "number": 4,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.2599714724742443,
+          "openStringPassed": true
+        },
+        {
+          "number": 5,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.01192142274544361,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.0349999959884324,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pressureDomain": "legacy",
+      "contactSemantics": "legacy-inclusive",
+      "barreCoverage": [],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Gmaj7-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/thumb-final/Gmaj7/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-final/Gmaj7/round-0/audit/summary.json",
+    "support": {
+      "id": "Gmaj7",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          22.85639548512351,
+          -14.472871630635675,
+          -18.077339475490355
+        ],
+        "neckBackPointMm": [
+          22.85666492742361,
+          -14.456249877956026,
+          -18.05856302196165
+        ],
+        "distanceMm": 0.025078087415353806
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 72.13875436328411,
+          "DIPDegrees": 52.360112329274855
+        },
+        "middle": {
+          "PIPDegrees": 60.758610305538014,
+          "DIPDegrees": 25.3879363213035
+        },
+        "ring": {
+          "PIPDegrees": 27.813392254706596,
+          "DIPDegrees": 35.45654637501718
+        },
+        "little": {
+          "PIPDegrees": 22.858785953539495,
+          "DIPDegrees": 6.686546282409825
+        },
+        "thumb": {
+          "PIPDegrees": 0.0003422535653491319,
+          "DIPDegrees": 5.471067353451963
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 2,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Amaj7",
+    "row": {
+      "id": "Amaj7",
+      "voicing": "x02120",
+      "poseTransformSha256": "98daab05f3b60e5e3035b550525e2296249e883f7f1eb682c9df940c6becc8cc",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "94953ebfb84f9d318b9890d91732aaedea28676c94b6b19445bf7d87ecc464d7"
+      },
+      "contacts": [
+        {
+          "finger": 2,
+          "string": 4,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499932558668584,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 1,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500144626949428,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 2,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.034999177237285045,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.8107576325038441,
+          "openStringPassed": true
+        },
+        {
+          "number": 2,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.012004462763422902,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.011995079923857621,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.03499932558668584,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 0,
+          "wholeSkinClearanceMm": 1.7308801261409843,
+          "openStringPassed": true
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 7.360019866649827,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "e1fbab0735e04f17789b80b9ab2b37a35d9f19c673884655513e578fd938ecc3",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Amaj7-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/thumb-contact-polish/Amaj7/trials/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-contact-polish/Amaj7/trials/round-0/audit/summary.json",
+    "support": {
+      "id": "Amaj7",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          4.791305595312352,
+          -20.619924190146868,
+          6.531998632544992
+        ],
+        "neckBackPointMm": [
+          4.791412850476382,
+          -20.311314824550514,
+          6.4815133028885334
+        ],
+        "distanceMm": 0.3127115612636915
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 59.71208651613193,
+          "DIPDegrees": 1.488020835193477
+        },
+        "middle": {
+          "PIPDegrees": 44.81652347885936,
+          "DIPDegrees": 17.304062849587087
+        },
+        "ring": {
+          "PIPDegrees": 13.556131417433802,
+          "DIPDegrees": 44.29575520359216
+        },
+        "little": {
+          "PIPDegrees": 22.858785723958682,
+          "DIPDegrees": 6.6865462439479515
+        },
+        "thumb": {
+          "PIPDegrees": 0.007796076780466303,
+          "DIPDegrees": 9.981867936992677
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 8,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Bmaj7",
+    "row": {
+      "id": "Bmaj7",
+      "voicing": "x24342",
+      "poseTransformSha256": "10c110717800c56c49388eb627df15ff720aac9f1c8978e507ec2911f1e3d9cb",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "1ca52803a59c5cfaebe08c4293fc1b7b55d9fad952f4c0c32d0bef4faad66d6e"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 5,
+          "fret": 2,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500010710195878,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 4,
+          "fret": 4,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499975016739998,
+          "passed": true
+        },
+        {
+          "finger": 2,
+          "string": 3,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500001972094438,
+          "passed": true
+        },
+        {
+          "finger": 4,
+          "string": 2,
+          "fret": 4,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499966222257925,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 2,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.035000011814641935,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.012422591632274521,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 4,
+          "wholeSkinClearanceMm": 0.017628838933676977,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.011893252028763623,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 4,
+          "wholeSkinClearanceMm": 0.011999954814004454,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.035000107101959,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 1.9287608451676412,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "8dfa02aa333b69a23edc32a6fc0544ef5d7675088d89123696ca4bf0f3bcac1c",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [
+        {
+          "finger": 1,
+          "string": 4,
+          "fret": 2,
+          "kind": "barre",
+          "effectiveFinger": 3,
+          "effectiveFret": 4,
+          "palmarClearanceMm": 0.0123161627223346,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 2,
+          "kind": "barre",
+          "effectiveFinger": 2,
+          "effectiveFret": 3,
+          "palmarClearanceMm": 1.3535327935821957,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 2,
+          "kind": "barre",
+          "effectiveFinger": 4,
+          "effectiveFret": 4,
+          "palmarClearanceMm": 0.6548184111748323,
+          "passed": true
+        }
+      ],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Bmaj7-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/family/Bmaj7/global-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/family/Bmaj7/global-1/audit/summary.json",
+    "support": {
+      "id": "Bmaj7",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          51.381478165413654,
+          -21.05104265932491,
+          -4.4935818234106275
+        ],
+        "neckBackPointMm": [
+          51.38164325691261,
+          -20.67516852241244,
+          -4.435177927440171
+        ],
+        "distanceMm": 0.38038455425979645
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 15.952590685107785,
+          "DIPDegrees": 19.188029392159876
+        },
+        "middle": {
+          "PIPDegrees": 86.11416085027251,
+          "DIPDegrees": 57.55286384233287
+        },
+        "ring": {
+          "PIPDegrees": 46.32235407168888,
+          "DIPDegrees": 50.20209259310308
+        },
+        "little": {
+          "PIPDegrees": 18.236557874352915,
+          "DIPDegrees": 36.238068893818294
+        },
+        "thumb": {
+          "PIPDegrees": 0.06360868005593634,
+          "DIPDegrees": 7.955549109971983
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 6,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Cm7",
+    "row": {
+      "id": "Cm7",
+      "voicing": "x35343",
+      "poseTransformSha256": "d009e4348eb8b1c720bf567ef2073536fa4de0814188edb2a0c47c7c93fbd185",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.011492215513314363,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 68,
+        "runtimeExportSha256": "b58226ba098a47b166178fde2ea39889e758be6ac8ecd43bb3637fc8404327cf"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 5,
+          "fret": 3,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.06675540905506033,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 4,
+          "fret": 5,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03502424456481651,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 3,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.0696021272818099,
+          "passed": true
+        },
+        {
+          "finger": 2,
+          "string": 2,
+          "fret": 4,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03591842046385585,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 3,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03802863858685088,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 3,
+          "wholeSkinClearanceMm": -0.125,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 4,
+          "wholeSkinClearanceMm": 0.011039278447150275,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.06960212728180973,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 5,
+          "wholeSkinClearanceMm": -0.33,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.05174710176389913,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 2.6283802929986844,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": false,
+      "pressureSHA256": "ba86311dab1094917848a47bb0b02f1fe84b1f22ee8948aa7331a2d6d48413f7",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [
+        {
+          "finger": 1,
+          "string": 4,
+          "fret": 3,
+          "kind": "barre",
+          "effectiveFinger": 3,
+          "effectiveFret": 5,
+          "palmarClearanceMm": -0.33,
+          "passed": false
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 3,
+          "kind": "barre",
+          "effectiveFinger": 2,
+          "effectiveFret": 4,
+          "palmarClearanceMm": 0.011039278447150136,
+          "passed": true
+        }
+      ],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Cm7-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/family/Cm7/global-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/family/Cm7/global-1/audit/summary.json",
+    "support": null,
+    "attemptsAudited": 7,
+    "safeGeometryAndSupport": false,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Dm7",
+    "row": {
+      "id": "Dm7",
+      "voicing": "xx0211",
+      "poseTransformSha256": "17a813b519adeb9632a0494422a5a5c3caed66384d28547f42216feb962182fe",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.00020042634024797223,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "4d0fac0165a818d7cd13a8f94166852ec5d98dafe1490e2923a6a828c56129f3"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.035000893144080475,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.035000212406680054,
+          "passed": true
+        },
+        {
+          "finger": 2,
+          "string": 3,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.034941076264007304,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.0350002124066805,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.035000893144080475,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.03494107626400725,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.39813499848424033,
+          "openStringPassed": true
+        },
+        {
+          "number": 5,
+          "fret": null,
+          "wholeSkinClearanceMm": 7.44763776595211,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 14.576106396539867,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Dm7-raw.json.gz"
+    },
+    "source": "baseline:1f2836b",
+    "audit": "docs/practice-fingering-polish/tests/geometry/summary.json",
+    "support": {
+      "id": "Dm7",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          11.089985179591448,
+          -13.954414848433313,
+          -18.399209298232257
+        ],
+        "neckBackPointMm": [
+          11.090663906042366,
+          -13.917400485407814,
+          -18.356380658123946
+        ],
+        "distanceMm": 0.05661109567307306
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 72.51318414832613,
+          "DIPDegrees": 27.50828438862135
+        },
+        "middle": {
+          "PIPDegrees": 77.07018033517865,
+          "DIPDegrees": 35.395960380197884
+        },
+        "ring": {
+          "PIPDegrees": 68.68964879786961,
+          "DIPDegrees": 64.59596065510192
+        },
+        "little": {
+          "PIPDegrees": 22.858785953539513,
+          "DIPDegrees": 6.686546282409825
+        },
+        "thumb": {
+          "PIPDegrees": 12.850483868423686,
+          "DIPDegrees": 4.779597945930015
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 0,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Em7",
+    "row": {
+      "id": "Em7",
+      "voicing": "020000",
+      "poseTransformSha256": "96d65072f92e9349488bc04190910609466da2a5ad931802f39b07789f92c0b4",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "ee28cd17353e4916ef8e340f7a29563f0eaa3e11f7a66a0b9dd24161f699a583"
+      },
+      "contacts": [
+        {
+          "finger": 2,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.00799999872823659,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.5572413871509996,
+          "openStringPassed": true
+        },
+        {
+          "number": 2,
+          "fret": 0,
+          "wholeSkinClearanceMm": 1.327904902427182,
+          "openStringPassed": true
+        },
+        {
+          "number": 3,
+          "fret": 0,
+          "wholeSkinClearanceMm": 3.3211988528835867,
+          "openStringPassed": true
+        },
+        {
+          "number": 4,
+          "fret": 0,
+          "wholeSkinClearanceMm": 2.261846811795398,
+          "openStringPassed": true
+        },
+        {
+          "number": 5,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.00799999872823659,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": 0,
+          "wholeSkinClearanceMm": 2.6402912692393423,
+          "openStringPassed": true
+        }
+      ],
+      "geometricPassed": true,
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Em7-raw.json.gz"
+    },
+    "source": "baseline:1f2836b",
+    "audit": "docs/practice-fingering-polish/tests/geometry/summary.json",
+    "support": {
+      "id": "Em7",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          11.011739350293631,
+          -14.0273042869606,
+          -18.555645791705114
+        ],
+        "neckBackPointMm": [
+          11.014419645939446,
+          -13.881134300634207,
+          -18.38651518327893
+        ],
+        "distanceMm": 0.22355762477271476
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 56.04121420340938,
+          "DIPDegrees": 26.926429332877845
+        },
+        "middle": {
+          "PIPDegrees": 56.21264389122567,
+          "DIPDegrees": 40.36375140820698
+        },
+        "ring": {
+          "PIPDegrees": 37.22662789297071,
+          "DIPDegrees": 24.706620158666418
+        },
+        "little": {
+          "PIPDegrees": 22.858785723958647,
+          "DIPDegrees": 6.6865462439479515
+        },
+        "thumb": {
+          "PIPDegrees": 14.256656606871331,
+          "DIPDegrees": 5.379428255119891
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 0,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Fm7",
+    "row": {
+      "id": "Fm7",
+      "voicing": "131111",
+      "poseTransformSha256": "dd9b5b191b1ab9275f5cc6631ef58614813c57abe70c63e19e0c329fcbf9e2bd",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 84,
+        "runtimeExportSha256": "9e52b859149274b1a5ecb517e28dadb0af951d51d47e3c3baf88db97abea4ea6"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 6,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.09550976208709139,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 5,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.058475776521092204,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 4,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.2354798022174634,
+          "passed": false
+        },
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.0464585675556449,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.025006451970163573,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.12862806636849966,
+          "passed": false
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.12062752428376392,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 1,
+          "wholeSkinClearanceMm": -0.043069306973496105,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 1,
+          "wholeSkinClearanceMm": -0.035099295285374255,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.2354798022174634,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 3,
+          "wholeSkinClearanceMm": -0.455,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.038649611252780436,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": false,
+      "pressureSHA256": "d360d754f38bb107c85245a6ed8d9be4f3f2b387ce75915cd0e4da4ed357e490",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [
+        {
+          "finger": 1,
+          "string": 5,
+          "fret": 1,
+          "kind": "barre",
+          "effectiveFinger": 3,
+          "effectiveFret": 3,
+          "palmarClearanceMm": -0.455,
+          "passed": false
+        }
+      ],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Fm7-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/effective-barre/Fm7/round-2/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/effective-barre/Fm7/round-2/audit/summary.json",
+    "support": null,
+    "attemptsAudited": 8,
+    "safeGeometryAndSupport": false,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Gm7",
+    "row": {
+      "id": "Gm7",
+      "voicing": "353333",
+      "poseTransformSha256": "1a8653eb7df030409a4cde04742fdf6e8038d2978f9935eaf1a9068d7d907b8e",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 101,
+        "runtimeExportSha256": "a9bff908edc67ceb8de66574b2d37c762d762265d86dbddeded415f6b3c0231c"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 6,
+          "fret": 3,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.07367333921665875,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 5,
+          "fret": 5,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.0364026997116475,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 4,
+          "fret": 3,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.10906794927733082,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 3,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03913059719741882,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 3,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.09631618968593744,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 3,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.037218044998548167,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 3,
+          "wholeSkinClearanceMm": -0.125,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.09627851078958213,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 3,
+          "wholeSkinClearanceMm": -0.23,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.10906794927733077,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 5,
+          "wholeSkinClearanceMm": -0.08560329268485856,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.07240732771099523,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": false,
+      "pressureSHA256": "9d8877c3a76086ca2fc4704d94c3f78f2b6de8a051fc0c21374ed6422f0fe2be",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [
+        {
+          "finger": 1,
+          "string": 5,
+          "fret": 3,
+          "kind": "barre",
+          "effectiveFinger": 3,
+          "effectiveFret": 5,
+          "palmarClearanceMm": -0.08560329268485856,
+          "passed": false
+        }
+      ],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Gm7-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/family/Gm7/global-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/family/Gm7/global-1/audit/summary.json",
+    "support": null,
+    "attemptsAudited": 10,
+    "safeGeometryAndSupport": false,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Am7",
+    "row": {
+      "id": "Am7",
+      "voicing": "x02010",
+      "poseTransformSha256": "6cdd9480538558152cee39af50f6980d9a559d7e2474ca33e3184fc131c6c4b6",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "50407e10371930831ce4fd2622ffdb4f102f60ee3aeb9c08405171d30850c289"
+      },
+      "contacts": [
+        {
+          "finger": 2,
+          "string": 4,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.008002018031291414,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 1,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.008002719141407683,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.5572413871509996,
+          "openStringPassed": true
+        },
+        {
+          "number": 2,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.008002719141407849,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 0,
+          "wholeSkinClearanceMm": 2.6826427209589325,
+          "openStringPassed": true
+        },
+        {
+          "number": 4,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.008002018031291414,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 0,
+          "wholeSkinClearanceMm": 2.4997630855413444,
+          "openStringPassed": true
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 9.308197363850745,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Am7-raw.json.gz"
+    },
+    "source": "baseline:1f2836b",
+    "audit": "docs/practice-fingering-polish/tests/geometry/summary.json",
+    "support": {
+      "id": "Am7",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          11.011739350293631,
+          -14.0273042869606,
+          -18.555645791705114
+        ],
+        "neckBackPointMm": [
+          11.014419645939446,
+          -13.881134300634207,
+          -18.38651518327893
+        ],
+        "distanceMm": 0.22355762477271476
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 71.0799442552055,
+          "DIPDegrees": 30.077521225179513
+        },
+        "middle": {
+          "PIPDegrees": 76.77777423896772,
+          "DIPDegrees": 34.060956437249395
+        },
+        "ring": {
+          "PIPDegrees": 37.22662789297071,
+          "DIPDegrees": 24.706620158666418
+        },
+        "little": {
+          "PIPDegrees": 22.858785723958647,
+          "DIPDegrees": 6.6865462439479515
+        },
+        "thumb": {
+          "PIPDegrees": 14.256656606871331,
+          "DIPDegrees": 5.379428255119891
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 0,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Bm7",
+    "row": {
+      "id": "Bm7",
+      "voicing": "x24232",
+      "poseTransformSha256": "5e1524c972d95b3952d7fa847504dc40d0ae355c01e683bac8333b97539a0a7d",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.01862187089730938,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 56,
+        "runtimeExportSha256": "51744fe111cc5a477c40301d12b4456c92e067ba026af8358f21dd75d40b9942"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 5,
+          "fret": 2,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.06839122631647382,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 4,
+          "fret": 4,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03703784905547075,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 2,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.09084797819551968,
+          "passed": true
+        },
+        {
+          "finger": 2,
+          "string": 2,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03465173346195907,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 2,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03557972143950455,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.011141773718896103,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 3,
+          "wholeSkinClearanceMm": -0.0002729164052429345,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.09084797819551968,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 4,
+          "wholeSkinClearanceMm": -0.33,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.06839122631647349,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 2.2618642672968305,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": false,
+      "pressureSHA256": "832d749f3213dc85c09f050bb79f07e690e613265bcc31c8455862ad80e9080b",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [
+        {
+          "finger": 1,
+          "string": 4,
+          "fret": 2,
+          "kind": "barre",
+          "effectiveFinger": 3,
+          "effectiveFret": 4,
+          "palmarClearanceMm": -0.33,
+          "passed": false
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 2,
+          "kind": "barre",
+          "effectiveFinger": 2,
+          "effectiveFret": 3,
+          "palmarClearanceMm": -0.0002729164052429067,
+          "passed": false
+        }
+      ],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Bm7-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/family/Bm7/global-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/family/Bm7/global-1/audit/summary.json",
+    "support": null,
+    "attemptsAudited": 11,
+    "safeGeometryAndSupport": false,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Csus2",
+    "row": {
+      "id": "Csus2",
+      "voicing": "x35533",
+      "poseTransformSha256": "3a209e37d0c4c6c109ff387ab3e9513d41027320aba5b7cbed723385bdd0085e",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 2.759325212764452e-07,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "b97b8ea155f1b6305b6b7ed8158bc90edf723488c111ed1f20782dccae496c0b"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 5,
+          "fret": 3,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03501973004428738,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 4,
+          "fret": 5,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03477665013446102,
+          "passed": true
+        },
+        {
+          "finger": 4,
+          "string": 3,
+          "fret": 5,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500245305570679,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 3,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03492155792376578,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 3,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03508082124072323,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.035080821240723176,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.011871693747647127,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 5,
+          "wholeSkinClearanceMm": 0.035002453055706845,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 5,
+          "wholeSkinClearanceMm": 0.011825274969757604,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.03501973004428738,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 0.012003783046334537,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "7fd590565e19edf39a7815a182ed8e4274c107b6ba2609cf2e2716519ce19caf",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [
+        {
+          "finger": 1,
+          "string": 4,
+          "fret": 3,
+          "kind": "barre",
+          "effectiveFinger": 3,
+          "effectiveFret": 5,
+          "palmarClearanceMm": 0.01182527496975777,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 3,
+          "kind": "barre",
+          "effectiveFinger": 4,
+          "effectiveFret": 5,
+          "palmarClearanceMm": 0.7920022974952414,
+          "passed": true
+        }
+      ],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Csus2-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/spatial-transfer/Csus2/support/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/spatial-transfer/Csus2/support/round-0/audit/summary.json",
+    "support": {
+      "id": "Csus2",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          83.6510959773541,
+          -20.801056053035516,
+          -3.782481642252975
+        ],
+        "neckBackPointMm": [
+          83.65109997660942,
+          -20.791744449551448,
+          -3.7810707984677734
+        ],
+        "distanceMm": 0.009417879571580792
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 18.682130528171026,
+          "DIPDegrees": 8.67055971864948
+        },
+        "middle": {
+          "PIPDegrees": 56.2216637696658,
+          "DIPDegrees": 26.80927112001228
+        },
+        "ring": {
+          "PIPDegrees": 48.08935949929383,
+          "DIPDegrees": 59.008898420762385
+        },
+        "little": {
+          "PIPDegrees": 10.794039942442335,
+          "DIPDegrees": 30.49121984776275
+        },
+        "thumb": {
+          "PIPDegrees": 1.3379588362379262,
+          "DIPDegrees": 10.38856735629245
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 10,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Dsus2",
+    "row": {
+      "id": "Dsus2",
+      "voicing": "xx0230",
+      "poseTransformSha256": "4f3f3cfef0f618d330d720453757b0a26375a8c68d0eacd319275f734c310e36",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 3.837364204173355e-09,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "2156fae62ca2e85218424cf57d620e5c434786cd826c67c7409a5dd5f07cc7df"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500666823619378,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 2,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.035006836343113246,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 0,
+          "wholeSkinClearanceMm": 4.061728495374588,
+          "openStringPassed": true
+        },
+        {
+          "number": 2,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.035006836343113246,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.03426661076834844,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 0,
+          "wholeSkinClearanceMm": 6.179591603260223,
+          "openStringPassed": true
+        },
+        {
+          "number": 5,
+          "fret": null,
+          "wholeSkinClearanceMm": 13.446645870068757,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 20.64804759129063,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "pressureDomain": "legacy",
+      "contactSemantics": "legacy-inclusive",
+      "barreCoverage": [],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Dsus2-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/thumb-final/Dsus2/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-final/Dsus2/round-0/audit/summary.json",
+    "support": {
+      "id": "Dsus2",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          19.283433467326677,
+          -16.920599633786804,
+          -15.037028470700985
+        ],
+        "neckBackPointMm": [
+          19.283624471076223,
+          -16.89534358008465,
+          -15.022235921449042
+        ],
+        "distanceMm": 0.029269852141915936
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 60.42839522639223,
+          "DIPDegrees": 39.444667403674984
+        },
+        "middle": {
+          "PIPDegrees": 73.97757424662483,
+          "DIPDegrees": 55.148441902906534
+        },
+        "ring": {
+          "PIPDegrees": 68.84230081589314,
+          "DIPDegrees": 51.12027782610653
+        },
+        "little": {
+          "PIPDegrees": 22.858785953539513,
+          "DIPDegrees": 6.686546282409825
+        },
+        "thumb": {
+          "PIPDegrees": 13.549849129814596,
+          "DIPDegrees": 4.123175537689361
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 1,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Asus2",
+    "row": {
+      "id": "Asus2",
+      "voicing": "x02200",
+      "poseTransformSha256": "57493aa33e8744954868f8c0f0d61eaffba1be885993f60622d4d3f715d434a7",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "378fb0da813940344b49a1b00565e69c80b8e723b961271f7d1877ae4ffde1d0"
+      },
+      "contacts": [
+        {
+          "finger": 2,
+          "string": 4,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.035001214466100994,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 3,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499711985641343,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.8366823114071756,
+          "openStringPassed": true
+        },
+        {
+          "number": 2,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.25949257232459944,
+          "openStringPassed": true
+        },
+        {
+          "number": 3,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.01639763274923256,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.012001417138336468,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.8641555560091678,
+          "openStringPassed": true
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 6.142457264116119,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "7978d9229376bd971110c051a57c1cf1e0a5d04fcaa59d3bd03f415c0478fbb2",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Asus2-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/thumb-contact-polish/Asus2/trials/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-contact-polish/Asus2/trials/round-0/audit/summary.json",
+    "support": {
+      "id": "Asus2",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          5.018566351702594,
+          -20.60035865653682,
+          6.686125910167947
+        ],
+        "neckBackPointMm": [
+          5.0186754919324255,
+          -20.28632531923309,
+          6.634753274323721
+        ],
+        "distanceMm": 0.318207631214733
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 59.26558883710195,
+          "DIPDegrees": 2.2069813566494045
+        },
+        "middle": {
+          "PIPDegrees": 44.75348067671448,
+          "DIPDegrees": 17.176336138037055
+        },
+        "ring": {
+          "PIPDegrees": 13.30809184098109,
+          "DIPDegrees": 43.6866079123031
+        },
+        "little": {
+          "PIPDegrees": 22.858785723958682,
+          "DIPDegrees": 6.686546243947896
+        },
+        "thumb": {
+          "PIPDegrees": 0.008406187562252553,
+          "DIPDegrees": 10.208864744517188
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 11,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Csus4",
+    "row": {
+      "id": "Csus4",
+      "voicing": "x33011",
+      "poseTransformSha256": "c37d352880f27ac1c024259b7e73051bea5aa42953f33c7beb50d00847976e2f",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 5.15098594888741e-08,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "b4e0a44faba40d6cc5dc3d2f7ec839669701bcabec3a18779a54b7d7d50dc05b"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 2,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03502346464542286,
+          "passed": true
+        },
+        {
+          "finger": 1,
+          "string": 1,
+          "fret": 1,
+          "kind": "barre",
+          "actualOwnerPalmarSkinClearanceMm": 0.03501195332499213,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 5,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499999797245107,
+          "passed": true
+        },
+        {
+          "finger": 4,
+          "string": 4,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500000025278699,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.0350119533249921,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 1,
+          "wholeSkinClearanceMm": 0.03502346464542286,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.2599999989156162,
+          "openStringPassed": true
+        },
+        {
+          "number": 4,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.035000000252786934,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.03499999797245085,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 0.012168964567743523,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Csus4-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/Csus4-thumb/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/Csus4-thumb/audit/summary.json",
+    "support": {
+      "id": "Csus4",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          6.121920462832648,
+          -9.89051221556587,
+          -20.8571834034595
+        ],
+        "neckBackPointMm": [
+          6.123354813190993,
+          -9.862814917663234,
+          -20.773330487423475
+        ],
+        "distanceMm": 0.08832049139244331
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 72.05136128339983,
+          "DIPDegrees": 30.918611131413684
+        },
+        "middle": {
+          "PIPDegrees": 67.64784027404127,
+          "DIPDegrees": 29.218407536561553
+        },
+        "ring": {
+          "PIPDegrees": 43.932052943186726,
+          "DIPDegrees": 48.36875385302091
+        },
+        "little": {
+          "PIPDegrees": 8.581241228835095,
+          "DIPDegrees": 38.553453630113964
+        },
+        "thumb": {
+          "PIPDegrees": 12.79348577672807,
+          "DIPDegrees": 4.565359027994487
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 1,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Dsus4",
+    "row": {
+      "id": "Dsus4",
+      "voicing": "xx0233",
+      "poseTransformSha256": "c7263f521db7e64d9363953c0ac14587f5f87d160f428c746d0ab3e73b585851",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 6.649127606550564e-05,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "14a9ec5ffb13782e3b11e235db7e91ee4780f2f6621e1c5660de76e891643ef9"
+      },
+      "contacts": [
+        {
+          "finger": 1,
+          "string": 3,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03533856843208241,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 2,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03502641545423893,
+          "passed": true
+        },
+        {
+          "finger": 4,
+          "string": 1,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.039204681105239725,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.03920468110523939,
+          "openStringPassed": null
+        },
+        {
+          "number": 2,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.013894383465758137,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.011703922995368737,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.6220143327348489,
+          "openStringPassed": true
+        },
+        {
+          "number": 5,
+          "fret": null,
+          "wholeSkinClearanceMm": 6.575597240918807,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 13.457536698976568,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "068b0963d020cdc489c53b0de25324236ed0b3fe88b847eb061ca4ee2a38aeb8",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Dsus4-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/thumb-final/Dsus4/round-0/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/thumb-final/Dsus4/round-0/audit/summary.json",
+    "support": {
+      "id": "Dsus4",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          20.122542840279657,
+          -18.557376232968416,
+          -12.038157345949479
+        ],
+        "neckBackPointMm": [
+          20.122713530258952,
+          -18.519661857281804,
+          -12.022440757583919
+        ],
+        "distanceMm": 0.04085846813516618
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 51.51006805690132,
+          "DIPDegrees": 24.73331867586539
+        },
+        "middle": {
+          "PIPDegrees": 73.81401796416633,
+          "DIPDegrees": 61.16920191800956
+        },
+        "ring": {
+          "PIPDegrees": 69.50495507318756,
+          "DIPDegrees": 47.07312616057596
+        },
+        "little": {
+          "PIPDegrees": 35.585653438725735,
+          "DIPDegrees": 15.81559595583176
+        },
+        "thumb": {
+          "PIPDegrees": 27.517008209257234,
+          "DIPDegrees": 23.05163242019033
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 3,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Esus4",
+    "row": {
+      "id": "Esus4",
+      "voicing": "022200",
+      "poseTransformSha256": "f7ccdc58b5ea9275e3c58a93fe57d8d43c5045c915ef2b96520bb8edd58cbee7",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "8492997aa0b19a1dd2bb77b7260950e80f4379a63f28528d780ccc736d8d2c7d"
+      },
+      "contacts": [
+        {
+          "finger": 2,
+          "string": 5,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.035128482981881204,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 4,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.035051974256526286,
+          "passed": true
+        },
+        {
+          "finger": 4,
+          "string": 3,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03500156418748404,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 0,
+          "wholeSkinClearanceMm": 4.881599176768433,
+          "openStringPassed": true
+        },
+        {
+          "number": 2,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.25993674982902804,
+          "openStringPassed": true
+        },
+        {
+          "number": 3,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.02355255372234874,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.035051974256526175,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.03478960330723191,
+          "openStringPassed": null
+        },
+        {
+          "number": 6,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.2599651271742689,
+          "openStringPassed": true
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "342dd60f187d536967765a61cc294c93d95acc09d58e9d207b096f1324e0a302",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Esus4-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/robust-open/Esus4/round-1/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/robust-open/Esus4/round-1/audit/summary.json",
+    "support": {
+      "id": "Esus4",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          0.18273126653097252,
+          -21.31957708945606,
+          1.8218238665015856
+        ],
+        "neckBackPointMm": [
+          0.18275659971913205,
+          -20.903408163228324,
+          1.7995554117780306
+        ],
+        "distanceMm": 0.41676427375087355
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 28.324384710499412,
+          "DIPDegrees": 46.51082744977472
+        },
+        "middle": {
+          "PIPDegrees": 67.1370538304583,
+          "DIPDegrees": 5.153066565813802
+        },
+        "ring": {
+          "PIPDegrees": 58.963180929293806,
+          "DIPDegrees": 44.0680224852816
+        },
+        "little": {
+          "PIPDegrees": 28.751178736340666,
+          "DIPDegrees": 47.10852560159651
+        },
+        "thumb": {
+          "PIPDegrees": 15.541679799488078,
+          "DIPDegrees": 6.850856548628322
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 2,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  },
+  {
+    "id": "Asus4",
+    "row": {
+      "id": "Asus4",
+      "voicing": "x02230",
+      "poseTransformSha256": "cf4ecd2a150029888364e378139dba6e38727204d35986061eba738cbaca4bf5",
+      "skinAndClothSelfCrossingPairs": 0,
+      "woodSamples": 72878,
+      "woodSamplesInsideOver002Mm": 0,
+      "maximumWoodDepthMm": 0.0,
+      "guitar": {
+        "status": "tested",
+        "crossingPairs": 0,
+        "runtimeExportSha256": "e9f76e6d82c4c4bacaf153867963f414eec9b8f3bbef080252477b3697d95b9d"
+      },
+      "contacts": [
+        {
+          "finger": 2,
+          "string": 4,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.034999825341159196,
+          "passed": true
+        },
+        {
+          "finger": 3,
+          "string": 3,
+          "fret": 2,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.035000242419742617,
+          "passed": true
+        },
+        {
+          "finger": 4,
+          "string": 2,
+          "fret": 3,
+          "kind": "tip",
+          "actualOwnerPalmarSkinClearanceMm": 0.03499998858111866,
+          "passed": true
+        }
+      ],
+      "strings": [
+        {
+          "number": 1,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.2599999531851916,
+          "openStringPassed": true
+        },
+        {
+          "number": 2,
+          "fret": 3,
+          "wholeSkinClearanceMm": 0.011999851639007963,
+          "openStringPassed": null
+        },
+        {
+          "number": 3,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.011999694101131664,
+          "openStringPassed": null
+        },
+        {
+          "number": 4,
+          "fret": 2,
+          "wholeSkinClearanceMm": 0.03499982534115903,
+          "openStringPassed": null
+        },
+        {
+          "number": 5,
+          "fret": 0,
+          "wholeSkinClearanceMm": 0.32238651508857635,
+          "openStringPassed": true
+        },
+        {
+          "number": 6,
+          "fret": null,
+          "wholeSkinClearanceMm": 3.0761835730879117,
+          "openStringPassed": null
+        }
+      ],
+      "geometricPassed": true,
+      "pressureSHA256": "ac8e08868a050bf179d74dc74178c742c93db4c8c9b6d4a795ab0371b5660d27",
+      "pressureDomain": "bounded-assigned-fret",
+      "contactSemantics": "effective-fingering-v1",
+      "barreCoverage": [],
+      "teachingStatus": "needs-review",
+      "anatomicalApproval": false,
+      "rawEvidence": "Asus4-raw.json.gz"
+    },
+    "source": ".local-preview/practice-complete-42/nearby/Asus4/support/round-2/proposal-library.json",
+    "audit": ".local-preview/practice-complete-42/nearby/Asus4/support/round-2/audit/summary.json",
+    "support": {
+      "id": "Asus4",
+      "supportRegion": "actual-neck-back-at-or-after-nut",
+      "thumbSupportWitness": {
+        "palmarSkinPointMm": [
+          22.486813096708158,
+          -21.23913479694352,
+          -3.1056487008864715
+        ],
+        "neckBackPointMm": [
+          22.486879870682277,
+          -20.837635693763062,
+          -3.084443820368484
+        ],
+        "distanceMm": 0.4020586788906051
+      },
+      "thumbSupportPassed": true,
+      "jointAngles": {
+        "index": {
+          "PIPDegrees": 28.094083055246422,
+          "DIPDegrees": 45.81549475706681
+        },
+        "middle": {
+          "PIPDegrees": 65.5863297434975,
+          "DIPDegrees": 4.9355124983008904
+        },
+        "ring": {
+          "PIPDegrees": 61.58129439288306,
+          "DIPDegrees": 38.99958574411369
+        },
+        "little": {
+          "PIPDegrees": 21.504609706240014,
+          "DIPDegrees": 36.3876430379577
+        },
+        "thumb": {
+          "PIPDegrees": 13.832554597093408,
+          "DIPDegrees": 24.39134320312213
+        }
+      },
+      "jointPlausibilityPassed": true,
+      "independentTeachingApproval": false
+    },
+    "attemptsAudited": 10,
+    "safeGeometryAndSupport": true,
+    "visualReviewPassed": false,
+    "teachingApproved": false
+  }
+]

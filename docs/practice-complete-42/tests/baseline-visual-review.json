@@ -1,0 +1,476 @@
+{
+  "stage": "baseline-multi-view-review",
+  "reviewer": "assistant-render-inspection",
+  "notIndependentInstructorApproval": true,
+  "views": [
+    "front",
+    "side",
+    "back",
+    "player"
+  ],
+  "all42Rendered": true,
+  "rows": [
+    {
+      "id": "C",
+      "outcome": "visually-coherent-pending-full-final-review",
+      "note": "รูปร่างและการวางนิ้วโดยรวมสอดคล้องกับผัง ต้องตรวจภาพหลังรวมงานอีกครั้ง",
+      "images": [
+        "screenshots/baseline/C-front.png",
+        "screenshots/baseline/C-side.png",
+        "screenshots/baseline/C-back.png",
+        "screenshots/baseline/C-player.png"
+      ]
+    },
+    {
+      "id": "D",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/D-front.png",
+        "screenshots/baseline/D-side.png",
+        "screenshots/baseline/D-back.png",
+        "screenshots/baseline/D-player.png"
+      ]
+    },
+    {
+      "id": "E",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/E-front.png",
+        "screenshots/baseline/E-side.png",
+        "screenshots/baseline/E-back.png",
+        "screenshots/baseline/E-player.png"
+      ]
+    },
+    {
+      "id": "F",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/F-front.png",
+        "screenshots/baseline/F-side.png",
+        "screenshots/baseline/F-back.png",
+        "screenshots/baseline/F-player.png"
+      ]
+    },
+    {
+      "id": "G",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/G-front.png",
+        "screenshots/baseline/G-side.png",
+        "screenshots/baseline/G-back.png",
+        "screenshots/baseline/G-player.png"
+      ]
+    },
+    {
+      "id": "A",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/A-front.png",
+        "screenshots/baseline/A-side.png",
+        "screenshots/baseline/A-back.png",
+        "screenshots/baseline/A-player.png"
+      ]
+    },
+    {
+      "id": "B",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/B-front.png",
+        "screenshots/baseline/B-side.png",
+        "screenshots/baseline/B-back.png",
+        "screenshots/baseline/B-player.png"
+      ]
+    },
+    {
+      "id": "Cm",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Cm-front.png",
+        "screenshots/baseline/Cm-side.png",
+        "screenshots/baseline/Cm-back.png",
+        "screenshots/baseline/Cm-player.png"
+      ]
+    },
+    {
+      "id": "Dm",
+      "outcome": "visually-coherent-pending-full-final-review",
+      "note": "รูปร่างและการวางนิ้วโดยรวมสอดคล้องกับผัง ต้องตรวจภาพหลังรวมงานอีกครั้ง",
+      "images": [
+        "screenshots/baseline/Dm-front.png",
+        "screenshots/baseline/Dm-side.png",
+        "screenshots/baseline/Dm-back.png",
+        "screenshots/baseline/Dm-player.png"
+      ]
+    },
+    {
+      "id": "Em",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Em-front.png",
+        "screenshots/baseline/Em-side.png",
+        "screenshots/baseline/Em-back.png",
+        "screenshots/baseline/Em-player.png"
+      ]
+    },
+    {
+      "id": "Fm",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Fm-front.png",
+        "screenshots/baseline/Fm-side.png",
+        "screenshots/baseline/Fm-back.png",
+        "screenshots/baseline/Fm-player.png"
+      ]
+    },
+    {
+      "id": "Gm",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Gm-front.png",
+        "screenshots/baseline/Gm-side.png",
+        "screenshots/baseline/Gm-back.png",
+        "screenshots/baseline/Gm-player.png"
+      ]
+    },
+    {
+      "id": "Am",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Am-front.png",
+        "screenshots/baseline/Am-side.png",
+        "screenshots/baseline/Am-back.png",
+        "screenshots/baseline/Am-player.png"
+      ]
+    },
+    {
+      "id": "Bm",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Bm-front.png",
+        "screenshots/baseline/Bm-side.png",
+        "screenshots/baseline/Bm-back.png",
+        "screenshots/baseline/Bm-player.png"
+      ]
+    },
+    {
+      "id": "C7",
+      "outcome": "visually-coherent-pending-full-final-review",
+      "note": "รูปร่างและการวางนิ้วโดยรวมสอดคล้องกับผัง ต้องตรวจภาพหลังรวมงานอีกครั้ง",
+      "images": [
+        "screenshots/baseline/C7-front.png",
+        "screenshots/baseline/C7-side.png",
+        "screenshots/baseline/C7-back.png",
+        "screenshots/baseline/C7-player.png"
+      ]
+    },
+    {
+      "id": "D7",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/D7-front.png",
+        "screenshots/baseline/D7-side.png",
+        "screenshots/baseline/D7-back.png",
+        "screenshots/baseline/D7-player.png"
+      ]
+    },
+    {
+      "id": "E7",
+      "outcome": "visually-coherent-pending-full-final-review",
+      "note": "รูปร่างและการวางนิ้วโดยรวมสอดคล้องกับผัง ต้องตรวจภาพหลังรวมงานอีกครั้ง",
+      "images": [
+        "screenshots/baseline/E7-front.png",
+        "screenshots/baseline/E7-side.png",
+        "screenshots/baseline/E7-back.png",
+        "screenshots/baseline/E7-player.png"
+      ]
+    },
+    {
+      "id": "F7",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/F7-front.png",
+        "screenshots/baseline/F7-side.png",
+        "screenshots/baseline/F7-back.png",
+        "screenshots/baseline/F7-player.png"
+      ]
+    },
+    {
+      "id": "G7",
+      "outcome": "visually-coherent-pending-full-final-review",
+      "note": "รูปร่างและการวางนิ้วโดยรวมสอดคล้องกับผัง ต้องตรวจภาพหลังรวมงานอีกครั้ง",
+      "images": [
+        "screenshots/baseline/G7-front.png",
+        "screenshots/baseline/G7-side.png",
+        "screenshots/baseline/G7-back.png",
+        "screenshots/baseline/G7-player.png"
+      ]
+    },
+    {
+      "id": "A7",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/A7-front.png",
+        "screenshots/baseline/A7-side.png",
+        "screenshots/baseline/A7-back.png",
+        "screenshots/baseline/A7-player.png"
+      ]
+    },
+    {
+      "id": "B7",
+      "outcome": "thumb-support-needs-correction",
+      "note": "พบช่องว่างระหว่างนิ้วโป้งกับหลังคอ ได้แยกซ่อมนิ้วโป้งโดยคงนิ้วกดสายและ root เดิม",
+      "images": [
+        "screenshots/baseline/B7-front.png",
+        "screenshots/baseline/B7-side.png",
+        "screenshots/baseline/B7-back.png",
+        "screenshots/baseline/B7-player.png"
+      ]
+    },
+    {
+      "id": "Cmaj7",
+      "outcome": "visually-coherent-pending-full-final-review",
+      "note": "รูปร่างและการวางนิ้วโดยรวมสอดคล้องกับผัง ต้องตรวจภาพหลังรวมงานอีกครั้ง",
+      "images": [
+        "screenshots/baseline/Cmaj7-front.png",
+        "screenshots/baseline/Cmaj7-side.png",
+        "screenshots/baseline/Cmaj7-back.png",
+        "screenshots/baseline/Cmaj7-player.png"
+      ]
+    },
+    {
+      "id": "Dmaj7",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Dmaj7-front.png",
+        "screenshots/baseline/Dmaj7-side.png",
+        "screenshots/baseline/Dmaj7-back.png",
+        "screenshots/baseline/Dmaj7-player.png"
+      ]
+    },
+    {
+      "id": "Emaj7",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Emaj7-front.png",
+        "screenshots/baseline/Emaj7-side.png",
+        "screenshots/baseline/Emaj7-back.png",
+        "screenshots/baseline/Emaj7-player.png"
+      ]
+    },
+    {
+      "id": "Fmaj7",
+      "outcome": "visually-coherent-pending-full-final-review",
+      "note": "รูปร่างและการวางนิ้วโดยรวมสอดคล้องกับผัง ต้องตรวจภาพหลังรวมงานอีกครั้ง",
+      "images": [
+        "screenshots/baseline/Fmaj7-front.png",
+        "screenshots/baseline/Fmaj7-side.png",
+        "screenshots/baseline/Fmaj7-back.png",
+        "screenshots/baseline/Fmaj7-player.png"
+      ]
+    },
+    {
+      "id": "Gmaj7",
+      "outcome": "thumb-support-needs-correction",
+      "note": "พบช่องว่างระหว่างนิ้วโป้งกับหลังคอ ได้แยกซ่อมนิ้วโป้งโดยคงนิ้วกดสายและ root เดิม",
+      "images": [
+        "screenshots/baseline/Gmaj7-front.png",
+        "screenshots/baseline/Gmaj7-side.png",
+        "screenshots/baseline/Gmaj7-back.png",
+        "screenshots/baseline/Gmaj7-player.png"
+      ]
+    },
+    {
+      "id": "Amaj7",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Amaj7-front.png",
+        "screenshots/baseline/Amaj7-side.png",
+        "screenshots/baseline/Amaj7-back.png",
+        "screenshots/baseline/Amaj7-player.png"
+      ]
+    },
+    {
+      "id": "Bmaj7",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Bmaj7-front.png",
+        "screenshots/baseline/Bmaj7-side.png",
+        "screenshots/baseline/Bmaj7-back.png",
+        "screenshots/baseline/Bmaj7-player.png"
+      ]
+    },
+    {
+      "id": "Cm7",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Cm7-front.png",
+        "screenshots/baseline/Cm7-side.png",
+        "screenshots/baseline/Cm7-back.png",
+        "screenshots/baseline/Cm7-player.png"
+      ]
+    },
+    {
+      "id": "Dm7",
+      "outcome": "visually-coherent-pending-full-final-review",
+      "note": "รูปร่างและการวางนิ้วโดยรวมสอดคล้องกับผัง ต้องตรวจภาพหลังรวมงานอีกครั้ง",
+      "images": [
+        "screenshots/baseline/Dm7-front.png",
+        "screenshots/baseline/Dm7-side.png",
+        "screenshots/baseline/Dm7-back.png",
+        "screenshots/baseline/Dm7-player.png"
+      ]
+    },
+    {
+      "id": "Em7",
+      "outcome": "visually-coherent-pending-full-final-review",
+      "note": "รูปร่างและการวางนิ้วโดยรวมสอดคล้องกับผัง ต้องตรวจภาพหลังรวมงานอีกครั้ง",
+      "images": [
+        "screenshots/baseline/Em7-front.png",
+        "screenshots/baseline/Em7-side.png",
+        "screenshots/baseline/Em7-back.png",
+        "screenshots/baseline/Em7-player.png"
+      ]
+    },
+    {
+      "id": "Fm7",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Fm7-front.png",
+        "screenshots/baseline/Fm7-side.png",
+        "screenshots/baseline/Fm7-back.png",
+        "screenshots/baseline/Fm7-player.png"
+      ]
+    },
+    {
+      "id": "Gm7",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Gm7-front.png",
+        "screenshots/baseline/Gm7-side.png",
+        "screenshots/baseline/Gm7-back.png",
+        "screenshots/baseline/Gm7-player.png"
+      ]
+    },
+    {
+      "id": "Am7",
+      "outcome": "visually-coherent-pending-full-final-review",
+      "note": "รูปร่างและการวางนิ้วโดยรวมสอดคล้องกับผัง ต้องตรวจภาพหลังรวมงานอีกครั้ง",
+      "images": [
+        "screenshots/baseline/Am7-front.png",
+        "screenshots/baseline/Am7-side.png",
+        "screenshots/baseline/Am7-back.png",
+        "screenshots/baseline/Am7-player.png"
+      ]
+    },
+    {
+      "id": "Bm7",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Bm7-front.png",
+        "screenshots/baseline/Bm7-side.png",
+        "screenshots/baseline/Bm7-back.png",
+        "screenshots/baseline/Bm7-player.png"
+      ]
+    },
+    {
+      "id": "Csus2",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Csus2-front.png",
+        "screenshots/baseline/Csus2-side.png",
+        "screenshots/baseline/Csus2-back.png",
+        "screenshots/baseline/Csus2-player.png"
+      ]
+    },
+    {
+      "id": "Dsus2",
+      "outcome": "thumb-support-needs-correction",
+      "note": "พบช่องว่างระหว่างนิ้วโป้งกับหลังคอ ได้แยกซ่อมนิ้วโป้งโดยคงนิ้วกดสายและ root เดิม",
+      "images": [
+        "screenshots/baseline/Dsus2-front.png",
+        "screenshots/baseline/Dsus2-side.png",
+        "screenshots/baseline/Dsus2-back.png",
+        "screenshots/baseline/Dsus2-player.png"
+      ]
+    },
+    {
+      "id": "Asus2",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Asus2-front.png",
+        "screenshots/baseline/Asus2-side.png",
+        "screenshots/baseline/Asus2-back.png",
+        "screenshots/baseline/Asus2-player.png"
+      ]
+    },
+    {
+      "id": "Csus4",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Csus4-front.png",
+        "screenshots/baseline/Csus4-side.png",
+        "screenshots/baseline/Csus4-back.png",
+        "screenshots/baseline/Csus4-player.png"
+      ]
+    },
+    {
+      "id": "Dsus4",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Dsus4-front.png",
+        "screenshots/baseline/Dsus4-side.png",
+        "screenshots/baseline/Dsus4-back.png",
+        "screenshots/baseline/Dsus4-player.png"
+      ]
+    },
+    {
+      "id": "Esus4",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Esus4-front.png",
+        "screenshots/baseline/Esus4-side.png",
+        "screenshots/baseline/Esus4-back.png",
+        "screenshots/baseline/Esus4-player.png"
+      ]
+    },
+    {
+      "id": "Asus4",
+      "outcome": "needs-correction",
+      "note": "ท่าเดิมไม่ผ่านการตรวจการชน/การสัมผัส และยังใช้ฝึกตามไม่ได้",
+      "images": [
+        "screenshots/baseline/Asus4-front.png",
+        "screenshots/baseline/Asus4-side.png",
+        "screenshots/baseline/Asus4-back.png",
+        "screenshots/baseline/Asus4-player.png"
+      ]
+    }
+  ]
+}

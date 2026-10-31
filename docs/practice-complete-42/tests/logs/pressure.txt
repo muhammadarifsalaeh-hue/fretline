@@ -1,0 +1,9 @@
+PASS All 42 legacy string meshes, points, anchors and states remain exactly identical
+PASS Valid pressure maps cover every and only actual finger/barre contact in every canonical chord
+PASS Wrong strings, wrong frets, open/muted keys, missing keys, arrays and null cannot be approved
+PASS Zero, negative, infinite, NaN, booleans and values crossing either wire are rejected
+PASS The runtime refuses invalid pressure data before rebuilding any string mesh
+PASS Staggered A finger pressures change real string tubes without changing frets, fingers or pitch
+PASS A full barre cannot import obsolete duplicate lower-fret pressure keys beneath a higher finger
+PASS Changing pressure within the same chord rebuilds tubes and hiding the hand restores original open paths
+8/8

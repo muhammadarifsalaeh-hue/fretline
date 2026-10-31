@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "checks": 7,
+  "chordsChecked": 42,
+  "allPitchesFromCanonicalData": true,
+  "realBrowserAudioTestSeparate": true,
+  "unitContextIsFixture": true,
+  "rows": [
+    {
+      "name": "All 42 canonical voicings sound only their actual open/fretted strings at the correct pitch",
+      "passed": true
+    },
+    {
+      "name": "Slowing the strum changes timing without changing pitch, order or muted-string exclusion",
+      "passed": true
+    },
+    {
+      "name": "Invalid note spellings and unsupported rates cannot schedule sound",
+      "passed": true
+    },
+    {
+      "name": "One voice per sounding string, bounded level envelope and tempo schedule",
+      "passed": true
+    },
+    {
+      "name": "Stop cancels future strums and a stale ended event cannot stop a replacement chord",
+      "passed": true
+    },
+    {
+      "name": "A pending iPad unlock superseded by stop cannot start stale chord audio",
+      "passed": true
+    },
+    {
+      "name": "Unmount/dispose closes its audio context once and prevents future playback",
+      "passed": true
+    }
+  ]
+}

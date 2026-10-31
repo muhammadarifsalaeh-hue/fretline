@@ -1,0 +1,135 @@
+{
+  "checks": [
+    {
+      "name": "practice-data",
+      "command": [
+        "npm",
+        "run",
+        "practice:check"
+      ],
+      "exitCode": 0,
+      "passed": true,
+      "log": "docs/practice-complete-42/tests/logs/practice-data.txt",
+      "logSHA256": "4a174f3aa73a626ccf8c81cdd567b01bb5e1497c1a2fcf28448ac68bb21afbdd"
+    },
+    {
+      "name": "catalog",
+      "command": [
+        "npm",
+        "run",
+        "catalog:check"
+      ],
+      "exitCode": 0,
+      "passed": true,
+      "log": "docs/practice-complete-42/tests/logs/catalog.txt",
+      "logSHA256": "4a550c8b93d128c84c8b7e7e5e87c62bc7fa3c86ff45710e48cc494df2ea88c0"
+    },
+    {
+      "name": "images",
+      "command": [
+        "npm",
+        "run",
+        "images:check"
+      ],
+      "exitCode": 0,
+      "passed": true,
+      "log": "docs/practice-complete-42/tests/logs/images.txt",
+      "logSHA256": "b2c7cdca2c692fb07386267f7de260550b97c06ed1deacdd1bee582f479ab3b0"
+    },
+    {
+      "name": "audio",
+      "command": [
+        "node",
+        "docs/practice-complete-42/tools/check-audio.mjs"
+      ],
+      "exitCode": 0,
+      "passed": true,
+      "log": "docs/practice-complete-42/tests/logs/audio.txt",
+      "logSHA256": "a6ff5b5d22e55fe8a79089ec532abe96425d6606e984b0f795e1542eb092c1c6"
+    },
+    {
+      "name": "pressure",
+      "command": [
+        "node",
+        "docs/practice-complete-42/tools/check-pressure.mjs"
+      ],
+      "exitCode": 0,
+      "passed": true,
+      "log": "docs/practice-complete-42/tests/logs/pressure.txt",
+      "logSHA256": "4ec587a4c3581e5075e3bec1611d3365e4809b16824c9be0786cfa62e526cee0"
+    },
+    {
+      "name": "pressure-geometry",
+      "command": [
+        "python",
+        "docs/practice-complete-42/tools/check-pressure-geometry.py"
+      ],
+      "exitCode": 0,
+      "passed": true,
+      "log": "docs/practice-complete-42/tests/logs/pressure-geometry.txt",
+      "logSHA256": "05dee75188314281aaaa77d1fcd0e4a7c0790628f5a11612f28a3c5b072b5ce4"
+    },
+    {
+      "name": "selection-negative",
+      "command": [
+        "python",
+        "docs/practice-complete-42/tools/test-selection.py"
+      ],
+      "exitCode": 0,
+      "passed": true,
+      "log": "docs/practice-complete-42/tests/logs/selection-negative.txt",
+      "logSHA256": "7c9c86e92e5ba353902605b67e0b2c0b3b73c27f5595e075abca980085940754"
+    },
+    {
+      "name": "production-build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "passed": true,
+      "exitCode": 0,
+      "log": "docs/practice-complete-42/tests/logs/build.txt",
+      "logSHA256": "9a9f10243561f998210464a19cffb168eaaf4457770a19fff41ad645847e5e40",
+      "existingLargeThreeChunkWarning": true
+    },
+    {
+      "name": "browser-practice",
+      "passed": true,
+      "checks": 39,
+      "report": "docs/practice-complete-42/tests/browser-practice.json",
+      "reportSHA256": "2fb706bcc675fd1e0df0e412b264566106d2d95d15c03595f3d15ddf09a78baa"
+    },
+    {
+      "name": "public-smoke",
+      "passed": true,
+      "checks": 9,
+      "report": "docs/practice-complete-42/tests/public-smoke.json",
+      "reportSHA256": "8e3f1f644ce47e4b0e763004dbf5f5a0175bcf6baff8dba9fd525521a7112c5a"
+    },
+    {
+      "name": "hand-runtime",
+      "command": [
+        "node",
+        "scripts/check-hand-runtime.mjs"
+      ],
+      "exitCode": 0,
+      "passed": true,
+      "log": "docs/practice-complete-42/tests/logs/hand-runtime.txt",
+      "logSHA256": "be4ce83de2dc3ddfa0a101af4bde79c8d523a37b23270e746f09228d5dc78463"
+    },
+    {
+      "name": "preservation",
+      "command": [
+        "node",
+        "docs/practice-complete-42/tools/check-preservation.mjs"
+      ],
+      "exitCode": 0,
+      "passed": true,
+      "log": "docs/practice-complete-42/tests/logs/preservation.txt",
+      "logSHA256": "a9932334683e899372b66b42047c1d177c638c3f2c4b80e62dd5b28541ca0a00"
+    }
+  ],
+  "passed": true,
+  "noLintOrTypecheckScriptDefined": true
+}

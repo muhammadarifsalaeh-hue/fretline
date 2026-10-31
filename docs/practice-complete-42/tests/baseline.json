@@ -1,0 +1,1392 @@
+{
+  "baseCommit": "1f2836b875dc02f667c002093534f592cd1a0141",
+  "branch": "feature/practice-complete-42-poses",
+  "backup": "backup/practice-before-all42-1f2836b",
+  "originalGeometryPassed": [
+    "C",
+    "Dm",
+    "C7",
+    "E7",
+    "G7",
+    "B7",
+    "Cmaj7",
+    "Fmaj7",
+    "Gmaj7",
+    "Dm7",
+    "Em7",
+    "Am7",
+    "Dsus2"
+  ],
+  "originalNeedsWork": [
+    "D",
+    "E",
+    "F",
+    "G",
+    "A",
+    "B",
+    "Cm",
+    "Em",
+    "Fm",
+    "Gm",
+    "Am",
+    "Bm",
+    "D7",
+    "F7",
+    "A7",
+    "Dmaj7",
+    "Emaj7",
+    "Amaj7",
+    "Bmaj7",
+    "Cm7",
+    "Fm7",
+    "Gm7",
+    "Bm7",
+    "Csus2",
+    "Asus2",
+    "Csus4",
+    "Dsus4",
+    "Esus4",
+    "Asus4"
+  ],
+  "independentTeachingApprovals": 0,
+  "chords": [
+    {
+      "id": "C",
+      "voicing": "x32010",
+      "frets": [
+        null,
+        3,
+        2,
+        0,
+        1,
+        0
+      ],
+      "fingers": [
+        null,
+        3,
+        2,
+        null,
+        1,
+        null
+      ],
+      "notes": [
+        null,
+        "C3",
+        "E3",
+        "G3",
+        "C4",
+        "E4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "D",
+      "voicing": "xx0232",
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        3,
+        2
+      ],
+      "fingers": [
+        null,
+        null,
+        null,
+        1,
+        3,
+        2
+      ],
+      "notes": [
+        null,
+        null,
+        "D3",
+        "A3",
+        "D4",
+        "F#4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "E",
+      "voicing": "022100",
+      "frets": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        0
+      ],
+      "fingers": [
+        null,
+        2,
+        3,
+        1,
+        null,
+        null
+      ],
+      "notes": [
+        "E2",
+        "B2",
+        "E3",
+        "G#3",
+        "B3",
+        "E4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "F",
+      "voicing": "133211",
+      "frets": [
+        1,
+        3,
+        3,
+        2,
+        1,
+        1
+      ],
+      "fingers": [
+        1,
+        3,
+        4,
+        2,
+        1,
+        1
+      ],
+      "notes": [
+        "F2",
+        "C3",
+        "F3",
+        "A3",
+        "C4",
+        "F4"
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 1,
+          "fromString": 6,
+          "toString": 1
+        }
+      ]
+    },
+    {
+      "id": "G",
+      "voicing": "320003",
+      "frets": [
+        3,
+        2,
+        0,
+        0,
+        0,
+        3
+      ],
+      "fingers": [
+        2,
+        1,
+        null,
+        null,
+        null,
+        3
+      ],
+      "notes": [
+        "G2",
+        "B2",
+        "D3",
+        "G3",
+        "B3",
+        "G4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "A",
+      "voicing": "x02220",
+      "frets": [
+        null,
+        0,
+        2,
+        2,
+        2,
+        0
+      ],
+      "fingers": [
+        null,
+        null,
+        2,
+        3,
+        4,
+        null
+      ],
+      "notes": [
+        null,
+        "A2",
+        "E3",
+        "A3",
+        "C#4",
+        "E4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "B",
+      "voicing": "x24442",
+      "frets": [
+        null,
+        2,
+        4,
+        4,
+        4,
+        2
+      ],
+      "fingers": [
+        null,
+        1,
+        2,
+        3,
+        4,
+        1
+      ],
+      "notes": [
+        null,
+        "B2",
+        "F#3",
+        "B3",
+        "D#4",
+        "F#4"
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 2,
+          "fromString": 5,
+          "toString": 1
+        }
+      ]
+    },
+    {
+      "id": "Cm",
+      "voicing": "x35543",
+      "frets": [
+        null,
+        3,
+        5,
+        5,
+        4,
+        3
+      ],
+      "fingers": [
+        null,
+        1,
+        3,
+        4,
+        2,
+        1
+      ],
+      "notes": [
+        null,
+        "C3",
+        "G3",
+        "C4",
+        "Eb4",
+        "G4"
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 3,
+          "fromString": 5,
+          "toString": 1
+        }
+      ]
+    },
+    {
+      "id": "Dm",
+      "voicing": "xx0231",
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        3,
+        1
+      ],
+      "fingers": [
+        null,
+        null,
+        null,
+        2,
+        3,
+        1
+      ],
+      "notes": [
+        null,
+        null,
+        "D3",
+        "A3",
+        "D4",
+        "F4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "Em",
+      "voicing": "022000",
+      "frets": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "fingers": [
+        null,
+        2,
+        3,
+        null,
+        null,
+        null
+      ],
+      "notes": [
+        "E2",
+        "B2",
+        "E3",
+        "G3",
+        "B3",
+        "E4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "Fm",
+      "voicing": "133111",
+      "frets": [
+        1,
+        3,
+        3,
+        1,
+        1,
+        1
+      ],
+      "fingers": [
+        1,
+        3,
+        4,
+        1,
+        1,
+        1
+      ],
+      "notes": [
+        "F2",
+        "C3",
+        "F3",
+        "Ab3",
+        "C4",
+        "F4"
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 1,
+          "fromString": 6,
+          "toString": 1
+        }
+      ]
+    },
+    {
+      "id": "Gm",
+      "voicing": "355333",
+      "frets": [
+        3,
+        5,
+        5,
+        3,
+        3,
+        3
+      ],
+      "fingers": [
+        1,
+        3,
+        4,
+        1,
+        1,
+        1
+      ],
+      "notes": [
+        "G2",
+        "D3",
+        "G3",
+        "Bb3",
+        "D4",
+        "G4"
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 3,
+          "fromString": 6,
+          "toString": 1
+        }
+      ]
+    },
+    {
+      "id": "Am",
+      "voicing": "x02210",
+      "frets": [
+        null,
+        0,
+        2,
+        2,
+        1,
+        0
+      ],
+      "fingers": [
+        null,
+        null,
+        2,
+        3,
+        1,
+        null
+      ],
+      "notes": [
+        null,
+        "A2",
+        "E3",
+        "A3",
+        "C4",
+        "E4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "Bm",
+      "voicing": "x24432",
+      "frets": [
+        null,
+        2,
+        4,
+        4,
+        3,
+        2
+      ],
+      "fingers": [
+        null,
+        1,
+        3,
+        4,
+        2,
+        1
+      ],
+      "notes": [
+        null,
+        "B2",
+        "F#3",
+        "B3",
+        "D4",
+        "F#4"
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 2,
+          "fromString": 5,
+          "toString": 1
+        }
+      ]
+    },
+    {
+      "id": "C7",
+      "voicing": "x32310",
+      "frets": [
+        null,
+        3,
+        2,
+        3,
+        1,
+        0
+      ],
+      "fingers": [
+        null,
+        3,
+        2,
+        4,
+        1,
+        null
+      ],
+      "notes": [
+        null,
+        "C3",
+        "E3",
+        "Bb3",
+        "C4",
+        "E4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "D7",
+      "voicing": "xx0212",
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        1,
+        2
+      ],
+      "fingers": [
+        null,
+        null,
+        null,
+        2,
+        1,
+        3
+      ],
+      "notes": [
+        null,
+        null,
+        "D3",
+        "A3",
+        "C4",
+        "F#4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "E7",
+      "voicing": "020100",
+      "frets": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "fingers": [
+        null,
+        2,
+        null,
+        1,
+        null,
+        null
+      ],
+      "notes": [
+        "E2",
+        "B2",
+        "D3",
+        "G#3",
+        "B3",
+        "E4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "F7",
+      "voicing": "131211",
+      "frets": [
+        1,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "fingers": [
+        1,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "notes": [
+        "F2",
+        "C3",
+        "Eb3",
+        "A3",
+        "C4",
+        "F4"
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 1,
+          "fromString": 6,
+          "toString": 1
+        }
+      ]
+    },
+    {
+      "id": "G7",
+      "voicing": "320001",
+      "frets": [
+        3,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      "fingers": [
+        3,
+        2,
+        null,
+        null,
+        null,
+        1
+      ],
+      "notes": [
+        "G2",
+        "B2",
+        "D3",
+        "G3",
+        "B3",
+        "F4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "A7",
+      "voicing": "x02020",
+      "frets": [
+        null,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      "fingers": [
+        null,
+        null,
+        2,
+        null,
+        3,
+        null
+      ],
+      "notes": [
+        null,
+        "A2",
+        "E3",
+        "G3",
+        "C#4",
+        "E4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "B7",
+      "voicing": "x21202",
+      "frets": [
+        null,
+        2,
+        1,
+        2,
+        0,
+        2
+      ],
+      "fingers": [
+        null,
+        2,
+        1,
+        3,
+        null,
+        4
+      ],
+      "notes": [
+        null,
+        "B2",
+        "D#3",
+        "A3",
+        "B3",
+        "F#4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "Cmaj7",
+      "voicing": "x32000",
+      "frets": [
+        null,
+        3,
+        2,
+        0,
+        0,
+        0
+      ],
+      "fingers": [
+        null,
+        3,
+        2,
+        null,
+        null,
+        null
+      ],
+      "notes": [
+        null,
+        "C3",
+        "E3",
+        "G3",
+        "B3",
+        "E4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "Dmaj7",
+      "voicing": "xx0222",
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        2,
+        2
+      ],
+      "fingers": [
+        null,
+        null,
+        null,
+        1,
+        1,
+        1
+      ],
+      "notes": [
+        null,
+        null,
+        "D3",
+        "A3",
+        "C#4",
+        "F#4"
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 2,
+          "fromString": 3,
+          "toString": 1
+        }
+      ]
+    },
+    {
+      "id": "Emaj7",
+      "voicing": "021100",
+      "frets": [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "fingers": [
+        null,
+        3,
+        1,
+        2,
+        null,
+        null
+      ],
+      "notes": [
+        "E2",
+        "B2",
+        "D#3",
+        "G#3",
+        "B3",
+        "E4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "Fmaj7",
+      "voicing": "xx3210",
+      "frets": [
+        null,
+        null,
+        3,
+        2,
+        1,
+        0
+      ],
+      "fingers": [
+        null,
+        null,
+        3,
+        2,
+        1,
+        null
+      ],
+      "notes": [
+        null,
+        null,
+        "F3",
+        "A3",
+        "C4",
+        "E4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "Gmaj7",
+      "voicing": "320002",
+      "frets": [
+        3,
+        2,
+        0,
+        0,
+        0,
+        2
+      ],
+      "fingers": [
+        3,
+        2,
+        null,
+        null,
+        null,
+        1
+      ],
+      "notes": [
+        "G2",
+        "B2",
+        "D3",
+        "G3",
+        "B3",
+        "F#4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "Amaj7",
+      "voicing": "x02120",
+      "frets": [
+        null,
+        0,
+        2,
+        1,
+        2,
+        0
+      ],
+      "fingers": [
+        null,
+        null,
+        2,
+        1,
+        3,
+        null
+      ],
+      "notes": [
+        null,
+        "A2",
+        "E3",
+        "G#3",
+        "C#4",
+        "E4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "Bmaj7",
+      "voicing": "x24342",
+      "frets": [
+        null,
+        2,
+        4,
+        3,
+        4,
+        2
+      ],
+      "fingers": [
+        null,
+        1,
+        3,
+        2,
+        4,
+        1
+      ],
+      "notes": [
+        null,
+        "B2",
+        "F#3",
+        "A#3",
+        "D#4",
+        "F#4"
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 2,
+          "fromString": 5,
+          "toString": 1
+        }
+      ]
+    },
+    {
+      "id": "Cm7",
+      "voicing": "x35343",
+      "frets": [
+        null,
+        3,
+        5,
+        3,
+        4,
+        3
+      ],
+      "fingers": [
+        null,
+        1,
+        3,
+        1,
+        2,
+        1
+      ],
+      "notes": [
+        null,
+        "C3",
+        "G3",
+        "Bb3",
+        "Eb4",
+        "G4"
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 3,
+          "fromString": 5,
+          "toString": 1
+        }
+      ]
+    },
+    {
+      "id": "Dm7",
+      "voicing": "xx0211",
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        1,
+        1
+      ],
+      "fingers": [
+        null,
+        null,
+        null,
+        2,
+        1,
+        1
+      ],
+      "notes": [
+        null,
+        null,
+        "D3",
+        "A3",
+        "C4",
+        "F4"
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 1,
+          "fromString": 2,
+          "toString": 1
+        }
+      ]
+    },
+    {
+      "id": "Em7",
+      "voicing": "020000",
+      "frets": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fingers": [
+        null,
+        2,
+        null,
+        null,
+        null,
+        null
+      ],
+      "notes": [
+        "E2",
+        "B2",
+        "D3",
+        "G3",
+        "B3",
+        "E4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "Fm7",
+      "voicing": "131111",
+      "frets": [
+        1,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "fingers": [
+        1,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "notes": [
+        "F2",
+        "C3",
+        "Eb3",
+        "Ab3",
+        "C4",
+        "F4"
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 1,
+          "fromString": 6,
+          "toString": 1
+        }
+      ]
+    },
+    {
+      "id": "Gm7",
+      "voicing": "353333",
+      "frets": [
+        3,
+        5,
+        3,
+        3,
+        3,
+        3
+      ],
+      "fingers": [
+        1,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "notes": [
+        "G2",
+        "D3",
+        "F3",
+        "Bb3",
+        "D4",
+        "G4"
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 3,
+          "fromString": 6,
+          "toString": 1
+        }
+      ]
+    },
+    {
+      "id": "Am7",
+      "voicing": "x02010",
+      "frets": [
+        null,
+        0,
+        2,
+        0,
+        1,
+        0
+      ],
+      "fingers": [
+        null,
+        null,
+        2,
+        null,
+        1,
+        null
+      ],
+      "notes": [
+        null,
+        "A2",
+        "E3",
+        "G3",
+        "C4",
+        "E4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "Bm7",
+      "voicing": "x24232",
+      "frets": [
+        null,
+        2,
+        4,
+        2,
+        3,
+        2
+      ],
+      "fingers": [
+        null,
+        1,
+        3,
+        1,
+        2,
+        1
+      ],
+      "notes": [
+        null,
+        "B2",
+        "F#3",
+        "A3",
+        "D4",
+        "F#4"
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 2,
+          "fromString": 5,
+          "toString": 1
+        }
+      ]
+    },
+    {
+      "id": "Csus2",
+      "voicing": "x35533",
+      "frets": [
+        null,
+        3,
+        5,
+        5,
+        3,
+        3
+      ],
+      "fingers": [
+        null,
+        1,
+        3,
+        4,
+        1,
+        1
+      ],
+      "notes": [
+        null,
+        "C3",
+        "G3",
+        "C4",
+        "D4",
+        "G4"
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 3,
+          "fromString": 5,
+          "toString": 1
+        }
+      ]
+    },
+    {
+      "id": "Dsus2",
+      "voicing": "xx0230",
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        3,
+        0
+      ],
+      "fingers": [
+        null,
+        null,
+        null,
+        1,
+        3,
+        null
+      ],
+      "notes": [
+        null,
+        null,
+        "D3",
+        "A3",
+        "D4",
+        "E4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "Asus2",
+      "voicing": "x02200",
+      "frets": [
+        null,
+        0,
+        2,
+        2,
+        0,
+        0
+      ],
+      "fingers": [
+        null,
+        null,
+        2,
+        3,
+        null,
+        null
+      ],
+      "notes": [
+        null,
+        "A2",
+        "E3",
+        "A3",
+        "B3",
+        "E4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "Csus4",
+      "voicing": "x33011",
+      "frets": [
+        null,
+        3,
+        3,
+        0,
+        1,
+        1
+      ],
+      "fingers": [
+        null,
+        3,
+        4,
+        null,
+        1,
+        1
+      ],
+      "notes": [
+        null,
+        "C3",
+        "F3",
+        "G3",
+        "C4",
+        "F4"
+      ],
+      "barres": [
+        {
+          "finger": 1,
+          "fret": 1,
+          "fromString": 2,
+          "toString": 1
+        }
+      ]
+    },
+    {
+      "id": "Dsus4",
+      "voicing": "xx0233",
+      "frets": [
+        null,
+        null,
+        0,
+        2,
+        3,
+        3
+      ],
+      "fingers": [
+        null,
+        null,
+        null,
+        1,
+        3,
+        4
+      ],
+      "notes": [
+        null,
+        null,
+        "D3",
+        "A3",
+        "D4",
+        "G4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "Esus4",
+      "voicing": "022200",
+      "frets": [
+        0,
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "fingers": [
+        null,
+        2,
+        3,
+        4,
+        null,
+        null
+      ],
+      "notes": [
+        "E2",
+        "B2",
+        "E3",
+        "A3",
+        "B3",
+        "E4"
+      ],
+      "barres": []
+    },
+    {
+      "id": "Asus4",
+      "voicing": "x02230",
+      "frets": [
+        null,
+        0,
+        2,
+        2,
+        3,
+        0
+      ],
+      "fingers": [
+        null,
+        null,
+        2,
+        3,
+        4,
+        null
+      ],
+      "notes": [
+        null,
+        "A2",
+        "E3",
+        "A3",
+        "D4",
+        "E4"
+      ],
+      "barres": []
+    }
+  ],
+  "protectedSHA256": {
+    "src/features/practice/assets/makehuman-left-arm-sleeved.glb": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+    "src/features/practice/assets/hand-poses.json": "add2baeb95d5cf50f52ac82f568a95415958a38a91d72404ddc73874848f7b95",
+    "src/features/practice/data/chords.js": "622250c559fde01633e629f7c514a5c1fbdc7d3d35bdc078079a6ece5bbfc796",
+    "src/features/practice/scene/studyGuitar.js": "d0b5041bc04d893c7b0abd6b68c0ed50ec701e0f5ee991df1372c2cf4fa2ed79",
+    "src/features/practice/scene/frettedStrings.js": "7243d9e23dff201dc3496a5034135ea50b88a07bb15f978df7f540d67022930a",
+    "src/features/practice/scene/handPoseEngine.js": "fe6bf764235d8a09fdbe612c171433aa291b2b91a6211afb28d7284fbc1c11d6"
+  }
+}

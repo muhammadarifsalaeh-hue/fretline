@@ -1,0 +1,2822 @@
+{
+  "reviewedAtUTC": "2026-10-31T14:37:32Z",
+  "scope": "Assistant technical visual inspection of actual rendered original GLB from four camera views, combined with independent exact mesh/contact/support checks; not independent instructor/anatomy certification.",
+  "count": 42,
+  "technicalVisualPassed": 36,
+  "rows": [
+    {
+      "id": "C",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "4b2fc1d1c87493c183e54137483199341721c030f04441dba4c428f7328336a5",
+      "views": [
+        {
+          "id": "C",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/C-front.png",
+          "imageSHA256": "4145bf91989314edf2ccc65cd02606ec0530007ea988dd706eedfa6e3695971d",
+          "actual": {
+            "signature": "1ce0a568",
+            "triangles": 29592,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "4b2fc1d1c87493c183e54137483199341721c030f04441dba4c428f7328336a5",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "C",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/C-side.png",
+          "imageSHA256": "9fb8b925faef7d1fd27d0e4345b4bbbf4eed91ca6f5cc1e866f96b87d73e61df",
+          "actual": {
+            "signature": "1ce0a568",
+            "triangles": 27714,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "4b2fc1d1c87493c183e54137483199341721c030f04441dba4c428f7328336a5",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "C",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/C-back.png",
+          "imageSHA256": "ca38aa1252c7dbb6c7e71c9fb812f1895337420c438eeaf8aa6f3fcdef21fd47",
+          "actual": {
+            "signature": "1ce0a568",
+            "triangles": 29096,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "4b2fc1d1c87493c183e54137483199341721c030f04441dba4c428f7328336a5",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "C",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/C-player.png",
+          "imageSHA256": "0604ae0049bc5bea1c08bc3846dc179d13769abeee4f9e6c8a3bb7468387ae05",
+          "actual": {
+            "signature": "1ce0a568",
+            "triangles": 30488,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "4b2fc1d1c87493c183e54137483199341721c030f04441dba4c428f7328336a5",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ภาพด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่นสอดคล้องกับผังคอร์ดและไม่พบรูปทรงผิดปกติเด่นชัด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "D",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "9e04ad88f7fbb729313777da47be388508ac8d92aedcbade6b9db452555de953",
+      "views": [
+        {
+          "id": "D",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/D-front.png",
+          "imageSHA256": "6617d9952824409cef7eab2c09ce33dcdf021a5a1b216b7046b6fe66cecb0557",
+          "actual": {
+            "signature": "93ab4ead",
+            "triangles": 29376,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "9e04ad88f7fbb729313777da47be388508ac8d92aedcbade6b9db452555de953",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "D",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/D-side.png",
+          "imageSHA256": "ffefef7766b2b3451cfe65d546920730dc9de687b5d96077a524c454b95c7374",
+          "actual": {
+            "signature": "93ab4ead",
+            "triangles": 27526,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "9e04ad88f7fbb729313777da47be388508ac8d92aedcbade6b9db452555de953",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "D",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/D-back.png",
+          "imageSHA256": "f00a65157d1a9277767683a2fd882ae6f56e07480528348bacdc73341797b4f8",
+          "actual": {
+            "signature": "93ab4ead",
+            "triangles": 29096,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "9e04ad88f7fbb729313777da47be388508ac8d92aedcbade6b9db452555de953",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "D",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/D-player.png",
+          "imageSHA256": "e0bdf0c817bd388aba7961ffc761b96100c204f76e4d3c9ff73462b6118b09b4",
+          "actual": {
+            "signature": "93ab4ead",
+            "triangles": 30272,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "9e04ad88f7fbb729313777da47be388508ac8d92aedcbade6b9db452555de953",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ภาพด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่นสอดคล้องกับผังคอร์ดและไม่พบรูปทรงผิดปกติเด่นชัด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "E",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "029bffbd6a4120b270f0e57c89002187634256717af302c847ef60f76ff86a83",
+      "views": [
+        {
+          "id": "E",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/E-front.png",
+          "imageSHA256": "9f72e5eea7589bdd9505acc9e9d28b4c19f9e9c6f6214d944953788b57130f80",
+          "actual": {
+            "signature": "e1d2098e",
+            "triangles": 30230,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "029bffbd6a4120b270f0e57c89002187634256717af302c847ef60f76ff86a83",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "E",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/E-side.png",
+          "imageSHA256": "e49f9acb6b3a2630c7f15ba21f18b36bb7ae165ef7da8b83f97e4a8184fff11f",
+          "actual": {
+            "signature": "e1d2098e",
+            "triangles": 29434,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "029bffbd6a4120b270f0e57c89002187634256717af302c847ef60f76ff86a83",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "E",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/E-back.png",
+          "imageSHA256": "cff15ab0257c64b5ecf498f21d202f7bbdb2a9d08f1cc0223c7ae3c46da192ff",
+          "actual": {
+            "signature": "e1d2098e",
+            "triangles": 30446,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "029bffbd6a4120b270f0e57c89002187634256717af302c847ef60f76ff86a83",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "E",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/E-player.png",
+          "imageSHA256": "d076ee19724b44a406999eee6293b1fb78df657718f95b892c0acf372774fcc9",
+          "actual": {
+            "signature": "e1d2098e",
+            "triangles": 30446,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "029bffbd6a4120b270f0e57c89002187634256717af302c847ef60f76ff86a83",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ภาพด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่นสอดคล้องกับผังคอร์ดและไม่พบรูปทรงผิดปกติเด่นชัด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "F",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "0e809e97236e7bb81ab7a5e4f64bb17c2a974a675c38f85ea40970a11758ada1",
+      "views": [
+        {
+          "id": "F",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/F-front.png",
+          "imageSHA256": "d2d35673528cb3749eebac4448ebeff3411b7a21699db4aae902763ecc072f24",
+          "actual": {
+            "signature": "d724aed5",
+            "triangles": 29424,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "0e809e97236e7bb81ab7a5e4f64bb17c2a974a675c38f85ea40970a11758ada1",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "F",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/F-side.png",
+          "imageSHA256": "5381ce1d79d1b3517ebd542f2ec9ce1bf98248e8330f738fdb40de6f30848f34",
+          "actual": {
+            "signature": "d724aed5",
+            "triangles": 28428,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "0e809e97236e7bb81ab7a5e4f64bb17c2a974a675c38f85ea40970a11758ada1",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "F",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/F-back.png",
+          "imageSHA256": "3b5a46dbca8aa1b550421afff44ea4d71f6b903bbedd017f07a3cf6bf896ddfa",
+          "actual": {
+            "signature": "d724aed5",
+            "triangles": 29144,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "0e809e97236e7bb81ab7a5e4f64bb17c2a974a675c38f85ea40970a11758ada1",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "F",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/F-player.png",
+          "imageSHA256": "18a2cc24c554c0cc008df590c323eaaf392e6d96a8a96803ddcef8a4cd61dab5",
+          "actual": {
+            "signature": "d724aed5",
+            "triangles": 30736,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "0e809e97236e7bb81ab7a5e4f64bb17c2a974a675c38f85ea40970a11758ada1",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจนิ้วชี้ทาบทั้งหกสาย นิ้วกลาง/นาง/ก้อยแยกตามเฟรต และนิ้วโป้งอยู่หลังคอจากภาพเต็มทั้งสี่มุม",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "G",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "4ff3331056ec8cb1b554f21d0deb3789c957a9544eabfe7be8c710e6d23afee2",
+      "views": [
+        {
+          "id": "G",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/G-front.png",
+          "imageSHA256": "c6ba0bdfd0bd9cc20cf306dd4eef54766b0f05e3fe1523d083ab4735a8d5dc58",
+          "actual": {
+            "signature": "597a605e",
+            "triangles": 30472,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "4ff3331056ec8cb1b554f21d0deb3789c957a9544eabfe7be8c710e6d23afee2",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "G",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/G-side.png",
+          "imageSHA256": "e2692d6d0d34a5fbabd349aa1332ce408a4064d1480a21a232d21578d9ff5d8e",
+          "actual": {
+            "signature": "597a605e",
+            "triangles": 29054,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "4ff3331056ec8cb1b554f21d0deb3789c957a9544eabfe7be8c710e6d23afee2",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "G",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/G-back.png",
+          "imageSHA256": "4567a147fa50c33160d3693a16be71da56ffb48f3f9c20528ea23eaa2389b85b",
+          "actual": {
+            "signature": "597a605e",
+            "triangles": 30688,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "4ff3331056ec8cb1b554f21d0deb3789c957a9544eabfe7be8c710e6d23afee2",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "G",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/G-player.png",
+          "imageSHA256": "a8626aeace24a927621ab72b6889a0497d5541400b170bba2146b21795d80642",
+          "actual": {
+            "signature": "597a605e",
+            "triangles": 30688,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "4ff3331056ec8cb1b554f21d0deb3789c957a9544eabfe7be8c710e6d23afee2",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจภาพเรนเดอร์ GLB จริงครบด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่น เทียบตำแหน่งนิ้วกับผังคอร์ดและผลตรวจเมชแล้ว ผ่านการตรวจภาพเชิงเทคนิค ยังไม่ใช่การรับรองจากผู้สอนกีตาร์อิสระ",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "A",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "0da0505381d5402315f5416cde207e98b9204fa444deb59510cac4dcaf21db49",
+      "views": [
+        {
+          "id": "A",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/A-front.png",
+          "imageSHA256": "2ec1410d7fe38df52e5ed3dbd2b01f3bfb5793b45a0f4b006a59decf1b78d211",
+          "actual": {
+            "signature": "0a234b4d",
+            "triangles": 30242,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "0da0505381d5402315f5416cde207e98b9204fa444deb59510cac4dcaf21db49",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "A",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/A-side.png",
+          "imageSHA256": "37aa4c0430766858da38da75cf5c9b57c15a501fd52984ebb5655927d54698de",
+          "actual": {
+            "signature": "0a234b4d",
+            "triangles": 29446,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "0da0505381d5402315f5416cde207e98b9204fa444deb59510cac4dcaf21db49",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "A",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/A-back.png",
+          "imageSHA256": "db3f6d8ad25f67635fb2cd4e5aa73635dac07ca899185619f55233ebe85e22ab",
+          "actual": {
+            "signature": "0a234b4d",
+            "triangles": 30458,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "0da0505381d5402315f5416cde207e98b9204fa444deb59510cac4dcaf21db49",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "A",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/A-player.png",
+          "imageSHA256": "72070b1ea914376476454cd2381f5e4fcc718013b61fee85df7bbcd8418fadbe",
+          "actual": {
+            "signature": "0a234b4d",
+            "triangles": 30074,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "0da0505381d5402315f5416cde207e98b9204fa444deb59510cac4dcaf21db49",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจภาพเรนเดอร์ GLB จริงครบด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่น เทียบตำแหน่งนิ้วกับผังคอร์ดและผลตรวจเมชแล้ว ผ่านการตรวจภาพเชิงเทคนิค ยังไม่ใช่การรับรองจากผู้สอนกีตาร์อิสระ",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "B",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "9f42ad99002481b94f45ac56d94d35bd4235077ba27df1e9b0dfd354a806fe8e",
+      "views": [
+        {
+          "id": "B",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/B-front.png",
+          "imageSHA256": "6701be01da9ff62a37a506b3000a18511c445b2ce204131f769843f09b4558fc",
+          "actual": {
+            "signature": "53c9b776",
+            "triangles": 28048,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "9f42ad99002481b94f45ac56d94d35bd4235077ba27df1e9b0dfd354a806fe8e",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "B",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/B-side.png",
+          "imageSHA256": "d44193c4ccec012449ada3ec631fdae4fa8445a2d38b47ce63464a2366ded1a4",
+          "actual": {
+            "signature": "53c9b776",
+            "triangles": 27144,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "9f42ad99002481b94f45ac56d94d35bd4235077ba27df1e9b0dfd354a806fe8e",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "B",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/B-back.png",
+          "imageSHA256": "e60a66d7aba00095a1cce137ca108e30d99528e6233ad0d6da01a26f918fbd47",
+          "actual": {
+            "signature": "53c9b776",
+            "triangles": 29376,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "9f42ad99002481b94f45ac56d94d35bd4235077ba27df1e9b0dfd354a806fe8e",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "B",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/B-player.png",
+          "imageSHA256": "569e71af13faf784d58c33f8f8b09854ea875e89b15806abf25f326d1cd73906",
+          "actual": {
+            "signature": "53c9b776",
+            "triangles": 30800,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "9f42ad99002481b94f45ac56d94d35bd4235077ba27df1e9b0dfd354a806fe8e",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจภาพเรนเดอร์ GLB จริงครบด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่น เทียบตำแหน่งนิ้วกับผังคอร์ดและผลตรวจเมชแล้ว ผ่านการตรวจภาพเชิงเทคนิค ยังไม่ใช่การรับรองจากผู้สอนกีตาร์อิสระ",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Cm",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "6f7bbff7468ebe8f849c5ea25033f39e621d9b226f190f245bdd9bffc4fe9ad8",
+      "views": [
+        {
+          "id": "Cm",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Cm-front.png",
+          "imageSHA256": "3bae4f0785917f0b86b06a2ba91e27bde78e51397f9ec2eaa7d1e2d49df35237",
+          "actual": {
+            "signature": "1129b36e",
+            "triangles": 26674,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "6f7bbff7468ebe8f849c5ea25033f39e621d9b226f190f245bdd9bffc4fe9ad8",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Cm",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Cm-side.png",
+          "imageSHA256": "701a7178d106344bde4f275dbcf91ac800272b3553135d72149e6383c088d7d4",
+          "actual": {
+            "signature": "1129b36e",
+            "triangles": 26610,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "6f7bbff7468ebe8f849c5ea25033f39e621d9b226f190f245bdd9bffc4fe9ad8",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Cm",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Cm-back.png",
+          "imageSHA256": "300ac486b5bc5cc5e8f8f12ab0bb5bf61e624aee855a3c709944f6ed7666af8e",
+          "actual": {
+            "signature": "1129b36e",
+            "triangles": 27986,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "6f7bbff7468ebe8f849c5ea25033f39e621d9b226f190f245bdd9bffc4fe9ad8",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Cm",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Cm-player.png",
+          "imageSHA256": "e44f0467177af2061fe53ca19f1e1a6153a5254c8385a31194a46ae457e42a06",
+          "actual": {
+            "signature": "1129b36e",
+            "triangles": 29326,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "6f7bbff7468ebe8f849c5ea25033f39e621d9b226f190f245bdd9bffc4fe9ad8",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจภาพเรนเดอร์ GLB จริงครบด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่น เทียบตำแหน่งนิ้วกับผังคอร์ดและผลตรวจเมชแล้ว ผ่านการตรวจภาพเชิงเทคนิค ยังไม่ใช่การรับรองจากผู้สอนกีตาร์อิสระ",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Dm",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "83c03adee531968db4d03d49e2ea043b1007605db160db596ea3ab30f4010bf9",
+      "views": [
+        {
+          "id": "Dm",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Dm-front.png",
+          "imageSHA256": "6a4ebf9e904e7e662e513482325c34f564e0af477d5e37cf78509194bd7aeb49",
+          "actual": {
+            "signature": "f8923c92",
+            "triangles": 29592,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "83c03adee531968db4d03d49e2ea043b1007605db160db596ea3ab30f4010bf9",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Dm",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Dm-side.png",
+          "imageSHA256": "8783dc16094de09fd948cf274e897d6a6e510b280abb7ad985076db194566c8f",
+          "actual": {
+            "signature": "f8923c92",
+            "triangles": 27526,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "83c03adee531968db4d03d49e2ea043b1007605db160db596ea3ab30f4010bf9",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Dm",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Dm-back.png",
+          "imageSHA256": "0c7090880cffc4e9f339c8cba048110b3d4515df56439db363ea47934eca7b63",
+          "actual": {
+            "signature": "f8923c92",
+            "triangles": 29096,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "83c03adee531968db4d03d49e2ea043b1007605db160db596ea3ab30f4010bf9",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Dm",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Dm-player.png",
+          "imageSHA256": "d4316a530f70f2846e3faf6a4ca0a05ac1daf8d9f107cdf76ab73136761f3ccf",
+          "actual": {
+            "signature": "f8923c92",
+            "triangles": 30272,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "83c03adee531968db4d03d49e2ea043b1007605db160db596ea3ab30f4010bf9",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ภาพด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่นสอดคล้องกับผังคอร์ดและไม่พบรูปทรงผิดปกติเด่นชัด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Em",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "bd8885f46237528b7553249ecdaf78d47ec080fa3188b3483a32765ad1d3c174",
+      "views": [
+        {
+          "id": "Em",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Em-front.png",
+          "imageSHA256": "be7019b38ca281d0566e51423badb7ddec15e12c9856ae78fd0bae6f472a3365",
+          "actual": {
+            "signature": "0e640334",
+            "triangles": 30218,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "bd8885f46237528b7553249ecdaf78d47ec080fa3188b3483a32765ad1d3c174",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Em",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Em-side.png",
+          "imageSHA256": "054dc376ec921af7a9015437ef6cb924b6fbd55e2dd29c1b8d47086466cae267",
+          "actual": {
+            "signature": "0e640334",
+            "triangles": 29422,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "bd8885f46237528b7553249ecdaf78d47ec080fa3188b3483a32765ad1d3c174",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Em",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Em-back.png",
+          "imageSHA256": "ff0f230dbd2b30d7203d474082bdda5d85664e1f4bb81e7ce90572b9a8b2ec76",
+          "actual": {
+            "signature": "0e640334",
+            "triangles": 30434,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "bd8885f46237528b7553249ecdaf78d47ec080fa3188b3483a32765ad1d3c174",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Em",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Em-player.png",
+          "imageSHA256": "380e613a8ccb4bed2828cfe50d24748296bfcc1d34bebd12d039ed7c777f8f54",
+          "actual": {
+            "signature": "0e640334",
+            "triangles": 30434,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "bd8885f46237528b7553249ecdaf78d47ec080fa3188b3483a32765ad1d3c174",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ภาพด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่นสอดคล้องกับผังคอร์ดและไม่พบรูปทรงผิดปกติเด่นชัด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Fm",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "607d5c57e2100e73a8bf3b2576bbd8e69af9f3b9bde346a3c95d02937920b566",
+      "views": [
+        {
+          "id": "Fm",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Fm-front.png",
+          "imageSHA256": "6968a454c7409106c22b6e0780fe14628828d6591a371ee5f51f65cd683af632",
+          "actual": {
+            "signature": "c10db972",
+            "triangles": 29730,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "607d5c57e2100e73a8bf3b2576bbd8e69af9f3b9bde346a3c95d02937920b566",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Fm",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Fm-side.png",
+          "imageSHA256": "efeb6d7a0a4544d0ea7b220a05fe68e0b12695a8da97e25ebe02993d86e68ab9",
+          "actual": {
+            "signature": "c10db972",
+            "triangles": 29106,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "607d5c57e2100e73a8bf3b2576bbd8e69af9f3b9bde346a3c95d02937920b566",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Fm",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Fm-back.png",
+          "imageSHA256": "c6860e2ae3efbbc5eb90da66366190e3b47c0cbfc4d67f6d5f7458542cd0e16c",
+          "actual": {
+            "signature": "c10db972",
+            "triangles": 30556,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "607d5c57e2100e73a8bf3b2576bbd8e69af9f3b9bde346a3c95d02937920b566",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Fm",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Fm-player.png",
+          "imageSHA256": "8a075e09253beedb19d08358c80e1407686084386f3a529646fd99aa16eedf96",
+          "actual": {
+            "signature": "c10db972",
+            "triangles": 30724,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "607d5c57e2100e73a8bf3b2576bbd8e69af9f3b9bde346a3c95d02937920b566",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจภาพเต็มสี่มุม: นิ้วชี้ทาบเฟรต 1 นิ้วนาง/ก้อยกดเฟรต 3 นิ้วกลางไม่กดสาย และนิ้วโป้งรองหลังคอ รูปทรงมือไม่บิดหรือทะลุคอ",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Gm",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "20b63709fb44bc9150048ff28795d99c502ec1aaba5009db360e855d3d12f1e5",
+      "views": [
+        {
+          "id": "Gm",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Gm-front.png",
+          "imageSHA256": "ac3cee9b696c32b326bd5ab938446b9a4e09ca06f7db81b0e75d4a9836f31353",
+          "actual": {
+            "signature": "6dd9e36b",
+            "triangles": 26878,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "20b63709fb44bc9150048ff28795d99c502ec1aaba5009db360e855d3d12f1e5",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Gm",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Gm-side.png",
+          "imageSHA256": "0291b83ee0dcbe28afa0ca7e4f4dff7780ab14ad1f8583ad2a5b20a5a419b833",
+          "actual": {
+            "signature": "6dd9e36b",
+            "triangles": 26582,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "20b63709fb44bc9150048ff28795d99c502ec1aaba5009db360e855d3d12f1e5",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Gm",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Gm-back.png",
+          "imageSHA256": "05ca4e23f1c2bc184b8b93bf6e2159da93a0d4c3b80189f0feaa546dd33d7bac",
+          "actual": {
+            "signature": "6dd9e36b",
+            "triangles": 28190,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "20b63709fb44bc9150048ff28795d99c502ec1aaba5009db360e855d3d12f1e5",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Gm",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Gm-player.png",
+          "imageSHA256": "8d33d404f280feaceefcf66d31469f3709c9496cda0653f546f7f3c149c84cab",
+          "actual": {
+            "signature": "6dd9e36b",
+            "triangles": 29622,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "20b63709fb44bc9150048ff28795d99c502ec1aaba5009db360e855d3d12f1e5",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจนิ้วชี้ทาบเฟรต 3 นิ้วนาง/ก้อยเฟรต 5 นิ้วกลางไม่กดสาย และนิ้วโป้งรองหลังคอจากภาพเต็มสี่มุม",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Am",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "33a5ee1c1bf1279e4c0614cff69f68583d80c0d473257f8cc684eac99af98991",
+      "views": [
+        {
+          "id": "Am",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Am-front.png",
+          "imageSHA256": "fbe1e08aa389e4c2431a591a8ffb551250bbd5dab7ca41f2fbce135500ea0be5",
+          "actual": {
+            "signature": "9bdd0120",
+            "triangles": 30026,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "33a5ee1c1bf1279e4c0614cff69f68583d80c0d473257f8cc684eac99af98991",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Am",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Am-side.png",
+          "imageSHA256": "c03489a313fbe798371cca9c1d24a231beb35c4d42f84e384a34162e2c1b897f",
+          "actual": {
+            "signature": "9bdd0120",
+            "triangles": 29526,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "33a5ee1c1bf1279e4c0614cff69f68583d80c0d473257f8cc684eac99af98991",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Am",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Am-back.png",
+          "imageSHA256": "ff388c5cb0e788d1069c2dafbf801353a9732d4b208a0e90f5633e44821c1d98",
+          "actual": {
+            "signature": "9bdd0120",
+            "triangles": 30458,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "33a5ee1c1bf1279e4c0614cff69f68583d80c0d473257f8cc684eac99af98991",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Am",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Am-player.png",
+          "imageSHA256": "bec71ba2fa643a9e744812b3275baac402be7da110c5e1ffd012697a5a1ad028",
+          "actual": {
+            "signature": "9bdd0120",
+            "triangles": 30242,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "33a5ee1c1bf1279e4c0614cff69f68583d80c0d473257f8cc684eac99af98991",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ภาพด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่นสอดคล้องกับผังคอร์ดและไม่พบรูปทรงผิดปกติเด่นชัด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Bm",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "0b7011a28d5e2fc090b0eabb64633f01a20c1cb5b201068083cb659dfaac1698",
+      "views": [
+        {
+          "id": "Bm",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Bm-front.png",
+          "imageSHA256": "306f5b4fa27e7b469e220e6bf62f556ec04fffc924be9917106bf9f2a56a003e",
+          "actual": {
+            "signature": "80b39dc7",
+            "triangles": 28228,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "0b7011a28d5e2fc090b0eabb64633f01a20c1cb5b201068083cb659dfaac1698",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Bm",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Bm-side.png",
+          "imageSHA256": "3f6879f99f9fb73d1ab4c054beeb87da8f336eb221b5d84e71a0b64303053fc2",
+          "actual": {
+            "signature": "80b39dc7",
+            "triangles": 26984,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "0b7011a28d5e2fc090b0eabb64633f01a20c1cb5b201068083cb659dfaac1698",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Bm",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Bm-back.png",
+          "imageSHA256": "3176fe392b7961ebddaca4b28d882596cf3cff1fe7952736ce820782a331abf5",
+          "actual": {
+            "signature": "80b39dc7",
+            "triangles": 28022,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "0b7011a28d5e2fc090b0eabb64633f01a20c1cb5b201068083cb659dfaac1698",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Bm",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Bm-player.png",
+          "imageSHA256": "9b97aa46cadf57c01e503e0ed6a0b82f7ca142cb1720e6c190c7476a1369f87e",
+          "actual": {
+            "signature": "80b39dc7",
+            "triangles": 30432,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "0b7011a28d5e2fc090b0eabb64633f01a20c1cb5b201068083cb659dfaac1698",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจภาพเรนเดอร์ GLB จริงครบด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่น เทียบตำแหน่งนิ้วกับผังคอร์ดและผลตรวจเมชแล้ว ผ่านการตรวจภาพเชิงเทคนิค ยังไม่ใช่การรับรองจากผู้สอนกีตาร์อิสระ",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "C7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "1633d5b7ce723554e59b33a7a69328598db1fb45042bce50956abb701539fef5",
+      "views": [
+        {
+          "id": "C7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/C7-front.png",
+          "imageSHA256": "4417958c1a77fda79b9481bac82f5e80189ce5a97f9349a559464a892aff8aae",
+          "actual": {
+            "signature": "1e087701",
+            "triangles": 30340,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "1633d5b7ce723554e59b33a7a69328598db1fb45042bce50956abb701539fef5",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "C7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/C7-side.png",
+          "imageSHA256": "4b3ce4aea4fb363db1a3081e30df95238e8f9556ff0127335e38507803884bdc",
+          "actual": {
+            "signature": "1e087701",
+            "triangles": 28086,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "1633d5b7ce723554e59b33a7a69328598db1fb45042bce50956abb701539fef5",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "C7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/C7-back.png",
+          "imageSHA256": "df65d899bf195ddc63d55891460cbc2e31cc5cddd086812344930f7895ebef20",
+          "actual": {
+            "signature": "1e087701",
+            "triangles": 29108,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "1633d5b7ce723554e59b33a7a69328598db1fb45042bce50956abb701539fef5",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "C7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/C7-player.png",
+          "imageSHA256": "01306de3e80f956951a0ff6d240877d086e8ea57f903084591b1468c1bbbe354",
+          "actual": {
+            "signature": "1e087701",
+            "triangles": 30532,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "1633d5b7ce723554e59b33a7a69328598db1fb45042bce50956abb701539fef5",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ภาพด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่นสอดคล้องกับผังคอร์ดและไม่พบรูปทรงผิดปกติเด่นชัด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "D7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "e6a8a45cebb9625b6c6c4ff7dcc8e18d26a6d849fbe1a5f8776f0b41aa1eed5a",
+      "views": [
+        {
+          "id": "D7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/D7-front.png",
+          "imageSHA256": "52674a584232dae58e6ec0ee4fa13a3e6133bf2bad4f5aba01b503ac875c589c",
+          "actual": {
+            "signature": "4d09e114",
+            "triangles": 30230,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "e6a8a45cebb9625b6c6c4ff7dcc8e18d26a6d849fbe1a5f8776f0b41aa1eed5a",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "D7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/D7-side.png",
+          "imageSHA256": "919609f38f8eaef9a6bebb323ddffbe8c0c2f5ca0c38aad44062336b6ad7b4df",
+          "actual": {
+            "signature": "4d09e114",
+            "triangles": 28886,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "e6a8a45cebb9625b6c6c4ff7dcc8e18d26a6d849fbe1a5f8776f0b41aa1eed5a",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "D7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/D7-back.png",
+          "imageSHA256": "77bf6a61d00f2794cf6f40796ffafe63e89bbd362c63bca905a1603043cd2595",
+          "actual": {
+            "signature": "4d09e114",
+            "triangles": 30446,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "e6a8a45cebb9625b6c6c4ff7dcc8e18d26a6d849fbe1a5f8776f0b41aa1eed5a",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "D7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/D7-player.png",
+          "imageSHA256": "366b13268417b507dcd131fcde1a068957203ebd1bdaa44bda506ce012cf9a6d",
+          "actual": {
+            "signature": "4d09e114",
+            "triangles": 30278,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "e6a8a45cebb9625b6c6c4ff7dcc8e18d26a6d849fbe1a5f8776f0b41aa1eed5a",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจภาพเรนเดอร์ GLB จริงครบด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่น เทียบตำแหน่งนิ้วกับผังคอร์ดและผลตรวจเมชแล้ว ผ่านการตรวจภาพเชิงเทคนิค ยังไม่ใช่การรับรองจากผู้สอนกีตาร์อิสระ",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "E7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "78e8701f64c1292a428952cdb83f8d42f9b9b5446ef60f0d02e71fc74e243ad4",
+      "views": [
+        {
+          "id": "E7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/E7-front.png",
+          "imageSHA256": "070c53abe5c9a9dec964b401767892656b22bcb984e3be6d15c708644006fcec",
+          "actual": {
+            "signature": "7753a6f9",
+            "triangles": 29580,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "78e8701f64c1292a428952cdb83f8d42f9b9b5446ef60f0d02e71fc74e243ad4",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "E7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/E7-side.png",
+          "imageSHA256": "d76cef791120d888ca4ba24de4463ce2fe894928710cf1940a01c2f0efcfcfd5",
+          "actual": {
+            "signature": "7753a6f9",
+            "triangles": 28278,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "78e8701f64c1292a428952cdb83f8d42f9b9b5446ef60f0d02e71fc74e243ad4",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "E7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/E7-back.png",
+          "imageSHA256": "6af6241dead262066b7cad4a78c15986215f2cdea050c118325eafd95693d500",
+          "actual": {
+            "signature": "7753a6f9",
+            "triangles": 29084,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "78e8701f64c1292a428952cdb83f8d42f9b9b5446ef60f0d02e71fc74e243ad4",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "E7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/E7-player.png",
+          "imageSHA256": "1798533da5471dc229476f6b50f03a10223d66c85913dcbaa2f4741e63bf3012",
+          "actual": {
+            "signature": "7753a6f9",
+            "triangles": 30508,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "78e8701f64c1292a428952cdb83f8d42f9b9b5446ef60f0d02e71fc74e243ad4",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ภาพด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่นสอดคล้องกับผังคอร์ดและไม่พบรูปทรงผิดปกติเด่นชัด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "F7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": false,
+      "needsFurtherCorrection": true,
+      "sceneSHA256": "966dcd133c44f4237841d94a2d482852670087bdc5125c7ba90b94ce6543aa8f",
+      "views": [
+        {
+          "id": "F7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/F7-front.png",
+          "imageSHA256": "e6268502d7358ce522963c80ce51c5522056b9fc5dceef578700d3ee4a6e47c3",
+          "actual": {
+            "signature": "3ce66d52",
+            "triangles": 29424,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "966dcd133c44f4237841d94a2d482852670087bdc5125c7ba90b94ce6543aa8f",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "F7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/F7-side.png",
+          "imageSHA256": "da99f3c925409d9079636ccc6af502b1509370b9e7f61edeec7161d43b92c147",
+          "actual": {
+            "signature": "3ce66d52",
+            "triangles": 28596,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "966dcd133c44f4237841d94a2d482852670087bdc5125c7ba90b94ce6543aa8f",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "F7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/F7-back.png",
+          "imageSHA256": "3dde137244571470123c5785160c28460a695bbef4a566e6b02959645337ffbb",
+          "actual": {
+            "signature": "3ce66d52",
+            "triangles": 29144,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "966dcd133c44f4237841d94a2d482852670087bdc5125c7ba90b94ce6543aa8f",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "F7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/F7-player.png",
+          "imageSHA256": "1b32f99cace188d4609446e8e43d2c7e1b393ac57debdc79da31369a891d8241",
+          "actual": {
+            "signature": "3ce66d52",
+            "triangles": 30736,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "966dcd133c44f4237841d94a2d482852670087bdc5125c7ba90b94ce6543aa8f",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจภาพวินิจฉัยจริงทั้ง 4 มุมแล้ว ยังไม่ผ่านการตรวจเมช/การสัมผัสสาย จึงไม่เปิดท่ามือบนหน้าเว็บ ใช้ผังคอร์ดเดิมแทน",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "G7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "1baef10bd1ea85f68c865d101b0fac445a28aff843026b78c54b038ae5450623",
+      "views": [
+        {
+          "id": "G7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/G7-front.png",
+          "imageSHA256": "271ad4da63b88ed6a93853809be0f326b78d9e4ba865bc0d9d1d67ba34d8c14d",
+          "actual": {
+            "signature": "389da23f",
+            "triangles": 29732,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "1baef10bd1ea85f68c865d101b0fac445a28aff843026b78c54b038ae5450623",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "G7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/G7-side.png",
+          "imageSHA256": "9e01a46515735aa9621b23ab3cc7c913d52feb488a914e929339ecd3d1e6b802",
+          "actual": {
+            "signature": "389da23f",
+            "triangles": 28290,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "1baef10bd1ea85f68c865d101b0fac445a28aff843026b78c54b038ae5450623",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "G7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/G7-back.png",
+          "imageSHA256": "5122503be864f526d25fbbaade90f27ea1359e7f45f764aff7abe135359803c4",
+          "actual": {
+            "signature": "389da23f",
+            "triangles": 29096,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "1baef10bd1ea85f68c865d101b0fac445a28aff843026b78c54b038ae5450623",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "G7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/G7-player.png",
+          "imageSHA256": "dd7763d3992300965af94c78b7a21e8752ee1ee78b50b828a8a09724f5db1b8f",
+          "actual": {
+            "signature": "389da23f",
+            "triangles": 30736,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "1baef10bd1ea85f68c865d101b0fac445a28aff843026b78c54b038ae5450623",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ภาพด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่นสอดคล้องกับผังคอร์ดและไม่พบรูปทรงผิดปกติเด่นชัด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "A7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "3ea1ca14e3147c7bc679cb1d346bf12e217e73f95b61066270ebe3a36fab8dc8",
+      "views": [
+        {
+          "id": "A7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/A7-front.png",
+          "imageSHA256": "7f4362eb0d26c53f83714d0bf7e50c40c19f06b47e5019bd854b959c53497265",
+          "actual": {
+            "signature": "c450140b",
+            "triangles": 30002,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "3ea1ca14e3147c7bc679cb1d346bf12e217e73f95b61066270ebe3a36fab8dc8",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "A7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/A7-side.png",
+          "imageSHA256": "0f734eba602c7434d17615554aafc032429b51e28afc921af5cbc87695aa335c",
+          "actual": {
+            "signature": "c450140b",
+            "triangles": 29502,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "3ea1ca14e3147c7bc679cb1d346bf12e217e73f95b61066270ebe3a36fab8dc8",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "A7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/A7-back.png",
+          "imageSHA256": "f3cbd00694115220b5945c1165013abfdcab17c2a26b906261ef256d1fdfdaad",
+          "actual": {
+            "signature": "c450140b",
+            "triangles": 30434,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "3ea1ca14e3147c7bc679cb1d346bf12e217e73f95b61066270ebe3a36fab8dc8",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "A7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/A7-player.png",
+          "imageSHA256": "70b9ea899dd76ca0cdb6ded2838b2b1b192302d4c7e85471e88a54aff6a9ceeb",
+          "actual": {
+            "signature": "c450140b",
+            "triangles": 30218,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "3ea1ca14e3147c7bc679cb1d346bf12e217e73f95b61066270ebe3a36fab8dc8",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ภาพด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่นสอดคล้องกับผังคอร์ดและไม่พบรูปทรงผิดปกติเด่นชัด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "B7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "e7a7cf517e2da0b9ab1b59e7f4f8d2c5a173bcf670fedd98be98bd60165cd5a9",
+      "views": [
+        {
+          "id": "B7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/B7-front.png",
+          "imageSHA256": "a51ca737133005b17e3348600a21a64c041d283f2814fb909a6677c81a608483",
+          "actual": {
+            "signature": "a09ba711",
+            "triangles": 30242,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "e7a7cf517e2da0b9ab1b59e7f4f8d2c5a173bcf670fedd98be98bd60165cd5a9",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "B7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/B7-side.png",
+          "imageSHA256": "3bab06f96b0919aeb39d4fcf4e0f1b7a1d6d343fa3c0b9e4c7462d57e70d0d38",
+          "actual": {
+            "signature": "a09ba711",
+            "triangles": 29446,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "e7a7cf517e2da0b9ab1b59e7f4f8d2c5a173bcf670fedd98be98bd60165cd5a9",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "B7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/B7-back.png",
+          "imageSHA256": "fbdb7322ef8135000ee91f2dff80841eb038d8242425132612e0b7e07515898f",
+          "actual": {
+            "signature": "a09ba711",
+            "triangles": 30458,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "e7a7cf517e2da0b9ab1b59e7f4f8d2c5a173bcf670fedd98be98bd60165cd5a9",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "B7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/B7-player.png",
+          "imageSHA256": "715ea2ab45d59b5f97068568c492764195e42778ef93fae0e3f205f02c4d0597",
+          "actual": {
+            "signature": "a09ba711",
+            "triangles": 30458,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "e7a7cf517e2da0b9ab1b59e7f4f8d2c5a173bcf670fedd98be98bd60165cd5a9",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ปรับเฉพาะนิ้วโป้งให้รองหลังคอ ชุดนิ้วกดเดิมคงไว้",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Cmaj7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "60ef01d6ddd0d20ce2c0e067372f88c0171feb2abb5af3bc714858948d7aaf50",
+      "views": [
+        {
+          "id": "Cmaj7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Cmaj7-front.png",
+          "imageSHA256": "f66a4798986574dfbf43d1fc13c01e69a8f3bfe829eed7282df3584d19984316",
+          "actual": {
+            "signature": "dd9b927d",
+            "triangles": 29580,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "60ef01d6ddd0d20ce2c0e067372f88c0171feb2abb5af3bc714858948d7aaf50",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Cmaj7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Cmaj7-side.png",
+          "imageSHA256": "cd988fc2a35c767432e8bdfb168b9bfa666b039439d123ead1d851fa0c39a083",
+          "actual": {
+            "signature": "dd9b927d",
+            "triangles": 28062,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "60ef01d6ddd0d20ce2c0e067372f88c0171feb2abb5af3bc714858948d7aaf50",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Cmaj7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Cmaj7-back.png",
+          "imageSHA256": "a1f41eeaa053485c0fe7c0100f052e99779e018b497c92f4ecaf498b54efaf08",
+          "actual": {
+            "signature": "dd9b927d",
+            "triangles": 29084,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "60ef01d6ddd0d20ce2c0e067372f88c0171feb2abb5af3bc714858948d7aaf50",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Cmaj7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Cmaj7-player.png",
+          "imageSHA256": "f52621b65fc27a6be69cdcd7a3257047977e231edfbd35540243facf13fa782a",
+          "actual": {
+            "signature": "dd9b927d",
+            "triangles": 30508,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "60ef01d6ddd0d20ce2c0e067372f88c0171feb2abb5af3bc714858948d7aaf50",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ภาพด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่นสอดคล้องกับผังคอร์ดและไม่พบรูปทรงผิดปกติเด่นชัด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Dmaj7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "6d8e13f9598c6129ce25720ebb9e919dbcfe81207db1040e287314107373c451",
+      "views": [
+        {
+          "id": "Dmaj7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Dmaj7-front.png",
+          "imageSHA256": "f4cafda5ca0a6b4acab09421706db26a1d087c242691a22c4264cd86fcdea4a1",
+          "actual": {
+            "signature": "3fa6a7be",
+            "triangles": 28000,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "6d8e13f9598c6129ce25720ebb9e919dbcfe81207db1040e287314107373c451",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Dmaj7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Dmaj7-side.png",
+          "imageSHA256": "14f870342586e126865bcb1992b0612977a63bfb1c48a2eeeb8eb95aae28aaa4",
+          "actual": {
+            "signature": "3fa6a7be",
+            "triangles": 27920,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "6d8e13f9598c6129ce25720ebb9e919dbcfe81207db1040e287314107373c451",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Dmaj7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Dmaj7-back.png",
+          "imageSHA256": "fc1e5f30d5ba578c84523a536c75a5fa908c22b565c4c56245b8c217546c8f47",
+          "actual": {
+            "signature": "3fa6a7be",
+            "triangles": 29328,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "6d8e13f9598c6129ce25720ebb9e919dbcfe81207db1040e287314107373c451",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Dmaj7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Dmaj7-player.png",
+          "imageSHA256": "9205808e1996198da526a608b4a51216f195b7443a05a0898d383cbd5717448c",
+          "actual": {
+            "signature": "3fa6a7be",
+            "triangles": 31136,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "6d8e13f9598c6129ce25720ebb9e919dbcfe81207db1040e287314107373c451",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจภาพเรนเดอร์ GLB จริงครบด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่น เทียบตำแหน่งนิ้วกับผังคอร์ดและผลตรวจเมชแล้ว ผ่านการตรวจภาพเชิงเทคนิค ยังไม่ใช่การรับรองจากผู้สอนกีตาร์อิสระ",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Emaj7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": false,
+      "needsFurtherCorrection": true,
+      "sceneSHA256": "ccfe5f96ebcf1b3a17cf9e305cd3296eeda7de76d53dbc3338a22aacb57383b1",
+      "views": [
+        {
+          "id": "Emaj7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Emaj7-front.png",
+          "imageSHA256": "11ada94a469e73fde1b895d605ba13dc0b9e527a408beb8859e0558ae2b2576d",
+          "actual": {
+            "signature": "fdb54500",
+            "triangles": 30446,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "ccfe5f96ebcf1b3a17cf9e305cd3296eeda7de76d53dbc3338a22aacb57383b1",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Emaj7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Emaj7-side.png",
+          "imageSHA256": "3d4cd3be17fa3ed8ae5ed5875a85f697d85d1c5f7dee71968dbd2d7f3edb131e",
+          "actual": {
+            "signature": "fdb54500",
+            "triangles": 28886,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "ccfe5f96ebcf1b3a17cf9e305cd3296eeda7de76d53dbc3338a22aacb57383b1",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Emaj7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Emaj7-back.png",
+          "imageSHA256": "f17dec5344a401d43dfa7f62e65683409d6acc4bee76e239866aed7a79007dff",
+          "actual": {
+            "signature": "fdb54500",
+            "triangles": 30062,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "ccfe5f96ebcf1b3a17cf9e305cd3296eeda7de76d53dbc3338a22aacb57383b1",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Emaj7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Emaj7-player.png",
+          "imageSHA256": "591929c58a91aca50f34eb6b782e7d00e0bd55057cdb9b91c6c9b1fa2c646750",
+          "actual": {
+            "signature": "fdb54500",
+            "triangles": 30078,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "ccfe5f96ebcf1b3a17cf9e305cd3296eeda7de76d53dbc3338a22aacb57383b1",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจภาพวินิจฉัยจริงทั้ง 4 มุมแล้ว ยังไม่ผ่านการตรวจเมช/การสัมผัสสาย จึงไม่เปิดท่ามือบนหน้าเว็บ ใช้ผังคอร์ดเดิมแทน",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Fmaj7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "8d418eb17abc6bee58ac5669267623d0d05b82de124a8c6f64aeca444ac98be5",
+      "views": [
+        {
+          "id": "Fmaj7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Fmaj7-front.png",
+          "imageSHA256": "1883554411bd972f977592425751af016bdca64f7c060b92b097ecc9e9dae593",
+          "actual": {
+            "signature": "20167e00",
+            "triangles": 29592,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "8d418eb17abc6bee58ac5669267623d0d05b82de124a8c6f64aeca444ac98be5",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Fmaj7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Fmaj7-side.png",
+          "imageSHA256": "5a9acb1c1e0965944575f007e06d29610fbfbc9b95adc5216462ff68b4aa3e0f",
+          "actual": {
+            "signature": "20167e00",
+            "triangles": 27526,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "8d418eb17abc6bee58ac5669267623d0d05b82de124a8c6f64aeca444ac98be5",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Fmaj7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Fmaj7-back.png",
+          "imageSHA256": "8e4d4d2f904b94e627c1891db79aeefa053cbcc4de6b69986424e026714088a5",
+          "actual": {
+            "signature": "20167e00",
+            "triangles": 29096,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "8d418eb17abc6bee58ac5669267623d0d05b82de124a8c6f64aeca444ac98be5",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Fmaj7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Fmaj7-player.png",
+          "imageSHA256": "8902ea3f0c940c7bb66eddb0ba81127b67ec1f349e2001f8481f12c49e94ca25",
+          "actual": {
+            "signature": "20167e00",
+            "triangles": 30272,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "8d418eb17abc6bee58ac5669267623d0d05b82de124a8c6f64aeca444ac98be5",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ภาพด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่นสอดคล้องกับผังคอร์ดและไม่พบรูปทรงผิดปกติเด่นชัด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Gmaj7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "308c53f2fed163a697dcf6de5426381e8707b1fb15ed00ab6662e341564e97fc",
+      "views": [
+        {
+          "id": "Gmaj7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Gmaj7-front.png",
+          "imageSHA256": "220cb12fda42e88aa40015b3c3e55c3bda081087df9b409309636f21be854639",
+          "actual": {
+            "signature": "bbfb2725",
+            "triangles": 29808,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "308c53f2fed163a697dcf6de5426381e8707b1fb15ed00ab6662e341564e97fc",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Gmaj7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Gmaj7-side.png",
+          "imageSHA256": "e3512029aed382d23c3587437e76e7399f5a29fe30b9c736894c4c3e3fd654ba",
+          "actual": {
+            "signature": "bbfb2725",
+            "triangles": 27752,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "308c53f2fed163a697dcf6de5426381e8707b1fb15ed00ab6662e341564e97fc",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Gmaj7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Gmaj7-back.png",
+          "imageSHA256": "45c348ff56246efc7be64b4f54d78f7fc529958eaea952966fd35ee8316682cd",
+          "actual": {
+            "signature": "bbfb2725",
+            "triangles": 29312,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "308c53f2fed163a697dcf6de5426381e8707b1fb15ed00ab6662e341564e97fc",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Gmaj7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Gmaj7-player.png",
+          "imageSHA256": "1e3fbe9b936fff48578deb75d75f94da959d598cf2737740b9b9691eaf7d4be7",
+          "actual": {
+            "signature": "bbfb2725",
+            "triangles": 30736,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "308c53f2fed163a697dcf6de5426381e8707b1fb15ed00ab6662e341564e97fc",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ปรับเฉพาะนิ้วโป้ง ชุดนิ้วกดเดิมคงไว้",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Amaj7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "9b2898cb7d32dba33316d9cb60cce314ded994ba814e640222d574365ffe94a0",
+      "views": [
+        {
+          "id": "Amaj7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Amaj7-front.png",
+          "imageSHA256": "5cb9dcf2915b4e97389c84c9497d6504ef6b27db19dae1ae958d3def1b74c3e2",
+          "actual": {
+            "signature": "5a53f777",
+            "triangles": 30014,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "9b2898cb7d32dba33316d9cb60cce314ded994ba814e640222d574365ffe94a0",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Amaj7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Amaj7-side.png",
+          "imageSHA256": "90a40c5cc6cc508b2d0e9de6650e0d03cd13859c2de1b43a810db4dd5065baa5",
+          "actual": {
+            "signature": "5a53f777",
+            "triangles": 29514,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "9b2898cb7d32dba33316d9cb60cce314ded994ba814e640222d574365ffe94a0",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Amaj7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Amaj7-back.png",
+          "imageSHA256": "7a174159716ae2b02b2e56e76283cfa8dc99941a527e240c1d7371e4ccf6085c",
+          "actual": {
+            "signature": "5a53f777",
+            "triangles": 30446,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "9b2898cb7d32dba33316d9cb60cce314ded994ba814e640222d574365ffe94a0",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Amaj7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Amaj7-player.png",
+          "imageSHA256": "397dafef1be20501cfea92e2ee1d1484c902174d4a004f6cb72781a0787dd9c3",
+          "actual": {
+            "signature": "5a53f777",
+            "triangles": 30230,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "9b2898cb7d32dba33316d9cb60cce314ded994ba814e640222d574365ffe94a0",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ภาพด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่นสอดคล้องกับผังคอร์ดและไม่พบรูปทรงผิดปกติเด่นชัด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Bmaj7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "a77ecd3122848b4f72db1c34582b05bc2facc2649650ede4786457c8f05c2e95",
+      "views": [
+        {
+          "id": "Bmaj7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Bmaj7-front.png",
+          "imageSHA256": "456e619c0e56058f7f7b5d8e817eeb4a55f3841e330fc66b62a7a77fc53fda1a",
+          "actual": {
+            "signature": "6974ab4d",
+            "triangles": 28252,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "a77ecd3122848b4f72db1c34582b05bc2facc2649650ede4786457c8f05c2e95",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Bmaj7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Bmaj7-side.png",
+          "imageSHA256": "2fb0af5c6a870a219251dc6ab21ff8819cadcda6850f643a15a66288d084818b",
+          "actual": {
+            "signature": "6974ab4d",
+            "triangles": 27040,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "a77ecd3122848b4f72db1c34582b05bc2facc2649650ede4786457c8f05c2e95",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Bmaj7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Bmaj7-back.png",
+          "imageSHA256": "0a15a72722dce95d928b92a28dc82dc8f514d490544c493a744e0d1f97ee340a",
+          "actual": {
+            "signature": "6974ab4d",
+            "triangles": 28626,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "a77ecd3122848b4f72db1c34582b05bc2facc2649650ede4786457c8f05c2e95",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Bmaj7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Bmaj7-player.png",
+          "imageSHA256": "f3b100e0f3020b216a6e716d90c0710a9b0a6ad932e742cb5e262dea898197fa",
+          "actual": {
+            "signature": "6974ab4d",
+            "triangles": 30644,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "a77ecd3122848b4f72db1c34582b05bc2facc2649650ede4786457c8f05c2e95",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจภาพเรนเดอร์ GLB จริงครบด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่น เทียบตำแหน่งนิ้วกับผังคอร์ดและผลตรวจเมชแล้ว ผ่านการตรวจภาพเชิงเทคนิค ยังไม่ใช่การรับรองจากผู้สอนกีตาร์อิสระ",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Cm7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": false,
+      "needsFurtherCorrection": true,
+      "sceneSHA256": "cfc6101bb36b920fa55aa69a581ed2423c33478dba64a9f4f5d23d642b44b648",
+      "views": [
+        {
+          "id": "Cm7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Cm7-front.png",
+          "imageSHA256": "90a2bcd511168131b23810e874c52b521762245124cbb494327f04f18e640d8a",
+          "actual": {
+            "signature": "1cfebb58",
+            "triangles": 26642,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "cfc6101bb36b920fa55aa69a581ed2423c33478dba64a9f4f5d23d642b44b648",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Cm7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Cm7-side.png",
+          "imageSHA256": "4758e08c0f3f9efc44ec95c2417b210130ec6bd81a63e3ff877b2dcac72b330e",
+          "actual": {
+            "signature": "1cfebb58",
+            "triangles": 26610,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "cfc6101bb36b920fa55aa69a581ed2423c33478dba64a9f4f5d23d642b44b648",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Cm7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Cm7-back.png",
+          "imageSHA256": "758aaafab5ed9d940548f8673810a46732c6421a9e6a19e508ce4a2a94b12dbe",
+          "actual": {
+            "signature": "1cfebb58",
+            "triangles": 27238,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "cfc6101bb36b920fa55aa69a581ed2423c33478dba64a9f4f5d23d642b44b648",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Cm7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Cm7-player.png",
+          "imageSHA256": "a5f790a60a29fe8df54d8ec1c5f86198c460dac42f56ce4d6bc4ef167231274c",
+          "actual": {
+            "signature": "1cfebb58",
+            "triangles": 29326,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "cfc6101bb36b920fa55aa69a581ed2423c33478dba64a9f4f5d23d642b44b648",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจภาพวินิจฉัยจริงทั้ง 4 มุมแล้ว ยังไม่ผ่านการตรวจเมช/การสัมผัสสาย จึงไม่เปิดท่ามือบนหน้าเว็บ ใช้ผังคอร์ดเดิมแทน",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Dm7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "4f4c0f601b4a40f7351cf66aa3703ea8d568c8860a4d7840ee8f7e3a354bca92",
+      "views": [
+        {
+          "id": "Dm7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Dm7-front.png",
+          "imageSHA256": "96d919be079a05bfeaead80b281a31e4b41af7a2e527f491717cf3b0b87f161b",
+          "actual": {
+            "signature": "452b1dc0",
+            "triangles": 29592,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "4f4c0f601b4a40f7351cf66aa3703ea8d568c8860a4d7840ee8f7e3a354bca92",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Dm7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Dm7-side.png",
+          "imageSHA256": "9b6649f23f5a62e81fc85a1f6127a11ed2a3ea485f6269d74a588d51ecd8c4d0",
+          "actual": {
+            "signature": "452b1dc0",
+            "triangles": 27526,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "4f4c0f601b4a40f7351cf66aa3703ea8d568c8860a4d7840ee8f7e3a354bca92",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Dm7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Dm7-back.png",
+          "imageSHA256": "84607ee95336864d19af657311946b83e4f10e0deb3873501767b73bdcdd006a",
+          "actual": {
+            "signature": "452b1dc0",
+            "triangles": 29096,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "4f4c0f601b4a40f7351cf66aa3703ea8d568c8860a4d7840ee8f7e3a354bca92",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Dm7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Dm7-player.png",
+          "imageSHA256": "481c800278744c2e967cbaaaec22ac379525a56b27123c626bc65ba3f25a4b91",
+          "actual": {
+            "signature": "452b1dc0",
+            "triangles": 30272,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "4f4c0f601b4a40f7351cf66aa3703ea8d568c8860a4d7840ee8f7e3a354bca92",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ภาพด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่นสอดคล้องกับผังคอร์ดและไม่พบรูปทรงผิดปกติเด่นชัด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Em7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "2dc3e2dd495e6fb640b8fc48e501c3557d57f7a801f5fea896b4fc48dccd481d",
+      "views": [
+        {
+          "id": "Em7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Em7-front.png",
+          "imageSHA256": "994a03e3aeabecde9918c80ad2ba998a7630662684e7492f7a98a4ff38a53b8b",
+          "actual": {
+            "signature": "d25523f8",
+            "triangles": 29568,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "2dc3e2dd495e6fb640b8fc48e501c3557d57f7a801f5fea896b4fc48dccd481d",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Em7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Em7-side.png",
+          "imageSHA256": "a2a338123d93b22706b6a3a1649a95b5aa54c9e391673010f113af6eb3e77214",
+          "actual": {
+            "signature": "d25523f8",
+            "triangles": 28266,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "2dc3e2dd495e6fb640b8fc48e501c3557d57f7a801f5fea896b4fc48dccd481d",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Em7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Em7-back.png",
+          "imageSHA256": "95b87a000a76f6ab8e36bf151c79e05f9b730d648faf0aa6eccbe45adfe03555",
+          "actual": {
+            "signature": "d25523f8",
+            "triangles": 29072,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "2dc3e2dd495e6fb640b8fc48e501c3557d57f7a801f5fea896b4fc48dccd481d",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Em7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Em7-player.png",
+          "imageSHA256": "8622b6664a8501e009895f405389f2dd598387c99ebf044925872b8f97ab8a7d",
+          "actual": {
+            "signature": "d25523f8",
+            "triangles": 30712,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "2dc3e2dd495e6fb640b8fc48e501c3557d57f7a801f5fea896b4fc48dccd481d",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ภาพด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่นสอดคล้องกับผังคอร์ดและไม่พบรูปทรงผิดปกติเด่นชัด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Fm7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": false,
+      "needsFurtherCorrection": true,
+      "sceneSHA256": "d66137219de1f48e5dbf185aa537757fb552d133b85fdd865b120b399f8255d2",
+      "views": [
+        {
+          "id": "Fm7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Fm7-front.png",
+          "imageSHA256": "2f43868ce59b00b0d063f4239c8d9fdf6b0ee3d984afdc6e7044ce5e52d4c97c",
+          "actual": {
+            "signature": "8887f88c",
+            "triangles": 29640,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "d66137219de1f48e5dbf185aa537757fb552d133b85fdd865b120b399f8255d2",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Fm7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Fm7-side.png",
+          "imageSHA256": "d043ee8733c9e004a11e811f77a45683cfe47174de2d4feeb662b3caa0dcd522",
+          "actual": {
+            "signature": "8887f88c",
+            "triangles": 28428,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "d66137219de1f48e5dbf185aa537757fb552d133b85fdd865b120b399f8255d2",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Fm7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Fm7-back.png",
+          "imageSHA256": "6234e2eff23038a71cd78f3cd664e9ba8c83b7fa0d6281690b5ec7e8e3fd37cf",
+          "actual": {
+            "signature": "8887f88c",
+            "triangles": 29192,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "d66137219de1f48e5dbf185aa537757fb552d133b85fdd865b120b399f8255d2",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Fm7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Fm7-player.png",
+          "imageSHA256": "916bfbe6f06c54bd0ffcac72f58b2bfe6de1544a517cbd62182ba8f602492c2c",
+          "actual": {
+            "signature": "8887f88c",
+            "triangles": 30952,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "d66137219de1f48e5dbf185aa537757fb552d133b85fdd865b120b399f8255d2",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจภาพวินิจฉัยจริงทั้ง 4 มุมแล้ว ยังไม่ผ่านการตรวจเมช/การสัมผัสสาย จึงไม่เปิดท่ามือบนหน้าเว็บ ใช้ผังคอร์ดเดิมแทน",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Gm7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": false,
+      "needsFurtherCorrection": true,
+      "sceneSHA256": "5b2e65be4f4bcd6ed8d0feedb68b8888a9bd85f87e26a4c823d644adf8d64080",
+      "views": [
+        {
+          "id": "Gm7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Gm7-front.png",
+          "imageSHA256": "75488ecab4dd954c0b2ffc46c985009d44e73ac82cfed99afc5a3bc4b0a83c66",
+          "actual": {
+            "signature": "8737564e",
+            "triangles": 26890,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "5b2e65be4f4bcd6ed8d0feedb68b8888a9bd85f87e26a4c823d644adf8d64080",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Gm7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Gm7-side.png",
+          "imageSHA256": "0c81ad7bcf456cf4c0a0d5022fa42024c69e364a1f0beafbd6a5c86670f9046f",
+          "actual": {
+            "signature": "8737564e",
+            "triangles": 26810,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "5b2e65be4f4bcd6ed8d0feedb68b8888a9bd85f87e26a4c823d644adf8d64080",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Gm7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Gm7-back.png",
+          "imageSHA256": "f8ed8b36fa8bd32b087b6c6075a4248cf65adbc29536fda04d1aee95f6d427a8",
+          "actual": {
+            "signature": "8737564e",
+            "triangles": 28202,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "5b2e65be4f4bcd6ed8d0feedb68b8888a9bd85f87e26a4c823d644adf8d64080",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Gm7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Gm7-player.png",
+          "imageSHA256": "24abf49ba7b564d5b882f9b431209f485ff1b33a15d05c48309313272bf00e2e",
+          "actual": {
+            "signature": "8737564e",
+            "triangles": 29634,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "5b2e65be4f4bcd6ed8d0feedb68b8888a9bd85f87e26a4c823d644adf8d64080",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจภาพวินิจฉัยจริงทั้ง 4 มุมแล้ว ยังไม่ผ่านการตรวจเมช/การสัมผัสสาย จึงไม่เปิดท่ามือบนหน้าเว็บ ใช้ผังคอร์ดเดิมแทน",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Am7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "e050d8efe97f6c59fac2f65c6c2f51ba74d2811cf85da1dcf95e2cae5e8eccd4",
+      "views": [
+        {
+          "id": "Am7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Am7-front.png",
+          "imageSHA256": "2db584fc680b6d10de8d3981bf5a8f5d43f4d59cec1225cb46e13ed0e11d541d",
+          "actual": {
+            "signature": "69643940",
+            "triangles": 29580,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "e050d8efe97f6c59fac2f65c6c2f51ba74d2811cf85da1dcf95e2cae5e8eccd4",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Am7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Am7-side.png",
+          "imageSHA256": "afcbfcb06445c2e761a8b94864c60b4ba67c632b70002dca322f945ef84c6cb7",
+          "actual": {
+            "signature": "69643940",
+            "triangles": 28278,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "e050d8efe97f6c59fac2f65c6c2f51ba74d2811cf85da1dcf95e2cae5e8eccd4",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Am7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Am7-back.png",
+          "imageSHA256": "1282035aa5a30ff546ced6da61ea4967f4b013d8b62fbde0cfdd8beb92d00041",
+          "actual": {
+            "signature": "69643940",
+            "triangles": 29084,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "e050d8efe97f6c59fac2f65c6c2f51ba74d2811cf85da1dcf95e2cae5e8eccd4",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Am7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Am7-player.png",
+          "imageSHA256": "40eb6ae45612dec89d3196f1ecb5e96b357a12bdde1c023ab0edf303ddd94d1c",
+          "actual": {
+            "signature": "69643940",
+            "triangles": 30724,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "e050d8efe97f6c59fac2f65c6c2f51ba74d2811cf85da1dcf95e2cae5e8eccd4",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ภาพด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่นสอดคล้องกับผังคอร์ดและไม่พบรูปทรงผิดปกติเด่นชัด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Bm7",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": false,
+      "needsFurtherCorrection": true,
+      "sceneSHA256": "810452d97d798b6aadbc54c285e065a7473788183a437aa37a2f013ffff86a75",
+      "views": [
+        {
+          "id": "Bm7",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Bm7-front.png",
+          "imageSHA256": "fbbea4374c4bec4373821f82aa7270c5b1874840314241d8a304cedce810a298",
+          "actual": {
+            "signature": "163a71b1",
+            "triangles": 28084,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "810452d97d798b6aadbc54c285e065a7473788183a437aa37a2f013ffff86a75",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Bm7",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Bm7-side.png",
+          "imageSHA256": "3e1cb4a013acacba35664d21994f660b888be2815ee1da1c9a382801673b1aec",
+          "actual": {
+            "signature": "163a71b1",
+            "triangles": 26976,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "810452d97d798b6aadbc54c285e065a7473788183a437aa37a2f013ffff86a75",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Bm7",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Bm7-back.png",
+          "imageSHA256": "d47987aa301528f92c15529e8ed10097880403d262b0a7870365318fbf0caf39",
+          "actual": {
+            "signature": "163a71b1",
+            "triangles": 27998,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "810452d97d798b6aadbc54c285e065a7473788183a437aa37a2f013ffff86a75",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Bm7",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Bm7-player.png",
+          "imageSHA256": "a2e267ba8d6f8ae406cac1c76db806ecca77826ae81f2efb94b8ff63751d2efa",
+          "actual": {
+            "signature": "163a71b1",
+            "triangles": 30466,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "810452d97d798b6aadbc54c285e065a7473788183a437aa37a2f013ffff86a75",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจภาพวินิจฉัยจริงทั้ง 4 มุมแล้ว ยังไม่ผ่านการตรวจเมช/การสัมผัสสาย จึงไม่เปิดท่ามือบนหน้าเว็บ ใช้ผังคอร์ดเดิมแทน",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Csus2",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "be292a4e9b61128624d17ec3ce85b8ba3fe9b98a09bb6fabde0476adc76a8688",
+      "views": [
+        {
+          "id": "Csus2",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Csus2-front.png",
+          "imageSHA256": "ad540eb9e4cf17877080bfad352fad183a23b8e8b56b94392647035b216b8f39",
+          "actual": {
+            "signature": "cd4b2acc",
+            "triangles": 26866,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "be292a4e9b61128624d17ec3ce85b8ba3fe9b98a09bb6fabde0476adc76a8688",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Csus2",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Csus2-side.png",
+          "imageSHA256": "0d947c1c7c608da1b7b2bccbb513f88e0c2e3c6945017ee717e73d276a61bda1",
+          "actual": {
+            "signature": "cd4b2acc",
+            "triangles": 26370,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "be292a4e9b61128624d17ec3ce85b8ba3fe9b98a09bb6fabde0476adc76a8688",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Csus2",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Csus2-back.png",
+          "imageSHA256": "11d4cdecb1516d45fe5ca489776c3a08bded79dc0bd4072d7cef55391f64a405",
+          "actual": {
+            "signature": "cd4b2acc",
+            "triangles": 28178,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "be292a4e9b61128624d17ec3ce85b8ba3fe9b98a09bb6fabde0476adc76a8688",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Csus2",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Csus2-player.png",
+          "imageSHA256": "3ed1e5bfc2159980b9c142f210b555ed672388b89f7edd2960f1540441e63e3d",
+          "actual": {
+            "signature": "cd4b2acc",
+            "triangles": 29302,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "be292a4e9b61128624d17ec3ce85b8ba3fe9b98a09bb6fabde0476adc76a8688",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจภาพเรนเดอร์ GLB จริงครบด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่น เทียบตำแหน่งนิ้วกับผังคอร์ดและผลตรวจเมชแล้ว ผ่านการตรวจภาพเชิงเทคนิค ยังไม่ใช่การรับรองจากผู้สอนกีตาร์อิสระ",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Dsus2",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "eb05916c790493fdeedf2d0ff0579e4eaf0600346670fc6ba4ac357dbab3578a",
+      "views": [
+        {
+          "id": "Dsus2",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Dsus2-front.png",
+          "imageSHA256": "6490db060300d1ae34f14aae78c279c924594dded277b726e82d3776eca69cd8",
+          "actual": {
+            "signature": "3d72415e",
+            "triangles": 28724,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "eb05916c790493fdeedf2d0ff0579e4eaf0600346670fc6ba4ac357dbab3578a",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Dsus2",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Dsus2-side.png",
+          "imageSHA256": "621fd8f75c649b346f65b3a35296b6bd1a5a3a7cbf237be352a0e9ff5bc5e0f7",
+          "actual": {
+            "signature": "3d72415e",
+            "triangles": 27298,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "eb05916c790493fdeedf2d0ff0579e4eaf0600346670fc6ba4ac357dbab3578a",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Dsus2",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Dsus2-back.png",
+          "imageSHA256": "fe18ee5fb3408013c424ec55790cdef090053beb9fffcd121dc33a19e8905b3e",
+          "actual": {
+            "signature": "3d72415e",
+            "triangles": 29084,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "eb05916c790493fdeedf2d0ff0579e4eaf0600346670fc6ba4ac357dbab3578a",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Dsus2",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Dsus2-player.png",
+          "imageSHA256": "28b9731f7048eb29cd29d6a284e7e78b2bc6900cf1765f9c4f0509aa4ebedb00",
+          "actual": {
+            "signature": "3d72415e",
+            "triangles": 29728,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "eb05916c790493fdeedf2d0ff0579e4eaf0600346670fc6ba4ac357dbab3578a",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ปรับเฉพาะนิ้วโป้ง ชุดนิ้วกดเดิมคงไว้",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Asus2",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "77a2e088e0716153a40bb50ac1fd03ab827a03a9ddba86384d084265db93726b",
+      "views": [
+        {
+          "id": "Asus2",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Asus2-front.png",
+          "imageSHA256": "c6f87c26ebb3b250f1127a91c0e11e1cf3d5bd59991008327ae64a640ad84ae0",
+          "actual": {
+            "signature": "e92399ab",
+            "triangles": 30002,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "77a2e088e0716153a40bb50ac1fd03ab827a03a9ddba86384d084265db93726b",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Asus2",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Asus2-side.png",
+          "imageSHA256": "0e087de99afd05079f2929b8eab57528d770b15a08fad0fe3c80bcd2b0b5bb95",
+          "actual": {
+            "signature": "e92399ab",
+            "triangles": 29470,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "77a2e088e0716153a40bb50ac1fd03ab827a03a9ddba86384d084265db93726b",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Asus2",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Asus2-back.png",
+          "imageSHA256": "f9cd5c7f773dc5417a7f87e2ff1dfe5c195a9dc8072edad525f0f940e74e3c40",
+          "actual": {
+            "signature": "e92399ab",
+            "triangles": 30434,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "77a2e088e0716153a40bb50ac1fd03ab827a03a9ddba86384d084265db93726b",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Asus2",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Asus2-player.png",
+          "imageSHA256": "0dfeb0d18f52f994aadbd085229f4bb5937ccabadf220189e026f5ceb1ebe4e0",
+          "actual": {
+            "signature": "e92399ab",
+            "triangles": 30218,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "77a2e088e0716153a40bb50ac1fd03ab827a03a9ddba86384d084265db93726b",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ภาพด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่นสอดคล้องกับผังคอร์ดและไม่พบรูปทรงผิดปกติเด่นชัด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Csus4",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "cd50ea05960b465ad96f71c8aa23ed7c661a08655845b28bc732b8a2ddf5e5bc",
+      "views": [
+        {
+          "id": "Csus4",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Csus4-front.png",
+          "imageSHA256": "2f6d2799f06bb32e9d35c6e047f55d8ca0c8f341e6176dd6c5b811a03e5533a2",
+          "actual": {
+            "signature": "eb9471ca",
+            "triangles": 30340,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "cd50ea05960b465ad96f71c8aa23ed7c661a08655845b28bc732b8a2ddf5e5bc",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Csus4",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Csus4-side.png",
+          "imageSHA256": "6e21b0e04d655d046d91cf90ded651e7bb6f8ef901b0c6522c22f0e4374973f7",
+          "actual": {
+            "signature": "eb9471ca",
+            "triangles": 28086,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "cd50ea05960b465ad96f71c8aa23ed7c661a08655845b28bc732b8a2ddf5e5bc",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Csus4",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Csus4-back.png",
+          "imageSHA256": "4be37556dbf4e405e6f7e0560e67f591c1d38963f60a0aa6c1e8c7e83960ea8b",
+          "actual": {
+            "signature": "eb9471ca",
+            "triangles": 29108,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "cd50ea05960b465ad96f71c8aa23ed7c661a08655845b28bc732b8a2ddf5e5bc",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Csus4",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Csus4-player.png",
+          "imageSHA256": "1fe940b14f8320e790c05bf8b844e197d0cb0d71b8e5dba7d8e42b235e287fce",
+          "actual": {
+            "signature": "eb9471ca",
+            "triangles": 30532,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "cd50ea05960b465ad96f71c8aa23ed7c661a08655845b28bc732b8a2ddf5e5bc",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจนิ้วชี้ทาบสองสาย นิ้วนาง/ก้อยเฟรต 3 และสาย 3 เปิด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Dsus4",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "6b3f0773c63d62f8f5e2c25f206c732cb8718a53655fe07b27fb8ffa242f98d0",
+      "views": [
+        {
+          "id": "Dsus4",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Dsus4-front.png",
+          "imageSHA256": "a1690c6fdbf696b3aa22737ea65e0cab79e97ad2502534026257f00a3c17c6d1",
+          "actual": {
+            "signature": "1285e384",
+            "triangles": 29376,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "6b3f0773c63d62f8f5e2c25f206c732cb8718a53655fe07b27fb8ffa242f98d0",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Dsus4",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Dsus4-side.png",
+          "imageSHA256": "b5b0d57c14cb1f8643ad7d8693c5fcf1d48b400c4a4a4e36b29a9c1785d6e957",
+          "actual": {
+            "signature": "1285e384",
+            "triangles": 28058,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "6b3f0773c63d62f8f5e2c25f206c732cb8718a53655fe07b27fb8ffa242f98d0",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Dsus4",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Dsus4-back.png",
+          "imageSHA256": "624e246b82a5d6fdbc91b8cf7848bbf843d7a5a94c27e99e392d714cbeb6e514",
+          "actual": {
+            "signature": "1285e384",
+            "triangles": 29096,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "6b3f0773c63d62f8f5e2c25f206c732cb8718a53655fe07b27fb8ffa242f98d0",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Dsus4",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Dsus4-player.png",
+          "imageSHA256": "258eec75e13e820f607757ebd254d1f39f20a5e926d3405f6eae65b85d7b4379",
+          "actual": {
+            "signature": "1285e384",
+            "triangles": 30320,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "6b3f0773c63d62f8f5e2c25f206c732cb8718a53655fe07b27fb8ffa242f98d0",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจนิ้วชี้เฟรต 2 นิ้วนาง/ก้อยเฟรต 3 และสาย 4 เปิด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Esus4",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "7bf591881acef63864867b1a35bf6b5baecd98b5141cca971b5e21b1cc050d8a",
+      "views": [
+        {
+          "id": "Esus4",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Esus4-front.png",
+          "imageSHA256": "b05486c9c21a5f9842ee7247bc4952615673a8a66c377aec5ddac699d7cc7324",
+          "actual": {
+            "signature": "1bcefae3",
+            "triangles": 30230,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "7bf591881acef63864867b1a35bf6b5baecd98b5141cca971b5e21b1cc050d8a",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Esus4",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Esus4-side.png",
+          "imageSHA256": "d94e06d664893a345582a780a026133fe06ad19da776592217e15cb2a3d39800",
+          "actual": {
+            "signature": "1bcefae3",
+            "triangles": 29434,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "7bf591881acef63864867b1a35bf6b5baecd98b5141cca971b5e21b1cc050d8a",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Esus4",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Esus4-back.png",
+          "imageSHA256": "05a6c3824a4056d7414333d3e996fcc7c5ef2ce5fe6c4256a4d2d0642f1785b4",
+          "actual": {
+            "signature": "1bcefae3",
+            "triangles": 30446,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "7bf591881acef63864867b1a35bf6b5baecd98b5141cca971b5e21b1cc050d8a",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Esus4",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Esus4-player.png",
+          "imageSHA256": "a0d69374ff9c6057bdbc1ada79edbc9d067d073f7e9f1605811e151983cc99cb",
+          "actual": {
+            "signature": "1bcefae3",
+            "triangles": 30446,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "7bf591881acef63864867b1a35bf6b5baecd98b5141cca971b5e21b1cc050d8a",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ภาพด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่นสอดคล้องกับผังคอร์ดและไม่พบรูปทรงผิดปกติเด่นชัด",
+      "independentInstructorApproval": false
+    },
+    {
+      "id": "Asus4",
+      "actualFourViewRendersInspected": true,
+      "technicalVisualPassed": true,
+      "needsFurtherCorrection": false,
+      "sceneSHA256": "91b265ee4c7250c792366e3cff3117e64441024dc60131b353ae3737cdcfb588",
+      "views": [
+        {
+          "id": "Asus4",
+          "view": "front",
+          "file": "docs/practice-complete-42/screenshots/final/Asus4-front.png",
+          "imageSHA256": "19cffb593aa76519df53b23479202003ff7f38ca9201ea059b617d3de450b927",
+          "actual": {
+            "signature": "d611fb16",
+            "triangles": 30446,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "91b265ee4c7250c792366e3cff3117e64441024dc60131b353ae3737cdcfb588",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Asus4",
+          "view": "side",
+          "file": "docs/practice-complete-42/screenshots/final/Asus4-side.png",
+          "imageSHA256": "ee1c2a42840154105301d2669f32ef7977bef35973841b47abcf473afa27206a",
+          "actual": {
+            "signature": "d611fb16",
+            "triangles": 28886,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "91b265ee4c7250c792366e3cff3117e64441024dc60131b353ae3737cdcfb588",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Asus4",
+          "view": "back",
+          "file": "docs/practice-complete-42/screenshots/final/Asus4-back.png",
+          "imageSHA256": "1cd6e4e5dc7225737cc2148028d9f228f4fcc22f339b671610da9e6136503392",
+          "actual": {
+            "signature": "d611fb16",
+            "triangles": 30472,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "91b265ee4c7250c792366e3cff3117e64441024dc60131b353ae3737cdcfb588",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        },
+        {
+          "id": "Asus4",
+          "view": "player",
+          "file": "docs/practice-complete-42/screenshots/final/Asus4-player.png",
+          "imageSHA256": "98f04aa2b0d6a423e2d751b026aa04524682b4688639c966daf5272180a3f7a4",
+          "actual": {
+            "signature": "d611fb16",
+            "triangles": 30462,
+            "model": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc"
+          },
+          "notTeachingApproval": true,
+          "sceneSHA256": "91b265ee4c7250c792366e3cff3117e64441024dc60131b353ae3737cdcfb588",
+          "viewerSourceSHA256": "0b65eec99ce65feb28e2ec005297d98bfabb35982ba52edd1dc4806bc1700bfd"
+        }
+      ],
+      "note": "ตรวจภาพเรนเดอร์ GLB จริงครบด้านหน้า ด้านข้าง หลังคอ และมุมผู้เล่น เทียบตำแหน่งนิ้วกับผังคอร์ดและผลตรวจเมชแล้ว ผ่านการตรวจภาพเชิงเทคนิค ยังไม่ใช่การรับรองจากผู้สอนกีตาร์อิสระ",
+      "independentInstructorApproval": false
+    }
+  ]
+}

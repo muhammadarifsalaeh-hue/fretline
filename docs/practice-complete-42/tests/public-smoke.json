@@ -1,0 +1,122 @@
+{
+  "checks": [
+    {
+      "name": "home-stats",
+      "passed": true,
+      "evidence": {
+        "models": 200,
+        "brands": 10,
+        "types": 4,
+        "compareMax": 4
+      }
+    },
+    {
+      "name": "catalog-and-real-yamaha-search",
+      "passed": true,
+      "evidence": {
+        "filteredModelsFromRealResultCount": 20,
+        "visiblePageModels": 9,
+        "ids": [
+          "yamaha-pacifica-612viifm",
+          "yamaha-fg800",
+          "yamaha-fg850",
+          "yamaha-fg840",
+          "yamaha-fg830",
+          "yamaha-fg820",
+          "yamaha-fg820-12",
+          "yamaha-fg820l",
+          "yamaha-fg800j"
+        ],
+        "paginationPreserved": true
+      }
+    },
+    {
+      "name": "compare-real-selected-models",
+      "passed": true,
+      "evidence": {
+        "selectedIds": [
+          "yamaha-pacifica-612viifm",
+          "yamaha-fg800"
+        ],
+        "selectedColumns": 2
+      }
+    },
+    {
+      "name": "favorites-add-persist-remove",
+      "passed": true,
+      "evidence": {
+        "id": "yamaha-pacifica-612viifm"
+      }
+    },
+    {
+      "name": "real-product-detail",
+      "passed": true,
+      "evidence": {
+        "route": "/guitars/yamaha-pacifica-612viifm",
+        "model": "Pacifica 612VIIFM"
+      }
+    },
+    {
+      "name": "brand-directory-and-detail",
+      "passed": true,
+      "evidence": {
+        "brands": 10,
+        "directoryTarget": "/guitars?brand=C%C3%B3rdoba",
+        "deepRoute": "/brands/cordoba"
+      }
+    },
+    {
+      "name": "find-my-guitar-all-five-real-steps",
+      "passed": true,
+      "evidence": {
+        "questions": [
+          {
+            "question": "type",
+            "choice": "electric"
+          },
+          {
+            "question": "level",
+            "choice": "beginner"
+          },
+          {
+            "question": "style",
+            "choice": "rock"
+          },
+          {
+            "question": "budget",
+            "choice": "low"
+          },
+          {
+            "question": "priority",
+            "choice": "light"
+          }
+        ],
+        "resultsFromRealCatalog": true
+      }
+    },
+    {
+      "name": "admin-anonymous-entry",
+      "passed": true,
+      "evidence": {
+        "pageOpens": true,
+        "authenticatedWritesNotAttempted": true
+      }
+    },
+    {
+      "name": "practice-assets-remain-lazy-and-no-database-writes",
+      "passed": true,
+      "evidence": {
+        "handRequests": 0,
+        "databaseWrites": 0
+      }
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "databaseWrites": 0,
+  "handRequestsOutsidePractice": [],
+  "catalogFixturesUsed": false,
+  "dataSourceChanged": false,
+  "hostedSupabaseAuthenticationTested": false,
+  "passed": true
+}

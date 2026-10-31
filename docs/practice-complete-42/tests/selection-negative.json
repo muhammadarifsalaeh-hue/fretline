@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "checks": 21,
+  "rows": [
+    {
+      "name": "Real independent audit can select only geometry, never teaching approval",
+      "passed": true
+    },
+    {
+      "name": "Wrong applied bone/root cannot reuse a prior mesh report",
+      "passed": true
+    },
+    {
+      "name": "A stale pressure map cannot reuse a prior mesh report",
+      "passed": true
+    },
+    {
+      "name": "Missing required owner contact cannot pass",
+      "passed": true
+    },
+    {
+      "name": "Wrong finger cannot pass a claimed positive report",
+      "passed": true
+    },
+    {
+      "name": "Wrong string cannot pass a claimed positive report",
+      "passed": true
+    },
+    {
+      "name": "Wrong fret cannot pass a claimed positive report",
+      "passed": true
+    },
+    {
+      "name": "A penetrating owner surface cannot pass",
+      "passed": true
+    },
+    {
+      "name": "A distant owner surface cannot pass",
+      "passed": true
+    },
+    {
+      "name": "Missing one physical string cannot pass",
+      "passed": true
+    },
+    {
+      "name": "Blocked open string cannot pass",
+      "passed": true
+    },
+    {
+      "name": "Self-crossing cannot pass",
+      "passed": true
+    },
+    {
+      "name": "False is not an integer zero collision count",
+      "passed": true
+    },
+    {
+      "name": "Guitar intersection cannot pass",
+      "passed": true
+    },
+    {
+      "name": "False cannot masquerade as zero guitar intersections",
+      "passed": true
+    },
+    {
+      "name": "Wood penetration cannot pass",
+      "passed": true
+    },
+    {
+      "name": "Non-finite wood measurements cannot pass",
+      "passed": true
+    },
+    {
+      "name": "Unexpected barre span cannot pass",
+      "passed": true
+    },
+    {
+      "name": "Even re-labelled metadata cannot approve a noncanonical pressure key",
+      "passed": true
+    },
+    {
+      "name": "Even re-labelled metadata cannot approve an invalid root quaternion",
+      "passed": true
+    },
+    {
+      "name": "Automatic geometry cannot manufacture a human/anatomical certification",
+      "passed": true
+    }
+  ]
+}

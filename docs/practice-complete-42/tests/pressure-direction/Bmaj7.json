@@ -1,0 +1,144 @@
+{
+  "id": "Bmaj7",
+  "poseTransformSHA256": "10c110717800c56c49388eb627df15ff720aac9f1c8978e507ec2911f1e3d9cb",
+  "allPressedContactsFromAbove": true,
+  "contacts": [
+    {
+      "finger": 1,
+      "string": 5,
+      "fret": 2,
+      "kind": "barre",
+      "distanceMm": 0.49000010710195896,
+      "centerlinePointMm": [
+        56.94425720328305,
+        1.310738094029216,
+        10.948172394655469
+      ],
+      "palmarSkinPointMm": [
+        56.947858003944006,
+        1.7994156747383578,
+        10.91237628723034
+      ],
+      "skinMinusCenterYmm": 0.4886775807091419,
+      "outwardFraction": 0.9973009671352135,
+      "ownedTriangleVertexIndices": [
+        6174,
+        2289,
+        188
+      ],
+      "pressureComesFromAbove": true,
+      "boardOutwardComponentMm": 0.48731950556193737,
+      "downwardPressurePossible": true
+    },
+    {
+      "finger": 3,
+      "string": 4,
+      "fret": 4,
+      "kind": "tip",
+      "distanceMm": 0.3649997501674003,
+      "centerlinePointMm": [
+        117.36710778505976,
+        1.3342854057919105,
+        3.8079075358558665
+      ],
+      "palmarSkinPointMm": [
+        117.38355267716969,
+        1.6804026441506021,
+        3.9226125508147165
+      ],
+      "skinMinusCenterYmm": 0.3461172383586917,
+      "outwardFraction": 0.9482670555252475,
+      "ownedTriangleVertexIndices": [
+        4677,
+        4792,
+        532
+      ],
+      "pressureComesFromAbove": true,
+      "boardOutwardComponentMm": 0.34734464186817704,
+      "downwardPressurePossible": true
+    },
+    {
+      "finger": 2,
+      "string": 3,
+      "fret": 3,
+      "kind": "tip",
+      "distanceMm": 0.2650000197209442,
+      "centerlinePointMm": [
+        92.66027564006453,
+        1.236996884235317,
+        -3.743090229302638
+      ],
+      "palmarSkinPointMm": [
+        92.62908121932895,
+        1.496294769208523,
+        -3.6981844900759544
+      ],
+      "skinMinusCenterYmm": 0.25929788497320594,
+      "outwardFraction": 0.9784825119871958,
+      "ownedTriangleVertexIndices": [
+        4408,
+        270,
+        4428
+      ],
+      "pressureComesFromAbove": true,
+      "boardOutwardComponentMm": 0.25880283895193784,
+      "downwardPressurePossible": true
+    },
+    {
+      "finger": 4,
+      "string": 2,
+      "fret": 4,
+      "kind": "tip",
+      "distanceMm": 0.19999966222257945,
+      "centerlinePointMm": [
+        132.30022721494805,
+        0.9997135205180431,
+        -11.541251788265793
+      ],
+      "palmarSkinPointMm": [
+        132.31919115204707,
+        1.1952633325846322,
+        -11.503828466933072
+      ],
+      "skinMinusCenterYmm": 0.19554981206658917,
+      "outwardFraction": 0.9777507116435125,
+      "ownedTriangleVertexIndices": [
+        6732,
+        863,
+        3034
+      ],
+      "pressureComesFromAbove": true,
+      "boardOutwardComponentMm": 0.19421021920712392,
+      "downwardPressurePossible": true
+    },
+    {
+      "finger": 1,
+      "string": 1,
+      "fret": 2,
+      "kind": "barre",
+      "distanceMm": 0.1600000118146425,
+      "centerlinePointMm": [
+        58.80099744154117,
+        0.6730831857908048,
+        -18.271309380020217
+      ],
+      "palmarSkinPointMm": [
+        58.82461262979431,
+        0.8307512438375477,
+        -18.28484119941834
+      ],
+      "skinMinusCenterYmm": 0.1576680580467429,
+      "outwardFraction": 0.9854252900268462,
+      "ownedTriangleVertexIndices": [
+        3301,
+        7055,
+        2116
+      ],
+      "pressureComesFromAbove": true,
+      "boardOutwardComponentMm": 0.15815910625521232,
+      "downwardPressurePossible": true
+    }
+  ],
+  "teachingApproval": false,
+  "contactDirectionPassed": true
+}

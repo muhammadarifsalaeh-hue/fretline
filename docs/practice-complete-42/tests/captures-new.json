@@ -1,0 +1,436 @@
+{
+  "rows": [
+    {
+      "id": "Csus4",
+      "view": "front",
+      "poseTransformSHA256": "c37d352880f27ac1c024259b7e73051bea5aa42953f33c7beb50d00847976e2f",
+      "poseSource": ".local-preview/practice-complete-42/Csus4-thumb/candidate.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Csus4-front.png",
+      "SHA256": "55bced805d6fd8fbbc8c9ec896eb40f798d039a557a89127f662d1fa8ed86b13",
+      "actualBoneSignature": "eb9471ca"
+    },
+    {
+      "id": "Csus4",
+      "view": "side",
+      "poseTransformSHA256": "c37d352880f27ac1c024259b7e73051bea5aa42953f33c7beb50d00847976e2f",
+      "poseSource": ".local-preview/practice-complete-42/Csus4-thumb/candidate.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Csus4-side.png",
+      "SHA256": "59c8077ededfd1cb467843aba11d779c6637e36bd8c7ec0538d19618b5d2e4e4",
+      "actualBoneSignature": "eb9471ca"
+    },
+    {
+      "id": "Csus4",
+      "view": "back",
+      "poseTransformSHA256": "c37d352880f27ac1c024259b7e73051bea5aa42953f33c7beb50d00847976e2f",
+      "poseSource": ".local-preview/practice-complete-42/Csus4-thumb/candidate.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Csus4-back.png",
+      "SHA256": "d9a342593484c3385510b21399702ab80e79ef5e0a8421be1850831c4d97f13f",
+      "actualBoneSignature": "eb9471ca"
+    },
+    {
+      "id": "Csus4",
+      "view": "player",
+      "poseTransformSHA256": "c37d352880f27ac1c024259b7e73051bea5aa42953f33c7beb50d00847976e2f",
+      "poseSource": ".local-preview/practice-complete-42/Csus4-thumb/candidate.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Csus4-player.png",
+      "SHA256": "1f472d9a9e17871bc6c5ddd0502e1bb14bce28827b71c163ea4cc43b3971e27c",
+      "actualBoneSignature": "eb9471ca"
+    },
+    {
+      "id": "Am",
+      "view": "front",
+      "poseTransformSHA256": "d393a4ea2c3b537899dfd653a7a22c444cd859758beb33db3e28c53f25429d61",
+      "poseSource": ".local-preview/practice-complete-42/pressure-open/Am/selected.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Am-front.png",
+      "SHA256": "b9d0fadf53c7098a55ad2d463973aadd729830f65d3d27ab07cd26914d219fd6",
+      "actualBoneSignature": "8a67b432"
+    },
+    {
+      "id": "Am",
+      "view": "side",
+      "poseTransformSHA256": "d393a4ea2c3b537899dfd653a7a22c444cd859758beb33db3e28c53f25429d61",
+      "poseSource": ".local-preview/practice-complete-42/pressure-open/Am/selected.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Am-side.png",
+      "SHA256": "9f1b8e239714367c8ecaa42d13f71f5215e38e1536e85147e399d911e7f75c3d",
+      "actualBoneSignature": "8a67b432"
+    },
+    {
+      "id": "Am",
+      "view": "back",
+      "poseTransformSHA256": "d393a4ea2c3b537899dfd653a7a22c444cd859758beb33db3e28c53f25429d61",
+      "poseSource": ".local-preview/practice-complete-42/pressure-open/Am/selected.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Am-back.png",
+      "SHA256": "8519463e626664111402d76638031ecb245bd08403cd734e32d7259d8be09d40",
+      "actualBoneSignature": "8a67b432"
+    },
+    {
+      "id": "Am",
+      "view": "player",
+      "poseTransformSHA256": "d393a4ea2c3b537899dfd653a7a22c444cd859758beb33db3e28c53f25429d61",
+      "poseSource": ".local-preview/practice-complete-42/pressure-open/Am/selected.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Am-player.png",
+      "SHA256": "041ac5c4d780fb119f5f6b9597bbdb560d41ac0637641b211f6f3ca350313ae5",
+      "actualBoneSignature": "8a67b432"
+    },
+    {
+      "id": "E",
+      "view": "front",
+      "poseTransformSHA256": "0e3fb9e6a555f2dcee2ca00f2a140377e695554351dad9e4ccec696d06f68bb4",
+      "poseSource": ".local-preview/practice-complete-42/pressure-open/E/selected.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/E-front.png",
+      "SHA256": "6c38e7ed1f92f0cabfaa03723b84898363320a67020eed2fa2861ff590a73fba",
+      "actualBoneSignature": "f916e278"
+    },
+    {
+      "id": "E",
+      "view": "side",
+      "poseTransformSHA256": "0e3fb9e6a555f2dcee2ca00f2a140377e695554351dad9e4ccec696d06f68bb4",
+      "poseSource": ".local-preview/practice-complete-42/pressure-open/E/selected.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/E-side.png",
+      "SHA256": "7a2625f6a8c92e7b4e94d6d9188369688c8136b08d83e596aefdd6ec92bb9596",
+      "actualBoneSignature": "f916e278"
+    },
+    {
+      "id": "E",
+      "view": "back",
+      "poseTransformSHA256": "0e3fb9e6a555f2dcee2ca00f2a140377e695554351dad9e4ccec696d06f68bb4",
+      "poseSource": ".local-preview/practice-complete-42/pressure-open/E/selected.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/E-back.png",
+      "SHA256": "3fa5b6fa05d486655c0a397ecde34d60f8a58a023caff681cb3a958d016b17cb",
+      "actualBoneSignature": "f916e278"
+    },
+    {
+      "id": "E",
+      "view": "player",
+      "poseTransformSHA256": "0e3fb9e6a555f2dcee2ca00f2a140377e695554351dad9e4ccec696d06f68bb4",
+      "poseSource": ".local-preview/practice-complete-42/pressure-open/E/selected.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/E-player.png",
+      "SHA256": "5eb7b68035231596e6c5f50d68b107fbd86140c5652201ffa5d6cd1ab0cfdc13",
+      "actualBoneSignature": "f916e278"
+    },
+    {
+      "id": "Em",
+      "view": "front",
+      "poseTransformSHA256": "08d2b3a957b8c164b8f7bc7bd8ac915f0d8831272a36ba0b142aada0c935a145",
+      "poseSource": ".local-preview/practice-complete-42/pressure-open/Em/selected.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Em-front.png",
+      "SHA256": "04db27ce2785b31e0494f36968aa3b07fd036c32caff3517cb0b0ad513ede31c",
+      "actualBoneSignature": "7c8759f1"
+    },
+    {
+      "id": "Em",
+      "view": "side",
+      "poseTransformSHA256": "08d2b3a957b8c164b8f7bc7bd8ac915f0d8831272a36ba0b142aada0c935a145",
+      "poseSource": ".local-preview/practice-complete-42/pressure-open/Em/selected.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Em-side.png",
+      "SHA256": "ef3386c4cca734c4e810245f422f60f42df8fc7a6fee51622551f43356bb7ff2",
+      "actualBoneSignature": "7c8759f1"
+    },
+    {
+      "id": "Em",
+      "view": "back",
+      "poseTransformSHA256": "08d2b3a957b8c164b8f7bc7bd8ac915f0d8831272a36ba0b142aada0c935a145",
+      "poseSource": ".local-preview/practice-complete-42/pressure-open/Em/selected.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Em-back.png",
+      "SHA256": "4bb01a7a38152a08894a4f84b59b5ceaacd632f2be561973e912986adb85b5d4",
+      "actualBoneSignature": "7c8759f1"
+    },
+    {
+      "id": "Em",
+      "view": "player",
+      "poseTransformSHA256": "08d2b3a957b8c164b8f7bc7bd8ac915f0d8831272a36ba0b142aada0c935a145",
+      "poseSource": ".local-preview/practice-complete-42/pressure-open/Em/selected.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Em-player.png",
+      "SHA256": "1fa50ca2eb41a5b6dd13308fd72d3fd8607f22afd6b006828a5503033def312a",
+      "actualBoneSignature": "7c8759f1"
+    },
+    {
+      "id": "Csus4",
+      "view": "front",
+      "poseTransformSHA256": "c37d352880f27ac1c024259b7e73051bea5aa42953f33c7beb50d00847976e2f",
+      "poseSource": ".local-preview/practice-complete-42/Csus4-thumb/candidate.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Csus4-30943e99-front.png",
+      "SHA256": "2f6d2799f06bb32e9d35c6e047f55d8ca0c8f341e6176dd6c5b811a03e5533a2",
+      "actualBoneSignature": "eb9471ca"
+    },
+    {
+      "id": "Csus4",
+      "view": "side",
+      "poseTransformSHA256": "c37d352880f27ac1c024259b7e73051bea5aa42953f33c7beb50d00847976e2f",
+      "poseSource": ".local-preview/practice-complete-42/Csus4-thumb/candidate.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Csus4-30943e99-side.png",
+      "SHA256": "6e21b0e04d655d046d91cf90ded651e7bb6f8ef901b0c6522c22f0e4374973f7",
+      "actualBoneSignature": "eb9471ca"
+    },
+    {
+      "id": "Csus4",
+      "view": "back",
+      "poseTransformSHA256": "c37d352880f27ac1c024259b7e73051bea5aa42953f33c7beb50d00847976e2f",
+      "poseSource": ".local-preview/practice-complete-42/Csus4-thumb/candidate.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Csus4-30943e99-back.png",
+      "SHA256": "4be37556dbf4e405e6f7e0560e67f591c1d38963f60a0aa6c1e8c7e83960ea8b",
+      "actualBoneSignature": "eb9471ca"
+    },
+    {
+      "id": "Csus4",
+      "view": "player",
+      "poseTransformSHA256": "c37d352880f27ac1c024259b7e73051bea5aa42953f33c7beb50d00847976e2f",
+      "poseSource": ".local-preview/practice-complete-42/Csus4-thumb/candidate.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Csus4-30943e99-player.png",
+      "SHA256": "1fe940b14f8320e790c05bf8b844e197d0cb0d71b8e5dba7d8e42b235e287fce",
+      "actualBoneSignature": "eb9471ca"
+    },
+    {
+      "id": "Am",
+      "view": "front",
+      "poseTransformSHA256": "3fe60ab1c5999b043ef424f041419ca22ee0c64b9161ad558460d6555012fcf4",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Am-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Am-10298e10-front.png",
+      "SHA256": "fbe1e08aa389e4c2431a591a8ffb551250bbd5dab7ca41f2fbce135500ea0be5",
+      "actualBoneSignature": "9bdd0120"
+    },
+    {
+      "id": "Am",
+      "view": "side",
+      "poseTransformSHA256": "3fe60ab1c5999b043ef424f041419ca22ee0c64b9161ad558460d6555012fcf4",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Am-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Am-10298e10-side.png",
+      "SHA256": "c03489a313fbe798371cca9c1d24a231beb35c4d42f84e384a34162e2c1b897f",
+      "actualBoneSignature": "9bdd0120"
+    },
+    {
+      "id": "Am",
+      "view": "back",
+      "poseTransformSHA256": "3fe60ab1c5999b043ef424f041419ca22ee0c64b9161ad558460d6555012fcf4",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Am-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Am-10298e10-back.png",
+      "SHA256": "ff388c5cb0e788d1069c2dafbf801353a9732d4b208a0e90f5633e44821c1d98",
+      "actualBoneSignature": "9bdd0120"
+    },
+    {
+      "id": "Am",
+      "view": "player",
+      "poseTransformSHA256": "3fe60ab1c5999b043ef424f041419ca22ee0c64b9161ad558460d6555012fcf4",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Am-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Am-10298e10-player.png",
+      "SHA256": "bec71ba2fa643a9e744812b3275baac402be7da110c5e1ffd012697a5a1ad028",
+      "actualBoneSignature": "9bdd0120"
+    },
+    {
+      "id": "Gmaj7",
+      "view": "front",
+      "poseTransformSHA256": "de1b9c2b1671f1deecfeb0ddcc260980e60e021c3066e8a3b373e2614e91a187",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Gmaj7-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Gmaj7-2f570773-front.png",
+      "SHA256": "220cb12fda42e88aa40015b3c3e55c3bda081087df9b409309636f21be854639",
+      "actualBoneSignature": "bbfb2725"
+    },
+    {
+      "id": "Gmaj7",
+      "view": "side",
+      "poseTransformSHA256": "de1b9c2b1671f1deecfeb0ddcc260980e60e021c3066e8a3b373e2614e91a187",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Gmaj7-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Gmaj7-2f570773-side.png",
+      "SHA256": "e3512029aed382d23c3587437e76e7399f5a29fe30b9c736894c4c3e3fd654ba",
+      "actualBoneSignature": "bbfb2725"
+    },
+    {
+      "id": "Gmaj7",
+      "view": "back",
+      "poseTransformSHA256": "de1b9c2b1671f1deecfeb0ddcc260980e60e021c3066e8a3b373e2614e91a187",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Gmaj7-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Gmaj7-2f570773-back.png",
+      "SHA256": "45c348ff56246efc7be64b4f54d78f7fc529958eaea952966fd35ee8316682cd",
+      "actualBoneSignature": "bbfb2725"
+    },
+    {
+      "id": "Gmaj7",
+      "view": "player",
+      "poseTransformSHA256": "de1b9c2b1671f1deecfeb0ddcc260980e60e021c3066e8a3b373e2614e91a187",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Gmaj7-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Gmaj7-2f570773-player.png",
+      "SHA256": "1e3fbe9b936fff48578deb75d75f94da959d598cf2737740b9b9691eaf7d4be7",
+      "actualBoneSignature": "bbfb2725"
+    },
+    {
+      "id": "B7",
+      "view": "front",
+      "poseTransformSHA256": "8d1bc3eaf430f1c85c1b35a3b96edbebf8e123886af748e62dd6373a53af3ec6",
+      "poseSource": "docs/practice-complete-42/screenshots/new/B7-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/B7-7feeb800-front.png",
+      "SHA256": "a51ca737133005b17e3348600a21a64c041d283f2814fb909a6677c81a608483",
+      "actualBoneSignature": "a09ba711"
+    },
+    {
+      "id": "B7",
+      "view": "side",
+      "poseTransformSHA256": "8d1bc3eaf430f1c85c1b35a3b96edbebf8e123886af748e62dd6373a53af3ec6",
+      "poseSource": "docs/practice-complete-42/screenshots/new/B7-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/B7-7feeb800-side.png",
+      "SHA256": "3bab06f96b0919aeb39d4fcf4e0f1b7a1d6d343fa3c0b9e4c7462d57e70d0d38",
+      "actualBoneSignature": "a09ba711"
+    },
+    {
+      "id": "B7",
+      "view": "back",
+      "poseTransformSHA256": "8d1bc3eaf430f1c85c1b35a3b96edbebf8e123886af748e62dd6373a53af3ec6",
+      "poseSource": "docs/practice-complete-42/screenshots/new/B7-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/B7-7feeb800-back.png",
+      "SHA256": "fbdb7322ef8135000ee91f2dff80841eb038d8242425132612e0b7e07515898f",
+      "actualBoneSignature": "a09ba711"
+    },
+    {
+      "id": "B7",
+      "view": "player",
+      "poseTransformSHA256": "8d1bc3eaf430f1c85c1b35a3b96edbebf8e123886af748e62dd6373a53af3ec6",
+      "poseSource": "docs/practice-complete-42/screenshots/new/B7-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/B7-7feeb800-player.png",
+      "SHA256": "715ea2ab45d59b5f97068568c492764195e42778ef93fae0e3f205f02c4d0597",
+      "actualBoneSignature": "a09ba711"
+    },
+    {
+      "id": "Dsus2",
+      "view": "front",
+      "poseTransformSHA256": "4f3f3cfef0f618d330d720453757b0a26375a8c68d0eacd319275f734c310e36",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Dsus2-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Dsus2-6ccd22a7-front.png",
+      "SHA256": "6490db060300d1ae34f14aae78c279c924594dded277b726e82d3776eca69cd8",
+      "actualBoneSignature": "3d72415e"
+    },
+    {
+      "id": "Dsus2",
+      "view": "side",
+      "poseTransformSHA256": "4f3f3cfef0f618d330d720453757b0a26375a8c68d0eacd319275f734c310e36",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Dsus2-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Dsus2-6ccd22a7-side.png",
+      "SHA256": "621fd8f75c649b346f65b3a35296b6bd1a5a3a7cbf237be352a0e9ff5bc5e0f7",
+      "actualBoneSignature": "3d72415e"
+    },
+    {
+      "id": "Dsus2",
+      "view": "back",
+      "poseTransformSHA256": "4f3f3cfef0f618d330d720453757b0a26375a8c68d0eacd319275f734c310e36",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Dsus2-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Dsus2-6ccd22a7-back.png",
+      "SHA256": "fe18ee5fb3408013c424ec55790cdef090053beb9fffcd121dc33a19e8905b3e",
+      "actualBoneSignature": "3d72415e"
+    },
+    {
+      "id": "Dsus2",
+      "view": "player",
+      "poseTransformSHA256": "4f3f3cfef0f618d330d720453757b0a26375a8c68d0eacd319275f734c310e36",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Dsus2-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Dsus2-6ccd22a7-player.png",
+      "SHA256": "28b9731f7048eb29cd29d6a284e7e78b2bc6900cf1765f9c4f0509aa4ebedb00",
+      "actualBoneSignature": "3d72415e"
+    },
+    {
+      "id": "E",
+      "view": "front",
+      "poseTransformSHA256": "8ec9aa73474eda021f7b13ffab81678b4291834178036639bd701c4f8641302d",
+      "poseSource": "docs/practice-complete-42/screenshots/new/E-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/E-164558bb-front.png",
+      "SHA256": "9f72e5eea7589bdd9505acc9e9d28b4c19f9e9c6f6214d944953788b57130f80",
+      "actualBoneSignature": "e1d2098e"
+    },
+    {
+      "id": "E",
+      "view": "side",
+      "poseTransformSHA256": "8ec9aa73474eda021f7b13ffab81678b4291834178036639bd701c4f8641302d",
+      "poseSource": "docs/practice-complete-42/screenshots/new/E-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/E-164558bb-side.png",
+      "SHA256": "e49f9acb6b3a2630c7f15ba21f18b36bb7ae165ef7da8b83f97e4a8184fff11f",
+      "actualBoneSignature": "e1d2098e"
+    },
+    {
+      "id": "E",
+      "view": "back",
+      "poseTransformSHA256": "8ec9aa73474eda021f7b13ffab81678b4291834178036639bd701c4f8641302d",
+      "poseSource": "docs/practice-complete-42/screenshots/new/E-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/E-164558bb-back.png",
+      "SHA256": "cff15ab0257c64b5ecf498f21d202f7bbdb2a9d08f1cc0223c7ae3c46da192ff",
+      "actualBoneSignature": "e1d2098e"
+    },
+    {
+      "id": "E",
+      "view": "player",
+      "poseTransformSHA256": "8ec9aa73474eda021f7b13ffab81678b4291834178036639bd701c4f8641302d",
+      "poseSource": "docs/practice-complete-42/screenshots/new/E-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/E-164558bb-player.png",
+      "SHA256": "d076ee19724b44a406999eee6293b1fb78df657718f95b892c0acf372774fcc9",
+      "actualBoneSignature": "e1d2098e"
+    },
+    {
+      "id": "Em",
+      "view": "front",
+      "poseTransformSHA256": "b084058c09dc31ec87871649afe4c66ed60f220a5d88033d701ac0e273941214",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Em-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Em-fad7afc1-front.png",
+      "SHA256": "be7019b38ca281d0566e51423badb7ddec15e12c9856ae78fd0bae6f472a3365",
+      "actualBoneSignature": "0e640334"
+    },
+    {
+      "id": "Em",
+      "view": "side",
+      "poseTransformSHA256": "b084058c09dc31ec87871649afe4c66ed60f220a5d88033d701ac0e273941214",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Em-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Em-fad7afc1-side.png",
+      "SHA256": "054dc376ec921af7a9015437ef6cb924b6fbd55e2dd29c1b8d47086466cae267",
+      "actualBoneSignature": "0e640334"
+    },
+    {
+      "id": "Em",
+      "view": "back",
+      "poseTransformSHA256": "b084058c09dc31ec87871649afe4c66ed60f220a5d88033d701ac0e273941214",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Em-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Em-fad7afc1-back.png",
+      "SHA256": "ff0f230dbd2b30d7203d474082bdda5d85664e1f4bb81e7ce90572b9a8b2ec76",
+      "actualBoneSignature": "0e640334"
+    },
+    {
+      "id": "Em",
+      "view": "player",
+      "poseTransformSHA256": "b084058c09dc31ec87871649afe4c66ed60f220a5d88033d701ac0e273941214",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Em-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Em-fad7afc1-player.png",
+      "SHA256": "380e613a8ccb4bed2828cfe50d24748296bfcc1d34bebd12d039ed7c777f8f54",
+      "actualBoneSignature": "0e640334"
+    },
+    {
+      "id": "Esus4",
+      "view": "front",
+      "poseTransformSHA256": "f7ccdc58b5ea9275e3c58a93fe57d8d43c5045c915ef2b96520bb8edd58cbee7",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Esus4-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Esus4-53c7f285-front.png",
+      "SHA256": "b05486c9c21a5f9842ee7247bc4952615673a8a66c377aec5ddac699d7cc7324",
+      "actualBoneSignature": "1bcefae3"
+    },
+    {
+      "id": "Esus4",
+      "view": "side",
+      "poseTransformSHA256": "f7ccdc58b5ea9275e3c58a93fe57d8d43c5045c915ef2b96520bb8edd58cbee7",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Esus4-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Esus4-53c7f285-side.png",
+      "SHA256": "d94e06d664893a345582a780a026133fe06ad19da776592217e15cb2a3d39800",
+      "actualBoneSignature": "1bcefae3"
+    },
+    {
+      "id": "Esus4",
+      "view": "back",
+      "poseTransformSHA256": "f7ccdc58b5ea9275e3c58a93fe57d8d43c5045c915ef2b96520bb8edd58cbee7",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Esus4-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Esus4-53c7f285-back.png",
+      "SHA256": "05a6c3824a4056d7414333d3e996fcc7c5ef2ce5fe6c4256a4d2d0642f1785b4",
+      "actualBoneSignature": "1bcefae3"
+    },
+    {
+      "id": "Esus4",
+      "view": "player",
+      "poseTransformSHA256": "f7ccdc58b5ea9275e3c58a93fe57d8d43c5045c915ef2b96520bb8edd58cbee7",
+      "poseSource": "docs/practice-complete-42/screenshots/new/Esus4-capture-pose.json",
+      "screenshot": "docs/practice-complete-42/screenshots/new/Esus4-53c7f285-player.png",
+      "SHA256": "a0d69374ff9c6057bdbc1ada79edbc9d067d073f7e9f1605811e151983cc99cb",
+      "actualBoneSignature": "1bcefae3"
+    }
+  ]
+}

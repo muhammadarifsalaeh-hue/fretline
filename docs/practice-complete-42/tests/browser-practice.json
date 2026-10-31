@@ -1,0 +1,1828 @@
+{
+  "checks": [
+    {
+      "name": "desktop-layout-and-full-page-capture",
+      "passed": true,
+      "evidence": {
+        "idleWindowMs": 550,
+        "idleFrames": 0,
+        "physicalDeviceBenchmark": false,
+        "layout": {
+          "width": 1440,
+          "scroll": 1440
+        },
+        "library": {
+          "x": 43.1875,
+          "y": 114,
+          "width": 263.515625,
+          "height": 720
+        },
+        "model": {
+          "x": 324.703125,
+          "y": 245,
+          "width": 790.578125,
+          "height": 589
+        },
+        "details": {
+          "x": 1133.28125,
+          "y": 114,
+          "width": 263.515625,
+          "height": 720
+        },
+        "actualModel": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+        "handSignature": "1ce0a568",
+        "fullPageScreenshot": true
+      }
+    },
+    {
+      "name": "desktop-all42-original-diagrams-and-real-hand-gates",
+      "passed": true,
+      "evidence": {
+        "chords": 42,
+        "hands": 36,
+        "rejectedHandsHidden": 6,
+        "allAppliedBoneSignaturesMatchSavedTransforms": true,
+        "rows": [
+          {
+            "id": "C",
+            "signature": "1ce0a568",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "D",
+            "signature": "93ab4ead",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "E",
+            "signature": "e1d2098e",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "F",
+            "signature": "d724aed5",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "G",
+            "signature": "597a605e",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "A",
+            "signature": "0a234b4d",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "B",
+            "signature": "53c9b776",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Cm",
+            "signature": "1129b36e",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dm",
+            "signature": "f8923c92",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Em",
+            "signature": "0e640334",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Fm",
+            "signature": "c10db972",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Gm",
+            "signature": "6dd9e36b",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Am",
+            "signature": "9bdd0120",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Bm",
+            "signature": "80b39dc7",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "C7",
+            "signature": "1e087701",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "D7",
+            "signature": "4d09e114",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "E7",
+            "signature": "7753a6f9",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "F7",
+            "signature": "7acaa971",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "G7",
+            "signature": "389da23f",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "A7",
+            "signature": "c450140b",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "B7",
+            "signature": "a09ba711",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Cmaj7",
+            "signature": "dd9b927d",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dmaj7",
+            "signature": "3fa6a7be",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Emaj7",
+            "signature": "aa8bb71e",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Fmaj7",
+            "signature": "20167e00",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Gmaj7",
+            "signature": "bbfb2725",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Amaj7",
+            "signature": "5a53f777",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Bmaj7",
+            "signature": "6974ab4d",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Cm7",
+            "signature": "a10937c9",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dm7",
+            "signature": "452b1dc0",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Em7",
+            "signature": "d25523f8",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Fm7",
+            "signature": "60bccca6",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Gm7",
+            "signature": "ea2fc938",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Am7",
+            "signature": "69643940",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Bm7",
+            "signature": "8b3e516a",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Csus2",
+            "signature": "cd4b2acc",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dsus2",
+            "signature": "3d72415e",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Asus2",
+            "signature": "e92399ab",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Csus4",
+            "signature": "eb9471ca",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dsus4",
+            "signature": "1285e384",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Esus4",
+            "signature": "1bcefae3",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Asus4",
+            "signature": "d611fb16",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "desktop-filters-search-and-keyboard",
+      "passed": true,
+      "evidence": {
+        "allEightFilters": true,
+        "searchAndEmptyState": true,
+        "rovingFocus": true,
+        "arrowHomeEnd": true,
+        "layout": {
+          "width": 1440,
+          "scroll": 1440
+        }
+      }
+    },
+    {
+      "name": "desktop-single-bar-markers-camera-and-touch",
+      "passed": true,
+      "evidence": {
+        "markersChangeDrawCallsOnly": true,
+        "sixViewsPlusReset": true,
+        "nearHorizontalNeckDegrees": 7.603636279743864,
+        "realPointerDrag": true,
+        "keyboardZoom": true,
+        "realTwoTouchPinch": false
+      }
+    },
+    {
+      "name": "desktop-existing-hand-toggle-and-rejection",
+      "passed": true,
+      "evidence": {
+        "existingShowHidePreferencePreserved": true,
+        "noToggleCanRevealRejectedPose": true
+      }
+    },
+    {
+      "name": "desktop-popular-and-scroll",
+      "passed": true,
+      "evidence": {
+        "carouselScrolls": true,
+        "selectionSynchronized": true,
+        "popularSelectionFollowsAudit": true,
+        "pageAndFooterScroll": true
+      }
+    },
+    {
+      "name": "desktop-real-audio-and-speed",
+      "passed": true,
+      "evidence": {
+        "nativeAudioSignal": {
+          "rms": 0.04828356547655211,
+          "peak": 0.1133861094713211,
+          "notes": [
+            {
+              "frequency": 130.8127899169922,
+              "start": 0.025
+            },
+            {
+              "frequency": 164.81378173828125,
+              "start": 0.145
+            },
+            {
+              "frequency": 195.99771118164062,
+              "start": 0.265
+            },
+            {
+              "frequency": 261.6255798339844,
+              "start": 0.385
+            },
+            {
+              "frequency": 329.6275634765625,
+              "start": 0.505
+            }
+          ],
+          "contexts": 1,
+          "state": "running"
+        },
+        "slowerChangesActualSchedule": true,
+        "pitchUnchanged": true,
+        "bothPlayButtonsSynchronized": true,
+        "chordChangeStopsAudio": true,
+        "rateBounds": true,
+        "fingerPoseUnchangedBySound": true,
+        "naturalPlaybackEnds": true,
+        "spaUnmountClosesNativeContext": true
+      }
+    },
+    {
+      "name": "desktop-other-page-style-isolation",
+      "passed": true,
+      "evidence": {
+        "homeDataUnchanged": true,
+        "practiceNavigationStyleDoesNotLeak": true
+      }
+    },
+    {
+      "name": "ipad-landscape-layout-and-full-page-capture",
+      "passed": true,
+      "evidence": {
+        "idleWindowMs": 550,
+        "idleFrames": 0,
+        "physicalDeviceBenchmark": false,
+        "layout": {
+          "width": 1194,
+          "scroll": 1194
+        },
+        "library": {
+          "x": 22,
+          "y": 114,
+          "width": 225.1875,
+          "height": 720
+        },
+        "model": {
+          "x": 259.1875,
+          "y": 235.703125,
+          "width": 675.609375,
+          "height": 598.296875
+        },
+        "details": {
+          "x": 946.796875,
+          "y": 114,
+          "width": 225.1875,
+          "height": 720
+        },
+        "actualModel": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+        "handSignature": "1ce0a568",
+        "fullPageScreenshot": true
+      }
+    },
+    {
+      "name": "ipad-landscape-all42-original-diagrams-and-real-hand-gates",
+      "passed": true,
+      "evidence": {
+        "chords": 42,
+        "hands": 36,
+        "rejectedHandsHidden": 6,
+        "allAppliedBoneSignaturesMatchSavedTransforms": true,
+        "rows": [
+          {
+            "id": "C",
+            "signature": "1ce0a568",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "D",
+            "signature": "93ab4ead",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "E",
+            "signature": "e1d2098e",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "F",
+            "signature": "d724aed5",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "G",
+            "signature": "597a605e",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "A",
+            "signature": "0a234b4d",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "B",
+            "signature": "53c9b776",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Cm",
+            "signature": "1129b36e",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dm",
+            "signature": "f8923c92",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Em",
+            "signature": "0e640334",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Fm",
+            "signature": "c10db972",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Gm",
+            "signature": "6dd9e36b",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Am",
+            "signature": "9bdd0120",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Bm",
+            "signature": "80b39dc7",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "C7",
+            "signature": "1e087701",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "D7",
+            "signature": "4d09e114",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "E7",
+            "signature": "7753a6f9",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "F7",
+            "signature": "7acaa971",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "G7",
+            "signature": "389da23f",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "A7",
+            "signature": "c450140b",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "B7",
+            "signature": "a09ba711",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Cmaj7",
+            "signature": "dd9b927d",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dmaj7",
+            "signature": "3fa6a7be",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Emaj7",
+            "signature": "aa8bb71e",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Fmaj7",
+            "signature": "20167e00",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Gmaj7",
+            "signature": "bbfb2725",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Amaj7",
+            "signature": "5a53f777",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Bmaj7",
+            "signature": "6974ab4d",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Cm7",
+            "signature": "a10937c9",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dm7",
+            "signature": "452b1dc0",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Em7",
+            "signature": "d25523f8",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Fm7",
+            "signature": "60bccca6",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Gm7",
+            "signature": "ea2fc938",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Am7",
+            "signature": "69643940",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Bm7",
+            "signature": "8b3e516a",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Csus2",
+            "signature": "cd4b2acc",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dsus2",
+            "signature": "3d72415e",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Asus2",
+            "signature": "e92399ab",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Csus4",
+            "signature": "eb9471ca",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dsus4",
+            "signature": "1285e384",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Esus4",
+            "signature": "1bcefae3",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Asus4",
+            "signature": "d611fb16",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "ipad-landscape-filters-search-and-keyboard",
+      "passed": true,
+      "evidence": {
+        "allEightFilters": true,
+        "searchAndEmptyState": true,
+        "rovingFocus": true,
+        "arrowHomeEnd": true,
+        "layout": {
+          "width": 1194,
+          "scroll": 1194
+        }
+      }
+    },
+    {
+      "name": "ipad-landscape-single-bar-markers-camera-and-touch",
+      "passed": true,
+      "evidence": {
+        "markersChangeDrawCallsOnly": true,
+        "sixViewsPlusReset": true,
+        "nearHorizontalNeckDegrees": 7.794679773531338,
+        "realPointerDrag": true,
+        "keyboardZoom": true,
+        "realTwoTouchPinch": true
+      }
+    },
+    {
+      "name": "ipad-landscape-existing-hand-toggle-and-rejection",
+      "passed": true,
+      "evidence": {
+        "existingShowHidePreferencePreserved": true,
+        "noToggleCanRevealRejectedPose": true
+      }
+    },
+    {
+      "name": "ipad-landscape-popular-and-scroll",
+      "passed": true,
+      "evidence": {
+        "carouselScrolls": true,
+        "selectionSynchronized": true,
+        "popularSelectionFollowsAudit": true,
+        "pageAndFooterScroll": true
+      }
+    },
+    {
+      "name": "ipad-landscape-real-audio-and-speed",
+      "passed": true,
+      "evidence": {
+        "nativeAudioSignal": {
+          "rms": 0.036900727854010947,
+          "peak": 0.10850247740745544,
+          "notes": [
+            {
+              "frequency": 130.8127899169922,
+              "start": 0.025
+            },
+            {
+              "frequency": 164.81378173828125,
+              "start": 0.145
+            },
+            {
+              "frequency": 195.99771118164062,
+              "start": 0.265
+            },
+            {
+              "frequency": 261.6255798339844,
+              "start": 0.385
+            },
+            {
+              "frequency": 329.6275634765625,
+              "start": 0.505
+            }
+          ],
+          "contexts": 1,
+          "state": "running"
+        },
+        "slowerChangesActualSchedule": true,
+        "pitchUnchanged": true,
+        "bothPlayButtonsSynchronized": true,
+        "chordChangeStopsAudio": true,
+        "rateBounds": true,
+        "fingerPoseUnchangedBySound": true,
+        "naturalPlaybackEnds": true,
+        "spaUnmountClosesNativeContext": true
+      }
+    },
+    {
+      "name": "ipad-landscape-other-page-style-isolation",
+      "passed": true,
+      "evidence": {
+        "homeDataUnchanged": true,
+        "practiceNavigationStyleDoesNotLeak": true
+      }
+    },
+    {
+      "name": "ipad-portrait-layout-and-full-page-capture",
+      "passed": true,
+      "evidence": {
+        "idleWindowMs": 550,
+        "idleFrames": 0,
+        "physicalDeviceBenchmark": false,
+        "layout": {
+          "width": 768,
+          "scroll": 768
+        },
+        "library": {
+          "x": 23.03125,
+          "y": 212.171875,
+          "width": 721.9375,
+          "height": 248.375
+        },
+        "model": {
+          "x": 23.03125,
+          "y": 477.546875,
+          "width": 721.9375,
+          "height": 555
+        },
+        "details": {
+          "x": 23.03125,
+          "y": 1049.546875,
+          "width": 721.9375,
+          "height": 483.296875
+        },
+        "actualModel": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+        "handSignature": "1ce0a568",
+        "fullPageScreenshot": true
+      }
+    },
+    {
+      "name": "ipad-portrait-all42-original-diagrams-and-real-hand-gates",
+      "passed": true,
+      "evidence": {
+        "chords": 42,
+        "hands": 36,
+        "rejectedHandsHidden": 6,
+        "allAppliedBoneSignaturesMatchSavedTransforms": true,
+        "rows": [
+          {
+            "id": "C",
+            "signature": "1ce0a568",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "D",
+            "signature": "93ab4ead",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "E",
+            "signature": "e1d2098e",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "F",
+            "signature": "d724aed5",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "G",
+            "signature": "597a605e",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "A",
+            "signature": "0a234b4d",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "B",
+            "signature": "53c9b776",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Cm",
+            "signature": "1129b36e",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dm",
+            "signature": "f8923c92",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Em",
+            "signature": "0e640334",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Fm",
+            "signature": "c10db972",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Gm",
+            "signature": "6dd9e36b",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Am",
+            "signature": "9bdd0120",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Bm",
+            "signature": "80b39dc7",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "C7",
+            "signature": "1e087701",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "D7",
+            "signature": "4d09e114",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "E7",
+            "signature": "7753a6f9",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "F7",
+            "signature": "7acaa971",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "G7",
+            "signature": "389da23f",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "A7",
+            "signature": "c450140b",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "B7",
+            "signature": "a09ba711",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Cmaj7",
+            "signature": "dd9b927d",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dmaj7",
+            "signature": "3fa6a7be",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Emaj7",
+            "signature": "aa8bb71e",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Fmaj7",
+            "signature": "20167e00",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Gmaj7",
+            "signature": "bbfb2725",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Amaj7",
+            "signature": "5a53f777",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Bmaj7",
+            "signature": "6974ab4d",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Cm7",
+            "signature": "a10937c9",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dm7",
+            "signature": "452b1dc0",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Em7",
+            "signature": "d25523f8",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Fm7",
+            "signature": "60bccca6",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Gm7",
+            "signature": "ea2fc938",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Am7",
+            "signature": "69643940",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Bm7",
+            "signature": "8b3e516a",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Csus2",
+            "signature": "cd4b2acc",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dsus2",
+            "signature": "3d72415e",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Asus2",
+            "signature": "e92399ab",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Csus4",
+            "signature": "eb9471ca",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dsus4",
+            "signature": "1285e384",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Esus4",
+            "signature": "1bcefae3",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Asus4",
+            "signature": "d611fb16",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "ipad-portrait-filters-search-and-keyboard",
+      "passed": true,
+      "evidence": {
+        "allEightFilters": true,
+        "searchAndEmptyState": true,
+        "rovingFocus": true,
+        "arrowHomeEnd": true,
+        "layout": {
+          "width": 768,
+          "scroll": 768
+        }
+      }
+    },
+    {
+      "name": "ipad-portrait-single-bar-markers-camera-and-touch",
+      "passed": true,
+      "evidence": {
+        "markersChangeDrawCallsOnly": true,
+        "sixViewsPlusReset": true,
+        "nearHorizontalNeckDegrees": 7.620979079692492,
+        "realPointerDrag": true,
+        "keyboardZoom": true,
+        "realTwoTouchPinch": true
+      }
+    },
+    {
+      "name": "ipad-portrait-existing-hand-toggle-and-rejection",
+      "passed": true,
+      "evidence": {
+        "existingShowHidePreferencePreserved": true,
+        "noToggleCanRevealRejectedPose": true
+      }
+    },
+    {
+      "name": "ipad-portrait-popular-and-scroll",
+      "passed": true,
+      "evidence": {
+        "carouselScrolls": true,
+        "selectionSynchronized": true,
+        "popularSelectionFollowsAudit": true,
+        "pageAndFooterScroll": true
+      }
+    },
+    {
+      "name": "ipad-portrait-real-audio-and-speed",
+      "passed": true,
+      "evidence": {
+        "nativeAudioSignal": {
+          "rms": 0.0334002865083029,
+          "peak": 0.07592405378818512,
+          "notes": [
+            {
+              "frequency": 130.8127899169922,
+              "start": 0.025
+            },
+            {
+              "frequency": 164.81378173828125,
+              "start": 0.145
+            },
+            {
+              "frequency": 195.99771118164062,
+              "start": 0.265
+            },
+            {
+              "frequency": 261.6255798339844,
+              "start": 0.385
+            },
+            {
+              "frequency": 329.6275634765625,
+              "start": 0.505
+            }
+          ],
+          "contexts": 1,
+          "state": "running"
+        },
+        "slowerChangesActualSchedule": true,
+        "pitchUnchanged": true,
+        "bothPlayButtonsSynchronized": true,
+        "chordChangeStopsAudio": true,
+        "rateBounds": true,
+        "fingerPoseUnchangedBySound": true,
+        "naturalPlaybackEnds": true,
+        "spaUnmountClosesNativeContext": true
+      }
+    },
+    {
+      "name": "ipad-portrait-other-page-style-isolation",
+      "passed": true,
+      "evidence": {
+        "homeDataUnchanged": true,
+        "practiceNavigationStyleDoesNotLeak": true
+      }
+    },
+    {
+      "name": "mobile-layout-and-full-page-capture",
+      "passed": true,
+      "evidence": {
+        "idleWindowMs": 550,
+        "idleFrames": 0,
+        "physicalDeviceBenchmark": false,
+        "layout": {
+          "width": 390,
+          "scroll": 390
+        },
+        "library": {
+          "x": 16,
+          "y": 201.375,
+          "width": 358,
+          "height": 240.578125
+        },
+        "model": {
+          "x": 16,
+          "y": 458.953125,
+          "width": 358,
+          "height": 505
+        },
+        "details": {
+          "x": 16,
+          "y": 980.953125,
+          "width": 358,
+          "height": 718.25
+        },
+        "actualModel": "23fdb5745e9343b597eb816bcdfcb266c1942ebbbb495cdb3776214343d7f3bc",
+        "handSignature": "1ce0a568",
+        "fullPageScreenshot": true
+      }
+    },
+    {
+      "name": "mobile-all42-original-diagrams-and-real-hand-gates",
+      "passed": true,
+      "evidence": {
+        "chords": 42,
+        "hands": 36,
+        "rejectedHandsHidden": 6,
+        "allAppliedBoneSignaturesMatchSavedTransforms": true,
+        "rows": [
+          {
+            "id": "C",
+            "signature": "1ce0a568",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "D",
+            "signature": "93ab4ead",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "E",
+            "signature": "e1d2098e",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "F",
+            "signature": "d724aed5",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "G",
+            "signature": "597a605e",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "A",
+            "signature": "0a234b4d",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "B",
+            "signature": "53c9b776",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Cm",
+            "signature": "1129b36e",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dm",
+            "signature": "f8923c92",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Em",
+            "signature": "0e640334",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Fm",
+            "signature": "c10db972",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Gm",
+            "signature": "6dd9e36b",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Am",
+            "signature": "9bdd0120",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Bm",
+            "signature": "80b39dc7",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "C7",
+            "signature": "1e087701",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "D7",
+            "signature": "4d09e114",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "E7",
+            "signature": "7753a6f9",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "F7",
+            "signature": "7acaa971",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "G7",
+            "signature": "389da23f",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "A7",
+            "signature": "c450140b",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "B7",
+            "signature": "a09ba711",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Cmaj7",
+            "signature": "dd9b927d",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dmaj7",
+            "signature": "3fa6a7be",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Emaj7",
+            "signature": "aa8bb71e",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Fmaj7",
+            "signature": "20167e00",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Gmaj7",
+            "signature": "bbfb2725",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Amaj7",
+            "signature": "5a53f777",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Bmaj7",
+            "signature": "6974ab4d",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Cm7",
+            "signature": "a10937c9",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dm7",
+            "signature": "452b1dc0",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Em7",
+            "signature": "d25523f8",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Fm7",
+            "signature": "60bccca6",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Gm7",
+            "signature": "ea2fc938",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Am7",
+            "signature": "69643940",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Bm7",
+            "signature": "8b3e516a",
+            "handVisible": false,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Csus2",
+            "signature": "cd4b2acc",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dsus2",
+            "signature": "3d72415e",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Asus2",
+            "signature": "e92399ab",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Csus4",
+            "signature": "eb9471ca",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Dsus4",
+            "signature": "1285e384",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Esus4",
+            "signature": "1bcefae3",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          },
+          {
+            "id": "Asus4",
+            "signature": "d611fb16",
+            "handVisible": true,
+            "fingeringAndDiagramUnchanged": true,
+            "pressureOffsetsMatchActualPose": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "mobile-filters-search-and-keyboard",
+      "passed": true,
+      "evidence": {
+        "allEightFilters": true,
+        "searchAndEmptyState": true,
+        "rovingFocus": true,
+        "arrowHomeEnd": true,
+        "layout": {
+          "width": 390,
+          "scroll": 390
+        }
+      }
+    },
+    {
+      "name": "mobile-single-bar-markers-camera-and-touch",
+      "passed": true,
+      "evidence": {
+        "markersChangeDrawCallsOnly": true,
+        "sixViewsPlusReset": true,
+        "nearHorizontalNeckDegrees": 8.18757068493277,
+        "realPointerDrag": true,
+        "keyboardZoom": true,
+        "realTwoTouchPinch": true
+      }
+    },
+    {
+      "name": "mobile-existing-hand-toggle-and-rejection",
+      "passed": true,
+      "evidence": {
+        "existingShowHidePreferencePreserved": true,
+        "noToggleCanRevealRejectedPose": true
+      }
+    },
+    {
+      "name": "mobile-popular-and-scroll",
+      "passed": true,
+      "evidence": {
+        "carouselScrolls": true,
+        "selectionSynchronized": true,
+        "popularSelectionFollowsAudit": true,
+        "pageAndFooterScroll": true
+      }
+    },
+    {
+      "name": "mobile-real-audio-and-speed",
+      "passed": true,
+      "evidence": {
+        "nativeAudioSignal": {
+          "rms": 0.05236786862492081,
+          "peak": 0.14165949821472168,
+          "notes": [
+            {
+              "frequency": 130.8127899169922,
+              "start": 0.025
+            },
+            {
+              "frequency": 164.81378173828125,
+              "start": 0.145
+            },
+            {
+              "frequency": 195.99771118164062,
+              "start": 0.265
+            },
+            {
+              "frequency": 261.6255798339844,
+              "start": 0.385
+            },
+            {
+              "frequency": 329.6275634765625,
+              "start": 0.505
+            }
+          ],
+          "contexts": 1,
+          "state": "running"
+        },
+        "slowerChangesActualSchedule": true,
+        "pitchUnchanged": true,
+        "bothPlayButtonsSynchronized": true,
+        "chordChangeStopsAudio": true,
+        "rateBounds": true,
+        "fingerPoseUnchangedBySound": true,
+        "naturalPlaybackEnds": true,
+        "spaUnmountClosesNativeContext": true
+      }
+    },
+    {
+      "name": "mobile-other-page-style-isolation",
+      "passed": true,
+      "evidence": {
+        "homeDataUnchanged": true,
+        "practiceNavigationStyleDoesNotLeak": true
+      }
+    },
+    {
+      "name": "small-mobile-responsive-controls",
+      "passed": true,
+      "evidence": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "tablet-responsive-controls",
+      "passed": true,
+      "evidence": {
+        "width": 1024,
+        "scroll": 1024
+      }
+    },
+    {
+      "name": "wide-desktop-responsive-controls",
+      "passed": true,
+      "evidence": {
+        "width": 1920,
+        "scroll": 1920
+      }
+    },
+    {
+      "name": "motion-switching-and-on-demand-rendering",
+      "passed": true,
+      "evidence": {
+        "actualEndpointTransforms": [
+          {
+            "id": "F",
+            "actualBoneSignature": "d724aed5"
+          },
+          {
+            "id": "Gm",
+            "actualBoneSignature": "6dd9e36b"
+          },
+          {
+            "id": "E",
+            "actualBoneSignature": "e1d2098e"
+          },
+          {
+            "id": "Am",
+            "actualBoneSignature": "9bdd0120"
+          },
+          {
+            "id": "C",
+            "actualBoneSignature": "1ce0a568"
+          }
+        ],
+        "rejectedHandCannotBeRevealedMidTransition": true,
+        "idleFrames": 0,
+        "idleWindowMs": 550,
+        "interpolatedUnsafeBonePaths": false
+      }
+    },
+    {
+      "name": "model-failure-and-real-retry",
+      "passed": true,
+      "evidence": {
+        "shortErrorOutsideModel": true,
+        "diagramAvailable": true,
+        "realModelRetry": true
+      }
+    },
+    {
+      "name": "webgl-context-recovery",
+      "passed": true,
+      "evidence": {
+        "newRealWebGLSceneRecovered": true
+      }
+    },
+    {
+      "name": "audio-unavailable-fallback",
+      "passed": true,
+      "evidence": {
+        "audioErrorShortAndNonBlocking": true,
+        "realHandStillAvailable": true
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "runtimeErrors": [],
+  "brokenImages": [],
+  "realGLB": true,
+  "nativeWebAudioTested": true,
+  "physicalIPadSafariTested": false,
+  "databaseWrites": 0,
+  "passed": true
+}

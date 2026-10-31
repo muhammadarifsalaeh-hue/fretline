@@ -1,0 +1,21 @@
+PASS Real independent audit can select only geometry, never teaching approval
+PASS Wrong applied bone/root cannot reuse a prior mesh report
+PASS A stale pressure map cannot reuse a prior mesh report
+PASS Missing required owner contact cannot pass
+PASS Wrong finger cannot pass a claimed positive report
+PASS Wrong string cannot pass a claimed positive report
+PASS Wrong fret cannot pass a claimed positive report
+PASS A penetrating owner surface cannot pass
+PASS A distant owner surface cannot pass
+PASS Missing one physical string cannot pass
+PASS Blocked open string cannot pass
+PASS Self-crossing cannot pass
+PASS False is not an integer zero collision count
+PASS Guitar intersection cannot pass
+PASS False cannot masquerade as zero guitar intersections
+PASS Wood penetration cannot pass
+PASS Non-finite wood measurements cannot pass
+PASS Unexpected barre span cannot pass
+PASS Even re-labelled metadata cannot approve a noncanonical pressure key
+PASS Even re-labelled metadata cannot approve an invalid root quaternion
+21 passed

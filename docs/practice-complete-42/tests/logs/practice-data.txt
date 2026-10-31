@@ -1,0 +1,62 @@
+
+> fretline@0.1.0 practice:check
+> node scripts/check-practice.mjs
+
+PASS Exactly 42 unique stable IDs, in six groups of seven
+PASS Original five chord IDs retain their open voicings and fingerings
+PASS The neck contains six standard-tuned strings and twelve study frets
+PASS Nut is zero; octave wire divides the speaking length exactly in half
+PASS Successive wires get closer by the equal-tempered semitone ratio
+PASS Finger targets stay inside their fret interval; open strings have no offset
+PASS String coordinates are evenly spaced, symmetric and low-E positive
+PASS Invalid fret, scale and string indices fail explicitly
+PASS C: schema, tuning, chord tones, finger and barre coherence
+PASS D: schema, tuning, chord tones, finger and barre coherence
+PASS E: schema, tuning, chord tones, finger and barre coherence
+PASS F: schema, tuning, chord tones, finger and barre coherence
+PASS G: schema, tuning, chord tones, finger and barre coherence
+PASS A: schema, tuning, chord tones, finger and barre coherence
+PASS B: schema, tuning, chord tones, finger and barre coherence
+PASS Cm: schema, tuning, chord tones, finger and barre coherence
+PASS Dm: schema, tuning, chord tones, finger and barre coherence
+PASS Em: schema, tuning, chord tones, finger and barre coherence
+PASS Fm: schema, tuning, chord tones, finger and barre coherence
+PASS Gm: schema, tuning, chord tones, finger and barre coherence
+PASS Am: schema, tuning, chord tones, finger and barre coherence
+PASS Bm: schema, tuning, chord tones, finger and barre coherence
+PASS C7: schema, tuning, chord tones, finger and barre coherence
+PASS D7: schema, tuning, chord tones, finger and barre coherence
+PASS E7: schema, tuning, chord tones, finger and barre coherence
+PASS F7: schema, tuning, chord tones, finger and barre coherence
+PASS G7: schema, tuning, chord tones, finger and barre coherence
+PASS A7: schema, tuning, chord tones, finger and barre coherence
+PASS B7: schema, tuning, chord tones, finger and barre coherence
+PASS Cmaj7: schema, tuning, chord tones, finger and barre coherence
+PASS Dmaj7: schema, tuning, chord tones, finger and barre coherence
+PASS Emaj7: schema, tuning, chord tones, finger and barre coherence
+PASS Fmaj7: schema, tuning, chord tones, finger and barre coherence
+PASS Gmaj7: schema, tuning, chord tones, finger and barre coherence
+PASS Amaj7: schema, tuning, chord tones, finger and barre coherence
+PASS Bmaj7: schema, tuning, chord tones, finger and barre coherence
+PASS Cm7: schema, tuning, chord tones, finger and barre coherence
+PASS Dm7: schema, tuning, chord tones, finger and barre coherence
+PASS Em7: schema, tuning, chord tones, finger and barre coherence
+PASS Fm7: schema, tuning, chord tones, finger and barre coherence
+PASS Gm7: schema, tuning, chord tones, finger and barre coherence
+PASS Am7: schema, tuning, chord tones, finger and barre coherence
+PASS Bm7: schema, tuning, chord tones, finger and barre coherence
+PASS Csus2: schema, tuning, chord tones, finger and barre coherence
+PASS Dsus2: schema, tuning, chord tones, finger and barre coherence
+PASS Asus2: schema, tuning, chord tones, finger and barre coherence
+PASS Csus4: schema, tuning, chord tones, finger and barre coherence
+PASS Dsus4: schema, tuning, chord tones, finger and barre coherence
+PASS Esus4: schema, tuning, chord tones, finger and barre coherence
+PASS Asus4: schema, tuning, chord tones, finger and barre coherence
+PASS Fifths are omitted only for the documented conventional open C7
+PASS A barre correctly permits higher notes on covered strings
+PASS Validator rejects wrong notes, omitted essential tones, finger reuse and blocked strings
+PASS Enharmonic note parsing preserves actual octave and rejects non-note labels
+PASS Learning references record actual read dates and specific reviewed facts
+PASS Practice reference data cannot be accidentally mutated by viewer state
+
+Practice data/geometry: 56 passed, 0 failed.

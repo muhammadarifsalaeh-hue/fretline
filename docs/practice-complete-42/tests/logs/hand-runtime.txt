@@ -1,0 +1,24 @@
+PASS A matched but unreviewed candidate remains needs-review
+PASS Inspection requires explicit successful contact and collision gates, without granting teaching approval
+  Actual inspected eligibility: 36/42; rejected endpoints remain hidden.
+PASS Actual 42-record library permits inspection only for independently mesh-audited endpoints
+PASS A status label alone cannot promote a pose to verified
+PASS Verification requires each per-chord physical audit and explicit review
+PASS Missing or explicitly unavailable poses never offer a renderable candidate
+PASS Hash, rig, schema and physical-unit mismatches hide the candidate
+PASS Incomplete, non-finite or non-unit transforms hide the candidate
+PASS An empty, duplicate or malformed loaded rig cannot satisfy the gate
+PASS Per-string pressure offsets are complete, finite and restricted to canonical frets
+PASS Disposal releases shared skin, texture, geometry and image resources once
+PASS Loaded candidates stay hidden until inspection; bone transforms produce distinct signatures
+PASS Programmatic inspection cannot reveal a failed pose, and accepted hidden rig fingerprints remain distinct
+PASS An HTTP asset failure aborts sibling requests and reports diagram fallback
+PASS A malformed parsed rig is disposed and exposes a retryable fallback
+PASS Leaving during network load aborts requests and prevents later publication
+PASS A parse completed after disposal releases the late skin and publishes nothing
+PASS Retry ignores an earlier load even when its fetch ignores cancellation
+PASS Parse errors remain recoverable through the hand-only retry
+PASS Retry hides and disposes the inspected hand before loading its replacement
+PASS A parse superseded by retry is disposed without replacing the current hand
+
+Hand runtime: 21 passed, 0 failed.

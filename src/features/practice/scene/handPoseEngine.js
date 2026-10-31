@@ -1,6 +1,8 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { createHandReveal } from './handReveal.js';
+import { validatePressureOffsets } from './pressureContacts.js';
+import { PRACTICE_CHORD_BY_ID } from '../data/chords.js';
 
 // This module is reachable only through the lazy practice scene. Assets are
 // fetched by the scene, so visiting the catalog never downloads the hand.
@@ -41,7 +43,7 @@ export function assessHandPose({ library, metadata, assetSha256, boneNames, chor
   if (record.status !== 'needs-review' && record.status !== 'verified') return { status: 'unavailable', candidate: false, inspectionAllowed: false, reason: REASONS.invalid };
   const complete = validQuaternion(record.root?.quaternion) && finiteArray(record.root?.positionMm, 3)
     && boneNames.every((name) => validQuaternion(record.bones?.[name]?.quaternion));
-  if (!complete) return { status: 'unavailable', candidate: false, inspectionAllowed: false, reason: REASONS.invalid };
+  if (!complete || !validatePressureOffsets(PRACTICE_CHORD_BY_ID[chordId], record.pressOffsetsMm)) return { status: 'unavailable', candidate: false, inspectionAllowed: false, reason: REASONS.invalid };
   // Applying a complete rig while hidden preserves pose diagnostics. Inspection
   // is narrower: a known rejected or unaudited mesh must never be revealed.
   const inspectionAllowed = record.audit?.collisionPassed === true && record.audit?.contactPassed === true;
@@ -138,9 +140,10 @@ export function createHandPoseEngine({ scene, canvas, chord, nutX, unit, invalid
     canvas.dataset.handReviewMode = String(reviewMode);
     canvas.dataset.handInspectionAllowed = String(assessment.inspectionAllowed);
     canvas.dataset.handPoseSignature = signature;
+    canvas.dataset.handPressureOffsets = JSON.stringify(assessment.record?.pressOffsetsMm ?? null);
     canvas.dataset.handModelSha256 = assetSha256;
     onPoseStatus({ chordId: currentChord.id, status: assessment.status, assetStatus, reason: assessment.reason, reviewMode,
-      inspectionAllowed: assessment.inspectionAllowed });
+      inspectionAllowed: assessment.inspectionAllowed, pressOffsetsMm: assessment.record?.pressOffsetsMm });
     invalidate();
   };
   const clearAsset = () => {

@@ -1,14 +1,18 @@
 import * as THREE from 'three';
 import { createStudyStringGeometry, STUDY_GUITAR } from './studyGuitar.js';
+import { pressureX, validatePressureOffsets } from './pressureContacts.js';
 
 // A displayed hand presses the actual tubes, rather than passing through an
-// unchanged open string. Both fingertip and inclusive barre contacts are kept.
+// unchanged open string. Original poses retain their inclusive barre paths;
+// authored maps use each sounding string's canonical effective finger/fret.
 export function createFrettedStringController(model) {
   const originals = model.strings.map((string) => string.userData.controlPointsMm.map((p) => new THREE.Vector3(...p)));
-  let state = 'open';
-  function update(chord, handVisible) {
+  let state = 'open', shapeKey = 'open';
+  function update(chord, handVisible, offsets) {
+    if (handVisible && !validatePressureOffsets(chord, offsets)) throw new Error('INVALID_FINGER_PRESSURE');
     const nextState = handVisible ? chord.id : 'open';
-    if (state === nextState) return;
+    const nextShape = handVisible && offsets ? `${nextState}:${JSON.stringify(Object.entries(offsets).sort())}` : nextState;
+    if (shapeKey === nextShape) return;
     model.strings.forEach((string, index) => {
       const number = 6 - index, radius = string.userData.radiusMm;
       const original = originals[index];
@@ -16,7 +20,9 @@ export function createFrettedStringController(model) {
       const frets = new Set();
       if (handVisible) {
         if (chord.frets[index] > 0) frets.add(chord.frets[index]);
-        (chord.barres || []).forEach((barre) => {
+        // Legacy poses retain their original tubes byte for byte. New authored
+        // pressure maps follow the effective finger/fret in the chord diagram.
+        (offsets ? [] : chord.barres || []).forEach((barre) => {
           if (number <= barre.fromString && number >= barre.toString) frets.add(barre.fret);
         });
       }
@@ -24,8 +30,7 @@ export function createFrettedStringController(model) {
         points = original.filter((p) => p.x <= 0).map((p) => p.clone());
         for (const fret of [...frets].sort((a, b) => a - b)) {
           const wireX = model.surfaces.fretX(fret);
-          const gap = wireX - model.surfaces.fretX(fret - 1);
-          for (const x of [wireX - Math.min(4, gap * .25), wireX]) {
+          for (const x of [pressureX(number, fret, offsets), wireX]) {
             const z = model.surfaces.stringZ(number, x);
             // Small crown clearance prevents numerical grazing at intermediate
             // wires of a barre. This is a generic study model, not catalog data.
@@ -56,7 +61,7 @@ export function createFrettedStringController(model) {
       }
       anchor.multiplyScalar(1 / geometry.userData.radialSegments);
     });
-    state = nextState;
+    state = nextState; shapeKey = nextShape;
     model.group.userData.stringPose = state;
   }
   return { update, get state() { return state; } };

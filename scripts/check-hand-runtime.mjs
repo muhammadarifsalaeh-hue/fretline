@@ -50,7 +50,7 @@ await check('Actual 42-record library permits inspection only for independently 
   const metadata = JSON.parse(readFileSync(new URL('../src/features/practice/assets/makehuman-left-arm.metadata.json', import.meta.url)));
   const actualHash = createHash('sha256').update(readFileSync(new URL('../src/features/practice/assets/makehuman-left-arm-sleeved.glb', import.meta.url))).digest('hex');
   const libraryHash = createHash('sha256').update(libraryBytes).digest('hex');
-  const reports = ['../docs/practice-fingering-polish/tests/geometry/summary.json', '../docs/practice-final-delivery/geometry/summary.json', '../docs/practice-hand-batch-3/geometry/summary.json']
+  const reports = ['../docs/practice-complete-42/tests/geometry/summary.json', '../docs/practice-fingering-polish/tests/geometry/summary.json', '../docs/practice-final-delivery/geometry/summary.json', '../docs/practice-hand-batch-3/geometry/summary.json']
     .map((path) => new URL(path, import.meta.url)).filter(existsSync).map((path) => JSON.parse(readFileSync(path)));
   const audit = reports.find((report) => report.librarySnapshotSha256 === libraryHash);
   assert.ok(audit, 'A completed actual mesh report must bind the current library before inspection tests can pass');
@@ -129,6 +129,17 @@ await check('An empty, duplicate or malformed loaded rig cannot satisfy the gate
   for (const names of [[], ['wrist.L', 'wrist.L'], ['wrist.L', null]]) {
     const data = fixture(); data.boneNames = names;
     const result = assessHandPose(data); assert.equal(result.status, 'unavailable'); assert.equal(result.candidate, false);
+  }
+});
+
+await check('Per-string pressure offsets are complete, finite and restricted to canonical frets', () => {
+  const good = { '5:3': 12, '4:2': 8, '2:1': 4 };
+  const data = fixture(); data.library.poses.C.pressOffsetsMm = good;
+  assert.equal(assessHandPose(data).inspectionAllowed, true);
+  for (const value of [null, [], {}, { ...good, '6:1': 4 }, { ...good, '3:1': 4 }, { ...good, '5:3': 0 }, { ...good, '4:2': Infinity }, { ...good, '2:1': true }, { ...good, '2:1': 30 }]) {
+    const candidate = fixture(); candidate.library.poses.C.pressOffsetsMm = value;
+    const result = assessHandPose(candidate);
+    assert.equal(result.candidate, false); assert.equal(result.inspectionAllowed, false); assert.equal(result.status, 'unavailable');
   }
 });
 

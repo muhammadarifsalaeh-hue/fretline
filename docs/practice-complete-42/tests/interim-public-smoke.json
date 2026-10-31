@@ -1,0 +1,67 @@
+{
+  "checks": [
+    {
+      "device": "desktop",
+      "chord": "F",
+      "hand": "true",
+      "actualBoneSignature": "d724aed5"
+    },
+    {
+      "device": "desktop",
+      "chord": "Gm",
+      "hand": "true",
+      "actualBoneSignature": "6dd9e36b"
+    },
+    {
+      "device": "desktop",
+      "chord": "Am",
+      "hand": "true",
+      "actualBoneSignature": "9bdd0120"
+    },
+    {
+      "device": "desktop",
+      "chord": "Csus4",
+      "hand": "true",
+      "actualBoneSignature": "eb9471ca"
+    },
+    {
+      "device": "desktop",
+      "chord": "G",
+      "hand": "false",
+      "actualBoneSignature": "4ce219a6"
+    },
+    {
+      "device": "mobile",
+      "chord": "F",
+      "hand": "true",
+      "actualBoneSignature": "d724aed5"
+    },
+    {
+      "device": "mobile",
+      "chord": "Gm",
+      "hand": "true",
+      "actualBoneSignature": "6dd9e36b"
+    },
+    {
+      "device": "mobile",
+      "chord": "Am",
+      "hand": "true",
+      "actualBoneSignature": "9bdd0120"
+    },
+    {
+      "device": "mobile",
+      "chord": "Csus4",
+      "hand": "true",
+      "actualBoneSignature": "eb9471ca"
+    },
+    {
+      "device": "mobile",
+      "chord": "G",
+      "hand": "false",
+      "actualBoneSignature": "4ce219a6"
+    }
+  ],
+  "errors": [],
+  "base": "local-development",
+  "databaseWrites": 0
+}

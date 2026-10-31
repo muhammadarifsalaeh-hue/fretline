@@ -1,0 +1,90 @@
+{
+  "id": "Am",
+  "poseTransformSHA256": "3fe60ab1c5999b043ef424f041419ca22ee0c64b9161ad558460d6555012fcf4",
+  "allPressedContactsFromAbove": true,
+  "contacts": [
+    {
+      "finger": 2,
+      "string": 4,
+      "fret": 2,
+      "kind": "tip",
+      "distanceMm": 0.36499884012326006,
+      "centerlinePointMm": [
+        54.7264152160242,
+        1.3360348268623798,
+        3.643572385597595
+      ],
+      "palmarSkinPointMm": [
+        54.72642302109623,
+        1.7010326854847786,
+        3.6444188083462326
+      ],
+      "skinMinusCenterYmm": 0.36499785862239875,
+      "outwardFraction": 0.9999973109479993,
+      "ownedTriangleVertexIndices": [
+        2440,
+        392,
+        2441
+      ],
+      "pressureComesFromAbove": true,
+      "boardOutwardComponentMm": 0.3649868933401779,
+      "downwardPressurePossible": true
+    },
+    {
+      "finger": 3,
+      "string": 3,
+      "fret": 2,
+      "kind": "tip",
+      "distanceMm": 0.2649404832655715,
+      "centerlinePointMm": [
+        66.7956026006741,
+        1.2357736218562918,
+        -3.6752353771931268
+      ],
+      "palmarSkinPointMm": [
+        66.79675598720931,
+        1.4837103867755363,
+        -3.768613586502763
+      ],
+      "skinMinusCenterYmm": 0.24793676491924455,
+      "outwardFraction": 0.9358206109661137,
+      "ownedTriangleVertexIndices": [
+        4677,
+        4792,
+        532
+      ],
+      "pressureComesFromAbove": true,
+      "boardOutwardComponentMm": 0.24890357672537242,
+      "downwardPressurePossible": true
+    },
+    {
+      "finger": 1,
+      "string": 2,
+      "fret": 1,
+      "kind": "tip",
+      "distanceMm": 0.19999432241565002,
+      "centerlinePointMm": [
+        29.17703308987711,
+        1.025535442347917,
+        -10.729634056725883
+      ],
+      "palmarSkinPointMm": [
+        29.177145170241683,
+        1.2253656618826672,
+        -10.721534686554048
+      ],
+      "skinMinusCenterYmm": 0.1998302195347501,
+      "outwardFraction": 0.9991794623021405,
+      "ownedTriangleVertexIndices": [
+        2344,
+        2206,
+        230
+      ],
+      "pressureComesFromAbove": true,
+      "boardOutwardComponentMm": 0.19948820732846806,
+      "downwardPressurePossible": true
+    }
+  ],
+  "teachingApproval": false,
+  "contactDirectionPassed": true
+}

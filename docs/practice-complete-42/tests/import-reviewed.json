@@ -1,0 +1,1775 @@
+{
+  "baselineSHA256": "add2baeb95d5cf50f52ac82f568a95415958a38a91d72404ddc73874848f7b95",
+  "runtimeLibrarySHA256": "427b3453637db62099ef28a37d0292871321e08d4c68ab18e6759944df9bbeec",
+  "count": 42,
+  "technicalDisplayHands": 36,
+  "newDisplayHands": 23,
+  "notCompleteAll42": true,
+  "independentTeachingApprovals": 0,
+  "rows": [
+    {
+      "id": "C",
+      "geometryReport": "docs/practice-fingering-polish/tests/geometry/summary.json",
+      "sceneSHA256": "4b2fc1d1c87493c183e54137483199341721c030f04441dba4c428f7328336a5",
+      "thumbSupport": {
+        "id": "C",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            10.076644536379787,
+            -12.845624574511731,
+            -19.43016502859431
+          ],
+          "neckBackPointMm": [
+            10.078388364154826,
+            -12.780396649870397,
+            -19.318476123007486
+          ],
+          "distanceMm": 0.12935275304185495
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 64.33153758235912,
+            "DIPDegrees": 20.791726019582143
+          },
+          "middle": {
+            "PIPDegrees": 67.34965120202584,
+            "DIPDegrees": 27.01467439036679
+          },
+          "ring": {
+            "PIPDegrees": 31.346299247267435,
+            "DIPDegrees": 37.97744297135724
+          },
+          "little": {
+            "PIPDegrees": 22.858785953539527,
+            "DIPDegrees": 6.68654628240988
+          },
+          "thumb": {
+            "PIPDegrees": 12.850483868423686,
+            "DIPDegrees": 4.779597945930015
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "D",
+      "geometryReport": ".local-preview/practice-complete-42/thumb-final/D/round-0/audit/summary.json",
+      "sceneSHA256": "9e04ad88f7fbb729313777da47be388508ac8d92aedcbade6b9db452555de953",
+      "thumbSupport": {
+        "id": "D",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            18.686121523543427,
+            -17.43455407037984,
+            -14.201075439535316
+          ],
+          "neckBackPointMm": [
+            18.68640812620796,
+            -17.388385109726,
+            -14.174034135599358
+          ],
+          "distanceMm": 0.0535059546919785
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 56.10515623822131,
+            "DIPDegrees": 17.208975184331667
+          },
+          "middle": {
+            "PIPDegrees": 80.28306701792444,
+            "DIPDegrees": 61.166204842731425
+          },
+          "ring": {
+            "PIPDegrees": 69.17074190910766,
+            "DIPDegrees": 52.22258827568184
+          },
+          "little": {
+            "PIPDegrees": 22.858785953539527,
+            "DIPDegrees": 6.686546282409825
+          },
+          "thumb": {
+            "PIPDegrees": 14.309736563373308,
+            "DIPDegrees": 4.444007847706492
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "E",
+      "geometryReport": ".local-preview/practice-complete-42/thumb-final/E/round-0/audit/summary.json",
+      "sceneSHA256": "029bffbd6a4120b270f0e57c89002187634256717af302c847ef60f76ff86a83",
+      "thumbSupport": {
+        "id": "E",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            7.5561372577870545,
+            -20.8877102095646,
+            -3.842838728646047
+          ],
+          "neckBackPointMm": [
+            7.55620038496747,
+            -20.748802976810133,
+            -3.820408714191871
+          ],
+          "distanceMm": 0.14070653447853393
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 31.832256830090188,
+            "DIPDegrees": 57.91975260744218
+          },
+          "middle": {
+            "PIPDegrees": 41.931947080754526,
+            "DIPDegrees": 14.278068661180185
+          },
+          "ring": {
+            "PIPDegrees": 54.88735562261303,
+            "DIPDegrees": 27.927845804125635
+          },
+          "little": {
+            "PIPDegrees": 30.14383950935218,
+            "DIPDegrees": 32.04953231096347
+          },
+          "thumb": {
+            "PIPDegrees": 19.59893774156528,
+            "DIPDegrees": 7.162909220118768
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "F",
+      "geometryReport": ".local-preview/practice-complete-42/thumb-final/F/round-1/audit/summary.json",
+      "sceneSHA256": "0e809e97236e7bb81ab7a5e4f64bb17c2a974a675c38f85ea40970a11758ada1",
+      "thumbSupport": {
+        "id": "F",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            21.973223380596988,
+            -21.333820630076136,
+            -0.4222414493688138
+          ],
+          "neckBackPointMm": [
+            21.973223380596988,
+            -20.978951482047552,
+            -0.40374079310465316
+          ],
+          "distanceMm": 0.35535107500152247
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 15.75041235147153,
+            "DIPDegrees": 21.538508499070105
+          },
+          "middle": {
+            "PIPDegrees": 89.30467066452555,
+            "DIPDegrees": 58.81508964581941
+          },
+          "ring": {
+            "PIPDegrees": 45.47123649778436,
+            "DIPDegrees": 47.58898143074368
+          },
+          "little": {
+            "PIPDegrees": 14.285329296392456,
+            "DIPDegrees": 28.630869086440764
+          },
+          "thumb": {
+            "PIPDegrees": 0.008015614542118013,
+            "DIPDegrees": 7.952648452426058
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "G",
+      "geometryReport": ".local-preview/practice-complete-42/thumb-final-G/round-0/audit/summary.json",
+      "sceneSHA256": "4ff3331056ec8cb1b554f21d0deb3789c957a9544eabfe7be8c710e6d23afee2",
+      "thumbSupport": {
+        "id": "G",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            9.653571060219138,
+            -20.956050459689283,
+            -1.6759915903022673
+          ],
+          "neckBackPointMm": [
+            9.65357858234761,
+            -20.91120873789226,
+            -1.6735921899899602
+          ],
+          "distanceMm": 0.04490587035302622
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 29.204687977082816,
+            "DIPDegrees": 33.93312647202762
+          },
+          "middle": {
+            "PIPDegrees": 27.845008307063544,
+            "DIPDegrees": 7.4474177020849615
+          },
+          "ring": {
+            "PIPDegrees": 74.52919147102007,
+            "DIPDegrees": 25.490258487046447
+          },
+          "little": {
+            "PIPDegrees": 33.58000738659858,
+            "DIPDegrees": 39.08361312896566
+          },
+          "thumb": {
+            "PIPDegrees": 16.648107863532932,
+            "DIPDegrees": 12.357304195022433
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "A",
+      "geometryReport": ".local-preview/practice-complete-42/nearby/A/support/round-0/audit/summary.json",
+      "sceneSHA256": "0da0505381d5402315f5416cde207e98b9204fa444deb59510cac4dcaf21db49",
+      "thumbSupport": {
+        "id": "A",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            8.421301322254486,
+            -20.90745682220154,
+            -2.427060065024275
+          ],
+          "neckBackPointMm": [
+            8.42130747300785,
+            -20.870790289295577,
+            -2.4250981044442597
+          ],
+          "distanceMm": 0.03671898640340245
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 28.32438471049905,
+            "DIPDegrees": 46.51082744977456
+          },
+          "middle": {
+            "PIPDegrees": 67.13434752932311,
+            "DIPDegrees": 5.123451809623954
+          },
+          "ring": {
+            "PIPDegrees": 59.02441052806403,
+            "DIPDegrees": 44.115044478055445
+          },
+          "little": {
+            "PIPDegrees": 28.852864619591607,
+            "DIPDegrees": 47.065120024160336
+          },
+          "thumb": {
+            "PIPDegrees": 15.855428594668869,
+            "DIPDegrees": 9.541775069300824
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "B",
+      "geometryReport": ".local-preview/practice-complete-42/family-v2/B/support/round-0/audit/summary.json",
+      "sceneSHA256": "9f42ad99002481b94f45ac56d94d35bd4235077ba27df1e9b0dfd354a806fe8e",
+      "thumbSupport": {
+        "id": "B",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            44.98711157508232,
+            -20.237664636132337,
+            -7.175467556829871
+          ],
+          "neckBackPointMm": [
+            44.9871598031885,
+            -20.206220002125715,
+            -7.166889618933105
+          ],
+          "distanceMm": 0.03259368577380299
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 14.821194559721743,
+            "DIPDegrees": 15.079320427151995
+          },
+          "middle": {
+            "PIPDegrees": 70.22356705607902,
+            "DIPDegrees": 5.321106511233775
+          },
+          "ring": {
+            "PIPDegrees": 60.95159983515435,
+            "DIPDegrees": 43.440593327795085
+          },
+          "little": {
+            "PIPDegrees": 28.871722725470466,
+            "DIPDegrees": 52.64092821704583
+          },
+          "thumb": {
+            "PIPDegrees": 1.248128636883502,
+            "DIPDegrees": 10.696034968760637
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Cm",
+      "geometryReport": ".local-preview/practice-complete-42/nearby/Cm/support/round-0/audit/summary.json",
+      "sceneSHA256": "6f7bbff7468ebe8f849c5ea25033f39e621d9b226f190f245bdd9bffc4fe9ad8",
+      "thumbSupport": {
+        "id": "Cm",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            92.48292413476814,
+            -20.866331103661103,
+            -3.3559659430950823
+          ],
+          "neckBackPointMm": [
+            92.48292923775651,
+            -20.834231228240274,
+            -3.354375642626964
+          ],
+          "distanceMm": 0.0321392452253032
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 16.66907953716567,
+            "DIPDegrees": 22.174552231137188
+          },
+          "middle": {
+            "PIPDegrees": 87.74980734183357,
+            "DIPDegrees": 59.303626204337945
+          },
+          "ring": {
+            "PIPDegrees": 45.57961446787174,
+            "DIPDegrees": 49.60878978266454
+          },
+          "little": {
+            "PIPDegrees": 16.56387436616272,
+            "DIPDegrees": 26.886340731060024
+          },
+          "thumb": {
+            "PIPDegrees": 2.207394922506842,
+            "DIPDegrees": 8.699071386516435
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Dm",
+      "geometryReport": "docs/practice-fingering-polish/tests/geometry/summary.json",
+      "sceneSHA256": "83c03adee531968db4d03d49e2ea043b1007605db160db596ea3ab30f4010bf9",
+      "thumbSupport": {
+        "id": "Dm",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            10.076644536379787,
+            -12.845624574511731,
+            -19.43016502859431
+          ],
+          "neckBackPointMm": [
+            10.078388364154826,
+            -12.780396649870397,
+            -19.318476123007486
+          ],
+          "distanceMm": 0.12935275304185495
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 74.36053713184855,
+            "DIPDegrees": 29.12926699421671
+          },
+          "middle": {
+            "PIPDegrees": 77.1963695728629,
+            "DIPDegrees": 35.42226159701193
+          },
+          "ring": {
+            "PIPDegrees": 68.68953140620437,
+            "DIPDegrees": 64.59571825020079
+          },
+          "little": {
+            "PIPDegrees": 22.858785953539527,
+            "DIPDegrees": 6.68654628240988
+          },
+          "thumb": {
+            "PIPDegrees": 12.850483868423686,
+            "DIPDegrees": 4.779597945930015
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Em",
+      "geometryReport": ".local-preview/practice-complete-42/thumb-final/Em/round-0/audit/summary.json",
+      "sceneSHA256": "bd8885f46237528b7553249ecdaf78d47ec080fa3188b3483a32765ad1d3c174",
+      "thumbSupport": {
+        "id": "Em",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            8.857152348983703,
+            -21.021106587639824,
+            -0.15478574528433597
+          ],
+          "neckBackPointMm": [
+            8.857152348983693,
+            -20.991906553462634,
+            -0.15324356690599206
+          ],
+          "distanceMm": 0.0292407303277417
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 27.784276886374265,
+            "DIPDegrees": 45.969761941203735
+          },
+          "middle": {
+            "PIPDegrees": 44.504052899857136,
+            "DIPDegrees": 17.600207062909185
+          },
+          "ring": {
+            "PIPDegrees": 54.93760034934408,
+            "DIPDegrees": 24.82467948337745
+          },
+          "little": {
+            "PIPDegrees": 31.744415071721317,
+            "DIPDegrees": 40.098009787623646
+          },
+          "thumb": {
+            "PIPDegrees": 0.0056404454999509175,
+            "DIPDegrees": 22.057383245474906
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Fm",
+      "geometryReport": ".local-preview/practice-complete-42/family/Fm/global-1/audit/summary.json",
+      "sceneSHA256": "607d5c57e2100e73a8bf3b2576bbd8e69af9f3b9bde346a3c95d02937920b566",
+      "thumbSupport": {
+        "id": "Fm",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            10.388621549521432,
+            -21.008129768260762,
+            -0.7689989963795831
+          ],
+          "neckBackPointMm": [
+            10.388621549521426,
+            -20.959521467694387,
+            -0.7664317846535056
+          ],
+          "distanceMm": 0.048676046059613065
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 17.440965458754086,
+            "DIPDegrees": 9.401246381327866
+          },
+          "middle": {
+            "PIPDegrees": 56.25528781007191,
+            "DIPDegrees": 26.83313006899405
+          },
+          "ring": {
+            "PIPDegrees": 48.34274563808738,
+            "DIPDegrees": 58.20544137100622
+          },
+          "little": {
+            "PIPDegrees": 10.299989795318728,
+            "DIPDegrees": 29.021733486297304
+          },
+          "thumb": {
+            "PIPDegrees": 0.20025890318644401,
+            "DIPDegrees": 9.49365787628237
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Gm",
+      "geometryReport": ".local-preview/practice-complete-42/thumb-contact-polish/Gm/trials/round-0/audit/summary.json",
+      "sceneSHA256": "20b63709fb44bc9150048ff28795d99c502ec1aaba5009db360e855d3d12f1e5",
+      "thumbSupport": {
+        "id": "Gm",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            77.29090655139727,
+            -21.293004585263326,
+            -0.9587295604787158
+          ],
+          "neckBackPointMm": [
+            77.29096107828703,
+            -20.95300239678952,
+            -0.941671259508805
+          ],
+          "distanceMm": 0.34042984118925324
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 18.99743779243081,
+            "DIPDegrees": 8.186929768309739
+          },
+          "middle": {
+            "PIPDegrees": 56.255287810071955,
+            "DIPDegrees": 26.83313006899385
+          },
+          "ring": {
+            "PIPDegrees": 48.1923174460729,
+            "DIPDegrees": 59.19233806982469
+          },
+          "little": {
+            "PIPDegrees": 10.802456755254877,
+            "DIPDegrees": 30.59006209788263
+          },
+          "thumb": {
+            "PIPDegrees": 0.008246468084441861,
+            "DIPDegrees": 9.584163222644637
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Am",
+      "geometryReport": ".local-preview/practice-complete-42/thumb-final/Am/round-2/audit/summary.json",
+      "sceneSHA256": "33a5ee1c1bf1279e4c0614cff69f68583d80c0d473257f8cc684eac99af98991",
+      "thumbSupport": {
+        "id": "Am",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            7.649289162329627,
+            -20.29979437868969,
+            6.60878739500947
+          ],
+          "neckBackPointMm": [
+            7.6492955564099185,
+            -20.293047043055463,
+            6.607697870491547
+          ],
+          "distanceMm": 0.006834737940866932
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 59.85418123331772,
+            "DIPDegrees": 2.1422038603605227
+          },
+          "middle": {
+            "PIPDegrees": 44.46804063661984,
+            "DIPDegrees": 16.92296664123693
+          },
+          "ring": {
+            "PIPDegrees": 13.224201646308051,
+            "DIPDegrees": 44.19523136719464
+          },
+          "little": {
+            "PIPDegrees": 22.858785723958665,
+            "DIPDegrees": 6.6865462439479515
+          },
+          "thumb": {
+            "PIPDegrees": 0.020130292027096812,
+            "DIPDegrees": 9.809581510444223
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Bm",
+      "geometryReport": ".local-preview/practice-complete-42/spatial-transfer/Bm/support/round-0/audit/summary.json",
+      "sceneSHA256": "0b7011a28d5e2fc090b0eabb64633f01a20c1cb5b201068083cb659dfaac1698",
+      "thumbSupport": {
+        "id": "Bm",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            56.47428502657668,
+            -20.78519611282581,
+            -3.8422957619050955
+          ],
+          "neckBackPointMm": [
+            56.4742917459882,
+            -20.769897608513844,
+            -3.8399186570005623
+          ],
+          "distanceMm": 0.015482083421194788
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 15.420189313218202,
+            "DIPDegrees": 20.934551675908335
+          },
+          "middle": {
+            "PIPDegrees": 89.58742747198933,
+            "DIPDegrees": 60.184336978110856
+          },
+          "ring": {
+            "PIPDegrees": 45.51149906838842,
+            "DIPDegrees": 47.58797344500466
+          },
+          "little": {
+            "PIPDegrees": 14.27630108679767,
+            "DIPDegrees": 28.647099433492738
+          },
+          "thumb": {
+            "PIPDegrees": 1.3455219453493985,
+            "DIPDegrees": 8.055438726438899
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "C7",
+      "geometryReport": "docs/practice-fingering-polish/tests/geometry/summary.json",
+      "sceneSHA256": "1633d5b7ce723554e59b33a7a69328598db1fb45042bce50956abb701539fef5",
+      "thumbSupport": {
+        "id": "C7",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            8.208178704097937,
+            -13.01788173568182,
+            -19.172603534909708
+          ],
+          "neckBackPointMm": [
+            8.208945152257023,
+            -12.976083467230259,
+            -19.124239525635
+          ],
+          "distanceMm": 0.06392777237987625
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 64.73956820489133,
+            "DIPDegrees": 21.037689886803292
+          },
+          "middle": {
+            "PIPDegrees": 67.6478402740414,
+            "DIPDegrees": 29.218407536561553
+          },
+          "ring": {
+            "PIPDegrees": 37.268781293407564,
+            "DIPDegrees": 37.833568205697574
+          },
+          "little": {
+            "PIPDegrees": 17.681637227771954,
+            "DIPDegrees": 25.53984352037381
+          },
+          "thumb": {
+            "PIPDegrees": 12.850483868423686,
+            "DIPDegrees": 4.779597945930091
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "D7",
+      "geometryReport": ".local-preview/practice-complete-42/nearby/D7/support/round-1/audit/summary.json",
+      "sceneSHA256": "e6a8a45cebb9625b6c6c4ff7dcc8e18d26a6d849fbe1a5f8776f0b41aa1eed5a",
+      "thumbSupport": {
+        "id": "D7",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            16.58828771592338,
+            -14.635293293412904,
+            -17.852238946782983
+          ],
+          "neckBackPointMm": [
+            16.588647834815227,
+            -14.613320312555091,
+            -17.827119168406405
+          ],
+          "distanceMm": 0.03337581218610924
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 28.522141235512567,
+            "DIPDegrees": 46.739954405722536
+          },
+          "middle": {
+            "PIPDegrees": 43.86383717177239,
+            "DIPDegrees": 7.5897083419733855
+          },
+          "ring": {
+            "PIPDegrees": 57.28980329804217,
+            "DIPDegrees": 32.5407131626472
+          },
+          "little": {
+            "PIPDegrees": 30.246865883763412,
+            "DIPDegrees": 33.430509800311924
+          },
+          "thumb": {
+            "PIPDegrees": 15.012111064410558,
+            "DIPDegrees": 4.560988954202956
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "E7",
+      "geometryReport": "docs/practice-fingering-polish/tests/geometry/summary.json",
+      "sceneSHA256": "78e8701f64c1292a428952cdb83f8d42f9b9b5446ef60f0d02e71fc74e243ad4",
+      "thumbSupport": {
+        "id": "E7",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            11.011739350293631,
+            -14.0273042869606,
+            -18.555645791705114
+          ],
+          "neckBackPointMm": [
+            11.014419645939446,
+            -13.881134300634207,
+            -18.38651518327893
+          ],
+          "distanceMm": 0.22355762477271476
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 40.17789614062444,
+            "DIPDegrees": 44.87960977116099
+          },
+          "middle": {
+            "PIPDegrees": 56.21264389122567,
+            "DIPDegrees": 40.36375140820698
+          },
+          "ring": {
+            "PIPDegrees": 37.22662789297071,
+            "DIPDegrees": 24.706620158666418
+          },
+          "little": {
+            "PIPDegrees": 22.858785723958647,
+            "DIPDegrees": 6.6865462439479515
+          },
+          "thumb": {
+            "PIPDegrees": 14.256656606871331,
+            "DIPDegrees": 5.379428255119891
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "G7",
+      "geometryReport": "docs/practice-fingering-polish/tests/geometry/summary.json",
+      "sceneSHA256": "1baef10bd1ea85f68c865d101b0fac445a28aff843026b78c54b038ae5450623",
+      "thumbSupport": {
+        "id": "G7",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            10.61169543968865,
+            -12.900753647388445,
+            -19.45925156385153
+          ],
+          "neckBackPointMm": [
+            10.613931116489335,
+            -12.796939687288141,
+            -19.317176319136895
+          ],
+          "distanceMm": 0.17597645218377483
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 69.09625661153271,
+            "DIPDegrees": 27.846547182079114
+          },
+          "middle": {
+            "PIPDegrees": 65.27354672186142,
+            "DIPDegrees": 26.940272143965743
+          },
+          "ring": {
+            "PIPDegrees": 27.164794547650096,
+            "DIPDegrees": 34.616216467505524
+          },
+          "little": {
+            "PIPDegrees": 22.858785953539513,
+            "DIPDegrees": 6.686546282409771
+          },
+          "thumb": {
+            "PIPDegrees": 12.850483868423657,
+            "DIPDegrees": 4.779597945929939
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "A7",
+      "geometryReport": ".local-preview/practice-complete-42/thumb-contact-polish/A7/trials/round-0/audit/summary.json",
+      "sceneSHA256": "3ea1ca14e3147c7bc679cb1d346bf12e217e73f95b61066270ebe3a36fab8dc8",
+      "thumbSupport": {
+        "id": "A7",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            6.294354018608151,
+            -20.91057517839335,
+            5.01400958537951
+          ],
+          "neckBackPointMm": [
+            6.294514672461367,
+            -20.561382352320457,
+            4.956885217478709
+          ],
+          "distanceMm": 0.35383449379406334
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 59.95244743592018,
+            "DIPDegrees": 2.1241414249470676
+          },
+          "middle": {
+            "PIPDegrees": 44.5664620863316,
+            "DIPDegrees": 17.187368641925747
+          },
+          "ring": {
+            "PIPDegrees": 13.294136864661635,
+            "DIPDegrees": 44.54321666858718
+          },
+          "little": {
+            "PIPDegrees": 22.858785723958682,
+            "DIPDegrees": 6.686546243948006
+          },
+          "thumb": {
+            "PIPDegrees": 0.12530138173045616,
+            "DIPDegrees": 6.523693986375885
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "B7",
+      "geometryReport": ".local-preview/practice-complete-42/thumb-final/B7/round-1/audit/summary.json",
+      "sceneSHA256": "e7a7cf517e2da0b9ab1b59e7f4f8d2c5a173bcf670fedd98be98bd60165cd5a9",
+      "thumbSupport": {
+        "id": "B7",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            8.692948936199953,
+            -20.782597238841092,
+            -3.95659075331967
+          ],
+          "neckBackPointMm": [
+            8.692973414627572,
+            -20.728734059467897,
+            -3.947893208433552
+          ],
+          "distanceMm": 0.05456088322624972
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 28.324505108646886,
+            "DIPDegrees": 46.51435150474735
+          },
+          "middle": {
+            "PIPDegrees": 43.718153591605315,
+            "DIPDegrees": 7.1322329812854734
+          },
+          "ring": {
+            "PIPDegrees": 56.22987036280345,
+            "DIPDegrees": 30.890371701578886
+          },
+          "little": {
+            "PIPDegrees": 30.244248864244813,
+            "DIPDegrees": 33.429922817044066
+          },
+          "thumb": {
+            "PIPDegrees": 15.509664197767686,
+            "DIPDegrees": 7.0975253050356315
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Cmaj7",
+      "geometryReport": "docs/practice-fingering-polish/tests/geometry/summary.json",
+      "sceneSHA256": "60ef01d6ddd0d20ce2c0e067372f88c0171feb2abb5af3bc714858948d7aaf50",
+      "thumbSupport": {
+        "id": "Cmaj7",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            11.011739350293631,
+            -14.0273042869606,
+            -18.555645791705114
+          ],
+          "neckBackPointMm": [
+            11.014419645939446,
+            -13.881134300634207,
+            -18.38651518327893
+          ],
+          "distanceMm": 0.22355762477271476
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 67.08790661642976,
+            "DIPDegrees": 30.07752108607865
+          },
+          "middle": {
+            "PIPDegrees": 76.77777423896772,
+            "DIPDegrees": 34.060956437249395
+          },
+          "ring": {
+            "PIPDegrees": 46.90086355901929,
+            "DIPDegrees": 46.42596771754623
+          },
+          "little": {
+            "PIPDegrees": 22.858785723958647,
+            "DIPDegrees": 6.6865462439479515
+          },
+          "thumb": {
+            "PIPDegrees": 14.256656606871331,
+            "DIPDegrees": 5.379428255119891
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Dmaj7",
+      "geometryReport": ".local-preview/practice-complete-42/nearby/Dmaj7/global-1/audit/summary.json",
+      "sceneSHA256": "6d8e13f9598c6129ce25720ebb9e919dbcfe81207db1040e287314107373c451",
+      "thumbSupport": {
+        "id": "Dmaj7",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            44.910480409073145,
+            -21.658489775729127,
+            -0.3617181042058135
+          ],
+          "neckBackPointMm": [
+            44.910480409073145,
+            -20.983172341476482,
+            -0.3269617062505275
+          ],
+          "distanceMm": 0.6762112422937085
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 18.7892435969501,
+            "DIPDegrees": 4.792282675479245
+          },
+          "middle": {
+            "PIPDegrees": 56.25528781007365,
+            "DIPDegrees": 26.83313006899468
+          },
+          "ring": {
+            "PIPDegrees": 47.97779049699917,
+            "DIPDegrees": 58.74895773610028
+          },
+          "little": {
+            "PIPDegrees": 10.790132249657962,
+            "DIPDegrees": 30.484585868237236
+          },
+          "thumb": {
+            "PIPDegrees": 0.008246468040245397,
+            "DIPDegrees": 9.584163222645056
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Fmaj7",
+      "geometryReport": "docs/practice-fingering-polish/tests/geometry/summary.json",
+      "sceneSHA256": "8d418eb17abc6bee58ac5669267623d0d05b82de124a8c6f64aeca444ac98be5",
+      "thumbSupport": {
+        "id": "Fmaj7",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            10.076644536379787,
+            -12.845624574511731,
+            -19.43016502859431
+          ],
+          "neckBackPointMm": [
+            10.078388364154826,
+            -12.780396649870397,
+            -19.318476123007486
+          ],
+          "distanceMm": 0.12935275304185495
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 64.33153758235912,
+            "DIPDegrees": 20.791726019582143
+          },
+          "middle": {
+            "PIPDegrees": 77.1963695728629,
+            "DIPDegrees": 35.42226159701193
+          },
+          "ring": {
+            "PIPDegrees": 42.197846459742394,
+            "DIPDegrees": 52.89133207547653
+          },
+          "little": {
+            "PIPDegrees": 22.858785953539527,
+            "DIPDegrees": 6.68654628240988
+          },
+          "thumb": {
+            "PIPDegrees": 12.850483868423686,
+            "DIPDegrees": 4.779597945930015
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Gmaj7",
+      "geometryReport": ".local-preview/practice-complete-42/thumb-final/Gmaj7/round-0/audit/summary.json",
+      "sceneSHA256": "308c53f2fed163a697dcf6de5426381e8707b1fb15ed00ab6662e341564e97fc",
+      "thumbSupport": {
+        "id": "Gmaj7",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            22.85639548512351,
+            -14.472871630635675,
+            -18.077339475490355
+          ],
+          "neckBackPointMm": [
+            22.85666492742361,
+            -14.456249877956026,
+            -18.05856302196165
+          ],
+          "distanceMm": 0.025078087415353806
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 72.13875436328411,
+            "DIPDegrees": 52.360112329274855
+          },
+          "middle": {
+            "PIPDegrees": 60.758610305538014,
+            "DIPDegrees": 25.3879363213035
+          },
+          "ring": {
+            "PIPDegrees": 27.813392254706596,
+            "DIPDegrees": 35.45654637501718
+          },
+          "little": {
+            "PIPDegrees": 22.858785953539495,
+            "DIPDegrees": 6.686546282409825
+          },
+          "thumb": {
+            "PIPDegrees": 0.0003422535653491319,
+            "DIPDegrees": 5.471067353451963
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Amaj7",
+      "geometryReport": ".local-preview/practice-complete-42/thumb-contact-polish/Amaj7/trials/round-0/audit/summary.json",
+      "sceneSHA256": "9b2898cb7d32dba33316d9cb60cce314ded994ba814e640222d574365ffe94a0",
+      "thumbSupport": {
+        "id": "Amaj7",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            4.791305595312352,
+            -20.619924190146868,
+            6.531998632544992
+          ],
+          "neckBackPointMm": [
+            4.791412850476382,
+            -20.311314824550514,
+            6.4815133028885334
+          ],
+          "distanceMm": 0.3127115612636915
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 59.71208651613193,
+            "DIPDegrees": 1.488020835193477
+          },
+          "middle": {
+            "PIPDegrees": 44.81652347885936,
+            "DIPDegrees": 17.304062849587087
+          },
+          "ring": {
+            "PIPDegrees": 13.556131417433802,
+            "DIPDegrees": 44.29575520359216
+          },
+          "little": {
+            "PIPDegrees": 22.858785723958682,
+            "DIPDegrees": 6.6865462439479515
+          },
+          "thumb": {
+            "PIPDegrees": 0.007796076780466303,
+            "DIPDegrees": 9.981867936992677
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Bmaj7",
+      "geometryReport": ".local-preview/practice-complete-42/family/Bmaj7/global-1/audit/summary.json",
+      "sceneSHA256": "a77ecd3122848b4f72db1c34582b05bc2facc2649650ede4786457c8f05c2e95",
+      "thumbSupport": {
+        "id": "Bmaj7",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            51.381478165413654,
+            -21.05104265932491,
+            -4.4935818234106275
+          ],
+          "neckBackPointMm": [
+            51.38164325691261,
+            -20.67516852241244,
+            -4.435177927440171
+          ],
+          "distanceMm": 0.38038455425979645
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 15.952590685107785,
+            "DIPDegrees": 19.188029392159876
+          },
+          "middle": {
+            "PIPDegrees": 86.11416085027251,
+            "DIPDegrees": 57.55286384233287
+          },
+          "ring": {
+            "PIPDegrees": 46.32235407168888,
+            "DIPDegrees": 50.20209259310308
+          },
+          "little": {
+            "PIPDegrees": 18.236557874352915,
+            "DIPDegrees": 36.238068893818294
+          },
+          "thumb": {
+            "PIPDegrees": 0.06360868005593634,
+            "DIPDegrees": 7.955549109971983
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Dm7",
+      "geometryReport": "docs/practice-fingering-polish/tests/geometry/summary.json",
+      "sceneSHA256": "4f4c0f601b4a40f7351cf66aa3703ea8d568c8860a4d7840ee8f7e3a354bca92",
+      "thumbSupport": {
+        "id": "Dm7",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            11.089985179591448,
+            -13.954414848433313,
+            -18.399209298232257
+          ],
+          "neckBackPointMm": [
+            11.090663906042366,
+            -13.917400485407814,
+            -18.356380658123946
+          ],
+          "distanceMm": 0.05661109567307306
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 72.51318414832613,
+            "DIPDegrees": 27.50828438862135
+          },
+          "middle": {
+            "PIPDegrees": 77.07018033517865,
+            "DIPDegrees": 35.395960380197884
+          },
+          "ring": {
+            "PIPDegrees": 68.68964879786961,
+            "DIPDegrees": 64.59596065510192
+          },
+          "little": {
+            "PIPDegrees": 22.858785953539513,
+            "DIPDegrees": 6.686546282409825
+          },
+          "thumb": {
+            "PIPDegrees": 12.850483868423686,
+            "DIPDegrees": 4.779597945930015
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Em7",
+      "geometryReport": "docs/practice-fingering-polish/tests/geometry/summary.json",
+      "sceneSHA256": "2dc3e2dd495e6fb640b8fc48e501c3557d57f7a801f5fea896b4fc48dccd481d",
+      "thumbSupport": {
+        "id": "Em7",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            11.011739350293631,
+            -14.0273042869606,
+            -18.555645791705114
+          ],
+          "neckBackPointMm": [
+            11.014419645939446,
+            -13.881134300634207,
+            -18.38651518327893
+          ],
+          "distanceMm": 0.22355762477271476
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 56.04121420340938,
+            "DIPDegrees": 26.926429332877845
+          },
+          "middle": {
+            "PIPDegrees": 56.21264389122567,
+            "DIPDegrees": 40.36375140820698
+          },
+          "ring": {
+            "PIPDegrees": 37.22662789297071,
+            "DIPDegrees": 24.706620158666418
+          },
+          "little": {
+            "PIPDegrees": 22.858785723958647,
+            "DIPDegrees": 6.6865462439479515
+          },
+          "thumb": {
+            "PIPDegrees": 14.256656606871331,
+            "DIPDegrees": 5.379428255119891
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Am7",
+      "geometryReport": "docs/practice-fingering-polish/tests/geometry/summary.json",
+      "sceneSHA256": "e050d8efe97f6c59fac2f65c6c2f51ba74d2811cf85da1dcf95e2cae5e8eccd4",
+      "thumbSupport": {
+        "id": "Am7",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            11.011739350293631,
+            -14.0273042869606,
+            -18.555645791705114
+          ],
+          "neckBackPointMm": [
+            11.014419645939446,
+            -13.881134300634207,
+            -18.38651518327893
+          ],
+          "distanceMm": 0.22355762477271476
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 71.0799442552055,
+            "DIPDegrees": 30.077521225179513
+          },
+          "middle": {
+            "PIPDegrees": 76.77777423896772,
+            "DIPDegrees": 34.060956437249395
+          },
+          "ring": {
+            "PIPDegrees": 37.22662789297071,
+            "DIPDegrees": 24.706620158666418
+          },
+          "little": {
+            "PIPDegrees": 22.858785723958647,
+            "DIPDegrees": 6.6865462439479515
+          },
+          "thumb": {
+            "PIPDegrees": 14.256656606871331,
+            "DIPDegrees": 5.379428255119891
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Csus2",
+      "geometryReport": ".local-preview/practice-complete-42/spatial-transfer/Csus2/support/round-0/audit/summary.json",
+      "sceneSHA256": "be292a4e9b61128624d17ec3ce85b8ba3fe9b98a09bb6fabde0476adc76a8688",
+      "thumbSupport": {
+        "id": "Csus2",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            83.6510959773541,
+            -20.801056053035516,
+            -3.782481642252975
+          ],
+          "neckBackPointMm": [
+            83.65109997660942,
+            -20.791744449551448,
+            -3.7810707984677734
+          ],
+          "distanceMm": 0.009417879571580792
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 18.682130528171026,
+            "DIPDegrees": 8.67055971864948
+          },
+          "middle": {
+            "PIPDegrees": 56.2216637696658,
+            "DIPDegrees": 26.80927112001228
+          },
+          "ring": {
+            "PIPDegrees": 48.08935949929383,
+            "DIPDegrees": 59.008898420762385
+          },
+          "little": {
+            "PIPDegrees": 10.794039942442335,
+            "DIPDegrees": 30.49121984776275
+          },
+          "thumb": {
+            "PIPDegrees": 1.3379588362379262,
+            "DIPDegrees": 10.38856735629245
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Dsus2",
+      "geometryReport": ".local-preview/practice-complete-42/thumb-final/Dsus2/round-0/audit/summary.json",
+      "sceneSHA256": "eb05916c790493fdeedf2d0ff0579e4eaf0600346670fc6ba4ac357dbab3578a",
+      "thumbSupport": {
+        "id": "Dsus2",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            19.283433467326677,
+            -16.920599633786804,
+            -15.037028470700985
+          ],
+          "neckBackPointMm": [
+            19.283624471076223,
+            -16.89534358008465,
+            -15.022235921449042
+          ],
+          "distanceMm": 0.029269852141915936
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 60.42839522639223,
+            "DIPDegrees": 39.444667403674984
+          },
+          "middle": {
+            "PIPDegrees": 73.97757424662483,
+            "DIPDegrees": 55.148441902906534
+          },
+          "ring": {
+            "PIPDegrees": 68.84230081589314,
+            "DIPDegrees": 51.12027782610653
+          },
+          "little": {
+            "PIPDegrees": 22.858785953539513,
+            "DIPDegrees": 6.686546282409825
+          },
+          "thumb": {
+            "PIPDegrees": 13.549849129814596,
+            "DIPDegrees": 4.123175537689361
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Asus2",
+      "geometryReport": ".local-preview/practice-complete-42/thumb-contact-polish/Asus2/trials/round-0/audit/summary.json",
+      "sceneSHA256": "77a2e088e0716153a40bb50ac1fd03ab827a03a9ddba86384d084265db93726b",
+      "thumbSupport": {
+        "id": "Asus2",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            5.018566351702594,
+            -20.60035865653682,
+            6.686125910167947
+          ],
+          "neckBackPointMm": [
+            5.0186754919324255,
+            -20.28632531923309,
+            6.634753274323721
+          ],
+          "distanceMm": 0.318207631214733
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 59.26558883710195,
+            "DIPDegrees": 2.2069813566494045
+          },
+          "middle": {
+            "PIPDegrees": 44.75348067671448,
+            "DIPDegrees": 17.176336138037055
+          },
+          "ring": {
+            "PIPDegrees": 13.30809184098109,
+            "DIPDegrees": 43.6866079123031
+          },
+          "little": {
+            "PIPDegrees": 22.858785723958682,
+            "DIPDegrees": 6.686546243947896
+          },
+          "thumb": {
+            "PIPDegrees": 0.008406187562252553,
+            "DIPDegrees": 10.208864744517188
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Csus4",
+      "geometryReport": ".local-preview/practice-complete-42/Csus4-thumb/audit/summary.json",
+      "sceneSHA256": "cd50ea05960b465ad96f71c8aa23ed7c661a08655845b28bc732b8a2ddf5e5bc",
+      "thumbSupport": {
+        "id": "Csus4",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            6.121920462832648,
+            -9.89051221556587,
+            -20.8571834034595
+          ],
+          "neckBackPointMm": [
+            6.123354813190993,
+            -9.862814917663234,
+            -20.773330487423475
+          ],
+          "distanceMm": 0.08832049139244331
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 72.05136128339983,
+            "DIPDegrees": 30.918611131413684
+          },
+          "middle": {
+            "PIPDegrees": 67.64784027404127,
+            "DIPDegrees": 29.218407536561553
+          },
+          "ring": {
+            "PIPDegrees": 43.932052943186726,
+            "DIPDegrees": 48.36875385302091
+          },
+          "little": {
+            "PIPDegrees": 8.581241228835095,
+            "DIPDegrees": 38.553453630113964
+          },
+          "thumb": {
+            "PIPDegrees": 12.79348577672807,
+            "DIPDegrees": 4.565359027994487
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Dsus4",
+      "geometryReport": ".local-preview/practice-complete-42/thumb-final/Dsus4/round-0/audit/summary.json",
+      "sceneSHA256": "6b3f0773c63d62f8f5e2c25f206c732cb8718a53655fe07b27fb8ffa242f98d0",
+      "thumbSupport": {
+        "id": "Dsus4",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            20.122542840279657,
+            -18.557376232968416,
+            -12.038157345949479
+          ],
+          "neckBackPointMm": [
+            20.122713530258952,
+            -18.519661857281804,
+            -12.022440757583919
+          ],
+          "distanceMm": 0.04085846813516618
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 51.51006805690132,
+            "DIPDegrees": 24.73331867586539
+          },
+          "middle": {
+            "PIPDegrees": 73.81401796416633,
+            "DIPDegrees": 61.16920191800956
+          },
+          "ring": {
+            "PIPDegrees": 69.50495507318756,
+            "DIPDegrees": 47.07312616057596
+          },
+          "little": {
+            "PIPDegrees": 35.585653438725735,
+            "DIPDegrees": 15.81559595583176
+          },
+          "thumb": {
+            "PIPDegrees": 27.517008209257234,
+            "DIPDegrees": 23.05163242019033
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Esus4",
+      "geometryReport": ".local-preview/practice-complete-42/robust-open/Esus4/round-1/audit/summary.json",
+      "sceneSHA256": "7bf591881acef63864867b1a35bf6b5baecd98b5141cca971b5e21b1cc050d8a",
+      "thumbSupport": {
+        "id": "Esus4",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            0.18273126653097252,
+            -21.31957708945606,
+            1.8218238665015856
+          ],
+          "neckBackPointMm": [
+            0.18275659971913205,
+            -20.903408163228324,
+            1.7995554117780306
+          ],
+          "distanceMm": 0.41676427375087355
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 28.324384710499412,
+            "DIPDegrees": 46.51082744977472
+          },
+          "middle": {
+            "PIPDegrees": 67.1370538304583,
+            "DIPDegrees": 5.153066565813802
+          },
+          "ring": {
+            "PIPDegrees": 58.963180929293806,
+            "DIPDegrees": 44.0680224852816
+          },
+          "little": {
+            "PIPDegrees": 28.751178736340666,
+            "DIPDegrees": 47.10852560159651
+          },
+          "thumb": {
+            "PIPDegrees": 15.541679799488078,
+            "DIPDegrees": 6.850856548628322
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    },
+    {
+      "id": "Asus4",
+      "geometryReport": ".local-preview/practice-complete-42/nearby/Asus4/support/round-2/audit/summary.json",
+      "sceneSHA256": "91b265ee4c7250c792366e3cff3117e64441024dc60131b353ae3737cdcfb588",
+      "thumbSupport": {
+        "id": "Asus4",
+        "supportRegion": "actual-neck-back-at-or-after-nut",
+        "thumbSupportWitness": {
+          "palmarSkinPointMm": [
+            22.486813096708158,
+            -21.23913479694352,
+            -3.1056487008864715
+          ],
+          "neckBackPointMm": [
+            22.486879870682277,
+            -20.837635693763062,
+            -3.084443820368484
+          ],
+          "distanceMm": 0.4020586788906051
+        },
+        "thumbSupportPassed": true,
+        "jointAngles": {
+          "index": {
+            "PIPDegrees": 28.094083055246422,
+            "DIPDegrees": 45.81549475706681
+          },
+          "middle": {
+            "PIPDegrees": 65.5863297434975,
+            "DIPDegrees": 4.9355124983008904
+          },
+          "ring": {
+            "PIPDegrees": 61.58129439288306,
+            "DIPDegrees": 38.99958574411369
+          },
+          "little": {
+            "PIPDegrees": 21.504609706240014,
+            "DIPDegrees": 36.3876430379577
+          },
+          "thumb": {
+            "PIPDegrees": 13.832554597093408,
+            "DIPDegrees": 24.39134320312213
+          }
+        },
+        "jointPlausibilityPassed": true,
+        "independentTeachingApproval": false
+      },
+      "technicalVisualPassed": true,
+      "teachingApproved": false
+    }
+  ]
+}

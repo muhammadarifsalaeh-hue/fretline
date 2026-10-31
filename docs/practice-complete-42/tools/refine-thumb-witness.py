@@ -1,0 +1,7 @@
+"""Anchor a thumb from a measured real posterior-neck surface witness."""
+import argparse,importlib.util,json,subprocess
+from pathlib import Path
+import numpy as np
+ROOT=Path(__file__).resolve().parents[3];s=importlib.util.spec_from_file_location('measure',Path(__file__).with_name('measure-pose.py'));m=importlib.util.module_from_spec(s);s.loader.exec_module(m)
+ap=argparse.ArgumentParser();ap.add_argument('--seed',type=Path,required=True);ap.add_argument('--audit',type=Path,required=True);ap.add_argument('--out',type=Path,required=True);args=ap.parse_args();args.out.mkdir(parents=True,exist_ok=True);meter=m.Measurements();pose=json.loads(args.seed.read_text());before=meter.measure(pose);w=before['thumbSupportWitness'];assert w and before['thumbSupportPassed'];point=np.array(w['neckBackPointMm']);_,normal,_=m.f.nearest_surface(point[None,:],meter.back,k=min(64,len(meter.back)));normal=normal[0];normal*=1 if normal[1]<0 else -1;target=point+normal*.4;pose.setdefault('thumbSupport',{})['targetMm']=target.tolist();file=args.out/'seed.json';file.write_text(json.dumps(pose));(args.out/'source.json').write_text(json.dumps({'source':str(args.seed),'witness':before,'targetMm':target.tolist(),'onlyAuthoringTargetChanged':True},indent=2)+'\n')
+subprocess.run(['python',str(Path(__file__).with_name('thumb-batch.py')),'--seed',str(file),'--out',str(args.out/'trials'),'--prior-audit',str(args.audit)],cwd=ROOT,check=True)
